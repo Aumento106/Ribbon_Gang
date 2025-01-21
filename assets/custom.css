@@ -1,3 +1,8 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .button, .button-label, .shopify-challenge__button, .customer button {
   font-size: 20px;
   font-weight: 600;
@@ -178,6 +183,16 @@ details[open]>.header__menu-item .ic_pluse{
   font-weight: 600;
   line-height: 1.17;
   letter-spacing: 0;
+}
+
+.card-wrapper .card--media .card__inner .card__content .card__badge .badge.sale-badge {
+  background-color: #424242;
+  color: var(--primary-theme-color);
+}
+
+.card-wrapper .card--media .card__inner .card__content .card__badge .badge.sold_out-badge {
+  background-color: #EEEEEE;
+  color: #CC0C39;
 }
 
 @media screen and (min-width: 1025px) {

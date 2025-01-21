@@ -524,6 +524,7 @@
 .list-social__item .svg-wrapper svg {
   width: 100%;
   height: 100%;
+  fill: #fff;
 }
 
 .footer-block-right .subtitle {

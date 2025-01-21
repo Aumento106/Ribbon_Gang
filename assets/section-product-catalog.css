@@ -7,6 +7,11 @@
   align-items: center;
 }
 
+.product-catalog-wrapper {
+  border-radius: 16px;
+  overflow: hidden;
+}
+
 .product-catalog-container .grid {
   --grid-desktop-horizontal-spacing: 6.2rem;
   align-items: center;

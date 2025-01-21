@@ -1,0 +1,159 @@
+{{ 'section-project-consultation.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.35 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.35 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top | times: 0.4 | round: 0 }}px;
+      padding-bottom: {{ section.settings.padding_bottom | times: 0.4 | round: 0 }}px;
+    }
+  }
+
+  @media screen and (min-width: 1025px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="project-consultation-sec section-{{ section.id }}-padding gradient color-{{ section.settings.color_scheme }}">
+    <div class="project-consultation__wrapper {% if section.settings.full_width != true %}page-width{% endif %}">
+        {%- if section.settings.image != blank -%}
+            <div class="project-consultation__image-wrapper">
+                {{
+                section.settings.image
+                | image_url: width: 1920
+                | image_tag:
+                    loading: 'lazy',
+                    sizes: '(min-width: 1100px) 1500px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)',
+                    widths: '165, 360, 535, 750, 1070, 1500'
+                }}
+            </div>
+        {%- endif -%}
+        <div class="project-consultation__content section-title-alignment-{{ section.settings.title_alignment }}">
+            <div class="page-width">
+                {%- if section.settings.heading != blank -%}
+                <h2 class="project-consultation__heading {{ section.settings.heading_size }}">
+                    {{ section.settings.heading }}
+                </h2>
+                {%- endif -%}
+                {%- if section.settings.text != blank -%}
+                <div class="project-consultation__text rte">
+                    {{ section.settings.text }}
+                </div>
+                {%- endif -%}
+            </div>
+        </div>
+    </div>
+</div>
+
+{% schema %}
+{
+  "name": "Project Consultation",
+  "settings": [
+    {
+      "type": "richtext",
+      "id": "heading",
+      "default": "<p>Project Consultation</p>",
+      "label": "Heading"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "Small"
+        },
+        {
+          "value": "h1",
+          "label": "Medium"
+        },
+        {
+          "value": "h0",
+          "label": "Large"
+        }
+      ],
+      "default": "h1",
+      "label": "Heading Size"
+    },
+    {
+        "type": "select",
+        "id": "title_alignment",
+        "options": [
+            {
+            "value": "left",
+            "label": "Left"
+            },
+            {
+            "value": "center",
+            "label": "Center"
+            },
+            {
+            "value": "right",
+            "label": "Right"
+            }
+        ],
+        "default": "center",
+        "label": "Section content alignment"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "default": "<p>Share information about your project consultation services.</p>",
+      "label": "Text"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+        "type": "checkbox",
+        "id": "full_width",
+        "default": true,
+        "label": "Full width section"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "default": "scheme-1",
+      "label": "Color scheme"
+    },
+    {
+        "type": "header",
+        "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 180,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_top",
+        "default": 36
+    },
+    {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 180,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_bottom",
+        "default": 36
+    }
+  ],
+  "presets": [
+    {
+      "name": "Project Consultation"
+    }
+  ]
+}
+{% endschema %}

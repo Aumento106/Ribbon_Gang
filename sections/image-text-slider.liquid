@@ -75,7 +75,7 @@
   endif
 -%}
 
-<div class="section-{{ section.id }} section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}">
+<div class="image-with-text-slider-wrapper section-{{ section.id }} section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}">
   <div class="page-width">
     {%- if section.settings.heading != blank -%}
       <div class="sec-head title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin">
@@ -110,54 +110,12 @@
                   </div>
                   <div class="image-with-text__text-item grid__item">
                     <div class="image-with-text__content image-with-text__content--{{ section.settings.desktop_content_position }} image-with-text__content--desktop-{{ section.settings.desktop_content_alignment }} image-with-text__content--mobile-{{ section.settings.mobile_content_alignment }} image-with-text__content--{{ section.settings.height }} content-container{% unless remove_color_classes %} gradient color-{{ section.settings.color_scheme }}{% else %} background-transparent{% endunless %}">
-                      {%- if block.settings.logo_image != blank -%}
-                        <div class="image-with-text__logo">
-                          {%- if block.settings.logo_image != blank -%}
-                            {{ block.settings.logo_image | image_url: width: 250 | image_tag: 
-                              loading: 'lazy',
-                              width: block.settings.logo_image.width,
-                              height: block.settings.logo_image.height,
-                              class: 'image-with-text__logo-img'
-                            }}
-                          {%- else -%}
-                            {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-                          {%- endif -%}
-                        </div>
-                      {%- endif -%}
-                      {%- if block.settings.star_rating != blank -%}
-                      <div class="review-star-wrapper">
-                        {% assign rating = block.settings.star_rating | round: 1 %} <!-- Round the rating to 1 decimal -->
-                        {% assign full_stars = rating | floor %} <!-- Full stars (integer part of the rating) -->
-                        {% assign half_star = rating | modulo: 1 | times: 10 | round | divided_by: 10 %} <!-- Half star logic -->
-                        {% assign empty_stars = 5 | minus: full_stars | minus: half_star %} <!-- Remaining empty stars -->
-                      
-                        <div class="review-stars">
-                          <!-- Render full stars -->
-                          {% for i in (1..full_stars) %}
-                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17" fill="none">
-                              <path d="M9.00039 0.710938L11.7004 6.11094L17.1004 6.78594L13.3924 10.9439L14.4004 16.9109L9.00039 14.2109L3.60039 16.9109L4.61739 10.9439L0.900391 6.78594L6.30039 6.11094L9.00039 0.710938Z" fill="#FFCE00"/>
-                            </svg>
-                          {% endfor %}
-                      
-                          <!-- Render half star -->
-                          {% if half_star > 0 %}
-                            <svg xmlns="http://www.w3.org/2000/svg" width="9" height="17" viewBox="0 0 9 17" fill="none">
-                              <path d="M6.44133 6.12375L0.720703 6.95625L4.8607 10.9894L3.88195 16.6875L9.0007 13.9987V0.9375L6.44133 6.12375Z" fill="#FFCE00"/>
-                            </svg>
-                          {% endif %}
-                      
-                          <!-- Render empty (grey) stars -->
-                          {% for i in (1..empty_stars) %}
-                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17" fill="none">
-                              <path d="M9.00039 0.710938L11.7004 6.11094L17.1004 6.78594L13.3924 10.9439L14.4004 16.9109L9.00039 14.2109L3.60039 16.9109L4.61739 10.9439L0.900391 6.78594L6.30039 6.11094L9.00039 0.710938Z" fill="#ccc"/>
-                            </svg>
-                          {% endfor %}
-                        </div>
-                      
-                        <!-- Review text -->
-                        <p class="review-text">{{ block.settings.review_text }}</p>
-                      </div>
-                      {% endif %}
+                      <h3 class="offer-title">{{ block.settings.offer_title }}</h3>
+                      {%- style -%}
+                        .offer-title strong {
+                          color: {{ block.settings.offer_title_color }};
+                        }
+                      {%- endstyle -%}
                       {%- if block.settings.heading != blank or block.settings.text != blank -%}
                         <div class="sec-head">
                           {%- if block.settings.heading != blank -%}
@@ -172,13 +130,18 @@
                           {%- endif -%}
                         </div>
                       {%- endif -%}
-                      {%- if block.settings.button_label != blank -%}
-                        <a{% if block.settings.button_link != blank %} href="{{ block.settings.button_link }}"{% endif %}
-                          class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
-                        >
-                          {{ block.settings.button_label | escape }}
-                        </a>
-                      {%- endif -%}
+                      <div class="image-text-con-buttons">
+                        {%- if block.settings.button_label != blank -%}
+                          <a{% if block.settings.button_link != blank %} href="{{ block.settings.button_link }}"{% endif %}
+                            class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
+                          >
+                            {{ block.settings.button_label | escape }}
+                          </a>
+                        {%- endif -%}
+                        {%- if block.settings.offer_code_txt != blank -%}
+                          <div class="offer-code button button--secondary">{{ block.settings.offer_code_txt }}</div>
+                        {%- endif -%}
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -235,7 +198,7 @@ document.addEventListener('DOMContentLoaded', function() {
 {
   "name": "Image Text Slider",
   "tag": "section",
-  "class": "section",
+  "class": "section main_slider",
   "disabled_on": {
     "groups": ["header", "footer"]
   },
@@ -506,25 +469,16 @@ document.addEventListener('DOMContentLoaded', function() {
           "label": "Image"
         },
         {
-          "type": "image_picker",
-          "id": "logo_image",
-          "label": "Logo Image"
+          "type": "richtext",
+          "id": "offer_title",
+          "default": "<p>Super Saver Offer</p>",
+          "label": "Offer title"
         },
         {
-          "type": "range",
-          "id": "star_rating",
-          "label": "Star Rating",
-          "default": 4.5,
-          "min": 0,
-          "max": 5,
-          "step": 0.5,
-          "unit": "☆"
-        },
-        {
-          "type": "text",
-          "id": "review_text",
-          "label": "Review Text",
-          "default": "4.5 (330Reviews)"
+          "type": "color",
+          "id": "offer_title_color",
+          "label": "Offer title color",
+          "default": "#FFCE00"
         },
         {
           "type": "richtext",
@@ -543,6 +497,12 @@ document.addEventListener('DOMContentLoaded', function() {
           "id": "button_label",
           "default": "Button label",
           "label": "Button label"
+        },
+        {
+          "type": "text",
+          "id": "offer_code_txt",
+          "default": "Code: MEGASALE",
+          "label": "Offer code text"
         },
         {
           "type": "url",

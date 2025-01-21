@@ -21,46 +21,48 @@
   }
 {%- endstyle -%}
 
-<div class="product-catalog-section section-{{ section.id }}-padding gradient color-{{ section.settings.color_scheme }}">
+<div class="product-catalog-section section-{{ section.id }}-padding">
   <div class="product-catalog-container page-width">
-    <div class="grid grid--1-col grid--1-col-tablet grid--2-col-desktop">
-    <div class="product-catalog-left grid__item">
-      {% if section.settings.product_image %}
-        <div class="product-image">
-          {{ section.settings.product_image | image_url: width: 800 | image_tag }}
+    <div class="product-catalog-wrapper gradient color-{{ section.settings.color_scheme }}">
+      <div class="grid grid--1-col grid--1-col-tablet grid--2-col-desktop">
+        <div class="product-catalog-left grid__item">
+          {% if section.settings.product_image %}
+            <div class="product-image">
+              {{ section.settings.product_image | image_url: width: 800 | image_tag }}
+            </div>
+          {% endif %}
         </div>
-      {% endif %}
-    </div>
-    
-    <div class="product-catalog-right grid__item">
-      {% if section.settings.logo %}
-        <div class="logo">
-          {{ section.settings.logo | image_url: width: 300 | image_tag }}
-        </div>
-      {% endif %}
-      
-      <h2 class="title">
-        {{ section.settings.heading }}
-      </h2>
-      
-      <div class="description">
-        {{ section.settings.description }}
-      </div>
-      
-      <div class="buttons">
-        {% if section.settings.button_1_link %}
-          <a href="{{ section.settings.button_1_link }}" class="button button--secondary">
-            {{ section.settings.button_1_text }}
-          </a>
-        {% endif %}
         
-        {% if section.settings.button_2_link %}
-          <a href="{{ section.settings.button_2_link }}" class="button button--primary">
-            {{ section.settings.button_2_text }}
-          </a>
-        {% endif %}
+        <div class="product-catalog-right grid__item">
+          {% if section.settings.logo %}
+            <div class="logo">
+              {{ section.settings.logo | image_url: width: 300 | image_tag }}
+            </div>
+          {% endif %}
+          
+          <h2 class="title">
+            {{ section.settings.heading }}
+          </h2>
+          
+          <div class="description">
+            {{ section.settings.description }}
+          </div>
+          
+          <div class="buttons">
+            {% if section.settings.button_1_link %}
+              <a href="{{ section.settings.button_1_link }}" class="button button--secondary">
+                {{ section.settings.button_1_text }}
+              </a>
+            {% endif %}
+            
+            {% if section.settings.button_2_link %}
+              <a href="{{ section.settings.button_2_link }}" class="button button--primary">
+                {{ section.settings.button_2_text }}
+              </a>
+            {% endif %}
+          </div>
+        </div>
       </div>
-    </div>
     </div>
   </div>
 </div>

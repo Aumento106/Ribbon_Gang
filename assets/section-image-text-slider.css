@@ -1,6 +1,55 @@
+.image-with-text-slider-wrapper {
+  position: relative;
+}
+
+.image-with-text-slider-wrapper::before {
+  content: "";
+  display: inline-block;
+  width: 210px;
+  height: 425px;
+  background: url(https://cdn.shopify.com/s/files/1/0657/3388/6106/files/hero-banner-bg.png?v=1737468414) no-repeat center;
+  position: absolute;
+  left: 0;
+  top: 40px;
+}
+
 .image-with-text-slider {
   overflow: hidden;
   padding-bottom: 22px;
+} 
+
+.offer-title {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.17;
+  margin: 0 0 3.2rem;
+}
+
+.offer-title p {
+  margin: 0;
+}
+
+.offer-title strong {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-underline-offset: 40%;
+  text-decoration-thickness: 8%;
+}
+
+.image-text-con-buttons {
+  width: 100%;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.offer-code {
+  border: 1px dashed rgba(var(--color-button-text));
+  cursor: default;
+}
+
+.offer-code.button::after {
+  box-shadow: none;
 }
 
 .image-with-text-slider .image-with-text__heading {
@@ -48,7 +97,7 @@
 
 @media screen and (min-width: 992px) {
   .image-with-text-slider .image-with-text__grid.grid {
-      --grid-desktop-horizontal-spacing: 7rem;
+      --grid-desktop-horizontal-spacing: 6rem;
   }
 }
 
@@ -80,4 +129,20 @@
   .image-with-text-slider {
     padding-bottom: 40px;
   }
+
+  .offer-title {
+    font-size: 18px;
+    margin: 0 0 2rem;
+  }
 }
+
+@media screen and (min-width: 750px) and (max-width: 991px) {
+  .image-with-text-slider .image-text-con-buttons {
+    flex-wrap: wrap;
+  }
+
+  .image-with-text-slider .image-text-con-buttons .button {
+    width: 100%;
+  }
+}
+

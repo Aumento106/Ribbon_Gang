@@ -51,6 +51,7 @@
 .team-member-position {
   margin-bottom: 30px;
   line-height: 1.17;
+  text-transform: uppercase;
 }
 
 .social-links {

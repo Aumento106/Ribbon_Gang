@@ -59,13 +59,14 @@
 
 .key-message-con-title.h0 {
   font-size: 30px;
+  
 }
 
-.key-message-con-des {
+/* .key-message-con-des {
   font-size: 20px;
   line-height: 1.15;
   margin: 0;
-}
+} */
 
 .key-message-con-des p {
   margin: 0 0 10px;
@@ -79,14 +80,18 @@
   margin-top: 0;
 }
 
+.key-message-con-title strong{
+  color: var(--primary-theme-color);
+}
+
 @media screen and (max-width: 1024px) {
   .key-message-con-title.h1 {
     font-size: 24px;
   }
 
-  .key-message-con-des {
+  /* .key-message-con-des {
     font-size: 18px;
-  }
+  } */
 }
 
 @media screen and (max-width: 991px) {

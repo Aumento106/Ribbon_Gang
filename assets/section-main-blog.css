@@ -97,4 +97,7 @@
   .card__content .subtitle {
     font-size: 20px;
   }
+  .main-blog .title--primary {
+    margin: 0 0 20px;
+  }
 }

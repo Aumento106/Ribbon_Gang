@@ -72,7 +72,7 @@
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "section_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "title_highlight_color": "#ffce00",
-        "slides_per_view_tablet": 2,
+        "slides_per_view_tablet": 1,
         "slides_per_view_desktop": 1,
         "enable_loop": true,
         "autoplay": false,
@@ -82,7 +82,7 @@
         "arrow_color": "#000000",
         "dot_color": "#000000",
         "padding_top": 32,
-        "padding_bottom": 0
+        "padding_bottom": 72
       }
     },
     "key_message_Ccdzez": {
@@ -92,10 +92,9 @@
         "description": "<p>The gold standard for hospitals, medical centers and aged care</p>",
         "heading_size": "h1",
         "content_alignment": "center",
-        "color_scheme": "scheme-28b9a3ce-e916-452a-9440-95fefcedbf92",
-        "bg_color": "#424242",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "padding_top": 32,
+        "padding_bottom": 32
       }
     },
     "multicolumn_collection_JTkHK9": {
@@ -150,8 +149,8 @@
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 72,
+        "padding_bottom": 72
       }
     },
     "featured_collection_EKGb6j": {
@@ -170,7 +169,7 @@
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
-        "color_scheme": "scheme-28b9a3ce-e916-452a-9440-95fefcedbf92",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "image_ratio": "square",
         "image_shape": "default",
         "show_secondary_image": false,
@@ -180,6 +179,52 @@
         "learn_more_button_text": "Learn More",
         "columns_mobile": "2",
         "swipe_on_mobile": false,
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
+    },
+    "multicolumn_services_box_FEbT7G": {
+      "type": "multicolumn-services-box",
+      "blocks": {
+        "column_nq4xKL": {
+          "type": "column",
+          "settings": {
+            "icon": "shopify://shop_images/project-consultation.svg",
+            "heading": "Project consultation and room design",
+            "text": "<p>Each client receives a tailored storage solution that maximizes storage capacity within the available space, and suits its application. All stakeholder needs are incorporated in the design and planning of a new STERIRACK® System installation.</p>"
+          }
+        },
+        "column_BrzGgm": {
+          "type": "column",
+          "settings": {
+            "icon": "shopify://shop_images/bulb-icon.svg",
+            "heading": "Product customization and continuous innovation",
+            "text": "<p>We specialize in custom storage solutions for healthcare, and our STERIRACK® System and MEDIBIN™ ranges are exclusive to SpaceLogic. Liaise with our designers to have custom components and accessories created to meet your specific needs.</p>"
+          }
+        },
+        "column_byiDxM": {
+          "type": "column",
+          "settings": {
+            "icon": "shopify://shop_images/setting-icon.svg",
+            "heading": "Project management and installation",
+            "text": "<p>Our expert installation team specializes in fast, no-fuss storage installations with minimal interruptions to everyday operations or other trades. Our team travels nationally and internationally, or project manages local tradespeople.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "column_nq4xKL",
+        "column_BrzGgm",
+        "column_byiDxM"
+      ],
+      "settings": {
+        "sec_title": "<p>Three interconnected divisions, delivering a complete end-to-end <strong>Service</strong></p>",
+        "title_alignment": "center",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "icon_bg_color": "#5a5a5a",
+        "border_color": "#eeeeee",
+        "columns_desktop": 3,
+        "columns_alignment": "left",
+        "columns_mobile": "1",
         "padding_top": 72,
         "padding_bottom": 72
       }
@@ -237,8 +282,8 @@
         "border_color": "#424242",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 72,
+        "padding_bottom": 72
       }
     },
     "image_with_text_v1_CK3fUJ": {
@@ -293,108 +338,6 @@
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "image_with_text_v1_tjigzf": {
-      "type": "image-with-text-v1",
-      "blocks": {
-        "heading_ggfYhJ": {
-          "type": "heading",
-          "settings": {
-            "heading": "New <strong>Products</strong>",
-            "heading_size": "h1"
-          }
-        },
-        "caption_4DDFCN": {
-          "type": "caption",
-          "settings": {
-            "caption": "What is Lorem Ipsum?",
-            "text_style": "subtitle",
-            "text_size": "medium"
-          }
-        },
-        "text_D8Fi3n": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>",
-            "text_style": "body"
-          }
-        },
-        "button_9D34tn": {
-          "type": "button",
-          "settings": {
-            "button_label": "Read More",
-            "button_link": "#",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_ggfYhJ",
-        "caption_4DDFCN",
-        "text_D8Fi3n",
-        "button_9D34tn"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/SpaceLogic-Sterirack.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "multicolumn_services_box_FEbT7G": {
-      "type": "multicolumn-services-box",
-      "blocks": {
-        "column_nq4xKL": {
-          "type": "column",
-          "settings": {
-            "icon": "shopify://shop_images/project-consultation.svg",
-            "heading": "Project consultation and room design",
-            "text": "<p>Each client receives a tailored storage solution that maximizes storage capacity within the available space, and suits its application. All stakeholder needs are incorporated in the design and planning of a new STERIRACK® System installation.</p>"
-          }
-        },
-        "column_BrzGgm": {
-          "type": "column",
-          "settings": {
-            "icon": "shopify://shop_images/bulb-icon.svg",
-            "heading": "Product customization and continuous innovation",
-            "text": "<p>We specialize in custom storage solutions for healthcare, and our STERIRACK® System and MEDIBIN™ ranges are exclusive to SpaceLogic. Liaise with our designers to have custom components and accessories created to meet your specific needs.</p>"
-          }
-        },
-        "column_byiDxM": {
-          "type": "column",
-          "settings": {
-            "icon": "shopify://shop_images/setting-icon.svg",
-            "heading": "Project management and installation",
-            "text": "<p>Our expert installation team specializes in fast, no-fuss storage installations with minimal interruptions to everyday operations or other trades. Our team travels nationally and internationally, or project manages local tradespeople.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "column_nq4xKL",
-        "column_BrzGgm",
-        "column_byiDxM"
-      ],
-      "settings": {
-        "sec_title": "<p>Three interconnected divisions, delivering a complete end-to-end <strong>Service</strong></p>",
-        "title_alignment": "center",
-        "color_scheme": "scheme-28b9a3ce-e916-452a-9440-95fefcedbf92",
-        "icon_bg_color": "#5a5a5a",
-        "border_color": "#eeeeee",
-        "columns_desktop": 3,
-        "columns_alignment": "left",
-        "columns_mobile": "1",
         "padding_top": 72,
         "padding_bottom": 72
       }
@@ -461,8 +404,64 @@
         "columns_desktop": 3,
         "columns_alignment": "center",
         "columns_mobile": "1",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
+    },
+    "image_with_text_v1_tjigzf": {
+      "type": "image-with-text-v1",
+      "blocks": {
+        "heading_ggfYhJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "New <strong>Products</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "caption_4DDFCN": {
+          "type": "caption",
+          "settings": {
+            "caption": "What is Lorem Ipsum?",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        },
+        "text_D8Fi3n": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_9D34tn": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read More",
+            "button_link": "#",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_ggfYhJ",
+        "caption_4DDFCN",
+        "text_D8Fi3n",
+        "button_9D34tn"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/SpaceLogic-Sterirack.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 72,
+        "padding_bottom": 72
       }
     },
     "testimonial_MUVEXK": {
@@ -516,8 +515,8 @@
         "dot_color": "#000000",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 72,
+        "padding_bottom": 72
       }
     },
     "featured_blog_93BJwt": {
@@ -534,41 +533,8 @@
         "show_date": true,
         "show_author": false,
         "show_view_all": true,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "newsletter_8hYyN9": {
-      "type": "newsletter",
-      "blocks": {
-        "email_form_ydJARq": {
-          "type": "email_form",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "email_form_ydJARq"
-      ],
-      "settings": {
-        "color_scheme": "scheme-28b9a3ce-e916-452a-9440-95fefcedbf92",
-        "full_width": false,
-        "heading": "<strong>Subscribe</strong> to receive  updates and product releases",
-        "text": "<p>*The shape of the wire loops in wire loop baskets and bins is used as a shape trade mark.</p>",
         "padding_top": 72,
         "padding_bottom": 72
-      }
-    },
-    "product_catalog_jUgXDj": {
-      "type": "product-catalog",
-      "settings": {
-        "product_image": "shopify://shop_images/product-catalog.png",
-        "heading": "Product Catalog 2024",
-        "heading_highlight_color": "#FFD700",
-        "description": "<p>Click the link to view our comprehensive product and services catalog. View in a browser window without the need for a download.</p>",
-        "button_1_text": "View Catalog",
-        "button_1_link": "#",
-        "button_2_text": "Download Catalog",
-        "button_2_link": "#"
       }
     }
   },
@@ -577,14 +543,12 @@
     "key_message_Ccdzez",
     "multicolumn_collection_JTkHK9",
     "featured_collection_EKGb6j",
+    "multicolumn_services_box_FEbT7G",
     "multicolumn_pages_box_VCT8HN",
     "image_with_text_v1_CK3fUJ",
-    "image_with_text_v1_tjigzf",
-    "multicolumn_services_box_FEbT7G",
     "spacelogic_commitment_9ixh9w",
+    "image_with_text_v1_tjigzf",
     "testimonial_MUVEXK",
-    "featured_blog_93BJwt",
-    "newsletter_8hYyN9",
-    "product_catalog_jUgXDj"
+    "featured_blog_93BJwt"
   ]
 }

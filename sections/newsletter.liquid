@@ -3,11 +3,18 @@
 
 {%- style -%}
   .section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    padding-top: {{ section.settings.padding_top | times: 0.35 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.35 | round: 0 }}px;
   }
 
   @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top | times: 0.4 | round: 0 }}px;
+      padding-bottom: {{ section.settings.padding_bottom | times: 0.7 | round: 0 }}px;
+    }
+  }
+
+  @media screen and (min-width: 1025px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
@@ -43,7 +50,7 @@
                     {% endif %}
                 >
                     <div class="input_field">
-                      <label class="field__label" for="ContactForm-name">Name *</label>
+                      <label class="field__label" for="ContactForm-name">{{- 'icon-user.svg' | inline_asset_content -}} Name *</label>
                       <input
                         class="field__input"
                         autocomplete="name"
@@ -58,7 +65,7 @@
                     </div>
                     <div class="input_field">
                       <label class="field__label" for="NewsletterForm--{{ section.id }}">
-                          {{ 'newsletter.label' | t }} *
+                        {{- 'icon-mail.svg' | inline_asset_content -}} {{ 'newsletter.label' | t }} *
                       </label>
                       <input
                           id="NewsletterForm--{{ section.id }}"
@@ -82,7 +89,7 @@
                       >
                     </div>
                     <div class="input_field">
-                      <label class="field__label" for="ContactForm-name">Organization *</label>
+                      <label class="field__label" for="ContactForm-name">{{- 'icon-organization.svg' | inline_asset_content -}} Organization *</label>
                       <input
                         class="field__input"
                         aria-required="true"
@@ -141,7 +148,7 @@
 {
   "name": "t:sections.newsletter.name",
   "tag": "section",
-  "class": "section",
+  "class": "section newsletter-sec",
   "disabled_on": {
     "groups": ["header"]
   },

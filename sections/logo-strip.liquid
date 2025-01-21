@@ -1,0 +1,98 @@
+{{ 'section-logo-strip.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="logo-strip-section section-{{ section.id }}-padding gradient color-{{ section.settings.color_scheme }}">
+    <div class="logo-strip-wrapper grid grid--1-col">
+        {%- for block in section.blocks -%}
+            <div class="logo-strip__item grid__item" {{ block.shopify_attributes }}>
+              {%- if block.settings.image != blank -%}
+                <div class="logo-strip__image-wrapper">
+                  {{ block.settings.image | image_url: width: 1000 | image_tag:
+                    loading: 'lazy',
+                    width: block.settings.image.width,
+                    height: block.settings.image.height,
+                    class: 'logo-strip__image',
+                    alt: block.settings.image.alt | escape
+                  }}
+                </div>
+              {%- endif -%}
+            </div>
+        {%- endfor -%}
+    </div>
+</div>
+
+
+{% schema %}
+{
+  "name": "Logo Strip",
+  "tag": "section",
+  "settings": [
+    {
+        "type": "color_scheme",
+        "id": "color_scheme",
+        "label": "t:sections.all.colors.label",
+        "default": "scheme-1"
+    },
+    {
+        "type": "header",
+        "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 180,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_top",
+        "default": 36
+    },
+    {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 180,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_bottom",
+        "default": 36
+    }
+  ],
+  "blocks": [
+    {
+      "type": "logo",
+      "name": "logo",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Logo Strip",
+      "blocks": [
+        {
+          "type": "logo"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

@@ -49,6 +49,7 @@
         "announcement_TkCT6e",
         "announcement_pAgN6c"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-28b9a3ce-e916-452a-9440-95fefcedbf92",
         "show_line_separator": false,

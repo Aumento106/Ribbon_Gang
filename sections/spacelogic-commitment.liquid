@@ -4,11 +4,18 @@
 
 {%- style -%}
   .section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    padding-top: {{ section.settings.padding_top | times: 0.35 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.35 | round: 0 }}px;
   }
 
   @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top | times: 0.4 | round: 0 }}px;
+      padding-bottom: {{ section.settings.padding_bottom | times: 0.4 | round: 0 }}px;
+    }
+  }
+
+  @media screen and (min-width: 1025px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
@@ -23,7 +30,7 @@
         <h2 class="title">{{ section.settings.sec_title }}</h2>
       </div>
     {% endif %}
-    <div class="multicolumn-services__grid grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-mobile column-alignment-{{ section.settings.columns_alignment }}">
+    <div class="multicolumn-services__grid grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--2-col-tablet grid--{{ section.settings.columns_mobile }}-col column-alignment-{{ section.settings.columns_alignment }}">
       {%- for block in section.blocks -%}
         <div class="multicolumn-services__item grid__item color-{{ section.settings.color_scheme_box }} gradient" {{ block.shopify_attributes }}>
             {%- if block.settings.heading != blank -%}

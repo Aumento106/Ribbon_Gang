@@ -22,3 +22,9 @@
   margin: 0 0 1.6rem;
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 1024px) {
+  .multicolumn-commitment .multicolumn-services__item .subtitle {
+    margin: 0 0 1rem;
+  }
+}

@@ -28,3 +28,34 @@
   background-color: var(--button-hover-background-color);
   border-color: var(--button-hover-background-color);
 }
+
+@media screen and (max-width: 1024px) {
+  .multicolumn-pages-boxes .multicolumn-card__info .inline-richtext {
+    font-size: 18px;
+  }
+
+  .multicolumn-pages-boxes .multicolumn-card .multicolumn-card__info {
+    padding: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .multicolumn-card__info .inline-richtext {
+    font-size: 18px;
+  }
+
+  .multicolumn-pages-boxes .multicolumn-card__info .inline-richtext {
+    font-size: 16px;
+  }
+
+  .multicolumn-pages-boxes .multicolumn-card .multicolumn-card__info {
+    padding: 1.1rem;
+    margin-top: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 749px) {
+  .multicolumn-pages-boxes .grid {
+    --grid-mobile-vertical-spacing: 2rem;
+  }
+}

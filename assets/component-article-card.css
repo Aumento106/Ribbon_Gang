@@ -202,3 +202,18 @@
   display: flex;
   justify-content: center;
 }
+
+@media screen and (max-width: 1024px) {
+  .article-card__excerpt {
+    margin-top: 1rem;
+  }
+
+  .blog-articles .article-card .card__information, .blog__posts .article-card .card__information {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .article-card .card__inner .card__information .blog-date {
+    font-size: 14px;
+  }
+}

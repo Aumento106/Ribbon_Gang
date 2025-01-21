@@ -1,0 +1,20 @@
+.logo-strip-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 0 1.5rem;
+}
+
+.logo-strip__image-wrapper {
+    display: flex;
+    align-items: center;
+    max-width: 560px;
+    margin: 0 auto;
+}
+
+.logo-strip__image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}

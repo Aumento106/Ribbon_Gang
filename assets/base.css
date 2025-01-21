@@ -100,7 +100,7 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
   padding-right: 3rem;
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 992px) {
   .page-width {
     padding: 0 5rem;
   }
@@ -898,18 +898,18 @@ summary::-webkit-details-marker {
 .subtitle {
   font-size: 1.8rem;
   line-height: calc(1 + 0.8 / var(--font-body-scale));
-  letter-spacing: 0.06rem;
+  letter-spacing: 0;
   color: rgba(var(--color-foreground), 0.7);
 }
 
 .subtitle--small {
   font-size: 1.4rem;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0;
 }
 
 .subtitle--medium {
   font-size: 1.6rem;
-  letter-spacing: 0.08rem;
+  letter-spacing: 0;
 }
 
 /* component-grid */
@@ -3698,4 +3698,34 @@ details-disclosure > details {
 
 .section-title-alignment-right {
   text-align: right;
+}
+
+@media screen and (max-width: 1024px) {
+  .title {
+    font-size: 34px;
+    margin: 0 0 2rem;
+  }
+
+  .sec-head {
+    margin-bottom: 30px;
+  }
+
+  .subtitle {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 749px) {
+  .title {
+    font-size: 24px;
+    margin: 0 0 2rem;
+  }
+
+  .subtitle {
+    font-size: 18px;
+  }
+
+  .sec-head {
+    margin-bottom: 20px;
+  }
 }

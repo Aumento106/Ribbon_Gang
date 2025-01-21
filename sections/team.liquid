@@ -16,7 +16,7 @@
 {%- endstyle -%}
 
 
-<div class="section-{{ section.id }}-padding">
+<div class="color-{{ section.settings.color_scheme }}">
   <div class="team-section page-width">
   {% if section.settings.title != blank %}
     <h2 class="section-title text-center">{{ section.settings.title }}</h2>
@@ -24,7 +24,7 @@
 
 
     
-  <div class="team-grid">
+  <div class="section-{{ section.id }}-padding team-grid">
     
       {% for members in shop.metaobjects.our_team.values %}
       <div class="team-member" {{ block.shopify_attributes }}>
@@ -37,6 +37,9 @@
         <div class="team-member-detail-wrp">
           <p class="team-member-name">{{ members.employee_name }}</p>
             <div class="team-member-position">{{ members.employee_designation }}</div>
+            <div class="team-description">
+              Adam leads Product Sales and is often the friendly voice you’ll hear when you call. With 15 years of hands-on industry experience, Adam’s in-depth product knowledge and exceptional customer engagement skills have been key to his success in delivering outstanding client satisfaction.
+            </div>
             
             <div class="social-links">
               {% for image in  members.social_media_icons.value %}
@@ -57,6 +60,12 @@
 {
   "name": "Team Members",
   "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    },
     {
       "type": "text",
       "id": "title",
@@ -109,41 +118,6 @@
       "type": "team_member",
       "name": "Team Member",
       "settings": [
-        {
-          "type": "image_picker",
-          "id": "image",
-          "label": "Member Photo"
-        },
-        {
-          "type": "text",
-          "id": "name",
-          "label": "Name"
-        },
-        {
-          "type": "text",
-          "id": "position",
-          "label": "Position"
-        },
-        {
-          "type": "url",
-          "id": "facebook",
-          "label": "Facebook URL"
-        },
-        {
-          "type": "url",
-          "id": "linkedin",
-          "label": "linkedin URL"
-        },
-        {
-          "type": "url",
-          "id": "instagram",
-          "label": "Instagram URL"
-        },
-        {
-          "type": "url",
-          "id": "email",
-          "label": "Email URL"
-        }
       ]
     }
   ],

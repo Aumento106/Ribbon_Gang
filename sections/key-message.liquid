@@ -15,9 +15,9 @@
 
 {%- endstyle -%}
 
-<div class="key-message-sec section-{{ section.id }} section-{{ section.id }}-padding">
-  <div class="key-message-wrapper gradient color-{{ section.settings.color_scheme }}">
-    <div class="key-message-con content-alignment-{{ section.settings.content_alignment }}">
+<div class="key-message-sec section-{{ section.id }} section-{{ section.id }}-padding gradient color-{{ section.settings.color_scheme }}">
+  <div class="key-message-wrapper">
+    <div class="key-message-con page-width content-alignment-{{ section.settings.content_alignment }}">
       <h3 class="key-message-con-title {{ section.settings.heading_size }}">{{ section.settings.title }}</h3>
       <div class="key-message-con-des">{{ section.settings.description }}</div>
     </div>
@@ -28,7 +28,7 @@
   {
     "name": "Key Message",
     "tag": "section",
-    "class": "section",
+    "class": "section key-message-sec-main",
     "disabled_on": {
       "groups": ["header", "footer"]
     },
@@ -94,12 +94,6 @@
         "id": "color_scheme",
         "label": "Section colors",
         "default": "scheme-1"
-      },
-      {
-        "type": "color",
-        "id": "bg_color",
-        "label": "Background color",
-        "default": "#424242"
       },
       {
         "type": "header",

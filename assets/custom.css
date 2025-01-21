@@ -180,10 +180,28 @@ details[open]>.header__menu-item .ic_pluse{
   letter-spacing: 0;
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 1025px) {
   .card-wrapper .card__content .card__information {
       padding-bottom: 2.4rem;
       padding-top: 2.4rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .product-card-wrapper .card__heading.h5 {
+    font-size: 20px;
+  }
+
+  .card-wrapper .price__sale .price-item--sale, .card-wrapper .price__regular .price-item--regular {
+    font-size: 20px;
+  }
+
+  .product-card-wrapper .card-information>*:not(.visually-hidden:first-child)+*:not(.rating):not(.card__information-volume-pricing-note) {
+    margin-top: 1.2rem;
+  }
+
+  .button, .shopify-challenge__button, .customer button, button.shopify-payment-button__button--unbranded {
+    min-height: calc(4rem + var(--buttons-border-width)* 2);
   }
 }
 
@@ -250,4 +268,93 @@ details[open]>.header__menu-item .ic_pluse{
 
 .swiper .swiper-button-next::after {
   transform: rotate(180deg);
+}
+
+.slider-button--next .svg-wrapper svg {
+  transform: rotate(180deg);
+}
+
+.slider-buttons .slider-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  background-color: transparent;
+  border: 1px solid var(--primary-theme-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all .3s ease-in-out;
+}
+
+.slider-buttons .slider-button .svg-wrapper {
+  width: 18px;
+  height: 18px;
+}
+
+.slider-buttons .slider-counter {
+  display: none;
+}
+
+body .slider-buttons {
+  gap: 15px;
+  padding: 0 1.5rem;
+  justify-content: start;
+}
+
+@media screen and (max-width: 1024px) {
+  .swiper .swiper-button {
+    width: 50px;
+    height: 50px;
+  }
+
+  .swiper .swiper-button:after {
+    background-size: 18px;
+    height: 16px;
+    width: 18px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .button, .button-label, .shopify-challenge__button, .customer button {
+    font-size: 18px;
+  }
+
+  .card-wrapper .card--media .card__inner .card__content .card__badge .badge {
+    padding: 6px 14px 6px 6px;
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 749px) {
+  .product-card-wrapper .card__heading.h5, .card-wrapper .price__sale .price-item--sale, .card-wrapper .price__regular .price-item--regular {
+    font-size: 16px;
+  }
+
+  .product-card-wrapper .card__information {
+    padding: 1.5rem 0;
+  }
+
+  .product-card-wrapper .card-information>*:not(.visually-hidden:first-child)+*:not(.rating):not(.card__information-volume-pricing-note) {
+    margin-top: 0.8rem;
+  }
+
+  .button, .button-label, .shopify-challenge__button, .customer button {
+    font-size: 16px;
+    padding: 0;
+  }
+
+  .collection .collection__title.title-wrapper {
+    margin-bottom: 0;
+  }
+
+  .swiper .swiper-button {
+    width: 40px;
+    height: 40px;
+  }
+
+  .swiper .swiper-button:after {
+    background-size: 16px;
+    height: 14px;
+    width: 16px;
+  }
 }

@@ -11,25 +11,165 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "product_catalog_jUgXDj": {
+      "type": "product-catalog",
+      "settings": {
+        "product_image": "shopify://shop_images/product-catalog.png",
+        "logo": "shopify://shop_images/spacelogic-logo.png",
+        "heading": "<p>Product <strong>Catalog</strong> 2024</p>",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "description": "<p>Click the link to view our comprehensive product and services catalog. View in a browser window without the need for a download.</p>",
+        "button_1_text": "View Catalog",
+        "button_1_link": "#",
+        "button_2_text": "Download Catalog",
+        "button_2_link": "#",
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
+    },
+    "proudly_support_EqkBPA": {
+      "type": "proudly-support",
+      "blocks": {
+        "support_item_39bUMn": {
+          "type": "support_item",
+          "settings": {
+            "image": "shopify://shop_images/support-logo-1.png"
+          }
+        },
+        "support_item_LhQjQH": {
+          "type": "support_item",
+          "settings": {
+            "image": "shopify://shop_images/support-logo-2.png"
+          }
+        },
+        "support_item_nCzhik": {
+          "type": "support_item",
+          "settings": {
+            "image": "shopify://shop_images/support-logo-3.png"
+          }
+        },
+        "support_item_8jwCD4": {
+          "type": "support_item",
+          "settings": {
+            "image": "shopify://shop_images/support-logo-4.png"
+          }
+        },
+        "support_item_Xgx3hA": {
+          "type": "support_item",
+          "settings": {
+            "image": "shopify://shop_images/support-logo-5.png"
+          }
+        }
+      },
+      "block_order": [
+        "support_item_39bUMn",
+        "support_item_LhQjQH",
+        "support_item_nCzhik",
+        "support_item_8jwCD4",
+        "support_item_Xgx3hA"
+      ],
+      "settings": {
+        "heading": "<p>We proudly <strong>Support</strong></p>",
+        "title_alignment": "center",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
+    },
+    "newsletter_8hYyN9": {
+      "type": "newsletter",
+      "blocks": {
+        "email_form_ydJARq": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "email_form_ydJARq"
+      ],
+      "settings": {
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "full_width": false,
+        "heading": "<strong>Subscribe</strong> to receive  updates and product releases",
+        "text": "<p>*The shape of the wire loops in wire loop baskets and bins is used as a shape trade mark.</p>",
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
+    },
+    "logo_strip_LCaMt9": {
+      "type": "logo-strip",
+      "blocks": {
+        "logo_jdEJbk": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo-strip.png"
+          }
+        }
+      },
+      "block_order": [
+        "logo_jdEJbk"
+      ],
+      "settings": {
+        "color_scheme": "scheme-28b9a3ce-e916-452a-9440-95fefcedbf92",
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
     "footer": {
       "type": "footer",
+      "blocks": {
+        "image_dehRNG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Space-Logic-logo-light-font-large.png",
+            "image_width": 330,
+            "alignment": "",
+            "subtext": "<p>Share contact information, store details, and brand content with your customers.</p>",
+            "show_social": true
+          }
+        },
+        "link_list_hwhaAc": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Navigation",
+            "menu": "footer-navigation-menu"
+          }
+        },
+        "link_list_6qfKrb": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Location",
+            "menu": "footer-location-menu"
+          }
+        }
+      },
+      "block_order": [
+        "image_dehRNG",
+        "link_list_hwhaAc",
+        "link_list_6qfKrb"
+      ],
       "settings": {
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
         "newsletter_enable": true,
-        "newsletter_heading": "Subscribe to our emails",
+        "newsletter_heading": "Our Newsletter",
+        "bottom_menu": "footer-bottom-menu",
         "enable_follow_on_shop": true,
         "show_social": true,
-        "enable_country_selector": true,
-        "enable_language_selector": true,
-        "payment_enable": true,
-        "show_policy": true,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "payment_enable": false,
+        "show_policy": false,
         "margin_top": 0,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 60,
+        "padding_bottom": 24
       }
     }
   },
   "order": [
+    "product_catalog_jUgXDj",
+    "proudly_support_EqkBPA",
+    "newsletter_8hYyN9",
+    "logo_strip_LCaMt9",
     "footer"
   ]
 }

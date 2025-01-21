@@ -1,10 +1,15 @@
+@media screen and (min-width: 750px) {
+  body .section.key-message-sec-main {
+    margin-top: 0;
+  }
+}
+
 .key-message-wrapper {
   position: relative;
   overflow: hidden;
-  padding: 30px 0;
 }
 
-.key-message-wrapper::after, .key-message-wrapper::before {
+/* .key-message-wrapper::after, .key-message-wrapper::before {
   content: "";
   display: inline-block;
   width: 350px;
@@ -21,12 +26,8 @@
 .key-message-wrapper::before {
   transform: scaleX(-1);
   left: 0;
-}
+} */
 
-.key-message-con {
-  max-width: calc(100% - 700px);
-  margin: 0 auto;
-}
 
 .content-alignment-left {
   text-align: left;
@@ -76,4 +77,26 @@
 
 .key-message-con-des p {
   margin-top: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .key-message-con-title.h1 {
+    font-size: 24px;
+  }
+
+  .key-message-con-des {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .key-message-con-title.h1 {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 749px) {
+  .key-message-con-title.h1 {
+    font-size: 20px;
+  }
 }

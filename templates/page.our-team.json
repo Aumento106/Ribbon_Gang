@@ -52,75 +52,27 @@
       "blocks": {
         "team_member_EcAJpU": {
           "type": "team_member",
-          "settings": {
-            "image": "shopify://shop_images/Ellipse_1.png",
-            "name": "Adam Piech",
-            "position": "Product Sales Manager (AU)",
-            "facebook": "#",
-            "linkedin": "#",
-            "instagram": "#",
-            "email": "#"
-          }
+          "settings": {}
         },
         "team_member_8WtkmQ": {
           "type": "team_member",
-          "settings": {
-            "image": "shopify://shop_images/testimonial-dp.png",
-            "name": "Adam Piech",
-            "position": "Product Sales Manager (AU)",
-            "facebook": "#",
-            "linkedin": "#",
-            "instagram": "#",
-            "email": "#"
-          }
+          "settings": {}
         },
         "team_member_mrEWxn": {
           "type": "team_member",
-          "settings": {
-            "image": "shopify://shop_images/testimonial-dp.png",
-            "name": "Adam Piech",
-            "position": "Product Sales Manager (AU)",
-            "facebook": "#",
-            "linkedin": "#",
-            "instagram": "#",
-            "email": "#"
-          }
+          "settings": {}
         },
         "team_member_L8dQXE": {
           "type": "team_member",
-          "settings": {
-            "image": "shopify://shop_images/testimonial-dp.png",
-            "name": "Adam Piech",
-            "position": "Product Sales Manager (AU)",
-            "facebook": "#",
-            "linkedin": "#",
-            "instagram": "#",
-            "email": "#"
-          }
+          "settings": {}
         },
         "team_member_9AM8pm": {
           "type": "team_member",
-          "settings": {
-            "image": "shopify://shop_images/testimonial-dp.png",
-            "name": "Adam Piech",
-            "position": "Product Sales Manager (AU)",
-            "facebook": "#",
-            "linkedin": "#",
-            "instagram": "#",
-            "email": "#"
-          }
+          "settings": {}
         },
         "team_member_jbcX6b": {
           "type": "team_member",
-          "settings": {
-            "image": "shopify://shop_images/testimonial-dp.png",
-            "name": "Adam Piech",
-            "position": "Product Sales Manager (AU)",
-            "facebook": "#",
-            "linkedin": "#",
-            "instagram": "#",
-            "email": "#"
-          }
+          "settings": {}
         }
       },
       "block_order": [

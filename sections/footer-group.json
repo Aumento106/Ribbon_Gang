@@ -17,7 +17,7 @@
         "product_image": "shopify://shop_images/product-catalog.png",
         "logo": "shopify://shop_images/spacelogic-logo.png",
         "heading": "<p>Product <strong>Catalog</strong> 2024</p>",
-        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "description": "<p>Click the link to view our comprehensive product and services catalog. View in a browser window without the need for a download.</p>",
         "button_1_text": "View Catalog",
         "button_1_link": "#",
@@ -88,7 +88,7 @@
         "email_form_ydJARq"
       ],
       "settings": {
-        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "full_width": false,
         "heading": "<strong>Subscribe</strong> to receive  updates and product releases",
         "text": "<p>*The shape of the wire loops in wire loop baskets and bins is used as a shape trade mark.</p>",

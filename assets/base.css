@@ -299,8 +299,8 @@ h2,
   font-weight: var(--font-heading-weight);
   /* letter-spacing: calc(var(--font-heading-scale) * 0.06rem); */
   color: rgb(var(--color-foreground));
-  line-height: 62px;
   word-break: break-word;
+  margin: 0;
 }
 
 .hxxl {
@@ -332,12 +332,13 @@ h2,
 h1,
 .h1 {
   font-size: calc(var(--font-heading-scale) * 3rem);
+  line-height: 1.30;
 }
 
 @media only screen and (min-width: 750px) {
   h1,
   .h1 {
-    font-size: calc(var(--font-heading-scale) * 4rem);
+    font-size: calc(var(--font-heading-scale) * 4.8rem);
   }
 }
 
@@ -804,10 +805,10 @@ summary::-webkit-details-marker {
 }
 
 /* component-title */
-.title,
+/* .title,
 .title-wrapper-with-link {
   margin: 3rem 0 2rem;
-}
+} */
 
 .title-wrapper-with-link .title {
   margin: 0;
@@ -848,11 +849,7 @@ summary::-webkit-details-marker {
 }
 
 @media screen and (min-width: 990px) {
-  .title,
-  .title-wrapper-with-link {
-    margin: 5rem 0 3rem;
-  }
-
+  
   .title--primary {
     margin: 2rem 0;
   }
@@ -3662,11 +3659,11 @@ details-disclosure > details {
   margin-bottom: 50px;
 }
 
-.title {
+/* .title {
   font-size: 48px;
   line-height: 1.29;
   margin: 0 0 2.4rem;
-}
+} */
 
 .title strong {
   font-weight: inherit;

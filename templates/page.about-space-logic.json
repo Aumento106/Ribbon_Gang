@@ -11,13 +11,68 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "image_with_text_v1_Kk8cPy": {
+      "type": "image-with-text-v1",
+      "blocks": {
+        "heading_P7KtwF": {
+          "type": "heading",
+          "settings": {
+            "heading": "About us",
+            "heading_size": "h1"
+          }
+        },
+        "text_UJHQb4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Welcome to SpaceLogic Group – the authoritative experts in clinical healthcare storage solutions for the healthcare sector. Over 35 years SpaceLogic has grown from a small family firm into an acknowledged leader in healthcare space management. We have built an enviable reputation by providing a complete service to our clients, suppling project design, planning and installation services, and our own innovative and customizable range of products.</p><p>Our head office is located in Orange NSW, where our team of professionals work with single-minded focus to increase patient care time, improve infection control and maximize available space.</p><p>For more information, watch this video.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_P7KtwF",
+        "text_UJHQb4"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/improve-infection-control.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "video_url": "https://www.youtube.com/watch?v=lHnJFanm7tM",
+        "enable_video_looping": false,
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "key_message_pUhBiE": {
+      "type": "key-message",
+      "settings": {
+        "title": "Our <strong>Team</strong>",
+        "description": "<p>Our tireless and dynamic SpaceLogic team is dedicated to Healthcare. Our mission is to provide a fresh new approach, and premium advice and expertise to hospitals, medical centers and other clinical facilities. By combining the specialist skills of our entire team, we create a cohesive whole to give you individual attention, dedicated commitment and a result superior to any other.</p>",
+        "heading_size": "h0",
+        "content_alignment": "center",
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image_with_text_v1_Kk8cPy",
+    "key_message_pUhBiE"
   ]
 }

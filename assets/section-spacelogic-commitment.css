@@ -1,0 +1,24 @@
+.multicolumn-commitment .column-alignment-left .multicolumn-services__item {
+  text-align: left;
+}
+
+.multicolumn-commitment .column-alignment-center .multicolumn-services__item {
+  text-align: center;
+}
+
+.multicolumn-commitment .column-alignment-right .multicolumn-services__item {
+  text-align: right;
+}
+
+.multicolumn-commitment .multicolumn-services__item {
+  border: 0;
+}
+
+.multicolumn-commitment .multicolumn-services__item.grid__item {
+  justify-content: start;
+}
+
+.multicolumn-commitment .multicolumn-services__item .subtitle {
+  margin: 0 0 1.6rem;
+  text-transform: uppercase;
+}

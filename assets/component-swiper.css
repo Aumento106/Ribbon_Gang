@@ -1,0 +1,86 @@
+.swiper {
+      --swiper-theme-color: #000;
+}
+.swiper *:empty {
+    display: inline-flex;
+}
+.swiper.none .swiper-pagination, .swiper.none .swiper-button-prev, .swiper.none .swiper-button-next, .swiper.none .swiper-scrollbar {
+    display: none;
+}
+.swiper.none .swiper-wrapper {
+    flex-wrap: wrap;
+}
+.swiper .swiper-pagination {
+    position: unset;
+    margin-top: 20px;
+}
+.swiper .swiper-scrollbar {
+    margin-top: 20px;
+    position: relative !important;
+}
+.swiper .swiper-scrollbar .swiper-scrollbar-drag {
+    display: inherit;
+}
+/* .swiper-desktop-and-mobile .grid__item {
+    max-width: none;
+} */
+.swiper-button-next, .swiper-button-prev {
+    background: #fff;
+    padding: 25px;
+    --swiper-navigation-size: 20px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.swiper-wrapper {
+    opacity: 0;
+}
+.none .swiper-wrapper {
+    opacity: 1;
+}
+
+.swiper-initialized .swiper-wrapper {
+    opacity: 1 !important;
+}
+.swiper-wrapper.grid {
+    margin: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .swiper.swiper-mobile .swiper-pagination, .swiper.swiper-mobile .swiper-button-prev, .swiper.swiper-mobile .swiper-button-next, .swiper.swiper-mobile .swiper-scrollbar {
+      display: none;
+  }
+  .swiper.swiper-mobile .swiper-wrapper {
+    flex-wrap: wrap;
+  }
+  .swiper.swiper-mobile .swiper-wrapper {
+    column-gap: var(--grid-desktop-horizontal-spacing);
+    row-gap: var(--grid-desktop-vertical-spacing);
+  }
+  .swiper-desktop .grid__item {
+      max-width: none;
+  }
+  .swiper-mobile .swiper-wrapper {
+    opacity: 1;
+  }
+  
+}
+
+@media only screen and (max-width: 767px) {
+  .swiper.swiper-desktop .swiper-pagination, .swiper.swiper-desktop .swiper-button-prev, .swiper.swiper-desktop .swiper-button-next, .swiper.swiper-desktop .swiper-scrollbar {
+      display: none;
+  }
+  .swiper.swiper-desktop .swiper-wrapper {
+    flex-wrap: wrap;
+  }
+  .swiper.swiper-desktop .swiper-wrapper {
+    column-gap: calc(var(--grid-desktop-horizontal-spacing) / 2);
+    row-gap: calc(var(--grid-desktop-horizontal-spacing) / 2);
+  }
+  .swiper-mobile .grid__item {
+      max-width: none;
+  }
+  .swiper-desktop .swiper-wrapper {
+    opacity: 1;
+  }
+  
+}

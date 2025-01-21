@@ -1,0 +1,59 @@
+.image-with-text-slider {
+  overflow: hidden;
+  padding-bottom: 22px;
+}
+
+.image-with-text-slider .image-with-text__heading {
+  margin-bottom: 2.4rem;
+}
+
+.image-with-text__grid {
+  align-items: center;
+}
+
+.image-with-text-slider .image-with-text__content > * + * {
+  margin-top: 0;
+}
+
+.image-with-text__logo {
+  display: flex;
+  margin-bottom: 2.4rem;
+}
+
+.review-star-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 2.4rem;
+}
+
+.review-stars {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.review-text {
+  margin: 0;
+  line-height: 1.16;
+}
+
+.image-with-text-slider .swiper-pagination {
+  bottom: 0;
+  justify-content: end;
+  text-align: right;
+}
+
+
+
+@media screen and (min-width: 750px) {
+  .image-with-text__grid.grid {
+      --grid-desktop-horizontal-spacing: 7rem;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .image-with-text-slider .image-with-text__content {
+      padding: 0;
+  }
+}

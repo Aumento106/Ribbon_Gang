@@ -1,0 +1,157 @@
+{{ 'team-member.css' | asset_url | stylesheet_tag }}
+
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.mobile_padding_top }}px;
+    padding-bottom: {{ section.settings.mobile_padding_bottom }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+
+<div class="section-{{ section.id }}-padding">
+  <div class="team-section page-width">
+  {% if section.settings.title != blank %}
+    <h2 class="section-title text-center">{{ section.settings.title }}</h2>
+  {% endif %}
+
+
+    
+  <div class="team-grid">
+    
+      {% for members in shop.metaobjects.our_team.values %}
+      <div class="team-member" {{ block.shopify_attributes }}>
+        
+          <div class="team-member-image">
+         {{ members.employee_image | img_url: width:250 | img_tag  }}
+          </div>
+        
+        
+        <div class="team-member-detail-wrp">
+          <p class="team-member-name">{{ members.employee_name }}</p>
+            <div class="team-member-position">{{ members.employee_designation }}</div>
+            
+            <div class="social-links">
+              {% for image in  members.social_media_icons.value %}
+                <a href="{{ members.icon_link.value[forloop.index0] }}" class="social-link" target="_blank" rel="noopener">
+                  {{  image | img_url: width:25 | img_tag  }}
+                </a> 
+              {% endfor %}
+            </div>
+        </div>
+
+      </div>
+    {% endfor %}
+   
+  </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Team Members",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Section Title",
+      "default": "Our Team"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 180,
+      "step": 5,
+      "unit": "px",
+      "label": "Padding Top",
+      "default": 30
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 180,
+      "step": 5,
+      "unit": "px",
+      "label": "Padding Bottom",
+      "default": 30
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding_top",
+      "min": 0,
+      "max": 180,
+      "step": 5,
+      "unit": "px",
+      "label": "Mobile Padding Top",
+      "default": 30
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding_bottom",
+      "min": 0,
+      "max": 180,
+      "step": 5,
+      "unit": "px",
+      "label": "Mobile Padding Bottom",
+      "default": 30
+    }
+  ],
+  "blocks": [
+    {
+      "type": "team_member",
+      "name": "Team Member",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Member Photo"
+        },
+        {
+          "type": "text",
+          "id": "name",
+          "label": "Name"
+        },
+        {
+          "type": "text",
+          "id": "position",
+          "label": "Position"
+        },
+        {
+          "type": "url",
+          "id": "facebook",
+          "label": "Facebook URL"
+        },
+        {
+          "type": "url",
+          "id": "linkedin",
+          "label": "linkedin URL"
+        },
+        {
+          "type": "url",
+          "id": "instagram",
+          "label": "Instagram URL"
+        },
+        {
+          "type": "url",
+          "id": "email",
+          "label": "Email URL"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Team Members",
+      "category": "Team"
+    }
+  ]
+}
+{% endschema %}

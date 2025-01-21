@@ -1,0 +1,22 @@
+.multicolumn-collection-boxes .media--square img {
+  object-fit: contain;
+}
+
+.multicolumn-collection-boxes .multicolumn-card__image-wrapper {
+  border-radius: 16px;
+  box-shadow: 0px 0px 40px 0px #00000014;
+}
+
+.multicolumn-collection-boxes .inline-richtext {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.multicolumn-card {
+  text-decoration: none;
+  color: inherit;
+}
+
+.multicolumn-collection-boxes .multicolumn-card__info {
+  padding: 2.4rem 2.4rem 0;
+}

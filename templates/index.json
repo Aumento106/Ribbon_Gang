@@ -1,0 +1,590 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_text_slider_HkQX47": {
+      "type": "image-text-slider",
+      "blocks": {
+        "slide_LHpFNR": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/banner-slide-img.png",
+            "logo_image": "shopify://shop_images/sterirock-logo.png",
+            "star_rating": 4.5,
+            "review_text": "4.5 (330Reviews)",
+            "heading": "<p>Gold Standard Clinical Storage For <strong>Healthcare</strong></p>",
+            "text": "<p>High quality components mix and match to create modular clinical storege solutions, tailored exactly to your requirements.</p><p>STERIRACK®  System is used to create fully integrated room installations, and workstation, benches and trolleys.</p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify://collections/all",
+            "button_style_secondary": false
+          }
+        },
+        "slide_7RNfbg": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/banner-slide-img.png",
+            "logo_image": "shopify://shop_images/sterirock-logo.png",
+            "star_rating": 2.5,
+            "review_text": "4.5 (330Reviews)",
+            "heading": "<p>Gold Standard Clinical Storage For <strong>Healthcare</strong></p>",
+            "text": "<p>High quality components mix and match to create modular clinical storege solutions, tailored exactly to your requirements.</p><p>STERIRACK®  System is used to create fully integrated room installations, and workstation, benches and trolleys.</p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify://collections/all",
+            "button_style_secondary": false
+          }
+        },
+        "slide_fqRC9F": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/banner-slide-img.png",
+            "logo_image": "shopify://shop_images/sterirock-logo.png",
+            "star_rating": 4.5,
+            "review_text": "4.5 (330Reviews)",
+            "heading": "<p>Gold Standard Clinical Storage For <strong>Healthcare</strong></p>",
+            "text": "<p>High quality components mix and match to create modular clinical storege solutions, tailored exactly to your requirements.</p><p>STERIRACK®  System is used to create fully integrated room installations, and workstation, benches and trolleys.</p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify://collections/all",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_LHpFNR",
+        "slide_7RNfbg",
+        "slide_fqRC9F"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "layout": "text_first",
+        "content_layout": "no-overlap",
+        "height": "adapt",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "section_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "title_highlight_color": "#ffce00",
+        "slides_per_view_tablet": 2,
+        "slides_per_view_desktop": 1,
+        "enable_loop": true,
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "show_navigation": false,
+        "show_pagination": true,
+        "arrow_color": "#000000",
+        "dot_color": "#000000",
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
+    },
+    "key_message_Ccdzez": {
+      "type": "key-message",
+      "settings": {
+        "title": "TAILORED CLINICAL STORAGE SOLUTIONS FOR HEALTHCARE",
+        "description": "<p>The gold standard for hospitals, medical centers and aged care</p>",
+        "heading_size": "h1",
+        "content_alignment": "center",
+        "color_scheme": "scheme-28b9a3ce-e916-452a-9440-95fefcedbf92",
+        "bg_color": "#424242",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_collection_JTkHK9": {
+      "type": "multicolumn-collection",
+      "blocks": {
+        "column_YRtQ7i": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/sterirack-system.png",
+            "title": "STERIRACK® System",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3CgiJG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/sterirack-baskets.png",
+            "title": "STERIRACK® Baskets",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_nVXJPp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/sterirack-shelving.png",
+            "title": "STERIRACK® Shelving",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_YRtQ7i",
+        "column_3CgiJG",
+        "column_nVXJPp"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection_EKGb6j": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured <strong>collection</strong>",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "featured-collection",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-28b9a3ce-e916-452a-9440-95fefcedbf92",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "learnmore",
+        "learn_more_button_text": "Learn More",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
+    },
+    "multicolumn_pages_box_VCT8HN": {
+      "type": "multicolumn-pages-box",
+      "blocks": {
+        "column_gjEbxV": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/sterirack-system.png",
+            "title": "Projects",
+            "text": "",
+            "link_label": "",
+            "link": "#"
+          }
+        },
+        "column_iprATb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/applications-page-img.png",
+            "title": "Applications",
+            "text": "",
+            "link_label": "",
+            "link": "#"
+          }
+        },
+        "column_bEUKAT": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/product-page-img.png",
+            "title": "Products",
+            "text": "",
+            "link_label": "",
+            "link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "column_gjEbxV",
+        "column_iprATb",
+        "column_bEUKAT"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "border_color": "#424242",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_v1_CK3fUJ": {
+      "type": "image-with-text-v1",
+      "blocks": {
+        "heading_CyGH6Q": {
+          "type": "heading",
+          "settings": {
+            "heading": "About us",
+            "heading_size": "h1"
+          }
+        },
+        "caption_RdyUkV": {
+          "type": "caption",
+          "settings": {
+            "caption": "Welcome to <strong>SpaceLogic</strong> Group",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        },
+        "text_YzkzXq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>the authoritative experts in clinical healthcare storage solutions for the healthcare sector. Over 35 years SpaceLogic has grown from a small family firm into an acknowledged leader in healthcare space management. </p><p>We have built an enviable reputation by providing a complete service to our clients, suppling project design, planning and installation services, and our own innovative and customizable range of products.</p><p>Our head office is located in Orange NSW, where our team of professionals work with single-minded focus to increase patient care time, improve infection control and maximize available space.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_xWPXRk": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read More",
+            "button_link": "#",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_CyGH6Q",
+        "caption_RdyUkV",
+        "text_YzkzXq",
+        "button_xWPXRk"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/home-about-us.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_v1_tjigzf": {
+      "type": "image-with-text-v1",
+      "blocks": {
+        "heading_ggfYhJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "New <strong>Products</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "caption_4DDFCN": {
+          "type": "caption",
+          "settings": {
+            "caption": "What is Lorem Ipsum?",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        },
+        "text_D8Fi3n": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_9D34tn": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read More",
+            "button_link": "#",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_ggfYhJ",
+        "caption_4DDFCN",
+        "text_D8Fi3n",
+        "button_9D34tn"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/SpaceLogic-Sterirack.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_services_box_FEbT7G": {
+      "type": "multicolumn-services-box",
+      "blocks": {
+        "column_nq4xKL": {
+          "type": "column",
+          "settings": {
+            "icon": "shopify://shop_images/project-consultation.svg",
+            "heading": "Project consultation and room design",
+            "text": "<p>Each client receives a tailored storage solution that maximizes storage capacity within the available space, and suits its application. All stakeholder needs are incorporated in the design and planning of a new STERIRACK® System installation.</p>"
+          }
+        },
+        "column_BrzGgm": {
+          "type": "column",
+          "settings": {
+            "icon": "shopify://shop_images/bulb-icon.svg",
+            "heading": "Product customization and continuous innovation",
+            "text": "<p>We specialize in custom storage solutions for healthcare, and our STERIRACK® System and MEDIBIN™ ranges are exclusive to SpaceLogic. Liaise with our designers to have custom components and accessories created to meet your specific needs.</p>"
+          }
+        },
+        "column_byiDxM": {
+          "type": "column",
+          "settings": {
+            "icon": "shopify://shop_images/setting-icon.svg",
+            "heading": "Project management and installation",
+            "text": "<p>Our expert installation team specializes in fast, no-fuss storage installations with minimal interruptions to everyday operations or other trades. Our team travels nationally and internationally, or project manages local tradespeople.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "column_nq4xKL",
+        "column_BrzGgm",
+        "column_byiDxM"
+      ],
+      "settings": {
+        "sec_title": "<p>Three interconnected divisions, delivering a complete end-to-end <strong>Service</strong></p>",
+        "title_alignment": "center",
+        "color_scheme": "scheme-28b9a3ce-e916-452a-9440-95fefcedbf92",
+        "icon_bg_color": "#5a5a5a",
+        "border_color": "#eeeeee",
+        "columns_desktop": 3,
+        "columns_alignment": "left",
+        "columns_mobile": "1",
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
+    },
+    "spacelogic_commitment_9ixh9w": {
+      "type": "spacelogic-commitment",
+      "blocks": {
+        "column_3FXqDq": {
+          "type": "column",
+          "settings": {
+            "heading": "CARING",
+            "text": "<p>We care for customers and staff alike. We are all part of the SpaceLogic family.</p>"
+          }
+        },
+        "column_iJqKeK": {
+          "type": "column",
+          "settings": {
+            "heading": "RESPECTFUL",
+            "text": "<p>Deep regard for each others abilities, qualities and achievements. Treating our clients the way we like to be treated ourselves.</p>"
+          }
+        },
+        "column_mmYrx9": {
+          "type": "column",
+          "settings": {
+            "heading": "COMMITTED",
+            "text": "<p>100% effort 100% of the time. We stand firmly behind our brand.</p>"
+          }
+        },
+        "column_Eii8YR": {
+          "type": "column",
+          "settings": {
+            "heading": "PRO-ACTIVE",
+            "text": "<p>Industry experts, pioneers and leaders. We're No.1 in the game and remain ahead of the curve.</p>"
+          }
+        },
+        "column_pmjD6n": {
+          "type": "column",
+          "settings": {
+            "heading": "PASSIONATE",
+            "text": "<p>We love what we do. Our clients love what we do.</p>"
+          }
+        },
+        "column_JJLnaV": {
+          "type": "column",
+          "settings": {
+            "heading": "PROFESSIONAL",
+            "text": "<p>Continually striving for higher standards. Completing tasks the right way at the right time.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "column_3FXqDq",
+        "column_iJqKeK",
+        "column_mmYrx9",
+        "column_Eii8YR",
+        "column_pmjD6n",
+        "column_JJLnaV"
+      ],
+      "settings": {
+        "sec_title": "<p>The SpaceLogic <strong>Commitment</strong></p>",
+        "title_alignment": "center",
+        "color_scheme": "",
+        "color_scheme_box": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
+        "columns_desktop": 3,
+        "columns_alignment": "center",
+        "columns_mobile": "1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "testimonial_MUVEXK": {
+      "type": "testimonial",
+      "blocks": {
+        "heading_jiNRbL": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Listen from our Happy <strong>Customers</strong></p>",
+            "heading_size": "h1"
+          }
+        },
+        "testimonial_aPewpj": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial_text": "<p>Everything was scattered everywhere. Seeing everything organized and systematic is such a relief for us, especially for the nurses. For infection control it ticks all the boxes - there’s no dust, it’s easy to clean. We couldn’t have asked for anything more, there’s only praise for it.</p>",
+            "author_image": "shopify://shop_images/testimonial-dp.png",
+            "author_name": "Josh Farrington",
+            "author_title": "Innovation Manager, Cabrini Technology Group"
+          }
+        },
+        "testimonial_RP8Pmz": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial_text": "<p>Everything was scattered everywhere. Seeing everything organized and systematic is such a relief for us, especially for the nurses. For infection control it ticks all the boxes - there’s no dust, it’s easy to clean. We couldn’t have asked for anything more, there’s only praise for it.</p>",
+            "author_image": "shopify://shop_images/testimonial-dp.png",
+            "author_name": "Josh Farrington",
+            "author_title": "Innovation Manager, Cabrini Technology Group"
+          }
+        }
+      },
+      "block_order": [
+        "heading_jiNRbL",
+        "testimonial_aPewpj",
+        "testimonial_RP8Pmz"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/testimonial-img.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "enable_loop": true,
+        "show_navigation": true,
+        "show_pagination": false,
+        "arrow_color": "#000000",
+        "dot_color": "#000000",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "featured_blog_93BJwt": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Latest news from <strong>SpaceLogic</strong>",
+        "heading_size": "h1",
+        "title_alignment": "center",
+        "blog": "news",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "newsletter_8hYyN9": {
+      "type": "newsletter",
+      "blocks": {
+        "email_form_ydJARq": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "email_form_ydJARq"
+      ],
+      "settings": {
+        "color_scheme": "scheme-28b9a3ce-e916-452a-9440-95fefcedbf92",
+        "full_width": false,
+        "heading": "<strong>Subscribe</strong> to receive  updates and product releases",
+        "text": "<p>*The shape of the wire loops in wire loop baskets and bins is used as a shape trade mark.</p>",
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
+    },
+    "product_catalog_jUgXDj": {
+      "type": "product-catalog",
+      "settings": {
+        "product_image": "shopify://shop_images/product-catalog.png",
+        "heading": "Product Catalog 2024",
+        "heading_highlight_color": "#FFD700",
+        "description": "<p>Click the link to view our comprehensive product and services catalog. View in a browser window without the need for a download.</p>",
+        "button_1_text": "View Catalog",
+        "button_1_link": "#",
+        "button_2_text": "Download Catalog",
+        "button_2_link": "#"
+      }
+    }
+  },
+  "order": [
+    "image_text_slider_HkQX47",
+    "key_message_Ccdzez",
+    "multicolumn_collection_JTkHK9",
+    "featured_collection_EKGb6j",
+    "multicolumn_pages_box_VCT8HN",
+    "image_with_text_v1_CK3fUJ",
+    "image_with_text_v1_tjigzf",
+    "multicolumn_services_box_FEbT7G",
+    "spacelogic_commitment_9ixh9w",
+    "testimonial_MUVEXK",
+    "featured_blog_93BJwt",
+    "newsletter_8hYyN9",
+    "product_catalog_jUgXDj"
+  ]
+}

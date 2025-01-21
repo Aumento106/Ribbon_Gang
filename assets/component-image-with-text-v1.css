@@ -1,0 +1,50 @@
+.subtitle--small.subtitle {
+  font-size: 20px;
+}
+
+.subtitle--large.subtitle {
+  font-size: 28px;
+}
+
+.title.h2 {
+  font-size: 44px;
+}
+
+.title.h0 {
+  font-size: 50px;
+}
+
+.title.hxl {
+  font-size: 52px;
+}
+
+.title.hxxl {
+  font-size: 54px;
+}
+
+.image-with-text__content .image-with-text__text--caption {
+  margin-top: 3rem;
+}
+
+.image-with-text__content>*+* {
+  margin-top: 1.6rem;
+}
+
+.image-with-text__text p {
+  margin-bottom: 1.6rem;
+}
+
+.image-with-text__media-item {
+  border-radius: 16px 0 0 16px;
+  overflow: hidden;
+}
+
+.image-with-text__grid--reverse .image-with-text__content {
+  padding: 0 5rem 0 0;
+}
+
+@media screen and (min-width: 990px) {
+  .image-with-text__text-item .image-with-text__content {
+      padding: 0 3.5rem 0 5rem;
+  }
+}

@@ -1,0 +1,164 @@
+.section-title-alignment-left {
+  text-align: left;
+}
+
+.section-title-alignment-center {
+  text-align: center;
+}
+
+.section-title-alignment-right {
+  text-align: right;
+}
+
+.multicolumn-services .title {
+  max-width: 1030px;
+  margin: 0 auto;
+  text-transform: unset;
+}
+
+.services-icon-heading {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2.4rem;
+  margin: 0 0 3rem;
+}
+
+.services-icon-heading .subtitle {
+  flex: 1;
+}
+
+.column-alignment-left .multicolumn-services__item .rte {
+  text-align: left;
+}
+
+.column-alignment-center .multicolumn-services__item .rte {
+  text-align: center;
+}
+
+.column-alignment-right .multicolumn-services__item .rte {
+  text-align: right;
+}
+
+.column-alignment-center .services-icon-heading {
+  justify-content: center;
+
+}
+.column-alignment-right .services-icon-heading {
+  justify-content: end;
+}
+
+.multicolumn-services__item {
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+}
+
+.multicolumn-services__item.grid__item {
+  padding: 2.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.multicolumn-services__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 1;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.multicolumn-services__icon img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.multicolumn-services__item h3 {
+  margin: 0;
+}
+
+.multicolumn-services__item .rte {
+  margin: 0;
+}
+
+/* Grid Classes */
+.multicolumn-services .grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.multicolumn-services .grid__item {
+  flex: 0 0 auto;
+}
+
+/* Desktop Grid */
+.multicolumn-services .grid--1-col-desktop .grid__item {
+  width: 100%;
+}
+
+.multicolumn-services .grid--2-col-desktop .grid__item {
+  width: calc(50% - var(--grid-desktop-horizontal-spacing) * 2 / 3);
+}
+
+.multicolumn-services .grid--4-col-desktop .grid__item {
+  width: calc(25% - var(--grid-desktop-horizontal-spacing) * 2 / 3);
+}
+
+/* Tablet Breakpoint */
+@media screen and (max-width: 989px) {
+  .multicolumn-services {
+    padding: 40px 0;
+  }
+
+  /* .multicolumn-services__grid {
+    row-gap: 2rem;
+    column-gap: 2rem;
+  } */
+
+  .multicolumn-services .grid--2-col-desktop .grid__item,
+  .multicolumn-services .grid--3-col-desktop .grid__item,
+  .multicolumn-services .grid--4-col-desktop .grid__item {
+    width: calc(50% - var(--grid-desktop-horizontal-spacing) / 2);
+  }
+}
+
+/* Mobile Breakpoint */
+@media screen and (max-width: 749px) {
+  .multicolumn-services {
+    padding: 30px 0;
+  }
+
+  .multicolumn-services .grid--1-col-mobile .grid__item {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  /* .grid--2-col-mobile .grid__item {
+    width: calc(50% - var(--grid-mobile-horizontal-spacing) / 2);
+  } */
+
+  .services-icon-heading .subtitle {
+    flex: auto;
+  }
+
+  .services-icon-heading {
+    gap: 1.5rem;
+    margin: 0 0 1.5rem;
+  }
+
+  .multicolumn-services__item.grid__item {
+    padding: 1.5rem;
+  }
+  
+  .multicolumn-services__icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .multicolumn-services__icon img {
+    width: 28px;
+    height: 28px;
+  }
+}

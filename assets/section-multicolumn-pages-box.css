@@ -1,0 +1,30 @@
+.multicolumn-card .multicolumn-card-spacing {
+  padding-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.multicolumn-card .multicolumn-card__image-wrapper {
+  box-shadow: 0px 0px 40px 0px #0000001A;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.multicolumn-card .multicolumn-card__info {
+  margin-top: 2.4rem;
+  padding: 1.6rem;
+  border-radius: 4px;
+  border: 1px solid var(--border-color);
+  transition: all .3s ease-in-out;
+}
+
+.multicolumn-card__info .inline-richtext {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.17;
+}
+
+.multicolumn-card__info:hover {
+  background-color: var(--button-hover-background-color);
+  border-color: var(--button-hover-background-color);
+}

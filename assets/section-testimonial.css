@@ -1,0 +1,112 @@
+/* Testimonial Slider Styles */
+.testimonial-slider {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  margin: 0;
+  padding-bottom: 100px;
+}
+
+.testimonial-slides {
+  box-sizing: border-box;
+}
+
+.testimonial-slide {
+  min-width: 100%;
+  padding: 3rem;
+  background: #FFCE001A;
+  border: 1px solid var(--primary-theme-color);
+  border-radius: 16px;
+}
+
+.testimonial-content {
+  margin-bottom: 4rem;
+}
+
+.testimonial-content p {
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+
+.testimonial-author {
+  display: flex;
+  align-items: center;
+  gap: 1.3rem;
+}
+
+.testimonial-author-image {
+  height: 70px;
+  border-radius: 50%;
+  overflow: hidden;
+  aspect-ratio: 1;
+  box-shadow: 0px 0px 40px 0px #00000014;
+}
+
+.testimonial-author-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.testimonial-author-info {
+  flex: 1;
+}
+
+.testimonial-author-name {
+  margin: 0 0 1rem;
+}
+
+.testimonial-author-title {
+  margin: 0;
+}
+
+.testimonial-slider .swiper-button {
+  top: unset;
+  bottom: 0;
+}
+
+.testimonial-slider .swiper-button-prev {
+  left: 0;
+  right: auto;
+}
+
+.testimonial-slider .swiper-button-next {
+  right: auto;
+  left: 74px;
+}
+
+.image-with-text__grid--reverse .image-with-text__content {
+  padding: 0;
+}
+
+.testimonial .title.image-with-text__heading {
+  max-width: 430px;
+  text-transform: unset;
+}
+
+
+@media screen and (max-width: 749px) {
+  .testimonial-content {
+    font-size: 1rem;
+  }
+  
+  .testimonial-author-image {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .testimonial .image-with-text__grid.grid {
+      --grid-desktop-horizontal-spacing: 8.2rem;
+  }
+  .testimonial .grid--2-col-tablet .grid__item.image-with-text__media-item {
+      width: calc(48% - var(--grid-desktop-horizontal-spacing) / 2);
+  }
+  .testimonial .grid--2-col-tablet .grid__item.image-with-text__text-item {
+      width: calc(52% - var(--grid-desktop-horizontal-spacing) / 2);
+  }
+  .testimonial .image-with-text__media-item img {
+    object-fit: contain;
+  }
+}

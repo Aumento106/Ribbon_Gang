@@ -1,0 +1,83 @@
+.newsletter__wrapper > * {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.newsletter__wrapper > * + * {
+  margin-top: 2rem;
+}
+
+.newsletter__wrapper > * + .newsletter-form {
+  margin-top: 3rem;
+}
+
+.newsletter__subheading {
+  max-width: 70rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.newsletter__wrapper .newsletter-form__field-wrapper {
+  max-width: 100%;
+}
+
+.newsletter-form__field-wrapper .newsletter-form__message {
+  margin-top: 1.5rem;
+}
+
+.newsletter__button {
+  margin-top: 3rem;
+  width: fit-content;
+}
+
+@media screen and (min-width: 750px) {
+  .newsletter__button {
+    flex-shrink: 0;
+    margin: 0 0 0 1rem;
+  }
+
+  .newsletter .grid {
+    --grid-desktop-horizontal-spacing: 8.8rem;
+  }
+}
+
+.newsletter-heading-con .title {
+  margin: 0 0 4rem;
+}
+
+.newsletter .newsletter-form {
+  max-width: 100%;
+}
+
+.newsletter .field__label {
+  position: static;
+  display: block;
+  margin-bottom: 0.8rem;
+  font-weight: 500;
+  color: rgb(var(--color-foreground));
+  letter-spacing: 0;
+}
+
+.newsletter .field__input {
+  border: 1px solid rgb(var(--color-foreground));
+  border-radius: 4px;
+  height: 6rem;
+}
+
+.newsletter .field__button {
+  position: static;
+}
+
+.subscribe-btn {
+  margin: 4rem 0 0;
+}
+
+.input_field {
+  margin: 0 0 1.6rem;
+}
+
+.field__input:focus, .field__input:not(:placeholder-shown), .field__input:-webkit-autofill, .customer .field input:focus, .customer .field input:not(:placeholder-shown), .customer .field input:-webkit-autofill {
+  padding: 1.5rem;
+  margin: var(--inputs-border-width);
+  box-shadow: none;
+}

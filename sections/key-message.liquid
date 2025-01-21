@@ -1,0 +1,135 @@
+{{ 'section-key-message.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+
+{%- endstyle -%}
+
+<div class="key-message-sec section-{{ section.id }} section-{{ section.id }}-padding">
+  <div class="key-message-wrapper gradient color-{{ section.settings.color_scheme }}">
+    <div class="key-message-con content-alignment-{{ section.settings.content_alignment }}">
+      <h3 class="key-message-con-title {{ section.settings.heading_size }}">{{ section.settings.title }}</h3>
+      <div class="key-message-con-des">{{ section.settings.description }}</div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Key Message",
+    "tag": "section",
+    "class": "section",
+    "disabled_on": {
+      "groups": ["header", "footer"]
+    },
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "TAILORED CLINICAL STORAGE SOLUTIONS FOR HEALTHCARE"
+      },
+      {
+        "type": "richtext",
+        "id": "description",
+        "label": "Description",
+        "default": "<p>The gold standard for hospitals, medical centers and aged care</p>"
+      },
+      {
+        "type": "select",
+        "id": "heading_size",
+        "options": [
+          {
+            "value": "h2",
+            "label": "Small"
+          },
+          {
+            "value": "h1",
+            "label": "Medium"
+          },
+          {
+            "value": "h0",
+            "label": "Large"
+          }
+        ],
+        "default": "h1",
+        "label": "Heading Size"
+      },
+      {
+        "type": "select",
+        "id": "content_alignment",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ],
+        "default": "center",
+        "label": "Content alignment"
+      },
+      {
+        "type": "header",
+        "content": "Color Settings"
+      },
+      {
+        "type": "color_scheme",
+        "id": "color_scheme",
+        "label": "Section colors",
+        "default": "scheme-1"
+      },
+      {
+        "type": "color",
+        "id": "bg_color",
+        "label": "Background color",
+        "default": "#424242"
+      },
+      {
+        "type": "header",
+        "content": "Section Padding"
+      },
+      {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "Padding top",
+        "default": 36
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "Padding bottom",
+        "default": 36
+      }
+    ],
+    "presets": [
+    {
+      "name": "Key Message"
+    }
+  ]
+  }
+{% endschema %}

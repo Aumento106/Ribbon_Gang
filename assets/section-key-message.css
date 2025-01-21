@@ -1,0 +1,79 @@
+.key-message-wrapper {
+  position: relative;
+  overflow: hidden;
+  padding: 30px 0;
+}
+
+.key-message-wrapper::after, .key-message-wrapper::before {
+  content: "";
+  display: inline-block;
+  width: 350px;
+  height: 100%;
+  background: url(https://cdn.shopify.com/s/files/1/0657/3388/6106/files/Intersect.png?v=1736768266) no-repeat center;
+  position: absolute;
+  top: 0;
+}
+
+.key-message-wrapper::after {
+  right: 0;
+}
+
+.key-message-wrapper::before {
+  transform: scaleX(-1);
+  left: 0;
+}
+
+.key-message-con {
+  max-width: calc(100% - 700px);
+  margin: 0 auto;
+}
+
+.content-alignment-left {
+  text-align: left;
+}
+
+.content-alignment-center {
+  text-align: center;
+}
+
+.content-alignment-right {
+  text-align: right;
+}
+
+.key-message-con-title {
+  font-family: var(--font-body-family);
+  line-height: 1.17;
+  font-weight: 500;
+  margin: 0 0 1.6rem;
+  text-transform: uppercase;
+}
+
+.key-message-con-title.h1 {
+  font-size: 26px;
+}
+
+.key-message-con-title.h2 {
+  font-size: 22px;
+}
+
+.key-message-con-title.h0 {
+  font-size: 30px;
+}
+
+.key-message-con-des {
+  font-size: 20px;
+  line-height: 1.15;
+  margin: 0;
+}
+
+.key-message-con-des p {
+  margin: 0 0 10px;
+}
+
+.key-message-con-des p:last-child {
+  margin: 0;
+}
+
+.key-message-con-des p {
+  margin-top: 0;
+}

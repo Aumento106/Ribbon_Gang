@@ -1,0 +1,148 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "rich_text_JnqVHT": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_7BaPBj": {
+          "type": "heading",
+          "settings": {
+            "heading": "Meet <strong>Our Team</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_3wXfL4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The tireless and dynamic SpaceLogic team is dedicated to Healthcare. Our mission is to provide a fresh new approach, and premium advice and expertise to hospitals, medical centers and other clinical facilities. By combining the specialist skills of our entire team, we create a cohesive whole to give you individual attention, dedicated commitment and a result superior to any other.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_7BaPBj",
+        "text_3wXfL4"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-28b9a3ce-e916-452a-9440-95fefcedbf92",
+        "full_width": true,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "team_GF978q": {
+      "type": "team",
+      "blocks": {
+        "team_member_EcAJpU": {
+          "type": "team_member",
+          "settings": {
+            "image": "shopify://shop_images/Ellipse_1.png",
+            "name": "Adam Piech",
+            "position": "Product Sales Manager (AU)",
+            "facebook": "#",
+            "linkedin": "#",
+            "instagram": "#",
+            "email": "#"
+          }
+        },
+        "team_member_8WtkmQ": {
+          "type": "team_member",
+          "settings": {
+            "image": "shopify://shop_images/testimonial-dp.png",
+            "name": "Adam Piech",
+            "position": "Product Sales Manager (AU)",
+            "facebook": "#",
+            "linkedin": "#",
+            "instagram": "#",
+            "email": "#"
+          }
+        },
+        "team_member_mrEWxn": {
+          "type": "team_member",
+          "settings": {
+            "image": "shopify://shop_images/testimonial-dp.png",
+            "name": "Adam Piech",
+            "position": "Product Sales Manager (AU)",
+            "facebook": "#",
+            "linkedin": "#",
+            "instagram": "#",
+            "email": "#"
+          }
+        },
+        "team_member_L8dQXE": {
+          "type": "team_member",
+          "settings": {
+            "image": "shopify://shop_images/testimonial-dp.png",
+            "name": "Adam Piech",
+            "position": "Product Sales Manager (AU)",
+            "facebook": "#",
+            "linkedin": "#",
+            "instagram": "#",
+            "email": "#"
+          }
+        },
+        "team_member_9AM8pm": {
+          "type": "team_member",
+          "settings": {
+            "image": "shopify://shop_images/testimonial-dp.png",
+            "name": "Adam Piech",
+            "position": "Product Sales Manager (AU)",
+            "facebook": "#",
+            "linkedin": "#",
+            "instagram": "#",
+            "email": "#"
+          }
+        },
+        "team_member_jbcX6b": {
+          "type": "team_member",
+          "settings": {
+            "image": "shopify://shop_images/testimonial-dp.png",
+            "name": "Adam Piech",
+            "position": "Product Sales Manager (AU)",
+            "facebook": "#",
+            "linkedin": "#",
+            "instagram": "#",
+            "email": "#"
+          }
+        }
+      },
+      "block_order": [
+        "team_member_EcAJpU",
+        "team_member_8WtkmQ",
+        "team_member_mrEWxn",
+        "team_member_L8dQXE",
+        "team_member_9AM8pm",
+        "team_member_jbcX6b"
+      ],
+      "settings": {
+        "title": "",
+        "padding_top": 140,
+        "padding_bottom": 150,
+        "mobile_padding_top": 100,
+        "mobile_padding_bottom": 50
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_JnqVHT",
+    "team_GF978q"
+  ]
+}

@@ -47,6 +47,21 @@
   --grid-desktop-horizontal-spacing: 5rem;
 }
 
+.video_yt {
+  border-radius: 16px;
+}
+.video_yt::after{
+  content: none;
+}
+.image-with-text .image-with-text__media-item  iframe{
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1 / 1;
+  max-height: 560px;
+  border-radius: 16px;
+}
+
+
 @media screen and (min-width: 1025px) {
   .image-with-text__text-item .image-with-text__content {
       padding: 0;

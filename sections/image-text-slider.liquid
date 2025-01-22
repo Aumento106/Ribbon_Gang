@@ -26,12 +26,8 @@
     --title-highlight-color: {{ section.settings.title_highlight_color }}
   }
 
-  .swiper-button-next,
-  .swiper-button-prev {
-    color: {{ section.settings.arrow_color }};
-  }
 
-  .swiper-pagination-bullet-active {
+  .custom-pagination-bullet {
     background: {{ section.settings.dot_color }};
   }
 
@@ -76,7 +72,7 @@
 -%}
 
 <div class="image-with-text-slider-wrapper section-{{ section.id }} section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}">
-  <div class="page-width">
+  <div class="page-width_a">
     {%- if section.settings.heading != blank -%}
       <div class="sec-head title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin">
         <h2 class="sec-title title {{ section.settings.heading_size }}">
@@ -138,9 +134,14 @@
                             {{ block.settings.button_label | escape }}
                           </a>
                         {%- endif -%}
+
                         {%- if block.settings.offer_code_txt != blank -%}
-                          <div class="offer-code button button--secondary">{{ block.settings.offer_code_txt }}</div>
+                          <div class="offer-code button button--secondary" onclick="copyCode(this)" data-code="{{ block.settings.offer_code_txt }}">
+                            <span class="copy_code_hide">Code: {{ block.settings.offer_code_txt }}</span>
+                            <span class="copy-tooltip">Click to copy</span>
+                          </div>
                         {%- endif -%}
+
                       </div>
                     </div>
                   </div>
@@ -149,49 +150,73 @@
             </div>
           {%- endfor -%}
         </div>
+        
+        {% comment %} {%- if section.settings.show_pagination -%}
+          <div class="swiper-pagination page-width"></div>
+        {%- endif -%} {% endcomment %}
 
-      {%- if section.settings.show_navigation -%}
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-      {%- endif -%}
+        {%- if section.settings.show_pagination -%}
+          <div class="custom-pagination page-width">
+            {%- for block in section.blocks -%}
+              <div class="custom-pagination-bullet{% if forloop.first %} active{% endif %}" data-index="{{ forloop.index0 }}">{{ forloop.index0 }}</div>
+            {%- endfor -%}
+          </div>
+        {%- endif -%}
 
-      {%- if section.settings.show_pagination -%}
-        <div class="swiper-pagination"></div>
-      {%- endif -%}
     </div>
   </div>
 </div>
 
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-    new Swiper('.image-with-text-slider', {
-    slidesPerView: 1,
-    spaceBetween: 30,
-    loop: {{ section.settings.enable_loop | json }},
-    autoplay: {% if section.settings.autoplay %}{ 
-      delay: {{ section.settings.autoplay_speed | times: 1000 }},
-      disableOnInteraction: false
-    }{% else %}false{% endif %},
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true
-    },
-    breakpoints: {
-      750: {
-        slidesPerView: {{ section.settings.slides_per_view_tablet }},
-        spaceBetween: 20
-      },
-      990: {
-        slidesPerView: {{ section.settings.slides_per_view_desktop }},
-        spaceBetween: 30
-      }
-    }
+  document.addEventListener('DOMContentLoaded', function() {
+    const slider = new Swiper('.image-with-text-slider', {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: false,
+      autoplay: {% if section.settings.autoplay %}{ 
+        delay: {{ section.settings.autoplay_speed | times: 1000 }},
+        disableOnInteraction: false
+      }{% else %}false{% endif %},
+    });
+
+    const bullets = document.querySelectorAll('.custom-pagination-bullet');
+    
+    bullets.forEach(bullet => {
+      bullet.addEventListener('click', () => {
+        const index = parseInt(bullet.dataset.index);
+        slider.slideTo(index);
+        
+        // Update active state
+        bullets.forEach(b => b.classList.remove('active'));
+        bullet.classList.add('active');
+      });
+    });
+
+    // Update pagination on slide change
+    slider.on('slideChange', function () {
+      bullets.forEach((bullet, index) => {
+        if (index === slider.activeIndex) {
+          bullet.classList.add('active');
+        } else {
+          bullet.classList.remove('active');
+        }
+      });
+    });
   });
-});
+
+  function copyCode(element) {
+  const code = element.getAttribute('data-code');
+  navigator.clipboard.writeText(code).then(() => {
+    const tooltip = element.querySelector('.copy-tooltip');
+    tooltip.textContent = 'Copied!';
+    element.classList.add('copied');
+    
+    setTimeout(() => {
+      tooltip.textContent = 'Click to copy';
+      element.classList.remove('copied');
+    }, 2000);
+  });
+}
 </script>
 
 {% schema %}
@@ -388,12 +413,6 @@ document.addEventListener('DOMContentLoaded', function() {
     },
     {
       "type": "checkbox",
-      "id": "enable_loop",
-      "label": "Enable infinite loop",
-      "default": true
-    },
-    {
-      "type": "checkbox",
       "id": "autoplay",
       "label": "Enable autoplay",
       "default": false
@@ -410,21 +429,9 @@ document.addEventListener('DOMContentLoaded', function() {
     },
     {
       "type": "checkbox",
-      "id": "show_navigation",
-      "label": "Show navigation arrows",
-      "default": true
-    },
-    {
-      "type": "checkbox",
       "id": "show_pagination",
       "label": "Show pagination dots",
       "default": true
-    },
-    {
-      "type": "color",
-      "id": "arrow_color",
-      "label": "Arrow color",
-      "default": "#000000"
     },
     {
       "type": "color",

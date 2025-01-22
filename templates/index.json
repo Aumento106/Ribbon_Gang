@@ -19,9 +19,10 @@
             "offer_title": "<p><strong>Super Saver Offer</strong></p>",
             "offer_title_color": "#ffce00",
             "heading": "<p>Gold Standard Clinical Storage For <strong>Healthcare</strong></p>",
+            "heading_size": "h1",
             "text": "<p>High quality components mix and match to create modular clinical storege solutions, tailored exactly to your requirements.</p><p>STERIRACK®  System is used to create fully integrated room installations, and workstation, benches and trolleys.</p>",
             "button_label": "Shop Now",
-            "offer_code_txt": "Code: MEGASALE",
+            "offer_code_txt": "MEGASALE",
             "button_link": "shopify://collections/all",
             "button_style_secondary": false
           }
@@ -33,6 +34,7 @@
             "offer_title": "<p>Super Saver Offer</p>",
             "offer_title_color": "#ffce00",
             "heading": "<p>Gold Standard Clinical Storage For <strong>Healthcare</strong></p>",
+            "heading_size": "h1",
             "text": "<p>High quality components mix and match to create modular clinical storege solutions, tailored exactly to your requirements.</p><p>STERIRACK®  System is used to create fully integrated room installations, and workstation, benches and trolleys.</p>",
             "button_label": "Shop Now",
             "offer_code_txt": "Code: MEGASALE",
@@ -47,6 +49,7 @@
             "offer_title": "<p>Super Saver Offer</p>",
             "offer_title_color": "#ffce00",
             "heading": "<p>Gold Standard Clinical Storage For <strong>Healthcare</strong></p>",
+            "heading_size": "h1",
             "text": "<p>High quality components mix and match to create modular clinical storege solutions, tailored exactly to your requirements.</p><p>STERIRACK®  System is used to create fully integrated room installations, and workstation, benches and trolleys.</p>",
             "button_label": "Shop Now",
             "offer_code_txt": "Code: MEGASALE",
@@ -74,15 +77,12 @@
         "title_highlight_color": "#ffce00",
         "slides_per_view_tablet": 1,
         "slides_per_view_desktop": 1,
-        "enable_loop": true,
         "autoplay": false,
         "autoplay_speed": 5,
-        "show_navigation": false,
         "show_pagination": true,
-        "arrow_color": "#000000",
-        "dot_color": "#000000",
+        "dot_color": "#eeeeee",
         "padding_top": 32,
-        "padding_bottom": 72
+        "padding_bottom": 32
       }
     },
     "key_message_Ccdzez": {
@@ -208,6 +208,7 @@
       ],
       "settings": {
         "sec_title": "<p>Three interconnected divisions, delivering a complete end-to-end <strong>Service</strong></p>",
+        "heading_size": "h1",
         "title_alignment": "center",
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "icon_bg_color": "#5a5a5a",
@@ -227,6 +228,7 @@
         "title_alignment": "center",
         "text": "<p>Whether for a new build, a major renovation or a rejuvenation of existing clinical store rooms, all stakeholders are consulted in the design and planning of your new, tailored STERIRACK® System storage solution. During this phase you will meet with our expert project consultants, either in person or online, to work through the project brief and determine all the deliverables for the project. We pride ourselves on exceeding client expectations and meeting project timelines. We then design a tailored solution, using our own gold standard, modular STERIRACK® range – a solution that will exactly suit your application and room dimensions. Floor plans are created to demonstrate achievable storage capacity as well as other efficiencies you will achieve. Photorealistic images can be produced on request. Once every aspect of the project has been agreed upon and approved, your project is placed in the hands of our expert project management and installation team, who will seamlessly create, deliver and install your brand new clinical storage solution. You’ll never look back!</p>",
         "image": "shopify://shop_images/project-consultation.png",
+        "border_radius": 0,
         "full_width": true,
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "padding_top": 0,
@@ -334,6 +336,7 @@
         "image": "shopify://shop_images/home-about.png",
         "height": "adapt",
         "desktop_image_width": "medium",
+        "full_width": true,
         "video_url": "",
         "enable_video_looping": false,
         "layout": "image_first",
@@ -404,6 +407,7 @@
       ],
       "settings": {
         "sec_title": "<p>The SpaceLogic <strong>Commitment</strong></p>",
+        "heading_size": "h1",
         "title_alignment": "center",
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "color_scheme_box": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
@@ -458,6 +462,7 @@
         "image": "shopify://shop_images/new-product-banner.png",
         "height": "adapt",
         "desktop_image_width": "medium",
+        "full_width": true,
         "video_url": "",
         "enable_video_looping": false,
         "layout": "text_first",

@@ -16,6 +16,10 @@
     margin: 0 0 3rem;
 }
 
+.project-consultation__heading p {
+  margin: 0;
+}
+
 .project-consultation__text {
   margin: 0;
 }
@@ -24,6 +28,7 @@
   display: flex;
   justify-content: center;
   width: 100%;
+  overflow: hidden;
 }
 
 .project-consultation__image-wrapper img {

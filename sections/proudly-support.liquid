@@ -25,7 +25,7 @@
   <div class="proudly-support__wrapper page-width">
     {%- if section.settings.heading != blank -%}
     <div class="sec-head section-title-alignment-{{ section.settings.title_alignment }}">
-      <h2 class="title">
+      <h2 class="title {{ section.settings.heading_size }}">
         {{ section.settings.heading }}
       </h2>
     </div>
@@ -62,6 +62,26 @@
       "id": "heading",
       "default": "<p>We proudly Support</p>",
       "label": "Section Title"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "Small"
+        },
+        {
+          "value": "h1",
+          "label": "Medium"
+        },
+        {
+          "value": "h0",
+          "label": "Large"
+        }
+      ],
+      "default": "h1",
+      "label": "Heading Size"
     },
     {
         "type": "select",

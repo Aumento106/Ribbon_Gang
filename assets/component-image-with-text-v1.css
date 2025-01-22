@@ -47,11 +47,11 @@
   --grid-desktop-horizontal-spacing: 5rem;
 }
 
-.image-with-text-v1 .image-with-text__text-item {
+.image-with-text-v1 .section-full-width .image-with-text__text-item {
   padding-right: calc(50% - var(--page-width)/2 + 5rem);
 }
 
-.image-with-text-v1 .image-with-text__grid--reverse .image-with-text__text-item {
+.image-with-text-v1 .section-full-width .image-with-text__grid--reverse .image-with-text__text-item {
   padding-left: calc(50% - var(--page-width)/2 + 5rem);
   padding-right: 0;
 }
@@ -114,11 +114,11 @@
     margin-top: 1rem;
   }
 
-  .image-with-text-v1 .image-with-text__text-item {
+  .image-with-text-v1 .section-full-width .image-with-text__text-item {
     padding: 0 1.5rem;
   }
 
-  .image-with-text-v1 .image-with-text__grid--reverse .image-with-text__text-item {
+  .image-with-text-v1 .section-full-width .image-with-text__grid--reverse .image-with-text__text-item {
     padding: 0 1.5rem;
   }
 }

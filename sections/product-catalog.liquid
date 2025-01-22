@@ -40,7 +40,7 @@
             </div>
           {% endif %}
           
-          <h2 class="title">
+          <h2 class="title {{ section.settings.heading_size }}">
             {{ section.settings.heading }}
           </h2>
           
@@ -89,6 +89,26 @@
       "id": "heading",
       "label": "Heading",
       "default": "<p>Product Catalog 2024</p>"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "Small"
+        },
+        {
+          "value": "h1",
+          "label": "Medium"
+        },
+        {
+          "value": "h0",
+          "label": "Large"
+        }
+      ],
+      "default": "h1",
+      "label": "Heading Size"
     },
     {
       "type": "color_scheme",

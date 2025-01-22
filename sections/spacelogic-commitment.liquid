@@ -27,7 +27,7 @@
   <div class="page-width section-{{ section.id }} section-{{ section.id }}-padding isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
     {% if section.settings.sec_title != blank %}
       <div class="sec-head section-title-alignment-{{ section.settings.title_alignment }}">
-        <h2 class="title">{{ section.settings.sec_title }}</h2>
+        <h2 class="title {{ section.settings.heading_size }}">{{ section.settings.sec_title }}</h2>
       </div>
     {% endif %}
     <div class="multicolumn-services__grid grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--2-col-tablet grid--{{ section.settings.columns_mobile }}-col column-alignment-{{ section.settings.columns_alignment }}">
@@ -57,6 +57,26 @@
       "id": "sec_title",
       "label": "Section Title",
       "default": "<p>Section Title</p>"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "Small"
+        },
+        {
+          "value": "h1",
+          "label": "Medium"
+        },
+        {
+          "value": "h0",
+          "label": "Large"
+        }
+      ],
+      "default": "h1",
+      "label": "Heading Size"
     },
     {
       "type": "select",

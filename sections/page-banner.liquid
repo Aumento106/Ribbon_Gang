@@ -42,7 +42,7 @@
         <div class="project-consultation__content section-title-alignment-{{ section.settings.title_alignment }}">
             <div class="page-width">
                 {%- if section.settings.heading != blank -%}
-                <h2 class="project-consultation__heading {{ section.settings.heading_size }}">
+                <h2 class="title {{ section.settings.heading_size }}">
                     {{ section.settings.heading }}
                 </h2>
                 {%- endif -%}
@@ -58,12 +58,12 @@
 
 {% schema %}
 {
-  "name": "Project Consultation",
+  "name": "Page Banner",
   "settings": [
     {
       "type": "richtext",
       "id": "heading",
-      "default": "<p>Project Consultation</p>",
+      "default": "<p>Section Title</p>",
       "label": "Heading"
     },
     {
@@ -109,7 +109,7 @@
     {
       "type": "richtext",
       "id": "text",
-      "default": "<p>Share information about your project consultation services.</p>",
+      "default": "<p>Share information about your page information.</p>",
       "label": "Text"
     },
     {
@@ -166,7 +166,7 @@
   ],
   "presets": [
     {
-      "name": "Project Consultation"
+      "name": "Page Banner"
     }
   ]
 }

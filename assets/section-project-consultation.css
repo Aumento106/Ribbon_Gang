@@ -38,10 +38,18 @@
   display: block;
 }
 
+.project-consultation__content .title {
+  margin-bottom: 20px;
+}
+
 @media screen and (min-width: 750px) {
   .project-consultation__wrapper {
     align-items: center;
     gap: 3rem;
+  }
+
+  .project-consultation__content .title {
+    margin-bottom: 30px;
   }
 }
 

@@ -1,0 +1,96 @@
+.project-list-sec .title {
+    margin-bottom: 30px;
+}
+
+.project-list-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+    padding: 20px 0;
+}
+
+.project-box {
+    padding: 4rem;
+    border: 1px solid #EEEEEE;
+    height: 100%;
+}
+
+.box-alignment-left {
+    text-align: left;
+}
+
+.box-alignment-center {
+    text-align: center;
+}
+
+.box-alignment-right {
+    text-align: right;
+}
+
+.project-logo {
+    display: inline-block;
+    margin: 0 0 3rem;
+    height: 60px;
+}
+
+.project-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.project-title {
+    font-family: var(--font-body-family);
+    margin: 0 0 1rem;
+}
+
+.project-location {
+    margin: 0 0 2.4rem;
+}
+
+.hospital-name {
+    font-size: 14px;
+    line-height: 1.17;
+    margin: 0;
+}
+
+@media screen and (max-width: 1366px) {
+    .project-box {
+        padding: 3rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .project-box {
+        padding: 2rem;
+    }
+
+    .project-logo {
+        margin: 0 0 2rem;
+        height: 50px;
+    }
+
+    .project-location {
+        margin: 0 0 2rem;
+    }
+}
+
+@media screen and (max-width: 989px) {
+    .project-list-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .project-location {
+        margin: 0 0 1.5rem;
+    }
+}
+
+@media screen and (max-width: 749px) {
+    .project-list-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .project-logo {
+        height: 40px;
+    }
+}

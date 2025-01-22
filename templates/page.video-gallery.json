@@ -12,19 +12,65 @@
     "page_banner_DR8Ha9": {
       "type": "page-banner",
       "settings": {
+        "sec_heading": "<p><strong>Video</strong> of the Week</p>",
+        "sec_heading_size": "h1",
+        "sec_title_alignment": "center",
         "heading": "<p>Wagga Wagga Base Hospital gets STERIRACK® Clean Utilities</p>",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "title_alignment": "center",
         "text": "<p>Watch to see how the Wagga Wagga Base Hospital redevelopment replaced traditional, out-dated joinery storage solutions with the latest innovative joinery-free STERIRACK® solution from Spacelogic. (25)</p>",
+        "video_url": "https://www.youtube.com/watch?v=oOnwnC2Tt3A",
+        "enable_video_looping": false,
         "border_radius": 16,
         "full_width": false,
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "padding_top": 72,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_video_TCdMgy": {
+      "type": "multicolumn-video",
+      "blocks": {
+        "column_YQH4WX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/video-1-poster.png",
+            "video_url": "https://www.youtube.com/watch?v=Xj3eSTFXtyE",
+            "enable_video_looping": false,
+            "title": "STERIRACK® Mobile Workstations for hospital anesthetic bays",
+            "text": "<p>Join Spacelogic’s Martin Scott, as he demonstrates a batch of STERIRACK® Mobile Workstations that we’ve just finished custom making for Bankstown Hospital to work in their anesthetic bays. (47)</p>"
+          }
+        },
+        "column_iB3nVQ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/video-2-poster.png",
+            "video_url": "https://www.youtube.com/watch?v=eUXvhXIjWRg",
+            "enable_video_looping": false,
+            "title": "Discover STERIRACK® Trolley features and accessories",
+            "text": "<p>Join Project Manager Matthew Scott as he demonstrates several STERIRACK® Trolleys in our range, and shows you some of the features and accessories available. (33)</p>"
+          }
+        }
+      },
+      "block_order": [
+        "column_YQH4WX",
+        "column_iB3nVQ"
+      ],
+      "settings": {
+        "title": "<p><strong>Video</strong> library</p>",
+        "heading_size": "h1",
+        "title_alignment": "center",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "columns_desktop": "3",
+        "box_shadow": false,
+        "box_color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "padding_top": 36,
         "padding_bottom": 36
       }
     }
   },
   "order": [
-    "page_banner_DR8Ha9"
+    "page_banner_DR8Ha9",
+    "multicolumn_video_TCdMgy"
   ]
 }

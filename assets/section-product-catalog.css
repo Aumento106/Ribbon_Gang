@@ -65,7 +65,7 @@
   }
 
   .product-image {
-    max-width: 65%;
+    max-width: 100%;
     margin: 0 auto;
   }
 
@@ -75,6 +75,11 @@
 
   .buttons {
     margin-top: 2rem;
+  }
+
+  .product-catalog-wrapper {
+    border-radius: 8px;
+    padding-bottom: 3px;
   }
 }
 

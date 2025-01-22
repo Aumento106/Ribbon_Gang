@@ -1,0 +1,200 @@
+{{ 'section-project-list.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.35 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.35 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top | times: 0.4 | round: 0 }}px;
+      padding-bottom: {{ section.settings.padding_bottom | times: 0.4 | round: 0 }}px;
+    }
+  }
+
+  @media screen and (min-width: 1025px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="project-list-sec section-{{ section.id }}-padding gradient color-{{ section.settings.color_scheme }}">
+    <div class="project-list-sec-wrapper page-width">
+        {%- if section.settings.heading != blank -%}
+            <h2 class="title {{ section.settings.heading_size }} section-title-alignment-{{ section.settings.title_alignment }}">
+                {{ section.settings.heading }}
+            </h2>
+        {%- endif -%}
+        <div class="project-list-grid box-alignment-{{ section.settings.box_alignment }}">
+            {%- for block in section.blocks -%}
+                <div class="project-box" {{ block.shopify_attributes }}>
+                    {% if block.settings.project_logo != blank %}
+                        <div class="project-logo">
+                            {{ block.settings.project_logo | image_url: width: 400 | image_tag }}
+                        </div>
+                    {% endif %}
+                    {% if block.settings.project_title != blank %}
+                        <h2 class="project-title subtitle">{{ block.settings.project_title }}</h2>
+                    {% endif %}
+                    {% if block.settings.project_location != blank %}
+                        <p class="project-location">{{ block.settings.project_location }}</p>
+                    {% endif %}
+                    {% if block.settings.hospital_name != blank %}
+                        <p class="hospital-name">{{ block.settings.hospital_name }}</p>
+                    {% endif %}
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+
+{% schema %}
+{
+  "name": "Project list",
+  "settings": [
+    {
+        "type": "header",
+        "content": "Section settings"
+    },
+    {
+        "type": "richtext",
+        "id": "heading",
+        "label": "Heading"
+    },
+    {
+        "type": "select",
+        "id": "heading_size",
+        "options": [
+          {
+            "value": "h2",
+            "label": "Small"
+          },
+          {
+            "value": "h1",
+            "label": "Medium"
+          },
+          {
+            "value": "h0",
+            "label": "Large"
+          }
+        ],
+        "default": "h1",
+        "label": "Heading Size"
+    },
+    {
+        "type": "select",
+        "id": "title_alignment",
+        "options": [
+            {
+            "value": "left",
+            "label": "Left"
+            },
+            {
+            "value": "center",
+            "label": "Center"
+            },
+            {
+            "value": "right",
+            "label": "Right"
+            }
+        ],
+        "default": "center",
+        "label": "Section content alignment"
+    },
+    {
+        "type": "header",
+        "content": "Box settings"
+    },
+    {
+        "type": "select",
+        "id": "box_alignment",
+        "options": [
+            {
+            "value": "left",
+            "label": "Left"
+            },
+            {
+            "value": "center",
+            "label": "Center"
+            },
+            {
+            "value": "right",
+            "label": "Right"
+            }
+        ],
+        "default": "left",
+        "label": "Box alignment"
+    },
+    {
+        "type": "color_scheme",
+        "id": "color_scheme",
+        "default": "scheme-7",
+        "label": "Color scheme"
+    },
+    {
+        "type": "header",
+        "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 180,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_top",
+        "default": 36
+    },
+    {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 180,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_bottom",
+        "default": 36
+    }
+  ],
+  "blocks": [
+    {
+      "type": "project",
+      "name": "Project",
+      "settings": [
+        {
+            "type": "image_picker",
+            "id": "project_logo",
+            "label": "Project logo"
+        },
+        {
+          "type": "text",
+          "id": "project_title",
+          "label": "Project title",
+          "default": "Project Title"
+        },
+        {
+            "type": "text",
+            "id": "project_location",
+            "label": "Project location",
+            "default": "Project Location"
+        },
+        {
+            "type": "text",
+            "id": "hospital_name",
+            "label": "Hospital name",
+            "default": "Hospital Name"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Project list"
+    }
+  ]
+}
+{% endschema %}

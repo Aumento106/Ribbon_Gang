@@ -17,6 +17,21 @@
         "padding_bottom": 28
       }
     },
+    "project_consultation_KPVeg4": {
+      "type": "project-consultation",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "title_alignment": "center",
+        "text": "<p>Some of the team taking time out for a friendly chat in the lunch room with Managing Director Lloyd Scott (standing).</p>",
+        "image": "shopify://shop_images/about-banner-img.png",
+        "border_radius": 16,
+        "full_width": false,
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_with_text_v1_Kk8cPy": {
       "type": "image-with-text-v1",
       "blocks": {
@@ -43,36 +58,103 @@
         "image": "shopify://shop_images/improve-infection-control.png",
         "height": "adapt",
         "desktop_image_width": "medium",
+        "full_width": false,
         "video_url": "https://www.youtube.com/watch?v=lHnJFanm7tM",
         "enable_video_looping": false,
         "layout": "image_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
+        "section_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 72
       }
     },
-    "key_message_pUhBiE": {
-      "type": "key-message",
+    "rich_text_EQJmnB": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_n8F6Rm": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our <strong>Team</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_3wTHXQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our tireless and dynamic SpaceLogic team is dedicated to Healthcare. Our mission is to provide a fresh new approach, and premium advice and expertise to hospitals, medical centers and other clinical facilities. By combining the specialist skills of our entire team, we create a cohesive whole to give you individual attention, dedicated commitment and a result superior to any other.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_n8F6Rm",
+        "text_3wTHXQ"
+      ],
       "settings": {
-        "title": "Our <strong>Team</strong>",
-        "description": "<p>Our tireless and dynamic SpaceLogic team is dedicated to Healthcare. Our mission is to provide a fresh new approach, and premium advice and expertise to hospitals, medical centers and other clinical facilities. By combining the specialist skills of our entire team, we create a cohesive whole to give you individual attention, dedicated commitment and a result superior to any other.</p>",
-        "heading_size": "h0",
+        "desktop_content_position": "center",
         "content_alignment": "center",
+        "content_width": "full_width",
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "full_width": true,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "team_fyjyTF": {
+      "type": "team",
+      "blocks": {
+        "team_member_RmbJFP": {
+          "type": "team_member",
+          "settings": {}
+        },
+        "team_member_yRCHip": {
+          "type": "team_member",
+          "settings": {}
+        },
+        "team_member_xKHWkA": {
+          "type": "team_member",
+          "settings": {}
+        },
+        "team_member_QtVBL4": {
+          "type": "team_member",
+          "settings": {}
+        },
+        "team_member_APNB9h": {
+          "type": "team_member",
+          "settings": {}
+        },
+        "team_member_d73j8C": {
+          "type": "team_member",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "team_member_RmbJFP",
+        "team_member_yRCHip",
+        "team_member_xKHWkA",
+        "team_member_QtVBL4",
+        "team_member_APNB9h",
+        "team_member_d73j8C"
+      ],
+      "settings": {
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "title": "",
+        "padding_top": 140,
+        "padding_bottom": 70,
+        "mobile_padding_top": 100,
+        "mobile_padding_bottom": 50
       }
     }
   },
   "order": [
     "main",
+    "project_consultation_KPVeg4",
     "image_with_text_v1_Kk8cPy",
-    "key_message_pUhBiE"
+    "rich_text_EQJmnB",
+    "team_fyjyTF"
   ]
 }

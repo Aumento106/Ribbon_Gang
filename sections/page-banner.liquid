@@ -1,4 +1,5 @@
 {{ 'section-project-consultation.css' | asset_url | stylesheet_tag }}
+{{ 'section-page-banner.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
   .section-{{ section.id }}-padding {
@@ -25,32 +26,61 @@
   }
 {%- endstyle -%}
 
+{%- liquid
+    assign video_id = section.settings.video.id | default: section.settings.video_url.id
+-%}
+
 <div class="project-consultation-sec section-{{ section.id }}-padding gradient color-{{ section.settings.color_scheme }}">
     <div class="project-consultation__wrapper {% if section.settings.full_width != true %}page-width{% endif %}">
-        {%- if section.settings.image != blank -%}
-            <div class="project-consultation__image-wrapper">
-                {{
-                section.settings.image
-                | image_url: width: 1920
-                | image_tag:
-                    loading: 'lazy',
-                    sizes: '(min-width: 1100px) 1500px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)',
-                    widths: '165, 360, 535, 750, 1070, 1500'
-                }}
-            </div>
+        {%- if section.settings.sec_heading != blank -%}
+            <h2 class="title section_title {{ section.settings.sec_heading_size }} section-title-alignment-{{ section.settings.sec_title_alignment }}">
+                {{ section.settings.sec_heading }}
+            </h2>
         {%- endif -%}
-        <div class="project-consultation__content section-title-alignment-{{ section.settings.title_alignment }}">
-            <div class="page-width">
-                {%- if section.settings.heading != blank -%}
-                <h2 class="title {{ section.settings.heading_size }}">
-                    {{ section.settings.heading }}
-                </h2>
-                {%- endif -%}
-                {%- if section.settings.text != blank -%}
-                <div class="project-consultation__text rte">
-                    {{ section.settings.text }}
+        <div class="project-consultation__content">
+            {%- if section.settings.video_url != blank -%}
+                <div class="video_yt_banner project-consultation__image-wrapper">
+                    {%- liquid
+                      assign loop = ''
+                      if section.settings.enable_video_looping
+                        assign loop = '&loop=1&playlist=' | append: video_id
+                      endif
+                    -%}
+                    <iframe
+                      src="https://www.youtube.com/embed/{{ video_id }}?enablejsapi=1&autoplay=1{{ loop }}"
+                      class="js-youtube"
+                      allow="autoplay; encrypted-media"
+                      allowfullscreen
+                      title="{{ section.settings.description | escape }}"
+                    ></iframe>
                 </div>
-                {%- endif -%}
+
+            {%- else section.settings.image != blank -%}
+
+                <div class="project-consultation__image-wrapper">
+                    {{
+                    section.settings.image
+                    | image_url: width: 1920
+                    | image_tag:
+                        loading: 'lazy',
+                        sizes: '(min-width: 1100px) 1500px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)',
+                        widths: '165, 360, 535, 750, 1070, 1500'
+                    }}
+                </div>
+            {%- endif -%}
+            <div class="project-consultation__content section-title-alignment-{{ section.settings.title_alignment }}">
+                <div class="page-width">
+                    {%- if section.settings.heading != blank -%}
+                    <h2 class="title {{ section.settings.heading_size }}">
+                        {{ section.settings.heading }}
+                    </h2>
+                    {%- endif -%}
+                    {%- if section.settings.text != blank -%}
+                    <div class="project-consultation__text rte">
+                        {{ section.settings.text }}
+                    </div>
+                    {%- endif -%}
+                </div>
             </div>
         </div>
     </div>
@@ -59,11 +89,65 @@
 {% schema %}
 {
   "name": "Page Banner",
+  "class": "page-banner_sec",
   "settings": [
+    {
+        "type": "header",
+        "content": "Section setting"
+    },
+    {
+      "type": "richtext",
+      "id": "sec_heading",
+      "label": "Section Heading"
+    },
+    {
+        "type": "select",
+        "id": "sec_heading_size",
+        "options": [
+          {
+            "value": "h2",
+            "label": "Small"
+          },
+          {
+            "value": "h1",
+            "label": "Medium"
+          },
+          {
+            "value": "h0",
+            "label": "Large"
+          }
+        ],
+        "default": "h1",
+        "label": "Heading Size"
+    },
+    {
+        "type": "select",
+        "id": "sec_title_alignment",
+        "options": [
+            {
+            "value": "left",
+            "label": "Left"
+            },
+            {
+            "value": "center",
+            "label": "Center"
+            },
+            {
+            "value": "right",
+            "label": "Right"
+            }
+        ],
+        "default": "center",
+        "label": "Section title alignment"
+    },
+    {
+        "type": "header",
+        "content": "Banner setting"
+    },
     {
       "type": "richtext",
       "id": "heading",
-      "default": "<p>Section Title</p>",
+      "default": "<p>Banner Title</p>",
       "label": "Heading"
     },
     {
@@ -111,6 +195,23 @@
       "id": "text",
       "default": "<p>Share information about your page information.</p>",
       "label": "Text"
+    },
+    {
+        "type": "header",
+        "content": "Video"
+    },
+    {
+        "type": "video_url",
+        "id": "video_url",
+        "accept": ["youtube"],
+        "label": "t:sections.video.settings.video_url.label",
+        "info": "Use a YouTube URL Only"
+    },
+    {
+        "type": "checkbox",
+        "id": "enable_video_looping",
+        "label": "t:sections.video.settings.enable_video_looping.label",
+        "default": false
     },
     {
       "type": "image_picker",

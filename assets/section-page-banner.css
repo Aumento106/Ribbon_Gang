@@ -1,0 +1,55 @@
+.page-banner_sec .project-consultation__content .title.h2 {
+  font-size: 24px;
+  margin-bottom: 1.6rem;
+}
+
+.page-banner_sec .video_yt_banner iframe {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 1 / 1;
+    max-height: 600px;
+}
+
+.page-banner_sec .video_yt_banner.project-consultation__image-wrapper {
+    margin: 0 0 4rem;
+    box-shadow: 0px 0px 40px 0px #00000014;
+}
+
+.page-banner_sec .project-consultation__wrapper {
+    gap: 0;
+}
+
+.page-banner_sec .section_title {
+    margin-bottom: 4rem;
+}
+
+@media screen and (min-width: 750px) {
+    .page-banner_sec .project-consultation__wrapper {
+        gap: 0;
+    }
+}
+
+@media screen and (max-width: 989px) {
+    .page-banner_sec .section_title {
+        margin-bottom: 3rem;
+    }
+
+    .page-banner_sec .project-consultation__content .title.h2 {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 749px) {
+    .page-banner_sec .section_title {
+        margin-bottom: 2rem;
+    }
+
+    .page-banner_sec .project-consultation__content .title.h2 {
+        font-size: 18px;
+        margin-bottom: 1rem;
+    }
+
+    .page-banner_sec .video_yt_banner.project-consultation__image-wrapper {
+        margin: 0 0 1.5rem;
+    }
+}

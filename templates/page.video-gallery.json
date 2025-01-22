@@ -9,15 +9,22 @@
  */
 {
   "sections": {
-    "main": {
-      "type": "main-page",
+    "page_banner_DR8Ha9": {
+      "type": "page-banner",
       "settings": {
-        "padding_top": 28,
-        "padding_bottom": 28
+        "heading": "<p>Wagga Wagga Base Hospital gets STERIRACK® Clean Utilities</p>",
+        "heading_size": "h1",
+        "title_alignment": "center",
+        "text": "<p>Watch to see how the Wagga Wagga Base Hospital redevelopment replaced traditional, out-dated joinery storage solutions with the latest innovative joinery-free STERIRACK® solution from Spacelogic. (25)</p>",
+        "border_radius": 16,
+        "full_width": false,
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
-    "main"
+    "page_banner_DR8Ha9"
   ]
 }

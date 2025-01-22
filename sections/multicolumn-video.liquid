@@ -1,4 +1,5 @@
 {{ 'section-multicolumn-box-with-image.css' | asset_url | stylesheet_tag }}
+{{ 'section-multicolumn-video.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
   .section-{{ section.id }}-padding {
@@ -21,6 +22,7 @@
   }
 
 {%- endstyle -%}
+
 
 <div class="multi-column-box-with-image section-{{ section.id }} section-{{ section.id }}-padding color-{{ section.settings.color_scheme }} gradient">
   <div class="multicolumn-box page-width">
@@ -46,36 +48,100 @@
                 }}
               </div>
             {%- endif -%}
-            {%- if block.settings.title != blank -%}
-              <div class="heading-with-icon-wrapper color-{{ section.settings.heading_color_scheme }} gradient">
-                {%- if block.settings.icon != blank -%}
-                  <div class="img-box">
-                    {{ block.settings.icon | image_url: width: 40 | image_tag:
-                      loading: 'lazy',
-                      width: block.settings.icon.width,
-                      height: block.settings.icon.height,
-                      class: 'multicolumn-box__icon'
-                    }}
-                  </div>
+            <div class="multicolumn-box-content">
+                {%- if block.settings.title != blank -%}
+                <div class="heading-with-icon-wrapper">
+                    <h3 class="subtitle">{{ block.settings.title | escape }}</h3>
+                </div>
                 {%- endif -%}
-                <h3 class="subtitle">{{ block.settings.title | escape }}</h3>
-              </div>
-            {%- endif -%}
-            {%- if block.settings.text != blank -%}
-              <div class="multicolumn-box-description">{{ block.settings.text }}</div>
-            {%- endif -%}
+                {%- if block.settings.text != blank -%}
+                <div class="multicolumn-box-description">{{ block.settings.text }}</div>
+                {%- endif -%}
+            </div>
           </div>
+          <div class="popup_overlay"></div>
+          {%- liquid
+            assign video_id = section.settings.video.id | default: block.settings.video_url.id
+          -%}
+          {%- if block.settings.video_url != blank -%}
+                <div class="video_yt_popup_box">
+                    {%- liquid
+                    assign loop = ''
+                    if block.settings.enable_video_looping
+                        assign loop = '&loop=1&playlist=' | append: video_id
+                    endif
+                    -%}
+                    <iframe
+                    src="https://www.youtube.com/embed/{{ video_id }}?enablejsapi=1&autoplay=1{{ loop }}"
+                    class="js-youtube"
+                    allow="autoplay; encrypted-media"
+                    allowfullscreen
+                    title="{{ block.settings.description | escape }}"
+                    ></iframe>
+                    <div class="close-popup">{{- 'icon-close.svg' | inline_asset_content -}}</div>
+                </div>
+            {% endif %}
         </div>
       {%- endfor -%}
     </div>
   </div>
 </div>
 
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const imageWrappers = document.querySelectorAll(".multicolumn-video_sec .multicolumn-box-img-wrapper");
+        const popups = document.querySelectorAll(".multicolumn-video_sec .video_yt_popup_box");
+        const overlay = document.querySelector(".multicolumn-video_sec .popup_overlay");
+      
+        imageWrappers.forEach((wrapper, index) => {
+          wrapper.addEventListener("click", () => {
+            // Show the corresponding popup
+            const popup = popups[index];
+            if (popup) {
+              popup.style.visibility = "visible";
+              popup.style.opacity = "1";
+              overlay.style.visibility = "visible";
+              overlay.style.opacity = "1";
+              document.body.style.overflow = "hidden"; // Disable body scroll
+            }
+          });
+        });
+      
+        // Close popup functionality
+        popups.forEach((popup) => {
+          const closeButton = popup.querySelector(".close-popup");
+          if (closeButton) {
+            closeButton.addEventListener("click", () => {
+              popup.style.visibility = "hidden";
+              popup.style.opacity = "0";
+              overlay.style.visibility = "hidden";
+              overlay.style.opacity = "0";
+              document.body.style.overflow = ""; // Restore body scroll
+            });
+          }
+        });
+      
+        // Hide popup when clicking on the overlay
+        if (overlay) {
+          overlay.addEventListener("click", () => {
+            popups.forEach((popup) => {
+              popup.style.visibility = "hidden";
+              popup.style.opacity = "0";
+            });
+            overlay.style.visibility = "hidden";
+            overlay.style.opacity = "0";
+            document.body.style.overflow = ""; // Restore body scroll
+          });
+        }
+    });      
+</script>
+
+
 {% schema %}
 {
-  "name": "Multicolumn with image",
+  "name": "Multicolumn video",
   "tag": "section",
-  "class": "section",
+  "class": "section multicolumn-video_sec",
   "settings": [
     {
       "type": "richtext",
@@ -127,12 +193,6 @@
       "type": "color_scheme",
       "id": "color_scheme",
       "label": "t:sections.all.colors.label",
-      "default": "scheme-1"
-    },
-    {
-      "type": "color_scheme",
-      "id": "heading_color_scheme",
-      "label": "Heading color scheme",
       "default": "scheme-1"
     },
     {
@@ -204,18 +264,30 @@
         {
           "type": "image_picker",
           "id": "image",
-          "label": "Image"
+          "label": "Poster image"
+        },
+        {
+            "type": "header",
+            "content": "Video"
+        },
+        {
+            "type": "video_url",
+            "id": "video_url",
+            "accept": ["youtube"],
+            "label": "t:sections.video.settings.video_url.label",
+            "info": "Use a YouTube URL Only"
+        },
+        {
+            "type": "checkbox",
+            "id": "enable_video_looping",
+            "label": "t:sections.video.settings.enable_video_looping.label",
+            "default": false
         },
         {
           "type": "text",
           "id": "title",
           "default": "Box title",
           "label": "Title"
-        },
-        {
-          "type": "image_picker",
-          "id": "icon",
-          "label": "Heading icon"
         },
         {
           "type": "richtext",
@@ -228,7 +300,7 @@
   ],
   "presets": [
     {
-      "name": "Multicolumn with image",
+      "name": "Multicolumn video",
       "blocks": [
         {
           "type": "column"

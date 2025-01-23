@@ -560,7 +560,7 @@
   line-height: 1.66;
   color: rgba(var(--color-foreground),1);
   letter-spacing: 0;
-  top: calc(1.2rem + var(--inputs-border-width));
+  top: calc(1.6rem + var(--inputs-border-width));
   left: calc(var(--inputs-border-width) + 5rem);
 }
 

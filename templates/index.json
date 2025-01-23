@@ -16,13 +16,9 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/banner-slide-img.png",
-            "offer_title": "<p><strong>Super Saver Offer</strong></p>",
-            "offer_title_color": "#ffce00",
             "heading": "<p>Gold Standard Clinical Storage For <strong>Healthcare</strong></p>",
-            "heading_size": "h1",
             "text": "<p>High quality components mix and match to create modular clinical storege solutions, tailored exactly to your requirements.</p><p>STERIRACK®  System is used to create fully integrated room installations, and workstation, benches and trolleys.</p>",
             "button_label": "Shop Now",
-            "offer_code_txt": "MEGASALE",
             "button_link": "shopify://collections/all",
             "button_style_secondary": false
           }
@@ -31,13 +27,9 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/banner-slide-img.png",
-            "offer_title": "<p>Super Saver Offer</p>",
-            "offer_title_color": "#ffce00",
             "heading": "<p>Gold Standard Clinical Storage For <strong>Healthcare</strong></p>",
-            "heading_size": "h1",
             "text": "<p>High quality components mix and match to create modular clinical storege solutions, tailored exactly to your requirements.</p><p>STERIRACK®  System is used to create fully integrated room installations, and workstation, benches and trolleys.</p>",
             "button_label": "Shop Now",
-            "offer_code_txt": "Code: MEGASALE",
             "button_link": "shopify://collections/all",
             "button_style_secondary": false
           }
@@ -46,13 +38,9 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/banner-slide-img.png",
-            "offer_title": "<p>Super Saver Offer</p>",
-            "offer_title_color": "#ffce00",
             "heading": "<p>Gold Standard Clinical Storage For <strong>Healthcare</strong></p>",
-            "heading_size": "h1",
             "text": "<p>High quality components mix and match to create modular clinical storege solutions, tailored exactly to your requirements.</p><p>STERIRACK®  System is used to create fully integrated room installations, and workstation, benches and trolleys.</p>",
             "button_label": "Shop Now",
-            "offer_code_txt": "Code: MEGASALE",
             "button_link": "shopify://collections/all",
             "button_style_secondary": false
           }
@@ -80,9 +68,9 @@
         "autoplay": false,
         "autoplay_speed": 5,
         "show_pagination": true,
-        "dot_color": "#eeeeee",
+        "dot_color": "#000000",
         "padding_top": 32,
-        "padding_bottom": 32
+        "padding_bottom": 72
       }
     },
     "key_message_Ccdzez": {
@@ -97,50 +85,60 @@
         "padding_bottom": 32
       }
     },
-    "multicolumn_box_with_image_jL37Wi": {
-      "type": "multicolumn-box-with-image",
+    "multicolumn_collection_JTkHK9": {
+      "type": "multicolumn-collection",
       "blocks": {
-        "column_MEcPqY": {
+        "column_YRtQ7i": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/increase-patient-care-time.png",
-            "title": "Increase patient care time",
-            "icon": "shopify://shop_images/bed-icon.svg",
-            "text": "<p>With STERIRACK® System, nurses and healthcare personnel can now spend less time hunting through storerooms, and more time devoted to face-to-face patient care. Where they want to be.</p><p>These time efficiencies provide hospitals and health-care centers with impressive Return on Effectiveness (ROE), with some facilities enjoying time savings of up to 50%.</p><p>Introduce the gold standard healthcare storage system today. You’ll never look back. </p>"
+            "image": "shopify://shop_images/sterirack-system.png",
+            "title": "STERIRACK® System",
+            "text": "",
+            "link_label": "",
+            "link": ""
           }
         },
-        "column_FL4YKp": {
+        "column_3CgiJG": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/improve-infection-control.png",
-            "title": "Improve infection control",
-            "icon": "shopify://shop_images/hand-icon.svg",
-            "text": "<p>STERIRACK® is the world’s leading healthcare storage solution, exceeding standards for best practice and infection control.</p><p>Rounded corners and smart design protect consumables from damage and contamination. Mesh baskets and shelving provide air circulation, and prevent dust and dirt build-up.</p><p>Hard-to-clean, outdated timber cabinetry, with its dark, dank corners is now a thing of the past.</p>"
+            "image": "shopify://shop_images/sterirack-baskets.png",
+            "title": "STERIRACK® Baskets",
+            "text": "",
+            "link_label": "",
+            "link": ""
           }
         },
-        "column_zqbWrd": {
+        "column_nVXJPp": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/maximize-available-space.png",
-            "title": "Maximize available space",
-            "icon": "shopify://shop_images/boxes-icon.svg",
-            "text": "<p>STERIRACK® is the complete modular system. Versatile and customizable, this system can be configured to suit your available space and application.</p><p>Our experts are ready to provide room layouts, 2D/3D visualizations, and details on exactly how much additional storage capacity you’ll enjoy with your new STERIRACK® installation.</p><p>Contact one of our STERIRACK® consultants today and begin your hassle-free journey to the gold standard healthcare storage solution.</p>"
+            "image": "shopify://shop_images/sterirack-shelving.png",
+            "title": "STERIRACK® Shelving",
+            "text": "",
+            "link_label": "",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "column_MEcPqY",
-        "column_FL4YKp",
-        "column_zqbWrd"
+        "column_YRtQ7i",
+        "column_3CgiJG",
+        "column_nVXJPp"
       ],
       "settings": {
         "title": "",
-        "title_alignment": "center",
-        "columns_desktop": "3",
-        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "heading_color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 72,
-        "padding_bottom": 36
+        "padding_bottom": 72
       }
     },
     "featured_collection_EKGb6j": {
@@ -169,8 +167,8 @@
         "learn_more_button_text": "Learn More",
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 72,
+        "padding_bottom": 72
       }
     },
     "multicolumn_services_box_FEbT7G": {
@@ -208,7 +206,6 @@
       ],
       "settings": {
         "sec_title": "<p>Three interconnected divisions, delivering a complete end-to-end <strong>Service</strong></p>",
-        "heading_size": "h1",
         "title_alignment": "center",
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "icon_bg_color": "#5a5a5a",
@@ -216,23 +213,8 @@
         "columns_desktop": 3,
         "columns_alignment": "left",
         "columns_mobile": "1",
-        "padding_top": 36,
+        "padding_top": 72,
         "padding_bottom": 72
-      }
-    },
-    "project_consultation_RBPLbQ": {
-      "type": "project-consultation",
-      "settings": {
-        "heading": "<p>Project Consultation, Planning and Room Design</p>",
-        "heading_size": "h1",
-        "title_alignment": "center",
-        "text": "<p>Whether for a new build, a major renovation or a rejuvenation of existing clinical store rooms, all stakeholders are consulted in the design and planning of your new, tailored STERIRACK® System storage solution. During this phase you will meet with our expert project consultants, either in person or online, to work through the project brief and determine all the deliverables for the project. We pride ourselves on exceeding client expectations and meeting project timelines. We then design a tailored solution, using our own gold standard, modular STERIRACK® range – a solution that will exactly suit your application and room dimensions. Floor plans are created to demonstrate achievable storage capacity as well as other efficiencies you will achieve. Photorealistic images can be produced on request. Once every aspect of the project has been agreed upon and approved, your project is placed in the hands of our expert project management and installation team, who will seamlessly create, deliver and install your brand new clinical storage solution. You’ll never look back!</p>",
-        "image": "shopify://shop_images/project-consultation.png",
-        "border_radius": 0,
-        "full_width": true,
-        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
-        "padding_top": 0,
-        "padding_bottom": 40
       }
     },
     "multicolumn_pages_box_VCT8HN": {
@@ -289,7 +271,7 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 72,
-        "padding_bottom": 36
+        "padding_bottom": 72
       }
     },
     "image_with_text_v1_CK3fUJ": {
@@ -333,22 +315,19 @@
         "button_xWPXRk"
       ],
       "settings": {
-        "image": "shopify://shop_images/home-about.png",
+        "image": "shopify://shop_images/home-about-us.png",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "full_width": true,
-        "video_url": "",
-        "enable_video_looping": false,
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
-        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "section_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 72,
+        "padding_bottom": 72
       }
     },
     "spacelogic_commitment_9ixh9w": {
@@ -407,15 +386,14 @@
       ],
       "settings": {
         "sec_title": "<p>The SpaceLogic <strong>Commitment</strong></p>",
-        "heading_size": "h1",
         "title_alignment": "center",
-        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "color_scheme": "",
         "color_scheme_box": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
         "columns_desktop": 3,
         "columns_alignment": "center",
         "columns_mobile": "1",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 72,
+        "padding_bottom": 72
       }
     },
     "image_with_text_v1_tjigzf": {
@@ -459,22 +437,19 @@
         "button_9D34tn"
       ],
       "settings": {
-        "image": "shopify://shop_images/new-product-banner.png",
+        "image": "shopify://shop_images/SpaceLogic-Sterirack.png",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "full_width": true,
-        "video_url": "",
-        "enable_video_looping": false,
         "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
-        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "section_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 72,
+        "padding_bottom": 72
       }
     },
     "testimonial_MUVEXK": {
@@ -528,8 +503,8 @@
         "dot_color": "#000000",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 72,
+        "padding_bottom": 72
       }
     },
     "featured_blog_93BJwt": {
@@ -546,18 +521,17 @@
         "show_date": true,
         "show_author": false,
         "show_view_all": true,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 72,
+        "padding_bottom": 72
       }
     }
   },
   "order": [
     "image_text_slider_HkQX47",
     "key_message_Ccdzez",
-    "multicolumn_box_with_image_jL37Wi",
+    "multicolumn_collection_JTkHK9",
     "featured_collection_EKGb6j",
     "multicolumn_services_box_FEbT7G",
-    "project_consultation_RBPLbQ",
     "multicolumn_pages_box_VCT8HN",
     "image_with_text_v1_CK3fUJ",
     "spacelogic_commitment_9ixh9w",

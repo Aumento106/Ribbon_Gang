@@ -41,8 +41,8 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "content_width": "medium",
-        "color_scheme": "scheme-28b9a3ce-e916-452a-9440-95fefcedbf92",
+        "content_width": "full_width",
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "full_width": true,
         "padding_top": 80,
         "padding_bottom": 80
@@ -50,45 +50,11 @@
     },
     "team_GF978q": {
       "type": "team",
-      "blocks": {
-        "team_member_EcAJpU": {
-          "type": "team_member",
-          "settings": {}
-        },
-        "team_member_8WtkmQ": {
-          "type": "team_member",
-          "settings": {}
-        },
-        "team_member_mrEWxn": {
-          "type": "team_member",
-          "settings": {}
-        },
-        "team_member_L8dQXE": {
-          "type": "team_member",
-          "settings": {}
-        },
-        "team_member_9AM8pm": {
-          "type": "team_member",
-          "settings": {}
-        },
-        "team_member_jbcX6b": {
-          "type": "team_member",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "team_member_EcAJpU",
-        "team_member_8WtkmQ",
-        "team_member_mrEWxn",
-        "team_member_L8dQXE",
-        "team_member_9AM8pm",
-        "team_member_jbcX6b"
-      ],
       "settings": {
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "title": "",
-        "padding_top": 140,
-        "padding_bottom": 150,
+        "padding_top": 180,
+        "padding_bottom": 180,
         "mobile_padding_top": 100,
         "mobile_padding_bottom": 50
       }

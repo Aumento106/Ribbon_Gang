@@ -1,0 +1,360 @@
+{{ 'get-in-touch.css' | asset_url | stylesheet_tag }}
+
+<style>
+  .contact-section {
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+  }
+</style>
+
+<div class="contact-section color-{{ section.settings.row_color_scheme }}">
+  <div class="page-width">
+    <div class="contact-header">
+      <h1 class="contact-title center">{{ section.settings.title }}</h1>
+    </div>
+    <div class="contact-container">
+      <div class="contact-image">
+        {% if section.settings.contact_image %}
+          <img src="{{ section.settings.contact_image | img_url: 'master' }}"
+              alt="Contact Us"
+              loading="lazy">
+        {% else %}
+          <div style="background: #f4f4f4; width: 100%; height: 100%;"></div>
+        {% endif %}
+      </div>
+
+      <div class="contact-form-wrapper">
+
+        {% form 'contact' %}
+          {% if form.errors %}
+            <div class="form-error" style="display: block; margin-bottom: 20px;">
+              {{ form.errors | default_errors }}
+            </div>
+          {% endif %}
+
+          <div class="form-field">
+            <label class="form-label" for="ContactName">Name</label>
+            <input 
+              type="text" 
+              class="form-input" 
+              id="ContactName"
+              name="contact[name]" 
+              value="{{ form.name }}"
+              required
+            >
+          </div>
+
+          <div class="form-field">
+            <label class="form-label" for="ContactEmail">Email</label>
+            <input 
+              type="email" 
+              class="form-input" 
+              id="ContactEmail"
+              name="contact[email]" 
+              value="{{ form.email }}"
+              required
+            >
+          </div>
+
+          <div class="form-field">
+            <label class="form-label" for="ContactPhone">Phone</label>
+            <input 
+              type="tel" 
+              class="form-input" 
+              id="ContactPhone"
+              name="contact[phone]" 
+              value="{{ form.phone }}"
+            >
+          </div>
+
+          
+        <div class="form-row">
+          <div class="form-field required">
+            <label class="form-label" for="ContactOrganisation">Organisation</label>
+            <input 
+              type="text" 
+              class="form-input" 
+              id="ContactOrganisation"
+              name="contact[organisation]" 
+              required
+            >
+        </div>
+
+        <div class="form-field required">
+            <label class="form-label" for="ContactRegion">Region</label>
+            <select class="form-select" id="ContactRegion" name="contact[region]" required>
+              <option value="">Select Region</option>
+              <option value="North America">North America</option>
+              <option value="South America">South America</option>
+              <option value="Europe">Europe</option>
+              <option value="Asia">Asia</option>
+              <option value="Africa">Africa</option>
+              <option value="Australia">Australia</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-field required">
+            <label class="form-label" for="ContactJobTitle">Job Title</label>
+            <input 
+              type="text" 
+              class="form-input" 
+              id="ContactJobTitle"
+              name="contact[job_title]" 
+              required
+            >
+          </div>
+
+          <div class="form-field required">
+            <label class="form-label" for="ContactEnquiryType">Enquiry Type</label>
+            <select class="form-select" id="ContactEnquiryType" name="contact[enquiry_type]" required>
+              <option value="">Select Enquiry Type</option>
+              <option value="General">General Inquiry</option>
+              <option value="Support">Technical Support</option>
+              <option value="Sales">Sales</option>
+              <option value="Partnership">Partnership</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+        </div>
+
+          <div class="form-field">
+            <label class="form-label" for="ContactMessage">Enquiry</label>
+            <textarea
+              class="form-textarea"
+              id="ContactMessage"
+              name="contact[body]"
+              required
+            >{{ form.body }}</textarea>
+          </div>
+
+          <button type="submit" class="submit-button button button--primary">Submit Now</button>
+        {% endform %}
+      </div>
+    </div>
+  </div>
+
+<div class="page-width">
+  <div class="location-cards">
+  {% for block in section.blocks %}
+    {% if block.type == 'location' %}
+      <div class="location-card" {{ block.shopify_attributes }}>
+        <h2 class="location-title">{{ block.settings.title }}</h2>
+        <div class="location-info">
+          <p class="location-company">{{ block.settings.company }}</p>
+          
+          {% if block.settings.address != blank %}
+            <div class="location-detail">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 0C7.802 0 4 3.403 4 7.602C4 11.8 7.469 16.812 12 24C16.531 16.812 20 11.8 20 7.602C20 3.403 16.199 0 12 0ZM12 11C10.343 11 9 9.657 9 8C9 6.343 10.343 5 12 5C13.657 5 15 6.343 15 8C15 9.657 13.657 11 12 11Z"/>
+              </svg>
+              <span>{{ block.settings.address }}</span>
+            </div>
+          {% endif %}
+
+          {% if block.settings.phone != blank %}
+            <div class="location-detail">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M20 15.5C18.8 15.5 17.5 15.3 16.4 14.9C16.3 14.9 16.2 14.9 16.1 14.9C15.8 14.9 15.6 15 15.4 15.2L13.2 17.4C10.4 15.9 8 13.6 6.6 10.8L8.8 8.6C9.1 8.3 9.2 7.9 9 7.6C8.7 6.5 8.5 5.2 8.5 4C8.5 3.5 8 3 7.5 3H4C3.5 3 3 3.5 3 4C3 13.4 10.6 21 20 21C20.5 21 21 20.5 21 20V16.5C21 16 20.5 15.5 20 15.5Z"/>
+              </svg>
+              <span>{{ block.settings.phone }}</span>
+            </div>
+          {% endif %}
+
+          {% if block.settings.email != blank %}
+            <div class="location-detail">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M20 4H4C2.9 4 2.01 4.9 2.01 6L2 18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6C22 4.9 21.1 4 20 4ZM20 8L12 13L4 8V6L12 11L20 6V8Z"/>
+              </svg>
+              <span>{{ block.settings.email }}</span>
+            </div>
+          {% endif %}
+        </div>
+
+        <div class="social-links">
+          {% if block.settings.linkedin %}
+            <a href="{{ block.settings.linkedin }}" class="social-link" target="_blank" rel="noopener">
+              {{- 'linkdin.svg' | inline_asset_content -}}
+            </a>
+          {% endif %}
+          {% if block.settings.facebook %}
+            <a href="{{ block.settings.facebook }}" class="social-link" target="_blank" rel="noopener">
+              {{- 'facebook.svg' | inline_asset_content -}}
+            </a>
+          {% endif %}
+          {% if block.settings.instagram %}
+            <a href="{{ block.settings.instagram }}" class="social-link" target="_blank" rel="noopener">
+              {{- 'instragram.svg' | inline_asset_content -}}
+            </a>
+          {% endif %}
+          {% if block.settings.twitter %}
+            <a href="{{ block.settings.twitter }}" class="social-link" target="_blank" rel="noopener">
+              {{- 'twitter.svg' | inline_asset_content -}}
+            </a>
+          {% endif %}
+          {% if block.settings.youtube %}
+            <a href="{{ block.settings.youtube }}" class="social-link" target="_blank" rel="noopener">
+              {{- 'youtube.svg' | inline_asset_content -}}
+            </a>
+          {% endif %}
+        </div>
+
+        {% if block.settings.distributor_text != blank or block.settings.distributor_logo_1 != blank or block.settings.distributor_logo_2 != blank %}
+          <div class="distributor-section">
+            {% if block.settings.distributor_text != blank %}
+              <p>{{ block.settings.distributor_text }}</p>
+            {% endif %}
+            <div class="distributor-logos">
+              {% if block.settings.distributor_logo_1 %}
+                <img src="{{ block.settings.distributor_logo_1 | img_url: '200x' }}" 
+                     alt="Distributor Logo" 
+                     loading="lazy"
+                     class="distributor-logo">
+              {% endif %}
+              {% if block.settings.distributor_logo_2 %}
+                <img src="{{ block.settings.distributor_logo_2 | img_url: '200x' }}" 
+                     alt="Distributor Logo" 
+                     loading="lazy"
+                     class="distributor-logo">
+              {% endif %}
+            </div>
+          </div>
+        {% endif %}
+      </div>
+    {% endif %}
+  {% endfor %}
+  </div>
+</div>
+
+</div>
+
+
+{% schema %}
+{
+  "name": "Get in Touch",
+  "settings": [
+    {
+      "type": "color_scheme",
+      "id": "row_color_scheme",
+      "label": "t:sections.multirow.settings.container_color_scheme.label",
+      "default": "scheme-1"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Section Title",
+      "default": "Get in Touch"
+    },
+    {
+      "type": "image_picker",
+      "id": "contact_image",
+      "label": "Contact Image"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "default": 30,
+      "unit": "px",
+      "label": "Padding Top"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "default": 30,
+      "unit": "px",
+      "label": "Padding Bottom"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "location",
+      "name": "Location",
+      "limit": 3,
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "AUSTRALIA (OCEANIA)"
+        },
+        {
+          "type": "text",
+          "id": "company",
+          "label": "Company Name",
+          "default": "HEAD OFFICE: SPACELOGIC GROUP PTY LTD"
+        },
+        {
+          "type": "text",
+          "id": "address",
+          "label": "Address",
+          "default": "7 Cameron Place, Orange NSW 2800, Australia"
+        },
+        {
+          "type": "text",
+          "id": "phone",
+          "label": "Phone",
+          "default": "02 6362 5533"
+        },
+        {
+          "type": "text",
+          "id": "email",
+          "label": "Email",
+          "default": "abc@gmail.com"
+        },
+        {
+          "type": "url",
+          "id": "linkedin",
+          "label": "LinkedIn URL"
+        },
+        {
+          "type": "url",
+          "id": "facebook",
+          "label": "Facebook URL"
+        },
+        {
+          "type": "url",
+          "id": "instagram",
+          "label": "Instagram URL"
+        },
+        {
+          "type": "url",
+          "id": "twitter",
+          "label": "Twitter URL"
+        },
+        {
+          "type": "url",
+          "id": "youtube",
+          "label": "YouTube URL"
+        },
+        {
+          "type": "image_picker",
+          "id": "distributor_logo_1",
+          "label": "Distributor Logo 1"
+        },
+        {
+          "type": "image_picker",
+          "id": "distributor_logo_2",
+          "label": "Distributor Logo 2"
+        },
+        {
+          "type": "text",
+          "id": "distributor_text",
+          "label": "Distributor Text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Get in Touch Split",
+      "category": "Forms"
+    }
+  ]
+}
+{% endschema %}

@@ -11,17 +11,44 @@
   "sections": {
     "page_banner_DR8Ha9": {
       "type": "page-banner",
+      "blocks": {
+        "heading_pekfyj": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>Video</strong> of the Week</p>",
+            "heading_size": "h0"
+          }
+        },
+        "video_Vx4rMD": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://youtu.be/oOnwnC2Tt3A",
+            "enable_video_looping": false,
+            "border_radius": 16
+          }
+        },
+        "heading_7XFgg6": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Wagga Wagga Base Hospital gets STERIRACK® Clean Utilities</p>",
+            "heading_size": "h2"
+          }
+        },
+        "text_w8R9mD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Watch to see how the Wagga Wagga Base Hospital redevelopment replaced traditional, out-dated joinery storage solutions with the latest innovative joinery-free STERIRACK® solution from Spacelogic. (25)</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_pekfyj",
+        "video_Vx4rMD",
+        "heading_7XFgg6",
+        "text_w8R9mD"
+      ],
       "settings": {
-        "sec_heading": "<p><strong>Video</strong> of the Week</p>",
-        "sec_heading_size": "h1",
-        "sec_title_alignment": "center",
-        "heading": "<p>Wagga Wagga Base Hospital gets STERIRACK® Clean Utilities</p>",
-        "heading_size": "h2",
         "title_alignment": "center",
-        "text": "<p>Watch to see how the Wagga Wagga Base Hospital redevelopment replaced traditional, out-dated joinery storage solutions with the latest innovative joinery-free STERIRACK® solution from Spacelogic. (25)</p>",
-        "video_url": "https://www.youtube.com/watch?v=oOnwnC2Tt3A",
-        "enable_video_looping": false,
-        "border_radius": 16,
         "full_width": false,
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "padding_top": 72,

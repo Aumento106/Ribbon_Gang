@@ -11,13 +11,35 @@
   "sections": {
     "page_banner_EAANcW": {
       "type": "page-banner",
+      "blocks": {
+        "image_aCzXHd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/projects-banner.png",
+            "border_radius": 16
+          }
+        },
+        "heading_RiVNji": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Our Project <strong>Customers</strong></p>",
+            "heading_size": "h0"
+          }
+        },
+        "text_w93Xcb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>SpaceLogic collaborates with hospitals and healthcare institutions across the America’s, Asia Pacific and some regions across the UK and Europe. Our team of esteemed healthcare consultants is readily accessible to address your unique needs and create inventive solutions to tackle any storage obstacles you may encounter. Below, we present a small selection of some of our esteemed clients who have engaged with us on new constructions, refurbishments, renovations, or ongoing endeavors to enhance their storage efficiency by using our remarkable STERIRACK® System baskets and shelving, trolleys and accessories.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "image_aCzXHd",
+        "heading_RiVNji",
+        "text_w93Xcb"
+      ],
       "settings": {
-        "heading": "<p>Our Project <strong>Customers</strong></p>",
-        "heading_size": "h1",
         "title_alignment": "center",
-        "text": "<p>SpaceLogic collaborates with hospitals and healthcare institutions across the America’s, Asia Pacific and some regions across the UK and Europe. Our team of esteemed healthcare consultants is readily accessible to address your unique needs and create inventive solutions to tackle any storage obstacles you may encounter. Below, we present a small selection of some of our esteemed clients who have engaged with us on new constructions, refurbishments, renovations, or ongoing endeavors to enhance their storage efficiency by using our remarkable STERIRACK® System baskets and shelving, trolleys and accessories.</p>",
-        "image": "shopify://shop_images/projects-banner.png",
-        "border_radius": 16,
         "full_width": false,
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "padding_top": 36,

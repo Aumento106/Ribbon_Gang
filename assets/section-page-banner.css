@@ -29,6 +29,12 @@
     }
 }
 
+@media screen and (max-width: 1024px) {
+    .page-banner_sec .video_yt_banner iframe {
+        max-height: 520px;
+    }
+}
+
 @media screen and (max-width: 989px) {
     .page-banner_sec .section_title {
         margin-bottom: 3rem;
@@ -36,6 +42,10 @@
 
     .page-banner_sec .project-consultation__content .title.h2 {
         font-size: 22px;
+    }
+
+    .page-banner_sec .video_yt_banner iframe {
+        max-height: 410px;
     }
 }
 

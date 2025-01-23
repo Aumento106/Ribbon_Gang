@@ -46,6 +46,7 @@
                   height: block.settings.image.height,
                   class: 'multicolumn-box__image'
                 }}
+                <div class="play-btn">{{- 'icon-play.svg' | inline_asset_content -}}</div>
               </div>
             {%- endif -%}
             <div class="multicolumn-box-content">
@@ -95,19 +96,17 @@
       
         imageWrappers.forEach((wrapper, index) => {
           wrapper.addEventListener("click", () => {
-            // Show the corresponding popup
             const popup = popups[index];
             if (popup) {
               popup.style.visibility = "visible";
               popup.style.opacity = "1";
               overlay.style.visibility = "visible";
               overlay.style.opacity = "1";
-              document.body.style.overflow = "hidden"; // Disable body scroll
+              document.body.style.overflow = "hidden";
             }
           });
         });
       
-        // Close popup functionality
         popups.forEach((popup) => {
           const closeButton = popup.querySelector(".close-popup");
           if (closeButton) {
@@ -116,12 +115,11 @@
               popup.style.opacity = "0";
               overlay.style.visibility = "hidden";
               overlay.style.opacity = "0";
-              document.body.style.overflow = ""; // Restore body scroll
+              document.body.style.overflow = "";
             });
           }
         });
       
-        // Hide popup when clicking on the overlay
         if (overlay) {
           overlay.addEventListener("click", () => {
             popups.forEach((popup) => {
@@ -130,7 +128,7 @@
             });
             overlay.style.visibility = "hidden";
             overlay.style.opacity = "0";
-            document.body.style.overflow = ""; // Restore body scroll
+            document.body.style.overflow = "";
           });
         }
     });      

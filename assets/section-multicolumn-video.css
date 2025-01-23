@@ -16,13 +16,36 @@
     --grid-desktop-vertical-spacing: 5rem;
 }
 
+.multicolumn-video_sec .multicolumn-box-img-wrapper {
+    cursor: pointer;
+    position: relative;
+}
+
+.multicolumn-video_sec .play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 86px;
+    height: 86px;
+}
+
+.multicolumn-video_sec .play-btn svg {
+    height: 100%;
+    width: 100%;
+}
+
+.multicolumn-video_sec .play-btn svg path {
+    fill: var(--primary-theme-color);
+}
+
 .multicolumn-video_sec .video_yt_popup_box {
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: calc(100vw - 10rem);
-    height: calc(100vh - 10rem);
+    width: calc(100vw - 12rem);
+    height: calc(100vh - 12rem);
     visibility: hidden;
     opacity: 0;
     z-index: 99999;
@@ -36,9 +59,21 @@
 
 .multicolumn-video_sec .close-popup {
     position: absolute;
-    top: -20px;
-    right: -20px;
-    width: 20px;
+    top: -45px;
+    right: -45px;
+    cursor: pointer;
+    background: var(--primary-theme-color);
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 999px;
+}
+
+.multicolumn-video_sec .close-popup svg {
+    width: 15px;
+    height: 15px;
 }
 
 .multicolumn-video_sec .popup_overlay {
@@ -48,9 +83,69 @@
     display: block;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.85);
     visibility: hidden;
     opacity: 0;
     z-index: 99998;
     transition: visibility 0s, opacity 0.3s;
+}
+
+@media screen and (max-width: 1024px) {
+    .multicolumn-video_sec .multicolumn-box-content {
+        padding: 1.5rem;
+    }
+
+    .multicolumn-video_sec .play-btn {
+        width: 50px;
+        height: 50px;
+    }
+
+    .multicolumn-video_sec .multi-column-box-with-image .heading-with-icon-wrapper {
+        margin-bottom: 1.2rem;
+    }
+
+    .multicolumn-video_sec .grid {
+        --grid-desktop-vertical-spacing: 3.5rem;
+    }
+}
+
+@media screen and (max-width: 989px) {
+    .multicolumn-video_sec .grid {
+        --grid-desktop-vertical-spacing: 2.4rem;
+    }
+
+    .multicolumn-video_sec .video_yt_popup_box {
+        width: calc(100vw - 10rem);
+        height: calc(100vh - 10rem);
+    }
+
+    .multicolumn-video_sec .close-popup {
+        top: -35px;
+        right: -35px;
+        width: 25px;
+        height: 25px;
+    }
+
+    .multicolumn-video_sec .close-popup svg {
+        width: 12px;
+        height: 12px;
+    }
+
+    .multicolumn-video_sec .multi-column-box-with-image .multicolumn-box__item {
+        border-radius: 8px;
+    }
+}
+
+@media screen and (max-width: 749px) {
+    .multicolumn-video_sec .video_yt_popup_box {
+        width: calc(100vw - 3rem);
+        height: calc(37vh - 3rem);
+    }
+
+    .multicolumn-video_sec .close-popup {
+        top: -31vh;
+        right: 0;
+        width: 25px;
+        height: 25px;
+    }
 }

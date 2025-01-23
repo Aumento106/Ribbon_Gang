@@ -11,17 +11,44 @@
   "sections": {
     "page_banner_DR8Ha9": {
       "type": "page-banner",
+      "blocks": {
+        "heading_pekfyj": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>Video</strong> of the Week</p>",
+            "heading_size": "h0"
+          }
+        },
+        "video_Vx4rMD": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://youtu.be/oOnwnC2Tt3A",
+            "enable_video_looping": false,
+            "border_radius": 16
+          }
+        },
+        "heading_7XFgg6": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Wagga Wagga Base Hospital gets STERIRACK® Clean Utilities</p>",
+            "heading_size": "h2"
+          }
+        },
+        "text_w8R9mD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Watch to see how the Wagga Wagga Base Hospital redevelopment replaced traditional, out-dated joinery storage solutions with the latest innovative joinery-free STERIRACK® solution from Spacelogic. (25)</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_pekfyj",
+        "video_Vx4rMD",
+        "heading_7XFgg6",
+        "text_w8R9mD"
+      ],
       "settings": {
-        "sec_heading": "<p><strong>Video</strong> of the Week</p>",
-        "sec_heading_size": "h1",
-        "sec_title_alignment": "center",
-        "heading": "<p>Wagga Wagga Base Hospital gets STERIRACK® Clean Utilities</p>",
-        "heading_size": "h2",
         "title_alignment": "center",
-        "text": "<p>Watch to see how the Wagga Wagga Base Hospital redevelopment replaced traditional, out-dated joinery storage solutions with the latest innovative joinery-free STERIRACK® solution from Spacelogic. (25)</p>",
-        "video_url": "https://www.youtube.com/watch?v=oOnwnC2Tt3A",
-        "enable_video_looping": false,
-        "border_radius": 16,
         "full_width": false,
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "padding_top": 72,
@@ -35,7 +62,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/video-1-poster.png",
-            "video_url": "https://www.youtube.com/watch?v=Xj3eSTFXtyE",
+            "video_url": "https://www.youtube.com/watch?v=ltxJ586mFsM",
             "enable_video_looping": false,
             "title": "STERIRACK® Mobile Workstations for hospital anesthetic bays",
             "text": "<p>Join Spacelogic’s Martin Scott, as he demonstrates a batch of STERIRACK® Mobile Workstations that we’ve just finished custom making for Bankstown Hospital to work in their anesthetic bays. (47)</p>"
@@ -45,16 +72,126 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/video-2-poster.png",
-            "video_url": "https://www.youtube.com/watch?v=eUXvhXIjWRg",
+            "video_url": "https://www.youtube.com/watch?v=ui0KhIG1U-w",
             "enable_video_looping": false,
             "title": "Discover STERIRACK® Trolley features and accessories",
             "text": "<p>Join Project Manager Matthew Scott as he demonstrates several STERIRACK® Trolleys in our range, and shows you some of the features and accessories available. (33)</p>"
+          }
+        },
+        "column_E7Ajhp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/video-3-poster.png",
+            "video_url": "https://www.youtube.com/watch?v=QbpacpEUiAM",
+            "enable_video_looping": false,
+            "title": "145 STERIRACK® Trolleys roll out the door on their way to Sydney healthcare",
+            "text": "<p>Join Lloyd Scott in our new manufacturing hub as he shows you our latest trolley order that’s heading off to a major hospital redevelopment in Sydney. (32)</p>"
+          }
+        },
+        "column_QLUgnL": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/video-4-poster.png",
+            "video_url": "https://www.youtube.com/watch?v=UWkL7Rs0BBE",
+            "enable_video_looping": false,
+            "title": "STERIRACK® PPE Carts - COVID-19 Emergency Response",
+            "text": "<p>Our dedicated team worked ’til midnight, making certain they met demand and got our trolley products to the healthcare personnel needing them most right now. Check out our Covid-19 Emergency Response team in action! (41)</p>"
+          }
+        },
+        "column_ACWKWG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/video-5-poster.png",
+            "video_url": "https://www.youtube.com/watch?v=ERbIN1v-js4",
+            "enable_video_looping": false,
+            "title": "Demonstration of STERIRACK® baskets, shelving, drop-in bins and dividers",
+            "text": "<p>oin Melissa Gillespie as she demonstrates the various basket options available for STERIRACK®, as well as shelving, drop-in bins and dividers. (40)</p>"
+          }
+        },
+        "column_bK47NB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/video-6-poster.png",
+            "video_url": "https://www.youtube.com/watch?v=F-knGdXqp2g",
+            "enable_video_looping": false,
+            "title": "STERIRACK® Click 'n' Clip Label Holders for increased efficiencies",
+            "text": "<p>Join Adam Piech as he demonstrates our innovative Click ‘n’ Clip label holders, just perfect for color categorization and huge improvements in efficiencies in your consumables storerooms. (09)</p>"
+          }
+        },
+        "column_pQzfJK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/video-7-poster.png",
+            "video_url": "https://www.youtube.com/watch?v=FT1fm1Xj-bU",
+            "enable_video_looping": false,
+            "title": "Healthcare set to benefit from more manufacturing in Australia",
+            "text": "<p>It’s just the right time to bring manufacturing back to Australia, and Spacelogic is supporting our countries’ effort in this regard by setting up a brand new manufacturing facility in Orange NSW. (48)</p>"
+          }
+        },
+        "column_mXtxcC": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/video-8-poster.png",
+            "video_url": "https://www.youtube.com/watch?v=PLuA_8MBQNo",
+            "enable_video_looping": false,
+            "title": "Custom ICU Beside Trolleys heading out the door for Victoria healthcare",
+            "text": "<p>The Spacelogic team has been flat out again making up a whole bunch of custom trolleys for a big client in Victoria. Check out the video to see these great ICU Bedside Trolleys made specifically to meet the clients’ requirements. (42)</p>"
+          }
+        },
+        "column_qjVEtB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/video-9-poster.png",
+            "video_url": "https://www.youtube.com/watch?v=p4sCp3ei9Oc",
+            "enable_video_looping": false,
+            "title": "Orange Private Hospital (Nexus Group of Hospitals) STERIRACK® installation",
+            "text": "<p>The SpaceLogic team visits Orange Private Hospital (Nexus Group of Hospitals) to check out a brand new STERIRACK® installation. Lloyd Scott discusses the parallels between Nexus and SpaceLogic in providing world class healthcare solutions to Australian clients. (26)</p>"
+          }
+        },
+        "column_YXVmeY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/video-10-poster.png",
+            "video_url": "https://www.youtube.com/watch?v=LOkWbO_mZQU",
+            "enable_video_looping": false,
+            "title": "STERIRACK® Aisle Sign Plates, Colored Label Holders and Post Strips",
+            "text": "<p>Find consumables easily and fast using our range of STERIRACK® Accessories. Create a comprehensive labeling system then enjoy saving time hunting through storerooms and saving money on consumables. (01)</p>"
+          }
+        },
+        "column_mEWLPp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/video-11-poster.png",
+            "video_url": "https://www.youtube.com/watch?v=J_vYw36xfQU",
+            "enable_video_looping": false,
+            "title": "STERIRACK® installation at Dubbo Veterinarian - Pet Medical Center",
+            "text": "<p>The Spacelogic team has been flat out again making up a whole bunch of custom trolleys for a big client in Victoria. Check out the video to see these great ICU Bedside Trolleys made specifically to meet the clients’ requirements. (42)</p>"
+          }
+        },
+        "column_LGTPWt": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/video-12-poster.png",
+            "video_url": "https://www.youtube.com/watch?v=-AGWI07LVO8",
+            "enable_video_looping": false,
+            "title": "estimonials - Why our valued clients choose us for hospital storage solutions",
+            "text": "<p>Watch some testimonials from clients to see how they enjoyed working with SpaceLogic, and why they choose us to supply their clinical storage solutions. (16)</p>"
           }
         }
       },
       "block_order": [
         "column_YQH4WX",
-        "column_iB3nVQ"
+        "column_iB3nVQ",
+        "column_E7Ajhp",
+        "column_QLUgnL",
+        "column_ACWKWG",
+        "column_bK47NB",
+        "column_pQzfJK",
+        "column_mXtxcC",
+        "column_qjVEtB",
+        "column_YXVmeY",
+        "column_mEWLPp",
+        "column_LGTPWt"
       ],
       "settings": {
         "title": "<p><strong>Video</strong> library</p>",

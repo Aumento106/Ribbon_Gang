@@ -303,6 +303,7 @@ h2,
   color: rgb(var(--color-foreground));
   word-break: break-word;
   margin: 0;
+  font-weight: 700;
 }
 
 .hxxl {

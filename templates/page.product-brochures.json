@@ -9,15 +9,37 @@
  */
 {
   "sections": {
-    "main": {
-      "type": "main-page",
+    "page_banner_HdRgAU": {
+      "type": "page-banner",
+      "blocks": {
+        "heading_i64waH": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>View <strong>Our Product Brochures</strong></p>",
+            "heading_size": "h0"
+          }
+        },
+        "text_hPb8LF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>To view one of our product brochures as a convenient flipping book, right here in your browser window, with no need for a download, simply click the appropriate link below.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_i64waH",
+        "text_hPb8LF"
+      ],
       "settings": {
-        "padding_top": 28,
-        "padding_bottom": 28
+        "title_alignment": "center",
+        "full_width": true,
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "padding_top": 80,
+        "padding_bottom": 80
       }
     }
   },
   "order": [
-    "main"
+    "page_banner_HdRgAU"
   ]
 }

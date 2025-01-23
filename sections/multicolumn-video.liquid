@@ -46,6 +46,7 @@
                   height: block.settings.image.height,
                   class: 'multicolumn-box__image'
                 }}
+                <div class="play-btn">{{- 'icon-play.svg' | inline_asset_content -}}</div>
               </div>
             {%- endif -%}
             <div class="multicolumn-box-content">
@@ -61,26 +62,28 @@
           </div>
           <div class="popup_overlay"></div>
           {%- liquid
-            assign video_id = section.settings.video.id | default: block.settings.video_url.id
+            assign video_id = block.settings.video.id | default: block.settings.video_url.id
           -%}
-          {%- if block.settings.video_url != blank -%}
-                <div class="video_yt_popup_box">
-                    {%- liquid
-                    assign loop = ''
-                    if block.settings.enable_video_looping
-                        assign loop = '&loop=1&playlist=' | append: video_id
-                    endif
-                    -%}
-                    <iframe
-                    src="https://www.youtube.com/embed/{{ video_id }}?enablejsapi=1&autoplay=1{{ loop }}"
-                    class="js-youtube"
-                    allow="autoplay; encrypted-media"
-                    allowfullscreen
-                    title="{{ block.settings.description | escape }}"
-                    ></iframe>
-                    <div class="close-popup">{{- 'icon-close.svg' | inline_asset_content -}}</div>
-                </div>
+          <div class="video_yt_popup_box-wrapper">
+            {%- if block.settings.video_url != blank -%}
+                  <div class="video_yt_popup_box">
+                      {%- liquid
+                      assign loop = ''
+                      if block.settings.enable_video_looping
+                          assign loop = '&loop=1&playlist=' | append: video_id
+                      endif
+                      -%}
+                      <iframe
+                      src="https://www.youtube.com/embed/{{ video_id }}?enablejsapi=1{{ loop }}"
+                      class="js-youtube"
+                      allow="autoplay; encrypted-media"
+                      allowfullscreen
+                      title="{{ block.settings.description | escape }}"
+                      ></iframe>
+                      <div class="close-popup">{{- 'icon-close.svg' | inline_asset_content -}}</div>
+                  </div>
             {% endif %}
+          </div>
         </div>
       {%- endfor -%}
     </div>
@@ -88,53 +91,76 @@
 </div>
 
 <script>
-    document.addEventListener("DOMContentLoaded", () => {
-        const imageWrappers = document.querySelectorAll(".multicolumn-video_sec .multicolumn-box-img-wrapper");
-        const popups = document.querySelectorAll(".multicolumn-video_sec .video_yt_popup_box");
-        const overlay = document.querySelector(".multicolumn-video_sec .popup_overlay");
-      
-        imageWrappers.forEach((wrapper, index) => {
+  document.addEventListener("DOMContentLoaded", () => {
+      const imageWrappers = document.querySelectorAll(".multicolumn-video_sec .multicolumn-box-img-wrapper");
+      const popups = document.querySelectorAll(".multicolumn-video_sec .video_yt_popup_box");
+      const overlay = document.querySelector(".multicolumn-video_sec .popup_overlay");
+
+      imageWrappers.forEach((wrapper, index) => {
           wrapper.addEventListener("click", () => {
-            // Show the corresponding popup
-            const popup = popups[index];
-            if (popup) {
-              popup.style.visibility = "visible";
-              popup.style.opacity = "1";
-              overlay.style.visibility = "visible";
-              overlay.style.opacity = "1";
-              document.body.style.overflow = "hidden"; // Disable body scroll
-            }
+              const popup = popups[index];
+              if (popup) {
+                  // Hide any other visible popups first
+                  popups.forEach((otherPopup) => {
+                      if (otherPopup !== popup && otherPopup.style.visibility === "visible") {
+                          closePopup(otherPopup);
+                      }
+                  });
+
+                  // Show the clicked popup
+                  popup.style.visibility = "visible";
+                  popup.style.opacity = "1";
+                  overlay.style.visibility = "visible";
+                  overlay.style.opacity = "1";
+                  document.body.style.overflow = "hidden";
+
+                  // Start playing the video
+                  const iframe = popup.querySelector('iframe');
+                  if (iframe) {
+                      // Add autoplay parameter only when clicked
+                      const currentSrc = iframe.src;
+                      iframe.src = currentSrc + '&autoplay=1';
+                  }
+              }
           });
-        });
-      
-        // Close popup functionality
-        popups.forEach((popup) => {
+      });
+
+      popups.forEach((popup) => {
           const closeButton = popup.querySelector(".close-popup");
           if (closeButton) {
-            closeButton.addEventListener("click", () => {
-              popup.style.visibility = "hidden";
-              popup.style.opacity = "0";
-              overlay.style.visibility = "hidden";
-              overlay.style.opacity = "0";
-              document.body.style.overflow = ""; // Restore body scroll
-            });
+              closeButton.addEventListener("click", () => {
+                  closePopup(popup);
+              });
           }
-        });
-      
-        // Hide popup when clicking on the overlay
-        if (overlay) {
+      });
+
+      if (overlay) {
           overlay.addEventListener("click", () => {
-            popups.forEach((popup) => {
-              popup.style.visibility = "hidden";
-              popup.style.opacity = "0";
-            });
-            overlay.style.visibility = "hidden";
-            overlay.style.opacity = "0";
-            document.body.style.overflow = ""; // Restore body scroll
+              popups.forEach((popup) => {
+                  if (popup.style.visibility === "visible") {
+                      closePopup(popup);
+                  }
+              });
           });
-        }
-    });      
+      }
+
+      function closePopup(popup) {
+          // Stop the video by removing autoplay and reloading iframe
+          const iframe = popup.querySelector('iframe');
+          if (iframe) {
+              const videoSrc = iframe.src.replace('&autoplay=1', '');
+              iframe.src = videoSrc;
+          }
+          
+          popup.style.visibility = "hidden";
+          popup.style.opacity = "0";
+          overlay.style.visibility = "hidden";
+          overlay.style.opacity = "0";
+          document.body.style.overflow = "";
+      }
+  });
 </script>
+
 
 
 {% schema %}

@@ -1,14 +1,9 @@
-{{ 'section-project-consultation.css' | asset_url | stylesheet_tag }}
 {{ 'section-page-banner.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.35 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.35 | round: 0 }}px;
-  }
-
-  .project-consultation__image-wrapper {
-    border-radius: {{ section.settings.border_radius }}px;
   }
 
   @media screen and (min-width: 750px) {
@@ -31,18 +26,35 @@
 -%}
 
 <div class="project-consultation-sec section-{{ section.id }}-padding gradient color-{{ section.settings.color_scheme }}">
-    <div class="project-consultation__wrapper {% if section.settings.full_width != true %}page-width{% endif %}">
-        {%- if section.settings.sec_heading != blank -%}
-            <h2 class="title section_title {{ section.settings.sec_heading_size }} section-title-alignment-{{ section.settings.sec_title_alignment }}">
-                {{ section.settings.sec_heading }}
-            </h2>
-        {%- endif -%}
-        <div class="project-consultation__content">
-            {%- if section.settings.video_url != blank -%}
-                <div class="video_yt_banner project-consultation__image-wrapper">
+    <div class="project-consultation__wrapper {% if section.settings.full_width != true %}page-width{% endif %} section-title-alignment-{{ section.settings.title_alignment }}">
+    {%- for block in section.blocks -%}
+          {%- case block.type -%}
+            {%- when 'image' -%}
+              {%- if block.settings.image != blank -%}
+                <div class="project-consultation__image-wrapper image-block" style="border-radius: {{ block.settings.border_radius }}px;" {{ block.shopify_attributes }}>
+                    {{
+                    block.settings.image
+                    | image_url: width: 1920
+                    | image_tag:
+                        loading: 'lazy',
+                        sizes: '(min-width: 1100px) 1500px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)',
+                        widths: '165, 360, 535, 750, 1070, 1500'
+                    }}
+                </div>
+
+                {% else %}
+
+                {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+
+              {%- endif -%}
+
+            {%- when 'video' -%}
+              {%- if block.settings.video_url != blank -%}
+                <div class="video_yt_banner project-consultation__image-wrapper" style="border-radius: {{ block.settings.border_radius }}px;" {{ block.shopify_attributes }}>
                     {%- liquid
+                      assign video_id = block.settings.video.id | default: block.settings.video_url.id
                       assign loop = ''
-                      if section.settings.enable_video_looping
+                      if block.settings.enable_video_looping
                         assign loop = '&loop=1&playlist=' | append: video_id
                       endif
                     -%}
@@ -51,38 +63,63 @@
                       class="js-youtube"
                       allow="autoplay; encrypted-media"
                       allowfullscreen
-                      title="{{ section.settings.description | escape }}"
+                      title="{{ block.settings.description | escape }}"
                     ></iframe>
                 </div>
+              {%- endif -%}
 
-            {%- else section.settings.image != blank -%}
+            {%- when 'heading' -%}
+              {%- if block.settings.heading != blank -%}
+                <h2 class="title {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+                  {{ block.settings.heading }}
+                </h2>
+              {%- endif -%}
 
-                <div class="project-consultation__image-wrapper">
-                    {{
-                    section.settings.image
-                    | image_url: width: 1920
-                    | image_tag:
-                        loading: 'lazy',
-                        sizes: '(min-width: 1100px) 1500px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)',
-                        widths: '165, 360, 535, 750, 1070, 1500'
-                    }}
+            {%- when 'text' -%}
+              {%- if block.settings.text != blank -%}
+                <div class="project-consultation__text rte" {{ block.shopify_attributes }}>
+                  {{ block.settings.text }}
                 </div>
-            {%- endif -%}
-            <div class="project-consultation__content section-title-alignment-{{ section.settings.title_alignment }}">
-                <div class="page-width">
-                    {%- if section.settings.heading != blank -%}
-                    <h2 class="title {{ section.settings.heading_size }}">
-                        {{ section.settings.heading }}
-                    </h2>
+              {%- endif -%}
+
+              {%- when 'button' -%}
+                {% if block.settings.button_label != blank or block.settings.button_label_2 != blank %}
+                  <div
+                    class="rich-text__buttons{% if block.settings.button_label != blank and block.settings.button_label_2 != blank %} rich-text__buttons--multiple{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                    {{ block.shopify_attributes }}
+                    {% if settings.animations_reveal_on_scroll %}
+                      data-cascade
+                      style="--animation-order: {{ forloop.index }};"
+                    {% endif %}
+                  >
+                    {%- if block.settings.button_label != blank -%}
+                      <a
+                        {% if block.settings.button_link == blank %}
+                          role="link" aria-disabled="true"
+                        {% else %}
+                          href="{{ block.settings.button_link }}"
+                        {% endif %}
+                        class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
+                      >
+                        {{- block.settings.button_label | escape -}}
+                      </a>
                     {%- endif -%}
-                    {%- if section.settings.text != blank -%}
-                    <div class="project-consultation__text rte">
-                        {{ section.settings.text }}
-                    </div>
+                    {%- if block.settings.button_label_2 != blank -%}
+                      <a
+                        {% if block.settings.button_link_2 == blank %}
+                          role="link" aria-disabled="true"
+                        {% else %}
+                          href="{{ block.settings.button_link_2 }}"
+                        {% endif %}
+                        class="button{% if block.settings.button_style_secondary_2 %} button--secondary{% else %} button--primary{% endif %}"
+                      >
+                        {{- block.settings.button_label_2 | escape -}}
+                      </a>
                     {%- endif -%}
-                </div>
-            </div>
-        </div>
+                  </div>
+                {%- endif -%}
+          {%- endcase -%}
+      {%- endfor -%}
     </div>
 </div>
 
@@ -93,82 +130,7 @@
   "settings": [
     {
         "type": "header",
-        "content": "Section setting"
-    },
-    {
-      "type": "richtext",
-      "id": "sec_heading",
-      "label": "Section Heading"
-    },
-    {
-        "type": "select",
-        "id": "sec_heading_size",
-        "options": [
-          {
-            "value": "h2",
-            "label": "Small"
-          },
-          {
-            "value": "h1",
-            "label": "Medium"
-          },
-          {
-            "value": "h0",
-            "label": "Large"
-          }
-        ],
-        "default": "h1",
-        "label": "Heading Size"
-    },
-    {
-        "type": "select",
-        "id": "sec_title_alignment",
-        "options": [
-            {
-            "value": "left",
-            "label": "Left"
-            },
-            {
-            "value": "center",
-            "label": "Center"
-            },
-            {
-            "value": "right",
-            "label": "Right"
-            }
-        ],
-        "default": "center",
-        "label": "Section title alignment"
-    },
-    {
-        "type": "header",
         "content": "Banner setting"
-    },
-    {
-      "type": "richtext",
-      "id": "heading",
-      "default": "<p>Banner Title</p>",
-      "label": "Heading"
-    },
-    {
-      "type": "select",
-      "id": "heading_size",
-      "options": [
-        {
-          "value": "h2",
-          "label": "Small"
-        },
-        {
-          "value": "h1",
-          "label": "Medium"
-        },
-        {
-          "value": "h0",
-          "label": "Large"
-        }
-      ],
-      "default": "h1",
-      "label": "Heading Size"
     },
     {
         "type": "select",
@@ -189,44 +151,6 @@
         ],
         "default": "center",
         "label": "Section content alignment"
-    },
-    {
-      "type": "richtext",
-      "id": "text",
-      "default": "<p>Share information about your page information.</p>",
-      "label": "Text"
-    },
-    {
-        "type": "header",
-        "content": "Video"
-    },
-    {
-        "type": "video_url",
-        "id": "video_url",
-        "accept": ["youtube"],
-        "label": "t:sections.video.settings.video_url.label",
-        "info": "Use a YouTube URL Only"
-    },
-    {
-        "type": "checkbox",
-        "id": "enable_video_looping",
-        "label": "t:sections.video.settings.enable_video_looping.label",
-        "default": false
-    },
-    {
-      "type": "image_picker",
-      "id": "image",
-      "label": "Image"
-    },
-    {
-      "type": "range",
-      "id": "border_radius",
-      "min": 0,
-      "max": 20,
-      "step": 1,
-      "unit": "px",
-      "label": "Image border radius",
-      "default": 0
     },
     {
         "type": "checkbox",
@@ -263,6 +187,146 @@
         "unit": "px",
         "label": "t:sections.all.padding.padding_bottom",
         "default": 36
+    }
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "name": "t:sections.rich-text.blocks.heading.name",
+      "limit": 3,
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "heading",
+          "default": "<p>Banner Title</p>",
+          "label": "Heading"
+        },
+        {
+          "type": "select",
+          "id": "heading_size",
+          "options": [
+            {
+              "value": "h2",
+              "label": "Small"
+            },
+            {
+              "value": "h1",
+              "label": "Medium"
+            },
+            {
+              "value": "h0",
+              "label": "Large"
+            }
+          ],
+          "default": "h1",
+          "label": "Heading Size"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "name": "image",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Banner image"
+        },
+        {
+          "type": "range",
+          "id": "border_radius",
+          "min": 0,
+          "max": 20,
+          "step": 1,
+          "unit": "px",
+          "label": "Image border radius",
+          "default": 0
+        },
+      ]
+    },
+    {
+      "type": "video",
+      "name": "video",
+      "settings": [
+        {
+          "type": "video_url",
+          "id": "video_url",
+          "accept": ["youtube"],
+          "label": "t:sections.video.settings.video_url.label",
+          "info": "Use a YouTube URL Only"
+        },
+        {
+          "type": "checkbox",
+          "id": "enable_video_looping",
+          "label": "t:sections.video.settings.enable_video_looping.label",
+          "default": false
+        },
+        {
+          "type": "range",
+          "id": "border_radius",
+          "min": 0,
+          "max": 20,
+          "step": 1,
+          "unit": "px",
+          "label": "Image border radius",
+          "default": 0
+        },
+      ]
+    },
+    {
+      "type": "text",
+      "name": "t:sections.rich-text.blocks.text.name",
+      "limit": 3,
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "text",
+          "default": "<p>Share information about your page information.</p>",
+          "label": "Text"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "name": "t:sections.rich-text.blocks.buttons.name",
+      "limit": 2,
+      "settings": [
+        {
+          "type": "text",
+          "id": "button_label",
+          "default": "t:sections.rich-text.blocks.buttons.settings.button_label_1.default",
+          "label": "t:sections.rich-text.blocks.buttons.settings.button_label_1.label",
+          "info": "t:sections.rich-text.blocks.buttons.settings.button_label_1.info"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "t:sections.rich-text.blocks.buttons.settings.button_link_1.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "button_style_secondary",
+          "default": false,
+          "label": "t:sections.rich-text.blocks.buttons.settings.button_style_secondary_1.label"
+        },
+        {
+          "type": "text",
+          "id": "button_label_2",
+          "label": "t:sections.rich-text.blocks.buttons.settings.button_label_2.label",
+          "info": "t:sections.rich-text.blocks.buttons.settings.button_label_2.info"
+        },
+        {
+          "type": "url",
+          "id": "button_link_2",
+          "label": "t:sections.rich-text.blocks.buttons.settings.button_link_2.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "button_style_secondary_2",
+          "default": false,
+          "label": "t:sections.rich-text.blocks.buttons.settings.button_style_secondary_2.label"
+        }
+      ]
     }
   ],
   "presets": [

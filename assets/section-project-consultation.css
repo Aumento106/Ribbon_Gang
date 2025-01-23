@@ -88,7 +88,7 @@
 
 @media screen and (min-width: 750px) {
     .project-consultation__heading.h0 {
-        font-size: calc(var(--font-heading-scale) * 3.6rem);
+        font-size: calc(var(--font-heading-scale) * 3.2rem);
     }
 
     .project-consultation__heading.h1 {

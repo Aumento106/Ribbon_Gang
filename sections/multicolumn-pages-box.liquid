@@ -4,14 +4,14 @@
 
 {%- style -%}
   .section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding_top | times: 0.35 | round: 0 }}px;
-    padding-bottom: {{ section.settings.padding_bottom | times: 0.35 | round: 0 }}px;
+    padding-top: {{ section.settings.padding_top | times: 0.55 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.55 | round: 0 }}px;
   }
 
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
-      padding-top: {{ section.settings.padding_top | times: 0.4 | round: 0 }}px;
-      padding-bottom: {{ section.settings.padding_bottom | times: 0.4 | round: 0 }}px;
+      padding-top: {{ section.settings.padding_top | times: 0.7 | round: 0 }}px;
+      padding-bottom: {{ section.settings.padding_bottom | times: 0.7 | round: 0 }}px;
     }
   }
 
@@ -167,22 +167,22 @@
             name="previous"
             aria-label="{{ 'general.slider.previous_slide' | t }}"
           >
-            <span class="svg-wrapper">{{ 'icon-caret.svg' | inline_asset_content }}</span>
+            <span class="svg-wrapper">{{ 'slider-arrow.svg' | inline_asset_content }}</span>
           </button>
-          <div class="slider-counter caption">
-            <span class="slider-counter--current">1</span>
-            <span aria-hidden="true"> / </span>
-            <span class="visually-hidden">{{ 'general.slider.of' | t }}</span>
-            <span class="slider-counter--total">{{ section.blocks.size }}</span>
-          </div>
           <button
             type="button"
             class="slider-button slider-button--next"
             name="next"
             aria-label="{{ 'general.slider.next_slide' | t }}"
           >
-            <span class="svg-wrapper">{{ 'icon-caret.svg' | inline_asset_content }}</span>
+            <span class="svg-wrapper">{{ 'slider-arrow.svg' | inline_asset_content }}</span>
           </button>
+          {% comment %} <div class="slider-counter caption">
+            <span class="slider-counter--current">1</span>
+            <span aria-hidden="true"> / </span>
+            <span class="visually-hidden">{{ 'general.slider.of' | t }}</span>
+            <span class="slider-counter--total">{{ section.blocks.size }}</span>
+          </div> {% endcomment %}
         </div>
       {%- endif -%}
     </slider-component>

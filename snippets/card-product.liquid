@@ -125,6 +125,15 @@
             </h3>
           </div>
           <div class="card__badge {{ settings.badge_position }}">
+
+            {%- if card_product.tags contains "NEW" -%}
+              <span class="card__badge--new badge badge--bottom-left color-{{ settings.new_badge_color_scheme }}">New</span>
+            {%- endif -%}
+
+            {%- if card_product.tags contains "Best Seller" -%}
+              <span class="card__badge--best-seller badge badge--bottom-left color-{{ settings.best_badge_color_scheme }}">Best Seller</span>
+            {%- endif -%}
+
             {%- if card_product.available == false -%}
               <span
                 id="NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}"

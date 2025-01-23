@@ -13,7 +13,6 @@
 
 .testimonial_new .testimonial-slide {
   padding: 3rem;
-  background: #FFCE001A;
   border: 1px solid var(--primary-theme-color);
   border-radius: 16px;
 }
@@ -83,6 +82,23 @@
   text-transform: unset;
 }
 
+.testimonial_new .image-with-text__grid .grid__item {
+  flex-grow: initial;
+}
+.testimonial_new .image-with-text__grid .image-with-text__media-item {
+  width: 42%;
+  max-width: 100%;
+}
+
+.testimonial_new .image-with-text__grid .image-with-text__text-item {
+  width: calc(100% - 42% - 126px);
+  max-width: 100%;
+}
+
+.testimonial_new .image-with-text__grid .image-with-text__media-item .media {
+  border: none;
+}
+
 @media screen and (min-width: 750px) {
   
   .testimonial_new .testimonial .grid--2-col-tablet .grid__item.image-with-text__media-item {
@@ -96,9 +112,18 @@
   }
 }
 
+@media screen and (min-width: 990px) {
+  .testimonial_new .testimonial .image-with-text__grid.grid {
+    justify-content: space-between;
+  }
+  .testimonial_new .image-with-text__grid .image-with-text__media-item .media {
+    padding-bottom: 0 !important;
+  }
+}
+
 @media screen and (min-width: 1025px) {
   .testimonial_new .testimonial .image-with-text__grid.grid {
-    --grid-desktop-horizontal-spacing: 8.2rem;
+    --grid-desktop-horizontal-spacing: 12.6rem;
   }
 }
 
@@ -122,12 +147,28 @@
 
 @media screen and (max-width: 991px) {
   .testimonial_new .testimonial .image-with-text__media-item {
-    max-width: 50%;
+    max-width: 100%;
     margin: 0 auto;
+    width: 100%;
   }
+  .testimonial_new .image-with-text__grid .image-with-text__text-item {
+    width: 100%;
+    max-width: 100%;
+}
 
   .testimonial_new .testimonial .title.image-with-text__heading {
     max-width: 100%;
+  }
+
+  .testimonial_new .image-with-text__grid--reverse {
+    flex-direction: column;
+  }
+  .testimonial_new .testimonial-slider .swiper-button-prev {
+    left: calc(50% - 57px);
+  }
+  .testimonial_new .testimonial-slider .swiper-button-next {
+    right: calc(50% - 57px);
+    left: auto;
   }
 }
 
@@ -154,11 +195,14 @@
     height: 50px;
   }
 
-  .testimonial_new .testimonial-slider .swiper-button-next {
-    left: 55px;
-  }
-
   .testimonial_new .testimonial-slider {
     padding-bottom: 65px;
   }
+  .testimonial_new .testimonial-slider .swiper-button-next {
+    right: calc(50% - 47px);
+  }
+  .testimonial_new .testimonial-slider .swiper-button-prev {
+    left: calc(50% - 47px);
+  }
 }
+

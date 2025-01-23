@@ -1,0 +1,56 @@
+
+.multicolumn-video_sec .multicolumn-box-content {
+    padding: 2.4rem;
+}
+
+.multicolumn-video_sec .multi-column-box-with-image .heading-with-icon-wrapper {
+    padding: 0;
+    margin-bottom: 2.4rem;
+}
+
+.multicolumn-video_sec .multi-column-box-with-image .multicolumn-box-description {
+    padding: 0;
+}
+
+.multicolumn-video_sec .grid {
+    --grid-desktop-vertical-spacing: 5rem;
+}
+
+.multicolumn-video_sec .video_yt_popup_box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: calc(100vw - 10rem);
+    height: calc(100vh - 10rem);
+    visibility: hidden;
+    opacity: 0;
+    z-index: 99999;
+    transition: visibility 0s, opacity 0.3s;
+}
+
+.multicolumn-video_sec .video_yt_popup_box iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.multicolumn-video_sec .close-popup {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    width: 20px;
+}
+
+.multicolumn-video_sec .popup_overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    visibility: hidden;
+    opacity: 0;
+    z-index: 99998;
+    transition: visibility 0s, opacity 0.3s;
+}

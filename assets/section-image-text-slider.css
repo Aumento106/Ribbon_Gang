@@ -271,4 +271,16 @@
     font-size: 18px;
     margin: 0 0 2rem;
   }
+  .custom-pagination {
+    margin-top: 30px;
+    justify-content: center;
+  }
+  .main_slider .image-with-text__content {
+    padding: 0 1.5rem;
+  }
+}
+@media screen and (max-width: 479px) {
+  .image-text-con-buttons {
+    flex-wrap: wrap;
+  }
 }

@@ -12,7 +12,7 @@
 
 .multicolumn-card .multicolumn-card__info {
   margin-top: 2.4rem;
-  padding: 1.6rem;
+  padding: 1.5rem;
   border-radius: 4px;
   border: 1px solid var(--border-color);
   transition: all .3s ease-in-out;
@@ -28,6 +28,14 @@
   background-color: var(--button-hover-background-color);
   border-color: var(--button-hover-background-color);
 }
+/* .multicolumn-pages-boxes .slider-buttons .slider-button[disabled="disabled"] {
+  display: none;
+} */
+
+.slider-buttons:has(.slider-button--prev[disabled="disabled"] + .slider-button--next[disabled="disabled"]) {
+  display: none;
+}
+
 
 @media screen and (max-width: 1024px) {
   .multicolumn-pages-boxes .multicolumn-card__info .inline-richtext {

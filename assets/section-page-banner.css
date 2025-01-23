@@ -1,6 +1,15 @@
-.page-banner_sec .project-consultation__content .title.h2 {
-  font-size: 24px;
+.project-consultation__wrapper .title.h2 {
+  font-size: calc(var(--font-heading-scale) * 2.4rem);
   margin-bottom: 1.6rem;
+}
+
+.project-consultation__wrapper .title.h1 {
+  font-size: calc(var(--font-heading-scale) * 3.2rem);
+  margin-bottom: 3rem;
+}
+
+.project-consultation__wrapper .title.h0 {
+  font-size: calc(var(--font-heading-scale) * 4.8rem);
 }
 
 .page-banner_sec .video_yt_banner iframe {
@@ -10,56 +19,144 @@
     max-height: 600px;
 }
 
-.page-banner_sec .video_yt_banner.project-consultation__image-wrapper {
-    margin: 0 0 4rem;
+.video_yt_banner.project-consultation__image-wrapper {
     box-shadow: 0px 0px 40px 0px #00000014;
 }
 
-.page-banner_sec .project-consultation__wrapper {
+.project-consultation__wrapper {
     gap: 0;
 }
 
-.page-banner_sec .section_title {
+.project-consultation-sec {
+    position: relative;
+}
+
+.project-consultation__wrapper .title {
     margin-bottom: 4rem;
 }
 
-@media screen and (min-width: 750px) {
-    .page-banner_sec .project-consultation__wrapper {
-        gap: 0;
-    }
+.project-consultation__text {
+    margin: 0;
+}
+
+.project-consultation__image-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 0 4rem;
+}
+
+.project-consultation__image-wrapper.image-block {
+    max-height: 540px;
+    min-height: 540px;
+}
+
+.project-consultation__image-wrapper img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.page-banner_sec .rich-text__buttons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 4rem;
+}
+
+.page-banner_sec .section-title-alignment-left .rich-text__buttons {
+    justify-content: start;
+}
+
+.page-banner_sec .section-title-alignment-center .rich-text__buttons {
+    justify-content: center;
+}
+
+.page-banner_sec .section-title-alignment-right .rich-text__buttons {
+    justify-content: right;
 }
 
 @media screen and (max-width: 1024px) {
     .page-banner_sec .video_yt_banner iframe {
         max-height: 520px;
     }
+
+    .project-consultation__wrapper .title {
+        margin-bottom: 2rem;
+    }
+
+    .project-consultation__image-wrapper {
+        margin: 0 0 2rem;
+    }
+
+    .project-consultation__wrapper .title.h0 {
+        font-size: calc(var(--font-heading-scale) * 3.4rem);
+    }
+
+    .project-consultation__wrapper .title.h1 {
+        font-size: calc(var(--font-heading-scale) * 2.6rem);
+        margin-bottom: 2rem;
+    }
+
+    .project-consultation__wrapper .title.h2 {
+        font-size: calc(var(--font-heading-scale) * 2rem);
+    }
+
+    .project-consultation__image-wrapper.image-block {
+        max-height: 340px;
+        min-height: 340px;
+    }
+
+    .page-banner_sec .rich-text__buttons {
+        margin-top: 2rem;
+    }
 }
 
 @media screen and (max-width: 989px) {
-    .page-banner_sec .section_title {
-        margin-bottom: 3rem;
-    }
-
-    .page-banner_sec .project-consultation__content .title.h2 {
-        font-size: 22px;
-    }
 
     .page-banner_sec .video_yt_banner iframe {
         max-height: 410px;
     }
+
+    .project-consultation__image-wrapper.image-block {
+        max-height: 300px;
+        min-height: 300px;
+    }
 }
 
 @media screen and (max-width: 749px) {
-    .page-banner_sec .section_title {
+
+    .project-consultation__wrapper .title.h0 {
+        font-size: calc(var(--font-heading-scale) * 2.4rem);
+    }
+
+    .project-consultation__wrapper .title.h1 {
+        font-size: calc(var(--font-heading-scale) * 2rem);
         margin-bottom: 2rem;
     }
 
-    .page-banner_sec .project-consultation__content .title.h2 {
-        font-size: 18px;
-        margin-bottom: 1rem;
+    .project-consultation__wrapper .title.h2 {
+        font-size: calc(var(--font-heading-scale) * 1.8rem);
     }
 
-    .page-banner_sec .video_yt_banner.project-consultation__image-wrapper {
-        margin: 0 0 1.5rem;
+    .page-banner_sec .video_yt_banner iframe {
+        max-height: 240px;
+    }
+
+    .project-consultation__image-wrapper.image-block {
+        max-height: 200px;
+        min-height: 200px;
+    }
+
+    .page-banner_sec .rich-text__buttons {
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+
+    .page-banner_sec .rich-text__buttons .button {
+        width: 100%;
     }
 }

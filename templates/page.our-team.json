@@ -17,17 +17,17 @@
         "padding_bottom": 28
       }
     },
-    "rich_text_JnqVHT": {
-      "type": "rich-text",
+    "page_banner_dLYBAm": {
+      "type": "page-banner",
       "blocks": {
-        "heading_7BaPBj": {
+        "heading_qKn48B": {
           "type": "heading",
           "settings": {
             "heading": "Meet <strong>Our Team</strong>",
-            "heading_size": "h1"
+            "heading_size": "h0"
           }
         },
-        "text_3wXfL4": {
+        "text_6rm6Q9": {
           "type": "text",
           "settings": {
             "text": "<p>The tireless and dynamic SpaceLogic team is dedicated to Healthcare. Our mission is to provide a fresh new approach, and premium advice and expertise to hospitals, medical centers and other clinical facilities. By combining the specialist skills of our entire team, we create a cohesive whole to give you individual attention, dedicated commitment and a result superior to any other.</p>"
@@ -35,15 +35,14 @@
         }
       },
       "block_order": [
-        "heading_7BaPBj",
-        "text_3wXfL4"
+        "heading_qKn48B",
+        "text_6rm6Q9"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "title_alignment": "center",
+        "full_width": true,
         "content_width": "full_width",
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
-        "full_width": true,
         "padding_top": 80,
         "padding_bottom": 80
       }
@@ -62,7 +61,7 @@
   },
   "order": [
     "main",
-    "rich_text_JnqVHT",
+    "page_banner_dLYBAm",
     "team_GF978q"
   ]
 }

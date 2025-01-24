@@ -24,13 +24,126 @@
       "settings": {
         "title_alignment": "center",
         "full_width": true,
+        "content_width": "medium",
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "padding_top": 80,
         "padding_bottom": 80
       }
+    },
+    "product_brochure_yeBAq3": {
+      "type": "product-brochure",
+      "blocks": {
+        "brochure_4BkMhA": {
+          "type": "brochure",
+          "settings": {
+            "image": "shopify://shop_images/brochure-1.png",
+            "heading": "SpaceLogic Product Catalog",
+            "text": "<p>A comprehensive catalog of SpaceLogic products and services, featuring the gold standard STERIRACK® System for improving infection control, maximizing available space and increasing patient care time.</p><p>Click to view the latest flipping book in a new browser window.</p>",
+            "btn_text": "View Brochure",
+            "btn_link": "https://online.flippingbook.com/view/141548076/",
+            "button_style_secondary": false
+          }
+        },
+        "brochure_MaPNke": {
+          "type": "brochure",
+          "settings": {
+            "image": "shopify://shop_images/colour-coding-brochure-img.png",
+            "heading": "SpaceLogic Color Coding Brochure",
+            "text": "<p>Act fast during an emergency. Find consumables quickly. Spend more time devoted to face-to-face patient care. Use STERIRACK® Click ‘n’ Clip Label Holders in conjunction with STERIRACK® components and accessories.</p><p>Click to view the latest flipping book in a new browser window.</p>",
+            "btn_text": "View Brochure",
+            "btn_link": "https://online.flippingbook.com/view/245421/",
+            "button_style_secondary": false
+          }
+        },
+        "brochure_CMXVaH": {
+          "type": "brochure",
+          "settings": {
+            "image": "shopify://shop_images/clean-utilities-brochure-img.png",
+            "heading": "STERIRACK® Clean Utilities Presentation",
+            "text": "<p>A comprehensive catalog of SpaceLogic products and services, featuring the gold standard STERIRACK® System for improving infection control, maximizing available space and increasing patient care time.</p><p>Click to view the latest flipping book in a new browser window.</p>",
+            "btn_text": "View Brochure",
+            "btn_link": "https://online.flippingbook.com/view/159525198/",
+            "button_style_secondary": false
+          }
+        },
+        "brochure_czMfpM": {
+          "type": "brochure",
+          "settings": {
+            "image": "shopify://shop_images/glass-door-cart-brochure-img.png",
+            "heading": "STERIRACK® Glass Door Carts Brochure",
+            "text": "<p>Our newest addition to the STERIRACK® System range. A versatile, fully customizable solution for hospitals and healthcare, in single, double and triple door. Configured with your choice of baskets, shelves and accessories.</p><p>Click to view the latest flipping book in a new browser window.</p>",
+            "btn_text": "View Brochure",
+            "btn_link": "https://online.flippingbook.com/view/975476699/",
+            "button_style_secondary": false
+          }
+        },
+        "brochure_G9gyCD": {
+          "type": "brochure",
+          "settings": {
+            "image": "shopify://shop_images/transport-cart-brochure-img.png",
+            "heading": "STERIRACK® Transport Carts Brochure",
+            "text": "<p>The stainless steel STERIRACK® Transport Cart is sealed and dust free for transporting sterile instruments and items. Include your choice of baskets, shelves and accessories to suit your application. Doors rotate 270°.</p><p>Click to view the latest flipping book in a new browser window.</p>",
+            "btn_text": "View Brochure",
+            "btn_link": "https://online.flippingbook.com/view/497002348/",
+            "button_style_secondary": false
+          }
+        },
+        "brochure_gtibBq": {
+          "type": "brochure",
+          "settings": {
+            "image": "shopify://shop_images/first-responder-storage-brochure-img.png",
+            "heading": "STERIRACK® First Responder Storage",
+            "text": "<p>The perfect solution for your facility, giving you options to configure exactly the way that suits your consumables and application. STERIRACK® is future proof – change your configuration at any time to suit your changing needs.</p><p>Click to view the latest flipping book in a new browser window.</p>",
+            "btn_text": "View Brochure",
+            "btn_link": "https://online.flippingbook.com/view/30170711/",
+            "button_style_secondary": false
+          }
+        },
+        "brochure_HpGBw7": {
+          "type": "brochure",
+          "settings": {
+            "image": "shopify://shop_images/nexus-group-brochure-img.png",
+            "heading": "STERIRACK® Nexus Group of Hospitals Presentation​",
+            "text": "<p>A presentation featuring a recent STERIRACK® installation at Orange Private Hospital, owned by Nexus Group of Hospitals, and proudly designed and installed by SpaceLogic Group in record breaking time.</p><p>Click to view the latest flipping book in a new browser window.</p>",
+            "btn_text": "View Brochure",
+            "btn_link": "https://online.flippingbook.com/view/490670925/",
+            "button_style_secondary": false
+          }
+        },
+        "brochure_AFimiq": {
+          "type": "brochure",
+          "settings": {
+            "image": "shopify://shop_images/veterinary-brochure-img.png",
+            "heading": "STERIRACK® Veterinary Storage Catalog",
+            "text": "<p>STERIRACK® System is a clinical storage solution perfect for Veterinary, and meets standards for best practice and infection control. Available as free-standing modules configured to suit your needs.</p><p>Click to view the latest flipping book in a new browser window.</p>",
+            "btn_text": "View Brochure",
+            "btn_link": "https://online.flippingbook.com/view/345276725/",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "brochure_4BkMhA",
+        "brochure_MaPNke",
+        "brochure_CMXVaH",
+        "brochure_czMfpM",
+        "brochure_G9gyCD",
+        "brochure_gtibBq",
+        "brochure_HpGBw7",
+        "brochure_AFimiq"
+      ],
+      "settings": {
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "layout": "image_first",
+        "heading_size": "h1",
+        "box_color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
     }
   },
   "order": [
-    "page_banner_HdRgAU"
+    "page_banner_HdRgAU",
+    "product_brochure_yeBAq3"
   ]
 }

@@ -62,10 +62,10 @@
         
       <div class="team-member-detail-wrp">
         {% if members.employee_name != blank %}
-          <p class="team-member-name">{{ members.employee_name | upcase }}</p>
+          <p class="team-member-name">{{ members.employee_name }}</p>
         {% endif %}
         {% if members.employee_designation != blank %}
-          <div class="team-member-position">{{ members.employee_designation | upcase }}</div>
+          <div class="team-member-position">{{ members.employee_designation }}</div>
         {% endif %}
         {% if members.employee_description != blank %}
             <div class="team-description">
@@ -132,6 +132,10 @@
 {
   "name": "Team Members",
   "settings": [
+    {
+      "type": "parparagraph",
+      "content": "Team Data managed by metaobjects"
+    },
     {
       "type": "color_scheme",
       "id": "color_scheme",

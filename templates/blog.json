@@ -47,10 +47,10 @@
         "blog_title": "Latest news from <strong>SpaceLogic</strong>",
         "layout": "grid",
         "show_image": true,
-        "image_height": "adapt",
+        "image_height": "medium",
         "show_date": true,
         "show_author": false,
-        "view_all_btn_text": "View All",
+        "view_all_btn_text": "View More",
         "padding_top": 36,
         "padding_bottom": 36
       }

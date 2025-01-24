@@ -26,7 +26,7 @@
       {% endif %}
     </h1>
 
-    <div class="blog-articles {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
+    <div class="blog-articles {% if section.settings.layout == 'collage' %}blog-articles--collage {% else %}blog-articles--grid{% endif %}">
       {%- for article in blog.articles -%}
         <div
           class="blog-articles__article article{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
@@ -47,10 +47,12 @@
         </div>
       {%- endfor -%}
     </div>
-    {% if section.settings.view_all_btn_text != blank %}
-      <div class="view_all_btn">
-        <a href="{{ blog.url }}" class="button button--primary">{{ section.settings.view_all_btn_text }}</a>
-      </div>
+    {%- if blog.articles > 6 -%}
+      {% if section.settings.view_all_btn_text != blank %}
+        <div class="view_all_btn">
+          <a href="{{ blog.url }}" class="button button--primary">{{ section.settings.view_all_btn_text }}</a>
+        </div>
+      {% endif %}
     {% endif %}
 
     {%- if paginate.pages > 1 -%}

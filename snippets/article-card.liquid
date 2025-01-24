@@ -82,7 +82,7 @@
             </h3>
             <div class="article-card__info h5">
               {%- if show_date -%}
-                <span class="circle-divider blog-date">{{ article.published_at | time_tag: format: 'date' }}</span>
+                <span class="circle-divider blog-date">{{ article.published_at | date: "%d %b %Y" }}</span>
               {%- endif -%}
               {%- if show_author -%}
                 <span class="author-name">{{ article.author }}</span>
@@ -121,7 +121,7 @@
           </h3>
           <div class="article-card__info h5">
             {%- if show_date -%}
-              <span class="circle-divider blog-date">{{ article.published_at | time_tag: format: 'date' }}</span>
+              <span class="circle-divider blog-date">{{ article.published_at | date: "%d %b %Y" }}</span>
             {%- endif -%}
             {%- if show_author -%}
               <span class="author-name">{{ article.author }}</span>

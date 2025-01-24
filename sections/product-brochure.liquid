@@ -25,7 +25,7 @@
 <div class="product-brochure section-{{ section.id }} section-{{ section.id }}-padding color-{{ section.settings.color_scheme }} gradient">
     <div class="product-brochure-wrapper page-width{% if section.settings.layout == 'text_first' %} grid--reverse{% endif %}">
         {%- for block in section.blocks -%}
-            <div class="product-brochure-box color-{{ section.settings.box_color_scheme }} gradient" {{ block.shopify_attributes }}>
+            <div class="product-brochure-box color-{{ section.settings.box_color_scheme }} gradient{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" {{ block.shopify_attributes }}>
                 {%- if block.settings.image != blank -%}
                     <div class="product-brochure-box-image">
                         {{ block.settings.image | image_url: width: 1200 | image_tag:

@@ -168,4 +168,8 @@
     .page-banner_sec .rich-text__buttons .button {
         width: 100%;
     }
+
+    .project-consultation__wrapper .title {
+        margin-bottom: 1.5rem;
+    }
 }

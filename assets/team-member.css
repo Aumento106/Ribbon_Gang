@@ -47,13 +47,13 @@
   line-height: 1.18;
   font-size: 24px;
   font-weight: 600;
+  text-transform: uppercase;
 }
-
 .team-member-position {
   margin-bottom: 30px;
   line-height: 1.17;
-}
-
+  text-transform: uppercase;
+}t
 .social-links {
   display: flex;
   justify-content: center;

@@ -11,22 +11,37 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
     },
-    "project_consultation_KPVeg4": {
-      "type": "project-consultation",
+    "page_banner_J4tRrR": {
+      "type": "page-banner",
+      "blocks": {
+        "image_LRhKXn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/about-banner-img.png",
+            "border_radius": 16
+          }
+        },
+        "text_zj4HVF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Some of the team taking time out for a friendly chat in the lunch room with Managing Director Lloyd Scott (standing).</p>"
+          }
+        }
+      },
+      "block_order": [
+        "image_LRhKXn",
+        "text_zj4HVF"
+      ],
       "settings": {
-        "heading": "",
-        "heading_size": "h1",
         "title_alignment": "center",
-        "text": "<p>Some of the team taking time out for a friendly chat in the lunch room with Managing Director Lloyd Scott (standing).</p>",
-        "image": "shopify://shop_images/about-banner-img.png",
-        "border_radius": 0,
         "full_width": false,
-        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -105,40 +120,6 @@
     },
     "team_fyjyTF": {
       "type": "team",
-      "blocks": {
-        "team_member_RmbJFP": {
-          "type": "team_member",
-          "settings": {}
-        },
-        "team_member_yRCHip": {
-          "type": "team_member",
-          "settings": {}
-        },
-        "team_member_xKHWkA": {
-          "type": "team_member",
-          "settings": {}
-        },
-        "team_member_QtVBL4": {
-          "type": "team_member",
-          "settings": {}
-        },
-        "team_member_APNB9h": {
-          "type": "team_member",
-          "settings": {}
-        },
-        "team_member_d73j8C": {
-          "type": "team_member",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "team_member_RmbJFP",
-        "team_member_yRCHip",
-        "team_member_xKHWkA",
-        "team_member_QtVBL4",
-        "team_member_APNB9h",
-        "team_member_d73j8C"
-      ],
       "settings": {
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "title": "",
@@ -150,6 +131,10 @@
     }
   },
   "order": [
-    "main"
+    "main",
+    "page_banner_J4tRrR",
+    "image_with_text_v1_Kk8cPy",
+    "rich_text_EQJmnB",
+    "team_fyjyTF"
   ]
 }

@@ -30,7 +30,6 @@
             "heading": "<p>Gold Standard Clinical Storage For <strong>Healthcare</strong></p>",
             "text": "<p>High quality components mix and match to create modular clinical storege solutions, tailored exactly to your requirements.</p><p>STERIRACK®  System is used to create fully integrated room installations, and workstation, benches and trolleys.</p>",
             "button_label": "Shop Now",
-            "offer_code_txt": "MEGASALE",
             "button_link": "shopify://collections/all",
             "button_style_secondary": false
           }
@@ -42,7 +41,6 @@
             "heading": "<p>Gold Standard Clinical Storage For <strong>Healthcare</strong></p>",
             "text": "<p>High quality components mix and match to create modular clinical storege solutions, tailored exactly to your requirements.</p><p>STERIRACK®  System is used to create fully integrated room installations, and workstation, benches and trolleys.</p>",
             "button_label": "Shop Now",
-            "offer_code_txt": "MEGASALE",
             "button_link": "shopify://collections/all",
             "button_style_secondary": false
           }
@@ -129,12 +127,16 @@
       "settings": {
         "title": "",
         "heading_size": "h1",
-        "title_alignment": "center",
-        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "heading_color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
-        "columns_desktop": "3",
-        "box_shadow": true,
-        "box_color_scheme": "",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 72,
         "padding_bottom": 72
       }
@@ -152,7 +154,7 @@
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
-        "show_view_all": false,
+        "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
@@ -163,10 +165,10 @@
         "show_rating": false,
         "quick_add": "learnmore",
         "learn_more_button_text": "Learn More",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 72,
+        "padding_bottom": 72
       }
     },
     "multicolumn_services_box_FEbT7G": {
@@ -213,21 +215,6 @@
         "columns_mobile": "1",
         "padding_top": 72,
         "padding_bottom": 72
-      }
-    },
-    "project_consultation_RBPLbQ": {
-      "type": "project-consultation",
-      "settings": {
-        "heading": "<p>Project Consultation, Planning and Room Design</p>",
-        "heading_size": "h0",
-        "title_alignment": "center",
-        "text": "<p>Whether for a new build, a major renovation or a rejuvenation of existing clinical store rooms, all stakeholders are consulted in the design and planning of your new, tailored STERIRACK® System storage solution. During this phase you will meet with our expert project consultants, either in person or online, to work through the project brief and determine all the deliverables for the project. We pride ourselves on exceeding client expectations and meeting project timelines. We then design a tailored solution, using our own gold standard, modular STERIRACK® range – a solution that will exactly suit your application and room dimensions. Floor plans are created to demonstrate achievable storage capacity as well as other efficiencies you will achieve. Photorealistic images can be produced on request. Once every aspect of the project has been agreed upon and approved, your project is placed in the hands of our expert project management and installation team, who will seamlessly create, deliver and install your brand new clinical storage solution. You’ll never look back!</p>",
-        "image": "shopify://shop_images/project-consultation.png",
-        "border_radius": 0,
-        "full_width": true,
-        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
-        "padding_top": 0,
-        "padding_bottom": 40
       }
     },
     "multicolumn_pages_box_VCT8HN": {
@@ -282,7 +269,7 @@
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "border_color": "#424242",
         "columns_mobile": "1",
-        "swipe_on_mobile": true,
+        "swipe_on_mobile": false,
         "padding_top": 72,
         "padding_bottom": 72
       }

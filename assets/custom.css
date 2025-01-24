@@ -174,7 +174,10 @@ details[open]>.header__menu-item .ic_pluse{
 
 .card-wrapper .card--media .card__inner .card__content .card__badge {
   display: flex;
-  clip-path: polygon(0 0, 100% 0, 87% 50%, 100% 100%, 0 100%);
+  /* clip-path: polygon(0 0, 100% 0, 87% 50%, 100% 100%, 0 100%); */
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .card-wrapper .card--media .card__inner .card__content .card__badge .badge {
@@ -183,6 +186,8 @@ details[open]>.header__menu-item .ic_pluse{
   font-weight: 600;
   line-height: 1.17;
   letter-spacing: 0;
+  clip-path: polygon(0 0, 100% 0, 87% 50%, 100% 100%, 0 100%);
+  border: none;
 }
 
 /* .card-wrapper .card--media .card__inner .card__content .card__badge .badge.sale-badge {

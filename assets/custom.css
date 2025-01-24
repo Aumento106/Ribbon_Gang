@@ -379,6 +379,10 @@ body .slider-buttons {
     width: 40px;
     height: 40px;
   }
+  .slider-buttons .slider-button {
+    width: 40px;
+    height: 40px;
+  }
 
   .swiper .swiper-button:after {
     background-size: 16px;

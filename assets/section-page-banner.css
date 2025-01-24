@@ -32,7 +32,7 @@
 }
 
 .project-consultation__wrapper .title {
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
 }
 
 .project-consultation__text {
@@ -77,6 +77,11 @@
 
 .page-banner_sec .section-title-alignment-right .rich-text__buttons {
     justify-content: right;
+}
+
+.page-banner_sec .medium-width {
+    max-width: 91.2rem;
+    margin: 0 auto;
 }
 
 @media screen and (max-width: 1024px) {
@@ -125,6 +130,10 @@
         max-height: 300px;
         min-height: 300px;
     }
+
+    .page-banner_sec .medium-width {
+        padding: 0 1.5rem;
+    }
 }
 
 @media screen and (max-width: 749px) {
@@ -158,5 +167,9 @@
 
     .page-banner_sec .rich-text__buttons .button {
         width: 100%;
+    }
+
+    .project-consultation__wrapper .title {
+        margin-bottom: 1.5rem;
     }
 }

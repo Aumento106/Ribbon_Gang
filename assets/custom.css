@@ -396,3 +396,11 @@ body .slider-buttons {
     width: calc(90% - var(--grid-mobile-horizontal-spacing) - 3rem);
   }
 }
+
+span.save_tag {
+  background: red;
+  color: white;
+}
+span.product_compar_price {
+  text-decoration: line-through;
+}

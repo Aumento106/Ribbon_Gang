@@ -1,0 +1,200 @@
+{{ 'section-product-brochure.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.55 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.55 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top | times: 0.7 | round: 0 }}px;
+      padding-bottom: {{ section.settings.padding_bottom | times: 0.7 | round: 0 }}px;
+    }
+  }
+
+  @media screen and (min-width: 1025px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+
+{%- endstyle -%}
+
+<div class="product-brochure section-{{ section.id }} section-{{ section.id }}-padding color-{{ section.settings.color_scheme }} gradient">
+    <div class="product-brochure-wrapper page-width{% if section.settings.layout == 'text_first' %} grid--reverse{% endif %}">
+        {%- for block in section.blocks -%}
+            <div class="product-brochure-box color-{{ section.settings.box_color_scheme }} gradient{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" {{ block.shopify_attributes }}>
+                {%- if block.settings.image != blank -%}
+                    <div class="product-brochure-box-image">
+                        {{ block.settings.image | image_url: width: 1200 | image_tag:
+                            loading: 'lazy',
+                            width: block.settings.image.width,
+                            height: block.settings.image.height,
+                            class: 'multicolumn-box__image'
+                        }}
+                    </div>
+                {%- endif -%}
+                <div class="product-brochure-box-content">
+                    {%- if block.settings.heading != blank -%}
+                        <h3 class="product-brochure-box-title title {{ section.settings.heading_size }}">
+                            {{ block.settings.heading }}
+                        </h3>
+                    {%- endif -%}
+                    {%- if block.settings.text != blank -%}
+                        <div class="product-brochure-box-description">
+                            {{ block.settings.text }}
+                        </div>
+                    {%- endif -%}
+                    {%- if block.settings.btn_text != blank -%}
+                        <a href="{% if block.settings.btn_link != blank %}{{ block.settings.btn_link }}{% else %}#{% endif %}" target="_blank" class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}">
+                            {{ block.settings.btn_text }}
+                        </a>
+                    {%- endif -%}
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+
+
+{% schema %}
+{
+  "name": "Product brochure",
+  "tag": "section",
+  "class": "section main_slider",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+        "type": "header",
+        "content": "Section settings"
+    },
+    {
+        "type": "color_scheme",
+        "id": "color_scheme",
+        "label": "Section colors",
+        "default": "scheme-1"
+    },
+    {
+        "type": "header",
+        "content": "Box settings"
+    },
+    {
+      "type": "select",
+      "id": "layout",
+      "options": [
+        {
+          "value": "image_first",
+          "label": "Image first"
+        },
+        {
+          "value": "text_first",
+          "label": "Text first"
+        }
+      ],
+      "default": "image_first",
+      "label": "Layout",
+    },
+    {
+        "type": "select",
+        "id": "heading_size",
+        "options": [
+          {
+            "value": "h2",
+            "label": "Small"
+          },
+          {
+            "value": "h1",
+            "label": "Medium"
+          },
+          {
+            "value": "h0",
+            "label": "Large"
+          }
+        ],
+        "default": "h1",
+        "label": "Heading Size"
+    },
+    {
+      "type": "color_scheme",
+      "id": "box_color_scheme",
+      "label": "Box colors",
+      "default": "scheme-1"
+    },
+    {
+      "type": "header",
+      "content": "Section Padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 36
+    }
+  ],
+  "blocks": [
+    {
+      "type": "brochure",
+      "name": "Brochure",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "heading",
+          "default": "Heading",
+          "label": "Heading"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "default": "<p>Click to view the latest flipping book in a new browser window.</p>",
+          "label": "Text"
+        },
+        {
+          "type": "text",
+          "id": "btn_text",
+          "default": "View Brochure",
+          "label": "Button label"
+        },
+        {
+          "type": "url",
+          "id": "btn_link",
+          "label": "Button link"
+        },
+        {
+          "type": "checkbox",
+          "id": "button_style_secondary",
+          "default": false,
+          "label": "Use secondary button style"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Product brochure"
+    }
+  ]
+}
+{% endschema %}

@@ -70,7 +70,7 @@
 
             {%- when 'heading' -%}
               {%- if block.settings.heading != blank -%}
-                <div class="page-width">
+                <div class="{% if section.settings.content_width == 'medium' %}medium-width{% else %}page-width{% endif %}">
                   <h2 class="title {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
                     {{ block.settings.heading }}
                   </h2>
@@ -79,7 +79,7 @@
 
             {%- when 'text' -%}
               {%- if block.settings.text != blank -%}
-                <div class="page-width">
+                <div class="{% if section.settings.content_width == 'medium' %}medium-width{% else %}page-width{% endif %}">
                   <div class="project-consultation__text rte" {{ block.shopify_attributes }}>
                     {{ block.settings.text }}
                   </div>
@@ -87,7 +87,7 @@
               {%- endif -%}
 
               {%- when 'button' -%}
-                <div class="page-width">
+                <div class="{% if section.settings.content_width == 'medium' %}medium-width{% else %}page-width{% endif %}">
                   {% if block.settings.button_label != blank or block.settings.button_label_2 != blank %}
                     <div
                       class="rich-text__buttons{% if block.settings.button_label != blank and block.settings.button_label_2 != blank %} rich-text__buttons--multiple{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
@@ -165,6 +165,22 @@
         "label": "Full width section"
     },
     {
+      "type": "select",
+      "id": "content_width",
+      "options": [
+        {
+          "value": "full_width",
+          "label": "Full Width"
+        },
+        {
+          "value": "medium",
+          "label": "Medium"
+        }
+      ],
+      "default": "full_width",
+      "label": "Content Width"
+    },
+    {
       "type": "color_scheme",
       "id": "color_scheme",
       "default": "scheme-1",
@@ -202,9 +218,9 @@
       "limit": 3,
       "settings": [
         {
-          "type": "richtext",
+          "type": "inline_richtext",
           "id": "heading",
-          "default": "<p>Banner Title</p>",
+          "default": "Banner Title",
           "label": "Heading"
         },
         {

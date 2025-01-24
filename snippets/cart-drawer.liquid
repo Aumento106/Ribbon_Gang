@@ -62,7 +62,7 @@
         </div>
       {%- endif -%}
       <div class="drawer__header">
-        <h2 class="drawer__heading">{{ 'sections.cart.title' | t }}</h2>
+        <h2 class="drawer__heading">{{ 'sections.cart.title' | t }} <span>{{ cart.item_count }}</span></h2>
         <button
           class="drawer__close"
           type="button"
@@ -74,6 +74,7 @@
           </span>
         </button>
       </div>
+    
       <cart-drawer-items
         {% if cart == empty %}
           class=" is-empty"
@@ -160,7 +161,12 @@
                             </div>
                           {%- else -%}
                             <div class="product-option">
-                              {{ item.original_price | money }}
+                              {{ item.original_price | money }}  
+                              
+                              <span class="product_compar_price">{{ item.product.compare_at_price | money }}</span>
+                              {% assign compare_at_price2 = item.product.compare_at_price | times:item.quantity  %}
+                              {% assign save_prcent = compare_at_price2 | minus:item.original_line_price | times:100 | divided_by:compare_at_price2  %}
+                                <span class="save_tag">save{{ save_prcent  }}%</span>
                             </div>
                           {%- endif -%}
 
@@ -237,12 +243,18 @@
                                   {{ 'products.product.price.sale_price' | t }}
                                 </span>
                                 <span class="price price--end">
+
                                   {{ item.final_line_price | money }}
                                 </span>
                               </div>
                             {%- else -%}
                               <span class="price price--end">
                                 {{ item.original_line_price | money }}
+                                  {% assign compare_at_price = item.product.compare_at_price | times:item.quantity | money %}
+                                  {% assign compare_at_price2 = item.product.compare_at_price | times:item.quantity  %}
+                                    <span class="product_compar_price">{{ compare_at_price  }}</span>
+                                  {% assign save_prcent = compare_at_price2 | minus:item.original_line_price | times:100 | divided_by:compare_at_price2  %}
+                                <span class="save_tag">save{{ save_prcent  }}%</span>
                               </span>
                             {%- endif -%}
 

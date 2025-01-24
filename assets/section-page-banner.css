@@ -79,6 +79,11 @@
     justify-content: right;
 }
 
+.page-banner_sec .medium-width {
+    max-width: 91.2rem;
+    margin: 0 auto;
+}
+
 @media screen and (max-width: 1024px) {
     .page-banner_sec .video_yt_banner iframe {
         max-height: 520px;
@@ -124,6 +129,10 @@
     .project-consultation__image-wrapper.image-block {
         max-height: 300px;
         min-height: 300px;
+    }
+
+    .page-banner_sec .medium-width {
+        padding: 0 1.5rem;
     }
 }
 

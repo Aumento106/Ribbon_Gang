@@ -22,7 +22,7 @@
         "heading_RiVNji": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Our Project <strong>Customers</strong></p>",
+            "heading": "<h2>Our Project <strong>Customers</strong></h2>",
             "heading_size": "h0"
           }
         },

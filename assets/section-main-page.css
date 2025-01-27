@@ -5,6 +5,27 @@
 .main-page-title {
   margin-bottom: 3rem;
 }
+.main-page-col .title {
+  margin-bottom: 40px;
+}
+ul.page_list {
+  list-style-type: none;
+  padding: 0;
+}
+ul.page_list li {
+  padding-left: 30px;
+  position: relative;
+}
+ul.page_list li::after {
+  position: absolute;
+  content: "";
+  left: 16px;
+  top: 11px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #000;
+}
 
 @media screen and (min-width: 750px) {
   .main-page-title {

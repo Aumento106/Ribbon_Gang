@@ -14,10 +14,10 @@
   }
 {%- endstyle -%}
 
-<div class="customer account section-{{ section.id }}-padding">
-  <div>
+<div class="customer account section-{{ section.id }}-padding color-{{ section.settings.color_scheme }}">
+  <div class="customer_account_top">
     <h1 class="customer__title">{{ 'customer.account.title' | t }}</h1>
-    <a href="{{ routes.account_logout_url }}">
+    <a class="customer_logout" href="{{ routes.account_logout_url }}">
       <span class="svg-wrapper">
         {{- 'icon-account.svg' | inline_asset_content -}}
       </span>
@@ -25,7 +25,7 @@
     </a>
   </div>
 
-  <div>
+  <div class="customer_account_bottom">
     <div>
       <h2>{{ 'customer.orders.title' | t }}</h2>
 
@@ -154,6 +154,12 @@
 {
   "name": "t:sections.main-account.name",
   "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    },
     {
       "type": "header",
       "content": "t:sections.all.padding.section_padding_heading"

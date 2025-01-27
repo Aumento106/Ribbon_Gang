@@ -99,3 +99,11 @@
     row-gap: 100px;
   }
 }
+
+.team-grid > :last-child {
+  grid-column: span 1;
+}
+
+.team-grid > :nth-last-child(1):nth-child(3n + 1) {
+  grid-column: 2;
+}

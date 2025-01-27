@@ -566,6 +566,7 @@
   letter-spacing: 0;
   top: calc(1.6rem + var(--inputs-border-width));
   left: calc(var(--inputs-border-width) + 5rem);
+  position: absolute;
 }
 
 .footer-block__newsletter .field::after {

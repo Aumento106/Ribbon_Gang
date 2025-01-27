@@ -3658,6 +3658,10 @@ details-disclosure > details {
 
 /* ------- Common Css -------- */
 
+iframe {
+  border: 0;
+}
+
 .sec-head {
   display: block;
   margin-bottom: 50px;

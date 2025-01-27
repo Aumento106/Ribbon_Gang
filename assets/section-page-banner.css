@@ -1,6 +1,7 @@
 .project-consultation__wrapper .title.h2 {
   font-size: calc(var(--font-heading-scale) * 2.4rem);
   margin-bottom: 1.6rem;
+  font-weight: 600;
 }
 
 .project-consultation__wrapper .title.h1 {

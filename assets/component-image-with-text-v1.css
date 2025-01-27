@@ -127,6 +127,11 @@
   .section_v1 .image-with-text__text-item .image-with-text__content {
     padding: 3.3rem 1.5rem;
   }
+
+  .section_v1 .image-with-text-v1 .image-with-text__grid .grid__item {
+    width: 100%;
+    max-width: 100%;
+  }
 }
 
 .section_v1 .image-with-text__text-item .image-with-text__content .button {

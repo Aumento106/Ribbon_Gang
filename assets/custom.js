@@ -14,9 +14,17 @@ function load_articles (evt){
             if(node.classList.contains('hidden')){
                 node.classList.remove('hidden');
             }
-            // if(node.classList.contains('hidden'))
         })
 
+        const hasHiddenAttribute = Array.from(new_all_div).some(element => element.classList.contains('hidden'));
+
+            if (!hasHiddenAttribute) {
+                target.closest('.view_all_btn').classList.add('hidden');
+            }else{
+                target.closest('.view_all_btn').classList.remove('hidden');
+            }
+        // const nodeLength = Array.from(new_all_div).find(node=> node.classList.contains('hidden').length);
+        // console.log(nodeLength);
     }
 }
 
@@ -25,6 +33,6 @@ if(load_more_btn.length > 0){
 });
 
 }
-load_more_btn.addEventListener("mouseover" , ()=>{
-    console.log("This button is clcked");
-});
+// load_more_btn.addEventListener("mouseover" , ()=>{
+//     console.log("This button is clcked");
+// });

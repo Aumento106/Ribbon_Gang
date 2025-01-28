@@ -105,6 +105,9 @@
                 {{ compare_at_price | money }}
               {% endif %}
             </s>
+            {% assign compare_at_price2 = product.compare_at_price %}
+            {% assign save_prcent = compare_at_price2 | minus:product.price | times:100 | divided_by:compare_at_price2  %}
+              <span class="save_tag">save{{ save_prcent  }}%</span>
           </span>
         {%- endunless -%}
       </div>

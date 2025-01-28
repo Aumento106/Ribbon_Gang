@@ -20,10 +20,19 @@
 }
 
 .pagination__list > li:not(:last-child) {
-  margin-right: 1rem;
+  margin-right: 1.6rem;
+}
+
+.pagination__item.pagination__item--current {
+  background-color: rgba(var(--color-button),var(--alpha-button-background));
+  font-size: 24px;
+  line-height: 1.16;
 }
 
 .pagination__item {
+  font-size: 18px;
+  line-height: 1.55;
+  font-weight: 500;
   color: rgb(var(--color-foreground));
   display: inline-flex;
   justify-content: center;
@@ -33,6 +42,13 @@
   width: 100%;
   padding: 0;
   text-decoration: none;
+  border: 1px solid rgba(var(--color-button),var(--alpha-button-background));
+  border-radius: 4px;
+  transition: all .3s ease-in-out;
+}
+
+.pagination__item:hover {
+  background-color: rgba(var(--color-button),var(--alpha-button-background));
 }
 
 a.pagination__item:hover::after {
@@ -43,7 +59,7 @@ a.pagination__item:hover::after {
   height: 0.6rem;
 }
 
-.pagination__item--current::after {
+/* .pagination__item--current::after {
   height: 0.1rem;
 }
 
@@ -57,6 +73,27 @@ a.pagination__item:hover::after {
   left: 50%;
   transform: translateX(-50%);
   background-color: currentColor;
+} */
+
+.pagination__list .pagination-prev-next-btn {
+  flex: initial;
+  max-width: initial;
+  min-width: 11.7rem;
+}
+
+.pagination__list .pagination-prev-next-btn .svg-wrapper {
+  width: auto;
+  height: auto;
+}
+
+.pagination-prev-next-btn .pagination__item {
+  font-size: 18px;
+  line-height: 1.55;
+  column-gap: 20px;
+}
+
+.pagination-prev-next-btn.pagination-prev .svg-wrapper {
+  transform: rotate(180deg);
 }
 
 .pagination__item--next .icon {
@@ -79,4 +116,37 @@ a.pagination__item:hover::after {
 
 .pagination__item-arrow:hover::after {
   display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .pagination__list>li {
+    flex: 1 0 3.8rem;
+    max-width: 3.8rem;
+  }
+
+  .pagination__item.pagination__item--current {
+    font-size: 20px;
+  }
+
+  .pagination__item {
+    height: 3.8rem;
+    font-size: 16px;
+  }
+
+  .pagination-prev-next-btn .pagination__item {
+    font-size: 16px;
+    column-gap: 12px;
+  }
+
+  .pagination__list .pagination-prev-next-btn {
+    min-width: 9.7rem;
+  }
+
+  .pagination__list>li:not(:last-child) {
+    margin-right: 1.2rem;
+  }
+
+  .pagination-wrapper {
+    margin-top: 2rem;
+  }
 }

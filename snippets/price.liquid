@@ -105,10 +105,10 @@
                 {{ compare_at_price | money }}
               {% endif %}
             </s>
-            {% assign compare_at_price2 = product.compare_at_price %}
-            {% assign save_prcent = compare_at_price2 | minus:product.price | times:100 | divided_by:compare_at_price2  %}
-              <span class="save_tag">save{{ save_prcent  }}%</span>
           </span>
+          {% assign compare_at_price_new = product.compare_at_price %}
+          {% assign save_prcent = compare_at_price_new | minus:product.price | times:100 | divided_by:compare_at_price_new  %}
+            <span class="save_tag">save {{ save_prcent  }}%</span>
         {%- endunless -%}
       </div>
       <small class="unit-price caption{% if product.selected_or_first_available_variant.unit_price_measurement == nil %} hidden{% endif %}">

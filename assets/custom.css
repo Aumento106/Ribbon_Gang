@@ -141,6 +141,10 @@ details[open]>.header__menu-item .ic_pluse{
   font-size: 24px;
   font-weight: 600;
   line-height: 1.25;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
 }
 
 .product-card-wrapper .card-information>*:not(.visually-hidden:first-child)+*:not(.rating):not(.card__information-volume-pricing-note) {
@@ -374,6 +378,10 @@ body .slider-buttons {
     font-size: 16px;
   }
 
+  .card-wrapper .price__sale .price-item--regular {
+    font-size: 14px;
+  }
+
   .product-card-wrapper .card__information {
     padding: 1.5rem 0;
   }
@@ -412,10 +420,6 @@ body .slider-buttons {
   }
 }
 
-span.save_tag {
-  background: red;
-  color: white;
-}
 span.product_compar_price {
   text-decoration: line-through;
 }

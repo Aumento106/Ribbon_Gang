@@ -120,8 +120,8 @@ a.pagination__item:hover::after {
 
 @media screen and (max-width: 767px) {
   .pagination__list>li {
-    flex: 1 0 3.8rem;
-    max-width: 3.8rem;
+    flex: 1 0 3.4rem;
+    max-width: 3.4rem;
   }
 
   .pagination__item.pagination__item--current {
@@ -129,7 +129,7 @@ a.pagination__item:hover::after {
   }
 
   .pagination__item {
-    height: 3.8rem;
+    height: 3.4rem;
     font-size: 16px;
   }
 

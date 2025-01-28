@@ -264,9 +264,9 @@
         "phone": "Phone number",
         "organisation": "Organisation",
         "region": "Region",
-        "job_title": "Job Title",
-        "enquiry_type": "Enquiry Type",
-        "enquiry": "Enquiry",
+        "job_title": "Berufsbezeichnung",
+        "enquiry_type": "Anfragetyp",
+        "enquiry": "Anfrage",
         "comment": "Comment",
         "send": "Send",
         "post_success": "Thanks for contacting us. We'll get back to you as soon as possible.",
@@ -286,7 +286,6 @@
       "announcement": "Announcement",
       "announcement_bar": "Announcement bar"
     },
-
     "header": {
       "announcement": "Announcement",
       "menu": "Menu",

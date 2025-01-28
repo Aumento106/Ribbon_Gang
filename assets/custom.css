@@ -1,7 +1,6 @@
 a {
   text-decoration: none;
   color: inherit;
-  display: block;
 }
 
 .blog-img-link::after {

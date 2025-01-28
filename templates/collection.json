@@ -9,17 +9,26 @@
  */
 {
   "sections": {
-    "page_banner_kj6FkN": {
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "scheme-1"
+      }
+    },
+    "page_banner_BXQVUB": {
       "type": "page-banner",
       "blocks": {
-        "heading_kKGJMF": {
+        "heading_nhBt8y": {
           "type": "heading",
           "settings": {
             "heading": "Our <strong>Products</strong>",
             "heading_size": "h0"
           }
         },
-        "text_T8Lc4T": {
+        "text_G6e3Nj": {
           "type": "text",
           "settings": {
             "text": "<p>The tireless and dynamic SpaceLogic team is dedicated to Healthcare. Our mission is to provide a fresh new approach, and premium advice and expertise to hospitals, medical centers and other clinical facilities. By combining the specialist skills of our entire team, we create a cohesive whole to give you individual attention, dedicated commitment and a result superior to any other.</p>"
@@ -27,8 +36,8 @@
         }
       },
       "block_order": [
-        "heading_kKGJMF",
-        "text_T8Lc4T"
+        "heading_nhBt8y",
+        "text_G6e3Nj"
       ],
       "settings": {
         "title_alignment": "center",
@@ -37,15 +46,6 @@
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "padding_top": 72,
         "padding_bottom": 72
-      }
-    },
-    "banner": {
-      "type": "main-collection-banner",
-      "disabled": true,
-      "settings": {
-        "show_collection_description": true,
-        "show_collection_image": false,
-        "color_scheme": "scheme-1"
       }
     },
     "product-grid": {
@@ -59,7 +59,7 @@
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
-        "quick_add": "learnmore",
+        "quick_add": "none",
         "learn_more_button_text": "Learn More",
         "enable_filtering": false,
         "filter_type": "horizontal",
@@ -71,8 +71,8 @@
     }
   },
   "order": [
-    "page_banner_kj6FkN",
     "banner",
+    "page_banner_BXQVUB",
     "product-grid"
   ]
 }

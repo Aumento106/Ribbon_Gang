@@ -412,6 +412,10 @@ body .slider-buttons {
     height: 14px;
     width: 16px;
   }
+
+  .collection-list .collection-list__item .card__information h2.card__heading {
+    font-size: calc(var(--font-heading-scale)* 1.6rem);
+  }
 }
 
 @media screen and (max-width: 479px) {

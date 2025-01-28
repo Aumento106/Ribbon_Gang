@@ -548,6 +548,8 @@
   background-color: transparent;
   padding-left: 46px;
   height: auto;
+  border: 0;
+  font-size: 1.8rem;
 }
 
 .footer-block__newsletter .newsletter-form__field-wrapper .button--primary {
@@ -562,9 +564,9 @@
 .footer-block__newsletter .field__label {
   font-size: 1.8rem;
   line-height: 1.66;
-  color: rgba(var(--color-foreground),1);
-  letter-spacing: 0;
-  top: calc(1.6rem + var(--inputs-border-width));
+  color: rgba(var(--color-foreground),0.5);
+  letter-spacing: -0.5px;
+  top: calc(1.7rem + var(--inputs-border-width));
   left: calc(var(--inputs-border-width) + 5rem);
   position: absolute;
 }
@@ -582,6 +584,17 @@
   border: 0;
   padding: 0;
   box-shadow: none;
+  opacity: 0.5;
+}
+
+.footer-block__newsletter .field__input:not(:placeholder-shown)~.field__label {
+  left: calc(var(--inputs-border-width) + 5rem);
+  top: calc(var(--inputs-border-width) + .8rem);
+  font-size: 1.2rem;
+}
+
+.footer-block__newsletter .field__input:not(:placeholder-shown) {
+  padding: 2.2rem 1.5rem .8rem 4.6rem;
 }
 
 .footer-block__newsletter .field__input:focus~.field__label {

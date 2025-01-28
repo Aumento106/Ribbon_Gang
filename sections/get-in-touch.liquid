@@ -12,6 +12,7 @@
     <div class="contact-header">
       <h1 class="contact-title center">{{ section.settings.title }}</h1>
     </div>
+
     <div class="contact-container">
       <div class="contact-image">
         {% if section.settings.contact_image %}
@@ -26,6 +27,31 @@
       <div class="contact-form-wrapper">
 
         {% form 'contact' %}
+
+        {%- if form.posted_successfully? -%}
+            <h2 class="form-status form-status-list form__message" tabindex="-1" autofocus>
+              {{- 'icon-success.svg' | inline_asset_content -}}
+              {{ 'templates.contact.form.post_success' | t }}
+            </h2>
+          {%- elsif form.errors -%}
+            <div class="form__message">
+              <h2 class="form-status caption-large text-body" role="alert" tabindex="-1" autofocus>
+                {{- 'icon-error.svg' | inline_asset_content -}}
+                {{ 'templates.contact.form.error_heading' | t }}
+              </h2>
+            </div>
+            <ul class="form-status-list caption-large" role="list">
+              <li>
+                <a href="#ContactForm-email" class="link">
+                  {{ form.errors.translated_fields.email | capitalize }}
+                  {{ form.errors.messages.email }}
+                </a>
+              </li>
+            </ul>
+          {%- endif -%}
+
+
+
           {% if form.errors %}
             <div class="form-error" style="display: block; margin-bottom: 20px;">
               {{ form.errors | default_errors }}
@@ -33,7 +59,7 @@
           {% endif %}
 
           <div class="form-field">
-            <label class="form-label" for="ContactName">Name *</label>
+            <label class="form-label" for="ContactName">{{ 'templates.contact.form.name' | t }} *</label>
             <input 
               type="text" 
               class="form-input" 
@@ -45,7 +71,7 @@
           </div>
 
           <div class="form-field">
-            <label class="form-label" for="ContactEmail">Email *</label>
+            <label class="form-label" for="ContactEmail">{{ 'templates.contact.form.email' | t }} *</label>
             <input 
               type="email" 
               class="form-input" 
@@ -57,20 +83,21 @@
           </div>
 
           <div class="form-field">
-            <label class="form-label" for="ContactPhone">Phone *</label>
+            <label class="form-label" for="ContactPhone">{{ 'templates.contact.form.phone' | t }} *</label>
             <input 
               type="tel" 
               class="form-input" 
               id="ContactPhone"
               name="contact[phone]" 
               value="{{ form.phone }}"
+              required
             >
           </div>
 
           
         <div class="form-row">
           <div class="form-field required">
-            <label class="form-label" for="ContactOrganisation">Organisation *</label>
+            <label class="form-label" for="ContactOrganisation">{{ 'templates.contact.form.organisation' | t }} *</label>
             <input 
               type="text" 
               class="form-input" 
@@ -81,7 +108,7 @@
         </div>
 
         <div class="form-field required">
-            <label class="form-label" for="ContactRegion">Region *</label>
+            <label class="form-label" for="ContactRegion">{{ 'templates.contact.form.region' | t }} *</label>
             <select class="form-select" id="ContactRegion" name="contact[region]" required>
               <option value="">Select Region</option>
               <option value="North America">North America</option>
@@ -95,7 +122,7 @@
         </div>
         <div class="form-row">
           <div class="form-field required">
-            <label class="form-label" for="ContactJobTitle">Job Title *</label>
+            <label class="form-label" for="ContactJobTitle">{{ 'templates.contact.form.job_title' | t }} *</label>
             <input 
               type="text" 
               class="form-input" 
@@ -106,7 +133,7 @@
           </div>
 
           <div class="form-field required">
-            <label class="form-label" for="ContactEnquiryType">Enquiry Type *</label>
+            <label class="form-label" for="ContactEnquiryType">{{ 'templates.contact.form.enquiry_type' | t }} *</label>
             <select class="form-select" id="ContactEnquiryType" name="contact[enquiry_type]" required>
               <option value="">Select Enquiry Type</option>
               <option value="General">General Inquiry</option>
@@ -119,12 +146,11 @@
         </div>
 
           <div class="form-field">
-            <label class="form-label" for="ContactMessage">Enquiry *</label>
+            <label class="form-label" for="ContactMessage">{{ 'templates.contact.form.enquiry' | t }}</label>
             <textarea
               class="form-textarea"
               id="ContactMessage"
-              name="contact[body]"
-              required
+              name="contact[body]"              
             >{{ form.body }}</textarea>
           </div>
 

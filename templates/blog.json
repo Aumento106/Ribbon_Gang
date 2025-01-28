@@ -50,7 +50,7 @@
         "image_height": "medium",
         "show_date": true,
         "show_author": false,
-        "range_to_show_blogs": 3,
+        "range_to_show_blogs": 4,
         "view_all_btn_text": "View More",
         "add_link": false,
         "load_more_redirection": "",

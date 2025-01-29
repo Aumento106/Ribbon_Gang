@@ -547,7 +547,7 @@
         "content_layout": "no-overlap",
         "section_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "enable_loop": false,
+        "enable_loop": true,
         "show_navigation": true,
         "show_pagination": false,
         "arrow_color": "#000000",

@@ -95,9 +95,7 @@
                     >
                       {%- if block.settings.image != blank -%}
                         {{ block.settings.image | image_url: width: 1000 | image_tag: 
-                          loading: 'lazy',
-                          sizes: "(min-width: 1100px) 50vw, 100vw",
-                          widths: '550, 720, 990, 1100, 1500, 2200, 3000'
+                          loading: 'lazy'
                         }}
                       {%- else -%}
                         {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}

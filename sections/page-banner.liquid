@@ -70,7 +70,7 @@
 
             {%- when 'heading' -%}
               {%- if block.settings.heading != blank -%}
-                <div class="{% if section.settings.content_width == 'medium' %}medium-width{% else %}page-width{% endif %}">
+                <div class="{% if section.settings.content_width == 'medium' %}medium-width{% elsif section.settings.full_width == true %}page-width{% endif %}">
                   <h2 class="title {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
                     {{ block.settings.heading }}
                   </h2>
@@ -79,7 +79,7 @@
 
             {%- when 'text' -%}
               {%- if block.settings.text != blank -%}
-                <div class="{% if section.settings.content_width == 'medium' %}medium-width{% else %}page-width{% endif %}">
+                <div class="{% if section.settings.content_width == 'medium' %}medium-width{% elsif section.settings.full_width == true %}page-width{% endif %}">
                   <div class="project-consultation__text rte" {{ block.shopify_attributes }}>
                     {{ block.settings.text }}
                   </div>
@@ -87,7 +87,7 @@
               {%- endif -%}
 
               {%- when 'button' -%}
-                <div class="{% if section.settings.content_width == 'medium' %}medium-width{% else %}page-width{% endif %}">
+                <div class="{% if section.settings.content_width == 'medium' %}medium-width{% elsif section.settings.full_width == true %}page-width{% endif %}">
                   {% if block.settings.button_label != blank or block.settings.button_label_2 != blank %}
                     <div
                       class="rich-text__buttons{% if block.settings.button_label != blank and block.settings.button_label_2 != blank %} rich-text__buttons--multiple{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"

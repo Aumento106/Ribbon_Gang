@@ -17,7 +17,7 @@ a {
   font-size: 20px;
   font-weight: 600;
   line-height: 1.17;
-  border-radius: 4px;
+  border-radius: 8px;
 }
 
 .button::after, .button-label::after, .shopify-challenge__button::after, .customer button::after {

@@ -17,7 +17,6 @@
           "settings": {
             "image": "shopify://shop_images/megasale-offer-banner.png",
             "offer_title": "<p><strong>Super Saver Offer</strong></p>",
-            "offer_title_color": "#48ab7b",
             "heading": "<p>Gold Standard Clinical Storage For <strong>Healthcare</strong></p>",
             "heading_size": "h1",
             "text": "<p>High quality components mix and match to create modular clinical storege solutions, tailored exactly to your requirements.</p><p>STERIRACK®  System is used to create fully integrated room installations, and workstation, benches and trolleys.</p>",
@@ -31,8 +30,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/megasale-offer-banner_938a82df-53d3-4aaa-ba45-57c4b93c4463.png",
-            "offer_title": "<p>Super Saver Offer</p>",
-            "offer_title_color": "#ffce00",
+            "offer_title": "<p><strong>Super Saver Offer</strong></p>",
             "heading": "<p>Gold Standard Clinical Storage For <strong>Healthcare</strong></p>",
             "heading_size": "h1",
             "text": "<p>High quality components mix and match to create modular clinical storege solutions, tailored exactly to your requirements.</p><p>STERIRACK®  System is used to create fully integrated room installations, and workstation, benches and trolleys.</p>",
@@ -46,8 +44,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/megasale-offer-banner_d03c647a-a5dd-4537-859a-298359b30937.png",
-            "offer_title": "<p>Super Saver Offer</p>",
-            "offer_title_color": "#ffce00",
+            "offer_title": "<p><strong>Super Saver Offer</strong></p>",
             "heading": "<p>Gold Standard Clinical Storage For <strong>Healthcare</strong></p>",
             "heading_size": "h1",
             "text": "<p>High quality components mix and match to create modular clinical storege solutions, tailored exactly to your requirements.</p><p>STERIRACK®  System is used to create fully integrated room installations, and workstation, benches and trolleys.</p>",
@@ -75,6 +72,7 @@
         "mobile_content_alignment": "left",
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "section_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "offer_title_color": "#ffce00",
         "autoplay": false,
         "autoplay_speed": 5,
         "show_pagination": true,
@@ -189,8 +187,8 @@
           "type": "column",
           "settings": {
             "icon": "shopify://shop_images/bulb-icon.svg",
-            "heading": "Product customization <br> and continuous innovation",
-            "text": "<p>We specialize in custom storage solutions for healthcare, and our STERIRACK® System and MEDIBIN™ ranges are exclusive to SpaceLogic. Liaise with our designers to have custom components and accessories created to meet your specific needs.</p>"
+            "heading": "Product customization  and continuous innovation",
+            "text": "<p>We specialize in custom storage solutions for healthcare, and our STERIRACK® and MEDIBIN™ ranges are exclusive to SpaceLogic. Liaise with our designers to have custom components and accessories created to meet your specific needs.</p>"
           }
         },
         "column_byiDxM": {
@@ -228,7 +226,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/image_f8e2b89c-4982-4e99-954d-febf9d883ec4.png",
-            "border_radius": 0
+            "border_radius": false
           }
         },
         "heading_qykFgG": {
@@ -268,7 +266,6 @@
             "image": "shopify://shop_images/sterirack-system.png",
             "title": "Projects",
             "text": "",
-            "link_label": "",
             "link": "shopify://pages/projects"
           }
         },
@@ -278,7 +275,6 @@
             "image": "shopify://shop_images/applications-page-img.png",
             "title": "Applications",
             "text": "",
-            "link_label": "",
             "link": "shopify://pages/applications"
           }
         },
@@ -288,7 +284,6 @@
             "image": "shopify://shop_images/product-page-img.png",
             "title": "Products",
             "text": "",
-            "link_label": "",
             "link": "shopify://collections/all"
           }
         }
@@ -548,8 +543,8 @@
         "enable_loop": true,
         "show_navigation": true,
         "show_pagination": false,
-        "arrow_color": "#000000",
-        "dot_color": "#000000",
+        "arrow_color": "#ffce00",
+        "dot_color": "#ffce00",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,

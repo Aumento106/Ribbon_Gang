@@ -31,8 +31,8 @@
           "type": "caption",
           "settings": {
             "caption": "Australia & New Zealand • United States & Canada",
-            "text_style": "subtitle",
-            "text_size": "medium"
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "large"
           }
         },
         "text_wwcAdP": {
@@ -67,7 +67,9 @@
             "company": "HEAD OFFICE: SPACELOGIC GROUP PTY LTD",
             "address": "7 Cameron Place, Orange NSW 2800, Australia",
             "phone": "02 6362 5533",
+            "phone_link": "",
             "email": "abc@gmail.com",
+            "email_link": "",
             "linkedin": "https://www.linkedin.com/company/spacelogic/",
             "facebook": "https://www.facebook.com/spacelogichealthcare",
             "instagram": "https://www.instagram.com/spacelogichealthcare/",
@@ -83,7 +85,9 @@
             "company": "HEAD OFFICE: SPACELOGIC GROUP LTD",
             "address": "44 Commerce Street, Springfield NJ 07081, United States",
             "phone": "973 379 4033",
+            "phone_link": "",
             "email": "abc@gmail.com",
+            "email_link": "",
             "linkedin": "https://www.linkedin.com/company/spacelogic/",
             "facebook": "https://www.facebook.com/spacelogichealthcare",
             "instagram": "",
@@ -99,7 +103,9 @@
             "company": "",
             "address": "",
             "phone": "",
+            "phone_link": "",
             "email": "",
+            "email_link": "",
             "linkedin": "",
             "facebook": "",
             "instagram": "",

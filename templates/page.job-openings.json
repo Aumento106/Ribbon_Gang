@@ -62,7 +62,7 @@
           "type": "heading",
           "settings": {
             "heading": "Open Positions",
-            "heading_size": "h0"
+            "heading_size": "h1"
           }
         }
       },

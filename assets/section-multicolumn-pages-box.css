@@ -18,6 +18,14 @@
   transition: all .3s ease-in-out;
 }
 
+.multicolumn-pages-boxes.background-none .slider .multicolumn-card__image-wrapper+.multicolumn-card__info {
+  padding: 1.5rem;
+}
+
+.multicolumn-pages-boxes .multicolumn-card .rte {
+  margin-top: 1.5rem;
+}
+
 .multicolumn-card__info .inline-richtext {
   font-size: 20px;
   font-weight: 600;

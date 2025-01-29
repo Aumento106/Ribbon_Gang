@@ -54,6 +54,10 @@
   .background-transparent {
     background: transparent;
   }
+
+    .offer-title strong {
+      color: {{ section.settings.offer_title_color }};
+    }
 {%- endstyle -%}
 
 {%- liquid
@@ -100,11 +104,6 @@
                   <div class="image-with-text__text-item grid__item">
                     <div class="image-with-text__content image-with-text__content--{{ section.settings.desktop_content_position }} image-with-text__content--desktop-{{ section.settings.desktop_content_alignment }} image-with-text__content--mobile-{{ section.settings.mobile_content_alignment }} image-with-text__content--{{ section.settings.height }} content-container{% unless remove_color_classes %} gradient color-{{ section.settings.color_scheme }}{% else %} background-transparent{% endunless %}">
                       <h3 class="offer-title">{{ block.settings.offer_title }}</h3>
-                      {%- style -%}
-                        .offer-title strong {
-                          color: {{ block.settings.offer_title_color }};
-                        }
-                      {%- endstyle -%}
                       {%- if block.settings.heading != blank or block.settings.text != blank -%}
                         <div class="sec-head">
                           {%- if block.settings.heading != blank -%}
@@ -397,6 +396,12 @@
       "default": "scheme-1"
     },
     {
+      "type": "color",
+      "id": "offer_title_color",
+      "label": "Offer title color",
+      "default": "#ffce00"
+    },
+    {
       "type": "header",
       "content": "Slider Settings"
     },
@@ -469,11 +474,6 @@
           "id": "offer_title",
           "default": "<p>Super Saver Offer</p>",
           "label": "Offer title"
-        },
-        {
-          "type": "color",
-          "id": "offer_title_color",
-          "label": "Offer title color"
         },
         {
           "type": "richtext",

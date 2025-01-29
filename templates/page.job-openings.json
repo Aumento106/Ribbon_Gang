@@ -17,51 +17,42 @@
         "padding_bottom": 28
       }
     },
-    "main_banner_eM3cqh": {
-      "type": "main-banner",
-      "settings": {
-        "page_container": "page-width",
-        "image": "shopify://shop_images/image_1.png",
-        "image_2": "shopify://shop_images/home-about.png",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "image_behavior": "none",
-        "margin_top": 80,
-        "margin_bottom": 0,
-        "mobile_margin_top": 30,
-        "mobile_margin_bottom": 30,
-        "stack_images_on_mobile": true
-      }
-    },
-    "rich_text_6m4Ddn": {
-      "type": "rich-text",
+    "page_banner_wL3g6z": {
+      "type": "page-banner",
       "blocks": {
-        "heading_qFawh4": {
+        "image_DKAD6w": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/image_1.png",
+            "border_radius": 16
+          }
+        },
+        "heading_q4a9w9": {
           "type": "heading",
           "settings": {
             "heading": "<strong>Job Openings</strong> at SpaceLogic",
-            "heading_size": "h1"
+            "heading_size": "h0"
           }
         },
-        "text_NXKGFk": {
+        "text_xdYUrK": {
           "type": "text",
           "settings": {
-            "text": "<p>At SpaceLogic, we believe in building a talented and diverse workforce that drives innovation and success. As a leader in the healthcare sector, we are dedicated to fostering an inclusive environment where every individual can thrive and contribute their unique skills and perspectives. Browse through our current job openings below and submit an application.</p>"
+            "text": "<p>At SpaceLogic, we believe in building a talented and diverse workforce that drives innovation and success. As a leader in the healthcare sector, we are dedicated to fostering an inclusive environment where every individual can thrive and contribute their unique skills and perspectives. Browse through our current job openings below and submit an application.</p><p>Let’s shape the future of healthcare together!</p>"
           }
         }
       },
       "block_order": [
-        "heading_qFawh4",
-        "text_NXKGFk"
+        "image_DKAD6w",
+        "heading_q4a9w9",
+        "text_xdYUrK"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "title_alignment": "center",
+        "full_width": false,
         "content_width": "full_width",
         "color_scheme": "",
-        "full_width": true,
-        "padding_top": 50,
-        "padding_bottom": 80
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "rich_text_y4gmC7": {
@@ -91,8 +82,7 @@
   },
   "order": [
     "main",
-    "main_banner_eM3cqh",
-    "rich_text_6m4Ddn",
+    "page_banner_wL3g6z",
     "rich_text_y4gmC7"
   ]
 }

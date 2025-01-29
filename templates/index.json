@@ -15,7 +15,7 @@
         "slide_LHpFNR": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/banner-slide-img.png",
+            "image": "shopify://shop_images/megasale-offer-banner.png",
             "offer_title": "<p><strong>Super Saver Offer</strong></p>",
             "offer_title_color": "#ffce00",
             "heading": "<p>Gold Standard Clinical Storage For <strong>Healthcare</strong></p>",
@@ -30,7 +30,7 @@
         "slide_7RNfbg": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/banner-slide-img.png",
+            "image": "shopify://shop_images/megasale-offer-banner_938a82df-53d3-4aaa-ba45-57c4b93c4463.png",
             "offer_title": "<p>Super Saver Offer</p>",
             "offer_title_color": "#ffce00",
             "heading": "<p>Gold Standard Clinical Storage For <strong>Healthcare</strong></p>",
@@ -45,7 +45,7 @@
         "slide_fqRC9F": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/banner-slide-img.png",
+            "image": "shopify://shop_images/megasale-offer-banner_d03c647a-a5dd-4537-859a-298359b30937.png",
             "offer_title": "<p>Super Saver Offer</p>",
             "offer_title_color": "#ffce00",
             "heading": "<p>Gold Standard Clinical Storage For <strong>Healthcare</strong></p>",
@@ -81,7 +81,7 @@
         "autoplay_speed": 5,
         "show_pagination": true,
         "dot_color": "#eeeeee",
-        "padding_top": 32,
+        "padding_top": 68,
         "padding_bottom": 32
       }
     },
@@ -141,7 +141,7 @@
         "heading_color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
         "columns_desktop": "3",
         "box_shadow": true,
-        "box_color_scheme": "",
+        "box_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "padding_top": 72,
         "padding_bottom": 36
       }

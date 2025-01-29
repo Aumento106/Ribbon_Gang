@@ -36,7 +36,7 @@
         <div class="proudly-support__item grid__item" {{ block.shopify_attributes }}>
           {%- if block.settings.image != blank -%}
             <div class="proudly-support__image-wrapper">
-              {{ block.settings.image | image_url: width: 200 | image_tag:
+              {{ block.settings.image | image_url: width: 400 | image_tag:
                 loading: 'lazy',
                 width: block.settings.image.width,
                 height: block.settings.image.height,

@@ -22,11 +22,6 @@
     }
   }
 
-  .section-{{ section.id }} {
-    --title-highlight-color: {{ section.settings.title_highlight_color }}
-  }
-
-
   .custom-pagination-bullet {
     background: {{ section.settings.dot_color }};
   }
@@ -74,7 +69,7 @@
 <div class="image-with-text-slider-wrapper section-{{ section.id }} section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}">
   <div class="page-width_a">
     {%- if section.settings.heading != blank -%}
-      <div class="sec-head title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin">
+      <div class="sec-head page-width section-title-alignment-{{ section.settings.title_alignment }} title-wrapper-with-link title-wrapper--no-top-margin">
         <h2 class="sec-title title {{ section.settings.heading_size }}">
           {{ section.settings.heading | escape }}
         </h2>
@@ -234,6 +229,26 @@
     },
     {
       "type": "select",
+      "id": "title_alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "left",
+      "label": "Section title alignment"
+    },
+    {
+      "type": "select",
       "id": "heading_size",
       "options": [
         {
@@ -382,32 +397,8 @@
       "default": "scheme-1"
     },
     {
-      "type": "color",
-      "id": "title_highlight_color",
-      "label": "Title Highlight Color",
-      "default": "#FFCE00"
-    },
-    {
       "type": "header",
       "content": "Slider Settings"
-    },
-    {
-      "type": "range",
-      "id": "slides_per_view_tablet",
-      "min": 1,
-      "max": 3,
-      "step": 1,
-      "label": "Slides per view (Tablet)",
-      "default": 2
-    },
-    {
-      "type": "range",
-      "id": "slides_per_view_desktop",
-      "min": 1,
-      "max": 3,
-      "step": 1,
-      "label": "Slides per view (Desktop)",
-      "default": 3
     },
     {
       "type": "checkbox",
@@ -482,8 +473,7 @@
         {
           "type": "color",
           "id": "offer_title_color",
-          "label": "Offer title color",
-          "default": "#FFCE00"
+          "label": "Offer title color"
         },
         {
           "type": "richtext",

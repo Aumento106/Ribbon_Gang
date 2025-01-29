@@ -334,7 +334,7 @@
   }
 
   .footer-block__details-content > li:not(:last-child) {
-    margin-right: 2.5rem;
+    margin-right: 1.8rem;
   }
 }
 
@@ -502,6 +502,7 @@
 
 .footer-block__brand-info .subtitle {
   margin: 0 0 2.4rem;
+  font-family: var(--font-body-family);
 }
 
 .list-social__item .list-social__link {
@@ -532,6 +533,8 @@
 
 .footer-block-right .subtitle {
   margin: 0 0 1.6rem;
+  font-family: var(--font-body-family);
+
 }
 
 .footer-block__newsletter .field:hover::after {
@@ -607,6 +610,10 @@
   padding: 2.2rem 1.5rem .8rem 4.6rem;
 }
 
+.footer-location-wrapper a {
+  cursor: text;
+}
+
 .footer-menu-wrapper {
   margin-top: 3rem;
 }
@@ -642,6 +649,10 @@
   padding: 0;
   line-height: 1.17;
   letter-spacing: -0.5px;
+}
+
+.footer-bottom-menu .list-menu__item--active {
+  text-decoration: none;
 }
 
 .footer__content-bottom-copyright-menu {
@@ -791,5 +802,78 @@
 
   .footer__content-bottom-wrapper:not(.footer__content-bottom-wrapper--center) .footer__copyright {
     font-size: 16px;
+  }
+
+  .footer-menu-wrapper .footer-block__details-content {
+    row-gap: 1.5rem;
+    column-gap: 1.5rem;
+  }
+
+  .footer-menu-wrapper .footer-block__details-content>li {
+    flex: 0 0 calc(50% - 8px);
+  }
+
+  .footer-menu-wrapper .footer-block__details-content>li:not(:last-child) {
+    margin-right: 0;
+  }
+
+  .footer-block__details-content .list-menu__item--link {
+    font-size: 1.6rem;
+  }
+
+  .copyright__content {
+    font-size: inherit;
+  }
+
+  .footer-block__newsletter .field {
+    flex-wrap: nowrap;
+  }
+
+  .footer-block__newsletter .newsletter-form__field-wrapper .button--primary {
+    width: auto;
+  }
+
+  .footer-block__newsletter {
+    width: 100%;
+  }
+
+  .footer-block__newsletter .field:after {
+    top: 50%;
+  }
+
+  .footer-block__newsletter .field__label {
+    top: calc(2rem + var(--inputs-border-width));
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .footer-block__newsletter .field {
+    flex-wrap: wrap;
+  }
+
+  .footer-block__newsletter .newsletter-form__field-wrapper .button--primary {
+    width: 100%;
+  }
+
+  .footer-block__newsletter .field:after {
+    top: 31px;
+  }
+
+  .footer-block__newsletter .field__label {
+    top: calc(1.7rem + var(--inputs-border-width));
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .footer-block__details-content>li:not(:last-child) {
+    margin-right: 1rem;
+  }
+
+  .footer-bottom-menu .footer-block__details-content .list-menu__item--link {
+    font-size: 1.4rem;
+  }
+
+  .footer__content-bottom-wrapper:not(.footer__content-bottom-wrapper--center) .footer__copyright {
+    font-size: 13px;
   }
 }

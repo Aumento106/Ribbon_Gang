@@ -127,8 +127,8 @@
           <div class="card__badge {{ settings.badge_position }}">
             {% for tag in card_product.tags %}
               {% if tag contains "__" %}
-                <span class="card__badge--best-seller badge badge--bottom-left color-{{ settings.best_badge_color_scheme }}">
-                  {{ tag | split: "__" | last }}
+                <span class="card__badge--best-seller card__badge--{{ tag | split: "__" | last | downcase }} badge badge--bottom-left color-{{ settings.best_badge_color_scheme }}">
+                  {{ tag | split: "__" | last | capitalize }}
                 </span>
               {% endif %}
             {% endfor %}

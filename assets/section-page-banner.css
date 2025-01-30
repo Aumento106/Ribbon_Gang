@@ -91,6 +91,50 @@
     margin: 0 auto;
 }
 
+.page-banner_sec .content-alignment-left {
+    text-align: left;
+}
+
+.page-banner_sec .content-alignment-center {
+    text-align: center;
+}
+
+.page-banner_sec .content-alignment-right {
+    text-align: right;
+}
+
+.page-banner_sec .content-alignment-left .rich-text__buttons {
+    justify-content: start;
+}
+
+.page-banner_sec .content-alignment-center .rich-text__buttons {
+    justify-content: center;
+}
+
+.page-banner_sec .content-alignment-right .rich-text__buttons {
+    justify-content: end;
+}
+
+.page-banner_sec .project-consultation__caption {
+    margin: 0 0 3rem;
+}
+
+.page-banner_sec .project-consultation__caption p:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+.page-banner_sec .project-consultation__caption p {
+    margin: 0;
+}
+
+.project-consultation__text p {
+    margin-top: 0;
+}
+
+.project-consultation__text p:not(:last-child) {
+    margin-bottom: 16px;
+}
+
 @media screen and (max-width: 1024px) {
     .page-banner_sec .video_yt_banner iframe {
         max-height: 520px;
@@ -117,13 +161,12 @@
         font-size: calc(var(--font-heading-scale) * 2rem);
     }
 
-    /* .project-consultation__image-wrapper.image-block {
-        max-height: 340px;
-        min-height: 340px;
-    } */
-
     .page-banner_sec .rich-text__buttons {
         margin-top: 2rem;
+    }
+
+    .page-banner_sec .project-consultation__caption {
+        margin: 0 0 2rem;
     }
 }
 
@@ -132,11 +175,6 @@
     .page-banner_sec .video_yt_banner iframe {
         max-height: 410px;
     }
-
-    /* .project-consultation__image-wrapper.image-block {
-        max-height: 300px;
-        min-height: 300px;
-    } */
 
     .page-banner_sec .medium-width {
         padding: 0 1.5rem;
@@ -162,11 +200,6 @@
         max-height: 240px;
     }
 
-    /* .project-consultation__image-wrapper.image-block {
-        max-height: 200px;
-        min-height: 200px;
-    } */
-
     .page-banner_sec .rich-text__buttons {
         gap: 15px;
         flex-wrap: wrap;
@@ -178,5 +211,13 @@
 
     .project-consultation__wrapper .title {
         margin-bottom: 1.5rem;
+    }
+
+    .page-banner_sec .project-consultation__caption {
+        margin: 0 0 1.5rem;
+    }
+
+    .project-consultation__text p:not(:last-child) {
+        margin-bottom: 10px;
     }
 }

@@ -15,9 +15,73 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "page_banner_retx9C": {
+      "type": "page-banner",
+      "blocks": {
+        "image_pJCHY9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4.jpg",
+            "border_radius": true
+          }
+        },
+        "heading_HUVM6E": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>CSSD and Theater</strong> Store",
+            "heading_size": "h0",
+            "heading_alignment": "center"
+          }
+        },
+        "text_PwM7Xe": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If you work in healthcare you already know about AS4187, and that sterile consumables must be handled and stored in a manner that maintains the integrity of packs and prevents contamination from any source of dust, vermin, sunlight, water and condensation.</p><p>This is where our gold standard STERIRACK®System comes into its own! Designed and manufactured in Australia by SpaceLogic, STERIRACK®System is the complete modular consumables storage solution that can be configured in myriad ways to suit your space and application while exceeding AS4187 compliance.</p><p>Please feel welcome to use the presentation below to introduce your team to this concept, and do not hesitate to contact a SpaceLogic Project Consultant if you have any further questions, or would like to book in for a consultation.</p>",
+            "text_alignment": "left"
+          }
+        }
+      },
+      "block_order": [
+        "image_pJCHY9",
+        "heading_HUVM6E",
+        "text_PwM7Xe"
+      ],
+      "settings": {
+        "title_alignment": "center",
+        "full_width": false,
+        "content_width": "full_width",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "padding_top": 72,
+        "padding_bottom": 36
+      }
+    },
+    "application_list_GJhrcm": {
+      "type": "application-list",
+      "blocks": {
+        "application_item_DqPWKh": {
+          "type": "application_item",
+          "settings": {
+            "heading": "<p>CSSD and Theater <strong>presentation</strong></p>",
+            "heading_size": "h1",
+            "heading_alignment": "center",
+            "catalog_url": "https://online.flippingbook.com/view/1031758163/"
+          }
+        }
+      },
+      "block_order": [
+        "application_item_DqPWKh"
+      ],
+      "settings": {
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "padding_top": 36,
+        "padding_bottom": 72
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "page_banner_retx9C",
+    "application_list_GJhrcm"
   ]
 }

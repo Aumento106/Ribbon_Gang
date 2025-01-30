@@ -15,9 +15,81 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "page_banner_j4tgqW": {
+      "type": "page-banner",
+      "blocks": {
+        "image_mFHGif": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3.jpg",
+            "border_radius": true
+          }
+        },
+        "heading_UXn4c3": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Veterinary</strong>",
+            "heading_size": "h0",
+            "heading_alignment": "center"
+          }
+        },
+        "caption_Kwrtq8": {
+          "type": "caption",
+          "settings": {
+            "caption": "<p>World's best veterinary storage solutions in a standard range, or customized to suit</p>",
+            "caption_alignment": "center"
+          }
+        },
+        "text_bAHta9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>SpaceLogic is Australia’s best selling provider of gold standard storage solutions to the veterinary sector. Our concepts and products provide best practice and exceed standards. Buy stand-alone modules, join modules together, or go for a full room installation. Purchase from our standard range or discuss a custom solution – we’re the experts in tailored space management.</p><p>See below to view a Veterinary presentation. Please feel welcome to use this presentation to introduce your team to this concept, and do not hesitate to contact a SpaceLogic Project Consultant if you have any further questions, or would like to book in for a consultation.</p>",
+            "text_alignment": "left"
+          }
+        }
+      },
+      "block_order": [
+        "image_mFHGif",
+        "heading_UXn4c3",
+        "caption_Kwrtq8",
+        "text_bAHta9"
+      ],
+      "settings": {
+        "title_alignment": "center",
+        "full_width": false,
+        "content_width": "full_width",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "padding_top": 72,
+        "padding_bottom": 36
+      }
+    },
+    "application_list_z4zWVB": {
+      "type": "application-list",
+      "blocks": {
+        "application_item_CUiTdc": {
+          "type": "application_item",
+          "settings": {
+            "heading": "<p>Veterinary <strong>presentation</strong></p>",
+            "heading_size": "h1",
+            "heading_alignment": "center",
+            "catalog_url": "https://online.flippingbook.com/view/345276725/"
+          }
+        }
+      },
+      "block_order": [
+        "application_item_CUiTdc"
+      ],
+      "settings": {
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "padding_top": 36,
+        "padding_bottom": 72
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "page_banner_j4tgqW",
+    "application_list_z4zWVB"
   ]
 }

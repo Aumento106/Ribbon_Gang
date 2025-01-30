@@ -398,6 +398,7 @@ body .slider-buttons {
 
   .button, .button-label, .shopify-challenge__button, .customer button {
     font-size: 16px;
+    padding: 16px;
   }
 
   .collection .collection__title.title-wrapper {
@@ -421,6 +422,12 @@ body .slider-buttons {
 
   .collection-list .collection-list__item .card__information h2.card__heading {
     font-size: calc(var(--font-heading-scale)* 1.6rem);
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .title br {
+    display: none;
   }
 }
 

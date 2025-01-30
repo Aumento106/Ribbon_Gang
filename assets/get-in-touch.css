@@ -48,7 +48,7 @@
   color: rgba(var(--color-foreground), 1);
   border: 1px solid rgba(var(--color-foreground), 30%);
   border-radius: 8px;
-  font-size: 24px;
+  font-size: 18px;
   transition: border-color 0.3s ease;
   line-height: 1.25;
   -webkit-appearance: none;

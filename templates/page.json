@@ -31,8 +31,8 @@
           "type": "caption",
           "settings": {
             "caption": "Australia & New Zealand • United States & Canada",
-            "text_style": "subtitle",
-            "text_size": "medium"
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "large"
           }
         },
         "text_wwcAdP": {

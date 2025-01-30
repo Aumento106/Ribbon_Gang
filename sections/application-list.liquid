@@ -1,0 +1,159 @@
+{{ 'section-application-list.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.55 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.55 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top | times: 0.7 | round: 0 }}px;
+      padding-bottom: {{ section.settings.padding_bottom | times: 0.7 | round: 0 }}px;
+    }
+  }
+
+  @media screen and (min-width: 1025px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="application-list-sec section-{{ section.id }}-padding gradient color-{{ section.settings.color_scheme }}">
+  {%- for block in section.blocks -%}
+    <div class="application-list-item section-title-alignment-{{ block.settings.heading_alignment }}">
+      <div class="page-width">
+        {% if block.settings.heading != blank %}
+          <div class="sec-head">
+            <h2 class="title {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+              {{ block.settings.heading }}
+            </h2>
+          </div>
+        {% endif %}
+        {% if block.settings.catalog_url != blank %}
+          <div class="catalog-wrapper">
+            <iframe
+              type="text/html"
+              scrolling="no"
+              frameborder="0"
+              loading="lazy"
+              allowfullscreen="allowfullscreen"
+              allow="accelerometer; autoplay; encrypted-media; fullscreen *; gyroscope; picture-in-picture;"
+              src="{{ block.settings.catalog_url }}"
+            ></iframe>
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  {%- endfor -%}
+</div>
+
+{% schema %}
+{
+  "name": "Application list",
+  "class": "section",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Color settings"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "default": "scheme-1",
+      "label": "Color scheme"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 180,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 180,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    }
+  ],
+  "blocks": [
+    {
+      "type": "application_item",
+      "name": "Application Item",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "heading",
+          "default": "<p>Heading</p>",
+          "label": "Heading"
+        },
+        {
+          "type": "select",
+          "id": "heading_size",
+          "options": [
+            {
+              "value": "h2",
+              "label": "Small"
+            },
+            {
+              "value": "h1",
+              "label": "Medium"
+            },
+            {
+              "value": "h0",
+              "label": "Large"
+            }
+          ],
+          "default": "h1",
+          "label": "Heading Size"
+        },
+        {
+          "type": "select",
+          "id": "heading_alignment",
+          "options": [
+            {
+              "value": "left",
+              "label": "Left"
+            },
+            {
+              "value": "center",
+              "label": "Center"
+            },
+            {
+              "value": "right",
+              "label": "Right"
+            }
+          ],
+          "default": "center",
+          "label": "Heading alignment"
+        },
+        {
+          "type": "url",
+          "id": "catalog_url",
+          "label": "Catalog url"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Application list"
+    }
+  ]
+}
+{% endschema %}

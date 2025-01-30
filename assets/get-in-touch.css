@@ -53,6 +53,7 @@
   line-height: 1.25;
   -webkit-appearance: none;
   position: relative;
+  font-weight: 500;
 }
 .contact-form-wrapper .form-select {
   background: url('https://cdn.shopify.com/s/files/1/0657/3388/6106/files/Frame.png?v=1737702545') right;

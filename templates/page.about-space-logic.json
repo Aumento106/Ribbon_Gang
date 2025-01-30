@@ -23,8 +23,8 @@
         "image_LRhKXn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/about-banner-img.png",
-            "border_radius": 16
+            "image": "shopify://shop_images/image_2_d105ff1d-19fc-449a-9518-1392329e41f4.png",
+            "border_radius": true
           }
         },
         "text_zj4HVF": {

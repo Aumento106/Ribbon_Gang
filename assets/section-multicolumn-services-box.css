@@ -28,6 +28,10 @@
   flex: 1;
 }
 
+.services-icon-heading .subtitle p {
+  margin: 0;
+}
+
 .column-alignment-left .multicolumn-services__item .rte {
   text-align: left;
 }
@@ -110,10 +114,6 @@
     font-size: 20px;
   }
 
-  .services-icon-heading .subtitle br {
-    display: none;
-  }
-
   .multicolumn-services__icon {
     height: 50px;
   }
@@ -138,8 +138,16 @@
     height: 24px;
   }
 
+  .multicolumn-services .grid {
+    --grid-desktop-horizontal-spacing: 1.4rem;
+  }
+
   .multicolumn-services__item.grid__item {
     padding: 1.5rem;
+  }
+
+  .services-icon-heading {
+    margin: 0 0 2rem;
   }
 }
 
@@ -187,6 +195,11 @@
     width: 25px;
     height: 25px;
   }
+
+  .services-icon-heading {
+    align-items: center;
+    flex-direction: row;
+  }
 }
 
 /* Mobile Breakpoint */
@@ -223,5 +236,12 @@
   .multicolumn-services__icon img {
     width: 28px;
     height: 28px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .services-icon-heading {
+    align-items: start;
+    flex-direction: column;
   }
 }

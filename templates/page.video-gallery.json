@@ -24,7 +24,7 @@
           "settings": {
             "video_url": "https://youtu.be/oOnwnC2Tt3A",
             "enable_video_looping": false,
-            "border_radius": 16
+            "border_radius": true
           }
         },
         "heading_7XFgg6": {

@@ -16,7 +16,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/image_1_f447e747-d3f3-4818-bd48-a3a839e42a16.png",
-            "border_radius": 16
+            "border_radius": true
           }
         },
         "heading_RiVNji": {

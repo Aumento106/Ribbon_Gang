@@ -210,6 +210,10 @@ details[open]>.header__menu-item .ic_pluse{
   color: #424242;
 }
 
+.collection .card--card, .collection .card--standard .card__inner {
+  border-color: #EEEEEE;
+}
+
 /* .card-wrapper .card--media .card__inner .card__content .card__badge .badge.sale-badge {
   background-color: #424242;
   color: var(--primary-theme-color);
@@ -329,14 +333,11 @@ body .slider-buttons {
   .collection .collection__title.title-wrapper {
     margin-bottom: 3rem;
   }
-}
 
-/* @media screen and (max-width: 1024px) {
-
-  .button, .shopify-challenge__button, .customer button, button.shopify-payment-button__button--unbranded {
-    min-height: calc(4rem + var(--buttons-border-width)* 2);
+  .product-card-wrapper .card__heading.h5 {
+    -webkit-line-clamp: 2;
   }
-} */
+}
 
 @media screen and (max-width: 1024px) {
   .product-card-wrapper .card__heading.h5 {
@@ -398,6 +399,7 @@ body .slider-buttons {
 
   .button, .button-label, .shopify-challenge__button, .customer button {
     font-size: 16px;
+    padding: 16px;
   }
 
   .collection .collection__title.title-wrapper {
@@ -421,6 +423,20 @@ body .slider-buttons {
 
   .collection-list .collection-list__item .card__information h2.card__heading {
     font-size: calc(var(--font-heading-scale)* 1.6rem);
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .title br {
+    display: none;
+  }
+
+  .card-wrapper .card--media .card__inner .card__content .card__badge .badge {
+    font-size: 10px;
+  }
+
+  .card-wrapper .card--media .card__inner .card__content .card__badge {
+    gap: 6px;
   }
 }
 

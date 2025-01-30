@@ -31,15 +31,13 @@
           "type": "heading",
           "settings": {
             "heading": "<strong>Pharmacy</strong> Storage and Dispensary",
-            "heading_size": "h0",
-            "heading_alignment": "center"
+            "heading_size": "h0"
           }
         },
         "text_FfMatV": {
           "type": "text",
           "settings": {
-            "text": "<p>Please check back for more information soon.</p>",
-            "text_alignment": "center"
+            "text": "<p>Please check back for more information soon.</p>"
           }
         },
         "button_g7CzT3": {
@@ -50,8 +48,7 @@
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
-            "button_style_secondary_2": false,
-            "button_alignment": "center"
+            "button_style_secondary_2": false
           }
         }
       },

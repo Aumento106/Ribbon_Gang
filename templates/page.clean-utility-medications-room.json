@@ -17,17 +17,17 @@
         "padding_bottom": 28
       }
     },
-    "page_banner_Xx3qNH": {
+    "page_banner_3tga7L": {
       "type": "page-banner",
       "blocks": {
-        "image_wVTc7M": {
+        "image_kxKHJQ": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/image_3_ce1ed38e-3fa0-477d-ac90-eee0e78253c7.png",
             "border_radius": true
           }
         },
-        "heading_cLFWLt": {
+        "heading_bTjkgN": {
           "type": "heading",
           "settings": {
             "heading": "Clean <strong>Utility and Medications Room</strong>",
@@ -35,14 +35,14 @@
             "heading_alignment": "center"
           }
         },
-        "caption_XkQpHh": {
+        "caption_eyMhcd": {
           "type": "caption",
           "settings": {
             "caption": "<p>Timber joinery is a thing of the past!</p>",
             "caption_alignment": "center"
           }
         },
-        "text_eqV4wp": {
+        "text_Yp6mkU": {
           "type": "text",
           "settings": {
             "text": "<p>Timber joinery and cabinetry is no longer viable for storage applications for clinical and non-clinical consumables and medications storage. STERIRACK® System by SpaceLogic is the perfect solution for fit-outs and replacements in Clean Utilities or Medications Rooms.</p><p>See the Clean Utility presentations below which include information and photos of recent installations, as well as video and photorealistic images of example room layouts. Keep in mind that we can create a Clean Utility design to suit any room dimensions, and configure your STERIRACK® System with baskets, shelving and accessories to suit your own requirements.</p><p>Please feel welcome to use the presentations on Wagga Wagga and Goulburn Hospitals to introduce your team to the STERIRACK® concept. Don’t hesitate to contact a SpaceLogic Project Consultant if you have any further questions, or would like to book in for a consultation.</p>",
@@ -51,10 +51,10 @@
         }
       },
       "block_order": [
-        "image_wVTc7M",
-        "heading_cLFWLt",
-        "caption_XkQpHh",
-        "text_eqV4wp"
+        "image_kxKHJQ",
+        "heading_bTjkgN",
+        "caption_eyMhcd",
+        "text_Yp6mkU"
       ],
       "settings": {
         "title_alignment": "center",
@@ -65,10 +65,10 @@
         "padding_bottom": 36
       }
     },
-    "application_list_HmLpwB": {
+    "application_list_Uf6gg7": {
       "type": "application-list",
       "blocks": {
-        "application_item_cDejeF": {
+        "application_item_tFPwi8": {
           "type": "application_item",
           "settings": {
             "heading": "<p>Clean Utility presentation - <strong>Wagga Wagga Hospital</strong></p>",
@@ -77,7 +77,7 @@
             "catalog_url": "https://online.flippingbook.com/view/159525198/"
           }
         },
-        "application_item_YUBzbg": {
+        "application_item_rneMRa": {
           "type": "application_item",
           "settings": {
             "heading": "<p>Goulburn Hospital <strong>presentation</strong></p>",
@@ -88,8 +88,8 @@
         }
       },
       "block_order": [
-        "application_item_cDejeF",
-        "application_item_YUBzbg"
+        "application_item_tFPwi8",
+        "application_item_rneMRa"
       ],
       "settings": {
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
@@ -100,7 +100,7 @@
   },
   "order": [
     "main",
-    "page_banner_Xx3qNH",
-    "application_list_HmLpwB"
+    "page_banner_3tga7L",
+    "application_list_Uf6gg7"
   ]
 }

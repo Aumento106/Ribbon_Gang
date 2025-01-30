@@ -24,7 +24,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/project-consultation.png",
-            "border_radius": 16
+            "border_radius": true
           }
         },
         "heading_pVBz9T": {
@@ -105,8 +105,8 @@
         "heading_size": "h1",
         "title_alignment": "center",
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "icon_bg_color": "#5A5A5A",
-        "border_color": "#EEEEEE",
+        "icon_bg_color": "#5a5a5a",
+        "border_color": "#eeeeee",
         "columns_desktop": 3,
         "columns_alignment": "left",
         "columns_mobile": "1",

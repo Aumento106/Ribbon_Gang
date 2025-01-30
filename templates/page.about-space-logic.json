@@ -24,7 +24,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/about-banner-img.png",
-            "border_radius": 16
+            "border_radius": true
           }
         },
         "text_zj4HVF": {

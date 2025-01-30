@@ -15,7 +15,7 @@
         "image_aCzXHd": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/projects-banner.png",
+            "image": "shopify://shop_images/image_1_f447e747-d3f3-4818-bd48-a3a839e42a16.png",
             "border_radius": 16
           }
         },
@@ -41,6 +41,7 @@
       "settings": {
         "title_alignment": "center",
         "full_width": false,
+        "content_width": "full_width",
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "padding_top": 36,
         "padding_bottom": 36

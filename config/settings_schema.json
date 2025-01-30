@@ -1280,14 +1280,8 @@
       },
       {
         "type": "color_scheme",
-        "id": "new_badge_color_scheme",
-        "label": "New badge color scheme",
-        "default": "scheme-3"
-      },
-      {
-        "type": "color_scheme",
         "id": "best_badge_color_scheme",
-        "label": "Best Seller badge color scheme",
+        "label": "Default badge color scheme",
         "default": "scheme-3"
       }
     ]

@@ -87,7 +87,7 @@
               style="--animation-order: {{ forloop.index }};"
             {% endif %}
           >
-            <a href="{%- if block.settings.link_label != blank -%}{{ block.settings.link_label }}{% else %}#{% endif %}" class="multicolumn-card content-container">
+            <a href="{% if block.settings.link != blank %}{{ block.settings.link }}{% else %}#{% endif %}" class="multicolumn-card content-container">
               {%- if block.settings.image != blank -%}
                 {% if section.settings.image_ratio == 'adapt' or section.settings.image_ratio == 'circle' %}
                   {% assign spaced_image = true %}
@@ -135,25 +135,10 @@
                 {%- if block.settings.title != blank -%}
                   <h3 class="inline-richtext">{{ block.settings.title }}</h3>
                 {%- endif -%}
-                {%- if block.settings.text != blank -%}
-                  <div class="rte">{{ block.settings.text }}</div>
-                {%- endif -%}
-                {%- if block.settings.link_label != blank -%}
-                  <a
-                    class="link animate-arrow"
-                    {% if block.settings.link == blank %}
-                      role="link" aria-disabled="true"
-                    {% else %}
-                      href="{{ block.settings.link }}"
-                    {% endif %}
-                  >
-                    {{- block.settings.link_label | escape -}}
-                    <span class="svg-wrapper"
-                      ><span class="icon-wrap">&nbsp;{{ 'icon-arrow.svg' | inline_asset_content }}</span></span
-                    >
-                  </a>
-                {%- endif -%}
               </div>
+              {%- if block.settings.text != blank -%}
+                <div class="rte">{{ block.settings.text }}</div>
+              {%- endif -%}
             </a>
           </li>
         {%- endfor -%}
@@ -426,11 +411,6 @@
           "id": "text",
           "default": "t:sections.multicolumn.blocks.column.settings.text.default",
           "label": "t:sections.multicolumn.blocks.column.settings.text.label"
-        },
-        {
-          "type": "text",
-          "id": "link_label",
-          "label": "t:sections.multicolumn.blocks.column.settings.link_label.label"
         },
         {
           "type": "url",

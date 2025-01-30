@@ -24,7 +24,7 @@
 }
 
 .product-catalog-right .logo {
-  max-width: 200px;
+  max-width: 201px;
   margin-bottom: 2.4rem;
 }
 
@@ -32,6 +32,15 @@
   width: 100%;
   height: auto;
   display: block;
+}
+
+.product-catalog-right .description a {
+  text-decoration: underline;
+  transition: all .3s ease-in-out;
+}
+
+.product-catalog-right .description a:hover {
+  color: var(--primary-theme-color);
 }
 
 .buttons {

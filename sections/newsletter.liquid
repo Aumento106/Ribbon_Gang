@@ -50,7 +50,7 @@
                     {% endif %}
                 >
                     <div class="input_field">
-                      <label class="field__label" for="ContactForm-name">{{- 'icon-user.svg' | inline_asset_content -}} Name *</label>
+                      <label class="field__label" for="ContactForm-name">{{- 'icon-user.svg' | inline_asset_content -}} Your Name *</label>
                       <input
                         class="field__input"
                         autocomplete="name"
@@ -170,9 +170,9 @@
       "content": "t:sections.newsletter.settings.paragraph.content"
     },
     {
-        "type": "inline_richtext",
+        "type": "richtext",
         "id": "heading",
-        "default": "t:sections.newsletter.blocks.heading.settings.heading.default",
+        "default": "<p>t:sections.newsletter.blocks.heading.settings.heading.default</p>",
         "label": "t:sections.newsletter.blocks.heading.settings.heading.label"
     },
     {

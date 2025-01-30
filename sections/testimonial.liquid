@@ -20,6 +20,18 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+  .testimonial_new .swiper-pagination .swiper-pagination-bullet-active:after {
+    background: {{ section.settings.dot_color }};
+  }
+
+  .testimonial_new .swiper .swiper-button {
+    border-color: {{ section.settings.arrow_color }};
+  }
+
+  .testimonial_new .swiper .swiper-button:hover {
+    background-color: {{ section.settings.arrow_color }};
+  }
 {%- endstyle -%}
 
 {%- liquid
@@ -343,13 +355,13 @@ document.addEventListener('DOMContentLoaded', function() {
       "type": "color",
       "id": "arrow_color",
       "label": "Arrow color",
-      "default": "#000000"
+      "default": "#ffce00"
     },
     {
       "type": "color",
       "id": "dot_color",
       "label": "Dot color",
-      "default": "#000000"
+      "default": "#ffce00"
     },
     {
       "type": "header",

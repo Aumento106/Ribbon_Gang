@@ -107,7 +107,6 @@
     "badge_corner_radius": 0,
     "sale_badge_color_scheme": "scheme-2",
     "sold_out_badge_color_scheme": "scheme-2",
-    "new_badge_color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
     "best_badge_color_scheme": "scheme-3",
     "brand_headline": "Social Profiles",
     "brand_description": "<p></p>",
@@ -130,6 +129,7 @@
     "show_cart_note": false,
     "cart_drawer_collection": "",
     "cart_color_scheme": "scheme-1",
+    "new_badge_color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",

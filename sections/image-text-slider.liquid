@@ -22,11 +22,6 @@
     }
   }
 
-  .section-{{ section.id }} {
-    --title-highlight-color: {{ section.settings.title_highlight_color }}
-  }
-
-
   .custom-pagination-bullet {
     background: {{ section.settings.dot_color }};
   }
@@ -59,6 +54,10 @@
   .background-transparent {
     background: transparent;
   }
+
+    .offer-title strong {
+      color: {{ section.settings.offer_title_color }};
+    }
 {%- endstyle -%}
 
 {%- liquid
@@ -74,7 +73,7 @@
 <div class="image-with-text-slider-wrapper section-{{ section.id }} section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}">
   <div class="page-width_a">
     {%- if section.settings.heading != blank -%}
-      <div class="sec-head title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin">
+      <div class="sec-head page-width section-title-alignment-{{ section.settings.title_alignment }} title-wrapper-with-link title-wrapper--no-top-margin">
         <h2 class="sec-title title {{ section.settings.heading_size }}">
           {{ section.settings.heading | escape }}
         </h2>
@@ -105,11 +104,6 @@
                   <div class="image-with-text__text-item grid__item">
                     <div class="image-with-text__content image-with-text__content--{{ section.settings.desktop_content_position }} image-with-text__content--desktop-{{ section.settings.desktop_content_alignment }} image-with-text__content--mobile-{{ section.settings.mobile_content_alignment }} image-with-text__content--{{ section.settings.height }} content-container{% unless remove_color_classes %} gradient color-{{ section.settings.color_scheme }}{% else %} background-transparent{% endunless %}">
                       <h3 class="offer-title">{{ block.settings.offer_title }}</h3>
-                      {%- style -%}
-                        .offer-title strong {
-                          color: {{ block.settings.offer_title_color }};
-                        }
-                      {%- endstyle -%}
                       {%- if block.settings.heading != blank or block.settings.text != blank -%}
                         <div class="sec-head">
                           {%- if block.settings.heading != blank -%}
@@ -231,6 +225,26 @@
       "id": "heading",
       "label": "Heading",
       "default": "Image with text slider"
+    },
+    {
+      "type": "select",
+      "id": "title_alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "left",
+      "label": "Section title alignment"
     },
     {
       "type": "select",
@@ -383,31 +397,13 @@
     },
     {
       "type": "color",
-      "id": "title_highlight_color",
-      "label": "Title Highlight Color",
-      "default": "#FFCE00"
+      "id": "offer_title_color",
+      "label": "Offer title color",
+      "default": "#ffce00"
     },
     {
       "type": "header",
       "content": "Slider Settings"
-    },
-    {
-      "type": "range",
-      "id": "slides_per_view_tablet",
-      "min": 1,
-      "max": 3,
-      "step": 1,
-      "label": "Slides per view (Tablet)",
-      "default": 2
-    },
-    {
-      "type": "range",
-      "id": "slides_per_view_desktop",
-      "min": 1,
-      "max": 3,
-      "step": 1,
-      "label": "Slides per view (Desktop)",
-      "default": 3
     },
     {
       "type": "checkbox",
@@ -478,12 +474,6 @@
           "id": "offer_title",
           "default": "<p>Super Saver Offer</p>",
           "label": "Offer title"
-        },
-        {
-          "type": "color",
-          "id": "offer_title_color",
-          "label": "Offer title color",
-          "default": "#FFCE00"
         },
         {
           "type": "richtext",

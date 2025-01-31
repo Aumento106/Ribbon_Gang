@@ -36,3 +36,16 @@ if(load_more_btn.length > 0){
 // load_more_btn.addEventListener("mouseover" , ()=>{
 //     console.log("This button is clcked");
 // });
+
+// function validatePhonenumber(){
+//     let phoneInput = document.getElementById('ContactPhone');
+//     let errorMessage = document.getElementById('phoneError');
+
+//     if(/[^0-9]/.test(phoneInput.value)){
+//         errorMessage.style.display = 'block';
+//         phoneInput.setCustomValidity('Invalid phone number');
+//     }else{
+//         errorMessage.style.display = 'none';
+//         phoneInput.setCustomValidity('');
+//     }
+// }

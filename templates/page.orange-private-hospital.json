@@ -11,13 +11,37 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "application_list_eiFVBP": {
+      "type": "application-list",
+      "blocks": {
+        "application_item_qEyzfw": {
+          "type": "application_item",
+          "settings": {
+            "heading": "<p>Orange <strong>Private Hospital</strong></p>",
+            "heading_size": "h1",
+            "heading_alignment": "center",
+            "catalog_url": "https://online.flippingbook.com/view/490670925/"
+          }
+        }
+      },
+      "block_order": [
+        "application_item_qEyzfw"
+      ],
+      "settings": {
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "application_list_eiFVBP"
   ]
 }

@@ -129,6 +129,18 @@ details[open]>.header__menu-item .ic_pluse{
   width: 1.8rem;
 }
 
+.section-title-alignment-left {
+  text-align: left;
+}
+
+.section-title-alignment-center {
+  text-align: center;
+}
+
+.section-title-alignment-right {
+  text-align: right;
+}
+
 /* ------ Card Product ---------- */
 
 .collection__title-alignment-left {

@@ -119,6 +119,16 @@ details[open]>.header__menu-item .ic_pluse{
   display: none;
 }
 
+.newsletter-form .newsletter-form__message {
+  font-size: 2rem;
+}
+
+.newsletter-form .newsletter-form__message .icon {
+  height: 1.8rem;
+  margin-right: 1rem;
+  width: 1.8rem;
+}
+
 /* ------ Card Product ---------- */
 
 .collection__title-alignment-left {
@@ -370,6 +380,10 @@ body .slider-buttons {
     justify-content: center;
     margin-top: 30px;
   }
+
+  .newsletter-form .newsletter-form__message {
+    font-size: 1.8rem;
+  }
 }
 
 @media screen and (max-width: 749px) {
@@ -415,6 +429,10 @@ body .slider-buttons {
 
   .collection-list .collection-list__item .card__information h2.card__heading {
     font-size: calc(var(--font-heading-scale)* 1.6rem);
+  }
+
+  .newsletter-form .newsletter-form__message {
+    font-size: 1.6rem;
   }
 }
 

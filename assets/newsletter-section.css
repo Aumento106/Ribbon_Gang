@@ -79,10 +79,6 @@
   position: static;
 }
 
-.newsletter-sec .newsletter .form__message {
-  font-size: 2rem;
-}
-
 .subscribe-btn {
   margin: 4rem 0 0;
 }
@@ -124,18 +120,10 @@
   .newsletter .grid {
     --grid-desktop-horizontal-spacing: 3rem;
   }
-
-  .newsletter-sec .newsletter .form__message {
-    font-size: 1.8rem;
-  }
 }
 
 @media screen and (max-width: 749px) {
   .newsletter-heading-con .title {
     margin: 0 0 1.5rem;
-  }
-
-  .newsletter-sec .newsletter .form__message {
-    font-size: 1.6rem;
   }
 }

@@ -142,6 +142,7 @@
         "height": "adapt",
         "desktop_image_width": "medium",
         "full_width": false,
+        "video_url": "",
         "enable_video_looping": false,
         "layout": "image_first",
         "desktop_content_position": "middle",
@@ -155,17 +156,268 @@
         "padding_bottom": 36
       }
     },
+    "image_with_text_v1_3bV76A": {
+      "type": "image-with-text-v1",
+      "blocks": {
+        "heading_TFPzC7": {
+          "type": "heading",
+          "settings": {
+            "heading": "Identification and labeling",
+            "heading_size": "h1"
+          }
+        },
+        "text_FYk9bD": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Clean/Dirty Label</li><li>Label Holder to suit A4</li></ul>",
+            "text_style": "body"
+          }
+        },
+        "button_zAPmQi": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read More",
+            "button_link": "#",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_TFPzC7",
+        "text_FYk9bD",
+        "button_zAPmQi"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/identification-and-labeling.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "full_width": false,
+        "video_url": "",
+        "enable_video_looping": false,
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_v1_D3j3pr": {
+      "type": "image-with-text-v1",
+      "blocks": {
+        "heading_RtTwmN": {
+          "type": "heading",
+          "settings": {
+            "heading": "Towing and transport",
+            "heading_size": "h1"
+          }
+        },
+        "text_dkB3at": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Drawbar with ergonomic self-lifting mechanism is easy on the back. Its integrated spring pushes the drawbar up – the user can couple and uncouple carts using their feet and without having to bend over</li><li>If drawbar is not needed it folds up automatically and doesn’t present a trip hazard</li><li>The compatible drawbar coupling completes the system so that several case carts can be securely connected together</li></ul>",
+            "text_style": "body"
+          }
+        },
+        "button_6W7tMB": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read More",
+            "button_link": "#",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_RtTwmN",
+        "text_dkB3at",
+        "button_6W7tMB"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/towing-and-transport.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "full_width": false,
+        "video_url": "",
+        "enable_video_looping": false,
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_v1_GhUNU6": {
+      "type": "image-with-text-v1",
+      "blocks": {
+        "heading_ymGD7y": {
+          "type": "heading",
+          "settings": {
+            "heading": "Protection and maneuvrability",
+            "heading_size": "h1"
+          }
+        },
+        "text_kF7KLU": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Heavy duty nylon buffers for cart protection</li><li>Fully stainless steel castors and bearings with clinical grade non-marking tread</li><li>Full length handles on all four corners for ease of maneuvring and extra protection of cart</li></ul>",
+            "text_style": "body"
+          }
+        },
+        "button_wGw4Xi": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read More",
+            "button_link": "#",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_ymGD7y",
+        "text_kF7KLU",
+        "button_wGw4Xi"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/STERIRACK-transport-case-cart-25_1.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "full_width": false,
+        "video_url": "",
+        "enable_video_looping": false,
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_v1_iVfAzg": {
+      "type": "image-with-text-v1",
+      "blocks": {
+        "heading_dx74kD": {
+          "type": "heading",
+          "settings": {
+            "heading": "Internal configuration",
+            "heading_size": "h1"
+          }
+        },
+        "text_er44G4": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Adjustable runners with stainless steel slide in/out shelves (600mmL x 300mmW)</li><li>Eight levels on each side with aluminum sterilization containers (total of 16)</li><li>Aluminum sterilization containers (285mmW x 460mmL x 145mmH)</li><li>Silicon anti-slip mat</li></ul>",
+            "text_style": "body"
+          }
+        },
+        "button_A9mYtr": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read More",
+            "button_link": "#",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_dx74kD",
+        "text_er44G4",
+        "button_A9mYtr"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/STERIRACK-transport-case-cart-26.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "full_width": false,
+        "video_url": "",
+        "enable_video_looping": false,
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_v1_tWdMdC": {
+      "type": "image-with-text-v1",
+      "blocks": {
+        "heading_hrDKH9": {
+          "type": "heading",
+          "settings": {
+            "heading": "Door features",
+            "heading_size": "h1"
+          }
+        },
+        "text_jMmCWC": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Bottom door latch to hold door position at 270°</li><li>Top door latch to hold doors in the closed position</li><li>3-point stainless door locking mechanism</li><li>Fully sealed doors preventing contamination</li><li>Security seal provision</li></ul>",
+            "text_style": "body"
+          }
+        },
+        "button_EK6m9U": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read More",
+            "button_link": "#",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_hrDKH9",
+        "text_jMmCWC",
+        "button_EK6m9U"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/STERIRACK-transport-case-cart-27.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "full_width": false,
+        "video_url": "",
+        "enable_video_looping": false,
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
-        "heading": "You may also like",
-        "heading_size": "h2",
+        "title": "Related <strong>Products</strong>",
+        "heading_size": "h1",
+        "heading_alignment": "center",
         "products_to_show": 4,
         "columns_desktop": 4,
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "image_ratio": "square",
         "image_shape": "default",
-        "show_secondary_image": true,
+        "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
         "columns_mobile": "2",
@@ -178,6 +430,11 @@
     "main",
     "rich_text_dwzN8N",
     "image_with_text_v1_HEUki7",
+    "image_with_text_v1_3bV76A",
+    "image_with_text_v1_D3j3pr",
+    "image_with_text_v1_GhUNU6",
+    "image_with_text_v1_iVfAzg",
+    "image_with_text_v1_tWdMdC",
     "related-products"
   ]
 }

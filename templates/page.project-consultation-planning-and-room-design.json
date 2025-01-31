@@ -9,15 +9,106 @@
  */
 {
   "sections": {
-    "main": {
-      "type": "main-page",
+    "page_banner_iVH9eY": {
+      "type": "page-banner",
+      "blocks": {
+        "image_W4zerL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/image_161.png",
+            "border_radius": true
+          }
+        },
+        "heading_pVBz9T": {
+          "type": "heading",
+          "settings": {
+            "heading": "Project Consultation, <strong>Planning and Room Design</strong>",
+            "heading_size": "h0"
+          }
+        },
+        "text_KdCiWp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Whether for a new build, a major renovation or a rejuvenation of existing clinical store rooms, all stakeholders are consulted in the design and planning of your new, tailored STERIRACK® System storage solution. During this phase you will meet with our expert project consultants, either in person or online, to work through the project brief and determine all the deliverables for the project. We pride ourselves on exceeding client expectations and meeting project timelines. We then design a tailored solution, using our own gold standard, modular STERIRACK® range – a solution that will exactly suit your application and room dimensions. Floor plans are created to demonstrate achievable storage capacity as well as other efficiencies you will achieve. Photorealistic images can be produced on request. Once every aspect of the project has been agreed upon and approved, your project is placed in the hands of our expert project management and installation team, who will seamlessly create, deliver and install your brand new clinical storage solution. You’ll never look back!</p>"
+          }
+        },
+        "button_fn8KLw": {
+          "type": "button",
+          "settings": {
+            "button_label": "Next: Project management and expert installation",
+            "button_link": "#",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "image_W4zerL",
+        "heading_pVBz9T",
+        "text_KdCiWp",
+        "button_fn8KLw"
+      ],
       "settings": {
-        "padding_top": 28,
-        "padding_bottom": 28
+        "title_alignment": "center",
+        "full_width": false,
+        "content_width": "full_width",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "padding_top": 72,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_services_box_Kh8zd7": {
+      "type": "multicolumn-services-box",
+      "blocks": {
+        "column_BpVqDr": {
+          "type": "column",
+          "settings": {
+            "icon": "shopify://shop_images/project-consultation.svg",
+            "heading": "<p>Project consultation <br/>and room design</p>",
+            "text": "<p>Each client receives a tailored storage solution that maximizes storage capacity within the available space, and suits its application. All stakeholder needs are incorporated in the design and planning of a new STERIRACK®System installation.</p>"
+          }
+        },
+        "column_GqV7PJ": {
+          "type": "column",
+          "settings": {
+            "icon": "shopify://shop_images/bulb-icon.svg",
+            "heading": "<p>Product customization <br/>and continuous innovation</p>",
+            "text": "<p>We specialize in custom storage solutions for healthcare, and our STERIRACK® System and MEDIBIN™ ranges are exclusive to SpaceLogic. Liaise with our designers to have custom components and accessories created to meet your specific needs.</p>"
+          }
+        },
+        "column_yL9hGf": {
+          "type": "column",
+          "settings": {
+            "icon": "shopify://shop_images/setting-icon.svg",
+            "heading": "<p>Project management <br/>and installation</p>",
+            "text": "<p>Our expert installation team specializes in fast, no-fuss storage installations with minimal interruptions to everyday operations or other trades. Our team travels nationally and internationally, or project manages local tradespeople.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "column_BpVqDr",
+        "column_GqV7PJ",
+        "column_yL9hGf"
+      ],
+      "settings": {
+        "sec_title": "<p>Three interconnected divisions, delivering <br/>a complete end-to-end <strong>Service</strong></p>",
+        "heading_size": "h1",
+        "title_alignment": "center",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "icon_bg_color": "#5a5a5a",
+        "border_color": "#eeeeee",
+        "columns_desktop": 3,
+        "columns_alignment": "left",
+        "columns_mobile": "1",
+        "padding_top": 36,
+        "padding_bottom": 72
       }
     }
   },
   "order": [
-    "main"
+    "page_banner_iVH9eY",
+    "multicolumn_services_box_Kh8zd7"
   ]
 }

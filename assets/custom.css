@@ -141,10 +141,6 @@ details[open]>.header__menu-item .ic_pluse{
   font-size: 24px;
   font-weight: 600;
   line-height: 1.25;
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 1;
 }
 
 .product-card-wrapper .card-information>*:not(.visually-hidden:first-child)+*:not(.rating):not(.card__information-volume-pricing-note) {
@@ -332,10 +328,6 @@ body .slider-buttons {
 @media screen and (max-width: 1199px) {
   .collection .collection__title.title-wrapper {
     margin-bottom: 3rem;
-  }
-
-  .product-card-wrapper .card__heading.h5 {
-    -webkit-line-clamp: 2;
   }
 }
 

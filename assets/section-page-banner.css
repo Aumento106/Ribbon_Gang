@@ -117,6 +117,7 @@
 
 .page-banner_sec .project-consultation__caption {
     margin: 0 0 3rem;
+    font-weight: 600;
 }
 
 .page-banner_sec .project-consultation__caption p:not(:last-child) {

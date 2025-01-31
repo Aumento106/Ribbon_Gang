@@ -1233,6 +1233,18 @@
     "name": "t:settings_schema.badges.name",
     "settings": [
       {
+        "type": "checkbox",
+        "id": "sale_badge_show",
+        "label": "Enable sale badge",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "soldout_badge_show",
+        "label": "Enable soldout badge",
+        "default": true
+      },
+      {
         "type": "select",
         "id": "badge_position",
         "options": [

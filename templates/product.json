@@ -82,6 +82,79 @@
         "padding_bottom": 12
       }
     },
+    "rich_text_dwzN8N": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_zMFpid": {
+          "type": "heading",
+          "settings": {
+            "heading": "Transport Case Cart <strong>Details</strong>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_zMFpid"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "content_width": "full_width",
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "full_width": false,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "image_with_text_v1_HEUki7": {
+      "type": "image-with-text-v1",
+      "blocks": {
+        "heading_dFNLVX": {
+          "type": "heading",
+          "settings": {
+            "heading": "Superior Strength and Durability",
+            "heading_size": "h1"
+          }
+        },
+        "text_XWWeWi": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ideal solution for transporting sterile goods within hospitals, and from hospital to hospital.</p><ul><li>Robust stainless steel construction</li><li>Double-skinned doors with perimeter seal</li><li>Doors are three point locking and rotate 270° to facilitate washing</li><li>Robust bumper base frame with bolt-on 150mm lockable swivel castors</li><li>Nylon wheels, stainless steel frame and wheel bearings</li><li>Premium quality Australian made product</li></ul>",
+            "text_style": "body"
+          }
+        },
+        "button_ctVKF4": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read More",
+            "button_link": "#",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_dFNLVX",
+        "text_XWWeWi",
+        "button_ctVKF4"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/superior-strength-and-durability.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "full_width": false,
+        "enable_video_looping": false,
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 72,
+        "padding_bottom": 36
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -103,6 +176,8 @@
   },
   "order": [
     "main",
+    "rich_text_dwzN8N",
+    "image_with_text_v1_HEUki7",
     "related-products"
   ]
 }

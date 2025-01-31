@@ -1,5 +1,22 @@
 {{ 'section-blog-post.css' | asset_url | stylesheet_tag }}
 
+<style>
+.section--{{ section.id }} {
+  padding-top: {{ section.settings.padding_top }}px;  
+  padding-bottom: {{ section.settings.padding_bottom }}px;
+}
+
+@media screen and (min-width: 750px) {
+
+  .section--{{ section.id }} {
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+  }
+
+}
+</style>
+
+<div class="color-{{ section.settings.section_color_scheme }} section--{{ section.id }}">
 <div class="page-width">
   <div class="article_detais_wrp">
     
@@ -363,7 +380,7 @@
     </div>
 
   </div>
-
+</div>
 </div>
 
 <script type="application/ld+json">
@@ -375,6 +392,34 @@
   "name": "t:sections.main-article.name",
   "tag": "section",
   "class": "section",
+  "settings": [
+    {
+      "type": "color_scheme",
+      "id": "section_color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 180,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 180,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    }
+  ],
   "blocks": [
     {
       "type": "@app"

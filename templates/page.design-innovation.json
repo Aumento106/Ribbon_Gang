@@ -15,32 +15,35 @@
         "image_W4zerL": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/image_161.png",
+            "image": "shopify://shop_images/5.jpg",
             "border_radius": true
           }
         },
         "heading_pVBz9T": {
           "type": "heading",
           "settings": {
-            "heading": "Project Consultation, <strong>Planning and Room Design</strong>",
-            "heading_size": "h0"
+            "heading": "Product <strong>Design and Innovation</strong>",
+            "heading_size": "h0",
+            "heading_alignment": "center"
           }
         },
         "text_KdCiWp": {
           "type": "text",
           "settings": {
-            "text": "<p>Whether for a new build, a major renovation or a rejuvenation of existing clinical store rooms, all stakeholders are consulted in the design and planning of your new, tailored STERIRACK® System storage solution. During this phase you will meet with our expert project consultants, either in person or online, to work through the project brief and determine all the deliverables for the project. We pride ourselves on exceeding client expectations and meeting project timelines. We then design a tailored solution, using our own gold standard, modular STERIRACK® range – a solution that will exactly suit your application and room dimensions. Floor plans are created to demonstrate achievable storage capacity as well as other efficiencies you will achieve. Photorealistic images can be produced on request. Once every aspect of the project has been agreed upon and approved, your project is placed in the hands of our expert project management and installation team, who will seamlessly create, deliver and install your brand new clinical storage solution. You’ll never look back!</p>"
+            "text": "<p>STERIRACK® System is a healthcare consumables management innovation that is designed and manufactured by, and available only through SpaceLogic. STERIRACK® System is a fully integrated, modular system of shelving, baskets, pharmacy drawers, benches, trolleys, accessories and components that all seamlessly combine to create a complete consumables storage solution for any application in hospitals and healthcare. See the Applications Menu for more information. Product innovation is driven by the requirements of healthcare personnel who share their needs with us. From these needs, we create products and continue to expand our STERIRACK® System range. One of our most recent innovations (June 2021) are STERIRACK® Transport Carts and Glass Door Carts which are now available for order. These carts can be configured in a broad range of sizes and configurations, further adding to our stable of tailored solutions. New innovations are in the pipeline all the time. STERIRACK® System is design by SpaceLogic product designers located in Orange NSW, at the SpaceLogic head office and manufacturing facility.</p>",
+            "text_alignment": "center"
           }
         },
         "button_fn8KLw": {
           "type": "button",
           "settings": {
-            "button_label": "Next: Project management and expert installation",
-            "button_link": "#",
+            "button_label": "Next: Project consultation, planning and room design",
+            "button_link": "shopify://pages/project-consultation-planning-and-room-design",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_style_secondary_2": false,
+            "button_alignment": "center"
           }
         }
       },
@@ -103,7 +106,7 @@
         "columns_alignment": "left",
         "columns_mobile": "1",
         "padding_top": 36,
-        "padding_bottom": 72
+        "padding_bottom": 36
       }
     }
   },

@@ -328,7 +328,7 @@
           "settings": {
             "caption": "Welcome to <strong>SpaceLogic</strong> Group",
             "text_style": "subtitle",
-            "text_size": "medium"
+            "text_size": "small"
           }
         },
         "text_YzkzXq": {
@@ -544,7 +544,7 @@
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "enable_loop": true,
         "show_navigation": true,
-        "show_pagination": true,
+        "show_pagination": false,
         "arrow_color": "#ffce00",
         "dot_color": "#ffce00",
         "image_behavior": "none",

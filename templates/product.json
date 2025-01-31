@@ -79,7 +79,7 @@
         "hide_variants": true,
         "enable_video_looping": false,
         "padding_top": 36,
-        "padding_bottom": 12
+        "padding_bottom": 72
       }
     },
     "rich_text_dwzN8N": {
@@ -102,6 +102,8 @@
         "content_width": "full_width",
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "full_width": false,
+        "no_margin": true,
+        "section_border": true,
         "padding_top": 24,
         "padding_bottom": 24
       }

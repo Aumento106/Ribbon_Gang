@@ -3,10 +3,6 @@
   margin-bottom: 1.6rem;
 }
 
-.section_v1 .image-with-text__text--caption.subtitle--small {
-  font-size: 20px;
-}
-
 .section_v1 .image-with-text__text--caption.subtitle--large {
   font-size: 28px;
 }
@@ -163,7 +159,7 @@
 
 @media screen and (max-width: 767px) {
   .section_v1 .image-with-text__text--caption.subtitle--small {
-    font-size: 18px;
+    font-size: 16px;
   }
   
   .section_v1 .image-with-text__text--caption.subtitle--large {

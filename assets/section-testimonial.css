@@ -114,10 +114,6 @@
   .testimonial_new .testimonial .grid--2-col-tablet .grid__item.image-with-text__text-item {
       width: calc(52% - var(--grid-desktop-horizontal-spacing) / 2);
   }
-  .testimonial_new .testimonial .image-with-text__media-item img {
-    object-fit: contain;
-    position: static;
-  }
 }
 
 @media screen and (min-width: 990px) {
@@ -126,6 +122,10 @@
   }
   .testimonial_new .image-with-text__grid .image-with-text__media-item .media {
     padding-bottom: 0 !important;
+  }
+  .testimonial_new .testimonial .image-with-text__media-item img {
+    object-fit: contain;
+    position: static;
   }
 }
 

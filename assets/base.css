@@ -3735,3 +3735,12 @@ iframe {
     margin-bottom: 20px;
   }
 }
+
+@media screen and (max-width: 360px) {
+  .title {
+    font-size: 20px;
+  }
+  .rich-text__wrapper {
+    width: 100%;
+  }
+}

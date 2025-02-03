@@ -25,13 +25,15 @@
           "type": "heading",
           "settings": {
             "heading": "Our <strong>Products</strong>",
-            "heading_size": "h0"
+            "heading_size": "h0",
+            "heading_alignment": "center"
           }
         },
         "text_G6e3Nj": {
           "type": "text",
           "settings": {
-            "text": "<p>The tireless and dynamic SpaceLogic team is dedicated to Healthcare. Our mission is to provide a fresh new approach, and premium advice and expertise to hospitals, medical centers and other clinical facilities. By combining the specialist skills of our entire team, we create a cohesive whole to give you individual attention, dedicated commitment and a result superior to any other.</p>"
+            "text": "<p>The tireless and dynamic SpaceLogic team is dedicated to Healthcare. Our mission is to provide a fresh new approach, and premium advice and expertise to hospitals, medical centers and other clinical facilities. By combining the specialist skills of our entire team, we create a cohesive whole to give you individual attention, dedicated commitment and a result superior to any other.</p>",
+            "text_alignment": "center"
           }
         }
       },

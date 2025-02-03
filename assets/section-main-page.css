@@ -24,7 +24,7 @@ ul.page_list li::after {
   width: 5px;
   height: 5px;
   border-radius: 50%;
-  background: #000;
+  background: rgba(var(--color-foreground), 1);
 }
 
 @media screen and (min-width: 750px) {

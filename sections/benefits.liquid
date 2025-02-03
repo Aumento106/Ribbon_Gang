@@ -1,0 +1,192 @@
+{{ 'section-benefits.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.55 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.55 | round: 0 }}px;
+  }
+
+  .container-{{ section.id }}-padding {
+    padding-top: {{ section.settings.container_padding_top | times: 0.7 | round: 0 }}px;
+    padding-bottom: {{ section.settings.container_padding_bottom | times: 0.7 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top | times: 0.7 | round: 0 }}px;
+      padding-bottom: {{ section.settings.padding_bottom | times: 0.7 | round: 0 }}px;
+    }
+
+    .container-{{ section.id }}-padding {
+      padding-top: {{ section.settings.container_padding_top | times: 0.7 | round: 0 }}px;
+      padding-bottom: {{ section.settings.container_padding_bottom | times: 0.7 | round: 0 }}px;
+    }
+  }
+
+  @media screen and (min-width: 1025px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+
+    .container-{{ section.id }}-padding {
+      padding-top: {{ section.settings.container_padding_top }}px;
+      padding-bottom: {{ section.settings.container_padding_bottom }}px;
+    }
+  }
+
+  .benefits-sec .benefits-con-icon {
+    background-color: {{ section.settings.icon_bg_color }};
+  }
+{%- endstyle -%}
+
+<div class="benefits-main section-{{ section.id }}-padding color-{{ section.settings.color_scheme }} isolate gradient">
+  <div class="page-width">
+    <div class="benefits-con-wrapper grid grid--1-col grid--2-col-tablet grid--3-col-desktop container-{{ section.id }}-padding color-{{ section.settings.container_color_scheme }} gradient">
+      {%- for block in section.blocks -%}
+        <div class="benefits-con-item grid__item" {{ block.shopify_attributes }}>
+          {%- if block.settings.icon != blank -%}
+            <div class="benefits-con-icon-wrapper">
+              <div class="benefits-con-icon">
+                {{
+                  block.settings.icon
+                  | image_url: width: 30
+                  | image_tag: loading: 'lazy', width: 24, height: 24, alt: block.settings.heading
+                }}
+              </div>
+            </div>
+          {%- endif -%}
+          <div class="benefits-con">
+            {%- if block.settings.heading != blank -%}
+              <h3 class="benefits-con-title subtitle">{{ block.settings.heading }}</h3>
+            {%- endif -%}
+            {%- if block.settings.text != blank -%}
+              <div class="benefits-con-des">{{ block.settings.text }}</div>
+            {%- endif -%}
+          </div>
+        </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Benefits",
+  "tag": "section",
+  "class": "section benefits-sec",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Color Settings"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    },
+    {
+      "type": "color_scheme",
+      "id": "container_color_scheme",
+      "label": "Container color scheme",
+      "default": "scheme-1"
+    },
+    {
+      "type": "color",
+      "id": "icon_bg_color",
+      "label": "Icon background color",
+      "default": "#424242"
+    },
+    {
+      "type": "header",
+      "content": "Conatiner padding"
+    },
+    {
+      "type": "range",
+      "id": "container_padding_top",
+      "min": 0,
+      "max": 180,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 24
+    },
+    {
+      "type": "range",
+      "id": "container_padding_bottom",
+      "min": 0,
+      "max": 180,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 24
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 180,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 180,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    }
+  ],
+  "blocks": [
+    {
+      "type": "benefit",
+      "name": "Benefit",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "Icon"
+        },
+        {
+          "type": "richtext",
+          "id": "heading",
+          "default": "<p>Benifit title</p>",
+          "label": "Heading"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "default": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>",
+          "label": "Text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Benefits",
+      "blocks": [
+        {
+          "type": "benefit"
+        },
+        {
+          "type": "benefit"
+        },
+        {
+          "type": "benefit"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

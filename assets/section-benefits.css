@@ -1,0 +1,125 @@
+.benefits-con-wrapper {
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.benefits-sec .benefits-con-item {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0;
+    padding: 22.5px 0;
+}
+
+.benefits-sec .benefits-con-icon-wrapper {
+    padding-right: 18px;
+    margin-right: 18px;
+    border-right: 0.6px solid #BBBBBB;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.benefits-sec .benefits-con-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 1;
+    width: 54px;
+    border-radius: 50%;
+}
+
+.benefits-sec .benefits-main .grid {
+    --grid-desktop-horizontal-spacing: 3rem;
+}
+
+.benefits-sec .benefits-con {
+    flex: 1;
+}
+
+.benefits-sec .benefits-con-title {
+    margin: 0 0 .8rem 0;
+    text-transform: uppercase;
+}
+
+.benefits-sec .benefits-con-title p,
+.benefits-sec .benefits-con-des p {
+    margin: 0;
+}
+
+@media screen and (max-width: 1366px) {
+    .benefits-sec .benefits-con-item {
+        padding: 0;
+    }
+
+    .benefits-con-wrapper {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .benefits-sec .benefits-main .grid {
+        --grid-desktop-horizontal-spacing: 2rem;
+    }
+
+    .benefits-sec .benefits-con-title {
+        font-size: 21px;
+        margin: 0 0 .4rem;
+    }
+
+    .benefits-sec .benefits-con-des {
+        font-size: 16px;
+    }
+
+    .benefits-sec .benefits-con-icon-wrapper {
+        padding-right: 12px;
+        margin-right: 12px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .benefits-con-wrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .benefits-sec .benefits-con-icon {
+        width: 45px;
+    }
+
+    .benefits-sec .benefits-con-title {
+        font-size: 18px;
+    }
+
+    .benefits-sec .benefits-con-des {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 750px) and (max-width: 989px) {
+    .benefits-sec .benefits-main .grid.grid--1-col .grid__item {
+        max-width: calc(50% - var(--grid-desktop-horizontal-spacing) / 2);
+    }
+}
+
+@media screen and (max-width: 989px) {
+    .benefits-sec .benefits-main .grid {
+        --grid-desktop-vertical-spacing: 3rem;
+    }
+}
+
+@media screen and (max-width: 749px) {
+    .benefits-sec .benefits-main .grid {
+        --grid-mobile-vertical-spacing: 2.5rem;
+    }
+
+    .benefits-sec .benefits-con-title {
+        font-size: 16px;
+    }
+
+    .benefits-sec .benefits-con-icon-wrapper {
+        padding-right: 15px;
+        margin-right: 15px;
+    }
+}

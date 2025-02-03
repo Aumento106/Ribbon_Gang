@@ -1,0 +1,200 @@
+.faq_collapsible_content .section-header-text .description {
+    margin-bottom: 2.4rem;
+}
+
+.faq_collapsible_content .faq-container {
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.faq_collapsible_content .accordion .faq-details {
+    border-bottom: 1px solid #BBBBBB;
+}
+
+.faq_collapsible_content .accordion:not(:last-child) .faq-details {
+    margin-bottom: 20px;
+}
+
+.faq_collapsible_content summary .icon-caret {
+    height: 1.3rem;
+    right: 0;
+    top: .8rem;
+}
+
+.faq_collapsible_content p {
+    margin-top: 0;
+}
+
+.faq_collapsible_content p:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.faq_collapsible_content .collapsible-content .collapsible-content__header {
+    word-break: break-word;
+    margin: 0;
+}
+
+.faq_collapsible_content .grid {
+    --grid-desktop-horizontal-spacing: 8rem;
+}
+
+.faq_collapsible_content .collapsible-content summary:hover .accordion__title {
+    text-decoration: none;
+}
+
+.main-heading p {
+    font-weight: inherit;
+}
+
+.faq_collapsible_content .accordion summary {
+    padding: 0 0 1.6rem 0;
+}
+
+.faq_collapsible_content .accordion summary:hover {
+    background: transparent;
+}
+
+.faq_collapsible_content .accordion__title {
+    padding-left: 0;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+/* .faq_collapsible_content summary .icon-caret {
+      right: 3rem;
+      height: 32px;
+      top: 50%;
+      transform: translateY(-50%);
+  } */
+.faq_collapsible_content .accordion__content {
+    margin-bottom: 0;
+    padding: 0 0 1.6rem;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.faq_collapsible_content .collapsible-content .accordion {
+    border: none;
+}
+
+.faq_collapsible_content .collapsible-content .reveal-text-cover:not(:last-child) .accordion {
+    margin-bottom: 40px;
+}
+
+.faq_collapsible_content .collapsible-content .collapsible-content__grid {
+    margin-bottom: 0;
+}
+
+.faq_collapsible_content .collapsible-content__grid .reveal-text-cover:last-child .accordion {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 1366px) {
+    .faq_collapsible_content .faq-container {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .faq_collapsible_content .grid {
+        --grid-desktop-horizontal-spacing: 5rem;
+    }
+
+    .faq_collapsible_content summary .icon-caret {
+        height: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .faq_collapsible_content .grid {
+        --grid-desktop-horizontal-spacing: 3rem;
+    }
+
+    .faq_collapsible_content .accordion__title {
+        font-size: 19px;
+    }
+
+    .faq_collapsible_content .accordion summary {
+        padding: 0 0 1.2rem;
+    }
+
+    .faq_collapsible_content summary .icon-caret {
+        height: 1rem;
+    }
+
+    .faq_collapsible_content .accordion:not(:last-child) .faq-details {
+        margin-bottom: 15px;
+    }
+
+    .faq_collapsible_content .accordion__content {
+        padding: 0 0 1.2rem;
+        font-size: 15px;
+    }
+
+    .faq_collapsible_content .faq-container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media screen and (max-width: 989px) {
+    .faq_collapsible_content .accordion__title {
+        font-size: 20px;
+    }
+
+    .faq_collapsible_content .faq-container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .faq_collapsible_content .grid {
+        --grid-desktop-vertical-spacing: 3rem;
+    }
+}
+
+@media screen and (max-width: 749px) {
+    .faq_collapsible_content .collapsible-content .accordion:not(:last-child) {
+        margin-bottom: 15px;
+        margin-top: 0;
+    }
+
+    .faq_collapsible_content .accordion summary {
+        padding: 0 0 1.2rem 0;
+    }
+
+    .faq_collapsible_content .accordion__title {
+        max-width: calc(100% - 3rem);
+        font-size: 18px;
+    }
+
+    .faq_collapsible_content .faq-container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .faq_collapsible_content .grid {
+        --grid-mobile-vertical-spacing: 2rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .faq_collapsible_content .accordion__title {
+        font-size: 16px;
+    }
+
+    .faq_collapsible_content .grid {
+        --grid-mobile-vertical-spacing: 3rem;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .faq_collapsible_content .accordion__content {
+        font-size: 14px;
+    }
+
+    .faq_collapsible_content summary .icon-caret {
+        height: .8rem;
+    }
+}

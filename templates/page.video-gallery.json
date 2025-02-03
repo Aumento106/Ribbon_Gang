@@ -16,7 +16,8 @@
           "type": "heading",
           "settings": {
             "heading": "<strong>Video</strong> of the Week",
-            "heading_size": "h0"
+            "heading_size": "h0",
+            "heading_alignment": "center"
           }
         },
         "video_Vx4rMD": {
@@ -31,13 +32,15 @@
           "type": "heading",
           "settings": {
             "heading": "Wagga Wagga Base Hospital gets STERIRACK® Clean Utilities",
-            "heading_size": "h2"
+            "heading_size": "h2",
+            "heading_alignment": "center"
           }
         },
         "text_w8R9mD": {
           "type": "text",
           "settings": {
-            "text": "<p>Watch to see how the Wagga Wagga Base Hospital redevelopment replaced traditional, out-dated joinery storage solutions with the latest innovative joinery-free STERIRACK® solution from Spacelogic. (25)</p>"
+            "text": "<p>Watch to see how the Wagga Wagga Base Hospital redevelopment replaced traditional, out-dated joinery storage solutions with the latest innovative joinery-free STERIRACK® solution from Spacelogic. (25)</p>",
+            "text_alignment": "center"
           }
         }
       },
@@ -178,6 +181,336 @@
             "title": "estimonials - Why our valued clients choose us for hospital storage solutions",
             "text": "<p>Watch some testimonials from clients to see how they enjoyed working with SpaceLogic, and why they choose us to supply their clinical storage solutions. (16)</p>"
           }
+        },
+        "column_cFztGc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/03-thumbnail-pbfvnz25sr6hr2fzddock32jcenv1hyhx1k0636gbk.jpg",
+            "video_url": "https://youtu.be/x5B9NHRNEEI",
+            "enable_video_looping": false,
+            "title": "Joinery-free medications storage for Yass Hospital",
+            "text": "<p>Watch to see how Yass Hospital replaced a traditional, out-dated joinery storage solution with the latest innovative joinery-free STERIRACK®solution from Spacelogic. (03)</p>"
+          }
+        },
+        "column_Wn6pVz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/04-thumbnail-pbfvnz25sr6hr2fzddock32jcenv1hyhx1k0636gbk.jpg",
+            "video_url": "https://youtu.be/JVVJ8_9WYQk",
+            "enable_video_looping": false,
+            "title": "STERIRACK® Benching - the alternative to dusty joinery",
+            "text": "<p>Introducing the STERIRACK®Benching System, a bespoke clinical storage solution that adapts to suit your application. Now you can replace old, dusty or moldy joinery benches with a crisp, clean clinical benching system that complies with standards for best practice and infection control! (04</p>"
+          }
+        },
+        "column_BzzmqX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/06-thumbnail-pbfvnz25sr6hr2fzddock32jcenv1hyhx1k0636gbk.jpg",
+            "video_url": "https://youtu.be/kCS2ZhHmMqc",
+            "enable_video_looping": false,
+            "title": "Pharmacy Shelving now available for STERIRACK®",
+            "text": "<p>Just when you thought our STERIRACK®System couldn’t get any better it has! Now available with Pharmacy Shelving, for medications and pharmacy fit-outs, or as freestanding modules. Ideal for pharmacies, hospitals, medical centers, aged care and veterinary. (06)</p>"
+          }
+        },
+        "column_4ytrW7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/45-thumbnail.jpg",
+            "video_url": "https://youtu.be/5jLA_fHSPYU",
+            "enable_video_looping": false,
+            "title": "Blacktown Hospital REDUCES stock valuation by 51%",
+            "text": "<p>Graeme from Blacktown Hospital chats with Spacelogic about the incredible savings achieved at the new redevelopment since the installation of our flagship product, the STERIRACK®System. Watch to find out they achieved a 51% REDUCTION in stock valuation. (45)</p>"
+          }
+        },
+        "column_4ArbNk": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/44-thumbnail-pbfvnz25sr6hr2fzddock32jcenv1hyhx1k0636gbk.jpg",
+            "video_url": "https://youtu.be/PkVW2nbRp4M",
+            "enable_video_looping": false,
+            "title": "60 minutes hunting through storerooms REDUCED to just 10 minutes per day!",
+            "text": "<p>Nurses at Blacktown Hospital were spending up to 1 hr a day hunting through storerooms for stock. After a STERIRACK®System installation, with color coding, these times have been reduced to 10 mins! (44)</p>"
+          }
+        },
+        "column_NpBBHF": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/45-thumbnail.jpg",
+            "video_url": "https://youtu.be/kl0J8RAlvbE",
+            "enable_video_looping": false,
+            "title": "Superior consumables management with STERIRACK® at Blacktown Hospital",
+            "text": "<p>The amazing benefits of STERIRACK®are being enjoyed by staff and management at the new Blacktown Hospital redevelopment. Join Graham from Blacktown, and Lloyd Scott from Spacelogic as they discuss. (08)</p>"
+          }
+        },
+        "column_AC63cw": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/43-thumbnail-pbfvnz25sr6hr2fzddock32jcenv1hyhx1k0636gbk.jpg",
+            "video_url": "https://youtu.be/bz8bqXypkpQ",
+            "enable_video_looping": false,
+            "title": "A celebration of Blacktown Hospital redevelopment and STERIRACK® System",
+            "text": "<p>A celebration of the new Blacktown Hospital redevelopment and our proud contribution to the project. Thank you to management and staff for the opportunity to be a part of this achievement. (43)</p>"
+          }
+        },
+        "column_zCrCRg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/17-thumbnail-pbfvnz25sr6hr2fzddock32jcenv1hyhx1k0636gbk.jpg",
+            "video_url": "https://youtu.be/CYwYI9mFjEI",
+            "enable_video_looping": false,
+            "title": "Achieve a 33% increase in clinical storage capacity using flat and step shelves",
+            "text": "<p>Use a combination of flat and step shelves to increase sterile pack storage and comply with best practice and infection control standards. (17)</p>"
+          }
+        },
+        "column_AnwiPq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/07-thumbnail-pbfvnz25sr6hr2fzddock32jcenv1hyhx1k0636gbk.jpg",
+            "video_url": "https://youtu.be/LMSV0QB6T14",
+            "enable_video_looping": false,
+            "title": "Slash time spent hunting through hospital storerooms with colored label holders",
+            "text": "<p>Do you worry about locating the right clinical stock, when the pressure’s on and you can’t afford to make a mistake? Do you need to locate items quickly and effortlessly? (07)</p>"
+          }
+        },
+        "column_VEXkpc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/05-thumbnail-pbfvnz25sr6hr2fzddock32jcenv1hyhx1k0636gbk.jpg",
+            "video_url": "https://youtu.be/xfuQA73IXpM",
+            "enable_video_looping": false,
+            "title": "Superior patient care with gold standard STERIRACK® Medical Trolleys",
+            "text": "<p>These trolleys are designed for quality, safety, performance and optimal infection control. Available in a multitude of sizes and configurations with your choice of colored label holders and post strips. The World’s No.1 Clinical Trolley. (05)</p>"
+          }
+        },
+        "column_ydp8rj": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/10-thumbnail-pbfvnz25sr6hr2fzddock32jcenv1hyhx1k0636gbk.jpg",
+            "video_url": "https://youtu.be/vn3dsLT8Ob8",
+            "enable_video_looping": false,
+            "title": "Use color to influence memory with STERIRACK® Click 'n' Clip Label Holders",
+            "text": "<p>Blacktown Hospital Sydney is getting incredible results using the Sterirack®healthcare storage system and its color coded labeling system. Join us to find out how. (10)</p>"
+          }
+        },
+        "column_gXm6pJ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/11-thumbnail-pbfvnz25sr6hr2fzddock32jcenv1hyhx1k0636gbk.jpg",
+            "video_url": "https://youtu.be/tv8Gffi8FdU",
+            "enable_video_looping": false,
+            "title": "Spacelogic is adding value in hospitals with gold standard clinical storage solutions",
+            "text": "<p>Join Spacelogic Managing Director Lloyd Scott for a casual discussion about ‘adding value’, and just how effective the Sterirack®healthcare storage system is in doing just that. (11)</p>"
+          }
+        },
+        "column_zNphkG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/18-thumbnail-pbfvnz25sr6hr2fzddock32jcenv1hyhx1k0636gbk.jpg",
+            "video_url": "https://youtu.be/V4UoNWNlaI8",
+            "enable_video_looping": false,
+            "title": "STERIRACK® Orthopedic Equipment Storage - the innovative shelving solution for healthcare",
+            "text": "<p>Spacelogic®has developed the STERIRACK®Orthopedic Equipment Storage System – just perfect for crutches, frames, CAMBoots and all those awkward items that typically create a frustrating mess in your storage rooms. (18)</p>"
+          }
+        },
+        "column_Hw6q7f": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/12-thumbnail-pbfvnz25sr6hr2fzddock32jcenv1hyhx1k0636gbk.jpg",
+            "video_url": "https://youtu.be/ltxJ586mFsM",
+            "enable_video_looping": false,
+            "title": "STERIRACK® Workstations - the superior medical shelving solution for healthcare",
+            "text": "<p>STERIRACK®Workstations meet global best practice, are compliant with Australian Standards and provide optimal infection control. They can also be fully customized in any configuration you require to perfectly suit your facility and application. (12)</p>"
+          }
+        },
+        "column_nfCMP4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/20-thumbnail-copy.jpg",
+            "video_url": "https://youtu.be/F5NKv7KU4fY",
+            "enable_video_looping": false,
+            "title": "STERIRACK® Trolleys - the gold standard, fully integrated, clinical trolley for healthcare",
+            "text": "<p>Accessible, smooth gliding and so easily maneuverable, our Spacelogic®STERIRACK®Trolleys embody so much more than a simple medical storage cabinet on wheels. (20)</p>"
+          }
+        },
+        "column_tybRCJ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/21-thumbnail-pbfvnz25sr6hr2fzddock32jcenv1hyhx1k0636gbk.jpg",
+            "video_url": "https://youtu.be/qLRith_doSg",
+            "enable_video_looping": false,
+            "title": "Outdated and non-compliant timber joinery is a thing of the past with STERIRACK® System",
+            "text": "<p>The new trend in healthcare storage is to replace fixed, space-limiting, hard-to-clean, outdated timber joinery with an integrated, adjustable and future proof medical basket and shelving system that meets global best practice, is standards compliant and provides optimal infection control. (21)</p>"
+          }
+        },
+        "column_eCKjYc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/24-thumbnail.jpg",
+            "video_url": "https://youtu.be/7mPOxk6QO6Y",
+            "enable_video_looping": false,
+            "title": "STERIRACK® custom Clinical Trolleys recently in production",
+            "text": "<p>Join Lloyd Scott as he takes you through a range of custom trolleys that are currently in production in our Manufacturing Hub in Orange NSW. (24)</p>"
+          }
+        },
+        "column_g7cqwp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/34-thumbnail-pbfvnz25sr6hr2fzddock32jcenv1hyhx1k0636gbk.jpg",
+            "video_url": "https://youtu.be/Og6PVq8sSyM",
+            "enable_video_looping": false,
+            "title": "Co-Branded STERIRACK® Trolleys with Custom Dust Covers",
+            "text": "<p>Co-Branded Medical Trolleys are just one of the recent innovations brought to you by SpaceLogic. Additionally these (and any) trolleys can be delivered with quality dust covers that has been custom made to fit (34)</p>"
+          }
+        },
+        "column_7DNh7T": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/31-thumbnail-pbfvnz25sr6hr2fzddock32jcenv1hyhx1k0636gbk.jpg",
+            "video_url": "https://youtu.be/ihYdHWsQFZA",
+            "enable_video_looping": false,
+            "title": "St Vincent's Private Hospital STERIRACK® installation",
+            "text": "<p>Spacelogic worked closely with David, the project manager, to install a complete storage fit-out for St Vincent’s Private Hospital in Darlinghurst. Watch David’s testimonial. (31)</p>"
+          }
+        },
+        "column_DGqwCM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/53-thumbnail-pbfvnzzzzl7s2oem7w2z4ktzxsj89728967hnd525c.jpg",
+            "video_url": "https://youtu.be/k0oqvWGXs7U",
+            "enable_video_looping": false,
+            "title": "Prince of Wales STERIRACK® installation before and after",
+            "text": "<p>Watch a Spacelogic upgrade at Prince of Wales Hospital ED. See the before and after – a transformation that achieved improved infection control, excellent use of space and a boost in staff morale! (53)</p>"
+          }
+        },
+        "column_tdTTry": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/29-thumbnail-pbfvnz25sr6hr2fzddock32jcenv1hyhx1k0636gbk.jpg",
+            "video_url": "https://youtu.be/zA_IYKGM07c",
+            "enable_video_looping": false,
+            "title": "NEW innovation! STERIRACK® Glass Door Carts",
+            "text": "<p>Join Todd in a demonstration of one of our latest innovations, the STERIRACK®Glass Door Cart. (29)</p>"
+          }
+        },
+        "column_GmEwpE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/28-thumbnail-pbfvnz25sr6hr2fzddock32jcenv1hyhx1k0636gbk.jpg",
+            "video_url": "https://youtu.be/-us47HoOsAo",
+            "enable_video_looping": false,
+            "title": "Thermoplastic Benching is customized to suit your facility",
+            "text": "<p>STERIRACK®Thermoplastic Benching is application specific and can be configured any way you choose. (28)</p>"
+          }
+        },
+        "column_6ntpyg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/27-thumbnail-pbfvnz25sr6hr2fzddock32jcenv1hyhx1k0636gbk.jpg",
+            "video_url": "https://youtu.be/47hFnYNXsII",
+            "enable_video_looping": false,
+            "title": "STERIRACK® Orthopedic storage solutions",
+            "text": "<p>STERIRACK®Crutch Racks and Orthopedic Shelving and Baskets provide an innovative solution for all those awkward and hard to store items. (27)</p>"
+          }
+        },
+        "column_wVkpeq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/51-thumbnail-pbfvnzzzzl7s2oem7w2z4ktzxsj89728967hnd525c.jpg",
+            "video_url": "https://youtu.be/6A9LrFGBP5Q",
+            "enable_video_looping": false,
+            "title": "Balmain Village Loves STERIRACK® Trolleys​",
+            "text": "<p>Join Dr April Armstrong as she discusses the features and benefits of customized STERIRACK®Medical Trolleys. (51)</p>"
+          }
+        },
+        "column_8pcKiq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/25-thumbnail-pbfvnz25sr6hr2fzddock32jcenv1hyhx1k0636gbk.jpg",
+            "video_url": "https://youtu.be/oOnwnC2Tt3A",
+            "enable_video_looping": false,
+            "title": "STERIRACK® installations at Wagga Wagga Base Hospital",
+            "text": "<p>Join us in a tour of the highly successful, new STERIRACK®installations at Wagga Wagga Base Hospital. (25)</p>"
+          }
+        },
+        "column_ynYnjn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/35-thumbnail-pbfvnz25sr6hr2fzddock32jcenv1hyhx1k0636gbk.jpg",
+            "video_url": "https://youtu.be/5MmDxiC3Ycc",
+            "enable_video_looping": false,
+            "title": "SpaceLogic is adding value to Clean Utilities",
+            "text": "<p>Lloyd Scott discusses the benefits and added value delivered by STERIRACK®products. (35)</p>"
+          }
+        },
+        "column_CeLg8q": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/23-thumbnail-pbfvnz25sr6hr2fzddock32jcenv1hyhx1k0636gbk.jpg",
+            "video_url": "https://youtu.be/_JcdkUyIz2g",
+            "enable_video_looping": false,
+            "title": "Royal North Shore installation in just 10 days!",
+            "text": "<p>We showcase a recent installation at Royal North Shore Hospital that had to be completed in under 10 days. (23)</p>"
+          }
+        },
+        "column_6Bfd9q": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/14-thumbnail-pbfvnz25sr6hr2fzddock32jcenv1hyhx1k0636gbk.jpg",
+            "video_url": "https://youtu.be/scAVA4pkUF8",
+            "enable_video_looping": false,
+            "title": "STERIRACK® adds value in Operating Theaters",
+            "text": "<p>Lloyd Scott discusses the benefits and added value delivered by STERIRACK®products. (14)</p>"
+          }
+        },
+        "column_gQeqcD": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/49-thumbnail-pbfvnzzzzl7s2oem7w2z4ktzxsj89728967hnd525c.jpg",
+            "video_url": "https://youtu.be/Yl6SZniAkLA",
+            "enable_video_looping": false,
+            "title": "SpaceLogic Manufacturing Hub Up and Running",
+            "text": "<p>A milestone for SpaceLogic has been achieved with the launch of the new Manufacturing Hub, which will allow us to provide a more efficient, and faster, service to our valued clients. (49)</p>"
+          }
+        },
+        "column_DapDGL": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/50-thumbnail-pbfvnzzzzl7s2oem7w2z4ktzxsj89728967hnd525c.jpg",
+            "video_url": "https://youtu.be/a5W1LsZUxKU",
+            "enable_video_looping": false,
+            "title": "STERIRACK® Operating Theater Set Up Trolleys",
+            "text": "<p>Lloyd Scott discusses the STERIRACK®Theater Trolley and how you can find more information. (50)</p>"
+          }
+        },
+        "column_wbNcAF": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/46-thumbnail-pbfvnz25sr6hr2fzddock32jcenv1hyhx1k0636gbk.jpg",
+            "video_url": "https://youtu.be/CXemPWjAEmg",
+            "enable_video_looping": false,
+            "title": "STERIRACK® Operating Theater Set Up Trolleys",
+            "text": "<p>Lloyd Scott discusses the STERIRACK®Theater Trolley and how you can find more information. (50)</p>"
+          }
+        },
+        "column_JWqVHm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/39-thumbnail-pbfvnz25sr6hr2fzddock32jcenv1hyhx1k0636gbk.jpg",
+            "video_url": "https://youtu.be/nllzM-FZRuU",
+            "enable_video_looping": false,
+            "title": "A heartfeld thank you on International Nurses Day 2020",
+            "text": "<p>Managing Director Lloyd Scott and the rest of the team send out a huge and heartfelt thank you to all our nurses who have, collectively, had a tough year dealing with the COVID-19 pandemic. (39)</p>"
+          }
+        },
+        "column_tKgdmx": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/39-thumbnail-pbfvnz25sr6hr2fzddock32jcenv1hyhx1k0636gbk.jpg",
+            "video_url": "https://youtu.be/cu_FGYCCIxQ",
+            "enable_video_looping": false,
+            "title": "About SpaceLogic 2021",
+            "text": "<p>Join Lloyd Scott and some of the other Directors of SpaceLogic Group Pty Ltd as they walk you through our head office and explain who we are and what we do for Healthcare.</p>"
+          }
         }
       },
       "block_order": [
@@ -192,7 +525,40 @@
         "column_qjVEtB",
         "column_YXVmeY",
         "column_mEWLPp",
-        "column_LGTPWt"
+        "column_LGTPWt",
+        "column_cFztGc",
+        "column_Wn6pVz",
+        "column_BzzmqX",
+        "column_4ytrW7",
+        "column_4ArbNk",
+        "column_NpBBHF",
+        "column_AC63cw",
+        "column_zCrCRg",
+        "column_AnwiPq",
+        "column_VEXkpc",
+        "column_ydp8rj",
+        "column_gXm6pJ",
+        "column_zNphkG",
+        "column_Hw6q7f",
+        "column_nfCMP4",
+        "column_tybRCJ",
+        "column_eCKjYc",
+        "column_g7cqwp",
+        "column_7DNh7T",
+        "column_DGqwCM",
+        "column_tdTTry",
+        "column_GmEwpE",
+        "column_6ntpyg",
+        "column_wVkpeq",
+        "column_8pcKiq",
+        "column_ynYnjn",
+        "column_CeLg8q",
+        "column_6Bfd9q",
+        "column_gQeqcD",
+        "column_DapDGL",
+        "column_wbNcAF",
+        "column_JWqVHm",
+        "column_tKgdmx"
       ],
       "settings": {
         "title": "<p><strong>Video</strong> library</p>",

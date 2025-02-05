@@ -53,56 +53,12 @@
             "button_link": "shopify://collections/all",
             "button_style_secondary": false
           }
-        },
-        "slide_fARmK9": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/39-thumbnail-pbfvnz25sr6hr2fzddock32jcenv1hyhx1k0636gbk.jpg",
-            "offer_title": "<p>Super Saver Offer</p>",
-            "heading": "<p>Image with text</p>",
-            "heading_size": "h1",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>",
-            "button_label": "Button label",
-            "offer_code_txt": "Code: MEGASALE",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        },
-        "slide_TY9DCa": {
-          "type": "slide",
-          "settings": {
-            "offer_title": "<p>Super Saver Offer</p>",
-            "heading": "<p>Image with text</p>",
-            "heading_size": "h1",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>",
-            "button_label": "Button label",
-            "offer_code_txt": "Code: MEGASALE",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        },
-        "slide_Uj7yJR": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Mackville-Hospital-1024x529.jpg",
-            "offer_title": "<p>Super Saver Offer</p>",
-            "heading": "<p>Image with text</p>",
-            "heading_size": "h1",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>",
-            "button_label": "Button label",
-            "offer_code_txt": "Code: MEGASALE",
-            "button_link": "",
-            "button_style_secondary": false
-          }
         }
       },
       "block_order": [
         "slide_LHpFNR",
         "slide_7RNfbg",
-        "slide_fqRC9F",
-        "slide_fARmK9",
-        "slide_TY9DCa",
-        "slide_Uj7yJR"
+        "slide_fqRC9F"
       ],
       "settings": {
         "heading": "",

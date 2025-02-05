@@ -12,19 +12,16 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {}
         },
         "price": {
           "type": "price",
+          "settings": {}
+        },
+        "sku_4xMVrm": {
+          "type": "sku",
           "settings": {}
         },
         "variant_picker": {
@@ -38,6 +35,14 @@
           "type": "quantity_selector",
           "settings": {}
         },
+        "inventory_7FwdWm": {
+          "type": "inventory",
+          "settings": {
+            "text_style": "body",
+            "inventory_threshold": 50,
+            "show_inventory_quantity": false
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -49,33 +54,67 @@
           "type": "description",
           "settings": {}
         },
-        "share": {
-          "type": "share",
+        "collapsible_tab_7bxB9H": {
+          "type": "collapsible_tab",
           "settings": {
-            "share_label": "Share"
+            "heading": "Product Descriptions",
+            "icon": "none",
+            "content": "<p><strong>Lorem Ipsum </strong>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_6UnCkL": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Benefits",
+            "icon": "none",
+            "content": "<p><strong>Lorem Ipsum </strong>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_t6qCjb": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Suggested Use",
+            "icon": "none",
+            "content": "<p><strong>Lorem Ipsum </strong>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_3UTyKP": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How does the program work",
+            "icon": "none",
+            "content": "<p><strong>Lorem Ipsum </strong>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>",
+            "page": ""
           }
         }
       },
       "block_order": [
-        "vendor",
         "title",
         "price",
+        "sku_4xMVrm",
         "variant_picker",
         "quantity_selector",
+        "inventory_7FwdWm",
         "buy_buttons",
         "description",
-        "share"
+        "collapsible_tab_7bxB9H",
+        "collapsible_tab_6UnCkL",
+        "collapsible_tab_t6qCjb",
+        "collapsible_tab_3UTyKP"
       ],
       "settings": {
         "enable_sticky_info": true,
-        "color_scheme": "scheme-1",
-        "media_size": "large",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "media_size": "medium",
         "constrain_to_viewport": true,
         "media_fit": "contain",
-        "gallery_layout": "stacked",
+        "gallery_layout": "thumbnail_slider",
         "media_position": "left",
-        "image_zoom": "lightbox",
-        "mobile_thumbnails": "hide",
+        "image_zoom": "hover",
+        "mobile_thumbnails": "show",
         "hide_variants": true,
         "enable_video_looping": false,
         "padding_top": 36,
@@ -422,9 +461,171 @@
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
+        "quick_add": "learnmore",
+        "learn_more_button_text": "Learn More",
         "columns_mobile": "2",
         "padding_top": 36,
-        "padding_bottom": 28
+        "padding_bottom": 36
+      }
+    },
+    "image_with_no_text_8FA38J": {
+      "type": "image-with-no-text",
+      "blocks": {
+        "image_Y8tbgH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/transport-case-carts-samples.png"
+          }
+        }
+      },
+      "block_order": [
+        "image_Y8tbgH"
+      ],
+      "settings": {
+        "title": "Internal Configuration <strong>Samples</strong>",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_no_text_pt9hhC": {
+      "type": "image-with-no-text",
+      "blocks": {
+        "image_KgDRNk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/transport-case-carts-dimensions.png"
+          }
+        }
+      },
+      "block_order": [
+        "image_KgDRNk"
+      ],
+      "settings": {
+        "title": "Product <strong>Dimensions</strong>",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "padding_top": 36,
+        "padding_bottom": 72
+      }
+    },
+    "faq_collapsible_content_QQxiNJ": {
+      "type": "faq-collapsible-content",
+      "blocks": {
+        "collapsible_row_kdXQ4N": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What are nootropics?",
+            "row_content": "<p>Yes! Once you choose your design, website name and plan, we will set up your website for you to look exactly like the design you choose, updated with your content and images.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_8w3BXU": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are nootropics safe?",
+            "row_content": "<p>Yes! Once you choose your design, website name and plan, we will set up your website for you to look exactly like the design you choose, updated with your content and images.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_gCJNRQ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I take Simply Nootropics on top of my supplement regimen?",
+            "row_content": "<p>Yes! Once you choose your design, website name and plan, we will set up your website for you to look exactly like the design you choose, updated with your content and images.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_KJWhCp": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Will nootropics help me be smarter?",
+            "row_content": "<p>Yes! Once you choose your design, website name and plan, we will set up your website for you to look exactly like the design you choose, updated with your content and images.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_nFHcKF": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I take Simply Nootropics on top of my supplement regimen?",
+            "row_content": "<p>Yes! Once you choose your design, website name and plan, we will set up your website for you to look exactly like the design you choose, updated with your content and images.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_6iW34b": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Will nootropics help me be smarter?",
+            "row_content": "<p>Yes! Once you choose your design, website name and plan, we will set up your website for you to look exactly like the design you choose, updated with your content and images.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_kdXQ4N",
+        "collapsible_row_8w3BXU",
+        "collapsible_row_gCJNRQ",
+        "collapsible_row_KJWhCp",
+        "collapsible_row_nFHcKF",
+        "collapsible_row_6iW34b"
+      ],
+      "settings": {
+        "heading": "<p>Frequently asked questions <strong>Space Logic</strong></p>",
+        "text": "",
+        "button_label": "See All FAQ",
+        "button_link": "#",
+        "heading_size": "h1",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "container_color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "open_first_collapsible_row": true,
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
+    },
+    "benefits_QxgUpE": {
+      "type": "benefits",
+      "blocks": {
+        "benefit_XnQFqV": {
+          "type": "benefit",
+          "settings": {
+            "icon": "shopify://shop_images/free-delivery.svg",
+            "heading": "<p>Free Delivery</p>",
+            "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>"
+          }
+        },
+        "benefit_8N6t9U": {
+          "type": "benefit",
+          "settings": {
+            "icon": "shopify://shop_images/shield_1.svg",
+            "heading": "<p>100% Secure Checkout</p>",
+            "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>"
+          }
+        },
+        "benefit_6gHWXY": {
+          "type": "benefit",
+          "settings": {
+            "icon": "shopify://shop_images/customer-support.svg",
+            "heading": "<p>Customer Support</p>",
+            "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>"
+          }
+        }
+      },
+      "block_order": [
+        "benefit_XnQFqV",
+        "benefit_8N6t9U",
+        "benefit_6gHWXY"
+      ],
+      "settings": {
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "container_color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "icon_bg_color": "#424242",
+        "container_padding_top": 24,
+        "container_padding_bottom": 24,
+        "padding_top": 72,
+        "padding_bottom": 36
       }
     }
   },
@@ -437,6 +638,10 @@
     "image_with_text_v1_GhUNU6",
     "image_with_text_v1_iVfAzg",
     "image_with_text_v1_tWdMdC",
-    "related-products"
+    "related-products",
+    "image_with_no_text_8FA38J",
+    "image_with_no_text_pt9hhC",
+    "faq_collapsible_content_QQxiNJ",
+    "benefits_QxgUpE"
   ]
 }

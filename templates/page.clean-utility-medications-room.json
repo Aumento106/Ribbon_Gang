@@ -13,6 +13,7 @@
       "type": "main-page",
       "disabled": true,
       "settings": {
+        "color_scheme": "",
         "padding_top": 28,
         "padding_bottom": 28
       }
@@ -46,7 +47,7 @@
           "type": "text",
           "settings": {
             "text": "<p>Timber joinery and cabinetry is no longer viable for storage applications for clinical and non-clinical consumables and medications storage. STERIRACK® System by SpaceLogic is the perfect solution for fit-outs and replacements in Clean Utilities or Medications Rooms.</p><p>See the Clean Utility presentations below which include information and photos of recent installations, as well as video and photorealistic images of example room layouts. Keep in mind that we can create a Clean Utility design to suit any room dimensions, and configure your STERIRACK® System with baskets, shelving and accessories to suit your own requirements.</p><p>Please feel welcome to use the presentations on Wagga Wagga and Goulburn Hospitals to introduce your team to the STERIRACK® concept. Don’t hesitate to contact a SpaceLogic Project Consultant if you have any further questions, or would like to book in for a consultation.</p>",
-            "text_alignment": "left"
+            "text_alignment": "center"
           }
         }
       },

@@ -20,6 +20,13 @@
           "type": "price",
           "settings": {}
         },
+        "text_z8PRWE": {
+          "type": "text",
+          "settings": {
+            "text": "Simple design: Simple button design, simple operation, practical function, SATA power supply, compact and exquisite, cool lighting mode, extended interface cable design, convenient connection, and meet the needs of most cases for cable length.",
+            "text_style": "body"
+          }
+        },
         "sku_4xMVrm": {
           "type": "sku",
           "settings": {}
@@ -39,7 +46,7 @@
           "type": "inventory",
           "settings": {
             "text_style": "body",
-            "inventory_threshold": 50,
+            "inventory_threshold": 20,
             "show_inventory_quantity": false
           }
         },
@@ -50,17 +57,16 @@
             "show_gift_card_recipient": true
           }
         },
-        "description": {
-          "type": "description",
+        "shipping_bar_EAdyyd": {
+          "type": "shipping_bar",
           "settings": {}
         },
-        "collapsible_tab_7bxB9H": {
-          "type": "collapsible_tab",
+        "product_description_Tpyx7Y": {
+          "type": "product_description",
           "settings": {
             "heading": "Product Descriptions",
             "icon": "none",
-            "content": "<p><strong>Lorem Ipsum </strong>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>",
-            "page": ""
+            "content": "<p><strong>Lorem Ipsum </strong>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>"
           }
         },
         "collapsible_tab_6UnCkL": {
@@ -89,21 +95,36 @@
             "content": "<p><strong>Lorem Ipsum </strong>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>",
             "page": ""
           }
+        },
+        "complementary_bgcUGQ": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "",
+            "make_collapsible_row": false,
+            "icon": "price_tag",
+            "product_list_limit": 10,
+            "products_per_page": 1,
+            "pagination_style": "dots",
+            "quick_add": "learnmore",
+            "learn_more_button_text": "Learn More"
+          }
         }
       },
       "block_order": [
         "title",
         "price",
+        "text_z8PRWE",
         "sku_4xMVrm",
         "variant_picker",
         "quantity_selector",
         "inventory_7FwdWm",
         "buy_buttons",
-        "description",
-        "collapsible_tab_7bxB9H",
+        "shipping_bar_EAdyyd",
+        "product_description_Tpyx7Y",
         "collapsible_tab_6UnCkL",
         "collapsible_tab_t6qCjb",
-        "collapsible_tab_3UTyKP"
+        "collapsible_tab_3UTyKP",
+        "complementary_bgcUGQ"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -117,7 +138,7 @@
         "mobile_thumbnails": "show",
         "hide_variants": true,
         "enable_video_looping": false,
-        "padding_top": 36,
+        "padding_top": 72,
         "padding_bottom": 72
       }
     },

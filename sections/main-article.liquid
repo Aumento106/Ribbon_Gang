@@ -35,27 +35,30 @@
               >
                 <div
                   class="article-template__hero-{{ block.settings.image_height }} media"
-                  {% if block.settings.image_height == 'adapt' and article.image %}
+                  {% if block.settings.image_height == 'adapt' and block.settings.blog_image %}
+                    style="padding-bottom: {{ 1 | divided_by: block.settings.blog_image.aspect_ratio | times: 100 }}%;"
+                  {% elsif block.settings.image_height == 'adapt' and article.image %}
                     style="padding-bottom: {{ 1 | divided_by: article.image.aspect_ratio | times: 100 }}%;"
                   {% endif %}
                 >
+                 {% assign selected_image = block.settings.blog_image | default: article.image %}
                   <img
                     srcset="
-                      {% if article.image.width >= 350 %}{{ article.image | image_url: width: 350 }} 350w,{% endif %}
-                      {% if article.image.width >= 750 %}{{ article.image | image_url: width: 750 }} 750w,{% endif %}
-                      {% if article.image.width >= 1100 %}{{ article.image | image_url: width: 1100 }} 1100w,{% endif %}
-                      {% if article.image.width >= 1500 %}{{ article.image | image_url: width: 1500 }} 1500w,{% endif %}
-                      {% if article.image.width >= 2200 %}{{ article.image | image_url: width: 2200 }} 2200w,{% endif %}
-                      {% if article.image.width >= 3000 %}{{ article.image | image_url: width: 3000 }} 3000w,{% endif %}
-                      {{ article.image | image_url }} {{ article.image.width }}w
+                      {% if selected_image.width >= 350 %}{{ selected_image | image_url: width: 350 }} 350w,{% endif %}
+                      {% if selected_image.width >= 750 %}{{ selected_image | image_url: width: 750 }} 750w,{% endif %}
+                      {% if selected_image.width >= 1100 %}{{ selected_image | image_url: width: 1100 }} 1100w,{% endif %}
+                      {% if selected_image.width >= 1500 %}{{ selected_image | image_url: width: 1500 }} 1500w,{% endif %}
+                      {% if selected_image.width >= 2200 %}{{ selected_image | image_url: width: 2200 }} 2200w,{% endif %}
+                      {% if selected_image.width >= 3000 %}{{ selected_image | image_url: width: 3000 }} 3000w,{% endif %}
+                      {{ selected_image | image_url }} {{ selected_image.width }}w
                     "
                     sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 }}px, (min-width: 750px) calc(100vw - 10rem), 100vw"
-                    src="{{ article.image | image_url: width: 1100 }}"
+                    src="{{ selected_image | image_url: width: 2000 }}"
                     loading="eager"
                     fetchpriority="high"
-                    width="{{ article.image.width }}"
-                    height="{{ article.image.height }}"
-                    alt="{{ article.image.alt | escape }}"
+                    width="{{ selected_image.width }}"
+                    height="{{ selected_image.height }}"
+                    alt="{{ selected_image.alt | escape }}"
                   >
                 </div>
               </div>
@@ -81,6 +84,19 @@
                   <span>{{ article.author }}</span>
                 </span>
               {%- endif -%}
+
+              <div class="entry-meta"> / 
+              <span class="ast-terms-link">
+                <a href="https://spacelogicgroup.com/category/sterirack-system-au/" class="">STERIRACK® System</a>
+                </span>
+                  / By 
+                <span class="posted-by vcard author" itemtype="https://schema.org/Person" itemscope="itemscope" itemprop="author">
+                <a title="View all posts by Tiffany" href="https://spacelogicgroup.com/author/t-meek/" rel="author" class="url fn n" itemprop="url">
+                  <span class="author-name" itemprop="name"> Tiffany </span>
+                </a>
+                </span>
+
+              </div>
             </header>
 
           {%- when 'content' -%}
@@ -385,6 +401,11 @@
       "name": "t:sections.main-article.blocks.featured_image.name",
       "limit": 1,
       "settings": [
+        {
+          "type": "image_picker",
+          "id": "blog_image",
+          "label": "Blog Image"
+        },
         {
           "type": "select",
           "id": "image_height",

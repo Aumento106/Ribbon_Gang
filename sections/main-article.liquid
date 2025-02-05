@@ -85,6 +85,7 @@
                 </span>
               {%- endif -%}
 
+              {% comment %} 
               <div class="entry-meta"> / 
               <span class="ast-terms-link">
                 <a href="https://spacelogicgroup.com/category/sterirack-system-au/" class="">STERIRACK® System</a>
@@ -95,7 +96,13 @@
                   <span class="author-name" itemprop="name"> Tiffany </span>
                 </a>
                 </span>
+              </div> 
+              {% endcomment %}
 
+              <div class="entry-meta">
+                {% if settings.show_breadcrumb_nav %}
+                  {% render 'breadcrumbs' %}
+                {% endif %}
               </div>
             </header>
 

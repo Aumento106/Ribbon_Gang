@@ -28,6 +28,7 @@
         },
         "slide_7RNfbg": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/megasale-offer-banner_938a82df-53d3-4aaa-ba45-57c4b93c4463.png",
             "offer_title": "<p><strong>Super Saver Offer</strong></p>",
@@ -42,6 +43,7 @@
         },
         "slide_fqRC9F": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/megasale-offer-banner_d03c647a-a5dd-4537-859a-298359b30937.png",
             "offer_title": "<p><strong>Super Saver Offer</strong></p>",

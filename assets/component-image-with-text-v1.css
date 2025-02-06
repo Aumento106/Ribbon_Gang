@@ -54,16 +54,6 @@
   border-radius: 16px;
 }
 
-.section_v1 .image-with-text__text ul,
-.section_v1 .image-with-text__text ol {
-  margin-top: 0;
-  padding-left: 1.5rem;
-}
-
-.section_v1 .image-with-text__text li:not(:last-child) {
-  margin-bottom: 1.6rem;
-}
-
 .section_v1 .image-with-text__heading {
   margin-bottom: 3rem;
 }
@@ -169,15 +159,6 @@
 
   .section_v1 .image-with-text__text--caption.subtitle--large {
     font-size: 24px;
-  }
-
-  .section_v1 .image-with-text__text ul,
-  .section_v1 .image-with-text__text ol {
-    padding-left: 0.3rem;
-  }
-
-  .section_v1 .image-with-text__text li:not(:last-child) {
-    margin-bottom: 1rem;
   }
 }
 

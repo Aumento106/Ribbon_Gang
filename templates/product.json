@@ -468,6 +468,19 @@
         "padding_bottom": 36
       }
     },
+    "shipping_estimate_7eHtJy": {
+      "type": "shipping-estimate",
+      "settings": {
+        "heading": "<p>Shipping <strong>Estimate</strong></p>",
+        "heading_size": "h1",
+        "title_alignment": "center",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "btn": "Estimate",
+        "enable_secondary_btn": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -659,6 +672,7 @@
     "image_with_text_v1_GhUNU6",
     "image_with_text_v1_iVfAzg",
     "image_with_text_v1_tWdMdC",
+    "shipping_estimate_7eHtJy",
     "related-products",
     "image_with_no_text_8FA38J",
     "image_with_no_text_pt9hhC",

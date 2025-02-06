@@ -1,0 +1,60 @@
+.shipping-estimate-fields {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 5rem;
+}
+
+.shipping-estimate-item {
+    flex: 0 0 calc(33.33% - 20px);
+}
+
+.shipping-estimate-item .form-label {
+    margin-bottom: 18px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.17;
+    text-transform: capitalize;
+}
+
+.shipping-estimate-item .form-select {
+    background: url(https://cdn.shopify.com/s/files/1/0657/3388/6106/files/icon-angle-down.svg?v=1738827169) right;
+    background-repeat: no-repeat;
+    display: inline-block;
+    color: rgba(var(--color-foreground), 1);
+    background-position: 95% center;
+    background-size: 16px;
+    border: 2px solid rgba(var(--color-foreground), 1);
+    border-radius: 10px;
+    height: 55px;
+}
+
+.shipping-estimate-item .form-input {
+    border: 2px solid rgba(var(--color-foreground), 1);
+    border-radius: 10px;
+    height: 55px;
+}
+
+.estimate-button {
+    display: flex;
+    justify-content: center;
+}
+
+.estimate-button .button {
+    padding: 16px 81px;
+}
+
+.estimate-details {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.estimate-details p {
+    margin-top: 0;
+    margin-bottom: 1.6rem;
+}
+
+.estimate-details.rte li {
+    justify-content: center;
+}

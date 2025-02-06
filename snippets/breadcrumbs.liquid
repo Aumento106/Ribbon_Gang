@@ -1,8 +1,5 @@
-{% unless template == 'index' or template == 'cart' or template == 'list-collections' or template == '404' %}
-
-{% assign t = template | split: '.' | first %}
-
-<div class="page-width">
+{% comment %}
+<div class="">
 <nav class="breadcrumbs" role="navigation" aria-label="breadcrumbs">
   <ol>
     <li>
@@ -74,4 +71,23 @@
   </ol>
 </nav>
 {% endunless %}
+</div>
+{% endcomment %}
+
+<div class="entry-meta">
+  <span> / </span>
+  <span class="ast-terms-link">
+    <a href="https://spacelogicgroup.com/category/sterirack-system-au/" class="">
+    STERIRACK® System
+    </a>
+  </span>
+  <span>
+    / By 
+  </span>
+  <span class="posted-by vcard author" itemtype="https://schema.org/Person" itemscope="itemscope" itemprop="author">
+    <a title="View all posts by Tiffany" href="https://spacelogicgroup.com/author/t-meek/" rel="author" class="url fn n" itemprop="url">
+      <span class="author-name" itemprop="name"> Tiffany </span>
+    </a>
+</span>
+
 </div>

@@ -184,7 +184,7 @@ ul.blog_list_dots li {
 }
 
 .article-template__title:not(:only-child) {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .article-template__link {
@@ -202,7 +202,7 @@ ul.blog_list_dots li {
 }
 
 .article-template__content {
-  margin-top: 3rem;
+  margin-top: 2rem;
   margin-bottom: 3rem;
 }
 
@@ -295,6 +295,9 @@ ul.blog_list_dots li {
   
   .article_detais_wrp figure {
     margin: 1rem;
+  }
+  .article-template__title:not(:only-child) {
+    margin-bottom: 2rem;
   }
 
 }

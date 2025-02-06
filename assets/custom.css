@@ -1509,7 +1509,7 @@ span.product_compar_price {
 /* Breadcrumbs' styles */
 .breadcrumbs {
   font-size: .85em;
-  margin: 0 0 2em;
+  margin: 0 0 1em;
 }
 
 .breadcrumbs ol {
@@ -1535,12 +1535,16 @@ span.product_compar_price {
 }
 
 .breadcrumbs [aria-current="page"] {
-  color: inherit;
-  font-weight: normal;
-  text-decoration: none;
+  line-height: normal;
 }
 
 .breadcrumbs [aria-current="page"]:hover,
 .breadcrumbs [aria-current="page"]:focus {
   text-decoration: underline;
+}
+
+@media screen and (max-width: 749px) {
+  .breadcrumbs li {
+    margin: 5px 0;
+  }
 }

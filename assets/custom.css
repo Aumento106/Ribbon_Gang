@@ -872,6 +872,10 @@ body .slider-buttons {
   justify-content: start;
 }
 
+.slider-buttons .slider-button:hover {
+  background-color: var(--primary-theme-color);
+}
+
 
 @media screen and (min-width: 1025px) {
   .card-wrapper .card__content .card__information {
@@ -1482,6 +1486,10 @@ body .slider-buttons {
 
   .product__info-wrapper .product-form .product-form__buttons {
     flex-wrap: wrap;
+  }
+
+  body .slider-buttons {
+    margin-top: 15px;
   }
 }
 

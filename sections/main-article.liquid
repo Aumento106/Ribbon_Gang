@@ -65,10 +65,16 @@
             {%- endif -%}
 
           {%- when 'title' -%}
+          
             <header
               class="page-width {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
               {{ block.shopify_attributes }}
-            >
+            > 
+            <div class="entry-meta">
+              {% if settings.show_breadcrumb_nav %}
+                {% render 'breadcrumbs' %}
+              {% endif %}
+            </div>
               <h1
                 class="article-template__title"
               >
@@ -84,8 +90,7 @@
                   <span>{{ article.author }}</span>
                 </span>
               {%- endif -%}
-
-              {% comment %} 
+ 
               <div class="entry-meta"> / 
               <span class="ast-terms-link">
                 <a href="https://spacelogicgroup.com/category/sterirack-system-au/" class="">STERIRACK® System</a>
@@ -97,13 +102,7 @@
                 </a>
                 </span>
               </div> 
-              {% endcomment %}
 
-              <div class="entry-meta">
-                {% if settings.show_breadcrumb_nav %}
-                  {% render 'breadcrumbs' %}
-                {% endif %}
-              </div>
             </header>
 
           {%- when 'content' -%}

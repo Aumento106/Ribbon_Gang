@@ -184,7 +184,7 @@ ul.blog_list_dots li {
 }
 
 .article-template__title:not(:only-child) {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .article-template__link {

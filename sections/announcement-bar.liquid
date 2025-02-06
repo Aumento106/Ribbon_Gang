@@ -154,7 +154,7 @@
       {%- endif -%}
     {%- endif -%}
     <div class="localization-wrapper">
-      {%- if section.settings.enable_country_selector and localization.available_countries.size > 1 -%}
+      {%- if section.settings.enable_country_selector and localization.available_countries.size > 0 -%}
         <localization-form class="small-hide medium-hide">
           {%- form 'localization', id: 'AnnouncementCountryForm', class: 'localization-form' -%}
             <div>

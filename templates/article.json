@@ -15,6 +15,7 @@
         "featured_image": {
           "type": "featured_image",
           "settings": {
+            "blog_image": "shopify://shop_images/image_f8e2b89c-4982-4e99-954d-febf9d883ec4_1.png",
             "image_height": "adapt"
           }
         },
@@ -45,6 +46,7 @@
       ],
       "settings": {
         "section_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "article_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "padding_top": 32,
         "padding_bottom": 52
       }

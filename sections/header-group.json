@@ -49,7 +49,6 @@
         "announcement_TkCT6e",
         "announcement_pAgN6c"
       ],
-      "disabled": true,
       "settings": {
         "color_scheme": "scheme-28b9a3ce-e916-452a-9440-95fefcedbf92",
         "show_line_separator": false,
@@ -62,6 +61,19 @@
     },
     "header": {
       "type": "header",
+      "blocks": {
+        "sub_header_eCUjDy": {
+          "type": "sub_header",
+          "settings": {
+            "sub_header_menu": "sub-header-menu",
+            "sub_menu_type_desktop": "mega",
+            "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3"
+          }
+        }
+      },
+      "block_order": [
+        "sub_header_eCUjDy"
+      ],
       "settings": {
         "logo_position": "middle-left",
         "menu": "main-menu",
@@ -73,8 +85,8 @@
         "enable_customer_avatar": true,
         "mobile_logo_position": "center",
         "margin_bottom": 0,
-        "padding_top": 28,
-        "padding_bottom": 20
+        "padding_top": 16,
+        "padding_bottom": 16
       }
     }
   },

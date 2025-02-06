@@ -49,3 +49,61 @@ if(load_more_btn.length > 0){
 //         phoneInput.setCustomValidity('');
 //     }
 // }
+
+/*
+const variantOptions = document.querySelectorAll('.product-variant-options input[type="radio"]');
+const targetDiv = document.querySelectorAll(".quantity-left-txt");
+const atrDiv = document.querySelectorAll(".attribute_class");
+
+
+
+variantOptions.forEach(function(input) {
+    input.addEventListener("change", function() {
+        setTimeout(function() {
+            atrDiv.forEach(function(div) {
+                const attributeValue1 = div.getAttribute("inventorey_managment");
+                const product_qut = div.getAttribute("product_qut");
+                console.log(attributeValue1); 
+                console.log(product_qut); 
+            });
+        }, 2000);
+    });
+});
+*/
+
+// function attachVariantRadioEventListeners() {
+//     const variantOptions = document.querySelectorAll('.product-variant-options input[type="radio"]');
+    
+//     setTimeout(function() {
+//     variantOptions.forEach(radio => {
+//       radio.addEventListener('change', function() {
+//         console.log('radio button clicked');
+//         const inventoryStatusElement = document.querySelector('.product-inventory-status');
+        
+//         // Refresh the content of the inventory status element
+//         if (inventoryStatusElement) {
+            
+//                 console.log('HTML updated')
+//                 const availableInventory = document.querySelector('span.inventory');
+            
+//         }
+//       });
+//     });
+// }, 2000);
+//   }
+  
+//   // Mutation observer to watch for changes in the .product__info-container
+//   const observer = new MutationObserver(() => {
+//     // Re-attach event listeners after HTML change in the container
+//     attachVariantRadioEventListeners();
+//   });
+  
+//   // Start observing changes within .product__info-container
+//   const productInfoContainer = document.querySelector('.product__info-container');
+//   if (productInfoContainer) {
+//     observer.observe(productInfoContainer, { childList: true, subtree: true });
+//   }
+  
+//   // Initial attachment of event listeners
+//   attachVariantRadioEventListeners();
+  

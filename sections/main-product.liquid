@@ -177,6 +177,7 @@
                       -%}
                         <div class="product-info-fields-wrapper">
                           <span class="form__label">Availability :</span>
+                          <div class="top-class">
                           <div class="product-inventory-status">
                             <span class="svg-wrapper" style="color: rgb(238, 148, 65)">
                               {{- 'icon-inventory-status.svg' | inline_asset_content -}}
@@ -190,10 +191,12 @@
                               {{- 'products.product.inventory_low_stock' | t -}}
                             {%- endif -%}
                           </div>
+                          </div>
                         </div>
                       {%- else -%}
                         <div class="product-info-fields-wrapper">
                           <span class="form__label">Availability :</span>
+                          <div class="top-class">
                           <div class="product-inventory-status">
                             <span class="svg-wrapper" style="color: rgb(62, 214, 96)">
                               {{- 'icon-inventory-status.svg' | inline_asset_content -}}
@@ -207,27 +210,32 @@
                               {{- 'products.product.inventory_in_stock' | t -}}
                             {%- endif -%}
                           </div>
+                          </div>
                         </div>
                       {%- endif -%}
                     {%- else -%}
                       {%- if product.selected_or_first_available_variant.inventory_policy == 'continue' -%}
                         <div class="product-info-fields-wrapper">
                           <span class="form__label">Availability :</span>
+                          <div class="top-class">
                           <div class="product-inventory-status">
                             <span class="svg-wrapper" style="color: rgb(62, 214, 96)">
                               {{- 'icon-inventory-status.svg' | inline_asset_content -}}
                             </span>
                             {{- 'products.product.inventory_out_of_stock_continue_selling' | t -}}
                           </div>
+                          </div>
                         </div>
                       {%- else -%}
                         <div class="product-info-fields-wrapper">
                           <span class="form__label">Availability :</span>
+                          <div class="top-class">
                           <div class="product-inventory-status">
                             <span class="svg-wrapper" style="color: rgb(200, 200, 200)">
                               {{- 'icon-inventory-status.svg' | inline_asset_content -}}
                             </span>
                             {{- 'products.product.inventory_out_of_stock' | t -}}
+                          </div>
                           </div>
                         </div>
                       {%- endif -%}
@@ -250,10 +258,10 @@
                 {{ block.settings.custom_liquid }}
 
               {%- when 'shipping_bar' -%}
-                <div class="shipping-bar-wrapper">
+                <div class="shipping-bar-wrapper" id="ShippingBar-{{ section.id }}">
                   <div class="shipping-bar-text">
                     <div class="shipping-txt">Ships by <strong>Jan 23 2025</strong></div>
-                    <div class="quantity-left-txt" id="Inventory-{{ section.id }}" role="status">
+                    <div class="quantity-left-txt">                    
                       {%- if product.selected_or_first_available_variant.inventory_management == 'shopify' -%}
                         {%- if product.selected_or_first_available_variant.inventory_quantity > 0 -%}
                           {%- if product.selected_or_first_available_variant.inventory_quantity <= 20 -%}
@@ -261,10 +269,7 @@
                               <span class="svg-wrapper" style="color: rgb(238, 148, 65)">
                                 {{- 'icon-inventory-status.svg' | inline_asset_content -}}
                               </span>
-                              {{-
-                                'products.product.inventory_low_stock_show_count'
-                                | t: quantity: product.selected_or_first_available_variant.inventory_quantity
-                              -}}
+                              {{- 'products.product.inventory_low_stock_show_count'| t: quantity: product.selected_or_first_available_variant.inventory_quantity-}}
                             </div>
                           {%- else -%}
                             <div class="product-inventory-status">
@@ -297,10 +302,17 @@
                       {%- endif -%}
                     </div>
                   </div>
-                  <div class="shipping-bar">
-                    <span class="highlighted-bar" style="width: 40%;"></span>
-                  </div>
                 </div>
+                {% assign freeshipping_treshold = block.settings.thresold_for_free_shipping | times:100 %}
+                {% assign thresold = block.settings.thresold_for_free_gift | times:100.0 %}
+                {% assign remainiang_amount_shipping = freeshipping_treshold | minus:cart.total_price | money %}
+                {% assign remainiang_amount = thresold | minus:cart.total_price | money %}
+                {% assign progress_bar_count = cart.total_price | divided_by:thresold | times:100 %}
+                {{ progress_bar_count }}
+                
+                  <div class="shipping-bar">
+                    <span class="highlighted-bar" style="width:{{ progress_bar_count | round }}%";"></span>
+                  </div>
               {%- when 'product_description' -%}
                 <div class="product__accordion accordion quick-add-hidden" {{ block.shopify_attributes }}>
                   <details id="Details-{{ block.id }}-{{ section.id }}" class="faq-details">
@@ -1064,7 +1076,53 @@
     },
     {
       "type": "shipping_bar",
-      "name": "Shipping bar"
+      "name": "Shipping bar",
+      "settings":[
+        {
+          "type": "product",
+          "id": "free_gift_product",
+          "label": "Free gift product"
+        },
+        {
+          "type": "collection_list",
+          "id": "free_gift_collection",
+          "label": "Free gift collections"
+        },
+        {
+          "type": "text",
+          "id": "thresold_for_free_gift",
+          "label": "Free gift...in cents"
+        },
+        {
+          "type": "text",
+          "id": "free_gift_not_reach_msg",
+          "label": "Free gift not reached yet"
+        },
+        {
+          "type": "text",
+          "id": "free_gift_reach_msg",
+          "label": "Free gift reached"
+        },
+        {
+          "type": "header",
+          "content": "Free shipping Progress Bar"
+        },
+        {
+          "type": "text",
+          "id": "thresold_for_free_shipping",
+          "label": "Free shipping...in cents"
+        },
+        {
+          "type": "text",
+          "id": "free_shipping_not_reach_msg",
+          "label": "Free shipping not reached yet"
+        },
+        {
+          "type": "text",
+          "id": "free_shipping_reach_msg",
+          "label": "Free shipping reached"
+        },
+      ]
     },
     {
       "type": "collapsible_tab",

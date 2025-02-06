@@ -1061,7 +1061,6 @@ class VariantSelects extends HTMLElement {
     this.addEventListener('change', (event) => {
       const target = this.getInputForEventTarget(event.target);
       this.updateSelectionMetadata(event);
-
       publish(PUB_SUB_EVENTS.optionValueSelectionChange, {
         data: {
           event,
@@ -1074,7 +1073,6 @@ class VariantSelects extends HTMLElement {
 
   updateSelectionMetadata({ target }) {
     const { value, tagName } = target;
-
     if (tagName === 'SELECT' && target.selectedOptions.length) {
       Array.from(target.options)
         .find((option) => option.getAttribute('selected'))

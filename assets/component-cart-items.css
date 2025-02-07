@@ -11,7 +11,7 @@ cart-items .title-wrapper-with-link {
 .cart-items th {
   text-align: left;
   padding-bottom: 1.8rem;
-  opacity: 0.85;
+  opacity: 1;
   font-weight: normal;
 }
 
@@ -37,7 +37,8 @@ cart-items .title-wrapper-with-link {
 }
 
 .cart-item__image {
-  height: auto;
+  height: 100%;
+  object-fit: contain;
   max-width: calc(10rem / var(--font-body-scale));
 }
 
@@ -82,9 +83,7 @@ cart-items .title-wrapper-with-link {
 }
 
 .cart-item__name:hover {
-  text-decoration: underline;
-  text-underline-offset: 0.3rem;
-  text-decoration-thickness: 0.2rem;
+  text-decoration: none;
 }
 
 .cart-item__price-wrapper > * {
@@ -212,7 +211,7 @@ cart-remove-button .icon-remove {
 }
 
 .cart-items thead th {
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 @media screen and (max-width: 749px) {

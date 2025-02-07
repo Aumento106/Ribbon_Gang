@@ -48,11 +48,11 @@
       <li>{{ blog.title | link_to: blog.url }}</li>
       <li>
         {% capture tag_url %}{{blog.url}}/tagged/{{ current_tags | join: "+" }}{% endcapture %}
-        <a href="{{ tag_url }}" aria-current="page">{{ current_tags | join: " + " }}</a>
+        <span style = "text-decoration: none;" aria-current="page">{{ current_tags | join: " + " }}</span>
       </li>
     {% else %}
       <li>
-        <a href="{{ blog.url }}" aria-current="page">{{ blog.title }}</a>
+        <span style = "text-decoration: none;"  aria-current="page">{{ blog.title }}</span>
       </li>
     {% endif %}
 
@@ -60,13 +60,13 @@
 
     <li>{{ blog.title | link_to: blog.url }}</li>
     <li>
-      <a href="{{ article.url }}" aria-current="page">{{ article.title }}</a>
+      <span style = "text-decoration: none;"  aria-current="page">{{ article.title }}</span>
     </li>
 
   {% else %}
 
     <li aria-current="page">
-      <a href="{{ request.path }}" aria-current="page">{{ page_title }}</a>
+      <span style = "text-decoration: none;"  aria-current="page">{{ page_title }}</span>
     </li>
 
   {% endcase %}

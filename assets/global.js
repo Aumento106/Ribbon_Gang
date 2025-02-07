@@ -245,6 +245,8 @@ class QuantityInput extends HTMLElement {
   onButtonClick(event) {
     event.preventDefault();
     const previousValue = this.input.value;
+    
+    // console.log(document.querySelector('.shipping-bar-wrapper').innerHTML);
 
     if (event.target.name === 'plus') {
       if (parseInt(this.input.dataset.min) > parseInt(this.input.step) && this.input.value == 0) {
@@ -261,6 +263,7 @@ class QuantityInput extends HTMLElement {
     if (this.input.dataset.min === previousValue && event.target.name === 'minus') {
       this.input.value = parseInt(this.input.min);
     }
+    
   }
 
   validateQtyRules() {

@@ -1,3 +1,23 @@
+async function udpateProgressbar() {
+    await fetch(`${routes.cart_url}?section_id=cart-drawer`)
+    .then((response) => response.text())
+    .then((responseText) => {
+      const html = new DOMParser().parseFromString(responseText, 'text/html');
+      const shipping_bar_wrapper = html.querySelector('.shipping-bar-wrapper');
+      if(shipping_bar_wrapper){
+        const updatedWidth = shipping_bar_wrapper.querySelector('.shipping-bar')?.querySelector('span')?.getAttribute('style');
+        const AllProductProgressBar = document.querySelectorAll('.product-shipping-bar');
+        if(AllProductProgressBar.length > 0){
+          AllProductProgressBar.forEach(progressbar=>{
+            const innerProgress = progressbar?.querySelector('span');
+            if(innerProgress) innerProgress.setAttribute('style', updatedWidth);
+          })
+        }
+      }
+    })
+  }
+
+
 const load_more_btn = document.querySelectorAll(".view_all_btn");
 
 const blog_cards = document.querySelectorAll(".js_load_more_articles");

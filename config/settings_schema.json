@@ -1503,6 +1503,25 @@
         "id": "cart_color_scheme",
         "label": "t:sections.all.colors.label",
         "default": "scheme-1"
+      },
+      {
+        "type": "header",
+        "content": "Free Shipping"
+      },
+      {
+        "type": "text",
+        "id": "thresold_for_free_shipping",
+        "label": "Free shipping...in cents"
+      },
+      {
+        "type": "text",
+        "id": "free_shipping_not_reach_msg",
+        "label": "Free shipping not reached yet"
+      },
+      {
+        "type": "text",
+        "id": "free_shipping_reach_msg",
+        "label": "Free shipping reached"
       }
     ]
   }

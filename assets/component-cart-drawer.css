@@ -48,11 +48,10 @@ cart-drawer.is-empty .drawer__inner {
   display: grid;
   grid-template-rows: 1fr;
   align-items: center;
-  padding: 0;
 }
 
 cart-drawer.is-empty .drawer__header {
-  display: none;
+  display: flex;
 }
 
 cart-drawer:not(.is-empty) .cart-drawer__warnings,
@@ -68,7 +67,7 @@ cart-drawer:not(.is-empty) .cart-drawer__collection {
   transform: translateX(0);
 }
 .cart-drawer .drawer__inner {
-  padding: 3rem;
+  padding: 3rem 3rem 2.4rem;
   border-top-left-radius: 16px;
   border-bottom-left-radius: 16px;
 }
@@ -408,7 +407,7 @@ cart-drawer-items {
 .checkout-container .total-section.total_estimation {
   border-bottom: unset;
 }
-.buttons {
+.cart-drawer .checkout-container .buttons {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;

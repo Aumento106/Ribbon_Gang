@@ -240,7 +240,6 @@ details[open]>.header__menu-item .ic_pluse {
   padding-bottom: 4rem;
   padding-top: 4rem;
   border: 0;
-  transition: all .3s ease-in;
 }
 
 .header__inline-menu .mega-menu__link.mega-menu__link--level-2 {
@@ -280,13 +279,12 @@ details[open]>.header__menu-item .ic_pluse {
   transform: translateX(-50%);
   bottom: -48px;
   visibility: hidden;
-  transition: all .3s ease-in;
-  transform: translateY(1.5rem);
+  opacity: 0;
 }
 
 .header__inline-menu .mega-menu[open] .header__menu-item::after {
   visibility: visible;
-  transform: translateY(0);
+  opacity: 1;
 }
 
 .header .header__heading-link {
@@ -1698,7 +1696,7 @@ span.product_compar_price {
 
 /* Breadcrumbs' styles */
 .breadcrumbs {
-  font-size: .85em;
+  font-size: 1.8rem;
   margin: 0 0 1em;
 }
 

@@ -93,13 +93,13 @@
  
               <div class="entry-meta"> / 
               <span class="ast-terms-link">
-                <a href="" class="">{{ blog.handle }}</a>
+                <a href="{{ blog.url }}" class="">{{ blog.handle }}</a>
                 </span>
                   / By 
                 <span class="posted-by vcard author" itemtype="https://schema.org/Person" itemscope="itemscope" itemprop="author">
-                <a title="View all posts by Tiffany" href="https://spacelogicgroup.com/author/t-meek/" rel="author" class="url fn n" itemprop="url">
+                {% comment %} <a title="View all posts by Tiffany" href="https://spacelogicgroup.com/author/t-meek/" rel="author" class="url fn n" itemprop="url"> {% endcomment %}
                   <span class="author-name" itemprop="name"> {{ article.author }} </span>
-                </a>
+                {% comment %} </a> {% endcomment %}
                 </span>
               </div> 
 

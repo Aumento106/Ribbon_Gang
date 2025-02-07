@@ -6,6 +6,7 @@ class CartRemoveButton extends HTMLElement {
       event.preventDefault();
       const cartItems = this.closest('cart-items') || this.closest('cart-drawer-items');
       cartItems.updateQuantity(this.dataset.index, 0);
+      setTimeout(()=>{udpateProgressbar()}, 500);
     });
   }
 }
@@ -20,6 +21,7 @@ class CartItems extends HTMLElement {
 
     const debouncedOnChange = debounce((event) => {
       this.onChange(event);
+      setTimeout(()=>{udpateProgressbar()}, 500);
     }, ON_CHANGE_DEBOUNCE_TIMER);
 
     this.addEventListener('change', debouncedOnChange.bind(this));
@@ -86,6 +88,25 @@ class CartItems extends HTMLElement {
     this.validateQuantity(event);
   }
 
+  // async udpateProgressbar() {
+  //   await fetch(`${routes.cart_url}?section_id=cart-drawer`)
+  //   .then((response) => response.text())
+  //   .then((responseText) => {
+  //     const html = new DOMParser().parseFromString(responseText, 'text/html');
+  //     const shipping_bar_wrapper = html.querySelector('.shipping-bar-wrapper');
+  //     if(shipping_bar_wrapper){
+  //       const updatedWidth = shipping_bar_wrapper.querySelector('.shipping-bar')?.querySelector('span')?.getAttribute('style');
+  //       const AllProductProgressBar = document.querySelectorAll('.product-shipping-bar');
+  //       if(AllProductProgressBar.length > 0){
+  //         AllProductProgressBar.forEach(progressbar=>{
+  //           const innerProgress = progressbar?.querySelector('span');
+  //           if(innerProgress) innerProgress.setAttribute('style', updatedWidth);
+  //         })
+  //       }
+  //     }
+  //   })
+  // }
+
   onCartUpdate() {
     if (this.tagName === 'CART-DRAWER-ITEMS') {
       fetch(`${routes.cart_url}?section_id=cart-drawer`)
@@ -100,6 +121,7 @@ class CartItems extends HTMLElement {
               targetElement.replaceWith(sourceElement);
             }
           }
+          udpateProgressbar();
         })
         .catch((e) => {
           console.error(e);
@@ -111,6 +133,7 @@ class CartItems extends HTMLElement {
           const html = new DOMParser().parseFromString(responseText, 'text/html');
           const sourceQty = html.querySelector('cart-items');
           this.innerHTML = sourceQty.innerHTML;
+          udpateProgressbar();
         })
         .catch((e) => {
           console.error(e);

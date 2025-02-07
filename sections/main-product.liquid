@@ -303,14 +303,11 @@
                     </div>
                   </div>
                 </div>
-                {% assign freeshipping_treshold = block.settings.thresold_for_free_shipping | times:100 %}
-                {% assign thresold = block.settings.thresold_for_free_gift | times:100.0 %}
-                {% assign remainiang_amount_shipping = freeshipping_treshold | minus:cart.total_price | money %}
-                {% assign remainiang_amount = thresold | minus:cart.total_price | money %}
-                {% assign progress_bar_count = cart.total_price | divided_by:thresold | times:100 %}
-                {{ progress_bar_count }}
+                {% assign thresold = settings.thresold_for_free_shipping | times:100.0 %}
+                {% assign remainiang_amount_shipping = thresold | minus:cart.total_price | money %}
+                {% assign progress_bar_count = cart.total_price | divided_by: thresold | times:100.0 %}
                 
-                  <div class="shipping-bar">
+                 <div class="shipping-bar product-shipping-bar">
                     <span class="highlighted-bar" style="width:{{ progress_bar_count | round }}%";"></span>
                   </div>
               {%- when 'product_description' -%}
@@ -1078,50 +1075,6 @@
       "type": "shipping_bar",
       "name": "Shipping bar",
       "settings":[
-        {
-          "type": "product",
-          "id": "free_gift_product",
-          "label": "Free gift product"
-        },
-        {
-          "type": "collection_list",
-          "id": "free_gift_collection",
-          "label": "Free gift collections"
-        },
-        {
-          "type": "text",
-          "id": "thresold_for_free_gift",
-          "label": "Free gift...in cents"
-        },
-        {
-          "type": "text",
-          "id": "free_gift_not_reach_msg",
-          "label": "Free gift not reached yet"
-        },
-        {
-          "type": "text",
-          "id": "free_gift_reach_msg",
-          "label": "Free gift reached"
-        },
-        {
-          "type": "header",
-          "content": "Free shipping Progress Bar"
-        },
-        {
-          "type": "text",
-          "id": "thresold_for_free_shipping",
-          "label": "Free shipping...in cents"
-        },
-        {
-          "type": "text",
-          "id": "free_shipping_not_reach_msg",
-          "label": "Free shipping not reached yet"
-        },
-        {
-          "type": "text",
-          "id": "free_shipping_reach_msg",
-          "label": "Free shipping reached"
-        },
       ]
     },
     {

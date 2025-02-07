@@ -82,6 +82,10 @@
         </button>
       </div>
 
+      {% assign thresold = settings.thresold_for_free_shipping | times:100.0 %}
+      {% assign remainiang_amount_shipping = thresold | minus: cart.total_price | money %}
+      {% assign progress_bar_count = cart.total_price | divided_by: thresold | times:100.0 %}
+
       <div class="shipping-bar-wrapper">
         <div class="shipping-bar-text">
           <div class="shipping-txt">
@@ -90,7 +94,7 @@
           
         </div>
         <div class="shipping-bar">
-          <span class="highlighted-bar" style="width: 40%;"></span>
+          <span class="highlighted-bar" style="width: {{ progress_bar_count }}%;"></span>
         </div>
       </div>
     
@@ -136,6 +140,8 @@
                     </tr>
                   </thead>
 
+                {% comment %} <input hidden class="cart_total" updated_price="{{cart.total_price}}"/> {% endcomment %}
+                                             
                   <tbody role="rowgroup">
                     {%- for item in cart.items -%}
                       <tr id="CartDrawer-Item-{{ item.index | plus: 1 }}" class="cart-item" role="row">

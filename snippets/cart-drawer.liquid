@@ -52,14 +52,14 @@
             </span>
           </button>
         </div>
-        <div class="shipping-bar-wrapper">
+        {% comment %} <div class="shipping-bar-wrapper">
           <div class="shipping-bar-text">
             <div class="shipping-txt">Add $11.46 to get a free Delivery</div>
           </div>
           <div class="shipping-bar">
             <span class="highlighted-bar" style="width: 40%;"></span>
           </div>
-        </div>
+        </div> {% endcomment %}
       </div>
       {%- if cart == empty -%}
         <div class="drawer__inner-empty">
@@ -199,7 +199,7 @@
                                 | times: 100
                                 | divided_by: compare_at_price2
                               %}
-                              <span class="save_tag">save {{ save_prcent }}%</span>
+                              {% if item.product.compare_at_price != blank  %}<span class="save_tag">save {{ save_prcent }}%</span>{% endif %}
                             </div>
                           {%- endif -%}
                         </td>
@@ -236,7 +236,7 @@
                                   | times: 100
                                   | divided_by: compare_at_price2
                                 %}
-                                <span class="save_tag">save{{ save_prcent }}%</span>
+                                {% if item.product.compare_at_price != blank %}<span class="save_tag">save{{ save_prcent }}%</span>{% endif %}
                               </span>
                             {%- endif -%}
 
@@ -559,36 +559,78 @@
       {%- if cart != empty -%}
         <div class="checkout-container">
           <div class="cart_header_bottom">
-            <h2 class="cart_header_main">Get Your Full Routine!</h2>
+            <h2 class="cart_header_main">{{ settings.comp_product_heading }}</h2>
             <div class="product">
-              <div class="img-box">
-                <img src="https://cdn.shopify.com/s/files/1/0657/3388/6106/files/catheter-baskets.png?v=1738932178" width="80" height="80" alt="Product Image">
+             {% if settings.drawer_comp_product.featured_image != blank %} <div class="img-box">
+                {% comment %} <img src="https://cdn.shopify.com/s/files/1/0657/3388/6106/files/catheter-baskets.png?v=1738932178" width="80" height="80" alt="Product Image"> {% endcomment %}
+                {{ settings.drawer_comp_product.featured_image | image_url: width:80, height:80 | image_tag }}
               </div>
+            {% endif %}
               <div class="product-details">
+              {% if settings.drawer_comp_product != blank%}
                 <div class="complementry-product-title">
-                  <strong>Catheter Baskets</strong>
+                  <strong>{{ settings.drawer_comp_product.title }}</strong>
                 </div>
+              {% endif %}
                 <div class="price">
-                  $000.00
-                  <del class="product_compar_price">$0.00</del> 
-                  <span class="save_tag">Save 0%</span>
+                  {{ settings.drawer_comp_product.price | money }}
+                  <del class="product_compar_price">{{ settings.drawer_comp_product.compare_at_price | money }}</del> 
+                  {% comment %} <span class="save_tag">Save 0%</span> {% endcomment %}
+                    {% assign save_prcent = 
+                      settings.drawer_comp_product.compare_at_price 
+                      | minus:settings.drawer_comp_product.price 
+                      | times:100 
+                      | divided_by:settings.drawer_comp_product.compare_at_price 
+                     %}
+                    {% if settings.drawer_comp_product.compare_at_price != blank %}
+                       <span class="save_tag">save {{ save_prcent  }}%</span>
+                    {% endif %}
                 </div>
               </div>
-              <button class="add-to-cart button">Add to Cart</button>
+              {%- render 'buy-buttons',
+                  block: block,
+                  product: product,
+                  product_form_id: product_form_id,
+                  section_id: section.id,
+                  show_pickup_availability: true
+                -%}
             </div>
           </div>
 
+            {% assign estimated_total = 0 %} 
+            {% assign cart_total = 0 %} 
+          {% for item in cart.items %}
+             {% assign estimated_total = estimated_total | plus:item.product.price %} 
+             {% assign cart_total = cart_total | plus:item.price %} 
+          {% endfor %}
+          
+
           <div class="total-section">
             <span>Estimated Total:</span>
-            <span>$000.00</span>
+            <span>{{ estimated_total | money }}</span>
           </div>
           <div class="total-section total_estimation">
             <span> Total: </span>
-            <span> $000.00 </span>
+            <span>{{ cart_total | money}} </span>
           </div>
           <div class="buttons">
-            <div class="btn keep-shopping">Keep Shopping</div>
-            <div class="btn checkout">Check Out</div>
+            <div class="btn keep-shopping"><a href="{{ settings.button_link }}">{{ settings.button_text }}</a></div>
+            <div class="btn checkout">
+               <div class="cart__ctas" {{ block.shopify_attributes }}>
+                <button
+                  type="submit"
+                  id="checkout"
+                  class="cart__checkout-button button"
+                  name="checkout"
+                  {% if cart == empty %}
+                    disabled
+                  {% endif %}
+                  form="CartDrawer-Form"
+                >
+                  {{ 'sections.cart.checkout' | t }}
+                </button>
+              </div>
+            </div>
           </div>
           <div class="payment-methods">
             <svg xmlns="http://www.w3.org/2000/svg" width="70" height="41" viewBox="0 0 70 41" fill="none">
@@ -667,3 +709,4 @@
     </div>
   </div>
 </cart-drawer>
+

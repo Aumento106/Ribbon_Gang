@@ -77,11 +77,10 @@
       "settings": {
         "logo_position": "middle-left",
         "menu": "main-menu",
+        "mobile_menu": "mobile-main-menu",
         "menu_type_desktop": "mega",
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": false,
-        "button_text": "Keep Shopping",
-        "button_link": "",
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "menu_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "enable_customer_avatar": true,

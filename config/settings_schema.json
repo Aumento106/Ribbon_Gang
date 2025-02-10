@@ -1522,6 +1522,26 @@
         "type": "text",
         "id": "free_shipping_reach_msg",
         "label": "Free shipping reached"
+      },
+      {
+        "type":"text",
+        "id":"comp_product_heading",
+        "label":"Heading"
+      },
+      {
+        "type":"text",
+        "id":"button_text",
+        "label":"Keep Shopping button"
+      },
+      {
+        "type":"url",
+        "id":"button_link",
+        "label":"Keep Shopping button link"
+      },
+      {
+        "type":"product",
+        "id":"drawer_comp_product",
+        "label":"Select complementary product"
       }
     ]
   }

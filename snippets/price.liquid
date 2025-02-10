@@ -108,7 +108,7 @@
           </span>
           {% assign compare_at_price_new = product.compare_at_price %}
           {% assign save_prcent = compare_at_price_new | minus:product.price | times:100 | divided_by:compare_at_price_new  %}
-            <span class="save_tag">save {{ save_prcent  }}%</span>
+            {% if compare_at_price_new != blank %}<span class="save_tag">save {{ save_prcent  }}%</span>{% endif %}
         {%- endunless -%}
       </div>
       <small class="unit-price caption{% if product.selected_or_first_available_variant.unit_price_measurement == nil %} hidden{% endif %}">

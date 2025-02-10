@@ -15,7 +15,7 @@
 <style>
   header-drawer {
     justify-self: start;
-    margin-left: -1.2rem;
+    {% comment %} margin-left: -1.2rem; {% endcomment %}
   }
 
   {%- if section.settings.sticky_header_type == 'reduce-logo-size' -%}
@@ -25,7 +25,7 @@
   {%- endif -%}
 
   {%- if section.settings.menu_type_desktop != "drawer" -%}
-    @media screen and (min-width: 990px) {
+    @media screen and (min-width: 1245px) {
       header-drawer {
         display: none;
       }
@@ -76,7 +76,7 @@
 
 {%- style -%}
   .header {
-    padding: {{ section.settings.padding_top | times: 0.5 | round: 0 }}px 3rem {{ section.settings.padding_bottom | times: 0.5 | round: 0 }}px 3rem;
+    padding: {{ section.settings.padding_top | times: 0.5 | round: 0 }}px 1.5rem {{ section.settings.padding_bottom | times: 0.5 | round: 0 }}px 1.5rem;
   }
 
   .section-header {
@@ -123,7 +123,7 @@
   -%}
   <header class="header header--{{ section.settings.logo_position }} header--mobile-{{ section.settings.mobile_logo_position }} page-width{% if section.settings.menu_type_desktop == 'drawer' %} drawer-menu{% endif %}{% if section.settings.menu != blank %} header--has-menu{% endif %}{% if has_app_block %} header--has-app{% endif %}{% if social_links %} header--has-social{% endif %}{% if shop.customer_accounts_enabled %} header--has-account{% endif %}{% if localization_forms %} header--has-localizations{% endif %}">
     {%- liquid
-      if section.settings.menu != blank
+      if section.settings.mobile_menu != blank
         render 'header-drawer'
       endif
 
@@ -512,6 +512,12 @@
       "label": "t:sections.header.settings.menu.label"
     },
     {
+      "type": "link_list",
+      "id": "mobile_menu",
+      "default": "main-menu",
+      "label": "Mobile menu"
+    },
+    {
       "type": "select",
       "id": "menu_type_desktop",
       "options": [
@@ -650,9 +656,6 @@
     }
   ],
   "blocks": [
-    {
-      "type": "@app"
-    },
     {
       "type": "sub_header",
       "name": "Sub header",

@@ -131,6 +131,12 @@
     "cart_drawer_collection": "",
     "cart_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
     "thresold_for_free_shipping": "450",
+    "free_shipping_not_reach_msg": "Add $price to get a free Delivery",
+    "free_shipping_reach_msg": "You got free shpping",
+    "comp_product_heading": "Get Your Full Routine!",
+    "button_text": "Keep Shopping",
+    "button_link": "shopify://collections",
+    "drawer_comp_product": "sterirack®-transport-case-carts",
     "new_badge_color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
     "sections": {
       "main-password-header": {

@@ -59,11 +59,7 @@
         },
         "shipping_bar_EAdyyd": {
           "type": "shipping_bar",
-          "settings": {
-            "thresold_for_free_shipping": "450",
-            "free_shipping_not_reach_msg": "",
-            "free_shipping_reach_msg": ""
-          }
+          "settings": {}
         },
         "product_description_Tpyx7Y": {
           "type": "product_description",

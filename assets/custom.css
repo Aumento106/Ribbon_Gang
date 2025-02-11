@@ -238,8 +238,8 @@ details[open]>.header__menu-item .ic_pluse {
 }
 
 .header__inline-menu .mega-menu__content {
-  background: #424242B2;
-  backdrop-filter: blur(20px);
+  background: rgba(66, 66, 66, 0.6);
+  backdrop-filter: blur(8px);
   z-index: 1;
   padding-bottom: 4rem;
   padding-top: 4rem;
@@ -319,10 +319,18 @@ details[open]>.header__menu-item .ic_pluse {
   gap: 24px;
 }
 
+.megamenu-with-image-item.megamenu-4-column {
+  grid-template-columns: repeat(4,1fr);
+}
+
+.megamenu-with-image-item.megamenu-4-column .megamenu-image-wrapper {
+  height: 200px;
+}
+
 .megamenu-image-wrapper {
   height: 250px;
   margin: 0 0 2.4rem;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
   border-radius: 4px;
   overflow: hidden;
   transition: all .3s ease-in-out;
@@ -1164,7 +1172,7 @@ body .slider-buttons {
 
 @media screen and (max-width: 1440px) {
   .header__inline-menu .list-menu--inline {
-    gap: 20px;
+    gap: 15px;
   }
 
   .sub-header-menu .header__inline-menu .list-menu--inline {

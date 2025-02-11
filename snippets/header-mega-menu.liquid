@@ -60,8 +60,7 @@
                           {%- if mega_menu_block.settings[image_link_setting] != blank -%}
                             <a href="{{ mega_menu_block.settings[image_link_setting] }}" class="megamenu-with-image-item-con">
                               <div class="megamenu-image-wrapper">
-                                {{ mega_menu_block.settings[image_setting] | image_url: width: 1000 | image_tag:
-                                  loading: 'lazy',
+                                {{ mega_menu_block.settings[image_setting] | image_url: width: 900 | image_tag:
                                   width: mega_menu_block.settings[image_setting].width,
                                   height: mega_menu_block.settings[image_setting].height,
                                   class: 'megamenu-image'
@@ -91,7 +90,7 @@
                     {%- endcapture -%}
 
                   <div class="megamenu-with-image-main page-width">
-                    <div class="megamenu-with-image-item">
+                    <div class="megamenu-with-image-item {% if images_count > 3 %}megamenu-4-column{% endif %}">
                       {%- if mega_menu_images != blank -%}
                         {{- mega_menu_images -}}
                       {%- endif -%}

@@ -1526,11 +1526,13 @@
       {
         "type":"text",
         "id":"comp_product_heading",
+        "default": "Get Your Full Routine!",
         "label":"Heading"
       },
       {
         "type":"text",
         "id":"button_text",
+        "default": "Keep Shopping",
         "label":"Keep Shopping button"
       },
       {
@@ -1539,8 +1541,9 @@
         "label":"Keep Shopping button link"
       },
       {
-        "type":"product",
-        "id":"drawer_comp_product",
+        "type":"product_list",
+        "id":"product_list",
+        "limit": 5,
         "label":"Select complementary product"
       }
     ]

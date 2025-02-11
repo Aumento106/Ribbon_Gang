@@ -220,3 +220,24 @@ cart-items {
     gap: 1rem;
   }
 }
+
+
+.template-cart .content-for-layout{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 40px;
+  max-width: var(--page-width);
+  margin: 0 auto;
+}
+
+.template-cart .content-for-layout .page-width {
+  padding: 0;
+  max-width: 100%;
+}
+
+@media screen and (min-width: 992px) {
+  .template-cart .content-for-layout {
+      padding: 0 5rem;
+  }
+}

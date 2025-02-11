@@ -28,7 +28,11 @@
 <cart-items class="gradient color-{{ section.settings.color_scheme }} isolate{% if cart == empty %} is-empty{% else %} section-{{ section.id }}-padding{% endif %}">
   <div class="page-width">
     <div class="title-wrapper-with-link">
-      <h1 class="title title--primary">{{ 'sections.cart.title' | t }}</h1>
+      <h1 class="title title--primary">{{ 'sections.cart.title' | t }} <strong> {{ 'sections.cart.title_cart' | t }} </strong>
+        {%- if cart != empty -%}
+          <span class="cart-count">{{ cart.item_count }}</span>
+        {%- endif -%}
+      </h1>
       <a href="{{ routes.all_products_collection_url }}" class="underlined-link">
         {{- 'general.continue_shopping' | t -}}
       </a>
@@ -454,6 +458,7 @@
 {% schema %}
 {
   "name": "t:sections.main-cart-items.name",
+  "class": "cart_left",
   "settings": [
     {
       "type": "color_scheme",

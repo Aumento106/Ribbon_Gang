@@ -127,3 +127,14 @@ variantOptions.forEach(function(input) {
 //   // Initial attachment of event listeners
 //   attachVariantRadioEventListeners();
   
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    new Swiper('.product_list_swiper', {
+        slidesPerView: 1,
+        initialSlide: 0,
+        spaceBetween: 0,
+        grabCursor: true,
+        loop: false
+    });
+});

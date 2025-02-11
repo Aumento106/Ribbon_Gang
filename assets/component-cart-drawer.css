@@ -412,7 +412,15 @@ cart-drawer-items {
   border-radius: 5px;
   padding: 16px;
   margin-top: 14px;
-  width: 100%;
+  /* width: 100%; */
+}
+.checkout-container .cart_header_bottom .product .product-form__buttons {
+  margin-right: 16px;
+}
+.checkout-container .cart_header_bottom .product .button--full-width {
+  width: auto;
+  font-size: 14px;
+  padding: 12px 17px;
 }
 .checkout-container .add-to-cart.button {
   font-size: 14px;
@@ -460,7 +468,15 @@ cart-drawer-items {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
+  gap: 16px;
 }
+.cart-drawer .checkout-container .buttons > div {
+  flex: 1;
+}
+.cart-drawer .checkout-container .buttons .btn_keep-shopping .button{
+  width: 100%;
+}
+
 .btn {
   padding: 10px;
   width: 48%;
@@ -480,8 +496,8 @@ cart-drawer-items {
 .payment-methods {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
+  justify-content: space-between;
+  gap: 16px;
   margin-top: 20px;
 }
 .payment-methods img {
@@ -648,4 +664,13 @@ cart-drawer-items::-webkit-scrollbar-track-piece {
 
 .cart-drawer .cart-item__price-wrapper {
   margin-left: 13px;
+}
+
+.payment_div{
+  border-top: 1px solid #BBBBBB;
+  margin: 16px 0 0 0;
+}
+.payment_div p{
+  margin: 16px 0;
+  line-height: 30px;
 }

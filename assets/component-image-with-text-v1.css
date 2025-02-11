@@ -165,3 +165,7 @@
 .section_v1 .image-with-text__text-item .image-with-text__content .button {
   min-width: 185px;
 }
+
+.section_v1 .image-with-text__text {
+  width: 100%;
+}

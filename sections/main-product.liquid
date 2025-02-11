@@ -250,7 +250,7 @@
                   {{ block.shopify_attributes }}
                 >
                   <div class="product-info-fields-wrapper">
-                    <span class="form__label">{{ 'products.product.sku' | t }}:</span>
+                    <span class="form__label">{{ 'products.product.sku' | t }} :</span>
                     {{- product.selected_or_first_available_variant.sku -}}
                   </div>
                 </div>
@@ -866,7 +866,14 @@
         });
       });
     });
+
+    document.querySelectorAll(".shipping-bar-wrapper .product-inventory-status .icon-inventory-status circle").forEach(circle => {
+      circle.setAttribute("cx", "5");
+      circle.setAttribute("cy", "5");
+      circle.setAttribute("r", "5");
+    });
   });
+
 </script>
 
 {% schema %}

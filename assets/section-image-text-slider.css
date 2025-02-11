@@ -251,7 +251,7 @@
   }
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 989px) {
   .main_slider .image-with-text__content {
     padding: 0 0 0 3rem;
   }

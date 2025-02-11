@@ -69,10 +69,32 @@
             "sub_menu_type_desktop": "mega",
             "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3"
           }
+        },
+        "mega_menu_DLzAk9": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "services",
+            "image_1": "shopify://shop_images/image_f8e2b89c-4982-4e99-954d-febf9d883ec4_1.png",
+            "image_1_heading": "<p>Project Consultation, <br/>Planning and Room Design</p>",
+            "image_1_link": "shopify://pages/project-consultation-planning-and-room-design",
+            "image_2": "shopify://shop_images/5.jpg",
+            "image_2_heading": "<p>Product <br/>Design and Innovation</p>",
+            "image_2_link": "shopify://pages/product-design-and-innovation",
+            "image_3": "shopify://shop_images/6.jpg",
+            "image_3_heading": "<p>Project <br/>Management and Expert Installation</p>",
+            "image_3_link": "shopify://pages/project-management-and-expert-installation",
+            "image_4_heading": "",
+            "image_4_link": "",
+            "image_5_heading": "",
+            "image_5_link": "",
+            "image_6_heading": "",
+            "image_6_link": ""
+          }
         }
       },
       "block_order": [
-        "sub_header_eCUjDy"
+        "sub_header_eCUjDy",
+        "mega_menu_DLzAk9"
       ],
       "settings": {
         "logo_position": "middle-left",

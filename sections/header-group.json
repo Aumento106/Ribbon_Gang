@@ -90,11 +90,34 @@
             "image_6_heading": "",
             "image_6_link": ""
           }
+        },
+        "mega_menu_M7HXzn": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "applications",
+            "image_1": "shopify://shop_images/image_3_ce1ed38e-3fa0-477d-ac90-eee0e78253c7.png",
+            "image_1_heading": "<p>Clean Utility/Medications Room</p>",
+            "image_1_link": "shopify://pages/clean-utility-medications-room",
+            "image_2": "shopify://shop_images/4.jpg",
+            "image_2_heading": "<p>CSSD/Theater Store</p>",
+            "image_2_link": "shopify://pages/cssd-theater-store",
+            "image_3": "shopify://shop_images/2.jpg",
+            "image_3_heading": "<p>Pharmacy Storage/Dispensary</p>",
+            "image_3_link": "shopify://pages/pharmacy-storage-dispensary",
+            "image_4": "shopify://shop_images/3.jpg",
+            "image_4_heading": "<p>Veterinary</p>",
+            "image_4_link": "shopify://pages/veterinary",
+            "image_5_heading": "",
+            "image_5_link": "",
+            "image_6_heading": "",
+            "image_6_link": ""
+          }
         }
       },
       "block_order": [
         "sub_header_eCUjDy",
-        "mega_menu_DLzAk9"
+        "mega_menu_DLzAk9",
+        "mega_menu_M7HXzn"
       ],
       "settings": {
         "logo_position": "middle-left",

@@ -44,13 +44,77 @@ body .cart-main .quantity .quantity__button .svg-wrapper {
   width: calc(3.5rem / var(--font-body-scale));
 }
 
-.cart-item:not(:last-child) td {
+.cart-main .cart-item:not(:last-child) td {
   padding-bottom: 1.6rem;
   border-bottom: 1px solid #BBBBBB;
 }
 
 .cart-main .cart__items {
   border-bottom: 0;
+}
+
+.cart-main .drawer__heading-wrapper .cart-count {
+  min-width: 58px;
+  min-height: 58px;
+  max-width: 58px;
+  max-height: 58px;
+  font-size: 34px;
+}
+
+.cart-main .checkout-container .product {
+  border-radius: 16px;
+}
+
+#main-cart-footer .cart__footer>* {
+  width: 100%;
+}
+
+#main-cart-footer .cart__footer .cart__ctas button {
+  max-width: 100%;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+#main-cart-footer .cart__footer .totals__total {
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin: 0;
+  white-space: nowrap;
+}
+
+#main-cart-footer .cart__footer .totals__total-value {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  flex-wrap: wrap;
+  justify-content: end;
+  row-gap: 5px;
+}
+
+#main-cart-footer .cart__footer .totals__total-value .product_compar_price {
+  margin-left: 10px;
+}
+
+#main-cart-footer .checkout-container .total-section {
+  padding-bottom: 17px;
+}
+
+#main-cart-footer .checkout-container .total-section.total_estimation {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#main-cart-footer .cart__ctas {
+  flex-wrap: wrap;
+  gap: 1.6rem;
+  margin-top: 2.4rem;
+}
+
+#main-cart-footer .btn_keep-shopping, #main-cart-footer .btn_keep-shopping .button {
+  margin: 0;
+  width: 100%;
 }
 
 cart-items .title-wrapper-with-link {
@@ -151,18 +215,30 @@ cart-items .title-wrapper-with-link {
   margin-top: 12px;
 }
 
-.cart-main .cart-item__details .price .product-orignal-price {
+.template-cart .price .product-main-price {
   font-weight: 600;
   font-size: 20px;
   line-height: 1.17;
 }
 
-.cart-main .cart-item__details .price .product_compar_price {
+.template-cart .price .product_compar_price {
   font-weight: 500;
   font-size: 18px;
   line-height: 1.44;
   margin-top: -2px;
+  margin-left: 10px;
   color: #BBBBBB;
+}
+
+.template-cart .price {
+  display: flex;
+  align-items: center;
+}
+
+.cart-main .cart-item__totals .save_tag_wrapper {
+  display: flex;
+  justify-content: end;
+  margin-top: 12px;
 }
 
 .cart-item__price-wrapper>* {
@@ -195,7 +271,7 @@ cart-items .title-wrapper-with-link {
 
 .cart-item cart-remove-button {
   display: flex;
-  margin-left: 1rem;
+  margin-left: .5rem;
 }
 
 @media screen and (min-width: 750px) and (max-width: 989px) {
@@ -223,8 +299,8 @@ cart-remove-button .button:not([disabled]):hover {
 
 @media screen and (min-width: 750px) {
   cart-remove-button .button {
-    min-width: 3.5rem;
-    min-height: 3.5rem;
+    min-width: 2rem;
+    min-height: 2rem;
   }
 }
 
@@ -394,6 +470,15 @@ cart-remove-button .icon-remove {
 
   .cart-item__error {
     margin-left: 0.3rem;
+  }
+
+  #main-cart-footer .cart__footer .totals {
+    justify-content: space-between;
+    margin-top: 7px;
+  }
+
+  #main-cart-footer .cart__footer .tax-note {
+    text-align: left;
   }
 }
 

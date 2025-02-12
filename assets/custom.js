@@ -137,4 +137,12 @@ document.addEventListener('DOMContentLoaded', function() {
         grabCursor: true,
         loop: false
     });
+
+    new Swiper('.cart-product_list_swiper', {
+        slidesPerView: 1.5,
+        initialSlide: 0,
+        spaceBetween: 24,
+        grabCursor: true,
+        loop: false
+    });
 });

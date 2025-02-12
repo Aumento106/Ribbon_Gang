@@ -140,16 +140,20 @@
                         </div>
                       {%- else -%}
                         <div class="price product-option">
-                          <span class="product-orignal-price">{{ item.original_price | money }}</span>
+                          <span class="product-main-price">{{ item.original_price | money }}</span>
 
-                          {% if item.product.compare_at_price != blank %}<span class="product_compar_price">{{ item.product.compare_at_price | money }}</span>{% endif %}
+                          {% if item.product.compare_at_price != blank -%}
+                            <span class="product_compar_price">{{ item.product.compare_at_price | money }}</span>
+                          {%- endif %}
                           {% assign compare_at_price2 = item.product.compare_at_price | times: item.quantity %}
                           {% assign save_prcent = compare_at_price2
                             | minus: item.original_line_price
                             | times: 100
                             | divided_by: compare_at_price2
                           %}
-                          {% if item.product.compare_at_price != blank  %}<span class="save_tag">save {{ save_prcent }}%</span>{% endif %}
+                          {% if item.product.compare_at_price != blank -%}
+                            <span class="save_tag">save {{ save_prcent }}%</span>
+                          {%- endif %}
                         </div>
                       {%- endif -%}
 
@@ -316,7 +320,16 @@
                               aria-label="{{ 'sections.cart.remove_title' | t: title: item.title | escape }}"
                             >
                               <span class="svg-wrapper">
-                                {{- 'icon-remove.svg' | inline_asset_content -}}
+                                <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  width="24"
+                                  height="25"
+                                  viewBox="0 0 24 25"
+                                  fill="none"
+                                >
+                                  <path d="M18 6.5L6 18.5" stroke="#424242" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                  <path d="M6 6.5L18 18.5" stroke="#424242" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
                               </span>
                             </a>
                           </cart-remove-button>
@@ -437,7 +450,22 @@
                           </dl>
                         {%- else -%}
                           <span class="price price--end">
-                            {{ item.original_line_price | money }}
+                            <span class="product-main-price">{{ item.original_line_price | money }}</span>
+                            {% assign compare_at_price = item.product.compare_at_price | times: item.quantity | money %}
+                            {% assign compare_at_price2 = item.product.compare_at_price | times: item.quantity %}
+                            {% if item.product.compare_at_price != blank -%}
+                              <span class="product_compar_price">{{ compare_at_price }}</span>
+                            {%- endif %}
+                            {% assign save_prcent = compare_at_price2
+                              | minus: item.original_line_price
+                              | times: 100
+                              | divided_by: compare_at_price2
+                            %}
+                            {% if item.product.compare_at_price != blank -%}
+                              <span class="save_tag_wrapper"
+                                ><span class="save_tag">save {{ save_prcent }}%</span></span
+                              >
+                            {%- endif %}
                           </span>
                         {%- endif -%}
 
@@ -476,6 +504,59 @@
         {{ 'accessibility.loading' | t }}
       </p>
     </form>
+
+    <div class="checkout-container">
+      <div class="cart_header_bottom">
+        <h2 class="cart_header_main">{{ settings.comp_product_heading }}</h2>
+        <div class="swiper-container cart-product_list_swiper">
+          <div class="swiper-wrapper product_list_swipers">
+            {% for product in settings.product_list %}
+              <div class="swiper-slide">
+                <div class="product">
+                  {% if product.featured_image != blank %}
+                    <div class="img-box">
+                      {% comment %} <img src="https://cdn.shopify.com/s/files/1/0657/3388/6106/files/catheter-baskets.png?v=1738932178" width="80" height="80" alt="Product Image"> {% endcomment %}
+                      {{ product.featured_image | image_url: width: 80, height: 80 | image_tag }}
+                    </div>
+                  {% endif %}
+                  <div class="product-details">
+                    {% if product != blank %}
+                      <div class="complementry-product-title">
+                        <strong>{{ product.title }}</strong>
+                      </div>
+                    {% endif %}
+                    <div class="price">
+                      {{ product.price | money }}
+                      {% if product.compare_at_price != blank -%}
+                        <del class="product_compar_price">{{ product.compare_at_price | money }}</del>
+                      {% endif %}
+                      {% comment %} <span class="save_tag">Save 0%</span> {% endcomment %}
+                      {% assign save_prcent = product.compare_at_price
+                        | minus: product.price
+                        | times: 100
+                        | divided_by: product.compare_at_price
+                      %}
+                      {% if product.compare_at_price != blank %}
+                        <span class="save_tag">save {{ save_prcent }}%</span>
+                      {% endif %}
+                    </div>
+                  </div>
+                  <div class="complemetry-buttons">
+                    {%- render 'buy-buttons',
+                      block: block,
+                      product: product,
+                      product_form_id: product_form_id,
+                      section_id: section.id,
+                      show_pickup_availability: true
+                    -%}
+                  </div>
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </cart-items>
 

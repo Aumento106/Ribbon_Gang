@@ -381,8 +381,8 @@ details[open]>.header__menu-item .ic_pluse {
 }
 
 .menu-drawer-container .header__icon {
-  background: var(--primary-theme-color);
-  border-radius: 100%;
+  border: 1px solid var(--primary-theme-color);
+  border-radius: 9999px;
 }
 
 body .menu-drawer .list-social {
@@ -834,10 +834,6 @@ body .quantity:after {
   height: 10px;
 }
 
-.shipping-bar-wrapper .product-inventory-status .icon-inventory-status circle:first-of-type {
-  display: none;
-}
-
 .product__info-wrapper product-recommendations:not(.is-accordion) .complementary-products__container {
   margin-top: 4rem;
 }
@@ -1190,8 +1186,9 @@ body .slider-buttons {
 }
 
 @media screen and (max-width: 1366px) {
+
   .product--thumbnail.product .product__media-list .product-media-container.constrain-height .media,
-.product--thumbnail_slider.product .product__media-list .product-media-container.constrain-height .media {
+  .product--thumbnail_slider.product .product__media-list .product-media-container.constrain-height .media {
     padding-top: 600px;
   }
 
@@ -1396,7 +1393,7 @@ body .slider-buttons {
   }
 
   .product--thumbnail.product .product__media-list .product-media-container.constrain-height .media,
-.product--thumbnail_slider.product .product__media-list .product-media-container.constrain-height .media {
+  .product--thumbnail_slider.product .product__media-list .product-media-container.constrain-height .media {
     padding-top: 470px;
   }
 
@@ -1553,7 +1550,7 @@ body .slider-buttons {
   }
 
   .product--thumbnail.product .product__media-list .product-media-container.constrain-height .media,
-.product--thumbnail_slider.product .product__media-list .product-media-container.constrain-height .media {
+  .product--thumbnail_slider.product .product__media-list .product-media-container.constrain-height .media {
     padding-top: 125%;
   }
 
@@ -1747,7 +1744,7 @@ body .slider-buttons {
   }
 
   .product--thumbnail.product .product__media-list .product-media-container.constrain-height .media,
-.product--thumbnail_slider.product .product__media-list .product-media-container.constrain-height .media {
+  .product--thumbnail_slider.product .product__media-list .product-media-container.constrain-height .media {
     padding-top: 110%;
   }
 

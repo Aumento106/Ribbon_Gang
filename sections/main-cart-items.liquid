@@ -38,19 +38,20 @@
         {%- endif -%}
       </div>
     </div>
+    {%- if cart != empty -%}
+      {% assign thresold = settings.thresold_for_free_shipping | times: 100.0 %}
+      {% assign remainiang_amount_shipping = thresold | minus: cart.total_price | money %}
+      {% assign progress_bar_count = cart.total_price | divided_by: thresold | times: 100.0 %}
 
-    {% assign thresold = settings.thresold_for_free_shipping | times: 100.0 %}
-    {% assign remainiang_amount_shipping = thresold | minus: cart.total_price | money %}
-    {% assign progress_bar_count = cart.total_price | divided_by: thresold | times: 100.0 %}
-
-    <div class="shipping-bar-wrapper">
-      <div class="shipping-bar-text">
-        <div class="shipping-txt">Add $11.46 to get a free Delivery</div>
+      <div class="shipping-bar-wrapper">
+        <div class="shipping-bar-text">
+          <div class="shipping-txt">Add $11.46 to get a free Delivery</div>
+        </div>
+        <div class="shipping-bar">
+          <span class="highlighted-bar" style="width: {{ progress_bar_count }}%;"></span>
+        </div>
       </div>
-      <div class="shipping-bar">
-        <span class="highlighted-bar" style="width: {{ progress_bar_count }}%;"></span>
-      </div>
-    </div>
+    {%- endif -%}
 
     <div class="cart__warnings">
       <h1 class="cart__empty-text">{{ 'sections.cart.empty' | t }}</h1>
@@ -138,8 +139,17 @@
                           </strong>
                         </div>
                       {%- else -%}
-                        <div class="product-option">
-                          {{ item.original_price | money }}
+                        <div class="price product-option">
+                          <span class="product-orignal-price">{{ item.original_price | money }}</span>
+
+                          {% if item.product.compare_at_price != blank %}<span class="product_compar_price">{{ item.product.compare_at_price | money }}</span>{% endif %}
+                          {% assign compare_at_price2 = item.product.compare_at_price | times: item.quantity %}
+                          {% assign save_prcent = compare_at_price2
+                            | minus: item.original_line_price
+                            | times: 100
+                            | divided_by: compare_at_price2
+                          %}
+                          {% if item.product.compare_at_price != blank  %}<span class="save_tag">save {{ save_prcent }}%</span>{% endif %}
                         </div>
                       {%- endif -%}
 

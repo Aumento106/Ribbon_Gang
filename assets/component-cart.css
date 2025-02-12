@@ -225,10 +225,19 @@ cart-items {
 .template-cart .content-for-layout{
   display: flex;
   align-items: flex-start;
-  justify-content: space-between;
+  justify-content: start;
   gap: 40px;
   max-width: var(--page-width);
   margin: 0 auto;
+  width: 100%;
+}
+
+.template-cart .cart_left {
+  width: 68%;
+}
+
+.template-cart .cart_right {
+  width: 32%;
 }
 
 .template-cart .content-for-layout .page-width {

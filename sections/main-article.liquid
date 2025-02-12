@@ -83,13 +83,12 @@
               {%- if block.settings.blog_show_date -%}
                 <span class="circle-divider caption-with-letter-spacing date-and-author">
                   {{- article.published_at | time_tag: format: 'date' -}}
+                  {%- if block.settings.blog_show_author -%}
+                      <span> {{ article.author }}</span>
+                  {%- endif -%}
                 </span>
               {%- endif -%}
-              {%- if block.settings.blog_show_author -%}
-                <span class="caption-with-letter-spacing">
-                  <span>{{ article.author }}</span>
-                </span>
-              {%- endif -%}
+              
  
               <div class="entry-meta"> / 
               <span class="ast-terms-link">

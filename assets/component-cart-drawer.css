@@ -102,6 +102,7 @@ cart-drawer:not(.is-empty) .cart-drawer__collection {
   font-size: 36px;
   line-height: 1.2;
   text-transform: capitalize;
+  margin: 0;
 }
 
 .drawer__heading-wrapper {
@@ -234,7 +235,7 @@ cart-drawer-items {
   width: 100%;
 }
 
-@media screen and (max-height: 650px) {
+@media screen and (max-height: 944px) {
   cart-drawer-items {
     overflow: visible;
   }

@@ -25,17 +25,31 @@
 
 <script src="{{ 'quantity-popover.js' | asset_url }}" defer="defer"></script>
 
-<cart-items class="gradient color-{{ section.settings.color_scheme }} isolate{% if cart == empty %} is-empty{% else %} section-{{ section.id }}-padding{% endif %}">
+<cart-items class="cart-main gradient color-{{ section.settings.color_scheme }} isolate{% if cart == empty %} is-empty{% else %} section-{{ section.id }}-padding{% endif %}">
   <div class="page-width">
     <div class="title-wrapper-with-link">
-      <h1 class="title title--primary">{{ 'sections.cart.title' | t }} <strong> {{ 'sections.cart.title_cart' | t }} </strong>
+      <div class="drawer__heading-wrapper">
+        <h1 class="title title--primary">
+          {{ 'sections.cart.title' | t }}
+          <strong> {{ 'sections.cart.title_cart' | t }} </strong>
+        </h1>
         {%- if cart != empty -%}
           <span class="cart-count">{{ cart.item_count }}</span>
         {%- endif -%}
-      </h1>
-      <a href="{{ routes.all_products_collection_url }}" class="underlined-link">
-        {{- 'general.continue_shopping' | t -}}
-      </a>
+      </div>
+    </div>
+
+    {% assign thresold = settings.thresold_for_free_shipping | times: 100.0 %}
+    {% assign remainiang_amount_shipping = thresold | minus: cart.total_price | money %}
+    {% assign progress_bar_count = cart.total_price | divided_by: thresold | times: 100.0 %}
+
+    <div class="shipping-bar-wrapper">
+      <div class="shipping-bar-text">
+        <div class="shipping-txt">Add $11.46 to get a free Delivery</div>
+      </div>
+      <div class="shipping-bar">
+        <span class="highlighted-bar" style="width: {{ progress_bar_count }}%;"></span>
+      </div>
     </div>
 
     <div class="cart__warnings">

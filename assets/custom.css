@@ -1924,6 +1924,14 @@ body .slider-buttons {
     align-items: start;
     gap: .8rem;
   }
+
+  .header {
+    gap: 13px;
+  }
+
+  .header__icons {
+    gap: 5px;
+  }
 }
 
 span.product_compar_price {

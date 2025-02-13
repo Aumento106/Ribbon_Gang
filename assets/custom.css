@@ -159,6 +159,10 @@ span.img-icon {
   background-color: transparent;
 }
 
+.template-cart .header__icon--cart {
+  display: none;
+}
+
 .header__menu-item {
   padding: 0;
   font-weight: 500;

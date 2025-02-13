@@ -18,6 +18,7 @@ async function udpateProgressbar() {
 }
 
 
+
 const load_more_btn = document.querySelectorAll(".view_all_btn");
 
 const blog_cards = document.querySelectorAll(".js_load_more_articles");

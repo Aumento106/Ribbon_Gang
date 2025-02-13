@@ -52,9 +52,9 @@
 
       <div class="shipping-bar-wrapper">
         <div class="shipping-bar-text">
-          <div class="shipping-txt">Add $11.46 to get a free Delivery</div>
+          <div class="shipping-txt product-shipping-bar">{{ settings.free_shipping_not_reach_msg | replace:"$price" , remainiang_amount_shipping }}</div>
         </div>
-        <div class="shipping-bar">
+        <div class="shipping-bar product-shipping-bar">
           <span class="highlighted-bar" style="width: {{ progress_bar_count }}%;"></span>
         </div>
       </div>

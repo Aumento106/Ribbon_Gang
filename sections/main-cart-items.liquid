@@ -523,65 +523,67 @@
         <h2 class="cart_header_main">{{ settings.comp_product_heading }}</h2>
         <div class="swiper-container cart-product_list_swiper">
           <div class="swiper-wrapper product_list_swipers">
-{% comment %} {% if show_comp %} hidden {% endif %} {% endcomment %}
+
           {% comment %} {% for item in cart.items %}
             {% for product in settings.product_list %}
-              {% assign show_comp = true %} 
-                {{ item.product.id  }}={{ product.id}}
                 {% if item.product.id == product.id %}
-                    {% assign show_comp = false  %}     
+                   {% assign product_comp = false %}     
                 {% endif %}
             {% endfor %}
-          {% endfor %}
+          {% endfor %} {% endcomment %}
 
-          {% for item in cart.items %} {% endcomment %}
+          
+        
+            {% assign cart_item_ids = "" %}
+            {% for item in cart.items %}
+              {% assign cart_item_ids = cart_item_ids | append: item.product.id | append: "," %}
+            {% endfor %}
+
             {% for product in settings.product_list %}
-              {% comment %} {% if item.product.id == product.id %}
-                {% continue %} {% endcomment %}
-                <div class="swiper-slide">
-                  <div class="product">
-                    {% if product.featured_image != blank %}
-                      <div class="img-box">
-                        {% comment %} <img src="https://cdn.shopify.com/s/files/1/0657/3388/6106/files/catheter-baskets.png?v=1738932178" width="80" height="80" alt="Product Image"> {% endcomment %}
-                        {{ product.featured_image | image_url: width: 80, height: 80 | image_tag }}
+              {% assign product_id = product.id %}
+                {% if cart_item_ids contains product_id %}
+                  {% continue %} 
+                {% endif %}
+              <div class="swiper-slide">
+                <div class="product">
+                  {% if product.featured_image != blank %}
+                    <div class="img-box">
+                      {{ product.featured_image | image_url: width: 80, height: 80 | image_tag }}
+                    </div>
+                  {% endif %}
+                  <div class="product-details">
+                    {% if product != blank %}
+                      <div class="complementry-product-title">
+                        <strong>{{ product.title }}</strong>
                       </div>
                     {% endif %}
-                    <div class="product-details">
-                      {% if product != blank %}
-                        <div class="complementry-product-title">
-                          <strong>{{ product.title }}</strong>
-                        </div>
+                    <div class="price">
+                      {{ product.price | money }}
+                      {% if product.compare_at_price != blank -%}
+                        <del class="product_compar_price">{{ product.compare_at_price | money }}</del>
                       {% endif %}
-                      <div class="price">
-                        {{ product.price | money }}
-                        {% if product.compare_at_price != blank -%}
-                          <del class="product_compar_price">{{ product.compare_at_price | money }}</del>
-                        {% endif %}
-                        {% comment %} <span class="save_tag">Save 0%</span> {% endcomment %}
-                        {% assign save_prcent = product.compare_at_price
-                          | minus: product.price
-                          | times: 100
-                          | divided_by: product.compare_at_price
-                        %}
-                        {% if product.compare_at_price != blank %}
-                          <span class="save_tag">save {{ save_prcent }}%</span>
-                        {% endif %}
-                      </div>
-                    </div>
-                    <div class="complemetry-buttons">
-                      {%- render 'buy-buttons',
-                        block: block,
-                        product: product,
-                        product_form_id: product_form_id,
-                        section_id: section.id,
-                        show_pickup_availability: true
-                      -%}
+                      {% assign save_prcent = product.compare_at_price
+                        | minus: product.price
+                        | times: 100
+                        | divided_by: product.compare_at_price
+                      %}
+                      {% if product.compare_at_price != blank %}
+                        <span class="save_tag">save {{ save_prcent }}%</span>
+                      {% endif %}
                     </div>
                   </div>
+                  <div class="complemetry-buttons">
+                    {%- render 'buy-buttons',
+                      block: block,
+                      product: product,
+                      product_form_id: product_form_id,
+                      section_id: section.id,
+                      show_pickup_availability: true
+                    -%}
+                  </div>
                 </div>
-              {% comment %} {% endif %} {% endcomment %}
-            {% endfor %}  
-          {% comment %} {% endfor %} {% endcomment %}
+              </div>
+            {% endfor %}
           </div>
         </div>
       </div>

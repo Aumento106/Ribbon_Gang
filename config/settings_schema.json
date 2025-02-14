@@ -478,16 +478,6 @@
       },
       {
         "type": "range",
-        "id": "inputs_shadow_vertical_offset",
-        "min": -12,
-        "max": 12,
-        "step": 2,
-        "unit": "px",
-        "label": "t:settings_schema.global.settings.vertical_offset.label",
-        "default": 0
-      },
-      {
-        "type": "range",
         "id": "inputs_shadow_blur",
         "min": 0,
         "max": 20,

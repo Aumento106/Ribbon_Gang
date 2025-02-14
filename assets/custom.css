@@ -93,6 +93,18 @@ span.img-icon {
   overflow: hidden;
 }
 
+.header.drawer-menu .header__heading, .header.drawer-menu .header__heading-link {
+  justify-self: center;
+}
+
+.search .field__input:not(:placeholder-shown)~.field__label {
+  top: calc(1rem + var(--inputs-border-width));
+}
+
+.search .field__input:not(:placeholder-shown) {
+  padding: 2.5rem 2rem 1rem;
+}
+
 .header-localization .disclosure .localization-form__select:hover {
   text-decoration: none;
 }
@@ -418,23 +430,23 @@ body .menu-drawer .list-social__item {
   }
 }
 
-.search-modal__content .search-modal__form .field__label,
+.search .field__label,
 .country-filter .field__label {
   position: absolute;
   top: calc(1.5rem + var(--inputs-border-width));
 }
 
-.search-modal__content .search-modal__form .field__input:focus~.field__label,
+.search .field__input:focus~.field__label,
 .country-filter .field__input:focus~.field__label {
   top: calc(1rem + var(--inputs-border-width));
 }
 
-.search-modal__content .search-modal__form .field__input:focus,
+.search .field__input:focus,
 .country-filter .field__input:focus {
   padding: 2.5rem 2rem 1rem;
 }
 
-.search-modal__content .search-modal__form .field__button {
+.search .field__button {
   height: 5.4rem;
 }
 

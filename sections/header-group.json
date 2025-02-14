@@ -73,7 +73,7 @@
         "mega_menu_DLzAk9": {
           "type": "mega_menu",
           "settings": {
-            "menu_item": "services",
+            "menu_item": "Testing",
             "image_1": "shopify://shop_images/image_f8e2b89c-4982-4e99-954d-febf9d883ec4_1.png",
             "image_1_heading": "<p>Project Consultation, <br/>Planning and Room Design</p>",
             "image_1_link": "shopify://pages/project-consultation-planning-and-room-design",
@@ -120,7 +120,6 @@
         "mega_menu_M7HXzn"
       ],
       "settings": {
-        "logo_position": "middle-left",
         "menu": "main-menu",
         "mobile_menu": "mobile-main-menu",
         "menu_type_desktop": "mega",
@@ -129,7 +128,6 @@
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "menu_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "enable_customer_avatar": true,
-        "mobile_logo_position": "center",
         "margin_bottom": 0,
         "padding_top": 16,
         "padding_bottom": 16

@@ -89,13 +89,17 @@
       {% assign thresold = settings.thresold_for_free_shipping | times:100.0 %}
       {% assign remainiang_amount_shipping = thresold | minus: cart.total_price | money %}
       {% assign progress_bar_count = cart.total_price | divided_by: thresold | times:100.0 %}
+      
 
       <div class="shipping-bar-wrapper">
         <div class="shipping-bar-text">
-          <div class="shipping-txt">
-            Add $11.46 to get a free Delivery
-          </div>
-          
+        <div class="shipping-txt">
+          {% if cart.total_price < thresold %}
+             {{ settings.free_shipping_not_reach_msg | replace:"$price" , remainiang_amount_shipping }}
+            {% else %}
+              {{ settings.free_shipping_reach_msg }}
+          {% endif %}
+        </div>
         </div>
         <div class="shipping-bar">
           <span class="highlighted-bar" style="width: {{ progress_bar_count }}%;"></span>

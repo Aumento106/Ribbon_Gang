@@ -120,7 +120,6 @@
         "mega_menu_M7HXzn"
       ],
       "settings": {
-        "logo_position": "middle-left",
         "menu": "main-menu",
         "mobile_menu": "mobile-main-menu",
         "menu_type_desktop": "mega",
@@ -129,7 +128,6 @@
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "menu_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "enable_customer_avatar": true,
-        "mobile_logo_position": "center",
         "margin_bottom": 0,
         "padding_top": 16,
         "padding_bottom": 16

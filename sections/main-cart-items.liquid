@@ -52,7 +52,13 @@
 
       <div class="shipping-bar-wrapper">
         <div class="shipping-bar-text">
-          <div class="shipping-txt product-shipping-bar">{{ settings.free_shipping_not_reach_msg | replace:"$price" , remainiang_amount_shipping }}</div>
+          <div class="shipping-txt">
+          {% if cart.total_price < thresold %}
+             {{ settings.free_shipping_not_reach_msg | replace:"$price" , remainiang_amount_shipping }}
+            {% else %}
+              {{ settings.free_shipping_reach_msg }}
+          {% endif %}
+        </div>
         </div>
         <div class="shipping-bar product-shipping-bar">
           <span class="highlighted-bar" style="width: {{ progress_bar_count }}%;"></span>

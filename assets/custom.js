@@ -1,4 +1,30 @@
 async function udpateProgressbar() {
+    if(window.location.pathname == `${routes.cart_url}`){
+        await fetch(`${routes.cart_url}?section_id=main-cart-items`)
+        .then((response) => response.text())
+        .then((responseText) => {
+            const html = new DOMParser().parseFromString(responseText, 'text/html');
+            // console.log(html);
+            const shipping_bar_wrapper = html.querySelector('.shipping-bar-wrapper');
+            if (shipping_bar_wrapper) {
+                const updatedWidth = shipping_bar_wrapper.querySelector('.shipping-bar')?.querySelector('span')?.getAttribute('style');
+                const updatedText = shipping_bar_wrapper?.querySelector('.shipping-bar-text');
+                const AllProductProgressBar = document.querySelectorAll('.product-shipping-bar');
+                const AllProductTexts = document.querySelectorAll('.shipping-bar-text');
+                if (AllProductProgressBar.length > 0) {
+                    AllProductProgressBar.forEach(progressbar => {
+                        const innerProgress = progressbar?.querySelector('span');
+                        if (innerProgress) innerProgress.setAttribute('style', updatedWidth);
+                    })
+                }
+                if (AllProductTexts.length > 0) {
+                    AllProductTexts.forEach(text => {
+                        text.innerHTML = updatedText.innerHTML;
+                    })
+                }
+            }
+        })
+    }else{
     await fetch(`${routes.cart_url}?section_id=cart-drawer`)
         .then((response) => response.text())
         .then((responseText) => {
@@ -15,6 +41,7 @@ async function udpateProgressbar() {
                 }
             }
         })
+    }
 }
 
 

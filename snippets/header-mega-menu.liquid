@@ -161,3 +161,42 @@
     {%- endfor -%}
   </ul>
 </nav>
+
+<script>
+  const allMenus = document.querySelectorAll('.header__menu-item');
+
+  allMenus.forEach((menuItem) => {
+    const parentMenu = menuItem.closest('.mega-menu');
+    const content = parentMenu?.querySelector('.mega-menu__content');
+
+    menuItem.addEventListener('mouseenter', () => {
+      document.querySelectorAll('.mega-menu').forEach((otherMenu) => {
+        if (otherMenu !== parentMenu) {
+          otherMenu.removeAttribute('open');
+          const otherItem = otherMenu.querySelector('.header__menu-item');
+          if (otherItem) {
+            otherItem.setAttribute('aria-expanded', 'false');
+          }
+        }
+      });
+
+      if (parentMenu) {
+        parentMenu.setAttribute('open', '');
+        menuItem.setAttribute('aria-expanded', 'true');
+      }
+    });
+  });
+
+  document.querySelectorAll('.mega-menu__content').forEach((content) => {
+    content.addEventListener('mouseleave', () => {
+      const parentMenu = content.closest('.mega-menu');
+      if (parentMenu) {
+        parentMenu.removeAttribute('open');
+        const menuItem = parentMenu.querySelector('.header__menu-item');
+        if (menuItem) {
+          menuItem.setAttribute('aria-expanded', 'false');
+        }
+      }
+    });
+  });
+</script>

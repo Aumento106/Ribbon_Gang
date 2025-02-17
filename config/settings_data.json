@@ -41,7 +41,6 @@
     "inputs_radius": 0,
     "inputs_shadow_opacity": 0,
     "inputs_shadow_horizontal_offset": 0,
-    "inputs_shadow_vertical_offset": 4,
     "inputs_shadow_blur": 5,
     "card_style": "standard",
     "card_image_padding": 0,
@@ -143,6 +142,7 @@
       "standard-mesh-baskets-copy",
       "standard-mesh-baskets"
     ],
+    "inputs_shadow_vertical_offset": 4,
     "drawer_comp_product": "sterirack®-transport-case-carts",
     "new_badge_color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
     "sections": {

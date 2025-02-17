@@ -514,6 +514,7 @@
     },
     "shipping_estimate_7eHtJy": {
       "type": "shipping-estimate",
+      "disabled": true,
       "settings": {
         "heading": "<p>Shipping <strong>Estimate</strong></p>",
         "heading_size": "h1",

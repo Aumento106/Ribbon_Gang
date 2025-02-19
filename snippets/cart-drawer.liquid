@@ -618,9 +618,25 @@
             {% assign cart_total = cart_total | plus: item.price %}
           {% endfor %}
 
+          {% assign compare_price = 0 %}
+
+          {% for item in cart.items %}      
+             {% assign compare_price_cartpage = item.product.compare_at_price | times:item.quantity %} 
+             {% assign compare_price = compare_price | plus:compare_price_cartpage %}
+          {% endfor %}
+          {% assign save_prcent = compare_price
+            | minus: cart.total_price
+            | times: 100
+            | divided_by: compare_price
+          %}
+
           <div class="total-section">
             <span>Estimated Total</span>
-            <span>{{ estimated_total | money }}</span>
+            <p class="totals__total-value price">
+              <span class="product-main-price">{{ cart.total_price | money_with_currency }}</span>
+              <span class="product_compar_price">{{ compare_price | money }}</span>
+              <span class="save_tag">Save {{ save_prcent }}%</span>
+            </p>
           </div>
           <div class="total-section total_estimation">
             <span>Total</span>

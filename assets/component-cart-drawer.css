@@ -550,6 +550,15 @@ cart-drawer-items {
   font-size: 18px;
 }
 
+.cart-estimated-total .totals__total-value price {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  flex-wrap: wrap;
+  justify-content: end;
+  row-gap: 5px;
+}
+
 @media screen and (max-width: 749px) {
   .cart-drawer .cart-item cart-remove-button {
     margin-left: 0;

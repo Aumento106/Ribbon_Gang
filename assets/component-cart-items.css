@@ -888,6 +888,7 @@ cart-remove-button .icon-remove {
   #main-cart-footer .cart__footer .totals {
     justify-content: space-between;
     margin-top: 7px;
+    gap: 10px;
   }
 
   #main-cart-footer .cart__footer .tax-note {

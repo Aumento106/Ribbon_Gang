@@ -1998,6 +1998,18 @@ span.product_compar_price {
   }
 }
 
+@media screen and (max-width: 568px) {
+  .search .field__label, .country-filter .field__label {
+    top: calc(1.1rem + var(--inputs-border-width));
+    font-size: 1.4rem;
+  }
+
+  .search__input.field__input {
+    padding: 1rem 4rem 1rem 1rem;
+    font-size: 1.4rem;
+  }
+}
+
 .date-and-author {
   margin-bottom: 15px;
   display: block;

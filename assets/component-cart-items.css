@@ -828,6 +828,11 @@ cart-remove-button .icon-remove {
   .template-cart .cart-main .cart-item__media .cart-item__image {
     max-width: calc(7rem / var(--font-body-scale));
   }
+
+  cart-items.cart-main .checkout-container .product .img-box {
+    width: 42px;
+    height: 42px;
+  }
 }
 
 @media screen and (min-width: 750px) {

@@ -416,7 +416,7 @@ cart-remove-button .icon-remove {
   margin: 0;
 }
 
-.cart-items thead th {
+.cart-items thead th, .cart-items thead th h2 {
   text-transform: capitalize;
   font-size: 20px;
   font-weight: 600;

@@ -632,11 +632,11 @@
 
           <div class="total-section cart-estimated-total">
             <span>Estimated Total</span>
-            <p class="totals__total-value price">
+            <span class="totals__total-value price">
               <span class="product-main-price">{{ cart.total_price | money_with_currency }}</span>
               <span class="product_compar_price">{{ compare_price | money }}</span>
               <span class="save_tag">Save {{ save_prcent }}%</span>
-            </p>
+            </span>
           </div>
           <div class="total-section total_estimation">
             <span>Total</span>

@@ -416,7 +416,7 @@ cart-drawer-items {
 
 .cart_header_bottom .cart_header_main {
   color: #fff;
-  font-size: calc(var(--font-heading-scale) * 2rem);
+  font-size: calc(var(--font-heading-scale) * 1.8rem);
   line-height: 1.44;
   font-weight: 600;
 }

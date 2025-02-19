@@ -824,6 +824,10 @@ cart-remove-button .icon-remove {
   .template-cart #main-cart-footer .price .product_compar_price {
     font-size: 14px;
   }
+
+  .template-cart .cart-main .cart-item__media .cart-item__image {
+    max-width: calc(7rem / var(--font-body-scale));
+  }
 }
 
 @media screen and (min-width: 750px) {

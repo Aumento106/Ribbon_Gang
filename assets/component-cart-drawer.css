@@ -982,7 +982,7 @@ cart-drawer-items::-webkit-scrollbar-track-piece {
   }
 }
 
-@media screen and (max-width: 361px) {
+@media screen and (max-width: 373px) {
   .cart-drawer .product-option {
     flex-wrap: wrap;
     row-gap: 0.5rem;

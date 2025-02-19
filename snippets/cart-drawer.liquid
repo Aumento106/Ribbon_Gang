@@ -52,14 +52,35 @@
             </span>
           </button>
         </div>
-        {% comment %} <div class="shipping-bar-wrapper">
-          <div class="shipping-bar-text">
-            <div class="shipping-txt">Add $11.46 to get a free Delivery</div>
+        {% comment %}
+          <div class="shipping-bar-wrapper">
+            <div class="shipping-bar-text">
+              <div class="shipping-txt">Add $11.46 to get a free Delivery</div>
+            </div>
+            <div class="shipping-bar">
+              <span class="highlighted-bar" style="width: 40%;"></span>
+            </div>
           </div>
-          <div class="shipping-bar">
-            <span class="highlighted-bar" style="width: 40%;"></span>
-          </div>
-        </div> {% endcomment %}
+        {% endcomment %}
+      </div>
+      {% assign thresold = settings.thresold_for_free_shipping | times:100.0 %}
+      {% assign remainiang_amount_shipping = thresold | minus: cart.total_price | money %}
+      {% assign progress_bar_count = cart.total_price | divided_by: thresold | times:100.0 %}
+      
+
+      <div class="shipping-bar-wrapper">
+        <div class="shipping-bar-text">
+        <div class="shipping-txt">
+          {% if cart.total_price < thresold %}
+             {{ settings.free_shipping_not_reach_msg | replace:"$price" , remainiang_amount_shipping }}
+            {% else %}
+              {{ settings.free_shipping_reach_msg }}
+          {% endif %}
+        </div>
+        </div>
+        <div class="shipping-bar">
+          <span class="highlighted-bar" style="width: {{ progress_bar_count }}%;"></span>
+        </div>
       </div>
       {%- if cart == empty -%}
         <div class="drawer__inner-empty">
@@ -86,26 +107,6 @@
         </div>
       {%- endif -%}
 
-      {% assign thresold = settings.thresold_for_free_shipping | times:100.0 %}
-      {% assign remainiang_amount_shipping = thresold | minus: cart.total_price | money %}
-      {% assign progress_bar_count = cart.total_price | divided_by: thresold | times:100.0 %}
-      
-
-      <div class="shipping-bar-wrapper">
-        <div class="shipping-bar-text">
-        <div class="shipping-txt">
-          {% if cart.total_price < thresold %}
-             {{ settings.free_shipping_not_reach_msg | replace:"$price" , remainiang_amount_shipping }}
-            {% else %}
-              {{ settings.free_shipping_reach_msg }}
-          {% endif %}
-        </div>
-        </div>
-        <div class="shipping-bar">
-          <span class="highlighted-bar" style="width: {{ progress_bar_count }}%;"></span>
-        </div>
-      </div>
-    
       <cart-drawer-items
         {% if cart == empty %}
           class=" is-empty"
@@ -148,8 +149,8 @@
                     </tr>
                   </thead>
 
-                {% comment %} <input hidden class="cart_total" updated_price="{{cart.total_price}}"/> {% endcomment %}
-                                             
+                  {% comment %} <input hidden class="cart_total" updated_price="{{cart.total_price}}"/> {% endcomment %}
+
                   <tbody role="rowgroup">
                     {%- for item in cart.items -%}
                       <tr id="CartDrawer-Item-{{ item.index | plus: 1 }}" class="cart-item" role="row">
@@ -196,14 +197,18 @@
                             <div class="price product-option">
                               {{ item.original_price | money }}
 
-                              {% if item.product.compare_at_price != blank %}<span class="product_compar_price">{{ item.product.compare_at_price | money }}</span>{% endif %}
+                              {% if item.product.compare_at_price != blank -%}
+                                <span class="product_compar_price">{{ item.product.compare_at_price | money }}</span>
+                              {%- endif %}
                               {% assign compare_at_price2 = item.product.compare_at_price | times: item.quantity %}
                               {% assign save_prcent = compare_at_price2
                                 | minus: item.original_line_price
                                 | times: 100
                                 | divided_by: compare_at_price2
                               %}
-                              {% if item.product.compare_at_price != blank  %}<span class="save_tag">save {{ save_prcent }}%</span>{% endif %}
+                              {% if item.product.compare_at_price != blank -%}
+                                <span class="save_tag">save {{ save_prcent }}%</span>
+                              {%- endif %}
                             </div>
                           {%- endif -%}
                         </td>
@@ -234,13 +239,17 @@
                                   | money
                                 %}
                                 {% assign compare_at_price2 = item.product.compare_at_price | times: item.quantity %}
-                                {% if item.product.compare_at_price != blank %}<span class="product_compar_price">{{ compare_at_price }}</span>{% endif %}
+                                {% if item.product.compare_at_price != blank -%}
+                                  <span class="product_compar_price">{{ compare_at_price }}</span>
+                                {%- endif %}
                                 {% assign save_prcent = compare_at_price2
                                   | minus: item.original_line_price
                                   | times: 100
                                   | divided_by: compare_at_price2
                                 %}
-                                {% if item.product.compare_at_price != blank %}<span class="save_tag">save{{ save_prcent }}%</span>{% endif %}
+                                {% if item.product.compare_at_price != blank -%}
+                                  <span class="save_tag">save{{ save_prcent }}%</span>
+                                {%- endif %}
                               </span>
                             {%- endif -%}
 
@@ -336,7 +345,13 @@
                                   data-variant-id="{{ item.variant.id }}"
                                 >
                                   <span class="svg-wrapper">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                                    <svg
+                                      xmlns="http://www.w3.org/2000/svg"
+                                      width="24"
+                                      height="25"
+                                      viewBox="0 0 24 25"
+                                      fill="none"
+                                    >
                                       <path d="M18 6.5L6 18.5" stroke="#424242" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                                       <path d="M6 6.5L18 18.5" stroke="#424242" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                                     </svg>
@@ -569,31 +584,32 @@
                 {% for product in settings.product_list %}
                   <div class="swiper-slide">
                     <div class="product">
-                      {% if product.featured_image != blank %} 
+                      {% if product.featured_image != blank %}
                         <div class="img-box">
                           {% comment %} <img src="https://cdn.shopify.com/s/files/1/0657/3388/6106/files/catheter-baskets.png?v=1738932178" width="80" height="80" alt="Product Image"> {% endcomment %}
-                          {{ product.featured_image | image_url: width:80, height:80 | image_tag }}
+                          {{ product.featured_image | image_url: width: 80, height: 80 | image_tag }}
                         </div>
                       {% endif %}
                       <div class="product-details">
-                        {% if product != blank%}
+                        {% if product != blank %}
                           <div class="complementry-product-title">
                             <strong>{{ product.title }}</strong>
                           </div>
                         {% endif %}
                         <div class="price">
                           {{ product.price | money }}
-                          {% if product.compare_at_price != blank %}<del class="product_compar_price">{{ product.compare_at_price | money }}</del> {% endif %}
+                          {% if product.compare_at_price != blank -%}
+                            <del class="product_compar_price">{{ product.compare_at_price | money }}</del>
+                          {% endif %}
                           {% comment %} <span class="save_tag">Save 0%</span> {% endcomment %}
-                            {% assign save_prcent = 
-                              product.compare_at_price 
-                              | minus:product.price 
-                              | times:100 
-                              | divided_by:product.compare_at_price 
-                            %}
-                            {% if product.compare_at_price != blank %}
-                              <span class="save_tag">save {{ save_prcent  }}%</span>
-                            {% endif %}
+                          {% assign save_prcent = product.compare_at_price
+                            | minus: product.price
+                            | times: 100
+                            | divided_by: product.compare_at_price
+                          %}
+                          {% if product.compare_at_price != blank %}
+                            <span class="save_tag">save {{ save_prcent }}%</span>
+                          {% endif %}
                         </div>
                       </div>
                       <div class="complemetry-buttons">
@@ -612,13 +628,12 @@
             </div>
           </div>
 
-            {% assign estimated_total = 0 %} 
-            {% assign cart_total = 0 %} 
+          {% assign estimated_total = 0 %}
+          {% assign cart_total = 0 %}
           {% for item in cart.items %}
-             {% assign estimated_total = estimated_total | plus:item.product.price %} 
-             {% assign cart_total = cart_total | plus:item.price %} 
+            {% assign estimated_total = estimated_total | plus: item.product.price %}
+            {% assign cart_total = cart_total | plus: item.price %}
           {% endfor %}
-          
 
           <div class="total-section">
             <span>Estimated Total:</span>
@@ -626,12 +641,14 @@
           </div>
           <div class="total-section total_estimation">
             <span> Total: </span>
-            <span>{{ cart_total | money}} </span>
+            <span>{{ cart_total | money }} </span>
           </div>
           <div class="buttons">
-            <div class="btn_keep-shopping"><a href="{{ settings.button_link }}" class="button button--secondary">{{ settings.button_text }}</a></div>
+            <div class="btn_keep-shopping">
+              <a href="{{ settings.button_link }}" class="button button--secondary">{{ settings.button_text }}</a>
+            </div>
             <div class="btn_checkout">
-               <div class="cart__ctas" {{ block.shopify_attributes }}>
+              <div class="cart__ctas" {{ block.shopify_attributes }}>
                 <button
                   type="submit"
                   id="checkout"

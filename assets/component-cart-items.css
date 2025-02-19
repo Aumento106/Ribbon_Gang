@@ -780,7 +780,7 @@ cart-remove-button .icon-remove {
   }
 }
 
-@media screen and (max-width: 410px) {
+@media screen and (max-width: 413px) {
   .template-cart cart-items .cart-item .product-option {
     flex-wrap: wrap;
     margin-top: 5px;

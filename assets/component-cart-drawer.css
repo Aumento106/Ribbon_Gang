@@ -150,8 +150,8 @@ cart-drawer:not(.is-empty) .cart-drawer__collection {
 }
 
 .drawer__close .svg-wrapper {
-  height: unset;
-  width: unset;
+  height: 24px;
+  width: 24px;
 }
 
 .drawer__contents {

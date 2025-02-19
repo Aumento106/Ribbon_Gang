@@ -562,6 +562,10 @@ cart-drawer-items {
   line-height: 1.2;
 }
 
+.cart-estimated-total .totals__total-value.price .product_compar_price {
+  font-size: 18px;
+}
+
 @media screen and (max-width: 749px) {
   .cart-drawer .cart-item cart-remove-button {
     margin-left: 0;

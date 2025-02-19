@@ -953,12 +953,12 @@ cart-drawer-items::-webkit-scrollbar-track-piece {
     width: 50%;
   }
 
-  .cart-drawer .cart-item {
+  .cart-drawer .drawer__cart-items-wrapper .cart-item {
     align-items: start;
     row-gap: 0;
   }
 
-  .cart-drawer .cart-item .cart-item__quantity {
+  .cart-drawer .drawer__cart-items-wrapper .cart-item .cart-item__quantity {
     margin-top: -13px;
   }
 }

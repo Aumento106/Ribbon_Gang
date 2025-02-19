@@ -132,7 +132,7 @@ cart-items {
   }
 
   .cart__footer {
-    display: flex;
+    display: block;
     justify-content: space-between;
     border: 0;
   }

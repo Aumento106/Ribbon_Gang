@@ -547,6 +547,7 @@ cart-drawer-items {
 .cart-drawer .product-details .price {
   display: flex;
   align-items: center;
+  font-size: 18px;
 }
 
 @media screen and (max-width: 749px) {

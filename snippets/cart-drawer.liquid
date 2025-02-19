@@ -52,16 +52,6 @@
             </span>
           </button>
         </div>
-        {% comment %}
-          <div class="shipping-bar-wrapper">
-            <div class="shipping-bar-text">
-              <div class="shipping-txt">Add $11.46 to get a free Delivery</div>
-            </div>
-            <div class="shipping-bar">
-              <span class="highlighted-bar" style="width: 40%;"></span>
-            </div>
-          </div>
-        {% endcomment %}
       </div>
       {% assign thresold = settings.thresold_for_free_shipping | times:100.0 %}
       {% assign remainiang_amount_shipping = thresold | minus: cart.total_price | money %}

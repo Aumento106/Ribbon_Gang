@@ -550,7 +550,7 @@ cart-drawer-items {
   font-size: 18px;
 }
 
-.cart-estimated-total .totals__total-value {
+.cart-estimated-total .totals__total-value.price {
   display: flex;
   align-items: center;
   margin: 0;

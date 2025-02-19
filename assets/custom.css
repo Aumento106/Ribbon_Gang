@@ -2007,6 +2007,7 @@ span.product_compar_price {
   .search__input.field__input {
     padding: 1rem 4rem 1rem 1rem;
     font-size: 1.4rem;
+    height: 4rem;
   }
 }
 

@@ -957,6 +957,10 @@ cart-drawer-items::-webkit-scrollbar-track-piece {
     align-items: start;
     row-gap: 0;
   }
+
+  .cart-drawer .cart-item .cart-item__quantity {
+    margin-top: -13px;
+  }
 }
 
 @media screen and (max-width: 400px) {

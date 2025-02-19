@@ -939,6 +939,15 @@ cart-drawer-items::-webkit-scrollbar-track-piece {
   .payment-methods svg {
     width: 40px;
   }
+
+  .cart-drawer .cart-items thead tr {
+    display: flex;
+    border-bottom: 0;
+  }
+
+  #CartDrawer-ColumnProductImage, #CartDrawer-ColumnQuantity {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 400px) {

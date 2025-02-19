@@ -583,6 +583,7 @@ cart-drawer-items {
 .cart-drawer .price .product_compar_price {
   font-weight: 400;
   margin-left: 10px;
+  color: #BBBBBB;
 }
 
 .cart-drawer .cart-item__totals .price .product_compar_price {

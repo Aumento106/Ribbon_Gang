@@ -765,7 +765,7 @@ cart-drawer-items::-webkit-scrollbar-track-piece {
   }
 
   .cart-drawer .cart-item__details {
-    width: calc(100% - 13.1rem);
+    width: calc(100% - 14.1rem);
   }
 
   .cart-drawer .cart-item__totals {

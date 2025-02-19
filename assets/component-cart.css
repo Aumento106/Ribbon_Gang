@@ -128,6 +128,25 @@ cart-items {
   margin-top: 10px;
 }
 
+@media screen and (max-width: 749px) {
+  .cart__footer .payment_div {
+    margin: 20px 0 0;
+  }
+
+  .cart__footer .payment_div p {
+    margin: 10px 0 0;
+  }
+
+  .cart__footer .payment-methods {
+    margin-top: 3px;
+    row-gap: 0;
+  }
+
+  .cart__footer .payment-methods svg {
+    width: 45px;
+  }
+}
+
 @media screen and (min-width: 750px) {
   .cart__items {
     grid-column-start: 1;

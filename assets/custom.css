@@ -2009,6 +2009,10 @@ span.product_compar_price {
     font-size: 1.4rem;
     height: 4rem;
   }
+
+  .search .field__button {
+    height: 4rem;
+  }
 }
 
 .date-and-author {

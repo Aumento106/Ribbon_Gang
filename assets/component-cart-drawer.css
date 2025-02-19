@@ -948,6 +948,10 @@ cart-drawer-items::-webkit-scrollbar-track-piece {
   #CartDrawer-ColumnProductImage, #CartDrawer-ColumnQuantity {
     display: none;
   }
+
+  #CartDrawer-ColumnTotal {
+    width: 50%;
+  }
 }
 
 @media screen and (max-width: 400px) {

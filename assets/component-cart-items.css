@@ -641,6 +641,10 @@ cart-remove-button .icon-remove {
     font-size: 14px;
   }
 
+  cart-items.cart-main .cart-items .cart-item__name {
+    font-size: 14px;
+  }
+
   .template-cart .cart-main .price .product-main-price {
     font-size: 14px;
   }

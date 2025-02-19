@@ -913,6 +913,14 @@ cart-drawer-items::-webkit-scrollbar-track-piece {
     padding-bottom: 10px;
   }
 
+  .cart-estimated-total .totals__total-value.price {
+    font-size: 16px;
+  }
+
+  .cart-estimated-total .totals__total-value.price .product_compar_price {
+    font-size: 15px;
+  }
+
   .cart-drawer .checkout-container .buttons {
     margin-top: 10px;
   }

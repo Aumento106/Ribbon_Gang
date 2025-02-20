@@ -856,7 +856,6 @@ body .quantity:after {
 
 .product__info-wrapper .complementary-slide.grid__item {
   padding-left: 0;
-  padding-right: 0;
 }
 
 .product__info-wrapper .complementary-products__container .slider-buttons {
@@ -1995,6 +1994,23 @@ span.product_compar_price {
 @media screen and (max-width: 749px) {
   .breadcrumbs li {
     margin: 5px 0;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .search .field__label {
+    top: calc(1.1rem + var(--inputs-border-width));
+    font-size: 1.4rem;
+  }
+
+  .search__input.field__input {
+    padding: 1rem 4rem 1rem 1rem;
+    font-size: 1.4rem;
+    height: 4rem;
+  }
+
+  .search .field__button {
+    height: 4rem;
   }
 }
 

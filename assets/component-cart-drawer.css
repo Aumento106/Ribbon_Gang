@@ -1039,3 +1039,9 @@ cart-drawer-items::-webkit-scrollbar-track-piece {
     max-width: 100vw;
   }
 }
+
+@media screen and (max-width: 338px) {
+  .cart-drawer .drawer__cart-items-wrapper .cart-item .cart-item__quantity {
+    margin-top: 0;
+  }
+}

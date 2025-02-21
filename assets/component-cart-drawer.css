@@ -1042,6 +1042,6 @@ cart-drawer-items::-webkit-scrollbar-track-piece {
 
 @media screen and (max-width: 338px) {
   .cart-drawer .drawer__cart-items-wrapper .cart-item .cart-item__quantity {
-    margin-top: 0;
+    margin-top: 5px;
   }
 }

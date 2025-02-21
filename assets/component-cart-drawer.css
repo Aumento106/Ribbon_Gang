@@ -747,6 +747,7 @@ cart-drawer-items::-webkit-scrollbar-track-piece {
 @media screen and (max-width: 1299px) {
   .cart-drawer .cart-estimated-total .price .save_tag {
     margin-left: 1.2rem;
+    margin-top: 0;
   }
 }
 

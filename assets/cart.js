@@ -229,6 +229,9 @@ class CartItems extends HTMLElement {
         } else if (document.querySelector('.cart-item') && cartDrawerWrapper) {
           trapFocus(cartDrawerWrapper, document.querySelector('.cart-item__name'));
         }
+        
+          let quntityCount = document.querySelector('.cart-page-count');
+          if(quntityCount) quntityCount.innerText = parsedState.item_count;
 
         publish(PUB_SUB_EVENTS.cartUpdate, { source: 'cart-items', cartData: parsedState, variantId: variantId });
       })

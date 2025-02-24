@@ -41,15 +41,15 @@
           <strong> {{ 'sections.cart.title_cart' | t }} </strong>
         </h1>
         {%- if cart != empty -%}
-          <span class="cart-count">{{ cart.item_count }}</span>
+          <span class="cart-count cart-page-count">{{ cart.item_count }}</span>
         {%- endif -%}
       </div>
     </div>
-    {%- if cart != empty -%}
       {% assign thresold = settings.thresold_for_free_shipping | times: 100.0 %}
       {% assign remainiang_amount_shipping = thresold | minus: cart.total_price | money %}
       {% assign progress_bar_count = cart.total_price | divided_by: thresold | times: 100.0 %}
 
+    {%- if cart != empty -%}
       <div class="shipping-bar-wrapper">
         <div class="shipping-bar-text">
           <div class="shipping-txt">

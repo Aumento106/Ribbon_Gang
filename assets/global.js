@@ -264,7 +264,6 @@ class QuantityInput extends HTMLElement {
     if (this.input.dataset.min === previousValue && event.target.name === 'minus') {
       this.input.value = parseInt(this.input.min);
     }
-    
   }
 
   validateQtyRules() {

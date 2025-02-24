@@ -162,7 +162,7 @@ document.addEventListener('DOMContentLoaded', function () {
     new Swiper('.product_list_swiper', {
         slidesPerView: 1,
         initialSlide: 0,
-        spaceBetween: 0,
+        spaceBetween: 16,
         grabCursor: true,
         loop: false
     });

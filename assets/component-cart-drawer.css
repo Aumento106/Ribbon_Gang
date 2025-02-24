@@ -744,6 +744,13 @@ cart-drawer-items::-webkit-scrollbar-track-piece {
   line-height: 30px;
 }
 
+@media screen and (max-width: 1299px) {
+  cart-drawer .cart-drawer .cart-estimated-total .price .save_tag {
+    margin-left: 1.2rem;
+    margin-top: 0;
+  }
+}
+
 @media screen and (max-width: 749px) {
   .cart-drawer .drawer__inner {
     padding: 2rem 1.5rem 1.5rem;
@@ -959,7 +966,7 @@ cart-drawer-items::-webkit-scrollbar-track-piece {
   }
 
   .cart-drawer .drawer__cart-items-wrapper .cart-item .cart-item__quantity {
-    margin-top: -13px;
+    margin-top: -7px;
   }
 }
 
@@ -988,6 +995,14 @@ cart-drawer-items::-webkit-scrollbar-track-piece {
 
   .payment-methods svg {
     width: 34px;
+  }
+  
+  cart-drawer .cart-drawer .cart-estimated-total {
+    gap: 10px;
+  }
+
+  cart-drawer .cart-drawer .cart-estimated-total .price {
+    flex: 1;
   }
 }
 
@@ -1037,5 +1052,11 @@ cart-drawer-items::-webkit-scrollbar-track-piece {
 
   .cart-drawer .drawer__inner {
     max-width: 100vw;
+  }
+}
+
+@media screen and (max-width: 338px) {
+  .cart-drawer .drawer__cart-items-wrapper .cart-item .cart-item__quantity {
+    margin-top: 5px;
   }
 }

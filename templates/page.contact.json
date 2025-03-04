@@ -35,12 +35,13 @@
         "heading_V4KxXi": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Contact</strong> Spacelogic Group",
+            "heading": "Contact US",
             "heading_size": "h1"
           }
         },
         "text_hwy9gg": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p><strong>Australia & New Zealand • United States & Canada</strong></p>"
           }
@@ -48,7 +49,7 @@
         "text_HyiR3k": {
           "type": "text",
           "settings": {
-            "text": "<p>We are always delighted to speak with customers about their needs. You will find our consultants friendly, knowledgeable and willing to listen. If you would like to know more about how we can transform your clinical storage management system, please contact us using the inquiry form below. Our expert consultants will respond to your inquiry within 12 business hours. Thank you!</p>"
+            "text": "<p>The tireless and dynamic SpaceLogic team is dedicated to Healthcare. Our mission is to provide a fresh new approach, and premium advice and expertise to hospitals, medical centres and other clinical facilities. By combining the specialist skills of our entire team, we create a cohesive whole to give you individual attention, dedicated commitment and a result superior to any other.</p>"
           }
         }
       },
@@ -74,6 +75,7 @@
       "blocks": {
         "location_xwBwzh": {
           "type": "location",
+          "disabled": true,
           "settings": {
             "title": "AUSTRALIA (OCEANIA)",
             "company": "HEAD OFFICE: SPACELOGIC GROUP PTY LTD",
@@ -92,6 +94,7 @@
         },
         "location_mTCeAQ": {
           "type": "location",
+          "disabled": true,
           "settings": {
             "title": "NORTH AMERICA",
             "company": "HEAD OFFICE: SPACELOGIC GROUP LTD",
@@ -110,6 +113,7 @@
         },
         "location_BQBU6m": {
           "type": "location",
+          "disabled": true,
           "settings": {
             "title": "AUTHORIZED DISTRIBUTORS (US)",
             "company": "",
@@ -141,12 +145,30 @@
         "padding_top": 140,
         "padding_bottom": 105
       }
+    },
+    "product_catalog_3gEWDy": {
+      "type": "product-catalog",
+      "settings": {
+        "product_image": "shopify://shop_images/Concept_5.png",
+        "logo_link": "",
+        "heading": "<p>BIM Files</p>",
+        "heading_size": "h1",
+        "color_scheme": "",
+        "description": "<p>Tusandanda sit ut lis dolore platiatiasit eturia  quam rem eniminime omnimintore plit pediti iur  ma commole caborem quatum quuntur raecesto  quiassimus explica tecepudam, si nobit evelitem  ipienist et resto enia quo evelenis ditas.</p>",
+        "button_1_text": "BIM File Request",
+        "button_1_link": "#",
+        "button_2_text": "Download Catalog",
+        "button_2_link": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "form",
     "rich_text_CeDtL6",
-    "get_in_touch_irHLdw"
+    "get_in_touch_irHLdw",
+    "product_catalog_3gEWDy"
   ]
 }

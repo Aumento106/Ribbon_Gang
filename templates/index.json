@@ -690,46 +690,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "collection_list_NxTpVe": {
-      "type": "collection-list",
-      "blocks": {
-        "featured_collection_ABnixA": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "featured-collection"
-          }
-        },
-        "featured_collection_JtfT77": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "featured_collection_R4gGib": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_ABnixA",
-        "featured_collection_JtfT77",
-        "featured_collection_R4gGib"
-      ],
-      "settings": {
-        "title": "Collections",
-        "heading_size": "h1",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "color_scheme": "",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -747,7 +707,6 @@
     "spacelogic_commitment_9ixh9w",
     "image_with_text_v1_tjigzf",
     "testimonial_MUVEXK",
-    "featured_blog_93BJwt",
-    "collection_list_NxTpVe"
+    "featured_blog_93BJwt"
   ]
 }

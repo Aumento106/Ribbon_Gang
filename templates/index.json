@@ -78,7 +78,6 @@
         },
         "buttons_rxaBHe": {
           "type": "buttons",
-          "disabled": true,
           "settings": {
             "button_label_1": "Shop the Room",
             "button_link_1": "shopify://collections",

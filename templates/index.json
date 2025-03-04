@@ -669,6 +669,27 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "newsletter_P4G3rJ": {
+      "type": "newsletter",
+      "blocks": {
+        "email_form_GJKBAw": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "email_form_GJKBAw"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "full_width": true,
+        "heading": "<p>Stay ahead in healthcare storage. Subscribe for updates.</p>",
+        "heading_size": "h2",
+        "text": "<p>Be the first to know about new collections and exclusive offers.</p>",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -685,6 +706,7 @@
     "spacelogic_commitment_9ixh9w",
     "image_with_text_v1_tjigzf",
     "testimonial_MUVEXK",
-    "featured_blog_93BJwt"
+    "featured_blog_93BJwt",
+    "newsletter_P4G3rJ"
   ]
 }

@@ -108,6 +108,27 @@
         "show_text_below": true
       }
     },
+    "newsletter_P4G3rJ": {
+      "type": "newsletter",
+      "blocks": {
+        "email_form_GJKBAw": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "email_form_GJKBAw"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "full_width": true,
+        "heading": "<p>Stay ahead in healthcare storage. Subscribe for updates.</p>",
+        "heading_size": "h2",
+        "text": "<p>Archici enimodiae ratibus aut volum quiam, et quo bea  suntion serrovide por aute natempos erovita ium quunt  iumquae plab intium fuga.</p>",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "image_text_slider_HkQX47": {
       "type": "image-text-slider",
       "blocks": {
@@ -670,25 +691,44 @@
         "padding_bottom": 36
       }
     },
-    "newsletter_P4G3rJ": {
-      "type": "newsletter",
+    "collection_list_NxTpVe": {
+      "type": "collection-list",
       "blocks": {
-        "email_form_GJKBAw": {
-          "type": "email_form",
-          "settings": {}
+        "featured_collection_ABnixA": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "featured-collection"
+          }
+        },
+        "featured_collection_JtfT77": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "featured_collection_R4gGib": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
         }
       },
       "block_order": [
-        "email_form_GJKBAw"
+        "featured_collection_ABnixA",
+        "featured_collection_JtfT77",
+        "featured_collection_R4gGib"
       ],
       "settings": {
+        "title": "Collections",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
         "color_scheme": "",
-        "full_width": true,
-        "heading": "<p>Stay ahead in healthcare storage. Subscribe for updates.</p>",
-        "heading_size": "h2",
-        "text": "<p>Archici enimodiae ratibus aut volum quiam, et quo bea  suntion serrovide por aute natempos erovita ium quunt  iumquae plab intium fuga.</p>",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
@@ -707,6 +747,7 @@
     "spacelogic_commitment_9ixh9w",
     "image_with_text_v1_tjigzf",
     "testimonial_MUVEXK",
-    "featured_blog_93BJwt"
+    "featured_blog_93BJwt",
+    "collection_list_NxTpVe"
   ]
 }

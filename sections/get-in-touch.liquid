@@ -14,15 +14,15 @@
     </div>
 
     <div class="contact-container">
-      <div class="contact-image">
-        {% if section.settings.contact_image %}
-          <img src="{{ section.settings.contact_image | img_url: 'master' }}"
-              alt="Contact Us"
-              loading="lazy">
+        {% if section.settings.contact_image != blank %}
+          <div class="contact-image">
+              <img src="{{ section.settings.contact_image | img_url: 'master' }}"
+                  alt="Contact Us"
+                  loading="lazy">
+          </div> 
         {% else %}
           <div style="background: #f4f4f4; width: 100%; height: 100%;"></div>
         {% endif %}
-      </div>
 
       <div class="contact-form-wrapper">
 
@@ -157,128 +157,129 @@
           <button type="submit" class="submit-button button button--primary">Submit Now</button>
         {% endform %}
       </div>
+          <div class="page-width">
+          <div class="location-cards">
+          {% for block in section.blocks %}
+            {% if block.type == 'location' %}
+              <div class="location-card" {{ block.shopify_attributes }}>
+                <h2 class="location-title">{{ block.settings.title }}</h2>
+
+                <div class="location-info">
+
+                {% if block.settings.company != blank %}
+                  <div class="location-detail">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M21 20H23V22H1V20H3V3C3 2.44772 3.44772 2 4 2H20C20.5523 2 21 2.44772 21 3V20ZM19 20V4H5V20H19ZM8 11H11V13H8V11ZM8 7H11V9H8V7ZM8 15H11V17H8V15ZM13 15H16V17H13V15ZM13 11H16V13H13V11ZM13 7H16V9H13V7Z" fill="#424242"/>
+                    </svg>
+                      <span>{{ block.settings.company }}</span>
+                  </div>
+                {% endif %}
+                  
+                  {% if block.settings.address != blank %}
+                    <div class="location-detail">
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19 21.0001H5C4.44772 21.0001 4 20.5524 4 20.0001V11.0001H1L11.3273 1.61162C11.7087 1.26487 12.2913 1.26487 12.6727 1.61162L23 11.0001H20V20.0001C20 20.5524 19.5523 21.0001 19 21.0001ZM6 19.0001H18V9.15757L12 3.70302L6 9.15757V19.0001ZM9 10.0001H15V16.0001H9V10.0001ZM11 12.0001V14.0001H13V12.0001H11Z" fill="#424242"/>
+                      </svg>
+                      <span>{{ block.settings.address }}</span>
+                    </div>
+                  {% endif %}
+
+                  {% if block.settings.phone != blank %}
+                  {% if block.settings.phone_link != blank %}
+                    <a href="tel:{{ block.settings.phone_link }}" class="location-detail">
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.36556 10.6821C10.302 12.3288 11.6712 13.698 13.3179 14.6344L14.2024 13.3961C14.4965 12.9845 15.0516 12.8573 15.4956 13.0998C16.9024 13.8683 18.4571 14.3353 20.0789 14.4637C20.599 14.5049 21 14.9389 21 15.4606V19.9234C21 20.4361 20.6122 20.8657 20.1022 20.9181C19.5723 20.9726 19.0377 21 18.5 21C9.93959 21 3 14.0604 3 5.5C3 4.96227 3.02742 4.42771 3.08189 3.89776C3.1343 3.38775 3.56394 3 4.07665 3H8.53942C9.0611 3 9.49513 3.40104 9.5363 3.92109C9.66467 5.54288 10.1317 7.09764 10.9002 8.50444C11.1427 8.9484 11.0155 9.50354 10.6039 9.79757L9.36556 10.6821ZM6.84425 10.0252L8.7442 8.66809C8.20547 7.50514 7.83628 6.27183 7.64727 5H5.00907C5.00303 5.16632 5 5.333 5 5.5C5 12.9558 11.0442 19 18.5 19C18.667 19 18.8337 18.997 19 18.9909V16.3527C17.7282 16.1637 16.4949 15.7945 15.3319 15.2558L13.9748 17.1558C13.4258 16.9425 12.8956 16.6915 12.3874 16.4061L12.3293 16.373C10.3697 15.2587 8.74134 13.6303 7.627 11.6707L7.59394 11.6126C7.30849 11.1044 7.05754 10.5742 6.84425 10.0252Z" fill="#424242"/>
+                      </svg>
+                      <span>{{ block.settings.phone }}</span>
+                    </a>
+                    {% else %}
+                    <div class="location-detail">
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.36556 10.6821C10.302 12.3288 11.6712 13.698 13.3179 14.6344L14.2024 13.3961C14.4965 12.9845 15.0516 12.8573 15.4956 13.0998C16.9024 13.8683 18.4571 14.3353 20.0789 14.4637C20.599 14.5049 21 14.9389 21 15.4606V19.9234C21 20.4361 20.6122 20.8657 20.1022 20.9181C19.5723 20.9726 19.0377 21 18.5 21C9.93959 21 3 14.0604 3 5.5C3 4.96227 3.02742 4.42771 3.08189 3.89776C3.1343 3.38775 3.56394 3 4.07665 3H8.53942C9.0611 3 9.49513 3.40104 9.5363 3.92109C9.66467 5.54288 10.1317 7.09764 10.9002 8.50444C11.1427 8.9484 11.0155 9.50354 10.6039 9.79757L9.36556 10.6821ZM6.84425 10.0252L8.7442 8.66809C8.20547 7.50514 7.83628 6.27183 7.64727 5H5.00907C5.00303 5.16632 5 5.333 5 5.5C5 12.9558 11.0442 19 18.5 19C18.667 19 18.8337 18.997 19 18.9909V16.3527C17.7282 16.1637 16.4949 15.7945 15.3319 15.2558L13.9748 17.1558C13.4258 16.9425 12.8956 16.6915 12.3874 16.4061L12.3293 16.373C10.3697 15.2587 8.74134 13.6303 7.627 11.6707L7.59394 11.6126C7.30849 11.1044 7.05754 10.5742 6.84425 10.0252Z" fill="#424242"/>
+                      </svg>
+                      <span>{{ block.settings.phone }}</span>
+                    </div>
+                    {% endif %}
+                  {% endif %}
+
+                  {% if block.settings.email != blank %}
+                    {% if block.settings.email_link != blank %}
+                      <a href="mailto:{{ block.settings.email_link }}" class="location-detail">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M3 3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3ZM20 7.23792L12.0718 14.338L4 7.21594V19H20V7.23792ZM4.51146 5L12.0619 11.662L19.501 5H4.51146Z" fill="#424242"/>
+                        </svg>
+                        <span>{{ block.settings.email }}</span>
+                      </a>
+                    {% else %}
+                      <div class="location-detail">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M3 3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3ZM20 7.23792L12.0718 14.338L4 7.21594V19H20V7.23792ZM4.51146 5L12.0619 11.662L19.501 5H4.51146Z" fill="#424242"/>
+                        </svg>
+                        <span>{{ block.settings.email }}</span>
+                      </div>
+                    {% endif %}
+                  {% endif %}
+
+                </div>
+
+                {% if block.settings.distributor_text != blank %}
+                  <p class="distributor_text">{{ block.settings.distributor_text }}</p>
+                {% endif %}
+
+                <div class="distributor-logos">
+                  {% if block.settings.distributor_logo_1 %}
+                    <img src="{{ block.settings.distributor_logo_1 | img_url: '200x' }}" 
+                          alt="Distributor Logo" 
+                          loading="lazy"
+                          class="distributor-logo">
+                  {% endif %}
+                  {% if block.settings.distributor_logo_2 %}
+                    <img src="{{ block.settings.distributor_logo_2 | img_url: '200x' }}" 
+                          alt="Distributor Logo" 
+                          loading="lazy"
+                          class="distributor-logo">
+                  {% endif %}
+                </div>
+
+                <div class="social-links">
+                  {% if block.settings.linkedin %}
+                    <a href="{{ block.settings.linkedin }}" class="social-link" target="_blank" rel="noopener">
+                      {{- 'linkdin.svg' | inline_asset_content -}}
+                    </a>
+                  {% endif %}
+                  {% if block.settings.facebook %}
+                    <a href="{{ block.settings.facebook }}" class="social-link" target="_blank" rel="noopener">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="13" height="22" viewBox="0 0 13 22" fill="none">
+                        <path d="M11.9443 1.10156H8.97496C7.66242 1.10156 6.40364 1.62297 5.47553 2.55108C4.54742 3.47919 4.02601 4.73797 4.02601 6.05051V9.01989H1.05664V12.979H4.02601V20.8974H7.98517V12.979H10.9545L11.9443 9.01989H7.98517V6.05051C7.98517 5.78801 8.08946 5.53625 8.27508 5.35063C8.4607 5.16501 8.71246 5.06072 8.97496 5.06072H11.9443V1.10156Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                    </a>
+                  {% endif %}
+                  {% if block.settings.instagram %}
+                    <a href="{{ block.settings.instagram }}" class="social-link" target="_blank" rel="noopener">
+                      {{- 'instragram.svg' | inline_asset_content -}}
+                    </a>
+                  {% endif %}
+                  {% if block.settings.twitter %}
+                    <a href="{{ block.settings.twitter }}" class="social-link" target="_blank" rel="noopener">
+                      {{- 'twitter.svg' | inline_asset_content -}}
+                    </a>
+                  {% endif %}
+                  {% if block.settings.youtube %}
+                    <a href="{{ block.settings.youtube }}" class="social-link" target="_blank" rel="noopener">
+                      {{- 'youtube.svg' | inline_asset_content -}}
+                    </a>
+                  {% endif %}
+                </div>
+
+              </div>
+            {% endif %}
+          {% endfor %}
+          </div>
+        </div>
     </div>
   </div>
 
-<div class="page-width">
-  <div class="location-cards">
-  {% for block in section.blocks %}
-    {% if block.type == 'location' %}
-      <div class="location-card" {{ block.shopify_attributes }}>
-        <h2 class="location-title">{{ block.settings.title }}</h2>
 
-        <div class="location-info">
-
-        {% if block.settings.company != blank %}
-          <div class="location-detail">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M21 20H23V22H1V20H3V3C3 2.44772 3.44772 2 4 2H20C20.5523 2 21 2.44772 21 3V20ZM19 20V4H5V20H19ZM8 11H11V13H8V11ZM8 7H11V9H8V7ZM8 15H11V17H8V15ZM13 15H16V17H13V15ZM13 11H16V13H13V11ZM13 7H16V9H13V7Z" fill="#424242"/>
-            </svg>
-              <span>{{ block.settings.company }}</span>
-          </div>
-        {% endif %}
-          
-          {% if block.settings.address != blank %}
-            <div class="location-detail">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M19 21.0001H5C4.44772 21.0001 4 20.5524 4 20.0001V11.0001H1L11.3273 1.61162C11.7087 1.26487 12.2913 1.26487 12.6727 1.61162L23 11.0001H20V20.0001C20 20.5524 19.5523 21.0001 19 21.0001ZM6 19.0001H18V9.15757L12 3.70302L6 9.15757V19.0001ZM9 10.0001H15V16.0001H9V10.0001ZM11 12.0001V14.0001H13V12.0001H11Z" fill="#424242"/>
-              </svg>
-              <span>{{ block.settings.address }}</span>
-            </div>
-          {% endif %}
-
-          {% if block.settings.phone != blank %}
-          {% if block.settings.phone_link != blank %}
-            <a href="tel:{{ block.settings.phone_link }}" class="location-detail">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M9.36556 10.6821C10.302 12.3288 11.6712 13.698 13.3179 14.6344L14.2024 13.3961C14.4965 12.9845 15.0516 12.8573 15.4956 13.0998C16.9024 13.8683 18.4571 14.3353 20.0789 14.4637C20.599 14.5049 21 14.9389 21 15.4606V19.9234C21 20.4361 20.6122 20.8657 20.1022 20.9181C19.5723 20.9726 19.0377 21 18.5 21C9.93959 21 3 14.0604 3 5.5C3 4.96227 3.02742 4.42771 3.08189 3.89776C3.1343 3.38775 3.56394 3 4.07665 3H8.53942C9.0611 3 9.49513 3.40104 9.5363 3.92109C9.66467 5.54288 10.1317 7.09764 10.9002 8.50444C11.1427 8.9484 11.0155 9.50354 10.6039 9.79757L9.36556 10.6821ZM6.84425 10.0252L8.7442 8.66809C8.20547 7.50514 7.83628 6.27183 7.64727 5H5.00907C5.00303 5.16632 5 5.333 5 5.5C5 12.9558 11.0442 19 18.5 19C18.667 19 18.8337 18.997 19 18.9909V16.3527C17.7282 16.1637 16.4949 15.7945 15.3319 15.2558L13.9748 17.1558C13.4258 16.9425 12.8956 16.6915 12.3874 16.4061L12.3293 16.373C10.3697 15.2587 8.74134 13.6303 7.627 11.6707L7.59394 11.6126C7.30849 11.1044 7.05754 10.5742 6.84425 10.0252Z" fill="#424242"/>
-              </svg>
-              <span>{{ block.settings.phone }}</span>
-            </a>
-            {% else %}
-            <div class="location-detail">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M9.36556 10.6821C10.302 12.3288 11.6712 13.698 13.3179 14.6344L14.2024 13.3961C14.4965 12.9845 15.0516 12.8573 15.4956 13.0998C16.9024 13.8683 18.4571 14.3353 20.0789 14.4637C20.599 14.5049 21 14.9389 21 15.4606V19.9234C21 20.4361 20.6122 20.8657 20.1022 20.9181C19.5723 20.9726 19.0377 21 18.5 21C9.93959 21 3 14.0604 3 5.5C3 4.96227 3.02742 4.42771 3.08189 3.89776C3.1343 3.38775 3.56394 3 4.07665 3H8.53942C9.0611 3 9.49513 3.40104 9.5363 3.92109C9.66467 5.54288 10.1317 7.09764 10.9002 8.50444C11.1427 8.9484 11.0155 9.50354 10.6039 9.79757L9.36556 10.6821ZM6.84425 10.0252L8.7442 8.66809C8.20547 7.50514 7.83628 6.27183 7.64727 5H5.00907C5.00303 5.16632 5 5.333 5 5.5C5 12.9558 11.0442 19 18.5 19C18.667 19 18.8337 18.997 19 18.9909V16.3527C17.7282 16.1637 16.4949 15.7945 15.3319 15.2558L13.9748 17.1558C13.4258 16.9425 12.8956 16.6915 12.3874 16.4061L12.3293 16.373C10.3697 15.2587 8.74134 13.6303 7.627 11.6707L7.59394 11.6126C7.30849 11.1044 7.05754 10.5742 6.84425 10.0252Z" fill="#424242"/>
-              </svg>
-              <span>{{ block.settings.phone }}</span>
-            </div>
-            {% endif %}
-          {% endif %}
-
-          {% if block.settings.email != blank %}
-            {% if block.settings.email_link != blank %}
-              <a href="mailto:{{ block.settings.email_link }}" class="location-detail">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M3 3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3ZM20 7.23792L12.0718 14.338L4 7.21594V19H20V7.23792ZM4.51146 5L12.0619 11.662L19.501 5H4.51146Z" fill="#424242"/>
-                </svg>
-                <span>{{ block.settings.email }}</span>
-              </a>
-            {% else %}
-              <div class="location-detail">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M3 3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3ZM20 7.23792L12.0718 14.338L4 7.21594V19H20V7.23792ZM4.51146 5L12.0619 11.662L19.501 5H4.51146Z" fill="#424242"/>
-                </svg>
-                <span>{{ block.settings.email }}</span>
-              </div>
-            {% endif %}
-          {% endif %}
-
-        </div>
-
-        {% if block.settings.distributor_text != blank %}
-          <p class="distributor_text">{{ block.settings.distributor_text }}</p>
-        {% endif %}
-
-        <div class="distributor-logos">
-          {% if block.settings.distributor_logo_1 %}
-            <img src="{{ block.settings.distributor_logo_1 | img_url: '200x' }}" 
-                  alt="Distributor Logo" 
-                  loading="lazy"
-                  class="distributor-logo">
-          {% endif %}
-          {% if block.settings.distributor_logo_2 %}
-            <img src="{{ block.settings.distributor_logo_2 | img_url: '200x' }}" 
-                  alt="Distributor Logo" 
-                  loading="lazy"
-                  class="distributor-logo">
-          {% endif %}
-        </div>
-
-        <div class="social-links">
-          {% if block.settings.linkedin %}
-            <a href="{{ block.settings.linkedin }}" class="social-link" target="_blank" rel="noopener">
-              {{- 'linkdin.svg' | inline_asset_content -}}
-            </a>
-          {% endif %}
-          {% if block.settings.facebook %}
-            <a href="{{ block.settings.facebook }}" class="social-link" target="_blank" rel="noopener">
-              <svg xmlns="http://www.w3.org/2000/svg" width="13" height="22" viewBox="0 0 13 22" fill="none">
-                <path d="M11.9443 1.10156H8.97496C7.66242 1.10156 6.40364 1.62297 5.47553 2.55108C4.54742 3.47919 4.02601 4.73797 4.02601 6.05051V9.01989H1.05664V12.979H4.02601V20.8974H7.98517V12.979H10.9545L11.9443 9.01989H7.98517V6.05051C7.98517 5.78801 8.08946 5.53625 8.27508 5.35063C8.4607 5.16501 8.71246 5.06072 8.97496 5.06072H11.9443V1.10156Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
-            </a>
-          {% endif %}
-          {% if block.settings.instagram %}
-            <a href="{{ block.settings.instagram }}" class="social-link" target="_blank" rel="noopener">
-              {{- 'instragram.svg' | inline_asset_content -}}
-            </a>
-          {% endif %}
-          {% if block.settings.twitter %}
-            <a href="{{ block.settings.twitter }}" class="social-link" target="_blank" rel="noopener">
-              {{- 'twitter.svg' | inline_asset_content -}}
-            </a>
-          {% endif %}
-          {% if block.settings.youtube %}
-            <a href="{{ block.settings.youtube }}" class="social-link" target="_blank" rel="noopener">
-              {{- 'youtube.svg' | inline_asset_content -}}
-            </a>
-          {% endif %}
-        </div>
-
-      </div>
-    {% endif %}
-  {% endfor %}
-  </div>
-</div>
 
 </div>
 

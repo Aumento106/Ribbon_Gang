@@ -9,6 +9,126 @@
  */
 {
   "sections": {
+    "image_banner_G44wRe": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_d7UM4C": {
+          "type": "heading",
+          "settings": {
+            "heading": "infection-controlled solutions",
+            "heading_size": "h1"
+          }
+        },
+        "text_GMWbAN": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "buttons_kDzQqz": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Now",
+            "button_link_1": "shopify://collections",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_d7UM4C",
+        "text_GMWbAN",
+        "buttons_kDzQqz"
+      ],
+      "settings": {
+        "page_container": "full-width",
+        "image": "shopify://shop_images/Concept_1_1.png",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_banner_jb4H4t": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_wxRYLn": {
+          "type": "heading",
+          "settings": {
+            "heading": "Hospital and Surgical Centrea",
+            "heading_size": "h1"
+          }
+        },
+        "text_TUBPVV": {
+          "type": "text",
+          "settings": {
+            "text": "Smarter storage. Safer care",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "buttons_rxaBHe": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop the Room",
+            "button_link_1": "shopify://collections",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_wxRYLn",
+        "text_TUBPVV",
+        "buttons_rxaBHe"
+      ],
+      "settings": {
+        "page_container": "full-width",
+        "image": "shopify://shop_images/Concept_1_1.png",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "top-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "newsletter_P4G3rJ": {
+      "type": "newsletter",
+      "blocks": {
+        "email_form_GJKBAw": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "email_form_GJKBAw"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "full_width": true,
+        "heading": "<p>Stay ahead in healthcare storage. Subscribe for updates.</p>",
+        "heading_size": "h2",
+        "text": "<p>Archici enimodiae ratibus aut volum quiam, et quo bea  suntion serrovide por aute natempos erovita ium quunt  iumquae plab intium fuga.</p>",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "image_text_slider_HkQX47": {
       "type": "image-text-slider",
       "blocks": {
@@ -99,7 +219,6 @@
         "column_MEcPqY": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/increase-patient-care-time.png",
             "title": "Increase patient care time",
             "icon": "shopify://shop_images/bed-icon.svg",
             "text": "<p>With STERIRACK® System, nurses and healthcare personnel can now spend less time hunting through storerooms, and more time devoted to face-to-face patient care. Where they want to be.</p><p>These time efficiencies provide hospitals and health-care centers with impressive Return on Effectiveness (ROE), with some facilities enjoying time savings of up to 50%.</p><p>Introduce the gold standard healthcare storage system today. You’ll never look back. </p>"
@@ -573,6 +692,9 @@
     }
   },
   "order": [
+    "image_banner_G44wRe",
+    "image_banner_jb4H4t",
+    "newsletter_P4G3rJ",
     "image_text_slider_HkQX47",
     "key_message_Ccdzez",
     "multicolumn_box_with_image_jL37Wi",

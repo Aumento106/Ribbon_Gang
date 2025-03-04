@@ -75,7 +75,6 @@
       "blocks": {
         "location_xwBwzh": {
           "type": "location",
-          "disabled": true,
           "settings": {
             "title": "AUSTRALIA (OCEANIA)",
             "company": "HEAD OFFICE: SPACELOGIC GROUP PTY LTD",
@@ -94,7 +93,6 @@
         },
         "location_mTCeAQ": {
           "type": "location",
-          "disabled": true,
           "settings": {
             "title": "NORTH AMERICA",
             "company": "HEAD OFFICE: SPACELOGIC GROUP LTD",
@@ -113,7 +111,6 @@
         },
         "location_BQBU6m": {
           "type": "location",
-          "disabled": true,
           "settings": {
             "title": "AUTHORIZED DISTRIBUTORS (US)",
             "company": "",
@@ -141,7 +138,6 @@
       "settings": {
         "row_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "title": "Get in Touch",
-        "contact_image": "shopify://shop_images/image_2.png",
         "padding_top": 140,
         "padding_bottom": 105
       }

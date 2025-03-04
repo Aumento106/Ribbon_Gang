@@ -126,7 +126,6 @@
     "show_breadcrumb_nav": true,
     "cart_type": "drawer",
     "show_vendor": false,
-    "show_cart_note": false,
     "cart_drawer_collection": "",
     "cart_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
     "thresold_for_free_shipping": "450",
@@ -142,6 +141,7 @@
       "standard-mesh-baskets-copy",
       "standard-mesh-baskets"
     ],
+    "show_cart_note": false,
     "inputs_shadow_vertical_offset": 4,
     "drawer_comp_product": "sterirack®-transport-case-carts",
     "new_badge_color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",

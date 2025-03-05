@@ -66,7 +66,6 @@
           "type": "sub_header",
           "settings": {
             "sub_header_menu": "sub-header-menu",
-            "sub_menu_type_desktop": "mega",
             "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3"
           }
         },

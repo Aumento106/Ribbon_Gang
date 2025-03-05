@@ -59,24 +59,24 @@
         "show_text_below": true
       }
     },
-    "image_banner_jb4H4t": {
-      "type": "image-banner",
+    "custom_image_banner_xDTGLj": {
+      "type": "custom-image-banner",
       "blocks": {
-        "heading_wxRYLn": {
+        "heading_wtkCw3": {
           "type": "heading",
           "settings": {
             "heading": "Hospital and Surgical Centrea",
             "heading_size": "h1"
           }
         },
-        "text_TUBPVV": {
+        "text_t9P8ME": {
           "type": "text",
           "settings": {
             "text": "Smarter storage. Safer care",
-            "text_style": "caption-with-letter-spacing"
+            "text_style": "body"
           }
         },
-        "buttons_rxaBHe": {
+        "buttons_3efdfV": {
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop the Room",
@@ -89,23 +89,78 @@
         }
       },
       "block_order": [
-        "heading_wxRYLn",
-        "text_TUBPVV",
-        "buttons_rxaBHe"
+        "heading_wtkCw3",
+        "text_t9P8ME",
+        "buttons_3efdfV"
       ],
       "settings": {
         "page_container": "full-width",
-        "image": "shopify://shop_images/Concept_1_1.png",
-        "image_overlay_opacity": 0,
+        "image": "shopify://shop_images/Concept_9.png",
+        "image_overlay_opacity": 30,
         "image_height": "large",
         "desktop_content_position": "top-center",
-        "show_text_box": true,
+        "show_text_box": false,
         "desktop_content_alignment": "center",
-        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "color_scheme": "scheme-28b9a3ce-e916-452a-9440-95fefcedbf92",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
+      }
+    },
+    "custom_multicolumn_tEhTPk": {
+      "type": "custom-multicolumn",
+      "blocks": {
+        "column_nPJerb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Concept_13.png",
+            "title": "CSSD",
+            "text": "<p>Theatre store</p>",
+            "text-v": "Designed for hygiene, engineered for safety",
+            "button-text": "Shop the Room",
+            "button-url": "shopify://collections"
+          }
+        },
+        "column_UTiAj3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Concept_13.png",
+            "title": "Clean Utility",
+            "text": "<p>Medications</p>",
+            "text-v": "Every space optimised,  text to go here.",
+            "button-text": "Shop the Room",
+            "button-url": "shopify://collections"
+          }
+        },
+        "column_ggEGqd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Concept_13.png",
+            "title": "Pharmacy",
+            "text": "<p>Dispensary</p>",
+            "text-v": "Less time searching, more time caring",
+            "button-text": "Shop the Room",
+            "button-url": "shopify://collections"
+          }
+        }
+      },
+      "block_order": [
+        "column_nPJerb",
+        "column_UTiAj3",
+        "column_ggEGqd"
+      ],
+      "settings": {
+        "title": "<p>Innovative Storage Solutions</p><p>Making space for care. Across every department.</p>",
+        "heading_size": "h2",
+        "title_alignment": "center",
+        "color_scheme": "",
+        "heading_color_scheme": "",
+        "columns_desktop": "3",
+        "box_shadow": true,
+        "box_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "newsletter_P4G3rJ": {
@@ -127,6 +182,275 @@
         "text": "<p>Archici enimodiae ratibus aut volum quiam, et quo bea  suntion serrovide por aute natempos erovita ium quunt  iumquae plab intium fuga.</p>",
         "padding_top": 40,
         "padding_bottom": 52
+      }
+    },
+    "custom_image_text_slider_THfQXC": {
+      "type": "custom-Image-text-slider",
+      "blocks": {
+        "slide_RywWVb": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Concept_20_1.png",
+            "offer_title": "<p>InnovativeTheatre Trolley</p>",
+            "heading": "<p> Bearundae voluptatem eum iditatqui aut  doluptiorest adit am rerrum sitae cor  modia voluptatist amu</p>",
+            "heading_size": "h2",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>",
+            "button_label": "Shop Theatre Trolleys",
+            "offer_code_txt": "",
+            "button_link": "shopify://collections",
+            "button_style_secondary": false
+          }
+        },
+        "slide_WxDkMU": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Concept_20_1.png",
+            "offer_title": "<p>InnovativeTheatre Trolley</p>",
+            "heading": "<p> Bearundae voluptatem eum iditatqui aut  doluptiorest adit am rerrum sitae cor  modia voluptatist amu</p>",
+            "heading_size": "h2",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>",
+            "button_label": "Shop Theatre Trolleys",
+            "offer_code_txt": "",
+            "button_link": "shopify://collections",
+            "button_style_secondary": false
+          }
+        },
+        "slide_hEc8qA": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Concept_20_1.png",
+            "offer_title": "<p>InnovativeTheatre Trolley</p>",
+            "heading": "<p> Bearundae voluptatem eum iditatqui aut  doluptiorest adit am rerrum sitae cor  modia voluptatist amu</p>",
+            "heading_size": "h2",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>",
+            "button_label": "Shop Theatre Trolleys",
+            "offer_code_txt": "",
+            "button_link": "shopify://collections",
+            "button_style_secondary": false
+          }
+        },
+        "slide_UHfXgU": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Concept_20_1.png",
+            "offer_title": "<p>InnovativeTheatre Trolley</p>",
+            "heading": "<p> Bearundae voluptatem eum iditatqui aut  doluptiorest adit am rerrum sitae cor  modia voluptatist amu</p>",
+            "heading_size": "h2",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>",
+            "button_label": "Shop Theatre Trolleys",
+            "offer_code_txt": "",
+            "button_link": "shopify://collections",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_RywWVb",
+        "slide_WxDkMU",
+        "slide_hEc8qA",
+        "slide_UHfXgU"
+      ],
+      "settings": {
+        "heading": "",
+        "title_alignment": "left",
+        "heading_size": "h1",
+        "layout": "image_first",
+        "content_layout": "no-overlap",
+        "height": "medium",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "color_scheme": "",
+        "section_color_scheme": "",
+        "offer_title_color": "#ffce00",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "show_pagination": true,
+        "dot_color": "#000000",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_multicolumn_text_JtzPeP": {
+      "type": "custom-Multicolumn-text",
+      "blocks": {
+        "column_yYnNU6": {
+          "type": "column",
+          "settings": {
+            "title": "Service",
+            "text": "<p>• All-in-one  and beginning-to-end<br/>• Project consultation with 2D and 3D visualisations<br/>• Custom solutions and innovate designs<br/>• Precision planning and seamlessexecution</p>",
+            "text-v": "",
+            "button-text": "Find out more",
+            "button-url": "shopify://collections"
+          }
+        },
+        "column_Q9aepq": {
+          "type": "column",
+          "settings": {
+            "title": "Focus",
+            "text": "<p>• Clinical storage solutions<br/>• Infection control andsafety focus<br/>• Optimised workflow<br/>• Sterile and non-sterile  options<br/>• Optimised workflow</p>",
+            "text-v": "",
+            "button-text": "Find out more",
+            "button-url": "shopify://collections"
+          }
+        },
+        "column_ERyxPw": {
+          "type": "column",
+          "settings": {
+            "title": "Quality",
+            "text": "<p>• Gold standard STERIRACK®  System<br/>• Patented excellence<br/>• Compliance with safety  standards<br/> • Ergonomic design<br/>• Patented excellence</p>",
+            "text-v": "",
+            "button-text": "Find out more",
+            "button-url": "shopify://collections"
+          }
+        }
+      },
+      "block_order": [
+        "column_yYnNU6",
+        "column_Q9aepq",
+        "column_ERyxPw"
+      ],
+      "settings": {
+        "title": "<p>Why SpaceLogic?<br/></p>",
+        "descr": "Making space for care.",
+        "heading_size": "h1",
+        "title_alignment": "center",
+        "color_scheme": "",
+        "heading_color_scheme": "",
+        "columns_desktop": "3",
+        "box_shadow": true,
+        "box_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_image_text_slider_mztD6t": {
+      "type": "custom-Image-text-slider",
+      "blocks": {
+        "slide_gMCqNw": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Concept_20_1.png",
+            "offer_title": "",
+            "heading": "<p>Introducing the registered WireLoop Shape Mark andSteriLoop™ innovation</p>",
+            "heading_size": "h2",
+            "text": "<p>SpaceLogic is proud to introduce SteriLoop®,  featuring our registered WireLoop Shape Mark – a game-changing  innovation in healthcare  storage.</p><p><br/> SMOOTH ROUNDED CORNERS: Prevents cuts,  micro-tears, and damage to consumables<br/><br/>NO SHARP EDGES: Superior safety for hospital  staff and patient<br/><br/>ENHANCED DURABILITY AND HYGIENE:  Engineered for long-term performance<br/><br/> Look for the Loop™ – The  ultimate in safe, smart storage<br/></p>",
+            "button_label": "Shop Theatre Trolleys",
+            "offer_code_txt": "",
+            "button_link": "shopify://collections",
+            "button_style_secondary": false
+          }
+        },
+        "slide_APd6k4": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Concept_20_1.png",
+            "offer_title": "<p>InnovativeTheatre Trolley</p>",
+            "heading": "<p> Bearundae voluptatem eum iditatqui aut  doluptiorest adit am rerrum sitae cor  modia voluptatist amu</p>",
+            "heading_size": "h2",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>",
+            "button_label": "Shop Theatre Trolleys",
+            "offer_code_txt": "",
+            "button_link": "shopify://collections",
+            "button_style_secondary": false
+          }
+        },
+        "slide_RQBkyV": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Concept_20_1.png",
+            "offer_title": "<p>InnovativeTheatre Trolley</p>",
+            "heading": "<p> Bearundae voluptatem eum iditatqui aut  doluptiorest adit am rerrum sitae cor  modia voluptatist amu</p>",
+            "heading_size": "h2",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>",
+            "button_label": "Shop Theatre Trolleys",
+            "offer_code_txt": "",
+            "button_link": "shopify://collections",
+            "button_style_secondary": false
+          }
+        },
+        "slide_YKPfBw": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Concept_20_1.png",
+            "offer_title": "<p>InnovativeTheatre Trolley</p>",
+            "heading": "<p> Bearundae voluptatem eum iditatqui aut  doluptiorest adit am rerrum sitae cor  modia voluptatist amu</p>",
+            "heading_size": "h2",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>",
+            "button_label": "Shop Theatre Trolleys",
+            "offer_code_txt": "",
+            "button_link": "shopify://collections",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_gMCqNw",
+        "slide_APd6k4",
+        "slide_RQBkyV",
+        "slide_YKPfBw"
+      ],
+      "settings": {
+        "heading": "",
+        "title_alignment": "left",
+        "heading_size": "h1",
+        "layout": "image_first",
+        "content_layout": "no-overlap",
+        "height": "medium",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "mobile_content_alignment": "left",
+        "color_scheme": "",
+        "section_color_scheme": "",
+        "offer_title_color": "#ffce00",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "show_pagination": true,
+        "dot_color": "#000000",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_image_text_slider_k9tKHM": {
+      "type": "custom-Image-text-slider",
+      "blocks": {
+        "slide_UBnzye": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Concept_5.png",
+            "offer_title": "",
+            "heading": "<p>Introducing the registered WireLoop Shape Mark andSteriLoop™ innovation</p>",
+            "heading_size": "h2",
+            "text": "<p>SpaceLogic is proud to introduce SteriLoop®,  featuring our registered WireLoop Shape Mark – a game-changing  innovation in healthcare  storage.</p><p><br/> SMOOTH ROUNDED CORNERS: Prevents cuts,  micro-tears, and damage to consumables<br/><br/>NO SHARP EDGES: Superior safety for hospital  staff and patient<br/><br/>ENHANCED DURABILITY AND HYGIENE:  Engineered for long-term performance<br/><br/> Look for the Loop™ – The  ultimate in safe, smart storage<br/></p>",
+            "button_label": "Shop Theatre Trolleys",
+            "offer_code_txt": "",
+            "button_link": "shopify://collections",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_UBnzye"
+      ],
+      "settings": {
+        "heading": "Testimonials and Case Studies",
+        "title_alignment": "center",
+        "heading_size": "h1",
+        "layout": "image_first",
+        "content_layout": "no-overlap",
+        "height": "medium",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "mobile_content_alignment": "left",
+        "color_scheme": "",
+        "section_color_scheme": "",
+        "offer_title_color": "#ffce00",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "show_pagination": true,
+        "dot_color": "#000000",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "image_text_slider_HkQX47": {
@@ -693,8 +1017,13 @@
   },
   "order": [
     "image_banner_G44wRe",
-    "image_banner_jb4H4t",
+    "custom_image_banner_xDTGLj",
+    "custom_multicolumn_tEhTPk",
     "newsletter_P4G3rJ",
+    "custom_image_text_slider_THfQXC",
+    "custom_multicolumn_text_JtzPeP",
+    "custom_image_text_slider_mztD6t",
+    "custom_image_text_slider_k9tKHM",
     "image_text_slider_HkQX47",
     "key_message_Ccdzez",
     "multicolumn_box_with_image_jL37Wi",

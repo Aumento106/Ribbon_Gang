@@ -28,8 +28,9 @@
     {%- if section.settings.title != blank -%}
       <div class="sec-head section-title-alignment-{{ section.settings.title_alignment }}">
         <h2 class="title {{ section.settings.heading_size }}">
-          {{ section.settings.title }}
+          {{ section.settings.title }}  
         </h2>
+          <a href="{{ section.settings.button_url }}" class="button button--primary">{{ section.settings.button_text }}</a>
       </div>
     {%- endif -%}
 
@@ -89,6 +90,16 @@
       "id": "title",
       "default": "<p>Multicolumn Box</p>",
       "label": "Section Title"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button Text"
+    },
+    {
+      "type": "url",
+      "id": "button_url",
+      "label": "Button link"
     },
     {
       "type": "select",

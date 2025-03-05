@@ -2018,3 +2018,11 @@ span.product_compar_price {
   margin-bottom: 15px;
   display: block;
 }
+
+.text_icons{
+  display: flex;
+  gap: 17px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

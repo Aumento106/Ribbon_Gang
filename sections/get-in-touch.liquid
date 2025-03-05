@@ -4,14 +4,13 @@
   .contact-section {
     padding-top: {{ section.settings.padding_top }}px;
     padding-bottom: {{ section.settings.padding_bottom }}px;
-    margin-top: 100px;
   }
 </style>
 
 <div class="contact-section color-{{ section.settings.row_color_scheme }}">
   <div class="page-width">
     <div class="contact-header">
-      <h1 class="contact-title">{{ section.settings.title }}</h1>
+      <h1 class="contact-title center">{{ section.settings.title }}</h1>
     </div>
 
     <div class="contact-container">
@@ -51,6 +50,8 @@
             </ul>
           {%- endif -%}
 
+
+
           {% if form.errors %}
             <div class="form-error" style="display: block; margin-bottom: 20px;">
               {{ form.errors | default_errors }}
@@ -58,10 +59,7 @@
           {% endif %}
 
           <div class="form-field">
-            <div class="form_label_main">
-              <img src="{{ 'contact-name.svg' | asset_url }}" alt="contact name">
-              <label class="form-label" for="ContactName">{{ 'templates.contact.form.name' | t }} *</label>
-            </div>
+            <label class="form-label" for="ContactName">{{ 'templates.contact.form.name' | t }} *</label>
             <input 
               type="text" 
               class="form-input" 
@@ -72,41 +70,8 @@
             >
           </div>
 
-          <div class="form-row">
-            <div class="form-field required">
-              <div class="form_label_main">
-                <img src="{{ 'contact-name.svg' | asset_url }}" alt="contact name">
-                <label class="form-label" for="ContactJobTitle">{{ 'templates.contact.form.job_title' | t }} *</label>
-              </div>
-              <input 
-                type="text" 
-                class="form-input" 
-                id="ContactJobTitle"
-                name="contact[job_title]" 
-                required
-              >
-          </div>
-
-          <div class="form-row">
-            <div class="form-field required">
-              <div class="form_label_main">
-                <img src="{{ 'contact-name.svg' | asset_url }}" alt="contact name">
-                <label class="form-label" for="ContactOrganisation">{{ 'templates.contact.form.organisation' | t }} *</label>
-              </div>
-              <input 
-                type="text" 
-                class="form-input" 
-                id="ContactOrganisation"
-                name="contact[organisation]" 
-                required
-              >
-          </div>
-
           <div class="form-field">
-          <div class="form_label_main">
-            <img src="{{ 'contact-name.svg' | asset_url }}" alt="contact name">
             <label class="form-label" for="ContactEmail">{{ 'templates.contact.form.email' | t }} *</label>
-          </div>
             <input 
               type="email" 
               class="form-input" 
@@ -117,26 +82,8 @@
             >
           </div>
 
-          <div class="form-field required">
-          <div class="form_label_main">
-            <img src="{{ 'contact-name.svg' | asset_url }}" alt="contact name">
-            <label class="form-label" for="ContactRegion">{{ 'templates.contact.form.region' | t }} *</label>
-          </div>
-            <input 
-              type="text" 
-              class="form-input" 
-              id="ContactRegion"
-              name="contact[region]" 
-              value="{{ form.region }}"
-              required
-            >
-          </div>
-
           <div class="form-field">
-            <div class="form_label_main">
-              <img src="{{ 'contact-name.svg' | asset_url }}" alt="contact name">
-              <label class="form-label" for="ContactPhone">{{ 'templates.contact.form.phone' | t }} *</label>
-            </div>
+            <label class="form-label" for="ContactPhone">{{ 'templates.contact.form.phone' | t }} *</label>
             <input 
               type="tel" 
               class="form-input" 
@@ -147,30 +94,59 @@
             >
           </div>
 
-        </div>
-        
-
+          
+        <div class="form-row">
           <div class="form-field required">
-            <div class="form_label_main">
-              <img src="{{ 'contact-name.svg' | asset_url }}" alt="contact name">
-              <label class="form-label" for="ContactEnquiryType">{{ 'templates.contact.form.enquiry_type' | t }} *</label>
-            </div>
+            <label class="form-label" for="ContactOrganisation">{{ 'templates.contact.form.organisation' | t }} *</label>
             <input 
-              type="tel" 
+              type="text" 
               class="form-input" 
-              id="ContactEnquiryType"
-              name="contact[enquiry_type]" 
-              value="{{ form.enquiry_type }}"
+              id="ContactOrganisation"
+              name="contact[organisation]" 
               required
             >
+        </div>
+
+        <div class="form-field required">
+            <label class="form-label" for="ContactRegion">{{ 'templates.contact.form.region' | t }} *</label>
+            <select class="form-select" id="ContactRegion" name="contact[region]" required>
+              <option value="" data-display=""></option>
+              <option value="North America">North America</option>
+              <option value="South America">South America</option>
+              <option value="Europe">Europe</option>
+              <option value="Asia">Asia</option>
+              <option value="Africa">Africa</option>
+              <option value="Australia">Australia</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-field required">
+            <label class="form-label" for="ContactJobTitle">{{ 'templates.contact.form.job_title' | t }} *</label>
+            <input 
+              type="text" 
+              class="form-input" 
+              id="ContactJobTitle"
+              name="contact[job_title]" 
+              required
+            >
+          </div>
+
+          <div class="form-field required">
+            <label class="form-label" for="ContactEnquiryType">{{ 'templates.contact.form.enquiry_type' | t }} *</label>
+            <select class="form-select" id="ContactEnquiryType" name="contact[enquiry_type]" required>
+              <option value="" data-display=""></option>
+              <option value="General">General Inquiry</option>
+              <option value="Support">Technical Support</option>
+              <option value="Sales">Sales</option>
+              <option value="Partnership">Partnership</option>
+              <option value="Other">Other</option>
+            </select>
           </div>
         </div>
 
           <div class="form-field">
-            <div class="form_label_main">
-              <img src="{{ 'contact-name.svg' | asset_url }}" alt="contact name">
-              <label class="form-label" for="ContactMessage">{{ 'templates.contact.form.enquiry' | t }}</label>
-            </div>
+            <label class="form-label" for="ContactMessage">{{ 'templates.contact.form.enquiry' | t }}</label>
             <textarea
               class="form-textarea"
               id="ContactMessage"
@@ -181,13 +157,12 @@
           <button type="submit" class="submit-button button button--primary">Submit Now</button>
         {% endform %}
       </div>
-          <div class="contact-details">
+          <div class="page-width">
           <div class="location-cards">
           {% for block in section.blocks %}
             {% if block.type == 'location' %}
               <div class="location-card" {{ block.shopify_attributes }}>
-                <div class="location-card-main">
-                  <h1 class="location-title">{{ block.settings.title }}</h1>
+                <h2 class="location-title">{{ block.settings.title }}</h2>
 
                 <div class="location-info">
 
@@ -251,7 +226,6 @@
                   <p class="distributor_text">{{ block.settings.distributor_text }}</p>
                 {% endif %}
 
-              {% if block.settings.distributor_logo_1 != blank or block.settings.distributor_logo_2 != blank %}
                 <div class="distributor-logos">
                   {% if block.settings.distributor_logo_1 %}
                     <img src="{{ block.settings.distributor_logo_1 | img_url: '200x' }}" 
@@ -266,7 +240,6 @@
                           class="distributor-logo">
                   {% endif %}
                 </div>
-              {% endif %}
 
                 <div class="social-links">
                   {% if block.settings.linkedin %}
@@ -297,7 +270,7 @@
                     </a>
                   {% endif %}
                 </div>
-                </div>
+
               </div>
             {% endif %}
           {% endfor %}

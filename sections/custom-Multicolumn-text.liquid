@@ -1,0 +1,277 @@
+{{ 'section-multicolumn-box-with-image.css' | asset_url | stylesheet_tag }}
+{{ 'custom-multicolumn-with-text.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.55 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.55 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top | times: 0.7 | round: 0 }}px;
+      padding-bottom: {{ section.settings.padding_bottom | times: 0.7 | round: 0 }}px;
+    }
+  }
+
+  @media screen and (min-width: 1025px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+
+{%- endstyle -%}
+
+<div class="multi-column-box-with-image section-{{ section.id }} section-{{ section.id }}-padding color-{{ section.settings.color_scheme }} gradient">
+  <div class="multicolumn-box page-width">
+    {%- if section.settings.title != blank -%}
+      <div class="sec-head section-title-alignment-{{ section.settings.title_alignment }}">
+        <h2 class="title {{ section.settings.heading_size }}">
+          {{ section.settings.title }}
+        </h2>
+         <span>{{ section.settings.descr }}</span>
+      </div>
+    {%- endif -%}
+
+
+    <div class="grid grid--1-col grid--2-col-tablet grid--{{ section.settings.columns_desktop }}-col-desktop {% if section.settings.box_shadow == true %}item-box-shadow{% endif %}">
+      {%- for block in section.blocks -%}
+        <div class="grid__item" {{ block.shopify_attributes }}>
+          <div class="multicolumn-box__item color-{{ section.settings.box_color_scheme }} gradient">
+            {%- if block.settings.image != blank -%}
+              <div class="multicolumn-box-img-wrapper">
+                {{ block.settings.image | image_url: width: 600 | image_tag:
+                  loading: 'lazy',
+                  width: block.settings.image.width,
+                  height: block.settings.image.height,
+                  class: 'multicolumn-box__image'
+                }}
+              </div>
+            {%- endif -%}
+            {%- if block.settings.title != blank -%}
+              <div class="heading-with-icon-wrapper color-{{ section.settings.heading_color_scheme }} gradient">
+                {%- if block.settings.icon != blank -%}
+                  {% comment %} <div class="img-box">
+                    {{ block.settings.icon | image_url: width: 40 | image_tag:
+                      loading: 'lazy',
+                      width: block.settings.icon.width,
+                      height: block.settings.icon.height,
+                      class: 'multicolumn-box__icon'
+                    }}
+                  </div> {% endcomment %}
+                {%- endif -%}
+                <h3 class="subtitle">{{ block.settings.title | escape }}</h3>
+              </div>
+            {%- endif -%}
+            {%- if block.settings.text != blank -%}
+              <div class="multicolumn-box-description">{{ block.settings.text }}</div>
+            {%- endif -%}
+            {%- if block.settings.text-v != blank -%}
+              <div class="multicolumn-box-description">{{ block.settings.text-v }}</div>
+            {%- endif -%}
+            {%- if block.settings.button-text != blank -%}
+              <a href="{{ block.settings.button-url }}" class="button button--primary" >{{ block.settings.button-text }}</a>
+            {%- endif -%}
+          </div>
+        </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "custom Multicolumn Text",
+  "tag": "section",
+  "class": "section multi_box_image custom-multicolumn-with-text",
+  "settings": [
+    {
+      "type": "richtext",
+      "id": "title",
+      "default": "<p>Multicolumn Box</p>",
+      "label": "Section Title"
+    },
+    {
+      "type": "text",
+      "id": "descr",
+      "label": "Description"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "Small"
+        },
+        {
+          "value": "h1",
+          "label": "Medium"
+        },
+        {
+          "value": "h0",
+          "label": "Large"
+        }
+      ],
+      "default": "h1",
+      "label": "Heading Size"
+    },
+    {
+        "type": "select",
+        "id": "title_alignment",
+        "options": [
+            {
+            "value": "left",
+            "label": "Left"
+            },
+            {
+            "value": "center",
+            "label": "Center"
+            },
+            {
+            "value": "right",
+            "label": "Right"
+            }
+        ],
+        "default": "center",
+        "label": "Section title alignment"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    },
+    {
+      "type": "color_scheme",
+      "id": "heading_color_scheme",
+      "label": "Heading color scheme",
+      "default": "scheme-1"
+    },
+    {
+      "type": "header",
+      "content": "Box setting"
+    },
+    {
+      "type": "select",
+      "id": "columns_desktop",
+      "options": [
+        {
+          "value": "1",
+          "label": "1 column"
+        },
+        {
+          "value": "2",
+          "label": "2 columns"
+        },
+        {
+          "value": "3",
+          "label": "3 columns"
+        }
+      ],
+      "default": "3",
+      "label": "Number of columns on desktop"
+    },
+    {
+      "type": "checkbox",
+      "id": "box_shadow",
+      "default": true,
+      "label": "Add box shadow"
+    },
+    {
+      "type": "color_scheme",
+      "id": "box_color_scheme",
+      "label": "Box color scheme",
+      "default": "scheme-1"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 180,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 180,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    }
+  ],
+  "blocks": [
+    {
+      "type": "column",
+      "name": "Box",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "default": "Box title",
+          "label": "Title"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "Heading icon"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "default": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>",
+          "label": "Text"
+        },
+        {
+          "type": "text",
+          "id": "text-v",
+          "label": "Description"
+        },
+        {
+          "type": "text",
+          "id": "button-text",
+          "label": "BUtton text"
+        },
+        {
+          "type": "url",
+          "id": "button-url",
+          "label": "Button url"
+        }
+        
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "custom Multicolumn Text",
+      "blocks": [
+        {
+          "type": "column"
+        },
+        {
+          "type": "column"
+        },
+        {
+          "type": "column"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
+

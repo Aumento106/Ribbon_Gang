@@ -99,8 +99,30 @@
   <div class="page-width">
     <div class="product product--{{ section.settings.media_size }} product--{{ section.settings.media_position }} product--{{ section.settings.gallery_layout }} product--mobile-{{ section.settings.mobile_thumbnails }} grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
       <div class="grid__item product__media-wrapper">
+      <div>
         {% render 'product-media-gallery', variant_images: variant_images %}
+
       </div>
+       <div class="text_icons">
+       {%- for block in section.blocks -%}
+           {%- case block.type -%}
+              {%- when 'icon_text' -%}
+              <div>
+                {% if block.settings.icon_image != blank %}
+                  <div class="icon_image">{{ block.settings.icon_image | image_url: width:50 | image_tag }}</div>
+                {% endif %}
+
+                {% if block.settings.icon_text != blank %}
+                  <div class="icon_text">
+                      {{ block.settings.icon_text }}
+                  </div>
+                {% endif %}
+              </div> 
+            {% endcase %}  
+        {% endfor %}  
+      </div>
+      </div>
+     
       <div class="product__info-wrapper grid__item{% if settings.page_width > 1400 and section.settings.media_size == "small" %} product__info-wrapper--extra-padding{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
         <section
           id="ProductInfo-{{ section.id }}"
@@ -958,6 +980,22 @@
           "id": "show_inventory_quantity",
           "label": "t:sections.main-product.blocks.inventory.settings.show_inventory_quantity.label",
           "default": true
+        }
+      ]
+    },
+    {
+      "type": "icon_text",
+      "name": "Icon & Text",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "icon_image",
+          "label": "Icon image"
+        },
+        {
+          "type": "text",
+          "id": "icon_text",
+          "label": "Icon text"
         }
       ]
     },

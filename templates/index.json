@@ -9,74 +9,117 @@
  */
 {
   "sections": {
-    "image_banner_G44wRe": {
-      "type": "image-banner",
+    "custom_slide_show_aTXHa3": {
+      "type": "custom-slide-show",
       "blocks": {
-        "heading_d7UM4C": {
-          "type": "heading",
+        "slide_eEdaKF": {
+          "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/Concept_1_1.png",
             "heading": "infection-controlled solutions",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "Shop Now",
+            "link": "shopify://collections",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+            "text_alignment_mobile": "center"
           }
         },
-        "text_GMWbAN": {
-          "type": "text",
-          "disabled": true,
+        "slide_QcKVdY": {
+          "type": "slide",
           "settings": {
-            "text": "",
-            "text_style": "caption-with-letter-spacing"
+            "image": "shopify://shop_images/Concept_1_1.png",
+            "heading": "infection-controlled solutions",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "Shop Now",
+            "link": "shopify://collections",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+            "text_alignment_mobile": "center"
           }
         },
-        "buttons_kDzQqz": {
-          "type": "buttons",
+        "slide_gCWg7E": {
+          "type": "slide",
           "settings": {
-            "button_label_1": "Shop Now",
-            "button_link_1": "shopify://collections",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "image": "shopify://shop_images/Concept_1_1.png",
+            "heading": "infection-controlled solutions",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "Shop Now",
+            "link": "shopify://collections",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_faXiaL": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Concept_1_1.png",
+            "heading": "infection-controlled solutions",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "Shop Now",
+            "link": "shopify://collections",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+            "text_alignment_mobile": "center"
           }
         }
       },
       "block_order": [
-        "heading_d7UM4C",
-        "text_GMWbAN",
-        "buttons_kDzQqz"
+        "slide_eEdaKF",
+        "slide_QcKVdY",
+        "slide_gCWg7E",
+        "slide_faXiaL"
       ],
       "settings": {
-        "page_container": "full-width",
-        "image": "shopify://shop_images/Concept_1_1.png",
-        "image_overlay_opacity": 0,
-        "image_height": "large",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
         "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
       }
     },
-    "image_banner_jb4H4t": {
-      "type": "image-banner",
+    "custom_image_banner_xDTGLj": {
+      "type": "custom-image-banner",
       "blocks": {
-        "heading_wxRYLn": {
+        "heading_wtkCw3": {
           "type": "heading",
           "settings": {
             "heading": "Hospital and Surgical Centrea",
             "heading_size": "h1"
           }
         },
-        "text_TUBPVV": {
+        "text_t9P8ME": {
           "type": "text",
           "settings": {
             "text": "Smarter storage. Safer care",
-            "text_style": "caption-with-letter-spacing"
+            "text_style": "body"
           }
         },
-        "buttons_rxaBHe": {
+        "buttons_3efdfV": {
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop the Room",
@@ -89,44 +132,613 @@
         }
       },
       "block_order": [
-        "heading_wxRYLn",
-        "text_TUBPVV",
-        "buttons_rxaBHe"
+        "heading_wtkCw3",
+        "text_t9P8ME",
+        "buttons_3efdfV"
       ],
       "settings": {
         "page_container": "full-width",
-        "image": "shopify://shop_images/Concept_1_1.png",
-        "image_overlay_opacity": 0,
+        "image": "shopify://shop_images/Concept_9.png",
+        "image_overlay_opacity": 30,
         "image_height": "large",
         "desktop_content_position": "top-center",
-        "show_text_box": true,
+        "show_text_box": false,
         "desktop_content_alignment": "center",
-        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "color_scheme": "scheme-28b9a3ce-e916-452a-9440-95fefcedbf92",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
     },
-    "newsletter_P4G3rJ": {
-      "type": "newsletter",
+    "custom_multicolumn_tEhTPk": {
+      "type": "custom-multicolumn",
       "blocks": {
-        "email_form_GJKBAw": {
+        "column_nPJerb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Concept_13.png",
+            "title": "CSSD",
+            "text": "<p>Theatre store</p>",
+            "text-v": "Designed for hygiene, engineered for safety",
+            "button-text": "Shop the Room",
+            "button-url": "shopify://collections"
+          }
+        },
+        "column_UTiAj3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Concept_13.png",
+            "title": "Clean Utility",
+            "text": "<p>Medications</p>",
+            "text-v": "Every space optimised,  text to go here.",
+            "button-text": "Shop the Room",
+            "button-url": "shopify://collections"
+          }
+        },
+        "column_ggEGqd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Concept_13.png",
+            "title": "Pharmacy",
+            "text": "<p>Dispensary</p>",
+            "text-v": "Less time searching, more time caring",
+            "button-text": "Shop the Room",
+            "button-url": "shopify://collections"
+          }
+        }
+      },
+      "block_order": [
+        "column_nPJerb",
+        "column_UTiAj3",
+        "column_ggEGqd"
+      ],
+      "settings": {
+        "title": "<p>Innovative Storage Solutions</p><p>Making space for care. Across every department.</p>",
+        "button_text": "",
+        "button_url": "",
+        "heading_size": "h2",
+        "title_alignment": "center",
+        "color_scheme": "",
+        "heading_color_scheme": "",
+        "columns_desktop": "3",
+        "box_shadow": true,
+        "box_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_newsletter_NdaReb": {
+      "type": "custom-newsletter",
+      "blocks": {
+        "email_form_4qqi8b": {
           "type": "email_form",
           "settings": {}
         }
       },
       "block_order": [
-        "email_form_GJKBAw"
+        "email_form_4qqi8b"
       ],
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "full_width": true,
         "heading": "<p>Stay ahead in healthcare storage. Subscribe for updates.</p>",
         "heading_size": "h2",
         "text": "<p>Archici enimodiae ratibus aut volum quiam, et quo bea  suntion serrovide por aute natempos erovita ium quunt  iumquae plab intium fuga.</p>",
         "padding_top": 40,
         "padding_bottom": 52
+      }
+    },
+    "custom_slideshow_slider_8brNtf": {
+      "type": "custom-slideshow-slider",
+      "blocks": {
+        "slide_4JtzGz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Concept_20_1.png",
+            "tag_text": "Best Sellers",
+            "logo_image": "shopify://shop_images/Steriloop_logo.png",
+            "heading": "InnovativeTheatre Trolley",
+            "heading_size": "h1",
+            "subheading": "Bearundae voluptatem eum iditatqui aut  doluptiorest adit am rerrum sitae cor  modia voluptatist amu",
+            "button_label": "Shop Theatre Trolleys",
+            "link": "shopify://collections",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_XaKzWe": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Concept_20_1.png",
+            "tag_text": "Best Sellers",
+            "logo_image": "shopify://shop_images/Steriloop_logo.png",
+            "heading": "InnovativeTheatre Trolley",
+            "heading_size": "h1",
+            "subheading": "Bearundae voluptatem eum iditatqui aut  doluptiorest adit am rerrum sitae cor  modia voluptatist amu",
+            "button_label": "Shop Theatre Trolleys",
+            "link": "shopify://collections",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_MDyjJn": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Concept_20_1.png",
+            "tag_text": "Best Sellers",
+            "logo_image": "shopify://shop_images/Steriloop_logo.png",
+            "heading": "InnovativeTheatre Trolley",
+            "heading_size": "h1",
+            "subheading": "Bearundae voluptatem eum iditatqui aut  doluptiorest adit am rerrum sitae cor  modia voluptatist amu",
+            "button_label": "Shop Theatre Trolleys",
+            "link": "shopify://collections",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_4JtzGz",
+        "slide_XaKzWe",
+        "slide_MDyjJn"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "large",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "custom_multicolumn_text_JtzPeP": {
+      "type": "custom-Multicolumn-text",
+      "blocks": {
+        "column_yYnNU6": {
+          "type": "column",
+          "settings": {
+            "title": "Service",
+            "text": "<p>• All-in-one  and beginning-to-end<br/>• Project consultation with 2D and 3D visualisations<br/>• Custom solutions and innovate designs<br/>• Precision planning and seamlessexecution</p>",
+            "text-v": "",
+            "button-text": "Find out more",
+            "button-url": "shopify://collections"
+          }
+        },
+        "column_Q9aepq": {
+          "type": "column",
+          "settings": {
+            "title": "Focus",
+            "text": "<p>• Clinical storage solutions<br/>• Infection control andsafety focus<br/>• Optimised workflow<br/>• Sterile and non-sterile  options<br/>• Optimised workflow</p>",
+            "text-v": "",
+            "button-text": "Find out more",
+            "button-url": "shopify://collections"
+          }
+        },
+        "column_ERyxPw": {
+          "type": "column",
+          "settings": {
+            "title": "Quality",
+            "text": "<p>• Gold standard STERIRACK®  System<br/>• Patented excellence<br/>• Compliance with safety  standards<br/> • Ergonomic design<br/>• Patented excellence</p>",
+            "text-v": "",
+            "button-text": "Find out more",
+            "button-url": "shopify://collections"
+          }
+        }
+      },
+      "block_order": [
+        "column_yYnNU6",
+        "column_Q9aepq",
+        "column_ERyxPw"
+      ],
+      "settings": {
+        "title": "<p>Why SpaceLogic?<br/></p>",
+        "descr": "Making space for care.",
+        "heading_size": "h1",
+        "title_alignment": "center",
+        "color_scheme": "",
+        "heading_color_scheme": "",
+        "columns_desktop": "3",
+        "box_shadow": true,
+        "box_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_image_text_slider_mztD6t": {
+      "type": "custom-Image-text-slider",
+      "blocks": {
+        "slide_gMCqNw": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Concept_20_1.png",
+            "offer_title": "",
+            "heading": "<p>Introducing the registered WireLoop Shape Mark andSteriLoop™ innovation</p>",
+            "heading_size": "h2",
+            "text": "<p>SpaceLogic is proud to introduce SteriLoop®,  featuring our registered WireLoop Shape Mark – a game-changing  innovation in healthcare  storage.</p><p><br/> SMOOTH ROUNDED CORNERS: Prevents cuts,  micro-tears, and damage to consumables<br/><br/>NO SHARP EDGES: Superior safety for hospital  staff and patient<br/><br/>ENHANCED DURABILITY AND HYGIENE:  Engineered for long-term performance<br/><br/> Look for the Loop™ – The  ultimate in safe, smart storage<br/></p>",
+            "button_label": "Shop Theatre Trolleys",
+            "offer_code_txt": "",
+            "button_link": "shopify://collections",
+            "button_style_secondary": false
+          }
+        },
+        "slide_APd6k4": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Concept_20_1.png",
+            "offer_title": "<p>InnovativeTheatre Trolley</p>",
+            "heading": "<p> Bearundae voluptatem eum iditatqui aut  doluptiorest adit am rerrum sitae cor  modia voluptatist amu</p>",
+            "heading_size": "h2",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>",
+            "button_label": "Shop Theatre Trolleys",
+            "offer_code_txt": "",
+            "button_link": "shopify://collections",
+            "button_style_secondary": false
+          }
+        },
+        "slide_RQBkyV": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Concept_20_1.png",
+            "offer_title": "<p>InnovativeTheatre Trolley</p>",
+            "heading": "<p> Bearundae voluptatem eum iditatqui aut  doluptiorest adit am rerrum sitae cor  modia voluptatist amu</p>",
+            "heading_size": "h2",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>",
+            "button_label": "Shop Theatre Trolleys",
+            "offer_code_txt": "",
+            "button_link": "shopify://collections",
+            "button_style_secondary": false
+          }
+        },
+        "slide_YKPfBw": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Concept_20_1.png",
+            "offer_title": "<p>InnovativeTheatre Trolley</p>",
+            "heading": "<p> Bearundae voluptatem eum iditatqui aut  doluptiorest adit am rerrum sitae cor  modia voluptatist amu</p>",
+            "heading_size": "h2",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>",
+            "button_label": "Shop Theatre Trolleys",
+            "offer_code_txt": "",
+            "button_link": "shopify://collections",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_gMCqNw",
+        "slide_APd6k4",
+        "slide_RQBkyV",
+        "slide_YKPfBw"
+      ],
+      "settings": {
+        "heading": "",
+        "title_alignment": "left",
+        "heading_size": "h1",
+        "layout": "image_first",
+        "content_layout": "no-overlap",
+        "height": "medium",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "mobile_content_alignment": "left",
+        "color_scheme": "",
+        "section_color_scheme": "",
+        "offer_title_color": "#ffce00",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "show_pagination": true,
+        "dot_color": "#000000",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_image_text_slider_k9tKHM": {
+      "type": "custom-Image-text-slider",
+      "blocks": {
+        "slide_UBnzye": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Concept_5.png",
+            "offer_title": "",
+            "heading": "<p>Introducing the registered WireLoop Shape Mark andSteriLoop™ innovation</p>",
+            "heading_size": "h2",
+            "text": "<p>SpaceLogic is proud to introduce SteriLoop®,  featuring our registered WireLoop Shape Mark – a game-changing  innovation in healthcare  storage.</p><p><br/> SMOOTH ROUNDED CORNERS: Prevents cuts,  micro-tears, and damage to consumables<br/><br/>NO SHARP EDGES: Superior safety for hospital  staff and patient<br/><br/>ENHANCED DURABILITY AND HYGIENE:  Engineered for long-term performance<br/><br/> Look for the Loop™ – The  ultimate in safe, smart storage<br/></p>",
+            "button_label": "Shop Theatre Trolleys",
+            "offer_code_txt": "",
+            "button_link": "shopify://collections",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_UBnzye"
+      ],
+      "settings": {
+        "heading": "Testimonials and Case Studies",
+        "title_alignment": "center",
+        "heading_size": "h1",
+        "layout": "image_first",
+        "content_layout": "no-overlap",
+        "height": "medium",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "mobile_content_alignment": "left",
+        "color_scheme": "",
+        "section_color_scheme": "",
+        "offer_title_color": "#ffce00",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "show_pagination": true,
+        "dot_color": "#000000",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "newsletter_8aQKDA": {
+      "type": "newsletter",
+      "blocks": {
+        "email_form_UTUPJm": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "email_form_UTUPJm"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "full_width": true,
+        "heading": "<p>Make space for care.Contact a consultant today</p>",
+        "heading_size": "h1",
+        "text": "<p>Archici enimodiae ratibus aut volum quiam, et quo bea  suntion serrovide por aute natempos erovita ium quunt  iumquae plab intium fuga. Temolore conescidis repudam  alicient fugit expland ucipsant.</p>",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "custom_slide_show_VH4Rk9": {
+      "type": "custom-slide-show",
+      "blocks": {
+        "slide_GrrjcX": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Concept_14_1.png",
+            "heading": "Medical Centres and Dentistry",
+            "heading_size": "h1",
+            "subheading": "Smarter storage. Safer care.",
+            "button_label": "Shop this room",
+            "link": "shopify://collections",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_dBHEhN": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Concept_14_1.png",
+            "heading": "Medical Centres and Dentistry",
+            "heading_size": "h1",
+            "subheading": "Smarter storage. Safer care.",
+            "button_label": "Shop this room",
+            "link": "shopify://collections",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_mCcCeU": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Concept_14_1.png",
+            "heading": "Medical Centres and Dentistry",
+            "heading_size": "h1",
+            "subheading": "Smarter storage. Safer care.",
+            "button_label": "Shop this room",
+            "link": "shopify://collections",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_Rw4QMF": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Concept_14_1.png",
+            "heading": "Medical Centres and Dentistry",
+            "heading_size": "h1",
+            "subheading": "Smarter storage. Safer care.",
+            "button_label": "Shop this room",
+            "link": "shopify://collections",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_GrrjcX",
+        "slide_dBHEhN",
+        "slide_mCcCeU",
+        "slide_Rw4QMF"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "custom_multicolumn_inkqq6": {
+      "type": "custom-multicolumn",
+      "blocks": {
+        "column_KPBaVb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Concept_13.png",
+            "title": "Shelving",
+            "text": "<p> Text to go here.</p>",
+            "text-v": "",
+            "button-text": "Shop for Shelving",
+            "button-url": "shopify://collections"
+          }
+        },
+        "column_G3KQPY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Concept_13.png",
+            "title": "Benching",
+            "text": "<p> Text to go here.</p>",
+            "text-v": "",
+            "button-text": "Shop for Benching",
+            "button-url": "shopify://collections"
+          }
+        },
+        "column_tJjXWa": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Concept_13.png",
+            "title": "Trolleys & Carts",
+            "text": "<p> Text to go here.</p>",
+            "text-v": "",
+            "button-text": "Shop for Benching",
+            "button-url": "shopify://collections"
+          }
+        },
+        "column_6nDDjQ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Concept_13.png",
+            "title": "Accessories",
+            "text": "<p> Text to go here.</p>",
+            "text-v": "",
+            "button-text": "Shop for Benching",
+            "button-url": "shopify://collections"
+          }
+        }
+      },
+      "block_order": [
+        "column_KPBaVb",
+        "column_G3KQPY",
+        "column_tJjXWa",
+        "column_6nDDjQ"
+      ],
+      "settings": {
+        "title": "<p>Find the Perfect Storage Solution</p>",
+        "button_text": "Shop the full range",
+        "button_url": "shopify://collections",
+        "heading_size": "h2",
+        "title_alignment": "center",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "heading_color_scheme": "",
+        "columns_desktop": "3",
+        "box_shadow": true,
+        "box_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "product_catalog_VjYNFG": {
+      "type": "product-catalog",
+      "settings": {
+        "product_image": "shopify://shop_images/image_104.png",
+        "logo_link": "",
+        "heading": "<p>View our cataloguein your browser window</p>",
+        "heading_size": "h1",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "description": "<p>View online or download a PDF, et quo bea suntion serrovide  por aute natempos erovita ium quunt iumquae plab intium fuga.  Temolore conescidis repudam alicient fugit expland ucipsant</p>",
+        "button_1_text": "View Catalogue",
+        "button_1_link": "",
+        "button_2_text": "View Catalogue",
+        "button_2_link": "shopify://collections",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "proudly_support_NnMGAw": {
+      "type": "proudly-support",
+      "blocks": {
+        "support_item_3Hcczh": {
+          "type": "support_item",
+          "settings": {
+            "image": "shopify://shop_images/support-logo-1.png"
+          }
+        },
+        "support_item_fjND3Q": {
+          "type": "support_item",
+          "settings": {
+            "image": "shopify://shop_images/support-logo-2.png"
+          }
+        },
+        "support_item_tApGYX": {
+          "type": "support_item",
+          "settings": {
+            "image": "shopify://shop_images/support-logo-5.png"
+          }
+        },
+        "support_item_pzJMPa": {
+          "type": "support_item",
+          "settings": {
+            "image": "shopify://shop_images/support-logo-4.png"
+          }
+        },
+        "support_item_DnVgCF": {
+          "type": "support_item",
+          "settings": {
+            "image": "shopify://shop_images/support-logo-3.png"
+          }
+        }
+      },
+      "block_order": [
+        "support_item_3Hcczh",
+        "support_item_fjND3Q",
+        "support_item_tApGYX",
+        "support_item_pzJMPa",
+        "support_item_DnVgCF"
+      ],
+      "settings": {
+        "heading": "<p>We proudly Support</p>",
+        "heading_size": "h1",
+        "title_alignment": "center",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "image_text_slider_HkQX47": {
@@ -180,6 +792,7 @@
         "slide_7RNfbg",
         "slide_fqRC9F"
       ],
+      "disabled": true,
       "settings": {
         "heading": "",
         "title_alignment": "left",
@@ -203,6 +816,7 @@
     },
     "key_message_Ccdzez": {
       "type": "key-message",
+      "disabled": true,
       "settings": {
         "title": "TAILORED CLINICAL STORAGE SOLUTIONS FOR HEALTHCARE",
         "description": "<p>The gold standard for hospitals, medical centers and aged care</p>",
@@ -248,6 +862,7 @@
         "column_FL4YKp",
         "column_zqbWrd"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -263,6 +878,7 @@
     },
     "featured_collection_EKGb6j": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Featured <strong>collection</strong>",
         "heading_size": "h1",
@@ -324,6 +940,7 @@
         "column_BrzGgm",
         "column_byiDxM"
       ],
+      "disabled": true,
       "settings": {
         "sec_title": "<p>Three interconnected divisions, delivering a complete end-to-end <strong>Service</strong></p>",
         "heading_size": "h1",
@@ -369,6 +986,7 @@
         "heading_qykFgG",
         "text_7HUAMi"
       ],
+      "disabled": true,
       "settings": {
         "title_alignment": "center",
         "full_width": true,
@@ -414,6 +1032,7 @@
         "column_iprATb",
         "column_bEUKAT"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -472,6 +1091,7 @@
         "text_YzkzXq",
         "button_xWPXRk"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/home-about.png",
         "height": "adapt",
@@ -545,6 +1165,7 @@
         "column_pmjD6n",
         "column_JJLnaV"
       ],
+      "disabled": true,
       "settings": {
         "sec_title": "<p>The SpaceLogic <strong>Commitment</strong></p>",
         "heading_size": "h1",
@@ -598,6 +1219,7 @@
         "text_D8Fi3n",
         "button_9D34tn"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/new-product-banner.png",
         "height": "adapt",
@@ -616,85 +1238,22 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "testimonial_MUVEXK": {
-      "type": "testimonial",
-      "blocks": {
-        "heading_jiNRbL": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Listen from our Happy <strong>Customers</strong></p>",
-            "heading_size": "h1"
-          }
-        },
-        "testimonial_aPewpj": {
-          "type": "testimonial",
-          "settings": {
-            "testimonial_text": "<p>Everything was scattered everywhere. Seeing everything organized and systematic is such a relief for us, especially for the nurses. For infection control it ticks all the boxes - there’s no dust, it’s easy to clean. We couldn’t have asked for anything more, there’s only praise for it.</p>",
-            "author_image": "shopify://shop_images/testimonial-dp.png",
-            "author_name": "Josh Farrington",
-            "author_title": "Innovation Manager, Cabrini Technology Group"
-          }
-        },
-        "testimonial_RP8Pmz": {
-          "type": "testimonial",
-          "settings": {
-            "testimonial_text": "<p>Everything was scattered everywhere. Seeing everything organized and systematic is such a relief for us, especially for the nurses. For infection control it ticks all the boxes - there’s no dust, it’s easy to clean. We couldn’t have asked for anything more, there’s only praise for it.</p>",
-            "author_image": "shopify://shop_images/testimonial-dp.png",
-            "author_name": "Josh Farrington",
-            "author_title": "Innovation Manager, Cabrini Technology Group"
-          }
-        }
-      },
-      "block_order": [
-        "heading_jiNRbL",
-        "testimonial_aPewpj",
-        "testimonial_RP8Pmz"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/Group_1171277742.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "enable_loop": true,
-        "show_navigation": true,
-        "show_pagination": false,
-        "arrow_color": "#ffce00",
-        "dot_color": "#ffce00",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "featured_blog_93BJwt": {
-      "type": "featured-blog",
-      "settings": {
-        "heading": "Latest news from <strong>SpaceLogic</strong>",
-        "heading_size": "h1",
-        "title_alignment": "center",
-        "blog": "news",
-        "post_limit": 3,
-        "columns_desktop": 3,
-        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "show_image": true,
-        "show_date": true,
-        "show_author": false,
-        "show_view_all": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
-    "image_banner_G44wRe",
-    "image_banner_jb4H4t",
-    "newsletter_P4G3rJ",
+    "custom_slide_show_aTXHa3",
+    "custom_image_banner_xDTGLj",
+    "custom_multicolumn_tEhTPk",
+    "custom_newsletter_NdaReb",
+    "custom_slideshow_slider_8brNtf",
+    "custom_multicolumn_text_JtzPeP",
+    "custom_image_text_slider_mztD6t",
+    "custom_image_text_slider_k9tKHM",
+    "newsletter_8aQKDA",
+    "custom_slide_show_VH4Rk9",
+    "custom_multicolumn_inkqq6",
+    "product_catalog_VjYNFG",
+    "proudly_support_NnMGAw",
     "image_text_slider_HkQX47",
     "key_message_Ccdzez",
     "multicolumn_box_with_image_jL37Wi",
@@ -704,8 +1263,6 @@
     "multicolumn_pages_box_VCT8HN",
     "image_with_text_v1_CK3fUJ",
     "spacelogic_commitment_9ixh9w",
-    "image_with_text_v1_tjigzf",
-    "testimonial_MUVEXK",
-    "featured_blog_93BJwt"
+    "image_with_text_v1_tjigzf"
   ]
 }

@@ -208,19 +208,19 @@
         "padding_bottom": 36
       }
     },
-    "newsletter_P4G3rJ": {
-      "type": "newsletter",
+    "custom_newsletter_NdaReb": {
+      "type": "custom-newsletter",
       "blocks": {
-        "email_form_GJKBAw": {
+        "email_form_4qqi8b": {
           "type": "email_form",
           "settings": {}
         }
       },
       "block_order": [
-        "email_form_GJKBAw"
+        "email_form_4qqi8b"
       ],
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "full_width": true,
         "heading": "<p>Stay ahead in healthcare storage. Subscribe for updates.</p>",
         "heading_size": "h2",
@@ -229,91 +229,84 @@
         "padding_bottom": 52
       }
     },
-    "custom_image_text_slider_THfQXC": {
-      "type": "custom-Image-text-slider",
+    "custom_slideshow_slider_8brNtf": {
+      "type": "custom-slideshow-slider",
       "blocks": {
-        "slide_RywWVb": {
+        "slide_4JtzGz": {
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Concept_20_1.png",
-            "offer_title": "<p>InnovativeTheatre Trolley</p>",
-            "heading": "<p> Bearundae voluptatem eum iditatqui aut  doluptiorest adit am rerrum sitae cor  modia voluptatist amu</p>",
-            "heading_size": "h2",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>",
+            "tag_text": "Best Sellers",
+            "logo_image": "shopify://shop_images/Steriloop_logo.png",
+            "heading": "InnovativeTheatre Trolley",
+            "heading_size": "h1",
+            "subheading": "Bearundae voluptatem eum iditatqui aut  doluptiorest adit am rerrum sitae cor  modia voluptatist amu",
             "button_label": "Shop Theatre Trolleys",
-            "offer_code_txt": "",
-            "button_link": "shopify://collections",
-            "button_style_secondary": false
+            "link": "shopify://collections",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+            "text_alignment_mobile": "center"
           }
         },
-        "slide_WxDkMU": {
+        "slide_XaKzWe": {
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Concept_20_1.png",
-            "offer_title": "<p>InnovativeTheatre Trolley</p>",
-            "heading": "<p> Bearundae voluptatem eum iditatqui aut  doluptiorest adit am rerrum sitae cor  modia voluptatist amu</p>",
-            "heading_size": "h2",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>",
+            "tag_text": "Best Sellers",
+            "logo_image": "shopify://shop_images/Steriloop_logo.png",
+            "heading": "InnovativeTheatre Trolley",
+            "heading_size": "h1",
+            "subheading": "Bearundae voluptatem eum iditatqui aut  doluptiorest adit am rerrum sitae cor  modia voluptatist amu",
             "button_label": "Shop Theatre Trolleys",
-            "offer_code_txt": "",
-            "button_link": "shopify://collections",
-            "button_style_secondary": false
+            "link": "shopify://collections",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+            "text_alignment_mobile": "center"
           }
         },
-        "slide_hEc8qA": {
+        "slide_MDyjJn": {
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Concept_20_1.png",
-            "offer_title": "<p>InnovativeTheatre Trolley</p>",
-            "heading": "<p> Bearundae voluptatem eum iditatqui aut  doluptiorest adit am rerrum sitae cor  modia voluptatist amu</p>",
-            "heading_size": "h2",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>",
+            "tag_text": "Best Sellers",
+            "logo_image": "shopify://shop_images/Steriloop_logo.png",
+            "heading": "InnovativeTheatre Trolley",
+            "heading_size": "h1",
+            "subheading": "Bearundae voluptatem eum iditatqui aut  doluptiorest adit am rerrum sitae cor  modia voluptatist amu",
             "button_label": "Shop Theatre Trolleys",
-            "offer_code_txt": "",
-            "button_link": "shopify://collections",
-            "button_style_secondary": false
-          }
-        },
-        "slide_UHfXgU": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Concept_20_1.png",
-            "offer_title": "<p>InnovativeTheatre Trolley</p>",
-            "heading": "<p> Bearundae voluptatem eum iditatqui aut  doluptiorest adit am rerrum sitae cor  modia voluptatist amu</p>",
-            "heading_size": "h2",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>",
-            "button_label": "Shop Theatre Trolleys",
-            "offer_code_txt": "",
-            "button_link": "shopify://collections",
-            "button_style_secondary": false
+            "link": "shopify://collections",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+            "text_alignment_mobile": "center"
           }
         }
       },
       "block_order": [
-        "slide_RywWVb",
-        "slide_WxDkMU",
-        "slide_hEc8qA",
-        "slide_UHfXgU"
+        "slide_4JtzGz",
+        "slide_XaKzWe",
+        "slide_MDyjJn"
       ],
       "settings": {
-        "heading": "",
-        "title_alignment": "left",
-        "heading_size": "h1",
-        "layout": "image_first",
-        "content_layout": "no-overlap",
-        "height": "medium",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "mobile_content_alignment": "left",
-        "color_scheme": "",
-        "section_color_scheme": "",
-        "offer_title_color": "#ffce00",
-        "autoplay": false,
-        "autoplay_speed": 5,
-        "show_pagination": true,
-        "dot_color": "#000000",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "layout": "full_bleed",
+        "slide_height": "large",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
       }
     },
     "custom_multicolumn_text_JtzPeP": {
@@ -1245,89 +1238,14 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "testimonial_MUVEXK": {
-      "type": "testimonial",
-      "blocks": {
-        "heading_jiNRbL": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Listen from our Happy <strong>Customers</strong></p>",
-            "heading_size": "h1"
-          }
-        },
-        "testimonial_aPewpj": {
-          "type": "testimonial",
-          "settings": {
-            "testimonial_text": "<p>Everything was scattered everywhere. Seeing everything organized and systematic is such a relief for us, especially for the nurses. For infection control it ticks all the boxes - there’s no dust, it’s easy to clean. We couldn’t have asked for anything more, there’s only praise for it.</p>",
-            "author_image": "shopify://shop_images/testimonial-dp.png",
-            "author_name": "Josh Farrington",
-            "author_title": "Innovation Manager, Cabrini Technology Group"
-          }
-        },
-        "testimonial_RP8Pmz": {
-          "type": "testimonial",
-          "settings": {
-            "testimonial_text": "<p>Everything was scattered everywhere. Seeing everything organized and systematic is such a relief for us, especially for the nurses. For infection control it ticks all the boxes - there’s no dust, it’s easy to clean. We couldn’t have asked for anything more, there’s only praise for it.</p>",
-            "author_image": "shopify://shop_images/testimonial-dp.png",
-            "author_name": "Josh Farrington",
-            "author_title": "Innovation Manager, Cabrini Technology Group"
-          }
-        }
-      },
-      "block_order": [
-        "heading_jiNRbL",
-        "testimonial_aPewpj",
-        "testimonial_RP8Pmz"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "shopify://shop_images/Group_1171277742.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "enable_loop": true,
-        "show_navigation": true,
-        "show_pagination": false,
-        "arrow_color": "#ffce00",
-        "dot_color": "#ffce00",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "featured_blog_93BJwt": {
-      "type": "featured-blog",
-      "disabled": true,
-      "settings": {
-        "heading": "Latest news from <strong>SpaceLogic</strong>",
-        "heading_size": "h1",
-        "title_alignment": "center",
-        "blog": "news",
-        "post_limit": 3,
-        "columns_desktop": 3,
-        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "show_image": true,
-        "show_date": true,
-        "show_author": false,
-        "show_view_all": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "custom_slide_show_aTXHa3",
     "custom_image_banner_xDTGLj",
     "custom_multicolumn_tEhTPk",
-    "newsletter_P4G3rJ",
-    "custom_image_text_slider_THfQXC",
+    "custom_newsletter_NdaReb",
+    "custom_slideshow_slider_8brNtf",
     "custom_multicolumn_text_JtzPeP",
     "custom_image_text_slider_mztD6t",
     "custom_image_text_slider_k9tKHM",
@@ -1345,8 +1263,6 @@
     "multicolumn_pages_box_VCT8HN",
     "image_with_text_v1_CK3fUJ",
     "spacelogic_commitment_9ixh9w",
-    "image_with_text_v1_tjigzf",
-    "testimonial_MUVEXK",
-    "featured_blog_93BJwt"
+    "image_with_text_v1_tjigzf"
   ]
 }

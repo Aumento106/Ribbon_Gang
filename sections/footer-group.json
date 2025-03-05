@@ -134,6 +134,7 @@
         },
         "link_list_hwhaAc": {
           "type": "link_list",
+          "disabled": true,
           "settings": {
             "heading": "Navigation",
             "menu": "footer-navigation-menu"
@@ -149,6 +150,7 @@
         },
         "location_xER6Hd": {
           "type": "location",
+          "disabled": true,
           "settings": {
             "heading": "Location",
             "menu": "footer-location-menu"

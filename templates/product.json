@@ -181,6 +181,14 @@
             "text_style": "body"
           }
         },
+        "icon_text_V47ic9": {
+          "type": "icon_text",
+          "disabled": true,
+          "settings": {
+            "icon_image": "shopify://shop_images/Vector_4.png",
+            "icon_text": "Fast delivery"
+          }
+        },
         "sku_4xMVrm": {
           "type": "sku",
           "settings": {}
@@ -242,6 +250,7 @@
         "title",
         "price",
         "text_z8PRWE",
+        "icon_text_V47ic9",
         "sku_4xMVrm",
         "variant_picker",
         "quantity_selector",

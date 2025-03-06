@@ -7,8 +7,102 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
+
 {
   "sections": {
+    "custom_slide_show_aTXHa3": {
+      "type": "custom-slide-show",
+      "blocks": {
+        "slide_eEdaKF": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Concept_1_1.png",
+            "heading": "infection-controlled solutions",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "Shop Now",
+            "link": "shopify://collections",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_QcKVdY": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Concept_1_1.png",
+            "heading": "infection-controlled solutions",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "Shop Now",
+            "link": "shopify://collections",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_gCWg7E": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Concept_1_1.png",
+            "heading": "infection-controlled solutions",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "Shop Now",
+            "link": "shopify://collections",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_faXiaL": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Concept_1_1.png",
+            "heading": "infection-controlled solutions",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "Shop Now",
+            "link": "shopify://collections",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_eEdaKF",
+        "slide_QcKVdY",
+        "slide_gCWg7E",
+        "slide_faXiaL"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "large",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -36,7 +130,7 @@
           "type": "heading",
           "settings": {
             "heading": "Contact US",
-            "heading_size": "h1"
+            "heading_size": "h0"
           }
         },
         "text_hwy9gg": {
@@ -62,7 +156,7 @@
         "desktop_content_position": "center",
         "content_alignment": "center",
         "content_width": "full_width",
-        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "color_scheme": "scheme-28b9a3ce-e916-452a-9440-95fefcedbf92",
         "full_width": true,
         "no_margin": false,
         "section_border": false,
@@ -76,54 +170,54 @@
         "location_xwBwzh": {
           "type": "location",
           "settings": {
-            "title": "AUSTRALIA (OCEANIA)",
-            "company": "HEAD OFFICE: SPACELOGIC GROUP PTY LTD",
+            "title": "Australia",
+            "company": "SPACELOGIC GROUP PTY LTD",
             "address": "7 Cameron Place, Orange NSW 2800, Australia",
             "phone": "02 6362 5533",
             "phone_link": "tel:02 6362 5533",
             "email": "abc@gmail.com",
             "email_link": "mailto:abc@gmail.com",
-            "linkedin": "https://www.linkedin.com/company/spacelogic/",
             "facebook": "https://www.facebook.com/spacelogichealthcare",
             "instagram": "https://www.instagram.com/spacelogichealthcare/",
             "twitter": "https://twitter.com/space_logic",
             "youtube": "https://www.youtube.com/channel/UCtN25Fwi7Evc-SAI86suAjg/videos",
+            "linkedin": "",
             "distributor_text": ""
           }
         },
         "location_mTCeAQ": {
           "type": "location",
           "settings": {
-            "title": "NORTH AMERICA",
-            "company": "HEAD OFFICE: SPACELOGIC GROUP LTD",
-            "address": "44 Commerce Street, Springfield NJ 07081, United States",
+            "title": "United States",
+            "company": "SPACELOGIC GROUP LTD",
+            "address": "44 Commerce Street, etc",
             "phone": "973 379 4033",
             "phone_link": "tel:973 379 4033",
             "email": "abc@gmail.com",
             "email_link": "mailto:abc@gmail.com",
-            "linkedin": "https://www.linkedin.com/company/spacelogic/",
             "facebook": "https://www.facebook.com/spacelogichealthcare",
             "instagram": "",
             "twitter": "",
             "youtube": "",
+            "linkedin": "https://www.linkedin.com/company/spacelogic/",
             "distributor_text": ""
           }
         },
         "location_BQBU6m": {
           "type": "location",
           "settings": {
-            "title": "AUTHORIZED DISTRIBUTORS (US)",
+            "title": "Authorised  distributors (US)",
             "company": "",
             "address": "",
             "phone": "",
             "phone_link": "",
             "email": "",
             "email_link": "",
-            "linkedin": "",
             "facebook": "",
             "instagram": "",
             "twitter": "",
             "youtube": "",
+            "linkedin": "",
             "distributor_logo_1": "shopify://shop_images/image_108.png",
             "distributor_logo_2": "shopify://shop_images/image_109.png",
             "distributor_text": "For more information on our Distributors in the US please click on the logos below:"
@@ -136,10 +230,10 @@
         "location_BQBU6m"
       ],
       "settings": {
-        "row_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "title": "Get in Touch",
-        "padding_top": 140,
-        "padding_bottom": 105
+        "row_color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "title": "Enquiry",
+        "padding_top": 70,
+        "padding_bottom": 70
       }
     },
     "product_catalog_3gEWDy": {
@@ -161,6 +255,7 @@
     }
   },
   "order": [
+    "custom_slide_show_aTXHa3",
     "main",
     "form",
     "rich_text_CeDtL6",

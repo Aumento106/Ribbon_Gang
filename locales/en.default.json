@@ -259,7 +259,7 @@
     "contact": {
       "form": {
         "title": "Contact form",
-        "name": "Name",
+        "name": "Your Name",
         "email": "Email",
         "phone": "Phone",
         "organisation": "Organisation",

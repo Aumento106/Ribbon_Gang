@@ -1,10 +1,10 @@
 .team-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  column-gap: 24px;
+  column-gap: 40px;
   row-gap: 130px;
   overflow-x: auto;
-  padding: 20px 0;
+  padding: 100px 0 0 0;
   scroll-snap-type: x mandatory;
   overflow: visible;
 }
@@ -12,17 +12,21 @@
   margin-top: 50px;
 }
 .team-member {
-  background: #F5F5F5;
+  /* background: #F5F5F5; */
   padding: 24px;
   text-align: center;
   border-radius: 16px;
   scroll-snap-align: start;
   position: relative;
+  border: 1px solid #C9C8C3;
 }
 .team-member-detail-wrp {
   display: inline-block;
   width: 100%;
-  padding-top: 110px;
+  padding: 110px 24px 40px;
+  background: #F7F7F5;
+  border-radius: 16px;
+  height: 100%;
 }
 .team-member-image {
   width: 188px;
@@ -58,7 +62,7 @@
   display: flex;
   justify-content: center;
   gap: 16px;
-  margin-bottom: 24px;
+  margin-bottom: 0px;
 }
 .rich-text__blocks .rich-text__heading  a {
   text-decoration: unset;
@@ -67,7 +71,7 @@
   display: inline-block;
   width: 100%;
   line-height: 1.45;
-  margin-bottom: 54px;
+  margin-bottom: 40px;
 }
 .social-link {
   background: #FFCE00;

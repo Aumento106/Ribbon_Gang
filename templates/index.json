@@ -17,11 +17,12 @@
           "settings": {
             "image": "shopify://shop_images/Concept_1_1.png",
             "heading": "infection-controlled solutions",
-            "heading_size": "h1",
+            "heading_size": "h0",
             "subheading": "",
             "button_label": "Shop Now",
             "link": "shopify://collections",
             "button_style_secondary": false,
+            "botton_position": 120,
             "box_align": "middle-center",
             "show_text_box": false,
             "text_alignment": "center",
@@ -40,6 +41,7 @@
             "button_label": "Shop Now",
             "link": "shopify://collections",
             "button_style_secondary": false,
+            "botton_position": 120,
             "box_align": "middle-center",
             "show_text_box": false,
             "text_alignment": "center",
@@ -58,6 +60,7 @@
             "button_label": "Shop Now",
             "link": "shopify://collections",
             "button_style_secondary": false,
+            "botton_position": 120,
             "box_align": "middle-center",
             "show_text_box": false,
             "text_alignment": "center",
@@ -76,6 +79,7 @@
             "button_label": "Shop Now",
             "link": "shopify://collections",
             "button_style_secondary": false,
+            "botton_position": 120,
             "box_align": "middle-center",
             "show_text_box": false,
             "text_alignment": "center",
@@ -99,7 +103,9 @@
         "change_slides_speed": 5,
         "image_behavior": "none",
         "show_text_below": false,
-        "accessibility_info": "Slideshow about our brand"
+        "accessibility_info": "Slideshow about our brand",
+        "padding_top": 0,
+        "padding_bottom": 100
       }
     },
     "custom_image_banner_xDTGLj": {
@@ -109,14 +115,14 @@
           "type": "heading",
           "settings": {
             "heading": "Hospital and Surgical Centrea",
-            "heading_size": "h1"
+            "heading_size": "h0"
           }
         },
         "text_t9P8ME": {
           "type": "text",
           "settings": {
             "text": "Smarter storage. Safer care",
-            "text_style": "body"
+            "text_style": "subtitle"
           }
         },
         "buttons_3efdfV": {
@@ -127,7 +133,8 @@
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_style_secondary_2": false,
+            "botton_position": 120
           }
         }
       },
@@ -148,7 +155,9 @@
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
-        "show_text_below": true
+        "show_text_below": true,
+        "padding_top": 0,
+        "padding_bottom": 100
       }
     },
     "custom_multicolumn_tEhTPk": {
@@ -194,18 +203,17 @@
         "column_ggEGqd"
       ],
       "settings": {
-        "title": "<p>Innovative Storage Solutions</p><p>Making space for care. Across every department.</p>",
+        "title": "<p>Innovative Storage Solutions</p>",
+        "sec_subtitle": "Making space for care. Across every department.",
         "button_text": "",
         "button_url": "",
-        "heading_size": "h2",
+        "heading_size": "h0",
         "title_alignment": "center",
-        "color_scheme": "",
-        "heading_color_scheme": "",
+        "color_scheme": "scheme-d0ebcb12-c01a-43e5-9459-5fe3be9cc0c4",
         "columns_desktop": "3",
-        "box_shadow": true,
-        "box_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "box_shadow": false,
+        "padding_top": 50,
+        "padding_bottom": 50
       }
     },
     "custom_newsletter_NdaReb": {
@@ -220,13 +228,15 @@
         "email_form_4qqi8b"
       ],
       "settings": {
-        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "full_width": true,
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "full_width": false,
         "heading": "<p>Stay ahead in healthcare storage. Subscribe for updates.</p>",
-        "heading_size": "h2",
+        "heading_size": "h0",
         "text": "<p>Archici enimodiae ratibus aut volum quiam, et quo bea  suntion serrovide por aute natempos erovita ium quunt  iumquae plab intium fuga.</p>",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 70,
+        "padding_bottom": 70,
+        "margin_top": 100,
+        "margin_bottom": 100
       }
     },
     "custom_slideshow_slider_8brNtf": {
@@ -244,7 +254,7 @@
             "button_label": "Shop Theatre Trolleys",
             "link": "shopify://collections",
             "button_style_secondary": false,
-            "box_align": "middle-center",
+            "box_align": "middle-left",
             "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
@@ -301,12 +311,14 @@
       "settings": {
         "layout": "full_bleed",
         "slide_height": "large",
-        "slider_visual": "counter",
+        "slider_visual": "dots",
         "auto_rotate": false,
         "change_slides_speed": 5,
         "image_behavior": "none",
         "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
+        "accessibility_info": "Slideshow about our brand",
+        "padding_top": 0,
+        "padding_bottom": 100
       }
     },
     "custom_multicolumn_text_JtzPeP": {
@@ -349,11 +361,11 @@
         "column_ERyxPw"
       ],
       "settings": {
-        "title": "<p>Why SpaceLogic?<br/></p>",
+        "title": "<p>Why SpaceLogic?</p>",
         "descr": "Making space for care.",
         "heading_size": "h1",
         "title_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-d0ebcb12-c01a-43e5-9459-5fe3be9cc0c4",
         "heading_color_scheme": "",
         "columns_desktop": "3",
         "box_shadow": true,
@@ -503,13 +515,15 @@
         "email_form_UTUPJm"
       ],
       "settings": {
-        "color_scheme": "",
-        "full_width": true,
-        "heading": "<p>Make space for care.Contact a consultant today</p>",
-        "heading_size": "h1",
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "full_width": false,
+        "heading": "<p>Make space for care. <br/>Contact a consultant today</p>",
+        "heading_size": "h0",
         "text": "<p>Archici enimodiae ratibus aut volum quiam, et quo bea  suntion serrovide por aute natempos erovita ium quunt  iumquae plab intium fuga. Temolore conescidis repudam  alicient fugit expland ucipsant.</p>",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "margin_top": 0,
+        "margin_bottom": 0
       }
     },
     "custom_slide_show_VH4Rk9": {
@@ -525,6 +539,7 @@
             "button_label": "Shop this room",
             "link": "shopify://collections",
             "button_style_secondary": false,
+            "botton_position": 120,
             "box_align": "middle-center",
             "show_text_box": false,
             "text_alignment": "center",
@@ -543,6 +558,7 @@
             "button_label": "Shop this room",
             "link": "shopify://collections",
             "button_style_secondary": false,
+            "botton_position": 120,
             "box_align": "middle-center",
             "show_text_box": false,
             "text_alignment": "center",
@@ -561,6 +577,7 @@
             "button_label": "Shop this room",
             "link": "shopify://collections",
             "button_style_secondary": false,
+            "botton_position": 120,
             "box_align": "middle-center",
             "show_text_box": false,
             "text_alignment": "center",
@@ -579,6 +596,7 @@
             "button_label": "Shop this room",
             "link": "shopify://collections",
             "button_style_secondary": false,
+            "botton_position": 120,
             "box_align": "middle-center",
             "show_text_box": false,
             "text_alignment": "center",
@@ -602,7 +620,9 @@
         "change_slides_speed": 5,
         "image_behavior": "none",
         "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
+        "accessibility_info": "Slideshow about our brand",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "custom_multicolumn_inkqq6": {
@@ -661,15 +681,14 @@
       ],
       "settings": {
         "title": "<p>Find the Perfect Storage Solution</p>",
+        "sec_subtitle": "Subtitle",
         "button_text": "Shop the full range",
         "button_url": "shopify://collections",
         "heading_size": "h2",
         "title_alignment": "center",
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "heading_color_scheme": "",
         "columns_desktop": "3",
         "box_shadow": true,
-        "box_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "padding_top": 36,
         "padding_bottom": 36
       }

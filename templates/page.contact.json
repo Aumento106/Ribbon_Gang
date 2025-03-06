@@ -1,14 +1,99 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
+
 {
   "sections": {
+    "custom_slide_show_aTXHa3": {
+      "type": "custom-slide-show",
+      "blocks": {
+        "slide_eEdaKF": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Concept_1_1.png",
+            "heading": "infection-controlled solutions",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "Shop Now",
+            "link": "shopify://collections",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_QcKVdY": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Concept_1_1.png",
+            "heading": "infection-controlled solutions",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "Shop Now",
+            "link": "shopify://collections",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_gCWg7E": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Concept_1_1.png",
+            "heading": "infection-controlled solutions",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "Shop Now",
+            "link": "shopify://collections",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_faXiaL": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Concept_1_1.png",
+            "heading": "infection-controlled solutions",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "Shop Now",
+            "link": "shopify://collections",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_eEdaKF",
+        "slide_QcKVdY",
+        "slide_gCWg7E",
+        "slide_faXiaL"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "large",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -161,6 +246,7 @@
     }
   },
   "order": [
+    "custom_slide_show_aTXHa3",
     "main",
     "form",
     "rich_text_CeDtL6",

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
   --alpha-button-background: 1;
@@ -1271,7 +1272,7 @@ button.shopify-payment-button__button--unbranded {
   -webkit-appearance: none;
   appearance: none;
   background-color: rgba(var(--color-button), var(--alpha-button-background));
-  padding: 16px 40px;
+  padding: 16px 60px;
 }
 
 .button:before,
@@ -2843,9 +2844,17 @@ details[open]>.header__submenu {
   margin-left: 0;
 }
 
+.header-wrapper .header-main-menu {
+  display: none;
+}
+
 @media screen and (min-width: 1245px) {
   .header__inline-menu {
-    display: block;
+    display: flex;
+  }
+
+  .header-wrapper .header-main-menu {
+    display: flex;
   }
 
   .header--top-center .header__inline-menu {

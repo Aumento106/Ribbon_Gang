@@ -269,11 +269,7 @@
               {% endif %}
 
                 <div class="social-links">
-                  {% if block.settings.linkedin %}
-                    <a href="{{ block.settings.linkedin }}" class="social-link" target="_blank" rel="noopener">
-                      {{- 'linkdin.svg' | inline_asset_content -}}
-                    </a>
-                  {% endif %}
+                  
                   {% if block.settings.facebook %}
                     <a href="{{ block.settings.facebook }}" class="social-link" target="_blank" rel="noopener">
                       <svg xmlns="http://www.w3.org/2000/svg" width="13" height="22" viewBox="0 0 13 22" fill="none">
@@ -281,21 +277,31 @@
                       </svg>
                     </a>
                   {% endif %}
+                  
                   {% if block.settings.instagram %}
                     <a href="{{ block.settings.instagram }}" class="social-link" target="_blank" rel="noopener">
                       {{- 'instragram.svg' | inline_asset_content -}}
                     </a>
                   {% endif %}
+                  
                   {% if block.settings.twitter %}
                     <a href="{{ block.settings.twitter }}" class="social-link" target="_blank" rel="noopener">
                       {{- 'twitter.svg' | inline_asset_content -}}
                     </a>
                   {% endif %}
+
                   {% if block.settings.youtube %}
                     <a href="{{ block.settings.youtube }}" class="social-link" target="_blank" rel="noopener">
                       {{- 'youtube.svg' | inline_asset_content -}}
                     </a>
                   {% endif %}
+
+                  {% if block.settings.linkedin %}
+                    <a href="{{ block.settings.linkedin }}" class="social-link" target="_blank" rel="noopener">
+                      {{- 'linkdin.svg' | inline_asset_content -}}
+                    </a>
+                  {% endif %}
+                  
                 </div>
                 </div>
               </div>
@@ -401,11 +407,6 @@
         },
         {
           "type": "url",
-          "id": "linkedin",
-          "label": "LinkedIn URL"
-        },
-        {
-          "type": "url",
           "id": "facebook",
           "label": "Facebook URL"
         },
@@ -423,6 +424,11 @@
           "type": "url",
           "id": "youtube",
           "label": "YouTube URL"
+        },
+        {
+          "type": "url",
+          "id": "linkedin",
+          "label": "LinkedIn URL"
         },
         {
           "type": "image_picker",

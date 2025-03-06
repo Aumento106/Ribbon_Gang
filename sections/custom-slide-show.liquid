@@ -5,6 +5,7 @@
 
 {%- if section.settings.slide_height == 'adapt_image' and section.blocks.first.settings.image != blank -%}
   {%- style -%}
+
     @media screen and (max-width: 749px) {
       #Slider-{{ section.id }}::before,
       #Slider-{{ section.id }} .media::before,
@@ -27,16 +28,37 @@
 {%- endif -%}
 
 {%- style -%}
-  .section-custom-slide-show .banner__buttons {
-    position: absolute;
-    left: 50%;
-    bottom: 120px;
-    transform: translateX(-50%);
-  }
+  {% for block in section.blocks %}
+    .section-custom-slide-show .banner__buttons {
+      position: absolute;
+      left: 50%;
+      bottom: {{ block.settings.botton_position }}px;
+      transform: translateX(-50%);
+    }
+  {% endfor %}
+
+    .section-{{ section.id }}-padding {
+      margin-top: {{ section.settings.padding_top | times: 0.55 | round: 0 }}px;
+      margin-bottom: {{ section.settings.padding_bottom | times: 0.55 | round: 0 }}px;
+    }
+
+    @media screen and (min-width: 750px) {
+      .section-{{ section.id }}-padding {
+        margin-top: {{ section.settings.padding_top | times: 0.7 | round: 0 }}px;
+        margin-bottom: {{ section.settings.padding_bottom | times: 0.7 | round: 0 }}px;
+      }
+    }
+
+    @media screen and (min-width: 1025px) {
+      .section-{{ section.id }}-padding {
+        margin-top: {{ section.settings.padding_top }}px;
+        margin-bottom: {{ section.settings.padding_bottom }}px;
+      }
+    }
 {%- endstyle -%}
 
 <slideshow-component
-  class="slider-mobile-gutter{% if section.settings.layout == 'grid' %} page-width{% endif %}{% if section.settings.show_text_below %} mobile-text-below{% endif %}"
+  class="slider-mobile-gutter{% if section.settings.layout == 'grid' %} page-width{% endif %}{% if section.settings.show_text_below %} mobile-text-below{% endif %} section-{{ section.id }}-padding"
   role="region"
   aria-roledescription="{{ 'sections.slideshow.carousel' | t }}"
   aria-label="{{ section.settings.accessibility_info | escape }}"
@@ -396,6 +418,30 @@
       "label": "t:sections.slideshow.settings.accessibility.label",
       "info": "t:sections.slideshow.settings.accessibility.info",
       "default": "t:sections.slideshow.settings.accessibility.default"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
     }
   ],
   "blocks": [

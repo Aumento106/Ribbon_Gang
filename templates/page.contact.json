@@ -7,7 +7,6 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
-
 {
   "sections": {
     "custom_slide_show_aTXHa3": {
@@ -17,12 +16,13 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Concept_1_1.png",
-            "heading": "infection-controlled solutions",
+            "heading": "",
             "heading_size": "h1",
             "subheading": "",
-            "button_label": "Shop Now",
+            "button_label": "",
             "link": "shopify://collections",
             "button_style_secondary": false,
+            "botton_position": 120,
             "box_align": "middle-center",
             "show_text_box": false,
             "text_alignment": "center",
@@ -35,12 +35,13 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Concept_1_1.png",
-            "heading": "infection-controlled solutions",
+            "heading": "",
             "heading_size": "h1",
             "subheading": "",
-            "button_label": "Shop Now",
+            "button_label": "",
             "link": "shopify://collections",
             "button_style_secondary": false,
+            "botton_position": 120,
             "box_align": "middle-center",
             "show_text_box": false,
             "text_alignment": "center",
@@ -53,30 +54,13 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Concept_1_1.png",
-            "heading": "infection-controlled solutions",
+            "heading": "",
             "heading_size": "h1",
             "subheading": "",
-            "button_label": "Shop Now",
+            "button_label": "",
             "link": "shopify://collections",
             "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_faXiaL": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Concept_1_1.png",
-            "heading": "infection-controlled solutions",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "Shop Now",
-            "link": "shopify://collections",
-            "button_style_secondary": false,
+            "botton_position": 120,
             "box_align": "middle-center",
             "show_text_box": false,
             "text_alignment": "center",
@@ -89,12 +73,11 @@
       "block_order": [
         "slide_eEdaKF",
         "slide_QcKVdY",
-        "slide_gCWg7E",
-        "slide_faXiaL"
+        "slide_gCWg7E"
       ],
       "settings": {
         "layout": "full_bleed",
-        "slide_height": "large",
+        "slide_height": "small",
         "slider_visual": "dots",
         "auto_rotate": false,
         "change_slides_speed": 5,

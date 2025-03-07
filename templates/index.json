@@ -693,6 +693,23 @@
         "padding_bottom": 36
       }
     },
+    "product_catalog_VjYNFG": {
+      "type": "product-catalog",
+      "settings": {
+        "product_image": "shopify://shop_images/image_104.png",
+        "logo_link": "",
+        "heading": "<p>View our cataloguein your browser window</p>",
+        "heading_size": "h1",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "description": "<p>View online or download a PDF, et quo bea suntion serrovide  por aute natempos erovita ium quunt iumquae plab intium fuga.  Temolore conescidis repudam alicient fugit expland ucipsant</p>",
+        "button_1_text": "View Catalogue",
+        "button_1_link": "",
+        "button_2_text": "View Catalogue",
+        "button_2_link": "shopify://collections",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
   },
   "order": [
     "custom_slide_show_aTXHa3",
@@ -706,5 +723,6 @@
     "newsletter_8aQKDA",
     "custom_slide_show_VH4Rk9",
     "custom_multicolumn_inkqq6",
+    "product_catalog_VjYNFG",
   ]
 }

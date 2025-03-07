@@ -20,7 +20,6 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
-
 {%- endstyle -%}
 
 <div class="multi-column-box-with-image section-{{ section.id }} section-{{ section.id }}-padding color-{{ section.settings.color_scheme }} gradient">
@@ -30,48 +29,26 @@
         <h2 class="title {{ section.settings.heading_size }}">
           {{ section.settings.title }}
         </h2>
-         <div class="multicolumn-section-subtitle subtitle">{{ section.settings.descr }}</div>
+        <div class="multicolumn-section-subtitle subtitle">{{ section.settings.descr }}</div>
       </div>
     {%- endif -%}
-
 
     <div class="grid grid--1-col grid--2-col-tablet grid--{{ section.settings.columns_desktop }}-col-desktop {% if section.settings.box_shadow == true %}item-box-shadow{% endif %}">
       {%- for block in section.blocks -%}
         <div class="grid__item" {{ block.shopify_attributes }}>
           <div class="multicolumn-box__item color-{{ section.settings.box_color_scheme }} gradient">
-            {%- if block.settings.image != blank -%}
-              <div class="multicolumn-box-img-wrapper">
-                {{ block.settings.image | image_url: width: 600 | image_tag:
-                  loading: 'lazy',
-                  width: block.settings.image.width,
-                  height: block.settings.image.height,
-                  class: 'multicolumn-box__image'
-                }}
-              </div>
-            {%- endif -%}
-            {%- if block.settings.title != blank -%}
-              <div class="heading-with-icon-wrapper color-{{ section.settings.heading_color_scheme }} gradient">
-                {%- if block.settings.icon != blank -%}
-                  {% comment %} <div class="img-box">
-                    {{ block.settings.icon | image_url: width: 40 | image_tag:
-                      loading: 'lazy',
-                      width: block.settings.icon.width,
-                      height: block.settings.icon.height,
-                      class: 'multicolumn-box__icon'
-                    }}
-                  </div> {% endcomment %}
-                {%- endif -%}
-                <h3 class="subtitle">{{ block.settings.title | escape }}</h3>
-              </div>
-            {%- endif -%}
-            {%- if block.settings.text != blank -%}
-              <div class="multicolumn-box-description">{{ block.settings.text }}</div>
-            {%- endif -%}
-            {%- if block.settings.text-v != blank -%}
-              <div class="multicolumn-box-description">{{ block.settings.text-v }}</div>
-            {%- endif -%}
-            {%- if block.settings.button-text != blank -%}
-              <a href="{{ block.settings.button-url }}" class="button button--primary" >{{ block.settings.button-text }}</a>
+            <div class="box-text-con-wrap">
+              {%- if block.settings.title != blank -%}
+                <h3 class="box-title h0">{{ block.settings.title | escape }}</h3>
+              {%- endif -%}
+              {%- if block.settings.text != blank -%}
+                <div class="multicolumn-box-description">{{ block.settings.text }}</div>
+              {%- endif -%}
+            </div>
+            {%- if block.settings['button-text'] != blank -%}
+              <a href="{{ block.settings.button-url }}" class="button button--primary">
+                {{- block.settings['button-text'] -}}
+              </a>
             {%- endif -%}
           </div>
         </div>
@@ -118,35 +95,29 @@
       "label": "Heading Size"
     },
     {
-        "type": "select",
-        "id": "title_alignment",
-        "options": [
-            {
-            "value": "left",
-            "label": "Left"
-            },
-            {
-            "value": "center",
-            "label": "Center"
-            },
-            {
-            "value": "right",
-            "label": "Right"
-            }
-        ],
-        "default": "center",
-        "label": "Section title alignment"
+      "type": "select",
+      "id": "title_alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "center",
+      "label": "Section title alignment"
     },
     {
       "type": "color_scheme",
       "id": "color_scheme",
       "label": "t:sections.all.colors.label",
-      "default": "scheme-1"
-    },
-    {
-      "type": "color_scheme",
-      "id": "heading_color_scheme",
-      "label": "Heading color scheme",
       "default": "scheme-1"
     },
     {
@@ -216,31 +187,16 @@
       "name": "Box",
       "settings": [
         {
-          "type": "image_picker",
-          "id": "image",
-          "label": "Image"
-        },
-        {
           "type": "text",
           "id": "title",
           "default": "Box title",
           "label": "Title"
         },
         {
-          "type": "image_picker",
-          "id": "icon",
-          "label": "Heading icon"
-        },
-        {
           "type": "richtext",
           "id": "text",
           "default": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>",
           "label": "Text"
-        },
-        {
-          "type": "text",
-          "id": "text-v",
-          "label": "Description"
         },
         {
           "type": "text",
@@ -252,7 +208,6 @@
           "id": "button-url",
           "label": "Button url"
         }
-        
       ]
     }
   ],
@@ -274,4 +229,3 @@
   ]
 }
 {% endschema %}
-

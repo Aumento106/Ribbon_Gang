@@ -21,10 +21,10 @@
   }
 {%- endstyle -%}
 
-<div class="product-catalog-section section-{{ section.id }}-padding">
+<div class="product-catalog-section section-{{ section.id }}-padding gradient color-{{ section.settings.color_scheme }}">
   <div class="product-catalog-container page-width">
-    <div class="product-catalog-wrapper gradient color-{{ section.settings.color_scheme }}">
-      <div class="grid grid--1-col grid--1-col-tablet grid--2-col-desktop">
+    <div class="product-catalog-wrapper">
+      <div class="grid grid--1-col grid--1-col-tablet grid--2-col-desktop{% if section.settings.reverse_column == true %} reverse-columns{% endif %}">
         <div class="product-catalog-left grid__item">
           {% if section.settings.product_image %}
             <div class="product-image">
@@ -154,6 +154,12 @@
       "type": "url",
       "id": "button_2_link",
       "label": "Secondary Button Link"
+    },
+    {
+      "type": "checkbox",
+      "id": "reverse_column",
+      "label": "Reverse columns",
+      "default": false
     },
     {
       "type": "header",

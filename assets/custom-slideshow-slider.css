@@ -1,15 +1,83 @@
 @media screen and (min-width: 750px) {
-    .section-custom-slideshow-slider .banner--large:not(.banner--adapt) {
-        min-height: 74.6rem;
+    .section-custom-slideshow-slider .banner--large:not(.banner--adapt),
+    .section-custom-slideshow-slider .banner--large:not(.banner--adapt) .slideshow__slide,
+    .section-custom-slideshow-slider .banner--large:not(.banner--adapt) .slideshow__slide__inner-wrap {
+        min-height: 71.2rem;
+    }
+
+    .section-custom-slideshow-slider .banner--large:not(.banner--adapt) .slideshow__text-wrapper.banner__content {
+        min-height: calc(71.2rem - 10rem);
+    }
+
+    .section-custom-slideshow-slider .slideshow__text-wrapper.banner__content {
+        padding: 5rem 20.8rem;
     }
 }
 
 .section-custom-slideshow-slider .slideshow.banner {
-    padding: 0 200px;
+    padding: 0 248px;
+    display: block;
 }
 
-.section-custom-slideshow-slider .slideshow.banner .slideshow__slide {
-    margin: 0 25px;
+.section-custom-slideshow-slider .slideshow__text.banner__box {
+    max-width: 46rem;
+}
+
+.section-custom-slideshow-slider .slideshow__text.banner__box .banner__heading p {
+    margin: 0;
+}
+
+.section-custom-slideshow-slider .slideshow__text.banner__box .tag-text {
+    margin: 0 0 4rem;
+}
+
+.section-custom-slideshow-slider .slideshow__text.banner__box .banner__box_logo {
+    padding: 8px 16px;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 1.6rem;
+}
+
+.section-custom-slideshow-slider .slideshow__text.banner__box .banner__heading {
+    margin: 0 0 2.4rem;
+}
+
+.section-custom-slideshow-slider .slideshow__text.banner__box .banner__buttons {
+    margin: 5rem 0 0;
+}
+
+.section-custom-slideshow-slider .slideshow__text.banner__box .banner__buttons .button {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.section-custom-slideshow-slider .slideshow__text.banner__box .banner__text {
+    margin: 0;
+}
+
+.section-custom-slideshow-slider .slideshow.banner .slideshow__slide .slideshow__slide__inner-wrap {
     border-radius: 16px;
     overflow: hidden;
+    padding: 16px;
+    border: 1px solid rgba(66, 66, 66, 1);
+    background: rgba(245, 245, 245, 1);
+    /* margin: 0 25px; */
+}
+
+.section-custom-slideshow-slider .slideshow__slide__inner {
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+}
+
+body .section-custom-slideshow-slider .swiper .swiper-pagination-wrapper .swiper-pagination {
+    position: static;
+    transform: unset;
+    margin-top: 2.4rem;
+}
+
+body .section-custom-slideshow-slider .banner:after, body .section-custom-slideshow-slider .banner__media:after {
+    content: unset;
 }

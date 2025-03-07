@@ -5,12 +5,16 @@
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.55 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.55 | round: 0 }}px;
+    margin-top: {{ section.settings.margin_top | times: 0.55 | round: 0 }}px;
+    margin-bottom: {{ section.settings.margin_bottom | times: 0.55 | round: 0 }}px;
   }
 
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top | times: 0.7 | round: 0 }}px;
       padding-bottom: {{ section.settings.padding_bottom | times: 0.7 | round: 0 }}px;
+      margin-top: {{ section.settings.margin_top | times: 0.7 | round: 0 }}px;
+      margin-bottom: {{ section.settings.margin_bottom | times: 0.7 | round: 0 }}px;
     }
   }
 
@@ -18,6 +22,8 @@
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
+      margin-top: {{ section.settings.margin_top }}px;
+      margin-bottom: {{ section.settings.margin_bottom }}px;
     }
   }
 {%- endstyle -%}
@@ -45,7 +51,7 @@
                 <div class="multicolumn-box-img-wrapper">
                   {{
                     block.settings.image
-                    | image_url: width: 600
+                    | image_url: width: 1000
                     | image_tag:
                       loading: 'lazy',
                       width: block.settings.image.width,
@@ -207,6 +213,26 @@
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
       "default": 36
+    },
+    {
+      "type": "range",
+      "id": "margin_top",
+      "min": 0,
+      "max": 180,
+      "step": 2,
+      "unit": "px",
+      "label": "Margin top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom",
+      "min": 0,
+      "max": 180,
+      "step": 2,
+      "unit": "px",
+      "label": "Margin bottom",
+      "default": 0
     }
   ],
   "blocks": [

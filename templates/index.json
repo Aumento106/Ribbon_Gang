@@ -846,6 +846,55 @@
         "padding_bottom": 32
       }
     },
+    "multicolumn_box_with_image_jL37Wi": {
+      "type": "multicolumn-box-with-image",
+      "blocks": {
+        "column_MEcPqY": {
+          "type": "column",
+          "settings": {
+            "title": "Increase patient care time",
+            "icon": "shopify://shop_images/bed-icon.svg",
+            "text": "<p>With STERIRACK® System, nurses and healthcare personnel can now spend less time hunting through storerooms, and more time devoted to face-to-face patient care. Where they want to be.</p><p>These time efficiencies provide hospitals and health-care centers with impressive Return on Effectiveness (ROE), with some facilities enjoying time savings of up to 50%.</p><p>Introduce the gold standard healthcare storage system today. You’ll never look back. </p>"
+          }
+        },
+        "column_FL4YKp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/improve-infection-control.png",
+            "title": "Improve infection control",
+            "icon": "shopify://shop_images/hand-icon.svg",
+            "text": "<p>STERIRACK® is the world’s leading healthcare storage solution, exceeding standards for best practice and infection control.</p><p>Rounded corners and smart design protect consumables from damage and contamination. Mesh baskets and shelving provide air circulation, and prevent dust and dirt build-up.</p><p>Hard-to-clean, outdated timber cabinetry, with its dark, dank corners is now a thing of the past.</p>"
+          }
+        },
+        "column_zqbWrd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/maximize-available-space.png",
+            "title": "Maximize available space",
+            "icon": "shopify://shop_images/boxes-icon.svg",
+            "text": "<p>STERIRACK® is the complete modular system. Versatile and customizable, this system can be configured to suit your available space and application.</p><p>Our experts are ready to provide room layouts, 2D/3D visualizations, and details on exactly how much additional storage capacity you’ll enjoy with your new STERIRACK® installation.</p><p>Contact one of our STERIRACK® consultants today and begin your hassle-free journey to the gold standard healthcare storage solution.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "column_MEcPqY",
+        "column_FL4YKp",
+        "column_zqbWrd"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "title_alignment": "center",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "heading_color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
+        "columns_desktop": "3",
+        "box_shadow": true,
+        "box_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "padding_top": 72,
+        "padding_bottom": 36
+      }
+    },
   },
   "order": [
     "custom_slide_show_aTXHa3",
@@ -863,5 +912,6 @@
     "proudly_support_NnMGAw",
     "image_text_slider_HkQX47",
     "key_message_Ccdzez",
+    "multicolumn_box_with_image_jL37Wi",
   ]
 }

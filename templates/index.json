@@ -710,6 +710,56 @@
         "padding_bottom": 36
       }
     },
+    "proudly_support_NnMGAw": {
+      "type": "proudly-support",
+      "blocks": {
+        "support_item_3Hcczh": {
+          "type": "support_item",
+          "settings": {
+            "image": "shopify://shop_images/support-logo-1.png"
+          }
+        },
+        "support_item_fjND3Q": {
+          "type": "support_item",
+          "settings": {
+            "image": "shopify://shop_images/support-logo-2.png"
+          }
+        },
+        "support_item_tApGYX": {
+          "type": "support_item",
+          "settings": {
+            "image": "shopify://shop_images/support-logo-5.png"
+          }
+        },
+        "support_item_pzJMPa": {
+          "type": "support_item",
+          "settings": {
+            "image": "shopify://shop_images/support-logo-4.png"
+          }
+        },
+        "support_item_DnVgCF": {
+          "type": "support_item",
+          "settings": {
+            "image": "shopify://shop_images/support-logo-3.png"
+          }
+        }
+      },
+      "block_order": [
+        "support_item_3Hcczh",
+        "support_item_fjND3Q",
+        "support_item_tApGYX",
+        "support_item_pzJMPa",
+        "support_item_DnVgCF"
+      ],
+      "settings": {
+        "heading": "<p>We proudly Support</p>",
+        "heading_size": "h1",
+        "title_alignment": "center",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
   },
   "order": [
     "custom_slide_show_aTXHa3",
@@ -724,5 +774,6 @@
     "custom_slide_show_VH4Rk9",
     "custom_multicolumn_inkqq6",
     "product_catalog_VjYNFG",
+    "proudly_support_NnMGAw",
   ]
 }

@@ -239,11 +239,94 @@
         "margin_bottom": 100
       }
     },
+    "custom_slideshow_slider_8brNtf": {
+      "type": "custom-slideshow-slider",
+      "blocks": {
+        "slide_4JtzGz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Concept_20_1.png",
+            "tag_text": "Best Sellers",
+            "logo_image": "shopify://shop_images/Steriloop_logo.png",
+            "heading": "InnovativeTheatre Trolley",
+            "heading_size": "h1",
+            "subheading": "Bearundae voluptatem eum iditatqui aut  doluptiorest adit am rerrum sitae cor  modia voluptatist amu",
+            "button_label": "Shop Theatre Trolleys",
+            "link": "shopify://collections",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_XaKzWe": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Concept_20_1.png",
+            "tag_text": "Best Sellers",
+            "logo_image": "shopify://shop_images/Steriloop_logo.png",
+            "heading": "InnovativeTheatre Trolley",
+            "heading_size": "h1",
+            "subheading": "Bearundae voluptatem eum iditatqui aut  doluptiorest adit am rerrum sitae cor  modia voluptatist amu",
+            "button_label": "Shop Theatre Trolleys",
+            "link": "shopify://collections",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_MDyjJn": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Concept_20_1.png",
+            "tag_text": "Best Sellers",
+            "logo_image": "shopify://shop_images/Steriloop_logo.png",
+            "heading": "InnovativeTheatre Trolley",
+            "heading_size": "h1",
+            "subheading": "Bearundae voluptatem eum iditatqui aut  doluptiorest adit am rerrum sitae cor  modia voluptatist amu",
+            "button_label": "Shop Theatre Trolleys",
+            "link": "shopify://collections",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_4JtzGz",
+        "slide_XaKzWe",
+        "slide_MDyjJn"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "large",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand",
+        "padding_top": 0,
+        "padding_bottom": 100
+      }
+    },
   },
   "order": [
     "custom_slide_show_aTXHa3",
     "custom_image_banner_xDTGLj",
     "custom_multicolumn_tEhTPk",
     "custom_newsletter_NdaReb",
+    "custom_slideshow_slider_8brNtf",
   ]
 }

@@ -625,6 +625,74 @@
         "padding_bottom": 36
       }
     },
+    "custom_multicolumn_inkqq6": {
+      "type": "custom-multicolumn",
+      "blocks": {
+        "column_KPBaVb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Concept_13.png",
+            "title": "Shelving",
+            "text": "<p> Text to go here.</p>",
+            "text-v": "",
+            "button-text": "Shop for Shelving",
+            "button-url": "shopify://collections"
+          }
+        },
+        "column_G3KQPY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Concept_13.png",
+            "title": "Benching",
+            "text": "<p> Text to go here.</p>",
+            "text-v": "",
+            "button-text": "Shop for Benching",
+            "button-url": "shopify://collections"
+          }
+        },
+        "column_tJjXWa": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Concept_13.png",
+            "title": "Trolleys & Carts",
+            "text": "<p> Text to go here.</p>",
+            "text-v": "",
+            "button-text": "Shop for Benching",
+            "button-url": "shopify://collections"
+          }
+        },
+        "column_6nDDjQ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Concept_13.png",
+            "title": "Accessories",
+            "text": "<p> Text to go here.</p>",
+            "text-v": "",
+            "button-text": "Shop for Benching",
+            "button-url": "shopify://collections"
+          }
+        }
+      },
+      "block_order": [
+        "column_KPBaVb",
+        "column_G3KQPY",
+        "column_tJjXWa",
+        "column_6nDDjQ"
+      ],
+      "settings": {
+        "title": "<p>Find the Perfect Storage Solution</p>",
+        "sec_subtitle": "Subtitle",
+        "button_text": "Shop the full range",
+        "button_url": "shopify://collections",
+        "heading_size": "h2",
+        "title_alignment": "center",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "columns_desktop": "3",
+        "box_shadow": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
   },
   "order": [
     "custom_slide_show_aTXHa3",
@@ -637,5 +705,6 @@
     "custom_image_text_slider_k9tKHM",
     "newsletter_8aQKDA",
     "custom_slide_show_VH4Rk9",
+    "custom_multicolumn_inkqq6",
   ]
 }

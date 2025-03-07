@@ -1070,6 +1070,194 @@
         "padding_bottom": 36
       }
     },
+    "image_with_text_v1_CK3fUJ": {
+      "type": "image-with-text-v1",
+      "blocks": {
+        "heading_CyGH6Q": {
+          "type": "heading",
+          "settings": {
+            "heading": "About us",
+            "heading_size": "h1"
+          }
+        },
+        "caption_RdyUkV": {
+          "type": "caption",
+          "settings": {
+            "caption": "Welcome to <strong>SpaceLogic</strong> Group",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        },
+        "text_YzkzXq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>the authoritative experts in clinical healthcare storage solutions for the healthcare sector. Over 35 years SpaceLogic has grown from a small family firm into an acknowledged leader in healthcare space management. </p><p>We have built an enviable reputation by providing a complete service to our clients, suppling project design, planning and installation services, and our own innovative and customizable range of products.</p><p>Our head office is located in Orange NSW, where our team of professionals work with single-minded focus to increase patient care time, improve infection control and maximize available space.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_xWPXRk": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read More",
+            "button_link": "shopify://pages/about-spacelogic",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_CyGH6Q",
+        "caption_RdyUkV",
+        "text_YzkzXq",
+        "button_xWPXRk"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/home-about.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "full_width": true,
+        "video_url": "",
+        "enable_video_looping": false,
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "spacelogic_commitment_9ixh9w": {
+      "type": "spacelogic-commitment",
+      "blocks": {
+        "column_3FXqDq": {
+          "type": "column",
+          "settings": {
+            "heading": "CARING",
+            "text": "<p>We care for customers and staff alike. We are all part of the SpaceLogic family.</p>"
+          }
+        },
+        "column_iJqKeK": {
+          "type": "column",
+          "settings": {
+            "heading": "RESPECTFUL",
+            "text": "<p>Deep regard for each others abilities, qualities and achievements. Treating our clients the way we like to be treated ourselves.</p>"
+          }
+        },
+        "column_mmYrx9": {
+          "type": "column",
+          "settings": {
+            "heading": "COMMITTED",
+            "text": "<p>100% effort 100% of the time. We stand firmly behind our brand.</p>"
+          }
+        },
+        "column_Eii8YR": {
+          "type": "column",
+          "settings": {
+            "heading": "PRO-ACTIVE",
+            "text": "<p>Industry experts, pioneers and leaders. We're No.1 in the game and remain ahead of the curve.</p>"
+          }
+        },
+        "column_pmjD6n": {
+          "type": "column",
+          "settings": {
+            "heading": "PASSIONATE",
+            "text": "<p>We love what we do. Our clients love what we do.</p>"
+          }
+        },
+        "column_JJLnaV": {
+          "type": "column",
+          "settings": {
+            "heading": "PROFESSIONAL",
+            "text": "<p>Continually striving for higher standards. Completing tasks the right way at the right time.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "column_3FXqDq",
+        "column_iJqKeK",
+        "column_mmYrx9",
+        "column_Eii8YR",
+        "column_pmjD6n",
+        "column_JJLnaV"
+      ],
+      "disabled": true,
+      "settings": {
+        "sec_title": "<p>The SpaceLogic <strong>Commitment</strong></p>",
+        "heading_size": "h1",
+        "title_alignment": "center",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "color_scheme_box": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
+        "columns_desktop": 3,
+        "columns_alignment": "center",
+        "columns_mobile": "1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_v1_tjigzf": {
+      "type": "image-with-text-v1",
+      "blocks": {
+        "heading_ggfYhJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "New <strong>Products</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "caption_4DDFCN": {
+          "type": "caption",
+          "settings": {
+            "caption": "What is Lorem Ipsum?",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        },
+        "text_D8Fi3n": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_9D34tn": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read More",
+            "button_link": "shopify://collections/all",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_ggfYhJ",
+        "caption_4DDFCN",
+        "text_D8Fi3n",
+        "button_9D34tn"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/new-product-banner.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "full_width": true,
+        "video_url": "",
+        "enable_video_looping": false,
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
   },
   "order": [
     "custom_slide_show_aTXHa3",
@@ -1092,5 +1280,8 @@
     "multicolumn_services_box_FEbT7G",
     "page_banner_b4miPW",
     "multicolumn_pages_box_VCT8HN",
+    "image_with_text_v1_CK3fUJ",
+    "spacelogic_commitment_9ixh9w",
+    "image_with_text_v1_tjigzf"
   ]
 }

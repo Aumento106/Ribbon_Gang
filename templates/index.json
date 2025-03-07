@@ -926,6 +926,54 @@
         "padding_bottom": 36
       }
     },
+    "multicolumn_services_box_FEbT7G": {
+      "type": "multicolumn-services-box",
+      "blocks": {
+        "column_nq4xKL": {
+          "type": "column",
+          "settings": {
+            "icon": "shopify://shop_images/project-consultation.svg",
+            "heading": "<p>Project consultation <br/>and room design</p>",
+            "text": "<p>Each client receives a tailored storage solution that maximizes storage capacity within the available space, and suits its application. All stakeholder needs are incorporated in the design and planning of a new STERIRACK® System installation.</p>"
+          }
+        },
+        "column_BrzGgm": {
+          "type": "column",
+          "settings": {
+            "icon": "shopify://shop_images/bulb-icon.svg",
+            "heading": "<p>Product customization <br/>and continuous innovation</p>",
+            "text": "<p>We specialize in custom storage solutions for healthcare, and our STERIRACK® and MEDIBIN™ ranges are exclusive to SpaceLogic. Liaise with our designers to have custom components and accessories created to meet your specific needs.</p>"
+          }
+        },
+        "column_byiDxM": {
+          "type": "column",
+          "settings": {
+            "icon": "shopify://shop_images/setting-icon.svg",
+            "heading": "<p>Project management <br/>and installation</p>",
+            "text": "<p>Our expert installation team specializes in fast, no-fuss storage installations with minimal interruptions to everyday operations or other trades. Our team travels nationally and internationally, or project manages local tradespeople.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "column_nq4xKL",
+        "column_BrzGgm",
+        "column_byiDxM"
+      ],
+      "disabled": true,
+      "settings": {
+        "sec_title": "<p>Three interconnected divisions, delivering a complete end-to-end <strong>Service</strong></p>",
+        "heading_size": "h1",
+        "title_alignment": "center",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "icon_bg_color": "#5a5a5a",
+        "border_color": "#eeeeee",
+        "columns_desktop": 3,
+        "columns_alignment": "left",
+        "columns_mobile": "1",
+        "padding_top": 36,
+        "padding_bottom": 72
+      }
+    },
   },
   "order": [
     "custom_slide_show_aTXHa3",
@@ -945,5 +993,6 @@
     "key_message_Ccdzez",
     "multicolumn_box_with_image_jL37Wi",
     "featured_collection_EKGb6j",
+    "multicolumn_services_box_FEbT7G",
   ]
 }

@@ -102,8 +102,58 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "custom_image_banner_xDTGLj": {
+      "type": "custom-image-banner",
+      "blocks": {
+        "heading_wtkCw3": {
+          "type": "heading",
+          "settings": {
+            "heading": "Hospital and Surgical Centrea",
+            "heading_size": "h1"
+          }
+        },
+        "text_t9P8ME": {
+          "type": "text",
+          "settings": {
+            "text": "Smarter storage. Safer care",
+            "text_style": "body"
+          }
+        },
+        "buttons_3efdfV": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop the Room",
+            "button_link_1": "shopify://collections",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_wtkCw3",
+        "text_t9P8ME",
+        "buttons_3efdfV"
+      ],
+      "settings": {
+        "page_container": "full-width",
+        "image": "shopify://shop_images/Concept_9.png",
+        "image_overlay_opacity": 30,
+        "image_height": "large",
+        "desktop_content_position": "top-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-28b9a3ce-e916-452a-9440-95fefcedbf92",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
   },
   "order": [
-    "custom_slide_show_aTXHa3"
+    "custom_slide_show_aTXHa3",
+    "custom_image_banner_xDTGLj"
   ]
 }

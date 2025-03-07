@@ -151,9 +151,65 @@
         "show_text_below": true
       }
     },
+    "custom_multicolumn_tEhTPk": {
+      "type": "custom-multicolumn",
+      "blocks": {
+        "column_nPJerb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Concept_13.png",
+            "title": "CSSD",
+            "text": "<p>Theatre store</p>",
+            "text-v": "Designed for hygiene, engineered for safety",
+            "button-text": "Shop the Room",
+            "button-url": "shopify://collections"
+          }
+        },
+        "column_UTiAj3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Concept_13.png",
+            "title": "Clean Utility",
+            "text": "<p>Medications</p>",
+            "text-v": "Every space optimised,  text to go here.",
+            "button-text": "Shop the Room",
+            "button-url": "shopify://collections"
+          }
+        },
+        "column_ggEGqd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Concept_13.png",
+            "title": "Pharmacy",
+            "text": "<p>Dispensary</p>",
+            "text-v": "Less time searching, more time caring",
+            "button-text": "Shop the Room",
+            "button-url": "shopify://collections"
+          }
+        }
+      },
+      "block_order": [
+        "column_nPJerb",
+        "column_UTiAj3",
+        "column_ggEGqd"
+      ],
+      "settings": {
+        "title": "<p>Innovative Storage Solutions</p><p>Making space for care. Across every department.</p>",
+        "button_text": "",
+        "button_url": "",
+        "heading_size": "h2",
+        "title_alignment": "center",
+        "color_scheme": "",
+        "columns_desktop": "3",
+        "box_shadow": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
   },
   "order": [
     "custom_slide_show_aTXHa3",
-    "custom_image_banner_xDTGLj"
+    "custom_image_banner_xDTGLj",
+    "custom_multicolumn_tEhTPk"
   ]
 }

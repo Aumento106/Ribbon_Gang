@@ -1015,6 +1015,61 @@
         "padding_bottom": 36
       }
     },
+    "multicolumn_pages_box_VCT8HN": {
+      "type": "multicolumn-pages-box",
+      "blocks": {
+        "column_gjEbxV": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/sterirack-system.png",
+            "title": "Projects",
+            "text": "",
+            "link": "shopify://pages/hospital-projects"
+          }
+        },
+        "column_iprATb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/applications-page-img.png",
+            "title": "Applications",
+            "text": "",
+            "link": "shopify://pages/applications"
+          }
+        },
+        "column_bEUKAT": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/product-page-img.png",
+            "title": "Products",
+            "text": "",
+            "link": "shopify://collections/all"
+          }
+        }
+      },
+      "block_order": [
+        "column_gjEbxV",
+        "column_iprATb",
+        "column_bEUKAT"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "border_color": "#424242",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 72,
+        "padding_bottom": 36
+      }
+    },
   },
   "order": [
     "custom_slide_show_aTXHa3",
@@ -1036,5 +1091,6 @@
     "featured_collection_EKGb6j",
     "multicolumn_services_box_FEbT7G",
     "page_banner_b4miPW",
+    "multicolumn_pages_box_VCT8HN",
   ]
 }

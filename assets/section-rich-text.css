@@ -13,7 +13,16 @@
   /* width: calc(100% - 8rem / var(--font-body-scale)); */
   width: 100%;
 }
+.rich-text__wrapper .rich-text__text ol li,
+.rich-text__wrapper .center .rich-text__text ul li {
+  margin-top: 0;
+}
 
+.rich-text__wrapper .center .rich-text__text ol li,
+.rich-text__wrapper .center .rich-text__text ul li  {
+  justify-content: center;
+  align-items: center;
+}
 .rich-text__blocks {
   width: 100%;
 }

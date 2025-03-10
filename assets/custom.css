@@ -1308,7 +1308,8 @@ body .slider-counter--dots .slider-counter__link {
 }
 
 body .slider-counter--dots {
-  margin: 0 0.8rem;
+  padding: 0 0.8rem;
+  margin: 0;
 }
 
 body .slider-buttons .slider-counter {
@@ -1319,11 +1320,12 @@ body .slider-buttons {
   position: absolute;
   left: 50%;
   bottom: 30px;
-  transform: translateX(-50%);
+  transform: translate(-50%);
   border: 0;
-  background: rgba(66, 66, 66, 1);
+  background: #424242;
   border-radius: 60px;
   padding: 0;
+  border: 0.2px solid #FFFFFF !important;
 }
 
 body .slider-buttons .slider-button {

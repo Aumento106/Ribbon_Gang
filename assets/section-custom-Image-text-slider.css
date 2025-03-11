@@ -8,7 +8,6 @@
     overflow: hidden;
     padding: 24px;
     border: 1px solid rgba(66, 66, 66, 1);
-    background: #f5f5f5;
 }
 
 .Custom_image_text_slider .image-with-text .image-with-text__media-item {
@@ -18,7 +17,7 @@
 }
 
 .Custom_image_text_slider .image-with-text-slider {
-    padding: 0 240px;
+    padding: 0 233px;
 }
 
 body .Custom_image_text_slider .swiper .swiper-pagination {
@@ -37,15 +36,56 @@ body .Custom_image_text_slider .swiper .swiper-pagination {
     content: unset;
 }
 
+.Custom_image_text_slider .image-with-text__media-item {
+    position: relative;
+}
+
+.Custom_image_text_slider .image-text-con-buttons {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 60px;
+    width: fit-content;
+}
+
+.Custom_image_text_slider .image-text-con-buttons .button {
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.Custom_image_text_slider .image-text-con-buttons {
+    overflow: visible;
+}
+
+.Custom_image_text_slider .section-des {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-top: 2.4rem;
+}
+
+.Custom_image_text_slider .section-des p:not(:last-child) {
+    margin: 0 0 1.6rem;
+}
+
 @media screen and (min-width: 1440px) {
-    .Custom_image_text_slider.main_slider .image-with-text-slider .grid--2-col-tablet .image-with-text__text-item.grid__item,
     .Custom_image_text_slider.main_slider .image-with-text-slider .grid--2-col-tablet .image-with-text__media-item.grid__item {
-        width: calc(50% - var(--grid-desktop-horizontal-spacing) / 2);
+        width: calc(51.5% - var(--grid-desktop-horizontal-spacing) / 2);
+    }
+
+    .Custom_image_text_slider.main_slider .image-with-text-slider .grid--2-col-tablet .image-with-text__text-item.grid__item {
+        width: calc(48.5% - var(--grid-desktop-horizontal-spacing) / 2);
     }
 }
 
 @media screen and (min-width: 1199px) {
     .Custom_image_text_slider .image-with-text-slider .image-with-text__grid.grid {
         --grid-desktop-horizontal-spacing: 6.4rem;
+    }
+}
+
+@media screen and (min-width: 990px) {
+    .Custom_image_text_slider .image-with-text-slider .image-with-text__content {
+        padding: 0 33px 0 0;
     }
 }

@@ -328,6 +328,10 @@ details[open]>.header__menu-item .ic_pluse {
   position: static;
 }
 
+.header>.search-modal predictive-search[open="true"] .predictive-search {
+  display: block;
+}
+
 .header>.search-modal .search__input.field__input {
   padding-right: 1.5rem;
   padding-left: 4.5rem;
@@ -387,6 +391,11 @@ details[open]>.header__menu-item .ic_pluse {
   border-top: 1px solid rgba(var(--color-foreground), var(--popup-border-opacity));
   box-shadow: 0px 15px 15px -3px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
+  display: none;
+  position: absolute;
+  z-index: 3;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 /* .header__inline-menu .mega-menu .header__menu-item::after {

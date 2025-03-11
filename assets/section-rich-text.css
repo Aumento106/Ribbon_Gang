@@ -13,7 +13,42 @@
   /* width: calc(100% - 8rem / var(--font-body-scale)); */
   width: 100%;
 }
-
+.rich-text__wrapper .rich-text__text ol li::before,
+.rich-text__wrapper .center .rich-text__text ul li::before {
+  margin-top: 0;
+  top: 0;
+  width: 5px;
+  top: 0;
+  transform: translateY(0%);
+  position: absolute;
+  left: -20px;
+  display: inline-block;
+}
+.rich-text__wrapper .rich-text__text ol li::before {
+  content: counter(ordered);
+  counter-increment: ordered;
+  height: unset;
+  border: unset;
+  background: unset;
+  
+}
+.rich-text__wrapper .rich-text__text ol {
+  list-style-type: none;
+  counter-reset: ordered;
+}
+.rich-text__wrapper .center .rich-text__text ol li,
+.rich-text__wrapper .center .rich-text__text ul li  {
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+  position: relative;
+}
+.rich-text__wrapper .center .rich-text__text p:last-child {
+  margin-bottom: 0;
+}
+.rich-text__wrapper .center .rich-text__text p {
+  margin-bottom: 15px;
+}
 .rich-text__blocks {
   width: 100%;
 }

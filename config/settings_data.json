@@ -278,15 +278,15 @@
           "primary_theme_color": "#ffce00"
         }
       },
-      "scheme-d0ebcb12-c01a-43e5-9459-5fe3be9cc0c4": {
+      "scheme-7d2cf62a-ccc4-4338-8631-165b41315882": {
         "settings": {
-          "background": "#b2afa6",
+          "background": "#f7f7f5",
           "background_gradient": "",
-          "text": "#ffffff",
+          "text": "#424242",
           "button": "#ffce00",
           "button_label": "#424242",
           "secondary_button_label": "#424242",
-          "shadow": "#121212",
+          "shadow": "#424242",
           "button_hover": "#ffce00",
           "primary_theme_color": "#ffce00"
         }

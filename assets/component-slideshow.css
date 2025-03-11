@@ -9,7 +9,7 @@ slideshow-component .slideshow.banner {
   flex-wrap: nowrap;
   margin: 0;
   gap: 0;
-  overflow-y: hidden;
+  /* overflow-y: hidden; */
 }
 
 .slideshow__slide {
@@ -18,6 +18,10 @@ slideshow-component .slideshow.banner {
   display: flex;
   flex-direction: column;
   visibility: visible;
+  height: auto;
+}
+.swiper.custom-slider-show  .swiper-pagination {
+  bottom: 30px;
 }
 
 @media screen and (max-width: 749px) {

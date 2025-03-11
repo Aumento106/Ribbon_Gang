@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 40px;
-  row-gap: 130px;
+  row-gap: 150px;
   overflow-x: auto;
   padding: 100px 0 0 0;
   scroll-snap-type: x mandatory;
@@ -23,7 +23,7 @@
 .team-member-detail-wrp {
   display: inline-block;
   width: 100%;
-  padding: 110px 24px 40px;
+  padding: 112px 24px 40px;
   background: #F7F7F5;
   border-radius: 16px;
   height: 100%;

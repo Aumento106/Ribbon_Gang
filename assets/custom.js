@@ -205,4 +205,17 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         },
     });
+
+    new Swiper('.custom-slider-show', {
+        slidesPerView: 1,
+        spaceBetween: 0,
+        centeredSlides: false,
+        grabCursor: true,
+        loop: false,
+        pagination: {
+            el: '.swiper-pagination',
+        },
+    });
+
+
 });

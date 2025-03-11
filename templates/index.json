@@ -146,7 +146,7 @@
       "settings": {
         "page_container": "full-width",
         "image": "shopify://shop_images/Concept_9.png",
-        "image_overlay_opacity": 30,
+        "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "top-center",
         "show_text_box": false,
@@ -471,51 +471,65 @@
           "settings": {
             "image": "shopify://shop_images/Concept_20.png",
             "offer_title": "",
-            "heading": "<p>Introducing the registered WireLoop Shape Mark andSteriLoop™ innovation</p>",
+            "heading": "<p>Introducing the registered WireLoop Shape Mark and SteriLoop™ innovation</p>",
             "heading_size": "h0",
-            "text": "<p>SpaceLogic is proud to introduce SteriLoop®,  featuring our registered WireLoop Shape Mark – a game-changing  innovation in healthcare  storage.</p><p><br/> SMOOTH ROUNDED CORNERS: Prevents cuts,  micro-tears, and damage to consumables<br/><br/>NO SHARP EDGES: Superior safety for hospital  staff and patient<br/><br/>ENHANCED DURABILITY AND HYGIENE:  Engineered for long-term performance<br/><br/> Look for the Loop™ – The  ultimate in safe, smart storage<br/></p>",
+            "text": "<p>SpaceLogic is proud to introduce SteriLoop®,  featuring our registered WireLoop Shape Mark – a game-changing  innovation in healthcare  storage.</p><p><br/> SMOOTH ROUNDED CORNERS: Prevents cuts,  micro-tears, and damage to consumables<br/><br/>NO SHARP EDGES: Superior safety for hospital  staff and patient<br/><br/>ENHANCED DURABILITY AND HYGIENE:  Engineered for long-term performance<br/><br/> Look for the Loop™ – The  ultimate in safe, smart storage</p>",
             "button_label": "Shop Theatre Trolleys",
             "offer_code_txt": "",
             "button_link": "shopify://collections",
             "button_style_secondary": false
           }
         },
-        "slide_APd6k4": {
+        "slide_gVhpEP": {
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Concept_20.png",
-            "offer_title": "<p>InnovativeTheatre Trolley</p>",
-            "heading": "<p> Bearundae voluptatem eum iditatqui aut  doluptiorest adit am rerrum sitae cor  modia voluptatist amu</p>",
-            "heading_size": "h2",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>",
+            "offer_title": "",
+            "heading": "<p>Introducing the registered WireLoop Shape Mark and SteriLoop™ innovation</p>",
+            "heading_size": "h0",
+            "text": "<p>SpaceLogic is proud to introduce SteriLoop®,  featuring our registered WireLoop Shape Mark – a game-changing  innovation in healthcare  storage.</p><p><br/> SMOOTH ROUNDED CORNERS: Prevents cuts,  micro-tears, and damage to consumables<br/><br/>NO SHARP EDGES: Superior safety for hospital  staff and patient<br/><br/>ENHANCED DURABILITY AND HYGIENE:  Engineered for long-term performance<br/><br/> Look for the Loop™ – The  ultimate in safe, smart storage</p>",
             "button_label": "Shop Theatre Trolleys",
             "offer_code_txt": "",
             "button_link": "shopify://collections",
             "button_style_secondary": false
           }
         },
-        "slide_RQBkyV": {
+        "slide_atCJPw": {
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Concept_20.png",
-            "offer_title": "<p>InnovativeTheatre Trolley</p>",
-            "heading": "<p> Bearundae voluptatem eum iditatqui aut  doluptiorest adit am rerrum sitae cor  modia voluptatist amu</p>",
-            "heading_size": "h2",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>",
+            "offer_title": "",
+            "heading": "<p>Introducing the registered WireLoop Shape Mark and SteriLoop™ innovation</p>",
+            "heading_size": "h0",
+            "text": "<p>SpaceLogic is proud to introduce SteriLoop®,  featuring our registered WireLoop Shape Mark – a game-changing  innovation in healthcare  storage.</p><p><br/> SMOOTH ROUNDED CORNERS: Prevents cuts,  micro-tears, and damage to consumables<br/><br/>NO SHARP EDGES: Superior safety for hospital  staff and patient<br/><br/>ENHANCED DURABILITY AND HYGIENE:  Engineered for long-term performance<br/><br/> Look for the Loop™ – The  ultimate in safe, smart storage</p>",
             "button_label": "Shop Theatre Trolleys",
             "offer_code_txt": "",
             "button_link": "shopify://collections",
             "button_style_secondary": false
           }
         },
-        "slide_YKPfBw": {
+        "slide_X9jHyY": {
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Concept_20.png",
-            "offer_title": "<p>InnovativeTheatre Trolley</p>",
-            "heading": "<p> Bearundae voluptatem eum iditatqui aut  doluptiorest adit am rerrum sitae cor  modia voluptatist amu</p>",
-            "heading_size": "h2",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>",
+            "offer_title": "",
+            "heading": "<p>Introducing the registered WireLoop Shape Mark and SteriLoop™ innovation</p>",
+            "heading_size": "h0",
+            "text": "<p>SpaceLogic is proud to introduce SteriLoop®,  featuring our registered WireLoop Shape Mark – a game-changing  innovation in healthcare  storage.</p><p><br/> SMOOTH ROUNDED CORNERS: Prevents cuts,  micro-tears, and damage to consumables<br/><br/>NO SHARP EDGES: Superior safety for hospital  staff and patient<br/><br/>ENHANCED DURABILITY AND HYGIENE:  Engineered for long-term performance<br/><br/> Look for the Loop™ – The  ultimate in safe, smart storage</p>",
+            "button_label": "Shop Theatre Trolleys",
+            "offer_code_txt": "",
+            "button_link": "shopify://collections",
+            "button_style_secondary": false
+          }
+        },
+        "slide_xMpeqc": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Concept_20.png",
+            "offer_title": "",
+            "heading": "<p>Introducing the registered WireLoop Shape Mark and SteriLoop™ innovation</p>",
+            "heading_size": "h0",
+            "text": "<p>SpaceLogic is proud to introduce SteriLoop®,  featuring our registered WireLoop Shape Mark – a game-changing  innovation in healthcare  storage.</p><p><br/> SMOOTH ROUNDED CORNERS: Prevents cuts,  micro-tears, and damage to consumables<br/><br/>NO SHARP EDGES: Superior safety for hospital  staff and patient<br/><br/>ENHANCED DURABILITY AND HYGIENE:  Engineered for long-term performance<br/><br/> Look for the Loop™ – The  ultimate in safe, smart storage</p>",
             "button_label": "Shop Theatre Trolleys",
             "offer_code_txt": "",
             "button_link": "shopify://collections",
@@ -525,17 +539,19 @@
       },
       "block_order": [
         "slide_gMCqNw",
-        "slide_APd6k4",
-        "slide_RQBkyV",
-        "slide_YKPfBw"
+        "slide_gVhpEP",
+        "slide_atCJPw",
+        "slide_X9jHyY",
+        "slide_xMpeqc"
       ],
       "settings": {
         "heading": "",
+        "sec_des": "",
         "title_alignment": "left",
         "heading_size": "h1",
         "layout": "image_first",
         "content_layout": "no-overlap",
-        "height": "medium",
+        "height": "large",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
         "mobile_content_alignment": "left",
@@ -558,7 +574,7 @@
             "heading": "<p>Introducing the registered WireLoop Shape Mark andSteriLoop™ innovation</p>",
             "heading_size": "h2",
             "text": "<p>SpaceLogic is proud to introduce SteriLoop®,  featuring our registered WireLoop Shape Mark – a game-changing  innovation in healthcare  storage.</p><p><br/> SMOOTH ROUNDED CORNERS: Prevents cuts,  micro-tears, and damage to consumables<br/><br/>NO SHARP EDGES: Superior safety for hospital  staff and patient<br/><br/>ENHANCED DURABILITY AND HYGIENE:  Engineered for long-term performance<br/><br/> Look for the Loop™ – The  ultimate in safe, smart storage<br/></p>",
-            "button_label": "Shop Theatre Trolleys",
+            "button_label": "Read More...",
             "offer_code_txt": "",
             "button_link": "shopify://collections",
             "button_style_secondary": false
@@ -615,16 +631,17 @@
       ],
       "settings": {
         "heading": "Testimonials and Case Studies",
+        "sec_des": "<p>World-class reputation.</p>",
         "title_alignment": "center",
-        "heading_size": "h1",
+        "heading_size": "h0",
         "layout": "image_first",
         "content_layout": "no-overlap",
-        "height": "medium",
+        "height": "small",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
         "mobile_content_alignment": "left",
-        "color_scheme": "",
-        "section_color_scheme": "",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "section_color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
         "offer_title_color": "#ffce00",
         "show_pagination": true,
         "padding_top": 36,
@@ -692,7 +709,7 @@
       "settings": {
         "page_container": "full-width",
         "image": "shopify://shop_images/Concept_9.png",
-        "image_overlay_opacity": 30,
+        "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "top-center",
         "show_text_box": false,

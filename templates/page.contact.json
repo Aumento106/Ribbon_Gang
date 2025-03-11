@@ -9,84 +9,6 @@
  */
 {
   "sections": {
-    "custom_slide_show_aTXHa3": {
-      "type": "custom-slide-show",
-      "blocks": {
-        "slide_eEdaKF": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Concept_1_1.png",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "shopify://collections",
-            "button_style_secondary": false,
-            "botton_position": 120,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_QcKVdY": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Concept_1_1.png",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "shopify://collections",
-            "button_style_secondary": false,
-            "botton_position": 120,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_gCWg7E": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Concept_1_1.png",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "shopify://collections",
-            "button_style_secondary": false,
-            "botton_position": 120,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "slide_eEdaKF",
-        "slide_QcKVdY",
-        "slide_gCWg7E"
-      ],
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "small",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "image_behavior": "none",
-        "show_text_below": false,
-        "accessibility_info": "Slideshow about our brand",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -103,8 +25,40 @@
         "heading": "",
         "heading_size": "h1",
         "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "custom_page_banner_wUjFrR": {
+      "type": "custom-page-banner",
+      "blocks": {
+        "slide_rqd8X3": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Concept_1_1.png",
+            "image_overlay_opacity": 0
+          }
+        },
+        "slide_Nzx7FR": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Concept_1_1.png",
+            "image_overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "slide_rqd8X3",
+        "slide_Nzx7FR"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "small",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "rich_text_CeDtL6": {
@@ -273,9 +227,9 @@
     }
   },
   "order": [
-    "custom_slide_show_aTXHa3",
     "main",
     "form",
+    "custom_page_banner_wUjFrR",
     "rich_text_CeDtL6",
     "get_in_touch_irHLdw",
     "product_catalog_3gEWDy"

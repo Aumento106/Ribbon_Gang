@@ -16,13 +16,10 @@
     position: relative;
 }
 
-.Custom_image_text_slider .image-with-text-slider.show-half-slide {
-    padding: 0 233px;
-}
-
 body .Custom_image_text_slider .swiper .swiper-pagination {
     position: static;
     margin-top: 2.4rem;
+    transform: unset;
 }
 
 .Custom_image_text_slider .image-with-text-slider .swiper-slide,
@@ -55,7 +52,7 @@ body .Custom_image_text_slider .swiper .swiper-pagination {
     left: 50%;
     transform: translateX(-50%);
     bottom: 60px;
-    width: fit-content;
+    width: max-content;
 }
 
 .Custom_image_text_slider .image-text-con-buttons .button {
@@ -78,6 +75,26 @@ body .Custom_image_text_slider .swiper .swiper-pagination {
     margin: 0 0 1.6rem;
 }
 
+.Custom_image_text_slider .image-with-text__text strong {
+    font-size: 24px;
+    line-height: 1.08;
+    font-weight: 400;
+}
+
+.Custom_image_text_slider .image-with-text-slider.show-half-slide {
+    padding: 0 5rem;
+}
+
+.Custom_image_text_slider .image-with-text-slider .image-with-text__grid.grid {
+    --grid-desktop-horizontal-spacing: 4rem;
+}
+
+@media screen and (min-width: 1541px) {
+    .Custom_image_text_slider .image-with-text-slider.show-half-slide {
+        padding: 0 233px;
+    }
+}
+
 @media screen and (min-width: 1440px) {
     .Custom_image_text_slider.main_slider .image-with-text-slider .grid--2-col-tablet .image-with-text__media-item.grid__item {
         width: calc(51.5% - var(--grid-desktop-horizontal-spacing) / 2);
@@ -88,7 +105,7 @@ body .Custom_image_text_slider .swiper .swiper-pagination {
     }
 }
 
-@media screen and (min-width: 1199px) {
+@media screen and (min-width: 1367px) {
     .Custom_image_text_slider .image-with-text-slider .image-with-text__grid.grid {
         --grid-desktop-horizontal-spacing: 6.4rem;
     }
@@ -97,5 +114,15 @@ body .Custom_image_text_slider .swiper .swiper-pagination {
 @media screen and (min-width: 990px) {
     .Custom_image_text_slider .image-with-text-slider .image-with-text__content {
         padding: 0 33px 0 0;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .Custom_image_text_slider .image-with-text-slider .swiper-slide, .Custom_image_text_slider .image-with-text, .Custom_image_text_slider .image-with-text__grid {
+        min-height: 70.3rem;
+    }
+
+    .Custom_image_text_slider .image-with-text-slider.image-with-text__media--small .swiper-slide, .Custom_image_text_slider .image-with-text__media--small .image-with-text, .Custom_image_text_slider .image-with-text__media--small .image-with-text__grid {
+        min-height: 57rem;
     }
 }

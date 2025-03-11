@@ -1519,6 +1519,10 @@ body .slider-buttons .slider-button {
     margin-bottom: 2rem;
     margin-top: 3rem;
   }
+
+  .template-index .h0 {
+    font-size: calc(var(--font-heading-scale) * 4.2rem);
+  }
 }
 
 @media screen and (max-width: 1199px) {

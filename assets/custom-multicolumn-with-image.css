@@ -110,3 +110,14 @@
 .custom-multicolumn-with-image .button {
     box-shadow: 0 4px 4px #00000040;
 }
+
+@media screen and (max-width: 1366px) {
+    .custom-multicolumn-with-image .multicolumn-box__item_inner {
+        min-height: 486px;
+    }
+
+    .custom-multicolumn-with-image .grid--2-col-desktop .multicolumn-box__item_inner {
+        min-height: 580px;
+        padding: 30px 24px;
+    }
+}

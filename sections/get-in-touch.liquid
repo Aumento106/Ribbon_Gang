@@ -21,15 +21,6 @@
     </div>
 
     <div class="contact-container">
-        {% if section.settings.contact_image != blank %}
-          <div class="contact-image">
-              <img src="{{ section.settings.contact_image | img_url: 'master' }}"
-                  alt="Contact Us"
-                  loading="lazy">
-          </div> 
-        {% else %}
-          <div style="background: #f4f4f4; width: 100%; height: 100%;"></div>
-        {% endif %}
 
       <div class="contact-form-wrapper">
 
@@ -232,7 +223,7 @@
           {% for block in section.blocks %}
             {% if block.type == 'location' %}
               <div class="location-card" {{ block.shopify_attributes }}>
-                <div class="location-card-main">
+                <div class="location-card-main color-{{ block.settings.box_color_scheme }}">
                   <h1 class="location-title">{{ block.settings.title }}</h1>
 
                 <div class="location-info">
@@ -402,11 +393,6 @@
       "default": "Get in Touch"
     },
     {
-      "type": "image_picker",
-      "id": "contact_image",
-      "label": "Contact Image"
-    },
-    {
       "type": "range",
       "id": "padding_top",
       "min": 0,
@@ -433,6 +419,12 @@
       "name": "Location",
       "limit": 3,
       "settings": [
+        {
+          "type": "color_scheme",
+          "id": "box_color_scheme",
+          "label": "t:sections.multirow.settings.container_color_scheme.label",
+          "default": "scheme-1"
+        },
         {
           "type": "text",
           "id": "title",

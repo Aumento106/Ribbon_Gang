@@ -1201,6 +1201,7 @@ body .swiper .swiper-pagination {
   padding: 8px 10px;
   border-radius: 60px;
   gap: 4px;
+  border: 0.2px solid #FFFFFF;
 }
 
 body .swiper-pagination.swiper-pagination-bullets .swiper-pagination-bullet {

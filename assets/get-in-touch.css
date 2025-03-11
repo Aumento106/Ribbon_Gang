@@ -63,7 +63,8 @@
   margin-right: 8px;
 }
 .contact-form-wrapper .submit-button {
-  margin-top: 20px;
+  margin-top: 15px;
+  padding: 16px 60px;
 }
 .form-input,
 .form-textarea,

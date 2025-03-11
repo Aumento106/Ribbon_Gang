@@ -16,7 +16,7 @@
 .rich-text__wrapper .rich-text__text ol li::before,
 .rich-text__wrapper .center .rich-text__text ul li::before {
   margin-top: 0;
-  top: 8px;
+  top: 0;
   width: 5px;
   top: 8px;
   transform: translateY(0%);
@@ -43,7 +43,10 @@
   display: inline-block;
   position: relative;
 }
-.rich-text__wrapper .center .rich-text__text {
+.rich-text__wrapper .center .rich-text__text p:last-child {
+  margin-bottom: 0;
+}
+.rich-text__wrapper .center .rich-text__text p {
   margin-bottom: 15px;
 }
 .rich-text__blocks {

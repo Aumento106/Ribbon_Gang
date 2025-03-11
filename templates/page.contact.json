@@ -158,10 +158,14 @@
             "box_color_scheme": "scheme-1",
             "title": "Australia",
             "company": "SPACELOGIC GROUP PTY LTD",
+            "company_icon": "shopify://shop_images/Frame_8.svg",
             "address": "7 Cameron Place, Orange NSW 2800, Australia",
+            "address_icon": "shopify://shop_images/Frame_9.svg",
             "phone": "02 6362 5533",
+            "phone_icon": "shopify://shop_images/Frame_10.svg",
             "phone_link": "tel:02 6362 5533",
             "email": "abc@gmail.com",
+            "email_icon": "shopify://shop_images/Frame_11.svg",
             "email_link": "mailto:abc@gmail.com",
             "facebook": "https://www.facebook.com/spacelogichealthcare",
             "instagram": "https://www.instagram.com/spacelogichealthcare/",
@@ -169,8 +173,7 @@
             "youtube": "https://www.youtube.com/channel/UCtN25Fwi7Evc-SAI86suAjg/videos",
             "linkedin": "",
             "distributor_logo_1_url": "",
-            "distributor_logo_2_url": "",
-            "distributor_text": ""
+            "distributor_logo_2_url": ""
           }
         },
         "location_mTCeAQ": {
@@ -179,10 +182,14 @@
             "box_color_scheme": "",
             "title": "United States",
             "company": "SPACELOGIC GROUP LTD",
+            "company_icon": "shopify://shop_images/Frame_8.svg",
             "address": "44 Commerce Street, etc",
+            "address_icon": "shopify://shop_images/Frame_9.svg",
             "phone": "973 379 4033",
+            "phone_icon": "shopify://shop_images/Frame_10.svg",
             "phone_link": "tel:973 379 4033",
             "email": "abc@gmail.com",
+            "email_icon": "shopify://shop_images/Frame_11.svg",
             "email_link": "mailto:abc@gmail.com",
             "facebook": "https://www.facebook.com/spacelogichealthcare",
             "instagram": "",
@@ -190,8 +197,7 @@
             "youtube": "",
             "linkedin": "https://www.linkedin.com/company/spacelogic/",
             "distributor_logo_1_url": "",
-            "distributor_logo_2_url": "",
-            "distributor_text": ""
+            "distributor_logo_2_url": ""
           }
         },
         "location_BQBU6m": {
@@ -213,8 +219,7 @@
             "distributor_logo_1": "shopify://shop_images/image_108.png",
             "distributor_logo_1_url": "",
             "distributor_logo_2": "shopify://shop_images/image_109.png",
-            "distributor_logo_2_url": "",
-            "distributor_text": "For more information on our Distributors in the US please click on the logos below:"
+            "distributor_logo_2_url": ""
           }
         }
       },
@@ -226,6 +231,22 @@
       "settings": {
         "row_color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "title": "Enquiry",
+        "name": "Your Name",
+        "name_icon": "shopify://shop_images/user-svgrepo-com.svg",
+        "job_title": "Job Title",
+        "job_title_icon": "shopify://shop_images/job-svgrepo-com_1_1.svg",
+        "organisation": "Organisation",
+        "organisation_icon": "shopify://shop_images/organization-svgrepo-com_1.svg",
+        "email": "Email",
+        "email_icon": "shopify://shop_images/email-8-svgrepo-com.png",
+        "region": "Region",
+        "region_icon": "shopify://shop_images/region_1.svg",
+        "phone": "Phone",
+        "phone_icon": "shopify://shop_images/email-8-svgrepo-com_1.svg",
+        "enquiry_type": "Enquiry Type",
+        "enquiry_type_icon": "shopify://shop_images/inquiry-svgrepo-com_1_1.svg",
+        "enquiry": "Enquiry",
+        "enquiry_icon": "shopify://shop_images/transaction-detail-enquiry-1_1_1.svg",
         "padding_top": 70,
         "padding_bottom": 70
       }

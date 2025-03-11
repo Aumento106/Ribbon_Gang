@@ -72,7 +72,7 @@
 -%}
 
 <div class="image-with-text-slider-wrapper section-{{ section.id }} section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}">
-  <div class="page-width_a">
+  <div class="{% if section.settings.show_half_slide == false %}page-width{% endif %}">
     {%- if section.settings.heading != blank -%}
       <div class="sec-head page-width section-title-alignment-{{ section.settings.title_alignment }} title-wrapper-with-link title-wrapper--no-top-margin">
         <h2 class="sec-title title {{ section.settings.heading_size }}">
@@ -84,7 +84,7 @@
       </div>
     {%- endif -%}
 
-    <div class="swiper custom-image-with-text-slider image-with-text-slider{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+    <div class="swiper custom-image-with-text-slider{% if section.settings.show_half_slide == true %} show-half-slide{% endif %} image-with-text__media--{{ section.settings.height }} image-with-text-slider{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
       <div class="swiper-wrapper">
         {%- for block in section.blocks -%}
           <div class="swiper-slide" {{ block.shopify_attributes }}>
@@ -337,6 +337,12 @@
       ],
       "default": "left",
       "label": "Mobile content alignment"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_half_slide",
+      "label": "Show half slides from both sides",
+      "default": true
     },
     {
       "type": "color_scheme",

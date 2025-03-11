@@ -184,7 +184,7 @@ document.addEventListener('DOMContentLoaded', function () {
         slidesPerView: 1,
         spaceBetween: 50,
         speed: 500,
-        centeredSlides: true,
+        centeredSlides: false,
         grabCursor: true,
         loop: true,
         pagination: {

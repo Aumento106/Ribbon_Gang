@@ -119,7 +119,6 @@
         },
         "text_hwy9gg": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "text": "<ol><li><strong>Australia & New Zealand • United States & Canada</strong></li></ol>"
           }
@@ -171,6 +170,7 @@
             "twitter": "https://twitter.com/space_logic",
             "youtube": "https://www.youtube.com/channel/UCtN25Fwi7Evc-SAI86suAjg/videos",
             "linkedin": "",
+            "distributor_text": "",
             "distributor_logo_1_url": "",
             "distributor_logo_2_url": ""
           }
@@ -195,6 +195,7 @@
             "twitter": "",
             "youtube": "",
             "linkedin": "https://www.linkedin.com/company/spacelogic/",
+            "distributor_text": "",
             "distributor_logo_1_url": "",
             "distributor_logo_2_url": ""
           }
@@ -215,10 +216,11 @@
             "twitter": "",
             "youtube": "",
             "linkedin": "",
+            "distributor_text": "For more information on our Distributors in the US please click on the logos below:",
             "distributor_logo_1": "shopify://shop_images/image_108.png",
-            "distributor_logo_1_url": "",
+            "distributor_logo_1_url": "https://coulmed.com/",
             "distributor_logo_2": "shopify://shop_images/image_109.png",
-            "distributor_logo_2_url": ""
+            "distributor_logo_2_url": "https://www.statmedicalcanada.com/"
           }
         }
       },
@@ -228,7 +230,7 @@
         "location_BQBU6m"
       ],
       "settings": {
-        "row_color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "row_color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
         "title": "Enquiry",
         "name": "Your Name",
         "name_icon": "shopify://shop_images/user-svgrepo-com.svg",

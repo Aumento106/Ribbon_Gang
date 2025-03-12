@@ -24,6 +24,9 @@
   left: -20px;
   display: inline-block;
 }
+.rich-text__wrapper .center .rich-text__text ul li::before {
+  top: 10px;
+}
 .rich-text__wrapper .rich-text__text ol li::before {
   content: counter(ordered);
   counter-increment: ordered;

@@ -140,6 +140,10 @@
   .product-catalog-sec .product-catalog-right {
     padding: 0 30px 30px;
   }
+
+  .product-catalog-sec .product-catalog-right .title br {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 749px) {

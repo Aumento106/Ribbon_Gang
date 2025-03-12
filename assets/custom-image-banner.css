@@ -32,9 +32,19 @@
     box-shadow: 0 4px 4px #00000040;
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 990px) {
     .custom-image-banner .banner--large:not(.banner--adapt) {
         min-height: 69rem;
+    }
+}
+
+@media screen and (max-width: 989px) {
+    .custom-image-banner .banner--large:not(.banner--adapt) {
+        min-height: 57rem;
+    }
+
+    .custom-image-banner .banner__box .banner__text.subtitle {
+        font-size: 26px;
     }
 }
 
@@ -47,5 +57,16 @@
 @media screen and (max-width: 1366px) {
     .custom-image-banner .banner-text-con {
         padding: 30px 20px;
+    }
+}
+
+@media screen and (max-width: 749px) {
+    .custom-image-banner .banner-text-con {
+        margin: 0 1.5rem;
+        padding: 20px 10px;
+    }
+
+    .custom-image-banner .banner__box .banner__text.subtitle {
+        font-size: 20px;
     }
 }

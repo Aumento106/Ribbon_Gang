@@ -850,6 +850,10 @@
   .footer-block__newsletter .field__label {
     top: calc(2rem + var(--inputs-border-width));
   }
+
+  .footer-block-left {
+    margin-bottom: 2.4rem;
+  }
 }
 
 @media screen and (max-width: 568px) {

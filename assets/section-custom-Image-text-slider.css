@@ -71,6 +71,10 @@ body .Custom_image_text_slider .swiper .swiper-pagination {
     margin-top: 2.4rem;
 }
 
+.Custom_image_text_slider .section-des p {
+    margin: 0;
+}
+
 .Custom_image_text_slider .section-des p:not(:last-child) {
     margin: 0 0 1.6rem;
 }
@@ -87,6 +91,10 @@ body .Custom_image_text_slider .swiper .swiper-pagination {
 
 .Custom_image_text_slider .image-with-text-slider .image-with-text__grid.grid {
     --grid-desktop-horizontal-spacing: 4rem;
+}
+
+.Custom_image_text_slider .image-with-text-slider .image-with-text__text p:not(:last-child) {
+    margin-bottom: 1.6rem;
 }
 
 @media screen and (min-width: 1541px) {
@@ -124,5 +132,48 @@ body .Custom_image_text_slider .swiper .swiper-pagination {
 
     .Custom_image_text_slider .image-with-text-slider.image-with-text__media--small .swiper-slide, .Custom_image_text_slider .image-with-text__media--small .image-with-text, .Custom_image_text_slider .image-with-text__media--small .image-with-text__grid {
         min-height: 57rem;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .Custom_image_text_slider .image-with-text-slider .swiper-slide, .Custom_image_text_slider .image-with-text, .Custom_image_text_slider .image-with-text__grid {
+        min-height: 55.3rem;
+    }
+
+    .Custom_image_text_slider .image-with-text-slider .image-with-text__heading {
+        font-size: calc(var(--font-heading-scale)* 3rem);
+    }
+
+    .Custom_image_text_slider .section-des {
+        font-size: 26px;
+        margin-top: 1.6rem;
+    }
+}
+
+@media screen and (max-width: 989px) {
+    .Custom_image_text_slider .image-with-text-slider.show-half-slide {
+        padding: 0 1.5rem;
+    }
+}
+
+@media screen and (max-width: 749px) {
+    .Custom_image_text_slider .image-with-text {
+        padding: 0 0 24px;
+    }
+
+    .Custom_image_text_slider .image-with-text-slider .image-with-text__heading {
+        font-size: calc(var(--font-heading-scale)*2.4rem);
+    }
+
+    .Custom_image_text_slider .image-with-text__text strong {
+        font-size: 18px;
+    }
+
+    .Custom_image_text_slider .image-with-text-slider {
+        padding-bottom: 0;
+    }
+
+    .Custom_image_text_slider .image-text-con-buttons {
+        bottom: 30px;
     }
 }

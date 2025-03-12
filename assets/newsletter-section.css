@@ -126,6 +126,10 @@
   .newsletter .grid {
     --grid-desktop-horizontal-spacing: 3rem;
   }
+
+  .newsletter-heading-con .title br {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 749px) {

@@ -3728,6 +3728,9 @@ iframe {
 .section-title-alignment-right {
   text-align: right;
 }
+.template-page-contact .contact .title {
+  margin-bottom: 20px;
+}
 
 @media screen and (max-width: 1024px) {
   .title {

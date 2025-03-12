@@ -472,7 +472,7 @@
             "offer_title": "",
             "heading": "<p>Introducing the registered WireLoop Shape Mark andSteriLoop™ innovation</p>",
             "heading_size": "h0",
-            "text": "<p>SpaceLogic is proud to introduce SteriLoop®,  featuring our registered WireLoop Shape Mark – a game-changing  innovation in healthcare  storage.</p><p><br/>SMOOTH ROUNDED CORNERS: Prevents cuts,  micro-tears, and damage to consumables<br/><br/>NO SHARP EDGES: Superior safety for hospital  staff and patient<br/><br/>ENHANCED DURABILITY AND HYGIENE:  Engineered for long-term performance<br/><br/><strong>Look for the Loop™ – The  ultimate in safe, smart storage</strong></p>",
+            "text": "<p>SpaceLogic is proud to introduce SteriLoop®,  featuring our registered WireLoop Shape Mark – a game-changing  innovation in healthcare  storage.</p><p><br/> SMOOTH ROUNDED CORNERS: Prevents cuts,  micro-tears, and damage to consumables<br/><br/>NO SHARP EDGES: Superior safety for hospital  staff and patient<br/><br/>ENHANCED DURABILITY AND HYGIENE:  Engineered for long-term performance<br/><br/> Look for the Loop™ – The  ultimate in safe, smart storage<br/></p>",
             "button_label": "Shop Theatre Trolleys",
             "offer_code_txt": "",
             "button_link": "shopify://collections",
@@ -575,7 +575,6 @@
       ],
       "settings": {
         "heading": "",
-        "sec_des": "",
         "title_alignment": "left",
         "heading_size": "h1",
         "layout": "image_first",
@@ -584,13 +583,12 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
         "mobile_content_alignment": "left",
-        "show_half_slide": true,
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "section_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "offer_title_color": "#ffce00",
         "show_pagination": true,
-        "padding_top": 100,
-        "padding_bottom": 100
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "custom_image_text_slider_k9tKHM": {
@@ -706,18 +704,16 @@
       ],
       "settings": {
         "heading": "Testimonials and Case Studies",
-        "sec_des": "<p>World-class reputation.</p>",
         "title_alignment": "center",
         "heading_size": "h1",
         "layout": "image_first",
         "content_layout": "no-overlap",
-        "height": "small",
+        "height": "medium",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
         "mobile_content_alignment": "left",
-        "show_half_slide": false,
-        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "section_color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
+        "color_scheme": "",
+        "section_color_scheme": "",
         "offer_title_color": "#ffce00",
         "show_pagination": true,
         "padding_top": 36,
@@ -743,7 +739,7 @@
         "text": "<p>Archici enimodiae ratibus aut volum quiam, et quo bea  suntion serrovide por aute natempos erovita ium quunt  iumquae plab intium fuga. Temolore conescidis repudam  alicient fugit expland ucipsant.</p>",
         "padding_top": 50,
         "padding_bottom": 50,
-        "margin_top": 100,
+        "margin_top": 0,
         "margin_bottom": 0
       }
     },

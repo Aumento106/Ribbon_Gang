@@ -73,6 +73,7 @@
         },
         "text_hwy9gg": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<ol><li><strong>Australia & New Zealand • United States & Canada</strong></li></ol>"
           }

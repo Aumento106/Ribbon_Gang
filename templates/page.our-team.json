@@ -95,6 +95,7 @@
       "type": "team",
       "settings": {
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "box_color_scheme": "scheme-7bba877c-319e-4978-b41a-39cbc803dea8",
         "title": "",
         "padding_top": 140,
         "padding_bottom": 100,

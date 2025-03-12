@@ -76,7 +76,7 @@
           {% endif %}
           
           
-        <div class="team-member-detail-wrp">
+        <div class="team-member-detail-wrp color-{{ section.settings.box_color_scheme }}">
           {% if members.employee_name != blank %}
             <p class="team-member-name">{{ members.employee_name }}</p>
           {% endif %}
@@ -160,6 +160,12 @@
       "type": "color_scheme",
       "id": "color_scheme",
       "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    },
+    {
+      "type": "color_scheme",
+      "id": "box_color_scheme",
+      "label": "Box color scheme",
       "default": "scheme-1"
     },
     {

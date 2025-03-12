@@ -57,9 +57,10 @@
     }
 {%- endstyle -%}
 
+<div class="{% if section.settings.layout == 'grid' %} page-width{% endif %}">
 <slideshow-component
   class="swiper custom-slider-show
-  slider-mobile-gutter{% if section.settings.layout == 'grid' %} page-width{% endif %}{% if section.settings.show_text_below %} mobile-text-below{% endif %} section-{{ section.id }}-padding"
+  slider-mobile-gutter{% if section.settings.show_text_below %} mobile-text-below{% endif %} section-{{ section.id }}-padding"
   role="region"
   aria-roledescription="{{ 'sections.slideshow.carousel' | t }}"
   aria-label="{{ section.settings.accessibility_info | escape }}"
@@ -200,6 +201,7 @@
   </div>
 
 </slideshow-component>
+</div>
 
 {%- if request.design_mode -%}
   <script src="{{ 'theme-editor.js' | asset_url }}" defer="defer"></script>

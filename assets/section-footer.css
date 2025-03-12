@@ -546,6 +546,7 @@
   background-color: rgb(var(--color-button-text));
   border-radius: 6px;
   padding: 4px;
+  flex-wrap: nowrap;
 }
 
 .footer-block__newsletter .newsletter-form__field-wrapper .field__input {

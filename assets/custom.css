@@ -1338,6 +1338,18 @@ body .slider-buttons .slider-button {
   display: none;
 }
 
+.hotspot-area-main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  width: 50%;
+}
+
+.hotspot-area-main img {
+  width: 100%;
+}
+
 
 @media screen and (max-width: 1244px) {
   .sub-header-menu-main {

@@ -23,13 +23,15 @@
           "type": "heading",
           "settings": {
             "heading": "Our Project <strong>Customers</strong>",
-            "heading_size": "h0"
+            "heading_size": "h0",
+            "heading_alignment": "center"
           }
         },
         "text_w93Xcb": {
           "type": "text",
           "settings": {
-            "text": "<p>SpaceLogic collaborates with hospitals and healthcare institutions across the America’s, Asia Pacific and some regions across the UK and Europe. Our team of esteemed healthcare consultants is readily accessible to address your unique needs and create inventive solutions to tackle any storage obstacles you may encounter. Below, we present a small selection of some of our esteemed clients who have engaged with us on new constructions, refurbishments, renovations, or ongoing endeavors to enhance their storage efficiency by using our remarkable STERIRACK® System baskets and shelving, trolleys and accessories.</p>"
+            "text": "<p>SpaceLogic collaborates with hospitals and healthcare institutions across the America’s, Asia Pacific and some regions across the UK and Europe. Our team of esteemed healthcare consultants is readily accessible to address your unique needs and create inventive solutions to tackle any storage obstacles you may encounter. Below, we present a small selection of some of our esteemed clients who have engaged with us on new constructions, refurbishments, renovations, or ongoing endeavors to enhance their storage efficiency by using our remarkable STERIRACK® System baskets and shelving, trolleys and accessories.</p>",
+            "text_alignment": "center"
           }
         }
       },
@@ -182,10 +184,133 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "collage_ggeBh9": {
+      "type": "collage",
+      "blocks": {
+        "image_LP9kFn": {
+          "type": "image",
+          "settings": {}
+        },
+        "image_tzp6Pk": {
+          "type": "image",
+          "settings": {}
+        },
+        "image_eEzLNA": {
+          "type": "image",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "image_LP9kFn",
+        "image_tzp6Pk",
+        "image_eEzLNA"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_NRwFPn": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_cntMhg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Concept_5_bac74a20-bd01-40dc-a7e1-fcc5e77cbdfe.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_kh8km7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Concept_5_bac74a20-bd01-40dc-a7e1-fcc5e77cbdfe.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_C8XiQy": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Concept_5_bac74a20-bd01-40dc-a7e1-fcc5e77cbdfe.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_cntMhg",
+        "column_kh8km7",
+        "column_C8XiQy"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "collage_79xMCg": {
+      "type": "collage",
+      "blocks": {
+        "image_bi4VPV": {
+          "type": "image",
+          "settings": {}
+        },
+        "image_HjrWXx": {
+          "type": "image",
+          "settings": {}
+        },
+        "image_7UgaMg": {
+          "type": "image",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "image_bi4VPV",
+        "image_HjrWXx",
+        "image_7UgaMg"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "right",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "page_banner_EAANcW",
-    "project_list_QPj93j"
+    "project_list_QPj93j",
+    "collage_ggeBh9",
+    "multicolumn_NRwFPn",
+    "collage_79xMCg"
   ]
 }

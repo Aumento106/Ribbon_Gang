@@ -124,26 +124,35 @@
             "button_style_secondary_2": false,
             "botton_position": 120
           }
+        },
+        "hotspot_button_VaQwGY": {
+          "type": "hotspot_button",
+          "settings": {
+            "hotspot_icon": "shopify://shop_images/transaction-detail-enquiry-1_1_1.svg",
+            "hotspot_product_list": [
+              "standard-mesh-baskets-copy"
+            ],
+            "product_list_subtitle": "Section subtitle"
+          }
         }
       },
       "block_order": [
         "heading_wtkCw3",
         "text_t9P8ME",
-        "buttons_3efdfV"
+        "buttons_3efdfV",
+        "hotspot_button_VaQwGY"
       ],
       "settings": {
         "page_container": "full-width",
         "image": "shopify://shop_images/Concept_9.png",
         "image_overlay_opacity": 30,
-        "image_height": "large",
+        "image_height": "adapt",
         "desktop_content_position": "top-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "scheme-28b9a3ce-e916-452a-9440-95fefcedbf92",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false,
         "padding_top": 0,
         "padding_bottom": 100
       }
@@ -451,7 +460,6 @@
             "heading_size": "h0",
             "text": "<p>SpaceLogic is proud to introduce SteriLoop®,  featuring our registered WireLoop Shape Mark – a game-changing  innovation in healthcare  storage.</p><p> SMOOTH ROUNDED CORNERS: Prevents cuts,  micro-tears, and damage to consumables</p><p>NO SHARP EDGES: Superior safety for hospital  staff and patient</p><p>ENHANCED DURABILITY AND HYGIENE:  Engineered for long-term performance</p><p><strong>Look for the Loop™ – The  ultimate in safe, smart storage</strong></p>",
             "button_label": "Shop Theatre Trolleys",
-            "offer_code_txt": "",
             "button_link": "shopify://collections",
             "button_style_secondary": false
           }
@@ -465,7 +473,6 @@
             "heading_size": "h0",
             "text": "<p>SpaceLogic is proud to introduce SteriLoop®,  featuring our registered WireLoop Shape Mark – a game-changing  innovation in healthcare  storage.</p><p> SMOOTH ROUNDED CORNERS: Prevents cuts,  micro-tears, and damage to consumables</p><p>NO SHARP EDGES: Superior safety for hospital  staff and patient</p><p>ENHANCED DURABILITY AND HYGIENE:  Engineered for long-term performance</p><p><strong>Look for the Loop™ – The  ultimate in safe, smart storage</strong></p>",
             "button_label": "Shop Theatre Trolleys",
-            "offer_code_txt": "",
             "button_link": "shopify://collections",
             "button_style_secondary": false
           }
@@ -479,7 +486,6 @@
             "heading_size": "h0",
             "text": "<p>SpaceLogic is proud to introduce SteriLoop®,  featuring our registered WireLoop Shape Mark – a game-changing  innovation in healthcare  storage.</p><p> SMOOTH ROUNDED CORNERS: Prevents cuts,  micro-tears, and damage to consumables</p><p>NO SHARP EDGES: Superior safety for hospital  staff and patient</p><p>ENHANCED DURABILITY AND HYGIENE:  Engineered for long-term performance</p><p><strong>Look for the Loop™ – The  ultimate in safe, smart storage</strong></p>",
             "button_label": "Shop Theatre Trolleys",
-            "offer_code_txt": "",
             "button_link": "shopify://collections",
             "button_style_secondary": false
           }
@@ -493,7 +499,6 @@
             "heading_size": "h0",
             "text": "<p>SpaceLogic is proud to introduce SteriLoop®,  featuring our registered WireLoop Shape Mark – a game-changing  innovation in healthcare  storage.</p><p> SMOOTH ROUNDED CORNERS: Prevents cuts,  micro-tears, and damage to consumables</p><p>NO SHARP EDGES: Superior safety for hospital  staff and patient</p><p>ENHANCED DURABILITY AND HYGIENE:  Engineered for long-term performance</p><p><strong>Look for the Loop™ – The  ultimate in safe, smart storage</strong></p>",
             "button_label": "Shop Theatre Trolleys",
-            "offer_code_txt": "",
             "button_link": "shopify://collections",
             "button_style_secondary": false
           }
@@ -507,7 +512,6 @@
             "heading_size": "h0",
             "text": "<p>SpaceLogic is proud to introduce SteriLoop®,  featuring our registered WireLoop Shape Mark – a game-changing  innovation in healthcare  storage.</p><p> SMOOTH ROUNDED CORNERS: Prevents cuts,  micro-tears, and damage to consumables</p><p>NO SHARP EDGES: Superior safety for hospital  staff and patient</p><p>ENHANCED DURABILITY AND HYGIENE:  Engineered for long-term performance</p><p><strong>Look for the Loop™ – The  ultimate in safe, smart storage</strong></p>",
             "button_label": "Shop Theatre Trolleys",
-            "offer_code_txt": "",
             "button_link": "shopify://collections",
             "button_style_secondary": false
           }
@@ -521,7 +525,6 @@
             "heading_size": "h0",
             "text": "<p>SpaceLogic is proud to introduce SteriLoop®,  featuring our registered WireLoop Shape Mark – a game-changing  innovation in healthcare  storage.</p><p> SMOOTH ROUNDED CORNERS: Prevents cuts,  micro-tears, and damage to consumables</p><p>NO SHARP EDGES: Superior safety for hospital  staff and patient</p><p>ENHANCED DURABILITY AND HYGIENE:  Engineered for long-term performance</p><p><strong>Look for the Loop™ – The  ultimate in safe, smart storage</strong></p>",
             "button_label": "Shop Theatre Trolleys",
-            "offer_code_txt": "",
             "button_link": "shopify://collections",
             "button_style_secondary": false
           }
@@ -535,7 +538,6 @@
             "heading_size": "h0",
             "text": "<p>SpaceLogic is proud to introduce SteriLoop®,  featuring our registered WireLoop Shape Mark – a game-changing  innovation in healthcare  storage.</p><p> SMOOTH ROUNDED CORNERS: Prevents cuts,  micro-tears, and damage to consumables</p><p>NO SHARP EDGES: Superior safety for hospital  staff and patient</p><p>ENHANCED DURABILITY AND HYGIENE:  Engineered for long-term performance</p><p><strong>Look for the Loop™ – The  ultimate in safe, smart storage</strong></p>",
             "button_label": "Shop Theatre Trolleys",
-            "offer_code_txt": "",
             "button_link": "shopify://collections",
             "button_style_secondary": false
           }
@@ -582,7 +584,6 @@
             "heading_size": "h0",
             "text": "<p>Bearundae voluptatem eum iditatqui aut doluptiorest adit  am rerrum sitae cor modia voluptatist amu.<br/><br/>Bearundae voluptatem eum iditatqui aut doluptiorest  adit am rerrum sitae cor modia voluptatist amu.  Bearundae voluptatem eum iditatqui aut doluptiorest  adit am rerrum sitae cor modia voluptatist amu.<br/><br/><strong>“We couldn’t have asked for a better system —  the nurses absolutely love it!”</strong><br/><br/>Shane Brown | Blacktown Hospital</p>",
             "button_label": "Shop Theatre Trolleys",
-            "offer_code_txt": "",
             "button_link": "shopify://collections",
             "button_style_secondary": false
           }
@@ -596,7 +597,6 @@
             "heading_size": "h0",
             "text": "<p>Bearundae voluptatem eum iditatqui aut doluptiorest adit  am rerrum sitae cor modia voluptatist amu.<br/><br/>Bearundae voluptatem eum iditatqui aut doluptiorest  adit am rerrum sitae cor modia voluptatist amu.  Bearundae voluptatem eum iditatqui aut doluptiorest  adit am rerrum sitae cor modia voluptatist amu.<br/><br/><strong>“We couldn’t have asked for a better system —  the nurses absolutely love it!”</strong><br/><br/>Shane Brown | Blacktown Hospital</p>",
             "button_label": "Shop Theatre Trolleys",
-            "offer_code_txt": "",
             "button_link": "shopify://collections",
             "button_style_secondary": false
           }
@@ -610,7 +610,6 @@
             "heading_size": "h0",
             "text": "<p>Bearundae voluptatem eum iditatqui aut doluptiorest adit  am rerrum sitae cor modia voluptatist amu.<br/><br/>Bearundae voluptatem eum iditatqui aut doluptiorest  adit am rerrum sitae cor modia voluptatist amu.  Bearundae voluptatem eum iditatqui aut doluptiorest  adit am rerrum sitae cor modia voluptatist amu.<br/><br/><strong>“We couldn’t have asked for a better system —  the nurses absolutely love it!”</strong><br/><br/>Shane Brown | Blacktown Hospital</p>",
             "button_label": "Shop Theatre Trolleys",
-            "offer_code_txt": "",
             "button_link": "shopify://collections",
             "button_style_secondary": false
           }
@@ -624,7 +623,6 @@
             "heading_size": "h0",
             "text": "<p>Bearundae voluptatem eum iditatqui aut doluptiorest adit  am rerrum sitae cor modia voluptatist amu.<br/><br/>Bearundae voluptatem eum iditatqui aut doluptiorest  adit am rerrum sitae cor modia voluptatist amu.  Bearundae voluptatem eum iditatqui aut doluptiorest  adit am rerrum sitae cor modia voluptatist amu.<br/><br/><strong>“We couldn’t have asked for a better system —  the nurses absolutely love it!”</strong><br/><br/>Shane Brown | Blacktown Hospital</p>",
             "button_label": "Shop Theatre Trolleys",
-            "offer_code_txt": "",
             "button_link": "shopify://collections",
             "button_style_secondary": false
           }
@@ -638,7 +636,6 @@
             "heading_size": "h0",
             "text": "<p>Bearundae voluptatem eum iditatqui aut doluptiorest adit  am rerrum sitae cor modia voluptatist amu.<br/><br/>Bearundae voluptatem eum iditatqui aut doluptiorest  adit am rerrum sitae cor modia voluptatist amu.  Bearundae voluptatem eum iditatqui aut doluptiorest  adit am rerrum sitae cor modia voluptatist amu.<br/><br/><strong>“We couldn’t have asked for a better system —  the nurses absolutely love it!”</strong><br/><br/>Shane Brown | Blacktown Hospital</p>",
             "button_label": "Shop Theatre Trolleys",
-            "offer_code_txt": "",
             "button_link": "shopify://collections",
             "button_style_secondary": false
           }
@@ -652,7 +649,6 @@
             "heading_size": "h0",
             "text": "<p>Bearundae voluptatem eum iditatqui aut doluptiorest adit  am rerrum sitae cor modia voluptatist amu.<br/><br/>Bearundae voluptatem eum iditatqui aut doluptiorest  adit am rerrum sitae cor modia voluptatist amu.  Bearundae voluptatem eum iditatqui aut doluptiorest  adit am rerrum sitae cor modia voluptatist amu.<br/><br/><strong>“We couldn’t have asked for a better system —  the nurses absolutely love it!”</strong><br/><br/>Shane Brown | Blacktown Hospital</p>",
             "button_label": "Shop Theatre Trolleys",
-            "offer_code_txt": "",
             "button_link": "shopify://collections",
             "button_style_secondary": false
           }
@@ -666,7 +662,6 @@
             "heading_size": "h0",
             "text": "<p>Bearundae voluptatem eum iditatqui aut doluptiorest adit  am rerrum sitae cor modia voluptatist amu.<br/><br/>Bearundae voluptatem eum iditatqui aut doluptiorest  adit am rerrum sitae cor modia voluptatist amu.  Bearundae voluptatem eum iditatqui aut doluptiorest  adit am rerrum sitae cor modia voluptatist amu.<br/><br/><strong>“We couldn’t have asked for a better system —  the nurses absolutely love it!”</strong><br/><br/>Shane Brown | Blacktown Hospital</p>",
             "button_label": "Shop Theatre Trolleys",
-            "offer_code_txt": "",
             "button_link": "shopify://collections",
             "button_style_secondary": false
           }
@@ -770,8 +765,6 @@
         "color_scheme": "scheme-28b9a3ce-e916-452a-9440-95fefcedbf92",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false,
         "padding_top": 100,
         "padding_bottom": 100
       }

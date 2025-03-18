@@ -304,6 +304,94 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "custom_collage_JqxjyW": {
+      "type": "custom-Collage",
+      "blocks": {
+        "image_NcM4V4": {
+          "type": "image",
+          "settings": {}
+        },
+        "image_QJBQEU": {
+          "type": "image",
+          "settings": {}
+        },
+        "image_beaCzB": {
+          "type": "image",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "image_NcM4V4",
+        "image_QJBQEU",
+        "image_beaCzB"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_multicolumn_2_aWBKht": {
+      "type": "custom-multicolumn-2",
+      "blocks": {
+        "column_DaQ74X": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Concept_5.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_cXJLGC": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Concept_5.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_qbXMdP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Concept_5.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_DaQ74X",
+        "column_cXJLGC",
+        "column_qbXMdP"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -311,6 +399,8 @@
     "project_list_QPj93j",
     "collage_ggeBh9",
     "multicolumn_NRwFPn",
-    "collage_79xMCg"
+    "collage_79xMCg",
+    "custom_collage_JqxjyW",
+    "custom_multicolumn_2_aWBKht"
   ]
 }

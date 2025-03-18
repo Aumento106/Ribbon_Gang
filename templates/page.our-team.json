@@ -24,33 +24,33 @@
         "slide_mfK3hU": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Concept_1_1.png",
+            "image": "shopify://shop_images/Group_1171277884.png",
             "image_overlay_opacity": 0
           }
         },
-        "slide_yHYTn8": {
+        "slide_nN9mbR": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Concept_1_1.png",
+            "image": "shopify://shop_images/Group_1171277884.png",
             "image_overlay_opacity": 0
           }
         },
-        "slide_c374B3": {
+        "slide_9bN4kG": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Concept_1_1.png",
+            "image": "shopify://shop_images/Group_1171277884.png",
             "image_overlay_opacity": 0
           }
         }
       },
       "block_order": [
         "slide_mfK3hU",
-        "slide_yHYTn8",
-        "slide_c374B3"
+        "slide_nN9mbR",
+        "slide_9bN4kG"
       ],
       "settings": {
         "layout": "full_bleed",
-        "slide_height": "small",
+        "slide_height": "adapt_image",
         "image_behavior": "none",
         "padding_top": 0,
         "padding_bottom": 0

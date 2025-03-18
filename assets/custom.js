@@ -220,27 +220,4 @@ document.addEventListener('DOMContentLoaded', function () {
 
 });
 
-document.addEventListener('click', (event) => {
-    // Open popup
-    if (event.target.closest('.hotspot-icon')) {
-        const blockId = event.target.closest('.hotspot-icon').getAttribute('data-block-id');
-        const popup = document.getElementById(`popup-${blockId}`);
 
-        // Remove active class from any open popup
-        document.querySelectorAll('.hotspot-product-list-main').forEach(p => {
-            p.classList.remove('active');
-        });
-
-        if (popup) {
-            popup.classList.add('active');
-        }
-    }
-
-    // Close popup
-    if (event.target.closest('.hotspot-product-list-main .close-btn')) {
-        const popup = event.target.closest('.hotspot-product-list-main');
-        if (popup) {
-            popup.classList.remove('active');
-        }
-    }
-});

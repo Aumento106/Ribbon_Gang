@@ -9,180 +9,75 @@
  */
 {
   "sections": {
-    "page_banner_EAANcW": {
-      "type": "page-banner",
+    "custom_page_banner_dHyyAj": {
+      "type": "custom-page-banner",
       "blocks": {
-        "image_aCzXHd": {
-          "type": "image",
+        "slide_mfK3hU": {
+          "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/image_1_f447e747-d3f3-4818-bd48-a3a839e42a16.png",
-            "border_radius": true
+            "image": "shopify://shop_images/Concept_1_1.png",
+            "image_overlay_opacity": 0
           }
         },
-        "heading_RiVNji": {
-          "type": "heading",
+        "slide_yHYTn8": {
+          "type": "slide",
           "settings": {
-            "heading": "Our Project <strong>Customers</strong>",
-            "heading_size": "h0",
-            "heading_alignment": "center"
+            "image": "shopify://shop_images/Concept_1_1.png",
+            "image_overlay_opacity": 0
           }
         },
-        "text_w93Xcb": {
-          "type": "text",
+        "slide_c374B3": {
+          "type": "slide",
           "settings": {
-            "text": "<p>SpaceLogic collaborates with hospitals and healthcare institutions across the America’s, Asia Pacific and some regions across the UK and Europe. Our team of esteemed healthcare consultants is readily accessible to address your unique needs and create inventive solutions to tackle any storage obstacles you may encounter. Below, we present a small selection of some of our esteemed clients who have engaged with us on new constructions, refurbishments, renovations, or ongoing endeavors to enhance their storage efficiency by using our remarkable STERIRACK® System baskets and shelving, trolleys and accessories.</p>",
-            "text_alignment": "center"
+            "image": "shopify://shop_images/Concept_1_1.png",
+            "image_overlay_opacity": 0
           }
         }
       },
       "block_order": [
-        "image_aCzXHd",
-        "heading_RiVNji",
-        "text_w93Xcb"
+        "slide_mfK3hU",
+        "slide_yHYTn8",
+        "slide_c374B3"
       ],
       "settings": {
-        "title_alignment": "center",
-        "full_width": false,
-        "content_width": "full_width",
-        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "layout": "full_bleed",
+        "slide_height": "small",
+        "image_behavior": "none",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
-    "project_list_QPj93j": {
-      "type": "project-list",
+    "rich_text_wTzENJ": {
+      "type": "rich-text",
       "blocks": {
-        "project_GYiGjw": {
-          "type": "project",
+        "heading_De9nEQ": {
+          "type": "heading",
           "settings": {
-            "project_logo": "shopify://shop_images/act.png",
-            "project_title": "Australian Capital Territory Health",
-            "project_location": "Phillip, ACT, Australia",
-            "hospital_name": "Canberra Hospital"
+            "heading": "Meet Our Team",
+            "heading_size": "h0"
           }
         },
-        "project_bkTLKR": {
-          "type": "project",
+        "text_kMYRNM": {
+          "type": "text",
           "settings": {
-            "project_logo": "shopify://shop_images/bapist-health.png",
-            "project_title": "Baptist Health",
-            "project_location": "Homestead, Florida, United States",
-            "hospital_name": "Homestead Hospital"
-          }
-        },
-        "project_QcEF8R": {
-          "type": "project",
-          "settings": {
-            "project_logo": "shopify://shop_images/calvary.png",
-            "project_title": "Calvary Health Care",
-            "project_location": "Adelaide, SA, Australia",
-            "hospital_name": "Calvary Adelaide Hospital | Calvary Private Hospital | Calvary Riverina Hospital"
-          }
-        },
-        "project_ig3wm6": {
-          "type": "project",
-          "settings": {
-            "project_logo": "shopify://shop_images/city-of-hope.png",
-            "project_title": "City of Hope",
-            "project_location": "Irvine, California, United States",
-            "hospital_name": "City of Hope Orange County"
-          }
-        },
-        "project_iiUK4E": {
-          "type": "project",
-          "settings": {
-            "project_logo": "shopify://shop_images/cleveland-clinic.png",
-            "project_title": "Cleveland Clinic",
-            "project_location": "Cleveland, Ohio, United States",
-            "hospital_name": "Cleveland Clinic Main Campus | Cleveland Clinic – Hillcrest Hospital | Cleveland Clinic – Euclid Hospital | Cleveland Clinic – Avon Hospital"
-          }
-        },
-        "project_By3wrq": {
-          "type": "project",
-          "settings": {
-            "project_logo": "shopify://shop_images/ogh.png",
-            "project_title": "Ochiltree General Hospital",
-            "project_location": "Perryton, Texas, United States",
-            "hospital_name": "Ochiltree General Hospital"
-          }
-        },
-        "project_RqWHk9": {
-          "type": "project",
-          "settings": {
-            "project_logo": "shopify://shop_images/hss.png",
-            "project_title": "Hospital for Special Surgery​",
-            "project_location": "New York, New York, United States",
-            "hospital_name": "Hospital for Special Surgery"
-          }
-        },
-        "project_VhyyAM": {
-          "type": "project",
-          "settings": {
-            "project_logo": "shopify://shop_images/lasfayette-surgical.png",
-            "project_title": "Lafayette Surgical Specialty Hospital",
-            "project_location": "Lafayette, Louisiana, United States",
-            "hospital_name": "Lafayette Surgical Specialty Hospital"
-          }
-        },
-        "project_pi8GMW": {
-          "type": "project",
-          "settings": {
-            "project_logo": "shopify://shop_images/mount-sinai.png",
-            "project_title": "Mount Sinai",
-            "project_location": "New York, New York, United States",
-            "hospital_name": "The Mount Sinai Hospital"
-          }
-        },
-        "project_PziRfn": {
-          "type": "project",
-          "settings": {
-            "project_logo": "shopify://shop_images/NYU-langone-health.png",
-            "project_title": "NYU Langone Health",
-            "project_location": "New York, New York, United States",
-            "hospital_name": "NYU Langone Orthopedic Hospital"
-          }
-        },
-        "project_jnN8RW": {
-          "type": "project",
-          "settings": {
-            "project_logo": "shopify://shop_images/northern-territory-health.png",
-            "project_title": "Northern Territory Health",
-            "project_location": "Darwin, Northern Territory, Australia",
-            "hospital_name": "Tennant Creek Hospital | Gove District Hospital | Katherine Hospital"
-          }
-        },
-        "project_KD86e7": {
-          "type": "project",
-          "settings": {
-            "project_logo": "shopify://shop_images/nexus-hospitals.png",
-            "project_title": "Nexus Hospitals",
-            "project_location": "Crows Nest, NSW, Australia",
-            "hospital_name": "Orange Private Hospital | Tennyson Center Day Hospital"
+            "text": "<p>The tireless and dynamic SpaceLogic team is dedicated to Healthcare. Our mission is to provide a fresh new approach, and premium advice and expertise to hospitals, medical centers and other clinical facilities. By combining the specialist skills of our entire team, we create a cohesive whole to give you individual attention, dedicated commitment and a result superior to any other.</p>"
           }
         }
       },
       "block_order": [
-        "project_GYiGjw",
-        "project_bkTLKR",
-        "project_QcEF8R",
-        "project_ig3wm6",
-        "project_iiUK4E",
-        "project_By3wrq",
-        "project_RqWHk9",
-        "project_VhyyAM",
-        "project_pi8GMW",
-        "project_PziRfn",
-        "project_jnN8RW",
-        "project_KD86e7"
+        "heading_De9nEQ",
+        "text_kMYRNM"
       ],
       "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "title_alignment": "center",
-        "box_alignment": "left",
-        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "content_width": "full_width",
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "full_width": true,
+        "no_margin": false,
+        "section_border": false,
+        "padding_top": 50,
+        "padding_bottom": 50
       }
     },
     "collage_ggeBh9": {
@@ -395,8 +290,8 @@
     }
   },
   "order": [
-    "page_banner_EAANcW",
-    "project_list_QPj93j",
+    "custom_page_banner_dHyyAj",
+    "rich_text_wTzENJ",
     "collage_ggeBh9",
     "multicolumn_NRwFPn",
     "collage_79xMCg",

@@ -1,0 +1,11 @@
+.Custom-Collage .collage-card.product-card-wrapper {
+    --border-radius: 24px;
+    border-color: #BBBBBB;
+}
+
+@media screen and (min-width: 750px) {
+    .Custom-Collage .collage {
+        --grid-desktop-horizontal-spacing: 45px;
+        --grid-desktop-vertical-spacing: 45px;
+    }
+}

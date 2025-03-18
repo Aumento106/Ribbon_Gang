@@ -1508,6 +1508,10 @@ body.shopify-section-header-hidden .hotspot-product-list-main {
   }
 }
 
+.breadcrumb-sec-main .breadcrumbs {
+  margin: 0;
+}
+
 
 @media screen and (max-width: 1244px) {
   .sub-header-menu-main {

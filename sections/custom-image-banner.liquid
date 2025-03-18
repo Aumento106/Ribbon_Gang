@@ -30,15 +30,26 @@
   }
 
   {% for block in section.blocks %}
-    .custom-image-banner .banner__buttons {
+    .custom-image-banner .banner__buttons-{{ block.id }} {
       position: absolute;
       left: 50%;
       bottom: {{ block.settings.botton_position }}px;
       transform: translateX(-50%);
     }
 
+    .custom-image-banner .hotspot-icon-{{ block.id }} {
+      top: {{ block.settings.top_position }}%;
+      left: {{ block.settings.left_position }}%;
+    }
+
+    @media screen and (max-width: 989px) {
+      .custom-image-banner .banner__buttons-{{ block.id }} {
+        bottom: {{ block.settings.botton_position | divided_by: 2.7 }}px;
+      }
+    }
+
     @media screen and (max-width: 749px) {
-      .custom-image-banner .banner__buttons {
+      .custom-image-banner .banner__buttons-{{ block.id }} {
         bottom: {{ block.settings.botton_position | divided_by: 1.6 }}px;
       }
     }
@@ -86,56 +97,64 @@
   endif
 -%}
 
+{% for block in section.blocks %}
+  {%- case block.type -%}
+    {%- when 'hotspot_button' -%}
+      <div id="popup-{{ block.id }}" class="hotspot-product-list-main color-{{ block.settings.hotspot_color_scheme }}">
+        <div class="hotspot-product-list-wrap">
+          <div class="close-btn">
+            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="1" y="1" width="28" height="28" rx="14" stroke="#424242" stroke-width="2"/>
+              <path d="M21.522 8.47461L8.47559 21.521" stroke="#424242" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M8.47559 8.47461L21.522 21.521" stroke="#424242" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div class="sec-head">
+            {% if block.settings.product_list_sec_title != blank %}
+              <h2 class="title h1">{{ block.settings.product_list_sec_title }}</h2>
+            {% endif %}
+            {% if block.settings.product_list_subtitle != blank %}
+              <p class="subtitle">{{ block.settings.product_list_subtitle }}</p>
+            {% endif %}
+          </div>
+          <div class="hotspot-products-wrap">
+            {% for product in block.settings.hotspot_product_list %}
+              <a href="{{ product.url }}" class="hotspot-product-item">
+                <div class="hotspot-product-image">
+                  {{ product.featured_image | image_url: width: 250 | image_tag }}
+                </div>
+                <p class="product-vendor">{{ product.vendor }}</p>
+                <h2 class="product-name">{{ product.title }}</h2>
+                <div class="product-des">{{ product.description }}</div>
+                <div class="product-price"></div>
+              </a>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+  {%- endcase -%}
+{% endfor %}
+
 <div
   id="Banner-{{ section.id }}"
   class="banner section-{{ section.id }}-padding {{ section.settings.page_container }} banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.stack_images_on_mobile and section.settings.image != blank and section.settings.image_2 != blank %} banner--stacked{% endif %}{% if section.settings.image_height == 'adapt' and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
 >
-  {% for block in section.blocks %}
-    {%- case block.type -%}
-      {%- when 'hotspot_button' -%}
-        <div class="hotspot-area-main">
-          {% for product in block.settings.hotspot_product_list %}
-
-            {% if block.settings.hotspot_icon != blank %}
-              <div class="hotspot-icon">
-                <img
-                  src="{{ block.settings.hotspot_icon | img_url: "master" }}"
-                  width="{{ block.settings.hotspot_icon.width }}"
-                  height="{{ block.settings.hotspot_icon.height }}"
-                >
-              </div>
-            {% endif %}
-            <div class="hotspot-product-list-main">
-              <div class="hotspot-product-list-wrap">
-                <div class="close-btn"> </div>
-                <div class="sec-head">
-                  {% if block.settings.product_list_sec_title != blank %}
-                    <h2 class="title h1">{{ block.settings.product_list_sec_title }}</h2>
-                  {% endif %}
-                  {% if block.settings.product_list_subtitle != blank %}
-                    <p class="subtitle">{{ block.settings.product_list_subtitle }}</p>
-                  {% endif %}
-                 
-                  
-                  
-                </div>
-                <div class="hotspot-products-wrap">
-                  <div class="hotspot-product-item">
-                    <div class="hotspot-product-image">
-                      {{  product.featured_image | image_url: width:250 | image_tag  }}
-                    </div>
-                    <p class="product-vendor"> {{ product.vendor }}</p>
-                    <h2 class="product-name">{{ product.title }}</h2>
-                    <div class="product-des">{{  product.description }}</div>
-                    <div class="product-price"></div>
-                  </div>
-                </div>
-              </div>
+  <div class="hotspot-area-main">
+    {% for block in section.blocks %}
+      {%- case block.type -%}
+        {%- when 'hotspot_button' -%}
+          {% if block.settings.hotspot_icon != blank %}
+            <div class="hotspot-icon hotspot-icon-{{ block.id }}" data-block-id="{{ block.id }}" {{ block.shopify_attributes }}>
+              <img
+                src="{{ block.settings.hotspot_icon | img_url: "master" }}"
+                width="{{ block.settings.hotspot_icon.width }}"
+                height="{{ block.settings.hotspot_icon.height }}"
+              >
             </div>
-          {% endfor %}
-        </div>
-    {%- endcase -%}
-  {% endfor %}
+          {% endif %}
+      {%- endcase -%}
+    {% endfor %}
+  </div>
   {%- if section.settings.image != blank -%}
     <div class="banner__media media{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_2 != blank %} banner__media-half{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
       {%- liquid
@@ -219,7 +238,7 @@
         {%- case block.type -%}
           {%- when 'buttons' -%}
             <div
-              class="banner__buttons{% if block.settings.button_label_1 != blank and block.settings.button_label_2 != blank %} banner__buttons--multiple{% endif %}"
+              class="banner__buttons banner__buttons-{{ block.id }} {% if block.settings.button_label_1 != blank and block.settings.button_label_2 != blank %} banner__buttons--multiple{% endif %}"
               {{ block.shopify_attributes }}
             >
               {%- if block.settings.button_label_1 != blank -%}
@@ -503,6 +522,36 @@
           "default": "Section subtitle",
           "label": "Section subtitle"
         },
+        {
+          "type": "color_scheme",
+          "id": "hotspot_color_scheme",
+          "label": "Popup color scheme",
+          "default": "scheme-1"
+        },
+        {
+          "type": "header",
+          "content": "Hotspot area settings"
+        },
+        {
+          "type": "range",
+          "id": "top_position",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "%",
+          "label": "Top position",
+          "default": 20
+        },
+        {
+          "type": "range",
+          "id": "left_position",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "%",
+          "label": "Left position",
+          "default": 20
+        }
       ]
     },
     {

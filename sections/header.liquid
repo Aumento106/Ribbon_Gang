@@ -388,6 +388,7 @@
 
       if (this.headerIsAlwaysSticky) {
         this.header.classList.add('shopify-section-header-sticky');
+        document.body.classList.add('shopify-section-header-hidden');
       };
 
       this.currentScrollTop = 0;
@@ -454,6 +455,7 @@
     hide() {
       if (this.headerIsAlwaysSticky) return;
       this.header.classList.add('shopify-section-header-hidden', 'shopify-section-header-sticky');
+      document.body.classList.add('shopify-section-header-hidden', 'shopify-section-header-sticky');
       this.closeMenuDisclosure();
       this.closeSearchModal();
     }
@@ -461,12 +463,15 @@
     reveal() {
       if (this.headerIsAlwaysSticky) return;
       this.header.classList.add('shopify-section-header-sticky', 'animate');
+      document.body.classList.add('shopify-section-header-sticky');
       this.header.classList.remove('shopify-section-header-hidden');
+      document.body.classList.remove('shopify-section-header-hidden');
     }
 
     reset() {
       if (this.headerIsAlwaysSticky) return;
       this.header.classList.remove('shopify-section-header-hidden', 'shopify-section-header-sticky', 'animate');
+      document.body.classList.remove('shopify-section-header-hidden', 'shopify-section-header-sticky');
     }
 
     closeMenuDisclosure() {

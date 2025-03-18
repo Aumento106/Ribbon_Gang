@@ -23,13 +23,12 @@
   {{ block.shopify_attributes }}
 >
   <div class="page-width utility-bar__grid{% if announcement_bar and language_country_selector or section.settings.phone_number %} utility-bar__grid--3-col{% elsif language_country_selector or section.settings.phone_number %} utility-bar__grid--2-col{% endif %}">
-
     {% comment %}
       {%- if section.settings.show_social and social_icons -%}
         {%- render 'social-icons' -%}
       {%- endif -%}
     {% endcomment %}
-    
+
     {%- if section.settings.phone_number != blank -%}
       <div class="phone-number">
         <a href="tel:{{ section.settings.phone_number }}" class="phone-number__link">
@@ -40,7 +39,7 @@
         </a>
       </div>
     {%- endif -%}
-    
+
     {%- if section.blocks.size == 1 -%}
       <div
         class="announcement-bar{% if section.settings.phone_number %} announcement-bar--one-announcement{% endif %}"
@@ -178,6 +177,18 @@
     </div>
   </div>
 </div>
+
+{% javascript %}
+  function setAnnouncementBarHeight() {
+    const announcementBar = document.querySelector('.announcement-bar-section');
+    const announcementBarHeight = announcementBar ? announcementBar.offsetHeight : 0;
+
+    document.documentElement.style.setProperty('--announcementbar-height', `${announcementBarHeight}px`);
+  }
+
+  window.addEventListener('load', setAnnouncementBarHeight);
+  window.addEventListener('resize', setAnnouncementBarHeight);
+{% endjavascript %}
 
 {% schema %}
 {

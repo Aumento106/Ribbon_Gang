@@ -267,4 +267,8 @@ body.popup-overflow-hidden::before {
     .projects-popup-main .project-logo-imgbox {
         margin: 2rem 0 0;
     }
+
+  .Custom-Collage .collage-card.product-card-wrapper {
+    --border-radius: 12px;
+  }
 }

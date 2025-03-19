@@ -2445,6 +2445,10 @@ span.product_compar_price {
     margin: 5px 0;
     font-size: 15px;
   }
+
+  .breadcrumbs li svg {
+    height: 11px;
+  }
 }
 
 @media screen and (max-width: 568px) {

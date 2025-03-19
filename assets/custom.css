@@ -2443,6 +2443,7 @@ span.product_compar_price {
 @media screen and (max-width: 749px) {
   .breadcrumbs li {
     margin: 5px 0;
+    font-size: 15px;
   }
 }
 

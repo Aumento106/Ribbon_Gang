@@ -268,7 +268,7 @@ body.popup-overflow-hidden::before {
         margin: 2rem 0 0;
     }
 
-  .Custom-Collage .collage-card.product-card-wrapper {
-    --border-radius: 12px;
-  }
+    .Custom-Collage .collage-card.product-card-wrapper {
+      --border-radius: 12px;
+    }
 }

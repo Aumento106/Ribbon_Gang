@@ -157,63 +157,45 @@
         "card_styles": "product-card-wrapper",
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "padding_top": 0,
-        "padding_bottom": 36
+        "padding_bottom": 45
       }
     },
-    "custom_multicolumn_2_aWBKht": {
-      "type": "custom-multicolumn-2",
+    "custom_collage_7i6FXi": {
+      "type": "custom-Collage",
       "blocks": {
-        "column_DaQ74X": {
-          "type": "column",
+        "image_6Qygnt": {
+          "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Concept_5.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
+            "image": "shopify://shop_images/Group_1171277821.jpg"
           }
         },
-        "column_cXJLGC": {
-          "type": "column",
+        "image_VXH9zp": {
+          "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Concept_5.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
+            "image": "shopify://shop_images/Group_1171277822.jpg"
           }
         },
-        "column_qbXMdP": {
-          "type": "column",
+        "image_6pPACQ": {
+          "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Concept_5.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
+            "image": "shopify://shop_images/Group_1171277824.jpg"
           }
         }
       },
       "block_order": [
-        "column_DaQ74X",
-        "column_cXJLGC",
-        "column_qbXMdP"
+        "image_6Qygnt",
+        "image_VXH9zp",
+        "image_6pPACQ"
       ],
       "settings": {
-        "title": "",
+        "heading": "",
         "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "desktop_layout": "equal",
+        "mobile_layout": "collage",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "padding_top": 0,
+        "padding_bottom": 45
       }
     },
     "custom_collage_4qRb99": {
@@ -251,7 +233,75 @@
         "card_styles": "product-card-wrapper",
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "padding_top": 0,
-        "padding_bottom": 36
+        "padding_bottom": 100
+      }
+    },
+    "product_catalog_VjYNFG": {
+      "type": "product-catalog",
+      "settings": {
+        "product_image": "shopify://shop_images/image_104.png",
+        "logo_link": "",
+        "heading": "<p>View our catalogue <br/>in your browser window</p>",
+        "heading_size": "h1",
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "description": "<p>View online or download a PDF, et quo bea suntion serrovide  por aute natempos erovita ium quunt iumquae plab intium fuga.  Temolore conescidis repudam alicient fugit expland ucipsant</p>",
+        "button_1_text": "View Catalogue",
+        "button_1_link": "",
+        "button_2_text": "View Catalogue",
+        "button_2_link": "shopify://collections",
+        "reverse_column": true,
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "proudly_support_NnMGAw": {
+      "type": "proudly-support",
+      "blocks": {
+        "support_item_3Hcczh": {
+          "type": "support_item",
+          "settings": {
+            "image": "shopify://shop_images/support-logo-1.png"
+          }
+        },
+        "support_item_fjND3Q": {
+          "type": "support_item",
+          "settings": {
+            "image": "shopify://shop_images/support-logo-2.png"
+          }
+        },
+        "support_item_tApGYX": {
+          "type": "support_item",
+          "settings": {
+            "image": "shopify://shop_images/support-logo-5.png"
+          }
+        },
+        "support_item_pzJMPa": {
+          "type": "support_item",
+          "settings": {
+            "image": "shopify://shop_images/support-logo-4.png"
+          }
+        },
+        "support_item_DnVgCF": {
+          "type": "support_item",
+          "settings": {
+            "image": "shopify://shop_images/support-logo-3.png"
+          }
+        }
+      },
+      "block_order": [
+        "support_item_3Hcczh",
+        "support_item_fjND3Q",
+        "support_item_tApGYX",
+        "support_item_pzJMPa",
+        "support_item_DnVgCF"
+      ],
+      "settings": {
+        "heading": "<p>We proudly Support</p>",
+        "heading_size": "h1",
+        "title_alignment": "center",
+        "color_scheme": "",
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     }
   },
@@ -260,7 +310,9 @@
     "rich_text_wTzENJ",
     "section_breadcrumb_JneyLg",
     "custom_collage_JqxjyW",
-    "custom_multicolumn_2_aWBKht",
-    "custom_collage_4qRb99"
+    "custom_collage_7i6FXi",
+    "custom_collage_4qRb99",
+    "product_catalog_VjYNFG",
+    "proudly_support_NnMGAw"
   ]
 }

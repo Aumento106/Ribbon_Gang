@@ -217,16 +217,32 @@ document.addEventListener('DOMContentLoaded', function () {
         },
     });
 
-
+    new Swiper('.project-popup-image-slider', {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        centeredSlides: false,
+        grabCursor: true,
+        loop: false,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+            renderBullet: function (index, className) {
+                return '<span class="' + className + '">' + (index + 1) + "</span>";
+            },
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    });
 });
 
+// ---------- Homepage Hotspot area popup -----------
 document.addEventListener('click', (event) => {
-    // Open popup
     if (event.target.closest('.hotspot-icon')) {
         const blockId = event.target.closest('.hotspot-icon').getAttribute('data-block-id');
         const popup = document.getElementById(`popup-${blockId}`);
 
-        // Remove active class from any open popup
         document.querySelectorAll('.hotspot-product-list-main').forEach(p => {
             p.classList.remove('active');
         });
@@ -236,11 +252,36 @@ document.addEventListener('click', (event) => {
         }
     }
 
-    // Close popup
     if (event.target.closest('.hotspot-product-list-main .close-btn')) {
         const popup = event.target.closest('.hotspot-product-list-main');
         if (popup) {
             popup.classList.remove('active');
+        }
+    }
+});
+
+// ------- Projects Page Popup ----------
+document.addEventListener('click', (event) => {
+    if (event.target.closest('.collage__item')) {
+        const blockId = event.target.closest('.collage__item').getAttribute('data-block-id');
+        const popup = document.getElementById(`project-popup-${blockId}`);
+
+        document.querySelectorAll('.projects-popup-main').forEach(p => {
+            p.classList.remove('active');
+            document.body.classList.remove('popup-overflow-hidden');
+        });
+
+        if (popup) {
+            popup.classList.add('active');
+            document.body.classList.add('popup-overflow-hidden');
+        }
+    }
+
+    if (event.target.closest('.projects-popup-main .close-btn')) {
+        const popup = event.target.closest('.projects-popup-main');
+        if (popup) {
+            popup.classList.remove('active');
+            document.body.classList.remove('popup-overflow-hidden');
         }
     }
 });

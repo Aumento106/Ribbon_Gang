@@ -11,13 +11,72 @@
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
 
-  @media screen and (min-width: 750px) {
+  @media screen and (min-width: 750px) and (max-width: 1024px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top | times: 0.5 | round: 0 }}px;
+      padding-bottom: {{ section.settings.padding_bottom | times: 0.5 | round: 0 }}px;
+    }
+  }
+
+  @media screen and (min-width: 1025px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
 {%- endstyle -%}
+
+{%- for block in section.blocks -%}
+  <div id="project-popup-{{ block.id }}" class="projects-popup-main color-{{ section.settings.popup_color_scheme }}">
+    <div class="projects-popup-inner">
+      <div class="close-btn">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="2" y="2" width="28" height="28" rx="14" stroke="#424242" stroke-width="2"/>
+          <path d="M22 10L10 22" stroke="#424242" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M10 10L22 22" stroke="#424242" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+      {% assign number = 0 %}
+      {% for i in (1..10) %}
+        {% capture imageID_Count %}image_{{ forloop.index }}{% endcapture %}
+        {% if block.settings[imageID_Count] != blank %}
+          {% assign number = number | plus: 1 %}
+        {% endif %}
+      {% endfor %}
+      {% if number > 1 %}
+        <div class="swiper project-popup-image-slider">
+          <div class="swiper-pagination-wrapper">
+            <div class="swiper-button-prev swiper-arrow-button"></div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next swiper-arrow-button"></div>
+          </div>
+          <div class="swiper-wrapper">
+            {% for i in (1..10) %}
+              {% capture imageID %}image_{{ forloop.index }}{% endcapture %}
+              {% if block.settings[imageID] != blank %}
+                <div class="swiper-slide project-image-item">
+                  {{ block.settings[imageID] | image_url: width: 1000 | image_tag }}
+                </div>
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+      {% endif %}
+      <h2 class="project-name h0">Project AU</h2>
+      <div class="project-short-des">
+        The tireless and dynamic SpaceLogic team is dedicated to Healthcare. Our mission is to provide a fresh new
+        approach, and premium advice and expertise to hospitals, medical centres and other clinical facilities. By
+        combining the specialist skills of our entire team, we create a cohesive whole to give you individual attention,
+        dedicated commitment and a result superior to any other.
+      </div>
+      {% if block.settings.project_logo != blank %}
+        <div class="project-logo-imgbox">
+          {{ block.settings.project_logo | image_url: width: 800 | image_tag }}
+        </div>
+      {% endif %}
+    </div>
+  </div>
+{%- endfor -%}
 
 <div class="color-{{ section.settings.color_scheme }} gradient isolate">
   <div class="page-width section-{{ section.id }}-padding">
@@ -32,6 +91,7 @@
         <div
           class="collage__item collage__item--{{ block.type }} collage__item--{{ section.settings.desktop_layout }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
           {{ block.shopify_attributes }}
+          data-block-id="{{ block.id }}"
           {% if settings.animations_reveal_on_scroll %}
             data-cascade
             style="--animation-order: {{ forloop.index }};"
@@ -320,6 +380,12 @@
       "default": "scheme-1"
     },
     {
+      "type": "color_scheme",
+      "id": "popup_color_scheme",
+      "label": "Popup color scheme",
+      "default": "scheme-7"
+    },
+    {
       "type": "header",
       "content": "t:sections.all.padding.section_padding_heading"
     },
@@ -328,20 +394,20 @@
       "id": "padding_top",
       "min": 0,
       "max": 100,
-      "step": 4,
+      "step": 5,
       "unit": "px",
       "label": "t:sections.all.padding.padding_top",
-      "default": 36
+      "default": 45
     },
     {
       "type": "range",
       "id": "padding_bottom",
       "min": 0,
       "max": 100,
-      "step": 4,
+      "step": 5,
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
-      "default": 36
+      "default": 45
     }
   ],
   "blocks": [
@@ -403,6 +469,11 @@
           "type": "image_picker",
           "id": "image_10",
           "label": "Popup image 10"
+        },
+        {
+          "type": "image_picker",
+          "id": "project_logo",
+          "label": "Project logo"
         }
       ]
     },

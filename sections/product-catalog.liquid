@@ -56,14 +56,8 @@
           
           <div class="buttons">
             {% if section.settings.button_1_link %}
-              <a href="{{ section.settings.button_1_link }}" target="_blank" class="button button--secondary">
+              <a href="{{ section.settings.button_1_link }}" target="_blank" class="button button--primary">
                 {{ section.settings.button_1_text }}
-              </a>
-            {% endif %}
-            
-            {% if section.settings.button_2_link %}
-              <a href="{{ section.settings.button_2_link }}" target="_blank" download class="button button--primary">
-                {{ section.settings.button_2_text }}
               </a>
             {% endif %}
           </div>
@@ -143,17 +137,6 @@
       "type": "url",
       "id": "button_1_link",
       "label": "Primary Button Link"
-    },
-    {
-      "type": "text",
-      "id": "button_2_text",
-      "label": "Primary Button Text",
-      "default": "Download Catalog"
-    },
-    {
-      "type": "url",
-      "id": "button_2_link",
-      "label": "Secondary Button Link"
     },
     {
       "type": "checkbox",

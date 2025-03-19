@@ -1456,6 +1456,12 @@ body.shopify-section-header-hidden .hotspot-product-list-main {
   margin: 0;
 }
 
+.hotspot-product-item .product-price {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 1rem 0 0;
+}
+
 .hotspot-product-list-main .close-btn {
   position: absolute;
   top: 16px;

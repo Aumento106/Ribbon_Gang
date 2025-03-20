@@ -286,3 +286,24 @@ document.addEventListener('click', (event) => {
         }
     }
 });
+
+// ------- Product Detail Page Tabbing Section ---------
+document.addEventListener('DOMContentLoaded', () => {
+    const tabs = document.querySelectorAll('.tab-button');
+    const contents = document.querySelectorAll('.tab-content');
+
+    if (tabs.length > 0) {
+        tabs[0].classList.add('active');
+        contents[0].classList.add('active');
+    }
+
+    tabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+            tabs.forEach(item => item.classList.remove('active'));
+            contents.forEach(content => content.classList.remove('active'));
+
+            tab.classList.add('active');
+            document.getElementById(tab.getAttribute('data-tab')).classList.add('active');
+        });
+    });
+});

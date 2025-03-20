@@ -95,28 +95,29 @@
         "icon_text_4xM6N7": {
           "type": "icon_text",
           "settings": {
-            "icon_image": "shopify://shop_images/Frame_809565a1-1d00-43ba-8b44-8dfbb979c689.png",
+            "icon_image": "shopify://shop_images/shipping-truck_e6850ce2-b0a2-44e3-b33f-447e9d2adff1.svg",
             "icon_text": "Free Shipping"
           }
         },
         "icon_text_zQ3wVr": {
           "type": "icon_text",
           "settings": {
-            "icon_image": "shopify://shop_images/Vector_3.png",
+            "icon_image": "shopify://shop_images/premium-material.svg",
             "icon_text": "Premium Materials"
           }
         },
         "icon_text_reiiVN": {
           "type": "icon_text",
           "settings": {
-            "icon_image": "shopify://shop_images/Vector_3.png",
-            "icon_text": "Premium Materials"
+            "icon_image": "shopify://shop_images/delivery-time.svg",
+            "icon_text": "Fast delivery"
           }
         },
         "product_description_GjJGyV": {
           "type": "product_description",
           "settings": {
-            "heading": "warranty information",
+            "heading": "WARRANTY INFORMATION",
+            "accordian_icon_image": "shopify://shop_images/Group_1171277814.svg",
             "icon": "check_mark",
             "content": "<p><strong>Lorem Ipsum </strong>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>"
           }
@@ -124,28 +125,39 @@
         "collapsible_tab_WGBYJ7": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Brochure or spec sheet",
+            "heading": "BROCHURE OR SPEC SHEET",
+            "accordian_icon_image": "shopify://shop_images/Group_1171277814_1.svg",
             "icon": "check_mark",
-            "content": "",
+            "content": "<p><strong>Lorem Ipsum </strong>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>",
             "page": ""
           }
         },
         "collapsible_tab_mY4f8B": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "request a room design or custom quote",
+            "heading": "REQUEST A ROOM DESIGN OR CUSTOM QUOTE",
+            "accordian_icon_image": "shopify://shop_images/Group_1171277814_2.svg",
             "icon": "check_mark",
-            "content": "",
+            "content": "<p><strong>Lorem Ipsum </strong>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>",
             "page": ""
           }
         },
         "collapsible_tab_HpkKRY": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "request a mini exhibition",
+            "heading": "REQUEST A MINI EXHIBITION",
+            "accordian_icon_image": "shopify://shop_images/Group_1171277814_3.svg",
             "icon": "check_mark",
-            "content": "",
+            "content": "<p><strong>Lorem Ipsum </strong>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>",
             "page": ""
+          }
+        },
+        "specifications_prC9K9": {
+          "type": "Specifications",
+          "settings": {
+            "Heading_sp": "Specs",
+            "sub_heading": "Specifications",
+            "content": "<p>Lorem ipsum odor amet, consectetuer adipiscing elit. Auctor pharetra aliquet magna pharetra condimentum suscipit. Nostra sit accumsan; senectus congue tristique feugiat. Gravida magna etiam nascetur, pellentesque etiam pretium fermentum.</p>"
           }
         },
         "q_a_Fz3EyY": {
@@ -164,20 +176,24 @@
             "content5": ""
           }
         },
-        "specifications_prC9K9": {
+        "specifications_G4hKqK": {
           "type": "Specifications",
           "settings": {
-            "Heading_sp": "Specs",
-            "sub_heading": "Specifications",
+            "Heading_sp": "Delivery",
+            "sub_heading": "Delivery",
+            "content": "<p>Lorem ipsum odor amet, consectetuer adipiscing elit. Auctor pharetra aliquet magna pharetra condimentum suscipit. Nostra sit accumsan; senectus congue tristique feugiat. Gravida magna etiam nascetur, pellentesque etiam pretium fermentum.</p>"
+          }
+        },
+        "specifications_hgHdtk": {
+          "type": "Specifications",
+          "settings": {
+            "Heading_sp": "Care",
+            "sub_heading": "Care",
             "content": "<p>Lorem ipsum odor amet, consectetuer adipiscing elit. Auctor pharetra aliquet magna pharetra condimentum suscipit. Nostra sit accumsan; senectus congue tristique feugiat. Gravida magna etiam nascetur, pellentesque etiam pretium fermentum.</p>"
           }
         },
         "title": {
           "type": "title",
-          "settings": {}
-        },
-        "price": {
-          "type": "price",
           "settings": {}
         },
         "text_z8PRWE": {
@@ -198,10 +214,6 @@
             "swatch_shape": "circle"
           }
         },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
         "inventory_7FwdWm": {
           "type": "inventory",
           "settings": {
@@ -210,19 +222,37 @@
             "show_inventory_quantity": false
           }
         },
+        "share_YcN6pn": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false,
+            "request_quote_btn": "Request quotes",
+            "request_quote_btn_link": "shopify://pages/contact"
           }
         },
         "shipping_bar_EAdyyd": {
           "type": "shipping_bar",
+          "disabled": true,
           "settings": {}
         },
         "complementary_bgcUGQ": {
           "type": "complementary",
+          "disabled": true,
           "settings": {
             "block_heading": "",
             "make_collapsible_row": false,
@@ -243,15 +273,18 @@
         "collapsible_tab_WGBYJ7",
         "collapsible_tab_mY4f8B",
         "collapsible_tab_HpkKRY",
-        "q_a_Fz3EyY",
         "specifications_prC9K9",
+        "q_a_Fz3EyY",
+        "specifications_G4hKqK",
+        "specifications_hgHdtk",
         "title",
-        "price",
         "text_z8PRWE",
         "sku_4xMVrm",
         "variant_picker",
-        "quantity_selector",
         "inventory_7FwdWm",
+        "share_YcN6pn",
+        "quantity_selector",
+        "price",
         "buy_buttons",
         "shipping_bar_EAdyyd",
         "complementary_bgcUGQ"
@@ -811,8 +844,6 @@
         "description": "<p>View online or download a PDF, et quo bea suntion serrovide  por aute natempos erovita ium quunt iumquae plab intium fuga.  Temolore conescidis repudam alicient fugit expland ucipsant</p>",
         "button_1_text": "View Catalog",
         "button_1_link": "",
-        "button_2_text": "View Catalogue",
-        "button_2_link": "shopify://collections",
         "reverse_column": false,
         "padding_top": 36,
         "padding_bottom": 36

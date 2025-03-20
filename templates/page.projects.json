@@ -73,7 +73,7 @@
       ],
       "settings": {
         "layout": "full_bleed",
-        "slide_height": "adapt_image",
+        "slide_height": "small",
         "image_behavior": "none",
         "padding_top": 0,
         "padding_bottom": 0
@@ -128,18 +128,24 @@
         "image_NcM4V4": {
           "type": "image",
           "settings": {
+            "project_name": "Project AU",
+            "project_des": "The tireless and dynamic SpaceLogic team is dedicated to Healthcare. Our mission is to provide a fresh new approach, and  premium advice and expertise to hospitals, medical centres and other clinical facilities. By combining the specialist skills of our  entire team, we create a cohesive whole to give you individual attention, dedicated commitment and a result  superior to any other.",
             "image": "shopify://shop_images/Group_1171277821.jpg"
           }
         },
         "image_QJBQEU": {
           "type": "image",
           "settings": {
+            "project_name": "Project AU",
+            "project_des": "The tireless and dynamic SpaceLogic team is dedicated to Healthcare. Our mission is to provide a fresh new approach, and  premium advice and expertise to hospitals, medical centres and other clinical facilities. By combining the specialist skills of our  entire team, we create a cohesive whole to give you individual attention, dedicated commitment and a result  superior to any other.",
             "image": "shopify://shop_images/Group_1171277822.jpg"
           }
         },
         "image_beaCzB": {
           "type": "image",
           "settings": {
+            "project_name": "Project AU",
+            "project_des": "The tireless and dynamic SpaceLogic team is dedicated to Healthcare. Our mission is to provide a fresh new approach, and  premium advice and expertise to hospitals, medical centres and other clinical facilities. By combining the specialist skills of our  entire team, we create a cohesive whole to give you individual attention, dedicated commitment and a result  superior to any other.",
             "image": "shopify://shop_images/Group_1171277824.jpg",
             "image_1": "shopify://shop_images/Group_1171277831.jpg",
             "image_2": "shopify://shop_images/Group_1171277830.jpg",
@@ -178,12 +184,16 @@
         "image_6Qygnt": {
           "type": "image",
           "settings": {
+            "project_name": "Project AU",
+            "project_des": "The tireless and dynamic SpaceLogic team is dedicated to Healthcare. Our mission is to provide a fresh new approach, and  premium advice and expertise to hospitals, medical centres and other clinical facilities. By combining the specialist skills of our  entire team, we create a cohesive whole to give you individual attention, dedicated commitment and a result  superior to any other.",
             "image": "shopify://shop_images/Group_1171277821.jpg"
           }
         },
         "image_VXH9zp": {
           "type": "image",
           "settings": {
+            "project_name": "Project AU",
+            "project_des": "The tireless and dynamic SpaceLogic team is dedicated to Healthcare. Our mission is to provide a fresh new approach, and  premium advice and expertise to hospitals, medical centres and other clinical facilities. By combining the specialist skills of our  entire team, we create a cohesive whole to give you individual attention, dedicated commitment and a result  superior to any other.",
             "image": "shopify://shop_images/Group_1171277822.jpg",
             "image_1": "shopify://shop_images/Group_1171277831.jpg"
           }
@@ -191,6 +201,8 @@
         "image_6pPACQ": {
           "type": "image",
           "settings": {
+            "project_name": "Project AU",
+            "project_des": "The tireless and dynamic SpaceLogic team is dedicated to Healthcare. Our mission is to provide a fresh new approach, and  premium advice and expertise to hospitals, medical centres and other clinical facilities. By combining the specialist skills of our  entire team, we create a cohesive whole to give you individual attention, dedicated commitment and a result  superior to any other.",
             "image": "shopify://shop_images/Group_1171277824.jpg"
           }
         }
@@ -218,18 +230,24 @@
         "image_deAhDE": {
           "type": "image",
           "settings": {
+            "project_name": "Project AU",
+            "project_des": "The tireless and dynamic SpaceLogic team is dedicated to Healthcare. Our mission is to provide a fresh new approach, and  premium advice and expertise to hospitals, medical centres and other clinical facilities. By combining the specialist skills of our  entire team, we create a cohesive whole to give you individual attention, dedicated commitment and a result  superior to any other.",
             "image": "shopify://shop_images/Group_1171277829.jpg"
           }
         },
         "image_cgWbkk": {
           "type": "image",
           "settings": {
+            "project_name": "Project AU",
+            "project_des": "The tireless and dynamic SpaceLogic team is dedicated to Healthcare. Our mission is to provide a fresh new approach, and  premium advice and expertise to hospitals, medical centres and other clinical facilities. By combining the specialist skills of our  entire team, we create a cohesive whole to give you individual attention, dedicated commitment and a result  superior to any other.",
             "image": "shopify://shop_images/Group_1171277830.jpg"
           }
         },
         "image_ebLceD": {
           "type": "image",
           "settings": {
+            "project_name": "Project AU",
+            "project_des": "The tireless and dynamic SpaceLogic team is dedicated to Healthcare. Our mission is to provide a fresh new approach, and  premium advice and expertise to hospitals, medical centres and other clinical facilities. By combining the specialist skills of our  entire team, we create a cohesive whole to give you individual attention, dedicated commitment and a result  superior to any other.",
             "image": "shopify://shop_images/Group_1171277831.jpg"
           }
         }

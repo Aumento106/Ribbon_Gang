@@ -863,6 +863,14 @@ body .quantity:after {
   gap: 10px;
 }
 
+.add-to-cart-icon {
+  display: none;
+}
+
+.product__info-wrapper .add-to-cart-icon {
+  display: block;
+}
+
 .product__info-wrapper .product-form .product-form__submit svg {
   height: 2.4rem;
 }

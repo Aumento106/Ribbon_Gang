@@ -82,7 +82,9 @@
               disabled
             {% endif %}
           >
-            {{- 'icon-edit.svg' | inline_asset_content -}}
+            <span class="add-to-cart-icon">
+              {{- 'custom-icon-cart.svg' | inline_asset_content -}}
+            </span>
             <span>
               {%- if product.selected_or_first_available_variant == null -%}
                 {{ 'products.product.unavailable' | t }}

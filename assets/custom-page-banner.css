@@ -1,0 +1,9 @@
+.custom-page-banner .banner--small:not(.banner--adapt) {
+    min-height: 18rem;
+}
+
+@media screen and (min-width: 750px) {
+    .custom-page-banner .banner--small:not(.banner--adapt) {
+        min-height: 38rem;
+    }
+}

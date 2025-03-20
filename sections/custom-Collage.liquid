@@ -62,13 +62,14 @@
           </div>
         </div>
       {% endif %}
-      <h2 class="project-name h0">Project AU</h2>
-      <div class="project-short-des">
-        The tireless and dynamic SpaceLogic team is dedicated to Healthcare. Our mission is to provide a fresh new
-        approach, and premium advice and expertise to hospitals, medical centres and other clinical facilities. By
-        combining the specialist skills of our entire team, we create a cohesive whole to give you individual attention,
-        dedicated commitment and a result superior to any other.
-      </div>
+      {% if block.settings.project_name != blank %}
+        <h2 class="project-name h0">{{ block.settings.project_name }}</h2>
+      {% endif %}
+      {% if block.settings.project_des != blank %}
+        <div class="project-short-des">
+          {{ block.settings.project_des }}
+        </div>
+      {% endif %}
       {% if block.settings.project_logo != blank %}
         <div class="project-logo-imgbox">
           {{ block.settings.project_logo | image_url: width: 800 | image_tag }}
@@ -415,6 +416,18 @@
       "type": "image",
       "name": "t:sections.collage.blocks.image.name",
       "settings": [
+        {
+          "type": "text",
+          "id": "project_name",
+          "label": "Project name",
+          "default": "Project AU"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "project_des",
+          "label": "Project description",
+          "default": "The tireless and dynamic SpaceLogic team is dedicated to Healthcare."
+        },
         {
           "type": "image_picker",
           "id": "image",

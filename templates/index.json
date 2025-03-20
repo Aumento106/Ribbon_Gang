@@ -34,7 +34,7 @@
           "settings": {
             "image": "shopify://shop_images/Concept_1_1.png",
             "heading": "infection-controlled solutions",
-            "heading_size": "h1",
+            "heading_size": "h0",
             "subheading": "",
             "button_label": "Shop Now",
             "link": "shopify://collections",
@@ -51,7 +51,7 @@
           "settings": {
             "image": "shopify://shop_images/Concept_1_1.png",
             "heading": "infection-controlled solutions",
-            "heading_size": "h1",
+            "heading_size": "h0",
             "subheading": "",
             "button_label": "Shop Now",
             "link": "shopify://collections",
@@ -68,7 +68,7 @@
           "settings": {
             "image": "shopify://shop_images/Concept_1_1.png",
             "heading": "infection-controlled solutions",
-            "heading_size": "h1",
+            "heading_size": "h0",
             "subheading": "",
             "button_label": "Shop Now",
             "link": "shopify://collections",

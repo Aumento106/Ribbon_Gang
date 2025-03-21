@@ -82,9 +82,7 @@
               disabled
             {% endif %}
           >
-            <span class="add-to-cart-icon">
-              {{- 'custom-icon-cart.svg' | inline_asset_content -}}
-            </span>
+            
             <span>
               {%- if product.selected_or_first_available_variant == null -%}
                 {{ 'products.product.unavailable' | t }}
@@ -93,6 +91,9 @@
               {%- else -%}
                 {{ 'products.product.add_to_cart' | t }}
               {%- endif -%}
+            </span>
+            <span class="add-to-cart-icon">
+              {{- 'custom-icon-cart.svg' | inline_asset_content -}}
             </span>
             {%- render 'loading-spinner' -%}
           </button>

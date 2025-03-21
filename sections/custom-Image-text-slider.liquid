@@ -83,8 +83,15 @@
         {%- endif -%}
       </div>
     {%- endif -%}
+    {% assign number = 0 %}
+    {%- for block in section.blocks -%}
+      {% case block.type %}
+        {% when 'slide' %}
+          {% assign number = number | plus: 1 %}
+      {% endcase %}
+    {%- endfor -%}
 
-    <div class="swiper custom-image-with-text-slider{% if section.settings.show_half_slide == true %} show-half-slide{% endif %} image-with-text__media--{{ section.settings.height }} image-with-text-slider{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+    <div class="swiper {% if number > 1 %}custom-image-with-text-slider{% endif %}{% if section.settings.show_half_slide == true %} show-half-slide{% endif %} image-with-text__media--{{ section.settings.height }} image-with-text-slider{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
       <div class="swiper-wrapper">
         {%- for block in section.blocks -%}
           <div class="swiper-slide" {{ block.shopify_attributes }}>
@@ -103,29 +110,31 @@
                       {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
                     {%- endif -%}
                   </div>
-                  <div class="image-text-con-buttons">
-                    {%- if block.settings.button_label != blank -%}
-                      <a
-                        {% if block.settings.button_link != blank %}
-                          href="{{ block.settings.button_link }}"
-                        {% endif %}
-                        class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
-                      >
-                        {{ block.settings.button_label | escape }}
-                      </a>
-                    {%- endif -%}
+                  {% if section.settings.show_button_on_image == true %}
+                    <div class="image-text-con-buttons">
+                      {%- if block.settings.button_label != blank -%}
+                        <a
+                          {% if block.settings.button_link != blank %}
+                            href="{{ block.settings.button_link }}"
+                          {% endif %}
+                          class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
+                        >
+                          {{ block.settings.button_label | escape }}
+                        </a>
+                      {%- endif -%}
 
-                    {%- if block.settings.offer_code_txt != blank -%}
-                      <div
-                        class="offer-code button button--secondary"
-                        onclick="copyCode(this)"
-                        data-code="{{ block.settings.offer_code_txt }}"
-                      >
-                        <span class="copy_code_hide">Code: {{ block.settings.offer_code_txt }}</span>
-                        <span class="copy-tooltip">Click to copy</span>
-                      </div>
-                    {%- endif -%}
-                  </div>
+                      {%- if block.settings.offer_code_txt != blank -%}
+                        <div
+                          class="offer-code button button--secondary"
+                          onclick="copyCode(this)"
+                          data-code="{{ block.settings.offer_code_txt }}"
+                        >
+                          <span class="copy_code_hide">Code: {{ block.settings.offer_code_txt }}</span>
+                          <span class="copy-tooltip">Click to copy</span>
+                        </div>
+                      {%- endif -%}
+                    </div>
+                  {% endif %}
                 </div>
                 <div class="image-with-text__text-item grid__item">
                   <div class="image-with-text__content image-with-text__content--{{ section.settings.desktop_content_position }} image-with-text__content--desktop-{{ section.settings.desktop_content_alignment }} image-with-text__content--mobile-{{ section.settings.mobile_content_alignment }} image-with-text__content--{{ section.settings.height }} content-container{% unless remove_color_classes %}{% else %} background-transparent{% endunless %}">
@@ -142,6 +151,31 @@
                             {{ block.settings.text }}
                           </div>
                         {%- endif -%}
+                        {% if section.settings.show_button_on_image == false %}
+                          <div class="image-text-con-buttons">
+                            {%- if block.settings.button_label != blank -%}
+                              <a
+                                {% if block.settings.button_link != blank %}
+                                  href="{{ block.settings.button_link }}"
+                                {% endif %}
+                                class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
+                              >
+                                {{ block.settings.button_label | escape }}
+                              </a>
+                            {%- endif -%}
+      
+                            {%- if block.settings.offer_code_txt != blank -%}
+                              <div
+                                class="offer-code button button--secondary"
+                                onclick="copyCode(this)"
+                                data-code="{{ block.settings.offer_code_txt }}"
+                              >
+                                <span class="copy_code_hide">Code: {{ block.settings.offer_code_txt }}</span>
+                                <span class="copy-tooltip">Click to copy</span>
+                              </div>
+                            {%- endif -%}
+                          </div>
+                        {% endif %}
                       </div>
                     {%- endif -%}
                   </div>
@@ -152,11 +186,13 @@
         {%- endfor -%}
       </div>
 
-      {%- if section.settings.show_pagination -%}
-        <div class="swiper-pagination-wrapper">
-          <div class="swiper-pagination"></div>
-        </div>
-      {%- endif -%}
+      {% if number > 1 %}
+        {%- if section.settings.show_pagination -%}
+          <div class="swiper-pagination-wrapper">
+            <div class="swiper-pagination"></div>
+          </div>
+        {%- endif -%}
+      {% endif %}
     </div>
   </div>
 </div>
@@ -263,6 +299,10 @@
           "label": "Adapt to image"
         },
         {
+          "value": "extra-small",
+          "label": "Extra small"
+        },
+        {
           "value": "small",
           "label": "Small"
         },
@@ -337,6 +377,12 @@
       ],
       "default": "left",
       "label": "Mobile content alignment"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_button_on_image",
+      "label": "Show button on image",
+      "default": true
     },
     {
       "type": "checkbox",

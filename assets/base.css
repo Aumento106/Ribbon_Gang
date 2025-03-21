@@ -1454,7 +1454,7 @@ details[open]>.share-button__fallback {
 }
 
 .share-button__button:hover {
-  text-decoration: underline;
+  /* text-decoration: underline; */
   text-underline-offset: 0.3rem;
 }
 

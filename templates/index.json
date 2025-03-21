@@ -253,7 +253,6 @@
       ],
       "settings": {
         "page_container": "full-width",
-        "image": "shopify://shop_images/Concept_9.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "top-center",
@@ -672,6 +671,7 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
         "mobile_content_alignment": "left",
+        "show_button_on_image": true,
         "show_half_slide": true,
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "section_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
@@ -796,6 +796,7 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
         "mobile_content_alignment": "left",
+        "show_button_on_image": true,
         "show_half_slide": false,
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "section_color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",

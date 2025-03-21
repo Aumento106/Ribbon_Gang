@@ -262,6 +262,10 @@
                 >
                   {{- block.settings.text -}}
                 </p>
+              {%- when 'vendor_logo' -%}
+                <div class="vendor-logo">
+                  {{ block.settings.vendor_logo_img | image_url: width:153 | image_tag }}
+                </div>
               {%- when 'title' -%}
                 <div class="product__title" {{ block.shopify_attributes }}>
                   <h1 class="title">{{ product.title | escape }}</h1>
@@ -1285,6 +1289,17 @@
   "blocks": [
     {
       "type": "@app"
+    },
+    {
+      "type": "vendor_logo",
+      "name": "Vendor logo",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "vendor_logo_img",
+          "label": "Vendor logo"
+        }
+      ]
     },
     {
       "type": "text",

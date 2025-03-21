@@ -192,6 +192,12 @@
             "content": "<p>Lorem ipsum odor amet, consectetuer adipiscing elit. Auctor pharetra aliquet magna pharetra condimentum suscipit. Nostra sit accumsan; senectus congue tristique feugiat. Gravida magna etiam nascetur, pellentesque etiam pretium fermentum.</p>"
           }
         },
+        "vendor_logo_AtNTKn": {
+          "type": "vendor_logo",
+          "settings": {
+            "vendor_logo_img": "shopify://shop_images/Frame_1171278104.svg"
+          }
+        },
         "title": {
           "type": "title",
           "settings": {}
@@ -277,6 +283,7 @@
         "q_a_Fz3EyY",
         "specifications_G4hKqK",
         "specifications_hgHdtk",
+        "vendor_logo_AtNTKn",
         "title",
         "text_z8PRWE",
         "sku_4xMVrm",

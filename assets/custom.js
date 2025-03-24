@@ -246,10 +246,12 @@ document.addEventListener('click', (event) => {
 
         document.querySelectorAll('.hotspot-product-list-main').forEach(p => {
             p.classList.remove('active');
+            document.body.classList.remove('popup-overflow-hidden');
         });
 
         if (popup) {
             popup.classList.add('active');
+            document.body.classList.add('popup-overflow-hidden');
         }
     }
 
@@ -257,6 +259,7 @@ document.addEventListener('click', (event) => {
         const popup = event.target.closest('.hotspot-product-list-main');
         if (popup) {
             popup.classList.remove('active');
+            document.body.classList.remove('popup-overflow-hidden');
         }
     }
 });

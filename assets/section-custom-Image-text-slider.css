@@ -107,9 +107,19 @@ body .Custom_image_text_slider .swiper .swiper-pagination {
     margin-bottom: 1.6rem;
 }
 
+.Custom_image_text_slider .logo-img {
+    padding: 8px 16px;
+    border-radius: 30px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 1.6rem;
+}
+
 @media screen and (min-width: 1541px) {
     .Custom_image_text_slider .image-with-text-slider.show-half-slide {
-        padding: 0 233px;
+        padding: 0 240px;
     }
 }
 

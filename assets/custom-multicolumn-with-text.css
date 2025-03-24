@@ -1,3 +1,7 @@
+.custom-multicolumn-with-text .sec-head .title.h1 {
+    font-size: calc(var(--font-heading-scale)* 4.8rem);
+}
+
 .custom-multicolumn-with-text .multicolumn-box .multicolumn-section-subtitle.subtitle {
     font-size: 32px;
     font-weight: 400;
@@ -89,6 +93,12 @@
     }
 }
 
+@media screen and (max-width: 989px) {
+    .custom-multicolumn-with-text .sec-head .title.h1 {
+        font-size: calc(var(--font-heading-scale)* 3.4rem);
+    }
+}
+
 @media screen and (max-width: 749px) {
     .custom-multicolumn-with-text .multicolumn-box .multicolumn-section-subtitle.subtitle {
         font-size: 20px;
@@ -97,5 +107,9 @@
 
     .custom-multicolumn-with-text .multicolumn-box .title {
         margin-bottom: 1rem;
+    }
+
+    .custom-multicolumn-with-text .sec-head .title.h1 {
+        font-size: calc(var(--font-heading-scale)* 2.8rem);
     }
 }

@@ -764,9 +764,9 @@ summary::-webkit-details-marker {
 }
 
 *:focus-visible {
-  outline: var(--focused-base-outline);
+  outline: none;
   outline-offset: var(--focused-base-outline-offset);
-  box-shadow: var(--focused-base-box-shadow);
+  box-shadow: none;
 }
 
 /* Fallback - for browsers that don't support :focus-visible, a fallback is set for :focus */
@@ -2702,7 +2702,7 @@ menu-drawer+.header__search {
   display: inline-flex;
 }
 
-@media screen and (min-width: 990px) {
+@media screen and (min-width: 1245px) {
 
   .header:not(.header--top-center) *>.header__search,
   .header--top-center>.header__search {

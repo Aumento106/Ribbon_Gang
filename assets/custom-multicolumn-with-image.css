@@ -50,8 +50,12 @@
     --grid-desktop-vertical-spacing: 52px;
 }
 
-.custom-multicolumn-with-image .multicolumn-box .title {
+.custom-multicolumn-with-image .multicolumn-box .grid.grid--2-col-desktop .title {
     margin: 0 0 2.4rem;
+}
+
+.custom-multicolumn-with-image .multicolumn-box .title {
+    margin: 0 0 0.8rem;
 }
 
 .custom-multicolumn-with-image .grid--2-col-desktop .multicolumn-box__item_inner:before,
@@ -69,6 +73,7 @@
 }
 
 .custom-multicolumn-with-image .multicolumn-box-description.subtitle {
+    font-size: 32px;
     font-weight: 400;
     margin-top: 8px;
     margin-bottom: 0;

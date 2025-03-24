@@ -138,6 +138,11 @@
                 </div>
                 <div class="image-with-text__text-item grid__item">
                   <div class="image-with-text__content image-with-text__content--{{ section.settings.desktop_content_position }} image-with-text__content--desktop-{{ section.settings.desktop_content_alignment }} image-with-text__content--mobile-{{ section.settings.mobile_content_alignment }} image-with-text__content--{{ section.settings.height }} content-container{% unless remove_color_classes %}{% else %} background-transparent{% endunless %}">
+                    {% if block.settings.logo_image != blank %}
+                      <div class="logo-img">
+                        {{ block.settings.logo_image | image_url: width: 152 | image_tag }}
+                      </div>
+                    {% endif %}
                     <h3 class="offer-title">{{ block.settings.offer_title }}</h3>
                     {%- if block.settings.heading != blank or block.settings.text != blank -%}
                       <div class="sec-head">
@@ -453,6 +458,11 @@
           "type": "image_picker",
           "id": "image",
           "label": "Image"
+        },
+        {
+          "type": "image_picker",
+          "id": "logo_image",
+          "label": "Logo image"
         },
         {
           "type": "richtext",

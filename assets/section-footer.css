@@ -3,7 +3,7 @@
 }
 
 .footer__content-top {
-  padding-bottom: 5rem;
+  padding-bottom: 4rem;
   display: block;
 }
 
@@ -400,7 +400,7 @@
 
 .footer-block__brand-info {
   text-align: left;
-  margin-top: 4rem;
+  margin-top: 8rem;
 }
 
 .footer-block:only-child .footer-block__brand-info {
@@ -432,6 +432,7 @@
 
 .copyright__content {
   text-transform: capitalize;
+  font-size: 18px;
 }
 
 .copyright__content a {

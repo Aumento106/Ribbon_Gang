@@ -58,6 +58,16 @@
   padding: 30px 40px 30px 0;
 }
 
+.product-catalog-sec .product-catalog-right .description {
+  margin-top: 24px;
+}
+
+@media screen and (min-width: 1280px) {
+  .product-catalog-sec .product-catalog-right .title {
+    font-size: 52px;
+  }
+}
+
 /* Responsive Styles */
 
 @media screen and (min-width: 990px) and (max-width: 1220px) {
@@ -143,6 +153,9 @@
 
   .product-catalog-sec .product-catalog-right .title br {
     display: none;
+  }
+  .product-catalog-sec .product-catalog-right .description {
+    margin-top: 20px;
   }
 }
 

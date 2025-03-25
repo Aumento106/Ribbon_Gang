@@ -61,6 +61,7 @@ body .rte li:not(:last-child) {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  grid-area: social-icons ;
 }
 
 .utility-bar .phone-number__link {
@@ -1630,8 +1631,29 @@ body .slider-buttons {
   border: 0.2px solid #FFFFFF !important;
 }
 
-body .slider-buttons .slider-button {
+/* .announcement-bar-slider .slider-button {
   display: none;
+} */
+
+/* .utility-bar__grid .announcement-bar-slider {
+  display: flex;
+}
+@media screen and (min-width: 990px) {
+  .announcement-bar .slider-button {
+      height: auto;
+      width: 3rem;
+      padding: 0;
+      min-width: 3rem;
+  }
+} */
+
+.announcement-bar-section .announcement-bar-slider {
+  position: initial;
+  transform: none;
+  background: transparent;
+  border-radius: 0;
+  padding: 0;
+  border: none !important;
 }
 
 body.popup-overflow-hidden {
@@ -1827,6 +1849,19 @@ body.shopify-section-header-hidden .hotspot-product-list-main {
   .header>.search-modal {
     display: none;
   }
+  .announcement-bar-section .localization-wrapper {
+    display: none;
+  }
+  .utility-bar__grid--3-col {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "social-icons announcements";
+  }
+  /* .announcement-bar-section .utility-bar__grid:not(:has(.announcement-bar)) {
+    grid-template-columns: 1fr;
+  }
+  .announcement-bar-section .utility-bar__grid:not(:has(.announcement-bar)) .phone-number {
+    justify-content: center;
+  } */
 }
 
 @media screen and (min-width: 1025px) {

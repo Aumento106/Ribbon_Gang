@@ -24,8 +24,7 @@
         "description": "<p>Click the <a href=\"https://online.flippingbook.com/view/141548076/\" target=\"_blank\" title=\"https://online.flippingbook.com/view/141548076/\">link</a> to view our comprehensive product and services catalog. View in a browser window without the need for a download.</p>",
         "button_1_text": "View Catalog",
         "button_1_link": "https://online.flippingbook.com/view/141548076/",
-        "button_2_text": "Download Catalog",
-        "button_2_link": "https://online.flippingbook.com/view/141548076/",
+        "reverse_column": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -100,7 +99,9 @@
         "heading_size": "h1",
         "text": "<p>*The shape of the wire loops in wire loop baskets and bins is used as a shape trade mark.</p>",
         "padding_top": 36,
-        "padding_bottom": 72
+        "padding_bottom": 72,
+        "margin_top": 0,
+        "margin_bottom": 0
       }
     },
     "logo_strip_LCaMt9": {

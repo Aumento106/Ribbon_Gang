@@ -42,7 +42,7 @@
     margin: 0 0 1.6rem;
 }
 
-.custom-multicolumn-with-text .multi-column-box-with-image .multicolumn-box-description li::before {
+.custom-multicolumn-with-text .multi-column-box-with-image .multicolumn-box-description ul li::before {
     content: "•";
     margin-right: 6px;
 }

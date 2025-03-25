@@ -2663,6 +2663,14 @@ body.shopify-section-header-hidden .hotspot-product-list-main {
   .product .product__info-container>*+* {
     margin: 2rem 0;
   }
+
+  .utility-bar__grid {
+    display: block;
+  }
+
+  .utility-bar .phone-number {
+    margin-bottom: 15px;
+  }
 }
 
 @media screen and (max-width: 749px) {

@@ -28,7 +28,7 @@
 
 {%- style -%}
   {% for block in section.blocks %}
-    .section-custom-slide-show .banner__buttons {
+    .section-custom-slide-show .banner__buttons-{{ block.id }} {
       position: absolute;
       left: 50%;
       bottom: {{ block.settings.botton_position }}px;
@@ -36,7 +36,7 @@
     }
 
     @media screen and (max-width: 749px) {
-      .section-custom-slide-show .banner__buttons {
+      .section-custom-slide-show .banner__buttons-{{ block.id }} {
         bottom: {{ block.settings.botton_position | divided_by: 1.4 }}px;
       }
     }
@@ -212,7 +212,7 @@
                 </div>
               {%- endif -%}
               {%- if block.settings.button_label != blank -%}
-                <div class="banner__buttons">
+                <div class="banner__buttons banner__buttons-{{ block.id }}">
                   <a
                     {% if block.settings.link %}
                       href="{{ block.settings.link }}"

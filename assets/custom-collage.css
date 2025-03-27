@@ -38,7 +38,7 @@
 .project-popup-image-slider.swiper .swiper-pagination-wrapper {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 32px;
     align-items: center;
     margin: 0 0 30px;
 }
@@ -270,5 +270,15 @@ body.popup-overflow-hidden::before {
 
     .Custom-Collage .collage-card.product-card-wrapper {
       --border-radius: 12px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .project-popup-image-slider.swiper .swiper-pagination {
+        gap: 10px;
+    }
+
+    .project-popup-image-slider.swiper .swiper-pagination-wrapper {
+        gap: 15px;
     }
 }

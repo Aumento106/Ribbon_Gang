@@ -310,3 +310,14 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+
+
+const quntitySelector = document.querySelector('.customcls-for-js');
+const priceChange = document.querySelector('.custom-price-js');
+const price = document.querySelector('.custom-price-js')?.getAttribute('daynamic_price');
+
+
+document.addEventListener('change', () => {
+    priceChange.innerText = parseInt(price) * parseInt(quntitySelector.value);
+
+});

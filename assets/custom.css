@@ -3154,6 +3154,10 @@ span.product_compar_price {
   .search .field__button {
     height: 4rem;
   }
+
+  .product__accordion .accordion__content ul {
+    padding-left: 10px;
+  }
 }
 
 .date-and-author {

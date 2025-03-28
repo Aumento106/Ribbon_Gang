@@ -119,7 +119,7 @@
             "heading": "WARRANTY INFORMATION",
             "accordian_icon_image": "shopify://shop_images/Group_1171277814.svg",
             "icon": "check_mark",
-            "content": "<p><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>"
+            "content": "<ul><li><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</li></ul>"
           }
         },
         "collapsible_tab_WGBYJ7": {

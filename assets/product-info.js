@@ -400,6 +400,7 @@ if (!customElements.get('product-info')) {
             current.innerHTML = updated.innerHTML;
           }
         }
+        this.updateTotalPrice();
       }
 
       get productForm() {

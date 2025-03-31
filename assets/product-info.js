@@ -56,49 +56,8 @@ if (!customElements.get('product-info')) {
         }
 
         // Add event listener for quantity changes
-        this.quantityInput.addEventListener('change', this.handleQuantityChange.bind(this));
-        this.quantityInput.addEventListener('input', this.handleQuantityChange.bind(this));
-
-        // Add observer to watch for quantity input value changes
-        this.observeQuantityInput();
-      }
-
-      observeQuantityInput() {
-        if (!this.quantityInput) return;
-
-        const observer = new MutationObserver((mutations) => {
-          mutations.forEach((mutation) => {
-            if (mutation.type === 'attributes' && mutation.attributeName === 'value') {
-              const newValue = this.quantityInput.value;
-              console.log('newValue', newValue);
-              if (newValue) {
-                this.updateTotalPrice();
-              }
-            }
-          });
-        });
-
-        observer.observe(this.quantityInput, {
-          attributes: true,
-          attributeFilter: ['value']
-        });
-      }
-
-      handleQuantityChange(event) {
-        if (!this.quantityInput) return;
-        
-        const value = parseInt(this.quantityInput.value);
-        console.log('value', value);
-        // console.log('this.quantityInput', this.quantityInput);
-        const pricePerItemContainer = this.querySelector('.price-per-item__container');
-        if (pricePerItemContainer) {
-          console.log('pricePerItemContainer', pricePerItemContainer.querySelector('.quantity__input'));
-          pricePerItemContainer.querySelector('.quantity__input').setAttribute("value", `${value}`);
-        }
-        if (isNaN(value)) return;
-        
-        // Update price for any quantity change
-        this.updateTotalPrice();
+        this.quantityInput.addEventListener('change', this.updateTotalPrice.bind(this));
+        this.quantityInput.addEventListener('input', this.updateTotalPrice.bind(this));
       }
 
       disconnectedCallback() {
@@ -441,7 +400,6 @@ if (!customElements.get('product-info')) {
             current.innerHTML = updated.innerHTML;
           }
         }
-        this.updateTotalPrice();
       }
 
       get productForm() {
@@ -481,24 +439,19 @@ if (!customElements.get('product-info')) {
       }
 
       updateTotalPrice() {
-        if (!this.quantityInput) return;
-        
         const quantity = parseInt(this.quantityInput.value);
-        if (isNaN(quantity)) return;
-
         const priceElement = this.querySelector('.price-item.price-item--regular');
         const salePriceElement = this.querySelector('.price__sale .price-item--sale');
         
         if (!priceElement) return;
 
-        // Get the current prices
-        const currentPrice = salePriceElement ? this.salePrice : this.originalPrice;
-        if (!currentPrice) return;
+        // Calculate total price using the appropriate price (sale or regular)
+        const basePrice = salePriceElement ? this.salePrice : this.originalPrice;
+        if (!basePrice) return;
 
-        // Calculate total price
-        const totalPrice = currentPrice * quantity;
+        const totalPrice = basePrice * quantity;
 
-        // Format the price
+        // Format the price with currency symbol and proper decimal places
         const formattedPrice = this.formatMoney(totalPrice);
 
         // Update both regular and sale price displays if they exist
@@ -509,14 +462,11 @@ if (!customElements.get('product-info')) {
       }
 
       formatMoney(amount) {
-        if (isNaN(amount)) return '';
+        // Get the currency symbol from the original price element
+        const originalPriceElement = this.querySelector('.price-item.price-item--regular');
+        const originalPriceText = originalPriceElement.textContent;
+        const currencySymbol = originalPriceText.match(/[^0-9.,]+/)[0];
 
-        const priceElement = this.querySelector('.price-item.price-item--regular');
-        if (!priceElement) return amount.toString();
-
-        const originalPriceText = priceElement.textContent;
-        const currencySymbol = originalPriceText.match(/[^0-9.,]+/)?.[0] || '';
-        
         // Format the number with 2 decimal places
         const formattedAmount = amount.toFixed(2);
 

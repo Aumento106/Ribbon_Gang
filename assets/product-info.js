@@ -11,6 +11,7 @@ if (!customElements.get('product-info')) {
       preProcessHtmlCallbacks = [];
       postProcessHtmlCallbacks = [];
       originalPrice = null;
+      salePrice = null;
 
       constructor() {
         super();
@@ -18,8 +19,12 @@ if (!customElements.get('product-info')) {
         this.quantityInput = this.querySelector('.quantity__input');
         // Store the original price when component is initialized
         const priceElement = this.querySelector('.price-item.price-item--regular');
+        const salePriceElement = this.querySelector('.price__sale .price-item--sale');
         if (priceElement) {
           this.originalPrice = parseFloat(priceElement.textContent.replace(/[^0-9.-]+/g, ''));
+        }
+        if (salePriceElement) {
+          this.salePrice = parseFloat(salePriceElement.textContent.replace(/[^0-9.-]+/g, ''));
         }
       }
 
@@ -203,10 +208,14 @@ if (!customElements.get('product-info')) {
           updateSourceFromDestination('Volume');
           updateSourceFromDestination('Price-Per-Item', ({ classList }) => classList.contains('hidden'));
 
-          // Update the original price when variant changes
+          // Update the original price and sale price when variant changes
           const priceElement = this.querySelector('.price-item.price-item--regular');
+          const salePriceElement = this.querySelector('.price__sale .price-item--sale');
           if (priceElement) {
             this.originalPrice = parseFloat(priceElement.textContent.replace(/[^0-9.-]+/g, ''));
+          }
+          if (salePriceElement) {
+            this.salePrice = parseFloat(salePriceElement.textContent.replace(/[^0-9.-]+/g, ''));
           }
 
           this.updateQuantityRules(this.sectionId, html);
@@ -432,15 +441,23 @@ if (!customElements.get('product-info')) {
       updateTotalPrice() {
         const quantity = parseInt(this.quantityInput.value);
         const priceElement = this.querySelector('.price-item.price-item--regular');
-        if (!priceElement || !this.originalPrice) return;
+        const salePriceElement = this.querySelector('.price__sale .price-item--sale');
+        
+        if (!priceElement) return;
 
-        // Calculate total price using the original price
-        const totalPrice = this.originalPrice * quantity;
+        // Calculate total price using the appropriate price (sale or regular)
+        const basePrice = salePriceElement ? this.salePrice : this.originalPrice;
+        if (!basePrice) return;
+
+        const totalPrice = basePrice * quantity;
 
         // Format the price with currency symbol and proper decimal places
         const formattedPrice = this.formatMoney(totalPrice);
 
-        // Update the price display
+        // Update both regular and sale price displays if they exist
+        if (salePriceElement) {
+          salePriceElement.textContent = formattedPrice;
+        }
         priceElement.textContent = formattedPrice;
       }
 

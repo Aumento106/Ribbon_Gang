@@ -847,7 +847,7 @@
       "settings": {
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "full_width": false,
-        "heading": "<p>Make space for care. <br/>Contact a consultant today</p>",
+        "heading": "<p>Make space for care. <br/>Contact a consultant today.</p>",
         "heading_size": "h0",
         "text": "<p>Archici enimodiae ratibus aut volum quiam, et quo bea  suntion serrovide por aute natempos erovita ium quunt  iumquae plab intium fuga. Temolore conescidis repudam  alicient fugit expland ucipsant.</p>",
         "padding_top": 50,
@@ -1052,10 +1052,10 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/2-grid_Concept_13.png",
-            "title": "Shelving",
-            "text": "<p> Text to go here.</p>",
+            "title": "Wire shelving, baskets & pharmacy drawers",
+            "text": "<p>Build your ideal <strong>modular storage system</strong> with a combination of shelving, baskets, and pharmacy drawers. Enhance efficiency with additional accessories. Text to go here.</p>",
             "text-v": "",
-            "button-text": "Shop for Shelving",
+            "button-text": "Shop Now",
             "button-url": "shopify://collections"
           }
         },
@@ -1064,7 +1064,7 @@
           "settings": {
             "image": "shopify://shop_images/2-grid_Concept_13.png",
             "title": "Benching",
-            "text": "<p> Text to go here.</p>",
+            "text": "<p>Tailored to any length, from compact 2-bay setups to expansive 8-bay configurations and beyond. STERIRACK® Benching is also available with any basket or shelving configuration. Enjoy a setup where <strong>everything remains visible and accessible</strong>, eliminating hiding spots for dust and dirt.</p>",
             "text-v": "",
             "button-text": "Shop for Benching",
             "button-url": "shopify://collections"
@@ -1074,10 +1074,10 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/2-grid_Concept_13.png",
-            "title": "Trolleys & Carts",
-            "text": "<p> Text to go here.</p>",
+            "title": "Trolleys and enclosed carts",
+            "text": "<p>Choose from <strong>customisable medical trolleys</strong>, available in single, double-bay or triple-bay designs, in a variety of heights and basket/shelving configurations. Need a tailored trolley solution? We deliver <strong>on time, with no compromise on quality</strong>.</p>",
             "text-v": "",
-            "button-text": "Shop for Benching",
+            "button-text": "Shop for Trolleys",
             "button-url": "shopify://collections"
           }
         },
@@ -1086,9 +1086,9 @@
           "settings": {
             "image": "shopify://shop_images/2-grid_Concept_13.png",
             "title": "Accessories",
-            "text": "<p> Text to go here.</p>",
+            "text": "<p>Optimise your STERIRACK® System with:</p><ul><li>Basket drop-in bins </li><li>Flat and step trays</li><li>Basket and bin dividers</li><li>Shelf dividers and ledges</li><li>Silicon mats and other accessories</li></ul>",
             "text-v": "",
-            "button-text": "Shop for Benching",
+            "button-text": "Shop for Accessories",
             "button-url": "shopify://collections"
           }
         }

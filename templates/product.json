@@ -157,7 +157,7 @@
           "settings": {
             "Heading_sp": "Specs",
             "sub_heading": "Specifications",
-            "content": "<p>Lorem ipsum odor amet, consectetuer adipiscing elit. Auctor pharetra aliquet magna pharetra condimentum suscipit. Nostra sit accumsan; senectus congue tristique feugiat. Gravida magna etiam nascetur, pellentesque etiam pretium fermentum.</p>"
+            "content": "{{ product.metafields.custom.specifications_description | metafield_tag }}"
           }
         },
         "q_a_Fz3EyY": {

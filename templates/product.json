@@ -157,7 +157,7 @@
           "settings": {
             "Heading_sp": "Specs",
             "sub_heading": "Specifications",
-            "content": "{{ product.metafields.custom.specifications_description | metafield_tag }}"
+            "content": "<p>{{ product.metafields.custom.specifications_description | metafield_tag }}</p>"
           }
         },
         "q_a_Fz3EyY": {
@@ -165,7 +165,7 @@
           "settings": {
             "Heading_qa": "Q&A",
             "sub_heading1": "",
-            "content1": "<p>Constructed from medical-grade steel</p><p>Electroplated and powder-coated for durability</p><p>Rounded corners to reduce risk of injury or damage</p><p>Compatible with STERIRACK® shelving, trolleys, and workstations<br/><br/></p>",
+            "content1": "<p><br/><br/></p>",
             "sub_heading2": "",
             "content2": "",
             "sub_heading3": "",

@@ -13,6 +13,7 @@
       "type": "main-page",
       "disabled": true,
       "settings": {
+        "color_scheme": "",
         "padding_top": 28,
         "padding_bottom": 28
       }
@@ -30,7 +31,8 @@
         "text_zj4HVF": {
           "type": "text",
           "settings": {
-            "text": "<p>Some of the team taking time out for a friendly chat in the lunch room with Managing Director Lloyd Scott (standing).</p>"
+            "text": "<p>Some of the team taking time out for a friendly chat in the lunch room with Managing Director Lloyd Scott (standing).</p>",
+            "text_alignment": "center"
           }
         }
       },
@@ -60,7 +62,7 @@
         "text_UJHQb4": {
           "type": "text",
           "settings": {
-            "text": "<p>Welcome to SpaceLogic Group – the authoritative experts in clinical healthcare storage solutions for the healthcare sector. Over 35 years SpaceLogic has grown from a small family firm into an acknowledged leader in healthcare space management. We have built an enviable reputation by providing a complete service to our clients, suppling project design, planning and installation services, and our own innovative and customizable range of products.</p><p>Our head office is located in Orange NSW, where our team of professionals work with single-minded focus to increase patient care time, improve infection control and maximize available space.</p><p>For more information, watch this video.</p>",
+            "text": "<p>Welcome to <strong>SpaceLogic Group</strong>, the leading authority in <strong>clinical healthcare storage solutions</strong>. With over 40 years of expertise, SpaceLogic has evolved from a small family business into a trusted name in <strong>healthcare space management</strong>. We pride ourselves on delivering comprehensive <strong>project design, planning, and installation services</strong>, alongside our <strong>customisable, modular and innovative</strong> range of storage products.</p><p>With Head Offices in both, <strong>NSW</strong>, Australia and Springfield NJ, United States - Our team is committed to improving <strong>patient care time, infection control</strong>, and <strong>space efficiency</strong> for hospitals, medical centres, day surgeries and veterinary clinics.</p><p>For more information, watch this video.</p>",
             "text_style": "body"
           }
         }
@@ -110,11 +112,12 @@
         "text_3wTHXQ"
       ],
       "settings": {
-        "desktop_content_position": "center",
         "content_alignment": "center",
         "content_width": "full_width",
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "full_width": true,
+        "no_margin": false,
+        "section_border": false,
         "padding_top": 80,
         "padding_bottom": 80
       }
@@ -123,6 +126,7 @@
       "type": "team",
       "settings": {
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "box_color_scheme": "",
         "title": "",
         "padding_top": 140,
         "padding_bottom": 70,

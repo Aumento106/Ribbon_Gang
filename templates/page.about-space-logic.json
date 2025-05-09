@@ -103,7 +103,7 @@
         "text_3wTHXQ": {
           "type": "text",
           "settings": {
-            "text": "<p>Our tireless and dynamic SpaceLogic team is dedicated to Healthcare. Our mission is to provide a fresh new approach, and premium advice and expertise to hospitals, medical centers and other clinical facilities. By combining the specialist skills of our entire team, we create a cohesive whole to give you individual attention, dedicated commitment and a result superior to any other.</p>"
+            "text": "<p>Our <strong>expert team</strong> brings together trusted industry-leading professionals dedicated to optimising <strong>healthcare storage</strong>. By combining <strong>specialist knowledge</strong> with a client-focused approach, we deliver <strong>tailored solutions</strong> that enhance efficiency, safety, and usability in clinical environments</p><p><strong>Key Team Members:</strong></p><p><strong>Lloyd Scott – CEO<br/></strong>With extensive industry expertise, Lloyd leads SpaceLogic with a vision for <strong>delivering premium client experiences</strong> and <strong>innovative storage solutions</strong>.<br/></p><p><strong>Adam Piech – Product Sales Manager (AU)<br/></strong>Adam’s <strong>15 years of industry experience</strong> and deep product knowledge ensure exceptional <strong>customer satisfaction and engagement</strong>.</p><p><strong>Craig Stuart – Chief Financial Officer<br/></strong>Craig drives <strong>strategic financial planning</strong> and ensures strong <strong>risk management</strong> and operational efficiency.<br/><br/><strong>David Scott – Project Team Manager<br/></strong>A founder of SpaceLogic, David has <strong>over 35 years of expertise</strong> in <strong>healthcare storage design</strong>, guiding <strong>strategic innovation</strong>.<br/><br/><strong>Melissa Gillespie – Project Admin Manager<br/></strong>With <strong>15+ years in corporate coordination</strong>, Melissa ensures smooth project execution and <strong>seamless client interactions</strong>.<br/><br/><strong>Oleta Blunt – Senior Marketing Manager<br/></strong>Oleta’s expertise in <strong>strategic marketing</strong> and <strong>branding</strong> helps drive impactful campaigns and client relationships.<br/><br/>View our full team directory<strong> </strong><a href=\"/pages/our-team\" title=\"Our Team\"><strong>here. </strong></a></p>"
           }
         }
       },
@@ -121,25 +121,12 @@
         "padding_top": 80,
         "padding_bottom": 80
       }
-    },
-    "team_fyjyTF": {
-      "type": "team",
-      "settings": {
-        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "box_color_scheme": "",
-        "title": "",
-        "padding_top": 140,
-        "padding_bottom": 70,
-        "mobile_padding_top": 100,
-        "mobile_padding_bottom": 50
-      }
     }
   },
   "order": [
     "main",
     "page_banner_J4tRrR",
     "image_with_text_v1_Kk8cPy",
-    "rich_text_EQJmnB",
-    "team_fyjyTF"
+    "rich_text_EQJmnB"
   ]
 }

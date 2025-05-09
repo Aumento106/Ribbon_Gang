@@ -165,7 +165,7 @@
           "settings": {
             "Heading_qa": "Q&A",
             "sub_heading1": "",
-            "content1": "<p><br/><br/></p>",
+            "content1": "{{ product.metafields.custom.qa_details | metafield_tag }}",
             "sub_heading2": "",
             "content2": "",
             "sub_heading3": "",

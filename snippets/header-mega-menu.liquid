@@ -228,7 +228,7 @@
   });
 
   // Close menu when mouse leaves the content area
-  document.querySelectorAll('.mega-menu__content, .default-menu__content').forEach((content) => {
+  document.querySelectorAll('.mega-menu__content').forEach((content) => {
     content.addEventListener('mouseleave', () => {
       const parentMenu = content.closest('.mega-menu, .default-menu');
       if (parentMenu) {

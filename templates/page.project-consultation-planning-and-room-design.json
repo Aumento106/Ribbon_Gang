@@ -77,7 +77,7 @@
           "type": "column",
           "settings": {
             "icon": "shopify://shop_images/bulb-icon.svg",
-            "heading": "<p>Product customization <br/>and continuous innovation</p>",
+            "heading": "<p>Product customisation <br/>and continuous innovation</p>",
             "text": "<p>We specialize in custom storage solutions for healthcare, and our STERIRACK® System and MEDIBIN™ ranges are exclusive to SpaceLogic. Liaise with our designers to have custom components and accessories created to meet your specific needs.</p>"
           }
         },
@@ -86,7 +86,7 @@
           "settings": {
             "icon": "shopify://shop_images/setting-icon.svg",
             "heading": "<p>Project management <br/>and installation</p>",
-            "text": "<p>Our expert installation team specializes in fast, no-fuss storage installations with minimal interruptions to everyday operations or other trades. Our team travels nationally and internationally, or project manages local tradespeople.</p>"
+            "text": "<p>Our expert installation team specialises in fast, no-fuss storage installations with minimal interruptions to everyday operations or other trades. Our team travels nationally and internationally, or project manages local tradespeople.</p>"
           }
         }
       },

@@ -638,86 +638,6 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_Eez4pR": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Concept_20_1.png",
-            "tag_text": "Best Sellers",
-            "tag_text_color": "#ffffff",
-            "logo_image": "shopify://shop_images/Steriloop_logo.svg",
-            "heading": "<p>Innovative <br/>Theatre Trolley</p>",
-            "heading_size": "h0",
-            "subheading": "Bearundae voluptatem eum iditatqui aut  doluptiorest adit am rerrum sitae cor  modia voluptatist amu",
-            "button_label": "Shop Theatre Trolleys",
-            "link": "shopify://collections",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_Np38Qh": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Concept_20_1.png",
-            "tag_text": "Best Sellers",
-            "tag_text_color": "#ffffff",
-            "logo_image": "shopify://shop_images/Steriloop_logo.svg",
-            "heading": "<p>Innovative <br/>Theatre Trolley</p>",
-            "heading_size": "h0",
-            "subheading": "Bearundae voluptatem eum iditatqui aut  doluptiorest adit am rerrum sitae cor  modia voluptatist amu",
-            "button_label": "Shop Theatre Trolleys",
-            "link": "shopify://collections",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_XYwChp": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Concept_20_1.png",
-            "tag_text": "Best Sellers",
-            "tag_text_color": "#ffffff",
-            "logo_image": "shopify://shop_images/Steriloop_logo.svg",
-            "heading": "<p>Innovative <br/>Theatre Trolley</p>",
-            "heading_size": "h0",
-            "subheading": "Bearundae voluptatem eum iditatqui aut  doluptiorest adit am rerrum sitae cor  modia voluptatist amu",
-            "button_label": "Shop Theatre Trolleys",
-            "link": "shopify://collections",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_ijBbkn": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Concept_20_1.png",
-            "tag_text": "Best Sellers",
-            "tag_text_color": "#ffffff",
-            "logo_image": "shopify://shop_images/Steriloop_logo.svg",
-            "heading": "<p>Innovative <br/>Theatre Trolley</p>",
-            "heading_size": "h0",
-            "subheading": "Bearundae voluptatem eum iditatqui aut  doluptiorest adit am rerrum sitae cor  modia voluptatist amu",
-            "button_label": "Shop Theatre Trolleys",
-            "link": "shopify://collections",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_L8BfQH": {
           "type": "slide",
           "settings": {
@@ -742,10 +662,6 @@
       "block_order": [
         "slide_4JtzGz",
         "slide_pmtHCz",
-        "slide_Eez4pR",
-        "slide_Np38Qh",
-        "slide_XYwChp",
-        "slide_ijBbkn",
         "slide_L8BfQH"
       ],
       "settings": {

@@ -482,7 +482,7 @@
       ],
       "settings": {
         "page_container": "full-width",
-        "image": "shopify://shop_images/Home_2.png",
+        "image": "shopify://shop_images/Home_3.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "show_text_box": false,
@@ -491,7 +491,7 @@
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "padding_top": 0,
-        "padding_bottom": 100
+        "padding_bottom": 40
       }
     },
     "custom_multicolumn_tEhTPk": {

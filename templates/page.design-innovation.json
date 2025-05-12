@@ -30,8 +30,8 @@
         "text_KdCiWp": {
           "type": "text",
           "settings": {
-            "text": "<p>STERIRACK® System is a healthcare consumables management innovation that is designed and manufactured by, and available only through SpaceLogic. STERIRACK® System is a fully integrated, modular system of shelving, baskets, pharmacy drawers, benches, trolleys, accessories and components that all seamlessly combine to create a complete consumables storage solution for any application in hospitals and healthcare. See the Applications Menu for more information. Product innovation is driven by the requirements of healthcare personnel who share their needs with us. From these needs, we create products and continue to expand our STERIRACK® System range. One of our most recent innovations (June 2021) are STERIRACK® Transport Carts and Glass Door Carts which are now available for order. These carts can be configured in a broad range of sizes and configurations, further adding to our stable of tailored solutions. New innovations are in the pipeline all the time. STERIRACK® System is design by SpaceLogic product designers located in Orange NSW, at the SpaceLogic head office and manufacturing facility.</p>",
-            "text_alignment": "center"
+            "text": "<p>At SpaceLogic, <strong>innovation</strong> is at the heart of our product development. Our exclusive <strong>STERIRACK®</strong> and MEDIBIN™ Systems and complementing product ranges,  provide industry-leading storage solutions tailored to <strong>clinical environment facilities</strong>. Need something unique? Our design team collaborates with clients to develop <strong>custom components and accessories</strong> that meet specific storage needs, ensuring <strong>optimal efficiency and usability</strong>.</p>",
+            "text_alignment": "left"
           }
         },
         "button_fn8KLw": {
@@ -77,7 +77,7 @@
           "type": "column",
           "settings": {
             "icon": "shopify://shop_images/bulb-icon.svg",
-            "heading": "<p>Product customization <br/>and continuous innovation</p>",
+            "heading": "<p>Product customisation <br/>and continuous innovation</p>",
             "text": "<p>We specialize in custom storage solutions for healthcare, and our STERIRACK® System and MEDIBIN™ ranges are exclusive to SpaceLogic. Liaise with our designers to have custom components and accessories created to meet your specific needs.</p>"
           }
         },
@@ -86,7 +86,7 @@
           "settings": {
             "icon": "shopify://shop_images/setting-icon.svg",
             "heading": "<p>Project management <br/>and installation</p>",
-            "text": "<p>Our expert installation team specializes in fast, no-fuss storage installations with minimal interruptions to everyday operations or other trades. Our team travels nationally and internationally, or project manages local tradespeople.</p>"
+            "text": "<p>Our expert installation team specialises in fast, no-fuss storage installations with minimal interruptions to everyday operations or other trades. Our team travels nationally and internationally, or project manages local tradespeople.</p>"
           }
         }
       },

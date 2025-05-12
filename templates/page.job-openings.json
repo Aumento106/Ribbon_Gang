@@ -31,7 +31,7 @@
         "heading_q4a9w9": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Job Openings</strong> at SpaceLogic",
+            "heading": "<strong>Open Positions</strong> at SpaceLogic",
             "heading_size": "h0",
             "heading_alignment": "center"
           }
@@ -60,18 +60,6 @@
     },
     "rich_text_y4gmC7": {
       "type": "rich-text",
-      "blocks": {
-        "heading_PxW4X4": {
-          "type": "heading",
-          "settings": {
-            "heading": "Open Positions",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "heading_PxW4X4"
-      ],
       "settings": {
         "content_alignment": "center",
         "content_width": "full_width",

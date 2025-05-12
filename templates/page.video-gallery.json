@@ -119,7 +119,7 @@
             "video_url": "https://www.youtube.com/watch?v=F-knGdXqp2g",
             "enable_video_looping": false,
             "title": "STERIRACK® Click 'n' Clip Label Holders for increased efficiencies",
-            "text": "<p>Join Adam Piech as he demonstrates our innovative Click ‘n’ Clip label holders, just perfect for color categorization and huge improvements in efficiencies in your consumables storerooms. (09)</p>"
+            "text": "<p>Join Adam Piech as he demonstrates our innovative Click ‘n’ Clip label holders, just perfect for color categorisation and huge improvements in efficiencies in your consumables storerooms. (09)</p>"
           }
         },
         "column_pQzfJK": {
@@ -319,7 +319,7 @@
             "video_url": "https://youtu.be/ltxJ586mFsM",
             "enable_video_looping": false,
             "title": "STERIRACK® Workstations - the superior medical shelving solution for healthcare",
-            "text": "<p>STERIRACK®Workstations meet global best practice, are compliant with Australian Standards and provide optimal infection control. They can also be fully customized in any configuration you require to perfectly suit your facility and application. (12)</p>"
+            "text": "<p>STERIRACK®Workstations meet global best practice, are compliant with Australian Standards and provide optimal infection control. They can also be fully customised in any configuration you require to perfectly suit your facility and application. (12)</p>"
           }
         },
         "column_nfCMP4": {
@@ -419,7 +419,7 @@
             "video_url": "https://youtu.be/6A9LrFGBP5Q",
             "enable_video_looping": false,
             "title": "Balmain Village Loves STERIRACK® Trolleys​",
-            "text": "<p>Join Dr April Armstrong as she discusses the features and benefits of customized STERIRACK®Medical Trolleys. (51)</p>"
+            "text": "<p>Join Dr April Armstrong as she discusses the features and benefits of customised STERIRACK®Medical Trolleys. (51)</p>"
           }
         },
         "column_8pcKiq": {
@@ -501,16 +501,6 @@
             "title": "A heartfeld thank you on International Nurses Day 2020",
             "text": "<p>Managing Director Lloyd Scott and the rest of the team send out a huge and heartfelt thank you to all our nurses who have, collectively, had a tough year dealing with the COVID-19 pandemic. (39)</p>"
           }
-        },
-        "column_tKgdmx": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/39-thumbnail-pbfvnz25sr6hr2fzddock32jcenv1hyhx1k0636gbk.jpg",
-            "video_url": "https://youtu.be/cu_FGYCCIxQ",
-            "enable_video_looping": false,
-            "title": "About SpaceLogic 2021",
-            "text": "<p>Join Lloyd Scott and some of the other Directors of SpaceLogic Group Pty Ltd as they walk you through our head office and explain who we are and what we do for Healthcare.</p>"
-          }
         }
       },
       "block_order": [
@@ -557,8 +547,7 @@
         "column_gQeqcD",
         "column_DapDGL",
         "column_wbNcAF",
-        "column_JWqVHm",
-        "column_tKgdmx"
+        "column_JWqVHm"
       ],
       "settings": {
         "title": "<p><strong>Video</strong> library</p>",

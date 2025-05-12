@@ -102,8 +102,8 @@
         "heading_wtkCw3": {
           "type": "heading",
           "settings": {
-            "heading": "Hospital and Surgical Centre",
-            "heading_size": "h0"
+            "heading": "Hospital and surgical centre",
+            "heading_size": "h1"
           }
         },
         "text_t9P8ME": {
@@ -116,7 +116,7 @@
         "buttons_3efdfV": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop the Room",
+            "button_label_1": "Shop the room",
             "button_link_1": "shopify://collections",
             "button_style_secondary_1": false,
             "button_label_2": "",
@@ -273,7 +273,7 @@
       ],
       "settings": {
         "page_container": "full-width",
-        "image": "shopify://shop_images/Concept_9.png",
+        "image": "shopify://shop_images/Home_1.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "show_text_box": false,

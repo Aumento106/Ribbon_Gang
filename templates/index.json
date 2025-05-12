@@ -16,7 +16,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Concept_1_1.png",
-            "heading": "infection-controlled solutions",
+            "heading": "Infection-controlled solutions",
             "heading_size": "h0",
             "subheading": "",
             "button_label": "Shop Now",
@@ -109,7 +109,7 @@
         "text_t9P8ME": {
           "type": "text",
           "settings": {
-            "text": "Smarter storage. Safer care",
+            "text": "Smarter storage. Safer care.",
             "text_style": "subtitle"
           }
         },
@@ -285,6 +285,195 @@
         "padding_bottom": 100
       }
     },
+    "custom_image_banner_wTxxEB": {
+      "type": "custom-image-banner",
+      "blocks": {
+        "heading_wrKCR8": {
+          "type": "heading",
+          "settings": {
+            "heading": "Hospitals and surgical centres",
+            "heading_size": "h0"
+          }
+        },
+        "text_dRjWew": {
+          "type": "text",
+          "settings": {
+            "text": "Smarter storage. Safer care.",
+            "text_style": "subtitle"
+          }
+        },
+        "buttons_YfcGj9": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop the Room",
+            "button_link_1": "shopify://collections",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "botton_position": 60
+          }
+        },
+        "hotspot_button_WRJ9bt": {
+          "type": "hotspot_button",
+          "settings": {
+            "hotspot_icon": "shopify://shop_images/icon-hotspot.svg",
+            "hotspot_product_list": [
+              "standard-mesh-baskets-copy",
+              "sterirack®-transport-case-carts",
+              "standard-mesh-baskets-5",
+              "standard-mesh-baskets-4",
+              "standard-mesh-baskets-3",
+              "standard-mesh-baskets"
+            ],
+            "product_list_sec_title": "lorem ipsum",
+            "product_list_subtitle": "(lorem ipsum)",
+            "hotspot_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+            "top_position": 40,
+            "left_position": 60
+          }
+        },
+        "hotspot_button_CcdfLG": {
+          "type": "hotspot_button",
+          "settings": {
+            "hotspot_icon": "shopify://shop_images/icon-hotspot.svg",
+            "hotspot_product_list": [
+              "standard-mesh-baskets-copy",
+              "sterirack®-transport-case-carts",
+              "standard-mesh-baskets-5",
+              "standard-mesh-baskets-4",
+              "standard-mesh-baskets-3",
+              "standard-mesh-baskets"
+            ],
+            "product_list_sec_title": "lorem ipsum",
+            "product_list_subtitle": "(lorem ipsum)",
+            "hotspot_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+            "top_position": 44,
+            "left_position": 44
+          }
+        },
+        "hotspot_button_EY3YAc": {
+          "type": "hotspot_button",
+          "settings": {
+            "hotspot_icon": "shopify://shop_images/icon-hotspot.svg",
+            "hotspot_product_list": [
+              "standard-mesh-baskets-copy",
+              "sterirack®-transport-case-carts",
+              "standard-mesh-baskets-5",
+              "standard-mesh-baskets-4",
+              "standard-mesh-baskets-3",
+              "standard-mesh-baskets"
+            ],
+            "product_list_sec_title": "lorem ipsum",
+            "product_list_subtitle": "(lorem ipsum)",
+            "hotspot_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+            "top_position": 34,
+            "left_position": 16
+          }
+        },
+        "hotspot_button_m93PxC": {
+          "type": "hotspot_button",
+          "settings": {
+            "hotspot_icon": "shopify://shop_images/icon-hotspot.svg",
+            "hotspot_product_list": [
+              "standard-mesh-baskets-copy",
+              "sterirack®-transport-case-carts",
+              "standard-mesh-baskets-5",
+              "standard-mesh-baskets-4",
+              "standard-mesh-baskets-3",
+              "standard-mesh-baskets"
+            ],
+            "product_list_sec_title": "lorem ipsum",
+            "product_list_subtitle": "(lorem ipsum)",
+            "hotspot_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+            "top_position": 49,
+            "left_position": 18
+          }
+        },
+        "hotspot_button_XgLLrX": {
+          "type": "hotspot_button",
+          "settings": {
+            "hotspot_icon": "shopify://shop_images/icon-hotspot.svg",
+            "hotspot_product_list": [
+              "standard-mesh-baskets-copy",
+              "sterirack®-transport-case-carts",
+              "standard-mesh-baskets-5",
+              "standard-mesh-baskets-4",
+              "standard-mesh-baskets-3",
+              "standard-mesh-baskets"
+            ],
+            "product_list_sec_title": "lorem ipsum",
+            "product_list_subtitle": "(lorem ipsum)",
+            "hotspot_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+            "top_position": 64,
+            "left_position": 21
+          }
+        },
+        "hotspot_button_akTq93": {
+          "type": "hotspot_button",
+          "settings": {
+            "hotspot_icon": "shopify://shop_images/icon-hotspot.svg",
+            "hotspot_product_list": [
+              "standard-mesh-baskets-copy",
+              "sterirack®-transport-case-carts",
+              "standard-mesh-baskets-5",
+              "standard-mesh-baskets-4",
+              "standard-mesh-baskets-3",
+              "standard-mesh-baskets"
+            ],
+            "product_list_sec_title": "lorem ipsum",
+            "product_list_subtitle": "(lorem ipsum)",
+            "hotspot_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+            "top_position": 86,
+            "left_position": 12
+          }
+        },
+        "hotspot_button_jtiwdc": {
+          "type": "hotspot_button",
+          "settings": {
+            "hotspot_icon": "shopify://shop_images/icon-hotspot.svg",
+            "hotspot_product_list": [
+              "standard-mesh-baskets-copy",
+              "sterirack®-transport-case-carts",
+              "standard-mesh-baskets-5",
+              "standard-mesh-baskets-4",
+              "standard-mesh-baskets-3",
+              "standard-mesh-baskets"
+            ],
+            "product_list_sec_title": "lorem ipsum",
+            "product_list_subtitle": "(lorem ipsum)",
+            "hotspot_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+            "top_position": 72,
+            "left_position": 56
+          }
+        }
+      },
+      "block_order": [
+        "heading_wrKCR8",
+        "text_dRjWew",
+        "buttons_YfcGj9",
+        "hotspot_button_WRJ9bt",
+        "hotspot_button_CcdfLG",
+        "hotspot_button_EY3YAc",
+        "hotspot_button_m93PxC",
+        "hotspot_button_XgLLrX",
+        "hotspot_button_akTq93",
+        "hotspot_button_jtiwdc"
+      ],
+      "settings": {
+        "page_container": "full-width",
+        "image": "shopify://shop_images/Concept_9.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-28b9a3ce-e916-452a-9440-95fefcedbf92",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 100
+      }
+    },
     "custom_multicolumn_tEhTPk": {
       "type": "custom-multicolumn",
       "blocks": {
@@ -293,7 +482,7 @@
           "settings": {
             "image": "shopify://shop_images/Concept_13.png",
             "title": "CSSD",
-            "text": "<p>Theatre store</p>",
+            "text": "<p>Theatre Store</p>",
             "text-v": "Designed for hygiene, engineered for safety",
             "button-text": "Shop the Room",
             "button-url": "shopify://collections"
@@ -304,7 +493,7 @@
           "settings": {
             "image": "shopify://shop_images/Concept_13.png",
             "title": "Clean Utility",
-            "text": "<p>Medications</p>",
+            "text": "<p>Medications Room</p>",
             "text-v": "Every space optimised,  text to go here.",
             "button-text": "Shop the Room",
             "button-url": "shopify://collections"
@@ -328,7 +517,7 @@
         "column_ggEGqd"
       ],
       "settings": {
-        "title": "<p>Innovative Storage Solutions</p>",
+        "title": "<p>Innovative storage solutions</p>",
         "sec_subtitle": "Making space for care. Across every department.",
         "button_text": "",
         "button_url": "",
@@ -358,10 +547,10 @@
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "full_width": false,
         "heading": "<p>Stay ahead in healthcare storage. Subscribe for updates.</p>",
-        "heading_size": "h0",
+        "heading_size": "h1",
         "text": "<p>Archici enimodiae ratibus aut volum quiam, et quo bea  suntion serrovide por aute natempos erovita ium quunt  iumquae plab intium fuga.</p>",
-        "padding_top": 70,
-        "padding_bottom": 70,
+        "padding_top": 50,
+        "padding_bottom": 50,
         "margin_top": 100,
         "margin_bottom": 100
       }
@@ -373,11 +562,11 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Concept_20_1.png",
-            "tag_text": "Best Sellers",
+            "tag_text": "Best sellers",
             "tag_text_color": "#ffffff",
             "logo_image": "shopify://shop_images/Steriloop_logo.svg",
-            "heading": "<p>Innovative <br/>Theatre Trolley</p>",
-            "heading_size": "h0",
+            "heading": "<p>Innovative <br/>theatre trolleys</p>",
+            "heading_size": "h1",
             "subheading": "Bearundae voluptatem eum iditatqui aut  doluptiorest adit am rerrum sitae cor  modia voluptatist amu",
             "button_label": "Shop Theatre Trolleys",
             "link": "shopify://collections",
@@ -393,11 +582,11 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Concept_20_1.png",
-            "tag_text": "Best Sellers",
+            "tag_text": "Best sellers",
             "tag_text_color": "#ffffff",
             "logo_image": "shopify://shop_images/Steriloop_logo.svg",
-            "heading": "<p>Innovative <br/>Theatre Trolley</p>",
-            "heading_size": "h0",
+            "heading": "<p>Innovative <br/>theatre trolleys</p>",
+            "heading_size": "h1",
             "subheading": "Bearundae voluptatem eum iditatqui aut  doluptiorest adit am rerrum sitae cor  modia voluptatist amu",
             "button_label": "Shop Theatre Trolleys",
             "link": "shopify://collections",
@@ -564,7 +753,7 @@
         "column_ERyxPw"
       ],
       "settings": {
-        "title": "<p>Why SpaceLogic?</p>",
+        "title": "<p>Why choose SpaceLogic?</p>",
         "descr": "Making space for care.",
         "heading_size": "h1",
         "title_alignment": "center",
@@ -586,7 +775,7 @@
             "logo_image": "shopify://shop_images/Steriloop_logo.svg",
             "offer_title": "",
             "heading": "<p>Introducing the registered WireLoop Shape Mark andSteriLoop™ innovation</p>",
-            "heading_size": "h0",
+            "heading_size": "h1",
             "text": "<p>SpaceLogic is proud to introduce SteriLoop®,  featuring our registered WireLoop Shape Mark – a game-changing  innovation in healthcare  storage.</p><p> SMOOTH ROUNDED CORNERS: Prevents cuts,  micro-tears, and damage to consumables</p><p>NO SHARP EDGES: Superior safety for hospital  staff and patient</p><p>ENHANCED DURABILITY AND HYGIENE:  Engineered for long-term performance</p><p><strong>Look for the Loop™ – The  ultimate in safe, smart storage</strong></p>",
             "button_label": "Shop SteriLoop™ Baskets",
             "button_link": "shopify://collections",
@@ -600,7 +789,7 @@
             "logo_image": "shopify://shop_images/Steriloop_logo.svg",
             "offer_title": "",
             "heading": "<p>Introducing the registered WireLoop Shape Mark andSteriLoop™ innovation</p>",
-            "heading_size": "h0",
+            "heading_size": "h1",
             "text": "<p>SpaceLogic is proud to introduce SteriLoop®,  featuring our registered WireLoop Shape Mark – a game-changing  innovation in healthcare  storage.</p><p> SMOOTH ROUNDED CORNERS: Prevents cuts,  micro-tears, and damage to consumables</p><p>NO SHARP EDGES: Superior safety for hospital  staff and patient</p><p>ENHANCED DURABILITY AND HYGIENE:  Engineered for long-term performance</p><p><strong>Look for the Loop™ – The  ultimate in safe, smart storage</strong></p>",
             "button_label": "Shop SteriLoop™ Baskets",
             "button_link": "shopify://collections",
@@ -717,7 +906,7 @@
             "image": "shopify://shop_images/Concept_5.png",
             "offer_title": "",
             "heading": "<p>Blacktown Hospital improves their bottom line by 30% using STERIRACK™ System</p>",
-            "heading_size": "h0",
+            "heading_size": "h1",
             "text": "<p>Bearundae voluptatem eum iditatqui aut doluptiorest adit  am rerrum sitae cor modia voluptatist amu.<br/><br/>Bearundae voluptatem eum iditatqui aut doluptiorest  adit am rerrum sitae cor modia voluptatist amu.  Bearundae voluptatem eum iditatqui aut doluptiorest  adit am rerrum sitae cor modia voluptatist amu.<br/><br/><strong>“We couldn’t have asked for a better system —  the nurses absolutely love it!”</strong><br/><br/>Shane Brown | Blacktown Hospital</p>",
             "button_label": "Read More...",
             "button_link": "shopify://collections",
@@ -813,7 +1002,7 @@
         "slide_cbQUAP"
       ],
       "settings": {
-        "heading": "Testimonials and Case Studies",
+        "heading": "Testimonials and case studies",
         "sec_des": "<p>World-class reputation.</p>",
         "title_alignment": "center",
         "heading_size": "h0",
@@ -848,11 +1037,11 @@
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "full_width": false,
         "heading": "<p>Make space for care. <br/>Contact a consultant today.</p>",
-        "heading_size": "h0",
+        "heading_size": "h1",
         "text": "<p>Archici enimodiae ratibus aut volum quiam, et quo bea  suntion serrovide por aute natempos erovita ium quunt  iumquae plab intium fuga. Temolore conescidis repudam  alicient fugit expland ucipsant.</p>",
         "padding_top": 50,
         "padding_bottom": 50,
-        "margin_top": 100,
+        "margin_top": 40,
         "margin_bottom": 0
       }
     },
@@ -1683,6 +1872,7 @@
   "order": [
     "custom_slide_show_aTXHa3",
     "custom_image_banner_xDTGLj",
+    "custom_image_banner_wTxxEB",
     "custom_multicolumn_tEhTPk",
     "custom_newsletter_NdaReb",
     "custom_slideshow_slider_8brNtf",

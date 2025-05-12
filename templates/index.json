@@ -1174,7 +1174,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/2-grid_Concept_13.png",
-            "title": "Trolleys and enclosed carts",
+            "title": "Trolleys and carts",
             "text": "",
             "text-v": "",
             "button-text": "Shop for trolleys etc",
@@ -1188,7 +1188,7 @@
             "title": "Accessories and colour coding",
             "text": "",
             "text-v": "",
-            "button-text": "Shop for accessories",
+            "button-text": "Shop for accessories etc",
             "button-url": "shopify://collections"
           }
         }

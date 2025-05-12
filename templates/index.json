@@ -291,21 +291,21 @@
         "heading_wrKCR8": {
           "type": "heading",
           "settings": {
-            "heading": "Clean utilities and medication rooms",
-            "heading_size": "h1"
+            "heading": "Hospitals and surgical centres",
+            "heading_size": "h0"
           }
         },
         "text_dRjWew": {
           "type": "text",
           "settings": {
-            "text": "Ollie: Copy to go here.",
+            "text": "Smarter storage. Safer care.",
             "text_style": "subtitle"
           }
         },
         "buttons_YfcGj9": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop the room",
+            "button_label_1": "Shop the Room",
             "button_link_1": "shopify://collections",
             "button_style_secondary_1": false,
             "button_label_2": "",
@@ -326,11 +326,11 @@
               "standard-mesh-baskets-3",
               "standard-mesh-baskets"
             ],
-            "product_list_sec_title": "Medibin System",
+            "product_list_sec_title": "lorem ipsum",
             "product_list_subtitle": "(lorem ipsum)",
             "hotspot_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-            "top_position": 38,
-            "left_position": 62
+            "top_position": 40,
+            "left_position": 60
           }
         },
         "hotspot_button_CcdfLG": {
@@ -345,11 +345,11 @@
               "standard-mesh-baskets-3",
               "standard-mesh-baskets"
             ],
-            "product_list_sec_title": "Solid surface benchtops",
+            "product_list_sec_title": "lorem ipsum",
             "product_list_subtitle": "(lorem ipsum)",
             "hotspot_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-            "top_position": 51,
-            "left_position": 55
+            "top_position": 44,
+            "left_position": 44
           }
         },
         "hotspot_button_EY3YAc": {
@@ -364,11 +364,11 @@
               "standard-mesh-baskets-3",
               "standard-mesh-baskets"
             ],
-            "product_list_sec_title": "Basket module",
+            "product_list_sec_title": "lorem ipsum",
             "product_list_subtitle": "(lorem ipsum)",
             "hotspot_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
             "top_position": 34,
-            "left_position": 26
+            "left_position": 16
           }
         },
         "hotspot_button_m93PxC": {
@@ -383,11 +383,11 @@
               "standard-mesh-baskets-3",
               "standard-mesh-baskets"
             ],
-            "product_list_sec_title": "Pharmacy drawers",
+            "product_list_sec_title": "lorem ipsum",
             "product_list_subtitle": "(lorem ipsum)",
             "hotspot_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
             "top_position": 49,
-            "left_position": 35
+            "left_position": 18
           }
         },
         "hotspot_button_XgLLrX": {
@@ -402,11 +402,11 @@
               "standard-mesh-baskets-3",
               "standard-mesh-baskets"
             ],
-            "product_list_sec_title": "Underbench space",
+            "product_list_sec_title": "lorem ipsum",
             "product_list_subtitle": "(lorem ipsum)",
             "hotspot_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
             "top_position": 64,
-            "left_position": 44
+            "left_position": 21
           }
         },
         "hotspot_button_akTq93": {
@@ -421,11 +421,11 @@
               "standard-mesh-baskets-3",
               "standard-mesh-baskets"
             ],
-            "product_list_sec_title": "Inbuilt sinks",
+            "product_list_sec_title": "lorem ipsum",
             "product_list_subtitle": "(lorem ipsum)",
             "hotspot_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-            "top_position": 56,
-            "left_position": 85
+            "top_position": 86,
+            "left_position": 12
           }
         },
         "hotspot_button_jtiwdc": {
@@ -440,11 +440,11 @@
               "standard-mesh-baskets-3",
               "standard-mesh-baskets"
             ],
-            "product_list_sec_title": "Underbench baskets",
+            "product_list_sec_title": "lorem ipsum",
             "product_list_subtitle": "(lorem ipsum)",
             "hotspot_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-            "top_position": 65,
-            "left_position": 58
+            "top_position": 72,
+            "left_position": 56
           }
         }
       },
@@ -462,7 +462,7 @@
       ],
       "settings": {
         "page_container": "full-width",
-        "image": "shopify://shop_images/Home_1.png",
+        "image": "shopify://shop_images/Concept_9.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "show_text_box": false,
@@ -471,7 +471,7 @@
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "padding_top": 0,
-        "padding_bottom": 40
+        "padding_bottom": 100
       }
     },
     "custom_multicolumn_tEhTPk": {
@@ -1309,11 +1309,11 @@
       "settings": {
         "product_image": "shopify://shop_images/image_104.png",
         "logo_link": "",
-        "heading": "<p>View our catalogue <br/>in your browser window</p>",
+        "heading": "<p>Product Catalog 2025</p>",
         "heading_size": "h1",
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
-        "description": "<p>View online or download a PDF, et quo bea suntion serrovide  por aute natempos erovita ium quunt iumquae plab intium fuga.  Temolore conescidis repudam alicient fugit expland ucipsant</p>",
-        "button_1_text": "View Catalogue",
+        "description": "<p>Click here to view our latest product and services catalog in a browser without downloading.</p>",
+        "button_1_text": "View Catalog",
         "button_1_link": "https://online.flippingbook.com/view/141548076/",
         "reverse_column": true,
         "padding_top": 50,
@@ -1362,7 +1362,7 @@
         "support_item_DnVgCF"
       ],
       "settings": {
-        "heading": "<p>We proudly Support</p>",
+        "heading": "<p>We Proudly Support</p>",
         "heading_size": "h1",
         "title_alignment": "center",
         "color_scheme": "",

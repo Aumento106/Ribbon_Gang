@@ -501,6 +501,16 @@
             "title": "A heartfeld thank you on International Nurses Day 2020",
             "text": "<p>Managing Director Lloyd Scott and the rest of the team send out a huge and heartfelt thank you to all our nurses who have, collectively, had a tough year dealing with the COVID-19 pandemic. (39)</p>"
           }
+        },
+        "column_tKgdmx": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/39-thumbnail-pbfvnz25sr6hr2fzddock32jcenv1hyhx1k0636gbk.jpg",
+            "video_url": "https://youtu.be/cu_FGYCCIxQ",
+            "enable_video_looping": false,
+            "title": "About SpaceLogic 2021",
+            "text": "<p>Join Lloyd Scott and some of the other Directors of SpaceLogic Group Pty Ltd as they walk you through our head office and explain who we are and what we do for Healthcare.</p>"
+          }
         }
       },
       "block_order": [
@@ -547,7 +557,8 @@
         "column_gQeqcD",
         "column_DapDGL",
         "column_wbNcAF",
-        "column_JWqVHm"
+        "column_JWqVHm",
+        "column_tKgdmx"
       ],
       "settings": {
         "title": "<p><strong>Video</strong> library</p>",

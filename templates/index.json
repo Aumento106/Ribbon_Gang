@@ -1163,10 +1163,10 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/2-grid_Concept_13.png",
-            "title": "Benching",
+            "title": "Benching and workstations",
             "text": "",
             "text-v": "",
-            "button-text": "Shop for Benching",
+            "button-text": "Shop for benching etc",
             "button-url": "shopify://collections"
           }
         },

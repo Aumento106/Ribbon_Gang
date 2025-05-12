@@ -643,7 +643,7 @@
           "settings": {
             "image": "shopify://shop_images/Home_9.png",
             "tag_text": "Most popular!",
-            "tag_text_color": "#ffffff",
+            "tag_text_color": "#424242",
             "logo_image": "shopify://shop_images/Steriloop_logo.svg",
             "heading": "<p>STERIRACK®<br/>Storage Modules</p>",
             "heading_size": "h1",

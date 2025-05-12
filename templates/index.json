@@ -311,7 +311,7 @@
         "heading_wrKCR8": {
           "type": "heading",
           "settings": {
-            "heading": "Hospitals and surgical centres",
+            "heading": "CSSD and theatre stores",
             "heading_size": "h1"
           }
         },
@@ -325,7 +325,7 @@
         "buttons_YfcGj9": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop the Room",
+            "button_label_1": "Shop the room",
             "button_link_1": "shopify://collections",
             "button_style_secondary_1": false,
             "button_label_2": "",
@@ -482,7 +482,7 @@
       ],
       "settings": {
         "page_container": "full-width",
-        "image": "shopify://shop_images/Concept_9.png",
+        "image": "shopify://shop_images/Home_2.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "show_text_box": false,

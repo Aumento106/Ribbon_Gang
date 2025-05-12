@@ -30,8 +30,8 @@
         "text_KdCiWp": {
           "type": "text",
           "settings": {
-            "text": "<p>STERIRACK® System installations are a beautiful thing to watch. They happen quickly and efficiently because no old-fashioned joinery or cabinetry is required! Our team will arrive at your facility and before you know it, you will see clean, shiny baskets, shelves, drawers and benches ready to be stocked with consumables. With no fuss, no hassle and very little interruption to everyday operations, or other tradespeople. Our installation team is ready to travel anywhere. However, if for some reason another team must be engaged (for example, if the borders are closed due to COVID-19 restrictions), we will project manage a local team of suitable tradespeople. Don’t forget, SpaceLogic specializes in custom product design and innovation. For the ultimate tailored solution!</p>",
-            "text_alignment": "center"
+            "text": "<p>Installing a <strong>STERIRACK® System</strong> is a seamless process, designed for efficiency and minimal disruption. Unlike traditional joinery or cabinetry, our system allows for quick, hassle-free setup. Our expert team will arrive on-site and, before you know it, your facility will be equipped with pristine <strong>baskets, shelves, drawers, and benches</strong>, ready to be stocked with consumables.</p><p>We ensure <strong>minimal disruption</strong> to daily operations and other tradespeople. Our installation specialists are available for national and international projects. If external factors, such as travel restrictions, prevent our team from being on-site, we will <strong>project manage</strong> a trusted local team to maintain our high standards.</p><p>Looking for a fully <strong>customised solution</strong>? SpaceLogic specialises in <strong>bespoke product design and innovation</strong>, ensuring you get the ultimate tailored storage system.</p>",
+            "text_alignment": "left"
           }
         },
         "button_fn8KLw": {
@@ -77,8 +77,8 @@
           "type": "column",
           "settings": {
             "icon": "shopify://shop_images/bulb-icon.svg",
-            "heading": "<p>Product customization <br/>and continuous innovation</p>",
-            "text": "<p>We specialize in custom storage solutions for healthcare, and our STERIRACK® System and MEDIBIN™ ranges are exclusive to SpaceLogic. Liaise with our designers to have custom components and accessories created to meet your specific needs.</p>"
+            "heading": "<p>Product customisation <br/>and continuous innovation</p>",
+            "text": "<p>We specialise in custom storage solutions for healthcare, and our STERIRACK® System and MEDIBIN™ ranges are exclusive to SpaceLogic. Liaise with our designers to have custom components and accessories created to meet your specific needs.</p>"
           }
         },
         "column_yL9hGf": {

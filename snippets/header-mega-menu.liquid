@@ -24,7 +24,7 @@
       <li>
         {%- if link.links != blank -%}
           <header-menu>
-            <details id="Details-HeaderMenu-{{ forloop.index }}" {%- if mega_menu_block != '' -%} class="mega-menu" {% endif %}{% unless  mega_menu_block != ''  %}class="default-menu"{% endunless %} >
+            <details id="Details-HeaderMenu-{{ forloop.index }}" class="mega-menu">
               <summary
                 id="HeaderMenu-{{ link.handle }}"
                 class="header__menu-item list-menu__item link focus-inset"
@@ -100,11 +100,6 @@
               </div>
 
                 {%- else -%}
-                     <div
-                id="MegaMenu-Content-{{ forloop.index }}"
-                class="mega-menu__content color-{{ section.settings.menu_color_scheme }} gradient motion-reduce global-settings-popup {% if mega_menu_block != '' %}megamenu-image-menu{% endif %}"
-                tabindex="-1"
-              >
                   <ul
                     {% comment %}class="mega-menu__list page-width{% if link.levels == 1 %} mega-menu__list--condensed{% endif %} mega-menu__list--condensed"{% endcomment %}
                     class="header__submenu list-menu list-menu--disclosure color-scheme-1 gradient caption-large motion-reduce global-settings-popup"
@@ -143,7 +138,6 @@
                       </li>
                     {%- endfor -%}
                   </ul>
-                     </div>
                 {%- endif -%}
             </details>
           </header-menu>
@@ -171,52 +165,12 @@
 </nav>
 
 <script>
-  // document.querySelectorAll('.header__menu-item').forEach((menuItem) => {
-  //   menuItem.addEventListener('mouseenter', () => {
-  //     const parentMenu = menuItem.closest('.mega-menu');
-
-  //     // Close all other mega-menus
-  //     document.querySelectorAll('.mega-menu').forEach((otherMenu) => {
-  //       if (otherMenu !== parentMenu) {
-  //         otherMenu.removeAttribute('open');
-  //         const otherItem = otherMenu.querySelector('.header__menu-item');
-  //         if (otherItem) {
-  //           otherItem.setAttribute('aria-expanded', 'false');
-  //         }
-  //       }
-  //     });
-
-  //     // Open the current mega-menu
-  //     if (parentMenu) {
-  //       parentMenu.setAttribute('open', '');
-  //       menuItem.setAttribute('aria-expanded', 'true');
-  //     }
-  //   });
-  // });
-
-  // // Keep mega-menu open while hovering over its content
-  // document.querySelectorAll('.mega-menu__content').forEach((content) => {
-  //   content.addEventListener('mouseleave', () => {
-  //     const parentMenu = content.closest('.mega-menu');
-  //     if (parentMenu) {
-  //       parentMenu.removeAttribute('open');
-  //       const menuItem = parentMenu.querySelector('.header__menu-item');
-  //       if (menuItem) {
-  //         menuItem.setAttribute('aria-expanded', 'false');
-  //       }
-  //     }
-  //   });
-  // });
-
-    // Combine both menu types into a single selector
-  const menuContainers = document.querySelectorAll('.mega-menu, .default-menu');
-
   document.querySelectorAll('.header__menu-item').forEach((menuItem) => {
     menuItem.addEventListener('mouseenter', () => {
-      const parentMenu = menuItem.closest('.mega-menu, .default-menu');
+      const parentMenu = menuItem.closest('.mega-menu');
 
-      // Close all other menus
-      menuContainers.forEach((otherMenu) => {
+      // Close all other mega-menus
+      document.querySelectorAll('.mega-menu').forEach((otherMenu) => {
         if (otherMenu !== parentMenu) {
           otherMenu.removeAttribute('open');
           const otherItem = otherMenu.querySelector('.header__menu-item');
@@ -226,7 +180,7 @@
         }
       });
 
-      // Open the current menu
+      // Open the current mega-menu
       if (parentMenu) {
         parentMenu.setAttribute('open', '');
         menuItem.setAttribute('aria-expanded', 'true');
@@ -234,10 +188,10 @@
     });
   });
 
-  // Close menu when mouse leaves the content area
-  document.querySelectorAll('.mega-menu__content, .default-menu__content').forEach((content) => {
+  // Keep mega-menu open while hovering over its content
+  document.querySelectorAll('.mega-menu__content').forEach((content) => {
     content.addEventListener('mouseleave', () => {
-      const parentMenu = content.closest('.mega-menu, .default-menu');
+      const parentMenu = content.closest('.mega-menu');
       if (parentMenu) {
         parentMenu.removeAttribute('open');
         const menuItem = parentMenu.querySelector('.header__menu-item');

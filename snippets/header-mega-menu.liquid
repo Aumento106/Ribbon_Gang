@@ -39,12 +39,12 @@
                 {{- 'icon-pluse.svg' | inline_asset_content -}}
                 {{- 'icon-minus.svg' | inline_asset_content -}}
               </summary>
-                {%- if mega_menu_block != '' -%}
-              <div
-                id="MegaMenu-Content-{{ forloop.index }}"
-                class="mega-menu__content color-{{ section.settings.menu_color_scheme }} gradient motion-reduce global-settings-popup {% if mega_menu_block != '' %}megamenu-image-menu{% endif %}"
-                tabindex="-1"
-              >
+              {%- if mega_menu_block != '' -%}
+                <div
+                  id="MegaMenu-Content-{{ forloop.index }}"
+                  class="mega-menu__content color-{{ section.settings.menu_color_scheme }} gradient motion-reduce global-settings-popup {% if mega_menu_block != '' %}megamenu-image-menu{% endif %}"
+                  tabindex="-1"
+                >
                   {%- assign images_count = 0 -%}
                   {%- capture mega_menu_images -%}
                       {%- for i in (1..6) -%}
@@ -96,25 +96,26 @@
                       {%- endif -%}
                     </div>
                   </div>
-                
-              </div>
-
-                {%- else -%}
-              <details id="Details-HeaderMenu-{{ forloop.index }}">
-              <summary
-                id="HeaderMenu-{{ link.handle }}"
-                class="header__menu-item list-menu__item link focus-inset"
-              >
-                <span
-                  {%- if link.child_active %}
-                    class="header__active-menu-item"
-                  {% endif %}
-                >
-                  {{- link.title | escape -}}
-                </span>
-                {{- 'icon-pluse.svg' | inline_asset_content -}}
-                {{- 'icon-minus.svg' | inline_asset_content -}}
-              </summary>
+                </div>
+                </details>
+            </header-menu>
+              {%- else -%}
+              <header-menu>
+                <details id="Details-HeaderMenu-{{ forloop.index }}">
+                  <summary
+                    id="HeaderMenu-{{ link.handle }}"
+                    class="header__menu-item list-menu__item link focus-inset"
+                  >
+                    <span
+                      {%- if link.child_active %}
+                        class="header__active-menu-item"
+                      {% endif %}
+                    >
+                      {{- link.title | escape -}}
+                    </span>
+                    {{- 'icon-pluse.svg' | inline_asset_content -}}
+                    {{- 'icon-minus.svg' | inline_asset_content -}}
+                  </summary>
                   <ul
                     {% comment %}class="mega-menu__list page-width{% if link.levels == 1 %} mega-menu__list--condensed{% endif %} mega-menu__list--condensed"{% endcomment %}
                     class="header__submenu list-menu list-menu--disclosure color-scheme-1 gradient caption-large motion-reduce global-settings-popup"
@@ -153,9 +154,9 @@
                       </li>
                     {%- endfor -%}
                   </ul>
-                {%- endif -%}
-            </details>
+                </details>
           </header-menu>
+              {%- endif -%}
         {%- else -%}
           <a
             id="HeaderMenu-{{ link.handle }}"

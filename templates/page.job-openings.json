@@ -13,6 +13,7 @@
       "type": "main-page",
       "disabled": true,
       "settings": {
+        "color_scheme": "",
         "padding_top": 28,
         "padding_bottom": 28
       }
@@ -31,13 +32,15 @@
           "type": "heading",
           "settings": {
             "heading": "<strong>Job Openings</strong> at SpaceLogic",
-            "heading_size": "h0"
+            "heading_size": "h0",
+            "heading_alignment": "center"
           }
         },
         "text_xdYUrK": {
           "type": "text",
           "settings": {
-            "text": "<p>At SpaceLogic, we believe in building a talented and diverse workforce that drives innovation and success. As a leader in the healthcare sector, we are dedicated to fostering an inclusive environment where every individual can thrive and contribute their unique skills and perspectives. Browse through our current job openings below and submit an application.</p><p>Let’s shape the future of healthcare together!</p>"
+            "text": "<p>We currently have no open positions. Please check back as we regularly seek skilled professionals to join our team.</p>",
+            "text_alignment": "center"
           }
         }
       },
@@ -70,11 +73,12 @@
         "heading_PxW4X4"
       ],
       "settings": {
-        "desktop_content_position": "left",
         "content_alignment": "center",
         "content_width": "full_width",
         "color_scheme": "",
         "full_width": true,
+        "no_margin": false,
+        "section_border": false,
         "padding_top": 0,
         "padding_bottom": 36
       }

@@ -312,6 +312,9 @@ details[open]>.header__submenu li {
   color: rgba(var(--color-foreground),1);
   font-weight: 600;
 }
+.header__inline-menu .header__submenu li ul.list-unstyled  .mega-menu__link:hover {
+  color: var(--primary-theme-color);
+}
 .header__inline-menu .mega-menu__link {
   color: #fff;
   padding: 0;

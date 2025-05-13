@@ -303,12 +303,12 @@ details[open]>.header__submenu li {
 .header__inline-menu .header__submenu li:hover ul.list-unstyled {
   display: block;
   position: absolute;
-  right: calc(-100% - 26px);
+  right: calc(-100% - 6px);
   top: -10px;
   background: #fff;
   padding: 1rem;
 }
-.header__inline-menu li:hover + ul.list-unstyled .mega-menu__link {
+.header__inline-menu .header__submenu li ul.list-unstyled  .mega-menu__link {
   color: rgba(var(--color-foreground),1);
   font-weight: 600;
 }

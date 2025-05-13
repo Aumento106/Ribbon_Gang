@@ -3189,3 +3189,6 @@ ul.header__submenu li {
 ul.header__submenu li:hover ul {
     opacity: 1;
 }
+.header__submenu li:last-child{
+  margin-bottom: 0
+}

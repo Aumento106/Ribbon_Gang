@@ -308,8 +308,9 @@ details[open]>.header__submenu li {
   background: #fff;
   padding: 1rem;
 }
-.header__inline-menu .mega-menu__link.mega-menu__link--level-2:hover+ul.list-unstyled .mega-menu__link {
+.header__inline-menu .mega-menu__link.mega-menu__link--level-2:hover + ul.list-unstyled .mega-menu__link {
   color: rgba(var(--color-foreground),1);
+  font-weight: 600;
 }
 .header__inline-menu .mega-menu__link {
   color: #fff;

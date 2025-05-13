@@ -288,7 +288,8 @@ details[open]>.header__menu-item .ic_pluse {
 }
 
 .header__inline-menu .mega-menu__link.mega-menu__link--level-2 {
-  color: var(--primary-theme-color);
+  /* color: var(--primary-theme-color); */
+  color: #fff;
   font-weight: 600;
   line-height: 1.17;
   margin-bottom: 1.6rem;

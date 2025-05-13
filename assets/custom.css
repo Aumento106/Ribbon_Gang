@@ -3201,3 +3201,9 @@ ul.header__submenu li:hover ul {
 ul.header__submenu li ul li a{
   color: #424242;
 }
+.header__submenu li{
+  margin-bottom:10px;
+}
+.header__submenu li:last-child{
+  margin-bottom: 0;
+}

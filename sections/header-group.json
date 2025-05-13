@@ -35,7 +35,6 @@
         },
         "mega_menu_DLzAk9": {
           "type": "mega_menu",
-          "disabled": true,
           "settings": {
             "menu_item": "services",
             "image_1": "shopify://shop_images/image_f8e2b89c-4982-4e99-954d-febf9d883ec4_1.png",

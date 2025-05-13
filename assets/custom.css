@@ -3181,8 +3181,11 @@ span.product_compar_price {
     background: #fff;
     opacity: 0;
 }
-.default-menu li a{
-  color: #424242;
+.default-menu li a {
+    color: #424242 !important;
+    text-decoration: none;
+    font-size: 16px;
+  font-weight: 600 !important;
 }
 ul.header__submenu li {
     position: relative;

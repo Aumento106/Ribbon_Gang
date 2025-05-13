@@ -3181,7 +3181,7 @@ span.product_compar_price {
     background: #fff;
     opacity: 0;
 }
-..default-menu li a{
+.default-menu li a{
   color: #424242;
 }
 ul.header__submenu li {
@@ -3193,4 +3193,7 @@ ul.header__submenu li:hover ul {
 }
 .header__submenu li:last-child{
   margin-bottom: 0
+}
+ul.header__submenu li ul li a{
+  color: #424242;
 }

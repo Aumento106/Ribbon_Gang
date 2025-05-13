@@ -113,14 +113,9 @@ class MegaMenu extends HTMLElement {
   }
 
   init() {
-    // Initialize menu items
+    // Open menu on mouseenter
     document.querySelectorAll('.header__menu-item').forEach((menuItem) => {
       menuItem.addEventListener('mouseenter', () => this.handleMenuEnter(menuItem));
-    });
-
-    // Initialize content areas
-    document.querySelectorAll('.mega-menu__content').forEach((content) => {
-      content.addEventListener('mouseleave', () => this.handleContentLeave(content));
     });
 
     // Close menu when mouse leaves the whole menu area
@@ -153,17 +148,6 @@ class MegaMenu extends HTMLElement {
     if (parentMenu) {
       parentMenu.setAttribute('open', '');
       menuItem.setAttribute('aria-expanded', 'true');
-    }
-  }
-
-  handleContentLeave(content) {
-    const parentMenu = content.closest('.mega-menu, .default-menu');
-    if (parentMenu) {
-      parentMenu.removeAttribute('open');
-      const menuItem = parentMenu.querySelector('.header__menu-item');
-      if (menuItem) {
-        menuItem.setAttribute('aria-expanded', 'false');
-      }
     }
   }
 }

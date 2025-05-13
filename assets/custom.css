@@ -294,7 +294,12 @@ details[open]>.header__menu-item .ic_pluse {
   line-height: 1.17;
   margin-bottom: 1.6rem;
 }
-
+.header__inline-menu .mega-menu__link.mega-menu__link--level-2 ul.list-unstyled {
+  display: none;
+}
+.header__inline-menu .mega-menu__link.mega-menu__link--level-2:hover ul.list-unstyled {
+  display: block;
+}
 .header__inline-menu .mega-menu__link {
   color: #fff;
   padding: 0;

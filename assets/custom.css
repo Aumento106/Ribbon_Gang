@@ -300,8 +300,15 @@ details[open]>.header__submenu li {
 .header__inline-menu .mega-menu__link.mega-menu__link--level-2 + ul.list-unstyled {
   display: none;
 }
-.header__inline-menu .mega-menu__link.mega-menu__link--level-2:hover + ul.list-unstyled {
+.header__inline-menu .mega-menu__link.mega-menu__link--level-2:hover+ul.list-unstyled {
   display: block;
+  position: absolute;
+  right: calc(-100% - 10px);
+  top: -10px;
+  background: #fff;
+}
+.header__inline-menu .mega-menu__link.mega-menu__link--level-2:hover+ul.list-unstyled .mega-menu__link {
+  color: rgba(var(--color-foreground),1);
 }
 .header__inline-menu .mega-menu__link {
   color: #fff;

@@ -165,56 +165,12 @@
 </nav>
 
 <script>
-  document.querySelectorAll('.header__menu-item').forEach((menuItem) => {
-    menuItem.addEventListener('mouseenter', () => {
-      const parentMenu = menuItem.closest('.mega-menu');
-
-      // Close all other mega-menus
-      document.querySelectorAll('.mega-menu').forEach((otherMenu) => {
-        if (otherMenu !== parentMenu) {
-          otherMenu.removeAttribute('open');
-          const otherItem = otherMenu.querySelector('.header__menu-item');
-          if (otherItem) {
-            otherItem.setAttribute('aria-expanded', 'false');
-          }
-        }
-      });
-
-      // Open the current mega-menu
-      if (parentMenu) {
-        parentMenu.setAttribute('open', '');
-        menuItem.setAttribute('aria-expanded', 'true');
-      }
-    });
-  });
-
-  // Keep mega-menu open while hovering over its content
-  document.querySelectorAll('.mega-menu__content').forEach((content) => {
-    content.addEventListener('mouseleave', () => {
-      const parentMenu = content.closest('.mega-menu');
-      if (parentMenu) {
-        parentMenu.removeAttribute('open');
-        const menuItem = parentMenu.querySelector('.header__menu-item');
-        if (menuItem) {
-          menuItem.setAttribute('aria-expanded', 'false');
-        }
-      }
-    });
-  });
-      Combine both menu types into a single selector
-
-
-
-
-  
-  // const menuContainers = document.querySelectorAll('.mega-menu, .default-menu');
-
   // document.querySelectorAll('.header__menu-item').forEach((menuItem) => {
   //   menuItem.addEventListener('mouseenter', () => {
-  //     const parentMenu = menuItem.closest('.mega-menu, .default-menu');
+  //     const parentMenu = menuItem.closest('.mega-menu');
 
-  //     // Close all other menus
-  //     menuContainers.forEach((otherMenu) => {
+  //     // Close all other mega-menus
+  //     document.querySelectorAll('.mega-menu').forEach((otherMenu) => {
   //       if (otherMenu !== parentMenu) {
   //         otherMenu.removeAttribute('open');
   //         const otherItem = otherMenu.querySelector('.header__menu-item');
@@ -224,7 +180,7 @@
   //       }
   //     });
 
-  //     // Open the current menu
+  //     // Open the current mega-menu
   //     if (parentMenu) {
   //       parentMenu.setAttribute('open', '');
   //       menuItem.setAttribute('aria-expanded', 'true');
@@ -232,10 +188,10 @@
   //   });
   // });
 
-  // // Close menu when mouse leaves the content area
+  // // Keep mega-menu open while hovering over its content
   // document.querySelectorAll('.mega-menu__content').forEach((content) => {
   //   content.addEventListener('mouseleave', () => {
-  //     const parentMenu = content.closest('.mega-menu, .default-menu');
+  //     const parentMenu = content.closest('.mega-menu');
   //     if (parentMenu) {
   //       parentMenu.removeAttribute('open');
   //       const menuItem = parentMenu.querySelector('.header__menu-item');
@@ -245,4 +201,48 @@
   //     }
   //   });
   // });
+  //     Combine both menu types into a single selector
+
+
+
+
+  
+  const menuContainers = document.querySelectorAll('.mega-menu, .default-menu');
+
+  document.querySelectorAll('.header__menu-item').forEach((menuItem) => {
+    menuItem.addEventListener('mouseenter', () => {
+      const parentMenu = menuItem.closest('.mega-menu, .default-menu');
+
+      // Close all other menus
+      menuContainers.forEach((otherMenu) => {
+        if (otherMenu !== parentMenu) {
+          otherMenu.removeAttribute('open');
+          const otherItem = otherMenu.querySelector('.header__menu-item');
+          if (otherItem) {
+            otherItem.setAttribute('aria-expanded', 'false');
+          }
+        }
+      });
+
+      // Open the current menu
+      if (parentMenu) {
+        parentMenu.setAttribute('open', '');
+        menuItem.setAttribute('aria-expanded', 'true');
+      }
+    });
+  });
+
+  // Close menu when mouse leaves the content area
+  document.querySelectorAll('.mega-menu__content').forEach((content) => {
+    content.addEventListener('mouseleave', () => {
+      const parentMenu = content.closest('.mega-menu, .default-menu');
+      if (parentMenu) {
+        parentMenu.removeAttribute('open');
+        const menuItem = parentMenu.querySelector('.header__menu-item');
+        if (menuItem) {
+          menuItem.setAttribute('aria-expanded', 'false');
+        }
+      }
+    });
+  });
 </script>

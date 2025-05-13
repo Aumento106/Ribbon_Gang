@@ -102,7 +102,7 @@
                 {%- else -%}
                   <ul
                     {% comment %}class="mega-menu__list page-width{% if link.levels == 1 %} mega-menu__list--condensed{% endif %} mega-menu__list--condensed"{% endcomment %}
-                    class="header__submenu list-menu list-menu--disclosure color-scheme-1 gradient caption-large motion-reduce global-settings-popup mega-menu__content"
+                    class="header__submenu list-menu list-menu--disclosure color-scheme-1 gradient caption-large motion-reduce global-settings-popup .default-menu"
                     role="list"
                   >
                     {%- for childlink in link.links -%}
@@ -110,7 +110,7 @@
                         <a
                           id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}"
                           href="{{ childlink.url }}"
-                          class="mega-menu__link mega-menu__link--level-2 link{% if childlink.current %} mega-menu__link--active{% endif %}"
+                          class="mega-menu__link mega-menu__link--level-2 link{% if childlink.current %} mega-menu__link--active{% endif %} 111"
                           {% if childlink.current %}
                             aria-current="page"
                           {% endif %}

@@ -3187,6 +3187,7 @@ span.product_compar_price {
     text-decoration: none;
     font-size: 16px;
   font-weight: 600 !important;
+  line-height: 20px !important;
 }
 ul.header__submenu li {
     position: relative;

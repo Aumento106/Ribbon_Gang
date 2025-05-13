@@ -3174,4 +3174,18 @@ span.product_compar_price {
     top: 32px;
 }
  
- 
+ ul.header__submenu li ul {
+    position: absolute;
+    top: 0;
+    right: -100%;
+    background: #fff;
+    opacity: 0;
+}
+
+ul.header__submenu li {
+    position: relative;
+}
+
+ul.header__submenu li:hover ul {
+    opacity: 1;
+}

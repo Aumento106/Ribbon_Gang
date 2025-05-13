@@ -3164,14 +3164,3 @@ span.product_compar_price {
   margin-bottom: 15px;
   display: block;
 }
-.shopify-section-group-header-group .header__inline-menu summary.list-menu__item::after {
-    content: "";
-    width: 100%;
-    height: 50px;
-    position: absolute;
-}
-.shopify-section-group-header-group .header__inline-menu ul.header__submenu {
-    top: 32px;
-}
- 
- 

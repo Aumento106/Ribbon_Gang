@@ -297,10 +297,10 @@ details[open]>.header__menu-item .ic_pluse {
 details[open]>.header__submenu li {
   position: relative;
 }
-.header__inline-menu .mega-menu__link.mega-menu__link--level-2 + ul.list-unstyled {
+.header__inline-menu .header__submenu li ul.list-unstyled {
   display: none;
 }
-.header__inline-menu li:hover ul.list-unstyled {
+.header__inline-menu .header__submenu li:hover ul.list-unstyled {
   display: block;
   position: absolute;
   right: calc(-100% - 26px);

@@ -3181,7 +3181,9 @@ span.product_compar_price {
     background: #fff;
     opacity: 0;
 }
-
+.header__submenu li a{
+  color: #424242;
+}
 ul.header__submenu li {
     position: relative;
 }

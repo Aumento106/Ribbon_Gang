@@ -300,7 +300,7 @@ details[open]>.header__submenu li {
 .header__inline-menu .mega-menu__link.mega-menu__link--level-2 + ul.list-unstyled {
   display: none;
 }
-.header__inline-menu li:hover + ul.list-unstyled {
+.header__inline-menu li:hover ul.list-unstyled {
   display: block;
   position: absolute;
   right: calc(-100% - 26px);

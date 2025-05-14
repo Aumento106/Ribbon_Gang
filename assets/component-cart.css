@@ -254,7 +254,7 @@ cart-items {
 }
 
 
-.template-cart .content-for-layout{
+.template-cart .content-for-layout .shopify-section.cart_left {
   display: flex;
   align-items: flex-start;
   justify-content: start;
@@ -265,6 +265,7 @@ cart-items {
   flex-wrap: wrap;
   justify-content: center;
 }
+.template-cart .content-for-layout {
 
 .template-cart .cart_left {
   width: 68%;

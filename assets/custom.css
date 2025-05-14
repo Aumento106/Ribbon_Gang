@@ -3173,7 +3173,9 @@ span.product_compar_price {
 .shopify-section-group-header-group .header__inline-menu ul.header__submenu {
     top: 32px;
 }
- 
+.shopify-section-group-header-group .header__inline-menu ul.header__submenu .mega-menu__link--level-2.mega-menu__link--active {
+  text-decoration: underline;
+}
  ul.header__submenu li ul {
   position: absolute;
   top: 0;

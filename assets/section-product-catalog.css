@@ -6,7 +6,10 @@
   display: flex;
   align-items: center;
 }
-
+.product-catalog-container .grid--2-col-desktop .grid__item {
+  width: calc(45% - var(--grid-desktop-horizontal-spacing) / 2);
+  max-width: calc(45% - var(--grid-desktop-horizontal-spacing) / 2);
+}
 .product-catalog-wrapper {
   border-radius: 16px;
   overflow: hidden;

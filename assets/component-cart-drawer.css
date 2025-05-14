@@ -430,6 +430,7 @@ cart-drawer-items {
   border-radius: 5px;
   padding: 16px;
   margin-top: 14px;
+  flex-wrap: wrap;
   /* width: 100%; */
 }
 

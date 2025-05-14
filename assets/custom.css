@@ -3178,6 +3178,7 @@ ul.header__submenu li:hover ul li .mega-menu__link:hover {
 }
 .shopify-section-group-header-group .header__inline-menu ul.header__submenu .mega-menu__link--level-2.mega-menu__link--active {
   border-bottom: 2px solid #000;
+  color: var(--primary-theme-color) !important;
 }
 .shopify-section-group-header-group .header__inline-menu ul.header__submenu .mega-menu__link--level-2:hover {
   color: var(--primary-theme-color) !important;

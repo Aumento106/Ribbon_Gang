@@ -154,10 +154,11 @@
         },
         "specifications_prC9K9": {
           "type": "Specifications",
+          "disabled": true,
           "settings": {
             "Heading_sp": "Specs",
             "sub_heading": "Specifications",
-            "content": "<p>{{ product.metafields.custom.specifications_description | metafield_tag }}</p>"
+            "content": ""
           }
         },
         "q_a_Fz3EyY": {
@@ -205,7 +206,7 @@
         "text_z8PRWE": {
           "type": "text",
           "settings": {
-            "text": "Simple design: Simple button design, simple operation, practical function, SATA power supply, compact and exquisite, cool lighting mode, extended interface cable design, convenient connection, and meet the needs of most cases for cable length.",
+            "text": "<p>{{ product.metafields.custom.specifications_description | metafield_tag }}</p>",
             "text_style": "body"
           }
         },

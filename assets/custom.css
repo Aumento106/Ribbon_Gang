@@ -3165,10 +3165,10 @@ span.product_compar_price {
   display: block;
 }
 .shopify-section-group-header-group .header__inline-menu summary.list-menu__item::after {
-    content: "";
-    width: 100%;
-    height: 50px;
-    position: absolute;
+  content: "";
+  width: 100%;
+  height: 50px;
+  position: absolute;
 }
 .shopify-section-group-header-group .header__inline-menu ul.header__submenu {
     top: 32px;
@@ -3177,7 +3177,7 @@ span.product_compar_price {
   border-bottom: 2px solid #000;
 }
 .shopify-section-group-header-group .header__inline-menu ul.header__submenu .mega-menu__link--level-2:hover {
-  color: var(--primary-theme-color);
+  color: var(--primary-theme-color) !important;
 }
  ul.header__submenu li ul {
   position: absolute;

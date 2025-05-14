@@ -3170,6 +3170,9 @@ span.product_compar_price {
   height: 50px;
   position: absolute;
 }
+ul.header__submenu li:hover ul li .mega-menu__link:hover {
+  color: var(--primary-theme-color) !important;
+}
 .shopify-section-group-header-group .header__inline-menu ul.header__submenu {
     top: 32px;
 }

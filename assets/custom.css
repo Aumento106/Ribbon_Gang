@@ -3175,17 +3175,27 @@ span.product_compar_price {
 }
  
  ul.header__submenu li ul {
-    position: absolute;
-    top: 0;
-    right: -124%;
-    background: #fff;
-    opacity: 0;
-   padding: 20px;
+  position: absolute;
+  top: 0;
+  right: -124%;
+  background: #fff;
+  opacity: 0;
+  padding: 20px;
+}
+ul.header__submenu li:has(ul):after {
+  content: " ";
+  border-left: 2px solid #000;
+  border-bottom: 2px solid #000;
+  width: 20px;
+  height: 20px;
+  transform: rotate(45deg);
+  cursor: pointer;
+  display: block;
 }
 .default-menu li a {
-    color: #424242 !important;
-    text-decoration: none;
-    font-size: 16px;
+  color: #424242 !important;
+  text-decoration: none;
+  font-size: 16px;
   font-weight: 600 !important;
   line-height: 20px !important;
 }

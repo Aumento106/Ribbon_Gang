@@ -247,7 +247,7 @@ details[open]>.header__menu-item .ic_pluse {
   display: block;
   width: 0;
   height: 1px;
-  background-color: rgba(var(--color-foreground), 1);
+  /* background-color: rgba(var(--color-foreground), 1); */
   position: absolute;
   bottom: -3px;
   left: 0;

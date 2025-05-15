@@ -3221,7 +3221,8 @@ ul.header__submenu li:hover:has(ul.list-unstyled)::after {
   font-weight: 600 !important;
   line-height: 20px !important;
 }
-ul.header__submenu li {
+.header-main-menu ul.header__submenu li,
+.sub-header-menu-main ul.header__submenu li {
     position: relative;
 }
 

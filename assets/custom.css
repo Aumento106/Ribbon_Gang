@@ -3190,7 +3190,7 @@ ul.header__submenu li:hover:has(ul.list-unstyled)::after {
 .shopify-section-group-header-group .header__inline-menu ul.header__submenu .mega-menu__link--level-2:hover {
   color: var(--primary-theme-color) !important;
 }
- ul.header__submenu li ul {
+.header-main-menu ul.header__submenu li ul {
   position: absolute;
   top: 0;
   right: -124%;

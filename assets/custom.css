@@ -3204,7 +3204,8 @@ ul.header__submenu li:hover:has(ul.list-unstyled)::after {
   opacity: 0;
   padding: 20px;
 }
-.header-main-menu ul.header__submenu li:has(ul):after {
+.header-main-menu ul.header__submenu li:has(ul):after,
+.sub-header-menu-main ul.header__submenu li:has(ul):after {
   content: " ";
   border-left: 2px solid #424242;
   border-bottom: 2px solid #424242;

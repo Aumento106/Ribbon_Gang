@@ -22,7 +22,7 @@
             "button_label": "Shop now",
             "link": "shopify://collections",
             "button_style_secondary": false,
-            "botton_position": 200,
+            "botton_position": 250,
             "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,

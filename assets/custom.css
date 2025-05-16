@@ -3194,7 +3194,7 @@ ul.header__submenu li:hover:has(ul.list-unstyled)::after {
   right: -124%;
 }
 .sub-header-menu-main ul.header__submenu li ul {
-  right: -98%;
+  right: -95%;
 }
 .header-main-menu ul.header__submenu li ul,
 .sub-header-menu-main ul.header__submenu li ul {

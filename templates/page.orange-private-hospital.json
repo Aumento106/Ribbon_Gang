@@ -24,7 +24,7 @@
         "application_item_qEyzfw": {
           "type": "application_item",
           "settings": {
-            "heading": "<p>Orange <strong>Private Hospital</strong></p>",
+            "heading": "<p>Orange Private Hospital</p>",
             "heading_size": "h1",
             "heading_alignment": "center",
             "catalog_url": "https://online.flippingbook.com/view/490670925/"

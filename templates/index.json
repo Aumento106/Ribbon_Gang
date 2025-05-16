@@ -1014,7 +1014,7 @@
         "text_qUDXLE": {
           "type": "text",
           "settings": {
-            "text": "Ollie: Text to go here",
+            "text": "",
             "text_style": "subtitle"
           }
         },
@@ -1178,7 +1178,7 @@
       ],
       "settings": {
         "page_container": "full-width",
-        "image": "shopify://shop_images/Home_15.png",
+        "image": "shopify://shop_images/Home_21.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "show_text_box": false,

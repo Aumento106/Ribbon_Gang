@@ -31,7 +31,7 @@
         "heading_HUVM6E": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>CSSD and Theater</strong> Store",
+            "heading": "CSSD and Theatre Store",
             "heading_size": "h0",
             "heading_alignment": "center"
           }
@@ -40,7 +40,7 @@
           "type": "text",
           "settings": {
             "text": "<p>If you work in healthcare you already know about AS4187, and that sterile consumables must be handled and stored in a manner that maintains the integrity of packs and prevents contamination from any source of dust, vermin, sunlight, water and condensation.</p><p>This is where our gold standard STERIRACK®System comes into its own! Designed and manufactured in Australia by SpaceLogic, STERIRACK®System is the complete modular consumables storage solution that can be configured in myriad ways to suit your space and application while exceeding AS4187 compliance.</p><p>Please feel welcome to use the presentation below to introduce your team to this concept, and do not hesitate to contact a SpaceLogic Project Consultant if you have any further questions, or would like to book in for a consultation.</p>",
-            "text_alignment": "center"
+            "text_alignment": "left"
           }
         }
       },
@@ -64,7 +64,7 @@
         "application_item_DqPWKh": {
           "type": "application_item",
           "settings": {
-            "heading": "<p>CSSD and Theater <strong>Presentation</strong></p>",
+            "heading": "<p>CSSD and Theatre Store presentation</p>",
             "heading_size": "h1",
             "heading_alignment": "center",
             "catalog_url": "https://online.flippingbook.com/view/1031758163/"

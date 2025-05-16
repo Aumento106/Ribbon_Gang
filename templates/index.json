@@ -1043,9 +1043,9 @@
       ],
       "settings": {
         "heading": "Testimonials and case studies",
-        "sec_des": "<p>World-class reputation.</p>",
+        "sec_des": "<p>World-class reputation</p>",
         "title_alignment": "center",
-        "heading_size": "h0",
+        "heading_size": "h1",
         "layout": "image_first",
         "content_layout": "no-overlap",
         "height": "small",

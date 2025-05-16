@@ -50,7 +50,7 @@
             "image": "shopify://shop_images/brochure-1.png",
             "heading": "SpaceLogic Product Catalog",
             "text": "<p>A complete guide to our storage solutions, featuring the industry-leading STERIRACK® System.</p>",
-            "btn_text": "View Brochure",
+            "btn_text": "View brochure",
             "btn_link": "https://online.flippingbook.com/view/393434/",
             "button_style_secondary": false
           }
@@ -61,7 +61,7 @@
             "image": "shopify://shop_images/colour-coding-brochure-img.png",
             "heading": "SpaceLogic Color Coding Brochure",
             "text": "<p>Improve efficiency and patient care with our colour-coded storage solutions.</p>",
-            "btn_text": "View Brochure",
+            "btn_text": "View brochure",
             "btn_link": "https://online.flippingbook.com/view/245421/",
             "button_style_secondary": false
           }
@@ -72,7 +72,7 @@
             "image": "shopify://shop_images/clean-utilities-brochure-img.png",
             "heading": "STERIRACK® Clean Utilities Presentation",
             "text": "<p>Discover the perfect storage solution for Clean Utilities and Medication Rooms.</p>",
-            "btn_text": "View Brochure",
+            "btn_text": "View brochure",
             "btn_link": "https://online.flippingbook.com/view/159525198/",
             "button_style_secondary": false
           }
@@ -83,7 +83,7 @@
             "image": "shopify://shop_images/glass-door-cart-brochure-img.png",
             "heading": "STERIRACK® Glass Door Carts Brochure",
             "text": "<p>Customisable, high-quality storage carts designed for hospital use.</p>",
-            "btn_text": "View Brochure",
+            "btn_text": "View brochure",
             "btn_link": "https://online.flippingbook.com/view/975476699/",
             "button_style_secondary": false
           }
@@ -94,7 +94,7 @@
             "image": "shopify://shop_images/transport-cart-brochure-img.png",
             "heading": "STERIRACK® Transport Carts Brochure",
             "text": "<p>Sealed, dust-free transport carts for sterile instruments and supplies.</p>",
-            "btn_text": "View Brochure",
+            "btn_text": "View brochure",
             "btn_link": "https://online.flippingbook.com/view/497002348/",
             "button_style_secondary": false
           }

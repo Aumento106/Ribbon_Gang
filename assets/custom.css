@@ -3230,8 +3230,8 @@ ul.header__submenu li:hover:has(ul.list-unstyled)::after {
     position: relative;
 }
 
-ul.header__submenu li:hover ul {
-    opacity: 1;
+ul.header__submenu li:hover ul.list-unstyled {
+  opacity: 1;
 }
 .header__submenu li:last-child{
   margin-bottom: 0

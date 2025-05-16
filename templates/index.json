@@ -1306,7 +1306,7 @@
             "title": "Trolleys, carts and mobile units",
             "text": "",
             "text-v": "",
-            "button-text": "Shop for trolleys",
+            "button-text": "Shop for trolleys etc",
             "button-url": "shopify://collections"
           }
         },
@@ -1317,7 +1317,7 @@
             "title": "Accessories and colour coding",
             "text": "",
             "text-v": "",
-            "button-text": "Shop for accessories",
+            "button-text": "Shop for accessories etc",
             "button-url": "shopify://collections"
           }
         }

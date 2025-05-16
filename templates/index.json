@@ -1303,7 +1303,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/2-grid_Concept_13.png",
-            "title": "Trolleys, Carts and Mobile Units",
+            "title": "Trolleys, carts and mobile units",
             "text": "",
             "text-v": "",
             "button-text": "Shop for trolleys",
@@ -1314,10 +1314,10 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/2-grid_Concept_13.png",
-            "title": "Accessories and Colour Coding",
+            "title": "Accessories and colour coding",
             "text": "",
             "text-v": "",
-            "button-text": "Shop for Accessories",
+            "button-text": "Shop for accessories",
             "button-url": "shopify://collections"
           }
         }

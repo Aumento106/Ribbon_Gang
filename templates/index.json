@@ -350,7 +350,7 @@
             "product_list_subtitle": "(lorem ipsum)",
             "hotspot_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
             "top_position": 40,
-            "left_position": 60
+            "left_position": 75
           }
         },
         "hotspot_button_CcdfLG": {
@@ -368,8 +368,8 @@
             "product_list_sec_title": "lorem ipsum",
             "product_list_subtitle": "(lorem ipsum)",
             "hotspot_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-            "top_position": 44,
-            "left_position": 44
+            "top_position": 55,
+            "left_position": 53
           }
         },
         "hotspot_button_EY3YAc": {
@@ -388,7 +388,7 @@
             "product_list_subtitle": "(lorem ipsum)",
             "hotspot_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
             "top_position": 34,
-            "left_position": 16
+            "left_position": 30
           }
         },
         "hotspot_button_m93PxC": {
@@ -407,7 +407,7 @@
             "product_list_subtitle": "(lorem ipsum)",
             "hotspot_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
             "top_position": 49,
-            "left_position": 18
+            "left_position": 35
           }
         },
         "hotspot_button_XgLLrX": {
@@ -425,8 +425,8 @@
             "product_list_sec_title": "lorem ipsum",
             "product_list_subtitle": "(lorem ipsum)",
             "hotspot_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-            "top_position": 64,
-            "left_position": 21
+            "top_position": 70,
+            "left_position": 45
           }
         },
         "hotspot_button_akTq93": {
@@ -444,8 +444,8 @@
             "product_list_sec_title": "lorem ipsum",
             "product_list_subtitle": "(lorem ipsum)",
             "hotspot_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-            "top_position": 86,
-            "left_position": 12
+            "top_position": 70,
+            "left_position": 25
           }
         },
         "hotspot_button_jtiwdc": {
@@ -464,7 +464,7 @@
             "product_list_subtitle": "(lorem ipsum)",
             "hotspot_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
             "top_position": 72,
-            "left_position": 56
+            "left_position": 67
           }
         }
       },
@@ -482,7 +482,7 @@
       ],
       "settings": {
         "page_container": "full-width",
-        "image": "shopify://shop_images/Home_3.png",
+        "image": "shopify://shop_images/Home_10.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "show_text_box": false,

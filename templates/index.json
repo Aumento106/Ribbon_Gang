@@ -368,7 +368,7 @@
             "product_list_sec_title": "lorem ipsum",
             "product_list_subtitle": "(lorem ipsum)",
             "hotspot_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-            "top_position": 55,
+            "top_position": 53,
             "left_position": 53
           }
         },
@@ -387,7 +387,7 @@
             "product_list_sec_title": "lorem ipsum",
             "product_list_subtitle": "(lorem ipsum)",
             "hotspot_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-            "top_position": 60,
+            "top_position": 58,
             "left_position": 59
           }
         },
@@ -445,7 +445,7 @@
             "product_list_subtitle": "(lorem ipsum)",
             "hotspot_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
             "top_position": 70,
-            "left_position": 45
+            "left_position": 46
           }
         },
         "hotspot_button_akTq93": {
@@ -482,8 +482,8 @@
             "product_list_sec_title": "lorem ipsum",
             "product_list_subtitle": "(lorem ipsum)",
             "hotspot_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-            "top_position": 72,
-            "left_position": 67
+            "top_position": 71,
+            "left_position": 69
           }
         }
       },
@@ -502,7 +502,7 @@
       ],
       "settings": {
         "page_container": "full-width",
-        "image": "shopify://shop_images/Home_10.png",
+        "image": "shopify://shop_images/Home_13.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "show_text_box": false,

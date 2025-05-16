@@ -310,3 +310,16 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+
+
+document.querySelectorAll('.sub-header-menu-main .header__submenu li').forEach(item => {
+  item.addEventListener('mouseenter', () => {
+    const submenu = item.querySelector('.sub-header-menu-main .header__submenu li .list-unstyled');
+    if (submenu) submenu.style.display = 'block';
+  });
+
+  item.addEventListener('mouseleave', () => {
+    const submenu = item.querySelector('.sub-header-menu-main .header__submenu li .list-unstyled');
+    if (submenu) submenu.style.display = 'none';
+  });
+});

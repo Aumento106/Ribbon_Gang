@@ -72,8 +72,8 @@
       ],
       "disabled": true,
       "settings": {
-        "heading": "<p>We proudly <strong>Support</strong></p>",
-        "heading_size": "h1",
+        "heading": "<p>We proudly support</p>",
+        "heading_size": "h2",
         "title_alignment": "center",
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "padding_top": 36,

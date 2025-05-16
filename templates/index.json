@@ -623,7 +623,7 @@
           "settings": {
             "image": "shopify://shop_images/Home_9.png",
             "tag_text": "Best sellers",
-            "tag_text_color": "#ffffff",
+            "tag_text_color": "#424242",
             "logo_image": "shopify://shop_images/Steriloop_logo.svg",
             "heading": "<p>Suture racks</p>",
             "heading_size": "h1",

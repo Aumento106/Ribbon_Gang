@@ -1281,10 +1281,10 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/2-grid_Concept_13.png",
-            "title": "Wire shelving, baskets & pharmacy drawers",
+            "title": "Shelving, baskets & pharmacy drawers",
             "text": "",
             "text-v": "",
-            "button-text": "Shop Now",
+            "button-text": "Shop for shelving, baskets etc",
             "button-url": "shopify://collections"
           }
         },
@@ -1292,10 +1292,10 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/2-grid_Concept_13.png",
-            "title": "Benching",
+            "title": "Benching and workstations",
             "text": "",
             "text-v": "",
-            "button-text": "Shop for Benching",
+            "button-text": "Shop for benching etc",
             "button-url": "shopify://collections"
           }
         },

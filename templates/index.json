@@ -945,10 +945,10 @@
           "settings": {
             "image": "shopify://shop_images/Concept_5.png",
             "offer_title": "",
-            "heading": "<p>Blacktown Hospital improves their bottom line by 30% using STERIRACK™ System</p>",
+            "heading": "<p>Blacktown Hospital improves bottom line by 30% using STERIRACK® System</p>",
             "heading_size": "h1",
-            "text": "<p>Bearundae voluptatem eum iditatqui aut doluptiorest adit  am rerrum sitae cor modia voluptatist amu.<br/><br/>Bearundae voluptatem eum iditatqui aut doluptiorest  adit am rerrum sitae cor modia voluptatist amu.  Bearundae voluptatem eum iditatqui aut doluptiorest  adit am rerrum sitae cor modia voluptatist amu.<br/><br/><strong>“We couldn’t have asked for a better system —  the nurses absolutely love it!”</strong><br/><br/>Shane Brown | Blacktown Hospital</p>",
-            "button_label": "Read More...",
+            "text": "<p>\"Bearundae voluptatem eum iditatqui aut doluptiorest adit  am rerrum sitae cor modia voluptatist amu. Bearundae voluptatem eum iditatqui aut doluptiorest  adit am rerrum sitae cor modia voluptatist amu.  Bearundae voluptatem eum iditatqui aut doluptiorest  adit am rerrum sitae cor modia voluptatist amu.\"<br/><br/>SHANE BROWN | BLACKTOWN HOSPITAL</p>",
+            "button_label": "Read more",
             "button_link": "shopify://collections",
             "button_style_secondary": false
           }
@@ -1048,9 +1048,9 @@
         "heading_size": "h1",
         "layout": "image_first",
         "content_layout": "no-overlap",
-        "height": "small",
+        "height": "extra-small",
         "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
+        "desktop_content_alignment": "left",
         "mobile_content_alignment": "left",
         "show_button_on_image": true,
         "show_half_slide": false,

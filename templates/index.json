@@ -18,7 +18,7 @@
             "image": "shopify://shop_images/Concept_1_1.png",
             "heading": "Infection-controlled solutions",
             "heading_size": "h0",
-            "subheading": "",
+            "subheading": "Ollie: Heading here",
             "button_label": "Shop now",
             "link": "shopify://collections",
             "button_style_secondary": false,
@@ -92,8 +92,8 @@
         "slide_height": "large",
         "image_behavior": "none",
         "accessibility_info": "Slideshow about our brand",
-        "padding_top": 0,
-        "padding_bottom": 100
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     },
     "custom_image_banner_xDTGLj": {

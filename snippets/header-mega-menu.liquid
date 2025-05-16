@@ -207,6 +207,8 @@
 
 
   
+  // Wrap everything in a block to prevent duplicate declarations if this script runs again
+(() => {
   const menuContainers = document.querySelectorAll('.mega-menu, .default-menu');
 
   document.querySelectorAll('.header__menu-item').forEach((menuItem) => {
@@ -245,4 +247,6 @@
       }
     });
   });
+})();
+
 </script>

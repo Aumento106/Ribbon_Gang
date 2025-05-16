@@ -3217,7 +3217,7 @@ ul.header__submenu li:hover:has(ul.list-unstyled)::after {
   transform: rotate(-134deg);
   cursor: pointer;
   display: block;
-  right: 0;
+  right: 10px;
   position: absolute;
   top: 30%;
 }

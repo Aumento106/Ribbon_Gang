@@ -1129,7 +1129,7 @@
             "product_list_sec_title": "lorem ipsum",
             "product_list_subtitle": "(lorem ipsum)",
             "hotspot_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-            "top_position": 31,
+            "top_position": 50,
             "left_position": 25
           }
         },
@@ -1168,7 +1168,7 @@
             "product_list_subtitle": "(lorem ipsum)",
             "hotspot_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
             "top_position": 62,
-            "left_position": 40
+            "left_position": 45
           }
         },
         "hotspot_button_3Ha4Hq": {
@@ -1187,7 +1187,7 @@
             "product_list_subtitle": "(lorem ipsum)",
             "hotspot_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
             "top_position": 75,
-            "left_position": 53
+            "left_position": 52
           }
         },
         "hotspot_button_UQLAxJ": {
@@ -1205,8 +1205,8 @@
             "product_list_sec_title": "lorem ipsum",
             "product_list_subtitle": "(lorem ipsum)",
             "hotspot_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-            "top_position": 65,
-            "left_position": 68
+            "top_position": 75,
+            "left_position": 69
           }
         },
         "hotspot_button_hdFCgh": {
@@ -1225,7 +1225,7 @@
             "product_list_subtitle": "(lorem ipsum)",
             "hotspot_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
             "top_position": 55,
-            "left_position": 71
+            "left_position": 74
           }
         },
         "hotspot_button_rY7qKj": {
@@ -1243,8 +1243,8 @@
             "product_list_sec_title": "lorem ipsum",
             "product_list_subtitle": "(lorem ipsum)",
             "hotspot_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-            "top_position": 40,
-            "left_position": 70
+            "top_position": 38,
+            "left_position": 68
           }
         }
       },

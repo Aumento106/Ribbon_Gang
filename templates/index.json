@@ -522,7 +522,7 @@
           "settings": {
             "image": "shopify://shop_images/Concept_13.png",
             "title": "Pharmacy",
-            "text": "<p>Storage/Dispensary</p>",
+            "text": "<p>Dispensary</p>",
             "text-v": "Less Time Searching, More Time Caring",
             "button-text": "Explore Room",
             "button-url": "shopify://collections"

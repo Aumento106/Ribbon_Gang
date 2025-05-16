@@ -934,7 +934,7 @@
         "offer_title_color": "#ffce00",
         "show_pagination": true,
         "padding_top": 40,
-        "padding_bottom": 100
+        "padding_bottom": 40
       }
     },
     "custom_image_text_slider_k9tKHM": {
@@ -1091,14 +1091,14 @@
         "heading_kiwDwJ": {
           "type": "heading",
           "settings": {
-            "heading": "Medical Centres and Dentistry",
-            "heading_size": "h0"
+            "heading": "STERIRACK® Overhead Rail Units",
+            "heading_size": "h1"
           }
         },
         "text_qUDXLE": {
           "type": "text",
           "settings": {
-            "text": "Smarter storage. Safer care.",
+            "text": "Ollie: Text to go here",
             "text_style": "subtitle"
           }
         },
@@ -1262,7 +1262,7 @@
       ],
       "settings": {
         "page_container": "full-width",
-        "image": "shopify://shop_images/image-banner-2.png",
+        "image": "shopify://shop_images/Home_15.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "show_text_box": false,
@@ -1270,8 +1270,8 @@
         "color_scheme": "scheme-28b9a3ce-e916-452a-9440-95fefcedbf92",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
-        "padding_top": 100,
-        "padding_bottom": 100
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     },
     "custom_multicolumn_inkqq6": {

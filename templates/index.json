@@ -159,7 +159,7 @@
             "product_list_sec_title": "STERIRACK® Benching",
             "product_list_subtitle": "(lorem ipsum)",
             "hotspot_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-            "top_position": 51,
+            "top_position": 55,
             "left_position": 55
           }
         },
@@ -178,7 +178,7 @@
             "product_list_sec_title": "STERIRACK® Storage Modules",
             "product_list_subtitle": "(lorem ipsum)",
             "hotspot_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-            "top_position": 23,
+            "top_position": 40,
             "left_position": 24
           }
         },
@@ -236,7 +236,7 @@
             "product_list_subtitle": "(lorem ipsum)",
             "hotspot_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
             "top_position": 60,
-            "left_position": 23
+            "left_position": 24
           }
         },
         "hotspot_button_MWxXKN": {
@@ -254,7 +254,7 @@
             "product_list_sec_title": "STERIRACK® Colour Coded Labelling",
             "product_list_subtitle": "(lorem ipsum)",
             "hotspot_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-            "top_position": 61,
+            "top_position": 64,
             "left_position": 56
           }
         },
@@ -293,7 +293,7 @@
       ],
       "settings": {
         "page_container": "full-width",
-        "image": "shopify://shop_images/Home_1.png",
+        "image": "shopify://shop_images/Home_14.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "show_text_box": false,

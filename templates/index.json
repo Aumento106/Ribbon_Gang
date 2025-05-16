@@ -15,14 +15,14 @@
         "slide_eEdaKF": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Concept_1_1.png",
-            "heading": "Infection-controlled solutions",
+            "image": "shopify://shop_images/Home_16.png",
+            "heading": "Your trusted partner in clinical storage solutions",
             "heading_size": "h0",
             "subheading": "Ollie: Heading here",
             "button_label": "Shop now",
             "link": "shopify://collections",
             "button_style_secondary": false,
-            "botton_position": 100,
+            "botton_position": 200,
             "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,

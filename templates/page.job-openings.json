@@ -31,7 +31,7 @@
         "heading_q4a9w9": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Open Positions</strong> at SpaceLogic",
+            "heading": "Open positions at SpaceLogic",
             "heading_size": "h0",
             "heading_alignment": "center"
           }
@@ -40,7 +40,7 @@
           "type": "text",
           "settings": {
             "text": "<p>At SpaceLogic, we’re committed to building a talented and diverse team that drives innovation and delivers excellence. As a trusted leader in healthcare storage solutions, we offer an inclusive and supportive environment where your skills and expertise can thrive. Explore our current job openings below and discover the next step in your career with us.<br/></p><p><strong>Join us in Making space for care®</strong></p><p>We currently have no open positions. Please check back as we regularly seek skilled professionals to join our team.</p>",
-            "text_alignment": "center"
+            "text_alignment": "left"
           }
         }
       },

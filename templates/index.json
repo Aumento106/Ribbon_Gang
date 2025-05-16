@@ -1333,7 +1333,7 @@
         "sec_subtitle": "",
         "button_text": "Shop the full range",
         "button_url": "shopify://collections",
-        "heading_size": "h0",
+        "heading_size": "h1",
         "title_alignment": "center",
         "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
         "columns_desktop": "2",
@@ -1341,7 +1341,7 @@
         "padding_top": 50,
         "padding_bottom": 50,
         "margin_top": 0,
-        "margin_bottom": 100
+        "margin_bottom": 40
       }
     },
     "product_catalog_VjYNFG": {

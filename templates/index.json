@@ -349,8 +349,8 @@
             "product_list_sec_title": "lorem ipsum",
             "product_list_subtitle": "(lorem ipsum)",
             "hotspot_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-            "top_position": 40,
-            "left_position": 75
+            "top_position": 45,
+            "left_position": 77
           }
         },
         "hotspot_button_CcdfLG": {
@@ -370,6 +370,25 @@
             "hotspot_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
             "top_position": 55,
             "left_position": 53
+          }
+        },
+        "hotspot_button_Xj83ew": {
+          "type": "hotspot_button",
+          "settings": {
+            "hotspot_icon": "shopify://shop_images/icon-hotspot.svg",
+            "hotspot_product_list": [
+              "standard-mesh-baskets-copy",
+              "sterirack®-transport-case-carts",
+              "standard-mesh-baskets-5",
+              "standard-mesh-baskets-4",
+              "standard-mesh-baskets-3",
+              "standard-mesh-baskets"
+            ],
+            "product_list_sec_title": "lorem ipsum",
+            "product_list_subtitle": "(lorem ipsum)",
+            "hotspot_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+            "top_position": 60,
+            "left_position": 59
           }
         },
         "hotspot_button_EY3YAc": {
@@ -474,6 +493,7 @@
         "buttons_YfcGj9",
         "hotspot_button_WRJ9bt",
         "hotspot_button_CcdfLG",
+        "hotspot_button_Xj83ew",
         "hotspot_button_EY3YAc",
         "hotspot_button_m93PxC",
         "hotspot_button_XgLLrX",

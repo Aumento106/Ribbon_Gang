@@ -521,8 +521,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Concept_13.png",
-            "title": "Pharmacy",
-            "text": "<p>Dispensary</p>",
+            "title": "Clean Utility",
+            "text": "<p>Medications Room</p>",
             "text-v": "Less Time Searching, More Time Caring",
             "button-text": "Explore Room",
             "button-url": "shopify://collections"
@@ -543,8 +543,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Concept_13.png",
-            "title": "Clean Utility",
-            "text": "<p>Medications</p>",
+            "title": "Pharmacy",
+            "text": "<p>Dispensary</p>",
             "text-v": "Every Space, Optimised",
             "button-text": "Explore Room",
             "button-url": "shopify://collections"

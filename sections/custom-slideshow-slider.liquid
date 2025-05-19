@@ -9,6 +9,7 @@
       {% if block.settings.btn_bg != blank %}
         #Slider-{{ section.id }} .banner__buttons .button {
           background-color: {{ block.settings.btn_bg }};
+          color: {{ block.settings.btn_text_color }};
         }
       {% endif %}
     {%- endfor -%}
@@ -497,6 +498,12 @@
           "id": "btn_bg",
           "label": "Button Background Color",
           "default": "#ffce00"
+        },
+        {
+          "type": "color",
+          "id": "btn_text_color",
+          "label": "Button Text Color",
+          "default": "#fff"
         },
         {
           "type": "header",

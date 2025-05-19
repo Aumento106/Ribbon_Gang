@@ -27,8 +27,8 @@
             "text_alignment": "center",
             "image_overlay_opacity": 0,
             "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-            "btn_bg": "rgba(0,0,0,0)",
-            "btn_text_color": "rgba(0,0,0,0)"
+            "btn_bg": "#ffce00",
+            "btn_text_color": "#ffffff"
           }
         },
         "slide_QcKVdY": {

@@ -841,22 +841,6 @@
         "padding_bottom": 72
       }
     },
-    "product_catalog_VjYNFG": {
-      "type": "product-catalog",
-      "settings": {
-        "product_image": "shopify://shop_images/image_104.png",
-        "logo_link": "",
-        "heading": "<p>Product Catalog 2025</p>",
-        "heading_size": "h1",
-        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
-        "description": "<p>Click here to view our latest product and services catalog in a browser without downloading.</p>",
-        "button_1_text": "View Catalog",
-        "button_1_link": "https://online.flippingbook.com/view/141548076/",
-        "reverse_column": true,
-        "padding_top": 50,
-        "padding_bottom": 50
-      }
-    },
     "product_catalog_3wJXkE": {
       "type": "product-catalog",
       "settings": {
@@ -941,7 +925,6 @@
     "related-products",
     "custom_image_text_slider_k9tKHM",
     "faq_collapsible_content_QQxiNJ",
-    "product_catalog_VjYNFG",
     "product_catalog_3wJXkE",
     "proudly_support_NnMGAw"
   ]

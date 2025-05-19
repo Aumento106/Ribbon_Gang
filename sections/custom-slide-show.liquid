@@ -35,7 +35,7 @@
       transform: translateX(-50%);
     }
     {% if block.settings.btn_bg != blank %}
-      .section-{{ section.id }}-padding .banner__buttons .banner__buttons-{{ block.id }} .button {
+      .section-{{ section.id }}-padding .banner__buttons.banner__buttons-{{ block.id }} .button {
         background-color: {{ block.settings.btn_bg }};
         color: {{ block.settings.btn_text_color }};
       }

@@ -26,7 +26,9 @@
             "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493"
+            "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+            "btn_bg": "rgba(0,0,0,0)",
+            "btn_text_color": "rgba(0,0,0,0)"
           }
         },
         "slide_QcKVdY": {
@@ -43,7 +45,9 @@
             "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493"
+            "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+            "btn_bg": "#ffce00",
+            "btn_text_color": "#ffffff"
           }
         },
         "slide_gCWg7E": {
@@ -60,7 +64,9 @@
             "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493"
+            "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+            "btn_bg": "#ffce00",
+            "btn_text_color": "#ffffff"
           }
         },
         "slide_faXiaL": {
@@ -77,7 +83,9 @@
             "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493"
+            "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+            "btn_bg": "#ffce00",
+            "btn_text_color": "#ffffff"
           }
         }
       },
@@ -615,6 +623,8 @@
             "show_text_box": false,
             "text_alignment": "center",
             "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+            "btn_bg": "#ffce00",
+            "btn_text_color": "#ffffff",
             "text_alignment_mobile": "center"
           }
         },
@@ -635,6 +645,8 @@
             "show_text_box": false,
             "text_alignment": "center",
             "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+            "btn_bg": "#ffce00",
+            "btn_text_color": "#ffffff",
             "text_alignment_mobile": "center"
           }
         },
@@ -655,6 +667,8 @@
             "show_text_box": false,
             "text_alignment": "center",
             "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+            "btn_bg": "#ffce00",
+            "btn_text_color": "#ffffff",
             "text_alignment_mobile": "center"
           }
         }

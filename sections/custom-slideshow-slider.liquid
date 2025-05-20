@@ -5,6 +5,13 @@
 
 {%- if section.settings.slide_height == 'adapt_image' and section.blocks.first.settings.image != blank -%}
   {%- style -%}
+    {%- for block in section.blocks -%}
+      {% if block.settings.btn_bg != blank %}
+        #Slider-{{ section.id }} .banner__buttons .button {
+          background-color: {{ block.settings.btn_bg }};
+        }
+      {% endif %}
+    {%- endfor -%}
     @media screen and (max-width: 749px) {
       #Slider-{{ section.id }}::before,
       #Slider-{{ section.id }} .media::before,
@@ -27,17 +34,6 @@
 {%- endif -%}
 
 {%- style -%}
-
-  {%- for block in section.blocks -%}
-    .section-{{ section.id }}-padding .banner__buttons .button.btn--{{ block.id }} {
-      background-color: {{ block.settings.btn_bg }};
-      color: {{ block.settings.btn_text_color }};
-    }
-    .section-{{ section.id }}-padding .banner__buttons .button.btn--{{ block.id }}::after {
-      display: none;
-    }
-  {%- endfor -%}
-  
   .section-{{ section.id }}-padding {
         margin-top: {{ section.settings.padding_top | times: 0.4 | round: 0 }}px;
         margin-bottom: {{ section.settings.padding_bottom | times: 0.4 | round: 0 }}px;
@@ -202,17 +198,17 @@
                     </h1>
                   {%- endif -%}
                   {%- if block.settings.logo_image != blank -%}
-                    <h2 class="banner__box_logo inline-richtext" style="color: {{ block.settings.tag_text_color }};">
+                    <h2 class="banner__box_logo inline-richtext">
                       {{ block.settings.logo_image | image_url: width: 120 | image_tag }}
                     </h2>
                   {%- endif -%}
                   {%- if block.settings.heading != blank -%}
-                    <h2 class="banner__heading inline-richtext {{ block.settings.heading_size }}" style="color: {{ block.settings.tag_text_color }};">
+                    <h2 class="banner__heading inline-richtext {{ block.settings.heading_size }}">
                       {{ block.settings.heading }}
                     </h2>
                   {%- endif -%}
                   {%- if block.settings.subheading != blank -%}
-                    <div class="banner__text rte" {{ block.shopify_attributes }} style="color: {{ block.settings.tag_text_color }};">
+                    <div class="banner__text rte" {{ block.shopify_attributes }}>
                       <p>{{ block.settings.subheading }}</p>
                     </div>
                   {%- endif -%}
@@ -224,7 +220,7 @@
                         {% else %}
                           role="link" aria-disabled="true"
                         {% endif %}
-                        class="button btn--{{ block.id }} {% if block.settings.button_style_secondary %}button--secondary{% else %}button--primary{% endif %}"
+                        class="button {% if block.settings.button_style_secondary %}button--secondary{% else %}button--primary{% endif %}"
                       >
                         {{- block.settings.button_label | escape -}}
                       </a>
@@ -350,6 +346,12 @@
           "type": "text",
           "id": "tag_text",
           "label": "Tag text"
+        },
+        {
+          "type": "color",
+          "id": "tag_text_color",
+          "label": "Tag text color",
+          "default": "#ffffff"
         },
         {
           "type": "image_picker",
@@ -485,22 +487,16 @@
           "label": "t:sections.slideshow.blocks.slide.settings.text_alignment.label"
         },
         {
-          "type": "color",
-          "id": "tag_text_color",
-          "label": "text color",
-          "default": "#ffffff"
+          "type": "color_scheme",
+          "id": "color_scheme",
+          "label": "t:sections.all.colors.label",
+          "default": "scheme-1"
         },
         {
           "type": "color",
           "id": "btn_bg",
           "label": "Button Background Color",
           "default": "#ffce00"
-        },
-        {
-          "type": "color",
-          "id": "btn_text_color",
-          "label": "Button Text Color",
-          "default": "#fff"
         },
         {
           "type": "header",

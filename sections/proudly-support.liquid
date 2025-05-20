@@ -5,6 +5,12 @@
     padding-top: {{ section.settings.padding_top | times: 0.35 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.35 | round: 0 }}px;
   }
+  .section-{{ section.id }}-padding .title {
+    color: {{ section.settings.title_color }};
+  }
+  .section-{{ section.id }}-padding .newsletter__subheading {
+    color: {{ section.settings.subheading_color }};
+  }
 
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
@@ -88,6 +94,12 @@
         "id": "color_scheme",
         "label": "t:sections.all.colors.label",
         "default": "scheme-1"
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Title Color",
+      "default": "#424242"
     },
     {
         "type": "header",

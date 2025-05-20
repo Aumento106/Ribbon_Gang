@@ -6,6 +6,23 @@
     padding-top: {{ section.settings.padding_top | times: 0.55 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.55 | round: 0 }}px;
   }
+  .multi-column-box-with-image.section-{{ section.id }} {
+    background-color: {{ section.settings.multicolumn_bg_color }};
+  }
+  .multi-column-box-with-image.section-{{ section.id }} .sec-head > *,
+  .multi-column-box-with-image.section-{{ section.id }} .multicolumn-box-top-con > * {
+    color: {{ section.settings.multicolumn_text_color }};
+  }
+  .multi-column-box-with-image.section-{{ section.id }} .multicolumn-box-bottom-con .button {
+    background-color: {{ section.settings.multicolumn_btn_ng_color }};
+    color: {{ section.settings.multicolumn_btn_text }};
+  }
+  .multi-column-box-with-image.section-{{ section.id }} .multicolumn-box-bottom-con .button::after {
+    display: none;
+  }
+  .custom-multicolumn-with-image .multi-column-box-with-image .multicolumn-box__item {
+    border: 1px solid {{ section.settings.multicolumn_text_color }};
+  }
 
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
@@ -151,10 +168,28 @@
       "label": "Add box shadow"
     },
     {
-      "type": "color_scheme",
-      "id": "box_color_scheme",
-      "label": "Box color scheme",
-      "default": "scheme-1"
+      "type": "color",
+      "id": "multicolumn_bg_color",
+      "label": "Multicolumn Background",
+      "default": "#b2afa6"
+    },
+    {
+      "type": "color",
+      "id": "multicolumn_text_color",
+      "label": "Multicolumn Text Color",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "multicolumn_btn_ng_color",
+      "label": "Multicolumn Button Background",
+      "default": "#ffce00"
+    },
+    {
+      "type": "color",
+      "id": "multicolumn_btn_text",
+      "label": "Multicolumn Button Text",
+      "default": "#fff"
     },
     {
       "type": "header",

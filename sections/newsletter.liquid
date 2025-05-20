@@ -11,7 +11,9 @@
   .newsletter--{{ section.id }} {
     background-color: {{ section.settings.background }};
   }
-  .newsletter--{{ section.id }} .newsletter-heading-con > * {
+  .newsletter--{{ section.id }} .newsletter-heading-con > *,
+  .newsletter--{{ section.id }} .newsletter-email-form-con label,
+  .newsletter--{{ section.id }} .newsletter-email-form-con input {
     color: {{ section.settings.text_color }};
   }
   

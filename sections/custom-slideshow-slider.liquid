@@ -7,7 +7,7 @@
   {%- style -%}
     {%- for block in section.blocks -%}
       {% if block.settings.btn_bg != blank %}
-        .section-{{ section.id }}-padding .banner__buttons .button {
+        .section-{{ section.id }}-padding .banner__buttons .button.btn--{{ block.id }} {
           background-color: {{ block.settings.btn_bg }};
           color: {{ block.settings.btn_text_color }};
         }
@@ -221,7 +221,7 @@
                         {% else %}
                           role="link" aria-disabled="true"
                         {% endif %}
-                        class="button {% if block.settings.button_style_secondary %}button--secondary{% else %}button--primary{% endif %}"
+                        class="button btn--{{ block.id }} {% if block.settings.button_style_secondary %}button--secondary{% else %}button--primary{% endif %}"
                       >
                         {{- block.settings.button_label | escape -}}
                       </a>

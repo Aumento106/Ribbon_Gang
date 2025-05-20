@@ -6,12 +6,10 @@
 {%- if section.settings.slide_height == 'adapt_image' and section.blocks.first.settings.image != blank -%}
   {%- style -%}
     {%- for block in section.blocks -%}
-      {% if block.settings.btn_bg != blank %}
-        .section-{{ section.id }}-padding .banner__buttons .button.btn--{{ block.id }} {
-          background-color: {{ block.settings.btn_bg }};
-          color: {{ block.settings.btn_text_color }};
-        }
-      {% endif %}
+      .section-{{ section.id }}-padding .banner__buttons .button.btn--{{ block.id }} {
+        background-color: {{ block.settings.btn_bg }};
+        color: {{ block.settings.btn_text_color }};
+      }
     {%- endfor -%}
     @media screen and (max-width: 749px) {
       #Slider-{{ section.id }}::before,

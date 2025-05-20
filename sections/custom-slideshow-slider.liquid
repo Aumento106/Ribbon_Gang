@@ -33,6 +33,9 @@
       background-color: {{ block.settings.btn_bg }};
       color: {{ block.settings.btn_text_color }};
     }
+    .section-{{ section.id }}-padding .banner__buttons .button.btn--{{ block.id }}::after {
+      display: none;
+    }
   {%- endfor -%}
   
   .section-{{ section.id }}-padding {

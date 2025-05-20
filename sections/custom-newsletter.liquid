@@ -6,33 +6,16 @@
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.55 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.55 | round: 0 }}px;
-    margin-top: {{ section.settings.margin_top | times: 0.4 | round: 0 }}px;
-    margin-bottom: {{ section.settings.margin_bottom | times: 0.4 | round: 0 }}px;
-  }
-  .section--{{ section.id }} {
-    background-color: {{ section.settings.section_bg }};
-  }
-  .section--{{ section.id }} .newsletter-heading-con > *,
-  .section--{{ section.id }} .newsletter-email-form-con > *,
-  .section--{{ section.id }} .newsletter-form__field-wrapper .field__label,
-  .section--{{ section.id }} .newsletter-form__field-wrapper .field__label svg,
-  .section--{{ section.id }} .newsletter-form__field-wrapper input {
-    color: {{ section.settings.section_text }};
-  }
-  .section--{{ section.id }} .newsletter-form__field-wrapper .button {
-    background: {{ section.settings.button_background }};
-    color: {{ section.settings.button_text }}
-  }
-  .section--{{ section.id }} .newsletter-form__field-wrapper .button::after {
-    display: none;
+    margin-top: {{ section.settings.margin_top | times: 0.55 | round: 0 }}px;
+    margin-bottom: {{ section.settings.margin_bottom | times: 0.55 | round: 0 }}px;
   }
 
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top | times: 0.7 | round: 0 }}px;
       padding-bottom: {{ section.settings.padding_bottom | times: 0.7 | round: 0 }}px;
-      margin-top: {{ section.settings.margin_top | times: 0.5 | round: 0 }}px;
-      margin-bottom: {{ section.settings.margin_bottom | times: 0.5 | round: 0 }}px;
+      margin-top: {{ section.settings.margin_top | times: 0.7 | round: 0 }}px;
+      margin-bottom: {{ section.settings.margin_bottom | times: 0.7 | round: 0 }}px;
     }
   }
 
@@ -46,7 +29,7 @@
   }
 {%- endstyle -%}
 
-<div class="newsletter section--{{ section.id }}">
+<div class="newsletter color-{{ section.settings.color_scheme }} gradient">
   <div class="newsletter__wrapper content-container isolate{% if section.settings.full_width == false %} newsletter--narrow page-width{% endif %}{% if section.settings.full_width %} content-container--full-width{% endif %} section-{{ section.id }}-padding">
     <div class="grid grid--1-col grid--2-col-tablet">
       <div class="newsletter-heading-con grid__item{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
@@ -178,28 +161,10 @@
   },
   "settings": [
     {
-      "type": "color",
-      "id": "section_bg",
-      "label": "Section Background",
-      "default": "#f5f5f5"
-    },
-    {
-      "type": "color",
-      "id": "section_text",
-      "label": "Section Text",
-      "default": "#424242"
-    },
-    {
-      "type": "color",
-      "id": "button_background",
-      "label": "Button Background",
-      "default": "#121212"
-    },
-    {
-      "type": "color",
-      "id": "button_text",
-      "label": "Button Text",
-      "default": "#fff"
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
     },
     {
       "type": "checkbox",

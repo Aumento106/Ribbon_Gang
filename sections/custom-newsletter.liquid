@@ -23,6 +23,9 @@
     background: {{ section.settings.button_background }};
     color: {{ section.settings.button_text }}
   }
+  .section--{{ section.id }} .newsletter-form__field-wrapper .button::after {
+    display: none;
+  }
 
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {

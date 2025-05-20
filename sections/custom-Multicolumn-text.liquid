@@ -26,6 +26,9 @@
   .custom-multicolumn-with-text .multi-column-box-with-image .multicolumn-box__item {
     background: {{ section.settings.box_background }};
   }
+  .custom-multicolumn-with-text .multi-column-box-with-image .multicolumn-box__item .box-text-con-wrap > * {
+    color: {{ section.settings.box_text_color }};
+  }
 
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
@@ -187,6 +190,12 @@
       "id": "box_background",
       "label": "Multicolumn Box Background",
       "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "box_text_color",
+      "label": "Multicolumn Text Color",
+      "default": "#424242"
     },
     {
       "type": "color",

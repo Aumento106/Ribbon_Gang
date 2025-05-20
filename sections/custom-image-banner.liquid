@@ -53,10 +53,6 @@
       top: {{ block.settings.top_position }}%;
       left: {{ block.settings.left_position }}%;
     }
-    .custom-image-banner  #popup-{{ block.id }} {
-      color: {{ block.settings.hotspot_text_coor }};
-      background: {{ block.settings.hotspot_bg }};
-    }
 
     @media screen and (max-width: 989px) {
       .custom-image-banner .banner__buttons-{{ block.id }} {
@@ -498,7 +494,12 @@
           "default": "Section subtitle",
           "label": "Section subtitle"
         },
-        
+        {
+          "type": "color",
+          "id": "hotspot_text_coor",
+          "label": "Hotspot Text Color",
+          "default": "#424242"
+        },
         {
           "type": "header",
           "content": "Hotspot area settings"

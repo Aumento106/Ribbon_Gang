@@ -42,10 +42,11 @@
     .custom-image-banner .text--{{ block.id }} {
        color: {{ block.settings.subheading_color }};
     }
-    .custom-image-banner .button--{{ block.id }} {
+    .custom-image-banner .banner__buttons-{{ block.id }} .button {
+      background-color: {{ block.settings.btn_bg }};
       color: {{ block.settings.button_color }};
     }
-    .custom-image-banner .button--{{ block.id }}::after {
+    .custom-image-banner .banner__buttons-{{ block.id }} .button::after {
       display: none;
     }
     .custom-image-banner .hotspot-icon-{{ block.id }} {
@@ -664,9 +665,15 @@
         },
         {
           "type": "color",
+          "id": "btn_bg",
+          "label": "Button Background",
+          "default": "#000"
+        },
+        {
+          "type": "color",
           "id": "button_color",
           "label": "Button Color",
-          "default": "#000"
+          "default": "#ffce00"
         }
       ]
     }

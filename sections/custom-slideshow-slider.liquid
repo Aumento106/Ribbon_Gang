@@ -199,17 +199,17 @@
                     </h1>
                   {%- endif -%}
                   {%- if block.settings.logo_image != blank -%}
-                    <h2 class="banner__box_logo inline-richtext">
+                    <h2 class="banner__box_logo inline-richtext" style="color: {{ block.settings.tag_text_color }};">
                       {{ block.settings.logo_image | image_url: width: 120 | image_tag }}
                     </h2>
                   {%- endif -%}
                   {%- if block.settings.heading != blank -%}
-                    <h2 class="banner__heading inline-richtext {{ block.settings.heading_size }}">
+                    <h2 class="banner__heading inline-richtext {{ block.settings.heading_size }}" style="color: {{ block.settings.tag_text_color }};">
                       {{ block.settings.heading }}
                     </h2>
                   {%- endif -%}
                   {%- if block.settings.subheading != blank -%}
-                    <div class="banner__text rte" {{ block.shopify_attributes }}>
+                    <div class="banner__text rte" {{ block.shopify_attributes }} style="color: {{ block.settings.tag_text_color }};">
                       <p>{{ block.settings.subheading }}</p>
                     </div>
                   {%- endif -%}
@@ -484,7 +484,7 @@
         {
           "type": "color",
           "id": "tag_text_color",
-          "label": "Tag text color",
+          "label": "text color",
           "default": "#ffffff"
         },
         {

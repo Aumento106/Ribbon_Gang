@@ -37,9 +37,11 @@
       transform: translateX(-50%);
     }
     .custom-image-banner .banner__heading.heading--{{ block.id }} {
-       color: {{ block.settings.heading_color }} ;
+       color: {{ block.settings.heading_color }};
     }
-
+    .custom-image-banner .banner__heading..text--{{ block.id }} {
+       color: {{ block.settings.subheading_color }};
+    }
     .custom-image-banner .hotspot-icon-{{ block.id }} {
       top: {{ block.settings.top_position }}%;
       left: {{ block.settings.left_position }}%;
@@ -235,7 +237,7 @@
                 {{ block.settings.heading }}
               </h2>
             {%- when 'text' -%}
-              <div class="banner__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
+              <div class="banner__text rte {{ block.settings.text_style }} text--{{ block.id }}" {{ block.shopify_attributes }}>
                 <p>{{ block.settings.text }}</p>
               </div>
           {%- endcase -%}
@@ -594,6 +596,12 @@
           ],
           "default": "body",
           "label": "t:sections.image-banner.blocks.text.settings.text_style.label"
+        },
+        {
+          "type": "color",
+          "id": "subheading_color",
+          "label": "Text Color",
+          "default": "#000"
         }
       ]
     },

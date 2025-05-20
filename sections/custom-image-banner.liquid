@@ -36,12 +36,9 @@
       bottom: {{ block.settings.botton_position }}px;
       transform: translateX(-50%);
     }
-    {%- case block.type -%}
-      {%- when 'heading' -%}
-        .custom-image-banner .banner__heading {
-           color: {{ block.settings.heading_color }} ;
-        }
-    {%- endcase -%}
+    .custom-image-banner .banner__heading.{{ block.id }} {
+       color: {{ block.settings.heading_color }} ;
+    }
 
     .custom-image-banner .hotspot-icon-{{ block.id }} {
       top: {{ block.settings.top_position }}%;
@@ -232,7 +229,7 @@
           {%- case block.type -%}
             {%- when 'heading' -%}
               <h2
-                class="banner__heading inline-richtext {{ block.settings.heading_size }}"
+                class="banner__heading inline-richtext heading--{{ block.id }} {{ block.settings.heading_size }}"
                 {{ block.shopify_attributes }}
               >
                 {{ block.settings.heading }}

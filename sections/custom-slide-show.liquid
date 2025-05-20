@@ -27,7 +27,7 @@
 {%- endif -%}
 
 {%- style -%}
-  {% for block in section.blocks %}
+  {%- for block in section.blocks -%}
     .section-custom-slide-show .banner__buttons-{{ block.id }} {
       position: absolute;
       left: 50%;
@@ -49,7 +49,7 @@
         bottom: {{ block.settings.botton_position | divided_by: 1.4 }}px;
       }
     }
-  {% endfor %}
+  {%- endfor -%}
 
     .section-{{ section.id }}-padding {
       margin-top: {{ section.settings.padding_top | times: 0.55 | round: 0 }}px;

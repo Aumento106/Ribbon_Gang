@@ -20,6 +20,7 @@
   }
   .section--{{ section.id }} .newsletter-form__field-wrapper .button {
     background: {{ section.settings.button_background }};
+    color: {{ section.settings.button_text }}
   }
 
   @media screen and (min-width: 750px) {
@@ -189,6 +190,12 @@
       "id": "button_background",
       "label": "Button Background",
       "default": "#121212"
+    },
+    {
+      "type": "color",
+      "id": "button_text",
+      "label": "Button Text",
+      "default": "#fff"
     },
     {
       "type": "checkbox",

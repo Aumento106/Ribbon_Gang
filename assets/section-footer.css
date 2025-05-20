@@ -533,7 +533,7 @@
   fill: #fff;
 }
 .list-social__item.email .svg-wrapper svg {
-  fill: translate;
+  fill: transparent;
 }
 .list-social__item.email .svg-wrapper svg path {
   stroke: #fff;

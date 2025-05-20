@@ -2,18 +2,14 @@
 
 {%- style -%}
   .section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding_top | times: 0.55 | round: 0 }}px;
-    padding-bottom: {{ section.settings.padding_bottom | times: 0.55 | round: 0 }}px;
-    background-color: {{ section.settings.sec_bg }};
-  }
-  .section-{{ section.id }}-padding .sec-head .title {
-    color: {{ section.settings.title_color }};
+    padding-top: {{ section.settings.padding_top | times: 0.35 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.35 | round: 0 }}px;
   }
 
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
-      padding-top: {{ section.settings.padding_top | times: 0.7 | round: 0 }}px;
-      padding-bottom: {{ section.settings.padding_bottom | times: 0.7 | round: 0 }}px;
+      padding-top: {{ section.settings.padding_top | times: 0.4 | round: 0 }}px;
+      padding-bottom: {{ section.settings.padding_bottom | times: 0.4 | round: 0 }}px;
     }
   }
 
@@ -25,11 +21,11 @@
   }
 {%- endstyle -%}
 
-<div class="proudly-support section-{{ section.id }}-padding">
+<div class="proudly-support section-{{ section.id }}-padding gradient color-{{ section.settings.color_scheme }}">
   <div class="proudly-support__wrapper page-width">
     {%- if section.settings.heading != blank -%}
     <div class="sec-head section-title-alignment-{{ section.settings.title_alignment }}">
-      <h2 class="title {{ section.settings.heading_size }}">
+      <h2 class="title">
         {{ section.settings.heading }}
       </h2>
     </div>
@@ -40,7 +36,7 @@
         <div class="proudly-support__item grid__item" {{ block.shopify_attributes }}>
           {%- if block.settings.image != blank -%}
             <div class="proudly-support__image-wrapper">
-              {{ block.settings.image | image_url: width: 400 | image_tag:
+              {{ block.settings.image | image_url: width: 200 | image_tag:
                 loading: 'lazy',
                 width: block.settings.image.width,
                 height: block.settings.image.height,
@@ -68,26 +64,6 @@
       "label": "Section Title"
     },
     {
-      "type": "select",
-      "id": "heading_size",
-      "options": [
-        {
-          "value": "h2",
-          "label": "Small"
-        },
-        {
-          "value": "h1",
-          "label": "Medium"
-        },
-        {
-          "value": "h0",
-          "label": "Large"
-        }
-      ],
-      "default": "h1",
-      "label": "Heading Size"
-    },
-    {
         "type": "select",
         "id": "title_alignment",
         "options": [
@@ -108,16 +84,10 @@
         "label": "Section title alignment"
     },
     {
-      "type": "color",
-      "id": "sec_bg",
-      "label": "Section Background",
-      "default": "#fff"
-    },
-    {
-      "type": "color",
-      "id": "title_color",
-      "label": "Title Color",
-      "default": "#424242"
+        "type": "color_scheme",
+        "id": "color_scheme",
+        "label": "t:sections.all.colors.label",
+        "default": "scheme-1"
     },
     {
         "type": "header",

@@ -5,12 +5,6 @@
 
 {%- if section.settings.slide_height == 'adapt_image' and section.blocks.first.settings.image != blank -%}
   {%- style -%}
-    {%- for block in section.blocks -%}
-      .section-{{ section.id }}-padding .banner__buttons .button.btn--{{ block.id }} {
-        background-color: {{ block.settings.btn_bg }};
-        color: {{ block.settings.btn_text_color }};
-      }
-    {%- endfor -%}
     @media screen and (max-width: 749px) {
       #Slider-{{ section.id }}::before,
       #Slider-{{ section.id }} .media::before,
@@ -33,6 +27,14 @@
 {%- endif -%}
 
 {%- style -%}
+
+  {%- for block in section.blocks -%}
+    .section-{{ section.id }}-padding .banner__buttons .button.btn--{{ block.id }} {
+      background-color: {{ block.settings.btn_bg }};
+      color: {{ block.settings.btn_text_color }};
+    }
+  {%- endfor -%}
+  
   .section-{{ section.id }}-padding {
         margin-top: {{ section.settings.padding_top | times: 0.4 | round: 0 }}px;
         margin-bottom: {{ section.settings.padding_bottom | times: 0.4 | round: 0 }}px;

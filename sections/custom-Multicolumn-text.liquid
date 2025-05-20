@@ -45,7 +45,7 @@
   }
 {%- endstyle -%}
 
-<div class="multi-column-box-with-image section-{{ section.id }} section-{{ section.id }}-padding color-{{ section.settings.color_scheme }} gradient">
+<div class="multi-column-box-with-image section-{{ section.id }} section-{{ section.id }}-padding ">
   <div class="multicolumn-box page-width">
     {%- if section.settings.title != blank -%}
       <div class="sec-head section-title-alignment-{{ section.settings.title_alignment }}">
@@ -59,7 +59,7 @@
     <div class="grid grid--1-col grid--2-col-tablet grid--{{ section.settings.columns_desktop }}-col-desktop {% if section.settings.box_shadow == true %}item-box-shadow{% endif %}">
       {%- for block in section.blocks -%}
         <div class="grid__item" {{ block.shopify_attributes }}>
-          <div class="multicolumn-box__item color-{{ section.settings.box_color_scheme }} gradient">
+          <div class="multicolumn-box__item ">
             <div class="box-text-con-wrap">
               {%- if block.settings.title != blank -%}
                 <h3 class="box-title h0">{{ block.settings.title | escape }}</h3>
@@ -136,12 +136,6 @@
       ],
       "default": "center",
       "label": "Section title alignment"
-    },
-    {
-      "type": "color_scheme",
-      "id": "color_scheme",
-      "label": "t:sections.all.colors.label",
-      "default": "scheme-1"
     },
     {
       "type": "header",

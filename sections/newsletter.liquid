@@ -16,6 +16,13 @@
   .newsletter--{{ section.id }} .newsletter-email-form-con input {
     color: {{ section.settings.text_color }};
   }
+  .newsletter--{{ section.id }} .newsletter-email-form-con .button {
+    background: {{ section.settings.btn_bg }};
+    color: {{ section.settings.btn_text }};
+  }
+  .newsletter--{{ section.id }} .newsletter-email-form-con .button::after {
+    display: none
+  }
   
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
@@ -178,6 +185,18 @@
       "id": "text_color",
       "label": "Text Color",
       "default": "#424242"
+    },
+    {
+      "type": "color",
+      "id": "btn_bg",
+      "label": "Button Background",
+      "default": "#ffce00"
+    },
+    {
+      "type": "color",
+      "id": "btn_text",
+      "label": "Button Text",
+      "default": "#fff"
     },
     {
       "type": "checkbox",

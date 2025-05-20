@@ -8,6 +8,12 @@
     margin-top: {{ section.settings.margin_top | times: 0.4 | round: 0 }}px;
     margin-bottom: {{ section.settings.margin_bottom | times: 0.4 | round: 0 }}px;
   }
+  .section-{{ section.id }}-padding .title {
+    color: {{ section.settings.title_color }};
+  }
+  .section-{{ section.id }}-padding .newsletter__subheading {
+    color: {{ section.settings.subheading_color }};
+  }
 
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
@@ -206,6 +212,18 @@
         "id": "text",
         "default": "t:sections.newsletter.blocks.paragraph.settings.paragraph.default",
         "label": "t:sections.newsletter.blocks.paragraph.settings.paragraph.label"
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Title Color",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "subheading_color",
+      "label": "SubHeading Color",
+      "default": "#fff"
     },
     {
       "type": "header",

@@ -655,9 +655,9 @@
           "settings": {
             "image": "shopify://shop_images/Home_6.png",
             "tag_text": "Best seller!",
-            "tag_text_color": "#ffffff",
+            "tag_text_color": "#424242",
             "logo_image": "shopify://shop_images/Steriloop_logo.svg",
-            "heading": "<p>Baskt dividers</p>",
+            "heading": "<p>Basket dividers</p>",
             "heading_size": "h0",
             "subheading": "Bearundae voluptatem eum iditatqui aut  doluptiorest adit am rerrum sitae cor  modia voluptatist amu",
             "button_label": "Shop basket dividers",

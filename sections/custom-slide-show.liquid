@@ -34,13 +34,18 @@
       bottom: {{ block.settings.botton_position }}px;
       transform: translateX(-50%);
     }
-    .section-custom-slide-show .banner__heading.heading--{{ block.id }} {
+    .section-custom-slide-show .banner__heading.heading--{{ block.id }},
+    .section-custom-slide-show  .subheading--{{ block.id }} {
        color: {{ block.settings.slide_text_color }};
     }
     {% if block.settings.btn_bg != blank %}
       .section-{{ section.id }}-padding .banner__buttons.banner__buttons-{{ block.id }} .button {
         background-color: {{ block.settings.btn_bg }};
         color: {{ block.settings.btn_text_color }};
+      }
+      .section-{{ section.id }}-padding .banner__buttons.banner__buttons-{{ block.id }} .button::after {
+        box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset)) rgba(var(--color-button-text),var(--border-opacity)), 
+          0 0 0 var(--buttons-border-width) rgba({{ block.settings.btn_bg }}),var(--alpha-button-background))
       }
     {% endif %}
 
@@ -216,7 +221,7 @@
                 </h2>
               {%- endif -%}
               {%- if block.settings.subheading != blank -%}
-                <div class="banner__text rte" {{ block.shopify_attributes }}>
+                <div class="banner__text rte subheading--{{ block.id }}" {{ block.shopify_attributes }}>
                   <p>{{ block.settings.subheading }}</p>
                 </div>
               {%- endif -%}

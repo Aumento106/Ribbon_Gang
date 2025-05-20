@@ -50,6 +50,16 @@
       </a>
     </li>
   {%- endif -%}
+  {%- if settings.linkdin != blank -%}
+    <li class="list-social__item">
+      <a href="{{ settings.linkdin }}" target="_blank" class="link list-social__link">
+        <span class="svg-wrapper">
+          {{- 'icon-linkdin.svg' | inline_asset_content -}}
+        </span>
+        <span class="visually-hidden">{{ 'general.social.links.youtube' | t }}</span>
+      </a>
+    </li>
+  {%- endif -%}
   {%- if settings.social_tiktok_link != blank -%}
     <li class="list-social__item">
       <a href="{{ settings.social_tiktok_link }}" target="_blank" class="link list-social__link">

@@ -532,7 +532,12 @@
   height: 100%;
   fill: #fff;
 }
-
+.list-social__item.email .svg-wrapper svg {
+  fill: translate;
+}
+.list-social__item.email .svg-wrapper svg path {
+  stroke: #fff;
+}
 .footer-block-right .subtitle {
   margin: 0 0 1.6rem;
   font-family: var(--font-body-family);

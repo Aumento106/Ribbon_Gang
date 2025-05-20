@@ -44,8 +44,7 @@
         color: {{ block.settings.btn_text_color }};
       }
       .section-{{ section.id }}-padding .banner__buttons.banner__buttons-{{ block.id }} .button::after {
-        box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset)) rgba(var(--color-button-text),var(--border-opacity)), 
-          0 0 0 var(--buttons-border-width) rgba({{ block.settings.btn_bg }}),var(--alpha-button-background))
+        display: none;
       }
     {% endif %}
 

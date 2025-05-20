@@ -753,6 +753,8 @@
         "descr": "Making space for care",
         "heading_size": "h1",
         "title_alignment": "center",
+        "title_color": "#ffffff",
+        "subheading_color": "#ffffff",
         "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
         "heading_color_scheme": "",
         "columns_desktop": "3",
@@ -769,7 +771,6 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Concept_20.png",
-            "logo_image": "shopify://shop_images/Steriloop_logo.svg",
             "offer_title": "",
             "heading": "<p>Introducing the registered WireLoop Shape Mark and SteriLoop™ innovation</p>",
             "heading_size": "h1",
@@ -783,7 +784,6 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Concept_20.png",
-            "logo_image": "shopify://shop_images/Steriloop_logo.svg",
             "offer_title": "",
             "heading": "<p>Introducing the registered WireLoop Shape Mark andSteriLoop™ innovation</p>",
             "heading_size": "h1",
@@ -797,7 +797,6 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Concept_20.png",
-            "logo_image": "shopify://shop_images/Steriloop_logo.svg",
             "offer_title": "",
             "heading": "<p>Introducing the registered WireLoop Shape Mark andSteriLoop™ innovation</p>",
             "heading_size": "h0",
@@ -811,7 +810,6 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Concept_20.png",
-            "logo_image": "shopify://shop_images/Steriloop_logo.svg",
             "offer_title": "",
             "heading": "<p>Introducing the registered WireLoop Shape Mark andSteriLoop™ innovation</p>",
             "heading_size": "h0",
@@ -825,7 +823,6 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Concept_20.png",
-            "logo_image": "shopify://shop_images/Steriloop_logo.svg",
             "offer_title": "",
             "heading": "<p>Introducing the registered WireLoop Shape Mark andSteriLoop™ innovation</p>",
             "heading_size": "h0",
@@ -839,7 +836,6 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Concept_20.png",
-            "logo_image": "shopify://shop_images/Steriloop_logo.svg",
             "offer_title": "",
             "heading": "<p>Introducing the registered WireLoop Shape Mark andSteriLoop™ innovation</p>",
             "heading_size": "h0",
@@ -853,7 +849,6 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Concept_20.png",
-            "logo_image": "shopify://shop_images/Steriloop_logo.svg",
             "offer_title": "",
             "heading": "<p>Introducing the registered WireLoop Shape Mark andSteriLoop™ innovation</p>",
             "heading_size": "h0",
@@ -876,6 +871,8 @@
       "settings": {
         "heading": "",
         "sec_des": "",
+        "title_color": "#ffffff",
+        "subheading_color": "#ffffff",
         "title_alignment": "left",
         "heading_size": "h1",
         "layout": "image_first",
@@ -886,10 +883,8 @@
         "mobile_content_alignment": "left",
         "show_button_on_image": true,
         "show_half_slide": true,
-        "content_bg": "#f5f5f5",
-        "content_text_color": "#424242",
-        "btn_bg": "#ffce00",
-        "btn_text": "#424242",
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "section_color_scheme": "",
         "offer_title_color": "#ffce00",
         "show_pagination": true,
         "padding_top": 40,
@@ -1003,6 +998,8 @@
       "settings": {
         "heading": "Testimonials and case studies",
         "sec_des": "<p>World-class reputation</p>",
+        "title_color": "#ffffff",
+        "subheading_color": "#ffffff",
         "title_alignment": "center",
         "heading_size": "h1",
         "layout": "image_first",
@@ -1013,10 +1010,8 @@
         "mobile_content_alignment": "left",
         "show_button_on_image": true,
         "show_half_slide": false,
-        "content_bg": "#f5f5f5",
-        "content_text_color": "#424242",
-        "btn_bg": "#ffce00",
-        "btn_text": "#424242",
+        "color_scheme": "",
+        "section_color_scheme": "",
         "offer_title_color": "#ffce00",
         "show_pagination": true,
         "padding_top": 50,

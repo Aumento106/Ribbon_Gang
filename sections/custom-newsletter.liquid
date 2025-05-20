@@ -18,6 +18,9 @@
   .section--{{ section.id }} .newsletter-form__field-wrapper input {
     color: {{ section.settings.section_text }};
   }
+  .section--{{ section.id }} .newsletter-form__field-wrapper .button {
+    background: {{ section.settings.button_background }};
+  }
 
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
@@ -180,6 +183,12 @@
       "id": "section_text",
       "label": "Section Text",
       "default": "#424242"
+    },
+    {
+      "type": "color",
+      "id": "button_background",
+      "label": "Button Background",
+      "default": "#121212"
     },
     {
       "type": "checkbox",

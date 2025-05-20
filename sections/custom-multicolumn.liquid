@@ -1,4 +1,4 @@
-{{ 'section-multicolumn-box-with-image.css' | asset_url | stylesheet_tag }}
+ {{ 'section-multicolumn-box-with-image.css' | asset_url | stylesheet_tag }}
 {{ 'custom-multicolumn-with-image.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
@@ -7,6 +7,12 @@
     padding-bottom: {{ section.settings.padding_bottom | times: 0.55 | round: 0 }}px;
     margin-top: {{ section.settings.margin_top | times: 0.55 | round: 0 }}px;
     margin-bottom: {{ section.settings.margin_bottom | times: 0.55 | round: 0 }}px;
+  }
+  .section-{{ section.id }}-padding .title {
+    color: {{ section.settings.title_color }};
+  }
+  .section-{{ section.id }}-padding .section-sub-title {
+    color: {{ section.settings.subheading_color }};
   }
 
   @media screen and (min-width: 750px) {
@@ -103,6 +109,18 @@
       "id": "sec_subtitle",
       "default": "Subtitle",
       "label": "Section subtitle"
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Title Color",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "subheading_color",
+      "label": "SubHeading Color",
+      "default": "#fff"
     },
     {
       "type": "text",

@@ -151,6 +151,8 @@
             ],
             "product_list_sec_title": "MEDIBIN™ System",
             "product_list_subtitle": "(lorem ipsum)",
+            "hotspot_bg": "#ffffff",
+            "hotspot_text_coor": "#121212",
             "top_position": 37,
             "left_position": 65
           }
@@ -169,6 +171,8 @@
             ],
             "product_list_sec_title": "STERIRACK® Benching",
             "product_list_subtitle": "(lorem ipsum)",
+            "hotspot_bg": "#ffffff",
+            "hotspot_text_coor": "#424242",
             "top_position": 55,
             "left_position": 55
           }
@@ -187,6 +191,8 @@
             ],
             "product_list_sec_title": "STERIRACK® Storage Modules",
             "product_list_subtitle": "(lorem ipsum)",
+            "hotspot_bg": "#ffffff",
+            "hotspot_text_coor": "#424242",
             "top_position": 40,
             "left_position": 24
           }
@@ -205,6 +211,8 @@
             ],
             "product_list_sec_title": "STERIRACK® Standard Baskets - 100mmH",
             "product_list_subtitle": "(lorem ipsum)",
+            "hotspot_bg": "#ffffff",
+            "hotspot_text_coor": "#424242",
             "top_position": 49,
             "left_position": 28
           }
@@ -223,6 +231,8 @@
             ],
             "product_list_sec_title": "STERIRACK® Pharmacy Drawers",
             "product_list_subtitle": "(lorem ipsum)",
+            "hotspot_bg": "#ffffff",
+            "hotspot_text_coor": "#424242",
             "top_position": 54,
             "left_position": 35
           }
@@ -241,6 +251,8 @@
             ],
             "product_list_sec_title": "STERIRACK® Standard Baskets - 300mmH",
             "product_list_subtitle": "(lorem ipsum)",
+            "hotspot_bg": "#ffffff",
+            "hotspot_text_coor": "#424242",
             "top_position": 60,
             "left_position": 24
           }
@@ -259,6 +271,8 @@
             ],
             "product_list_sec_title": "STERIRACK® Colour Coded Labelling",
             "product_list_subtitle": "(lorem ipsum)",
+            "hotspot_bg": "#ffffff",
+            "hotspot_text_coor": "#424242",
             "top_position": 64,
             "left_position": 56
           }
@@ -277,6 +291,8 @@
             ],
             "product_list_sec_title": "STERIRACK® Colour Coded Post Strips",
             "product_list_subtitle": "(lorem ipsum)",
+            "hotspot_bg": "#ffffff",
+            "hotspot_text_coor": "#424242",
             "top_position": 70,
             "left_position": 60
           }
@@ -356,6 +372,8 @@
             ],
             "product_list_sec_title": "lorem ipsum",
             "product_list_subtitle": "(lorem ipsum)",
+            "hotspot_bg": "#ffffff",
+            "hotspot_text_coor": "#424242",
             "top_position": 45,
             "left_position": 77
           }
@@ -374,6 +392,8 @@
             ],
             "product_list_sec_title": "lorem ipsum",
             "product_list_subtitle": "(lorem ipsum)",
+            "hotspot_bg": "#ffffff",
+            "hotspot_text_coor": "#424242",
             "top_position": 53,
             "left_position": 53
           }
@@ -392,6 +412,8 @@
             ],
             "product_list_sec_title": "lorem ipsum",
             "product_list_subtitle": "(lorem ipsum)",
+            "hotspot_bg": "#ffffff",
+            "hotspot_text_coor": "#424242",
             "top_position": 58,
             "left_position": 59
           }
@@ -410,6 +432,8 @@
             ],
             "product_list_sec_title": "lorem ipsum",
             "product_list_subtitle": "(lorem ipsum)",
+            "hotspot_bg": "#ffffff",
+            "hotspot_text_coor": "#424242",
             "top_position": 34,
             "left_position": 30
           }
@@ -428,6 +452,8 @@
             ],
             "product_list_sec_title": "lorem ipsum",
             "product_list_subtitle": "(lorem ipsum)",
+            "hotspot_bg": "#ffffff",
+            "hotspot_text_coor": "#424242",
             "top_position": 49,
             "left_position": 35
           }
@@ -446,6 +472,8 @@
             ],
             "product_list_sec_title": "lorem ipsum",
             "product_list_subtitle": "(lorem ipsum)",
+            "hotspot_bg": "#ffffff",
+            "hotspot_text_coor": "#424242",
             "top_position": 70,
             "left_position": 46
           }
@@ -464,6 +492,8 @@
             ],
             "product_list_sec_title": "lorem ipsum",
             "product_list_subtitle": "(lorem ipsum)",
+            "hotspot_bg": "#ffffff",
+            "hotspot_text_coor": "#424242",
             "top_position": 70,
             "left_position": 25
           }
@@ -482,6 +512,8 @@
             ],
             "product_list_sec_title": "lorem ipsum",
             "product_list_subtitle": "(lorem ipsum)",
+            "hotspot_bg": "#ffffff",
+            "hotspot_text_coor": "#424242",
             "top_position": 71,
             "left_position": 69
           }
@@ -1054,6 +1086,8 @@
             ],
             "product_list_sec_title": "lorem ipsum",
             "product_list_subtitle": "(lorem ipsum)",
+            "hotspot_bg": "#ffffff",
+            "hotspot_text_coor": "#424242",
             "top_position": 50,
             "left_position": 25
           }
@@ -1072,6 +1106,8 @@
             ],
             "product_list_sec_title": "lorem ipsum",
             "product_list_subtitle": "(lorem ipsum)",
+            "hotspot_bg": "#ffffff",
+            "hotspot_text_coor": "#424242",
             "top_position": 40,
             "left_position": 50
           }
@@ -1090,6 +1126,8 @@
             ],
             "product_list_sec_title": "lorem ipsum",
             "product_list_subtitle": "(lorem ipsum)",
+            "hotspot_bg": "#ffffff",
+            "hotspot_text_coor": "#424242",
             "top_position": 62,
             "left_position": 45
           }
@@ -1108,6 +1146,8 @@
             ],
             "product_list_sec_title": "lorem ipsum",
             "product_list_subtitle": "(lorem ipsum)",
+            "hotspot_bg": "#ffffff",
+            "hotspot_text_coor": "#424242",
             "top_position": 75,
             "left_position": 52
           }
@@ -1126,6 +1166,8 @@
             ],
             "product_list_sec_title": "lorem ipsum",
             "product_list_subtitle": "(lorem ipsum)",
+            "hotspot_bg": "#ffffff",
+            "hotspot_text_coor": "#424242",
             "top_position": 75,
             "left_position": 69
           }
@@ -1144,6 +1186,8 @@
             ],
             "product_list_sec_title": "lorem ipsum",
             "product_list_subtitle": "(lorem ipsum)",
+            "hotspot_bg": "#ffffff",
+            "hotspot_text_coor": "#424242",
             "top_position": 55,
             "left_position": 74
           }
@@ -1162,6 +1206,8 @@
             ],
             "product_list_sec_title": "lorem ipsum",
             "product_list_subtitle": "(lorem ipsum)",
+            "hotspot_bg": "#ffffff",
+            "hotspot_text_coor": "#424242",
             "top_position": 38,
             "left_position": 68
           }

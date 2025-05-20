@@ -55,6 +55,7 @@
     }
     .custom-image-banner  #popup-{{ block.id }} {
       color: {{ block.settings.hotspot_text_coor }};
+      background: {{ block.settings.hotspot_bg }};
     }
 
     @media screen and (max-width: 989px) {
@@ -496,6 +497,12 @@
           "id": "product_list_subtitle",
           "default": "Section subtitle",
           "label": "Section subtitle"
+        },
+        {
+          "type": "color",
+          "id": "hotspot_bg",
+          "label": "Hotspot Background Color",
+          "default": "#fff"
         },
         {
           "type": "color",

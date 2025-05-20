@@ -53,6 +53,9 @@
       top: {{ block.settings.top_position }}%;
       left: {{ block.settings.left_position }}%;
     }
+    .custom-image-banner  #popup-{{ block.id }} {
+      color: {{ block.settings.hotspot_text_coor }};
+    }
 
     @media screen and (max-width: 989px) {
       .custom-image-banner .banner__buttons-{{ block.id }} {
@@ -112,7 +115,7 @@
 {% for block in section.blocks %}
   {%- case block.type -%}
     {%- when 'hotspot_button' -%}
-      <div id="popup-{{ block.id }}" class="hotspot-product-list-main color-{{ block.settings.hotspot_color_scheme }}">
+      <div id="popup-{{ block.id }}" class="hotspot-product-list-main">
         <div class="hotspot-product-list-wrap">
           <div class="close-btn">
             <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -495,10 +498,10 @@
           "label": "Section subtitle"
         },
         {
-          "type": "color_scheme",
-          "id": "hotspot_color_scheme",
-          "label": "Popup color scheme",
-          "default": "scheme-1"
+          "type": "color",
+          "id": "hotspot_text_coor",
+          "label": "Hotspot Text Color",
+          "default": "#424242"
         },
         {
           "type": "header",

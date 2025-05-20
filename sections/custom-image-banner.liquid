@@ -54,8 +54,10 @@
       left: {{ block.settings.left_position }}%;
     }
     .custom-image-banner  #popup-{{ block.id }} {
-      color: {{ block.settings.hotspot_text_coor }};
       background: {{ block.settings.hotspot_bg }};
+    }
+    .custom-image-banner  #popup-{{ block.id }} > * {
+      color: {{ block.settings.hotspot_text_coor }};
     }
 
     @media screen and (max-width: 989px) {

@@ -8,6 +8,12 @@
     padding-top: {{ section.settings.padding_top | times: 0.55 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.55 | round: 0 }}px;
   }
+  .section-{{ section.id }} .Custom_image_text_slider .image-with-text {
+    background-color: {{ section.settings.content_bg }};
+  }
+  .Custom_image_text_slider .image-with-text__content .sec-head > * {
+    color: {{ section.settings.content_text_color }};
+  }
 
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
@@ -395,7 +401,18 @@
       "label": "Show half slides from both sides",
       "default": true
     },
-    
+    {
+      "type": "color",
+      "label": "Content Background",
+      "id": "content_bg",
+      "default": "#f5f5f5"
+    },
+    {
+      "type": "color",
+      "label": "Content Text Color",
+      "id": "content_text_color",
+      "default": "#424242"
+    },
     {
       "type": "color",
       "id": "offer_title_color",

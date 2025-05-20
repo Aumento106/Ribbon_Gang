@@ -8,6 +8,10 @@
     margin-top: {{ section.settings.margin_top | times: 0.4 | round: 0 }}px;
     margin-bottom: {{ section.settings.margin_bottom | times: 0.4 | round: 0 }}px;
   }
+  .multi-column-box-with-image.section-{{ section.id }} {
+    background-color: {{ section.settings.multicolumn_bg_color }};
+    color: {{ section.settings.multicolumn_text_color }};
+  }
 
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
@@ -28,7 +32,7 @@
   }
 {%- endstyle -%}
 
-<div class="multi-column-box-with-image section-{{ section.id }} section-{{ section.id }}-padding color-{{ section.settings.color_scheme }} gradient">
+<div class="multi-column-box-with-image section-{{ section.id }} section-{{ section.id }}-padding">
   <div class="multicolumn-box page-width">
     {%- if section.settings.title != blank -%}
       <div class="sec-head section-title-alignment-{{ section.settings.title_alignment }}">
@@ -155,10 +159,16 @@
       "label": "Section title alignment"
     },
     {
-      "type": "color_scheme",
-      "id": "color_scheme",
-      "label": "t:sections.all.colors.label",
-      "default": "scheme-1"
+      "type": "color",
+      "id": "multicolumn_bg_color",
+      "label": "Multicolumn Background",
+      "default": "#b2afa6"
+    },
+    {
+      "type": "color",
+      "id": "multicolumn_text_color",
+      "label": "Multicolumn Text Color",
+      "default": "#fff"
     },
     {
       "type": "header",

@@ -7,7 +7,7 @@
   {%- style -%}
     {%- for block in section.blocks -%}
       {% if block.settings.btn_bg != blank %}
-        #Slider-{{ section.id }} .banner__buttons .button {
+        .section-{{ section.id }}-padding .banner__buttons .button {
           background-color: {{ block.settings.btn_bg }};
           color: {{ block.settings.btn_text_color }};
         }

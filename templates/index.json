@@ -637,6 +637,7 @@
           "settings": {
             "image": "shopify://shop_images/Home_7.png",
             "tag_text": "New innovation!",
+            "tag_text_color": "#ffce00",
             "logo_image": "shopify://shop_images/Steriloop_logo.svg",
             "heading": "<p>Silicon mats</p>",
             "heading_size": "h1",
@@ -647,9 +648,8 @@
             "box_align": "middle-left",
             "show_text_box": false,
             "text_alignment": "center",
-            "tag_text_color": "#ffce00",
+            "color_scheme": "",
             "btn_bg": "#c45500",
-            "btn_text_color": "#ffffff",
             "text_alignment_mobile": "center"
           }
         },
@@ -658,6 +658,7 @@
           "settings": {
             "image": "shopify://shop_images/Home_9.png",
             "tag_text": "Popular!",
+            "tag_text_color": "#424242",
             "logo_image": "shopify://shop_images/Steriloop_logo.svg",
             "heading": "<p>Suture racks</p>",
             "heading_size": "h1",
@@ -668,9 +669,8 @@
             "box_align": "middle-left",
             "show_text_box": false,
             "text_alignment": "center",
-            "tag_text_color": "#424242",
+            "color_scheme": "",
             "btn_bg": "#ffce00",
-            "btn_text_color": "#ffffff",
             "text_alignment_mobile": "center"
           }
         },
@@ -679,6 +679,7 @@
           "settings": {
             "image": "shopify://shop_images/Home_6.png",
             "tag_text": "Best seller!",
+            "tag_text_color": "#424242",
             "logo_image": "shopify://shop_images/Steriloop_logo.svg",
             "heading": "<p>Basket dividers</p>",
             "heading_size": "h0",
@@ -689,9 +690,8 @@
             "box_align": "middle-left",
             "show_text_box": false,
             "text_alignment": "center",
-            "tag_text_color": "#424242",
+            "color_scheme": "",
             "btn_bg": "#ffce00",
-            "btn_text_color": "#ffffff",
             "text_alignment_mobile": "center"
           }
         }
@@ -717,6 +717,7 @@
           "settings": {
             "title": "Service",
             "text": "<ul><li>All-in-one  and beginning-to-end</li><li>Project consultation with 2D and 3D visualisations</li><li>Custom solutions and innovate designs</li><li>Precision planning and seamless execution</li></ul>",
+            "text-v": "",
             "button-text": "Find out more",
             "button-url": "shopify://collections"
           }
@@ -726,6 +727,7 @@
           "settings": {
             "title": "Focus",
             "text": "<ul><li>Clinical storage solutions</li><li>Infection control andsafety focus</li><li>Optimised workflow</li><li>Sterile and non-sterile options</li><li>Optimised workflow</li></ul>",
+            "text-v": "",
             "button-text": "Find out more",
             "button-url": "shopify://collections"
           }
@@ -735,6 +737,7 @@
           "settings": {
             "title": "Quality",
             "text": "<ul><li>Gold standard STERIRACK®  System</li><li>Patented excellence</li><li>Compliance with safety standards</li><li>Ergonomic design</li><li>Patented excellence</li></ul>",
+            "text-v": "",
             "button-text": "Find out more",
             "button-url": "shopify://collections"
           }
@@ -750,14 +753,11 @@
         "descr": "Making space for care",
         "heading_size": "h1",
         "title_alignment": "center",
+        "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
+        "heading_color_scheme": "",
         "columns_desktop": "3",
         "box_shadow": false,
-        "multicolumn_bg_color": "#b2afa6",
-        "multicolumn_text_color": "#ffffff",
-        "box_background": "#ffffff",
-        "box_text_color": "#424242",
-        "multicolumn_btn_ng_color": "#ffce00",
-        "multicolumn_btn_text": "#ffffff",
+        "box_color_scheme": "",
         "padding_top": 50,
         "padding_bottom": 50
       }

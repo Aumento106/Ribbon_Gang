@@ -6,6 +6,12 @@
     padding-top: {{ section.settings.padding_top | times: 0.55 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.55 | round: 0 }}px;
   }
+  .section-{{ section.id }}-padding .title {
+    color: {{ section.settings.title_color }};
+  }
+  .section-{{ section.id }}-padding .multicolumn-section-subtitle {
+    color: {{ section.settings.subheading_color }};
+  }
 
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
@@ -136,6 +142,18 @@
         ],
         "default": "center",
         "label": "Section title alignment"
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Title Color",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "subheading_color",
+      "label": "SubHeading Color",
+      "default": "#fff"
     },
     {
       "type": "color_scheme",

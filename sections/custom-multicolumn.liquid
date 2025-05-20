@@ -19,6 +19,9 @@
     background-color: {{ section.settings.multicolumn_btn_ng_color }};
     color: {{ section.settings.multicolumn_btn_text }};
   }
+  .multi-column-box-with-image.section-{{ section.id }} .multicolumn-box-bottom-con .button::after {
+    display: none;
+  }
 
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {

@@ -111,14 +111,16 @@
           "type": "heading",
           "settings": {
             "heading": "Clean Utilities and Medication Rooms",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "heading_color": "#000000"
           }
         },
         "text_t9P8ME": {
           "type": "text",
           "settings": {
             "text": "Ollie: Text to go here.",
-            "text_style": "subtitle"
+            "text_style": "subtitle",
+            "subheading_color": "#000000"
           }
         },
         "buttons_3efdfV": {
@@ -130,7 +132,9 @@
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false,
-            "botton_position": 50
+            "botton_position": 50,
+            "btn_bg": "#ffce00",
+            "button_color": "#ffffff"
           }
         },
         "hotspot_button_VaQwGY": {
@@ -147,7 +151,6 @@
             ],
             "product_list_sec_title": "MEDIBIN™ System",
             "product_list_subtitle": "(lorem ipsum)",
-            "hotspot_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
             "top_position": 37,
             "left_position": 65
           }
@@ -166,7 +169,6 @@
             ],
             "product_list_sec_title": "STERIRACK® Benching",
             "product_list_subtitle": "(lorem ipsum)",
-            "hotspot_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
             "top_position": 55,
             "left_position": 55
           }
@@ -185,7 +187,6 @@
             ],
             "product_list_sec_title": "STERIRACK® Storage Modules",
             "product_list_subtitle": "(lorem ipsum)",
-            "hotspot_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
             "top_position": 40,
             "left_position": 24
           }
@@ -204,7 +205,6 @@
             ],
             "product_list_sec_title": "STERIRACK® Standard Baskets - 100mmH",
             "product_list_subtitle": "(lorem ipsum)",
-            "hotspot_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
             "top_position": 49,
             "left_position": 28
           }
@@ -223,7 +223,6 @@
             ],
             "product_list_sec_title": "STERIRACK® Pharmacy Drawers",
             "product_list_subtitle": "(lorem ipsum)",
-            "hotspot_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
             "top_position": 54,
             "left_position": 35
           }
@@ -242,7 +241,6 @@
             ],
             "product_list_sec_title": "STERIRACK® Standard Baskets - 300mmH",
             "product_list_subtitle": "(lorem ipsum)",
-            "hotspot_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
             "top_position": 60,
             "left_position": 24
           }
@@ -261,7 +259,6 @@
             ],
             "product_list_sec_title": "STERIRACK® Colour Coded Labelling",
             "product_list_subtitle": "(lorem ipsum)",
-            "hotspot_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
             "top_position": 64,
             "left_position": 56
           }
@@ -280,7 +277,6 @@
             ],
             "product_list_sec_title": "STERIRACK® Colour Coded Post Strips",
             "product_list_subtitle": "(lorem ipsum)",
-            "hotspot_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
             "top_position": 70,
             "left_position": 60
           }
@@ -320,14 +316,16 @@
           "type": "heading",
           "settings": {
             "heading": "CSSD and Theatre Stores",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "heading_color": "#000000"
           }
         },
         "text_dRjWew": {
           "type": "text",
           "settings": {
             "text": "Smarter storage, safer care",
-            "text_style": "subtitle"
+            "text_style": "subtitle",
+            "subheading_color": "#000000"
           }
         },
         "buttons_YfcGj9": {
@@ -339,7 +337,9 @@
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false,
-            "botton_position": 50
+            "botton_position": 50,
+            "btn_bg": "#ffce00",
+            "button_color": "#ffffff"
           }
         },
         "hotspot_button_WRJ9bt": {
@@ -356,7 +356,6 @@
             ],
             "product_list_sec_title": "lorem ipsum",
             "product_list_subtitle": "(lorem ipsum)",
-            "hotspot_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
             "top_position": 45,
             "left_position": 77
           }
@@ -375,7 +374,6 @@
             ],
             "product_list_sec_title": "lorem ipsum",
             "product_list_subtitle": "(lorem ipsum)",
-            "hotspot_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
             "top_position": 53,
             "left_position": 53
           }
@@ -394,7 +392,6 @@
             ],
             "product_list_sec_title": "lorem ipsum",
             "product_list_subtitle": "(lorem ipsum)",
-            "hotspot_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
             "top_position": 58,
             "left_position": 59
           }
@@ -413,7 +410,6 @@
             ],
             "product_list_sec_title": "lorem ipsum",
             "product_list_subtitle": "(lorem ipsum)",
-            "hotspot_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
             "top_position": 34,
             "left_position": 30
           }
@@ -432,7 +428,6 @@
             ],
             "product_list_sec_title": "lorem ipsum",
             "product_list_subtitle": "(lorem ipsum)",
-            "hotspot_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
             "top_position": 49,
             "left_position": 35
           }
@@ -451,7 +446,6 @@
             ],
             "product_list_sec_title": "lorem ipsum",
             "product_list_subtitle": "(lorem ipsum)",
-            "hotspot_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
             "top_position": 70,
             "left_position": 46
           }
@@ -470,7 +464,6 @@
             ],
             "product_list_sec_title": "lorem ipsum",
             "product_list_subtitle": "(lorem ipsum)",
-            "hotspot_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
             "top_position": 70,
             "left_position": 25
           }
@@ -489,7 +482,6 @@
             ],
             "product_list_sec_title": "lorem ipsum",
             "product_list_subtitle": "(lorem ipsum)",
-            "hotspot_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
             "top_position": 71,
             "left_position": 69
           }
@@ -1022,14 +1014,16 @@
           "type": "heading",
           "settings": {
             "heading": "STERIRACK® Overhead Rail Units",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "heading_color": "#000000"
           }
         },
         "text_qUDXLE": {
           "type": "text",
           "settings": {
             "text": "",
-            "text_style": "subtitle"
+            "text_style": "subtitle",
+            "subheading_color": "#000000"
           }
         },
         "buttons_7Dnmnc": {
@@ -1041,7 +1035,9 @@
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false,
-            "botton_position": 50
+            "botton_position": 50,
+            "btn_bg": "#ffce00",
+            "button_color": "#ffffff"
           }
         },
         "hotspot_button_MBwgy9": {
@@ -1058,7 +1054,6 @@
             ],
             "product_list_sec_title": "lorem ipsum",
             "product_list_subtitle": "(lorem ipsum)",
-            "hotspot_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
             "top_position": 50,
             "left_position": 25
           }
@@ -1077,7 +1072,6 @@
             ],
             "product_list_sec_title": "lorem ipsum",
             "product_list_subtitle": "(lorem ipsum)",
-            "hotspot_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
             "top_position": 40,
             "left_position": 50
           }
@@ -1096,7 +1090,6 @@
             ],
             "product_list_sec_title": "lorem ipsum",
             "product_list_subtitle": "(lorem ipsum)",
-            "hotspot_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
             "top_position": 62,
             "left_position": 45
           }
@@ -1115,7 +1108,6 @@
             ],
             "product_list_sec_title": "lorem ipsum",
             "product_list_subtitle": "(lorem ipsum)",
-            "hotspot_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
             "top_position": 75,
             "left_position": 52
           }
@@ -1134,7 +1126,6 @@
             ],
             "product_list_sec_title": "lorem ipsum",
             "product_list_subtitle": "(lorem ipsum)",
-            "hotspot_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
             "top_position": 75,
             "left_position": 69
           }
@@ -1153,7 +1144,6 @@
             ],
             "product_list_sec_title": "lorem ipsum",
             "product_list_subtitle": "(lorem ipsum)",
-            "hotspot_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
             "top_position": 55,
             "left_position": 74
           }
@@ -1172,7 +1162,6 @@
             ],
             "product_list_sec_title": "lorem ipsum",
             "product_list_subtitle": "(lorem ipsum)",
-            "hotspot_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
             "top_position": 38,
             "left_position": 68
           }
@@ -1277,7 +1266,7 @@
     "product_catalog_VjYNFG": {
       "type": "product-catalog",
       "settings": {
-        "product_image": "shopify://shop_images/image_104.png",
+        "product_image": "shopify://shop_images/Product_catalogue_cover.png",
         "logo_link": "",
         "heading": "<p>Product catalogue</p>",
         "heading_size": "h1",
@@ -1286,8 +1275,8 @@
         "button_1_text": "View catalogue",
         "button_1_link": "https://online.flippingbook.com/view/393434/",
         "reverse_column": true,
-        "padding_top": 20,
-        "padding_bottom": 20
+        "padding_top": 40,
+        "padding_bottom": 30
       }
     },
     "proudly_support_NnMGAw": {

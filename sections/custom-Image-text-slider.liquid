@@ -8,18 +8,11 @@
     padding-top: {{ section.settings.padding_top | times: 0.55 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.55 | round: 0 }}px;
   }
-  .section-{{ section.id }} .Custom_image_text_slider .image-with-text {
-    background-color: {{ section.settings.content_bg }};
+  .section-{{ section.id }}-padding .title {
+    color: {{ section.settings.title_color }};
   }
-  .Custom_image_text_slider .image-with-text__media-item .image-text-con-buttons {
-    background-color: {{ section.settings.btn_bg }};
-    color: {{ section.settings.btn_text }};
-  }
-  .Custom_image_text_slider .image-with-text__media-item .image-text-con-buttons::after {
-    display: none;
-  }
-  .Custom_image_text_slider .image-with-text__content .sec-head > * {
-    color: {{ section.settings.content_text_color }};
+  .section-{{ section.id }}-padding .section-des {
+    color: {{ section.settings.subheading_color }};
   }
 
   @media screen and (min-width: 750px) {
@@ -151,11 +144,6 @@
                 </div>
                 <div class="image-with-text__text-item grid__item">
                   <div class="image-with-text__content image-with-text__content--{{ section.settings.desktop_content_position }} image-with-text__content--desktop-{{ section.settings.desktop_content_alignment }} image-with-text__content--mobile-{{ section.settings.mobile_content_alignment }} image-with-text__content--{{ section.settings.height }} content-container{% unless remove_color_classes %}{% else %} background-transparent{% endunless %}">
-                    {% if block.settings.logo_image != blank %}
-                      <div class="logo-img">
-                        {{ block.settings.logo_image | image_url: width: 152 | image_tag }}
-                      </div>
-                    {% endif %}
                     <h3 class="offer-title">{{ block.settings.offer_title }}</h3>
                     {%- if block.settings.heading != blank or block.settings.text != blank -%}
                       <div class="sec-head">
@@ -234,6 +222,18 @@
       "type": "richtext",
       "id": "sec_des",
       "label": "Section description"
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Title Color",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "subheading_color",
+      "label": "SubHeading Color",
+      "default": "#fff"
     },
     {
       "type": "select",
@@ -409,28 +409,16 @@
       "default": true
     },
     {
-      "type": "color",
-      "label": "Content Background",
-      "id": "content_bg",
-      "default": "#f5f5f5"
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Content colors",
+      "default": "scheme-1"
     },
     {
-      "type": "color",
-      "label": "Content Text Color",
-      "id": "content_text_color",
-      "default": "#424242"
-    },
-    {
-      "type": "color",
-      "id": "btn_bg",
-      "label": "Button Background",
-      "default": "#ffce00"
-    },
-    {
-      "type": "color",
-      "id": "btn_text",
-      "label": "Button Text",
-      "default": "#424242"
+      "type": "color_scheme",
+      "id": "section_color_scheme",
+      "label": "Section colors",
+      "default": "scheme-1"
     },
     {
       "type": "color",
@@ -483,11 +471,6 @@
           "type": "image_picker",
           "id": "image",
           "label": "Image"
-        },
-        {
-          "type": "image_picker",
-          "id": "logo_image",
-          "label": "Logo image"
         },
         {
           "type": "richtext",

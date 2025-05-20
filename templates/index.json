@@ -111,16 +111,14 @@
           "type": "heading",
           "settings": {
             "heading": "Clean Utilities and Medication Rooms",
-            "heading_size": "h1",
-            "heading_color": "#000000"
+            "heading_size": "h1"
           }
         },
         "text_t9P8ME": {
           "type": "text",
           "settings": {
             "text": "Ollie: Text to go here.",
-            "text_style": "subtitle",
-            "subheading_color": "#000000"
+            "text_style": "subtitle"
           }
         },
         "buttons_3efdfV": {
@@ -132,9 +130,7 @@
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false,
-            "botton_position": 50,
-            "btn_bg": "#ffce00",
-            "button_color": "#ffffff"
+            "botton_position": 50
           }
         },
         "hotspot_button_VaQwGY": {
@@ -151,8 +147,7 @@
             ],
             "product_list_sec_title": "MEDIBIN™ System",
             "product_list_subtitle": "(lorem ipsum)",
-            "hotspot_bg": "#ffffff",
-            "hotspot_text_coor": "#121212",
+            "hotspot_color_scheme": "",
             "top_position": 37,
             "left_position": 65
           }
@@ -171,8 +166,7 @@
             ],
             "product_list_sec_title": "STERIRACK® Benching",
             "product_list_subtitle": "(lorem ipsum)",
-            "hotspot_bg": "#ffffff",
-            "hotspot_text_coor": "#424242",
+            "hotspot_color_scheme": "",
             "top_position": 55,
             "left_position": 55
           }
@@ -191,8 +185,7 @@
             ],
             "product_list_sec_title": "STERIRACK® Storage Modules",
             "product_list_subtitle": "(lorem ipsum)",
-            "hotspot_bg": "#ffffff",
-            "hotspot_text_coor": "#424242",
+            "hotspot_color_scheme": "",
             "top_position": 40,
             "left_position": 24
           }
@@ -211,8 +204,7 @@
             ],
             "product_list_sec_title": "STERIRACK® Standard Baskets - 100mmH",
             "product_list_subtitle": "(lorem ipsum)",
-            "hotspot_bg": "#ffffff",
-            "hotspot_text_coor": "#424242",
+            "hotspot_color_scheme": "",
             "top_position": 49,
             "left_position": 28
           }
@@ -231,8 +223,7 @@
             ],
             "product_list_sec_title": "STERIRACK® Pharmacy Drawers",
             "product_list_subtitle": "(lorem ipsum)",
-            "hotspot_bg": "#ffffff",
-            "hotspot_text_coor": "#424242",
+            "hotspot_color_scheme": "",
             "top_position": 54,
             "left_position": 35
           }
@@ -251,8 +242,7 @@
             ],
             "product_list_sec_title": "STERIRACK® Standard Baskets - 300mmH",
             "product_list_subtitle": "(lorem ipsum)",
-            "hotspot_bg": "#ffffff",
-            "hotspot_text_coor": "#424242",
+            "hotspot_color_scheme": "",
             "top_position": 60,
             "left_position": 24
           }
@@ -271,8 +261,7 @@
             ],
             "product_list_sec_title": "STERIRACK® Colour Coded Labelling",
             "product_list_subtitle": "(lorem ipsum)",
-            "hotspot_bg": "#ffffff",
-            "hotspot_text_coor": "#424242",
+            "hotspot_color_scheme": "",
             "top_position": 64,
             "left_position": 56
           }
@@ -291,8 +280,7 @@
             ],
             "product_list_sec_title": "STERIRACK® Colour Coded Post Strips",
             "product_list_subtitle": "(lorem ipsum)",
-            "hotspot_bg": "#ffffff",
-            "hotspot_text_coor": "#424242",
+            "hotspot_color_scheme": "",
             "top_position": 70,
             "left_position": 60
           }
@@ -316,8 +304,10 @@
         "image": "shopify://shop_images/Home_23.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
+        "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
+        "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "padding_top": 0,
@@ -331,16 +321,14 @@
           "type": "heading",
           "settings": {
             "heading": "CSSD and Theatre Stores",
-            "heading_size": "h1",
-            "heading_color": "#000000"
+            "heading_size": "h1"
           }
         },
         "text_dRjWew": {
           "type": "text",
           "settings": {
             "text": "Smarter storage, safer care",
-            "text_style": "subtitle",
-            "subheading_color": "#000000"
+            "text_style": "subtitle"
           }
         },
         "buttons_YfcGj9": {
@@ -352,9 +340,7 @@
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false,
-            "botton_position": 50,
-            "btn_bg": "#ffce00",
-            "button_color": "#ffffff"
+            "botton_position": 50
           }
         },
         "hotspot_button_WRJ9bt": {
@@ -371,8 +357,7 @@
             ],
             "product_list_sec_title": "lorem ipsum",
             "product_list_subtitle": "(lorem ipsum)",
-            "hotspot_bg": "#ffffff",
-            "hotspot_text_coor": "#424242",
+            "hotspot_color_scheme": "",
             "top_position": 45,
             "left_position": 77
           }
@@ -391,8 +376,7 @@
             ],
             "product_list_sec_title": "lorem ipsum",
             "product_list_subtitle": "(lorem ipsum)",
-            "hotspot_bg": "#ffffff",
-            "hotspot_text_coor": "#424242",
+            "hotspot_color_scheme": "",
             "top_position": 53,
             "left_position": 53
           }
@@ -411,8 +395,7 @@
             ],
             "product_list_sec_title": "lorem ipsum",
             "product_list_subtitle": "(lorem ipsum)",
-            "hotspot_bg": "#ffffff",
-            "hotspot_text_coor": "#424242",
+            "hotspot_color_scheme": "",
             "top_position": 58,
             "left_position": 59
           }
@@ -431,8 +414,7 @@
             ],
             "product_list_sec_title": "lorem ipsum",
             "product_list_subtitle": "(lorem ipsum)",
-            "hotspot_bg": "#ffffff",
-            "hotspot_text_coor": "#424242",
+            "hotspot_color_scheme": "",
             "top_position": 34,
             "left_position": 30
           }
@@ -451,8 +433,7 @@
             ],
             "product_list_sec_title": "lorem ipsum",
             "product_list_subtitle": "(lorem ipsum)",
-            "hotspot_bg": "#ffffff",
-            "hotspot_text_coor": "#424242",
+            "hotspot_color_scheme": "",
             "top_position": 49,
             "left_position": 35
           }
@@ -471,8 +452,7 @@
             ],
             "product_list_sec_title": "lorem ipsum",
             "product_list_subtitle": "(lorem ipsum)",
-            "hotspot_bg": "#ffffff",
-            "hotspot_text_coor": "#424242",
+            "hotspot_color_scheme": "",
             "top_position": 70,
             "left_position": 46
           }
@@ -491,8 +471,7 @@
             ],
             "product_list_sec_title": "lorem ipsum",
             "product_list_subtitle": "(lorem ipsum)",
-            "hotspot_bg": "#ffffff",
-            "hotspot_text_coor": "#424242",
+            "hotspot_color_scheme": "",
             "top_position": 70,
             "left_position": 25
           }
@@ -511,8 +490,7 @@
             ],
             "product_list_sec_title": "lorem ipsum",
             "product_list_subtitle": "(lorem ipsum)",
-            "hotspot_bg": "#ffffff",
-            "hotspot_text_coor": "#424242",
+            "hotspot_color_scheme": "",
             "top_position": 71,
             "left_position": 69
           }
@@ -536,8 +514,10 @@
         "image": "shopify://shop_images/Home_22.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
+        "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
+        "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "padding_top": 0,
@@ -589,8 +569,8 @@
       "settings": {
         "title": "<p>Innovative storage solutions</p>",
         "sec_subtitle": "Making space for care across every department",
-        "title_color": "#ffffff",
-        "subheading_color": "#ffffff",
+        "title_color": "#424242",
+        "subheading_color": "#424242",
         "button_text": "",
         "button_url": "",
         "heading_size": "h0",
@@ -1050,16 +1030,14 @@
           "type": "heading",
           "settings": {
             "heading": "STERIRACK® Overhead Rail Units",
-            "heading_size": "h1",
-            "heading_color": "#000000"
+            "heading_size": "h1"
           }
         },
         "text_qUDXLE": {
           "type": "text",
           "settings": {
             "text": "",
-            "text_style": "subtitle",
-            "subheading_color": "#000000"
+            "text_style": "subtitle"
           }
         },
         "buttons_7Dnmnc": {
@@ -1071,9 +1049,7 @@
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false,
-            "botton_position": 50,
-            "btn_bg": "#ffce00",
-            "button_color": "#ffffff"
+            "botton_position": 50
           }
         },
         "hotspot_button_MBwgy9": {
@@ -1090,8 +1066,7 @@
             ],
             "product_list_sec_title": "lorem ipsum",
             "product_list_subtitle": "(lorem ipsum)",
-            "hotspot_bg": "#ffffff",
-            "hotspot_text_coor": "#424242",
+            "hotspot_color_scheme": "",
             "top_position": 50,
             "left_position": 25
           }
@@ -1110,8 +1085,7 @@
             ],
             "product_list_sec_title": "lorem ipsum",
             "product_list_subtitle": "(lorem ipsum)",
-            "hotspot_bg": "#ffffff",
-            "hotspot_text_coor": "#424242",
+            "hotspot_color_scheme": "",
             "top_position": 40,
             "left_position": 50
           }
@@ -1130,8 +1104,7 @@
             ],
             "product_list_sec_title": "lorem ipsum",
             "product_list_subtitle": "(lorem ipsum)",
-            "hotspot_bg": "#ffffff",
-            "hotspot_text_coor": "#424242",
+            "hotspot_color_scheme": "",
             "top_position": 62,
             "left_position": 45
           }
@@ -1150,8 +1123,7 @@
             ],
             "product_list_sec_title": "lorem ipsum",
             "product_list_subtitle": "(lorem ipsum)",
-            "hotspot_bg": "#ffffff",
-            "hotspot_text_coor": "#424242",
+            "hotspot_color_scheme": "",
             "top_position": 75,
             "left_position": 52
           }
@@ -1170,8 +1142,7 @@
             ],
             "product_list_sec_title": "lorem ipsum",
             "product_list_subtitle": "(lorem ipsum)",
-            "hotspot_bg": "#ffffff",
-            "hotspot_text_coor": "#424242",
+            "hotspot_color_scheme": "",
             "top_position": 75,
             "left_position": 69
           }
@@ -1190,8 +1161,7 @@
             ],
             "product_list_sec_title": "lorem ipsum",
             "product_list_subtitle": "(lorem ipsum)",
-            "hotspot_bg": "#ffffff",
-            "hotspot_text_coor": "#424242",
+            "hotspot_color_scheme": "",
             "top_position": 55,
             "left_position": 74
           }
@@ -1210,8 +1180,7 @@
             ],
             "product_list_sec_title": "lorem ipsum",
             "product_list_subtitle": "(lorem ipsum)",
-            "hotspot_bg": "#ffffff",
-            "hotspot_text_coor": "#424242",
+            "hotspot_color_scheme": "",
             "top_position": 38,
             "left_position": 68
           }
@@ -1234,8 +1203,10 @@
         "image": "shopify://shop_images/Home_24.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
+        "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
+        "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "padding_top": 40,
@@ -1321,14 +1292,15 @@
         "logo_link": "",
         "heading": "<p>Product catalogue 2025</p>",
         "heading_size": "h1",
+        "color_scheme": "",
         "description": "<p>Click here to view our latest product and services catalogue in your browser, without the need for a download.</p>",
         "button_1_text": "View catalogue",
         "button_1_link": "https://online.flippingbook.com/view/393434/",
+        "button_2_text": "Download Catalog",
+        "button_2_link": "",
         "reverse_column": true,
-        "sec_bg": "#f5f5f5",
-        "sec_text_color": "#424242",
-        "btn_bg": "#ffce00",
-        "btn_text": "#424242",
+        "title_color": "#424242",
+        "subheading_color": "#424242",
         "padding_top": 40,
         "padding_bottom": 30
       }
@@ -1376,9 +1348,8 @@
       ],
       "settings": {
         "heading": "<p>We proudly support</p>",
-        "heading_size": "h2",
         "title_alignment": "center",
-        "sec_bg": "#ffffff",
+        "color_scheme": "",
         "title_color": "#424242",
         "padding_top": 40,
         "padding_bottom": 64

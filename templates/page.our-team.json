@@ -62,14 +62,14 @@
         "heading_De9nEQ": {
           "type": "heading",
           "settings": {
-            "heading": "Meet our team",
+            "heading": "<strong>Experts in Storage. People First.</strong>",
             "heading_size": "h0"
           }
         },
         "text_kMYRNM": {
           "type": "text",
           "settings": {
-            "text": "<p>The tireless and dynamic SpaceLogic team is dedicated to Healthcare. Our mission is to provide a fresh new approach, and premium advice and expertise to hospitals, medical centers and other clinical facilities. By combining the specialist skills of our entire team, we create a cohesive whole to give you individual attention, dedicated commitment and a result superior to any other.</p>"
+            "text": "<p>Our team brings together clinical insight, design innovation, and technical excellence to deliver storage systems that actually work — for staff, for patients, and for the future of healthcare. We collaborate closely with clients to solve problems, streamline projects, and create clinical environments people love working in.</p>"
           }
         }
       },
@@ -111,7 +111,11 @@
         "description": "<p>Click here to view our latest product and services catalogue in a browser without downloading.</p>",
         "button_1_text": "View catalogue",
         "button_1_link": "https://online.flippingbook.com/view/393434/",
+        "button_2_text": "Download Catalog",
+        "button_2_link": "",
         "reverse_column": true,
+        "title_color": "#424242",
+        "subheading_color": "#424242",
         "padding_top": 20,
         "padding_bottom": 20
       }

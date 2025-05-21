@@ -3198,7 +3198,7 @@ ul.header__submenu li:hover:has(ul.list-unstyled)::after {
   color: var(--primary-theme-color) !important;
 }
 .header-main-menu ul.header__submenu li ul {
-  right: -124%;
+  right: -134%;
 }
 .sub-header-menu-main ul.header__submenu {
   padding-right: 0;

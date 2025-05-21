@@ -56,7 +56,7 @@
           "type": "heading",
           "settings": {
             "heading": "About us",
-            "heading_size": "h1"
+            "heading_size": "h0"
           }
         },
         "text_UJHQb4": {
@@ -96,7 +96,7 @@
         "heading_n8F6Rm": {
           "type": "heading",
           "settings": {
-            "heading": "Our team",
+            "heading": "The SpaceLogic team",
             "heading_size": "h1"
           }
         },

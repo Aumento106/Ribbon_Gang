@@ -169,11 +169,11 @@
             "content1": "{{ product.metafields.custom.qa_details | metafield_tag }}",
             "sub_heading2": "Available in multiple sizes with adjustable shelves and runners",
             "content2": "",
-            "sub_heading3": "",
+            "sub_heading3": "Double-skinned doors with full rotation and secure 3-point locking",
             "content3": "",
-            "sub_heading4": "",
+            "sub_heading4": "Full-length handles and smooth-rolling castors for easy transport",
             "content4": "",
-            "sub_heading5": "",
+            "sub_heading5": "Integrated tow bar for safe, efficient multi-cart movement",
             "content5": ""
           }
         },

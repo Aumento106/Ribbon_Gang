@@ -3177,6 +3177,8 @@ ul.header__submenu li:hover ul li .mega-menu__link:hover {
   top: 32px;
   padding-top: 3rem;
   padding-bottom: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 .shopify-section-group-header-group .sub-header-menu-main .header__inline-menu ul.header__submenu {
   top: 22px;

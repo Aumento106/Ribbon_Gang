@@ -3229,7 +3229,7 @@ ul.header__submenu li:hover:has(ul.list-unstyled)::after {
   top: 30%;
 }
 .default-menu li a {
-  color: #424242 !important;
+  color: #fff !important;
   text-decoration: none;
   font-size: 16px;
   font-weight: 600 !important;

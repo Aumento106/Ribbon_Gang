@@ -32,7 +32,7 @@
         "text_G6e3Nj": {
           "type": "text",
           "settings": {
-            "text": "<p>The tireless and dynamic SpaceLogic team is dedicated to Healthcare. Our mission is to provide a fresh new approach, and premium advice and expertise to hospitals, medical centers and other clinical facilities. By combining the specialist skills of our entire team, we create a cohesive whole to give you individual attention, dedicated commitment and a result superior to any other.</p>",
+            "text": "<ul><li>Across hospitals, day surgeries, and healthcare facilities in Australia, the US, and beyond, SpaceLogic partners with clients to deliver tailored, high-performance storage systems. Every project is a collaboration — from planning and prototyping to seamless installation — ensuring STERIRACK® integrates perfectly into clinical environments with minimal disruption.</li></ul><p>Explore a selection of recent installations below, each one reflecting our commitment to better care through smarter storage.</p>",
             "text_alignment": "center"
           }
         }
@@ -79,7 +79,11 @@
         "description": "<p>Click here to view our latest product and services catalogue in a browser without downloading.</p>",
         "button_1_text": "View catalogue",
         "button_1_link": "https://online.flippingbook.com/view/393434/",
+        "button_2_text": "Download Catalog",
+        "button_2_link": "",
         "reverse_column": true,
+        "title_color": "#424242",
+        "subheading_color": "#424242",
         "padding_top": 20,
         "padding_bottom": 20
       }

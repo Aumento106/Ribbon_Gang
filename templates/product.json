@@ -154,11 +154,10 @@
         },
         "specifications_prC9K9": {
           "type": "Specifications",
-          "disabled": true,
           "settings": {
             "Heading_sp": "Specs",
             "sub_heading": "Specifications",
-            "content": ""
+            "content": "{{ product.metafields.custom.specifications_description | metafield_tag }}"
           }
         },
         "q_a_Fz3EyY": {
@@ -166,7 +165,7 @@
           "settings": {
             "Heading_qa": "Q&A",
             "sub_heading1": "Q&A",
-            "content1": "{{ product.metafields.custom.qa_details | metafield_tag }}",
+            "content1": "<p>{{ product.metafields.custom.qa_details | metafield_tag }}</p>",
             "sub_heading2": "",
             "content2": "",
             "sub_heading3": "",

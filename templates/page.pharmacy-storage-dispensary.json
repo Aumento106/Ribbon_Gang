@@ -47,7 +47,7 @@
           "type": "button",
           "settings": {
             "button_label": "Go to Pharmacy Drawers",
-            "button_link": "https://spacelogicgroup.com/products/sterirack-system/pharmacy-drawers/",
+            "button_link": "shopify://pages/pharmacy-drawers",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",

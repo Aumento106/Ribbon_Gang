@@ -206,7 +206,7 @@
         "text_z8PRWE": {
           "type": "text",
           "settings": {
-            "text": "<p>{{ product.metafields.custom.specifications_description | metafield_tag }}</p>",
+            "text": "{{ product.description }}",
             "text_style": "body"
           }
         },

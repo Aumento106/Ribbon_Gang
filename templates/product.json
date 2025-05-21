@@ -168,7 +168,7 @@
             "sub_heading1": "Q&A",
             "content1": "{{ product.metafields.custom.qa_details | metafield_tag }}",
             "sub_heading2": "Available in multiple sizes with adjustable shelves and runners",
-            "content2": "",
+            "content2": "<p>Products are dispatched from our warehouse in Orange, NSW. Standard lead times apply for core accessories and shelving systems. For large-scale projects or international shipping, a dedicated project coordinator will work with you on timelines and freight solutions.</p>",
             "sub_heading3": "Double-skinned doors with full rotation and secure 3-point locking",
             "content3": "",
             "sub_heading4": "Full-length handles and smooth-rolling castors for easy transport",

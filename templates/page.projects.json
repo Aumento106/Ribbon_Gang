@@ -287,30 +287,22 @@
             "project_des": "<strong>Smart Storage for Streamlined Care</strong>At Wagga Wagga Base Hospital, we upgraded key storage areas with STERIRACK® Clean Utility configurations to enhance infection control. Our team delivered tailored basket and shelving layouts designed to optimise space and simplify daily stock retrieval. The installation supports more efficient workflows and better patient outcomes.",
             "image": "shopify://shop_images/Blacktown_square.png"
           }
-        },
-        "image_wpKtaj": {
-          "type": "image",
-          "settings": {
-            "project_name": "Project AU",
-            "project_des": "The tireless and dynamic SpaceLogic team is dedicated to Healthcare."
-          }
         }
       },
       "block_order": [
         "image_ax9MDb",
-        "image_ecCYrC",
-        "image_wpKtaj"
+        "image_ecCYrC"
       ],
       "name": "Custom Collage",
       "settings": {
-        "heading": "Multimedia collage",
+        "heading": "",
         "heading_size": "h1",
-        "desktop_layout": "left",
+        "desktop_layout": "equal",
         "mobile_layout": "column",
         "card_styles": "product-card-wrapper",
         "color_scheme": "",
         "popup_color_scheme": "",
-        "padding_top": 45,
+        "padding_top": 0,
         "padding_bottom": 45
       }
     },

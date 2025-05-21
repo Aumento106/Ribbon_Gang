@@ -617,7 +617,7 @@
           "settings": {
             "image": "shopify://shop_images/Home_7.png",
             "tag_text": "New innovation!",
-            "tag_text_color": "#ffce00",
+            "tag_text_color": "#424242",
             "logo_image": "shopify://shop_images/Steriloop_logo.svg",
             "heading": "<p>Silicon mats</p>",
             "heading_size": "h1",

@@ -12,7 +12,7 @@
     "main": {
       "type": "main-page",
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-1",
         "padding_top": 28,
         "padding_bottom": 28
       }
@@ -28,7 +28,11 @@
         "description": "<p>Click here to view our latest product and services catalogue in a browser without downloading.</p>",
         "button_1_text": "View catalogue",
         "button_1_link": "https://online.flippingbook.com/view/393434/",
+        "button_2_text": "Download Catalog",
+        "button_2_link": "",
         "reverse_column": true,
+        "title_color": "#424242",
+        "subheading_color": "#424242",
         "padding_top": 20,
         "padding_bottom": 20
       }

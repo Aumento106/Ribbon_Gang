@@ -128,7 +128,7 @@
           "type": "image",
           "settings": {
             "project_name": "Project AU",
-            "project_des": "The tireless and dynamic SpaceLogic team is dedicated to Healthcare. Our mission is to provide a fresh new approach, and  premium advice and expertise to hospitals, medical centres and other clinical facilities. By combining the specialist skills of our  entire team, we create a cohesive whole to give you individual attention, dedicated commitment and a result  superior to any other.",
+            "project_des": "Blacktown Hospital, situated in Western Sydney, is a major metropolitan healthcare facility serving one of New South Wales’ fastest-growing and most diverse communities. As part of the Western Sydney Local Health District, the hospital offers a comprehensive range of services, including 24-hour emergency care, intensive and high dependency units, specialised medical and surgical care, maternity and newborn services, paediatrics, mental health support, and sub-acute rehabilitation. The hospital is also a teaching institution affiliated with several universities, including Western Sydney University, providing clinical training for future healthcare professionals. In recent years, Blacktown Hospital has undergone significant redevelopment to meet the increasing healthcare demands of the region. The multi-stage expansion project, completed in 2020, introduced a new nine-storey Acute Services Building featuring state-of-the-art facilities such as a modern emergency department, intensive care unit, operating theatres, birthing suites, and paediatric services. This redevelopment, part of a broader investment exceeding $700 million, has enhanced the hospital’s capacity to deliver high-quality, patient-centred care, ensuring it remains a cornerstone of health services in Western Sydney.",
             "image": "shopify://shop_images/Group_1171277821.jpg"
           }
         },
@@ -268,6 +268,26 @@
         "padding_bottom": 100
       }
     },
+    "product_catalog_AHJEg3": {
+      "type": "product-catalog",
+      "settings": {
+        "product_image": "shopify://shop_images/image_104.png",
+        "logo_link": "",
+        "heading": "<p>Product catalogue</p>",
+        "heading_size": "h1",
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "description": "<p>Click here to view our latest product and services catalogue in a browser without downloading.</p>",
+        "button_1_text": "View catalogue",
+        "button_1_link": "https://online.flippingbook.com/view/393434/",
+        "button_2_text": "Download Catalog",
+        "button_2_link": "",
+        "reverse_column": true,
+        "title_color": "#424242",
+        "subheading_color": "#424242",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
     "proudly_support_NnMGAw": {
       "type": "proudly-support",
       "blocks": {
@@ -311,27 +331,11 @@
       ],
       "settings": {
         "heading": "<p>We Proudly Support</p>",
-        "heading_size": "h1",
         "title_alignment": "center",
         "color_scheme": "",
+        "title_color": "#424242",
         "padding_top": 100,
         "padding_bottom": 100
-      }
-    },
-    "product_catalog_AHJEg3": {
-      "type": "product-catalog",
-      "settings": {
-        "product_image": "shopify://shop_images/image_104.png",
-        "logo_link": "",
-        "heading": "<p>Product catalogue</p>",
-        "heading_size": "h1",
-        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
-        "description": "<p>Click here to view our latest product and services catalogue in a browser without downloading.</p>",
-        "button_1_text": "View catalogue",
-        "button_1_link": "https://online.flippingbook.com/view/393434/",
-        "reverse_column": true,
-        "padding_top": 20,
-        "padding_bottom": 20
       }
     }
   },

@@ -39,7 +39,7 @@
         "text_FfMatV": {
           "type": "text",
           "settings": {
-            "text": "<p>Please check back for more information soon.</p>",
+            "text": "<p> Streamline your pharmacy workflow with modular, hygienic, and fully compliant storage solutions from the STERIRACK® System. Whether you’re managing bulk stock or daily dispensing, our pharmacy configurations offer seamless organisation, easy labelling, and smooth retrieval — reducing search time and improving patient care. Designed to integrate with our colour-coded pharmacy drawers, baskets, and shelf dividers, SpaceLogic’s pharmacy solutions help eliminate expired stock and create smarter, safer storage environments.</p>",
             "text_alignment": "center"
           }
         },
@@ -47,7 +47,7 @@
           "type": "button",
           "settings": {
             "button_label": "Go to Pharmacy Drawers",
-            "button_link": "#",
+            "button_link": "https://spacelogicgroup.com/products/sterirack-system/pharmacy-drawers/",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -82,7 +82,11 @@
         "description": "<p>Click here to view our latest product and services catalogue in a browser without downloading.</p>",
         "button_1_text": "View catalogue",
         "button_1_link": "https://online.flippingbook.com/view/393434/",
+        "button_2_text": "Download Catalog",
+        "button_2_link": "",
         "reverse_column": true,
+        "title_color": "#424242",
+        "subheading_color": "#424242",
         "padding_top": 20,
         "padding_bottom": 20
       }

@@ -114,7 +114,7 @@
             "phone": "+61 2 6362 5533",
             "phone_icon": "shopify://shop_images/Frame_10.svg",
             "phone_link": "tel:02 6362 5533",
-            "email": "sales@spacelogicgroup.com",
+            "email": "sales2@spacelogic.com.au",
             "email_icon": "shopify://shop_images/Frame_11.svg",
             "email_link": "mailto:sales@spacelogicgroup.com",
             "facebook": "https://www.facebook.com/spacelogichealthcare",
@@ -139,7 +139,7 @@
             "phone": "+1 973 379 4033",
             "phone_icon": "shopify://shop_images/Frame_10.svg",
             "phone_link": "tel:973 379 4033",
-            "email": "abc@gmail.com",
+            "email": "lee.macdougall@spacelogicgroup.com",
             "email_icon": "shopify://shop_images/Frame_11.svg",
             "email_link": "mailto:abc@gmail.com",
             "facebook": "https://www.facebook.com/spacelogichealthcare",
@@ -217,7 +217,11 @@
         "description": "<p>BIM files are available for download on request. To protect specification integrity, access is granted to trusted partners via password or tokenised link. Please contact us to request access and include your project or firm details for review.</p>",
         "button_1_text": "BIM File Request",
         "button_1_link": "#",
+        "button_2_text": "Download Catalog",
+        "button_2_link": "",
         "reverse_column": false,
+        "title_color": "#424242",
+        "subheading_color": "#424242",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -233,7 +237,11 @@
         "description": "<p>Click here to view our latest product and services catalogue in a browser without downloading.</p>",
         "button_1_text": "View catalogue",
         "button_1_link": "https://online.flippingbook.com/view/393434/",
+        "button_2_text": "Download Catalog",
+        "button_2_link": "",
         "reverse_column": true,
+        "title_color": "#424242",
+        "subheading_color": "#424242",
         "padding_top": 20,
         "padding_bottom": 20
       }

@@ -3210,7 +3210,7 @@ ul.header__submenu li:hover:has(ul.list-unstyled)::after {
   top: 0;
   background: #fff;
   opacity: 0;
-  padding: 20px;
+  padding: 3rem 10px;
 }
 .header-main-menu ul.header__submenu li:has(ul):after,
 .sub-header-menu-main ul.header__submenu li:has(ul):after {

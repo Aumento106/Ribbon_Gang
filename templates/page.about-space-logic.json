@@ -62,7 +62,7 @@
         "text_UJHQb4": {
           "type": "text",
           "settings": {
-            "text": "<p>Welcome to SpaceLogic Group, the leading authority in clinical healthcare storage solutions. With over 40 years of expertise, SpaceLogic has evolved from a small family business into a trusted name in healthcare space management. We pride ourselves on delivering comprehensive project design, planning, and installation services, alongside our customisable, modular and innovative range of storage products.</p><p>With Head Offices in both, NSW, Australia and Springfield NJ, United States - Our team is committed to improving patient care time, infection control, and space efficiency for hospitals, medical centres, day surgeries and veterinary clinics.and aged care facilities.</p><p>In this video, meet Lloyd Scott and the SpaceLogic team as they introduce our head office, mission, and contributions to healthcare storage solutions.</p>",
+            "text": "<p>Welcome to SpaceLogic Group — a global leader in clinical healthcare storage solutions. With more than 40 years of experience, we’ve grown from a small family business into a trusted authority in healthcare space management. Our expertise spans complete project design, planning, and installation, supported by a modular, customisable range of innovative storage products.</p><p>Headquartered in Orange, New South Wales, Australia, and Springfield, New Jersey, USA, our team is dedicated to improving patient care time, enhancing infection control, and maximising space efficiency in hospitals, medical centres, day surgeries, veterinary clinics, and aged care facilities.</p><p>In this video, meet the SpaceLogic team as they share our mission, introduce our head office, and highlight our contribution to smarter healthcare storage.</p>",
             "text_style": "body"
           }
         }
@@ -133,7 +133,11 @@
         "description": "<p>Click here to view our latest product and services catalogue in a browser without downloading.</p>",
         "button_1_text": "View catalogue",
         "button_1_link": "https://online.flippingbook.com/view/393434/",
+        "button_2_text": "Download Catalog",
+        "button_2_link": "",
         "reverse_column": true,
+        "title_color": "#424242",
+        "subheading_color": "#424242",
         "padding_top": 20,
         "padding_bottom": 20
       }

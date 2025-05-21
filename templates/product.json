@@ -167,13 +167,13 @@
             "Heading_qa": "Q&A",
             "sub_heading1": "Q&A",
             "content1": "{{ product.metafields.custom.qa_details | metafield_tag }}",
-            "sub_heading2": "Available in multiple sizes with adjustable shelves and runners",
-            "content2": "<p>Products are dispatched from our warehouse in Orange, NSW. Standard lead times apply for core accessories and shelving systems. For large-scale projects or international shipping, a dedicated project coordinator will work with you on timelines and freight solutions.</p>",
-            "sub_heading3": "Double-skinned doors with full rotation and secure 3-point locking",
+            "sub_heading2": "",
+            "content2": "",
+            "sub_heading3": "",
             "content3": "",
-            "sub_heading4": "Full-length handles and smooth-rolling castors for easy transport",
+            "sub_heading4": "",
             "content4": "",
-            "sub_heading5": "Integrated tow bar for safe, efficient multi-cart movement",
+            "sub_heading5": "",
             "content5": ""
           }
         },

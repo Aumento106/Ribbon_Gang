@@ -158,11 +158,10 @@
                    
                     <table id="specification_table">
                       {% assign metaobject  = product.metafields.custom.specifications.value %}
-              {{ metaobject.table_heading }}===
-                      {% for heading in metaobject %}
+                      {% for heading in metaobject.table_heading %}
                         <thead>
                           <tr>
-                            <th>{{ heading.table_heading }}<div class="resizer"></div></th>
+                            <th>{{ heading }}<div class="resizer"></div></th>
                           </tr>
                         </thead>
                       {% endfor %}

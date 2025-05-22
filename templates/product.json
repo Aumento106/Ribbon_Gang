@@ -157,7 +157,7 @@
           "settings": {
             "Heading_sp": "Specs",
             "sub_heading": "Specifications",
-            "content": "{{ product.metafields.custom.specifications_description | metafield_tag }}"
+            "content": ""
           }
         },
         "q_a_Fz3EyY": {

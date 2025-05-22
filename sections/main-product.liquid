@@ -164,11 +164,9 @@
                             <th>{{ heading }}<div class="resizer"></div></th>
                           </tr>
                         </thead>
-                      {% endfor %}
-                      {% for heading in metaobject %}
                       <tbody>
                         <tr id="file-lotrmoviedata-csv-LC2" class="combined">
-                          <td class="nowrap left">{{ heading.table_row }}</td>
+                          <td class="nowrap left">{{ heading.table_row[forloop.index0].value }}</td>
                         </tr>
                       </tbody>
                       {% endfor %}

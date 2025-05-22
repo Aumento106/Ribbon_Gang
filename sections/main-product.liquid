@@ -151,6 +151,10 @@
                   class="tab-content {% if forloop.first %}active{% endif %}" 
                   id="tab-{{ block.id }}"
                 >
+                  {% if block.settings.Heading_sp == "Specs" %}
+                    
+                    {% else %}
+                    
                   <div class="tab-content-inner" {{ block.shopify_attributes }}>
                     {% if block.settings.sub_heading != blank %}
                       <h4 class="tab-subheading">{{ block.settings.sub_heading }}</h4>
@@ -159,6 +163,7 @@
                       <p>{{ block.settings.content }}</p>
                     {% endif %}
                   </div>
+                  {% endif %}
                 </div>
         
               {%- when 'Q_A' -%}

@@ -160,23 +160,24 @@
                                           
                     
                     <table id="specification_table">
-                      {% assign metaobject  = product.metafields.custom.specifications.value %}
-                        <thead>
-                          <tr>
-                          {% for heading in metaobject.table_heading %}
-                            <th>{{ heading }}<div class="resizer"></div></th>
-                          {% endfor %}
-                          </tr>
-                        </thead>
-                      <tbody>
-                        {% for table_row in metaobject.table_row.value %}
-                          {% assign forloop_modulo = forloop.index0 | modulo : 2 %}
-                          {% if forloop_modulo == 0 %}<tr id="file-lotrmoviedata-csv-LC2" class="combined">{% endif %}
-                              <td class="nowrap left">{{ table_row }}</td>
-                          {% if forloop_modulo == 1 %}</tr>{% endif %}
-                        {% endfor %}
-                      </tbody>
-                    </table>
+  {% assign metaobject = product.metafields.custom.specifications.value %}
+  <thead>
+    <tr>
+      {% for heading in metaobject.table_heading %}
+        <th>{{ heading }}<div class="resizer"></div></th>
+      {% endfor %}
+    </tr>
+  </thead>
+  <tbody>
+    {% for row in metaobject.table_row %}
+      <tr>
+        {% for cell in row.value %}
+          <td class="nowrap left">{{ cell }}</td>
+        {% endfor %}
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
                     
                     {% endif %}
                   </div>

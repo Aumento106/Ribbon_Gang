@@ -151,7 +151,9 @@
                   class="tab-content {% if forloop.first %}active{% endif %}" 
                   id="tab-{{ block.id }}"
                 >
-                  {% if block.settings.Heading_sp == "Specs" %}
+                  {% assign matching_1 = block.settings.Heading_sp | strip | downcase %}
+                  {% assign matching_2 = "Specs" | strip | downcase %}
+                  {% if matching_2 == matching_1 %}
                      {% if block.settings.Heading_sp == "Specs" %}
                     <table id="specification_table">
                       {% assign metaobject  = product.metafields.custom.specifications.value %}

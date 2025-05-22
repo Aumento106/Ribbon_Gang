@@ -155,9 +155,7 @@
                     {% if block.settings.sub_heading != blank %}
                       <h4 class="tab-subheading">{{ block.settings.sub_heading }}</h4>
                     {% endif %}
-                    {% if block.settings.content != blank %}
-                      <p>{{ block.settings.content }}</p>
-                                          
+                   
                     <table id="specification_table">
                       {% assign metaobject  = product.metafields.custom.specifications.value %}
                       {% for heading in metaobject %}
@@ -176,7 +174,7 @@
                       </tbody>
                       
                     </table>
-                    {% endif %}
+                 
                   </div>
                 </div>
         

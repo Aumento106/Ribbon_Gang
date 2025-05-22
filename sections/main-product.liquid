@@ -169,11 +169,12 @@
                           </tr>
                         </thead>
                       <tbody>
-                        <tr id="file-lotrmoviedata-csv-LC2" class="combined">
-                          {% for table_row in metaobject.table_row.value %}
-                            <td class="nowrap left">{{ table_row }}</td>
-                          {% endfor %}
-                        </tr>
+                        {% for table_row in metaobject.table_row.value %}
+                          {{ forloop.index0 | modulo : 2 }}
+                          <tr id="file-lotrmoviedata-csv-LC2" class="combined">
+                              <td class="nowrap left">{{ table_row }}</td>
+                          </tr>
+                        {% endfor %}
                       </tbody>
                     </table>
                     

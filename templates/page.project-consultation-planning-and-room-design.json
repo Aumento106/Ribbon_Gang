@@ -9,24 +9,41 @@
  */
 {
   "sections": {
-    "page_banner_iVH9eY": {
+    "page_banner_9jPapd": {
       "type": "page-banner",
       "blocks": {
-        "image_W4zerL": {
+        "image_KqNrzT": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/image_161.png",
             "border_radius": true
           }
         },
-        "heading_pVBz9T": {
+        "heading_MAUycm": {
           "type": "heading",
           "settings": {
             "heading": "Project consultation, planning and room design",
             "heading_size": "h0",
             "heading_alignment": "center"
           }
-        },
+        }
+      },
+      "block_order": [
+        "image_KqNrzT",
+        "heading_MAUycm"
+      ],
+      "settings": {
+        "title_alignment": "center",
+        "full_width": false,
+        "content_width": "full_width",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "padding_top": 72,
+        "padding_bottom": 0
+      }
+    },
+    "page_banner_iVH9eY": {
+      "type": "page-banner",
+      "blocks": {
         "text_KdCiWp": {
           "type": "text",
           "settings": {
@@ -48,8 +65,6 @@
         }
       },
       "block_order": [
-        "image_W4zerL",
-        "heading_pVBz9T",
         "text_KdCiWp",
         "button_fn8KLw"
       ],
@@ -58,7 +73,7 @@
         "full_width": false,
         "content_width": "medium",
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "padding_top": 72,
+        "padding_top": 0,
         "padding_bottom": 36
       }
     },
@@ -131,6 +146,7 @@
     }
   },
   "order": [
+    "page_banner_9jPapd",
     "page_banner_iVH9eY",
     "multicolumn_services_box_Kh8zd7",
     "product_catalog_U8Bywh"

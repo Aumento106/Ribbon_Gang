@@ -242,7 +242,7 @@
 
                   {% if block.settings.phone != blank %}
                   {% if block.settings.phone_link != blank %}
-                    <a href="tel:{{ block.settings.phone_link }}" class="location-detail">
+                    <a href="{{ block.settings.phone_link }}" class="location-detail">
                     {% if block.settings.phone_icon != blank %}
                       <img src="{{ block.settings.phone_icon | img_url }}">
                     {% endif %}
@@ -260,7 +260,7 @@
 
                   {% if block.settings.email != blank %}
                     {% if block.settings.email_link != blank %}
-                      <a href="mailto:{{ block.settings.email_link }}" class="location-detail">
+                      <a href="{{ block.settings.email_link }}" class="location-detail">
                       {% if block.settings.email_icon != blank %}
                         <img src="{{ block.settings.email_icon | img_url }}">
                       {% endif %}

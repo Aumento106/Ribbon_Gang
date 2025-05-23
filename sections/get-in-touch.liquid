@@ -285,7 +285,7 @@
               {% if block.settings.distributor_logo_1 != blank or block.settings.distributor_logo_2 != blank %}
                 <div class="distributor-logos">
                     {% if block.settings.distributor_logo_1_url != blank %}
-                      <a href="block.settings.distributor_logo_1_url">
+                      <a href="{{ block.settings.distributor_logo_1_url }}">
                       {% if block.settings.distributor_logo_1 %}
                         <img src="{{ block.settings.distributor_logo_1 | img_url: '200x' }}" 
                               alt="Distributor Logo" 
@@ -302,7 +302,7 @@
                       {% endif %}
                     {% endif %}
                     {% if block.settings.distributor_logo_2_url != blank %}
-                      <a href="block.settings.distributor_logo_2_url">
+                      <a href{{ block.settings.distributor_logo_2_url }}">
                       {% if block.settings.distributor_logo_2 %}
                         <img src="{{ block.settings.distributor_logo_2 | img_url: '200x' }}" 
                           alt="Distributor Logo" 

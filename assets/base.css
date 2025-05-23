@@ -2913,7 +2913,7 @@ details[open]>.header__menu-item .icon-caret {
   color: rgb(var(--color-foreground));
   /* text-decoration: underline; */
   text-underline-offset: 0.3rem;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .header__menu-item:hover .header__active-menu-item {

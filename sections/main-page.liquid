@@ -15,7 +15,7 @@
 {%- endstyle -%}
 
 <div class="page-width color-{{ section.settings.color_scheme }} gradient main-page-col section-{{ section.id }}-padding">
-  <h1 class="main-page-title page-title {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">{{ page.title }}</h1>
+  <h1 class="main-page-title page-title hide hidden {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">{{ page.title }}</h1>
   <div class="rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
     {{ page.content }}
   </div>

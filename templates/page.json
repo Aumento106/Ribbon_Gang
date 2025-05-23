@@ -15,7 +15,7 @@
         "heading_mGwXwE": {
           "type": "heading",
           "settings": {
-            "heading": "Our Mission",
+            "heading": "{{ page.title }}",
             "heading_size": "h1"
           }
         },

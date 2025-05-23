@@ -21,6 +21,7 @@
         },
         "text_wwcAdP": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>Remove this line of text</p>"
           }
@@ -38,7 +39,7 @@
         "no_margin": false,
         "section_border": false,
         "padding_top": 80,
-        "padding_bottom": 80
+        "padding_bottom": 50
       }
     },
     "main": {

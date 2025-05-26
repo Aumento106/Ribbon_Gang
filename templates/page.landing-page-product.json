@@ -16,6 +16,8 @@
           "type": "featured_collection",
           "settings": {
             "collection": "medibin-system",
+            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "button_card_text": "Button",
             "redirection_link": "shopify://pages/medibin-system"
           }
         },
@@ -23,6 +25,8 @@
           "type": "featured_collection",
           "settings": {
             "collection": "cleanspan",
+            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "button_card_text": "Button",
             "redirection_link": "shopify://pages/cleanspan"
           }
         },
@@ -30,6 +34,8 @@
           "type": "featured_collection",
           "settings": {
             "collection": "sterirack-colour-coding",
+            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "button_card_text": "Button",
             "redirection_link": "shopify://pages/sterirack-colour-coding"
           }
         },
@@ -37,6 +43,8 @@
           "type": "featured_collection",
           "settings": {
             "collection": "sterirack-system",
+            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "button_card_text": "Button",
             "redirection_link": "shopify://pages/sterirack-system"
           }
         }
@@ -49,7 +57,7 @@
       ],
       "name": "Categories",
       "settings": {
-        "title": "Categories",
+        "title": "",
         "heading_size": "h1",
         "image_ratio": "square",
         "columns_desktop": 4,
@@ -83,7 +91,6 @@
         "heading_mGwXwE",
         "text_7xmpEL"
       ],
-      "disabled": true,
       "settings": {
         "content_alignment": "center",
         "content_width": "full_width",
@@ -125,8 +132,8 @@
     }
   },
   "order": [
-    "categories_pffP7h",
     "rich_text_P3hBwh",
+    "categories_pffP7h",
     "main",
     "product_catalog_W3r7Xn"
   ]

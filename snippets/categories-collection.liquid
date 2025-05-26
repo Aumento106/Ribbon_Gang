@@ -112,8 +112,8 @@
       {%- endif -%}
     </div>
     <div>
-      <span>{{ block.settings.card_text }}</span>
-      <span>{{ block.settings.button_card_text }}</span>
+      <span>{{ card_text }}</span>
+      <span>{{ card_button }}</span>
     </div>
     {%- if card_collection != blank and card_style == 'card' or card_collection.featured_image -%}
       <div class="card__content">

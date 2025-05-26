@@ -48,6 +48,11 @@
       text-align: center;
       width: 100%;
     }
+    @media screen and (max-width: 1366px) {
+      .section-custom-slide-show .banner__heading.heading--{{ block.id }} {
+        font-size: calc((var(--font-heading-scale) * {{ block.settings.custom_heading_size }}px);
+      }
+    }
     {% if block.settings.btn_bg != blank %}
       .section-{{ section.id }}-padding .banner__buttons.banner__buttons-{{ block.id }} .button {
         background-color: {{ block.settings.btn_bg }};

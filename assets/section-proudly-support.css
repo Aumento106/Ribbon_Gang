@@ -6,7 +6,9 @@
   /* box-shadow: 0px 0px 40px 0px #00000014; */
   border-radius: 16px;
 }
-
+.proudly-support .proudly-support__wrapper {
+  border-bottom: 1px solid #ccc;
+}
 .proudly-support__item {
   text-align: center;
 }

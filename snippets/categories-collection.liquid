@@ -119,9 +119,9 @@
               {% if card_collection == blank %}
                 role="link" aria-disabled="true"
               {% else %}
-                href="{{ redirection_link }}"
+                href="{{ redirection_link.url }}"
               {% endif %}
-              class="full-unstyled-link 222"
+              class="full-unstyled-link"
             >
               {%- if card_collection.title != blank -%}
                 {{- card_collection.title | escape -}}

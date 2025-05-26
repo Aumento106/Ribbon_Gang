@@ -59,7 +59,7 @@
   position: static;
   display: block;
   /* margin-bottom: 0.8rem; */
-  margin-bottom: 0
+  margin-bottom: 0;
   font-weight: 500;
   line-height: 1.66;
   color: rgb(var(--color-foreground));
@@ -78,7 +78,7 @@
   border: 1px solid #4242424D;
   border-radius: 8px;
   /* height: 6rem; */
-  height: 4.5rem;
+  height: 5rem;
   background: #fff;
   /* font-size: 20px; */
 }

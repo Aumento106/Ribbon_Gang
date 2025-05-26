@@ -111,7 +111,8 @@
           "type": "heading",
           "settings": {
             "heading": "Clean Utilities and Medication Rooms",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "border_radius": 16
           }
         },
         "text_t9P8ME": {
@@ -321,7 +322,8 @@
           "type": "heading",
           "settings": {
             "heading": "CSSD and Theatre Stores",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "border_radius": 16
           }
         },
         "text_dRjWew": {
@@ -1030,7 +1032,8 @@
           "type": "heading",
           "settings": {
             "heading": "STERIRACK® Overhead Rail Units",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "border_radius": 0
           }
         },
         "text_qUDXLE": {

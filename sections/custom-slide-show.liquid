@@ -38,14 +38,12 @@
     .section-custom-slide-show  .subheading--{{ block.id }} {
        color: {{ block.settings.slide_text_color }};
     }
-    {% if block.settings.enable_text_align_center %}
-      #Slider-{{ section.id }}.section-custom-slide-show .slideshow__text-wrapper .banner__box.center {
-        text-align: center;
-      }
-      #Slider-{{ section.id }}.section-custom-slide-show .slideshow__text-wrapper .banner__box.center .banner__text {
-        text-align: center;
-      }
-    {% endif %}
+    #Slider-{{ section.id }}.section-custom-slide-show .slideshow__text-wrapper .banner__box.center {
+      text-align: center;
+    }
+    #Slider-{{ section.id }}.section-custom-slide-show .slideshow__text-wrapper .banner__box.center .banner__text {
+      text-align: center;
+    }
     {% if block.settings.btn_bg != blank %}
       .section-{{ section.id }}-padding .banner__buttons.banner__buttons-{{ block.id }} .button {
         background-color: {{ block.settings.btn_bg }};

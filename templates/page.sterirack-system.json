@@ -9,6 +9,58 @@
  */
 {
   "sections": {
+    "categories_6XThDT": {
+      "type": "categories",
+      "blocks": {
+        "featured_collection_jYRxp4": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sterirack-shelving-and-basket-modules",
+            "redirection_link": ""
+          }
+        },
+        "featured_collection_zyWp98": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sterirack-shelving-standard-fixed-various-types",
+            "redirection_link": ""
+          }
+        },
+        "featured_collection_wYkGW9": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sterirack-shelving-standard-adjustable-various-types",
+            "redirection_link": ""
+          }
+        },
+        "featured_collection_7cm9qX": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "redirection_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_jYRxp4",
+        "featured_collection_zyWp98",
+        "featured_collection_wYkGW9",
+        "featured_collection_7cm9qX"
+      ],
+      "name": "Categories",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "rich_text_P3hBwh": {
       "type": "rich-text",
       "blocks": {
@@ -31,6 +83,7 @@
         "heading_mGwXwE",
         "text_7xmpEL"
       ],
+      "disabled": true,
       "settings": {
         "content_alignment": "center",
         "content_width": "full_width",
@@ -72,6 +125,7 @@
     }
   },
   "order": [
+    "categories_6XThDT",
     "rich_text_P3hBwh",
     "main",
     "product_catalog_W3r7Xn"

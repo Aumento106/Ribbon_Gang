@@ -39,13 +39,21 @@
             "collection": "sterirack-colour-coding-post-strips-various-types",
             "redirection_link": ""
           }
+        },
+        "featured_collection_3hM6pA": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sterirack-colour-coding-vertical-basket-label-holders-various-types",
+            "redirection_link": ""
+          }
         }
       },
       "block_order": [
         "featured_collection_m4aNRE",
         "featured_collection_jtRiJK",
         "featured_collection_kFcGGX",
-        "featured_collection_TcYQVN"
+        "featured_collection_TcYQVN",
+        "featured_collection_3hM6pA"
       ],
       "name": "Categories",
       "settings": {

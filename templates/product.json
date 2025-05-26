@@ -128,7 +128,7 @@
             "heading": "BROCHURE OR SPEC SHEET",
             "accordian_icon_image": "shopify://shop_images/Group_1171277814_1.svg",
             "icon": "check_mark",
-            "content": "{{ product.metafields.custom.brochure_description | metafield_tag }}<ul><li>Request a Room Design → Collaborate with our consultants to optimise your layout.<br/><br/></li><li>Request a Custom Quote → Get pricing tailored to your signage and configuration needs.<br/><br/></li><li>Request a Mini Exhibition → See STERIRACK® signage solutions in action, on-site.</li></ul>",
+            "content": "{{ product.metafields.custom.brochure_description | metafield_tag }}<p>Request a Room Design → Collaborate with our consultants to optimise your layout.<br/><br/></p><p>Request a Custom Quote → Get pricing tailored to your signage and configuration needs.<br/><br/></p><p>Request a Mini Exhibition → See STERIRACK® signage solutions in action, on-site.</p>",
             "page": ""
           }
         },
@@ -225,7 +225,8 @@
           "settings": {
             "text_style": "body",
             "inventory_threshold": 20,
-            "show_inventory_quantity": false
+            "show_inventory_quantity": false,
+            "share_label": "Share"
           }
         },
         "share_YcN6pn": {

@@ -38,6 +38,14 @@
     .section-custom-slide-show  .subheading--{{ block.id }} {
        color: {{ block.settings.slide_text_color }};
     }
+    {% if block.settings.enable_text_align_center %}
+      #Slider-{{ section.id }}.section-custom-slide-show .slideshow__text-wrapper .slideshow__text--left {
+        text-align: center;
+      }
+      #Slider-{{ section.id }}.section-custom-slide-show .slideshow__text-wrapper .slideshow__text--left .banner__text {
+        text-align: center;
+      }
+    {% endif %}
     {% if block.settings.btn_bg != blank %}
       .section-{{ section.id }}-padding .banner__buttons.banner__buttons-{{ block.id }} .button {
         background-color: {{ block.settings.btn_bg }};

@@ -101,7 +101,7 @@
       ],
       "settings": {
         "layout": "full_bleed",
-        "slide_height": "large",
+        "slide_height": "adapt_image",
         "image_behavior": "none",
         "accessibility_info": "Slideshow about our brand",
         "padding_top": 0,

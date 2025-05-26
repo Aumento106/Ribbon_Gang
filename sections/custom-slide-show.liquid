@@ -50,7 +50,7 @@
     }
     @media screen and (max-width: 1366px) {
       .section-custom-slide-show .banner__heading.heading--{{ block.id }} {
-        font-size: calc(var(--font-heading-scale) * {{ block.settings.custom_heading_size }}px);
+        font-size: {{ block.settings.custom_heading_size | times: settings.heading_scale | divided_by: 100.0  | divided_by: 100.0 }}
       }
     }
     {% if block.settings.btn_bg != blank %}

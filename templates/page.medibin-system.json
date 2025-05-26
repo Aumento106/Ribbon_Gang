@@ -50,6 +50,74 @@
         "padding_bottom": 28
       }
     },
+    "categories_Kr4y7C": {
+      "type": "categories",
+      "blocks": {
+        "featured_collection_NkPVMK": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "steriloop-medibins-various-types",
+            "redirection_link": ""
+          }
+        },
+        "featured_collection_ant9n7": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "medibin-panels-various-types",
+            "redirection_link": ""
+          }
+        },
+        "featured_collection_F9Q6w4": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "medibin-freestanding-racks",
+            "redirection_link": ""
+          }
+        },
+        "featured_collection_eMKwDQ": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "medibin-standard-label-holders-various-types",
+            "redirection_link": ""
+          }
+        },
+        "featured_collection_TtYFqg": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "medibin-dividers-various-types",
+            "redirection_link": ""
+          }
+        },
+        "featured_collection_JNdDid": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "medibin-trolleys",
+            "redirection_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_NkPVMK",
+        "featured_collection_ant9n7",
+        "featured_collection_F9Q6w4",
+        "featured_collection_eMKwDQ",
+        "featured_collection_TtYFqg",
+        "featured_collection_JNdDid"
+      ],
+      "name": "Categories",
+      "settings": {
+        "title": "Collections",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "product_catalog_W3r7Xn": {
       "type": "product-catalog",
       "settings": {
@@ -74,6 +142,7 @@
   "order": [
     "rich_text_P3hBwh",
     "main",
+    "categories_Kr4y7C",
     "product_catalog_W3r7Xn"
   ]
 }

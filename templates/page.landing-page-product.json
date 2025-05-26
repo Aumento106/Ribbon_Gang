@@ -16,14 +16,14 @@
           "type": "featured_collection",
           "settings": {
             "collection": "medibin-system",
-            "redirection_link": ""
+            "redirection_link": "shopify://pages/medibin-system"
           }
         },
         "featured_collection_rtENTX": {
           "type": "featured_collection",
           "settings": {
             "collection": "cleanspan",
-            "redirection_link": ""
+            "redirection_link": "shopify://pages/cleanspan"
           }
         },
         "featured_collection_9nDJ4R": {

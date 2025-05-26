@@ -14,6 +14,29 @@
   .section-{{ section.id }}-padding .section-sub-title {
     color: {{ section.settings.subheading_color }};
   }
+  .multi-column-box-with-image.section-{{ section.id }} .sec-head .title {
+    font-size: {{ section.settings.custom_heading_size }}px;
+  }
+  @media screen and (max-width: 1366px) {
+    .multi-column-box-with-image.section-{{ section.id }} .sec-head .title {
+      font-size: {{ section.settings.custom_heading_size | divided_by: 1.238 }}px;
+    }
+  }
+  @media screen and (max-width: 1199px) {
+    .multi-column-box-with-image.section-{{ section.id }} .sec-head .title {
+      font-size: {{ section.settings.custom_heading_size | divided_by: 1.3 }}px;
+    }
+  }
+  @media screen and (max-width: 989px) {
+    .multi-column-box-with-image.section-{{ section.id }} .sec-head .title {
+      font-size: {{ section.settings.custom_heading_size | divided_by: 1.52 }}px;
+    }
+  }
+  @media screen and (max-width: 749px) {
+    .multi-column-box-with-image.section-{{ section.id }} .sec-head .title {
+      font-size: {{ section.settings.mobile_custom_heading_size }}px;
+    }
+  }
 
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
@@ -38,7 +61,7 @@
   <div class="multicolumn-box page-width">
     {%- if section.settings.title != blank -%}
       <div class="sec-head section-title-alignment-{{ section.settings.title_alignment }}">
-        <h2 class="title {{ section.settings.heading_size }}">
+        <h2 class="title">
           {{ section.settings.title }}
         </h2>
         <div class="section-sub-title subtitle">{{ section.settings.sec_subtitle }}</div>
@@ -131,6 +154,26 @@
       "type": "url",
       "id": "button_url",
       "label": "Button link"
+    },
+    {
+      "type": "range",
+      "id": "custom_heading_size",
+      "min": 20,
+      "max": 70,
+      "step": 1,
+      "default": 52,
+      "unit": "px",
+      "label": "Heading Size"
+    },
+    {
+      "type": "range",
+      "id": "mobile_custom_heading_size",
+      "min": 20,
+      "max": 40,
+      "step": 1,
+      "default": 28,
+      "unit": "px",
+      "label": "Mobile Heading Size"
     },
     {
       "type": "select",

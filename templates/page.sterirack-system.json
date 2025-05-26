@@ -15,37 +15,109 @@
         "featured_collection_jYRxp4": {
           "type": "featured_collection",
           "settings": {
-            "collection": "sterirack-shelving-and-basket-modules",
+            "collection": "sterirack-shelving",
             "redirection_link": ""
           }
         },
-        "featured_collection_zyWp98": {
+        "featured_collection_BF4bE9": {
           "type": "featured_collection",
           "settings": {
-            "collection": "sterirack-shelving-standard-fixed-various-types",
+            "collection": "sterirack-baskets",
             "redirection_link": ""
           }
         },
-        "featured_collection_wYkGW9": {
+        "featured_collection_cAbakh": {
           "type": "featured_collection",
           "settings": {
-            "collection": "sterirack-shelving-standard-adjustable-various-types",
+            "collection": "steriloop-baskets",
             "redirection_link": ""
           }
         },
-        "featured_collection_7cm9qX": {
+        "featured_collection_zk8byR": {
           "type": "featured_collection",
           "settings": {
-            "collection": "",
+            "collection": "sterirack-pharmacy-drawers",
+            "redirection_link": ""
+          }
+        },
+        "featured_collection_qpt6gM": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sterirack-benching",
+            "redirection_link": ""
+          }
+        },
+        "featured_collection_JyFg6G": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sterirack-workstations",
+            "redirection_link": ""
+          }
+        },
+        "featured_collection_wDAjpL": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sterirack-overhead-rail-units",
+            "redirection_link": ""
+          }
+        },
+        "featured_collection_xdfVym": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sterirack-mattress-storage",
+            "redirection_link": ""
+          }
+        },
+        "featured_collection_diBUE4": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sterirack-open-trolleys",
+            "redirection_link": ""
+          }
+        },
+        "featured_collection_wYritT": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sterirack-semi-open-trolleys",
+            "redirection_link": ""
+          }
+        },
+        "featured_collection_Dd8cQx": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sterirack-enclosed-carts",
+            "redirection_link": ""
+          }
+        },
+        "featured_collection_kNDbN9": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sterirack-accessories",
+            "redirection_link": ""
+          }
+        },
+        "featured_collection_d9k4tn": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sterirack-side-bar",
             "redirection_link": ""
           }
         }
       },
       "block_order": [
         "featured_collection_jYRxp4",
-        "featured_collection_zyWp98",
-        "featured_collection_wYkGW9",
-        "featured_collection_7cm9qX"
+        "featured_collection_BF4bE9",
+        "featured_collection_cAbakh",
+        "featured_collection_zk8byR",
+        "featured_collection_qpt6gM",
+        "featured_collection_JyFg6G",
+        "featured_collection_wDAjpL",
+        "featured_collection_xdfVym",
+        "featured_collection_diBUE4",
+        "featured_collection_wYritT",
+        "featured_collection_Dd8cQx",
+        "featured_collection_kNDbN9",
+        "featured_collection_d9k4tn"
       ],
       "name": "Categories",
       "settings": {

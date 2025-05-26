@@ -18,7 +18,7 @@ a {
 .shopify-challenge__button,
 .customer button {
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.17;
   border-radius: 88px;
   transition: all .3s ease-in-out;
@@ -133,7 +133,7 @@ span.img-icon {
 .header-localization .disclosure .localization-form__select {
   letter-spacing: 0;
   line-height: 21px;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .utility-bar .localization-wrapper .disclosure .localization-form__select,
@@ -167,7 +167,7 @@ span.img-icon {
 
 .utility-bar {
   padding: 15px 0;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .announcement-bar__message {
@@ -196,7 +196,7 @@ span.img-icon {
 
 body .header__menu-item {
   padding: 0;
-  font-weight: 400;
+  font-weight: 300;
   position: relative;
   font-size: 16px;
   line-height: 1.17;
@@ -699,7 +699,7 @@ body .newsletter-form {
 .product .product__info-wrapper .price__sale .price-item--sale,
 .product .product__info-wrapper .price__regular .price-item--regular {
   font-size: 32px;
-  font-weight: 400;
+  font-weight: 300;
   line-height: normal;
   margin: 0 1.6rem 0 0;
   color: rgb(var(--color-foreground));
@@ -770,7 +770,7 @@ body .newsletter-form {
 .product__info-wrapper .product__info-container .price--on-sale .price-item--regular {
   font-size: 24px;
   line-height: normal;
-  font-weight: 400;
+  font-weight: 300;
   color: rgb(var(--color-foreground));
 }
 
@@ -797,7 +797,7 @@ body .newsletter-form {
 
 .product__info-wrapper .product-info-price .price-name-label {
   font-size: 32px;
-  font-weight: 400;
+  font-weight: 300;
   line-height: normal;
 }
 
@@ -837,13 +837,13 @@ body .newsletter-form {
   align-items: center;
   gap: 20px;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.17;
 }
 
 .product__info-wrapper .form__label {
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 300;
   line-height: normal;
   margin: 0;
 }
@@ -869,7 +869,7 @@ body .quantity .quantity__button .svg-wrapper {
 body .quantity .quantity__input {
   opacity: 1;
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.17;
   padding: 0;
 }
@@ -1337,7 +1337,7 @@ body .complementary-products-contains-quick-add .card__heading:hover a {
 .product-detail-tabs-container .tab-subheading {
   margin: 0 0 1.4rem;
   font-size: 2.4rem;
-  font-weight: 400;
+  font-weight: 300;
   line-height: normal;
 }
 
@@ -1349,7 +1349,7 @@ body .complementary-products-contains-quick-add .card__heading:hover a {
 
 .product__accordion .accordion__title {
   line-height: normal;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .product__accordion.accordion .summary__title+.icon-caret {
@@ -1758,7 +1758,7 @@ body.shopify-section-header-hidden .hotspot-product-list-main {
   font-size: 32px;
   line-height: 0.812;
   margin: 1.6rem 0 0;
-  font-weight: 400;
+  font-weight: 300;
   font-family: "Work Sans", sans-serif;
 }
 

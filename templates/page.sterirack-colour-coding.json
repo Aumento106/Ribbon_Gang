@@ -9,66 +9,6 @@
  */
 {
   "sections": {
-    "categories_9acj3x": {
-      "type": "categories",
-      "blocks": {
-        "featured_collection_m4aNRE": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "sterirack-colour-coding-click-n-clip-label-holders-various-types",
-            "redirection_link": ""
-          }
-        },
-        "featured_collection_jtRiJK": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "sterirack-colour-coding-waterfall-label-holders-various-types",
-            "redirection_link": ""
-          }
-        },
-        "featured_collection_kFcGGX": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "sterirack-colour-coding-post-label-holders-various-types",
-            "redirection_link": ""
-          }
-        },
-        "featured_collection_TcYQVN": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "sterirack-colour-coding-post-strips-various-types",
-            "redirection_link": ""
-          }
-        },
-        "featured_collection_3hM6pA": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "sterirack-colour-coding-vertical-basket-label-holders-various-types",
-            "redirection_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_m4aNRE",
-        "featured_collection_jtRiJK",
-        "featured_collection_kFcGGX",
-        "featured_collection_TcYQVN",
-        "featured_collection_3hM6pA"
-      ],
-      "name": "Categories",
-      "settings": {
-        "title": "Collections",
-        "heading_size": "h1",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "color_scheme": "",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "rich_text_P3hBwh": {
       "type": "rich-text",
       "blocks": {
@@ -91,7 +31,6 @@
         "heading_mGwXwE",
         "text_7xmpEL"
       ],
-      "disabled": true,
       "settings": {
         "content_alignment": "center",
         "content_width": "full_width",
@@ -101,6 +40,76 @@
         "section_border": false,
         "padding_top": 80,
         "padding_bottom": 50
+      }
+    },
+    "categories_9acj3x": {
+      "type": "categories",
+      "blocks": {
+        "featured_collection_m4aNRE": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sterirack-colour-coding-click-n-clip-label-holders-various-types",
+            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "button_card_text": "Button",
+            "redirection_link": ""
+          }
+        },
+        "featured_collection_jtRiJK": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sterirack-colour-coding-waterfall-label-holders-various-types",
+            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "button_card_text": "Button",
+            "redirection_link": ""
+          }
+        },
+        "featured_collection_kFcGGX": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sterirack-colour-coding-post-label-holders-various-types",
+            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "button_card_text": "Button",
+            "redirection_link": ""
+          }
+        },
+        "featured_collection_TcYQVN": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sterirack-colour-coding-post-strips-various-types",
+            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "button_card_text": "Button",
+            "redirection_link": ""
+          }
+        },
+        "featured_collection_3hM6pA": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sterirack-colour-coding-vertical-basket-label-holders-various-types",
+            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "button_card_text": "Button",
+            "redirection_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_m4aNRE",
+        "featured_collection_jtRiJK",
+        "featured_collection_kFcGGX",
+        "featured_collection_TcYQVN",
+        "featured_collection_3hM6pA"
+      ],
+      "name": "Categories",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "main": {
@@ -133,8 +142,8 @@
     }
   },
   "order": [
-    "categories_9acj3x",
     "rich_text_P3hBwh",
+    "categories_9acj3x",
     "main",
     "product_catalog_W3r7Xn"
   ]

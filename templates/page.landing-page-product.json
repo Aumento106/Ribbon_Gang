@@ -15,25 +15,29 @@
         "featured_collection_EAf6mm": {
           "type": "featured_collection",
           "settings": {
-            "collection": "medibin-system"
+            "collection": "medibin-system",
+            "redirection_link": ""
           }
         },
         "featured_collection_rtENTX": {
           "type": "featured_collection",
           "settings": {
-            "collection": "cleanspan"
+            "collection": "cleanspan",
+            "redirection_link": ""
           }
         },
         "featured_collection_9nDJ4R": {
           "type": "featured_collection",
           "settings": {
-            "collection": "sterirack-colour-coding"
+            "collection": "sterirack-colour-coding",
+            "redirection_link": ""
           }
         },
         "featured_collection_VU3yiy": {
           "type": "featured_collection",
           "settings": {
-            "collection": "sterirack-system"
+            "collection": "sterirack-system",
+            "redirection_link": "shopify://blogs/news"
           }
         }
       },

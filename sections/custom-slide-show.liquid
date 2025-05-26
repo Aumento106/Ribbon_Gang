@@ -35,7 +35,7 @@
       transform: translateX(-50%);
     }
     .section-custom-slide-show .banner__heading.heading--{{ block.id }} {
-      font-size: {{ block.settings.heading_size }} px;
+      font-size: {{ block.settings.custom_heading_size }} px;
     }
     .section-custom-slide-show .banner__heading.heading--{{ block.id }},
     .section-custom-slide-show  .subheading--{{ block.id }} {
@@ -388,7 +388,7 @@
         },
         {
           "type": "range",
-          "id": "heading_size",
+          "id": "custom_heading_size",
           "min": 20,
           "max": 70,
           "step": 1,

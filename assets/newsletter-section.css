@@ -58,7 +58,8 @@
 .newsletter .field__label {
   position: static;
   display: block;
-  margin-bottom: 0.8rem;
+  /* margin-bottom: 0.8rem; */
+  margin-bottom: 0
   font-weight: 500;
   line-height: 1.66;
   color: rgb(var(--color-foreground));

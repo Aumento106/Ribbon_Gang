@@ -13,6 +13,26 @@
   {% render 'card-collection' %}
 {% endcomment %}
 
+{% style %}
+  card-button{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    cursor: pointer;
+    font: inherit;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(var(--color-button-text));
+    transition: box-shadow var(--duration-short) ease;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: rgba(var(--color-button), var(--alpha-button-background));
+    padding: 16px 60px;
+  }
+{% endstyle %}
+
 {%- liquid
   assign ratio = 1
   if card_collection.featured_image and media_aspect_ratio == 'portrait'

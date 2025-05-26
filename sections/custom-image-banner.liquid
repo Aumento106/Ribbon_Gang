@@ -36,7 +36,9 @@
       bottom: {{ block.settings.botton_position }}px;
       transform: translateX(-50%);
     }
-
+    .custom-image-banner #Banner-{{ section.id }} .banner-text-con {
+      border-radius: 0 0 {{ block.settings.border-radius }} {{ block.settings.border-radius }};
+    }
     .custom-image-banner .hotspot-icon-{{ block.id }} {
       top: {{ block.settings.top_position }}%;
       left: {{ block.settings.left_position }}%;
@@ -596,6 +598,16 @@
           ],
           "default": "h1",
           "label": "t:sections.all.heading_size.label"
+        },
+        {
+          "type": "range",
+          "id": "border-radius",
+          "min": 0,
+          "max": 50,
+          "step": 1,
+          "default": 16,
+          "unit": "px",
+          "label": "Border Radius"
         }
       ]
     },

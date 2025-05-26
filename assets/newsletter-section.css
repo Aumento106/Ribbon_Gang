@@ -76,6 +76,7 @@
 .newsletter .field__input {
   border: 1px solid #4242424D;
   border-radius: 8px;
+  /* height: 6rem; */
   height: 4.5rem;
   background: #fff;
   /* font-size: 20px; */

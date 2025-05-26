@@ -3,6 +3,12 @@
   padding: 0;
   width: 100%;
 }
+.section-custom-slide-show .slideshow__text-wrapper:has(.slideshow__text--left) {
+  justify-content: flex-start;
+}
+.section-custom-slide-show .slideshow__text-wrapper:has(.slideshow__text--right) {
+  justify-content: flex-end;
+}
 .section-custom-slide-show .slideshow__text.banner__box.slideshow__text--center  {
   max-width: 100%;
 }

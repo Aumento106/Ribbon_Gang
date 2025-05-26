@@ -81,6 +81,7 @@
             {%- assign placeholder_image = 'collection-apparel-' | append: placeholder_image_index -%}
             {% render 'categories-collection',
               card_collection: block.settings.collection,
+              redirection_link: block.settings.redirection_link,
               media_aspect_ratio: section.settings.image_ratio,
               columns: columns,
               placeholder_image: placeholder_image

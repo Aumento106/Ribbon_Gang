@@ -822,7 +822,7 @@ body .newsletter-form {
 }
 
 .product__info-wrapper .share-button {
-  margin-bottom: 2.4rem;
+  margin-bottom: 0;
   display: flex;
   justify-content: end;
 }

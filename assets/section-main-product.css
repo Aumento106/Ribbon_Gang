@@ -1189,6 +1189,8 @@ a.product__text {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .product__inventory .svg-wrapper,

@@ -30,14 +30,14 @@
           "type": "featured_collection",
           "settings": {
             "collection": "sterirack-colour-coding",
-            "redirection_link": ""
+            "redirection_link": "shopify://pages/sterirack-colour-coding"
           }
         },
         "featured_collection_VU3yiy": {
           "type": "featured_collection",
           "settings": {
             "collection": "sterirack-system",
-            "redirection_link": "shopify://blogs/news"
+            "redirection_link": "shopify://pages/sterirack-system"
           }
         }
       },

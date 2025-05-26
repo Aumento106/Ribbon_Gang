@@ -9,6 +9,39 @@
  */
 {
   "sections": {
+    "rich_text_P3hBwh": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_mGwXwE": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ page.title }}",
+            "heading_size": "h1"
+          }
+        },
+        "text_7xmpEL": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Remove this line of text</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_mGwXwE",
+        "text_7xmpEL"
+      ],
+      "settings": {
+        "content_alignment": "center",
+        "content_width": "full_width",
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "full_width": true,
+        "no_margin": false,
+        "section_border": false,
+        "padding_top": 80,
+        "padding_bottom": 50
+      }
+    },
     "categories_6XThDT": {
       "type": "categories",
       "blocks": {
@@ -16,6 +49,8 @@
           "type": "featured_collection",
           "settings": {
             "collection": "sterirack-shelving",
+            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "button_card_text": "Button",
             "redirection_link": ""
           }
         },
@@ -23,6 +58,8 @@
           "type": "featured_collection",
           "settings": {
             "collection": "sterirack-baskets",
+            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "button_card_text": "Button",
             "redirection_link": ""
           }
         },
@@ -30,6 +67,8 @@
           "type": "featured_collection",
           "settings": {
             "collection": "steriloop-baskets",
+            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "button_card_text": "Button",
             "redirection_link": ""
           }
         },
@@ -37,6 +76,8 @@
           "type": "featured_collection",
           "settings": {
             "collection": "sterirack-pharmacy-drawers",
+            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "button_card_text": "Button",
             "redirection_link": ""
           }
         },
@@ -44,6 +85,8 @@
           "type": "featured_collection",
           "settings": {
             "collection": "sterirack-benching",
+            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "button_card_text": "Button",
             "redirection_link": ""
           }
         },
@@ -51,6 +94,8 @@
           "type": "featured_collection",
           "settings": {
             "collection": "sterirack-workstations",
+            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "button_card_text": "Button",
             "redirection_link": ""
           }
         },
@@ -58,6 +103,8 @@
           "type": "featured_collection",
           "settings": {
             "collection": "sterirack-overhead-rail-units",
+            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "button_card_text": "Button",
             "redirection_link": ""
           }
         },
@@ -65,6 +112,8 @@
           "type": "featured_collection",
           "settings": {
             "collection": "sterirack-mattress-storage",
+            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "button_card_text": "Button",
             "redirection_link": ""
           }
         },
@@ -72,6 +121,8 @@
           "type": "featured_collection",
           "settings": {
             "collection": "sterirack-open-trolleys",
+            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "button_card_text": "Button",
             "redirection_link": ""
           }
         },
@@ -79,6 +130,8 @@
           "type": "featured_collection",
           "settings": {
             "collection": "sterirack-semi-open-trolleys",
+            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "button_card_text": "Button",
             "redirection_link": ""
           }
         },
@@ -86,6 +139,8 @@
           "type": "featured_collection",
           "settings": {
             "collection": "sterirack-enclosed-carts",
+            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "button_card_text": "Button",
             "redirection_link": ""
           }
         },
@@ -93,6 +148,8 @@
           "type": "featured_collection",
           "settings": {
             "collection": "sterirack-accessories",
+            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "button_card_text": "Button",
             "redirection_link": ""
           }
         },
@@ -100,6 +157,8 @@
           "type": "featured_collection",
           "settings": {
             "collection": "sterirack-side-bar",
+            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "button_card_text": "Button",
             "redirection_link": ""
           }
         }
@@ -133,40 +192,6 @@
         "padding_bottom": 36
       }
     },
-    "rich_text_P3hBwh": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_mGwXwE": {
-          "type": "heading",
-          "settings": {
-            "heading": "{{ page.title }}",
-            "heading_size": "h1"
-          }
-        },
-        "text_7xmpEL": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Remove this line of text</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_mGwXwE",
-        "text_7xmpEL"
-      ],
-      "disabled": true,
-      "settings": {
-        "content_alignment": "center",
-        "content_width": "full_width",
-        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
-        "full_width": true,
-        "no_margin": false,
-        "section_border": false,
-        "padding_top": 80,
-        "padding_bottom": 50
-      }
-    },
     "main": {
       "type": "main-page",
       "settings": {
@@ -197,8 +222,8 @@
     }
   },
   "order": [
-    "categories_6XThDT",
     "rich_text_P3hBwh",
+    "categories_6XThDT",
     "main",
     "product_catalog_W3r7Xn"
   ]

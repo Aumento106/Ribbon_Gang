@@ -1298,7 +1298,9 @@ body .complementary-products-contains-quick-add .card__heading:hover a {
   border-radius: 0 16px 16px 16px;
   padding: 30px;
 }
-
+.product-detail-tabs-container .tab-content table {
+  width: 100%;
+}
 .product-detail-tabs-container .tab-content-inner {
   padding: 22px 40px 22px 30px;
   max-height: 190px;

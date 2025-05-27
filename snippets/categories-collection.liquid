@@ -35,10 +35,10 @@
 
 {%- liquid
   assign ratio = 1
-  if block.settings.categories_image and media_aspect_ratio == 'portrait'
+  if categories_image and media_aspect_ratio == 'portrait'
     assign ratio = 0.8
-  elsif block.settings.categories_image and media_aspect_ratio == 'adapt'
-    assign ratio = block.settings.categories_image.aspect_ratio
+  elsif categories_image and media_aspect_ratio == 'adapt'
+    assign ratio = categories_image.aspect_ratio
   endif
   if ratio == 0 or ratio == null
     assign ratio = 1
@@ -59,32 +59,32 @@
     style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;"
   >
     <div
-      class="card__inner {% if card_style == 'standard' %}color-{{ card_color_scheme }} gradient{% endif %}{% if block.settings.categories_image or card_style == 'standard' %} ratio{% endif %}"
+      class="card__inner {% if card_style == 'standard' %}color-{{ card_color_scheme }} gradient{% endif %}{% if categories_image or card_style == 'standard' %} ratio{% endif %}"
       style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;"
     >
-      {%- if block.settings.categories_image -%}
+      {%- if categories_image  -%}
         <div class="card__media">
           <div class="media media--transparent media--hover-effect">
             <img
               srcset="
-                {%- if block.settings.categories_image.width >= 165 -%}{{ block.settings.categories_image | image_url: width: 165 }} 165w,{%- endif -%}
-                {%- if block.settings.categories_image.width >= 330 -%}{{ block.settings.categories_image | image_url: width: 330 }} 330w,{%- endif -%}
-                {%- if block.settings.categories_image.width >= 535 -%}{{ block.settings.categories_image | image_url: width: 535 }} 535w,{%- endif -%}
-                {%- if block.settings.categories_image.width >= 750 -%}{{ block.settings.categories_image | image_url: width: 750 }} 750w,{%- endif -%}
-                {%- if block.settings.categories_image.width >= 1000 -%}{{ block.settings.categories_image | image_url: width: 1000 }} 1000w,{%- endif -%}
-                {%- if block.settings.categories_image.width >= 1500 -%}{{ block.settings.categories_image | image_url: width: 1500 }} 1500w,{%- endif -%}
-                {%- if block.settings.categories_image.width >= 3000 -%}{{ block.settings.categories_image | image_url: width: 3000 }} 3000w,{%- endif -%}
-                {{ block.settings.categories_image | image_url }} {{ block.settings.categories_image.width }}w
+                {%- if categories_image.width >= 165 -%}{{ categories_image | image_url: width: 165 }} 165w,{%- endif -%}
+                {%- if categories_image.width >= 330 -%}{{ categories_image | image_url: width: 330 }} 330w,{%- endif -%}
+                {%- if categories_image.width >= 535 -%}{{ categories_image | image_url: width: 535 }} 535w,{%- endif -%}
+                {%- if categories_image.width >= 750 -%}{{ categories_image | image_url: width: 750 }} 750w,{%- endif -%}
+                {%- if categories_image.width >= 1000 -%}{{ categories_image | image_url: width: 1000 }} 1000w,{%- endif -%}
+                {%- if categories_image.width >= 1500 -%}{{ categories_image | image_url: width: 1500 }} 1500w,{%- endif -%}
+                {%- if categories_image.width >= 3000 -%}{{ categories_image | image_url: width: 3000 }} 3000w,{%- endif -%}
+                {{ categories_image | image_url }} {{ categories_image.width }}w
               "
-              src="{{ block.settings.categories_image | image_url: width: 1500 }}"
+              src="{{ categories_image | image_url: width: 1500 }}"
               sizes="
                 (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: columns }}px,
                 (min-width: 750px) {% if columns > 1 %}calc((100vw - 10rem) / 2){% else %}calc(100vw - 10rem){% endif %},
                 calc(100vw - 3rem)
               "
-              alt="{{ block.settings.categories_image.alt | escape }}"
-              height="{{ block.settings.categories_image.height }}"
-              width="{{ block.settings.categories_image.width }}"
+              alt="{{ categories_image.alt | escape }}"
+              height="{{ categories_image.height }}"
+              width="{{ categories_image.width }}"
               loading="lazy"
               class="motion-reduce"
             >
@@ -130,7 +130,7 @@
       <span>{{ card_text }}</span>
     </div>
       <a href="{% if redirection_link != blank %}{{ redirection_link }}{% else %} {{ card_collection.url }} {% endif %}" class="button button--primary card-button">{{ card_button }}</a>
-    {%- if card_collection != blank and card_style == 'card' or block.settings.categories_image -%}
+    {%- if card_collection != blank and card_style == 'card' or categories_image -%}
       <div class="card__content">
         <div class="card__information">
           <h2 class="card__heading">
@@ -149,7 +149,7 @@
               {%- endif -%}
             </a>
           </h2>
-          {%- if block.settings.categories_image == null and card_collection.description != blank -%}
+          {%- if categories_image == null and card_collection.description != blank -%}
             <p class="card__caption">
               {{- card_collection.description | strip_html | truncatewords: 12 -}}
               <span class="icon-wrap">

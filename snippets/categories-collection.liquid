@@ -126,6 +126,7 @@
         </div>
       {%- endif -%}
     </div>
+    
     {%- if card_collection != blank and card_style == 'card' or categories_image -%}
       <div class="card__content">
         <div class="card__information">
@@ -145,6 +146,10 @@
               {%- endif -%}
             </a>
           </h2>
+          <div>
+          <span>{{ card_text }}</span>
+        </div>
+          <a href="{% if redirection_link != blank %}{{ redirection_link }}{% else %} {{ card_collection.url }} {% endif %}" class="button button--primary card-button">{{ card_button }}</a>
           {%- if categories_image == null and card_collection.description != blank -%}
             <p class="card__caption">
               {{- card_collection.description | strip_html | truncatewords: 12 -}}

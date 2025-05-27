@@ -3266,3 +3266,6 @@ ul.header__submenu li ul li a{
   position: absolute;
   top: 0;
 }
+.main-product-categories .collection-list .collection-list__item .card .card_description {
+  padding: 15px 0;
+}

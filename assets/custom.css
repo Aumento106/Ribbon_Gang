@@ -1296,9 +1296,7 @@ body .complementary-products-contains-quick-add .card__heading:hover a {
   display: none;
   border: 1px solid #424242;
   border-radius: 0 16px 16px 16px;
-  padding-right: 6px;
-  padding-top: 18px;
-  padding-bottom: 18px;
+  padding: 30px;
 }
 
 .product-detail-tabs-container .tab-content-inner {

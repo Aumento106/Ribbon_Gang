@@ -3262,10 +3262,10 @@ ul.header__submenu li ul li a{
   flex-direction: column;
   position: relative;
 }
-.main-product-categories .collection-list .collection-list__item .card .card__inner {
+/* .main-product-categories .collection-list .collection-list__item .card .card__inner {
   position: absolute;
   top: 0;
-}
+} */
 .main-product-categories .collection-list .collection-list__item .card .card_description {
   padding: 15px 0;
 }

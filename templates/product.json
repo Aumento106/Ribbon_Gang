@@ -124,11 +124,22 @@
         },
         "collapsible_tab_WGBYJ7": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "BROCHURE OR SPEC SHEET",
             "accordian_icon_image": "shopify://shop_images/Group_1171277814_1.svg",
             "icon": "check_mark",
             "content": "{{ product.metafields.custom.brochure_description | metafield_tag }}<p>Request a Room Design → Collaborate with our consultants to optimise your layout.<br/><br/></p><p>Request a Custom Quote → Get pricing tailored to your signage and configuration needs.<br/><br/></p><p>Request a Mini Exhibition → See STERIRACK® signage solutions in action, on-site.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_HaEpLp": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "BROCHURE OR SPEC SHEET",
+            "accordian_icon_image": "shopify://shop_images/Group_1171277814_1.svg",
+            "icon": "check_mark",
+            "content": "<p>Brochure or spec sheet: Learn how dividers elevate clinical organisation - see our full range in the <strong>Product Catalogue 2025.</strong><br/></p><p>Request a Room Design → Collabrorate with our consultants to optimise your layout.<br/></p><p>Request a Custom Quote → Get pricing tailored to your signage and configuration needs.<br/><br/>Request a Mini Exhibition → See STERIRACK® signage solutions in action, on-site.<br/><br/></p>",
             "page": ""
           }
         },
@@ -279,6 +290,7 @@
         "icon_text_reiiVN",
         "product_description_GjJGyV",
         "collapsible_tab_WGBYJ7",
+        "collapsible_tab_HaEpLp",
         "collapsible_tab_mY4f8B",
         "collapsible_tab_HpkKRY",
         "specifications_prC9K9",
@@ -736,7 +748,8 @@
             "image": "shopify://shop_images/Concept_5.png",
             "offer_title": "",
             "heading": "<p>BIM Files</p>",
-            "heading_size": "h0",
+            "block_custom_heading_size": 52,
+            "mobile_block_custom_heading_size": 28,
             "text": "<p>BIM files are available for download on request. To protect specification integrity, access is granted to trusted partners via password or tokenised link. Please contact us to request access and include your project or firm details for review.</p>",
             "button_label": "BIM File Request",
             "button_link": "mailto:sales@spacelogicgroup.com",
@@ -753,7 +766,8 @@
         "title_color": "#ffffff",
         "subheading_color": "#ffffff",
         "title_alignment": "center",
-        "heading_size": "h1",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
         "layout": "image_first",
         "content_layout": "no-overlap",
         "height": "extra-small",

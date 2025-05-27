@@ -96,23 +96,23 @@
       {%- endif -%}
     </div>
     <h2 class="card__heading 1">
-              <a
-                {% if card_collection == blank %}
-                  role="link" aria-disabled="true"
-                {% else %}
-                  href="{% if redirection_link != blank %} {{ redirection_link }} {% else %} {{ card_collection.url }} {% endif %}"
-                {% endif %}
-                class="full-unstyled-link 111"
-              >
-                {%- if card_collection.title != blank -%}
-                  {{- card_collection.title | escape -}}
-                {%- else -%}
-                  {{ 'onboarding.collection_title' | t }}
-                {%- endif -%}
-              </a>
-            </h2>
-    <div>
-      <span>{{ card_text }}</span>
+      <a
+        {% if card_collection == blank %}
+          role="link" aria-disabled="true"
+        {% else %}
+          href="{% if redirection_link != blank %} {{ redirection_link }} {% else %} {{ card_collection.url }} {% endif %}"
+        {% endif %}
+        class="full-unstyled-link 111"
+      >
+        {%- if card_collection.title != blank -%}
+          {{- card_collection.title | escape -}}
+        {%- else -%}
+          {{ 'onboarding.collection_title' | t }}
+        {%- endif -%}
+      </a>
+    </h2>
+    <div class="card_product_main">
+      <span class="card_product_main_desc">{{ card_text }}</span>
       <a href="{% if redirection_link != blank %} {{ redirection_link }} {% else %} {{ card_collection.url }} {% endif %}" class="button button--primary">{{ card_button }}</a>
     </div>
     {%- if card_collection != blank and card_style == 'card' or categories_image -%}

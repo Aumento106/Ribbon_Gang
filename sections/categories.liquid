@@ -144,6 +144,27 @@
   </div>
 </div>
 
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const listItems = document.querySelectorAll(".main-product-categories .card_product_main_desc");
+    let maxHeight = 0;
+  
+    // Get the max height
+    listItems.forEach(item => {
+      const itemHeight = item.offsetHeight;
+      if (itemHeight > maxHeight) {
+        maxHeight = itemHeight;
+      }
+    });
+  
+    // Apply the max height to all list items
+    listItems.forEach(item => {
+      item.style.height = maxHeight + "px";
+    });
+  });
+  </script>
+
+
 {% schema %}
 {
   "name": "Categories",

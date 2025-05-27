@@ -62,7 +62,7 @@
       class="card__inner {% if card_style == 'standard' %}color-{{ card_color_scheme }} gradient{% endif %}{% if block.settings.categories_image or card_style == 'standard' %} ratio{% endif %}"
       style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;"
     >
-      {%- if block.settings.categories_image != blank -%}
+      {%- if block.settings.categories_image -%}
         <div class="card__media">
           <div class="media media--transparent media--hover-effect">
             <img

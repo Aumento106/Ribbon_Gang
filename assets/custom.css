@@ -3269,7 +3269,7 @@ ul.header__submenu li ul li a{
 .main-product-categories .collection-list .collection-list__item .card .card_description {
   padding: 15px 0;
 }
-.main-product-categories .collection-list .collection-list__item .card card_inner {
+.main-product-categories .collection-list .collection-list__item .card .card_inner {
   margin-bottom: 15px;
 }
 .main-product-categories .collection-list .collection-list__item .card .button {

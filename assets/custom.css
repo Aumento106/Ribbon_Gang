@@ -1306,7 +1306,9 @@ body .complementary-products-contains-quick-add .card__heading:hover a {
   max-height: 190px;
   overflow-y: scroll;
 }
-
+.product-detail-tabs-container .tab-content table th {
+  font-size: 20px;
+}
 .product-detail-tabs-container .tab-content-inner::-webkit-scrollbar-thumb:hover {
   background: #a8a8a8 !important;
 }

@@ -81,6 +81,7 @@
             {%- assign placeholder_image = 'collection-apparel-' | append: placeholder_image_index -%}
             {% render 'categories-collection',
               card_collection: block.settings.collection,
+               categories_image: block.settings.categories_image,
               redirection_link: block.settings.redirection_link,
              card_button: block.settings.button_card_text,
              card_text: block.settings.card_text,
@@ -286,6 +287,11 @@
       "type": "featured_collection",
       "name": "t:sections.collection-list.blocks.featured_collection.name",
       "settings": [
+        {
+          "type": "image_picker",
+          "id": "categories_image",
+          "label": "Categories Image",
+        },
         {
           "type": "collection",
           "id": "collection",

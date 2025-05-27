@@ -83,7 +83,7 @@
       {%- else -%}
         <div class="card__content">
           <div class="card__information">
-            <h2 class="card__heading">
+            <h2 class="card__heading 1">
               <a
                 {% if card_collection == blank %}
                   role="link" aria-disabled="true"
@@ -111,11 +111,14 @@
         </div>
       {%- endif -%}
     </div>
-    
+    <div>
+      <span>{{ card_text }}</span>
+      <a href="{% if redirection_link != blank %} {{ redirection_link }} {% else %} {{ card_collection.url }} {% endif %}" class="button button--primary">{{ card_button }}</a>
+    </div>
     {%- if card_collection != blank and card_style == 'card' or card_collection.featured_image -%}
       <div class="card__content">
         <div class="card__information">
-          <h2 class="card__heading 1">
+          <h2 class="card__heading">
             <a
               {% if card_collection == blank %}
                 role="link" aria-disabled="true"
@@ -139,10 +142,6 @@
               </span>
             </p>
           {%- endif -%}
-          <div>
-            <span>{{ card_text }}</span>
-            <a href="{% if redirection_link != blank %} {{ redirection_link }} {% else %} {{ card_collection.url }} {% endif %}" class="button button--primary">{{ card_button }}</a>
-          </div>
         </div>
       </div>
     {%- endif -%}

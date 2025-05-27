@@ -49,36 +49,32 @@
           "type": "featured_collection",
           "settings": {
             "categories_image": "shopify://shop_images/Blacktown_square.png",
-            "collection": "medibin-system",
             "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-            "button_card_text": "Button",
+            "button_card_text": "Learn More",
             "redirection_link": "shopify://pages/medibin-system"
           }
         },
         "featured_collection_rtENTX": {
           "type": "featured_collection",
           "settings": {
-            "collection": "cleanspan",
             "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-            "button_card_text": "Button",
+            "button_card_text": "Learn More",
             "redirection_link": "shopify://pages/cleanspan"
           }
         },
         "featured_collection_9nDJ4R": {
           "type": "featured_collection",
           "settings": {
-            "collection": "sterirack-colour-coding",
             "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-            "button_card_text": "Button",
+            "button_card_text": "Learn More",
             "redirection_link": "shopify://pages/sterirack-colour-coding"
           }
         },
         "featured_collection_VU3yiy": {
           "type": "featured_collection",
           "settings": {
-            "collection": "sterirack-system",
             "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-            "button_card_text": "Button",
+            "button_card_text": "Learn More",
             "redirection_link": "shopify://pages/sterirack-system"
           }
         }

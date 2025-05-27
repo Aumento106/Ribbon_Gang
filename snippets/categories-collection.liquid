@@ -53,14 +53,9 @@
 
 <div class="card-wrapper animate-arrow {% if wrapper_class and wrapper_class != 'none' %}{{ wrapper_class }}{% else %}collection-card-wrapper{% endif %}">
   <div
-    class="
-      card
-      card--{{ card_style }}
-      {% if block.settings.categories_image %} card--media{% else %} card--text{% endif %}
-      {% if card_style == 'card' %} color-{{ card_color_scheme }} gradient{% endif %}
+    class="card card--{{ card_style }} card--media {% if card_style == 'card' %} color-{{ card_color_scheme }} gradient{% endif %}
       {% if extend_height %} card--extend-height{% endif %}
-      {% if block.settings.categories_image == nil and card_style == 'card' %} ratio{% endif %}
-    "
+      {% if block.settings.categories_image == nil and card_style == 'card' %} ratio{% endif %} "
     style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;"
   >
     <div

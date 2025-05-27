@@ -112,11 +112,6 @@
       {%- endif -%}
     </div>
     <div>
-      <h3 class="card__heading card__heading--placeholder">
-        <a role="link" aria-disabled="true" class="full-unstyled-link">
-          {{ 'onboarding.collection_title' | t }}
-        </a>
-      </h3>
       <span>{{ card_text }}</span>
       <a href="{% if redirection_link != blank %} {{ redirection_link }} {% else %} {{ card_collection.url }} {% endif %}" class="button button--primary">{{ card_button }}</a>
     </div>
@@ -151,7 +146,7 @@
       </div>
     {%- endif -%}
     {%- if card_collection == blank -%}
-      <div class="card__content 12">
+      <div class="card__content">
         <div class="card__information">
           <h3 class="card__heading card__heading--placeholder">
             <a role="link" aria-disabled="true" class="full-unstyled-link">

@@ -118,22 +118,7 @@
     {%- if card_collection != blank and card_style == 'card' or categories_image -%}
       <div class="card__content">
         <div class="card__information">
-          <h2 class="card__heading">
-            <a
-              {% if card_collection == blank %}
-                role="link" aria-disabled="true"
-              {% else %}
-                href="{{ redirection_link }}"
-              {% endif %}
-              class="full-unstyled-link"
-            >
-              {%- if card_collection.title != blank -%}
-                {{- card_collection.title | escape -}}
-              {%- else -%}
-                {{ 'onboarding.collection_title' | t }}
-              {%- endif -%}
-            </a>
-          </h2>
+          
           {%- if categories_image == null and card_collection.description != blank -%}
             <p class="card__caption">
               {{- card_collection.description | strip_html | truncatewords: 12 -}}

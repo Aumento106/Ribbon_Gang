@@ -3260,4 +3260,9 @@ ul.header__submenu li ul li a{
 }
 .main-product-categories .collection-list .collection-list__item .card {
   flex-direction: column;
+  position: relative;
+}
+.main-product-categories .collection-list .collection-list__item .card .card__inner {
+  position: absolute;
+  top: 0;
 }

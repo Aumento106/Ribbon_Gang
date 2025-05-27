@@ -3258,3 +3258,6 @@ ul.header__submenu li ul li a{
 .header__submenu li:last-child{
   margin-bottom: 0;
 }
+.main-product-categories .collection-list .collection-list__item .card {
+  flex-direction: colu
+}

@@ -145,9 +145,9 @@
               {%- endif -%}
             </a>
           </h2>
-          <div>
-          <span>{{ card_text }}</span>
-        </div>
+          <div class="card_">
+            <span>{{ card_text }}</span>
+          </div>
           <a href="{% if redirection_link != blank %}{{ redirection_link }}{% else %} {{ card_collection.url }} {% endif %}" class="button button--primary card-button">{{ card_button }}</a>
           {%- if categories_image == null and card_collection.description != blank -%}
             <p class="card__caption">

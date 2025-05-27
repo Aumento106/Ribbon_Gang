@@ -147,7 +147,9 @@
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     const listItems = document.querySelectorAll(".main-product-categories .card__heading");
+    const listItemsnew = document.querySelectorAll(".main-product-categories .card__heading .card_product_main_desc");
     let maxHeight = 0;
+    let maxHeight_new = 0;
   
     // Get the max height
     listItems.forEach(item => {
@@ -160,6 +162,19 @@
     // Apply the max height to all list items
     listItems.forEach(item => {
       item.style.height = maxHeight + "px";
+    });
+
+    // Get the max height
+    listItemsnew.forEach(item => {
+      const itemHeight = item.offsetHeight;
+      if (itemHeight > maxHeight_new) {
+        maxHeight_new = itemHeight;
+      }
+    });
+  
+    // Apply the max height to all list items
+    listItemsnew.forEach(item => {
+      item.style.height = maxHeight_new + "px";
     });
   });
   </script>

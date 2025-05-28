@@ -23,7 +23,7 @@
 .section-custom-slide-show .slideshow__slide {
     height: auto;
 }
-slideshow-component .slideshow.banner.enable_side_image_main::after {
+slideshow-component .slideshow__slide.enable_side_image_main::after {
   position: absolute;
   content: "";
   bottom: 0;

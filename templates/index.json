@@ -657,7 +657,7 @@
           "settings": {
             "image": "shopify://shop_images/Home_9.png",
             "tag_text": "Popular!",
-            "tag_text_color": "#424242",
+            "tag_text_color": "#ffffff",
             "logo_image": "shopify://shop_images/Steriloop_logo.svg",
             "heading": "<p>Suture racks</p>",
             "custom_heading_size": 52,
@@ -679,7 +679,7 @@
           "settings": {
             "image": "shopify://shop_images/Home_6.png",
             "tag_text": "Best seller!",
-            "tag_text_color": "#424242",
+            "tag_text_color": "#ffffff",
             "logo_image": "shopify://shop_images/Steriloop_logo.svg",
             "heading": "<p>Basket dividers</p>",
             "custom_heading_size": 52,

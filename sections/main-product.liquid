@@ -1214,7 +1214,7 @@
                       {%- endform -%}
                     </div>
                   {%- when 'buy_buttons' -%}
-                    <div class="product-info-checkout-buttons">
+                   {% if product.available %} <div class="product-info-checkout-buttons">
                       {%- render 'buy-buttons',
                         block: block,
                         product: product,
@@ -1229,6 +1229,8 @@
                         </a>
                       {% endif %}
                     </div>
+            {% else %}
+                     {% endif %}
               {% endcase %}
             {% endfor %}
           </div>

@@ -11,7 +11,6 @@
   "sections": {
     "section_breadcrumb_4rc6Md": {
       "type": "section-breadcrumb",
-      "name": "Breadcrumb",
       "settings": {
         "color_scheme": "",
         "padding_top": 30,
@@ -73,7 +72,7 @@
         "heading_De9nEQ": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Experts in Storage. People First.</strong>",
+            "heading": "Experts in Storage. People First.",
             "heading_size": "h0"
           }
         },

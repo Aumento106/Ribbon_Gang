@@ -117,7 +117,7 @@
           "type": "column",
           "settings": {
             "icon": "shopify://shop_images/project-consultation.svg",
-            "heading": "<p>Design Smarter, From Day One<br/><br/></p>",
+            "heading": "<p>Design Smarter, From Day One</p>",
             "text": "<p>Every great outcome starts with a detailed plan. At SpaceLogic, we collaborate with architects, hospital planners, procurement teams and frontline staff to co-design tailored clinical storage solutions. Our process includes site assessments, room audits, floor plans, and 3D models to ensure optimal functionality and future-ready flexibility.<br/><br/>Whether you’re building new or retrofitting an existing space, we’ll help you maximise efficiency, improve accessibility, and streamline workflows from the inside out.<br/><br/></p>"
           }
         },
@@ -163,7 +163,8 @@
         "product_image": "shopify://shop_images/image_104.png",
         "logo_link": "",
         "heading": "<p>Product catalogue</p>",
-        "heading_size": "h1",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "description": "<p>Click here to view our latest product and services catalogue in a browser without downloading.</p>",
         "button_1_text": "View catalogue",

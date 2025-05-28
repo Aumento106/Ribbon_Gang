@@ -9,6 +9,17 @@
  */
 {
   "sections": {
+    "section_breadcrumb_P4NhUR": {
+      "type": "section-breadcrumb",
+      "name": "Breadcrumb",
+      "settings": {
+        "color_scheme": "",
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "mobile_padding_top": 30,
+        "mobile_padding_bottom": 30
+      }
+    },
     "rich_text_P3hBwh": {
       "type": "rich-text",
       "blocks": {
@@ -235,6 +246,7 @@
     }
   },
   "order": [
+    "section_breadcrumb_P4NhUR",
     "rich_text_P3hBwh",
     "categories_6XThDT",
     "main",

@@ -11,7 +11,6 @@
   "sections": {
     "section_breadcrumb_P4NhUR": {
       "type": "section-breadcrumb",
-      "name": "Breadcrumb",
       "settings": {
         "color_scheme": "",
         "padding_top": 30,
@@ -207,7 +206,7 @@
         "heading_size": "h1",
         "image_ratio": "square",
         "columns_desktop": 3,
-        "color_scheme": "",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "show_view_all": false,
         "columns_mobile": "1",
         "swipe_on_mobile": false,

@@ -18,6 +18,17 @@
         "padding_bottom": 36
       }
     },
+    "section_breadcrumb_TEYBf3": {
+      "type": "section-breadcrumb",
+      "name": "Breadcrumb",
+      "settings": {
+        "color_scheme": "",
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "mobile_padding_top": 30,
+        "mobile_padding_bottom": 30
+      }
+    },
     "custom_page_banner_wUjFrR": {
       "type": "custom-page-banner",
       "blocks": {
@@ -212,7 +223,8 @@
         "product_image": "shopify://shop_images/Concept_5.png",
         "logo_link": "",
         "heading": "<p>BIM Files</p>",
-        "heading_size": "h1",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "description": "<p>BIM files are available for download on request. To protect specification integrity, access is granted to trusted partners via password or tokenised link. Please contact us to request access and include your project or firm details for review.</p>",
         "button_1_text": "BIM File Request",
@@ -232,7 +244,8 @@
         "product_image": "shopify://shop_images/image_104.png",
         "logo_link": "",
         "heading": "<p>Product catalogue</p>",
-        "heading_size": "h1",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "description": "<p>Click here to view our latest product and services catalogue in a browser without downloading.</p>",
         "button_1_text": "View catalogue",
@@ -249,6 +262,7 @@
   },
   "order": [
     "main",
+    "section_breadcrumb_TEYBf3",
     "custom_page_banner_wUjFrR",
     "form",
     "rich_text_CeDtL6",

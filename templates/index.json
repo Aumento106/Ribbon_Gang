@@ -16,7 +16,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Home_20.png",
-            "enable_side_image": true,
+            "enable_side_image": false,
             "heading": "Your trusted partner in clinical storage solutions",
             "custom_heading_size": 52,
             "mobile_custom_heading_size": 28,
@@ -635,7 +635,7 @@
           "settings": {
             "image": "shopify://shop_images/Home_7.png",
             "tag_text": "New innovation!",
-            "tag_text_color": "#424242",
+            "tag_text_color": "#ffffff",
             "logo_image": "shopify://shop_images/Steriloop_logo.svg",
             "heading": "<p>Silicon mats</p>",
             "custom_heading_size": 52,
@@ -866,6 +866,19 @@
             "button_link": "shopify://collections",
             "button_style_secondary": false
           }
+        },
+        "slide_bBmUrt": {
+          "type": "slide",
+          "settings": {
+            "offer_title": "<p>Super Saver Offer</p>",
+            "heading": "<p>Image with text</p>",
+            "block_custom_heading_size": 52,
+            "mobile_block_custom_heading_size": 28,
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
         }
       },
       "block_order": [
@@ -875,7 +888,8 @@
         "slide_zEHRHV",
         "slide_GEfh8E",
         "slide_iUhckn",
-        "slide_tWbjPi"
+        "slide_tWbjPi",
+        "slide_bBmUrt"
       ],
       "settings": {
         "heading": "",

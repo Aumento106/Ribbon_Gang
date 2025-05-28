@@ -262,7 +262,7 @@
             "show_gift_card_recipient": false,
             "request_quote_btn": "Request quotes",
             "request_quote_btn_link": "shopify://pages/contact",
-            "enquire_now": "enquire now",
+            "enquire_now": "Enquire now",
             "enquire_now_link": "shopify://pages/contact"
           }
         },

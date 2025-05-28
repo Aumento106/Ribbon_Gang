@@ -7,17 +7,27 @@
   }
   .logo-strip-section .logo-strip-wrapper {
     flex-direction: row;
-        max-width: 28%;
+    max-width: 28%;
     margin: 0 auto;
     justify-content: center;
+    gap: 20px;
   }
   .logo-strip-section .logo-strip-wrapper .logo-strip__item {
     border-right: 1px solid #fff;
     height: 100%;
     width: 33.33%;
+    position: relative;
   }
-  .logo-strip-section .logo-strip-wrapper .logo-strip__item:last-child {
-    border-right
+  .logo-strip-section .logo-strip-wrapper .logo-strip__item::after {
+    position: absolute;
+    content: "";
+    border-right: 1px solid #fff;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .logo-strip-section .logo-strip-wrapper .logo-strip__item:last-child::after {
+    border-right: 0
   }
 
   @media screen and (min-width: 750px) {

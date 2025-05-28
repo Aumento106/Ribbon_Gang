@@ -1231,6 +1231,11 @@
                       {% endif %}
                     </div>
                   {% else %}
+                      {% if block.settings.enquire_now_link != blank %}
+                        <a href="{{ block.settings.enquire_now_link }}" class="button product-form__submit request-quote-btn">
+                          {{ block.settings.enquire_now }}
+                        </a>
+                      {% endif %}
                   {% endif %}
               {% endcase %}
             {% endfor %}
@@ -1615,6 +1620,17 @@
           "type": "url",
           "id": "request_quote_btn_link",
           "label": "Quote button link"
+        },
+        {
+          "type": "text",
+          "id": "enquire_now",
+          "label": "Out of stoke button text",
+          "default": "enquire now"
+        },
+        {
+          "type": "url",
+          "id": "enquire_now_link",
+          "label": "enquire now button link"
         }
       ]
     },

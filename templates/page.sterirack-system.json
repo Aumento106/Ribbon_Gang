@@ -48,6 +48,7 @@
         "featured_collection_jYRxp4": {
           "type": "featured_collection",
           "settings": {
+            "categories_image": "shopify://shop_images/Blacktown_Hospital_19.png",
             "collection": "sterirack-shelving",
             "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
             "button_card_text": "Button",
@@ -57,6 +58,7 @@
         "featured_collection_BF4bE9": {
           "type": "featured_collection",
           "settings": {
+            "categories_image": "shopify://shop_images/Blacktown_square.png",
             "collection": "sterirack-baskets",
             "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
             "button_card_text": "Button",
@@ -66,6 +68,7 @@
         "featured_collection_cAbakh": {
           "type": "featured_collection",
           "settings": {
+            "categories_image": "shopify://shop_images/Group_1171277831.jpg",
             "collection": "steriloop-baskets",
             "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
             "button_card_text": "Button",
@@ -75,6 +78,7 @@
         "featured_collection_zk8byR": {
           "type": "featured_collection",
           "settings": {
+            "categories_image": "shopify://shop_images/Group_1171277830.jpg",
             "collection": "sterirack-pharmacy-drawers",
             "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
             "button_card_text": "Button",
@@ -84,6 +88,7 @@
         "featured_collection_qpt6gM": {
           "type": "featured_collection",
           "settings": {
+            "categories_image": "shopify://shop_images/Group_1171277824.jpg",
             "collection": "sterirack-benching",
             "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
             "button_card_text": "Button",
@@ -93,6 +98,7 @@
         "featured_collection_JyFg6G": {
           "type": "featured_collection",
           "settings": {
+            "categories_image": "shopify://shop_images/Concept_20.png",
             "collection": "sterirack-workstations",
             "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
             "button_card_text": "Button",
@@ -102,6 +108,7 @@
         "featured_collection_wDAjpL": {
           "type": "featured_collection",
           "settings": {
+            "categories_image": "shopify://shop_images/Concept_13.png",
             "collection": "sterirack-overhead-rail-units",
             "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
             "button_card_text": "Button",
@@ -111,6 +118,7 @@
         "featured_collection_xdfVym": {
           "type": "featured_collection",
           "settings": {
+            "categories_image": "shopify://shop_images/31-thumbnail-pbfvnz25sr6hr2fzddock32jcenv1hyhx1k0636gbk.jpg",
             "collection": "sterirack-mattress-storage",
             "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
             "button_card_text": "Button",
@@ -120,6 +128,7 @@
         "featured_collection_diBUE4": {
           "type": "featured_collection",
           "settings": {
+            "categories_image": "shopify://shop_images/11-thumbnail-pbfvnz25sr6hr2fzddock32jcenv1hyhx1k0636gbk.jpg",
             "collection": "sterirack-open-trolleys",
             "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
             "button_card_text": "Button",
@@ -129,6 +138,7 @@
         "featured_collection_wYritT": {
           "type": "featured_collection",
           "settings": {
+            "categories_image": "shopify://shop_images/image_1_2125102d-7d21-4a7a-a629-4d4dd46f8691.png",
             "collection": "sterirack-semi-open-trolleys",
             "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
             "button_card_text": "Button",
@@ -138,6 +148,7 @@
         "featured_collection_Dd8cQx": {
           "type": "featured_collection",
           "settings": {
+            "categories_image": "shopify://shop_images/Blacktown_square.png",
             "collection": "sterirack-enclosed-carts",
             "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
             "button_card_text": "Button",
@@ -147,6 +158,7 @@
         "featured_collection_kNDbN9": {
           "type": "featured_collection",
           "settings": {
+            "categories_image": "shopify://shop_images/megasale-offer-banner_d03c647a-a5dd-4537-859a-298359b30937.png",
             "collection": "sterirack-accessories",
             "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
             "button_card_text": "Button",
@@ -156,6 +168,7 @@
         "featured_collection_d9k4tn": {
           "type": "featured_collection",
           "settings": {
+            "categories_image": "shopify://shop_images/virus-graphic-coronavirus-1024x576.jpg",
             "collection": "sterirack-side-bar",
             "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
             "button_card_text": "Button",
@@ -178,7 +191,6 @@
         "featured_collection_kNDbN9",
         "featured_collection_d9k4tn"
       ],
-      "name": "Categories",
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -206,7 +218,8 @@
         "product_image": "shopify://shop_images/image_104.png",
         "logo_link": "",
         "heading": "<p>Product catalogue</p>",
-        "heading_size": "h1",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "description": "<p>Click here to view our latest product and services catalogue in a browser without downloading.</p>",
         "button_1_text": "View catalogue",

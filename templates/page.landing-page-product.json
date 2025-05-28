@@ -89,9 +89,8 @@
         "featured_collection_9nDJ4R",
         "featured_collection_VU3yiy"
       ],
-      "name": "Categories",
       "settings": {
-        "title": "",
+        "title": "Categories",
         "heading_size": "h1",
         "image_ratio": "square",
         "columns_desktop": 4,

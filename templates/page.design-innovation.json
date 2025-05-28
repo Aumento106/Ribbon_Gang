@@ -9,6 +9,17 @@
  */
 {
   "sections": {
+    "section_breadcrumb_nkcxiU": {
+      "type": "section-breadcrumb",
+      "name": "Breadcrumb",
+      "settings": {
+        "color_scheme": "",
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "mobile_padding_top": 30,
+        "mobile_padding_bottom": 30
+      }
+    },
     "page_banner_iVH9eY": {
       "type": "page-banner",
       "blocks": {
@@ -180,6 +191,7 @@
     }
   },
   "order": [
+    "section_breadcrumb_nkcxiU",
     "page_banner_iVH9eY",
     "multicolumn_services_box_Kh8zd7",
     "multicolumn_services_box_RrKnEQ",

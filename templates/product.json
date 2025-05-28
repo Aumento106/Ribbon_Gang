@@ -261,7 +261,9 @@
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": false,
             "request_quote_btn": "Request quotes",
-            "request_quote_btn_link": "shopify://pages/contact"
+            "request_quote_btn_link": "shopify://pages/contact",
+            "enquire_now": "enquire now",
+            "enquire_now_link": "shopify://pages/contact"
           }
         },
         "shipping_bar_EAdyyd": {

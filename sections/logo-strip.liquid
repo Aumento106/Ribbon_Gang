@@ -32,6 +32,12 @@
     border-right: 0;
   }
 
+  @media screen and (max-width: 989px) {
+    .logo-strip-section .logo-strip-wrapper {
+      max-width: 50%;
+    }
+  }
+
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top | times: 0.7 | round: 0 }}px;

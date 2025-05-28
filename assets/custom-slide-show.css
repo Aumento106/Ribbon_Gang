@@ -23,6 +23,13 @@
 .section-custom-slide-show .slideshow__slide {
     height: auto;
 }
+slideshow-component .slideshow.banner.enable_side_image_main::after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  right: 0;
+  background: url(https://cdn.shopify.com/s/files/1/0657/3388/6106/files/SpaceLogic_brain_-_left_white.png?v=1748415911) no-repeat center;
+}
 
 @media screen and (min-width: 990px) {
     .section-custom-slide-show .slideshow__text-wrapper.banner__content {

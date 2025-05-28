@@ -196,7 +196,7 @@
           }
         </style>
         <div
-          class="slideshow__slide swiper-slide grid__item grid--1-col"
+          class="slideshow__slide swiper-slide grid__item grid--1-col {% if block.settings.enable_side_image %} enable_side_image_main {% endif %}"
           id="Slide-{{ section.id }}-{{ forloop.index }}"
           {{ block.shopify_attributes }}
           role="group"

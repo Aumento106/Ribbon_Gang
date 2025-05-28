@@ -144,12 +144,26 @@
         "logo_jdEJbk": {
           "type": "logo",
           "settings": {
-            "image": "shopify://shop_images/logo-strip.png"
+            "image": "shopify://shop_images/STERILOOP-logo-grey-and-yellow-2025.svg"
+          }
+        },
+        "logo_xBG7Wc": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/STERILOOP-logo-grey-and-yellow-2025.svg"
+          }
+        },
+        "logo_jnc3tx": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/STERILOOP-logo-grey-and-yellow-2025.svg"
           }
         }
       },
       "block_order": [
-        "logo_jdEJbk"
+        "logo_jdEJbk",
+        "logo_xBG7Wc",
+        "logo_jnc3tx"
       ],
       "settings": {
         "color_scheme": "scheme-28b9a3ce-e916-452a-9440-95fefcedbf92",

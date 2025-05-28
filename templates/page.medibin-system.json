@@ -117,9 +117,8 @@
         "featured_collection_TtYFqg",
         "featured_collection_JNdDid"
       ],
-      "name": "Categories",
       "settings": {
-        "title": "Collections",
+        "title": "Sub Categories",
         "heading_size": "h1",
         "image_ratio": "square",
         "columns_desktop": 4,

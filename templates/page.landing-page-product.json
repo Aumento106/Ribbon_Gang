@@ -11,7 +11,6 @@
   "sections": {
     "section_breadcrumb_EA3JkM": {
       "type": "section-breadcrumb",
-      "name": "Breadcrumb",
       "settings": {
         "color_scheme": "",
         "padding_top": 30,
@@ -62,7 +61,7 @@
             "categories_image": "shopify://shop_images/Blacktown_square.png",
             "collection": "medibin-system",
             "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-            "button_card_text": "Learn More",
+            "button_card_text": "Shop Now",
             "redirection_link": "shopify://pages/medibin-system"
           }
         },
@@ -72,7 +71,7 @@
             "categories_image": "shopify://shop_images/Group_1171277831.jpg",
             "collection": "cleanspan",
             "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-            "button_card_text": "Learn More",
+            "button_card_text": "Shop Now",
             "redirection_link": "shopify://pages/cleanspan"
           }
         },
@@ -82,7 +81,7 @@
             "categories_image": "shopify://shop_images/Group_1171277830.jpg",
             "collection": "sterirack-colour-coding",
             "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-            "button_card_text": "Learn More",
+            "button_card_text": "Shop Now",
             "redirection_link": "shopify://pages/sterirack-colour-coding"
           }
         },
@@ -92,7 +91,7 @@
             "categories_image": "shopify://shop_images/Banner_1.png",
             "collection": "sterirack-system",
             "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-            "button_card_text": "Learn More",
+            "button_card_text": "Shop Now",
             "redirection_link": "shopify://pages/sterirack-system"
           }
         }
@@ -104,7 +103,7 @@
         "featured_collection_VU3yiy"
       ],
       "settings": {
-        "title": "Categories",
+        "title": "",
         "heading_size": "h1",
         "image_ratio": "square",
         "columns_desktop": 4,

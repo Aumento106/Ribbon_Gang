@@ -549,11 +549,11 @@
             </div>
           {% endif %}
         {% elsif quick_add == 'learnmore' %}
-          <div class="quick-add no-js-hidden">
+          {% comment %}<div class="quick-add no-js-hidden">
             <div class="learn-more-btn-wrapper">
               <a href="{{ card_product.url }}" class="quick-add__submit button button--primary button--full-width">{{ learn_more_button_text | default: "Learn More" }}</a>
             </div>
-          </div>
+          </div>{% endcomment %}
         {% endif %}
         <div class="card__badge {{ settings.badge_position }}">
           {%- if card_product.available == false -%}

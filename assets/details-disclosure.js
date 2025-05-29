@@ -14,21 +14,21 @@ class DetailsDisclosure extends HTMLElement {
     });
   }
 
-//   onToggle() {
-//     if (!this.animations) this.animations = this.content.getAnimations();
+  onToggle() {
+    if (!this.animations) this.animations = this.content.getAnimations();
 
-//     if (this.mainDetailsToggle.hasAttribute('open')) {
-//       this.animations.forEach((animation) => animation.play());
-//     } else {
-//       this.animations.forEach((animation) => animation.cancel());
-//     }
-//   }
+    if (this.mainDetailsToggle.hasAttribute('open')) {
+      this.animations.forEach((animation) => animation.play());
+    } else {
+      this.animations.forEach((animation) => animation.cancel());
+    }
+  }
 
-//   close() {
-//     this.mainDetailsToggle.removeAttribute('open');
-//     this.mainDetailsToggle.querySelector('summary').setAttribute('aria-expanded', false);
-//   }
-// }
+  close() {
+    this.mainDetailsToggle.removeAttribute('open');
+    this.mainDetailsToggle.querySelector('summary').setAttribute('aria-expanded', false);
+  }
+}
 
 customElements.define('details-disclosure', DetailsDisclosure);
 

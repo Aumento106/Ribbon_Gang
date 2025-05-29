@@ -122,7 +122,7 @@
         "heading_wtkCw3": {
           "type": "heading",
           "settings": {
-            "heading": "Clean Utilities and Medication Rooms",
+            "heading": "Clean Utilities And Medication Rooms",
             "custom_heading_size": 52,
             "mobile_custom_heading_size": 28,
             "border_radius": 16
@@ -131,7 +131,7 @@
         "text_t9P8ME": {
           "type": "text",
           "settings": {
-            "text": "Ollie: Text to go here.",
+            "text": "Ollie: Text To Go Here.",
             "text_style": "subtitle"
           }
         },

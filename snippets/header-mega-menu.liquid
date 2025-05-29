@@ -24,7 +24,6 @@
       <li>
         {%- if link.links != blank -%}
           <header-menu>
-            <details id="Details-HeaderMenu-{{ forloop.index }}"{% if mega_menu_block != '' %} class="mega-menu"{% else %}class="default-menu"{% endif %}>
                 <a
                   href="{{ link.url }}"
                   class="header__menu-item list-menu__item link link--text focus-inset"
@@ -32,6 +31,7 @@
                     aria-current="page"
                   {% endif %}
                 >
+            <details id="Details-HeaderMenu-{{ forloop.index }}"{% if mega_menu_block != '' %} class="mega-menu"{% else %}class="default-menu"{% endif %}>
               <summary
                 id="HeaderMenu-{{ link.handle }}"
                 class="header__menu-item list-menu__item link focus-inset"
@@ -46,7 +46,6 @@
                 {{- 'icon-pluse.svg' | inline_asset_content -}}
                 {{- 'icon-minus.svg' | inline_asset_content -}}
               </summary>
-                </a>
                 {%- if mega_menu_block != '' -%}
               <div
                 id="MegaMenu-Content-{{ forloop.index }}"
@@ -148,6 +147,7 @@
                   </ul>
                 {%- endif -%}
             </details>
+                </a>
           </header-menu>
         {%- else -%}
           <a

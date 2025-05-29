@@ -253,7 +253,7 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
   font-style: var(--font-body-style);
   font-weight: var(--font-body-weight);
 }
-
+/* 
 h1,
 h2,
 h3,
@@ -266,7 +266,7 @@ h5,
 .h4,
 .h5 {
   text-transform: lowercase;
-}
+} */
 
 /* h1,
 h2,

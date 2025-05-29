@@ -3106,7 +3106,7 @@ span.product_compar_price {
   display: inline-flex;
   align-items: center;
   gap: 14px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 /* .breadcrumbs a {

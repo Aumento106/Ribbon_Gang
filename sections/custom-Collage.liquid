@@ -65,6 +65,9 @@
       {% if block.settings.project_name != blank %}
         <h2 class="project-name h0">{{ block.settings.project_name }}</h2>
       {% endif %}
+      {% if block.settings.project_name != blank %}
+        <h2 class="project-name h0">{{ block.settings.project_name }}</h2>
+      {% endif %}
       {% if block.settings.project_des != blank %}
         <div class="project-short-des">
           {{ block.settings.project_des }}
@@ -421,6 +424,11 @@
           "id": "project_name",
           "label": "Project name",
           "default": "Project AU"
+        },
+        {
+          "type": "text",
+          "id": "project_sub_heading",
+          "label": "Project sub heading"
         },
         {
           "type": "inline_richtext",

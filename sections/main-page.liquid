@@ -65,7 +65,7 @@
           </div>
         {% endif %}
 
-        {% if section.settings.job_title != blank %}
+     
           <div class="form-row">
             <div class="form-field required">
               <div class="form_label_main">
@@ -82,15 +82,10 @@
                 required
               >
           </div>
-          {% endif %}
-
-        {% if section.settings.organisation != blank %}
           <div class="form-row">
             <div class="form-field required">
               <div class="form_label_main">
-                {% if section.settings.organisation_icon != blank %}
                   <img src="{{ section.settings.organisation_icon | img_url }}">
-                {% endif %}
                 <label class="form-label" for="ContactOrganisation">{{ section.settings.organisation }} *</label>
               </div>
               <input 
@@ -101,14 +96,9 @@
                 required
               >
           </div>
-          {% endif %}
-
-        {% if section.settings.email != blank %}
           <div class="form-field">
           <div class="form_label_main">
-            {% if section.settings.email_icon != blank %}
               <img src="{{ section.settings.email_icon | img_url }}">
-            {% endif %}
             <label class="form-label" for="ContactEmail">{{ section.settings.email }} *</label>
           </div>
             <input 
@@ -120,14 +110,9 @@
               required
             >
           </div>
-        {% endif %}
-
-        {% if section.settings.region != blank %}
           <div class="form-field required">
           <div class="form_label_main">
-            {% if section.settings.region_icon != blank %}
               <img src="{{ section.settings.region_icon | img_url }}">
-            {% endif %}
             <label class="form-label" for="ContactRegion">{{ section.settings.region }} *</label>
           </div>
             <input 
@@ -139,14 +124,12 @@
               required
             >
           </div>
-        {% endif %}
+    
 
-        {% if section.settings.phone != blank %}
+     
           <div class="form-field">
             <div class="form_label_main">
-              {% if section.settings.phone_icon != blank %}
                 <img src="{{ section.settings.phone_icon | img_url }}">
-              {% endif %}
               <label class="form-label" for="ContactPhone">{{ section.settings.phone }} *</label>
             </div>
             <input 
@@ -158,7 +141,7 @@
               required
             >
           </div>
-          {% endif %}
+        
 
         </div>
         

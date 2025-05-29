@@ -14,6 +14,198 @@
   }
 {%- endstyle -%}
 
+    <div class="contact-form-wrapper">
+
+        {% form 'contact' %}
+
+        {%- if form.posted_successfully? -%}
+            <h2 class="form-status form-status-list form__message" tabindex="-1" autofocus>
+              {{- 'icon-success.svg' | inline_asset_content -}}
+              {{ 'templates.contact.form.post_success' | t }}
+            </h2>
+          {%- elsif form.errors -%}
+            <div class="form__message">
+              <h2 class="form-status caption-large text-body" role="alert" tabindex="-1" autofocus>
+                {{- 'icon-error.svg' | inline_asset_content -}}
+                {{ 'templates.contact.form.error_heading' | t }}
+              </h2>
+            </div>
+            <ul class="form-status-list caption-large" role="list">
+              <li>
+                <a href="#ContactForm-email" class="link">
+                  {{ form.errors.translated_fields.email | capitalize }}
+                  {{ form.errors.messages.email }}
+                </a>
+              </li>
+            </ul>
+          {%- endif -%}
+
+          {% if form.errors %}
+            <div class="form-error" style="display: block; margin-bottom: 20px;">
+              {{ form.errors | default_errors }}
+            </div>
+          {% endif %}
+
+        {% if section.settings.name != blank %}
+          <div class="form-field">
+            <div class="form_label_main">
+              {% if section.settings.name_icon != blank %}
+                <img src="{{ section.settings.name_icon | img_url }}">
+              {% endif %}
+              <label class="form-label" for="ContactName">{{ section.settings.name }} *</label>
+            </div>
+            <input 
+              type="text" 
+              class="form-input" 
+              id="ContactName"
+              name="contact[name]" 
+              value="{{ form.name }}"
+              required
+            >
+          </div>
+        {% endif %}
+
+        {% if section.settings.job_title != blank %}
+          <div class="form-row">
+            <div class="form-field required">
+              <div class="form_label_main">
+                {% if section.settings.job_title_icon != blank %}
+                  <img src="{{ section.settings.job_title_icon | img_url }}">
+                {% endif %}
+                <label class="form-label" for="ContactJobTitle">{{ section.settings.job_title }} *</label>
+              </div>
+              <input 
+                type="text" 
+                class="form-input" 
+                id="ContactJobTitle"
+                name="contact[job_title]" 
+                required
+              >
+          </div>
+          {% endif %}
+
+        {% if section.settings.organisation != blank %}
+          <div class="form-row">
+            <div class="form-field required">
+              <div class="form_label_main">
+                {% if section.settings.organisation_icon != blank %}
+                  <img src="{{ section.settings.organisation_icon | img_url }}">
+                {% endif %}
+                <label class="form-label" for="ContactOrganisation">{{ section.settings.organisation }} *</label>
+              </div>
+              <input 
+                type="text" 
+                class="form-input" 
+                id="ContactOrganisation"
+                name="contact[organisation]" 
+                required
+              >
+          </div>
+          {% endif %}
+
+        {% if section.settings.email != blank %}
+          <div class="form-field">
+          <div class="form_label_main">
+            {% if section.settings.email_icon != blank %}
+              <img src="{{ section.settings.email_icon | img_url }}">
+            {% endif %}
+            <label class="form-label" for="ContactEmail">{{ section.settings.email }} *</label>
+          </div>
+            <input 
+              type="email" 
+              class="form-input" 
+              id="ContactEmail"
+              name="contact[email]" 
+              value="{{ form.email }}"
+              required
+            >
+          </div>
+        {% endif %}
+
+        {% if section.settings.region != blank %}
+          <div class="form-field required">
+          <div class="form_label_main">
+            {% if section.settings.region_icon != blank %}
+              <img src="{{ section.settings.region_icon | img_url }}">
+            {% endif %}
+            <label class="form-label" for="ContactRegion">{{ section.settings.region }} *</label>
+          </div>
+            <input 
+              type="text" 
+              class="form-input" 
+              id="ContactRegion"
+              name="contact[region]" 
+              value="{{ form.region }}"
+              required
+            >
+          </div>
+        {% endif %}
+
+        {% if section.settings.phone != blank %}
+          <div class="form-field">
+            <div class="form_label_main">
+              {% if section.settings.phone_icon != blank %}
+                <img src="{{ section.settings.phone_icon | img_url }}">
+              {% endif %}
+              <label class="form-label" for="ContactPhone">{{ section.settings.phone }} *</label>
+            </div>
+            <input 
+              type="tel" 
+              class="form-input" 
+              id="ContactPhone"
+              name="contact[phone]" 
+              value="{{ form.phone }}"
+              required
+            >
+          </div>
+          {% endif %}
+
+        </div>
+        
+        {% if section.settings.enquiry_type != blank %}
+          <div class="form-field required">
+            <div class="form_label_main">
+              {% if section.settings.enquiry_type_icon != blank %}
+                <img src="{{ section.settings.enquiry_type_icon | img_url }}">
+              {% endif %}
+              <label class="form-label" for="ContactEnquiryType">{{ section.settings.enquiry_type }} *</label>
+            </div>
+            <input 
+              type="tel" 
+              class="form-input" 
+              id="ContactEnquiryType"
+              name="contact[enquiry_type]" 
+              value="{{ form.enquiry_type }}"
+              required
+            >
+          </div>
+        </div>
+        {% endif %}
+
+        {% if section.settings.enquiry != blank %}
+          <div class="form-field">
+            <div class="form_label_main">
+              {% if section.settings.enquiry_icon != blank %}
+                <img src="{{ section.settings.enquiry_icon | img_url }}">
+              {% endif %}
+              <label class="form-label" for="ContactMessage">{{ section.settings.enquiry }}</label>
+            </div>
+            <textarea
+              class="form-textarea"
+              id="ContactMessage"
+              name="contact[body]"              
+            >{{ form.body }}</textarea>
+          </div>
+
+          {% endif %}
+
+        {% if section.settings.submit_btn != blank %}
+          <button type="submit" class="submit-button button button--primary">{{ section.settings.submit_btn }}</button>
+        {% endif %}
+        {% endform %}
+      </div>
+
+
 <div class="page-width color-{{ section.settings.color_scheme }} gradient main-page-col section-{{ section.id }}-padding">
   <h1 class="main-page-title page-title hide hidden {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">={{ page.title }}</h1>
   <div class="rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">

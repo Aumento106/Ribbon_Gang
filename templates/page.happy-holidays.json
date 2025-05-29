@@ -9,17 +9,8 @@
  */
 {
   "sections": {
-    "main": {
-      "type": "main-page",
-      "settings": {
-        "color_scheme": "",
-        "padding_top": 28,
-        "padding_bottom": 28
-      }
-    },
     "section_breadcrumb_PQCMDr": {
       "type": "section-breadcrumb",
-      "name": "Breadcrumb",
       "settings": {
         "color_scheme": "",
         "padding_top": 30,
@@ -28,12 +19,20 @@
         "mobile_padding_bottom": 30
       }
     },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "color_scheme": "",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
     "product_catalog_dDprFm": {
       "type": "product-catalog",
       "settings": {
         "product_image": "shopify://shop_images/image_104.png",
         "logo_link": "",
-        "heading": "<p>Product catalogue</p>",
+        "heading": "<p>Product Catalogue</p>",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",

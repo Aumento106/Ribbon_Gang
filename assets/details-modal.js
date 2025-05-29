@@ -15,20 +15,20 @@ class DetailsModal extends HTMLElement {
     return this.detailsContainer.hasAttribute('open');
   }
 
-  // onSummaryClick(event) {
-  //   event.preventDefault();
-  //   event.target.closest('details').hasAttribute('open') ? this.close() : this.open(event);
-  // }
+  onSummaryClick(event) {
+    event.preventDefault();
+    event.target.closest('details').hasAttribute('open') ? this.close() : this.open(event);
+  }
 
   onBodyClick(event) {
     if (!this.contains(event.target) || event.target.classList.contains('modal-overlay')) this.close(false);
   }
 
   open(event) {
-    // this.onBodyClickEvent = this.onBodyClickEvent || this.onBodyClick.bind(this);
-    // event.target.closest('details').setAttribute('open', true);
-    // document.body.addEventListener('click', this.onBodyClickEvent);
-    // document.body.classList.add('overflow-hidden');
+    this.onBodyClickEvent = this.onBodyClickEvent || this.onBodyClick.bind(this);
+    event.target.closest('details').setAttribute('open', true);
+    document.body.addEventListener('click', this.onBodyClickEvent);
+    document.body.classList.add('overflow-hidden');
 
     trapFocus(
       this.detailsContainer.querySelector('[tabindex="-1"]'),

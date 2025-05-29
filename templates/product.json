@@ -139,7 +139,7 @@
             "heading": "BROCHURE OR SPEC SHEET",
             "accordian_icon_image": "shopify://shop_images/Group_1171277814_1.svg",
             "icon": "check_mark",
-            "content": "<p>Brochure or spec sheet: Learn how dividers elevate clinical organisation - see our full range in the <a href=\"https://online.flippingbook.com/view/393434/\" title=\"https://online.flippingbook.com/view/393434/\"><strong>Product Catalogue 2025.</strong></a></p>",
+            "content": "{{ product.metafields.custom.brochure_description | metafield_tag }}",
             "page": ""
           }
         },

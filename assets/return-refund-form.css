@@ -31,6 +31,10 @@
   color: #ff0000;
   font-weight: 400;
 }
+.return_refund_main .wpforms-field-container .wpforms-field-row {
+  display: flex;
+  align-items: center;
+}
 .return_refund_main .wpforms-field-container .wpforms-one-half,
 .return_refund_main .wpforms-field-container .wpforms-three-sixths,
 .return_refund_main .wpforms-field-container .wpforms-two-fourths {

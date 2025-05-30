@@ -59,11 +59,17 @@
         "padding_top": 100,
         "padding_bottom": 100
       }
+    },
+    "return_refund_form_yRWQyC": {
+      "type": "return-refund-form",
+      "name": "return-refund-form",
+      "settings": {}
     }
   },
   "order": [
     "section_breadcrumb_qVHqWR",
     "rich_text_Gbed3j",
-    "main"
+    "main",
+    "return_refund_form_yRWQyC"
   ]
 }

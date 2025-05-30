@@ -1287,7 +1287,10 @@ body .complementary-products-contains-quick-add .card__heading:hover a {
   line-height: normal;
   position: relative;
 }
-
+.product-detail-tabs-container .tab-button::after,
+.product-detail-tabs-container .tab-button::before {
+  display: none;
+}
 .product-detail-tabs-container .tab-button.active {
   background-color: #fff;
 }

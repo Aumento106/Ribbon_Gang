@@ -3749,10 +3749,6 @@ iframe {
   margin-bottom: 20px;
 }
 
-.main-page-col .rte a {
-  color: #ffce00;
-}
-
 @media screen and (max-width: 1024px) {
   .title {
     font-size: 34px;

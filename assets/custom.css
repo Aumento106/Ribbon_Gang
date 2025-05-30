@@ -3234,9 +3234,9 @@ ul.header__submenu li:hover:has(ul.list-unstyled)::after {
 .default-menu li a {
   color: #fff !important;
   text-decoration: none;
-  font-size: 18px;
-  font-weight: 600 !important;
-  line-height: 20px !important;
+  font-size: 16px;
+  font-weight: 300 !important;
+  line-height: 1.17 !important;
 }
 .header-main-menu ul.header__submenu li,
 .sub-header-menu-main ul.header__submenu li {

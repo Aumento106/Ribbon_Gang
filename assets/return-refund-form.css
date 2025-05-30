@@ -40,3 +40,7 @@
 .return_refund_main .wpforms-field-container .wpforms-two-fourths {
   width: calc( 50% - 10px);
 }
+.return_refund_main .wpforms-field-container .wpforms-field-label {
+  display: inline-block;
+  width: 100%;
+}

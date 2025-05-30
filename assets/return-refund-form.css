@@ -42,6 +42,10 @@
 .return_refund_main .wpforms-field-container .wpforms-two-fourths {
   width: calc( 50% - 10px);
 }
+.return_refund_main .wpforms-field-container .wpforms-field {
+  padding: 10px 0;
+  clear: both;
+}
 .return_refund_main .wpforms-field-container .wpforms-field-label {
   font-weight: 700;
 }

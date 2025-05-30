@@ -1317,6 +1317,7 @@
     },
     "product_catalog_VjYNFG": {
       "type": "product-catalog",
+      "disabled": true,
       "settings": {
         "product_image": "shopify://shop_images/Product_catalogue_cover.png",
         "logo_link": "",

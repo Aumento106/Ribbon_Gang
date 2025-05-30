@@ -148,9 +148,11 @@ body.popup-overflow-hidden::before {
 }
 
 .projects-popup-main .project-name {
-    margin: 3rem 0 0;
+  margin: 3rem 0 0;
 }
-
+.projects-popup-main .project-name.sub_heading {
+  margin: 2rem 0 0;
+}
 .projects-popup-main .project-short-des {
     font-size: 18px;
     line-height: 1.44;

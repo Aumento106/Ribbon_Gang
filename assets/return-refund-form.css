@@ -65,4 +65,16 @@
   width: 100%;
 }
 
+@media screen and (max-width: 1024px) {
+  .return_refund_main {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .return_refund_main {
+    width: 70%;
+  }
+}
+
 

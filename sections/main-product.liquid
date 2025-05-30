@@ -128,14 +128,14 @@
               {%- case block.type -%}
                 {%- when 'Specifications' -%}
                   <button 
-                    class="tab-button {% if forloop.first %}active{% endif %}" 
+                    class="tab-button button {% if forloop.first %}active{% endif %}" 
                     data-tab="tab-{{ block.id }}"
                   >
                     {{ block.settings.Heading_sp }}
                   </button>
                 {%- when 'Q_A' -%}
                   <button 
-                    class="tab-button {% if forloop.first %}active{% endif %}" 
+                    class="tab-button button {% if forloop.first %}active{% endif %}" 
                     data-tab="tab-{{ block.id }}"
                   >
                     {{ block.settings.Heading_qa }}
@@ -148,7 +148,7 @@
             {%- case block.type -%}
               {%- when 'Specifications' -%}
                 <div 
-                  class="tab-content {% if forloop.first %}active{% endif %}" 
+                  class="tab-content  {% if forloop.first %}active{% endif %}" 
                   id="tab-{{ block.id }}"
                 >
                   {% assign matching_1 = block.settings.Heading_sp | strip | downcase %}

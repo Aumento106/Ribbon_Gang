@@ -27,7 +27,7 @@
             <details id="Details-HeaderMenu-{{ forloop.index }}"{% if mega_menu_block != '' %} class="mega-menu"{% else %}class="default-menu"{% endif %}>
               <summary
                 id="HeaderMenu-{{ link.handle }}"
-                class="header__menu-item list-menu__item link focus-inset uppercase"
+                class="header__menu-item list-menu__item link focus-inset"
               >
                 <span
                   {%- if link.child_active %}
@@ -152,7 +152,7 @@
           <a
             id="HeaderMenu-{{ link.handle }}"
             href="{{ link.url }}"
-            class="header__menu-item list-menu__item link link--text focus-inset uppercase"
+            class="header__menu-item list-menu__item link link--text focus-inset"
             {% if link.current %}
               aria-current="page"
             {% endif %}

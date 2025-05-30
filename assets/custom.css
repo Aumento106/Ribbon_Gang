@@ -3240,9 +3240,11 @@ ul.header__submenu li:hover:has(ul.list-unstyled)::after {
 }
 .header-main-menu ul.header__submenu li,
 .sub-header-menu-main ul.header__submenu li {
-    position: relative;
+  position: relative;
 }
-
+.product__accordion.accordion .accordion__content a {
+  text-decoration: underline;
+}
 ul.header__submenu li:hover ul.list-unstyled {
   opacity: 1;
 }

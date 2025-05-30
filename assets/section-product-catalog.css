@@ -109,7 +109,7 @@
 
   .product-catalog-sec .title {
     margin: 0 0 1.5rem;
-    font-size: calc(var(--font-heading-scale) * 3.8rem);
+    /* font-size: calc(var(--font-heading-scale) * 3.8rem); */
   }
 }
 

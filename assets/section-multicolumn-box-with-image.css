@@ -102,6 +102,29 @@
   }
 }
 
+@media screen and (max-width: 1366px) {
+  .multi-column-box-with-image .multicolumn-box .subtitle {
+    font-size: 42.003231017770595px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .multi-column-box-with-image .multicolumn-box .subtitle {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 989px) {
+  .multi-column-box-with-image .multicolumn-box .subtitle {
+    font-size: 34px;
+  }
+}
+
+@media screen and (max-width: 749px) {
+  .multi-column-box-with-image .multicolumn-box .subtitle {
+    font-size: 28px;
+  }
+}
 
 .multi_box_image .multicolumn-box-img-wrapper {
   max-height: 300px;

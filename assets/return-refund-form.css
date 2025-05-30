@@ -53,6 +53,7 @@
 .return_refund_main .wpforms-field-container .wpforms-field-sublabel {
   display: inline-block;
   width: 100%;
+  margin-bottom: 4px;
 }
 .return_refund_main .wpforms-field-container input {
   max-width: 100% !important;

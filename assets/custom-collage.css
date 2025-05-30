@@ -151,7 +151,7 @@ body.popup-overflow-hidden::before {
   margin: 3rem 0 0;
 }
 .projects-popup-main .project-name.sub_heading {
-  margin: 2rem 0 0;
+  margin: 1.5rem 0 0;
 }
 .projects-popup-main .project-short-des {
     font-size: 18px;

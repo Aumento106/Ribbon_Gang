@@ -62,7 +62,7 @@
 }
 .return_refund_main .wpforms-field-container .bottom_form textarea.wpforms-field-medium {
   height: 120px;
-  width: 100%;
+  width: 100% !important;
 }
 
 @media screen and (max-width: 1024px) {

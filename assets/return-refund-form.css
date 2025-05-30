@@ -9,6 +9,6 @@
   border-radius: 10px 10px 10px 10px;
 }
 .return_refund_main ul.main-form-top {
-  list-style-type: unset;
+  list-style-type: none;
   padding: 0;
 }

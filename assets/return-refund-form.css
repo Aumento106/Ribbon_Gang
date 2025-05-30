@@ -46,3 +46,7 @@
   display: inline-block;
   width: 100%;
 }
+.return_refund_main .wpforms-field-container input {
+  max-width: 100% !important;
+  min-height: 43px;
+}

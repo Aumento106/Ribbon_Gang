@@ -35,12 +35,14 @@
   display: flex;
   align-items: center;
 }
+
 .return_refund_main .wpforms-field-container .wpforms-one-half,
 .return_refund_main .wpforms-field-container .wpforms-three-sixths,
 .return_refund_main .wpforms-field-container .wpforms-two-fourths {
   width: calc( 50% - 10px);
 }
-.return_refund_main .wpforms-field-container .wpforms-field-label {
+.return_refund_main .wpforms-field-container .wpforms-field-label,
+.return_refund_main .wpforms-field-container .wpforms-field-sublabel {
   display: inline-block;
   width: 100%;
 }

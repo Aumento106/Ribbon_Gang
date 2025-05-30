@@ -80,6 +80,7 @@
 @media screen and (max-width: 749px) {
   .return_refund_main {
     width: 100%;
+    padding: 14px;
   }
 }
 

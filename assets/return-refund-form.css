@@ -10,4 +10,5 @@
 }
 .return_refund_main ul.main-form-top {
   list-style-type: unset;
+  padding: 0;
 }

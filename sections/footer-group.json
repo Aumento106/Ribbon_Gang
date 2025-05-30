@@ -37,26 +37,25 @@
         "margin_bottom": 0
       }
     },
-    "product_catalog_jUgXDj": {
+    "product_catalog_4eBaMw": {
       "type": "product-catalog",
       "settings": {
-        "product_image": "shopify://shop_images/product-catalog.png",
-        "logo": "shopify://shop_images/spacelogic-logo.png",
-        "logo_link": "/",
-        "heading": "<p>Product <strong>Catalog</strong> 2024</p>",
-        "custom_heading_size": 52,
+        "product_image": "shopify://shop_images/Product_catalogue_cover.png",
+        "logo_link": "",
+        "heading": "<p>Product Catalogue 2025</p>",
+        "custom_heading_size": 70,
         "mobile_custom_heading_size": 28,
-        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
-        "description": "<p>Click the <a href=\"https://online.flippingbook.com/view/141548076/\" target=\"_blank\" title=\"https://online.flippingbook.com/view/141548076/\">link</a> to view our comprehensive product and services catalog. View in a browser window without the need for a download.</p>",
-        "button_1_text": "View Catalog",
-        "button_1_link": "https://online.flippingbook.com/view/141548076/",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "description": "<p>Click here to view our latest product and services catalogue in your browser, without the need for a download.</p>",
+        "button_1_text": "View catalogue",
+        "button_1_link": "https://online.flippingbook.com/view/393434/",
         "button_2_text": "Download Catalog",
         "button_2_link": "",
-        "reverse_column": false,
+        "reverse_column": true,
         "title_color": "#424242",
         "subheading_color": "#424242",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 40,
+        "padding_bottom": 30
       }
     },
     "proudly_support_EqkBPA": {
@@ -283,7 +282,7 @@
   },
   "order": [
     "newsletter_PeGWDJ",
-    "product_catalog_jUgXDj",
+    "product_catalog_4eBaMw",
     "proudly_support_EqkBPA",
     "newsletter_8hYyN9",
     "logo_strip_LCaMt9",

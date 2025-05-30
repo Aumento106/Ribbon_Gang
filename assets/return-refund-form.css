@@ -60,5 +60,8 @@
   min-height: 43px;
   width: 100%;
 }
+.return_refund_main .wpforms-field-container .bottom_form textarea.wpforms-field-medium {
+  height: 120px;
+}
 
 

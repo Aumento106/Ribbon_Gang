@@ -39,7 +39,6 @@
     },
     "product_catalog_jUgXDj": {
       "type": "product-catalog",
-      "disabled": true,
       "settings": {
         "product_image": "shopify://shop_images/product-catalog.png",
         "logo": "shopify://shop_images/spacelogic-logo.png",

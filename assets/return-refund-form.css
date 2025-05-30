@@ -27,3 +27,7 @@
   word-break: break-word;
   word-wrap: break-word;
 }
+.return_refund_main div.wpforms-container-full .wpforms-form .wpforms-required-label {
+  color: #ff0000;
+  font-weight: 400;
+}

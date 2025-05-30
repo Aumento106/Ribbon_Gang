@@ -55,7 +55,7 @@
   width: 100%;
   margin-bottom: 4px;
 }
-.return_refund_main .wpforms-field-container input {
+.return_refund_main .wpforms-field-container .bottom_form input {
   max-width: 100% !important;
   min-height: 43px;
   width: 100%;

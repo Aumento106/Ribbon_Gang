@@ -62,6 +62,7 @@
     },
     "return_refund_form_yRWQyC": {
       "type": "return-refund-form",
+      "disabled": true,
       "name": "return-refund-form",
       "settings": {}
     }

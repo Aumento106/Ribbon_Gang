@@ -136,9 +136,9 @@ body .section-custom-slideshow-slider .banner__media:after {
 }
 
 @media screen and (min-width: 1541px) {
-    .section-custom-slideshow-slider .slideshow.banner {
+    /* .section-custom-slideshow-slider .slideshow.banner {
         padding: 0 248px;
-    }
+    } */
 }
 
 @media screen and (max-width: 989px) {

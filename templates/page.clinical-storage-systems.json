@@ -1,0 +1,91 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_breadcrumb_F9PzRF": {
+      "type": "section-breadcrumb",
+      "settings": {
+        "color_scheme": "",
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "mobile_padding_top": 30,
+        "mobile_padding_bottom": 30
+      }
+    },
+    "rich_text_P3hBwh": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_mGwXwE": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ page.title }}",
+            "heading_size": "h1"
+          }
+        },
+        "text_7xmpEL": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Remove this line of text</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_mGwXwE",
+        "text_7xmpEL"
+      ],
+      "settings": {
+        "content_alignment": "center",
+        "content_width": "full_width",
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "full_width": true,
+        "no_margin": false,
+        "section_border": false,
+        "padding_top": 80,
+        "padding_bottom": 50
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "padding_top": 52,
+        "padding_bottom": 28
+      }
+    },
+    "product_catalog_W3r7Xn": {
+      "type": "product-catalog",
+      "settings": {
+        "product_image": "shopify://shop_images/image_104.png",
+        "logo_link": "",
+        "heading": "<p>Product Catalogue</p>",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "description": "<p>Click here to view our latest product and services catalogue in a browser without downloading.</p>",
+        "button_1_text": "View catalogue",
+        "button_1_link": "https://online.flippingbook.com/view/393434/",
+        "button_2_text": "Download Catalog",
+        "button_2_link": "",
+        "reverse_column": true,
+        "title_color": "#424242",
+        "subheading_color": "#424242",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    }
+  },
+  "order": [
+    "section_breadcrumb_F9PzRF",
+    "rich_text_P3hBwh",
+    "main",
+    "product_catalog_W3r7Xn"
+  ]
+}

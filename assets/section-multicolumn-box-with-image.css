@@ -6,6 +6,7 @@
 .multi-column-box-with-image .multicolumn-box__item {
   height: 100%;
   border-radius: 16px;
+  border-radius: 0px;
   overflow: hidden;
 }
 

@@ -448,6 +448,7 @@ opacity: 0;
   height: 100%;
   display: block !important;
   z-index: 99;
+  top: 0;
 }
 
 .megamenu-with-image-item {

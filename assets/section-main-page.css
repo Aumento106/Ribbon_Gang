@@ -30,6 +30,8 @@ ul.page_list li {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+}
+.return-refund-main .main_content {
   flex: 1;
 }
 

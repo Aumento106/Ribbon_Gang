@@ -26,7 +26,7 @@ ul.page_list li {
   border-radius: 50%;
   background: rgba(var(--color-foreground), 1);
 } */
-.return-refund-main {
+.return-refund-main .rte {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;

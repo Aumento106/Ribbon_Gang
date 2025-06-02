@@ -15,6 +15,7 @@
     position: relative;
     overflow: hidden;
     border-radius: 8px;
+    border-radius: 0px;
     min-height: 576px;
     display: flex;
     flex-direction: column;

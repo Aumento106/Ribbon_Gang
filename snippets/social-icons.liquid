@@ -50,16 +50,6 @@
       </a>
     </li>
   {%- endif -%}
-  {%- if settings.social_youtube_link != blank -%}
-    <li class="list-social__item">
-      <a href="{{ settings.social_youtube_link }}" target="_blank" class="link list-social__link">
-        <span class="svg-wrapper">
-          {{- 'youtube.svg' | inline_asset_content -}}
-        </span>
-        <span class="visually-hidden">{{ 'general.social.links.youtube' | t }}</span>
-      </a>
-    </li>
-  {%- endif -%}
   {%- if settings.email != blank -%}
     <li class="list-social__item email">
       <a href="{{ settings.email }}" target="_blank" class="link list-social__link">
@@ -67,6 +57,16 @@
           {{- 'icon-email.svg' | inline_asset_content -}}
         </span>
         <span class="visually-hidden">Email </span>
+      </a>
+    </li>
+  {%- endif -%}
+  {%- if settings.social_youtube_link != blank -%}
+    <li class="list-social__item">
+      <a href="{{ settings.social_youtube_link }}" target="_blank" class="link list-social__link">
+        <span class="svg-wrapper">
+          {{- 'youtube.svg' | inline_asset_content -}}
+        </span>
+        <span class="visually-hidden">{{ 'general.social.links.youtube' | t }}</span>
       </a>
     </li>
   {%- endif -%}

@@ -20,8 +20,7 @@
     <div class="main_content">
       {{ page.content }}
     </div>
-    {% if page.handle == 'return-refund' %}  {% else %}
-      {% render 'return-refund-form' %}
+    {% if page.handle == 'return-refund' %}  {% render 'return-refund-form' %} {% else %}
     {% endif %}
   </div>
 </div>

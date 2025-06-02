@@ -18,7 +18,7 @@
   <div class="rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
     {{ page.content }}
   </div>
-  {% if page.handle == 'return-refund' %} 1 {% else %}
+  {% if page.handle == 'return-refund' %}  {% else %}
     {% render 'return-refund-form' %}
   {% endif %}
 </div>

@@ -121,6 +121,7 @@
 
 .section-custom-slideshow-slider .slideshow__slide__inner {
     border-radius: 8px;
+    border-radius: 0px;
     overflow: hidden;
     position: relative;
 }

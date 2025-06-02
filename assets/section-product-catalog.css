@@ -67,9 +67,9 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .product-catalog-sec .product-catalog-right .title {
+  /* .product-catalog-sec .product-catalog-right .title {
     font-size: 52px;
-  }
+  } */
 }
 
 /* Responsive Styles */

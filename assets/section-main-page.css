@@ -31,7 +31,8 @@ ul.page_list li {
   align-items: flex-start;
   justify-content: space-between;
 }
-.return-refund-main .main_content {
+.return-refund-main .main_content,
+.return-refund-main .return-refund-form {
   flex: 1;
 }
 

@@ -1881,7 +1881,8 @@ details[open]>.share-button__fallback {
 
 input[type='checkbox'] {
   display: inline-block;
-  width: auto;
+  width: 15px;
+  height: 15px;
   margin-right: 0.5rem;
 }
 

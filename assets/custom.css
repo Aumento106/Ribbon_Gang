@@ -3294,7 +3294,8 @@ ul.header__submenu li ul li a{
 .main-product-categories .collection-list .collection-list__item .card .button::before {
   pointer-events: none;
 }
-.return-refund-main .main_content ul {
+.return-refund-main .main_content ul,
+.return-refund-main .main_content ol {
   margin-top: 20px;
   margin-bottom: 20px;
 }

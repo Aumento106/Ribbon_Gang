@@ -3301,6 +3301,7 @@ ul.header__submenu li ul li a{
 }
 .return-refund-main .main_content ol {
   list-style-type: decimal;
+  padding: 0 0 0 30px;
 }
 .return-refund-main .main_content ol li::before {
   list-style-type: decimal;

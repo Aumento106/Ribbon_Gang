@@ -328,6 +328,7 @@
     },
     "product_catalog_AHJEg3": {
       "type": "product-catalog",
+      "disabled": true,
       "settings": {
         "product_image": "shopify://shop_images/image_104.png",
         "logo_link": "",

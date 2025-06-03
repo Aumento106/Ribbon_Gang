@@ -254,7 +254,7 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
   font-weight: var(--font-body-weight);
 }
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -265,8 +265,8 @@ h5,
 .h3,
 .h4,
 .h5 {
-  /* text-transform: capitalize; */
-}
+  text-transform: capitalize;
+} */
 
 /* h1,
 h2,

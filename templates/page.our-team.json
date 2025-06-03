@@ -112,6 +112,7 @@
     },
     "product_catalog_TGjhw8": {
       "type": "product-catalog",
+      "disabled": true,
       "settings": {
         "product_image": "shopify://shop_images/image_104.png",
         "logo_link": "",

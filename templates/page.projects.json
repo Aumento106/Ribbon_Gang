@@ -389,6 +389,7 @@
         "support_item_pzJMPa",
         "support_item_DnVgCF"
       ],
+      "disabled": true,
       "settings": {
         "heading": "<p>We Proudly Support</p>",
         "title_alignment": "center",

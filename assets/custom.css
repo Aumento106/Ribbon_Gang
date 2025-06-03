@@ -3299,6 +3299,9 @@ ul.header__submenu li ul li a{
   margin-top: 20px;
   margin-bottom: 20px;
 }
+.return-refund-main .main_content ol {
+  list-style-type: decimal;
+}
 .return-refund-main .main_content ol li::before {
   list-style-type: decimal;
   position: absolute;

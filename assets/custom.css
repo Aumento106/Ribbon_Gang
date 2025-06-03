@@ -3307,7 +3307,7 @@ ul.header__submenu li ul li a{
   position: absolute;
   left: 0;
 }
-.return-refund-main .main_content ol li::before {
+.return-refund-main .main_content ol li::marker {
   position: absolute;
   left: 0;
   unicode-bidi: isolate;

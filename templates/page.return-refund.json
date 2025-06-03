@@ -65,23 +65,12 @@
       "disabled": true,
       "name": "return-refund-form",
       "settings": {}
-    },
-    "custom_liquid_4zx4Bx": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
-      "settings": {
-        "custom_liquid": "<div id=\"omnisend-embedded-v2-683f03562051b73dd4a44e50\"></div>",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
     "section_breadcrumb_qVHqWR",
     "rich_text_Gbed3j",
     "main",
-    "return_refund_form_yRWQyC",
-    "custom_liquid_4zx4Bx"
+    "return_refund_form_yRWQyC"
   ]
 }

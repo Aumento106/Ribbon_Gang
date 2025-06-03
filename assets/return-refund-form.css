@@ -17,6 +17,8 @@
 }
 .return_refund_main ul.main-form-top li {
   list-style-type: none;
+  display: flex;
+  align-items: center;
 }
 .return_refund_main ul.main-form-top li::before {
   display: none;

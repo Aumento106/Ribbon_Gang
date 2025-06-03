@@ -85,6 +85,9 @@
     width: 100%;
     padding: 14px;
   }
+  .return-refund-main .rte {
+    flex-direction: column;
+  }
 }
 
 

@@ -3227,6 +3227,8 @@ ul.header__submenu li:hover:has(ul.list-unstyled)::after {
   background: #424242;
   opacity: 0;
   padding: 3rem 10px;
+  max-width: 200px;
+  min-width: 200px;
 }
 .header-main-menu ul.header__submenu li:has(ul):after,
 .sub-header-menu-main ul.header__submenu li:has(ul):after {

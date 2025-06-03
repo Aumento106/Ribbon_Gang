@@ -22,7 +22,6 @@
       "block_order": [
         "email_form_zFJE6G"
       ],
-      "disabled": true,
       "settings": {
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "full_width": false,
@@ -51,7 +50,7 @@
         "button_1_text": "View catalogue",
         "button_1_link": "https://online.flippingbook.com/view/393434/",
         "button_2_text": "Download Catalog",
-        "button_2_link": "https://cdn.shopify.com/s/files/1/0657/3388/6106/files/product-cataloge_compressed.pdf",
+        "button_2_link": "shopify://collections/medibin-panels-various-types",
         "reverse_column": true,
         "title_color": "#424242",
         "subheading_color": "#424242",

@@ -15,6 +15,9 @@
 .return_refund_main ul.main-form-top li {
   list-style-type: none;
 }
+.return_refund_main ul.main-form-top li::before {
+  display: none;
+}
 .return_refund_main div.wpforms-container-full .wpforms-form .wpforms-field {
   padding: 10px 0;
   clear: both;

@@ -24,7 +24,7 @@
         "heading_nhBt8y": {
           "type": "heading",
           "settings": {
-            "heading": "Our <strong>Products</strong>",
+            "heading": "Our <strong>products</strong>",
             "heading_size": "h0",
             "heading_alignment": "center"
           }
@@ -73,6 +73,7 @@
     },
     "product_catalog_xdFqLr": {
       "type": "product-catalog",
+      "disabled": true,
       "settings": {
         "product_image": "shopify://shop_images/image_104.png",
         "logo_link": "",

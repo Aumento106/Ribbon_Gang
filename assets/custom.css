@@ -43,7 +43,7 @@ body .rte li {
   gap: 12px;
 }
 
-.rte li::before {
+/* .rte li::before {
   content: "";
   display: inline-block;
   height: 5px;
@@ -51,7 +51,7 @@ body .rte li {
   border-radius: 999px;
   background: rgba(var(--color-foreground), 1);
   margin-top: 10px;
-}
+} */
 
 body .rte li:not(:last-child) {
   margin-bottom: 1.6rem;

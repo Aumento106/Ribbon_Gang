@@ -3307,4 +3307,14 @@ ul.header__submenu li ul li a{
   position: absolute;
   left: 0;
 }
-
+.return-refund-main .main_content ol li::marker {
+  unicode-bidi: isolate;
+  font-variant-numeric: tabular-nums;
+  text-transform: none;
+  text-indent: 0px !important;
+  text-align: start !important;
+  text-align-last: auto !important;
+}
+.return-refund-main .main_content ol li {
+  display: list-item;
+}

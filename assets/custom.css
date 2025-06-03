@@ -3308,6 +3308,9 @@ ul.header__submenu li ul li a{
   position: absolute;
   left: 0;
 }
+.main-page-col .rte .main_content a {
+  color: #ffce00;
+}
 .return-refund-main .main_content ol li::marker {
   position: absolute;
   left: 0;

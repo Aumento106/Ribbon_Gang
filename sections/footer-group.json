@@ -50,7 +50,7 @@
         "button_1_text": "View catalogue",
         "button_1_link": "https://online.flippingbook.com/view/393434/",
         "button_2_text": "Download Catalog",
-        "button_2_link": "shopify://collections/medibin-panels-various-types",
+        "button_2_link": "",
         "reverse_column": true,
         "title_color": "#424242",
         "subheading_color": "#424242",

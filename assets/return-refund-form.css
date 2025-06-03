@@ -8,6 +8,9 @@
   border-color: #4242424D;
   border-radius: 10px 10px 10px 10px;
 }
+.return_refund_main .wpforms-head-container .wpforms-title {
+  font-weight: 600;
+}
 .return_refund_main ul.main-form-top {
   list-style-type: none;
   padding: 0;

@@ -81,12 +81,63 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
+    },
+    "categories_slider_E78EBH": {
+      "type": "categories-slider",
+      "blocks": {
+        "featured_collection_XmNLwb": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "button_card_text": "Button",
+            "redirection_link": ""
+          }
+        },
+        "featured_collection_ekTJhX": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "button_card_text": "Button",
+            "redirection_link": ""
+          }
+        },
+        "featured_collection_xfz9cC": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "button_card_text": "Button",
+            "redirection_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_XmNLwb",
+        "featured_collection_ekTJhX",
+        "featured_collection_xfz9cC"
+      ],
+      "name": "Categories-slider",
+      "settings": {
+        "title": "Collections",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 2,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "section_breadcrumb_F9PzRF",
     "rich_text_P3hBwh",
     "main",
-    "product_catalog_W3r7Xn"
+    "product_catalog_W3r7Xn",
+    "categories_slider_E78EBH"
   ]
 }

@@ -47,7 +47,9 @@
   align-items: center;
   justify-content: space-between;
 }
-
+.return_refund_main .wpforms-field-container .wpforms-field .wpforms-required-label {
+  color: red;
+}
 .return_refund_main .wpforms-field-container .wpforms-one-half,
 .return_refund_main .wpforms-field-container .wpforms-three-sixths,
 .return_refund_main .wpforms-field-container .wpforms-two-fourths {

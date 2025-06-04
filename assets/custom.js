@@ -328,7 +328,7 @@ document.querySelectorAll('.sub-header-menu-main .header__submenu li').forEach(i
 // clinical storage popup
 
 document.addEventListener("DOMContentLoaded", function () {
-  const oldWord = "STERIRACK®";
+  const oldWord = "STERIRACK";
   const newWord = "STERIRACK<sup>®</sup>";
 
   function replaceTextInElement(el) {

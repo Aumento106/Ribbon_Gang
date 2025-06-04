@@ -1,115 +1,167 @@
+{{ 'section-main-page.css' | asset_url | stylesheet_tag }}
 {{ 'return-refund-form.css' | asset_url | stylesheet_tag }}
 
-<div class="page-width">
-  <div class="return_refund_main">
-    <form class="wpforms-validate wpforms-form wpforms-ajax-form">
-      <div class="wpforms-head-container">
-        <div class="wpforms-title">Return Merchandise Authorisation</div>
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="return-refund-main page-width">
+  <h1 class="main-page-title page-title hide hidden {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">={{ page.title }}</h1>
+  <div class="rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+    <div class="main_content">
+      {{ page.content }}
+    </div>
+    <div class="return-refund-form">
+      <div cass="">
+      <div class="return_refund_main">
+        <form class="wpforms-validate wpforms-form wpforms-ajax-form">
+          <div class="wpforms-head-container">
+            <div class="wpforms-title h2">Return merchandise authorisation</div>
+          </div>
+          <noscript class="wpforms-error-noscript">Please enable JavaScript in your browser to complete this form.</noscript>
+          <div class="wpforms-field-container">
+            <div id="wpforms-39261-field_8-container" class="wpforms-field wpforms-field-checkbox" data-field-id="8">
+              <label class="wpforms-field-label">I am applying for a Return Merchandise Authorisation <span class="wpforms-required-label">*</span></label>
+              <ul id="wpforms-39261-field_8" class="main-form-top wpforms-field-required">
+                <li class="choice-1 depth-1">
+                  <input type="checkbox" id="wpforms-39261-field_8_1" name="wpforms[fields][8][]" value="Yes" required="">
+                  <label class="wpforms-field-label-inline" for="wpforms-39261-field_8_1">Yes</label>
+                </li>
+              </ul>
+              <div class="wpforms-field-description">
+                By ticking this box you acknowledge and agree to the SpaceLogic Return Policy and Warrany Terms. To submit a Return Merchandise Authorisation (RMA) request, please complete the following form. In order to expedite your request, please complete all information requested below and submit. You will be notified with an RMA number if your return request has been approved. Shipping information for sending the unit to SpaceLogic Group Pty Ltd will be provided once the RMA is issued.
+              </div>
+            </div>
+            <div class="bottom_form wpforms-field wpforms-field-name">
+              <label class="wpforms-field-label">Name 
+                <span class="wpforms-required-label">*</span>
+              </label>
+              <div class="wpforms-field-row wpforms-field-medium">
+                <div class="wpforms-field-row-block wpforms-first wpforms-one-half">
+                  <input type="text" id="first_name" class="wpforms-field-name-first wpforms-field-required" required="">
+                  <label for="first_name" class="wpforms-field-sublabel after">First</label>
+                </div>
+                <div class="wpforms-field-row-block wpforms-one-half">
+                  <input type="text" id="last_name" class="wpforms-field-name-last wpforms-field-required" required="">
+                  <label for="last_name" class="wpforms-field-sublabel after">Last</label>
+                </div>
+              </div>
+            </div>
+            <div class="bottom_form  wpforms-field wpforms-field-text">
+              <label class="wpforms-field-label" for="company_name">
+                Company name 
+                <span class="wpforms-required-label">*</span>
+              </label>
+              <input type="text" id="company_name" class="wpforms-field-medium wpforms-field-required" required="">
+            </div>
+            <div class="bottom_form  wpforms-field wpforms-field-text">
+              <label class="wpforms-field-label" for="phone">
+                Phone
+                <span class="wpforms-required-label">*</span>
+              </label>
+              <input type="text" id="phone" class="wpforms-field-medium wpforms-field-required">
+            </div>
+            <div class="bottom_form  wpforms-field wpforms-field-text">
+              <label class="wpforms-field-label" for="fax">
+                Fax
+              </label>
+              <input type="text" id="fax" class="wpforms-field-medium wpforms-field-required" required="">
+            </div>
+            <div class="bottom_form  wpforms-field wpforms-field-text">
+              <label class="wpforms-field-label" for="email">
+                Email
+                <span class="wpforms-required-label">*</span>
+              </label>
+              <input type="text" id="email" class="wpforms-field-medium wpforms-field-required" required="">
+            </div>
+            <div class="bottom_form  wpforms-field wpforms-field-text">
+              <label class="wpforms-field-label" for="invoice_data">
+                Invoice data
+                <span class="wpforms-required-label">*</span>
+              </label>
+              <input type="text" id="invoice_data" class="wpforms-field-medium wpforms-field-required" required="">
+            </div>
+            <div class="bottom_form  wpforms-field wpforms-field-text">
+              <label class="wpforms-field-label" for="inv_no">
+                Inv no.
+                <span class="wpforms-required-label">*</span>
+              </label>
+              <input type="text" id="inv_no" class="wpforms-field-medium wpforms-field-required" required="">
+            </div>
+            <div class="bottom_form  wpforms-field wpforms-field-text">
+              <label class="wpforms-field-label" for="wish">
+                Items you wish to return and the reason:
+                <span class="wpforms-required-label">*</span>
+              </label>
+              <textarea id="wish" class="wpforms-field-medium wpforms-field-required" required=""></textarea>
+              <div class="wpforms-field-description">Please provide item number, quantity, description and reason for return (eg. Faulty/damaged item, incorrect item, not suitable, or other).</div>
+            </div>
+            </div>
+            <div class="wpforms-submit-container">
+              <input type="hidden" name="wpforms[id]" value="39261">
+              <input type="hidden" name="page_title" value="Customer Returns Policy">
+              <input type="hidden" name="page_url" value="https://spacelogicgroup.com/customer-returns-policy/">
+              <input type="hidden" name="url_referer" value="">
+              <input type="hidden" name="page_id" value="39250">
+              <input type="hidden" name="wpforms[post_id]" value="39250">
+              <button type="submit" name="wpforms[submit]" class="wpforms-submit button button--primary">
+                Submit RMA Request
+              </button>
+              <img decoding="async" src="https://spacelogicgroup.com/wp-content/plugins/wpforms-lite/assets/images/submit-spin.svg" class="wpforms-submit-spinner" style="display: none;" width="26" height="26" alt="Loading">
+            </div>
+        </form>
       </div>
-      <noscript class="wpforms-error-noscript">Please enable JavaScript in your browser to complete this form.</noscript>
-      <div class="wpforms-field-container">
-        <div id="wpforms-39261-field_8-container" class="wpforms-field wpforms-field-checkbox" data-field-id="8">
-          <label class="wpforms-field-label">I am applying for a Return Merchandise Authorisation <span class="wpforms-required-label">*</span></label>
-          <ul id="wpforms-39261-field_8" class="main-form-top wpforms-field-required">
-            <li class="choice-1 depth-1">
-              <input type="checkbox" id="wpforms-39261-field_8_1" name="wpforms[fields][8][]" value="Yes" required="">
-              <label class="wpforms-field-label-inline" for="wpforms-39261-field_8_1">Yes</label>
-            </li>
-          </ul>
-          <div class="wpforms-field-description">
-            By ticking this box you acknowledge and agree to the SpaceLogic Return Policy and Warrany Terms. To submit a Return Merchandise Authorisation (RMA) request, please complete the following form. In order to expedite your request, please complete all information requested below and submit. You will be notified with an RMA number if your return request has been approved. Shipping information for sending the unit to SpaceLogic Group Pty Ltd will be provided once the RMA is issued.
-          </div>
-        </div>
-        <div class="bottom_form wpforms-field wpforms-field-name">
-          <label class="wpforms-field-label">Name 
-            <span class="wpforms-required-label">*</span>
-          </label>
-          <div class="wpforms-field-row wpforms-field-medium">
-            <div class="wpforms-field-row-block wpforms-first wpforms-one-half">
-              <input type="text" id="first_name" class="wpforms-field-name-first wpforms-field-required" required="">
-              <label for="first_name" class="wpforms-field-sublabel after">First</label>
-            </div>
-            <div class="wpforms-field-row-block wpforms-one-half">
-              <input type="text" id="last_name" class="wpforms-field-name-last wpforms-field-required" required="">
-              <label for="last_name" class="wpforms-field-sublabel after">Last</label>
-            </div>
-          </div>
-        </div>
-        <div class="bottom_form  wpforms-field wpforms-field-text">
-          <label class="wpforms-field-label" for="company_name">
-            Company name 
-            <span class="wpforms-required-label">*</span>
-          </label>
-          <input type="text" id="company_name" class="wpforms-field-medium wpforms-field-required" required="">
-        </div>
-        <div class="bottom_form  wpforms-field wpforms-field-text">
-          <label class="wpforms-field-label" for="phone">
-            Phone
-            <span class="wpforms-required-label">*</span>
-          </label>
-          <input type="text" id="phone" class="wpforms-field-medium wpforms-field-required">
-        </div>
-        <div class="bottom_form  wpforms-field wpforms-field-text">
-          <label class="wpforms-field-label" for="fax">
-            Fax
-          </label>
-          <input type="text" id="fax" class="wpforms-field-medium wpforms-field-required" required="">
-        </div>
-        <div class="bottom_form  wpforms-field wpforms-field-text">
-          <label class="wpforms-field-label" for="email">
-            Email
-            <span class="wpforms-required-label">*</span>
-          </label>
-          <input type="text" id="email" class="wpforms-field-medium wpforms-field-required" required="">
-        </div>
-        <div class="bottom_form  wpforms-field wpforms-field-text">
-          <label class="wpforms-field-label" for="invoice_data">
-            Invoice data
-            <span class="wpforms-required-label">*</span>
-          </label>
-          <input type="text" id="invoice_data" class="wpforms-field-medium wpforms-field-required" required="">
-        </div>
-        <div class="bottom_form  wpforms-field wpforms-field-text">
-          <label class="wpforms-field-label" for="inv_no">
-            Inv no.
-            <span class="wpforms-required-label">*</span>
-          </label>
-          <input type="text" id="inv_no" class="wpforms-field-medium wpforms-field-required" required="">
-        </div>
-        <div class="bottom_form  wpforms-field wpforms-field-text">
-          <label class="wpforms-field-label" for="wish">
-            Items you wish to return and the reason:
-            <span class="wpforms-required-label">*</span>
-          </label>
-          <textarea id="wish" class="wpforms-field-medium wpforms-field-required" required=""></textarea>
-          <div class="wpforms-field-description">Please provide item number, quantity, description and reason for return (eg. Faulty/damaged item, incorrect item, not suitable, or other).</div>
-        </div>
-        </div>
-        <div class="wpforms-submit-container">
-          <input type="hidden" name="wpforms[id]" value="39261">
-          <input type="hidden" name="page_title" value="Customer Returns Policy">
-          <input type="hidden" name="page_url" value="https://spacelogicgroup.com/customer-returns-policy/">
-          <input type="hidden" name="url_referer" value="">
-          <input type="hidden" name="page_id" value="39250">
-          <input type="hidden" name="wpforms[post_id]" value="39250">
-          <button type="submit" name="wpforms[submit]" class="wpforms-submit button button--primary">
-            Submit RMA Request
-          </button>
-          <img decoding="async" src="https://spacelogicgroup.com/wp-content/plugins/wpforms-lite/assets/images/submit-spin.svg" class="wpforms-submit-spinner" style="display: none;" width="26" height="26" alt="Loading">
-        </div>
-    </form>
+    </div>
+    </div>
   </div>
 </div>
 
-
 {% schema %}
-  {
-    "name": "return-refund-form",
-    "settings": [],
-    "presets": [
+{
+  "name": "return-refund",
+  "tag": "section",
+  "class": "section main-page",
+  "settings": [
     {
-      "name": "return-refund-form"
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
     }
   ]
-  }
+}
 {% endschema %}

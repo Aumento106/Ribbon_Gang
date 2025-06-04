@@ -88,8 +88,9 @@
         "featured_collection_XmNLwb": {
           "type": "featured_collection",
           "settings": {
-            "collection": "",
-            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "categories_image": "shopify://shop_images/Blacktown_square.png",
+            "collection": "sterirack-system",
+            "card_text": "Modular bays, trolleys, benches, and shelving for full-facility fitoutsThe gold standard in hospital-grade storage, STERIRACK® is designed to meet the high-volume, high-compliance needs of clinical spaces. Built on starter and add-on bays, this system integrates mobile carts, workbenches, and flexible accessories for complete workflow alignment.",
             "button_card_text": "Button",
             "redirection_link": ""
           }

@@ -107,7 +107,7 @@
                   {{ section.settings.invoice_data }}
                   <span class="wpforms-required-label">*</span>
                 </label>
-                <input type="text" id="invoice_data" class="wpforms-field-medium wpforms-field-required" required="">
+                <input type="text" id="invoice_data" class="wpforms-field-medium wpforms-field-required form-input" name="contact[invoice_data]" value="{{ customer.invoice_data }}" required="text">
               </div>
             {% endif %}
             {% if section.settings.inv_no != blank %}

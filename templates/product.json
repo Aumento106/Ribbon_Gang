@@ -753,7 +753,7 @@
             "block_custom_heading_size": 52,
             "mobile_block_custom_heading_size": 28,
             "text": "<p>BIM files are available for download on request. To protect specification integrity, access is granted to trusted partners via password or tokenised link. Please contact us to request access and include your project or firm details for review.</p>",
-            "button_label": "BIM File Request",
+            "button_label": "BIM file request",
             "button_link": "mailto:sales@spacelogicgroup.com",
             "button_style_secondary": false
           }

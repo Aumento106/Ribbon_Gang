@@ -177,8 +177,8 @@
         "full_width": false,
         "no_margin": false,
         "section_border": true,
-        "padding_top": 40,
-        "padding_bottom": 40
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     },
     "rich_text_reYctM": {
@@ -210,8 +210,8 @@
         "full_width": false,
         "no_margin": false,
         "section_border": true,
-        "padding_top": 40,
-        "padding_bottom": 40
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     },
     "rich_text_aAqpH6": {
@@ -243,8 +243,8 @@
         "full_width": false,
         "no_margin": false,
         "section_border": true,
-        "padding_top": 40,
-        "padding_bottom": 40
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     }
   },

@@ -329,7 +329,7 @@ document.querySelectorAll('.sub-header-menu-main .header__submenu li').forEach(i
 
 document.addEventListener("DOMContentLoaded", function () {
   const oldWord = "STERIRACK";
-  const newWord = "STERIRACK<sup></sup>";
+  const newWord = "STERIRACK<sup>®</sup>";
 
   function replaceTextInElement(el) {
     if (el.children.length === 0 && el.innerHTML.includes(oldWord)) {

@@ -26,12 +26,13 @@
       <div class="return_refund_main">
         <form class="wpforms-validate wpforms-form wpforms-ajax-form">
           <div class="wpforms-head-container">
-            <div class="wpforms-title h2">Return merchandise authorisation</div>
+            <div class="wpforms-title h2">{{ section.settings.form_title }}</div>
           </div>
           <noscript class="wpforms-error-noscript">Please enable JavaScript in your browser to complete this form.</noscript>
           <div class="wpforms-field-container">
             <div id="wpforms-39261-field_8-container" class="wpforms-field wpforms-field-checkbox" data-field-id="8">
-              <label class="wpforms-field-label">I am applying for a Return Merchandise Authorisation <span class="wpforms-required-label">*</span></label>
+              <label class="wpforms-field-label">{{ section.settings.form_subtitle }}
+              </label>
               <ul id="wpforms-39261-field_8" class="main-form-top wpforms-field-required">
                 <li class="choice-1 depth-1">
                   <input type="checkbox" id="wpforms-39261-field_8_1" name="wpforms[fields][8][]" value="Yes" required="">

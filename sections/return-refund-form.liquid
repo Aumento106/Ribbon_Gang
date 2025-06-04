@@ -31,8 +31,10 @@
           <noscript class="wpforms-error-noscript">Please enable JavaScript in your browser to complete this form.</noscript>
           <div class="wpforms-field-container">
             <div id="wpforms-39261-field_8-container" class="wpforms-field wpforms-field-checkbox" data-field-id="8">
-              <label class="wpforms-field-label">{{ section.settings.form_subtitle }}
-              </label>
+              {% if section.settings.form_subtitle != blank %}
+                <label class="wpforms-field-label">{{ section.settings.form_subtitle }}
+                </label>
+              {% endif %}
               <ul id="wpforms-39261-field_8" class="main-form-top wpforms-field-required">
                 <li class="choice-1 depth-1">
                   <input type="checkbox" id="wpforms-39261-field_8_1" name="wpforms[fields][8][]" value="Yes" required="">

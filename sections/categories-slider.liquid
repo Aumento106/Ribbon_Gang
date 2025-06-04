@@ -69,6 +69,16 @@
         -%}
         {%- for block in section.blocks -%}
           <div class="view_video_popup" id="project-video-{{ block.id }}">
+            <video 
+              controls 
+              {% if section.settings.video_poster != blank %}
+                poster="{{ section.settings.video_poster | image_url }}"
+              {% endif %}
+              style="width: 100%; height: auto;"
+            >
+              <source src="{{ section.settings.video_url }}" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
             <div class="close-btn">
               <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect x="2" y="2" width="28" height="28" rx="14" stroke="#424242" stroke-width="2"></rect>
@@ -394,6 +404,16 @@
           ],
           "default": "left",
           "label": "Card Text Description Alignment"
+        },
+        {
+          "type": "url",
+          "id": "video_url",
+          "label": "Video URL"
+        },
+        {
+          "type": "image_picker",
+          "id": "video_poster",
+          "label": "Preview Image"
         },
         {
           "type": "text",

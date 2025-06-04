@@ -173,10 +173,43 @@
       "settings": {
         "content_alignment": "center",
         "content_width": "medium",
-        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
-        "full_width": true,
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "full_width": false,
         "no_margin": false,
-        "section_border": false,
+        "section_border": true,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "rich_text_reYctM": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_pajqEU": {
+          "type": "heading",
+          "settings": {
+            "heading": "Browse by System or Product Category",
+            "heading_size": "h1"
+          }
+        },
+        "text_WpRpHU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use the filters below to explore every component of our STERIRACK® and MEDIBIN® systems. Whether you're searching for a single bench or planning a full facility fit out, you'll find everything here — organised by product type, dimensions, and compatibility.<br/>INSERT ONLINE PRODUCT FILTER</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_pajqEU",
+        "text_WpRpHU"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "content_alignment": "center",
+        "content_width": "medium",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "full_width": false,
+        "no_margin": false,
+        "section_border": true,
         "padding_top": 40,
         "padding_bottom": 40
       }
@@ -188,6 +221,7 @@
     "main",
     "product_catalog_W3r7Xn",
     "categories_slider_E78EBH",
-    "rich_text_QkpLAt"
+    "rich_text_QkpLAt",
+    "rich_text_reYctM"
   ]
 }

@@ -539,5 +539,12 @@
       "send_on": "YYYY-MM-DD",
       "send_on_label": "Send on (optional)"
     }
+  },
+  "shopify": {
+    "checkout": {
+      "stock": {
+        "empty_cart_label": "Your cart is empty"
+      }
+    }
   }
 }

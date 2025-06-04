@@ -35,7 +35,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/image_161.png",
-            "border_radius": true
+            "border_radius": false
           }
         },
         "heading_pVBz9T": {

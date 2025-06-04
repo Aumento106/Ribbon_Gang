@@ -104,21 +104,11 @@
             "button_card_text": "Button",
             "redirection_link": ""
           }
-        },
-        "featured_collection_xfz9cC": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "",
-            "card_text": "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>",
-            "button_card_text": "Button",
-            "redirection_link": ""
-          }
         }
       },
       "block_order": [
         "featured_collection_XmNLwb",
-        "featured_collection_ekTJhX",
-        "featured_collection_xfz9cC"
+        "featured_collection_ekTJhX"
       ],
       "name": "Categories-slider",
       "settings": {

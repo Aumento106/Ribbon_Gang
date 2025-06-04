@@ -32,14 +32,14 @@
           <noscript class="wpforms-error-noscript">Please enable JavaScript in your browser to complete this form.</noscript>
           <div class="wpforms-field-container">
             <div id="wpforms-39261-field_8-container" class="wpforms-field wpforms-field-checkbox" data-field-id="8">
-              {% if section.settings.form_subtitle_new != blank %}
-                <label class="form-label"><strong>{{ section.settings.form_subtitle_new }} <span class="wpforms-required-label">*</span></strong>
+              {% if section.settings.form_subtitle != blank %}
+                <label class="form-label">{{ section.settings.form_subtitle }}
                 </label>
               {% endif %}
               <ul id="wpforms-39261-field_8" class="main-form-top wpforms-field-required">
                 <li class="choice-1 depth-1">
                   <input type="checkbox" id="wpforms-39261-field_8_1" name="contact[checkbox]" value="Yes" required="checkbox">
-                  <label class="wpforms-field-label-inline" for="wpforms-39261-field_8_1">Yes</label>
+                  <label class="wpforms-field-label-inline" for="wpforms-39261-field_8_1">{{ section.settings.checkbox_text }}</label>
                 </li>
               </ul>
               {% if section.settings.form_description != blank %}
@@ -126,7 +126,7 @@
                   <span class="wpforms-required-label">*</span>
                 </label>
                 <textarea id="wish" class="wpforms-field-medium wpforms-field-required form-input" name="contact[message]" value="{{ form.message }}" requiredtype="text"></textarea>
-                <div class="wpforms-field-description">{{ section.settings.decrip }}</div>
+                {% if section.settings.decrip != blank %}<div class="wpforms-field-description">{{ section.settings.decrip }}</div>{% endif %}
                 </div>
               {% endif %}
             </div>
@@ -170,15 +170,20 @@
     },
     {
       "type": "text",
+      "id": "checkbox_text",
+      "label": "Checkbox text"
+    },
+    {
+      "type": "text",
       "id": "form_title",
       "default": "Return merchandise authorisation",
       "label": "Form Title"
     },
     {
       "type": "text",
-      "id": "form_subtitle_new",
-      "label": "Form Subtitle",
-      "default": "I am applying for a return merchandise authorisation"
+      "id": "form_subtitle",
+      "default": "I am applying for a Return Merchandise Authorisation *",
+      "label": "Form Subtitle"
     },
     {
       "type": "text",

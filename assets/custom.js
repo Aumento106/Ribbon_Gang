@@ -330,7 +330,7 @@ document.querySelectorAll('.sub-header-menu-main .header__submenu li').forEach(i
 
 document.addEventListener("DOMContentLoaded", function () {
   const oldWord = "SpaceLogic";
-  const newWord = "space";
+  const newWord = "xxx";
 
   function replaceTextInNode(node) {
     if (node.nodeType === Node.TEXT_NODE) {

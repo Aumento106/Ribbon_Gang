@@ -6,6 +6,11 @@
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
+  {% for block in section.blocks %}
+    .section-{{ section.id }}-padding .multicolumn-list li {
+      border: 2px solid rgba(66,66,66,.2);
+    }
+  {% endfor %}
 
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {

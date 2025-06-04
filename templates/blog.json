@@ -80,9 +80,21 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
+    },
+    "section_breadcrumb_4QQV6B": {
+      "type": "section-breadcrumb",
+      "name": "Breadcrumb",
+      "settings": {
+        "color_scheme": "",
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "mobile_padding_top": 30,
+        "mobile_padding_bottom": 30
+      }
     }
   },
   "order": [
+    "section_breadcrumb_4QQV6B",
     "rich_text_nq9BbD",
     "main",
     "product_catalog_n7Xard"

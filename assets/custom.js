@@ -328,3 +328,19 @@ document.querySelectorAll('.sub-header-menu-main .header__submenu li').forEach(i
 // clinical storage popup
 
 
+document.addEventListener("DOMContentLoaded", function () {
+  const oldWord = "SpaceLogic";
+  const newWord = "space";
+
+  function replaceTextInNode(node) {
+    if (node.nodeType === Node.TEXT_NODE) {
+      node.textContent = node.textContent.replace(new RegExp(oldWord, 'gi'), newWord);
+    } else {
+      for (let child of node.childNodes) {
+        replaceTextInNode(child);
+      }
+    }
+  }
+
+  replaceTextInNode(document.body);
+});

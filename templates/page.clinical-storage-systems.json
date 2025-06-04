@@ -268,6 +268,16 @@
         "padding_bottom": 20
       }
     },
+    "custom_liquid_Y6PCdj": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "",
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
+    },
     "rich_text_aAqpH6": {
       "type": "rich-text",
       "blocks": {
@@ -311,6 +321,7 @@
     "rich_text_QkpLAt",
     "multicolumn_Dnn3A6",
     "rich_text_reYctM",
+    "custom_liquid_Y6PCdj",
     "rich_text_aAqpH6"
   ]
 }

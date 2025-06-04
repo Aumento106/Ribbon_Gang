@@ -47,21 +47,24 @@
                 </div>
               {% endif %}
             </div>
-            <div class="bottom_form wpforms-field wpforms-field-name">
-              <label class="wpforms-field-label">Name 
-                <span class="wpforms-required-label">*</span>
-              </label>
-              <div class="wpforms-field-row wpforms-field-medium">
-                <div class="wpforms-field-row-block wpforms-first wpforms-one-half">
-                  <input type="text" id="first_name" class="wpforms-field-name-first wpforms-field-required" required="">
-                  <label for="first_name" class="wpforms-field-sublabel after">First</label>
-                </div>
-                <div class="wpforms-field-row-block wpforms-one-half">
-                  <input type="text" id="last_name" class="wpforms-field-name-last wpforms-field-required" required="">
-                  <label for="last_name" class="wpforms-field-sublabel after">Last</label>
+            {% if section.settings.name != blank %}
+              <div class="bottom_form wpforms-field wpforms-field-name">
+                  <label class="wpforms-field-label">
+                    {{ section.settings.name }}
+                    <span class="wpforms-required-label">*</span>
+                  </label>
+                <div class="wpforms-field-row wpforms-field-medium">
+                  <div class="wpforms-field-row-block wpforms-first wpforms-one-half">
+                    <input type="text" id="first_name" class="wpforms-field-name-first wpforms-field-required" required="">
+                    <label for="first_name" class="wpforms-field-sublabel after">First</label>
+                  </div>
+                  <div class="wpforms-field-row-block wpforms-one-half">
+                    <input type="text" id="last_name" class="wpforms-field-name-last wpforms-field-required" required="">
+                    <label for="last_name" class="wpforms-field-sublabel after">Last</label>
+                  </div>
                 </div>
               </div>
-            </div>
+            {% endif %}
             <div class="bottom_form  wpforms-field wpforms-field-text">
               <label class="wpforms-field-label" for="company_name">
                 Company name 
@@ -164,6 +167,16 @@
       "id": "form_description",
       "default": "By ticking this box you acknowledge and agree to the SpaceLogic Return Policy and Warrany Terms. To submit a Return Merchandise Authorisation (RMA) request, please complete the following form. In order to expedite your request, please complete all information requested below and submit. You will be notified with an RMA number if your return request has been approved. Shipping information for sending the unit to SpaceLogic Group Pty Ltd will be provided once the RMA is issued.",
       "label": "Form Description"
+    },
+    {
+      "type": "header",
+      "content": "Return Refund Form Fields"
+    },
+    {
+      "type": "text",
+      "id": "name",
+      "default": "Name",
+      "label": "Name"
     },
     {
       "type": "header",

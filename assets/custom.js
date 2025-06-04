@@ -328,8 +328,8 @@ document.querySelectorAll('.sub-header-menu-main .header__submenu li').forEach(i
 // clinical storage popup
 
 document.addEventListener("DOMContentLoaded", function () {
-  const oldWord = "STERIRACK®";
-  const newWord = "STERIRACK<sup>®</sup>";
+  const oldWord = "®";
+  const newWord = "===";
 
   function replaceTextInElement(el) {
     if (el.children.length === 0 && el.innerHTML.includes(oldWord)) {

@@ -72,7 +72,7 @@
                   {{ section.settings.company_name }}  
                   <span class="wpforms-required-label">*</span>
                 </label>
-                <input type="text" id="company_name" class="form-input" required="text">
+                <input type="text" class="form-input" id="company_name" name="contact[company_name]" value="{{ form.company }}" requiredtype="text">
               </div>
             {% endif %}
             {% if section.settings.phone != blank %}

@@ -116,7 +116,7 @@
                   {{ section.settings.inv_no }}
                   <span class="wpforms-required-label">*</span>
                 </label>
-                <input type="text" id="inv_no" class="wpforms-field-medium wpforms-field-required" required="">
+                <input type="text" id="inv_no" class="wpforms-field-medium wpforms-field-required form-input" name="contact[inv_no]" value="{{ customer.inv_no }}" required="text">
               </div>
             {% endif %}
             {% if section.settings.reason != blank %}

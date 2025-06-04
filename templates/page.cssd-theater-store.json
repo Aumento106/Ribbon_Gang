@@ -41,7 +41,7 @@
         "heading_HUVM6E": {
           "type": "heading",
           "settings": {
-            "heading": "CSSD and Theatre Store",
+            "heading": "CSSD and theatre store",
             "heading_size": "h0",
             "heading_alignment": "center"
           }
@@ -74,7 +74,7 @@
         "application_item_DqPWKh": {
           "type": "application_item",
           "settings": {
-            "heading": "<p>CSSD and Theatre Store presentation</p>",
+            "heading": "<p>CSSD and theatre store presentation</p>",
             "heading_size": "h1",
             "heading_alignment": "center",
             "catalog_url": "https://online.flippingbook.com/view/1031758163/"

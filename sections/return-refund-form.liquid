@@ -56,11 +56,11 @@
                   </label>
                 <div class="wpforms-field-row wpforms-field-medium">
                   <div class="wpforms-field-row-block wpforms-first wpforms-one-half">
-                    <input type="text" id="first_name" class="wpforms-field-name-first wpforms-field-required" required="">
-                    <label for="first_name" class="wpforms-field-sublabel after">First</label>
+                    <input type="text" class="form-input" id="first_name" name="contact[first_name]" value="{{ form.first_name }}" requiredtype="text">
+                    <label for="first_name" class="form-label">First</label>
                   </div>
                   <div class="wpforms-field-row-block wpforms-one-half">
-                    <input type="text" id="last_name" class="wpforms-field-name-last wpforms-field-required" required="">
+                    <input type="text" class="form-input" id="last_name" name="contact[last_name]" value="{{ form.last_name }}" requiredtype="text">
                     <label for="last_name" class="wpforms-field-sublabel after">Last</label>
                   </div>
                 </div>
@@ -94,11 +94,11 @@
             {% endif %}
             {% if section.settings.email != blank %}
               <div class="bottom_form  wpforms-field wpforms-field-text">
-                <label class="wpforms-field-label" for="email">
+                <label class="form-label" for="ContactEmail">
                   {{ section.settings.email }}
                   <span class="wpforms-required-label">*</span>
                 </label>
-                <input type="text" id="email" class="wpforms-field-medium wpforms-field-required" required="">
+                <input type="email" class="form-input" id="ContactEmail" name="contact[email]" value="{{ form.email }}" requiredtype="text">
               </div>
             {% endif %}
             {% if section.settings.invoice_data != blank %}

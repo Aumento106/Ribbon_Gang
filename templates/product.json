@@ -115,6 +115,7 @@
         },
         "product_description_GjJGyV": {
           "type": "product_description",
+          "disabled": true,
           "settings": {
             "heading": "WARRANTY INFORMATION",
             "accordian_icon_image": "shopify://shop_images/Group_1171277814.svg",
@@ -134,6 +135,16 @@
           }
         },
         "collapsible_tab_HaEpLp": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "WARRANTY INFORMATION",
+            "accordian_icon_image": "shopify://shop_images/Group_1171277814.svg",
+            "icon": "check_mark",
+            "content": "<p>All SpaceLogic Accessories are backed by a 5-year warranty against faulty manufacture or workmanship under normal use. This warranty applies only when installed and used according to our guidelines. For full details, please refer to our Warranty Certificate.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_cEBm8X": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "BROCHURE OR SPEC SHEET",
@@ -293,6 +304,7 @@
         "product_description_GjJGyV",
         "collapsible_tab_WGBYJ7",
         "collapsible_tab_HaEpLp",
+        "collapsible_tab_cEBm8X",
         "collapsible_tab_mY4f8B",
         "collapsible_tab_HpkKRY",
         "specifications_prC9K9",

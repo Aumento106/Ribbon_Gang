@@ -15,6 +15,9 @@
 .categories-slider .main-product-categories .collection-list .full-unstyled-link::after {
   pointer-events: none;
 }
+.view_video_popup.active {
+  display: block;
+}
 
 
 @media screen and (max-width: 749px) {

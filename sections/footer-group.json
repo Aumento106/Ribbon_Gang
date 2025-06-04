@@ -176,7 +176,7 @@
         "image_dehRNG": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/download.png",
+            "image": "shopify://shop_images/white_logo_2.svg",
             "image_width": 330,
             "alignment": "",
             "subtext": "<p>With over four decades of experience, SpaceLogic Group is your trusted partner in clinical storage solutions. From modular systems to custom-designed fit outs design and installation, we help healthcare providers optimise space, improve infection control, and future-proof their facilities to make space for care.</p>",

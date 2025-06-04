@@ -67,7 +67,7 @@
       "settings": {
         "color_scheme": "",
         "form_title": "Return merchandise authorisation",
-        "form_subtitle": "I am applying for a return merchandise authorisation *",
+        "form_subtitle": "<p>I am applying for a return merchandise authorisation</p>",
         "form_description": "By ticking this box you acknowledge and agree to the SpaceLogic Return Policy and Warrany Terms. To submit a Return Merchandise Authorisation (RMA) request, please complete the following form. In order to expedite your request, please complete all information requested below and submit. You will be notified with an RMA number if your return request has been approved. Shipping information for sending the unit to SpaceLogic Group Pty Ltd will be provided once the RMA is issued.",
         "name": "Name",
         "company_name": "Company name",

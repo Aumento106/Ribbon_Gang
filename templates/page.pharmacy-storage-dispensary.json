@@ -41,7 +41,7 @@
         "heading_KAkJED": {
           "type": "heading",
           "settings": {
-            "heading": "Pharmacy Storage and Dispensary",
+            "heading": "Pharmacy storage and dispensary",
             "heading_size": "h0",
             "heading_alignment": "center"
           }
@@ -56,7 +56,7 @@
         "button_g7CzT3": {
           "type": "button",
           "settings": {
-            "button_label": "Explore our STERIRACK® Pharmacy Drawers",
+            "button_label": "Explore our STERIRACK® pharmacy drawers",
             "button_link": "shopify://pages/pharmacy-drawers",
             "button_style_secondary": false,
             "button_label_2": "",

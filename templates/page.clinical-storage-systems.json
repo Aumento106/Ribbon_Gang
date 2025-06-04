@@ -98,8 +98,9 @@
         "featured_collection_ekTJhX": {
           "type": "featured_collection",
           "settings": {
-            "collection": "",
-            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "categories_image": "shopify://shop_images/Blacktown_square.png",
+            "collection": "medibin-system",
+            "card_text": "Compact, rail-mounted bin storage for medication and clean utility roomsWhen space is tight but hygiene and visibility matter, MEDIBIN® delivers. Featuring clear bins on wall or post-mounted runners, it’s the ideal solution for fast-access pick zones and sterile stock control",
             "button_card_text": "Button",
             "redirection_link": ""
           }

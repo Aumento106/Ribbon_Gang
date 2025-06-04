@@ -81,7 +81,7 @@
                   {{ section.settings.phone }}
                   <span class="wpforms-required-label">*</span>
                 </label>
-                <input type="text" id="phone" class="wpforms-field-medium wpforms-field-required">
+                <input type="tel" id="phone" class="form-input" name="contact[phone]" value="{{ form.phone }}" requiredtype="tel">
               </div>
             {% endif %}
             {% if section.settings.fax != blank %}
@@ -125,7 +125,7 @@
                   {{ section.settings.reason }}
                   <span class="wpforms-required-label">*</span>
                 </label>
-                <textarea id="wish" class="wpforms-field-medium wpforms-field-required" required=""></textarea>
+                <textarea type="text" class="form-input" id="wish" name="contact[wish]" value="{{ form.message }}" requiredtype="text"></textarea>
                 <div class="wpforms-field-description">Please provide item number, quantity, description and reason for return (eg. Faulty/damaged item, incorrect item, not suitable, or other).</div>
                 </div>
               {% endif %}

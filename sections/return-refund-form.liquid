@@ -24,7 +24,8 @@
     <div class="return-refund-form">
       <div cass="">
       <div class="return_refund_main">
-        <form class="wpforms-validate wpforms-form wpforms-ajax-form">
+        {% form 'contact' %}
+          <form class="wpforms-validate wpforms-form wpforms-ajax-form">
           <div class="wpforms-head-container">
             <div class="wpforms-title h2">{{ section.settings.form_title }}</div>
           </div>
@@ -144,6 +145,7 @@
               </div>
             {% endif %}
         </form>
+        {% endform %}
       </div>
     </div>
     </div>

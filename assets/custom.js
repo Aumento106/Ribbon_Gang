@@ -330,7 +330,7 @@ document.querySelectorAll('.sub-header-menu-main .header__submenu li').forEach(i
 
 document.addEventListener("DOMContentLoaded", function () {
   const oldWord = "STERIRACK®";
-  const newWord = "STERIRACK"<super>®;
+  const newWord = "STERIRACK<sup>®</sup>";
 
   function replaceTextInNode(node) {
     if (node.nodeType === Node.TEXT_NODE) {

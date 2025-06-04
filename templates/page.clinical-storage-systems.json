@@ -81,65 +81,12 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
-    },
-    "categories_emdRn8": {
-      "type": "categories",
-      "blocks": {
-        "featured_collection_WQEN73": {
-          "type": "featured_collection",
-          "settings": {
-            "categories_image": "shopify://shop_images/Blacktown_square.png",
-            "collection": "sterirack-system",
-            "card_text": "Modular bays, trolleys, benches, and shelving for full-facility fitoutsThe gold standard in hospital-grade storage, STERIRACK® is designed to meet the high-volume, high-compliance needs of clinical spaces. Built on starter and add-on bays, this system integrates mobile carts, workbenches, and flexible accessories for complete workflow alignment",
-            "button_card_text": "Button",
-            "redirection_link": ""
-          }
-        },
-        "featured_collection_J4yLH4": {
-          "type": "featured_collection",
-          "settings": {
-            "categories_image": "shopify://shop_images/Blacktown_Hospital_19.png",
-            "collection": "medibin-system",
-            "card_text": "Compact, rail-mounted bin storage for medication and clean utility roomsWhen space is tight but hygiene and visibility matter, MEDIBIN® delivers. Featuring clear bins on wall or post-mounted runners, it’s the ideal solution for fast-access pick zones and sterile stock control.",
-            "button_card_text": "Button",
-            "redirection_link": ""
-          }
-        },
-        "featured_collection_KEKtpY": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "",
-            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-            "button_card_text": "Button",
-            "redirection_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_WQEN73",
-        "featured_collection_J4yLH4",
-        "featured_collection_KEKtpY"
-      ],
-      "name": "Categories",
-      "settings": {
-        "title": "Collections",
-        "heading_size": "h1",
-        "image_ratio": "square",
-        "columns_desktop": 2,
-        "color_scheme": "",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "section_breadcrumb_F9PzRF",
     "rich_text_P3hBwh",
     "main",
-    "product_catalog_W3r7Xn",
-    "categories_emdRn8"
+    "product_catalog_W3r7Xn"
   ]
 }

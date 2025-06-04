@@ -323,3 +323,31 @@ document.querySelectorAll('.sub-header-menu-main .header__submenu li').forEach(i
     if (submenu) submenu.style.display = 'none';
   });
 });
+
+
+// clinical storage popup
+
+document.addEventListener('click', (event) => {
+    if (event.target.closest('.card_product_main_desc a')) {
+        const blockId = event.target.closest('.card_product_main_desc a').getAttribute('data-block-id');
+        const popup = document.getElementById(`project-video-${blockId}`);
+
+        document.querySelectorAll('.view_video_popup').forEach(p => {
+            p.classList.remove('active');
+            document.body.classList.remove('popup-overflow-hidden');
+        });
+
+        if (popup) {
+            popup.classList.add('active');
+            document.body.classList.add('popup-overflow-hidden');
+        }
+    }
+
+    if (event.target.closest('.view_video_popup .close-btn')) {
+        const popup = event.target.closest('.view_video_popup');
+        if (popup) {
+            popup.classList.remove('active');
+            document.body.classList.remove('popup-overflow-hidden');
+        }
+    }
+});

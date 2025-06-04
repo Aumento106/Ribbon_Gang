@@ -16,7 +16,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Home_20.png",
-            "enable_side_image": false,
+            "enable_side_image": true,
             "heading": "Your trusted partner in clinical storage solutions",
             "custom_heading_size": 52,
             "mobile_custom_heading_size": 28,
@@ -314,6 +314,7 @@
         "hotspot_button_7HYTie"
       ],
       "settings": {
+        "remove_bg": true,
         "page_container": "full-width",
         "image": "shopify://shop_images/Home_23.png",
         "image_overlay_opacity": 0,
@@ -526,6 +527,7 @@
         "hotspot_button_jtiwdc"
       ],
       "settings": {
+        "remove_bg": true,
         "page_container": "full-width",
         "image": "shopify://shop_images/Home_22.png",
         "image_overlay_opacity": 0,
@@ -1228,6 +1230,7 @@
         "hotspot_button_rY7qKj"
       ],
       "settings": {
+        "remove_bg": true,
         "page_container": "full-width",
         "image": "shopify://shop_images/Home_24.png",
         "image_overlay_opacity": 0,

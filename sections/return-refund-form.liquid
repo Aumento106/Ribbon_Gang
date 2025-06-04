@@ -81,7 +81,7 @@
                   {{ section.settings.phone }}
                   <span class="wpforms-required-label">*</span>
                 </label>
-                <input type="tel" id="phone" class="form-input" name="contact[phone]" value="{{ form.phone }}" requiredtype="tel">
+                <input type="number" id="phone" class="form-input" name="contact[phone]" value="{{ form.phone }}" requiredtype="tel">
               </div>
             {% endif %}
             {% if section.settings.fax != blank %}

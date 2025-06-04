@@ -213,6 +213,39 @@
         "padding_top": 40,
         "padding_bottom": 40
       }
+    },
+    "rich_text_aAqpH6": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_EBFUWg": {
+          "type": "heading",
+          "settings": {
+            "heading": "Not sure where to begin? We’re here to help",
+            "heading_size": "h1"
+          }
+        },
+        "text_tggAzB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>[Book a Design Session] |  [Browse Products] | [Download Product Catalogue]</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_EBFUWg",
+        "text_tggAzB"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "content_alignment": "center",
+        "content_width": "medium",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "full_width": false,
+        "no_margin": false,
+        "section_border": true,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
     }
   },
   "order": [
@@ -222,6 +255,7 @@
     "product_catalog_W3r7Xn",
     "categories_slider_E78EBH",
     "rich_text_QkpLAt",
-    "rich_text_reYctM"
+    "rich_text_reYctM",
+    "rich_text_aAqpH6"
   ]
 }

@@ -10,6 +10,9 @@
   overflow-x: scroll;
   overflow-y: hidden;
 }
+.categories-slider .main-product-categories .collection-list .card_product_main_desc strong {
+  font-weight: 600;
+}
 
 
 @media screen and (max-width: 749px) {

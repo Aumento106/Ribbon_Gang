@@ -90,7 +90,7 @@
           "settings": {
             "categories_image": "shopify://shop_images/Blacktown_square.png",
             "collection": "sterirack-system",
-            "card_text": "Modular bays, trolleys, benches, and shelving for full-facility fitoutsThe gold standard in hospital-grade storage, STERIRACK® is designed to meet the high-volume, high-compliance needs of clinical spaces. Built on starter and add-on bays, this system integrates mobile carts, workbenches, and flexible accessories for complete workflow alignment.",
+            "card_text": "<p><strong>Modular bays, trolleys, benches, and shelving for full-facility fitouts</strong><br/>The gold standard in hospital-grade storage, STERIRACK® is designed to meet the high-volume, high-compliance needs of clinical spaces. Built on starter and add-on bays, this system integrates mobile carts, workbenches, and flexible accessories for complete workflow alignment.</p>",
             "button_card_text": "Button",
             "redirection_link": ""
           }
@@ -100,7 +100,7 @@
           "settings": {
             "categories_image": "shopify://shop_images/Blacktown_square.png",
             "collection": "medibin-system",
-            "card_text": "Compact, rail-mounted bin storage for medication and clean utility roomsWhen space is tight but hygiene and visibility matter, MEDIBIN® delivers. Featuring clear bins on wall or post-mounted runners, it’s the ideal solution for fast-access pick zones and sterile stock control",
+            "card_text": "<p><strong>Compact, rail-mounted bin storage for medication and clean utility rooms</strong><br/>When space is tight but hygiene and visibility matter, MEDIBIN® delivers. Featuring clear bins on wall or post-mounted runners, it’s the ideal solution for fast-access pick zones and sterile stock control</p>",
             "button_card_text": "Button",
             "redirection_link": ""
           }
@@ -109,7 +109,7 @@
           "type": "featured_collection",
           "settings": {
             "collection": "",
-            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "card_text": "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>",
             "button_card_text": "Button",
             "redirection_link": ""
           }

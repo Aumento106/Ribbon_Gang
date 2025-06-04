@@ -73,3 +73,14 @@ slideshow-component .slideshow__slide.enable_side_image_main:before {
         padding: 0;
     }
 }
+
+@media screen and (max-width: 749px) {
+  slideshow-component .slideshow__slide.enable_side_image_main:after {
+    width: 100px;
+  }
+  slideshow-component .slideshow__slide.enable_side_image_main:before {
+    width: 100px;
+  }
+}
+
+

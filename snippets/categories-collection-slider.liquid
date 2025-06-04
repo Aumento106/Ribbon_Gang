@@ -113,6 +113,7 @@
     </h2>
     <div class="card_product_main">
       <span class="card_product_main_desc">{{ card_text }}</span>
+      <span class="card_product_main_desc">{{ card_text_descriptio }}</span>
       <a href="{% if redirection_link != blank %} {{ redirection_link }} {% else %} {{ card_collection.url }} {% endif %}" class="button button--primary">{{ card_button }}</a>
     </div>
     {%- if card_collection != blank and card_style == 'card' or categories_image -%}

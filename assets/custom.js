@@ -327,20 +327,19 @@ document.querySelectorAll('.sub-header-menu-main .header__submenu li').forEach(i
 
 // clinical storage popup
 
-
 document.addEventListener("DOMContentLoaded", function () {
   const oldWord = "STERIRACK®";
   const newWord = "STERIRACK<sup>®</sup>";
 
-  function replaceTextInNode(node) {
-    if (node.nodeType === Node.TEXT_NODE) {
-      node.textContent = node.textContent.replace(new RegExp(oldWord, 'gi'), newWord);
+  function replaceTextInElement(el) {
+    if (el.children.length === 0 && el.innerHTML.includes(oldWord)) {
+      el.innerHTML = el.innerHTML.replace(new RegExp(oldWord, 'g'), newWord);
     } else {
-      for (let child of node.childNodes) {
-        replaceTextInNode(child);
+      for (let child of el.children) {
+        replaceTextInElement(child);
       }
     }
   }
 
-  replaceTextInNode(document.body);
+  replaceTextInElement(document.body);
 });

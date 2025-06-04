@@ -13,6 +13,9 @@
 .categories-slider .main-product-categories .collection-list .card_product_main_desc strong {
   font-weight: 600;
 }
+.categories-slider .main-product-categories .collection-list .full-unstyled-link::after {
+  pointer-events: none;
+}
 
 
 @media screen and (max-width: 749px) {

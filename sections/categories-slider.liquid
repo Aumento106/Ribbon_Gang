@@ -167,6 +167,42 @@
 </div>
 
 <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    // Find all links with that exact text
+    document.querySelectorAll('a').forEach(function (link) {
+      if (link.textContent.trim() === 'Watch system walkthrough video') {
+        link.addEventListener('click', function () {
+          const popup = document.querySelector('.view_video_popup');
+          if (popup) {
+            popup.classList.add('active');
+            document.body.classList.add('video-open');
+          }
+        });
+      }
+    });
+  
+    // Close button
+    document.querySelectorAll('.view_video_popup .close-btn').forEach(function (closeBtn) {
+      closeBtn.addEventListener('click', function () {
+        const popup = this.closest('.view_video_popup');
+        if (popup) {
+          popup.classList.remove('active');
+          document.body.classList.remove('video-open');
+  
+          // Pause video
+          const video = popup.querySelector('video');
+          if (video) {
+            video.pause();
+            video.currentTime = 0;
+          }
+        }
+      });
+    });
+  });
+
+</script>
+
+<script>
   document.addEventListener("DOMContentLoaded", function () {
     const listItems = document.querySelectorAll(".main-product-categories .card__heading");
     const listItemsnew = document.querySelectorAll(".main-product-categories .card__heading .card_product_main_desc");

@@ -83,12 +83,13 @@
                 <iframe src="{{ block.settings.video_1_url }}" frameborder="0" allowfullscreen></iframe>
               </div>
             </div>
-          
-            <div class="video-popup" id="video2" style="display: none;">
-              <div class="popup-inner">
-                <iframe src="{{ block.settings.video_2_url }}" frameborder="0" allowfullscreen></iframe>
+            {% if block.settings.video_2_url != blank %}
+              <div class="video-popup" id="video2" style="display: none;">
+                <div class="popup-inner">
+                  <iframe src="{{ block.settings.video_2_url }}" frameborder="0" allowfullscreen></iframe>
+                </div>
               </div>
-            </div>
+            {% endif %}
             
             {%- assign placeholder_image_index = forloop.index0 | modulo: 4 | plus: 1 -%}
             {%- assign placeholder_image = 'collection-apparel-' | append: placeholder_image_index -%}

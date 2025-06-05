@@ -326,31 +326,36 @@ document.querySelectorAll('.sub-header-menu-main .header__submenu li').forEach(i
 
 
 // clinical storage popup
-function replaceTextInElement(el, oldWord, newWord) {
-  if (el.children.length === 0 && el.innerHTML.includes(oldWord)) {
-    el.innerHTML = el.innerHTML.replace(new RegExp(oldWord, 'g'), newWord);
-  } else {
-    for (let child of el.children) {
-      replaceTextInElement(child, oldWord, newWord);
-    }
-  }
-}
-
-function applyReplacements() {
-  replaceTextInElement(document.body, "®", "<sup>®</sup>");
-  replaceTextInElement(document.body, "™", "<sup>™</sup>");
-}
 
 document.addEventListener("DOMContentLoaded", function () {
-  applyReplacements();
+  const oldWord = "®";
+  const newWord = "<sup>®</sup>";
 
-  // Watch for any future DOM changes (e.g., app content injection)
-  const observer = new MutationObserver(() => {
-    applyReplacements();
-  });
+  function replaceTextInElement(el) {
+    if (el.children.length === 0 && el.innerHTML.includes(oldWord)) {
+      el.innerHTML = el.innerHTML.replace(new RegExp(oldWord, 'g'), newWord);
+    } else {
+      for (let child of el.children) {
+        replaceTextInElement(child);
+      }
+    }
+  }
 
-  observer.observe(document.body, {
-    childList: true,
-    subtree: true
-  });
+  replaceTextInElement(document.body);
+});
+document.addEventListener("DOMContentLoaded", function () {
+  const oldWord = "™";
+  const newWord = "<sup>™</sup>";
+
+  function replaceTextInElement(el) {
+    if (el.children.length === 0 && el.innerHTML.includes(oldWord)) {
+      el.innerHTML = el.innerHTML.replace(new RegExp(oldWord, 'g'), newWord);
+    } else {
+      for (let child of el.children) {
+        replaceTextInElement(child);
+      }
+    }
+  }
+
+  replaceTextInElement(document.body);
 });

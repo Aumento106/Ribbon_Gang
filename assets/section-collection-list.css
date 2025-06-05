@@ -15,9 +15,9 @@
 .categories-slider .main-product-categories .collection-list .card_product_main_desc a {
   text-decoration: underline;
 }
-.categories-slider .main-product-categories .collection-list .full-unstyled-link::after {
+/* .categories-slider .main-product-categories .collection-list .full-unstyled-link::after {
   pointer-events: none;
-}
+} */
 .view_video_popup.active {
   display: block;
 }

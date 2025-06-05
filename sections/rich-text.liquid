@@ -5,6 +5,15 @@
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
+  {%- for block in section.blocks -%}
+    {% if block.settings.enable_all_buttons_row %}
+      .section-{{ section.id }}-padding .rich-text__buttons {
+        flex-direction: row;
+        width: 100%;
+        max-width: unset;
+      }
+    {% endif %}
+  {% endfor %}
 
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
@@ -362,6 +371,12 @@
           "id": "button_style_secondary_3",
           "default": false,
           "label": "Use outline button style"
+        },
+        {
+          "type": "checkbox",
+          "id": "enable_all_buttons_row",
+          "default": false,
+          "label": "Enable All Buttons In Row"
         }
       ]
     }

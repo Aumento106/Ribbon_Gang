@@ -6,7 +6,7 @@
   margin: 0;
 }
 .categories-slider .main-product-categories .collection-list {
-  /* flex-wrap: nowrap; */
+  flex-wrap: nowrap;
   /* overflow: auto; */
 }
 .categories-slider .main-product-categories .collection-list .card_product_main_desc strong {

@@ -162,25 +162,27 @@
 
 <script>
   document.addEventListener('DOMContentLoaded', function () {
-    document.querySelectorAll('.video-link').forEach(link => {
+    document.querySelectorAll('.video-trigger').forEach(link => {
       link.addEventListener('click', function (e) {
         e.preventDefault();
-        const videoId = this.getAttribute('data-video');
+        const selector = this.getAttribute('data-video');
         document.querySelectorAll('.video-popup').forEach(p => p.style.display = 'none');
-        const popup = document.getElementById(videoId);
+        const popup = document.querySelector(selector);
         if (popup) popup.style.display = 'block';
       });
     });
 
-    // Optional: click to close on outside
+    // Close popup on click (or enhance with close button)
     document.querySelectorAll('.video-popup').forEach(popup => {
       popup.addEventListener('click', function () {
-        popup.style.display = 'none';
-        popup.querySelector('iframe').src = popup.querySelector('iframe').src; // stop video
+        this.style.display = 'none';
+        const iframe = this.querySelector('iframe');
+        iframe.src = iframe.src; // Stop video
       });
     });
   });
 </script>
+
 
 
 <script>

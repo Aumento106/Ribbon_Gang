@@ -18,10 +18,10 @@
 .categories-slider .main-product-categories .collection-list .card_product_main_desc a {
   text-decoration: underline;
 }
-.categories-slider .main-product-categories .collection-list .collection-list__item {
+/* .categories-slider .main-product-categories .collection-list .collection-list__item {
   max-width: unset;
   width: unset;
-}
+} */
 /* .categories-slider .main-product-categories .collection-list .full-unstyled-link::after {
   pointer-events: none;
 } */

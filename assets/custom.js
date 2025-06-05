@@ -363,3 +363,21 @@ document.addEventListener("DOMContentLoaded", function () {
     replaceTextInElement(document.body, "™", "<sup>™</sup>");
   }, 3000); 
 });
+
+// Blog search
+
+document.getElementById('blogSearch').addEventListener('input', function() {
+  const searchValue = this.value.toLowerCase();
+  const blogPosts = document.querySelectorAll('.blog-post');
+
+  blogPosts.forEach(function(post) {
+    const title = post.querySelector('.blog-title').textContent.toLowerCase();
+    const content = post.querySelector('.blog-content').textContent.toLowerCase();
+
+    if (title.includes(searchValue) || content.includes(searchValue)) {
+      post.style.display = '';
+    } else {
+      post.style.display = 'none';
+    }
+  });
+});

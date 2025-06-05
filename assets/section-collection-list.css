@@ -22,6 +22,7 @@
   display: block;
 }
 .view_video_popup {
+  cursor: pointer;
   position: fixed;
   top: 0;
   bottom: 0;

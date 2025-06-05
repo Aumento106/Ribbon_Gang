@@ -339,5 +339,5 @@ document.addEventListener("DOMContentLoaded", function () {
 
     replaceTextInElement(document.body, "®", "<sup>®</sup>");
     replaceTextInElement(document.body, "™", "<sup>™</sup>");
-  }, 3000); 
+  }, 2000); 
 });

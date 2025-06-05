@@ -51,6 +51,10 @@
 .categories-slider .main-product-categories .collection-list .video-links a {
   z-index: 2;
 }
+body.video-popup-open {
+  height: 100vh;
+  overflow: hidden;
+}
 
 
 

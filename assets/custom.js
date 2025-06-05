@@ -325,7 +325,6 @@ document.querySelectorAll('.sub-header-menu-main .header__submenu li').forEach(i
 });
 
 
-// clinical storage popup
 document.addEventListener("DOMContentLoaded", function () {
   setTimeout(function () {
     function replaceTextInElement(el, oldWord, newWord) {

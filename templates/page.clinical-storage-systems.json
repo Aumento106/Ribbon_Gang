@@ -293,14 +293,31 @@
         },
         "text_tggAzB": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>[Book a Design Session] |  [Browse Products] | [Download Product Catalogue]</p>"
+          }
+        },
+        "button_m8QFcQ": {
+          "type": "button",
+          "settings": {
+            "button_label": "Book a Design Session",
+            "button_link": "shopify://collections/all",
+            "button_style_secondary": false,
+            "button_label_2": "Browse Products",
+            "button_link_2": "shopify://collections/all",
+            "button_style_secondary_2": false,
+            "button_label_3": "Download Product Catalogue",
+            "button_link_3": "shopify://collections/all",
+            "button_style_secondary_3": false,
+            "enable_all_buttons_row": true
           }
         }
       },
       "block_order": [
         "heading_EBFUWg",
-        "text_tggAzB"
+        "text_tggAzB",
+        "button_m8QFcQ"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {

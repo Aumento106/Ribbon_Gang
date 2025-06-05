@@ -9,6 +9,17 @@
  */
 {
   "sections": {
+    "section_breadcrumb_nmUW87": {
+      "type": "section-breadcrumb",
+      "name": "Breadcrumb",
+      "settings": {
+        "color_scheme": "",
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "mobile_padding_top": 30,
+        "mobile_padding_bottom": 30
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "disabled": true,
@@ -24,7 +35,7 @@
         "heading_nhBt8y": {
           "type": "heading",
           "settings": {
-            "heading": "Our <strong>products</strong>",
+            "heading": "Our products",
             "heading_size": "h0",
             "heading_alignment": "center"
           }
@@ -91,17 +102,6 @@
         "subheading_color": "#424242",
         "padding_top": 20,
         "padding_bottom": 20
-      }
-    },
-    "section_breadcrumb_nmUW87": {
-      "type": "section-breadcrumb",
-      "name": "Breadcrumb",
-      "settings": {
-        "color_scheme": "",
-        "padding_top": 30,
-        "padding_bottom": 30,
-        "mobile_padding_top": 30,
-        "mobile_padding_bottom": 30
       }
     }
   },

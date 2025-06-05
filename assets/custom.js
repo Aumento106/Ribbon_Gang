@@ -339,5 +339,5 @@ document.addEventListener("DOMContentLoaded", function () {
 
     replaceTextInElement(document.body, "®", "<sup>®</sup>");
     replaceTextInElement(document.body, "™", "<sup>™</sup>");
-  }, 1000); // Delay for 1 second
+  }, 3000); 
 });

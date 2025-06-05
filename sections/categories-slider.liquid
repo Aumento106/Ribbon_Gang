@@ -69,21 +69,6 @@
           endif
         -%}
         {%- for block in section.blocks -%}
-          <div class="video-popup projects-popup-main" id="video1" style="display: none;">
-              <div class="popup-inner">
-                <div class="close-btn">
-                  <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="2" y="2" width="28" height="28" rx="14" stroke="#424242" stroke-width="2"></rect>
-                    <path d="M22 10L10 22" stroke="#424242" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                    <path d="M10 10L22 22" stroke="#424242" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                  </svg>
-                </div>
-                <video controls playsinline>
-                  <source src="{{ block.settings.video_1_url }}" type="video/mp4">
-                  Your browser does not support the video tag.
-                </video>
-              </div>
-            </div>
           <li
             id="Slide-{{ section.id }}-{{ forloop.index }}"
             class="swiper-slide collection-list__item grid__item{% if show_mobile_slider %} slider__slide {% endif %}{% if block.settings.collection.featured_image == nil %} collection-list__item--no-media{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
@@ -93,16 +78,6 @@
               style="--animation-order: {{ forloop.index }};"
             {% endif %}
           >
-            {% if block.settings.video_2_url != blank %}
-              <div class="video-popup" id="video2" style="display: none;">
-                <div class="popup-inner">
-                  <video controls playsinline>
-                    <source src="{{ block.settings.video_2_url }}" type="video/mp4">
-                    Your browser does not support the video tag.
-                  </video>
-                </div>
-              </div>
-            {% endif %}
             
             {%- assign placeholder_image_index = forloop.index0 | modulo: 4 | plus: 1 -%}
             {%- assign placeholder_image = 'collection-apparel-' | append: placeholder_image_index -%}
@@ -155,6 +130,35 @@
         </div>
       {%- endif -%}
     </slider-component>
+    {%- for block in section.blocks -%}
+      <div class="video-popup projects-popup-main" id="video1" style="display: none;">
+      {% if block.settings.video_1_url != blank %}
+          <div class="popup-inner">
+            <div class="close-btn">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="2" y="2" width="28" height="28" rx="14" stroke="#424242" stroke-width="2"></rect>
+                <path d="M22 10L10 22" stroke="#424242" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M10 10L22 22" stroke="#424242" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+            </div>
+            <video controls playsinline>
+              <source src="{{ block.settings.video_1_url }}" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        {% endif %}
+        {% if block.settings.video_2_url != blank %}
+          <div class="video-popup" id="video2" style="display: none;">
+            <div class="popup-inner">
+              <video controls playsinline>
+                <source src="{{ block.settings.video_2_url }}" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+        {% endif %}
+        </div>
+    {% endfor %}
 
     {%- if section.settings.show_view_all and section.blocks.size < collections.size -%}
       <div

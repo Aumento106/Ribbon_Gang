@@ -267,6 +267,10 @@ h5,
 .h5 {
   letter-spacing: var(--heading-letterspacing);
 }
+body, p, span, ul, li, b, strong, blockquote, ol {
+  letter-spacing: var(--body-letterspacing);
+}
+
 
 /* h1,
 h2,

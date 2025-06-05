@@ -10,6 +10,9 @@ slider-component {
 slider-component.slider-component-full-width {
   --desktop-margin-left-first-item: 1.5rem;
 }
+.categories-slider .card_product_main .card_product_main_desc + .card_product_main_desc p {
+  margin-bottom: 0;
+}
 
 @media screen and (max-width: 749px) {
   slider-component.page-width {

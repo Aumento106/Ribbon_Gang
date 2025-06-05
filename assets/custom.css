@@ -274,9 +274,9 @@ details[open]>.header__menu-item .ic_pluse {
   transform: translateY(0px);
 }
 
-.header__inline-menu .mega-menu[open] .header__menu-item span {
+/* .header__inline-menu .mega-menu[open] .header__menu-item span {
   font-weight: 500;
-}
+} */
 
 .header__inline-menu .mega-menu__content {
   background: rgba(66, 66, 66, 0.6);

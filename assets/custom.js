@@ -327,35 +327,35 @@ document.querySelectorAll('.sub-header-menu-main .header__submenu li').forEach(i
 
 // clinical storage popup
 
-document.addEventListener("DOMContentLoaded", function () {
-  const oldWord = "®";
-  const newWord = "<sup>®</sup>";
+// document.addEventListener("DOMContentLoaded", function () {
+//   const oldWord = "®";
+//   const newWord = "<sup>®</sup>";
 
-  function replaceTextInElement(el) {
-    if (el.children.length === 0 && el.innerHTML.includes(oldWord)) {
-      el.innerHTML = el.innerHTML.replace(new RegExp(oldWord, 'g'), newWord);
-    } else {
-      for (let child of el.children) {
-        replaceTextInElement(child);
-      }
-    }
-  }
+//   function replaceTextInElement(el) {
+//     if (el.children.length === 0 && el.innerHTML.includes(oldWord)) {
+//       el.innerHTML = el.innerHTML.replace(new RegExp(oldWord, 'g'), newWord);
+//     } else {
+//       for (let child of el.children) {
+//         replaceTextInElement(child);
+//       }
+//     }
+//   }
 
-  replaceTextInElement(document.body);
-});
-document.addEventListener("DOMContentLoaded", function () {
-  const oldWord = "™";
-  const newWord = "<sup>™</sup>";
+//   replaceTextInElement(document.body);
+// });
+// document.addEventListener("DOMContentLoaded", function () {
+//   const oldWord = "™";
+//   const newWord = "<sup>™</sup>";
 
-  function replaceTextInElement(el) {
-    if (el.children.length === 0 && el.innerHTML.includes(oldWord)) {
-      el.innerHTML = el.innerHTML.replace(new RegExp(oldWord, 'g'), newWord);
-    } else {
-      for (let child of el.children) {
-        replaceTextInElement(child);
-      }
-    }
-  }
+//   function replaceTextInElement(el) {
+//     if (el.children.length === 0 && el.innerHTML.includes(oldWord)) {
+//       el.innerHTML = el.innerHTML.replace(new RegExp(oldWord, 'g'), newWord);
+//     } else {
+//       for (let child of el.children) {
+//         replaceTextInElement(child);
+//       }
+//     }
+//   }
 
-  replaceTextInElement(document.body);
-});
+//   replaceTextInElement(document.body);
+// });

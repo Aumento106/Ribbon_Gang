@@ -32,10 +32,11 @@
   width: 90%;
   max-width: 800px;
   transform: translate(-50%, -50%);
-  background: #000;
+  /* background: #000; */
   z-index: 9999;
   aspect-ratio: 16/9;
   opacity: 1;
+  overflow: visible;
 }
 .video-popup iframe {
   width: 100%;

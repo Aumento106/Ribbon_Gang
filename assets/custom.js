@@ -371,7 +371,7 @@ document.getElementById('blogSearch').addEventListener('input', function() {
   const blogPosts = document.querySelectorAll('.blog-articles__article');
 
   blogPosts.forEach(function(post) {
-    const title = post.querySelector('.blog-title').textContent.toLowerCase();
+    const title = post.querySelector('.full-unstyled-link').textContent.toLowerCase();
     const content = post.querySelector('.blog-content').textContent.toLowerCase();
 
     if (title.includes(searchValue) || content.includes(searchValue)) {

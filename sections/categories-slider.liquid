@@ -224,6 +224,24 @@
         document.body.classList.remove('video-popup-open');
       });
     });
+
+    document.querySelectorAll('.close-popup').forEach(btn => {
+  btn.addEventListener('click', function (e) {
+    e.stopPropagation(); // prevent outer click handler
+    const popup = this.closest('.video-popup');
+    if (popup) {
+      const video = popup.querySelector('video');
+      if (video) {
+        video.pause();
+        video.currentTime = 0;
+      }
+      popup.style.display = 'none';
+      document.body.classList.remove('video-popup-open');
+    }
+  });
+});
+
+    
   });
 </script>
 

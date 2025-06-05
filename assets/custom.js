@@ -236,6 +236,19 @@ document.addEventListener('DOMContentLoaded', function () {
             prevEl: ".swiper-button-prev",
         },
     });
+
+  new Swiper('.categories-slider ul.collection-list', {
+        slidesPerView: 2,
+        spaceBetween: 0,
+        centeredSlides: false,
+        grabCursor: true,
+        loop: false,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+    });
+  
 });
 
 // ---------- Homepage Hotspot area popup -----------

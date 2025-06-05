@@ -368,7 +368,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 document.getElementById('blogSearch').addEventListener('input', function() {
   const searchValue = this.value.toLowerCase();
-  const blogPosts = document.querySelectorAll('.blog-post');
+  const blogPosts = document.querySelectorAll('.blog-articles__article');
 
   blogPosts.forEach(function(post) {
     const title = post.querySelector('.blog-title').textContent.toLowerCase();

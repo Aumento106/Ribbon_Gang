@@ -80,7 +80,14 @@
 
              <div class="video-popup" id="video1" style="display: none;">
               <div class="popup-inner projects-popup-main">
-                <iframe src="{{ block.settings.video_1_url }}" frameborder="0" allowfullscreen></iframe>
+                <div class="close-btn">
+                  <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="2" y="2" width="28" height="28" rx="14" stroke="#424242" stroke-width="2"></rect>
+                    <path d="M22 10L10 22" stroke="#424242" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M10 10L22 22" stroke="#424242" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                  </svg>
+                </div>
+                <video src="{{ block.settings.video_1_url }}" frameborder="0" allowfullscreen></video>
               </div>
             </div>
             {% if block.settings.video_2_url != blank %}

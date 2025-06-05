@@ -181,19 +181,47 @@
     document.querySelectorAll('.video-trigger').forEach(link => {
       link.addEventListener('click', function (e) {
         e.preventDefault();
+
         const selector = this.getAttribute('data-video');
-        document.querySelectorAll('.video-popup').forEach(p => p.style.display = 'none');
+
+        // Hide all popups and reset videos
+        document.querySelectorAll('.video-popup').forEach(p => {
+          p.style.display = 'none';
+
+          const video = p.querySelector('video');
+          if (video) {
+            video.pause();
+            video.currentTime = 0;
+          }
+        });
+
+        // Show selected popup and play video
         const popup = document.querySelector(selector);
-        if (popup) popup.style.display = 'block';
+        if (popup) {
+          popup.style.display = 'block';
+
+          const video = popup.querySelector('video');
+          if (video) video.play();
+
+          // Add class to body
+          document.body.classList.add('video-popup-open');
+        }
       });
     });
 
-    // Close popup on click (or enhance with close button)
+    // Close popup on click and remove body class
     document.querySelectorAll('.video-popup').forEach(popup => {
       popup.addEventListener('click', function () {
+        const video = this.querySelector('video');
+        if (video) {
+          video.pause();
+          video.currentTime = 0;
+        }
+
         this.style.display = 'none';
-        const iframe = this.querySelector('iframe');
-        iframe.src = iframe.src; // Stop video
+
+        // Remove class from body
+        document.body.classList.remove('video-popup-open');
       });
     });
   });

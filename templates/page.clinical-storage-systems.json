@@ -256,7 +256,7 @@
           "type": "column",
           "settings": {
             "title": "Facility Planner / Project Manager",
-            "text": "<p> <span style=\"text-decoration:underline\">Book a Design Consultation</span><br/><br/></p><p>Work with our team to design a solution tailored to your build or upgrade.</p>",
+            "text": "<p><a href=\"/collections/all\" title=\"All products\"> <span style=\"text-decoration:underline\">Book a Design Consultation</span></a><br/><br/></p><p>Work with our team to design a solution tailored to your build or upgrade.</p>",
             "link_label": "",
             "link": ""
           }

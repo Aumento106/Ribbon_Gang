@@ -69,17 +69,7 @@
           endif
         -%}
         {%- for block in section.blocks -%}
-          <li
-            id="Slide-{{ section.id }}-{{ forloop.index }}"
-            class="swiper-slide collection-list__item grid__item{% if show_mobile_slider %} slider__slide {% endif %}{% if block.settings.collection.featured_image == nil %} collection-list__item--no-media{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
-            {{ block.shopify_attributes }} data-block-id="{{ block.id }}"
-            {% if settings.animations_reveal_on_scroll %}
-              data-cascade
-              style="--animation-order: {{ forloop.index }};"
-            {% endif %}
-          >
-
-             <div class="video-popup" id="video1" style="display: none;">
+          <div class="video-popup" id="video1" style="display: none;">
               <div class="popup-inner projects-popup-main">
                 <div class="close-btn">
                   <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -94,6 +84,15 @@
                 </video>
               </div>
             </div>
+          <li
+            id="Slide-{{ section.id }}-{{ forloop.index }}"
+            class="swiper-slide collection-list__item grid__item{% if show_mobile_slider %} slider__slide {% endif %}{% if block.settings.collection.featured_image == nil %} collection-list__item--no-media{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+            {{ block.shopify_attributes }} data-block-id="{{ block.id }}"
+            {% if settings.animations_reveal_on_scroll %}
+              data-cascade
+              style="--animation-order: {{ forloop.index }};"
+            {% endif %}
+          >
             {% if block.settings.video_2_url != blank %}
               <div class="video-popup" id="video2" style="display: none;">
                 <div class="popup-inner">

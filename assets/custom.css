@@ -441,7 +441,13 @@ opacity: 0;
   z-index: 99;
   top: 0;
 }
-
+.header__inline-menu summary.list-menu__item .header__menu-item::after {
+  position: absolute;
+  content: "";
+  top: -11px;
+  width: 100%;
+  height: calc(100% + 23px);
+}
 .megamenu-with-image-item {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

@@ -1,6 +1,106 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+<style>
+.medibin-table-wrapper {
+  padding: 2rem 1rem;
+  overflow-x: auto;
+}
+.medibin-table {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+}
+.table-row {
+  display: table-row;
+}
+.table-cell {
+  display: table-cell;
+  padding: 12px;
+  border: 1px solid #ddd;
+  vertical-align: middle;
+}
+.table-head .table-cell {
+  font-weight: bold;
+  background-color: #f7b500;
+  color: white;
+}
+.table-row:nth-child(even):not(.table-head) {
+  background-color: #f9f9f9;
+}
+
+@media screen and (max-width: 640px) {
+  .medibin-table {
+    display: block;
   }
+  .table-row {
+    display: block;
+    margin-bottom: 1rem;
+  }
+  .table-cell {
+    display: block;
+    padding: 8px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+  }
+  .table-head {
+    display: none;
+  }
+}
+</style>
+
+<section class="medibin-table-wrapper">
+  <div class="medibin-table">
+    <div class="table-row table-head">
+      <div class="table-cell">Description</div>
+      <div class="table-cell">Code</div>
+      <div class="table-cell">Dimensions</div>
+    </div>
+
+    {% for row in section.blocks %}
+      <div class="table-row">
+        <div class="table-cell">{{ row.settings.description }}</div>
+        <div class="table-cell">{{ row.settings.code }}</div>
+        <div class="table-cell">{{ row.settings.dimensions }}</div>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "MEDIBIN Table",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "row",
+      "name": "Row",
+      "settings": [
+        {
+          "type": "text",
+          "id": "description",
+          "label": "Description",
+          "default": "Extra Small MEDIBIN™"
+        },
+        {
+          "type": "text",
+          "id": "code",
+          "label": "Code",
+          "default": "10000XS"
+        },
+        {
+          "type": "text",
+          "id": "dimensions",
+          "label": "Dimensions",
+          "default": "100W × 120H × 215D"
+        }
+      ]
+    }
+  ],
+  "max_blocks": 10,
+  "presets": [
+    {
+      "name": "MEDIBIN Table",
+      "category": "Custom"
+    }
+  ]
+}
 {% endschema %}
+

@@ -12,6 +12,12 @@
         width: 100%;
         max-width: unset;
       }
+      .section-{{ section.id }}-padding .rich-text__buttons .button {
+        min-width: unset;
+        max-width: unset;
+        width: auto;
+        flex-grow: 1;
+      }
     {% endif %}
   {% endfor %}
 

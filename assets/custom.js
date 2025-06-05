@@ -372,7 +372,7 @@ document.getElementById('blogSearch').addEventListener('input', function() {
 
   blogPosts.forEach(function(post) {
     const title = post.querySelector('.full-unstyled-link').textContent.toLowerCase();
-    const content = post.querySelector('.blog-content').textContent.toLowerCase();
+    const content = post.querySelector('.article-card__excerpt').textContent.toLowerCase();
 
     if (title.includes(searchValue) || content.includes(searchValue)) {
       post.style.display = '';

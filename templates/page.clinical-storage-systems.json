@@ -115,6 +115,7 @@
         },
         "featured_collection_BVCdLh": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "categories_image": "shopify://shop_images/Blacktown_square.png",
             "collection": "medibin-system",
@@ -129,6 +130,7 @@
         },
         "featured_collection_R7mChA": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "categories_image": "shopify://shop_images/Blacktown_square.png",
             "collection": "medibin-system",

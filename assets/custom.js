@@ -237,7 +237,7 @@ document.addEventListener('DOMContentLoaded', function () {
         },
     });
 
-  new Swiper('.section-collection-list.categories-slider  ul.collection-list', {
+  new Swiper('.section-collection-list.categories-slider .swiper', {
         slidesPerView: 1,
         spaceBetween: 0,
         centeredSlides: false,

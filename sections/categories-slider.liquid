@@ -77,17 +77,19 @@
               style="--animation-order: {{ forloop.index }};"
             {% endif %}
           >
-           <div class="video-popup" id="video1" style="display: none;">
-            <div class="video-wrapper">
-              <iframe src="{{ block.settings.video_1_url }}" frameborder="0" allowfullscreen></iframe>
+
+             <div class="video-popup" id="video1" style="display: none;">
+              <div class="popup-inner">
+                <iframe src="{{ section.settings.video_1_url }}" frameborder="0" allowfullscreen></iframe>
+              </div>
             </div>
-          </div>
-      
-          <div class="video-popup" id="video2" style="display: none;">
-            <div class="video-wrapper">
-              <iframe src="{{ block.settings.video_2_url }}" frameborder="0" allowfullscreen></iframe>
+          
+            <div class="video-popup" id="video2" style="display: none;">
+              <div class="popup-inner">
+                <iframe src="{{ section.settings.video_2_url }}" frameborder="0" allowfullscreen></iframe>
+              </div>
             </div>
-          </div>
+            
             {%- assign placeholder_image_index = forloop.index0 | modulo: 4 | plus: 1 -%}
             {%- assign placeholder_image = 'collection-apparel-' | append: placeholder_image_index -%}
             {% render 'categories-collection-slider',

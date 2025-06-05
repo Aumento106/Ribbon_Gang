@@ -25,7 +25,7 @@
 /* .categories-slider .main-product-categories .collection-list .full-unstyled-link::after {
   pointer-events: none;
 } */
-.video-popup {
+.video-popup.projects-popup-main {
   position: fixed;
   top: 50%;
   left: 50%;

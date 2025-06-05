@@ -17,6 +17,7 @@
 }
 .categories-slider .main-product-categories .collection-list .collection-list__item {
   max-width: unset;
+  width: unset;
 }
 /* .categories-slider .main-product-categories .collection-list .full-unstyled-link::after {
   pointer-events: none;

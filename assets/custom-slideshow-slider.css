@@ -68,7 +68,7 @@
 
 .section-custom-slideshow-slider .slideshow.banner {
     display: block;
-    padding: 0 5rem;
+    /* padding: 0 5rem; */
 }
 
 .section-custom-slideshow-slider .slideshow__text.banner__box {

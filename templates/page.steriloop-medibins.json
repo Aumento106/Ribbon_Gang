@@ -81,12 +81,32 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
+    },
+    "dimension_table_jAADFz": {
+      "type": "dimension_table",
+      "blocks": {
+        "row_FzFNqL": {
+          "type": "row",
+          "settings": {
+            "description": "Extra Small MEDIBIN™",
+            "code": "10000XS",
+            "dimensions": "100W × 120H × 215D"
+          }
+        }
+      },
+      "block_order": [
+        "row_FzFNqL"
+      ],
+      "disabled": true,
+      "name": "dimension-table",
+      "settings": {}
     }
   },
   "order": [
     "section_breadcrumb_F9PzRF",
     "rich_text_P3hBwh",
     "main",
-    "product_catalog_W3r7Xn"
+    "product_catalog_W3r7Xn",
+    "dimension_table_jAADFz"
   ]
 }

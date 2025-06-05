@@ -23,7 +23,9 @@ a {
   border-radius: 88px;
   transition: all .3s ease-in-out;
 }
-
+.template-search__header .status {
+  text-align: center;
+}
 .button::after,
 .button-label::after,
 .shopify-challenge__button::after,

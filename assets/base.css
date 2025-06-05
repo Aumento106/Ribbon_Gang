@@ -3728,8 +3728,8 @@ iframe {
 } */
 
 .title strong {
-  font-weight: inherit;
-  color: var(--primary-theme-color);
+  /* font-weight: inherit; */
+  /* color: var(--primary-theme-color); */
 }
 
 .title p {

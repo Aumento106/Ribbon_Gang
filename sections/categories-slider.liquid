@@ -96,7 +96,10 @@
             {% if block.settings.video_2_url != blank %}
               <div class="video-popup" id="video2" style="display: none;">
                 <div class="popup-inner">
-                  <iframe src="{{ block.settings.video_2_url }}" frameborder="0" allowfullscreen></iframe>
+                  <video controls playsinline>
+                    <source src="{{ block.settings.video_2_url }}" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
                 </div>
               </div>
             {% endif %}

@@ -366,23 +366,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // Blog search
 
-// document.getElementById('blogSearch').addEventListener('input', function() {
-//   const searchValue = this.value.toLowerCase();
-//   const blogPosts = document.querySelectorAll('.blog-articles__article');
-
-//   blogPosts.forEach(function(post) {
-//     const title = post.querySelector('.full-unstyled-link').textContent.toLowerCase();
-//     const content = post.querySelector('.article-card__excerpt').textContent.toLowerCase();
-
-//     if (title.includes(searchValue) || content.includes(searchValue)) {
-//       post.style.display = '';
-//     } else {
-//       post.style.display = 'none';
-//     }
-//   });
-// });
-
-
 document.getElementById('blogSearch').addEventListener('input', function() {
   const searchValue = this.value.toLowerCase();
   const blogPosts = document.querySelectorAll('.blog-articles__article');
@@ -400,7 +383,7 @@ document.getElementById('blogSearch').addEventListener('input', function() {
     }
   });
 
-  // Hide or show the "loade-more" button based on visible blog posts
+ 
   const loadMore = document.querySelector('.loade-more');
   if (loadMore) {
     if (visibleCount < 12) {

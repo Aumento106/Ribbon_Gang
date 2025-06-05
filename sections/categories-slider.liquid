@@ -68,28 +68,10 @@
           endif
         -%}
         {%- for block in section.blocks -%}
-          <div class="view_video_popup" id="project-video-{{ block.id }}">
-            <div class="close-btn right">
-              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect x="2" y="2" width="28" height="28" rx="14" stroke="#424242" stroke-width="2"></rect>
-                <path d="M22 10L10 22" stroke="#424242" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                <path d="M10 10L22 22" stroke="#424242" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-              </svg>
-            </div>
-            <video 
-              controls 
-              {% if section.settings.video_poster != blank %}
-                poster="{{ section.settings.video_poster | image_url }}"
-              {% endif %}
-              style="width: 100%; height: auto;"
-            >
-              <source src="{{ block.settings.video_url }}" type="video/mp4">
-            </video>
-          </div>
           <li
             id="Slide-{{ section.id }}-{{ forloop.index }}"
             class="collection-list__item grid__item{% if show_mobile_slider %} slider__slide {% endif %}{% if block.settings.collection.featured_image == nil %} collection-list__item--no-media{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
-            {{ block.shopify_attributes }} data-block-id="{{ block.id }}"
+            {{ block.shopify_attributes }}
             {% if settings.animations_reveal_on_scroll %}
               data-cascade
               style="--animation-order: {{ forloop.index }};"
@@ -97,18 +79,15 @@
           >
             {%- assign placeholder_image_index = forloop.index0 | modulo: 4 | plus: 1 -%}
             {%- assign placeholder_image = 'collection-apparel-' | append: placeholder_image_index -%}
-            {% render 'categories-collection-slider',
+            {% render 'categories-collection',
               card_collection: block.settings.collection,
-              categories_image: block.settings.categories_image,
+             categories_image: block.settings.categories_image,
               redirection_link: block.settings.redirection_link,
-              card_button: block.settings.button_card_text,
-              card_text: block.settings.card_text,
-              card_text_descriptio: block.settings.card_text_descriptio,
+             card_button: block.settings.button_card_text,
+             card_text: block.settings.card_text,
               media_aspect_ratio: section.settings.image_ratio,
               columns: columns,
-              placeholder_image: placeholder_image,
-              card_text_alignment: block.settings.card_text_alignment,
-              card_text_description_alignment: block.settings.card_text_description_alignment
+              placeholder_image: placeholder_image
             %}
           </li>
         {%- endfor -%}
@@ -164,46 +143,6 @@
     {%- endif -%}
   </div>
 </div>
-
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-  document.querySelectorAll('a').forEach(function (link) {
-    if (link.textContent.trim() === 'Watch system walkthrough video') {
-      link.addEventListener('click', function (e) {
-        e.preventDefault(); // 🛑 stop href="#" from scrolling to top
-
-        const popup = document.querySelector('.view_video_popup');
-        if (popup) {
-          popup.classList.add('active');
-          document.body.classList.add('video-open');
-
-          // Optional: Scroll to center of popup
-          setTimeout(() => {
-            popup.scrollIntoView({ behavior: 'smooth', block: 'center' });
-          }, 100); // slight delay ensures it's visible
-        }
-      });
-    }
-  });
-
-  document.querySelectorAll('.view_video_popup .close-btn').forEach(function (closeBtn) {
-    closeBtn.addEventListener('click', function () {
-      const popup = this.closest('.view_video_popup');
-      if (popup) {
-        popup.classList.remove('active');
-        document.body.classList.remove('video-open');
-        const video = popup.querySelector('video');
-        if (video) {
-          video.pause();
-          video.currentTime = 0;
-        }
-      }
-    });
-  });
-});
-
-
-</script>
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
@@ -398,56 +337,6 @@
           "type": "richtext",
           "id": "card_text",
           "label": "Card Page text"
-        },
-        {
-          "type": "select",
-          "id": "card_text_alignment",
-          "options": [
-            {
-              "value": "left",
-              "label": "Left"
-            },
-            {
-              "value": "center",
-              "label": "Center"
-            },
-            {
-              "value": "right",
-              "label": "Right"
-            }
-          ],
-          "default": "left",
-          "label": "Card Text Alignment"
-        },
-        {
-          "type": "richtext",
-          "id": "card_text_descriptio",
-          "label": "Card Description"
-        },
-        {
-          "type": "select",
-          "id": "card_text_description_alignment",
-          "options": [
-            {
-              "value": "left",
-              "label": "Left"
-            },
-            {
-              "value": "center",
-              "label": "Center"
-            },
-            {
-              "value": "right",
-              "label": "Right"
-            }
-          ],
-          "default": "left",
-          "label": "Card Text Description Alignment"
-        },
-        {
-          "type": "url",
-          "id": "video_url",
-          "label": "Video URL"
         },
         {
           "type": "text",

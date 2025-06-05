@@ -116,11 +116,11 @@
       <span class="card_product_main_desc">{{ card_text_descriptio }}</span>
        <div class="video-links">
         <a href="#" class="video-trigger" data-video="#video1">
-          {{ section.settings.link_1_text }}
+          {{ link_text }}
         </a><br>
     
         <a href="#" class="video-trigger" data-video="#video2">
-          {{ section.settings.link_2_text }}
+          {{ link_2_text }}
         </a>
       </div>
       <a href="{% if redirection_link != blank %} {{ redirection_link }} {% else %} {{ card_collection.url }} {% endif %}" class="button button--primary">{{ card_button }}</a>

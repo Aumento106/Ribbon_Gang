@@ -55,11 +55,11 @@
       {% if section.settings.view_all_btn_text != blank %}
         <div class="view_all_btn">
           {% if section.settings.add_link == true %}
-            <a href="{{ section.settings.load_more_redirection }}" class="button button--primary ----">
+            <a href="{{ section.settings.load_more_redirection }}" class="button button--primary">
             {{ section.settings.view_all_btn_text }}
             </a>
           {% else %}
-            <button class="button button--primary ==">
+            <button class="button button--primary loade-more">
             {{ section.settings.view_all_btn_text }}
             </button>
           {% endif %}

@@ -178,17 +178,19 @@
 
 <script>
   document.addEventListener('DOMContentLoaded', function () {
+    const body = document.body;
+
+    // Open video popup
     document.querySelectorAll('.video-trigger').forEach(link => {
       link.addEventListener('click', function (e) {
         e.preventDefault();
 
         const selector = this.getAttribute('data-video');
 
-        // Hide all popups and reset videos
-        document.querySelectorAll('.video-popup').forEach(p => {
-          p.style.display = 'none';
-
-          const video = p.querySelector('video');
+        // Close all popups and stop videos
+        document.querySelectorAll('.video-popup').forEach(popup => {
+          popup.style.display = 'none';
+          const video = popup.querySelector('video');
           if (video) {
             video.pause();
             video.currentTime = 0;
@@ -199,17 +201,15 @@
         const popup = document.querySelector(selector);
         if (popup) {
           popup.style.display = 'block';
-
           const video = popup.querySelector('video');
           if (video) video.play();
 
-          // Add class to body
-          document.body.classList.add('video-popup-open');
+          body.classList.add('video-popup-open');
         }
       });
     });
 
-    // Close popup on click and remove body class
+    // Close popup when clicking outside (on overlay)
     document.querySelectorAll('.video-popup').forEach(popup => {
       popup.addEventListener('click', function () {
         const video = this.querySelector('video');
@@ -219,13 +219,17 @@
         }
 
         this.style.display = 'none';
-
-        // Remove class from body
-        document.body.classList.remove('video-popup-open');
+        body.classList.remove('video-popup-open');
       });
-    });
 
-    
+      // Prevent closing when clicking inside content
+      const inner = popup.querySelector('.popup-inner');
+      if (inner) {
+        inner.addEventListener('click', function (e) {
+          e.stopPropagation();
+        });
+      }
+    });
   });
 </script>
 

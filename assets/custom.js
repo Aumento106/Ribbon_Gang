@@ -392,4 +392,16 @@ document.getElementById('blogSearch').addEventListener('input', function() {
       loadMore.style.display = '';
     }
   }
+
+  // Show/hide "no results" message
+  const noResults = document.getElementById('noResultsMessage');
+  if (noResults) {
+    if (visibleCount === 0 && searchValue.trim() !== '') {
+      noResults.style.display = '';
+      noResults.innerHTML = `No results found for “${this.value}”. Check the spelling or use a different word or phrase.`;
+    } else {
+      noResults.style.display = 'none';
+      noResults.innerHTML = '';
+    }
+  }
 });

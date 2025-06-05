@@ -236,28 +236,28 @@ document.addEventListener('DOMContentLoaded', function () {
             prevEl: ".swiper-button-prev",
         },
     });
-
-    
-    const swiperContainer = document.querySelector('.categories-slider .swiper');
-    const slides = swiperContainer?.querySelectorAll('.swiper-slide');
   
-    if (slides && slides.length > 2) {
-      new Swiper('.categories-slider .swiper', {
-        slidesPerView: 2,
-        spaceBetween: 0,
-        centeredSlides: false,
-        grabCursor: true,
-        loop: false,
-        pagination: {
-          el: '.swiper-pagination',
-          clickable: true,
-        },
-      });
-    } else {
-      swiperContainer.classList.add('not-a-slider');
-    }
+});
 
-  
+document.addEventListener('DOMContentLoaded', function () {
+  const swiperContainer = document.querySelector('.categories-slider .swiper');
+  const slides = swiperContainer?.querySelectorAll('.swiper-slide');
+
+  if (slides && slides.length > 2) {
+    new Swiper('.categories-slider .swiper', {
+      slidesPerView: 2,
+      spaceBetween: 0,
+      centeredSlides: false,
+      grabCursor: true,
+      loop: false,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+    });
+  } else {
+    swiperContainer.classList.add('not-a-slider');
+  }
 });
 
 // ---------- Homepage Hotspot area popup -----------

@@ -3118,6 +3118,7 @@ span.product_compar_price {
   display: inline-flex;
   align-items: center;
   gap: 14px;
+  font-size: 16px;
   /* text-transform: uppercase; */
 }
 

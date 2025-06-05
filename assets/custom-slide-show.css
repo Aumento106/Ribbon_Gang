@@ -28,7 +28,7 @@ slideshow-component .slideshow__slide.enable_side_image_main:after {
   content: "";
   bottom: 0;
   right: 0;
-  background: url(/cdn/shop/files/SpaceLogic_brain_-_left_white.png?v=1748415911) no-repeat bottom;
+  background: url(https://cdn.shopify.com/s/files/1/0657/3388/6106/files/SpaceLogic_brain_-_left_white.png?v=1748415911) no-repeat bottom;
   width: 150px;
   background-size: 100% auto;
   height: 100%;

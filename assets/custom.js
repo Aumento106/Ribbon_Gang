@@ -385,12 +385,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
 document.getElementById('blogSearch').addEventListener('input', function() {
   const searchValue = this.value.toLowerCase();
-  const blogPosts = document.querySelectorAll('.blog-post');
+  const blogPosts = document.querySelectorAll('.blog-articles__article');
   let visibleCount = 0;
 
   blogPosts.forEach(function(post) {
-    const title = post.querySelector('.blog-title').textContent.toLowerCase();
-    const content = post.querySelector('.blog-content').textContent.toLowerCase();
+    const title = post.querySelector('.full-unstyled-link').textContent.toLowerCase();
+    const content = post.querySelector('.article-card__excerpt').textContent.toLowerCase();
 
     if (title.includes(searchValue) || content.includes(searchValue)) {
       post.style.display = '';

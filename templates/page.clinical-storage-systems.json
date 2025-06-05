@@ -238,7 +238,7 @@
           "type": "column",
           "settings": {
             "title": "Procurement Manager",
-            "text": "<p> <span style=\"text-decoration:underline\">View Costing, Compliance & Supplier Info</span><br/><br/></p><p>See pricing transparency, compliance standards, and distributor options.</p>",
+            "text": "<p><a href=\"/collections/all\" title=\"All products\"> <span style=\"text-decoration:underline\">View Costing, Compliance & Supplier Info</span></a><br/><br/></p><p>See pricing transparency, compliance standards, and distributor options.</p>",
             "link_label": "",
             "link": ""
           }

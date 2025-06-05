@@ -1,3 +1,7 @@
+.categories-slider .card_product_main .card_product_main_desc + .card_product_main_desc p {
+  margin-bottom: 0;
+}
+
 @media screen and (min-width: 750px) {
 
     .section-custom-slideshow-slider .banner--large:not(.banner--adapt),

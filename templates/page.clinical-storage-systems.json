@@ -91,10 +91,6 @@
             "categories_image": "shopify://shop_images/Blacktown_square.png",
             "collection": "sterirack-system",
             "card_text": "<p><strong>Modular bays, trolleys, benches, and shelving for full-facility fitouts</strong><br/>The gold standard in hospital-grade storage, STERIRACK® is designed to meet the high-volume, high-compliance needs of clinical spaces. Built on starter and add-on bays, this system integrates mobile carts, workbenches, and flexible accessories for complete workflow alignment.</p>",
-            "card_text_alignment": "left",
-            "card_text_descriptio": "<p><strong>Key Benefits:</strong><br/>Modular bays and mobile carts<br/>Adjustable baskets and shelves<br/>Bench, racking and accessory integration<br/>Easy to clean and reconfigure<br/>Ideal for full facility fit outs<br/>View Full STERIRACK® Range<br/><a href=\"#\" title=\"watch system video\">Watch system walkthrough video</a></p>",
-            "card_text_description_alignment": "center",
-            "video_url": "https://cdn.shopify.com/videos/c/o/v/b0bc7870dfc44c81a4c26a6e1d5b2255.mp4",
             "button_card_text": "",
             "redirection_link": ""
           }
@@ -105,10 +101,6 @@
             "categories_image": "shopify://shop_images/Blacktown_square.png",
             "collection": "medibin-system",
             "card_text": "<p><strong>Compact, rail-mounted bin storage for medication and clean utility rooms</strong><br/>When space is tight but hygiene and visibility matter, MEDIBIN® delivers. Featuring clear bins on wall or post-mounted runners, it’s the ideal solution for fast-access pick zones and sterile stock control</p>",
-            "card_text_alignment": "left",
-            "card_text_descriptio": "<p><strong>Key Benefits:</strong><br/>Transparent bins in multiple sizes<br/>Wall or post-mounted rails<br/>Tilt or pull-out runners<br/>Colour-coded label strips<br/>Perfect for medication and utility rooms<span style=\"text-decoration:underline\"><br/></span>View Full MEDIBIN® Range<br/>Watch system walkthrough video </p>",
-            "card_text_description_alignment": "center",
-            "video_url": "https://cdn.shopify.com/videos/c/o/v/b0bc7870dfc44c81a4c26a6e1d5b2255.mp4",
             "button_card_text": "",
             "redirection_link": ""
           }
@@ -330,6 +322,56 @@
         "padding_top": 40,
         "padding_bottom": 40
       }
+    },
+    "categories_9rdGrM": {
+      "type": "categories",
+      "blocks": {
+        "featured_collection_k3J4cB": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cleanspan",
+            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "button_card_text": "Button",
+            "redirection_link": ""
+          }
+        },
+        "featured_collection_8qhF7k": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "button_card_text": "Button",
+            "redirection_link": ""
+          }
+        },
+        "featured_collection_yDAew3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "button_card_text": "Button",
+            "redirection_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_k3J4cB",
+        "featured_collection_8qhF7k",
+        "featured_collection_yDAew3"
+      ],
+      "name": "Categories",
+      "settings": {
+        "title": "Collections",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -342,6 +384,7 @@
     "multicolumn_Dnn3A6",
     "rich_text_reYctM",
     "custom_liquid_Y6PCdj",
-    "rich_text_aAqpH6"
+    "rich_text_aAqpH6",
+    "categories_9rdGrM"
   ]
 }

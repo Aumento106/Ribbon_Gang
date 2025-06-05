@@ -350,7 +350,7 @@
           "type": "button",
           "settings": {
             "button_label": "Book a Design Session",
-            "button_link": "shopify://collections/all",
+            "button_link": "shopify://pages/contact",
             "button_style_secondary": false,
             "button_label_2": "Browse Products",
             "button_link_2": "shopify://collections/all",

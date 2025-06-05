@@ -38,6 +38,7 @@
   aspect-ratio: 16/9;
   opacity: 1;
   overflow: visible;
+  visibility: visible;
 }
 .video-popup iframe {
   width: 100%;

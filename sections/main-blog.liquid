@@ -17,6 +17,7 @@
 {%- endstyle -%}
 
 {%- paginate blog.articles by 100 -%}
+  <input type="text" id="blogSearch" placeholder="Search blogs...">
   <div class="main-blog page-width section-{{ section.id }}-padding color-{{ section.settings.section_color_scheme }}">
     <h1 class="title title--primary{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
       {% if section.settings.blog_title != blank %}

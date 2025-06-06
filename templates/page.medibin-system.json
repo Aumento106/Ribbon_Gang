@@ -50,8 +50,8 @@
         "full_width": true,
         "no_margin": true,
         "section_border": false,
-        "padding_top": 50,
-        "padding_bottom": 50
+        "padding_top": 80,
+        "padding_bottom": 80
       }
     },
     "main": {

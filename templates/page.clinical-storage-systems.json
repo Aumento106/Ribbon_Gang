@@ -178,6 +178,56 @@
         "padding_bottom": 36
       }
     },
+    "categories_QB7e3f": {
+      "type": "categories",
+      "blocks": {
+        "featured_collection_rmhm4N": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "medibin-system",
+            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "button_card_text": "Button",
+            "redirection_link": ""
+          }
+        },
+        "featured_collection_TXGXLm": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "button_card_text": "Button",
+            "redirection_link": ""
+          }
+        },
+        "featured_collection_Pehx9g": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "button_card_text": "Button",
+            "redirection_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_rmhm4N",
+        "featured_collection_TXGXLm",
+        "featured_collection_Pehx9g"
+      ],
+      "name": "Categories",
+      "settings": {
+        "title": "Collections",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "rich_text_QkpLAt": {
       "type": "rich-text",
       "blocks": {
@@ -384,6 +434,7 @@
     "main",
     "product_catalog_W3r7Xn",
     "categories_slider_E78EBH",
+    "categories_QB7e3f",
     "rich_text_QkpLAt",
     "multicolumn_Dnn3A6",
     "rich_text_reYctM",

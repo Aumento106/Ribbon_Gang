@@ -25,7 +25,7 @@
         "heading_pekfyj": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Video</strong> of the Week",
+            "heading": "Video<strong> </strong>of the Week",
             "heading_size": "h0",
             "heading_alignment": "center"
           }

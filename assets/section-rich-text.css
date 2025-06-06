@@ -58,6 +58,7 @@
 .rich-text .rich-text__wrapper .rich-text__heading {
   margin-bottom: 24px;
   margin-top: 24px;
+  font-weight: 600;
 }
 .rich-text__wrapper .rich-text__caption.caption-with-letter-spacing  {
   /* font-size: 24px; */

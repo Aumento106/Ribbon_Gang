@@ -131,7 +131,7 @@
         "text_t9P8ME": {
           "type": "text",
           "settings": {
-            "text": "Ollie: Text To Go Here.",
+            "text": "Ollie: text to go here.",
             "text_style": "subtitle"
           }
         },
@@ -550,7 +550,7 @@
           "settings": {
             "image": "shopify://shop_images/Concept_13.png",
             "title": "Clean Utility",
-            "text": "<p>Medications Room</p>",
+            "text": "<p>Medications room</p>",
             "text-v": "",
             "button-text": "Explore room",
             "button-url": "shopify://collections"
@@ -561,7 +561,7 @@
           "settings": {
             "image": "shopify://shop_images/Concept_13.png",
             "title": "CSSD",
-            "text": "<p>Theatre Store</p>",
+            "text": "<p>Theatre store</p>",
             "text-v": "",
             "button-text": "Explore room",
             "button-url": "shopify://collections"
@@ -586,7 +586,7 @@
       ],
       "settings": {
         "title": "<p>Innovative storage solutions</p>",
-        "sec_subtitle": "Making Space For Care Cross Every Department",
+        "sec_subtitle": "Making space for care cross every department",
         "title_color": "#ffffff",
         "subheading_color": "#ffffff",
         "button_text": "",
@@ -776,11 +776,11 @@
           "settings": {
             "image": "shopify://shop_images/Concept_20.png",
             "offer_title": "",
-            "heading": "<p>Introducing the registered wireLoop shape mark and steriLoop™ innovation</p>",
+            "heading": "<p>Introducing the registered wireLoop shape mark and SteriLoop™ innovation</p>",
             "block_custom_heading_size": 33,
             "mobile_block_custom_heading_size": 28,
             "text": "<p>SpaceLogic is proud to introduce SteriLoop®,  featuring our registered WireLoop Shape Mark – a game-changing  innovation in healthcare  storage.</p><p> SMOOTH ROUNDED CORNERS: Prevents cuts,  micro-tears, and damage to consumables</p><p>NO SHARP EDGES: Superior safety for hospital  staff and patient</p><p>ENHANCED DURABILITY AND HYGIENE:  Engineered for long-term performance</p><p><strong>Look for the Loop™ – The  ultimate in safe, smart storage</strong></p>",
-            "button_label": "Shop SteriLoop™ Baskets",
+            "button_label": "Shop SteriLoop™ baskets",
             "button_link": "shopify://collections",
             "button_style_secondary": false
           }

@@ -265,10 +265,10 @@ h5,
 .h3,
 .h4,
 .h5 {
-  letter-spacing: var(--heading-letterspacing);
+  letter-spacing: var(--heading-letterspacing) !important;
 }
 body, p, span, ul, li, b, strong, blockquote, ol {
-  letter-spacing: var(--body-letterspacing);
+  letter-spacing: var(--body-letterspacing) !important;
 }
 
 

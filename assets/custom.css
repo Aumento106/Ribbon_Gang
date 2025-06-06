@@ -3090,6 +3090,10 @@ span.product_compar_price {
   /* text-transform: uppercase; */
 }
 
+.breadcrumbs li svg {
+  vertical-align: middle;
+}
+
 /* .breadcrumbs a {
   text-decoration: underline;
 } */

@@ -9,6 +9,17 @@
  */
 {
   "sections": {
+    "section_breadcrumb_rk99GP": {
+      "type": "section-breadcrumb",
+      "name": "Breadcrumb",
+      "settings": {
+        "color_scheme": "",
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "mobile_padding_top": 30,
+        "mobile_padding_bottom": 30
+      }
+    },
     "rich_text_P3hBwh": {
       "type": "rich-text",
       "blocks": {
@@ -16,7 +27,8 @@
           "type": "heading",
           "settings": {
             "heading": "{{ page.title }}",
-            "heading_size": "h1"
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28
           }
         },
         "text_7xmpEL": {
@@ -59,7 +71,7 @@
             "categories_image": "shopify://shop_images/Blacktown_square.png",
             "collection": "steriloop-medibins-various-types",
             "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-            "button_card_text": "Shop Now",
+            "button_card_text": "Shop now",
             "redirection_link": ""
           }
         },
@@ -69,7 +81,7 @@
             "categories_image": "shopify://shop_images/Group_1171277824.jpg",
             "collection": "medibin-panels-various-types",
             "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-            "button_card_text": "Shop Now",
+            "button_card_text": "Shop now",
             "redirection_link": ""
           }
         },
@@ -79,7 +91,7 @@
             "categories_image": "shopify://shop_images/Blacktown_Hospital_19.png",
             "collection": "medibin-freestanding-racks",
             "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-            "button_card_text": "Shop Now",
+            "button_card_text": "Shop now",
             "redirection_link": ""
           }
         },
@@ -89,7 +101,7 @@
             "categories_image": "shopify://shop_images/image-banner-2.png",
             "collection": "medibin-standard-label-holders-various-types",
             "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-            "button_card_text": "Shop Now",
+            "button_card_text": "Shop now",
             "redirection_link": ""
           }
         },
@@ -99,7 +111,7 @@
             "categories_image": "shopify://shop_images/Concept_13.png",
             "collection": "medibin-dividers-various-types",
             "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-            "button_card_text": "Shop Now",
+            "button_card_text": "Shop now",
             "redirection_link": ""
           }
         },
@@ -109,7 +121,7 @@
             "categories_image": "shopify://shop_images/maxresdefault.webp",
             "collection": "medibin-trolleys",
             "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-            "button_card_text": "Shop Now",
+            "button_card_text": "Shop now",
             "redirection_link": ""
           }
         }
@@ -124,7 +136,8 @@
       ],
       "settings": {
         "title": "",
-        "heading_size": "h1",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
         "image_ratio": "square",
         "columns_desktop": 3,
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
@@ -155,17 +168,6 @@
         "subheading_color": "#424242",
         "padding_top": 20,
         "padding_bottom": 20
-      }
-    },
-    "section_breadcrumb_rk99GP": {
-      "type": "section-breadcrumb",
-      "name": "Breadcrumb",
-      "settings": {
-        "color_scheme": "",
-        "padding_top": 30,
-        "padding_bottom": 30,
-        "mobile_padding_top": 30,
-        "mobile_padding_bottom": 30
       }
     }
   },

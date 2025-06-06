@@ -24,21 +24,21 @@
 
     {% if collection.url %}
       <li>
-       aaa {{ collection.title | link_to: collection.url }}
+        {{ collection.title | link_to: collection.url }}
       </li>
     {% endif %}
 
     <li>
-      aaaa{{ product.title }}
+      {{ product.title }}
     </li>
 
   {% when 'collection' and collection.handle %}
 
     {% if current_tags %}
-      ddd<li>{{ collection.title | link_to: collection.url }}</li>
+      <li>{{ collection.title | link_to: collection.url }}</li>
       <li>
         {% capture tag_url %}{{ collection.url }}/{{ current_tags | join: "+"}}{% endcapture %}
-       dddd <a href="{{ tag_url }}" aria-current="page">{{ current_tags | join: " + "}}</a>
+        <a href="{{ tag_url }}" aria-current="page">{{ current_tags | join: " + "}}</a>
         <svg xmlns="http://www.w3.org/2000/svg" width="8" height="14" viewBox="0 0 8 14" fill="none">
           <path d="M1 13L7 7L1 1" stroke="#424242" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>

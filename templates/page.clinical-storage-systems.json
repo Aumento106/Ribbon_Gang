@@ -26,7 +26,8 @@
           "type": "heading",
           "settings": {
             "heading": "{{ page.title }}",
-            "heading_size": "h1"
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28
           }
         },
         "text_7xmpEL": {
@@ -95,7 +96,7 @@
             "card_text_descriptio": "<p><strong>Key Benefits:</strong><br/><strong>Modular bays, trolleys, benches, and shelving for full-facility fitouts<br/></strong>The gold standard in hospital-grade storage, STERIRACK® is designed to meet the high-volume, high-compliance needs of clinical spaces. Built on starter and add-on bays, this system integrates mobile carts, workbenches, and flexible accessories for complete workflow alignment. </p>",
             "card_text_description_alignment": "left",
             "text": "",
-            "link_1_text": "View Full STERRACK® Range",
+            "link_1_text": "View Full STERIRACK® Range",
             "video_1_url": "https://cdn.shopify.com/videos/c/o/v/b0bc7870dfc44c81a4c26a6e1d5b2255.mp4",
             "link_2_text": "Watch system walkthrough video",
             "video_2_url": "",
@@ -113,7 +114,7 @@
             "card_text_descriptio": "",
             "card_text_description_alignment": "left",
             "text": "",
-            "link_1_text": "View Full STERRACK® Range",
+            "link_1_text": "View Full STERIRACK® Range",
             "video_1_url": "",
             "link_2_text": "Watch system walkthrough video",
             "video_2_url": "",
@@ -167,7 +168,8 @@
       "name": "Categories-slider",
       "settings": {
         "title": "",
-        "heading_size": "h1",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
         "image_ratio": "square",
         "columns_desktop": 2,
         "color_scheme": "",
@@ -184,14 +186,15 @@
         "heading_9yaBMz": {
           "type": "heading",
           "settings": {
-            "heading": "Need Help Choosing?",
-            "heading_size": "h1"
+            "heading": "Need help choosing?",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28
           }
         },
         "caption_7ELfmh": {
           "type": "caption",
           "settings": {
-            "caption": "Let’s Guide You Based on What You Need",
+            "caption": "Let’s guide you based on what you need",
             "text_style": "subtitle",
             "text_size": "medium"
           }
@@ -235,8 +238,8 @@
         "column_EwmAWR": {
           "type": "column",
           "settings": {
-            "title": "Procurement Manager",
-            "text": "<p><a href=\"/collections/all\" title=\"All products\"> <span style=\"text-decoration:underline\">View Costing, Compliance & Supplier Info</span></a><br/><br/></p><p>See pricing transparency, compliance standards, and distributor options.</p>",
+            "title": "Procurement manager",
+            "text": "<p><a href=\"/collections/all\" title=\"All products\"> <span style=\"text-decoration:underline\">View costing, compliance & supplier info</span></a><br/><br/></p><p>See pricing transparency, compliance standards, and distributor options.</p>",
             "link_label": "",
             "link": ""
           }
@@ -244,8 +247,8 @@
         "column_6zTgRQ": {
           "type": "column",
           "settings": {
-            "title": "Clinical User",
-            "text": "<p><a href=\"/collections/all\" title=\"All products\"> <span style=\"text-decoration:underline\">Tour Our Systems in Action</span></a><br/><br/></p><p>Watch short system walk-throughs and see how they’re used day-to-day.</p>",
+            "title": "Clinical user",
+            "text": "<p><a href=\"/collections/all\" title=\"All products\"> <span style=\"text-decoration:underline\">Tour our systems in action</span></a><br/><br/></p><p>Watch short system walk-throughs and see how they’re used day-to-day.</p>",
             "link_label": "",
             "link": ""
           }
@@ -253,8 +256,8 @@
         "column_K8Kwg3": {
           "type": "column",
           "settings": {
-            "title": "Facility Planner / Project Manager",
-            "text": "<p><a href=\"/collections/all\" title=\"All products\"> <span style=\"text-decoration:underline\">Book a Design Consultation</span></a><br/><br/></p><p>Work with our team to design a solution tailored to your build or upgrade.</p>",
+            "title": "Facility planner / project manager",
+            "text": "<p><a href=\"/collections/all\" title=\"All products\"> <span style=\"text-decoration:underline\">Book a design consultation</span></a><br/><br/></p><p>Work with our team to design a solution tailored to your build or upgrade.</p>",
             "link_label": "",
             "link": ""
           }
@@ -268,7 +271,8 @@
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "",
-        "heading_size": "h1",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
@@ -290,14 +294,15 @@
         "heading_pajqEU": {
           "type": "heading",
           "settings": {
-            "heading": "Browse by System or Product Category",
-            "heading_size": "h1"
+            "heading": "Browse by system or product category",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28
           }
         },
         "text_WpRpHU": {
           "type": "text",
           "settings": {
-            "text": "<p>Use the filters below to explore every component of our STERIRACK® and MEDIBIN® systems. Whether you're searching for a single bench or planning a full facility fit out, you'll find everything here — organised by product type, dimensions, and compatibility.<br/>INSERT ONLINE PRODUCT FILTER</p>"
+            "text": "<p>Use the filters below to explore every component of our STERIRACK® and MEDIBIN® systems. Whether you're searching for a single bench or planning a full facility fit out, you'll find everything here - organised by product type, dimensions, and compatibility.<br/>INSERT ONLINE PRODUCT FILTER</p>"
           }
         }
       },
@@ -334,7 +339,8 @@
           "type": "heading",
           "settings": {
             "heading": "Not sure where to begin? We’re here to help",
-            "heading_size": "h1"
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28
           }
         },
         "text_tggAzB": {
@@ -347,13 +353,13 @@
         "button_m8QFcQ": {
           "type": "button",
           "settings": {
-            "button_label": "Book a Design Session",
+            "button_label": "Book a design session",
             "button_link": "shopify://collections/all",
             "button_style_secondary": false,
-            "button_label_2": "Browse Products",
+            "button_label_2": "Browse products",
             "button_link_2": "shopify://collections/all",
             "button_style_secondary_2": false,
-            "button_label_3": "Download Product Catalogue",
+            "button_label_3": "Download product catalogue",
             "button_link_3": "shopify://collections/all",
             "button_style_secondary_3": false,
             "enable_all_buttons_row": true

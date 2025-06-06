@@ -73,7 +73,8 @@
           "type": "heading",
           "settings": {
             "heading": "Experts in Storage. People First.",
-            "heading_size": "h0"
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28
           }
         },
         "text_kMYRNM": {

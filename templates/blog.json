@@ -9,13 +9,24 @@
  */
 {
   "sections": {
+    "section_breadcrumb_4QQV6B": {
+      "type": "section-breadcrumb",
+      "name": "Breadcrumb",
+      "settings": {
+        "color_scheme": "",
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "mobile_padding_top": 30,
+        "mobile_padding_bottom": 30
+      }
+    },
     "rich_text_nq9BbD": {
       "type": "rich-text",
       "blocks": {
         "heading_DrYJ9n": {
           "type": "heading",
           "settings": {
-            "heading": "SpaceLogic <strong>Blog</strong>",
+            "heading": "SpaceLogic Blog",
             "heading_size": "h1"
           }
         },
@@ -45,7 +56,7 @@
       "type": "main-blog",
       "settings": {
         "section_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "blog_title": "Latest news from <strong>SpaceLogic</strong>",
+        "blog_title": "Latest news from SpaceLogic",
         "layout": "grid",
         "show_image": true,
         "image_height": "medium",
@@ -79,17 +90,6 @@
         "subheading_color": "#424242",
         "padding_top": 20,
         "padding_bottom": 20
-      }
-    },
-    "section_breadcrumb_4QQV6B": {
-      "type": "section-breadcrumb",
-      "name": "Breadcrumb",
-      "settings": {
-        "color_scheme": "",
-        "padding_top": 30,
-        "padding_bottom": 30,
-        "mobile_padding_top": 30,
-        "mobile_padding_bottom": 30
       }
     }
   },

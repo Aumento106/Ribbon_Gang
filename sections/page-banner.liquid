@@ -270,24 +270,24 @@
           "label": "Heading"
         },
         {
-          "type": "select",
-          "id": "heading_size",
-          "options": [
-            {
-              "value": "h2",
-              "label": "Small"
-            },
-            {
-              "value": "h1",
-              "label": "Medium"
-            },
-            {
-              "value": "h0",
-              "label": "Large"
-            }
-          ],
-          "default": "h1",
+          "type": "range",
+          "id": "custom_heading_size",
+          "min": 20,
+          "max": 70,
+          "step": 1,
+          "default": 52,
+          "unit": "px",
           "label": "Heading Size"
+        },
+        {
+          "type": "range",
+          "id": "mobile_custom_heading_size",
+          "min": 20,
+          "max": 40,
+          "step": 1,
+          "default": 28,
+          "unit": "px",
+          "label": "Mobile Heading Size"
         },
         {
           "type": "select",

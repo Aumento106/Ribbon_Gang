@@ -27,6 +27,10 @@
     align-items: center;
 }
 
+.custom-multicolumn-with-text .multi-column-box-with-image .multicolumn-box .subtitle {
+  font-weight: 600;
+}
+
 .custom-multicolumn-with-text .multi-column-box-with-image .multicolumn-box-description {
     padding: 0 13px;
     margin: 0 0 9.9rem;

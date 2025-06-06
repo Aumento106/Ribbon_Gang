@@ -166,6 +166,9 @@
 }
 .distributor-logos img.distributor-logo {
   display: inline-block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 .location-company {
   font-weight: 500;

@@ -47,7 +47,7 @@
 .multi-column-box-with-image .multicolumn-box .subtitle {
   margin: 0;
   font-weight: 400;
-  font-size: 52px;
+  /* font-size: 52px; */
 }
 
 .multi-column-box-with-image .multicolumn-box-description {

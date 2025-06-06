@@ -50,6 +50,7 @@
     }
     .section-{{ section.id }}-padding .banner__heading.heading--{{ block.id }} {
       font-size: {{ block.settings.custom_heading_size }}px;
+      font-weight: {{ section.settings.font_weight }} !important;
     }
     @media screen and (max-width: 1366px) {
       .section-{{ section.id }}-padding .banner__heading.heading--{{ block.id }} {
@@ -624,6 +625,23 @@
           "default": 28,
           "unit": "px",
           "label": "Mobile Heading Size"
+        },
+        {
+          "type": "select",
+          "id": "font_weight",
+          "label": "Font Weight",
+          "default": "400",
+          "options": [
+            { "label": "Thin (100)", "value": "100" },
+            { "label": "Extra Light (200)", "value": "200" },
+            { "label": "Light (300)", "value": "300" },
+            { "label": "Regular (400)", "value": "400" },
+            { "label": "Medium (500)", "value": "500" },
+            { "label": "Semi Bold (600)", "value": "600" },
+            { "label": "Bold (700)", "value": "700" },
+            { "label": "Extra Bold (800)", "value": "800" },
+            { "label": "Black (900)", "value": "900" }
+          ]
         },
         {
           "type": "range",

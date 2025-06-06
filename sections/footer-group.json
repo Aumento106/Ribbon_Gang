@@ -22,7 +22,6 @@
       "block_order": [
         "email_form_m8gTqr"
       ],
-      "disabled": true,
       "settings": {
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "full_width": false,
@@ -170,19 +169,19 @@
         "logo_jdEJbk": {
           "type": "logo",
           "settings": {
-            "image": "shopify://shop_images/sterlloop_1.svg"
+            "image": "shopify://shop_images/STERILOOP-logo-grey-and-yellow-2025_2.svg"
           }
         },
         "logo_jnc3tx": {
           "type": "logo",
           "settings": {
-            "image": "shopify://shop_images/sterlrack_1.svg"
+            "image": "shopify://shop_images/new-rock.svg"
           }
         },
         "logo_xBG7Wc": {
           "type": "logo",
           "settings": {
-            "image": "shopify://shop_images/CLICK_N_CLIP_1.svg"
+            "image": "shopify://shop_images/CLICK-N-CLIP-logo-grey-and-yellow-2025.svg"
           }
         }
       },
@@ -192,7 +191,7 @@
         "logo_xBG7Wc"
       ],
       "settings": {
-        "color_scheme": "scheme-28b9a3ce-e916-452a-9440-95fefcedbf92",
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "padding_top": 16,
         "padding_bottom": 16
       }

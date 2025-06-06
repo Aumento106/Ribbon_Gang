@@ -26,7 +26,8 @@
           "type": "heading",
           "settings": {
             "heading": "{{ page.title }}",
-            "heading_size": "h1"
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28
           }
         },
         "text_7xmpEL": {
@@ -71,7 +72,7 @@
             "categories_image": "shopify://shop_images/Blacktown_square.png",
             "collection": "sterirack-baskets",
             "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-            "button_card_text": "Learn more",
+            "button_card_text": "Shop now",
             "redirection_link": ""
           }
         },
@@ -81,7 +82,7 @@
             "categories_image": "shopify://shop_images/Group_1171277831.jpg",
             "collection": "steriloop-baskets",
             "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-            "button_card_text": "Learn more",
+            "button_card_text": "Shop now",
             "redirection_link": ""
           }
         },
@@ -171,7 +172,7 @@
             "categories_image": "shopify://shop_images/megasale-offer-banner_d03c647a-a5dd-4537-859a-298359b30937.png",
             "collection": "sterirack-accessories",
             "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-            "button_card_text": "Learn more",
+            "button_card_text": "Shop now",
             "redirection_link": ""
           }
         },
@@ -203,7 +204,8 @@
       ],
       "settings": {
         "title": "",
-        "heading_size": "h1",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
         "image_ratio": "square",
         "columns_desktop": 3,
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",

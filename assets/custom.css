@@ -474,6 +474,11 @@ opacity: 0;
   display: flex;
   flex-direction: column;
 }
+.template-index #shopify-section-sections--17583831548058__custom_newsletter_ewjixR {
+  display: none;
+}
+
+
 
 @media screen and (min-width: 990px) {
   .sub-header-menu .header__inline-menu {

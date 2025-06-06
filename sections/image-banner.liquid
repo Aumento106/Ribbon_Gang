@@ -24,6 +24,31 @@
 {%- endif -%}
 
 {%- style -%}
+  {%- for block in section.blocks -%}
+    .Banner-{{ section.id }} .title--{{ block.id }} {
+      font-size: {{ block.settings.custom_heading_size }}px;
+    }
+    @media screen and (max-width: 1366px) {
+      .Banner-{{ section.id }} .title--{{ block.id }} {
+        font-size: {{ block.settings.custom_heading_size | divided_by: 1.238 }}px;
+      }
+    }
+    @media screen and (max-width: 1199px) {
+      .Banner-{{ section.id }} .title--{{ block.id }} {
+        font-size: {{ block.settings.custom_heading_size | divided_by: 1.3 }}px;
+      }
+    }
+    @media screen and (max-width: 989px) {
+      .Banner-{{ section.id }} .title--{{ block.id }} {
+        font-size: {{ block.settings.custom_heading_size | divided_by: 1.52 }}px;
+      }
+    }
+    @media screen and (max-width: 749px) {
+      .Banner-{{ section.id }} .title--{{ block.id }} {
+        font-size: {{ block.settings.mobile_custom_heading_size }}px;
+      }
+    }
+  {% endfor %}
   #Banner-{{ section.id }}::after {
     opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
   }
@@ -121,7 +146,7 @@
         {%- case block.type -%}
           {%- when 'heading' -%}
             <h2
-              class="banner__heading inline-richtext {{ block.settings.heading_size }}"
+              class="banner__heading inline-richtext title--{{ block.id }}"
               {{ block.shopify_attributes }}
             >
               {{ block.settings.heading }}
@@ -390,32 +415,24 @@
           "label": "t:sections.image-banner.blocks.heading.settings.heading.label"
         },
         {
-          "type": "select",
-          "id": "heading_size",
-          "options": [
-            {
-              "value": "h2",
-              "label": "t:sections.all.heading_size.options__1.label"
-            },
-            {
-              "value": "h1",
-              "label": "t:sections.all.heading_size.options__2.label"
-            },
-            {
-              "value": "h0",
-              "label": "t:sections.all.heading_size.options__3.label"
-            },
-            {
-              "value": "hxl",
-              "label": "t:sections.all.heading_size.options__4.label"
-            },
-            {
-              "value": "hxxl",
-              "label": "t:sections.all.heading_size.options__5.label"
-            }
-          ],
-          "default": "h1",
-          "label": "t:sections.all.heading_size.label"
+          "type": "range",
+          "id": "custom_heading_size",
+          "min": 20,
+          "max": 70,
+          "step": 1,
+          "default": 52,
+          "unit": "px",
+          "label": "Heading Size"
+        },
+        {
+          "type": "range",
+          "id": "mobile_custom_heading_size",
+          "min": 20,
+          "max": 40,
+          "step": 1,
+          "default": 28,
+          "unit": "px",
+          "label": "Mobile Heading Size"
         }
       ]
     },

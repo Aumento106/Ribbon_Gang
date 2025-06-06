@@ -26,7 +26,8 @@
           "type": "heading",
           "settings": {
             "heading": "{{ page.title }}",
-            "heading_size": "h1"
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28
           }
         },
         "text_7xmpEL": {
@@ -61,7 +62,7 @@
             "categories_image": "shopify://shop_images/image_f8e2b89c-4982-4e99-954d-febf9d883ec4_1.png",
             "collection": "sterirack-colour-coding-click-n-clip-label-holders-various-types",
             "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-            "button_card_text": "Learn more",
+            "button_card_text": "Shop now",
             "redirection_link": ""
           }
         },
@@ -91,7 +92,7 @@
             "categories_image": "shopify://shop_images/Blacktown_Hospital_19.png",
             "collection": "sterirack-colour-coding-post-strips-various-types",
             "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-            "button_card_text": "Learn more",
+            "button_card_text": "Shop now",
             "redirection_link": ""
           }
         },
@@ -115,7 +116,8 @@
       ],
       "settings": {
         "title": "",
-        "heading_size": "h1",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
         "image_ratio": "square",
         "columns_desktop": 3,
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",

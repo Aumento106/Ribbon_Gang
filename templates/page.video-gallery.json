@@ -26,7 +26,8 @@
           "type": "heading",
           "settings": {
             "heading": "Video<strong> </strong>of the Week",
-            "heading_size": "h0",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
             "heading_alignment": "center"
           }
         },
@@ -42,7 +43,8 @@
           "type": "heading",
           "settings": {
             "heading": "Wagga Wagga Base Hospital Installs STERIRACK® Clean Utilities",
-            "heading_size": "h2",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
             "heading_alignment": "center"
           }
         },
@@ -571,8 +573,9 @@
         "column_tKgdmx"
       ],
       "settings": {
-        "title": "<p><strong>Video</strong> library</p>",
-        "heading_size": "h1",
+        "title": "<p>Video<strong> </strong>library</p>",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
         "title_alignment": "center",
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "columns_desktop": "3",

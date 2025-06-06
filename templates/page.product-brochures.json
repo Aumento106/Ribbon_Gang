@@ -26,7 +26,8 @@
           "type": "heading",
           "settings": {
             "heading": "View our product brochures",
-            "heading_size": "h0",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
             "heading_alignment": "center"
           }
         },
@@ -163,7 +164,6 @@
       "settings": {
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "layout": "image_first",
-        "heading_size": "h1",
         "box_color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "padding_top": 72,
         "padding_bottom": 72

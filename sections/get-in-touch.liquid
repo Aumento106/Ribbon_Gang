@@ -287,7 +287,7 @@
                     {% if block.settings.distributor_logo_1_url != blank %}
                       <a href="{{ block.settings.distributor_logo_1_url }}">
                       {% if block.settings.distributor_logo_1 %}
-                        <img src="{{ block.settings.distributor_logo_1 | img_url: '200x' }}" 
+                        <img src="{{ block.settings.distributor_logo_1 | img_url: 'master' }}" 
                               alt="Distributor Logo" 
                               loading="lazy"
                               class="distributor-logo">
@@ -295,7 +295,7 @@
                       </a>
                       {% else %}
                       {% if block.settings.distributor_logo_1 %}
-                        <img src="{{ block.settings.distributor_logo_1 | img_url: '200x' }}" 
+                        <img src="{{ block.settings.distributor_logo_1 | img_url: 'master' }}" 
                               alt="Distributor Logo" 
                               loading="lazy"
                               class="distributor-logo">

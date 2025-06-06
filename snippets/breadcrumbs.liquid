@@ -37,12 +37,12 @@
       <li>{{ collection.title | link_to: collection.url }}</li>
       <li>
         {% capture tag_url %}{{ collection.url }}/{{ current_tags | join: "+"}}{% endcapture %}
-        <a href="{{ tag_url }}" aria-current="page">{{ collection.title | join: " + "}}</a>
+        {{ collection.title | join: " + "}}
        
       </li>
     {% else %}
       <li>
-        <a href="" aria-current="page">{{ collection.title }}</a>
+       {{ collection.title }}
         
       </li>
     {% endif %}

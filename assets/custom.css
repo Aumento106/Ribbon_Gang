@@ -3092,6 +3092,7 @@ span.product_compar_price {
 
 .breadcrumbs li svg {
   vertical-align: middle;
+  margin-left: 8px;
 }
 
 /* .breadcrumbs a {

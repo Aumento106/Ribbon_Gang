@@ -779,7 +779,7 @@
             "heading": "<p>Introducing the registered wireLoop shape mark and SteriLoop™ innovation</p>",
             "block_custom_heading_size": 33,
             "mobile_block_custom_heading_size": 28,
-            "text": "<p>SpaceLogic is proud to introduce SteriLoop®,  featuring our registered WireLoop Shape Mark – a game-changing  innovation in healthcare  storage.</p><p> SMOOTH ROUNDED CORNERS: Prevents cuts,  micro-tears, and damage to consumables</p><p>NO SHARP EDGES: Superior safety for hospital  staff and patient</p><p>ENHANCED DURABILITY AND HYGIENE:  Engineered for long-term performance</p><p><strong>Look for the Loop™ – The  ultimate in safe, smart storage</strong></p>",
+            "text": "<p>SpaceLogic is proud to introduce SteriLoop™,  featuring our registered WireLoop Shape Mark – a game-changing  innovation in healthcare  storage.</p><p> SMOOTH ROUNDED CORNERS: Prevents cuts,  micro-tears, and damage to consumables</p><p>NO SHARP EDGES: Superior safety for hospital  staff and patient</p><p>ENHANCED DURABILITY AND HYGIENE:  Engineered for long-term performance</p><p><strong>Look for the Loop™ – The  ultimate in safe, smart storage</strong></p>",
             "button_label": "Shop SteriLoop™ baskets",
             "button_link": "shopify://collections",
             "button_style_secondary": false
@@ -1593,7 +1593,8 @@
       "disabled": true,
       "settings": {
         "sec_title": "<p>Three interconnected divisions, delivering a complete end-to-end <strong>Service</strong></p>",
-        "heading_size": "h1",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
         "title_alignment": "center",
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "icon_bg_color": "#5a5a5a",
@@ -1709,7 +1710,8 @@
           "type": "heading",
           "settings": {
             "heading": "About us",
-            "heading_size": "h1"
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28
           }
         },
         "caption_RdyUkV": {
@@ -1837,7 +1839,8 @@
           "type": "heading",
           "settings": {
             "heading": "New <strong>Products</strong>",
-            "heading_size": "h1"
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28
           }
         },
         "caption_4DDFCN": {

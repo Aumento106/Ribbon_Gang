@@ -42,7 +42,8 @@
           "type": "heading",
           "settings": {
             "heading": "Pharmacy storage and dispensary",
-            "heading_size": "h0",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
             "heading_alignment": "center"
           }
         },

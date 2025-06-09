@@ -105,7 +105,13 @@
 {%- for block in section.blocks -%}
   <div id="brochure-popup" class="projects-popup-main">
     <div class="popup-overlay"></div>
-    <button class="popup-close">×</button>
+    <button class="popup-close">
+      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="2" y="2" width="28" height="28" rx="14" stroke="#424242" stroke-width="2"></rect>
+        <path d="M22 10L10 22" stroke="#424242" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M10 10L22 22" stroke="#424242" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+      </svg>
+    </button>
     <div class="popup-content">
       <iframe src="{{ block.settings.btn_link }}" frameborder="0"></iframe>
     </div>

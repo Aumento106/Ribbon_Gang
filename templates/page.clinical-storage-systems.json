@@ -70,6 +70,7 @@
         "heading": "<p>Product Catalogue</p>",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
+        "font_weight": "400",
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "description": "<p>Click here to view our latest product and services catalogue in a browser without downloading.</p>",
         "button_1_text": "View catalogue",
@@ -99,7 +100,7 @@
             "link_1_text": "View Full STERIRACK® Range",
             "video_1_url": "https://cdn.shopify.com/videos/c/o/v/b0bc7870dfc44c81a4c26a6e1d5b2255.mp4",
             "link_2_text": "Watch system walkthrough video",
-            "video_2_url": "",
+            "video_2_url": "https://cdn.shopify.com/videos/c/o/v/b0bc7870dfc44c81a4c26a6e1d5b2255.mp4",
             "button_card_text": "",
             "redirection_link": ""
           }

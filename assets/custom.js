@@ -418,17 +418,19 @@ document.getElementById('blogSearch').addEventListener('input', function() {
 });
 
 
-document.addEventListener('DOMContentLoaded', function () {
+function initBrochurePopup() {
   const popup = document.getElementById('brochure-popup');
   const iframe = popup?.querySelector('iframe');
   const closeBtn = popup?.querySelector('.popup-close');
   const overlay = popup?.querySelector('.popup-overlay');
 
+  if (!popup || !iframe) return; // don't do anything if popup not on page
+
   document.querySelectorAll('.popup-trigger').forEach(button => {
     button.addEventListener('click', function (e) {
       e.preventDefault();
       const url = this.getAttribute('href');
-      if (url && popup && iframe) {
+      if (url) {
         iframe.src = url;
         popup.style.display = 'block';
       }
@@ -442,4 +444,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
   closeBtn?.addEventListener('click', closePopup);
   overlay?.addEventListener('click', closePopup);
-});
+}
+
+// Initial load
+document.addEventListener('DOMContentLoaded', initBrochurePopup);
+
+// Re-initialize if Shopify loads sections via Ajax
+document.addEventListener('shopify:section:load', initBrochurePopup);
+

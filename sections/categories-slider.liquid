@@ -122,6 +122,11 @@
           </li>
         {%- endfor -%}
       </ul>
+
+      <div class="swiper-pagination-wrapper">
+        <div class="swiper-pagination"></div>
+      </div>
+      
       {%- if show_mobile_slider -%}
         <div class="slider-buttons">
           <button
@@ -203,9 +208,7 @@
   {% endfor %}
 </div>
 
-<div class="swiper-pagination-wrapper">
-  <div class="swiper-pagination"></div>
-</div>
+
 
 <script>
   document.addEventListener('DOMContentLoaded', function () {

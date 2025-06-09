@@ -254,7 +254,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const swiperContainer = document.querySelector('.categories-slider .swiper');
   const slides = swiperContainer?.querySelectorAll('.swiper-slide');
 
-  if (slides && slides.length > 2) {
+  if (swiperContainer && slides && slides.length > 2) {
     new Swiper('.categories-slider .swiper', {
       slidesPerView: 2,
       spaceBetween: 0,
@@ -262,14 +262,15 @@ document.addEventListener('DOMContentLoaded', function () {
       grabCursor: true,
       loop: false,
       pagination: {
-        el: '.swiper-pagination',
+        el: '.categories-slider .swiper-pagination', // scoped correctly
         clickable: true,
       },
     });
   } else {
-    swiperContainer.classList.add('not-a-slider');
+    swiperContainer?.classList.add('not-a-slider');
   }
 });
+
 
 // ---------- Homepage Hotspot area popup -----------
 document.addEventListener('click', (event) => {

@@ -22,7 +22,7 @@
     "spacing_sections": 0,
     "spacing_grid_horizontal": 24,
     "spacing_grid_vertical": 24,
-    "enable_popup_view": false,
+    "enable_popup_view": true,
     "animations_reveal_on_scroll": true,
     "animations_hover_elements": "none",
     "buttons_border_thickness": 1,

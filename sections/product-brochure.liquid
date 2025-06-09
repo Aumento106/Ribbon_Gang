@@ -105,8 +105,8 @@
 {%- for block in section.blocks -%}
   <div id="brochure-popup" class="projects-popup-main">
     <div class="popup-overlay"></div>
+    <button class="popup-close">×</button>
     <div class="popup-content">
-      <button class="popup-close">×</button>
       <iframe src="{{ block.settings.btn_link }}" frameborder="0"></iframe>
     </div>
   </div>

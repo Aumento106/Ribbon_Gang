@@ -63,7 +63,8 @@
             "text": "<p>A complete guide to our storage solutions, featuring the industry-leading STERIRACK® system.</p>",
             "btn_text": "View",
             "btn_link": "https://online.flippingbook.com/view/393434/",
-            "button_style_secondary": false
+            "button_style_secondary": false,
+            "enable_popup_view": true
           }
         },
         "brochure_MaPNke": {
@@ -75,7 +76,8 @@
             "text": "<p>Improve efficiency and patient care with our colour-coded storage solutions.</p>",
             "btn_text": "View brochure",
             "btn_link": "https://online.flippingbook.com/view/245421/",
-            "button_style_secondary": false
+            "button_style_secondary": false,
+            "enable_popup_view": false
           }
         },
         "brochure_CMXVaH": {
@@ -87,7 +89,8 @@
             "text": "<p>Discover the perfect storage solution for Clean Utilities and Medication Rooms.</p>",
             "btn_text": "View brochure",
             "btn_link": "https://online.flippingbook.com/view/159525198/",
-            "button_style_secondary": false
+            "button_style_secondary": false,
+            "enable_popup_view": false
           }
         },
         "brochure_czMfpM": {
@@ -99,7 +102,8 @@
             "text": "<p>Customisable, high-quality storage carts designed for hospital use.</p>",
             "btn_text": "View brochure",
             "btn_link": "https://online.flippingbook.com/view/975476699/",
-            "button_style_secondary": false
+            "button_style_secondary": false,
+            "enable_popup_view": false
           }
         },
         "brochure_G9gyCD": {
@@ -111,7 +115,8 @@
             "text": "<p>Sealed, dust-free transport carts for sterile instruments and supplies.</p>",
             "btn_text": "View brochure",
             "btn_link": "https://online.flippingbook.com/view/497002348/",
-            "button_style_secondary": false
+            "button_style_secondary": false,
+            "enable_popup_view": false
           }
         },
         "brochure_gtibBq": {
@@ -123,7 +128,8 @@
             "text": "<p>The perfect solution for your facility, giving you options to configure exactly the way that suits your consumables and application. </p>",
             "btn_text": "View brochure",
             "btn_link": "https://online.flippingbook.com/view/30170711/",
-            "button_style_secondary": false
+            "button_style_secondary": false,
+            "enable_popup_view": false
           }
         },
         "brochure_HpGBw7": {
@@ -135,7 +141,8 @@
             "text": "<p>A presentation featuring a recent STERIRACK® installation at Orange Private Hospital, owned by Nexus Group of Hospitals.</p>",
             "btn_text": "View brochure",
             "btn_link": "https://online.flippingbook.com/view/490670925/",
-            "button_style_secondary": false
+            "button_style_secondary": false,
+            "enable_popup_view": false
           }
         },
         "brochure_AFimiq": {
@@ -147,7 +154,8 @@
             "text": "<p>STERIRACK® System is a clinical storage solution perfect for Veterinary, and meets standards for best practice and infection control. </p>",
             "btn_text": "View brochure",
             "btn_link": "https://online.flippingbook.com/view/345276725/",
-            "button_style_secondary": false
+            "button_style_secondary": false,
+            "enable_popup_view": false
           }
         }
       },
@@ -178,6 +186,7 @@
         "heading": "<p>Product Catalogue</p>",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
+        "font_weight": "400",
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "description": "<p>Click here to view our latest product and services catalogue in a browser without downloading.</p>",
         "button_1_text": "View catalogue",

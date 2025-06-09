@@ -416,3 +416,30 @@ document.getElementById('blogSearch').addEventListener('input', function() {
     }
   }
 });
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  const popup = document.getElementById('brochure-popup');
+  const iframe = popup?.querySelector('iframe');
+  const closeBtn = popup?.querySelector('.popup-close');
+  const overlay = popup?.querySelector('.popup-overlay');
+
+  document.querySelectorAll('.popup-trigger').forEach(button => {
+    button.addEventListener('click', function (e) {
+      e.preventDefault();
+      const url = this.getAttribute('href');
+      if (url && popup && iframe) {
+        iframe.src = url;
+        popup.style.display = 'block';
+      }
+    });
+  });
+
+  function closePopup() {
+    popup.style.display = 'none';
+    iframe.src = '';
+  }
+
+  closeBtn?.addEventListener('click', closePopup);
+  overlay?.addEventListener('click', closePopup);
+});

@@ -418,28 +418,22 @@ document.getElementById('blogSearch').addEventListener('input', function() {
 });
 
 
-function initBrochurePopup() {
+document.addEventListener('DOMContentLoaded', function () {
   const popup = document.getElementById('brochure-popup');
   const iframe = popup?.querySelector('iframe');
   const closeBtn = popup?.querySelector('.popup-close');
   const overlay = popup?.querySelector('.popup-overlay');
 
-  if (!popup || !iframe) return;
-
-  // Remove old listeners to prevent stacking
   document.querySelectorAll('.popup-trigger').forEach(button => {
-    button.removeEventListener('click', popupClickHandler);
-    button.addEventListener('click', popupClickHandler);
+    button.addEventListener('click', function (e) {
+      e.preventDefault();
+      const url = this.getAttribute('href');
+      if (url && popup && iframe) {
+        iframe.src = url;
+        popup.style.display = 'block';
+      }
+    });
   });
-
-  function popupClickHandler(e) {
-    e.preventDefault();
-    const url = this.getAttribute('href');
-    if (url) {
-      iframe.src = url;
-      popup.style.display = 'block';
-    }
-  }
 
   function closePopup() {
     popup.style.display = 'none';
@@ -448,9 +442,4 @@ function initBrochurePopup() {
 
   closeBtn?.addEventListener('click', closePopup);
   overlay?.addEventListener('click', closePopup);
-}
-
-document.addEventListener('DOMContentLoaded', initBrochurePopup);
-document.addEventListener('shopify:section:load', initBrochurePopup);
-
-
+});

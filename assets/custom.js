@@ -259,6 +259,7 @@ document.addEventListener('DOMContentLoaded', function () {
       slidesPerView: 2,
       spaceBetween: 0,
       centeredSlides: false,
+      dots: true,
       grabCursor: true,
       loop: false,
       pagination: {

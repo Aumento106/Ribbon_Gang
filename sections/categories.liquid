@@ -156,7 +156,7 @@
       >
         <a
           href="{{ routes.collections_url }}"
-          class="button"
+          class="button {% if block.settings.enable_popup_view %} popup-trigger{% endif %}" {% unless block.settings.enable_popup_view %} target="_blank" rel="noopener"{% endunless %}
           id="ViewAllButton-{{ section.id }}"
           aria-labelledby="ViewAllButton-{{ section.id }} SectionHeading-{{ section.id }}"
         >

@@ -230,6 +230,11 @@
         "default": 8,
         "unit": "px",
         "label": "t:settings_schema.layout.settings.spacing_grid_vertical.label"
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_popup_view",
+        "label": "Enable popup for View button"
       }
     ]
   },

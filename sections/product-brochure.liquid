@@ -48,7 +48,7 @@
                         </div>
                     {%- endif -%}
                     {%- if block.settings.btn_text != blank -%}
-                        <a href="{% if block.settings.btn_link != blank %}{{ block.settings.btn_link }}{% else %}#{% endif %}" target="_blank" class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}">
+                        <a href="{% if block.settings.btn_link != blank %}{{ block.settings.btn_link }}{% else %}#{% endif %}" {% unless block.settings.enable_popup_view %} target="_blank" rel="noopener"{% endunless %} class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %} {% if block.settings.enable_popup_view %} popup-trigger{% endif %}">
                             {{ block.settings.btn_text }}
                         </a>
                     {%- endif -%}
@@ -57,6 +57,8 @@
         {% endfor %}
     </div>
 </div>
+
+
 
 {% schema %}
 {
@@ -166,6 +168,11 @@
           "id": "button_style_secondary",
           "default": false,
           "label": "Use secondary button style"
+        },
+        {
+          "type": "checkbox",
+          "id": "enable_popup_view",
+          "label": "Enable popup for View button"
         }
       ]
     }

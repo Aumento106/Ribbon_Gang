@@ -32,7 +32,7 @@
           <div class="drawer__heading-wrapper">
             <h2 class="drawer__heading title">
               {{ 'sections.cart.title' | t }}
-              <strong> {{ 'sections.cart.title_cart' | t }} </strong>
+              {{ 'sections.cart.title_cart' | t }}
             </h2>
             {%- if cart != empty -%}
               <span class="cart-count">{{ cart.item_count }}</span>

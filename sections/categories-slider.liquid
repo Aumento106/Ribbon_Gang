@@ -4,6 +4,10 @@
 {{ 'custom-collage.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
+  .main-product-categories .collection-list-wrapper {
+    overflow-y: visible;
+    overflow-x: hidden;
+  }
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.55 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.55 | round: 0 }}px;

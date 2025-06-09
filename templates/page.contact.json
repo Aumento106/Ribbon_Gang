@@ -40,6 +40,7 @@
         },
         "slide_Nzx7FR": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Concept_1_1.png",
             "image_overlay_opacity": 0

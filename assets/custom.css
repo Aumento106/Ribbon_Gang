@@ -327,7 +327,9 @@ details[open]>.header__menu-item .ic_pluse {
   left: 45px;
   color: rgba(187, 187, 187, 1);
 }
-
+.template-product .newsletter-sec {
+  display: none;
+}
 .header>.search-modal .search .field__input:focus~.field__label,
 .header>.search-modal .search .field__input:not(:placeholder-shown)~.field__label {
   top: calc(0.7rem + var(--inputs-border-width));

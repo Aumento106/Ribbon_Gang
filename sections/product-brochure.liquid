@@ -71,30 +71,29 @@
 
 <script>
   document.addEventListener('DOMContentLoaded', function () {
+    const popup = document.getElementById('brochure-popup');
+    const iframe = popup?.querySelector('iframe');
+
     document.querySelectorAll('.popup-trigger').forEach(button => {
       button.addEventListener('click', function (e) {
         e.preventDefault();
         const url = this.getAttribute('href');
-
-        // Create popup container if not exists
-        let popup = document.getElementById('brochure-popup');
-        if (!popup) {
-          popup = document.createElement('div');
-          popup.id = 'brochure-popup';
-          popup.innerHTML = `
-            <div class="popup-overlay"></div>
-            <div class="popup-content">
-              <button class="popup-close">×</button>
-              <iframe src="${url}" frameborder="0" style="width:100%;height:100%"></iframe>
-            </div>
-          `;
-          document.body.appendChild(popup);
-
-          // Close logic
-          popup.querySelector('.popup-close').addEventListener('click', () => popup.remove());
-          popup.querySelector('.popup-overlay').addEventListener('click', () => popup.remove());
+        
+        if (popup && iframe) {
+          iframe.src = url;
+          popup.style.display = 'block';
         }
       });
+    });
+
+    popup?.querySelector('.popup-close')?.addEventListener('click', () => {
+      popup.style.display = 'none';
+      iframe.src = '';
+    });
+
+    popup?.querySelector('.popup-overlay')?.addEventListener('click', () => {
+      popup.style.display = 'none';
+      iframe.src = '';
     });
   });
 </script>

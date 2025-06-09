@@ -156,7 +156,7 @@
       >
         <a
           href="{{ routes.collections_url }}"
-          class="button {% if block.settings.enable_popup_view %} popup-trigger{% endif %}" {% unless block.settings.enable_popup_view %} target="_blank" rel="noopener"{% endunless %}
+          class="button {% if settings.enable_popup_view %} popup-trigger{% endif %}" {% unless settings.enable_popup_view %} target="_blank" rel="noopener"{% endunless %}
           id="ViewAllButton-{{ section.id }}"
           aria-labelledby="ViewAllButton-{{ section.id }} SectionHeading-{{ section.id }}"
         >
@@ -178,7 +178,7 @@
       </svg>
     </button>
     <div class="popup-content">
-      <iframe src="{{ block.settings.btn_link }}" frameborder="0"></iframe>
+      <iframe src="{{ routes.collections_url }}" frameborder="0"></iframe>
     </div>
   </div>
 {% endfor %}

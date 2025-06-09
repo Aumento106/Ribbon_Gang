@@ -37,7 +37,9 @@
     font-size: 22px;
     line-height: 1.18;
 }
-
+.swiper-container-initialized .categories-slider .main-product-categories .collection-list + .slider-buttons {
+  display: block;
+}
 .custom-multicolumn-with-text .multi-column-box-with-image .multicolumn-box-description ul {
     list-style: none;
     margin: 0;

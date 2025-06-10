@@ -3383,6 +3383,11 @@ ul.header__submenu li ul li a{
   display: none;
 }
 
+@media screen and (max-width: 989px) {
+  .main-product-categories .collection-list-wrapper {
+    padding: 0 1.5rem;
+  }
+}
 
 @media screen and (max-width: 749px) {
   .main_customer {
@@ -3393,9 +3398,6 @@ ul.header__submenu li ul li a{
   }
   .main_customer::before {
     display: none;
-  }
-  .main-product-categories .collection-list-wrapper {
-    padding: 0 1.5rem;
   }
 }
 

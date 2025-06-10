@@ -3396,8 +3396,9 @@ ul.header__submenu li ul li a{
     max-width: 100%;
     margin-left: 0 !important;
   }
-  .section-collection-list .collection-list .collection-list__item .card-wrapper {
-    padding: 0 30px;
+  .section-collection-list .collection-list .collection-list__item .card-wrapper .card {
+    width: 80%;
+    margin: 0 auto;
   }
 }
 

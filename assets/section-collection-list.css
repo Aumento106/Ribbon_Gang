@@ -45,6 +45,7 @@
 .video-popup.projects-popup-main video {
   display: inline-block;
   width: 100%;
+  height: 100%;
 }
 .video-popup iframe {
   width: 100%;

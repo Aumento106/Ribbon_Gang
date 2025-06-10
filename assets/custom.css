@@ -3344,3 +3344,7 @@ ul.header__submenu li ul li a{
   height: 100%;
   border: none;
 }
+.main_customer {
+  display: flex;
+  align-items: flex-start;
+}

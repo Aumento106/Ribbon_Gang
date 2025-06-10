@@ -13,14 +13,14 @@
   padding: 24px;
   border: 1px solid rgba(255, 255, 255, 1);
   border-radius: 16px;
-  border-radius: 0px;
+  /* border-radius: 0px; */
 }
 
 .custom-multicolumn-with-text .multi-column-box-with-image .multicolumn-box__item {
   padding: 24px 24px 40px;
   text-align: center;
   border-radius: 8px;
-  border-radius: 0px;
+  /* border-radius: 0px; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;

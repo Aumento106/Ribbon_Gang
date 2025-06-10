@@ -103,7 +103,7 @@
               style="--animation-order: {{ forloop.index }};"
             {% endif %}
           >
-            <a href="{%- if block.settings.link_label != blank -%}{{ block.settings.link_label }}{% else %}#{% endif %}" class="multicolumn-card content-container">
+            <a href="{%- if block.settings.link_label != blank -%}{{ block.settings.link_label }}{% else %}#{% endif %}" class="multicolumn-card content-container 1">
               {%- if block.settings.image != blank -%}
                 {% if section.settings.image_ratio == 'adapt' or section.settings.image_ratio == 'circle' %}
                   {% assign spaced_image = true %}

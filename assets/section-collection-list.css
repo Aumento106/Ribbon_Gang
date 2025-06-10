@@ -8,7 +8,8 @@
 .categories-slider .main-product-categories .collection-list {
   flex-wrap: nowrap;
   /* overflow: auto; */
-  overflow: visible;
+  /* overflow: visible; */
+  padding-bottom: 30px;
 }
 .categories-slider .main-product-categories .collection-list .card_product_main_desc strong {
   font-weight: 600;

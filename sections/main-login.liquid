@@ -19,273 +19,275 @@
 {%- endif -%}
 
 <div class="main_customer section-{{ section.id }}-padding color-{{ section.settings.color_scheme }}">
-  <div class="customer login">
-  <h2 id="recover" tabindex="-1">
-    {{ 'customer.recover_password.title' | t }}
-  </h2>
-  <div>
-    <p>
-      {{ 'customer.recover_password.subtext' | t }}
-    </p>
-
-    {%- form 'recover_customer_password' -%}
-      {% assign recover_success = form.posted_successfully? %}
-      <div class="field">
-        <label for ="RecoverEmail">
-          {{ 'customer.login_page.email' | t }}*
-        </label>
-        <input
-          type="email"
-          value=""
-          name="email"
-          id="RecoverEmail"
-          autocorrect="off"
-          autocapitalize="off"
-          autocomplete="email"
-          {% if form.errors %}
-            aria-invalid="true"
-            aria-describedby="RecoverEmail-email-error"
-            autofocus
-          {% endif %}
-          placeholder="{{ 'customer.login_page.email' | t }}"
-        >
+  <div class="page-width">
+    <div class="customer login">
+      <h2 id="recover" tabindex="-1">
+        {{ 'customer.recover_password.title' | t }}
+      </h2>
+      <div>
+        <p>
+          {{ 'customer.recover_password.subtext' | t }}
+        </p>
+    
+        {%- form 'recover_customer_password' -%}
+          {% assign recover_success = form.posted_successfully? %}
+          <div class="field">
+            <label for ="RecoverEmail">
+              {{ 'customer.login_page.email' | t }}*
+            </label>
+            <input
+              type="email"
+              value=""
+              name="email"
+              id="RecoverEmail"
+              autocorrect="off"
+              autocapitalize="off"
+              autocomplete="email"
+              {% if form.errors %}
+                aria-invalid="true"
+                aria-describedby="RecoverEmail-email-error"
+                autofocus
+              {% endif %}
+              placeholder="{{ 'customer.login_page.email' | t }}"
+            >
+          </div>
+          {%- if form.errors -%}
+            <small id="RecoverEmail-email-error" class="form__message">
+              <span class="svg-wrapper">
+                {{- 'icon-error.svg' | inline_asset_content -}}
+              </span>
+              {{ form.errors.messages.form }}
+            </small>
+          {%- endif -%}
+    
+          <button>
+            {{ 'customer.login_page.submit' | t }}
+          </button>
+    
+          <a href="#login">
+            {{ 'customer.login_page.cancel' | t }}
+          </a>
+        {%- endform -%}
       </div>
-      {%- if form.errors -%}
-        <small id="RecoverEmail-email-error" class="form__message">
-          <span class="svg-wrapper">
-            {{- 'icon-error.svg' | inline_asset_content -}}
-          </span>
-          {{ form.errors.messages.form }}
-        </small>
-      {%- endif -%}
-
-      <button>
-        {{ 'customer.login_page.submit' | t }}
-      </button>
-
-      <a href="#login">
-        {{ 'customer.login_page.cancel' | t }}
-      </a>
-    {%- endform -%}
-  </div>
-
-  <h1 id="login" tabindex="-1">
-    {{ 'customer.login_page.title' | t }}
-  </h1>
-  <div>
-    {%- if recover_success == true -%}
-      <h3 class="form__message" tabindex="-1" autofocus>
-        <span class="svg-wrapper">
-          {{- 'icon-success.svg' | inline_asset_content -}}
-        </span>
-        {{ 'customer.recover_password.success' | t }}
-      </h3>
-    {%- endif -%}
-    {%- form 'customer_login', novalidate: 'novalidate' -%}
-      {%- if form.errors -%}
-        <h2 class="form__message hidden" tabindex="-1" autofocus>
-          <span class="visually-hidden">{{ 'accessibility.error' | t }} </span>
-          <span class="svg-wrapper">
-            {{- 'icon-error.svg' | inline_asset_content -}}
-          </span>
-          {{ 'templates.contact.form.error_heading' | t }}
-        </h2>
-        {{ form.errors | default_errors }}
-      {%- endif -%}
-
-      {%- if shop.features.login_with_shop_classic_customer_accounts? -%}
-        <section name="sign-in-with-shop-provider">
-          {{ shop | login_button: hide_button: hide_shop_login_button }}
-
-          {%- unless hide_shop_login_button -%}
-            <p>
-              {{ 'customer.login_page.alternate_provider_separator' | t }}
-            </p>
-          {%- endunless -%}
-        </section>
-      {%- endif -%}
-
-      <div class="field">
-        <label for="CustomerEmail">
-            {{ 'customer.login_page.email' | t }}*
-        </label>
-        <input
-          type="email"
-          name="customer[email]"
-          id="CustomerEmail"
-          autocomplete="email"
-          autocorrect="off"
-          autocapitalize="off"
-          {% if form.errors contains 'form' %}
-            aria-invalid="true"
-          {% endif %}
-          placeholder="{{ 'customer.login_page.email' | t }}"
-        >
+    
+      <h1 id="login" tabindex="-1">
+        {{ 'customer.login_page.title' | t }}
+      </h1>
+      <div>
+        {%- if recover_success == true -%}
+          <h3 class="form__message" tabindex="-1" autofocus>
+            <span class="svg-wrapper">
+              {{- 'icon-success.svg' | inline_asset_content -}}
+            </span>
+            {{ 'customer.recover_password.success' | t }}
+          </h3>
+        {%- endif -%}
+        {%- form 'customer_login', novalidate: 'novalidate' -%}
+          {%- if form.errors -%}
+            <h2 class="form__message hidden" tabindex="-1" autofocus>
+              <span class="visually-hidden">{{ 'accessibility.error' | t }} </span>
+              <span class="svg-wrapper">
+                {{- 'icon-error.svg' | inline_asset_content -}}
+              </span>
+              {{ 'templates.contact.form.error_heading' | t }}
+            </h2>
+            {{ form.errors | default_errors }}
+          {%- endif -%}
+    
+          {%- if shop.features.login_with_shop_classic_customer_accounts? -%}
+            <section name="sign-in-with-shop-provider">
+              {{ shop | login_button: hide_button: hide_shop_login_button }}
+    
+              {%- unless hide_shop_login_button -%}
+                <p>
+                  {{ 'customer.login_page.alternate_provider_separator' | t }}
+                </p>
+              {%- endunless -%}
+            </section>
+          {%- endif -%}
+    
+          <div class="field">
+            <label for="CustomerEmail">
+                {{ 'customer.login_page.email' | t }}*
+            </label>
+            <input
+              type="email"
+              name="customer[email]"
+              id="CustomerEmail"
+              autocomplete="email"
+              autocorrect="off"
+              autocapitalize="off"
+              {% if form.errors contains 'form' %}
+                aria-invalid="true"
+              {% endif %}
+              placeholder="{{ 'customer.login_page.email' | t }}"
+            >
+          </div>
+    
+          {%- if form.password_needed -%}
+            <div class="field">
+              <label for="CustomerPassword">
+                {{ 'customer.login_page.password' | t }}*
+              </label>
+              <input
+                type="password"
+                value=""
+                name="customer[password]"
+                id="CustomerPassword"
+                autocomplete="current-password"
+                {% if form.errors contains 'form' %}
+                  aria-invalid="true"
+                {% endif %}
+                placeholder="{{ 'customer.login_page.password' | t }}"
+              >
+            </div>
+    
+            <a href="#recover">
+              {{ 'customer.login_page.forgot_password' | t }}
+            </a>
+          {%- endif -%}
+    
+          <button>
+            {{ 'customer.login_page.sign_in' | t }}
+          </button>
+    
+          <a href="{{ routes.account_register_url }}">
+            {{ 'customer.login_page.create_account' | t }}
+          </a>
+        {%- endform -%}
       </div>
-
-      {%- if form.password_needed -%}
-        <div class="field">
-          <label for="CustomerPassword">
-            {{ 'customer.login_page.password' | t }}*
-          </label>
-          <input
-            type="password"
-            value=""
-            name="customer[password]"
-            id="CustomerPassword"
-            autocomplete="current-password"
-            {% if form.errors contains 'form' %}
-              aria-invalid="true"
-            {% endif %}
-            placeholder="{{ 'customer.login_page.password' | t }}"
-          >
+    
+      {%- if shop.checkout.guest_login -%}
+        <div>
+          <hr>
+          <h2>{{ 'customer.login_page.guest_title' | t }}</h2>
+    
+          {%- form 'guest_login' -%}
+            <button>
+              {{ 'customer.login_page.guest_continue' | t }}
+            </button>
+          {%- endform -%}
         </div>
-
-        <a href="#recover">
-          {{ 'customer.login_page.forgot_password' | t }}
-        </a>
       {%- endif -%}
-
-      <button>
-        {{ 'customer.login_page.sign_in' | t }}
-      </button>
-
-      <a href="{{ routes.account_register_url }}">
-        {{ 'customer.login_page.create_account' | t }}
-      </a>
-    {%- endform -%}
-  </div>
-
-  {%- if shop.checkout.guest_login -%}
-    <div>
-      <hr>
-      <h2>{{ 'customer.login_page.guest_title' | t }}</h2>
-
-      {%- form 'guest_login' -%}
-        <button>
-          {{ 'customer.login_page.guest_continue' | t }}
-        </button>
-      {%- endform -%}
     </div>
-  {%- endif -%}
-</div>
-  <div class="customer register">
-    <h1>
-      {{ 'customer.register.title' | t }}
-    </h1>
-    {%- form 'create_customer', novalidate: 'novalidate' -%}
-      {%- if form.errors -%}
-        <h2 class="form__message hidden" tabindex="-1" autofocus>
-          <span class="svg-wrapper">
-            {{- 'icon-error.svg' | inline_asset_content -}}
-          </span>
-          {{ 'templates.contact.form.error_heading' | t }}
-        </h2>
-        <ul>
-          {%- for field in form.errors -%}
-            <li>
-              {%- if field == 'form' -%}
-                {{ form.errors.messages[field] }}
-              {%- else -%}
-                <a href="#RegisterForm-{{ field }}">
-                  {{ form.errors.translated_fields[field] | capitalize }}
-                  {{ form.errors.messages[field] }}
-                </a>
-              {%- endif -%}
-            </li>
-          {%- endfor -%}
-        </ul>
-      {%- endif -%}
-      <div class="field">
-        <label for="RegisterForm-FirstName">
-          {{ 'customer.register.first_name' | t }}
-        </label>
-        <input
-          type="text"
-          name="customer[first_name]"
-          id="RegisterForm-FirstName"
-          {% if form.first_name %}
-            value="{{ form.first_name }}"
-          {% endif %}
-          autocomplete="given-name"
-          placeholder="{{ 'customer.register.first_name' | t }}"
-        >
+    <div class="customer register">
+        <h1>
+          {{ 'customer.register.title' | t }}
+        </h1>
+        {%- form 'create_customer', novalidate: 'novalidate' -%}
+          {%- if form.errors -%}
+            <h2 class="form__message hidden" tabindex="-1" autofocus>
+              <span class="svg-wrapper">
+                {{- 'icon-error.svg' | inline_asset_content -}}
+              </span>
+              {{ 'templates.contact.form.error_heading' | t }}
+            </h2>
+            <ul>
+              {%- for field in form.errors -%}
+                <li>
+                  {%- if field == 'form' -%}
+                    {{ form.errors.messages[field] }}
+                  {%- else -%}
+                    <a href="#RegisterForm-{{ field }}">
+                      {{ form.errors.translated_fields[field] | capitalize }}
+                      {{ form.errors.messages[field] }}
+                    </a>
+                  {%- endif -%}
+                </li>
+              {%- endfor -%}
+            </ul>
+          {%- endif -%}
+          <div class="field">
+            <label for="RegisterForm-FirstName">
+              {{ 'customer.register.first_name' | t }}
+            </label>
+            <input
+              type="text"
+              name="customer[first_name]"
+              id="RegisterForm-FirstName"
+              {% if form.first_name %}
+                value="{{ form.first_name }}"
+              {% endif %}
+              autocomplete="given-name"
+              placeholder="{{ 'customer.register.first_name' | t }}"
+            >
+          </div>
+          <div class="field">
+            <label for="RegisterForm-LastName">
+              {{ 'customer.register.last_name' | t }}
+            </label>
+            <input
+              type="text"
+              name="customer[last_name]"
+              id="RegisterForm-LastName"
+              {% if form.last_name %}
+                value="{{ form.last_name }}"
+              {% endif %}
+              autocomplete="family-name"
+              placeholder="{{ 'customer.register.last_name' | t }}"
+            >
+          </div>
+          <div class="field">
+            <label for="RegisterForm-email">
+              {{ 'customer.register.email' | t }}*
+            </label>
+            <input
+              type="email"
+              name="customer[email]"
+              id="RegisterForm-email"
+              {% if form.email %}
+                value="{{ form.email }}"
+              {% endif %}
+              spellcheck="false"
+              autocapitalize="off"
+              autocomplete="email"
+              aria-required="true"
+              {% if form.errors contains 'email' %}
+                aria-invalid="true"
+                aria-describedby="RegisterForm-email-error"
+              {% endif %}
+              placeholder="{{ 'customer.register.email' | t }}"
+            >
+          </div>
+          {%- if form.errors contains 'email' -%}
+            <span id="RegisterForm-email-error" class="form__message error-message">
+              <span class="svg-wrapper">
+                {{- 'icon-error.svg' | inline_asset_content -}}
+              </span>
+              {{ form.errors.translated_fields.email | capitalize }}
+              {{ form.errors.messages.email }}.
+            </span>
+          {%- endif -%}
+          <div class="field">
+            <label for="RegisterForm-password">
+              {{ 'customer.register.password' | t }}*
+            </label>
+            <input
+              type="password"
+              name="customer[password]"
+              id="RegisterForm-password"
+              aria-required="true"
+              {% if form.errors contains 'password' %}
+                aria-invalid="true"
+                aria-describedby="RegisterForm-password-error"
+              {% endif %}
+              placeholder="{{ 'customer.register.password' | t }}"
+            >
+          </div>
+          {%- if form.errors contains 'password' -%}
+            <span id="RegisterForm-password-error" class="form__message error-message">
+              <span class="svg-wrapper">
+                {{- 'icon-error.svg' | inline_asset_content -}}
+              </span>
+              {{ form.errors.translated_fields.password | capitalize }}
+              {{ form.errors.messages.password }}.
+            </span>
+          {%- endif -%}
+          <button>
+            {{ 'customer.register.submit' | t }}
+          </button>
+        {%- endform -%}
       </div>
-      <div class="field">
-        <label for="RegisterForm-LastName">
-          {{ 'customer.register.last_name' | t }}
-        </label>
-        <input
-          type="text"
-          name="customer[last_name]"
-          id="RegisterForm-LastName"
-          {% if form.last_name %}
-            value="{{ form.last_name }}"
-          {% endif %}
-          autocomplete="family-name"
-          placeholder="{{ 'customer.register.last_name' | t }}"
-        >
-      </div>
-      <div class="field">
-        <label for="RegisterForm-email">
-          {{ 'customer.register.email' | t }}*
-        </label>
-        <input
-          type="email"
-          name="customer[email]"
-          id="RegisterForm-email"
-          {% if form.email %}
-            value="{{ form.email }}"
-          {% endif %}
-          spellcheck="false"
-          autocapitalize="off"
-          autocomplete="email"
-          aria-required="true"
-          {% if form.errors contains 'email' %}
-            aria-invalid="true"
-            aria-describedby="RegisterForm-email-error"
-          {% endif %}
-          placeholder="{{ 'customer.register.email' | t }}"
-        >
-      </div>
-      {%- if form.errors contains 'email' -%}
-        <span id="RegisterForm-email-error" class="form__message error-message">
-          <span class="svg-wrapper">
-            {{- 'icon-error.svg' | inline_asset_content -}}
-          </span>
-          {{ form.errors.translated_fields.email | capitalize }}
-          {{ form.errors.messages.email }}.
-        </span>
-      {%- endif -%}
-      <div class="field">
-        <label for="RegisterForm-password">
-          {{ 'customer.register.password' | t }}*
-        </label>
-        <input
-          type="password"
-          name="customer[password]"
-          id="RegisterForm-password"
-          aria-required="true"
-          {% if form.errors contains 'password' %}
-            aria-invalid="true"
-            aria-describedby="RegisterForm-password-error"
-          {% endif %}
-          placeholder="{{ 'customer.register.password' | t }}"
-        >
-      </div>
-      {%- if form.errors contains 'password' -%}
-        <span id="RegisterForm-password-error" class="form__message error-message">
-          <span class="svg-wrapper">
-            {{- 'icon-error.svg' | inline_asset_content -}}
-          </span>
-          {{ form.errors.translated_fields.password | capitalize }}
-          {{ form.errors.messages.password }}.
-        </span>
-      {%- endif -%}
-      <button>
-        {{ 'customer.register.submit' | t }}
-      </button>
-    {%- endform -%}
   </div>
 </div>
 

@@ -183,7 +183,7 @@
       ],
       "name": "Product List",
       "settings": {
-        "title": "Collections",
+        "title": "",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
         "image_ratio": "square",

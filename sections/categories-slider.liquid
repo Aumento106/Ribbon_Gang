@@ -189,75 +189,74 @@
 
 
 <script>
- document.addEventListener('DOMContentLoaded', function () {
-  const body = document.body;
+  document.addEventListener('DOMContentLoaded', function () {
+    const body = document.body;
 
-  // Open video popup
-  document.querySelectorAll('.video-trigger').forEach(link => {
-    link.addEventListener('click', function (e) {
-      e.preventDefault();
+    // Open video popup
+    document.querySelectorAll('.video-trigger').forEach(link => {
+      link.addEventListener('click', function (e) {
+        e.preventDefault();
 
-      const selector = this.getAttribute('data-video');
-      
-      // Close all popups and stop videos
-      document.querySelectorAll('.video-popup').forEach(popup => {
-        popup.style.display = 'none';
-        const video = popup.querySelector('video');
-        if (video) {
-          video.pause();
-          video.currentTime = 0;
+        const selector = this.getAttribute('data-video');
+        // console.log(selector);
+
+        // Close all popups and stop videos
+        document.querySelectorAll('.video-popup').forEach(popup => {
+          popup.style.display = 'none';
+          const video = popup.querySelector('video');
+          if (video) {
+            video.pause();
+            video.currentTime = 0;
+          }
+        });
+
+        // Show selected popup and play video
+        const popup = document.querySelector(selector);
+        console.log(popup);
+        if (popup) {
+          popup.style.display = 'block';
+          const video = popup.querySelector('video');
+          if (video) video.play();
+
+          body.classList.add('video-popup-open');
         }
       });
-
-      // Show selected popup and play video
-      const popup = document.querySelector(selector);
-      if (popup) {
-        popup.style.display = 'flex'; // Changed to flex for better centering
-        const video = popup.querySelector('video');
-        if (video) {
-          video.play();
-        }
-        body.classList.add('video-popup-open');
-      }
     });
-  });
 
-  // Close popup on overlay click
-  document.querySelectorAll('.video-popup').forEach(popup => {
-    popup.addEventListener('click', function (e) {
-      if (e.target === this) { // Only close if clicking the overlay
+    // Close popup on overlay click
+    document.querySelectorAll('.video-popup').forEach(popup => {
+      popup.addEventListener('click', function () {
         closePopup(this);
+      });
+
+      // Prevent close on inner content click
+      const inner = popup.querySelector('.popup-inner');
+      if (inner) {
+        inner.addEventListener('click', function (e) {
+          e.stopPropagation();
+        });
+      }
+
+      // Close popup on close button click
+      const closeBtn = popup.querySelector('.close-btn');
+      if (closeBtn) {
+        closeBtn.addEventListener('click', function () {
+          closePopup(popup);
+        });
       }
     });
 
-    // Prevent close on inner content click
-    const inner = popup.querySelector('.popup-inner');
-    if (inner) {
-      inner.addEventListener('click', function (e) {
-        e.stopPropagation();
-      });
-    }
-
-    // Close popup on close button click
-    const closeBtn = popup.querySelector('.close-btn');
-    if (closeBtn) {
-      closeBtn.addEventListener('click', function () {
-        closePopup(popup);
-      });
+    // Close popup function
+    function closePopup(popup) {
+      const video = popup.querySelector('video');
+      if (video) {
+        video.pause();
+        video.currentTime = 0;
+      }
+      popup.style.display = 'none';
+      body.classList.remove('video-popup-open');
     }
   });
-
-  // Close popup function
-  function closePopup(popup) {
-    const video = popup.querySelector('video');
-    if (video) {
-      video.pause();
-      video.currentTime = 0;
-    }
-    popup.style.display = 'none';
-    body.classList.remove('video-popup-open');
-  }
-});
 </script>
 
 <script>

@@ -3394,5 +3394,8 @@ ul.header__submenu li ul li a{
   .main_customer::before {
     display: none;
   }
+  .main-product-categories .collection-list-wrapper {
+    padding: 0 1.5rem;
+  }
 }
 

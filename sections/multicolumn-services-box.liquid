@@ -67,7 +67,7 @@
           <div class="services-icon-heading">
             {%- if block.settings.icon != blank -%}
               <div class="multicolumn-services__icon">
-                {{ block.settings.icon | image_url: width: 40 | image_tag:
+                {{ settings.icon[forloop.index] | image_url: width: 40 | image_tag:
                   loading: 'lazy',
                   width: 35,
                   height: 35,
@@ -77,12 +77,12 @@
             {%- endif -%}
             
             {%- if block.settings.heading != blank -%}
-              <h3 class="subtitle">{{ block.settings.heading }}</h3>
+              <h3 class="subtitle">{{ settings.heading[forloop.index] }}</h3>
             {%- endif -%}
           </div>
           
           {%- if block.settings.text != blank -%}
-            <div class="rte">{{ block.settings.text }}</div>
+            <div class="rte">{{ settings.text[forloop.index] }}</div>
           {%- endif -%}
         </div>
       {%- endfor -%}

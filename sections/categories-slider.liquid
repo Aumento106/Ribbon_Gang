@@ -152,33 +152,35 @@
     {%- endif -%}
   </div>
   {%- for block in section.blocks -%}
-    <div class="video-popup projects-popup-main" id="video1" style="display: none;">
-    {% if block.settings.video_1_url != blank %}
-        <div class="popup-inner">
-          <div class="close-btn">
-            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect x="2" y="2" width="28" height="28" rx="14" stroke="#424242" stroke-width="2"></rect>
-              <path d="M22 10L10 22" stroke="#424242" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-              <path d="M10 10L22 22" stroke="#424242" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-            </svg>
-          </div>
-          <video controls playsinline>
-            <source src="{{ block.settings.video_1_url }}" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-        </div>
-      {% endif %}
-      {% if block.settings.video_2_url != blank %}
-        <div class="video-popup" id="video2" style="display: none;">
+    {% if block.settings.video_1_url or block.settings.video_2_url %}
+      <div class="video-popup projects-popup-main" id="video1" style="display: none;">
+      {% if block.settings.video_1_url != blank %}
           <div class="popup-inner">
+            <div class="close-btn">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="2" y="2" width="28" height="28" rx="14" stroke="#424242" stroke-width="2"></rect>
+                <path d="M22 10L10 22" stroke="#424242" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M10 10L22 22" stroke="#424242" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+            </div>
             <video controls playsinline>
-              <source src="{{ block.settings.video_2_url }}" type="video/mp4">
+              <source src="{{ block.settings.video_1_url }}" type="video/mp4">
               Your browser does not support the video tag.
             </video>
           </div>
+        {% endif %}
+        {% if block.settings.video_2_url != blank %}
+          <div class="video-popup" id="video2" style="display: none;">
+            <div class="popup-inner">
+              <video controls playsinline>
+                <source src="{{ block.settings.video_2_url }}" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+        {% endif %}
         </div>
       {% endif %}
-      </div>
   {% endfor %}
 </div>
 
@@ -288,13 +290,6 @@
   });
 </script>
 
-<script>
-  document.querySelectorAll('.main-product-categories').forEach(function(div) {
-    if (!div.innerHTML.trim()) {
-      div.style.display = 'none';
-    }
-  });
-</script>
 
 {% schema %}
 {

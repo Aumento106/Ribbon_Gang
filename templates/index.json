@@ -1048,7 +1048,7 @@
         "subheading_color": "#ffffff",
         "title_alignment": "center",
         "custom_heading_size": 52,
-        "font_weight": "600",
+        "font_weight": "400",
         "mobile_custom_heading_size": 28,
         "layout": "image_first",
         "content_layout": "no-overlap",

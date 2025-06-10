@@ -5,7 +5,7 @@
 
 {%- style -%}
   .main-product-categories .swiper .swiper-pagination {
-    bottom: -30px;
+    bottom: 0;
   }
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.55 | round: 0 }}px;
@@ -198,6 +198,7 @@
         e.preventDefault();
 
         const selector = this.getAttribute('data-video');
+        // console.log(selector);
 
         // Close all popups and stop videos
         document.querySelectorAll('.video-popup').forEach(popup => {
@@ -211,6 +212,7 @@
 
         // Show selected popup and play video
         const popup = document.querySelector(selector);
+        console.log(popup);
         if (popup) {
           popup.style.display = 'block';
           const video = popup.querySelector('video');

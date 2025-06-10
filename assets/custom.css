@@ -3391,8 +3391,8 @@ ul.header__submenu li ul li a{
     width: calc(100% - 30px);
   }
   .section-collection-list .collection-list .collection-list__item {
-    min-width: unset;
-    max-width: unset;
+    min-width: 100%;
+    max-width: 100%;
   }
 }
 

@@ -3394,6 +3394,7 @@ ul.header__submenu li ul li a{
   .section-collection-list .collection-list .collection-list__item {
     min-width: 100%;
     max-width: 100%;
+    margin-left: 0;
   }
 }
 

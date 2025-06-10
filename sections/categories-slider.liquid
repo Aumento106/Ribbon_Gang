@@ -5,7 +5,7 @@
 
 {%- style -%}
   .main-product-categories .swiper .swiper-pagination {
-    bottom: 0;
+    bottom: -30px;
   }
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.55 | round: 0 }}px;
@@ -172,7 +172,7 @@
             </div>
           {% endif %}
           {% if block.settings.video_2_url != blank %}
-            <div class="video-popup" id="video2" style="display: none;">
+            <div class="video-popup projects-popup-main" id="video2" style="display: none;">
               <div class="popup-inner">
                 <video controls playsinline>
                   <source src="{{ block.settings.video_2_url }}" type="video/mp4">

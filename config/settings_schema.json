@@ -33,6 +33,62 @@
       }
     ]
   },
+   {
+    "name": "t:settings_schema.logo.name",
+    "settings": [
+       {
+          "type": "image_picker",
+          "id": "icon1",
+          "label": "Icon"
+        },
+        {
+          "type": "richtext",
+          "id": "heading1",
+          "default": "<p>Column heading</p>",
+          "label": "Heading"
+        },
+        {
+          "type": "richtext",
+          "id": "text1",
+          "default": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>",
+          "label": "Text"
+        }, 
+       {
+          "type": "image_picker",
+          "id": "icon2",
+          "label": "Icon"
+        },
+        {
+          "type": "richtext",
+          "id": "heading2",
+          "default": "<p>Column heading</p>",
+          "label": "Heading"
+        },
+        {
+          "type": "richtext",
+          "id": "text2",
+          "default": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>",
+          "label": "Text"
+        }, 
+       {
+          "type": "image_picker",
+          "id": "icon3",
+          "label": "Icon"
+        },
+        {
+          "type": "richtext",
+          "id": "heading3",
+          "default": "<p>Column heading</p>",
+          "label": "Heading"
+        },
+        {
+          "type": "richtext",
+          "id": "text3",
+          "default": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>",
+          "label": "Text"
+        }
+    ]
+   },
   {
     "name": "t:settings_schema.colors.name",
     "settings": [

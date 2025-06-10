@@ -256,20 +256,26 @@ document.addEventListener('DOMContentLoaded', function () {
 
   if (swiperContainer && slides && slides.length > 2) {
     new Swiper('.categories-slider .swiper', {
-      slidesPerView: 2,
+      slidesPerView: 1,
       spaceBetween: 0,
       centeredSlides: false,
       grabCursor: true,
       loop: false,
       pagination: {
-        el: '.categories-slider .swiper-pagination', // scoped correctly
+        el: '.categories-slider .swiper-pagination',
         clickable: true,
       },
+      breakpoints: {
+        749: {
+          slidesPerView: 2,
+        }
+      }
     });
   } else {
     swiperContainer?.classList.add('not-a-slider');
   }
 });
+
 
 
 // ---------- Homepage Hotspot area popup -----------

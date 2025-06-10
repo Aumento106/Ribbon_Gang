@@ -9,6 +9,9 @@
 .multicolumn .title-wrapper-with-link {
   margin-top: 0;
 }
+.multicolumn.background-primary .multicolumn-card:not(href) {
+  cursor: context-menu;
+}
 
 @media screen and (max-width: 749px) {
   .multicolumn .title-wrapper-with-link {

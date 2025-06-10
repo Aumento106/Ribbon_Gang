@@ -64,7 +64,6 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
-      "disabled": true,
       "settings": {
         "products_per_page": 20,
         "columns_desktop": 4,
@@ -185,6 +184,7 @@
         "featured_collection_F6ttDE",
         "featured_collection_pnAkTJ"
       ],
+      "disabled": true,
       "name": "Product List",
       "settings": {
         "title": "",
@@ -260,6 +260,7 @@
         "row_P4xVTA",
         "row_U3gGd9"
       ],
+      "disabled": true,
       "name": "dimension-table",
       "settings": {}
     },
@@ -278,6 +279,7 @@
       "block_order": [
         "heading_dQJMjW"
       ],
+      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "content_alignment": "center",
@@ -303,6 +305,7 @@
       "block_order": [
         "image_Qpy3NK"
       ],
+      "disabled": true,
       "name": "Image with no text",
       "settings": {
         "title": "",
@@ -315,6 +318,7 @@
     },
     "video_E7wm9f": {
       "type": "video",
+      "disabled": true,
       "name": "t:sections.video.presets.name",
       "settings": {
         "heading": "VIDEO - Use MEDIBINS™ not non-compliant plastic bins",

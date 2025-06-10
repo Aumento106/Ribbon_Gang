@@ -199,6 +199,9 @@ body.popup-overflow-hidden::before {
   .Custom-Collage .collage .collage__item .project-logo-imgbox {
     max-width: 140px;
   }
+  .Custom-Collage .collage .collage__item .project-logo-imgbox img {
+    object-fit: fill;
+  }
 }
 
 

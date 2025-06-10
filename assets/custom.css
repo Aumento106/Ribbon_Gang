@@ -3388,5 +3388,11 @@ ul.header__submenu li ul li a{
   .main_customer {
     flex-wrap: wrap;
   }
+  .main_customer::after {
+    display: none;
+  }
+  .main_customer::before {
+    display: none;
+  }
 }
 

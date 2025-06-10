@@ -195,6 +195,12 @@ body.popup-overflow-hidden::before {
   height: 100%;
 }
 
+@media screen and (max-width: 1200px) {
+  .Custom-Collage .collage .collage__item .project-logo-imgbox {
+    max-width: 140px;
+  }
+}
+
 
 
 @media screen and (min-width: 750px) {

@@ -3384,4 +3384,9 @@ ul.header__submenu li ul li a{
 }
 
 
+@media screen and (max-width: 749px) {
+  .main_customer {
+    flex-wrap: wrap;
+  }
+}
 

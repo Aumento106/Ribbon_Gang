@@ -28,6 +28,7 @@
         "heading": "<p>Stay ahead in healthcare storage. subscribe for updates.</p>",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
+        "font_weight": "400",
         "text": "<p>Archici enimodiae ratibus aut volum quiam, et quo bea  suntion serrovide por aute natempos erovita ium quunt  iumquae plab intium fuga.</p>",
         "title_color": "#424242",
         "sub_title_color": "#424242",
@@ -55,6 +56,7 @@
         "heading": "<p>Make space for care. <br/>Contact a consultant today.</p>",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
+        "font_weight": "400",
         "text": "<p>Archici enimodiae ratibus aut volum quiam, et quo bea  suntion serrovide por aute natempos erovita ium quunt  iumquae plab intium fuga. Temolore conescidis repudam  alicient fugit expland ucipsant.</p>",
         "title_color": "#424242",
         "subheading_color": "#424242",
@@ -72,6 +74,7 @@
         "heading": "<p>Product catalogue 2025</p>",
         "custom_heading_size": 70,
         "mobile_custom_heading_size": 28,
+        "font_weight": "400",
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "description": "<p>Click here to view our latest product and services catalogue in your browser, without the need for a download.</p>",
         "button_1_text": "View catalogue",
@@ -154,6 +157,7 @@
         "heading": "<p><strong>Subscribe</strong> to receive <br/>updates and product releases</p>",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
+        "font_weight": "400",
         "text": "<p>*The shape of the wire loops in wire loop baskets and bins is used as a shape trade mark.</p>",
         "title_color": "#ffffff",
         "subheading_color": "#ffffff",
@@ -166,16 +170,16 @@
     "logo_strip_LCaMt9": {
       "type": "logo-strip",
       "blocks": {
-        "logo_jdEJbk": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/STERILOOP-logo-grey-and-yellow-2025_2.svg"
-          }
-        },
         "logo_jnc3tx": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/new-rock.svg"
+          }
+        },
+        "logo_jdEJbk": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/STERILOOP-logo-grey-and-yellow-2025_2.svg"
           }
         },
         "logo_xBG7Wc": {
@@ -186,8 +190,8 @@
         }
       },
       "block_order": [
-        "logo_jdEJbk",
         "logo_jnc3tx",
+        "logo_jdEJbk",
         "logo_xBG7Wc"
       ],
       "settings": {

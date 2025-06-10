@@ -66,65 +66,65 @@
         <div class="multicolumn-services__item grid__item" {{ block.shopify_attributes }}>
           
           <div class="services-icon-heading">
-            {%- if block.settings.icon != blank -%}
+            {%- if settings.icon != blank -%}
               <div class="multicolumn-services__icon">
                 {{ settings.icon1 | image_url: width: 40 | image_tag:
                   loading: 'lazy',
                   width: 35,
                   height: 35,
-                  alt: block.settings.heading
+                  alt: settings.heading1
                 }}
               </div>
             {%- endif -%}
             
-            {%- if block.settings.heading != blank -%}
+            {%- if settings.heading1 != blank -%}
               <h3 class="subtitle">{{ settings.heading1 }}</h3>
             {%- endif -%}
           </div>
           
-          {%- if block.settings.text != blank -%}
+          {%- if settings.text1 != blank -%}
             <div class="rte">{{ settings.text1 }}</div>
           {%- endif -%}
         
           <div class="services-icon-heading">
-            {%- if block.settings.icon != blank -%}
+            {%- if settings.icon1 != blank -%}
               <div class="multicolumn-services__icon">
                 {{ settings.icon2 | image_url: width: 40 | image_tag:
                   loading: 'lazy',
                   width: 35,
                   height: 35,
-                  alt: block.settings.heading
+                  alt: settings.heading2
                 }}
               </div>
             {%- endif -%}
             
-            {%- if block.settings.heading != blank -%}
+            {%- if settings.heading2 != blank -%}
               <h3 class="subtitle">{{ settings.heading2 }}</h3>
             {%- endif -%}
           </div>
           
-          {%- if block.settings.text != blank -%}
+          {%- if settings.text2 != blank -%}
             <div class="rte">{{ settings.text2 }}</div>
           {%- endif -%}
         
           <div class="services-icon-heading">
-            {%- if block.settings.icon != blank -%}
+            {%- if settings.icon2 != blank -%}
               <div class="multicolumn-services__icon">
                 {{ settings.icon3 | image_url: width: 40 | image_tag:
                   loading: 'lazy',
                   width: 35,
                   height: 35,
-                  alt: block.settings.heading
+                  alt: settings.heading3
                 }}
               </div>
             {%- endif -%}
             
-            {%- if block.settings.heading != blank -%}
+            {%- if settings.heading3 != blank -%}
               <h3 class="subtitle">{{ settings.heading3 }}</h3>
             {%- endif -%}
           </div>
           
-          {%- if block.settings.text != blank -%}
+          {%- if settings.text3 != blank -%}
             <div class="rte">{{ settings.text3 }}</div>
           {%- endif -%}
         </div>

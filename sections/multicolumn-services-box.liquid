@@ -64,10 +64,11 @@
     <div class="multicolumn-services__grid grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-mobile column-alignment-{{ section.settings.columns_alignment }}">
       {%- for block in section.blocks -%}
         <div class="multicolumn-services__item grid__item" {{ block.shopify_attributes }}>
+          
           <div class="services-icon-heading">
             {%- if block.settings.icon != blank -%}
               <div class="multicolumn-services__icon">
-                {{ settings.icon[forloop.index] | image_url: width: 40 | image_tag:
+                {{ settings.icon1 | image_url: width: 40 | image_tag:
                   loading: 'lazy',
                   width: 35,
                   height: 35,
@@ -77,12 +78,54 @@
             {%- endif -%}
             
             {%- if block.settings.heading != blank -%}
-              <h3 class="subtitle">{{ settings.heading[forloop.index] }}</h3>
+              <h3 class="subtitle">{{ settings.heading1 }}</h3>
             {%- endif -%}
           </div>
           
           {%- if block.settings.text != blank -%}
-            <div class="rte">{{ settings.text[forloop.index] }}</div>
+            <div class="rte">{{ settings.text1 }}</div>
+          {%- endif -%}
+        
+          <div class="services-icon-heading">
+            {%- if block.settings.icon != blank -%}
+              <div class="multicolumn-services__icon">
+                {{ settings.icon2 | image_url: width: 40 | image_tag:
+                  loading: 'lazy',
+                  width: 35,
+                  height: 35,
+                  alt: block.settings.heading
+                }}
+              </div>
+            {%- endif -%}
+            
+            {%- if block.settings.heading != blank -%}
+              <h3 class="subtitle">{{ settings.heading2 }}</h3>
+            {%- endif -%}
+          </div>
+          
+          {%- if block.settings.text != blank -%}
+            <div class="rte">{{ settings.text2 }}</div>
+          {%- endif -%}
+        
+          <div class="services-icon-heading">
+            {%- if block.settings.icon != blank -%}
+              <div class="multicolumn-services__icon">
+                {{ settings.icon3 | image_url: width: 40 | image_tag:
+                  loading: 'lazy',
+                  width: 35,
+                  height: 35,
+                  alt: block.settings.heading
+                }}
+              </div>
+            {%- endif -%}
+            
+            {%- if block.settings.heading != blank -%}
+              <h3 class="subtitle">{{ settings.heading3 }}</h3>
+            {%- endif -%}
+          </div>
+          
+          {%- if block.settings.text != blank -%}
+            <div class="rte">{{ settings.text3 }}</div>
           {%- endif -%}
         </div>
       {%- endfor -%}

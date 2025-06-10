@@ -79,6 +79,11 @@
     </div>
 </div>
 
+<div class="logo-strip_note">
+  <div class="page-width">
+    <p>{{ section.settings.logo_stript_text }}</p>
+  </div>
+</div>
 
 {% schema %}
 {
@@ -90,6 +95,12 @@
         "id": "color_scheme",
         "label": "t:sections.all.colors.label",
         "default": "scheme-1"
+    },
+    {
+      "type": "text",
+      "id": "logo_stript_text",
+      "label": "Logo Strip Text",
+      "default": "The shape of the wire loops in wire loop baskets and bins is used as a shape trade mark."
     },
     {
         "type": "header",

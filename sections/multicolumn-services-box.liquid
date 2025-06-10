@@ -67,7 +67,7 @@
           <div class="services-icon-heading">
             {%- if block.settings.icon != blank -%}
               <div class="multicolumn-services__icon">
-                {{ settings.icon[forloop.index] | image_url: width: 40 | image_tag:
+                {{ block.settings.icon | image_url: width: 40 | image_tag:
                   loading: 'lazy',
                   width: 35,
                   height: 35,
@@ -77,12 +77,12 @@
             {%- endif -%}
             
             {%- if block.settings.heading != blank -%}
-              <h3 class="subtitle">{{ settings.heading[forloop.index] }}</h3>
+              <h3 class="subtitle">{{ block.settings.heading }}</h3>
             {%- endif -%}
           </div>
           
           {%- if block.settings.text != blank -%}
-            <div class="rte">{{ settings.text[forloop.index] }}</div>
+            <div class="rte">{{ block.settings.text }}</div>
           {%- endif -%}
         </div>
       {%- endfor -%}
@@ -239,7 +239,25 @@
       "type": "column",
       "name": "Service Column",
       "limit": 3,
-      "settings": []
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "Icon"
+        },
+        {
+          "type": "richtext",
+          "id": "heading",
+          "default": "<p>Column heading</p>",
+          "label": "Heading"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "default": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>",
+          "label": "Text"
+        }
+      ]
     }
   ],
   "presets": [

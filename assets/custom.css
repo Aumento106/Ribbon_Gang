@@ -3387,6 +3387,9 @@ ul.header__submenu li ul li a{
   .main-product-categories .collection-list-wrapper {
     padding: 0 1.5rem;
   }
+  .categories-slider .main-product-categories .collection-list .card-wrapper {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 749px) {

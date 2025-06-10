@@ -85,9 +85,10 @@
           {%- if settings.text1 != blank -%}
             <div class="rte">{{ settings.text1 }}</div>
           {%- endif -%}
-        
-          <div class="services-icon-heading">
-            {%- if settings.icon1 != blank -%}
+        </div>
+ <div class="multicolumn-services__item grid__item" {{ block.shopify_attributes }}>
+      <div class="services-icon-heading">
+            {%- if settings.icon2 != blank -%}
               <div class="multicolumn-services__icon">
                 {{ settings.icon2 | image_url: width: 40 | image_tag:
                   loading: 'lazy',
@@ -106,7 +107,8 @@
           {%- if settings.text2 != blank -%}
             <div class="rte">{{ settings.text2 }}</div>
           {%- endif -%}
-        
+ </div>
+       <div class="multicolumn-services__item grid__item" {{ block.shopify_attributes }}>
           <div class="services-icon-heading">
             {%- if settings.icon2 != blank -%}
               <div class="multicolumn-services__icon">
@@ -127,7 +129,7 @@
           {%- if settings.text3 != blank -%}
             <div class="rte">{{ settings.text3 }}</div>
           {%- endif -%}
-        </div>
+       </div>
       {%- endfor -%}
     </div>
   </div>

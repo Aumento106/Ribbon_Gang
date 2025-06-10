@@ -3379,7 +3379,7 @@ ul.header__submenu li ul li a{
   text-transform: uppercase;
   height: 50px;
 }
-..main_customer .create_account_link {
+.main_customer .create_account_link {
   display: none;
 }
 

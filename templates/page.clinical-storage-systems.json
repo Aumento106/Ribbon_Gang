@@ -87,24 +87,6 @@
     "categories_slider_E78EBH": {
       "type": "categories-slider",
       "blocks": {
-        "featured_collection_XmNLwb": {
-          "type": "featured_collection",
-          "settings": {
-            "categories_image": "shopify://shop_images/Blacktown_square.png",
-            "collection": "sterirack-system",
-            "card_text": "<p><strong>Modular bays, trolleys, benches, and shelving for full-facility fitouts</strong><br/>The gold standard in hospital-grade storage, STERIRACK® is designed to meet the high-volume, high-compliance needs of clinical spaces. Built on starter and add-on bays, this system integrates mobile carts, workbenches, and flexible accessories for complete workflow alignment.</p>",
-            "card_text_alignment": "left",
-            "card_text_descriptio": "<p><strong>Key Benefits:</strong><br/><strong>Modular bays, trolleys, benches, and shelving for full-facility fitouts<br/></strong>The gold standard in hospital-grade storage, STERIRACK® is designed to meet the high-volume, high-compliance needs of clinical spaces. Built on starter and add-on bays, this system integrates mobile carts, workbenches, and flexible accessories for complete workflow alignment. </p>",
-            "card_text_description_alignment": "left",
-            "text": "",
-            "link_1_text": "View Full STERIRACK® Range",
-            "video_1_url": "https://cdn.shopify.com/videos/c/o/v/b0bc7870dfc44c81a4c26a6e1d5b2255.mp4",
-            "link_2_text": "Watch system walkthrough video",
-            "video_2_url": "https://cdn.shopify.com/videos/c/o/v/b0bc7870dfc44c81a4c26a6e1d5b2255.mp4",
-            "button_card_text": "",
-            "redirection_link": ""
-          }
-        },
         "featured_collection_ekTJhX": {
           "type": "featured_collection",
           "settings": {
@@ -127,7 +109,7 @@
           "type": "featured_collection",
           "settings": {
             "categories_image": "shopify://shop_images/Blacktown_square.png",
-            "collection": "medibin-system",
+            "collection": "cleanspan",
             "card_text": "<p><strong>Compact, rail-mounted bin storage for medication and clean utility rooms</strong><br/>When space is tight but hygiene and visibility matter, MEDIBIN® delivers. Featuring clear bins on wall or post-mounted runners, it’s the ideal solution for fast-access pick zones and sterile stock control</p>",
             "card_text_alignment": "left",
             "card_text_descriptio": "",
@@ -145,7 +127,7 @@
           "type": "featured_collection",
           "settings": {
             "categories_image": "shopify://shop_images/Blacktown_square.png",
-            "collection": "medibin-system",
+            "collection": "sterirack-colour-coding",
             "card_text": "<p><strong>Compact, rail-mounted bin storage for medication and clean utility rooms</strong><br/>When space is tight but hygiene and visibility matter, MEDIBIN® delivers. Featuring clear bins on wall or post-mounted runners, it’s the ideal solution for fast-access pick zones and sterile stock control</p>",
             "card_text_alignment": "left",
             "card_text_descriptio": "",
@@ -158,13 +140,31 @@
             "button_card_text": "",
             "redirection_link": ""
           }
+        },
+        "featured_collection_XmNLwb": {
+          "type": "featured_collection",
+          "settings": {
+            "categories_image": "shopify://shop_images/Blacktown_square.png",
+            "collection": "sterirack-system",
+            "card_text": "<p><strong>Modular bays, trolleys, benches, and shelving for full-facility fitouts</strong><br/>The gold standard in hospital-grade storage, STERIRACK® is designed to meet the high-volume, high-compliance needs of clinical spaces. Built on starter and add-on bays, this system integrates mobile carts, workbenches, and flexible accessories for complete workflow alignment.</p>",
+            "card_text_alignment": "left",
+            "card_text_descriptio": "<p><strong>Key Benefits:</strong><br/><strong>Modular bays, trolleys, benches, and shelving for full-facility fitouts<br/></strong>The gold standard in hospital-grade storage, STERIRACK® is designed to meet the high-volume, high-compliance needs of clinical spaces. Built on starter and add-on bays, this system integrates mobile carts, workbenches, and flexible accessories for complete workflow alignment. </p>",
+            "card_text_description_alignment": "left",
+            "text": "",
+            "link_1_text": "View Full STERIRACK® Range",
+            "video_1_url": "https://cdn.shopify.com/videos/c/o/v/b0bc7870dfc44c81a4c26a6e1d5b2255.mp4",
+            "link_2_text": "Watch system walkthrough video",
+            "video_2_url": "https://cdn.shopify.com/videos/c/o/v/b0bc7870dfc44c81a4c26a6e1d5b2255.mp4",
+            "button_card_text": "",
+            "redirection_link": ""
+          }
         }
       },
       "block_order": [
-        "featured_collection_XmNLwb",
         "featured_collection_ekTJhX",
         "featured_collection_BVCdLh",
-        "featured_collection_R7mChA"
+        "featured_collection_R7mChA",
+        "featured_collection_XmNLwb"
       ],
       "name": "Categories-slider",
       "settings": {

@@ -112,6 +112,15 @@
     },
     "multicolumn_services_box_nmcdxw": {
       "type": "multicolumn-services-box",
+      "blocks": {
+        "column_6VTpxy": {
+          "type": "column",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "column_6VTpxy"
+      ],
       "settings": {
         "sec_title": "<p>Three interconnected divisions, delivering <br/>a complete end-to-end service</p>",
         "custom_heading_size": 52,

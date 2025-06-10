@@ -3348,3 +3348,13 @@ ul.header__submenu li ul li a{
   display: flex;
   align-items: flex-start;
 }
+.main_customer::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  right: 0;
+  height: 100%;
+  border-right: 1px solid #ccc;
+  width: 2px;
+  margin: 0 auto;
+}

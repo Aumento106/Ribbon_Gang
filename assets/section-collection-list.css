@@ -119,6 +119,9 @@ body.video-popup-open {
   .collection-list.slider .collection-list__item {
     max-width: 100%;
   }
+  .categories-slider .main-product-categories .collection-list .card-wrapper {
+    width: 100%;
+  }
 }
 
 .collection-list-view-all {

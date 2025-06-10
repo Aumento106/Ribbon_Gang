@@ -79,11 +79,13 @@
     </div>
 </div>
 
-<div class="logo-strip_note center">
-  <div class="page-width">
-    <p>{{ section.settings.logo_stript_text }}</p>
+{% if section.settings.logo_stript_text != blank %}
+  <div class="logo-strip_note center">
+    <div class="page-width">
+      <p>{{ section.settings.logo_stript_text }}</p>
+    </div>
   </div>
-</div>
+{% endif %}
 
 {% schema %}
 {

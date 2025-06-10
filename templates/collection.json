@@ -200,6 +200,33 @@
         "padding_bottom": 36
       }
     },
+    "rich_text_CqT3jr": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_dQJMjW": {
+          "type": "heading",
+          "settings": {
+            "heading": "MEDIBIN™ Colored Label HoldersAvailable in a range of 13 vibrant colors",
+            "custom_heading_size": 39,
+            "mobile_custom_heading_size": 28
+          }
+        }
+      },
+      "block_order": [
+        "heading_dQJMjW"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "content_alignment": "center",
+        "content_width": "medium",
+        "color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
+        "full_width": true,
+        "no_margin": false,
+        "section_border": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
     "dimension_table_cR8mFy": {
       "type": "dimension_table",
       "blocks": {
@@ -279,33 +306,6 @@
         "padding_bottom": 36
       }
     },
-    "rich_text_CqT3jr": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_dQJMjW": {
-          "type": "heading",
-          "settings": {
-            "heading": "MEDIBIN™ Colored Label HoldersAvailable in a range of 13 vibrant colors",
-            "custom_heading_size": 39,
-            "mobile_custom_heading_size": 28
-          }
-        }
-      },
-      "block_order": [
-        "heading_dQJMjW"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "content_alignment": "center",
-        "content_width": "medium",
-        "color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
-        "full_width": true,
-        "no_margin": false,
-        "section_border": false,
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
-    },
     "image_with_no_text_UUP4dk": {
       "type": "image-with-no-text",
       "blocks": {
@@ -337,9 +337,9 @@
     "product-grid",
     "product_catalog_xdFqLr",
     "product_list_aMiAGg",
-    "dimension_table_cR8mFy",
-    "video_E7wm9f",
     "rich_text_CqT3jr",
-    "image_with_no_text_UUP4dk"
+    "image_with_no_text_UUP4dk",
+    "dimension_table_cR8mFy",
+    "video_E7wm9f"
   ]
 }

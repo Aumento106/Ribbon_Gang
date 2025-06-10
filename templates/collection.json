@@ -199,6 +199,69 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "dimension_table_cR8mFy": {
+      "type": "dimension_table",
+      "blocks": {
+        "row_kpAHbi": {
+          "type": "row",
+          "settings": {
+            "description": "Extra Small MEDIBIN™",
+            "code": "10000XS",
+            "dimensions": "100W × 120H × 215D"
+          }
+        },
+        "row_gk3xxN": {
+          "type": "row",
+          "settings": {
+            "description": "Small MEDIBIN™",
+            "code": "10001S",
+            "dimensions": "135W x 120H x 215D"
+          }
+        },
+        "row_ePetGA": {
+          "type": "row",
+          "settings": {
+            "description": "Medium MEDIBIN™",
+            "code": "10002M",
+            "dimensions": "200W x 160H x 273D"
+          }
+        },
+        "row_z4tfHJ": {
+          "type": "row",
+          "settings": {
+            "description": "Large MEDIBIN™",
+            "code": "10003L",
+            "dimensions": "400W x 160H x 284D"
+          }
+        },
+        "row_P4xVTA": {
+          "type": "row",
+          "settings": {
+            "description": "Extra Large MEDIBIN™",
+            "code": "10004XL",
+            "dimensions": "400W x 160H x 440D"
+          }
+        },
+        "row_U3gGd9": {
+          "type": "row",
+          "settings": {
+            "description": "Extra Extra Large MEDIBIN™ – (does not hang – shelf bin only)",
+            "code": "10040XXL",
+            "dimensions": "440W x 350H x 600D"
+          }
+        }
+      },
+      "block_order": [
+        "row_kpAHbi",
+        "row_gk3xxN",
+        "row_ePetGA",
+        "row_z4tfHJ",
+        "row_P4xVTA",
+        "row_U3gGd9"
+      ],
+      "name": "dimension-table",
+      "settings": {}
     }
   },
   "order": [
@@ -207,6 +270,7 @@
     "page_banner_BXQVUB",
     "product-grid",
     "product_catalog_xdFqLr",
-    "product_list_aMiAGg"
+    "product_list_aMiAGg",
+    "dimension_table_cR8mFy"
   ]
 }

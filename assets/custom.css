@@ -3388,7 +3388,8 @@ ul.header__submenu li ul li a{
     padding: 0 1.5rem;
   }
   .section-collection-list .collection-list {
-    width: calc(100% - 30px);
+    /* width: calc(100% - 30px); */
+    gap: 0;
   }
   .section-collection-list .collection-list .collection-list__item {
     min-width: 100%;

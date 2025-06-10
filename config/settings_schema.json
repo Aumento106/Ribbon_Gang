@@ -34,7 +34,7 @@
     ]
   },
    {
-    "name": "t:settings_schema.logo.name",
+    "name": "Multicolumn Services Box",
     "settings": [
        {
           "type": "image_picker",

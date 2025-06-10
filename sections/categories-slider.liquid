@@ -288,6 +288,13 @@
   });
 </script>
 
+<script>
+  document.querySelectorAll('. main-product-categories .projects-popup-main').forEach(function(div) {
+    if (!div.innerHTML.trim()) {
+      div.style.display = 'none';
+    }
+  });
+</script>
 
 {% schema %}
 {

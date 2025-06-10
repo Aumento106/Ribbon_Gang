@@ -5,6 +5,9 @@
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
+  .main_customer {
+    height: calc( 100% - {{ section.settings.padding_top }} + {{ section.settings.padding_bottom }} );
+  }
 
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {

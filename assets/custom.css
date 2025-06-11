@@ -3416,7 +3416,7 @@ ul.header__submenu li ul li a{
   .main_customer .main_login_col,
   .main_customer .main_register_col {
     width: 100%;
-    flex: 1;
+    flex: 1 1 100%;
   }
   .main_customer::after {
     display: none;

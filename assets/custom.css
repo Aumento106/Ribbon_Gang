@@ -3351,6 +3351,11 @@ ul.header__submenu li ul li a{
   height: 100%;
   align-items: stretch;
 }
+.main_customer .main_login_col,
+.main_customer .main_register_col {
+  width: 50%;
+  flex: 1;
+}
 .main_customer::after {
   position: absolute;
   content: "";

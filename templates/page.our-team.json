@@ -72,7 +72,7 @@
         "heading_De9nEQ": {
           "type": "heading",
           "settings": {
-            "heading": "Experts in Storage. People First.",
+            "heading": "Experts in storage. People first.",
             "custom_heading_size": 52,
             "mobile_custom_heading_size": 28
           }
@@ -80,7 +80,7 @@
         "text_kMYRNM": {
           "type": "text",
           "settings": {
-            "text": "<p>Our team brings together clinical insight, design innovation, and technical excellence to deliver storage systems that actually work — for staff, for patients, and for the future of healthcare. We collaborate closely with clients to solve problems, streamline projects, and create clinical environments people love working in.</p>"
+            "text": "<p>Our team brings together clinical insight, design innovation, and technical excellence to deliver storage systems that actually work - for staff, for patients, and for the future of healthcare. We collaborate closely with clients to solve problems, streamline projects, and create clinical environments people love working in.</p>"
           }
         }
       },

@@ -32,7 +32,7 @@
       "settings": {
         "color_scheme_login": "scheme-28b9a3ce-e916-452a-9440-95fefcedbf92",
         "color_scheme_register": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
-        "enable_shop_login_button": false,
+        "enable_shop_login_button": true,
         "padding_top": 52,
         "padding_bottom": 52
       }

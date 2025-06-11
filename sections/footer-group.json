@@ -195,6 +195,9 @@
         "logo_jdEJbk",
         "logo_xBG7Wc"
       ],
+      "custom_css": [
+        "{font-size-adjust: 0.30}"
+      ],
       "settings": {
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "logo_stript_text": "*The shape of the wire loops in wire loop baskets and bins is used as a shape trade mark.",

@@ -23,7 +23,7 @@
           "type": "title",
           "settings": {
             "blog_show_date": false,
-            "blog_show_author": true
+            "blog_show_author": false
           }
         },
         "share": {

@@ -21,8 +21,8 @@
   {%- assign hide_shop_login_button = true -%}
 {%- endif -%}
 
-<div class="main_customer section-{{ section.id }}-padding color-{{ section.settings.color_scheme }}">
-    <div class="main_login_col">
+<div class="main_customer section-{{ section.id }}-padding">
+    <div class="main_login_col color-{{ section.settings.color_scheme_login }}">
       <div class="customer login">
         <h2 id="recover" tabindex="-1">
           {{ 'customer.recover_password.title' | t }}
@@ -174,7 +174,7 @@
         {%- endif -%}
       </div>
     </div>
-    <div class="main_register_col">
+    <div class="main_register_col color-{{ section.settings.color_scheme_register }}">
       <div class="customer register">
         <h1>
           {{ 'customer.register.title' | t }}
@@ -302,8 +302,14 @@
   "settings": [
     {
       "type": "color_scheme",
-      "id": "color_scheme",
-      "label": "t:sections.all.colors.label",
+      "id": "color_scheme_login",
+      "label": "Color Scheme Login",
+      "default": "scheme-1"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme_register",
+      "label": "Color Scheme Register",
       "default": "scheme-1"
     },
     {

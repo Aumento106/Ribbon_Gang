@@ -16,27 +16,27 @@
     color: {{ section.settings.sub_title_color }};
   }
   .section-{{ section.id }}-padding .newsletter-heading-con .title {
-    font-size: {{ section.settings.custom_heading_size }}px;
-    font-weight: {{ section.settings.font_weight }} !important;
+    font-size: {{ settings.custom_heading_size }}px;
+    font-weight: {{ settings.font_weight }} !important;
   }
   @media screen and (max-width: 1366px) {
     .section-{{ section.id }}-padding .newsletter-heading-con .title {
-      font-size: {{ section.settings.custom_heading_size | divided_by: 1.238 }}px;
+      font-size: {{ settings.custom_heading_size | divided_by: 1.238 }}px;
     }
   }
   @media screen and (max-width: 1199px) {
     .section-{{ section.id }}-padding .newsletter-heading-con .title {
-      font-size: {{ section.settings.custom_heading_size | divided_by: 1.3 }}px;
+      font-size: {{ settings.custom_heading_size | divided_by: 1.3 }}px;
     }
   }
   @media screen and (max-width: 989px) {
     .section-{{ section.id }}-padding .newsletter-heading-con .title {
-      font-size: {{ section.settings.custom_heading_size | divided_by: 1.52 }}px;
+      font-size: {{ settings.custom_heading_size | divided_by: 1.52 }}px;
     }
   }
   @media screen and (max-width: 749px) {
     .section-{{ section.id }}-padding .newsletter-heading-con .title {
-      font-size: {{ section.settings.mobile_custom_heading_size }}px;
+      font-size: {{ settings.mobile_custom_heading_size }}px;
     }
   }
 
@@ -63,8 +63,8 @@
   <div class="newsletter__wrapper content-container isolate{% if section.settings.full_width == false %} newsletter--narrow page-width{% endif %}{% if section.settings.full_width %} content-container--full-width{% endif %} section-{{ section.id }}-padding">
     <div class="grid grid--1-col grid--2-col-tablet">
       <div class="newsletter-heading-con grid__item{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-          <h2 class="title {{ section.settings.heading_size }} inline-richtext">
-              {{ section.settings.heading }}
+          <h2 class="title {{ settings.heading_size }} inline-richtext">
+              {{ settings.heading }}
           </h2>
           <div class="newsletter__subheading rte">
               {{ section.settings.text }}
@@ -205,66 +205,6 @@
     {
       "type": "paragraph",
       "content": "t:sections.newsletter.settings.paragraph.content"
-    },
-    {
-        "type": "richtext",
-        "id": "heading",
-        "label": "t:sections.newsletter.blocks.heading.settings.heading.label"
-    },
-    {
-      "type": "range",
-      "id": "custom_heading_size",
-      "min": 20,
-      "max": 70,
-      "step": 1,
-      "default": 52,
-      "unit": "px",
-      "label": "Heading Size"
-    },
-    {
-      "type": "range",
-      "id": "mobile_custom_heading_size",
-      "min": 20,
-      "max": 40,
-      "step": 1,
-      "default": 28,
-      "unit": "px",
-      "label": "Mobile Heading Size"
-    },
-    {
-      "type": "select",
-      "id": "font_weight",
-      "label": "Font Weight",
-      "default": "400",
-      "options": [
-        { "label": "Thin (100)", "value": "100" },
-        { "label": "Extra Light (200)", "value": "200" },
-        { "label": "Light (300)", "value": "300" },
-        { "label": "Regular (400)", "value": "400" },
-        { "label": "Medium (500)", "value": "500" },
-        { "label": "Semi Bold (600)", "value": "600" },
-        { "label": "Bold (700)", "value": "700" },
-        { "label": "Extra Bold (800)", "value": "800" },
-        { "label": "Black (900)", "value": "900" }
-      ]
-    },
-    {
-      "type": "richtext",
-      "id": "text",
-      "default": "t:sections.newsletter.blocks.paragraph.settings.paragraph.default",
-      "label": "t:sections.newsletter.blocks.paragraph.settings.paragraph.label"
-    },
-    {
-      "type": "color",
-      "id": "title_color",
-      "label": "Title Color",
-      "default": "#424242"
-    },
-    {
-      "type": "color",
-      "id": "sub_title_color",
-      "label": "SubHeading Color",
-      "default": "#424242"
     },
     {
       "type": "header",

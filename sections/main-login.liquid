@@ -6,7 +6,7 @@
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
   .main_customer::after {
-    height: calc( 100% - {{ section.settings.padding_top }}px + {{ section.settings.padding_bottom }}px );
+    height: calc( 100% - {{ section.settings.padding_top }}px - {{ section.settings.padding_bottom }}px );
   }
 
   @media screen and (min-width: 750px) {

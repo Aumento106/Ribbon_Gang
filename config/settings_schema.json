@@ -160,7 +160,6 @@
       {
       "type": "richtext",
       "id": "news_heading",
-      "default": "<p>t:sections.newsletter.blocks.heading.settings.heading.default</p>",
       "label": "t:sections.newsletter.blocks.heading.settings.heading.label"
     },
     {

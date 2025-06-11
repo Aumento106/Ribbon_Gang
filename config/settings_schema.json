@@ -33,7 +33,7 @@
       }
     ]
   },
-   {
+  {
     "name": "Multicolumn Services Box",
     "settings": [
        {
@@ -88,7 +88,7 @@
           "label": "Text"
         }
     ]
-   },
+  },
   {
     "name": "Custom Newsletter",
     "settings": [
@@ -151,6 +151,72 @@
       "id": "sub_title_color",
       "label": "SubHeading Color",
       "default": "#424242"
+    }
+    ]
+  },
+  {
+    "name": "Email Signup",
+    "settings": [
+      {
+        "type": "richtext",
+        "id": "news_heading",
+        "default": "<p>t:sections.newsletter.blocks.heading.settings.heading.default</p>",
+        "label": "t:sections.newsletter.blocks.heading.settings.heading.label"
+    },
+    {
+      "type": "range",
+      "id": "news_custom_heading_size",
+      "min": 20,
+      "max": 70,
+      "step": 1,
+      "default": 52,
+      "unit": "px",
+      "label": "Heading Size"
+    },
+    {
+      "type": "range",
+      "id": "news_mobile_custom_heading_size",
+      "min": 20,
+      "max": 40,
+      "step": 1,
+      "default": 28,
+      "unit": "px",
+      "label": "Mobile Heading Size"
+    },
+    {
+      "type": "select",
+      "id": "news_font_weight",
+      "label": "Font Weight",
+      "default": "400",
+      "options": [
+        { "label": "Thin (100)", "value": "100" },
+        { "label": "Extra Light (200)", "value": "200" },
+        { "label": "Light (300)", "value": "300" },
+        { "label": "Regular (400)", "value": "400" },
+        { "label": "Medium (500)", "value": "500" },
+        { "label": "Semi Bold (600)", "value": "600" },
+        { "label": "Bold (700)", "value": "700" },
+        { "label": "Extra Bold (800)", "value": "800" },
+        { "label": "Black (900)", "value": "900" }
+      ]
+    },
+    {
+        "type": "richtext",
+        "id": "news_text",
+        "default": "t:sections.newsletter.blocks.paragraph.settings.paragraph.default",
+        "label": "t:sections.newsletter.blocks.paragraph.settings.paragraph.label"
+    },
+    {
+      "type": "color",
+      "id": "news_title_color",
+      "label": "Title Color",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "news_subheading_color",
+      "label": "SubHeading Color",
+      "default": "#fff"
     }
     ]
   },

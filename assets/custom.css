@@ -3348,6 +3348,8 @@ ul.header__submenu li ul li a{
   display: flex;
   align-items: flex-start;
   position: relative;
+  height: 100%;
+  align-items: stretch;
 }
 .main_customer::after {
   position: absolute;

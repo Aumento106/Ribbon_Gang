@@ -66,13 +66,14 @@
           "type": "heading",
           "settings": {
             "heading": "About us",
-            "heading_size": "h0"
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28
           }
         },
         "text_UJHQb4": {
           "type": "text",
           "settings": {
-            "text": "<p>Welcome to SpaceLogic Group — a global leader in clinical healthcare storage solutions. With more than 40 years of experience, we’ve grown from a small family business into a trusted authority in healthcare space management. Our expertise spans complete project design, planning, and installation, supported by a modular, customisable range of innovative storage products.</p><p>Headquartered in Orange, New South Wales, Australia, and Springfield, New Jersey, USA, our team is dedicated to improving patient care time, enhancing infection control, and maximising space efficiency in hospitals, medical centres, day surgeries, veterinary clinics, and aged care facilities.</p><p>In this video, meet the SpaceLogic team as they share our mission, introduce our head office, and highlight our contribution to smarter healthcare storage.</p>",
+            "text": "<p>Welcome to SpaceLogic group - a global leader in clinical healthcare storage solutions. With more than 40 years of experience, we’ve grown from a small family business into a trusted authority in healthcare space management. Our expertise spans complete project design, planning, and installation, supported by a modular, customisable range of innovative storage products.</p><p>Headquartered in Orange, New South Wales, Australia, and Springfield, New Jersey, USA, our team is dedicated to improving patient care time, enhancing infection control, and maximising space efficiency in hospitals, medical centres, day surgeries, veterinary clinics, and aged care facilities.</p><p>In this video, meet the SpaceLogic team as they share our mission, introduce our head office, and highlight our contribution to smarter healthcare storage.</p>",
             "text_style": "body"
           }
         }
@@ -107,13 +108,14 @@
           "type": "heading",
           "settings": {
             "heading": "The SpaceLogic team",
-            "heading_size": "h1"
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28
           }
         },
         "text_3wTHXQ": {
           "type": "text",
           "settings": {
-            "text": "<p>Our <strong>expert team</strong> brings together trusted industry-leading professionals dedicated to optimising <strong>healthcare storage</strong>. By combining <strong>specialist knowledge</strong> with a client-focused approach, we deliver <strong>tailored solutions</strong> that enhance efficiency, safety, and usability in clinical environments</p><p><strong>Key Team Members:</strong></p><p><strong>Lloyd Scott – CEO<br/></strong>With extensive industry expertise, Lloyd leads SpaceLogic with a vision for <strong>delivering premium client experiences</strong> and <strong>innovative storage solutions</strong>.<br/></p><p><strong>Adam Piech – Product Sales Manager (AU)<br/></strong>Adam’s <strong>15 years of industry experience</strong> and deep product knowledge ensure exceptional <strong>customer satisfaction and engagement</strong>.</p><p><strong>Craig Stuart – Chief Financial Officer<br/></strong>Craig drives <strong>strategic financial planning</strong> and ensures strong <strong>risk management</strong> and operational efficiency.<br/><br/><strong>David Scott – Project Team Manager<br/></strong>A founder of SpaceLogic, David has <strong>over 35 years of expertise</strong> in <strong>healthcare storage design</strong>, guiding <strong>strategic innovation</strong>.<br/><br/><strong>Melissa Gillespie – Project Admin Manager<br/></strong>With <strong>15+ years in corporate coordination</strong>, Melissa ensures smooth project execution and <strong>seamless client interactions</strong>.<br/><br/><strong>Oleta Blunt – Senior Marketing Manager<br/></strong>Oleta’s expertise in <strong>strategic marketing</strong> and <strong>branding</strong> helps drive impactful campaigns and client relationships.<br/><br/>View our full team directory<strong> </strong><a href=\"/pages/our-team\" title=\"Our Team\"><strong>here. </strong></a></p>"
+            "text": "<p>Our <strong>expert team</strong> brings together trusted industry-leading professionals dedicated to optimising <strong>healthcare storage</strong>. By combining <strong>specialist knowledge</strong> with a client-focused approach, we deliver <strong>tailored solutions</strong> that enhance efficiency, safety, and usability in clinical environments</p><p><strong>Key Team Members:</strong></p><p><strong>Lloyd Scott – CEO<br/></strong>With extensive industry expertise, Lloyd leads SpaceLogic with a vision for <strong>delivering premium client experiences</strong> and <strong>innovative storage solutions</strong>.<br/></p><p><strong>Adam Piech – Product sales manager (AU)<br/></strong>Adam’s <strong>15 years of industry experience</strong> and deep product knowledge ensure exceptional <strong>customer satisfaction and engagement</strong>.</p><p><strong>Craig Stuart – Chief financial officer<br/></strong>Craig drives <strong>strategic financial planning</strong> and ensures strong <strong>risk management</strong> and operational efficiency.<br/><br/><strong>David Scott – Project team manager<br/></strong>A founder of SpaceLogic, David has <strong>over 35 years of expertise</strong> in <strong>healthcare storage design</strong>, guiding <strong>strategic innovation</strong>.<br/><br/><strong>Melissa Gillespie – Project admin kanager<br/></strong>With <strong>15+ years in corporate coordination</strong>, Melissa ensures smooth project execution and <strong>seamless client interactions</strong>.<br/><br/><strong>Oleta Blunt – Senior marketing manager<br/></strong>Oleta’s expertise in <strong>strategic marketing</strong> and <strong>branding</strong> helps drive impactful campaigns and client relationships.<br/><br/>View our full team directory<strong> </strong><a href=\"/pages/our-team\" title=\"Our Team\"><strong>here. </strong></a></p>"
           }
         }
       },
@@ -122,7 +124,7 @@
         "text_3wTHXQ"
       ],
       "settings": {
-        "content_alignment": "center",
+        "content_alignment": "left",
         "content_width": "full_width",
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "full_width": true,
@@ -141,6 +143,7 @@
         "heading": "<p>Product Catalogue</p>",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
+        "font_weight": "400",
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "description": "<p>Click here to view our latest product and services catalogue in a browser without downloading.</p>",
         "button_1_text": "View catalogue",

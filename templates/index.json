@@ -592,7 +592,7 @@
       ],
       "settings": {
         "title": "<p>Innovative storage solutions</p>",
-        "sec_subtitle": "Making space for care cross every department",
+        "sec_subtitle": "Making space for care across every department",
         "title_color": "#ffffff",
         "subheading_color": "#ffffff",
         "button_text": "",
@@ -740,7 +740,7 @@
           "type": "column",
           "settings": {
             "title": "Focus",
-            "text": "<ul><li>Clinical storage solutions</li><li>Infection control andsafety focus</li><li>Optimised workflow</li><li>Sterile and non-sterile options</li><li>Optimised workflow</li></ul>",
+            "text": "<ul><li>Clinical storage solutions</li><li>Infection control and safety focus</li><li>Optimised workflow</li><li>Sterile and non-sterile options</li><li>Optimised workflow</li></ul>",
             "text-v": "",
             "button-text": "Find out more",
             "button-url": "shopify://collections"

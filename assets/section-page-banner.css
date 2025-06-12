@@ -104,6 +104,7 @@
 }
 .page-banner_sec .content-alignment-center ul li {
   justify-content: center;
+  flex-wrap: wrap;
 }
 .page-banner_sec .content-alignment-left .rich-text__buttons {
     justify-content: start;

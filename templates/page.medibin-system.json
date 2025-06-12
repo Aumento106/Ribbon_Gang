@@ -99,7 +99,7 @@
           "type": "featured_collection",
           "settings": {
             "categories_image": "shopify://shop_images/image-banner-2.png",
-            "collection": "medibin-standard-label-holders-various-types",
+            "collection": "medibin™-standard-label-holders",
             "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
             "button_card_text": "Shop now",
             "redirection_link": ""
@@ -157,6 +157,7 @@
         "heading": "<p>Product Catalogue</p>",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
+        "font_weight": "400",
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "description": "<p>Click here to view our latest product and services catalogue in a browser without downloading.</p>",
         "button_1_text": "View catalogue",

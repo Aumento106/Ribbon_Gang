@@ -139,8 +139,7 @@
     margin-bottom: 16px;
 }
 
-
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
   .page-banner_sec .content-alignment-center ul li {
     display: inline-block;
     position: relative;
@@ -152,6 +151,10 @@
     left: 0;
     width: 5px;
   }
+}
+
+@media screen and (max-width: 1024px) {
+  
     .page-banner_sec .video_yt_banner iframe {
         max-height: 520px;
     }

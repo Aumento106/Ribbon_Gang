@@ -396,10 +396,10 @@
         "row_rcBETk": {
           "type": "row",
           "settings": {
-            "description": "Extra Extra Large MEDIBIN™ – (does not hang – shelf bin only)",
-            "code": "10040XXL",
-            "dimensions": "440W x 350H x 600D",
-            "dimensions_inch": ""
+            "description": "Wire Shelf",
+            "code": "22106",
+            "dimensions": "1260W x 400D",
+            "dimensions_inch": "49 5/8″ W x 15 3/4″ D"
           }
         }
       },

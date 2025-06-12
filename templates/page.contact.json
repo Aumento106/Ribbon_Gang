@@ -91,7 +91,7 @@
         "text_HyiR3k": {
           "type": "text",
           "settings": {
-            "text": "<p>We are always happy to discuss your healthcare storage needs. Our expert consultants are friendly, knowledgeable, and ready to help. Contact us today to discover how SpaceLogic can transform your clinical storage management system. Our consultants will respond within 12 business hours. 11</p>"
+            "text": "<p>We are always happy to discuss your healthcare storage needs. Our expert consultants are friendly, knowledgeable, and ready to help. Contact us today to discover how SpaceLogic can transform your clinical storage management system. Our consultants will respond within 12 business hours.</p>"
           }
         }
       },
@@ -118,7 +118,7 @@
           "type": "location",
           "settings": {
             "box_color_scheme": "scheme-1",
-            "title": "Australia 33",
+            "title": "Australia",
             "company": "Head office: SpaceLogic Group Pty Ltd",
             "company_icon": "shopify://shop_images/organization-svgrepo-com_1_small_26426c1f-6500-422b-826e-1f5dfd600d5b.svg",
             "address": "7 Cameron Place, Orange NSW 2800, Australia",
@@ -226,7 +226,7 @@
         "heading_B3XexP": {
           "type": "heading",
           "settings": {
-            "heading": "RMA request 22",
+            "heading": "RMA request",
             "custom_heading_size": 52,
             "mobile_custom_heading_size": 28
           }

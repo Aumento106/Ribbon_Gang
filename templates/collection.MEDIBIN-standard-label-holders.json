@@ -466,6 +466,15 @@
             "dimensions": "10287",
             "dimensions_inch": "22039"
           }
+        },
+        "row_U94F8M": {
+          "type": "row",
+          "settings": {
+            "description": "Purple",
+            "code": "Neurology",
+            "dimensions": "10278",
+            "dimensions_inch": "22030"
+          }
         }
       },
       "block_order": [
@@ -475,7 +484,8 @@
         "row_ek8bYN",
         "row_xHCLra",
         "row_6Jhabf",
-        "row_i6ynbh"
+        "row_i6ynbh",
+        "row_U94F8M"
       ],
       "name": "dimension-table",
       "settings": {

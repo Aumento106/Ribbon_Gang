@@ -87,6 +87,24 @@
     "categories_slider_E78EBH": {
       "type": "categories-slider",
       "blocks": {
+        "featured_collection_XmNLwb": {
+          "type": "featured_collection",
+          "settings": {
+            "categories_image": "shopify://shop_images/Blacktown_square.png",
+            "collection": "sterirack-system",
+            "card_text": "<p><strong>Modular bays, trolleys, benches, and shelving for full-facility fitouts.</strong><br/>The gold standard in hospital-grade storage, STERIRACK® is designed to meet the high-volume, high-compliance needs of clinical spaces. Built on starter and add-on bays, this system integrates mobile carts, workbenches, and flexible accessories for complete workflow alignment.</p>",
+            "card_text_alignment": "left",
+            "card_text_descriptio": "<p><strong>Key Benefits:</strong></p><ul><li>Modular bays and mobile carts</li><li>Adjustable baskets and shelves</li><li>Bench, racking and accessory integration</li><li>Easy to clean and reconfigure</li><li>Ideal for full facility fit outs</li></ul>",
+            "card_text_description_alignment": "left",
+            "text": "",
+            "link_1_text": "View full STERIRACK® range",
+            "video_1_url": "https://cdn.shopify.com/videos/c/o/v/b0bc7870dfc44c81a4c26a6e1d5b2255.mp4",
+            "link_2_text": "Watch system walkthrough video",
+            "video_2_url": "https://cdn.shopify.com/videos/c/o/v/b0bc7870dfc44c81a4c26a6e1d5b2255.mp4",
+            "button_card_text": "",
+            "redirection_link": ""
+          }
+        },
         "featured_collection_ekTJhX": {
           "type": "featured_collection",
           "settings": {
@@ -107,6 +125,7 @@
         },
         "featured_collection_BVCdLh": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "categories_image": "shopify://shop_images/Blacktown_square.png",
             "collection": "cleanspan",
@@ -125,6 +144,7 @@
         },
         "featured_collection_R7mChA": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "categories_image": "shopify://shop_images/Blacktown_square.png",
             "collection": "sterirack-colour-coding",
@@ -140,33 +160,14 @@
             "button_card_text": "",
             "redirection_link": ""
           }
-        },
-        "featured_collection_XmNLwb": {
-          "type": "featured_collection",
-          "settings": {
-            "categories_image": "shopify://shop_images/Blacktown_square.png",
-            "collection": "sterirack-system",
-            "card_text": "<p><strong>Modular bays, trolleys, benches, and shelving for full-facility fitouts.</strong><br/>The gold standard in hospital-grade storage, STERIRACK® is designed to meet the high-volume, high-compliance needs of clinical spaces. Built on starter and add-on bays, this system integrates mobile carts, workbenches, and flexible accessories for complete workflow alignment.</p>",
-            "card_text_alignment": "left",
-            "card_text_descriptio": "<p><strong>Key Benefits:</strong></p><ul><li>Modular bays and mobile carts</li><li>Adjustable baskets and shelves</li><li>Bench, racking and accessory integration</li><li>Easy to clean and reconfigure</li><li>Ideal for full facility fit outs</li></ul>",
-            "card_text_description_alignment": "left",
-            "text": "",
-            "link_1_text": "View full STERIRACK® range",
-            "video_1_url": "https://cdn.shopify.com/videos/c/o/v/b0bc7870dfc44c81a4c26a6e1d5b2255.mp4",
-            "link_2_text": "Watch system walkthrough video",
-            "video_2_url": "https://cdn.shopify.com/videos/c/o/v/b0bc7870dfc44c81a4c26a6e1d5b2255.mp4",
-            "button_card_text": "",
-            "redirection_link": ""
-          }
         }
       },
       "block_order": [
+        "featured_collection_XmNLwb",
         "featured_collection_ekTJhX",
         "featured_collection_BVCdLh",
-        "featured_collection_R7mChA",
-        "featured_collection_XmNLwb"
+        "featured_collection_R7mChA"
       ],
-      "name": "Categories-slider",
       "settings": {
         "title": "",
         "custom_heading_size": 52,
@@ -221,7 +222,6 @@
         "text_YFnmyE",
         "caption_XBKWrq"
       ],
-      "name": "t:sections.rich-text.presets.name",
       "settings": {
         "content_alignment": "center",
         "content_width": "medium",
@@ -269,7 +269,6 @@
         "column_6zTgRQ",
         "column_K8Kwg3"
       ],
-      "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "",
         "custom_heading_size": 52,
@@ -311,7 +310,6 @@
         "heading_pajqEU",
         "text_WpRpHU"
       ],
-      "name": "t:sections.rich-text.presets.name",
       "settings": {
         "content_alignment": "center",
         "content_width": "medium",
@@ -325,7 +323,6 @@
     },
     "custom_liquid_Y6PCdj": {
       "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "custom_liquid": "",
         "color_scheme": "",
@@ -372,7 +369,6 @@
         "text_tggAzB",
         "button_m8QFcQ"
       ],
-      "name": "t:sections.rich-text.presets.name",
       "settings": {
         "content_alignment": "center",
         "content_width": "medium",

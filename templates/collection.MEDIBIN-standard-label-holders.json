@@ -493,6 +493,15 @@
             "dimensions": "10284",
             "dimensions_inch": "22036"
           }
+        },
+        "row_7dAQMX": {
+          "type": "row",
+          "settings": {
+            "description": "Hot Pink",
+            "code": "Plastics",
+            "dimensions": "10289",
+            "dimensions_inch": "22028"
+          }
         }
       },
       "block_order": [
@@ -505,7 +514,8 @@
         "row_i6ynbh",
         "row_U94F8M",
         "row_N8fkME",
-        "row_7hUxAF"
+        "row_7hUxAF",
+        "row_7dAQMX"
       ],
       "name": "dimension-table",
       "settings": {

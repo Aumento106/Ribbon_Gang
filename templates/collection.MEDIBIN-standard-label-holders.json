@@ -343,6 +343,63 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "rich_text_rkJNRp": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_n8pqAY": {
+          "type": "heading",
+          "settings": {
+            "heading": "Label holders and post strips in a range of 14 vibrant colors",
+            "custom_heading_size": 39,
+            "mobile_custom_heading_size": 28
+          }
+        },
+        "text_THn7LF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>(including black)</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_n8pqAY",
+        "text_THn7LF"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "content_alignment": "center",
+        "content_width": "medium",
+        "color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
+        "full_width": true,
+        "no_margin": false,
+        "section_border": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "image_with_no_text_GAJjdq": {
+      "type": "image-with-no-text",
+      "blocks": {
+        "image_9h7qzV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/sterirack-clicknclip-coloured-label-holders-3-1536x299.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_9h7qzV"
+      ],
+      "name": "Image with no text",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -355,6 +412,8 @@
     "dimension_table_cR8mFy",
     "rich_text_CqT3jr",
     "image_with_no_text_UUP4dk",
-    "video_E7wm9f"
+    "video_E7wm9f",
+    "rich_text_rkJNRp",
+    "image_with_no_text_GAJjdq"
   ]
 }

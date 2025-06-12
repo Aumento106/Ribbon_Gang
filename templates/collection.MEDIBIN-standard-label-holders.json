@@ -35,7 +35,7 @@
         "heading_nhBt8y": {
           "type": "heading",
           "settings": {
-            "heading": "Our products",
+            "heading": "MEDIBIN™ Standard Label Holders",
             "custom_heading_size": 52,
             "mobile_custom_heading_size": 28,
             "heading_alignment": "center"
@@ -44,7 +44,7 @@
         "text_G6e3Nj": {
           "type": "text",
           "settings": {
-            "text": "<p>Across hospitals, day surgeries, and healthcare facilities in Australia, the U.S, and beyond, SpaceLogic partners with clients to deliver tailored, high-performance storage systems. Every project is a collaboration — from planning and prototyping to seamless installation — ensuring STERIRACK® integrates perfectly into clinical environments with minimal disruption.</p><p>Explore a selection of recent installations below, each one reflecting our commitment to better care through smarter storage.</p>",
+            "text": "<p>Vastly improve the efficiency of your ward and implement best practice search and retrieval protocols using STERIRACK® Click ‘n’ Clip Coloured Label Holders.</p><ul><li>Now available for STERIRACK® System racking, shelving and baskets, as well as STERIRACK® Trolleys and Carts</li><li>An innovation brought to you by the SpaceLogic design team and inspired by feedback from our healthcare colleagues all over Australia</li><li>Innovative Click ‘n’ Clip Coloured Label Holders click together both vertically and horizontally, and clip to the front of STERIRACK® baskets and shelving</li><li>Use colour psychology to facilitate best practice categorisation and retrieval protocols, or simply colour co-ordinate to suit your decor</li><li>Available in 13 great colours</li><li>Post strips are also available in the same great colour range</li><li>Check out the videos below to see how hospitals are slashing the time their nurses spend hunting through storerooms</li></ul><p>Label size: 80mmW x 40mmH. Label holders come with accompanying cardboard and plastic inserts.</p>",
             "text_alignment": "center"
           }
         }
@@ -208,7 +208,8 @@
           "settings": {
             "description": "Extra Small MEDIBIN™",
             "code": "10000XS",
-            "dimensions": "100W × 120H × 215D"
+            "dimensions": "100W × 120H × 215D",
+            "dimensions_inch": ""
           }
         },
         "row_gk3xxN": {
@@ -216,7 +217,8 @@
           "settings": {
             "description": "Small MEDIBIN™",
             "code": "10001S",
-            "dimensions": "135W x 120H x 215D"
+            "dimensions": "135W x 120H x 215D",
+            "dimensions_inch": ""
           }
         },
         "row_ePetGA": {
@@ -224,7 +226,8 @@
           "settings": {
             "description": "Medium MEDIBIN™",
             "code": "10002M",
-            "dimensions": "200W x 160H x 273D"
+            "dimensions": "200W x 160H x 273D",
+            "dimensions_inch": ""
           }
         },
         "row_z4tfHJ": {
@@ -232,7 +235,8 @@
           "settings": {
             "description": "Large MEDIBIN™",
             "code": "10003L",
-            "dimensions": "400W x 160H x 284D"
+            "dimensions": "400W x 160H x 284D",
+            "dimensions_inch": ""
           }
         },
         "row_P4xVTA": {
@@ -240,7 +244,8 @@
           "settings": {
             "description": "Extra Large MEDIBIN™",
             "code": "10004XL",
-            "dimensions": "400W x 160H x 440D"
+            "dimensions": "400W x 160H x 440D",
+            "dimensions_inch": ""
           }
         },
         "row_U3gGd9": {
@@ -248,7 +253,8 @@
           "settings": {
             "description": "Extra Extra Large MEDIBIN™ – (does not hang – shelf bin only)",
             "code": "10040XXL",
-            "dimensions": "440W x 350H x 600D"
+            "dimensions": "440W x 350H x 600D",
+            "dimensions_inch": ""
           }
         }
       },
@@ -262,7 +268,12 @@
       ],
       "disabled": true,
       "name": "dimension-table",
-      "settings": {}
+      "settings": {
+        "description": "Description",
+        "code": "Code",
+        "dimensions": "Dimensions",
+        "dimensions_inch": "Dimensions (inches)"
+      }
     },
     "rich_text_CqT3jr": {
       "type": "rich-text",

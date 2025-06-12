@@ -1,0 +1,360 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_breadcrumb_nmUW87": {
+      "type": "section-breadcrumb",
+      "name": "Breadcrumb",
+      "settings": {
+        "color_scheme": "",
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "mobile_padding_top": 30,
+        "mobile_padding_bottom": 30
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "scheme-1"
+      }
+    },
+    "page_banner_BXQVUB": {
+      "type": "page-banner",
+      "blocks": {
+        "heading_nhBt8y": {
+          "type": "heading",
+          "settings": {
+            "heading": "MEDIBIN™ Freestanding Racks",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "heading_alignment": "center"
+          }
+        },
+        "text_G6e3Nj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Across hospitals, day surgeries, and healthcare facilities in Australia, the U.S, and beyond, SpaceLogic partners with clients to deliver tailored, high-performance storage systems. Every project is a collaboration — from planning and prototyping to seamless installation — ensuring STERIRACK® integrates perfectly into clinical environments with minimal disruption.</p><p>Explore a selection of recent installations below, each one reflecting our commitment to better care through smarter storage.</p>",
+            "text_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nhBt8y",
+        "text_G6e3Nj"
+      ],
+      "settings": {
+        "title_alignment": "center",
+        "full_width": true,
+        "content_width": "full_width",
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 20,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "learnmore",
+        "learn_more_button_text": "Learn More",
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 72,
+        "padding_bottom": 36
+      }
+    },
+    "product_catalog_xdFqLr": {
+      "type": "product-catalog",
+      "disabled": true,
+      "settings": {
+        "product_image": "shopify://shop_images/image_104.png",
+        "logo_link": "",
+        "heading": "<p>Product Catalogue</p>",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "font_weight": "400",
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "description": "<p>Click here to view our latest product and services catalogue in a browser without downloading.</p>",
+        "button_1_text": "View catalogue",
+        "button_1_link": "https://online.flippingbook.com/view/393434/",
+        "button_2_text": "Download Catalog",
+        "button_2_link": "",
+        "reverse_column": true,
+        "title_color": "#424242",
+        "subheading_color": "#424242",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "product_list_aMiAGg": {
+      "type": "product-list",
+      "blocks": {
+        "featured_collection_6k4pWc": {
+          "type": "featured_collection",
+          "settings": {
+            "categories_image": "shopify://shop_images/Blacktown_square.png",
+            "product_name": "Extra Small MEDIBIN™",
+            "collection": "medibin-system",
+            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "button_card_text": "Button",
+            "redirection_link": ""
+          }
+        },
+        "featured_collection_8McjeJ": {
+          "type": "featured_collection",
+          "settings": {
+            "categories_image": "shopify://shop_images/Home_20.png",
+            "product_name": "Small MEDIBIN™",
+            "collection": "medibin-system",
+            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "button_card_text": "Button",
+            "redirection_link": ""
+          }
+        },
+        "featured_collection_feVR7w": {
+          "type": "featured_collection",
+          "settings": {
+            "categories_image": "shopify://shop_images/Blacktown_Hospital_19.png",
+            "product_name": "Medium MEDIBIN™",
+            "collection": "medibin-system",
+            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "button_card_text": "Button",
+            "redirection_link": "shopify://collections/all"
+          }
+        },
+        "featured_collection_FzUGtP": {
+          "type": "featured_collection",
+          "settings": {
+            "categories_image": "shopify://shop_images/Group_1171277822.jpg",
+            "product_name": "Large MEDIBIN™",
+            "collection": "medibin-system",
+            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "button_card_text": "Button",
+            "redirection_link": ""
+          }
+        },
+        "featured_collection_F6ttDE": {
+          "type": "featured_collection",
+          "settings": {
+            "categories_image": "shopify://shop_images/Group_1171277824.jpg",
+            "product_name": "Extra Large MEDIBIN™",
+            "collection": "medibin-system",
+            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "button_card_text": "Button",
+            "redirection_link": ""
+          }
+        },
+        "featured_collection_pnAkTJ": {
+          "type": "featured_collection",
+          "settings": {
+            "categories_image": "shopify://shop_images/Group_1171277831.jpg",
+            "product_name": "Extra Extra Large MEDIBIN™",
+            "collection": "medibin-system",
+            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "button_card_text": "Button",
+            "redirection_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_6k4pWc",
+        "featured_collection_8McjeJ",
+        "featured_collection_feVR7w",
+        "featured_collection_FzUGtP",
+        "featured_collection_F6ttDE",
+        "featured_collection_pnAkTJ"
+      ],
+      "disabled": true,
+      "name": "Product List",
+      "settings": {
+        "title": "",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "dimension_table_cR8mFy": {
+      "type": "dimension_table",
+      "blocks": {
+        "row_kpAHbi": {
+          "type": "row",
+          "settings": {
+            "description": "Extra Small MEDIBIN™",
+            "code": "10000XS",
+            "dimensions": "100W × 120H × 215D",
+            "dimensions_inch": ""
+          }
+        },
+        "row_gk3xxN": {
+          "type": "row",
+          "settings": {
+            "description": "Small MEDIBIN™",
+            "code": "10001S",
+            "dimensions": "135W x 120H x 215D",
+            "dimensions_inch": ""
+          }
+        },
+        "row_ePetGA": {
+          "type": "row",
+          "settings": {
+            "description": "Medium MEDIBIN™",
+            "code": "10002M",
+            "dimensions": "200W x 160H x 273D",
+            "dimensions_inch": ""
+          }
+        },
+        "row_z4tfHJ": {
+          "type": "row",
+          "settings": {
+            "description": "Large MEDIBIN™",
+            "code": "10003L",
+            "dimensions": "400W x 160H x 284D",
+            "dimensions_inch": ""
+          }
+        },
+        "row_P4xVTA": {
+          "type": "row",
+          "settings": {
+            "description": "Extra Large MEDIBIN™",
+            "code": "10004XL",
+            "dimensions": "400W x 160H x 440D",
+            "dimensions_inch": ""
+          }
+        },
+        "row_U3gGd9": {
+          "type": "row",
+          "settings": {
+            "description": "Extra Extra Large MEDIBIN™ – (does not hang – shelf bin only)",
+            "code": "10040XXL",
+            "dimensions": "440W x 350H x 600D",
+            "dimensions_inch": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_kpAHbi",
+        "row_gk3xxN",
+        "row_ePetGA",
+        "row_z4tfHJ",
+        "row_P4xVTA",
+        "row_U3gGd9"
+      ],
+      "disabled": true,
+      "name": "dimension-table",
+      "settings": {
+        "description": "Description",
+        "code": "Code",
+        "dimensions": "Dimensions",
+        "dimensions_inch": "Dimensions (inches)"
+      }
+    },
+    "rich_text_CqT3jr": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_dQJMjW": {
+          "type": "heading",
+          "settings": {
+            "heading": "MEDIBIN™ Colored Label HoldersAvailable in a range of 13 vibrant colors",
+            "custom_heading_size": 39,
+            "mobile_custom_heading_size": 28
+          }
+        }
+      },
+      "block_order": [
+        "heading_dQJMjW"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "content_alignment": "center",
+        "content_width": "medium",
+        "color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
+        "full_width": true,
+        "no_margin": false,
+        "section_border": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "image_with_no_text_UUP4dk": {
+      "type": "image-with-no-text",
+      "blocks": {
+        "image_Qpy3NK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MEDIBIN-standard-label-holders-2048x369.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_Qpy3NK"
+      ],
+      "disabled": true,
+      "name": "Image with no text",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "video_E7wm9f": {
+      "type": "video",
+      "disabled": true,
+      "name": "t:sections.video.presets.name",
+      "settings": {
+        "heading": "VIDEO - Use MEDIBINS™ not non-compliant plastic bins",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https://youtu.be/0vtNGCmZ-yQ?si=vBueGVrcmnNkQb6i",
+        "cover_image": "shopify://shop_images/maxresdefault_e72b4216-5dde-40ad-ab68-731685d0c282.webp",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "section_breadcrumb_nmUW87",
+    "banner",
+    "page_banner_BXQVUB",
+    "product-grid",
+    "product_catalog_xdFqLr",
+    "product_list_aMiAGg",
+    "dimension_table_cR8mFy",
+    "rich_text_CqT3jr",
+    "image_with_no_text_UUP4dk",
+    "video_E7wm9f"
+  ]
+}

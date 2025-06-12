@@ -344,6 +344,80 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "dimension_table_cDXM3w": {
+      "type": "dimension_table",
+      "blocks": {
+        "row_jmXT6M": {
+          "type": "row",
+          "settings": {
+            "description": "Wire Shelf",
+            "code": "22101",
+            "dimensions": "400W x 400D",
+            "dimensions_inch": "15 3/4″ W x 15 3/4″ D"
+          }
+        },
+        "row_kHnehW": {
+          "type": "row",
+          "settings": {
+            "description": "Small MEDIBIN™",
+            "code": "10001S",
+            "dimensions": "135W x 120H x 215D",
+            "dimensions_inch": ""
+          }
+        },
+        "row_e8Nmgq": {
+          "type": "row",
+          "settings": {
+            "description": "Medium MEDIBIN™",
+            "code": "10002M",
+            "dimensions": "200W x 160H x 273D",
+            "dimensions_inch": ""
+          }
+        },
+        "row_jRwCgR": {
+          "type": "row",
+          "settings": {
+            "description": "Large MEDIBIN™",
+            "code": "10003L",
+            "dimensions": "400W x 160H x 284D",
+            "dimensions_inch": ""
+          }
+        },
+        "row_XWPY6b": {
+          "type": "row",
+          "settings": {
+            "description": "Extra Large MEDIBIN™",
+            "code": "10004XL",
+            "dimensions": "400W x 160H x 440D",
+            "dimensions_inch": ""
+          }
+        },
+        "row_rcBETk": {
+          "type": "row",
+          "settings": {
+            "description": "Extra Extra Large MEDIBIN™ – (does not hang – shelf bin only)",
+            "code": "10040XXL",
+            "dimensions": "440W x 350H x 600D",
+            "dimensions_inch": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_jmXT6M",
+        "row_kHnehW",
+        "row_e8Nmgq",
+        "row_jRwCgR",
+        "row_XWPY6b",
+        "row_rcBETk"
+      ],
+      "name": "dimension-table",
+      "settings": {
+        "description": "Description",
+        "code": "Crome",
+        "dimensions": "Dimensions (mm)",
+        "dimensions_inch": "Dimensions (Inches)"
+      }
     }
   },
   "order": [
@@ -356,6 +430,7 @@
     "dimension_table_cR8mFy",
     "rich_text_CqT3jr",
     "image_with_no_text_UUP4dk",
-    "video_E7wm9f"
+    "video_E7wm9f",
+    "dimension_table_cDXM3w"
   ]
 }

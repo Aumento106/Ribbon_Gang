@@ -262,7 +262,12 @@
       ],
       "disabled": true,
       "name": "dimension-table",
-      "settings": {}
+      "settings": {
+        "description": "Description",
+        "code": "Code",
+        "dimensions": "Dimensions",
+        "dimensions_inch": "Dimensions (inches)"
+      }
     },
     "rich_text_CqT3jr": {
       "type": "rich-text",
@@ -385,7 +390,71 @@
         "row_Xjx7aT"
       ],
       "name": "dimension-table",
-      "settings": {}
+      "settings": {
+        "description": "Description",
+        "code": "Code",
+        "dimensions": "Dimensions",
+        "dimensions_inch": ""
+      }
+    },
+    "dimension_table_M7RpQG": {
+      "type": "dimension_table",
+      "blocks": {
+        "row_kUCQbP": {
+          "type": "row",
+          "settings": {
+            "description": "Extra Small MEDIBIN™",
+            "code": "10008",
+            "dimensions": "450H x 420W"
+          }
+        },
+        "row_mxVE9q": {
+          "type": "row",
+          "settings": {
+            "description": "Medium MEDIBIN™ Panel",
+            "code": "10009",
+            "dimensions": "900H x 420W"
+          }
+        },
+        "row_eQapFe": {
+          "type": "row",
+          "settings": {
+            "description": "Large MEDIBIN™ Panel",
+            "code": "10010",
+            "dimensions": "1200H x 420W"
+          }
+        },
+        "row_JVwNwK": {
+          "type": "row",
+          "settings": {
+            "description": "Extra Large MEDIBIN™ Panel",
+            "code": "10011",
+            "dimensions": "1800H x 420W"
+          }
+        },
+        "row_G9jUxV": {
+          "type": "row",
+          "settings": {
+            "description": "MEDIBIN™ Panel to carry 1 Medium MEDIBIN™ – (ideal for hospital bedside)",
+            "code": "10154",
+            "dimensions": "160H x 214W"
+          }
+        }
+      },
+      "block_order": [
+        "row_kUCQbP",
+        "row_mxVE9q",
+        "row_eQapFe",
+        "row_JVwNwK",
+        "row_G9jUxV"
+      ],
+      "name": "dimension-table",
+      "settings": {
+        "description": "Description",
+        "code": "Code",
+        "dimensions": "Dimensions",
+        "dimensions_inch": "Dimensions (inches)"
+      }
     },
     "video_WiiXtp": {
       "type": "video",
@@ -416,6 +485,7 @@
     "image_with_no_text_UUP4dk",
     "video_E7wm9f",
     "dimension_table_A6GeUe",
+    "dimension_table_M7RpQG",
     "video_WiiXtp"
   ]
 }

@@ -457,6 +457,15 @@
             "dimensions": "10280",
             "dimensions_inch": "22032"
           }
+        },
+        "row_i6ynbh": {
+          "type": "row",
+          "settings": {
+            "description": "Orange",
+            "code": "Head & Neck",
+            "dimensions": "10287",
+            "dimensions_inch": "22039"
+          }
         }
       },
       "block_order": [
@@ -465,7 +474,8 @@
         "row_TxDDqY",
         "row_ek8bYN",
         "row_xHCLra",
-        "row_6Jhabf"
+        "row_6Jhabf",
+        "row_i6ynbh"
       ],
       "name": "dimension-table",
       "settings": {

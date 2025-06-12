@@ -3391,6 +3391,10 @@ ul.header__submenu li ul li a{
   display: none;
 }
 
+.main-product-categories .card__inner {
+  --ratio-percent: 60% !important;
+}
+
 @media screen and (max-width: 989px) {
   .main-product-categories .collection-list-wrapper {
     padding: 0 1.5rem;

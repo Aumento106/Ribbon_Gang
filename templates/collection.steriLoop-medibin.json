@@ -85,7 +85,6 @@
     },
     "product_catalog_xdFqLr": {
       "type": "product-catalog",
-      "disabled": true,
       "settings": {
         "product_image": "shopify://shop_images/image_104.png",
         "logo_link": "",
@@ -260,7 +259,6 @@
         "row_P4xVTA",
         "row_U3gGd9"
       ],
-      "disabled": true,
       "name": "dimension-table",
       "settings": {}
     },
@@ -279,7 +277,6 @@
       "block_order": [
         "heading_dQJMjW"
       ],
-      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "content_alignment": "center",
@@ -305,7 +302,6 @@
       "block_order": [
         "image_Qpy3NK"
       ],
-      "disabled": true,
       "name": "Image with no text",
       "settings": {
         "title": "",

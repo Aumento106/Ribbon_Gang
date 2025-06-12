@@ -281,16 +281,22 @@
         "heading_dQJMjW": {
           "type": "heading",
           "settings": {
-            "heading": "MEDIBIN™ Colored Label HoldersAvailable in a range of 13 vibrant colors",
+            "heading": "Label holders and post strips in a range of 14 vibrant colors",
             "custom_heading_size": 39,
             "mobile_custom_heading_size": 28
+          }
+        },
+        "text_fETeXR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>(including black)</p>"
           }
         }
       },
       "block_order": [
-        "heading_dQJMjW"
+        "heading_dQJMjW",
+        "text_fETeXR"
       ],
-      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "content_alignment": "center",
@@ -316,7 +322,6 @@
       "block_order": [
         "image_Qpy3NK"
       ],
-      "disabled": true,
       "name": "Image with no text",
       "settings": {
         "title": "",
@@ -343,6 +348,150 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "dimension_table_RhKB48": {
+      "type": "dimension_table",
+      "blocks": {
+        "row_yV8VaL": {
+          "type": "row",
+          "settings": {
+            "description": "Purple",
+            "code": "Neurology",
+            "dimensions": "10278",
+            "dimensions_inch": "22030"
+          }
+        },
+        "row_hMYcqm": {
+          "type": "row",
+          "settings": {
+            "description": "Turquoise",
+            "code": "Cardiothoracic",
+            "dimensions": "10279",
+            "dimensions_inch": "22031"
+          }
+        },
+        "row_LKxhTH": {
+          "type": "row",
+          "settings": {
+            "description": "Green",
+            "code": "Gynaecology",
+            "dimensions": "10280",
+            "dimensions_inch": "22032"
+          }
+        },
+        "row_bGXKBt": {
+          "type": "row",
+          "settings": {
+            "description": "Gray",
+            "code": "Bariatrics",
+            "dimensions": "10281",
+            "dimensions_inch": "22033"
+          }
+        },
+        "row_QBXcWy": {
+          "type": "row",
+          "settings": {
+            "description": "Pink",
+            "code": "Ear, Nose & Throat (ENT)",
+            "dimensions": "10282",
+            "dimensions_inch": "22034"
+          }
+        },
+        "row_9LRdmW": {
+          "type": "row",
+          "settings": {
+            "description": "Cream",
+            "code": "Oncology",
+            "dimensions": "10283",
+            "dimensions_inch": "22035"
+          }
+        },
+        "row_iAnjbK": {
+          "type": "row",
+          "settings": {
+            "description": "Blue",
+            "code": "Orthopaedic",
+            "dimensions": "10284",
+            "dimensions_inch": "22036"
+          }
+        },
+        "row_kf4LAL": {
+          "type": "row",
+          "settings": {
+            "description": "Yellow",
+            "code": "Urology",
+            "dimensions": "10285",
+            "dimensions_inch": "22037"
+          }
+        },
+        "row_maaKGU": {
+          "type": "row",
+          "settings": {
+            "description": "Red",
+            "code": "Cardiovascular",
+            "dimensions": "10286",
+            "dimensions_inch": "22038"
+          }
+        },
+        "row_daf7fx": {
+          "type": "row",
+          "settings": {
+            "description": "Orange",
+            "code": "Head & Neck",
+            "dimensions": "10287",
+            "dimensions_inch": "22039"
+          }
+        },
+        "row_mgeAf4": {
+          "type": "row",
+          "settings": {
+            "description": "Light Gray",
+            "code": "Standard",
+            "dimensions": "10288",
+            "dimensions_inch": "22027"
+          }
+        },
+        "row_UJaKGm": {
+          "type": "row",
+          "settings": {
+            "description": "Hot Pink",
+            "code": "Plastics",
+            "dimensions": "10289",
+            "dimensions_inch": "22028"
+          }
+        },
+        "row_69Xmj9": {
+          "type": "row",
+          "settings": {
+            "description": "Brown",
+            "code": "General",
+            "dimensions": "10290",
+            "dimensions_inch": "22029"
+          }
+        }
+      },
+      "block_order": [
+        "row_yV8VaL",
+        "row_hMYcqm",
+        "row_LKxhTH",
+        "row_bGXKBt",
+        "row_QBXcWy",
+        "row_9LRdmW",
+        "row_iAnjbK",
+        "row_kf4LAL",
+        "row_maaKGU",
+        "row_daf7fx",
+        "row_mgeAf4",
+        "row_UJaKGm",
+        "row_69Xmj9"
+      ],
+      "name": "dimension-table",
+      "settings": {
+        "description": "Color",
+        "code": "Suggested Application",
+        "dimensions": "Label Holder",
+        "dimensions_inch": "Post Strip"
+      }
     }
   },
   "order": [
@@ -355,6 +504,7 @@
     "dimension_table_cR8mFy",
     "rich_text_CqT3jr",
     "image_with_no_text_UUP4dk",
-    "video_E7wm9f"
+    "video_E7wm9f",
+    "dimension_table_RhKB48"
   ]
 }

@@ -85,6 +85,7 @@
     },
     "product_catalog_xdFqLr": {
       "type": "product-catalog",
+      "disabled": true,
       "settings": {
         "product_image": "shopify://shop_images/image_104.png",
         "logo_link": "",
@@ -183,7 +184,6 @@
         "featured_collection_F6ttDE",
         "featured_collection_pnAkTJ"
       ],
-      "disabled": true,
       "name": "Product List",
       "settings": {
         "title": "",

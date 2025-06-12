@@ -145,7 +145,6 @@
     display: inline-block;
     position: relative;
     width: 100%;
-    text-align: left;
     padding-left: 10px;
   }
   .page-banner_sec .content-alignment-center ul li::before {

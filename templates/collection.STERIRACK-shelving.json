@@ -418,6 +418,38 @@
         "dimensions": "Dimensions (mm)",
         "dimensions_inch": "Dimensions (Inches)"
       }
+    },
+    "page_banner_mhtMN3": {
+      "type": "page-banner",
+      "blocks": {
+        "image_W4RXGR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/01-fixed-shelving-1536x660.jpg",
+            "border_radius": false
+          }
+        },
+        "text_rp3YNi": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Across hospitals, day surgeries, and healthcare facilities in Australia, the U.S, and beyond, SpaceLogic partners with clients to deliver tailored, high-performance storage systems. Every project is a collaboration — from planning and prototyping to seamless installation — ensuring STERIRACK® integrates perfectly into clinical environments with minimal disruption.</p><p>Explore a selection of recent installations below, each one reflecting our commitment to better care through smarter storage.</p>",
+            "text_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "image_W4RXGR",
+        "text_rp3YNi"
+      ],
+      "settings": {
+        "title_alignment": "center",
+        "full_width": true,
+        "content_width": "medium",
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
     }
   },
   "order": [
@@ -431,6 +463,7 @@
     "rich_text_CqT3jr",
     "image_with_no_text_UUP4dk",
     "video_E7wm9f",
-    "dimension_table_cDXM3w"
+    "dimension_table_cDXM3w",
+    "page_banner_mhtMN3"
   ]
 }

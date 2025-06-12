@@ -427,6 +427,33 @@
             "dimensions": "10286",
             "dimensions_inch": "22038"
           }
+        },
+        "row_LYWqMT": {
+          "type": "row",
+          "settings": {
+            "description": "Orange",
+            "code": "Head & Neck",
+            "dimensions": "10287",
+            "dimensions_inch": "22039"
+          }
+        },
+        "row_jLgdbJ": {
+          "type": "row",
+          "settings": {
+            "description": "Light Gray",
+            "code": "Standard",
+            "dimensions": "10288",
+            "dimensions_inch": "22027"
+          }
+        },
+        "row_pK8ycK": {
+          "type": "row",
+          "settings": {
+            "description": "Hot Pink",
+            "code": "Plastics",
+            "dimensions": "10289",
+            "dimensions_inch": "22028"
+          }
         }
       },
       "block_order": [
@@ -438,7 +465,10 @@
         "row_ET9J6T",
         "row_TfhVGz",
         "row_LWNa9m",
-        "row_y9j3pN"
+        "row_y9j3pN",
+        "row_LYWqMT",
+        "row_jLgdbJ",
+        "row_pK8ycK"
       ],
       "name": "dimension-table",
       "settings": {

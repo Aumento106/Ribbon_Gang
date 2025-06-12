@@ -418,6 +418,15 @@
             "dimensions": "10285",
             "dimensions_inch": "22037"
           }
+        },
+        "row_y9j3pN": {
+          "type": "row",
+          "settings": {
+            "description": "Red",
+            "code": "Cardiovascular",
+            "dimensions": "10286",
+            "dimensions_inch": "22038"
+          }
         }
       },
       "block_order": [
@@ -428,7 +437,8 @@
         "row_yRHxMp",
         "row_ET9J6T",
         "row_TfhVGz",
-        "row_LWNa9m"
+        "row_LWNa9m",
+        "row_y9j3pN"
       ],
       "name": "dimension-table",
       "settings": {

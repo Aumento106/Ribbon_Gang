@@ -164,6 +164,10 @@
   .product-catalog-wrapper .reverse-columns {
     flex-wrap: wrap;
   }
+  .product-catalog-wrapper .reverse-columns .grid__item {
+    width: 100%;
+    max-width: 100%;
+  }
 }
 
 @media screen and (max-width: 749px) {

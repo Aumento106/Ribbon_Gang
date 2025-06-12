@@ -332,6 +332,60 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "dimension_table_A6GeUe": {
+      "type": "dimension_table",
+      "blocks": {
+        "row_Q9c9zb": {
+          "type": "row",
+          "settings": {
+            "description": "Extra Small MEDIBIN™",
+            "code": "10008",
+            "dimensions": "450H x 420W"
+          }
+        },
+        "row_h3UwEC": {
+          "type": "row",
+          "settings": {
+            "description": "Medium MEDIBIN™ Panel",
+            "code": "10009",
+            "dimensions": "900H x 420W"
+          }
+        },
+        "row_8JTNkh": {
+          "type": "row",
+          "settings": {
+            "description": "Large MEDIBIN™ Panel",
+            "code": "10010",
+            "dimensions": "1200H x 420W"
+          }
+        },
+        "row_DBmyBa": {
+          "type": "row",
+          "settings": {
+            "description": "Extra Large MEDIBIN™ Panel",
+            "code": "10011",
+            "dimensions": "1800H x 420W"
+          }
+        },
+        "row_Xjx7aT": {
+          "type": "row",
+          "settings": {
+            "description": "MEDIBIN™ Panel to carry 1 Medium MEDIBIN™ – (ideal for hospital bedside)",
+            "code": "10154",
+            "dimensions": "160H x 214W"
+          }
+        }
+      },
+      "block_order": [
+        "row_Q9c9zb",
+        "row_h3UwEC",
+        "row_8JTNkh",
+        "row_DBmyBa",
+        "row_Xjx7aT"
+      ],
+      "name": "dimension-table",
+      "settings": {}
     }
   },
   "order": [
@@ -344,6 +398,7 @@
     "dimension_table_cR8mFy",
     "rich_text_CqT3jr",
     "image_with_no_text_UUP4dk",
-    "video_E7wm9f"
+    "video_E7wm9f",
+    "dimension_table_A6GeUe"
   ]
 }

@@ -161,6 +161,9 @@
   .product-catalog-sec .product-catalog-right .description {
     margin-top: 20px;
   }
+  .product-catalog-wrapper .reverse-columns {
+    flex-wrap: wrap;
+  }
 }
 
 @media screen and (max-width: 749px) {

@@ -142,7 +142,7 @@
   display: inline-block;
   position: relative;
 }
-.page-banner_sec .content-alignment-center ul li::after {
+.page-banner_sec .content-alignment-center ul li::before {
   position: absolute;
   left: 0;
   width: 5px;

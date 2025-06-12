@@ -127,10 +127,11 @@
           </li>
         {%- endfor -%}
       </ul>
-
+{% if section.settings.columns_desktop > 2 %}
       <div class="swiper-pagination-wrapper">
         <div class="swiper-pagination"></div>
       </div>
+{% endif %}
     </slider-component>
 
     {%- if section.settings.show_view_all and section.blocks.size < collections.size -%}

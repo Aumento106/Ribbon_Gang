@@ -125,9 +125,10 @@
               video_2_url: block.settings.video_2_url
             %}
           </li>
+          {% assign count = forloop.index %}
         {%- endfor -%}
       </ul>
-{% if section.settings.columns_desktop > 2 %}
+{% if count > section.settings.columns_desktop %}
       <div class="swiper-pagination-wrapper">
         <div class="swiper-pagination"></div>
       </div>

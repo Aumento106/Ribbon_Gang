@@ -102,7 +102,9 @@
 .page-banner_sec .content-alignment-right {
     text-align: right;
 }
-
+.page-banner_sec .content-alignment-center ul li {
+  justify-content: center;
+}
 .page-banner_sec .content-alignment-left .rich-text__buttons {
     justify-content: start;
 }

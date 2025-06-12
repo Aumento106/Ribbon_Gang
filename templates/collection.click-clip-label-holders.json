@@ -407,7 +407,16 @@
             "description": "Blue",
             "code": "Orthopaedic",
             "dimensions": "10284",
-            "dimensions_inch": ""
+            "dimensions_inch": "22036"
+          }
+        },
+        "row_LWNa9m": {
+          "type": "row",
+          "settings": {
+            "description": "Yellow",
+            "code": "Urology",
+            "dimensions": "10285",
+            "dimensions_inch": "22037"
           }
         }
       },
@@ -418,7 +427,8 @@
         "row_6UDdY8",
         "row_yRHxMp",
         "row_ET9J6T",
-        "row_TfhVGz"
+        "row_TfhVGz",
+        "row_LWNa9m"
       ],
       "name": "dimension-table",
       "settings": {

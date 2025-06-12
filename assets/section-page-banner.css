@@ -138,18 +138,21 @@
 .project-consultation__text p:not(:last-child) {
     margin-bottom: 16px;
 }
-.page-banner_sec .content-alignment-center ul li {
-  display: inline-block;
-  position: relative;
-}
-.page-banner_sec .content-alignment-center ul li::before {
-  position: absolute;
-  left: 0;
-  width: 5px;
-}
 
 
 @media screen and (max-width: 1024px) {
+  .page-banner_sec .content-alignment-center ul li {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    text-align: left;
+    padding-left: 10px;
+  }
+  .page-banner_sec .content-alignment-center ul li::before {
+    position: absolute;
+    left: 0;
+    width: 5px;
+  }
     .page-banner_sec .video_yt_banner iframe {
         max-height: 520px;
     }

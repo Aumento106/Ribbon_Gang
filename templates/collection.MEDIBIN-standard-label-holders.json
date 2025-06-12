@@ -475,6 +475,15 @@
             "dimensions": "10278",
             "dimensions_inch": "22030"
           }
+        },
+        "row_N8fkME": {
+          "type": "row",
+          "settings": {
+            "description": "Cream",
+            "code": "Oncology",
+            "dimensions": "10283",
+            "dimensions_inch": "22035"
+          }
         }
       },
       "block_order": [
@@ -485,7 +494,8 @@
         "row_xHCLra",
         "row_6Jhabf",
         "row_i6ynbh",
-        "row_U94F8M"
+        "row_U94F8M",
+        "row_N8fkME"
       ],
       "name": "dimension-table",
       "settings": {

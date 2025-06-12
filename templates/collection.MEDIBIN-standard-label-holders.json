@@ -400,6 +400,80 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "dimension_table_EQCC7B": {
+      "type": "dimension_table",
+      "blocks": {
+        "row_nBjbCM": {
+          "type": "row",
+          "settings": {
+            "description": "Gray",
+            "code": "Bariatrics",
+            "dimensions": "10281",
+            "dimensions_inch": "22033"
+          }
+        },
+        "row_tpUeFd": {
+          "type": "row",
+          "settings": {
+            "description": "Turquoise",
+            "code": "Cardiothoracic",
+            "dimensions": "10279",
+            "dimensions_inch": "22031"
+          }
+        },
+        "row_TxDDqY": {
+          "type": "row",
+          "settings": {
+            "description": "Medium MEDIBIN™",
+            "code": "10002M",
+            "dimensions": "200W x 160H x 273D",
+            "dimensions_inch": ""
+          }
+        },
+        "row_ek8bYN": {
+          "type": "row",
+          "settings": {
+            "description": "Large MEDIBIN™",
+            "code": "10003L",
+            "dimensions": "400W x 160H x 284D",
+            "dimensions_inch": ""
+          }
+        },
+        "row_xHCLra": {
+          "type": "row",
+          "settings": {
+            "description": "Extra Large MEDIBIN™",
+            "code": "10004XL",
+            "dimensions": "400W x 160H x 440D",
+            "dimensions_inch": ""
+          }
+        },
+        "row_6Jhabf": {
+          "type": "row",
+          "settings": {
+            "description": "Extra Extra Large MEDIBIN™ – (does not hang – shelf bin only)",
+            "code": "10040XXL",
+            "dimensions": "440W x 350H x 600D",
+            "dimensions_inch": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_nBjbCM",
+        "row_tpUeFd",
+        "row_TxDDqY",
+        "row_ek8bYN",
+        "row_xHCLra",
+        "row_6Jhabf"
+      ],
+      "name": "dimension-table",
+      "settings": {
+        "description": "Color",
+        "code": "Suggested Application",
+        "dimensions": "Label Holder",
+        "dimensions_inch": "Post Strip"
+      }
     }
   },
   "order": [
@@ -414,6 +488,7 @@
     "image_with_no_text_UUP4dk",
     "video_E7wm9f",
     "rich_text_rkJNRp",
-    "image_with_no_text_GAJjdq"
+    "image_with_no_text_GAJjdq",
+    "dimension_table_EQCC7B"
   ]
 }

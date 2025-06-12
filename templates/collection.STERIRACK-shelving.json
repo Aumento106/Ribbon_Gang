@@ -411,6 +411,7 @@
         "row_XWPY6b",
         "row_rcBETk"
       ],
+      "disabled": true,
       "name": "dimension-table",
       "settings": {
         "description": "Description",
@@ -442,6 +443,7 @@
         "image_W4RXGR",
         "text_rp3YNi"
       ],
+      "disabled": true,
       "settings": {
         "title_alignment": "center",
         "full_width": true,

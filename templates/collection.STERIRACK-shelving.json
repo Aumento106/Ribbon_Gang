@@ -360,19 +360,19 @@
         "row_kHnehW": {
           "type": "row",
           "settings": {
-            "description": "Small MEDIBIN™",
-            "code": "10001S",
-            "dimensions": "135W x 120H x 215D",
-            "dimensions_inch": ""
+            "description": "Wire Shelf",
+            "code": "22102",
+            "dimensions": "400W x 600D",
+            "dimensions_inch": "15 3/4″ W x 23 5/8″ D"
           }
         },
         "row_e8Nmgq": {
           "type": "row",
           "settings": {
-            "description": "Medium MEDIBIN™",
-            "code": "10002M",
-            "dimensions": "200W x 160H x 273D",
-            "dimensions_inch": ""
+            "description": "Wire Shelf",
+            "code": "22128",
+            "dimensions": "600W x 400D",
+            "dimensions_inch": "23 5/8″ W x 15 3/4″ D"
           }
         },
         "row_jRwCgR": {

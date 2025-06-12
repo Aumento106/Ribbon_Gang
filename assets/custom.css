@@ -3391,7 +3391,7 @@ ul.header__submenu li ul li a{
   display: none;
 }
 
-.main-product-categories .card__inner {
+.main-product-categories .image-small-height .card__inner {
   --ratio-percent: 60% !important;
 }
 

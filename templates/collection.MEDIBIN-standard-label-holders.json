@@ -502,6 +502,15 @@
             "dimensions": "10289",
             "dimensions_inch": "22028"
           }
+        },
+        "row_DxzjcW": {
+          "type": "row",
+          "settings": {
+            "description": "Light Gray",
+            "code": "Standard",
+            "dimensions": "10288",
+            "dimensions_inch": "22027"
+          }
         }
       },
       "block_order": [
@@ -515,7 +524,8 @@
         "row_U94F8M",
         "row_N8fkME",
         "row_7hUxAF",
-        "row_7dAQMX"
+        "row_7dAQMX",
+        "row_DxzjcW"
       ],
       "name": "dimension-table",
       "settings": {

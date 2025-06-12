@@ -484,6 +484,15 @@
             "dimensions": "10283",
             "dimensions_inch": "22035"
           }
+        },
+        "row_7hUxAF": {
+          "type": "row",
+          "settings": {
+            "description": "Blue",
+            "code": "Orthopaedic",
+            "dimensions": "10284",
+            "dimensions_inch": "22036"
+          }
         }
       },
       "block_order": [
@@ -495,7 +504,8 @@
         "row_6Jhabf",
         "row_i6ynbh",
         "row_U94F8M",
-        "row_N8fkME"
+        "row_N8fkME",
+        "row_7hUxAF"
       ],
       "name": "dimension-table",
       "settings": {

@@ -125,7 +125,6 @@
         },
         "featured_collection_BVCdLh": {
           "type": "featured_collection",
-          "disabled": true,
           "settings": {
             "categories_image": "shopify://shop_images/Blacktown_square.png",
             "collection": "cleanspan",
@@ -144,7 +143,6 @@
         },
         "featured_collection_R7mChA": {
           "type": "featured_collection",
-          "disabled": true,
           "settings": {
             "categories_image": "shopify://shop_images/Blacktown_square.png",
             "collection": "sterirack-colour-coding",
@@ -168,7 +166,6 @@
         "featured_collection_BVCdLh",
         "featured_collection_R7mChA"
       ],
-      "name": "Categories slider",
       "settings": {
         "title": "",
         "custom_heading_size": 52,

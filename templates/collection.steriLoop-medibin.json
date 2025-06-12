@@ -208,7 +208,8 @@
           "settings": {
             "description": "Extra Small MEDIBIN™",
             "code": "10000XS",
-            "dimensions": "100W × 120H × 215D"
+            "dimensions": "100W × 120H × 215D",
+            "dimensions_inch": ""
           }
         },
         "row_gk3xxN": {
@@ -216,7 +217,8 @@
           "settings": {
             "description": "Small MEDIBIN™",
             "code": "10001S",
-            "dimensions": "135W x 120H x 215D"
+            "dimensions": "135W x 120H x 215D",
+            "dimensions_inch": ""
           }
         },
         "row_ePetGA": {
@@ -224,7 +226,8 @@
           "settings": {
             "description": "Medium MEDIBIN™",
             "code": "10002M",
-            "dimensions": "200W x 160H x 273D"
+            "dimensions": "200W x 160H x 273D",
+            "dimensions_inch": ""
           }
         },
         "row_z4tfHJ": {
@@ -232,7 +235,8 @@
           "settings": {
             "description": "Large MEDIBIN™",
             "code": "10003L",
-            "dimensions": "400W x 160H x 284D"
+            "dimensions": "400W x 160H x 284D",
+            "dimensions_inch": ""
           }
         },
         "row_P4xVTA": {
@@ -240,7 +244,8 @@
           "settings": {
             "description": "Extra Large MEDIBIN™",
             "code": "10004XL",
-            "dimensions": "400W x 160H x 440D"
+            "dimensions": "400W x 160H x 440D",
+            "dimensions_inch": ""
           }
         },
         "row_U3gGd9": {
@@ -248,7 +253,8 @@
           "settings": {
             "description": "Extra Extra Large MEDIBIN™ – (does not hang – shelf bin only)",
             "code": "10040XXL",
-            "dimensions": "440W x 350H x 600D"
+            "dimensions": "440W x 350H x 600D",
+            "dimensions_inch": ""
           }
         }
       },
@@ -261,7 +267,12 @@
         "row_U3gGd9"
       ],
       "name": "dimension-table",
-      "settings": {}
+      "settings": {
+        "description": "Description",
+        "code": "Code",
+        "dimensions": "Dimensions",
+        "dimensions_inch": ""
+      }
     },
     "rich_text_CqT3jr": {
       "type": "rich-text",

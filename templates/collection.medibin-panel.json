@@ -208,7 +208,8 @@
           "settings": {
             "description": "Extra Small MEDIBIN™",
             "code": "10000XS",
-            "dimensions": "100W × 120H × 215D"
+            "dimensions": "100W × 120H × 215D",
+            "dimensions_inch": ""
           }
         },
         "row_gk3xxN": {
@@ -216,7 +217,8 @@
           "settings": {
             "description": "Small MEDIBIN™",
             "code": "10001S",
-            "dimensions": "135W x 120H x 215D"
+            "dimensions": "135W x 120H x 215D",
+            "dimensions_inch": ""
           }
         },
         "row_ePetGA": {
@@ -224,7 +226,8 @@
           "settings": {
             "description": "Medium MEDIBIN™",
             "code": "10002M",
-            "dimensions": "200W x 160H x 273D"
+            "dimensions": "200W x 160H x 273D",
+            "dimensions_inch": ""
           }
         },
         "row_z4tfHJ": {
@@ -232,7 +235,8 @@
           "settings": {
             "description": "Large MEDIBIN™",
             "code": "10003L",
-            "dimensions": "400W x 160H x 284D"
+            "dimensions": "400W x 160H x 284D",
+            "dimensions_inch": ""
           }
         },
         "row_P4xVTA": {
@@ -240,7 +244,8 @@
           "settings": {
             "description": "Extra Large MEDIBIN™",
             "code": "10004XL",
-            "dimensions": "400W x 160H x 440D"
+            "dimensions": "400W x 160H x 440D",
+            "dimensions_inch": ""
           }
         },
         "row_U3gGd9": {
@@ -248,7 +253,8 @@
           "settings": {
             "description": "Extra Extra Large MEDIBIN™ – (does not hang – shelf bin only)",
             "code": "10040XXL",
-            "dimensions": "440W x 350H x 600D"
+            "dimensions": "440W x 350H x 600D",
+            "dimensions_inch": ""
           }
         }
       },
@@ -346,7 +352,8 @@
           "settings": {
             "description": "Extra Small MEDIBIN™",
             "code": "10008",
-            "dimensions": "450H x 420W"
+            "dimensions": "450H x 420W",
+            "dimensions_inch": ""
           }
         },
         "row_h3UwEC": {
@@ -354,7 +361,8 @@
           "settings": {
             "description": "Medium MEDIBIN™ Panel",
             "code": "10009",
-            "dimensions": "900H x 420W"
+            "dimensions": "900H x 420W",
+            "dimensions_inch": ""
           }
         },
         "row_8JTNkh": {
@@ -362,7 +370,8 @@
           "settings": {
             "description": "Large MEDIBIN™ Panel",
             "code": "10010",
-            "dimensions": "1200H x 420W"
+            "dimensions": "1200H x 420W",
+            "dimensions_inch": ""
           }
         },
         "row_DBmyBa": {
@@ -370,7 +379,8 @@
           "settings": {
             "description": "Extra Large MEDIBIN™ Panel",
             "code": "10011",
-            "dimensions": "1800H x 420W"
+            "dimensions": "1800H x 420W",
+            "dimensions_inch": ""
           }
         },
         "row_Xjx7aT": {
@@ -378,7 +388,8 @@
           "settings": {
             "description": "MEDIBIN™ Panel to carry 1 Medium MEDIBIN™ – (ideal for hospital bedside)",
             "code": "10154",
-            "dimensions": "160H x 214W"
+            "dimensions": "160H x 214W",
+            "dimensions_inch": ""
           }
         }
       },
@@ -405,7 +416,8 @@
           "settings": {
             "description": "Extra Small MEDIBIN™",
             "code": "10008",
-            "dimensions": "450H x 420W"
+            "dimensions": "450H x 420W",
+            "dimensions_inch": "17  11⁄16 ”  H  x  16  9⁄16 ”  W"
           }
         },
         "row_mxVE9q": {
@@ -413,7 +425,8 @@
           "settings": {
             "description": "Medium MEDIBIN™ Panel",
             "code": "10009",
-            "dimensions": "900H x 420W"
+            "dimensions": "900H x 420W",
+            "dimensions_inch": "35  7⁄16 ”  H  x  16  9⁄16 ”  W"
           }
         },
         "row_eQapFe": {
@@ -421,7 +434,8 @@
           "settings": {
             "description": "Large MEDIBIN™ Panel",
             "code": "10010",
-            "dimensions": "1200H x 420W"
+            "dimensions": "1200H x 420W",
+            "dimensions_inch": "47  1⁄4 ”  H  x  16  9⁄16 ”  W"
           }
         },
         "row_JVwNwK": {
@@ -429,7 +443,8 @@
           "settings": {
             "description": "Extra Large MEDIBIN™ Panel",
             "code": "10011",
-            "dimensions": "1800H x 420W"
+            "dimensions": "1800H x 420W",
+            "dimensions_inch": "70  7⁄8 ”  H  x  16  9⁄16 ”  W"
           }
         },
         "row_G9jUxV": {
@@ -437,7 +452,8 @@
           "settings": {
             "description": "MEDIBIN™ Panel to carry 1 Medium MEDIBIN™ – (ideal for hospital bedside)",
             "code": "10154",
-            "dimensions": "160H x 214W"
+            "dimensions": "160H x 214W",
+            "dimensions_inch": "6  5⁄16 ”  H  x  8  7⁄16 ”  W"
           }
         }
       },

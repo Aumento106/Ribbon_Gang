@@ -185,7 +185,8 @@
                     skip_styles: skip_card_product_styles,
                     quick_add: section.settings.quick_add,
                     learn_more_button_text: section.settings.learn_more_button_text,
-                    section_id: section.id
+                    section_id: section.id,
+                   remove_product_link: section.settings.remove_product_link
                   %}
                 </li>
                 {%- assign skip_card_product_styles = true -%}
@@ -234,6 +235,12 @@
       "label": "t:sections.all.colors.label",
       "info": "t:sections.all.colors.has_cards_info",
       "default": "scheme-1"
+    },
+    {
+      "type": "checkbox",
+      "id": "remove_product_link",
+      "default": false,
+      "label": "Remove Product Link Redirect"
     },
     {
       "type": "header",

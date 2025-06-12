@@ -104,16 +104,6 @@
             "text": "<p>Join Lloyd Scott in our new manufacturing hub as he shows you our latest trolley order that’s heading off to a major hospital redevelopment in Sydney. </p>"
           }
         },
-        "column_QLUgnL": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/video-4-poster.png",
-            "video_url": "https://www.youtube.com/watch?v=UWkL7Rs0BBE",
-            "enable_video_looping": false,
-            "title": "STERIRACK® PPE carts - COVID-19 emergency response",
-            "text": "<p>Our dedicated team worked ’til midnight, making certain they met demand and got our trolley products to the healthcare personnel needing them most right now. Check out our Covid-19 emergency response team in action!</p>"
-          }
-        },
         "column_ACWKWG": {
           "type": "column",
           "settings": {
@@ -504,16 +494,6 @@
             "text": "<p>Lloyd Scott discusses the STERIRACK® theatre trolley and how you can find more information. </p>"
           }
         },
-        "column_JWqVHm": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/39-thumbnail-pbfvnz25sr6hr2fzddock32jcenv1hyhx1k0636gbk.jpg",
-            "video_url": "https://youtu.be/nllzM-FZRuU",
-            "enable_video_looping": false,
-            "title": "A heartfeld thank you on international Nurses day 2020",
-            "text": "<p>Managing Director Lloyd Scott and the rest of the team send out a huge and heartfelt thank you to all our nurses who have, collectively, had a tough year dealing with the COVID-19 pandemic. </p>"
-          }
-        },
         "column_tKgdmx": {
           "type": "column",
           "settings": {
@@ -529,7 +509,6 @@
         "column_YQH4WX",
         "column_iB3nVQ",
         "column_E7Ajhp",
-        "column_QLUgnL",
         "column_ACWKWG",
         "column_bK47NB",
         "column_pQzfJK",
@@ -569,7 +548,6 @@
         "column_gQeqcD",
         "column_DapDGL",
         "column_wbNcAF",
-        "column_JWqVHm",
         "column_tKgdmx"
       ],
       "settings": {

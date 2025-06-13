@@ -61,7 +61,7 @@
           "settings": {
             "categories_image": "shopify://shop_images/Fixed-Shevles.png",
             "collection": "sterirack-shelving",
-            "card_text": "STERIRACK® has been designed and developed to meet the needs of healthcare professionals, using feedback from our valued clients.",
+            "card_text": "Superior quality. Best practice. Custom configured to suit.",
             "button_card_text": "Learn more",
             "redirection_link": ""
           }
@@ -69,9 +69,9 @@
         "featured_collection_BF4bE9": {
           "type": "featured_collection",
           "settings": {
-            "categories_image": "shopify://shop_images/Blacktown_square.png",
+            "categories_image": "shopify://shop_images/Standard-Sterirack-Baskets.jpg",
             "collection": "sterirack-baskets",
-            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "card_text": "Choose a configuration of baskets and shelving to suit your application.",
             "button_card_text": "Shop now",
             "redirection_link": ""
           }

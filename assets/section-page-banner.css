@@ -139,7 +139,7 @@
     margin-bottom: 16px;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1440px) {
   .page-banner_sec .content-alignment-center ul li {
     display: inline-block;
     position: relative;

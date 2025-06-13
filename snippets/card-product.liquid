@@ -115,7 +115,7 @@
                 id="title-{{ section_id }}-{{ card_product.id }}"
               {% endif %}
             >
-              {% if remove_product_linkss != false %}
+              {% if remove_product_linkss != true %}
               <a
                 href="{{ card_product.url }}"
                 id="StandardCardNoMediaLink-{{ section_id }}-{{ card_product.id }}"
@@ -173,7 +173,7 @@
               id="title-{{ section_id }}-{{ card_product.id }}"
             {% endif %}
           >
-            {% if remove_product_linkss != blank %}
+            {% if remove_product_linkss != true %}
               <a
                 href="{{ card_product.url }}"
                 id="CardLink-{{ section_id }}-{{ card_product.id }}"

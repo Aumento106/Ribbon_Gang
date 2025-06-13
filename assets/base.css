@@ -266,6 +266,7 @@ h5,
 .h4,
 .h5 {
   letter-spacing: var(--heading-letterspacing) !important;
+  font-weight: var(--heading-font_weight) !important;
 }
 body, p, span, ul, li, b, strong, blockquote, ol {
   letter-spacing: var(--body-letterspacing) !important;

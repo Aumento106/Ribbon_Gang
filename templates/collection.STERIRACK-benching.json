@@ -337,6 +337,111 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "dimension_table_KXzpgq": {
+      "type": "dimension_table",
+      "blocks": {
+        "row_gRhnXB": {
+          "type": "row",
+          "settings": {
+            "description": "2-Bay",
+            "code": "1000mmH x 970mmW x 646mmD",
+            "dimensions": "39 3/8″ H x 38 3/16″ W x 25 7/16″ D",
+            "dimensions_inch": "6 x 100mmH and 2 x 180mmH baskets"
+          }
+        },
+        "row_hQHCCb": {
+          "type": "row",
+          "settings": {
+            "description": "Turquoise",
+            "code": "Cardiothoracic",
+            "dimensions": "10279",
+            "dimensions_inch": "22031"
+          }
+        },
+        "row_jb6VgM": {
+          "type": "row",
+          "settings": {
+            "description": "Green",
+            "code": "Gynaecology",
+            "dimensions": "10280",
+            "dimensions_inch": "22032"
+          }
+        },
+        "row_BdVEUX": {
+          "type": "row",
+          "settings": {
+            "description": "Gray",
+            "code": "Bariatrics",
+            "dimensions": "10281",
+            "dimensions_inch": "22033"
+          }
+        },
+        "row_9RAK99": {
+          "type": "row",
+          "settings": {
+            "description": "Pink",
+            "code": "Ear, Nose & Throat (ENT)",
+            "dimensions": "10282",
+            "dimensions_inch": "22034"
+          }
+        },
+        "row_3iCVWC": {
+          "type": "row",
+          "settings": {
+            "description": "Cream",
+            "code": "Oncology",
+            "dimensions": "10283",
+            "dimensions_inch": "22035"
+          }
+        },
+        "row_RGmEdP": {
+          "type": "row",
+          "settings": {
+            "description": "Blue",
+            "code": "Orthopaedic",
+            "dimensions": "10284",
+            "dimensions_inch": "22036"
+          }
+        }
+      },
+      "block_order": [
+        "row_gRhnXB",
+        "row_hQHCCb",
+        "row_jb6VgM",
+        "row_BdVEUX",
+        "row_9RAK99",
+        "row_3iCVWC",
+        "row_RGmEdP"
+      ],
+      "settings": {
+        "description": "Description",
+        "code": "Dimensions (mm)",
+        "dimensions": "Dimensions (inches)",
+        "dimensions_inch": "Configuration (mm)"
+      }
+    },
+    "image_with_no_text_VQap7J": {
+      "type": "image-with-no-text",
+      "blocks": {
+        "image_xFk7ni": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MEDIBIN-standard-label-holders-2048x369.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_xFk7ni"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -349,6 +454,8 @@
     "dimension_table_cR8mFy",
     "rich_text_CqT3jr",
     "image_with_no_text_UUP4dk",
-    "video_E7wm9f"
+    "video_E7wm9f",
+    "dimension_table_KXzpgq",
+    "image_with_no_text_VQap7J"
   ]
 }

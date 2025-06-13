@@ -3756,6 +3756,10 @@ iframe {
 .template-page-contact .contact .title {
   margin-bottom: 20px;
 }
+sup {
+  font-size: 14px;
+  line-height: normal;
+}
 
 @media screen and (max-width: 1024px) {
   .title {

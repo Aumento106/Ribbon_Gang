@@ -270,6 +270,7 @@ h5,
 }
 body, p, span, ul, li, b, strong, blockquote, ol {
   letter-spacing: var(--body-letterspacing) !important;
+  font-weight: var(--body-font-weight) !important;
 }
 
 

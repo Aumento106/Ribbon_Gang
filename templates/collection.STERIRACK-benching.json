@@ -341,7 +341,7 @@
     "dimension_table_KXzpgq": {
       "type": "dimension_table",
       "blocks": {
-        "row_gRhnXB": {
+        "row_3iCVWC": {
           "type": "row",
           "settings": {
             "description": "2-Bay",
@@ -349,70 +349,10 @@
             "dimensions": "39 3/8″ H x 38 3/16″ W x 25 7/16″ D",
             "dimensions_inch": "6 x 100mmH and 2 x 180mmH baskets"
           }
-        },
-        "row_hQHCCb": {
-          "type": "row",
-          "settings": {
-            "description": "Turquoise",
-            "code": "Cardiothoracic",
-            "dimensions": "10279",
-            "dimensions_inch": "22031"
-          }
-        },
-        "row_jb6VgM": {
-          "type": "row",
-          "settings": {
-            "description": "Green",
-            "code": "Gynaecology",
-            "dimensions": "10280",
-            "dimensions_inch": "22032"
-          }
-        },
-        "row_BdVEUX": {
-          "type": "row",
-          "settings": {
-            "description": "Gray",
-            "code": "Bariatrics",
-            "dimensions": "10281",
-            "dimensions_inch": "22033"
-          }
-        },
-        "row_9RAK99": {
-          "type": "row",
-          "settings": {
-            "description": "Pink",
-            "code": "Ear, Nose & Throat (ENT)",
-            "dimensions": "10282",
-            "dimensions_inch": "22034"
-          }
-        },
-        "row_3iCVWC": {
-          "type": "row",
-          "settings": {
-            "description": "Cream",
-            "code": "Oncology",
-            "dimensions": "10283",
-            "dimensions_inch": "22035"
-          }
-        },
-        "row_RGmEdP": {
-          "type": "row",
-          "settings": {
-            "description": "Blue",
-            "code": "Orthopaedic",
-            "dimensions": "10284",
-            "dimensions_inch": "22036"
-          }
         }
       },
       "block_order": [
-        "row_gRhnXB",
-        "row_hQHCCb",
-        "row_jb6VgM",
-        "row_BdVEUX",
-        "row_9RAK99",
-        "row_3iCVWC",
-        "row_RGmEdP"
+        "row_3iCVWC"
       ],
       "settings": {
         "description": "Description",

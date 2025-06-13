@@ -670,6 +670,9 @@
 .footer__content-bottom-copyright-menu {
   justify-content: space-between;
 }
+.footer__content-bottom-copyright-menu .footer__copyright {
+  display: none;
+}
 
 .footer-block__newsletter .newsletter-form__message {
   margin-top: 2rem;

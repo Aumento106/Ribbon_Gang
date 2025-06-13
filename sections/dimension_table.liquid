@@ -77,8 +77,8 @@
         {% if section.settings.dimensions != blank %}
           <div class="table-cell">{{ row.settings.dimensions }}</div>
         {% endif %}
-        {% if section.settings.dimensions_inch != blank %}
-          <div class="table-cell">{{ row.settings.dimensions_inch }}</div>
+        {% if section.settings.configurations_data != blank %}
+          <div class="table-cell">{{ row.settings.configurations_data }}</div>
         {% endif %}
       </div>
     {% endfor %}
@@ -150,7 +150,7 @@
         },
         {
           "type": "text",
-          "id": "configurations",
+          "id": "configurations_data",
           "label": "Configurations"
         }
       ]

@@ -207,8 +207,7 @@
             "description": "Extra Small MEDIBIN™",
             "code": "10000XS",
             "dimensions": "100W × 120H × 215D",
-            "dimensions_inch": "",
-            "configurations": ""
+            "dimensions_inch": ""
           }
         },
         "row_gk3xxN": {
@@ -217,8 +216,7 @@
             "description": "Small MEDIBIN™",
             "code": "10001S",
             "dimensions": "135W x 120H x 215D",
-            "dimensions_inch": "",
-            "configurations": ""
+            "dimensions_inch": ""
           }
         },
         "row_ePetGA": {
@@ -227,8 +225,7 @@
             "description": "Medium MEDIBIN™",
             "code": "10002M",
             "dimensions": "200W x 160H x 273D",
-            "dimensions_inch": "",
-            "configurations": ""
+            "dimensions_inch": ""
           }
         },
         "row_z4tfHJ": {
@@ -237,8 +234,7 @@
             "description": "Large MEDIBIN™",
             "code": "10003L",
             "dimensions": "400W x 160H x 284D",
-            "dimensions_inch": "",
-            "configurations": ""
+            "dimensions_inch": ""
           }
         },
         "row_P4xVTA": {
@@ -247,8 +243,7 @@
             "description": "Extra Large MEDIBIN™",
             "code": "10004XL",
             "dimensions": "400W x 160H x 440D",
-            "dimensions_inch": "",
-            "configurations": ""
+            "dimensions_inch": ""
           }
         },
         "row_U3gGd9": {
@@ -257,8 +252,7 @@
             "description": "Extra Extra Large MEDIBIN™ – (does not hang – shelf bin only)",
             "code": "10040XXL",
             "dimensions": "440W x 350H x 600D",
-            "dimensions_inch": "",
-            "configurations": ""
+            "dimensions_inch": ""
           }
         }
       },
@@ -354,8 +348,7 @@
             "description": "2-Bay",
             "code": "1000mmH x 970mmW x 646mmD",
             "dimensions": "39 3/8″ H x 38 3/16″ W x 25 7/16″ D",
-            "dimensions_inch": "6 x 100mmH and 2 x 180mmH baskets",
-            "configurations": "6 x 3 15/16″ H and 2 x 7 1/16″ H baskets"
+            "dimensions_inch": "6 x 100mmH and 2 x 180mmH baskets"
           }
         },
         "row_m97pKr": {
@@ -364,8 +357,7 @@
             "description": "3-Bay",
             "code": "1000mmH x 1454mmW x 646mmD",
             "dimensions": "39 3/8″ H x 57 1/4″ W x 25 7/16″ D",
-            "dimensions_inch": "9 x 100mmH and 3 x 180mmH baskets",
-            "configurations": "9 x 3 15/16″ H and 3 x 7 1/16″ H baskets"
+            "dimensions_inch": "9 x 100mmH and 3 x 180mmH baskets"
           }
         },
         "row_C8fQpV": {
@@ -374,8 +366,7 @@
             "description": "4-Bay",
             "code": "1000mmH x 1938mmW x 646mmD",
             "dimensions": "39 3/8″ H x 76 5/16″ W x 25 7/16″ D",
-            "dimensions_inch": "12 x 100mmH and 4 x 180mmH baskets",
-            "configurations": "12 x 3 15/16″ H and 4 x 7 1/16″ H baskets"
+            "dimensions_inch": "12 x 100mmH and 4 x 180mmH baskets"
           }
         },
         "row_tU3Bi6": {
@@ -384,8 +375,16 @@
             "description": "5-Bay",
             "code": "1000mmH x 2422mmW x 646mmD",
             "dimensions": "39 3/8″ H x 95 3/8″ W x 25 7/16″ D",
-            "dimensions_inch": "15 x 100mmH and 5 x 180mmH baskets",
-            "configurations": "15 x 3 15/16″ H and 5 x 7 1/16″ H baskets"
+            "dimensions_inch": "15 x 100mmH and 5 x 180mmH baskets"
+          }
+        },
+        "row_wWUXAA": {
+          "type": "row",
+          "settings": {
+            "description": "Extra Small MEDIBIN™",
+            "code": "10000XS",
+            "dimensions": "100W × 120H × 215D",
+            "dimensions_inch": ""
           }
         }
       },
@@ -393,7 +392,8 @@
         "row_3iCVWC",
         "row_m97pKr",
         "row_C8fQpV",
-        "row_tU3Bi6"
+        "row_tU3Bi6",
+        "row_wWUXAA"
       ],
       "settings": {
         "description": "Description",

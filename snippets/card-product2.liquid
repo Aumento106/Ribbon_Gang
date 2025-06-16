@@ -135,7 +135,8 @@
               {% endif %}
             </h3>
           </div>
-          <div class="card__badge {{ settings.badge_position }}">
+          {% comment %}
+            <div class="card__badge {{ settings.badge_position }}">
             {% for tag in card_product.tags %}
               {% if tag contains "__" %}
                 <span class="card__badge--best-seller card__badge--{{ tag | split: "__" | last | downcase }} badge badge--bottom-left color-{{ settings.best_badge_color_scheme }}">
@@ -163,6 +164,7 @@
               {%- endif -%}
             {%- endif -%}
           </div>
+          {% endcomment %}
         </div>
       </div>
       <div class="card__content">
@@ -574,7 +576,8 @@
             </div>
           </div>{% endcomment %}
         {% endif %}
-        <div class="card__badge {{ settings.badge_position }}">
+        {% comment %}
+          <div class="card__badge {{ settings.badge_position }}">
           {%- if card_product.available == false -%}
             {%- if settings.soldout_badge_show == true -%}
               <span
@@ -595,6 +598,7 @@
             {%- endif -%}
           {%- endif -%}
         </div>
+        {% endcomment %}
       </div>
     </div>
   </div>

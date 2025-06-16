@@ -65,9 +65,12 @@
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
+        "hide_price": true,
+        "hide_sold_out": true,
         "products_per_page": 20,
         "columns_desktop": 4,
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "remove_product_link": true,
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": false,
@@ -92,7 +95,6 @@
         "heading": "<p>Product Catalogue</p>",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
-        "font_weight": "400",
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "description": "<p>Click here to view our latest product and services catalogue in a browser without downloading.</p>",
         "button_1_text": "View catalogue",
@@ -209,7 +211,8 @@
             "description": "Extra Small MEDIBIN™",
             "code": "10000XS",
             "dimensions": "100W × 120H × 215D",
-            "dimensions_inch": ""
+            "dimensions_inch": "",
+            "configurations_data": ""
           }
         },
         "row_gk3xxN": {
@@ -218,7 +221,8 @@
             "description": "Small MEDIBIN™",
             "code": "10001S",
             "dimensions": "135W x 120H x 215D",
-            "dimensions_inch": ""
+            "dimensions_inch": "",
+            "configurations_data": ""
           }
         },
         "row_ePetGA": {
@@ -227,7 +231,8 @@
             "description": "Medium MEDIBIN™",
             "code": "10002M",
             "dimensions": "200W x 160H x 273D",
-            "dimensions_inch": ""
+            "dimensions_inch": "",
+            "configurations_data": ""
           }
         },
         "row_z4tfHJ": {
@@ -236,7 +241,8 @@
             "description": "Large MEDIBIN™",
             "code": "10003L",
             "dimensions": "400W x 160H x 284D",
-            "dimensions_inch": ""
+            "dimensions_inch": "",
+            "configurations_data": ""
           }
         },
         "row_P4xVTA": {
@@ -245,7 +251,8 @@
             "description": "Extra Large MEDIBIN™",
             "code": "10004XL",
             "dimensions": "400W x 160H x 440D",
-            "dimensions_inch": ""
+            "dimensions_inch": "",
+            "configurations_data": ""
           }
         },
         "row_U3gGd9": {
@@ -254,7 +261,8 @@
             "description": "Extra Extra Large MEDIBIN™ – (does not hang – shelf bin only)",
             "code": "10040XXL",
             "dimensions": "440W x 350H x 600D",
-            "dimensions_inch": ""
+            "dimensions_inch": "",
+            "configurations_data": ""
           }
         }
       },
@@ -272,7 +280,8 @@
         "description": "Description",
         "code": "Code",
         "dimensions": "Dimensions",
-        "dimensions_inch": "Dimensions (inches)"
+        "dimensions_inch": "Dimensions (inches)",
+        "configurations": "Configurations (inches)"
       }
     },
     "rich_text_CqT3jr": {
@@ -410,7 +419,8 @@
             "description": "Gray",
             "code": "Bariatrics",
             "dimensions": "10281",
-            "dimensions_inch": "22033"
+            "dimensions_inch": "22033",
+            "configurations_data": ""
           }
         },
         "row_tpUeFd": {
@@ -419,7 +429,8 @@
             "description": "Turquoise",
             "code": "Cardiothoracic",
             "dimensions": "10279",
-            "dimensions_inch": "22031"
+            "dimensions_inch": "22031",
+            "configurations_data": ""
           }
         },
         "row_TxDDqY": {
@@ -428,7 +439,8 @@
             "description": "Red",
             "code": "Cardiovascular",
             "dimensions": "10286",
-            "dimensions_inch": "22038"
+            "dimensions_inch": "22038",
+            "configurations_data": ""
           }
         },
         "row_ek8bYN": {
@@ -437,7 +449,8 @@
             "description": "Pink",
             "code": "Ear, Nose & Throat (ENT)",
             "dimensions": "10282",
-            "dimensions_inch": "22034"
+            "dimensions_inch": "22034",
+            "configurations_data": ""
           }
         },
         "row_xHCLra": {
@@ -446,7 +459,8 @@
             "description": "Brown",
             "code": "General",
             "dimensions": "10290",
-            "dimensions_inch": "22029"
+            "dimensions_inch": "22029",
+            "configurations_data": ""
           }
         },
         "row_6Jhabf": {
@@ -455,7 +469,8 @@
             "description": "Green",
             "code": "Gynaecology",
             "dimensions": "10280",
-            "dimensions_inch": "22032"
+            "dimensions_inch": "22032",
+            "configurations_data": ""
           }
         },
         "row_i6ynbh": {
@@ -464,7 +479,8 @@
             "description": "Orange",
             "code": "Head & Neck",
             "dimensions": "10287",
-            "dimensions_inch": "22039"
+            "dimensions_inch": "22039",
+            "configurations_data": ""
           }
         },
         "row_U94F8M": {
@@ -473,7 +489,8 @@
             "description": "Purple",
             "code": "Neurology",
             "dimensions": "10278",
-            "dimensions_inch": "22030"
+            "dimensions_inch": "22030",
+            "configurations_data": ""
           }
         },
         "row_N8fkME": {
@@ -482,7 +499,8 @@
             "description": "Cream",
             "code": "Oncology",
             "dimensions": "10283",
-            "dimensions_inch": "22035"
+            "dimensions_inch": "22035",
+            "configurations_data": ""
           }
         },
         "row_7hUxAF": {
@@ -491,7 +509,8 @@
             "description": "Blue",
             "code": "Orthopaedic",
             "dimensions": "10284",
-            "dimensions_inch": "22036"
+            "dimensions_inch": "22036",
+            "configurations_data": ""
           }
         },
         "row_7dAQMX": {
@@ -500,7 +519,8 @@
             "description": "Hot Pink",
             "code": "Plastics",
             "dimensions": "10289",
-            "dimensions_inch": "22028"
+            "dimensions_inch": "22028",
+            "configurations_data": ""
           }
         },
         "row_DxzjcW": {
@@ -509,7 +529,8 @@
             "description": "Light Gray",
             "code": "Standard",
             "dimensions": "10288",
-            "dimensions_inch": "22027"
+            "dimensions_inch": "22027",
+            "configurations_data": ""
           }
         },
         "row_9UhWnj": {
@@ -518,7 +539,8 @@
             "description": "Yellow",
             "code": "Urology",
             "dimensions": "10285",
-            "dimensions_inch": "22037"
+            "dimensions_inch": "22037",
+            "configurations_data": ""
           }
         }
       },
@@ -542,7 +564,8 @@
         "description": "Color",
         "code": "Suggested Application",
         "dimensions": "Label Holder",
-        "dimensions_inch": "Post Strip"
+        "dimensions_inch": "Post Strip",
+        "configurations": "Configurations (inches)"
       }
     }
   },

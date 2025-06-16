@@ -9,16 +9,6 @@
  */
 {
   "sections": {
-    "section_breadcrumb_qVHqWR": {
-      "type": "section-breadcrumb",
-      "settings": {
-        "color_scheme": "",
-        "padding_top": 30,
-        "padding_bottom": 30,
-        "mobile_padding_top": 30,
-        "mobile_padding_bottom": 30
-      }
-    },
     "rich_text_Gbed3j": {
       "type": "rich-text",
       "blocks": {
@@ -26,7 +16,8 @@
           "type": "heading",
           "settings": {
             "heading": "SpaceLogic customer returns policy",
-            "heading_size": "h1"
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28
           }
         },
         "text_wwcAdP": {
@@ -50,6 +41,16 @@
         "section_border": false,
         "padding_top": 80,
         "padding_bottom": 50
+      }
+    },
+    "section_breadcrumb_qVHqWR": {
+      "type": "section-breadcrumb",
+      "settings": {
+        "color_scheme": "",
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "mobile_padding_top": 30,
+        "mobile_padding_bottom": 30
       }
     },
     "main": {
@@ -86,8 +87,8 @@
     }
   },
   "order": [
-    "section_breadcrumb_qVHqWR",
     "rich_text_Gbed3j",
+    "section_breadcrumb_qVHqWR",
     "main",
     "return_refund_form_yRWQyC"
   ]

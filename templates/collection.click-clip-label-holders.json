@@ -62,6 +62,39 @@
         "padding_bottom": 72
       }
     },
+    "page_banner_yDthVa": {
+      "type": "page-banner",
+      "blocks": {
+        "heading_bBTm9d": {
+          "type": "heading",
+          "settings": {
+            "heading": "Click ‘n’ Clip Label Holders",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "heading_alignment": "center"
+          }
+        },
+        "text_WeKnmh": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Vastly improve the efficiency of your ward and implement best practice search and retrieval protocols using STERIRACK® Click ‘n’ Clip Coloured Label Holders.</p><ul><li>Now available for STERIRACK® System racking, shelving and baskets, as well as STERIRACK® Trolleys and Carts</li><li>An innovation brought to you by the SpaceLogic design team and inspired by feedback from our healthcare colleagues all over Australia</li><li>Innovative Click ‘n’ Clip Coloured Label Holders click together both vertically and horizontally, and clip to the front of STERIRACK® baskets and shelving</li><li>Use colour psychology to facilitate best practice categorisation and retrieval protocols, or simply colour co-ordinate to suit your decor</li><li>Available in 13 great colours</li><li>Post strips are also available in the same great colour range</li><li>Check out the videos below to see how hospitals are slashing the time their nurses spend hunting through storerooms</li><li>Label size: 80mmW x 40mmH. Label holders come with accompanying cardboard and plastic inserts.</li></ul>",
+            "text_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "heading_bBTm9d",
+        "text_WeKnmh"
+      ],
+      "settings": {
+        "title_alignment": "center",
+        "full_width": true,
+        "content_width": "full_width",
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -570,9 +603,10 @@
     }
   },
   "order": [
-    "section_breadcrumb_nmUW87",
     "banner",
     "page_banner_BXQVUB",
+    "section_breadcrumb_nmUW87",
+    "page_banner_yDthVa",
     "product-grid",
     "product_catalog_xdFqLr",
     "product_list_aMiAGg",

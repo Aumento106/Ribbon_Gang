@@ -38,6 +38,7 @@
     },
     "image_banner_VgKQ7z": {
       "type": "image-banner",
+      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "page_container": "full-width",
@@ -101,6 +102,7 @@
     },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-1",
         "padding_top": 0,

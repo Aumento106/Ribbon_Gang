@@ -67,7 +67,9 @@
     {%- for block in section.blocks -%}
           {%- case block.type -%}
             {%- when 'image' -%}
+            {%- liquid
               assign image_height = block.settings.image.width | divided_by: block.settings.image.aspect_ratio
+            -%}
               {%- if block.settings.image != blank -%}
                 <div class="project-consultation__image-wrapper image-block" {{ block.shopify_attributes }}>
                     {{

@@ -8,32 +8,32 @@
     margin-top: {{ section.settings.margin_top | times: 0.55 | round: 0 }}px;
     margin-bottom: {{ section.settings.margin_bottom | times: 0.55 | round: 0 }}px;
   }
-  .section-{{ section.id }}-padding .sec-head .title {
+  .section-{{ section.id }}-padding .sec-head .title > * {
     color: {{ section.settings.title_color }};
   }
   .section-{{ section.id }}-padding .section-sub-title {
     color: {{ section.settings.subheading_color }};
   }
-  .multi-column-box-with-image.section-{{ section.id }} .sec-head .title {
+  .multi-column-box-with-image.section-{{ section.id }} .sec-head .title > * {
     font-size: {{ section.settings.custom_heading_size }}px;
   }
   @media screen and (max-width: 1366px) {
-    .multi-column-box-with-image.section-{{ section.id }} .sec-head .title {
+    .multi-column-box-with-image.section-{{ section.id }} .sec-head .title > * {
       font-size: {{ section.settings.custom_heading_size | divided_by: 1.238 }}px;
     }
   }
   @media screen and (max-width: 1199px) {
-    .multi-column-box-with-image.section-{{ section.id }} .sec-head .title {
+    .multi-column-box-with-image.section-{{ section.id }} .sec-head .title > * {
       font-size: {{ section.settings.custom_heading_size | divided_by: 1.3 }}px;
     }
   }
   @media screen and (max-width: 989px) {
-    .multi-column-box-with-image.section-{{ section.id }} .sec-head .title {
+    .multi-column-box-with-image.section-{{ section.id }} .sec-head .title > * {
       font-size: {{ section.settings.custom_heading_size | divided_by: 1.52 }}px;
     }
   }
   @media screen and (max-width: 749px) {
-    .multi-column-box-with-image.section-{{ section.id }} .sec-head .title {
+    .multi-column-box-with-image.section-{{ section.id }} .sec-head .title > * {
       font-size: {{ section.settings.mobile_custom_heading_size }}px;
     }
   }

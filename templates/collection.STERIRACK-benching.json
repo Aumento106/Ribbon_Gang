@@ -430,6 +430,7 @@
       "block_order": [
         "image_xFk7ni"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",

@@ -41,6 +41,14 @@
             "heading_alignment": "center"
           }
         },
+        "image_YK9TCA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/01-workstations_216a438d-e686-4449-9d14-40ef63c4e75e.jpg",
+            "border_radius": true,
+            "image_height": "medium"
+          }
+        },
         "text_G6e3Nj": {
           "type": "text",
           "settings": {
@@ -51,6 +59,7 @@
       },
       "block_order": [
         "heading_nhBt8y",
+        "image_YK9TCA",
         "text_G6e3Nj"
       ],
       "settings": {
@@ -86,6 +95,56 @@
         "padding_bottom": 36
       }
     },
+    "custom_multicolumn_JBKwiw": {
+      "type": "custom-multicolumn",
+      "blocks": {
+        "column_dqmrHF": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/sterirack-post-strips-1024x725.jpg",
+            "title": "",
+            "text": "",
+            "text-v": "",
+            "button-text": "",
+            "button-url": ""
+          }
+        },
+        "column_daXPLY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/sterirack-post-assembly.jpg",
+            "title": "",
+            "text": "",
+            "text-v": "",
+            "button-text": "",
+            "button-url": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_dqmrHF",
+        "column_daXPLY"
+      ],
+      "name": "Custom multicolumn",
+      "settings": {
+        "title": "<p>Multicolumn Box</p>",
+        "sec_subtitle": "Subtitle",
+        "title_color": "#424242",
+        "subheading_color": "#424242",
+        "button_text": "",
+        "button_url": "",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "title_alignment": "center",
+        "color_scheme": "",
+        "columns_desktop": "2",
+        "box_shadow": true,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "product_catalog_xdFqLr": {
       "type": "product-catalog",
       "disabled": true,
@@ -106,6 +165,48 @@
         "subheading_color": "#424242",
         "padding_top": 20,
         "padding_bottom": 20
+      }
+    },
+    "multicolumn_video_VnA9tM": {
+      "type": "multicolumn-video",
+      "blocks": {
+        "column_EiDLij": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/07-thumbnail.jpg",
+            "video_url": "https://youtu.be/oxC4irjNWb8?si=MgfHcTAunuwlf6pl",
+            "enable_video_looping": false,
+            "title": "",
+            "text": ""
+          }
+        },
+        "column_zdyDx7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/01-thumbnail.jpg",
+            "video_url": "https://youtu.be/ssKODXqPfeE?list=TLGGBi0PfxWSGHoxNjA2MjAyNQ",
+            "enable_video_looping": false,
+            "title": "",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_EiDLij",
+        "column_zdyDx7"
+      ],
+      "name": "Multicolumn video",
+      "settings": {
+        "title": "<h2>VIDEOS - STERIRACK® Colored Post Strips​</h2>",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "title_alignment": "center",
+        "color_scheme": "",
+        "columns_desktop": "2",
+        "box_shadow": true,
+        "box_color_scheme": "scheme-1",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "product_list_aMiAGg": {
@@ -522,7 +623,9 @@
     "banner",
     "page_banner_BXQVUB",
     "product-grid",
+    "custom_multicolumn_JBKwiw",
     "product_catalog_xdFqLr",
+    "multicolumn_video_VnA9tM",
     "product_list_aMiAGg",
     "dimension_table_cR8mFy",
     "rich_text_CqT3jr",

@@ -453,7 +453,7 @@
         "heading_MiUyTH": {
           "type": "heading",
           "settings": {
-            "heading": "STERIRACK® Clip 'n' Click Label Holders",
+            "heading": "Label holders and post strips in a range of 14 vibrant colors",
             "custom_heading_size": 39,
             "mobile_custom_heading_size": 28
           }
@@ -472,10 +472,10 @@
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "content_alignment": "center",
-        "content_width": "medium",
+        "content_width": "full_width",
         "color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
         "full_width": true,
-        "no_margin": false,
+        "no_margin": true,
         "section_border": false,
         "padding_top": 40,
         "padding_bottom": 40

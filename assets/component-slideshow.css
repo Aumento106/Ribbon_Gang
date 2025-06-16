@@ -23,6 +23,10 @@ slideshow-component .slideshow.banner {
 .swiper.custom-slider-show  .swiper-pagination {
   bottom: 30px;
 }
+.slideshow__text.slideshow__text--left .banner__buttons {
+  left: 0;
+  transform: unset;
+}
 
 @media screen and (max-width: 749px) {
   .slideshow--placeholder.banner--mobile-bottom.banner--adapt_image .slideshow__media,

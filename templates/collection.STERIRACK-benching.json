@@ -408,6 +408,7 @@
         "row_tU3Bi6",
         "row_wWUXAA"
       ],
+      "disabled": true,
       "settings": {
         "description": "Description",
         "code": "Dimensions (mm)",

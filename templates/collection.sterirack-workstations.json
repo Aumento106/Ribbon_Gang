@@ -347,104 +347,80 @@
         "padding_bottom": 36
       }
     },
-    "multicolumn_RcWhD4": {
-      "type": "multicolumn",
+    "custom_multicolumn_text_QKXKe6": {
+      "type": "custom-Multicolumn-text",
       "blocks": {
-        "column_BHaYJM": {
+        "column_Pc4rbH": {
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Wollongong-1-300x225.jpg",
             "title": "",
             "text": "",
-            "link_label": "",
-            "link": ""
+            "text-v": "",
+            "button-text": "",
+            "button-url": ""
           }
         },
-        "column_cPR4jC": {
+        "column_AFpdmL": {
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Workstation-3-300x300.jpg",
             "title": "",
             "text": "",
-            "link_label": "",
-            "link": ""
+            "text-v": "",
+            "button-text": "",
+            "button-url": ""
           }
         },
-        "column_F9VXeE": {
+        "column_ExmfNK": {
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Sydney-1-300x225.jpg",
             "title": "",
             "text": "",
-            "link_label": "",
-            "link": ""
+            "text-v": "",
+            "button-text": "",
+            "button-url": ""
           }
         },
-        "column_j8RyWx": {
+        "column_VqhRMB": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Wollongong-1-300x225.jpg",
+            "image": "shopify://shop_images/Wollongong-2.jpg",
             "title": "",
             "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_BHaYJM",
-        "column_cPR4jC",
-        "column_F9VXeE",
-        "column_j8RyWx"
-      ],
-      "name": "t:sections.multicolumn.presets.name",
-      "settings": {
-        "title": "",
-        "custom_heading_size": 52,
-        "mobile_custom_heading_size": 28,
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 4,
-        "column_alignment": "left",
-        "background_style": "none",
-        "enable_border_content": false,
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "custom_multicolumn_text_C4wR6g": {
-      "type": "custom-Multicolumn-text",
-      "blocks": {
-        "column_nzjAK7": {
-          "type": "column",
-          "settings": {
-            "title": "Box title",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>",
             "text-v": "",
             "button-text": "",
             "button-url": ""
           }
         },
-        "column_eyHrKY": {
+        "column_DDicwj": {
           "type": "column",
           "settings": {
-            "title": "Box title",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>",
+            "image": "shopify://shop_images/Workstation-2-300x300.jpg",
+            "title": "",
+            "text": "",
             "text-v": "",
             "button-text": "",
             "button-url": ""
           }
         },
-        "column_cE7PhL": {
+        "column_4b7bJD": {
           "type": "column",
           "settings": {
-            "title": "Box title",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>",
+            "image": "shopify://shop_images/Wagga-1-300x225.jpg",
+            "title": "",
+            "text": "",
+            "text-v": "",
+            "button-text": "",
+            "button-url": ""
+          }
+        },
+        "column_NfKygM": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
             "text-v": "",
             "button-text": "",
             "button-url": ""
@@ -452,13 +428,17 @@
         }
       },
       "block_order": [
-        "column_nzjAK7",
-        "column_eyHrKY",
-        "column_cE7PhL"
+        "column_Pc4rbH",
+        "column_AFpdmL",
+        "column_ExmfNK",
+        "column_VqhRMB",
+        "column_DDicwj",
+        "column_4b7bJD",
+        "column_NfKygM"
       ],
       "name": "Custom multicolumn text",
       "settings": {
-        "title": "<p>Multicolumn Box</p>",
+        "title": "<h2>Photo gallery</h2>",
         "descr": "",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
@@ -470,74 +450,6 @@
         "columns_desktop": "3",
         "box_shadow": true,
         "box_color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multicolumn_collection_keAQGd": {
-      "type": "multicolumn-collection",
-      "blocks": {
-        "column_K7YgqY": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Wollongong-1-300x225.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_gCbC3U": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Workstation-3-300x300.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_3LyD7q": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Sydney-1-300x225.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_AnhG6c": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Wollongong-2.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_K7YgqY",
-        "column_gCbC3U",
-        "column_3LyD7q",
-        "column_AnhG6c"
-      ],
-      "name": "Multicolumn Collection",
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 4,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -554,8 +466,6 @@
     "rich_text_CqT3jr",
     "image_with_no_text_UUP4dk",
     "video_E7wm9f",
-    "multicolumn_RcWhD4",
-    "custom_multicolumn_text_C4wR6g",
-    "multicolumn_collection_keAQGd"
+    "custom_multicolumn_text_QKXKe6"
   ]
 }

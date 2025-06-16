@@ -419,6 +419,7 @@
         "column_NfKygM": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Leeton-1-300x300.jpg",
             "title": "",
             "text": "",
             "text-v": "",
@@ -453,6 +454,47 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "multicolumn_video_RR9UW7": {
+      "type": "multicolumn-video",
+      "blocks": {
+        "column_yCekeN": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Custom-Workstations-for-CSSD-1024x573.jpg",
+            "video_url": "https://youtu.be/UAUVJd0oq3o?si=ODTwZynbTdtklZrH",
+            "enable_video_looping": false,
+            "title": "",
+            "text": ""
+          }
+        },
+        "column_fpbbLM": {
+          "type": "column",
+          "settings": {
+            "video_url": "https://youtu.be/f-xzYD_27AI?si=qdsbT6tI4SepS2ap",
+            "enable_video_looping": false,
+            "title": "",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_yCekeN",
+        "column_fpbbLM"
+      ],
+      "name": "Multicolumn video",
+      "settings": {
+        "title": "<h2>VIDEO - STERIRACK® Workstation</h2>",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "title_alignment": "center",
+        "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
+        "columns_desktop": "2",
+        "box_shadow": true,
+        "box_color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -466,6 +508,7 @@
     "rich_text_CqT3jr",
     "image_with_no_text_UUP4dk",
     "video_E7wm9f",
-    "custom_multicolumn_text_QKXKe6"
+    "custom_multicolumn_text_QKXKe6",
+    "multicolumn_video_RR9UW7"
   ]
 }

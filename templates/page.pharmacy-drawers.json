@@ -214,7 +214,7 @@
           "settings": {
             "image": "shopify://shop_images/04-Steriack-Pharmacy.jpg",
             "border_radius": true,
-            "image_height": "medium"
+            "image_height": "small"
           }
         }
       },

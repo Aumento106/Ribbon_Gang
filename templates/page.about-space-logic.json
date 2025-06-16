@@ -18,16 +18,6 @@
         "padding_bottom": 28
       }
     },
-    "section_breadcrumb_eRP7JN": {
-      "type": "section-breadcrumb",
-      "settings": {
-        "color_scheme": "",
-        "padding_top": 75,
-        "padding_bottom": 0,
-        "mobile_padding_top": 30,
-        "mobile_padding_bottom": 30
-      }
-    },
     "page_banner_J4tRrR": {
       "type": "page-banner",
       "blocks": {
@@ -35,7 +25,8 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/image_2_d105ff1d-19fc-449a-9518-1392329e41f4.png",
-            "border_radius": false
+            "border_radius": false,
+            "image_height": "medium"
           }
         },
         "text_zj4HVF": {
@@ -56,7 +47,17 @@
         "content_width": "full_width",
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "padding_top": 50,
-        "padding_bottom": 36
+        "padding_bottom": 0
+      }
+    },
+    "section_breadcrumb_eRP7JN": {
+      "type": "section-breadcrumb",
+      "settings": {
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "mobile_padding_top": 30,
+        "mobile_padding_bottom": 30
       }
     },
     "image_with_text_v1_Kk8cPy": {
@@ -143,7 +144,6 @@
         "heading": "<p>Product Catalogue</p>",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
-        "font_weight": "400",
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "description": "<p>Click here to view our latest product and services catalogue in a browser without downloading.</p>",
         "button_1_text": "View catalogue",
@@ -160,8 +160,8 @@
   },
   "order": [
     "main",
-    "section_breadcrumb_eRP7JN",
     "page_banner_J4tRrR",
+    "section_breadcrumb_eRP7JN",
     "image_with_text_v1_Kk8cPy",
     "rich_text_EQJmnB",
     "product_catalog_Bnebfb"

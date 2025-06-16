@@ -377,7 +377,7 @@
             "code": "1000mmH x 1938mmW x 646mmD",
             "dimensions": "39 3/8″ H x 76 5/16″ W x 25 7/16″ D",
             "dimensions_inch": "12 x 100mmH and 4 x 180mmH baskets",
-            "configurations_data": ""
+            "configurations_data": "12 x 3 15/16″ H and 4 x 7 1/16″ H baskets"
           }
         },
         "row_tU3Bi6": {
@@ -387,7 +387,7 @@
             "code": "1000mmH x 2422mmW x 646mmD",
             "dimensions": "39 3/8″ H x 95 3/8″ W x 25 7/16″ D",
             "dimensions_inch": "15 x 100mmH and 5 x 180mmH baskets",
-            "configurations_data": ""
+            "configurations_data": "15 x 3 15/16″ H and 5 x 7 1/16″ H baskets"
           }
         },
         "row_wWUXAA": {
@@ -396,8 +396,8 @@
             "description": "Extra Small MEDIBIN™",
             "code": "10000XS",
             "dimensions": "100W × 120H × 215D",
-            "dimensions_inch": "",
-            "configurations_data": ""
+            "dimensions_inch": "18 x 100mmH and 6 x 180mmH baskets",
+            "configurations_data": "18 x 3 15/16″ H and 6 x 7 1/16″ H baskets"
           }
         }
       },

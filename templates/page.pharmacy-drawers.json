@@ -359,10 +359,10 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "page_container": "full-width",
+        "page_container": "page-width",
         "image": "shopify://shop_images/sterirack_pharmacy_shelving_400W-x-400D_2200px.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "adapt",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",

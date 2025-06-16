@@ -420,7 +420,7 @@
             "code": "Neurology",
             "dimensions": "10278",
             "dimensions_inch": "22030",
-            "configurations_data": ""
+            "configurations_data": "22030"
           }
         },
         "row_TeGhD4": {
@@ -430,7 +430,7 @@
             "code": "Cardiothoracic",
             "dimensions": "10279",
             "dimensions_inch": "22031",
-            "configurations_data": ""
+            "configurations_data": "22031"
           }
         },
         "row_X4JCrg": {
@@ -440,7 +440,7 @@
             "code": "Gynaecology",
             "dimensions": "10280",
             "dimensions_inch": "22032",
-            "configurations_data": ""
+            "configurations_data": "22032"
           }
         },
         "row_6UDdY8": {
@@ -450,7 +450,7 @@
             "code": "Bariatrics",
             "dimensions": "10281",
             "dimensions_inch": "22033",
-            "configurations_data": ""
+            "configurations_data": "22033"
           }
         },
         "row_yRHxMp": {
@@ -565,7 +565,7 @@
         "code": "Suggested Application",
         "dimensions": "Label Holder",
         "dimensions_inch": "Post Strip",
-        "configurations": "Configurations (inches)"
+        "configurations": ""
       }
     }
   },

@@ -506,12 +506,23 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "column_AnhG6c": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Wollongong-2.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "column_K7YgqY",
         "column_gCbC3U",
-        "column_3LyD7q"
+        "column_3LyD7q",
+        "column_AnhG6c"
       ],
       "name": "Multicolumn Collection",
       "settings": {

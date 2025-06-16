@@ -12,26 +12,26 @@
   .section-{{ section.id }}-padding .multicolumn-section-subtitle {
     color: {{ section.settings.subheading_color }};
   }
-  .section-{{ section.id }}-padding .sec-head .title {
+  .section-{{ section.id }}-padding .sec-head .title > * {
     font-size: {{ section.settings.custom_heading_size }}px;
   }
   @media screen and (max-width: 1366px) {
-    .section-{{ section.id }}-padding .sec-head .title {
+    .section-{{ section.id }}-padding .sec-head .title > * {
       font-size: {{ section.settings.custom_heading_size | divided_by: 1.238 }}px;
     }
   }
   @media screen and (max-width: 1199px) {
-    .section-{{ section.id }}-padding .sec-head .title {
+    .section-{{ section.id }}-padding .sec-head .title > * {
       font-size: {{ section.settings.custom_heading_size | divided_by: 1.3 }}px;
     }
   }
   @media screen and (max-width: 989px) {
-    .section-{{ section.id }}-padding .sec-head .title {
+    .section-{{ section.id }}-padding .sec-head .title > * {
       font-size: {{ section.settings.custom_heading_size | divided_by: 1.52 }}px;
     }
   }
   @media screen and (max-width: 749px) {
-    .section-{{ section.id }}-padding .sec-head .title {
+    .section-{{ section.id }}-padding .sec-head .title > * {
       font-size: {{ section.settings.mobile_custom_heading_size }}px;
     }
   }
@@ -56,9 +56,9 @@
   <div class="multicolumn-box page-width">
     {%- if section.settings.title != blank -%}
       <div class="sec-head section-title-alignment-{{ section.settings.title_alignment }}">
-        <h2 class="title {{ section.settings.heading_size }}">
+        <div class="title">
           {{ section.settings.title }}
-        </h2>
+        </div>
          <div class="multicolumn-section-subtitle subtitle">{{ section.settings.descr }}</div>
       </div>
     {%- endif -%}

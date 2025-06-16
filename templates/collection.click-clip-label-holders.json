@@ -504,6 +504,57 @@
         "padding_bottom": 36
       }
     },
+    "multicolumn_video_7hERd9": {
+      "type": "multicolumn-video",
+      "blocks": {
+        "column_Y7Tjt3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Coloured-Label-Holders-1024x577.jpg",
+            "video_url": "https://youtu.be/oxC4irjNWb8?si=CVYhUK1CzCaFcWmi",
+            "enable_video_looping": false,
+            "title": "",
+            "text": ""
+          }
+        },
+        "column_xU9eEJ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Labelling-and-Signage-Achieve-maximum-efficiency-1024x577.jpg",
+            "video_url": "https://youtu.be/ssKODXqPfeE?si=9qKHpp1ad1BJ5VkK",
+            "enable_video_looping": false,
+            "title": "",
+            "text": ""
+          }
+        },
+        "column_QmX7yT": {
+          "type": "column",
+          "settings": {
+            "enable_video_looping": false,
+            "title": "Box title",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "column_Y7Tjt3",
+        "column_xU9eEJ",
+        "column_QmX7yT"
+      ],
+      "name": "Multicolumn video",
+      "settings": {
+        "title": "<h2>VIDEO - Slash time spent hunting through storerooms with colored label holders​</h2>",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "title_alignment": "center",
+        "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
+        "columns_desktop": "3",
+        "box_shadow": true,
+        "box_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "dimension_table_GhDdM9": {
       "type": "dimension_table",
       "blocks": {
@@ -678,6 +729,7 @@
     "video_E7wm9f",
     "rich_text_fj9XCx",
     "image_with_no_text_rpXw36",
+    "multicolumn_video_7hERd9",
     "dimension_table_GhDdM9"
   ]
 }

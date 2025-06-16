@@ -409,6 +409,16 @@
             "dimensions_inch": "21 x 100mmH and 7 x 180mmH baskets",
             "configurations_data": "21 x 3 15/16″ H and 7 x 7 1/16″ H baskets"
           }
+        },
+        "row_MjHmNE": {
+          "type": "row",
+          "settings": {
+            "description": "8-Bay",
+            "code": "1000mmH x 3874mmW x 646mmD",
+            "dimensions": "39 3/8″ H x 152 1/2″ W x 25 7/16″ D",
+            "dimensions_inch": "24 x 100mmH and 8 x 180mmH baskets",
+            "configurations_data": "24 x 3 15/16″ H and 8 x 7 1/16″ H baskets"
+          }
         }
       },
       "block_order": [
@@ -417,7 +427,8 @@
         "row_C8fQpV",
         "row_tU3Bi6",
         "row_wWUXAA",
-        "row_97P8rX"
+        "row_97P8rX",
+        "row_MjHmNE"
       ],
       "settings": {
         "description": "Description",
@@ -440,7 +451,6 @@
       "block_order": [
         "image_xFk7ni"
       ],
-      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",

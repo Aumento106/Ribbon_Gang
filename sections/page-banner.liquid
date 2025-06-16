@@ -62,11 +62,12 @@
     assign video_id = section.settings.video.id | default: section.settings.video_url.id
 -%}
 
-<div class="project-consultation-sec section-{{ section.id }}-padding gradient color-{{ section.settings.color_scheme }}">
+<div class="project-consultation-sec section-{{ section.id }}-padding gradient color-{{ section.settings.color_scheme }} banner--{{ block.settings.image_height }}">
     <div class="project-consultation__wrapper {% if section.settings.full_width != true %}page-width{% endif %} section-title-alignment-{{ section.settings.title_alignment }}">
     {%- for block in section.blocks -%}
           {%- case block.type -%}
             {%- when 'image' -%}
+              assign image_height = block.settings.image.width | divided_by: block.settings.image.aspect_ratio
               {%- if block.settings.image != blank -%}
                 <div class="project-consultation__image-wrapper image-block" {{ block.shopify_attributes }}>
                     {{
@@ -75,7 +76,8 @@
                     | image_tag:
                         loading: 'lazy',
                         sizes: '(min-width: 1100px) 1920px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)',
-                        widths: '165, 360, 535, 750, 1070, 1500, 1920'
+                        widths: '165, 360, 535, 750, 1070, 1500, 1920',
+                        height: image_height
                     }}
                 </div>
 
@@ -326,6 +328,31 @@
           "label": "Enable border radius",
           "default": true
         },
+        {
+          "type": "select",
+          "id": "image_height",
+          "options": [
+            {
+              "value": "adapt",
+              "label": "t:sections.image-banner.settings.image_height.options__1.label"
+            },
+            {
+              "value": "small",
+              "label": "t:sections.image-banner.settings.image_height.options__2.label"
+            },
+            {
+              "value": "medium",
+              "label": "t:sections.image-banner.settings.image_height.options__3.label"
+            },
+            {
+              "value": "large",
+              "label": "t:sections.image-banner.settings.image_height.options__4.label"
+            }
+          ],
+          "default": "medium",
+          "label": "t:sections.image-banner.settings.image_height.label",
+          "info": "t:sections.image-banner.settings.image_height.info"
+        }
       ]
     },
     {

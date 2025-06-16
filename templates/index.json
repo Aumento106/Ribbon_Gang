@@ -585,7 +585,7 @@
         "column_ggEGqd"
       ],
       "settings": {
-        "title": "<p>Innovative storage solutions</p>",
+        "title": "<h2>Innovative storage solutions</h2>",
         "sec_subtitle": "Making space for care across every department",
         "title_color": "#ffffff",
         "subheading_color": "#ffffff",
@@ -1595,7 +1595,8 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/image_f8e2b89c-4982-4e99-954d-febf9d883ec4.png",
-            "border_radius": false
+            "border_radius": false,
+            "image_height": "medium"
           }
         },
         "heading_qykFgG": {

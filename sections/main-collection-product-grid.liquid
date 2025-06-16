@@ -174,7 +174,7 @@
                     style="--animation-order: {{ forloop.index }};"
                   {% endif %}
                 >
-                  {% if section.settings.hide_sold_out != true or section.settings.hide_price != true %}
+                  {% if section.settings.hide_sold_out != true and section.settings.hide_price != true %}
                   {% render 'card-product',
                     card_product: product,
                     media_aspect_ratio: section.settings.image_ratio,

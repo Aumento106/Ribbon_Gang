@@ -364,7 +364,7 @@
         "column_nkh6Ah": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/sterirack-post-assembly.jpg",
+            "image": "shopify://shop_images/sterirack_overhead_rail_unit_2_2200px-1024x663_9d0e0bde-3d53-4618-94dc-8e4f8ae4aeb6.jpg",
             "title": "",
             "text": "",
             "text-v": "",
@@ -388,7 +388,7 @@
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
         "title_alignment": "center",
-        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "columns_desktop": "2",
         "box_shadow": false,
         "padding_top": 36,

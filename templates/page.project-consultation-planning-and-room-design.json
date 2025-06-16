@@ -9,16 +9,6 @@
  */
 {
   "sections": {
-    "section_breadcrumb_YHdzrq": {
-      "type": "section-breadcrumb",
-      "settings": {
-        "color_scheme": "",
-        "padding_top": 30,
-        "padding_bottom": 30,
-        "mobile_padding_top": 30,
-        "mobile_padding_bottom": 30
-      }
-    },
     "page_banner_9jPapd": {
       "type": "page-banner",
       "blocks": {
@@ -26,22 +16,13 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/image_161.png",
-            "border_radius": false
-          }
-        },
-        "heading_MAUycm": {
-          "type": "heading",
-          "settings": {
-            "heading": "Project consultation, planning and room design",
-            "custom_heading_size": 52,
-            "mobile_custom_heading_size": 28,
-            "heading_alignment": "center"
+            "border_radius": false,
+            "image_height": "medium"
           }
         }
       },
       "block_order": [
-        "image_KqNrzT",
-        "heading_MAUycm"
+        "image_KqNrzT"
       ],
       "settings": {
         "title_alignment": "center",
@@ -52,9 +33,28 @@
         "padding_bottom": 0
       }
     },
+    "section_breadcrumb_YHdzrq": {
+      "type": "section-breadcrumb",
+      "settings": {
+        "color_scheme": "",
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "mobile_padding_top": 30,
+        "mobile_padding_bottom": 30
+      }
+    },
     "page_banner_iVH9eY": {
       "type": "page-banner",
       "blocks": {
+        "heading_NQMLXJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Project consultation, planning and room design",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "heading_alignment": "center"
+          }
+        },
         "text_KdCiWp": {
           "type": "text",
           "settings": {
@@ -76,6 +76,7 @@
         }
       },
       "block_order": [
+        "heading_NQMLXJ",
         "text_KdCiWp",
         "button_fn8KLw"
       ],
@@ -84,7 +85,7 @@
         "full_width": false,
         "content_width": "full_width",
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "padding_top": 0,
+        "padding_top": 30,
         "padding_bottom": 36
       }
     },
@@ -116,8 +117,8 @@
     }
   },
   "order": [
-    "section_breadcrumb_YHdzrq",
     "page_banner_9jPapd",
+    "section_breadcrumb_YHdzrq",
     "page_banner_iVH9eY",
     "multicolumn_services_box_Kh8zd7"
   ]

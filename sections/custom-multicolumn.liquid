@@ -61,9 +61,9 @@
   <div class="multicolumn-box page-width">
     {%- if section.settings.title != blank -%}
       <div class="sec-head section-title-alignment-{{ section.settings.title_alignment }}">
-        <h2 class="title">
+        <div class="title">
           {{ section.settings.title }}
-        </h2>
+        </div>
         <div class="section-sub-title subtitle">{{ section.settings.sec_subtitle }}</div>
         <a href="{{ section.settings.button_url }}" class="button button--primary">
           {{- section.settings.button_text -}}

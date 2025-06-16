@@ -462,6 +462,56 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "custom_multicolumn_XBMEpM": {
+      "type": "custom-multicolumn",
+      "blocks": {
+        "column_77ChJi": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/sterirack-clicknclip-coloured-label-holders-1-1536x1026.jpg",
+            "title": "",
+            "text": "",
+            "text-v": "",
+            "button-text": "",
+            "button-url": ""
+          }
+        },
+        "column_HiGJmB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/sterirack-clicknclip-coloured-label-holders-2-1536x1188.jpg",
+            "title": "",
+            "text": "",
+            "text-v": "",
+            "button-text": "",
+            "button-url": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_77ChJi",
+        "column_HiGJmB"
+      ],
+      "name": "Custom multicolumn",
+      "settings": {
+        "title": "<h2>STERIRACK® Clip 'n' Click Label Holders</h2><h3></h3>",
+        "sec_subtitle": "with matching post strips",
+        "title_color": "#424242",
+        "subheading_color": "#424242",
+        "button_text": "",
+        "button_url": "",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "title_alignment": "center",
+        "color_scheme": "",
+        "columns_desktop": "2",
+        "box_shadow": true,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
     }
   },
   "order": [
@@ -482,6 +532,7 @@
     "rich_text_nHrx4A",
     "image_banner_8aL7YX",
     "rich_text_ptUgyQ",
-    "image_banner_YzDr6K"
+    "image_banner_YzDr6K",
+    "custom_multicolumn_XBMEpM"
   ]
 }

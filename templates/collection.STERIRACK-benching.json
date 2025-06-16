@@ -333,16 +333,71 @@
     },
     "video_E7wm9f": {
       "type": "video",
-      "disabled": true,
       "settings": {
-        "heading": "VIDEO - Use MEDIBINS™ not non-compliant plastic bins",
+        "heading": "VIDEO - STERIRACK® Benching",
         "heading_size": "h1",
         "enable_video_looping": false,
-        "video_url": "https://youtu.be/0vtNGCmZ-yQ?si=vBueGVrcmnNkQb6i",
-        "cover_image": "shopify://shop_images/maxresdefault_e72b4216-5dde-40ad-ab68-731685d0c282.webp",
+        "video_url": "https://youtu.be/ymi3iQQElZE",
+        "cover_image": "shopify://shop_images/maxresdefault_1.webp",
         "description": "",
         "full_width": false,
         "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_WwAgde": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_hECjNP": {
+          "type": "column",
+          "settings": {
+            "title": "Does your current storage:",
+            "text": "<p>Meet infection control standards?</p><p><br/>Meet clinical standards of best practice?</p><p><br/>Comply with WHS regulations?</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_w3Rbi6": {
+          "type": "column",
+          "settings": {
+            "title": "Does your current system:",
+            "text": "<p>Have no sharp or rough edges?</p><p><br/>Stay dust free for infection control?</p><p><br/>Provide adequate ventilation?</p><p>Allow consumables to be accessed, </p><p>located and identified quickly?</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Uc48f4": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>And does your current system:</strong>",
+            "text": "<p>Meet your specific needs?</p><p><br/>Increase administrative efficiencies?</p><p><br/>Maximize the use of available space?</p><p><br/>Reconfigure to meet your changing needs over time?</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_hECjNP",
+        "column_w3Rbi6",
+        "column_Uc48f4"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Questions to ask yourself",
+        "custom_heading_size": 33,
+        "mobile_custom_heading_size": 28,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "enable_border_content": false,
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -472,6 +527,7 @@
     "rich_text_CqT3jr",
     "image_with_no_text_UUP4dk",
     "video_E7wm9f",
+    "multicolumn_WwAgde",
     "dimension_table_KXzpgq",
     "image_with_no_text_VQap7J"
   ]

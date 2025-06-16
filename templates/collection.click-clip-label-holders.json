@@ -590,6 +590,56 @@
         "padding_bottom": 36
       }
     },
+    "custom_multicolumn_WCpiaq": {
+      "type": "custom-multicolumn",
+      "blocks": {
+        "column_zYfLBn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/sterirack-post-strips-1024x725.jpg",
+            "title": "",
+            "text": "",
+            "text-v": "",
+            "button-text": "",
+            "button-url": ""
+          }
+        },
+        "column_Gpyxrq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/sterirack-clicknclip-coloured-label-holders-2-1536x1188.jpg",
+            "title": "",
+            "text": "",
+            "text-v": "",
+            "button-text": "",
+            "button-url": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_zYfLBn",
+        "column_Gpyxrq"
+      ],
+      "name": "Custom multicolumn",
+      "settings": {
+        "title": "<h2>STERIRACK® Post Strips​</h2>",
+        "sec_subtitle": "",
+        "title_color": "#424242",
+        "subheading_color": "#424242",
+        "button_text": "",
+        "button_url": "",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "title_alignment": "center",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "columns_desktop": "2",
+        "box_shadow": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "dimension_table_GhDdM9": {
       "type": "dimension_table",
       "blocks": {
@@ -765,6 +815,7 @@
     "rich_text_fj9XCx",
     "image_with_no_text_rpXw36",
     "multicolumn_video_7hERd9",
+    "custom_multicolumn_WCpiaq",
     "dimension_table_GhDdM9"
   ]
 }

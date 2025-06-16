@@ -530,9 +530,11 @@
         "column_QmX7yT": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Custom-Workstations-for-CSSD-1024x573.jpg",
+            "video_url": "https://youtu.be/UAUVJd0oq3o?si=0t4gA6ChoVWooqgY",
             "enable_video_looping": false,
-            "title": "Box title",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>"
+            "title": "",
+            "text": ""
           }
         }
       },

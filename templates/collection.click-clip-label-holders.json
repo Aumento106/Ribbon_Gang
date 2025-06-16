@@ -546,13 +546,35 @@
             "title": "",
             "text": ""
           }
+        },
+        "column_qMKPJR": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Effective-consumables-management-1024x576.jpg",
+            "video_url": "https://youtu.be/vn3dsLT8Ob8?si=XkDTDSIFPW20n91K",
+            "enable_video_looping": false,
+            "title": "",
+            "text": ""
+          }
+        },
+        "column_TCBDeJ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/For-consumables-storage-efficiencies-1024x578.jpg",
+            "video_url": "",
+            "enable_video_looping": false,
+            "title": "",
+            "text": ""
+          }
         }
       },
       "block_order": [
         "column_Y7Tjt3",
         "column_xU9eEJ",
         "column_QmX7yT",
-        "column_DWc7Lb"
+        "column_DWc7Lb",
+        "column_qMKPJR",
+        "column_TCBDeJ"
       ],
       "name": "Multicolumn video",
       "settings": {
@@ -563,7 +585,7 @@
         "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
         "columns_desktop": "3",
         "box_shadow": true,
-        "box_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "box_color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
         "padding_top": 36,
         "padding_bottom": 36
       }

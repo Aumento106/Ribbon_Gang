@@ -410,6 +410,48 @@
         "padding_bottom": 36
       }
     },
+    "multicolumn_video_G8icP9": {
+      "type": "multicolumn-video",
+      "blocks": {
+        "column_8byWTa": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/sddefault_2.webp",
+            "video_url": "https://youtu.be/LMSV0QB6T14",
+            "enable_video_looping": false,
+            "title": "",
+            "text": ""
+          }
+        },
+        "column_FQc8pT": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/sddefault_3.webp",
+            "video_url": "https://youtu.be/vn3dsLT8Ob8",
+            "enable_video_looping": false,
+            "title": "",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_8byWTa",
+        "column_FQc8pT"
+      ],
+      "name": "Multicolumn video",
+      "settings": {
+        "title": "<h3>VIDEO - Slash time spent hunting through storerooms with color coded label holders</h3>",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "title_alignment": "center",
+        "color_scheme": "",
+        "columns_desktop": "2",
+        "box_shadow": true,
+        "box_color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "dimension_table_EQCC7B": {
       "type": "dimension_table",
       "blocks": {
@@ -582,6 +624,7 @@
     "video_E7wm9f",
     "rich_text_rkJNRp",
     "image_with_no_text_GAJjdq",
+    "multicolumn_video_G8icP9",
     "dimension_table_EQCC7B"
   ]
 }

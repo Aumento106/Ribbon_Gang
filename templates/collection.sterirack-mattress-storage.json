@@ -21,8 +21,17 @@
     "page_banner_BXQVUB": {
       "type": "page-banner",
       "blocks": {
+        "image_DYVqDA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mattress-storage-2-1536x922.png",
+            "border_radius": false,
+            "image_height": "small"
+          }
+        },
         "heading_nhBt8y": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "<strong>STERIRACK® Mattress Storage</strong>",
             "custom_heading_size": 52,
@@ -40,6 +49,7 @@
         }
       },
       "block_order": [
+        "image_DYVqDA",
         "heading_nhBt8y",
         "text_G6e3Nj"
       ],
@@ -48,8 +58,8 @@
         "full_width": true,
         "content_width": "full_width",
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
-        "padding_top": 72,
-        "padding_bottom": 72
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "section_breadcrumb_nmUW87": {
@@ -60,6 +70,77 @@
         "padding_bottom": 30,
         "mobile_padding_top": 30,
         "mobile_padding_bottom": 30
+      }
+    },
+    "page_banner_h7fUHA": {
+      "type": "page-banner",
+      "blocks": {
+        "heading_cM63n4": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>STERIRACK® Mattress Storage</strong>",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "heading_alignment": "center"
+          }
+        },
+        "text_hG6cTR": {
+          "type": "text",
+          "settings": {
+            "text": "<h3><strong>Practical, vertical storage for greater infection control</strong></h3>",
+            "text_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "heading_cM63n4",
+        "text_hG6cTR"
+      ],
+      "settings": {
+        "title_alignment": "center",
+        "full_width": true,
+        "content_width": "full_width",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "padding_top": 30,
+        "padding_bottom": 72
+      }
+    },
+    "image_with_text_TRLFXj": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_ycpU9G": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Efficiency and infection control</strong>",
+            "heading_size": "h2"
+          }
+        },
+        "text_hFENN7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Typically in hospitals, mattresses are stored horizontally, flat on the floor, and stacked up in a pile in the storeroom. This creates mattress compression and difficulties for staff when moving and lifting these cumbersome items. Also, dust and contaminants must be routinely removed from the large flat surface on the mattress at the top of the stack each time a mattress is accessed. Hardly ideal for infection control measures.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ycpU9G",
+        "text_hFENN7"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "product-grid": {
@@ -83,6 +164,41 @@
         "enable_sorting": true,
         "columns_mobile": "2",
         "padding_top": 72,
+        "padding_bottom": 36
+      }
+    },
+    "multirow_YcVRj3": {
+      "type": "multirow",
+      "blocks": {
+        "row_QqdmAL": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Matress-storage-post-strip-colours.jpg",
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p><strong>Efficiency and infection control</strong></p><p>Typically in hospitals, mattresses are stored horizontally, flat on the floor, and stacked up in a pile in the storeroom. This creates mattress compression and difficulties for staff when moving and lifting these cumbersome items. Also, dust and contaminants must be routinely removed from the large flat surface on the mattress at the top of the stack each time a mattress is accessed. Hardly ideal for infection control measures.</p><p><strong>Vertical storage redefined</strong></p><p>STERIRACK® Mattress Storage Modules are a game changer. These convenient modules store mattresses vertically – providing easy, comfortable access to every mattress at any time, and preventing mattress compression completely. Space is maximized and dust collection is minimised.</p><p><strong>Antimicrobial coating for peace of mind</strong></p><p>These Mattress Storage Modules feature an antimicrobial powder coated base which is easy to clean, adding additional infection control. Say goodbye to worries about contaminants and focus on maintaining a hygienic environment effortlessly.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_QqdmAL"
+      ],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
         "padding_bottom": 36
       }
     },
@@ -353,7 +469,10 @@
     "banner",
     "page_banner_BXQVUB",
     "section_breadcrumb_nmUW87",
+    "page_banner_h7fUHA",
+    "image_with_text_TRLFXj",
     "product-grid",
+    "multirow_YcVRj3",
     "product_catalog_xdFqLr",
     "product_list_aMiAGg",
     "dimension_table_cR8mFy",

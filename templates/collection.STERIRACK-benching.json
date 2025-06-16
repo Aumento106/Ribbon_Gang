@@ -357,7 +357,7 @@
             "code": "1000mmH x 970mmW x 646mmD",
             "dimensions": "39 3/8″ H x 38 3/16″ W x 25 7/16″ D",
             "dimensions_inch": "6 x 100mmH and 2 x 180mmH baskets",
-            "configurations_data": ""
+            "configurations_data": "6 x 3 15/16″ H and 2 x 7 1/16″ H baskets"
           }
         },
         "row_m97pKr": {
@@ -367,7 +367,7 @@
             "code": "1000mmH x 1454mmW x 646mmD",
             "dimensions": "39 3/8″ H x 57 1/4″ W x 25 7/16″ D",
             "dimensions_inch": "9 x 100mmH and 3 x 180mmH baskets",
-            "configurations_data": ""
+            "configurations_data": "9 x 3 15/16″ H and 3 x 7 1/16″ H baskets"
           }
         },
         "row_C8fQpV": {
@@ -408,7 +408,6 @@
         "row_tU3Bi6",
         "row_wWUXAA"
       ],
-      "disabled": true,
       "settings": {
         "description": "Description",
         "code": "Dimensions (mm)",

@@ -373,24 +373,6 @@
         "show_text_below": true
       }
     },
-    "image_banner_8aL7YX": {
-      "type": "image-banner",
-      "name": "t:sections.image-banner.presets.name",
-      "settings": {
-        "page_container": "page-width",
-        "image": "shopify://shop_images/sterirack_pharmacy_shelving_400W-x-600D_2200px.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "rich_text_nHrx4A": {
       "type": "rich-text",
       "blocks": {
@@ -417,6 +399,69 @@
         "padding_top": 43,
         "padding_bottom": 0
       }
+    },
+    "image_banner_8aL7YX": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "page_container": "page-width",
+        "image": "shopify://shop_images/sterirack_pharmacy_shelving_400W-x-600D_2200px.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_ptUgyQ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Gfhxgc": {
+          "type": "heading",
+          "settings": {
+            "heading": "Pharmacy Shelving - 600W x 400D or 600W x 600D pharmacy drawers and/or baskets",
+            "custom_heading_size": 31,
+            "mobile_custom_heading_size": 24
+          }
+        }
+      },
+      "block_order": [
+        "heading_Gfhxgc"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "content_alignment": "center",
+        "content_width": "full_width",
+        "color_scheme": "",
+        "full_width": true,
+        "no_margin": false,
+        "section_border": false,
+        "padding_top": 43,
+        "padding_bottom": 0
+      }
+    },
+    "image_banner_YzDr6K": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "page_container": "page-width",
+        "image": "shopify://shop_images/sterirack_pharmacy_shelving_600W-x-400D_600W-x-600D_2200px.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
@@ -435,6 +480,8 @@
     "rich_text_RwpJHH",
     "image_banner_CrHCey",
     "rich_text_nHrx4A",
-    "image_banner_8aL7YX"
+    "image_banner_8aL7YX",
+    "rich_text_ptUgyQ",
+    "image_banner_YzDr6K"
   ]
 }

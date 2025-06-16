@@ -3771,6 +3771,9 @@ sup {
   font-size: 16px;
   line-height: normal;
 }
+.image-with-text-v1 .image-with-text__text.rte strong {
+  font-weight: 700;
+}
 
 @media screen and (max-width: 1024px) {
   .title {

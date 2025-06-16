@@ -65,9 +65,12 @@
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
+        "hide_price": true,
+        "hide_sold_out": true,
         "products_per_page": 20,
         "columns_desktop": 4,
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "remove_product_link": true,
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": false,
@@ -92,7 +95,6 @@
         "heading": "<p>Product Catalogue</p>",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
-        "font_weight": "400",
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "description": "<p>Click here to view our latest product and services catalogue in a browser without downloading.</p>",
         "button_1_text": "View catalogue",
@@ -208,7 +210,9 @@
           "settings": {
             "description": "Extra Small MEDIBIN™",
             "code": "10000XS",
-            "dimensions": "100W × 120H × 215D"
+            "dimensions": "100W × 120H × 215D",
+            "dimensions_inch": "",
+            "configurations_data": ""
           }
         },
         "row_gk3xxN": {
@@ -216,7 +220,9 @@
           "settings": {
             "description": "Small MEDIBIN™",
             "code": "10001S",
-            "dimensions": "135W x 120H x 215D"
+            "dimensions": "135W x 120H x 215D",
+            "dimensions_inch": "",
+            "configurations_data": ""
           }
         },
         "row_ePetGA": {
@@ -224,7 +230,9 @@
           "settings": {
             "description": "Medium MEDIBIN™",
             "code": "10002M",
-            "dimensions": "200W x 160H x 273D"
+            "dimensions": "200W x 160H x 273D",
+            "dimensions_inch": "",
+            "configurations_data": ""
           }
         },
         "row_z4tfHJ": {
@@ -232,7 +240,9 @@
           "settings": {
             "description": "Large MEDIBIN™",
             "code": "10003L",
-            "dimensions": "400W x 160H x 284D"
+            "dimensions": "400W x 160H x 284D",
+            "dimensions_inch": "",
+            "configurations_data": ""
           }
         },
         "row_P4xVTA": {
@@ -240,7 +250,9 @@
           "settings": {
             "description": "Extra Large MEDIBIN™",
             "code": "10004XL",
-            "dimensions": "400W x 160H x 440D"
+            "dimensions": "400W x 160H x 440D",
+            "dimensions_inch": "",
+            "configurations_data": ""
           }
         },
         "row_U3gGd9": {
@@ -248,7 +260,9 @@
           "settings": {
             "description": "Extra Extra Large MEDIBIN™ – (does not hang – shelf bin only)",
             "code": "10040XXL",
-            "dimensions": "440W x 350H x 600D"
+            "dimensions": "440W x 350H x 600D",
+            "dimensions_inch": "",
+            "configurations_data": ""
           }
         }
       },
@@ -262,7 +276,13 @@
       ],
       "disabled": true,
       "name": "dimension-table",
-      "settings": {}
+      "settings": {
+        "description": "Description",
+        "code": "Code",
+        "dimensions": "Dimensions",
+        "dimensions_inch": "Dimensions (inches)",
+        "configurations": "Configurations (inches)"
+      }
     },
     "rich_text_CqT3jr": {
       "type": "rich-text",

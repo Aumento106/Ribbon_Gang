@@ -65,22 +65,39 @@
         "mobile_padding_bottom": 30
       }
     },
+    "image_banner_rdWtDL": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "page_container": "full-width",
+        "image": "shopify://shop_images/03-Steriack-Pharmacy-v2.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "rich_text_P3hBwh": {
       "type": "rich-text",
       "blocks": {
         "heading_mGwXwE": {
           "type": "heading",
           "settings": {
-            "heading": "{{ page.title }}",
+            "heading": "NEW! STERIRACK® Perforated Pharmacy Drawers",
             "custom_heading_size": 52,
             "mobile_custom_heading_size": 28
           }
         },
         "text_7xmpEL": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "<p>Remove this line of text</p>"
+            "text": "<p>Pharmacy drawers are now available for STERIRACK® System, creating an all-in-one fully integrated medications storage solution for Pharmacies and Healthcare. Pull-out pharmacy drawers now seamlessly integrate with baskets and shelving to create versatile, modular solutions for a multiplicity of applications.</p><p>Imagine STERIRACK® Workstations created with Staron benching, shelves, baskets and pharmacy drawers for decanting medications, or full pharmacy fitouts achieved with a combination of quick-access dispensary areas with pharmacy drawers, wire shelves, and heavy duty baskets for bulk storage.</p><ul><li>Store fluids in designated areas, inside heavy duty baskets on fully-extendable drawer-runners</li><li>Create an efficient stock management system using STERIRACK® color coded labelling and post strips in 13 vibrant colors</li><li>Enjoy the quick-picking capabilities of STERIRACK® by utilising bay labelling and aisle sign plates</li></ul><p>Maximize the available space in your pharmacy or medications storeroom by using the STERIRACK® Pharmacy Drawers in combination with other STERIRACK® products. The combinations are endless!</p>"
           }
         }
       },
@@ -88,7 +105,6 @@
         "heading_mGwXwE",
         "text_7xmpEL"
       ],
-      "disabled": true,
       "settings": {
         "content_alignment": "center",
         "content_width": "full_width",
@@ -107,6 +123,65 @@
         "color_scheme": "scheme-1",
         "padding_top": 0,
         "padding_bottom": 28
+      }
+    },
+    "multicolumn_QEaeLE": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_fPAy4i": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/07-Steriack-Pharmacy.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_z989gL": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/02-Steriack-Pharmacy.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_J9CfbW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/01-Steriack-Pharmacy.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_fPAy4i",
+        "column_z989gL",
+        "column_J9CfbW"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "enable_border_content": false,
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 0
       }
     },
     "product_catalog_W3r7Xn": {
@@ -130,14 +205,42 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
+    },
+    "page_banner_T6tEmx": {
+      "type": "page-banner",
+      "blocks": {
+        "image_AaipAf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/04-Steriack-Pharmacy.jpg",
+            "border_radius": true,
+            "image_height": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "image_AaipAf"
+      ],
+      "name": "Page Banner",
+      "settings": {
+        "title_alignment": "center",
+        "full_width": true,
+        "content_width": "full_width",
+        "color_scheme": "",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
     }
   },
   "order": [
     "page_banner_YkpPpf",
     "image_banner_VgKQ7z",
     "section_breadcrumb_F9PzRF",
+    "image_banner_rdWtDL",
     "rich_text_P3hBwh",
     "main",
-    "product_catalog_W3r7Xn"
+    "multicolumn_QEaeLE",
+    "product_catalog_W3r7Xn",
+    "page_banner_T6tEmx"
   ]
 }

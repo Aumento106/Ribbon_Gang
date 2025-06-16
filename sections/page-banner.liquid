@@ -63,7 +63,7 @@
     assign video_id = section.settings.video.id | default: section.settings.video_url.id
 -%}
 
-<div class="project-consultation-sec section-{{ section.id }}-padding gradient color-{{ section.settings.color_scheme }} banner--{{ block.settings.image_height }}">
+<div class="project-consultation-sec section-{{ section.id }}-padding gradient color-{{ section.settings.color_scheme }}">
     <div class="project-consultation__wrapper {% if section.settings.full_width != true %}page-width{% endif %} section-title-alignment-{{ section.settings.title_alignment }}">
     {%- for block in section.blocks -%}
           {%- case block.type -%}
@@ -72,7 +72,7 @@
               assign image_height = block.settings.image.width | divided_by: block.settings.image.aspect_ratio
             -%}
               {%- if block.settings.image != blank -%}
-                <div class="project-consultation__image-wrapper image-block" {{ block.shopify_attributes }}>
+                <div class="project-consultation__image-wrapper image-block banner--{{ block.settings.image_height }}" {{ block.shopify_attributes }}>
                     {{
                     block.settings.image
                     | image_url: width: 1920

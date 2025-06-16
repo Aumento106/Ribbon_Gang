@@ -512,6 +512,40 @@
         "margin_top": 0,
         "margin_bottom": 0
       }
+    },
+    "rich_text_E9TKTR": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_qji4VN": {
+          "type": "heading",
+          "settings": {
+            "heading": "Label holders and post strips in a range of 14 vibrant colors",
+            "custom_heading_size": 39,
+            "mobile_custom_heading_size": 28
+          }
+        },
+        "text_8UYMwm": {
+          "type": "text",
+          "settings": {
+            "text": "<p>(including black)</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qji4VN",
+        "text_8UYMwm"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "content_alignment": "center",
+        "content_width": "full_width",
+        "color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
+        "full_width": true,
+        "no_margin": true,
+        "section_border": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
     }
   },
   "order": [
@@ -533,6 +567,7 @@
     "image_banner_8aL7YX",
     "rich_text_ptUgyQ",
     "image_banner_YzDr6K",
-    "custom_multicolumn_XBMEpM"
+    "custom_multicolumn_XBMEpM",
+    "rich_text_E9TKTR"
   ]
 }

@@ -417,8 +417,8 @@
       ],
       "name": "Custom multicolumn",
       "settings": {
-        "title": "<p>Multicolumn Box</p>",
-        "sec_subtitle": "Subtitle",
+        "title": "",
+        "sec_subtitle": "",
         "title_color": "#424242",
         "subheading_color": "#424242",
         "button_text": "",

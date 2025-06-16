@@ -35,6 +35,7 @@
         },
         "slide_Tw3D9X": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Group_1171277884.png",
             "image_overlay_opacity": 0
@@ -42,6 +43,7 @@
         },
         "slide_tKPUCL": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Group_1171277884.png",
             "image_overlay_opacity": 0
@@ -49,6 +51,7 @@
         },
         "slide_Bhpywf": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Group_1171277884.png",
             "image_overlay_opacity": 0
@@ -56,6 +59,7 @@
         },
         "slide_7zbnVp": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Group_1171277884.png",
             "image_overlay_opacity": 0
@@ -347,7 +351,8 @@
           "type": "heading",
           "settings": {
             "heading": "Transport Case Cart <strong>Details</strong>",
-            "heading_size": "h1"
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28
           }
         }
       },
@@ -373,7 +378,8 @@
           "type": "heading",
           "settings": {
             "heading": "Superior Strength and Durability",
-            "heading_size": "h1"
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28
           }
         },
         "text_XWWeWi": {
@@ -424,7 +430,8 @@
           "type": "heading",
           "settings": {
             "heading": "Identification and labeling",
-            "heading_size": "h1"
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28
           }
         },
         "text_FYk9bD": {
@@ -475,7 +482,8 @@
           "type": "heading",
           "settings": {
             "heading": "Towing and transport",
-            "heading_size": "h1"
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28
           }
         },
         "text_dkB3at": {
@@ -526,7 +534,8 @@
           "type": "heading",
           "settings": {
             "heading": "Protection and maneuvrability",
-            "heading_size": "h1"
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28
           }
         },
         "text_kF7KLU": {
@@ -577,7 +586,8 @@
           "type": "heading",
           "settings": {
             "heading": "Internal configuration",
-            "heading_size": "h1"
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28
           }
         },
         "text_er44G4": {
@@ -628,7 +638,8 @@
           "type": "heading",
           "settings": {
             "heading": "Door features",
-            "heading_size": "h1"
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28
           }
         },
         "text_jMmCWC": {

@@ -471,6 +471,7 @@
         "column_fpbbLM": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/sddefault_46200f96-8d91-4bc2-82e8-4cd2474a151c.webp",
             "video_url": "https://youtu.be/f-xzYD_27AI?si=qdsbT6tI4SepS2ap",
             "enable_video_looping": false,
             "title": "",

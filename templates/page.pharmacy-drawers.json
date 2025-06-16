@@ -327,6 +327,50 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "rich_text_RwpJHH": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Xie6Ur": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Pharmacy Shelving - 400W x 400D pharmacy drawers and/or baskets</strong>",
+            "custom_heading_size": 31,
+            "mobile_custom_heading_size": 24
+          }
+        }
+      },
+      "block_order": [
+        "heading_Xie6Ur"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "content_alignment": "center",
+        "content_width": "full_width",
+        "color_scheme": "",
+        "full_width": true,
+        "no_margin": false,
+        "section_border": false,
+        "padding_top": 43,
+        "padding_bottom": 0
+      }
+    },
+    "image_banner_CrHCey": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "page_container": "full-width",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
@@ -341,6 +385,8 @@
     "image_banner_bXr39C",
     "multicolumn_video_PF3C4a",
     "image_banner_PLWz9M",
-    "custom_multicolumn_2_qD7dU8"
+    "custom_multicolumn_2_qD7dU8",
+    "rich_text_RwpJHH",
+    "image_banner_CrHCey"
   ]
 }

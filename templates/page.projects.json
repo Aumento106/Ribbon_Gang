@@ -42,6 +42,7 @@
         },
         "slide_tKPUCL": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Group_1171277884.png",
             "image_overlay_opacity": 0
@@ -49,6 +50,7 @@
         },
         "slide_Bhpywf": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Group_1171277884.png",
             "image_overlay_opacity": 0
@@ -56,6 +58,7 @@
         },
         "slide_7zbnVp": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Group_1171277884.png",
             "image_overlay_opacity": 0

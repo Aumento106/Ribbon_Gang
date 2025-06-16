@@ -455,6 +455,105 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "rich_text_ghwckk": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_XPhLgg": {
+          "type": "heading",
+          "settings": {
+            "heading": "STERIRACK® Mattress Trolleys",
+            "custom_heading_size": 39,
+            "mobile_custom_heading_size": 28
+          }
+        },
+        "text_kzeQkw": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Effortless mattress transport for healthcare facilities</h3>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_XPhLgg",
+        "text_kzeQkw"
+      ],
+      "settings": {
+        "content_alignment": "center",
+        "content_width": "medium",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "full_width": true,
+        "no_margin": false,
+        "section_border": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "image_with_text_v1_crc8ei": {
+      "type": "image-with-text-v1",
+      "blocks": {
+        "text_ApiFmt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>STERIRACK® Mattress Trolleys, the latest innovation from SpaceLogic. Designed specifically for healthcare facilities, our mattress trolleys are a game-changer for streamlining the transportation of mattresses from storage areas to wards. With advanced features and customisable options, STERIRACK® Mattress Trolleys offer unmatched convenience and efficiency</p><p><strong>Effortless transport, made to order</strong></p><p>Moving mattresses within a hospital or healthcare facility can be a daunting task. STERIRACK® Mattress Trolleys are here to change that. Our trolleys are built to make mattress transport a breeze. Whether you need to negotiate non-standard doorways or transport a specific quantity of mattresses at once, STERIRACK® Mattress Trolleys can be fully customized to meet your specific requirements.</p><p><strong>Quality materials for maximum protection</strong></p><p>At SpaceLogic, we understand the importance of protecting valuable assets like mattresses. That’s why our STERIRACK® Mattress Trolleys are constructed using top-grade materials with rounded corners and no sharp edges. This ensures that mattresses remain undamaged during transportation and handling. Crafted from quality anodised aluminum, the trolleys are perfectly suited for clinical environments. It resists chipping, rusting, and moulding, and is easy to clean, maintaining a high level of hygiene.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_ApiFmt"
+      ],
+      "name": "Image with text v1",
+      "settings": {
+        "image": "shopify://shop_images/18-Mattress-storage-and-trolley-fixed.4-1024x576.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "full_width": false,
+        "enable_video_looping": false,
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_v1_3rkiR7": {
+      "type": "image-with-text-v1",
+      "blocks": {
+        "text_iGxMa3": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Effortless maneuvering for efficient workflow</strong></p><p>Our STERIRACK® Mattress Trolleys are designed for ultimate maneuverability. Equipped with six noise-free, non-marking castors, including two heavy-duty central castors, the trolley provides exceptional stability and control. With its 200kg capacity and the ability to tip and turn on a dime, the trolley allows for smooth navigation through tight spaces and corners. Move mattresses with ease, saving time and effort in your daily operations.</p><p><strong>The perfect companion for STERIRACK® Mattress Storage Modules</strong></p><p>Enhance the efficiency of your storage and transportation system by combining STERIRACK® Mattress Trolleys with our STERIRACK® Mattress Storage Modules. Seamlessly slide mattresses straight out of the storage modules and into a trolley, eliminating most of the manual lifting and reducing the risk of damage or injury. Achieve a streamlined workflow from storage to transportation with SpaceLogic’s integrated solution.</p><p>Experience the difference that STERIRACK® Mattress Trolleys can make in your healthcare facility. Contact us today to learn more about our customisable options and how our trolleys can revolutionise your mattress logistics. Upgrade to effortless mattress transport with SpaceLogic.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_iGxMa3"
+      ],
+      "name": "Image with text v1",
+      "settings": {
+        "image": "shopify://shop_images/18-Mattress-storage-and-trolley-fixed.5-1024x576.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "full_width": false,
+        "enable_video_looping": false,
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -470,6 +569,9 @@
     "dimension_table_cR8mFy",
     "rich_text_CqT3jr",
     "image_with_no_text_UUP4dk",
-    "video_E7wm9f"
+    "video_E7wm9f",
+    "rich_text_ghwckk",
+    "image_with_text_v1_crc8ei",
+    "image_with_text_v1_3rkiR7"
   ]
 }

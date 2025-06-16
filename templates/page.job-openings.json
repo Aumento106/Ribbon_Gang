@@ -18,16 +18,6 @@
         "padding_bottom": 28
       }
     },
-    "section_breadcrumb_yNadMC": {
-      "type": "section-breadcrumb",
-      "settings": {
-        "color_scheme": "",
-        "padding_top": 30,
-        "padding_bottom": 30,
-        "mobile_padding_top": 30,
-        "mobile_padding_bottom": 30
-      }
-    },
     "page_banner_wL3g6z": {
       "type": "page-banner",
       "blocks": {
@@ -35,10 +25,37 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/image_1.png",
-            "border_radius": false
+            "border_radius": false,
+            "image_height": "medium"
           }
-        },
-        "heading_q4a9w9": {
+        }
+      },
+      "block_order": [
+        "image_DKAD6w"
+      ],
+      "settings": {
+        "title_alignment": "center",
+        "full_width": true,
+        "content_width": "full_width",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_breadcrumb_yNadMC": {
+      "type": "section-breadcrumb",
+      "settings": {
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 30,
+        "mobile_padding_top": 30,
+        "mobile_padding_bottom": 30
+      }
+    },
+    "page_banner_zThXNm": {
+      "type": "page-banner",
+      "blocks": {
+        "heading_dJkybV": {
           "type": "heading",
           "settings": {
             "heading": "Job openings at SpaceLogic",
@@ -47,7 +64,7 @@
             "heading_alignment": "center"
           }
         },
-        "text_xdYUrK": {
+        "text_aKVfwT": {
           "type": "text",
           "settings": {
             "text": "<p>At SpaceLogic, we’re committed to building a talented and diverse team that drives innovation and delivers excellence. As a trusted leader in healthcare storage solutions, we offer an inclusive and supportive environment where your skills and expertise can thrive. Explore our current job openings below and discover the next step in your career with us.<br/></p><p><strong>Join us in making space for care®<br/></strong><br/><strong>Open position:</strong><br/>We currently have no open positions. Please check back as we regularly seek skilled professionals to join our team.</p>",
@@ -56,9 +73,8 @@
         }
       },
       "block_order": [
-        "image_DKAD6w",
-        "heading_q4a9w9",
-        "text_xdYUrK"
+        "heading_dJkybV",
+        "text_aKVfwT"
       ],
       "settings": {
         "title_alignment": "center",
@@ -91,7 +107,6 @@
         "heading": "<p>Product Catalogue</p>",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
-        "font_weight": "400",
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "description": "<p>Click here to view our latest product and services catalogue in a browser without downloading.</p>",
         "button_1_text": "View catalogue",
@@ -108,8 +123,9 @@
   },
   "order": [
     "main",
-    "section_breadcrumb_yNadMC",
     "page_banner_wL3g6z",
+    "section_breadcrumb_yNadMC",
+    "page_banner_zThXNm",
     "rich_text_y4gmC7",
     "product_catalog_zMqMUU"
   ]

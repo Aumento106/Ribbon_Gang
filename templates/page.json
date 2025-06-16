@@ -35,6 +35,7 @@
       "block_order": [
         "heading_KHPFgM"
       ],
+      "disabled": true,
       "name": "Page Banner",
       "settings": {
         "title_alignment": "center",
@@ -47,7 +48,6 @@
     },
     "image_banner_VgKQ7z": {
       "type": "image-banner",
-      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "page_container": "full-width",

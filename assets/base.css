@@ -3772,7 +3772,7 @@ sup {
   line-height: normal;
 }
 .image-with-text-v1 .image-with-text__text.rte strong {
-  font-weight: 700;
+  font-weight: 700 !important;
 }
 
 @media screen and (max-width: 1024px) {

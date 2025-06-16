@@ -9,16 +9,6 @@
  */
 {
   "sections": {
-    "section_breadcrumb_fYLUpf": {
-      "type": "section-breadcrumb",
-      "settings": {
-        "color_scheme": "",
-        "padding_top": 30,
-        "padding_bottom": 30,
-        "mobile_padding_top": 30,
-        "mobile_padding_bottom": 30
-      }
-    },
     "page_banner_iVH9eY": {
       "type": "page-banner",
       "blocks": {
@@ -26,10 +16,37 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/6.jpg",
-            "border_radius": false
+            "border_radius": false,
+            "image_height": "medium"
           }
-        },
-        "heading_pVBz9T": {
+        }
+      },
+      "block_order": [
+        "image_W4zerL"
+      ],
+      "settings": {
+        "title_alignment": "left",
+        "full_width": true,
+        "content_width": "full_width",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_breadcrumb_fYLUpf": {
+      "type": "section-breadcrumb",
+      "settings": {
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "mobile_padding_top": 30,
+        "mobile_padding_bottom": 30
+      }
+    },
+    "page_banner_zL7QFq": {
+      "type": "page-banner",
+      "blocks": {
+        "heading_jGqhUe": {
           "type": "heading",
           "settings": {
             "heading": "Project management and expert installation",
@@ -38,14 +55,14 @@
             "heading_alignment": "center"
           }
         },
-        "text_KdCiWp": {
+        "text_iA7qJQ": {
           "type": "text",
           "settings": {
             "text": "<p>Installing a STERIRACK® system is a seamless process, designed for efficiency and minimal disruption. Unlike traditional joinery or cabinetry, our system allows for quick, hassle-free setup. Our expert team will arrive on-site and, before you know it, your facility will be equipped with pristine baskets, shelves, drawers, and benches, ready to be stocked with consumables.</p><p>We ensure minimal disruption to daily operations and other tradespeople. Our installation specialists are available for national and international projects. If external factors, such as travel restrictions, prevent our team from being on-site, we will project manage a trusted local team to maintain our high standards.</p><p>Looking for a fully customised solution? SpaceLogic specialises in bespoke product design and innovation, ensuring you get the ultimate tailored storage system.</p>",
             "text_alignment": "left"
           }
         },
-        "button_fn8KLw": {
+        "button_VKjhhc": {
           "type": "button",
           "settings": {
             "button_label": "Product design and innovation",
@@ -59,17 +76,16 @@
         }
       },
       "block_order": [
-        "image_W4zerL",
-        "heading_pVBz9T",
-        "text_KdCiWp",
-        "button_fn8KLw"
+        "heading_jGqhUe",
+        "text_iA7qJQ",
+        "button_VKjhhc"
       ],
       "settings": {
         "title_alignment": "left",
         "full_width": true,
         "content_width": "full_width",
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "padding_top": 0,
+        "padding_top": 30,
         "padding_bottom": 36
       }
     },
@@ -145,7 +161,6 @@
         "heading": "<p>Product Catalogue</p>",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
-        "font_weight": "400",
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "description": "<p>Click here to view our latest product and services catalogue in a browser without downloading.</p>",
         "button_1_text": "View catalogue",
@@ -161,8 +176,9 @@
     }
   },
   "order": [
-    "section_breadcrumb_fYLUpf",
     "page_banner_iVH9eY",
+    "section_breadcrumb_fYLUpf",
+    "page_banner_zL7QFq",
     "multicolumn_services_box_Kh8zd7",
     "multicolumn_services_box_nmcdxw",
     "product_catalog_xQiN4g"

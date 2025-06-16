@@ -283,6 +283,50 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "custom_multicolumn_2_qD7dU8": {
+      "type": "custom-multicolumn-2",
+      "blocks": {
+        "column_qHbB7Y": {
+          "type": "column",
+          "settings": {
+            "title": "STERIRACK® Pharmacy Drawers:",
+            "text": "<ul><li>Suits a wide variety of pharmacy storage applications</li><li>Self retracting pull-out drawers for medications storage</li><li>Flat or angled shelves for easy access</li><li>Dividers can be placed to suit packaging of any width</li></ul>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_NahPpE": {
+          "type": "column",
+          "settings": {
+            "title": "STERIRACK® System pharmacy storage:",
+            "text": "<ul><li>Custom sizes and configurations to suit your application</li><li>Meets standards for best practice and infection control</li><li>Wide range of basket sizes, shelves and accessories</li><li>Available with color coded label holders and post strips</li></ul>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_qHbB7Y",
+        "column_NahPpE"
+      ],
+      "name": "Custom multicolumn 2",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -296,6 +340,7 @@
     "product_catalog_W3r7Xn",
     "image_banner_bXr39C",
     "multicolumn_video_PF3C4a",
-    "image_banner_PLWz9M"
+    "image_banner_PLWz9M",
+    "custom_multicolumn_2_qD7dU8"
   ]
 }

@@ -536,12 +536,23 @@
             "title": "",
             "text": ""
           }
+        },
+        "column_DWc7Lb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Reduce-time-in-hospital-storerooms-1024x578.jpg",
+            "video_url": "https://youtu.be/bRnVr9rk0BU?si=kJHdmdlo4d1w_0nI",
+            "enable_video_looping": false,
+            "title": "",
+            "text": ""
+          }
         }
       },
       "block_order": [
         "column_Y7Tjt3",
         "column_xU9eEJ",
-        "column_QmX7yT"
+        "column_QmX7yT",
+        "column_DWc7Lb"
       ],
       "name": "Multicolumn video",
       "settings": {

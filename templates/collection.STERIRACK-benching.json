@@ -403,11 +403,11 @@
         "row_97P8rX": {
           "type": "row",
           "settings": {
-            "description": "Extra Small MEDIBIN™",
-            "code": "10000XS",
-            "dimensions": "100W × 120H × 215D",
-            "dimensions_inch": "",
-            "configurations_data": ""
+            "description": "7-Bay",
+            "code": "1000mmH x 3390mmW x 646mmD",
+            "dimensions": "39 3/8″ H x 133 7/16″ W x 25 7/16″ D",
+            "dimensions_inch": "21 x 100mmH and 7 x 180mmH baskets",
+            "configurations_data": "21 x 3 15/16″ H and 7 x 7 1/16″ H baskets"
           }
         }
       },

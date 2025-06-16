@@ -48,6 +48,7 @@
     },
     "image_banner_VgKQ7z": {
       "type": "image-banner",
+      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "page_container": "full-width",
@@ -87,7 +88,6 @@
         "heading_mGwXwE",
         "text_7xmpEL"
       ],
-      "disabled": true,
       "settings": {
         "content_alignment": "center",
         "content_width": "full_width",

@@ -53,9 +53,106 @@
         "mobile_padding_bottom": 30
       }
     },
+    "categories_kraekT": {
+      "type": "categories",
+      "blocks": {
+        "featured_collection_hEJgyT": {
+          "type": "featured_collection",
+          "disabled": true,
+          "settings": {
+            "categories_image": "shopify://shop_images/01-workstations.jpg",
+            "collection": "sterirack-colour-coding-click-n-clip-label-holders-various-types",
+            "card_text": "Innovative Click ‘n’ Clip Coloured Label Holders click together both vertically and horizontally.",
+            "button_card_text": "Shop now",
+            "redirection_link": ""
+          }
+        },
+        "featured_collection_qrmWYt": {
+          "type": "featured_collection",
+          "disabled": true,
+          "settings": {
+            "categories_image": "shopify://shop_images/23-thumbnail-pbfvnz25sr6hr2fzddock32jcenv1hyhx1k0636gbk.jpg",
+            "collection": "sterirack-colour-coding-waterfall-label-holders-various-types",
+            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "button_card_text": "Learn more",
+            "redirection_link": ""
+          }
+        },
+        "featured_collection_KUMgYT": {
+          "type": "featured_collection",
+          "settings": {
+            "categories_image": "shopify://shop_images/STERIRACK-transport-case-cart-25_1.png",
+            "collection": "sterirack-colour-coding-post-label-holders-various-types",
+            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "button_card_text": "Learn more",
+            "redirection_link": ""
+          }
+        },
+        "featured_collection_mKUQhF": {
+          "type": "featured_collection",
+          "settings": {
+            "categories_image": "shopify://shop_images/sterirack-post-strips.jpg",
+            "collection": "sterirack-colour-coding-post-strips-various-types",
+            "card_text": "Use colour psychology to facilitate best practice categorisation and retrieval protocols.",
+            "button_card_text": "Shop now",
+            "redirection_link": ""
+          }
+        },
+        "featured_collection_AkiTQr": {
+          "type": "featured_collection",
+          "settings": {
+            "categories_image": "shopify://shop_images/Blacktown_square.png",
+            "collection": "sterirack-colour-coding-vertical-basket-label-holders-various-types",
+            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "button_card_text": "Learn more",
+            "redirection_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_hEJgyT",
+        "featured_collection_qrmWYt",
+        "featured_collection_KUMgYT",
+        "featured_collection_mKUQhF",
+        "featured_collection_AkiTQr"
+      ],
+      "settings": {
+        "title": "",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "categories_6XThDT": {
       "type": "categories",
       "blocks": {
+        "featured_collection_JmhkiY": {
+          "type": "featured_collection",
+          "settings": {
+            "categories_image": "shopify://shop_images/01-workstations.jpg",
+            "collection": "sterirack-colour-coding-click-n-clip-label-holders-various-types",
+            "card_text": "Innovative Click ‘n’ Clip Coloured Label Holders click together both vertically and horizontally.",
+            "button_card_text": "Shop now",
+            "redirection_link": ""
+          }
+        },
+        "featured_collection_ejCREj": {
+          "type": "featured_collection",
+          "settings": {
+            "categories_image": "shopify://shop_images/23-thumbnail-pbfvnz25sr6hr2fzddock32jcenv1hyhx1k0636gbk.jpg",
+            "collection": "sterirack-colour-coding-waterfall-label-holders-various-types",
+            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "button_card_text": "Learn more",
+            "redirection_link": ""
+          }
+        },
         "featured_collection_jYRxp4": {
           "type": "featured_collection",
           "settings": {
@@ -188,6 +285,8 @@
         }
       },
       "block_order": [
+        "featured_collection_JmhkiY",
+        "featured_collection_ejCREj",
         "featured_collection_jYRxp4",
         "featured_collection_BF4bE9",
         "featured_collection_cAbakh",
@@ -250,6 +349,7 @@
   "order": [
     "rich_text_P3hBwh",
     "section_breadcrumb_P4NhUR",
+    "categories_kraekT",
     "categories_6XThDT",
     "main",
     "product_catalog_W3r7Xn"

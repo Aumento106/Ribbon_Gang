@@ -36,7 +36,7 @@
           "settings": {
             "image": "shopify://shop_images/2.jpg",
             "border_radius": false,
-            "image_height": "medium"
+            "image_height": "small"
           }
         },
         "heading_KAkJED": {

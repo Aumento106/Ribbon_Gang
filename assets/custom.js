@@ -377,8 +377,8 @@ document.querySelectorAll('.sub-header-menu-main .header__submenu li').forEach(i
       }
     }
 
-    replaceTextInElement(document.body, "®", "<sup>®</sup>");
-    replaceTextInElement(document.body, "™", "<sup>™</sup>");
+    window.replaceTextInElement(document.body, "®", "<sup>®</sup>");
+    window.replaceTextInElement(document.body, "™", "<sup>™</sup>");
 
 
 // Blog search

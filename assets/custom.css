@@ -3405,6 +3405,12 @@ ul.header__submenu li ul li a{
   }
 }
 
+@media screen and (max-width: 1370px) {
+  .megamenu-with-image-title {
+    white-space: nowrap;
+  }
+}
+
 @media screen and (max-width: 989px) {
   .main-product-categories .collection-list-wrapper {
     padding: 0 1.5rem;

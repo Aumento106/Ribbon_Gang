@@ -17,7 +17,7 @@
           "settings": {
             "image": "shopify://shop_images/6.jpg",
             "border_radius": false,
-            "image_height": "medium"
+            "image_height": "small"
           }
         }
       },

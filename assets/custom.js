@@ -365,29 +365,7 @@ document.querySelectorAll('.sub-header-menu-main .header__submenu li').forEach(i
 });
 
 
-// document.addEventListener("DOMContentLoaded", function () {
-//   setTimeout(function () {
-//     function replaceTextInElement(el, oldWord, newWord) {
-//       if (el.children.length === 0 && el.innerHTML.includes(oldWord)) {
-//         el.innerHTML = el.innerHTML.replace(new RegExp(oldWord, 'g'), newWord);
-//       } else {
-//         for (let child of el.children) {
-//           replaceTextInElement(child, oldWord, newWord);
-//         }
-//       }
-//     }
-
-//     replaceTextInElement(document.body, "®", "<sup>®</sup>");
-//     replaceTextInElement(document.body, "™", "<sup>™</sup>");
-//   }, 3000); 
-// });
-
-supers.forEach(sup => {
-    sup.classList.add('show'); // Add the class to trigger the animation
-  });
-
 document.addEventListener("DOMContentLoaded", function () {
-  
   setTimeout(function () {
     function replaceTextInElement(el, oldWord, newWord) {
       if (el.children.length === 0 && el.innerHTML.includes(oldWord)) {
@@ -398,15 +376,9 @@ document.addEventListener("DOMContentLoaded", function () {
         }
       }
     }
+
     replaceTextInElement(document.body, "®", "<sup>®</sup>");
     replaceTextInElement(document.body, "™", "<sup>™</sup>");
-    // Apply CSS styles after text replacement
-    const supers = document.querySelectorAll('sup');
-    supers.forEach(sup => {
-      sup.style.fontSize = '0.8em'; // Example CSS style
-      sup.style.verticalAlign = 'super'; // Example CSS style
-      // Add any other styles you want to apply
-    });
   }, 3000); 
 });
 

@@ -25,7 +25,6 @@
       "block_order": [
         "heading_KHPFgM"
       ],
-      "disabled": true,
       "name": "Page Banner",
       "settings": {
         "title_alignment": "center",
@@ -38,6 +37,7 @@
     },
     "image_banner_VgKQ7z": {
       "type": "image-banner",
+      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "page_container": "full-width",
@@ -51,7 +51,15 @@
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
-        "show_text_below": true
+        "show_text_below": true,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "margin_top": 36,
+        "margin_bottom": 36,
+        "mobile_padding_top": 36,
+        "mobile_padding_bottom": 36,
+        "mobile_margin_top": 36,
+        "mobile_margin_bottom": 36
       }
     },
     "section_breadcrumb_F9PzRF": {

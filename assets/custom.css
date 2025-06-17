@@ -1508,11 +1508,9 @@ body .complementary-products-contains-quick-add .card__heading:hover a {
   z-index: 1;
   display: block;
 }
-
 .swiper-pagination {
   justify-content: center;
 }
-
 body .swiper .swiper-pagination {
   width: fit-content;
   background: #424242;
@@ -1526,7 +1524,6 @@ body .swiper .swiper-pagination {
   gap: 4px;
   border: 0.2px solid #FFFFFF;
 }
-
 body .swiper-pagination.swiper-pagination-bullets .swiper-pagination-bullet {
   margin: 0;
   width: 12px;
@@ -1534,11 +1531,9 @@ body .swiper-pagination.swiper-pagination-bullets .swiper-pagination-bullet {
   background: rgba(238, 238, 238, 0.1);
   opacity: 1;
 }
-
 body .swiper-pagination.swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active {
   background: rgba(255, 255, 255, 1);
 }
-
 .swiper-pagination-wrapper {
   display: flex;
   justify-content: center;

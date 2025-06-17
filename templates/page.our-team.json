@@ -50,7 +50,7 @@
       ],
       "settings": {
         "layout": "full_bleed",
-        "slide_height": "adapt_image",
+        "slide_height": "small",
         "image_behavior": "none",
         "padding_top": 0,
         "padding_bottom": 0

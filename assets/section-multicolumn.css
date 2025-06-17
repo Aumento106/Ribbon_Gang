@@ -12,6 +12,9 @@
 .multicolumn.background-primary .multicolumn-card:not(href) {
   cursor: context-menu;
 }
+.multicolumn.background-none .multicolumn-card:not([href]) {
+  cursor: unset;
+}
 
 @media screen and (max-width: 749px) {
   .multicolumn .title-wrapper-with-link {

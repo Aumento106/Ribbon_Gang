@@ -24,6 +24,9 @@
   position: relative;
   height: 100%;
 }
+.custom-multicolumn-with-image .grid .Auto_image .multicolumn-box__item_inner .multicolumn-box-img-wrapper img {
+  object-fit: unset;
+}
 
 
 @media screen and (max-width: 749px) {

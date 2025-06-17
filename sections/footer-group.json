@@ -295,7 +295,6 @@
     },
     "custom_liquid_PpRQYR": {
       "type": "custom-liquid",
-      "disabled": true,
       "settings": {
         "custom_liquid": "<div class=\"page-width\">\n© 2025 SpaceLogic Group | All rights reserved | ABN 00 000 000 000\n</div>",
         "color_scheme": "",

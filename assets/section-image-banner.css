@@ -95,10 +95,12 @@
 
   .banner--medium:not(.banner--adapt) {
     min-height: 56rem;
+    max-height: 56rem;
   }
 
   .banner--large:not(.banner--adapt) {
     min-height: 72rem;
+    max-height: 72rem;
   }
 
   .banner__content.banner__content--top-left {

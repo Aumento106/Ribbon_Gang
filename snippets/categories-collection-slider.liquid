@@ -115,6 +115,18 @@
       <span class="card_product_main_desc">{{ card_text }}</span>
       <span class="card_product_main_desc">{{ card_text_descriptio }}</span>
        <div class="video-links">
+         {% if Button_link != blank %}
+           {% if link_text != blank %}
+            <a href="{{ Button_link }}">
+              {{ link_text }}
+            </a>    
+         {% endif %}
+         {% if link_2_text != blank  %}
+            <a href="{{ Button_link }}">
+              {{ link_2_text }}
+            </a>
+         {% endif %}
+         {% else %}
          {% if video_1_url and link_text != blank %}
             <a href="javascript:void(0);" class="video-trigger" data-video="#video1">
               {{ link_text }}
@@ -125,6 +137,7 @@
               {{ link_2_text }}
             </a>
          {% endif %}
+       {% endif %}
       </div>
       <a href="{% if redirection_link != blank %} {{ redirection_link }} {% else %} {{ card_collection.url }} {% endif %}" class="button button--primary">{{ card_button }}</a>
     </div>

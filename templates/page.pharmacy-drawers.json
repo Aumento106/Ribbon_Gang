@@ -328,7 +328,7 @@
         "column_qHbB7Y": {
           "type": "column",
           "settings": {
-            "title": "STERIRACK® Pharmacy Drawers:",
+            "title": "<strong>STERIRACK® Pharmacy Drawers:</strong>",
             "text": "<ul><li>Suits a wide variety of pharmacy storage applications</li><li>Self retracting pull-out drawers for medications storage</li><li>Flat or angled shelves for easy access</li><li>Dividers can be placed to suit packaging of any width</li></ul>",
             "link_label": "",
             "link": ""
@@ -337,7 +337,7 @@
         "column_NahPpE": {
           "type": "column",
           "settings": {
-            "title": "STERIRACK® System pharmacy storage:",
+            "title": "<strong>STERIRACK® System pharmacy storage:</strong>",
             "text": "<ul><li>Custom sizes and configurations to suit your application</li><li>Meets standards for best practice and infection control</li><li>Wide range of basket sizes, shelves and accessories</li><li>Available with color coded label holders and post strips</li></ul>",
             "link_label": "",
             "link": ""

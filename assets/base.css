@@ -257,9 +257,11 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
 h0 sup,
 h1 sup,
 h2 sup,
+h3 sup,
 .h0 sup,
 .h1 sup,
-.h2 sup {
+.h2 sup,
+.h3 sup {
   font-size: 22px !important;
   position: relative;
   top: -6px;
@@ -269,9 +271,11 @@ h2 sup,
   h0 sup,
   h1 sup,
   h2 sup,
+  h3 sup,
   .h0 sup,
   .h1 sup,
-  .h2 sup {
+  .h2 sup,
+  .h3 sup {
     top: 0;
   }
 }

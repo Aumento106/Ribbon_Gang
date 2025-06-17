@@ -19,9 +19,9 @@
 .multicolumn-video_sec .multicolumn-box-img-wrapper {
     cursor: pointer;
     position: relative;
-    max-height: 314px;
-    height: 314px;
-    min-height: 314px;
+    max-height: 400px;
+    height: 400px;
+    min-height: 400px;
 }
 
 .multicolumn-video_sec .multi-column-box-with-image .multicolumn-box__image {

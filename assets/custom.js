@@ -383,6 +383,9 @@ document.querySelectorAll('.sub-header-menu-main .header__submenu li').forEach(i
 // });
 
 document.addEventListener("DOMContentLoaded", function () {
+  supers.forEach(sup => {
+    sup.classList.add('show'); // Add the class to trigger the animation
+  });
   setTimeout(function () {
     function replaceTextInElement(el, oldWord, newWord) {
       if (el.children.length === 0 && el.innerHTML.includes(oldWord)) {

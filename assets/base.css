@@ -260,6 +260,22 @@ h3 sup,
   font-size: 22px !important;
   position: relative;
   top: -6px;
+  transition: all 0.3s ease;
+  opacity: 0;
+}
+h0 sup.show,
+h1 sup.show,
+h2 sup.show,
+h3 sup.show,
+.h0 sup.show,
+.h1 sup.show,
+.h2 sup.show,
+.h3 sup.show {
+  font-size: 22px !important;
+  position: relative;
+  top: -6px;
+  transition: all 0.3s ease;
+  opacity: 1;
 }
 
 @media screen and (max-width: 749px) {

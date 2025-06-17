@@ -68,21 +68,19 @@
 
     {% for row in section.blocks %}
       <div class="table-row">
-        {% if section.settings.description != blank %}
+        
           <div class="table-cell">{{ row.settings.description }}</div>
-        {% endif %}
-        {% if section.settings.code != blank %}
+        
+        
           <div class="table-cell">{{ row.settings.code }}</div>
-        {% endif %}
-        {% if section.settings.dimensions != blank %}
+        
+        
           <div class="table-cell">{{ row.settings.dimensions }}</div>
-        {% endif %}
-        {% if section.settings.dimensions_inch != blank %}
+        
           <div class="table-cell">{{ row.settings.dimensions_inch }}</div>
-        {% endif %}
-        {% if section.settings.configurations != blank %}
+        
           <div class="table-cell">{{ row.settings.configurations_data }}</div>
-        {% endif %}
+        
       </div>
     {% endfor %}
   </div>

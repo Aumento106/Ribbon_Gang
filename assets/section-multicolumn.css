@@ -15,6 +15,9 @@
 .multicolumn.background-none .multicolumn-card:not([href]) {
   cursor: unset;
 }
+.custom-multicolumn-with-image .grid .Auto_image .multicolumn-box__item_inner {
+  min-height: unset;
+}
 
 @media screen and (max-width: 749px) {
   .multicolumn .title-wrapper-with-link {

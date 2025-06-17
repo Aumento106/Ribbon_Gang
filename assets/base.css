@@ -279,14 +279,14 @@ h3 sup.show,
 }
 
 @media screen and (max-width: 749px) {
-  h0 sup,
-  h1 sup,
-  h2 sup,
-  h3 sup,
-  .h0 sup,
-  .h1 sup,
-  .h2 sup,
-  .h3 sup {
+  h0 sup.show,
+  h1 sup.show,
+  h2 sup.show,
+  h3 sup.show,
+  .h0 sup.show,
+  .h1 sup.show,
+  .h2 sup.show,
+  .h3 sup.show {
     top: 0;
   }
 }

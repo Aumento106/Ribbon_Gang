@@ -1586,39 +1586,30 @@ body .swiper-pagination.swiper-pagination-bullets .swiper-pagination-bullet.swip
   align-items: center;
   transition: all .3s ease-in-out;
 }
-
-
-
 .slider-buttons .slider-button .svg-wrapper {
   width: 18px;
   height: 18px;
 }
-
 .slider-buttons .slider-counter {
   display: none;
 }
-
 body .slider-buttons {
   gap: 15px;
   padding: 0 1.5rem;
   justify-content: start;
 }
-
 .slider-buttons .slider-button:hover {
   background-color: var(--primary-theme-color);
 }
-
 body .slider-counter--dots .slider-counter__link--dots .dot {
   border: 0;
   background-color: rgba(238, 238, 238, 0.1);
   width: 1.2rem;
   height: 1.2rem;
 }
-
 body .slider-counter--dots .slider-counter__link--active.slider-counter__link--dots .dot {
   background-color: #fff;
 }
-
 body .slider-counter--dots .slider-counter__link {
   padding: 0.8rem .2rem;
 }

@@ -155,7 +155,7 @@
                 </div>
                 <p class="product-vendor">{{ product.vendor }}</p>
                 <h2 class="product-name">{{ product.title }}</h2>
-                <div class="product-des">{{ product.description }}</div>
+                <div class="product-des subtitle">{{ product.description }}</div>
                 <div class="product-price">
                   {{ product.price | money_without_trailing_zeros }}
                   {% if product.compare_at_price %} - {% endif %}

@@ -18,16 +18,6 @@
         "padding_bottom": 28
       }
     },
-    "section_breadcrumb_JUFcVy": {
-      "type": "section-breadcrumb",
-      "settings": {
-        "color_scheme": "",
-        "padding_top": 30,
-        "padding_bottom": 0,
-        "mobile_padding_top": 30,
-        "mobile_padding_bottom": 30
-      }
-    },
     "page_banner_3tga7L": {
       "type": "page-banner",
       "blocks": {
@@ -38,8 +28,34 @@
             "border_radius": false,
             "image_height": "medium"
           }
-        },
-        "heading_bTjkgN": {
+        }
+      },
+      "block_order": [
+        "image_kxKHJQ"
+      ],
+      "settings": {
+        "title_alignment": "center",
+        "full_width": true,
+        "content_width": "full_width",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "padding_top": 30,
+        "padding_bottom": 0
+      }
+    },
+    "section_breadcrumb_JUFcVy": {
+      "type": "section-breadcrumb",
+      "settings": {
+        "color_scheme": "",
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "mobile_padding_top": 30,
+        "mobile_padding_bottom": 30
+      }
+    },
+    "page_banner_V7X6Vq": {
+      "type": "page-banner",
+      "blocks": {
+        "heading_9Y9VYH": {
           "type": "heading",
           "settings": {
             "heading": "Clean utility and medications room",
@@ -48,14 +64,14 @@
             "heading_alignment": "center"
           }
         },
-        "caption_eyMhcd": {
+        "caption_UQa9yM": {
           "type": "caption",
           "settings": {
             "caption": "<p>Timber joinery is a thing of the past!</p>",
             "caption_alignment": "center"
           }
         },
-        "text_Yp6mkU": {
+        "text_GaDFJt": {
           "type": "text",
           "settings": {
             "text": "<p>Timber joinery and cabinetry is no longer viable for storage applications for clinical and non-clinical consumables and medications storage. STERIRACK® system by SpaceLogic is the perfect solution for fit-outs and replacements in clean utilities or medications rooms.</p><p>See the clean utility presentations below which include information and photos of recent installations, as well as video and photorealistic images of example room layouts. Keep in mind that we can create a clean utility design to suit any room dimensions, and configure your STERIRACK® system with baskets, shelving and accessories to suit your own requirements.</p><p>Please feel welcome to use the presentations on Wagga Wagga and Goulburn hospitals to introduce your team to the STERIRACK® concept. Don’t hesitate to contact a SpaceLogic project consultant if you have any further questions, or would like to book in for a consultation.</p>",
@@ -64,10 +80,9 @@
         }
       },
       "block_order": [
-        "image_kxKHJQ",
-        "heading_bTjkgN",
-        "caption_eyMhcd",
-        "text_Yp6mkU"
+        "heading_9Y9VYH",
+        "caption_UQa9yM",
+        "text_GaDFJt"
       ],
       "settings": {
         "title_alignment": "center",
@@ -135,8 +150,9 @@
   },
   "order": [
     "main",
-    "section_breadcrumb_JUFcVy",
     "page_banner_3tga7L",
+    "section_breadcrumb_JUFcVy",
+    "page_banner_V7X6Vq",
     "application_list_Uf6gg7",
     "product_catalog_3QUeXT"
   ]

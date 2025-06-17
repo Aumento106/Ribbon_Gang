@@ -78,9 +78,9 @@
           <div class="table-cell">{{ row.settings.dimensions }}</div>
         
           <div class="table-cell">{{ row.settings.dimensions_inch }}</div>
-        
+        {% if section.settings.configurations != blank %}
           <div class="table-cell">{{ row.settings.configurations_data }}</div>
-        
+        {% endif %}
       </div>
     {% endfor %}
   </div>

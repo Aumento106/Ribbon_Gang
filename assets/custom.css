@@ -3399,6 +3399,12 @@ ul.header__submenu li ul li a{
   --ratio-percent: 60% !important;
 }
 
+@media screen and (max-width: 1510px) {
+  .megamenu-with-image-title {
+    font-size: 16px;
+  }
+}
+
 @media screen and (max-width: 989px) {
   .main-product-categories .collection-list-wrapper {
     padding: 0 1.5rem;

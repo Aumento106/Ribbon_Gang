@@ -398,8 +398,8 @@
             "description": "Slide in/out Shelf",
             "code": "22054",
             "dimensions": "22054",
-            "dimensions_inch": "",
-            "configurations_data": ""
+            "dimensions_inch": "400W x 600D (600W x 400D)",
+            "configurations_data": "15 3/4″ W x 23 5/8″ D (23 5/8″ W x 15 3/4″ D)"
           }
         },
         "row_QpxCWj": {
@@ -409,7 +409,7 @@
             "code": "22040",
             "dimensions": "",
             "dimensions_inch": "600W x 600D",
-            "configurations_data": ""
+            "configurations_data": "23 5/8″ W x 23 5/8″ D"
           }
         }
       },

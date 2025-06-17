@@ -124,7 +124,7 @@
               >
                 {{ card_product.title | escape }}
               </a>
-              {% elsif product.metafields.custom.add_link_on_product == true %}
+              {% elsif card_product.metafields.custom.add_link_on_product == true %}
                 <a
                 href="{{ card_product.url }}"
                 id="StandardCardNoMediaLink-{{ section_id }}-{{ card_product.id }}"
@@ -134,7 +134,7 @@
                 {{ card_product.title | escape }}
               </a>
               {% else %}
-                {{ product.metafields.custom.add_link_on_product }}
+                {{ card_product.metafields.custom.add_link_on_product }}
                 <span
                 id="StandardCardNoMediaLink-{{ section_id }}-{{ card_product.id }}"
                 class="full-unstyled-link"
@@ -194,7 +194,7 @@
               >
                 {{ card_product.title | escape }}
               </a>
-              {% elsif product.metafields.custom.add_link_on_product == true %}
+              {% elsif card_product.metafields.custom.add_link_on_product == true %}
               <a
                 href="{{ card_product.url }}"
                 id="CardLink-{{ section_id }}-{{ card_product.id }}"
@@ -205,7 +205,7 @@
               </a>
                
             {% else %}
-              {{ product.metafields.custom.add_link_on_product }}
+              {{ card_product.metafields.custom.add_link_on_product }}
               ==<span id="CardLink-{{ section_id }}-{{ card_product.id }}"
                 class="full-unstyled-link"
                 aria-labelledby="CardLink-{{ section_id }}-{{ card_product.id }} Badge-{{ section_id }}-{{ card_product.id }}"

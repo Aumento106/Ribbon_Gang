@@ -184,6 +184,43 @@
         "padding_bottom": 20
       }
     },
+    "multicolumn_qEGabM": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_FbEmxK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/04-Steriack-Pharmacy-1536x614.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_FbEmxK"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 1,
+        "column_alignment": "left",
+        "background_style": "none",
+        "enable_border_content": false,
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 32
+      }
+    },
     "product_catalog_W3r7Xn": {
       "type": "product-catalog",
       "disabled": true,
@@ -208,6 +245,7 @@
     },
     "image_banner_bXr39C": {
       "type": "image-banner",
+      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "page_container": "page-width",
@@ -579,6 +617,7 @@
     "rich_text_P3hBwh",
     "main",
     "multicolumn_QEaeLE",
+    "multicolumn_qEGabM",
     "product_catalog_W3r7Xn",
     "image_banner_bXr39C",
     "multicolumn_video_PF3C4a",

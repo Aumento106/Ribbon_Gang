@@ -1543,6 +1543,10 @@ body .swiper-pagination.swiper-pagination-bullets .swiper-pagination-bullet.swip
   display: flex;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
 }
 
 .swiper .swiper-button-prev,

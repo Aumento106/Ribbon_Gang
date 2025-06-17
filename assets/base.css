@@ -11,7 +11,6 @@
   --focused-base-outline-offset: 0.3rem;
   --focused-base-box-shadow: 0 0 0 0.3rem rgb(var(--color-background)), 0 0 0.5rem 0.4rem rgba(var(--color-foreground), 0.3);
 }
-
 .product-card-wrapper .card,
 .contains-card--product {
   --border-radius: var(--product-card-corner-radius);
@@ -25,7 +24,6 @@
   --image-padding: var(--product-card-image-padding);
   --text-alignment: var(--product-card-text-alignment);
 }
-
 .collection-card-wrapper .card,
 .contains-card--collection {
   --border-radius: var(--collection-card-corner-radius);
@@ -39,7 +37,6 @@
   --image-padding: var(--collection-card-image-padding);
   --text-alignment: var(--collection-card-text-alignment);
 }
-
 .article-card-wrapper .card,
 .contains-card--article {
   --border-radius: var(--blog-card-corner-radius);
@@ -53,7 +50,6 @@
   --image-padding: var(--blog-card-image-padding);
   --text-alignment: var(--blog-card-text-alignment);
 }
-
 .contains-content-container,
 .content-container {
   --border-radius: var(--text-boxes-radius);
@@ -65,7 +61,6 @@
   --shadow-opacity: var(--text-boxes-shadow-opacity);
   --shadow-visible: var(--text-boxes-shadow-visible);
 }
-
 .contains-media,
 .global-media-settings {
   --border-radius: var(--media-radius);

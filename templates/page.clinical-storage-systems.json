@@ -96,9 +96,9 @@
             "card_text_descriptio": "<p><strong>Key Benefits:</strong></p><ul><li>Modular bays and mobile carts</li><li>Adjustable baskets and shelves</li><li>Bench, racking and accessory integration</li><li>Easy to clean and reconfigure</li><li>Ideal for full facility fit outs</li></ul>",
             "card_text_description_alignment": "left",
             "text": "",
+            "Button_link": "shopify://pages/sterirack-system",
             "link_1_text": "View full STERIRACK® range",
             "video_1_url": "shopify://pages/sterirack-system",
-            "Button_link": "shopify://pages/sterirack-system",
             "link_2_text": "Watch system walkthrough video",
             "video_2_url": "shopify://pages/sterirack-system",
             "button_card_text": "",
@@ -115,9 +115,9 @@
             "card_text_descriptio": "<p><strong>Key Benefits:</strong></p><ul><li>Transparent bins in multiple sizes</li><li>Wall or post-mounted rails</li><li>Tilt or pull-out runners</li><li>Colour-coded label strips</li><li>Perfect for medication and utility rooms</li></ul>",
             "card_text_description_alignment": "left",
             "text": "",
+            "Button_link": "shopify://pages/medibin-system",
             "link_1_text": "View full MEDIBIN™ range",
             "video_1_url": "shopify://pages/medibin-system",
-            "Button_link": "shopify://pages/medibin-system",
             "link_2_text": "Watch system walkthrough video",
             "video_2_url": "shopify://pages/medibin-system",
             "button_card_text": "",
@@ -135,9 +135,9 @@
             "card_text_descriptio": "<p><strong>Key Benefits:<br/></strong>The gold standard in hospital-grade storage, STERIRACK® is designed to meet the high-volume, high-compliance needs of clinical spaces. Built on starter and add-on bays, this system integrates mobile carts, workbenches, and flexible accessories for complete workflow alignment. </p>",
             "card_text_description_alignment": "left",
             "text": "",
+            "Button_link": "",
             "link_1_text": "View Full STERRACK® Range",
             "video_1_url": "https://cdn.shopify.com/videos/c/o/v/b0bc7870dfc44c81a4c26a6e1d5b2255.mp4",
-            "Button_link": "",
             "link_2_text": "Watch system walkthrough video",
             "video_2_url": "https://cdn.shopify.com/videos/c/o/v/b0bc7870dfc44c81a4c26a6e1d5b2255.mp4",
             "button_card_text": "",
@@ -155,9 +155,9 @@
             "card_text_descriptio": "<p><strong>Key Benefits:<br/></strong>The gold standard in hospital-grade storage, STERIRACK® is designed to meet the high-volume, high-compliance needs of clinical spaces. Built on starter and add-on bays, this system integrates mobile carts, workbenches, and flexible accessories for complete workflow alignment. </p>",
             "card_text_description_alignment": "left",
             "text": "",
+            "Button_link": "",
             "link_1_text": "View Full STERRACK® Range",
             "video_1_url": "https://cdn.shopify.com/videos/c/o/v/b0bc7870dfc44c81a4c26a6e1d5b2255.mp4",
-            "Button_link": "",
             "link_2_text": "Watch system walkthrough video",
             "video_2_url": "https://cdn.shopify.com/videos/c/o/v/b0bc7870dfc44c81a4c26a6e1d5b2255.mp4",
             "button_card_text": "",
@@ -305,7 +305,7 @@
         "text_WpRpHU": {
           "type": "text",
           "settings": {
-            "text": "<p>Use the filters below to explore every component of our STERIRACK® and MEDIBIN™ systems. Whether you're searching for a single bench or planning a full facility fit out, you'll find everything here - organised by product type, dimensions, and compatibility.<br/>INSERT ONLINE PRODUCT FILTER</p>"
+            "text": "<p>Use the filters below to explore every component of our STERIRACK® and MEDIBIN™ Systems. Whether you're searching for a single bench or planning a full facility fit out, you'll find everything here - organised by product type, dimensions, and compatibility.<br/>INSERT ONLINE PRODUCT FILTER</p>"
           }
         }
       },

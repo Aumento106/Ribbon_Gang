@@ -1,0 +1,979 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "custom_page_banner_dHyyAj": {
+      "type": "custom-page-banner",
+      "blocks": {
+        "slide_mfK3hU": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Group_1171277884.png",
+            "image_overlay_opacity": 0
+          }
+        },
+        "slide_XDeMCn": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Group_1171277884.png",
+            "image_overlay_opacity": 0
+          }
+        },
+        "slide_GKDFbj": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Group_1171277884.png",
+            "image_overlay_opacity": 0
+          }
+        },
+        "slide_Tw3D9X": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Group_1171277884.png",
+            "image_overlay_opacity": 0
+          }
+        },
+        "slide_tKPUCL": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Group_1171277884.png",
+            "image_overlay_opacity": 0
+          }
+        },
+        "slide_Bhpywf": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Group_1171277884.png",
+            "image_overlay_opacity": 0
+          }
+        },
+        "slide_7zbnVp": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Group_1171277884.png",
+            "image_overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "slide_mfK3hU",
+        "slide_XDeMCn",
+        "slide_GKDFbj",
+        "slide_Tw3D9X",
+        "slide_tKPUCL",
+        "slide_Bhpywf",
+        "slide_7zbnVp"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "small",
+        "image_behavior": "none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_breadcrumb_JneyLg": {
+      "type": "section-breadcrumb",
+      "settings": {
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "mobile_padding_top": 30,
+        "mobile_padding_bottom": 30
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "icon_text_4xM6N7": {
+          "type": "icon_text",
+          "settings": {
+            "icon_image": "shopify://shop_images/shipping-truck_e6850ce2-b0a2-44e3-b33f-447e9d2adff1.svg",
+            "icon_text": "Free Shipping"
+          }
+        },
+        "icon_text_zQ3wVr": {
+          "type": "icon_text",
+          "settings": {
+            "icon_image": "shopify://shop_images/premium-material.svg",
+            "icon_text": "Premium Materials"
+          }
+        },
+        "icon_text_reiiVN": {
+          "type": "icon_text",
+          "settings": {
+            "icon_image": "shopify://shop_images/delivery-time.svg",
+            "icon_text": "Fast delivery"
+          }
+        },
+        "product_description_GjJGyV": {
+          "type": "product_description",
+          "disabled": true,
+          "settings": {
+            "heading": "WARRANTY INFORMATION",
+            "accordian_icon_image": "shopify://shop_images/Group_1171277814.svg",
+            "icon": "check_mark",
+            "content": "<p>All SpaceLogic Accessories are backed by a 5-year warranty against faulty manufacture or workmanship under normal use. This warranty applies only when installed and used according to our guidelines. For full details, please refer to our Warranty Certificate.</p>"
+          }
+        },
+        "collapsible_tab_WGBYJ7": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "BROCHURE OR SPEC SHEET",
+            "accordian_icon_image": "shopify://shop_images/Group_1171277814_1.svg",
+            "icon": "check_mark",
+            "content": "{{ product.metafields.custom.brochure_description | metafield_tag }}<p>Request a Room Design → Collaborate with our consultants to optimise your layout.<br/><br/></p><p>Request a Custom Quote → Get pricing tailored to your signage and configuration needs.<br/><br/></p><p>Request a Mini Exhibition → See STERIRACK® signage solutions in action, on-site.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_HaEpLp": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "WARRANTY INFORMATION",
+            "accordian_icon_image": "shopify://shop_images/Group_1171277814.svg",
+            "icon": "check_mark",
+            "content": "<p>All SpaceLogic Accessories are backed by a 5-year warranty against faulty manufacture or workmanship under normal use. This warranty applies only when installed and used according to our guidelines. For full details, please refer to our Warranty Certificate.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_cEBm8X": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "BROCHURE OR SPEC SHEET",
+            "accordian_icon_image": "shopify://shop_images/Group_1171277814_1.svg",
+            "icon": "check_mark",
+            "content": "{{ product.metafields.custom.brochure_description | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible_tab_mY4f8B": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "REQUEST A ROOM DESIGN OR CUSTOM QUOTE",
+            "accordian_icon_image": "shopify://shop_images/Group_1171277814_2.svg",
+            "icon": "check_mark",
+            "content": "<p>Request a Room Design → Collabrorate with our consultants to optimise your layout.<br/></p><p>Request a Custom Quote → Get pricing tailored to your signage and configuration needs.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_HpkKRY": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "REQUEST A MINI EXHIBITION",
+            "accordian_icon_image": "shopify://shop_images/Group_1171277814_3.svg",
+            "icon": "check_mark",
+            "content": "<p>Request a Mini Exhibition → See STERIRACK® signage solutions in action, on-site.</p>",
+            "page": ""
+          }
+        },
+        "specifications_prC9K9": {
+          "type": "Specifications",
+          "settings": {
+            "Heading_sp": "Specs",
+            "sub_heading": "",
+            "content": ""
+          }
+        },
+        "q_a_Fz3EyY": {
+          "type": "Q_A",
+          "settings": {
+            "Heading_qa": "Q&A",
+            "sub_heading1": "",
+            "content1": "{{ product.metafields.custom.qa_details | metafield_tag }}",
+            "sub_heading2": "",
+            "content2": "",
+            "sub_heading3": "",
+            "content3": "",
+            "sub_heading4": "",
+            "content4": "",
+            "sub_heading5": "",
+            "content5": ""
+          }
+        },
+        "specifications_G4hKqK": {
+          "type": "Specifications",
+          "settings": {
+            "Heading_sp": "Delivery",
+            "sub_heading": "",
+            "content": "<p>Products are dispatched from our warehouse in Orange, NSW. Standard lead times apply for core accessories and shelving systems. For large-scale projects or international shipping, a dedicated project coordinator will work with you on timelines and freight solutions.</p>"
+          }
+        },
+        "specifications_hgHdtk": {
+          "type": "Specifications",
+          "settings": {
+            "Heading_sp": "Care",
+            "sub_heading": "",
+            "content": "<ul><li>Clean with mild detergent or hospital-grade disinfectants</li><li>Avoid abrasive pads or strong acid-based cleaners</li><li>Autoclavable items are labelled accordingly</li><li>Do not overload baskets, bins, or shelves beyond rated capacity</li></ul>"
+          }
+        },
+        "vendor_logo_AtNTKn": {
+          "type": "vendor_logo",
+          "settings": {
+            "vendor_logo_img": "shopify://shop_images/Frame_1171278104.svg"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "text_z8PRWE": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.description }}",
+            "text_style": "body"
+          }
+        },
+        "sku_4xMVrm": {
+          "type": "sku",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "inventory_7FwdWm": {
+          "type": "inventory",
+          "settings": {
+            "text_style": "body",
+            "inventory_threshold": 20,
+            "show_inventory_quantity": false,
+            "share_label": "Share"
+          }
+        },
+        "share_YcN6pn": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false,
+            "request_quote_btn": "Request quotes",
+            "request_quote_btn_link": "shopify://pages/contact",
+            "enquire_now": "Enquire now",
+            "enquire_now_link": "shopify://pages/contact"
+          }
+        },
+        "shipping_bar_EAdyyd": {
+          "type": "shipping_bar",
+          "disabled": true,
+          "settings": {}
+        },
+        "complementary_bgcUGQ": {
+          "type": "complementary",
+          "disabled": true,
+          "settings": {
+            "block_heading": "",
+            "make_collapsible_row": false,
+            "icon": "price_tag",
+            "product_list_limit": 10,
+            "products_per_page": 1,
+            "pagination_style": "dots",
+            "quick_add": "learnmore",
+            "learn_more_button_text": "Learn More"
+          }
+        }
+      },
+      "block_order": [
+        "icon_text_4xM6N7",
+        "icon_text_zQ3wVr",
+        "icon_text_reiiVN",
+        "product_description_GjJGyV",
+        "collapsible_tab_WGBYJ7",
+        "collapsible_tab_HaEpLp",
+        "collapsible_tab_cEBm8X",
+        "collapsible_tab_mY4f8B",
+        "collapsible_tab_HpkKRY",
+        "specifications_prC9K9",
+        "q_a_Fz3EyY",
+        "specifications_G4hKqK",
+        "specifications_hgHdtk",
+        "vendor_logo_AtNTKn",
+        "title",
+        "text_z8PRWE",
+        "sku_4xMVrm",
+        "variant_picker",
+        "inventory_7FwdWm",
+        "share_YcN6pn",
+        "quantity_selector",
+        "price",
+        "buy_buttons",
+        "shipping_bar_EAdyyd",
+        "complementary_bgcUGQ"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "stacked",
+        "media_position": "left",
+        "image_zoom": "hover",
+        "mobile_thumbnails": "show",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 0,
+        "padding_bottom": 64
+      }
+    },
+    "rich_text_dwzN8N": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_zMFpid": {
+          "type": "heading",
+          "settings": {
+            "heading": "Transport Case Cart <strong>Details</strong>",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28
+          }
+        }
+      },
+      "block_order": [
+        "heading_zMFpid"
+      ],
+      "disabled": true,
+      "settings": {
+        "content_alignment": "center",
+        "content_width": "full_width",
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "full_width": false,
+        "no_margin": true,
+        "section_border": true,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "image_with_text_v1_HEUki7": {
+      "type": "image-with-text-v1",
+      "blocks": {
+        "heading_dFNLVX": {
+          "type": "heading",
+          "settings": {
+            "heading": "Superior Strength and Durability",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28
+          }
+        },
+        "text_XWWeWi": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ideal solution for transporting sterile goods within hospitals, and from hospital to hospital.</p><ul><li>Robust stainless steel construction</li><li>Double-skinned doors with perimeter seal</li><li>Doors are three point locking and rotate 270° to facilitate washing</li><li>Robust bumper base frame with bolt-on 150mm lockable swivel castors</li><li>Nylon wheels, stainless steel frame and wheel bearings</li><li>Premium quality Australian made product</li></ul>",
+            "text_style": "body"
+          }
+        },
+        "button_ctVKF4": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read More",
+            "button_link": "#",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_dFNLVX",
+        "text_XWWeWi",
+        "button_ctVKF4"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/superior-strength-and-durability.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "full_width": false,
+        "video_url": "",
+        "enable_video_looping": false,
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 80,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_v1_3bV76A": {
+      "type": "image-with-text-v1",
+      "blocks": {
+        "heading_TFPzC7": {
+          "type": "heading",
+          "settings": {
+            "heading": "Identification and labeling",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28
+          }
+        },
+        "text_FYk9bD": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Clean/Dirty Label</li><li>Label Holder to suit A4</li></ul>",
+            "text_style": "body"
+          }
+        },
+        "button_zAPmQi": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read More",
+            "button_link": "#",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_TFPzC7",
+        "text_FYk9bD",
+        "button_zAPmQi"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/identification-and-labeling.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "full_width": false,
+        "video_url": "",
+        "enable_video_looping": false,
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_v1_D3j3pr": {
+      "type": "image-with-text-v1",
+      "blocks": {
+        "heading_RtTwmN": {
+          "type": "heading",
+          "settings": {
+            "heading": "Towing and transport",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28
+          }
+        },
+        "text_dkB3at": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Drawbar with ergonomic self-lifting mechanism is easy on the back. Its integrated spring pushes the drawbar up – the user can couple and uncouple carts using their feet and without having to bend over</li><li>If drawbar is not needed it folds up automatically and doesn’t present a trip hazard</li><li>The compatible drawbar coupling completes the system so that several case carts can be securely connected together</li></ul>",
+            "text_style": "body"
+          }
+        },
+        "button_6W7tMB": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read More",
+            "button_link": "#",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_RtTwmN",
+        "text_dkB3at",
+        "button_6W7tMB"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/towing-and-transport.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "full_width": false,
+        "video_url": "",
+        "enable_video_looping": false,
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_v1_GhUNU6": {
+      "type": "image-with-text-v1",
+      "blocks": {
+        "heading_ymGD7y": {
+          "type": "heading",
+          "settings": {
+            "heading": "Protection and maneuvrability",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28
+          }
+        },
+        "text_kF7KLU": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Heavy duty nylon buffers for cart protection</li><li>Fully stainless steel castors and bearings with clinical grade non-marking tread</li><li>Full length handles on all four corners for ease of maneuvring and extra protection of cart</li></ul>",
+            "text_style": "body"
+          }
+        },
+        "button_wGw4Xi": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read More",
+            "button_link": "#",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_ymGD7y",
+        "text_kF7KLU",
+        "button_wGw4Xi"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/STERIRACK-transport-case-cart-25_1.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "full_width": false,
+        "video_url": "",
+        "enable_video_looping": false,
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_v1_iVfAzg": {
+      "type": "image-with-text-v1",
+      "blocks": {
+        "heading_dx74kD": {
+          "type": "heading",
+          "settings": {
+            "heading": "Internal configuration",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28
+          }
+        },
+        "text_er44G4": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Adjustable runners with stainless steel slide in/out shelves (600mmL x 300mmW)</li><li>Eight levels on each side with aluminum sterilization containers (total of 16)</li><li>Aluminum sterilization containers (285mmW x 460mmL x 145mmH)</li><li>Silicon anti-slip mat</li></ul>",
+            "text_style": "body"
+          }
+        },
+        "button_A9mYtr": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read More",
+            "button_link": "#",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_dx74kD",
+        "text_er44G4",
+        "button_A9mYtr"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/STERIRACK-transport-case-cart-26.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "full_width": false,
+        "video_url": "",
+        "enable_video_looping": false,
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_v1_tWdMdC": {
+      "type": "image-with-text-v1",
+      "blocks": {
+        "heading_hrDKH9": {
+          "type": "heading",
+          "settings": {
+            "heading": "Door features",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28
+          }
+        },
+        "text_jMmCWC": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Bottom door latch to hold door position at 270°</li><li>Top door latch to hold doors in the closed position</li><li>3-point stainless door locking mechanism</li><li>Fully sealed doors preventing contamination</li><li>Security seal provision</li></ul>",
+            "text_style": "body"
+          }
+        },
+        "button_EK6m9U": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read More",
+            "button_link": "#",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_hrDKH9",
+        "text_jMmCWC",
+        "button_EK6m9U"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/STERIRACK-transport-case-cart-27.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "full_width": false,
+        "video_url": "",
+        "enable_video_looping": false,
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_no_text_8FA38J": {
+      "type": "image-with-no-text",
+      "blocks": {
+        "image_Y8tbgH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/transport-case-carts-samples.png"
+          }
+        }
+      },
+      "block_order": [
+        "image_Y8tbgH"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Internal Configuration <strong>Samples</strong>",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_no_text_pt9hhC": {
+      "type": "image-with-no-text",
+      "blocks": {
+        "image_KgDRNk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/transport-case-carts-dimensions.png"
+          }
+        }
+      },
+      "block_order": [
+        "image_KgDRNk"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Product <strong>Dimensions</strong>",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "padding_top": 36,
+        "padding_bottom": 72
+      }
+    },
+    "shipping_estimate_7eHtJy": {
+      "type": "shipping-estimate",
+      "disabled": true,
+      "settings": {
+        "heading": "<p>Shipping <strong>Estimate</strong></p>",
+        "heading_size": "h1",
+        "title_alignment": "center",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "btn": "Estimate",
+        "enable_secondary_btn": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "title": "You May Also Like",
+        "heading_size": "h0",
+        "heading_alignment": "left",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "learnmore",
+        "learn_more_button_text": "Learn More",
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_image_text_slider_k9tKHM": {
+      "type": "custom-Image-text-slider",
+      "blocks": {
+        "slide_UBnzye": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Concept_5.png",
+            "offer_title": "",
+            "heading": "<p>BIM Files</p>",
+            "block_custom_heading_size": 52,
+            "mobile_block_custom_heading_size": 28,
+            "text": "<p>BIM files are available for download on request. To protect specification integrity, access is granted to trusted partners via password or tokenised link. Please contact us to request access and include your project or firm details for review.</p>",
+            "button_label": "BIM file request",
+            "button_link": "mailto:sales@spacelogicgroup.com",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_UBnzye"
+      ],
+      "settings": {
+        "heading": "",
+        "sec_des": "",
+        "title_color": "#ffffff",
+        "subheading_color": "#ffffff",
+        "title_alignment": "center",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "layout": "image_first",
+        "content_layout": "no-overlap",
+        "height": "extra-small",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "show_button_on_image": false,
+        "show_half_slide": false,
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "section_color_scheme": "scheme-28b9a3ce-e916-452a-9440-95fefcedbf92",
+        "offer_title_color": "#ffce00",
+        "show_pagination": true,
+        "padding_top": 70,
+        "padding_bottom": 70
+      }
+    },
+    "faq_collapsible_content_QQxiNJ": {
+      "type": "faq-collapsible-content",
+      "blocks": {
+        "collapsible_row_kdXQ4N": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What are Space Logic?",
+            "row_content": "<p>Yes! Once you choose your design, website name and plan, we will set up your website for you to look exactly like the design you choose, updated with your content and images.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_8w3BXU": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are Space Logic safe?",
+            "row_content": "<p>Yes! Once you choose your design, website name and plan, we will set up your website for you to look exactly like the design you choose, updated with your content and images.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_gCJNRQ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I take Space Logic on top of my supplement regimen?",
+            "row_content": "<p>Yes! Once you choose your design, website name and plan, we will set up your website for you to look exactly like the design you choose, updated with your content and images.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_KJWhCp": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Will Space Logic help me be smarter?",
+            "row_content": "<p>Yes! Once you choose your design, website name and plan, we will set up your website for you to look exactly like the design you choose, updated with your content and images.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_nFHcKF": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I take Space Logic on top of my supplement regimen?",
+            "row_content": "<p>Yes! Once you choose your design, website name and plan, we will set up your website for you to look exactly like the design you choose, updated with your content and images.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_6iW34b": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Will Space Logic help me be smarter?",
+            "row_content": "<p>Yes! Once you choose your design, website name and plan, we will set up your website for you to look exactly like the design you choose, updated with your content and images.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_kdXQ4N",
+        "collapsible_row_8w3BXU",
+        "collapsible_row_gCJNRQ",
+        "collapsible_row_KJWhCp",
+        "collapsible_row_nFHcKF",
+        "collapsible_row_6iW34b"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "<p>Frequently asked questions <strong>Space Logic</strong></p>",
+        "text": "",
+        "button_label": "See All FAQ",
+        "button_link": "#",
+        "heading_size": "h1",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "container_color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "open_first_collapsible_row": true,
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
+    },
+    "product_catalog_3wJXkE": {
+      "type": "product-catalog",
+      "disabled": true,
+      "settings": {
+        "product_image": "shopify://shop_images/image_104.png",
+        "logo_link": "",
+        "heading": "<p>Product Catalogue</p>",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "description": "<p>Click here to view our latest product and services catalogue in a browser without downloading.</p>",
+        "button_1_text": "View catalogue",
+        "button_1_link": "https://online.flippingbook.com/view/393434/",
+        "button_2_text": "Download Catalog",
+        "button_2_link": "",
+        "reverse_column": true,
+        "title_color": "#424242",
+        "subheading_color": "#424242",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "proudly_support_NnMGAw": {
+      "type": "proudly-support",
+      "blocks": {
+        "support_item_3Hcczh": {
+          "type": "support_item",
+          "settings": {
+            "image": "shopify://shop_images/support-logo-1.png"
+          }
+        },
+        "support_item_fjND3Q": {
+          "type": "support_item",
+          "settings": {
+            "image": "shopify://shop_images/support-logo-2.png"
+          }
+        },
+        "support_item_tApGYX": {
+          "type": "support_item",
+          "settings": {
+            "image": "shopify://shop_images/support-logo-5.png"
+          }
+        },
+        "support_item_pzJMPa": {
+          "type": "support_item",
+          "settings": {
+            "image": "shopify://shop_images/support-logo-4.png"
+          }
+        },
+        "support_item_DnVgCF": {
+          "type": "support_item",
+          "settings": {
+            "image": "shopify://shop_images/support-logo-3.png"
+          }
+        }
+      },
+      "block_order": [
+        "support_item_3Hcczh",
+        "support_item_fjND3Q",
+        "support_item_tApGYX",
+        "support_item_pzJMPa",
+        "support_item_DnVgCF"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "<p>We Proudly Support</p>",
+        "title_alignment": "center",
+        "color_scheme": "",
+        "title_color": "#424242",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    }
+  },
+  "order": [
+    "custom_page_banner_dHyyAj",
+    "section_breadcrumb_JneyLg",
+    "main",
+    "rich_text_dwzN8N",
+    "image_with_text_v1_HEUki7",
+    "image_with_text_v1_3bV76A",
+    "image_with_text_v1_D3j3pr",
+    "image_with_text_v1_GhUNU6",
+    "image_with_text_v1_iVfAzg",
+    "image_with_text_v1_tWdMdC",
+    "image_with_no_text_8FA38J",
+    "image_with_no_text_pt9hhC",
+    "shipping_estimate_7eHtJy",
+    "related-products",
+    "custom_image_text_slider_k9tKHM",
+    "faq_collapsible_content_QQxiNJ",
+    "product_catalog_3wJXkE",
+    "proudly_support_NnMGAw"
+  ]
+}

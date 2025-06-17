@@ -343,6 +343,91 @@
         "padding_bottom": 64
       }
     },
+    "image_banner_wGpWK8": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "page_container": "page-width",
+        "image": "shopify://shop_images/01-slide-in-out-shelf.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "margin_top": 36,
+        "margin_bottom": 36,
+        "mobile_padding_top": 36,
+        "mobile_padding_bottom": 36,
+        "mobile_margin_top": 36,
+        "mobile_margin_bottom": 36
+      }
+    },
+    "dimension_table_cUnAUg": {
+      "type": "dimension_table",
+      "blocks": {
+        "row_GcieyG": {
+          "type": "row",
+          "settings": {
+            "description": "Slide in/out Shelf",
+            "code": "22051",
+            "dimensions": "",
+            "dimensions_inch": "300W x 400D",
+            "configurations_data": "22"
+          }
+        },
+        "row_Lih7cC": {
+          "type": "row",
+          "settings": {
+            "description": "Slide in/out Shelf",
+            "code": "22041",
+            "dimensions": "",
+            "dimensions_inch": "400W x 400D",
+            "configurations_data": ""
+          }
+        },
+        "row_fdjVy9": {
+          "type": "row",
+          "settings": {
+            "description": "Slide in/out Shelf",
+            "code": "22054",
+            "dimensions": "22054",
+            "dimensions_inch": "",
+            "configurations_data": ""
+          }
+        },
+        "row_QpxCWj": {
+          "type": "row",
+          "settings": {
+            "description": "Slide in/out Shelf",
+            "code": "22040",
+            "dimensions": "",
+            "dimensions_inch": "600W x 600D",
+            "configurations_data": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_GcieyG",
+        "row_Lih7cC",
+        "row_fdjVy9",
+        "row_QpxCWj"
+      ],
+      "name": "dimension-table",
+      "settings": {
+        "description": "Description",
+        "code": "Chrome",
+        "dimensions": "Stainless",
+        "dimensions_inch": "Dimensions (mm)",
+        "configurations": "Dimensions (inches)"
+      }
+    },
     "rich_text_dwzN8N": {
       "type": "rich-text",
       "blocks": {
@@ -960,6 +1045,8 @@
     "custom_page_banner_dHyyAj",
     "section_breadcrumb_JneyLg",
     "main",
+    "image_banner_wGpWK8",
+    "dimension_table_cUnAUg",
     "rich_text_dwzN8N",
     "image_with_text_v1_HEUki7",
     "image_with_text_v1_3bV76A",

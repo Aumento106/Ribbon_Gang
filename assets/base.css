@@ -261,6 +261,9 @@ h3 sup,
   position: relative;
   top: -6px;
 }
+.subtitle {
+  font-weight: var(--subheading-font_weight) !important;
+}
 
 @media screen and (max-width: 749px) {
   h0 sup,

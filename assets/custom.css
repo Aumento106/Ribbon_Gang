@@ -1613,16 +1613,13 @@ body .slider-counter--dots .slider-counter__link--active.slider-counter__link--d
 body .slider-counter--dots .slider-counter__link {
   padding: 0.8rem .2rem;
 }
-
 body .slider-counter--dots {
   padding: 0 0.8rem;
   margin: 0;
 }
-
 body .slider-buttons .slider-counter {
   display: block;
 }
-
 body .slider-buttons {
   position: absolute;
   left: 50%;
@@ -1634,7 +1631,6 @@ body .slider-buttons {
   padding: 0;
   border: 0.2px solid #FFFFFF !important;
 }
-
 /* .announcement-bar-slider .slider-button {
   display: none;
 } */

@@ -1552,7 +1552,6 @@ body .swiper-pagination.swiper-pagination-bullets .swiper-pagination-bullet.swip
 .swiper .swiper-button-next {
   display: block;
 }
-
 .swiper .swiper-button {
   width: 60px;
   height: 60px;
@@ -1564,11 +1563,9 @@ body .swiper-pagination.swiper-pagination-bullets .swiper-pagination-bullet.swip
   align-items: center;
   transition: all .3s ease-in-out;
 }
-
 .swiper .swiper-button:hover {
   background-color: var(--primary-theme-color);
 }
-
 .swiper .swiper-button::after {
   content: "";
   background: url(https://cdn.shopify.com/s/files/1/0657/3388/6106/files/slider-arrow.svg?v=1737034361) no-repeat center;
@@ -1577,15 +1574,12 @@ body .swiper-pagination.swiper-pagination-bullets .swiper-pagination-bullet.swip
   width: 22px;
   display: inline-block;
 }
-
 .swiper .swiper-button-next::after {
   transform: rotate(180deg);
 }
-
 .slider-button--next .svg-wrapper svg {
   transform: rotate(180deg);
 }
-
 .slider-buttons .slider-button {
   width: 50px;
   height: 50px;

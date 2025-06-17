@@ -267,6 +267,19 @@ h3 sup,
   top: -6px;
 }
 
+@media screen and (max-width: 749px) {
+  h0 sup,
+  h1 sup,
+  h2 sup,
+  h3 sup,
+  .h0 sup,
+  .h1 sup,
+  .h2 sup,
+  .h3 sup {
+    top: 0;
+  }
+}
+
 h1,
 h2,
 h3,

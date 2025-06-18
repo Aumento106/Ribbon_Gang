@@ -875,6 +875,7 @@
         "slide_tWbjPi"
       ],
       "settings": {
+        "enable_content_page_width": true,
         "heading": "",
         "sec_des": "",
         "title_color": "#ffffff",
@@ -1010,6 +1011,7 @@
         "slide_cbQUAP"
       ],
       "settings": {
+        "enable_content_page_width": false,
         "heading": "Testimonials and case studies",
         "sec_des": "<p>World-class reputation</p>",
         "title_color": "#ffffff",

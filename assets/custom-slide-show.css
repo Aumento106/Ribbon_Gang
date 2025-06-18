@@ -68,12 +68,6 @@ slideshow-component .slideshow__slide.enable_side_image_main:before {
     }
 }
 
-@media screen and (max-width: 1024px) {
-  .section-custom-slide-show .slideshow__text-wrapper.banner__content {
-    padding: 0 0;
-  }
-}
-
 @media screen and (max-width: 989px) {
     .section-custom-slide-show .slideshow__text-wrapper.banner__content {
         padding: 0;

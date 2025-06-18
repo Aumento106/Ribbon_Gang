@@ -29,7 +29,7 @@ slideshow-component .slideshow.banner {
 }
 
 @media screen and (max-width: 1024px) {
-  .section-custom-slide-show .slideshow__text.banner__box {
+  .section-custom-slide-show .slideshow__text-wrapper.banner__content {
     padding: 0 0px;
   }
 }

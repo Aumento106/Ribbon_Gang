@@ -656,7 +656,7 @@
       ],
       "name": "t:sections.collage.presets.name",
       "settings": {
-        "heading": "Multimedia collage",
+        "heading": "",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
         "desktop_layout": "left",
@@ -801,6 +801,59 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "rich_text_qYcmbP": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_pmD7dw": {
+          "type": "heading",
+          "settings": {
+            "heading": "STERIRACK® Workstations - Build your own",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28
+          }
+        }
+      },
+      "block_order": [
+        "heading_pmD7dw"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "content_alignment": "center",
+        "content_width": "medium",
+        "color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
+        "full_width": true,
+        "no_margin": false,
+        "section_border": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "image_banner_JiDctU": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "page_container": "page-width",
+        "image": "shopify://shop_images/sterirack_workstation_build-your-own_c_2200px.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "margin_top": 36,
+        "margin_bottom": 36,
+        "mobile_padding_top": 36,
+        "mobile_padding_bottom": 36,
+        "mobile_margin_top": 36,
+        "mobile_margin_bottom": 36
+      }
     }
   },
   "order": [
@@ -824,6 +877,8 @@
     "rich_text_yN37eR",
     "collage_7bxh7N",
     "rich_text_99JGzB",
-    "collage_4iPJDq"
+    "collage_4iPJDq",
+    "rich_text_qYcmbP",
+    "image_banner_JiDctU"
   ]
 }

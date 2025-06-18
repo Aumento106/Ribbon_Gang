@@ -1,5 +1,6 @@
 .section-custom-slideshow-slider .slideshow.swiper.banner {
   padding: 0 5rem;
+  max-height: unset;
 }
 @media screen and (min-width: 750px) {
 

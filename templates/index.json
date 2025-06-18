@@ -597,6 +597,7 @@
         "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
         "columns_desktop": "3",
         "box_shadow": false,
+        "image_auto_height": false,
         "padding_top": 50,
         "padding_bottom": 50,
         "margin_top": 0,
@@ -862,19 +863,6 @@
             "button_link": "shopify://collections",
             "button_style_secondary": false
           }
-        },
-        "slide_bBmUrt": {
-          "type": "slide",
-          "settings": {
-            "offer_title": "<p>Super saver Offer</p>",
-            "heading": "<p>Image with text</p>",
-            "block_custom_heading_size": 52,
-            "mobile_block_custom_heading_size": 28,
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
         }
       },
       "block_order": [
@@ -884,8 +872,7 @@
         "slide_zEHRHV",
         "slide_GEfh8E",
         "slide_iUhckn",
-        "slide_tWbjPi",
-        "slide_bBmUrt"
+        "slide_tWbjPi"
       ],
       "settings": {
         "heading": "",
@@ -1306,6 +1293,7 @@
         "color_scheme": "scheme-7bba877c-319e-4978-b41a-39cbc803dea8",
         "columns_desktop": "2",
         "box_shadow": true,
+        "image_auto_height": false,
         "padding_top": 50,
         "padding_bottom": 50,
         "margin_top": 0,

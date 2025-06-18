@@ -1026,8 +1026,8 @@
       "settings": {
         "heading": "Testimonials and case studies",
         "sec_des": "<p>World-class reputation</p>",
-        "title_color": "#ffffff",
-        "subheading_color": "#ffffff",
+        "title_color": "#424242",
+        "subheading_color": "#424242",
         "title_alignment": "center",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,

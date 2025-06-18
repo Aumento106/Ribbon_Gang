@@ -854,6 +854,59 @@
         "mobile_margin_top": 36,
         "mobile_margin_bottom": 36
       }
+    },
+    "rich_text_L7G77q": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_NdGqQ8": {
+          "type": "heading",
+          "settings": {
+            "heading": "Step 1. Select your bench configuration",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28
+          }
+        }
+      },
+      "block_order": [
+        "heading_NdGqQ8"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "content_alignment": "center",
+        "content_width": "full_width",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "full_width": true,
+        "no_margin": false,
+        "section_border": false,
+        "padding_top": 0,
+        "padding_bottom": 40
+      }
+    },
+    "image_banner_VPcnGW": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "page_container": "full-width",
+        "image": "shopify://shop_images/sterirack_workstations_choose-your-configuration_2200px.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "margin_top": 36,
+        "margin_bottom": 36,
+        "mobile_padding_top": 36,
+        "mobile_padding_bottom": 36,
+        "mobile_margin_top": 36,
+        "mobile_margin_bottom": 36
+      }
     }
   },
   "order": [
@@ -879,6 +932,8 @@
     "rich_text_99JGzB",
     "collage_4iPJDq",
     "rich_text_qYcmbP",
-    "image_banner_JiDctU"
+    "image_banner_JiDctU",
+    "rich_text_L7G77q",
+    "image_banner_VPcnGW"
   ]
 }

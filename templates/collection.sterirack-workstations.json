@@ -593,6 +593,37 @@
         "mobile_margin_bottom": 36
       }
     },
+    "collage_J6UFCH": {
+      "type": "collage",
+      "blocks": {
+        "image_fEDMVb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/sterirack_workstations_concept-1_1100px.jpg"
+          }
+        },
+        "image_iyk44F": {
+          "type": "image",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "image_fEDMVb",
+        "image_iyk44F"
+      ],
+      "name": "t:sections.collage.presets.name",
+      "settings": {
+        "heading": "Multimedia collage",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "rich_text_ReT4C9": {
       "type": "rich-text",
       "blocks": {
@@ -627,30 +658,37 @@
         "padding_bottom": 40
       }
     },
-    "image_banner_wagNxX": {
-      "type": "image-banner",
-      "name": "t:sections.image-banner.presets.name",
+    "collage_rdnLMi": {
+      "type": "collage",
+      "blocks": {
+        "image_4tVXdA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/sterirack_workstations_concept-2_1100px.jpg"
+          }
+        },
+        "image_YqPPqy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/sterirack_workstations_concept-2_dimensions_1100px-987x1024.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_4tVXdA",
+        "image_YqPPqy"
+      ],
+      "name": "t:sections.collage.presets.name",
       "settings": {
-        "page_container": "page-width",
-        "image": "shopify://shop_images/sterirack_workstations_concept-2_1100px.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
+        "heading": "Multimedia collage",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
         "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "margin_top": 36,
-        "margin_bottom": 36,
-        "mobile_padding_top": 36,
-        "mobile_padding_bottom": 36,
-        "mobile_margin_top": 36,
-        "mobile_margin_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "rich_text_yN37eR": {
@@ -805,8 +843,9 @@
     "multicolumn_video_RR9UW7",
     "rich_text_yeDbtX",
     "image_banner_cpUhNG",
+    "collage_J6UFCH",
     "rich_text_ReT4C9",
-    "image_banner_wagNxX",
+    "collage_rdnLMi",
     "rich_text_yN37eR",
     "collage_7bxh7N",
     "rich_text_99JGzB",

@@ -80,7 +80,7 @@
 </div>
 
 {% if section.settings.logo_stript_text != blank %}
-  <div class="logo-strip_note center">
+  <div class="logo-strip_note center  gradient color-{{ section.settings.logo_color_scheme }}">
     <div class="page-width">
       <p>{{ section.settings.logo_stript_text }}</p>
     </div>
@@ -103,6 +103,12 @@
       "id": "logo_stript_text",
       "label": "Logo Strip Text",
       "default": "The shape of the wire loops in wire loop baskets and bins is used as a shape trade mark."
+    },
+    {
+      "type": "color_scheme",
+      "id": "logo_color_scheme",
+      "label": "Logo Strip",
+      "default": "scheme-1"
     },
     {
         "type": "header",

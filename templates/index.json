@@ -875,7 +875,7 @@
         "slide_tWbjPi"
       ],
       "settings": {
-        "enable_content_page_width": true,
+        "enable_content_page_width": false,
         "heading": "",
         "sec_des": "",
         "title_color": "#ffffff",

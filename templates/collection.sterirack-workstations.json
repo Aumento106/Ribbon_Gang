@@ -21,26 +21,17 @@
     "page_banner_BXQVUB": {
       "type": "page-banner",
       "blocks": {
-        "heading_nhBt8y": {
-          "type": "heading",
+        "image_ifRi3q": {
+          "type": "image",
           "settings": {
-            "heading": "STERIRACK® Standard Workstations",
-            "custom_heading_size": 52,
-            "mobile_custom_heading_size": 28,
-            "heading_alignment": "center"
-          }
-        },
-        "text_G6e3Nj": {
-          "type": "text",
-          "settings": {
-            "text": "<p>No more dark, dusty corners. No more inflexible, fixed cabinetry. No more lost and hidden stock. No more mouldy cracks and crevices around benchtops. Think of rows of modern, clean, shiny baskets and shelves that slide smoothly in and out. Designed with patented looped wire baskets, and smooth corners with no sharp edges, eradicating the risk of tears to skin or sterile stock. Wire baskets and open shelves provide 100% visibility of stock and ideal ventilation.</p><p>Imagine smooth-to-the-touch solid surface benchtops that are super easy to clean and disinfect. Made of a hard, non-porous material that no moulds can latch onto. There’s no place for pathogenic micro-organisms to hide.</p><p>Tailored to suit you space and application, STERIRACK® Workstations are the answer. And they’re made using premium materials. Because you want to know you’re getting great value for money, and a fabulous return on your investment.</p><p>Shown below are 4 popular concept STERIRACK® Workstations (available with laminate, stainless steel or solid surface benchtops) which can be customised to suit your room specifications. Available in a wide variety of widths, depths and configurations to suit your facility.</p><p>Alternatively, check out the steps below on how you can build your own. The configurations are endless!</p>",
-            "text_alignment": "center"
+            "image": "shopify://shop_images/Sterirack-workstations-1536x864.jpg",
+            "border_radius": true,
+            "image_height": "small"
           }
         }
       },
       "block_order": [
-        "heading_nhBt8y",
-        "text_G6e3Nj"
+        "image_ifRi3q"
       ],
       "settings": {
         "title_alignment": "center",
@@ -59,6 +50,39 @@
         "padding_bottom": 30,
         "mobile_padding_top": 30,
         "mobile_padding_bottom": 30
+      }
+    },
+    "page_banner_ntmMYU": {
+      "type": "page-banner",
+      "blocks": {
+        "heading_9MUFRt": {
+          "type": "heading",
+          "settings": {
+            "heading": "STERIRACK® Standard Workstations",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "heading_alignment": "center"
+          }
+        },
+        "text_6i44C4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>No more dark, dusty corners. No more inflexible, fixed cabinetry. No more lost and hidden stock. No more mouldy cracks and crevices around benchtops. Think of rows of modern, clean, shiny baskets and shelves that slide smoothly in and out. Designed with patented looped wire baskets, and smooth corners with no sharp edges, eradicating the risk of tears to skin or sterile stock. Wire baskets and open shelves provide 100% visibility of stock and ideal ventilation.</p><p>Imagine smooth-to-the-touch solid surface benchtops that are super easy to clean and disinfect. Made of a hard, non-porous material that no moulds can latch onto. There’s no place for pathogenic micro-organisms to hide.</p><p>Tailored to suit you space and application, STERIRACK® Workstations are the answer. And they’re made using premium materials. Because you want to know you’re getting great value for money, and a fabulous return on your investment.</p><p>Shown below are 4 popular concept STERIRACK® Workstations (available with laminate, stainless steel or solid surface benchtops) which can be customised to suit your room specifications. Available in a wide variety of widths, depths and configurations to suit your facility.</p><p>Alternatively, check out the steps below on how you can build your own. The configurations are endless!</p>",
+            "text_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "heading_9MUFRt",
+        "text_6i44C4"
+      ],
+      "settings": {
+        "title_alignment": "center",
+        "full_width": true,
+        "content_width": "full_width",
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "padding_top": 72,
+        "padding_bottom": 72
       }
     },
     "product-grid": {
@@ -514,6 +538,7 @@
     "banner",
     "page_banner_BXQVUB",
     "section_breadcrumb_nmUW87",
+    "page_banner_ntmMYU",
     "product-grid",
     "product_catalog_xdFqLr",
     "product_list_aMiAGg",

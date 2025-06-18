@@ -171,12 +171,14 @@
           "settings": {
             "hotspot_icon": "shopify://shop_images/icon-hotspot.svg",
             "hotspot_product_list": [
-              "standard-mesh-baskets-copy",
               "sterirack®-transport-case-carts",
-              "standard-mesh-baskets-5",
-              "standard-mesh-baskets-4",
-              "standard-mesh-baskets-3",
-              "standard-mesh-baskets"
+              "extra-large-medibin™-panel",
+              "extra-small-medibin™",
+              "green-gynaecology",
+              "grey-bariatrics",
+              "hot-pink-plastics",
+              "large-medibin™",
+              "extra-large-medibin™"
             ],
             "product_list_sec_title": "STERIRACK® Benching",
             "product_list_subtitle": "(lorem ipsum)",

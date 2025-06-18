@@ -62,6 +62,9 @@
 }
 
 @media screen and (max-width: 749px) {
+  .custom-image-banner .banner.banner--adapt .banner__content {
+      min-height: 50rem;
+  }
     .custom-image-banner .banner-text-con {
         margin: 0 1.5rem;
         padding: 20px 10px;

@@ -567,32 +567,6 @@
         "padding_bottom": 40
       }
     },
-    "image_banner_cpUhNG": {
-      "type": "image-banner",
-      "name": "t:sections.image-banner.presets.name",
-      "settings": {
-        "page_container": "page-width",
-        "image": "shopify://shop_images/sterirack_workstations_concept-1_1100px.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "margin_top": 36,
-        "margin_bottom": 36,
-        "mobile_padding_top": 36,
-        "mobile_padding_bottom": 36,
-        "mobile_margin_top": 36,
-        "mobile_margin_bottom": 36
-      }
-    },
     "collage_J6UFCH": {
       "type": "collage",
       "blocks": {
@@ -604,7 +578,9 @@
         },
         "image_iyk44F": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/sterirack_workstations_concept-1_dimensions_1100px-819x1024.jpg"
+          }
         }
       },
       "block_order": [
@@ -613,15 +589,15 @@
       ],
       "name": "t:sections.collage.presets.name",
       "settings": {
-        "heading": "Multimedia collage",
+        "heading": "",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
         "desktop_layout": "left",
         "mobile_layout": "column",
         "card_styles": "product-card-wrapper",
         "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "rich_text_ReT4C9": {
@@ -842,7 +818,6 @@
     "custom_multicolumn_text_QKXKe6",
     "multicolumn_video_RR9UW7",
     "rich_text_yeDbtX",
-    "image_banner_cpUhNG",
     "collage_J6UFCH",
     "rich_text_ReT4C9",
     "collage_rdnLMi",

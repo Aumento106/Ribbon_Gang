@@ -19,7 +19,7 @@
 .custom-multicolumn-with-text .multi-column-box-with-image .multicolumn-box__item {
   padding: 24px 24px 40px;
   text-align: center;
-  border-radius: 8px;
+  border-radius: 16px;
   /* border-radius: 0px; */
   display: flex;
   flex-direction: column;

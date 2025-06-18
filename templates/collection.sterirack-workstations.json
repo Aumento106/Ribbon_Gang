@@ -687,32 +687,6 @@
         "padding_bottom": 40
       }
     },
-    "image_banner_J3NpXW": {
-      "type": "image-banner",
-      "name": "t:sections.image-banner.presets.name",
-      "settings": {
-        "page_container": "full-width",
-        "image": "shopify://shop_images/sterirack_workstations_concept-3_1100px-1024x662.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "margin_top": 36,
-        "margin_bottom": 36,
-        "mobile_padding_top": 36,
-        "mobile_padding_bottom": 36,
-        "mobile_margin_top": 36,
-        "mobile_margin_bottom": 36
-      }
-    },
     "collage_7bxh7N": {
       "type": "collage",
       "blocks": {
@@ -742,8 +716,8 @@
         "mobile_layout": "column",
         "card_styles": "product-card-wrapper",
         "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "rich_text_99JGzB": {
@@ -834,7 +808,6 @@
     "rich_text_ReT4C9",
     "image_banner_wagNxX",
     "rich_text_yN37eR",
-    "image_banner_J3NpXW",
     "collage_7bxh7N",
     "rich_text_99JGzB",
     "collage_4iPJDq"

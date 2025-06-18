@@ -426,6 +426,16 @@
             "button-text": "",
             "button-url": ""
           }
+        },
+        "column_Aj7wtm": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "text-v": "",
+            "button-text": "",
+            "button-url": ""
+          }
         }
       },
       "block_order": [
@@ -435,7 +445,8 @@
         "column_VqhRMB",
         "column_DDicwj",
         "column_4b7bJD",
-        "column_NfKygM"
+        "column_NfKygM",
+        "column_Aj7wtm"
       ],
       "name": "Custom multicolumn text",
       "settings": {
@@ -444,8 +455,8 @@
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
         "title_alignment": "center",
-        "title_color": "#fff",
-        "subheading_color": "#fff",
+        "title_color": "#ffffff",
+        "subheading_color": "#ffffff",
         "color_scheme": "",
         "heading_color_scheme": "",
         "columns_desktop": "3",

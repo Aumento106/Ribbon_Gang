@@ -79,7 +79,8 @@ body .Custom_image_text_slider .swiper .swiper-pagination {
     font-weight: 400;
     line-height: normal;
     text-align: center;
-    margin-top: 2.4rem;
+    /* margin-top: 2.4rem; */
+    margin-top: 0;
 }
 
 .Custom_image_text_slider .section-des p {

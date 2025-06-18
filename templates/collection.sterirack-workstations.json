@@ -713,6 +713,39 @@
         "mobile_margin_bottom": 36
       }
     },
+    "collage_7bxh7N": {
+      "type": "collage",
+      "blocks": {
+        "image_wfxqeY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/sterirack_workstations_concept-3_1100px-1024x662.jpg"
+          }
+        },
+        "image_tzWywi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/sterirack_workstations_concept-3_dimensions_1100px-1024x950.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_wfxqeY",
+        "image_tzWywi"
+      ],
+      "name": "t:sections.collage.presets.name",
+      "settings": {
+        "heading": "Multimedia collage",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "rich_text_99JGzB": {
       "type": "rich-text",
       "blocks": {
@@ -746,6 +779,40 @@
         "padding_top": 40,
         "padding_bottom": 40
       }
+    },
+    "collage_4iPJDq": {
+      "type": "collage",
+      "blocks": {
+        "image_ze8HaR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/sterirack_workstations_concept-4_1100px-1024x655_1.jpg"
+          }
+        },
+        "image_Hpp4th": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/sterirack_workstations_concept-4_dimensions_1100px-1024x1012.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_ze8HaR",
+        "image_Hpp4th"
+      ],
+      "custom_css": [],
+      "name": "t:sections.collage.presets.name",
+      "settings": {
+        "heading": "",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -768,6 +835,8 @@
     "image_banner_wagNxX",
     "rich_text_yN37eR",
     "image_banner_J3NpXW",
-    "rich_text_99JGzB"
+    "collage_7bxh7N",
+    "rich_text_99JGzB",
+    "collage_4iPJDq"
   ]
 }

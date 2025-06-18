@@ -571,7 +571,8 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "page_container": "full-width",
+        "page_container": "page-width",
+        "image": "shopify://shop_images/sterirack_workstations_concept-1_1100px.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",

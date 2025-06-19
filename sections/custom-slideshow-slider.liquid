@@ -36,6 +36,9 @@
 
 {%- style -%}
   {%- for block in section.blocks -%}
+    .section-{{ section.id }}-padding .slideshow__text .tag--{{ block.id }} {
+      font-weight: {{ block.settings.custom_tag_font_weight }} !important;
+    }
     .section-{{ section.id }}-padding .banner__heading.heading--{{ block.id }} > * {
       font-size: {{ block.settings.custom_heading_size }}px;
       {% if block.settings.custom_font_weight == 'none' %}
@@ -224,7 +227,7 @@
               <div class="slideshow__text-wrapper banner__content banner__content--{{ block.settings.box_align }} page-width{% if block.settings.show_text_box == false %} banner--desktop-transparent{% endif %}{% if settings.animations_reveal_on_scroll and forloop.index == 1 %} scroll-trigger animate--slide-in{% endif %}">
                 <div class="slideshow__text banner__box content-container content-container--full-width-mobile color-{{ block.settings.color_scheme }} gradient slideshow__text--{{ block.settings.text_alignment }} slideshow__text-mobile--{{ block.settings.text_alignment_mobile }}">
                   {%- if block.settings.tag_text != blank -%}
-                    <h1 class="tag-text inline-richtext {{ block.settings.heading_size }}" style="color: {{ block.settings.tag_text_color }};">
+                    <h1 class="tag-text tag--{{ block.id }} inline-richtext {{ block.settings.heading_size }}" style="color: {{ block.settings.tag_text_color }};">
                       {{ block.settings.tag_text }}
                     </h1>
                   {%- endif -%}
@@ -377,6 +380,23 @@
           "type": "text",
           "id": "tag_text",
           "label": "Tag text"
+        },
+        {
+          "type": "select",
+          "id": "custom_tag_font_weight",
+          "label": "Tag Font Weight",
+          "default": "400",
+          "options": [
+            { "label": "Thin (100)", "value": "100" },
+            { "label": "Extra Light (200)", "value": "200" },
+            { "label": "Light (300)", "value": "300" },
+            { "label": "Regular (400)", "value": "400" },
+            { "label": "Medium (500)", "value": "500" },
+            { "label": "Semi Bold (600)", "value": "600" },
+            { "label": "Bold (700)", "value": "700" },
+            { "label": "Extra Bold (800)", "value": "800" },
+            { "label": "Black (900)", "value": "900" }
+          ]
         },
         {
           "type": "color",

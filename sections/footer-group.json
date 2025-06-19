@@ -70,7 +70,7 @@
         "reverse_column": true,
         "title_color": "#424242",
         "subheading_color": "#424242",
-        "padding_top": 40,
+        "padding_top": 80,
         "padding_bottom": 30
       }
     },

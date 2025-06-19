@@ -342,7 +342,7 @@
           "type": "heading",
           "settings": {
             "heading": "CSSD and theatre stores",
-            "custom_heading_size": 52,
+            "custom_heading_size": 45,
             "mobile_custom_heading_size": 28,
             "custom_font_weight": "400",
             "border_radius": 0
@@ -601,7 +601,7 @@
         "subheading_color": "#ffffff",
         "button_text": "",
         "button_url": "",
-        "custom_heading_size": 52,
+        "custom_heading_size": 45,
         "mobile_custom_heading_size": 28,
         "custom_font_weight": "400",
         "title_alignment": "center",

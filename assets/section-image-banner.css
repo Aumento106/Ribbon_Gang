@@ -27,7 +27,7 @@
   .banner--content-align-mobile-right .banner__box {
     text-align: right;
   }
-  .custom-image-banner {
+  .custom-image-banner .banner--adapt {
     max-height: 500px;
     min-height: 500px;
   }

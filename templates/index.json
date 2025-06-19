@@ -752,6 +752,7 @@
         "descr": "Making space for care®.",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
+        "custom_font_weight": "600",
         "title_alignment": "center",
         "title_color": "#ffffff",
         "subheading_color": "#ffffff",

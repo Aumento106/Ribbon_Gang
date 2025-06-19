@@ -17,7 +17,11 @@
   
   .section-{{ section.id }}-padding .title {
     font-size: {{ section.settings.news_custom_heading_size }}px;
-    font-weight: {{ section.settings.news_font_weight }} !important;
+    {% if section.settings.news_font_weight == 'none' %}
+      font-weight: var(--subheading-font_weight) !important;
+    {% else %}
+      font-weight: {{ section.settings.news_font_weight }} !important;
+    {% endif %}
   }
   @media screen and (max-width: 1366px) {
     .section-{{ section.id }}-padding .title {

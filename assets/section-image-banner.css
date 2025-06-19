@@ -17,6 +17,7 @@
   height: 100%;
 }
 
+
 /* Needed for gradient continuity with or without animation, the transform scopes the gradient to its container which happens already when animation are turned on */
 .banner__box.gradient {
   transform: perspective(0);
@@ -25,6 +26,10 @@
 @media only screen and (max-width: 749px) {
   .banner--content-align-mobile-right .banner__box {
     text-align: right;
+  }
+  .custom-image-banner .banner__media img {
+    max-height: 500px;
+    min-height: 500px;
   }
 
   .banner--content-align-mobile-left .banner__box {

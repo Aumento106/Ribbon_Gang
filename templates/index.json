@@ -27,7 +27,7 @@
             "botton_position": 80,
             "show_text_box": true,
             "enable_text_align_center": false,
-            "text_alignment": "center",
+            "text_alignment": "left",
             "image_overlay_opacity": 0,
             "slide_text_color": "#424242",
             "btn_bg": "#ffce00",

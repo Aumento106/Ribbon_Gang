@@ -38,6 +38,9 @@
         padding-left: 3rem;
         padding-right: 3rem;
     }
+    .section-custom-slide-show .slideshow__text-wrapper.slideshow__text--left {
+      padding-left: 20px;
+    }
 }
 
 @media screen and (min-width: 1025px) {

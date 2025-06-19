@@ -98,6 +98,12 @@
   }
 }
 
+@media screen and (max-width: 749px) {
+  .section-custom-slideshow-slider .slideshow.swiper.banner {
+    padding: 0 100px;
+  }
+}
+
 @media screen and (max-width: 989px) {
   .section-custom-slideshow-slider .slideshow.swiper.banner {
     padding: 0 1.5rem;

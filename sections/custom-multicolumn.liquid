@@ -25,7 +25,11 @@
   
   {%- for block in section.blocks -%}
     .multi-column-box-with-image.section-{{ section.id }} .multicolumn-box .multicolumn-box-top-con .block--{{ block.id }} {
-      font-weight: {{ block.settings.block_custom_font_weight }} !important;
+      {% if block.settings.block_custom_font_weight == 'none' %}
+        font-weight: var(--subheading-font_weight) !important;
+      {% else %}
+        font-weight: {{ block.settings.block_custom_font_weight }} !important;
+      {% endif %}
     }
   
    @media screen and (max-width: 1366px) {

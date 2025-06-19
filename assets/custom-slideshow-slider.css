@@ -31,9 +31,6 @@
   margin: 0 auto;
   justify-content: center;
 }
-.section-custom-slide-show .slideshow__text-wrapper.banner__content {
-  display: none;
-}
 
 @media screen and (min-width: 750px) {
 

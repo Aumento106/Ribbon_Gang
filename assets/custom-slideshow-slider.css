@@ -19,7 +19,7 @@
 .section-custom-slide-show .slideshow__text-wrapper.banner__content--center.small-page-width {
   /* padding-left: 14rem; */
   padding: 0;
-  width: 60%;
+  width: 60% !important;
   margin: 0 auto;
   justify-content: flex-start;
 }

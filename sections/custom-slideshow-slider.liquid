@@ -278,9 +278,11 @@
 {%- endif -%}
 
 <script>
- setTimeout(function() {
-    document.getElementById('delayed-content').style.display = 'block';
-  }, 3000);
+  window.onload = function() {
+    setTimeout(function() {
+      document.getElementById('.slideshow__text-wrapper').style.display = 'block';
+    }, 3000); // 3000 ms = 3 seconds
+  };
 </script>
 
 {% schema %}

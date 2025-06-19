@@ -215,10 +215,7 @@ body .Custom_image_text_slider .swiper .swiper-pagination {
 }
 
 @media screen and (max-width: 989px) {
-    .Custom_image_text_slider .image-with-text-slider.show-half-slide {
-        padding: 0 1.5rem;
-    }
-
+    
     .Custom_image_text_slider .image-with-text__media.image-with-text__media--extra-small {
         height: 30rem;
     }

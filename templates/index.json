@@ -531,6 +531,7 @@
         "remove_bg": true,
         "page_container": "full-width",
         "image": "shopify://shop_images/Home_22.png",
+        "image_mobile": "shopify://shop_images/Concept_9.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",

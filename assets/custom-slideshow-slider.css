@@ -7,7 +7,7 @@
   right: 0;
   justify-content: center;
 }
-.section-custom-slide-show .slideshow__text-wrapper.slideshow__text--left {
+.section-custom-slide-show .slideshow__text-wrapper.banner__content--left {
   padding-left: 5rem;
 }
 
@@ -38,7 +38,7 @@
         padding-left: 3rem;
         padding-right: 3rem;
     }
-    .section-custom-slide-show .slideshow__text-wrapper.slideshow__text--left {
+    .section-custom-slide-show .slideshow__text-wrapper.banner__content--left {
       padding-left: 20px;
     }
 }

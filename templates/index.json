@@ -627,7 +627,7 @@
         "full_width": false,
         "news_custom_heading_size": 52,
         "news_mobile_custom_heading_size": 28,
-        "news_font_weight": "400",
+        "font_weight": "600",
         "padding_top": 50,
         "padding_bottom": 50,
         "margin_top": 40,

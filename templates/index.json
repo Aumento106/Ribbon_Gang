@@ -317,7 +317,6 @@
         "remove_bg": true,
         "page_container": "full-width",
         "image": "shopify://shop_images/Home_23.png",
-        "image_mobile": "shopify://shop_images/2-grid_Concept_13.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",

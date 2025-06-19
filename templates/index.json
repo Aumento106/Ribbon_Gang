@@ -20,6 +20,7 @@
             "heading": "Your trusted partner in clinical storage solutions",
             "custom_heading_size": 52,
             "mobile_custom_heading_size": 28,
+            "custom_font_weight": "600",
             "subheading": "Ollie: heading here",
             "button_label": "Shop now",
             "link": "shopify://collections",
@@ -42,6 +43,7 @@
             "heading": "Infection-controlled solutions",
             "custom_heading_size": 52,
             "mobile_custom_heading_size": 28,
+            "custom_font_weight": "600",
             "subheading": "",
             "button_label": "Shop Now",
             "link": "shopify://collections",
@@ -64,6 +66,7 @@
             "heading": "Infection-controlled solutions",
             "custom_heading_size": 52,
             "mobile_custom_heading_size": 28,
+            "custom_font_weight": "600",
             "subheading": "",
             "button_label": "Shop Now",
             "link": "shopify://collections",
@@ -86,6 +89,7 @@
             "heading": "Infection-controlled solutions",
             "custom_heading_size": 52,
             "mobile_custom_heading_size": 28,
+            "custom_font_weight": "600",
             "subheading": "",
             "button_label": "Shop Now",
             "link": "shopify://collections",
@@ -125,6 +129,7 @@
             "heading": "Clean utilities and medication rooms",
             "custom_heading_size": 52,
             "mobile_custom_heading_size": 28,
+            "custom_font_weight": "600",
             "border_radius": 0
           }
         },
@@ -338,6 +343,7 @@
             "heading": "CSSD and theatre stores",
             "custom_heading_size": 52,
             "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400",
             "border_radius": 0
           }
         },
@@ -593,6 +599,7 @@
         "button_url": "",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "title_alignment": "center",
         "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
         "columns_desktop": "3",
@@ -637,6 +644,7 @@
             "heading": "<p>Silicon mats</p>",
             "custom_heading_size": 52,
             "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400",
             "subheading": "Bearundae voluptatem eum iditatqui aut  doluptiorest adit am rerrum sitae cor  modia voluptatist amu",
             "button_label": "Shop silicon mats",
             "link": "shopify://collections",
@@ -659,6 +667,7 @@
             "heading": "<p>Suture racks</p>",
             "custom_heading_size": 52,
             "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400",
             "subheading": "Bearundae voluptatem eum iditatqui aut  doluptiorest adit am rerrum sitae cor  modia voluptatist amu",
             "button_label": "Shop suture racks and trays",
             "link": "shopify://collections",
@@ -681,6 +690,7 @@
             "heading": "<p>Basket dividers</p>",
             "custom_heading_size": 52,
             "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400",
             "subheading": "Bearundae voluptatem eum iditatqui aut  doluptiorest adit am rerrum sitae cor  modia voluptatist amu",
             "button_label": "Shop basket dividers",
             "link": "shopify://collections",
@@ -884,6 +894,7 @@
         "title_alignment": "left",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "layout": "image_first",
         "content_layout": "no-overlap",
         "height": "medium",
@@ -1020,6 +1031,7 @@
         "title_alignment": "center",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "layout": "image_first",
         "content_layout": "no-overlap",
         "height": "extra-small",
@@ -1045,6 +1057,7 @@
             "heading": "STERIRACK® overhead rail units",
             "custom_heading_size": 52,
             "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400",
             "border_radius": 0
           }
         },
@@ -1292,6 +1305,7 @@
         "button_url": "shopify://collections",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "title_alignment": "center",
         "color_scheme": "scheme-7bba877c-319e-4978-b41a-39cbc803dea8",
         "columns_desktop": "2",
@@ -1312,6 +1326,7 @@
         "heading": "<p>Product Catalogue 2025</p>",
         "custom_heading_size": 70,
         "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "color_scheme": "",
         "description": "<p>Click here to view our latest product and services catalogue in your browser, without the need for a download.</p>",
         "button_1_text": "View catalogue",
@@ -1502,6 +1517,7 @@
         "title": "",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "title_alignment": "center",
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "heading_color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
@@ -1569,6 +1585,7 @@
         "sec_title": "<p>Three interconnected divisions, delivering a complete end-to-end <strong>Service</strong></p>",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "title_alignment": "center",
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "icon_bg_color": "#5a5a5a",
@@ -1597,6 +1614,7 @@
             "heading": "Project Consultation, Planning and Room Design",
             "custom_heading_size": 52,
             "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400",
             "heading_alignment": "center"
           }
         },
@@ -1686,7 +1704,8 @@
           "settings": {
             "heading": "About us",
             "custom_heading_size": 52,
-            "mobile_custom_heading_size": 28
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
           }
         },
         "caption_RdyUkV": {
@@ -1815,7 +1834,8 @@
           "settings": {
             "heading": "New <strong>Products</strong>",
             "custom_heading_size": 52,
-            "mobile_custom_heading_size": 28
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
           }
         },
         "caption_4DDFCN": {

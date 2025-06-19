@@ -9,7 +9,8 @@
 }
 .section-custom-slide-show .slideshow__text-wrapper.banner__content--left {
   /* padding-left: 14rem; */
-  padding: 0 32rem;
+  padding: 0;
+  width: 75%;
 }
 
 @media screen and (min-width: 750px) {
@@ -113,7 +114,8 @@
 @media screen and (max-width: 989px) {
   
   .section-custom-slide-show .slideshow__text-wrapper.banner__content--left {
-    padding-left: 20px;
+    /* padding-left: 20px; */
+    width: 100%;
   }
 }
 

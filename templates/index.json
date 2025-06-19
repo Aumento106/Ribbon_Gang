@@ -741,7 +741,7 @@
           "type": "column",
           "settings": {
             "title": "Focus",
-            "block_custom_font_weight": "400",
+            "block_custom_font_weight": "600",
             "text": "<ul><li>Clinical storage solutions</li><li>Infection control and safety focus</li><li>Optimised workflow</li><li>Sterile and non-sterile options</li><li>Optimised workflow</li></ul>",
             "text-v": "",
             "button-text": "Find out more",
@@ -752,7 +752,7 @@
           "type": "column",
           "settings": {
             "title": "Quality",
-            "block_custom_font_weight": "400",
+            "block_custom_font_weight": "600",
             "text": "<ul><li>Gold standard STERIRACK®  System</li><li>Patented excellence</li><li>Compliance with safety standards</li><li>Ergonomic design</li><li>Patented excellence</li></ul>",
             "text-v": "",
             "button-text": "Find out more",

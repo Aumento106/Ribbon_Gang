@@ -277,6 +277,12 @@
   <script src="{{ 'theme-editor.js' | asset_url }}" defer="defer"></script>
 {%- endif -%}
 
+<script>
+  setTimeout(function(){
+     $('.slideshow__text-wrapper').hide();
+  }, 2000);
+</script>
+
 {% schema %}
 {
   "name": "Custom slideshow slider",

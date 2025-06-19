@@ -10,12 +10,15 @@
 .section-custom-slide-show .slideshow__text-wrapper.banner__content--left.page-width {
   /* padding-left: 14rem; */
   padding: 0;
-  width: 75%;
+}
+.section-custom-slide-show .slideshow__text-wrapper.banner__content--left.page-width .slideshow__text {
+  padding: 0 5rem;
 }
 .section-custom-slide-show .slideshow__text-wrapper.banner__content--left.small-page-width {
   /* padding-left: 14rem; */
   padding: 0;
   width: 60%;
+  margin: 0 auto;
 }
 
 @media screen and (min-width: 750px) {

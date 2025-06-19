@@ -12,6 +12,11 @@
   padding: 0;
   width: 75%;
 }
+.section-custom-slide-show .slideshow__text-wrapper.banner__content--left.small-page-width {
+  /* padding-left: 14rem; */
+  padding: 0;
+  width: 60%;
+}
 
 @media screen and (min-width: 750px) {
 

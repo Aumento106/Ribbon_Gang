@@ -38,9 +38,6 @@
         padding-left: 3rem;
         padding-right: 3rem;
     }
-    .section-custom-slide-show .slideshow__text-wrapper.banner__content--left {
-      padding-left: 20px;
-    }
 }
 
 @media screen and (min-width: 1025px) {
@@ -91,6 +88,9 @@
 @media screen and (max-width: 989px) {
   .section-custom-slideshow-slider .slideshow.swiper.banner {
     padding: 0 1.5rem;
+  }
+  .section-custom-slide-show .slideshow__text-wrapper.banner__content--left {
+    padding-left: 20px;
   }
 }
 

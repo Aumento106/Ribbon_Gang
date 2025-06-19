@@ -27,6 +27,10 @@
   margin: 0 auto;
   justify-content: flex-end;
 }
+.section-custom-slide-show .slideshow__text-wrapper.banner__content--center.small-page-width {
+  margin: 0 auto;
+  justify-content: center;
+}
 
 @media screen and (min-width: 750px) {
 

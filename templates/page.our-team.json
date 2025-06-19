@@ -56,16 +56,6 @@
         "padding_bottom": 0
       }
     },
-    "section_breadcrumb_4rc6Md": {
-      "type": "section-breadcrumb",
-      "settings": {
-        "color_scheme": "",
-        "padding_top": 30,
-        "padding_bottom": 30,
-        "mobile_padding_top": 30,
-        "mobile_padding_bottom": 30
-      }
-    },
     "rich_text_wTzENJ": {
       "type": "rich-text",
       "blocks": {
@@ -74,7 +64,8 @@
           "settings": {
             "heading": "Experts in storage. People first.",
             "custom_heading_size": 52,
-            "mobile_custom_heading_size": 28
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
           }
         },
         "text_kMYRNM": {
@@ -99,13 +90,23 @@
         "padding_bottom": 50
       }
     },
+    "section_breadcrumb_4rc6Md": {
+      "type": "section-breadcrumb",
+      "settings": {
+        "color_scheme": "",
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "mobile_padding_top": 30,
+        "mobile_padding_bottom": 30
+      }
+    },
     "team_GF978q": {
       "type": "team",
       "settings": {
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "box_color_scheme": "scheme-7bba877c-319e-4978-b41a-39cbc803dea8",
         "title": "",
-        "padding_top": 140,
+        "padding_top": 0,
         "padding_bottom": 100,
         "mobile_padding_top": 50,
         "mobile_padding_bottom": 50
@@ -120,6 +121,7 @@
         "heading": "<p>Product Catalogue</p>",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "description": "<p>Click here to view our latest product and services catalogue in a browser without downloading.</p>",
         "button_1_text": "View catalogue",
@@ -137,8 +139,8 @@
   "order": [
     "main",
     "custom_page_banner_dHyyAj",
-    "section_breadcrumb_4rc6Md",
     "rich_text_wTzENJ",
+    "section_breadcrumb_4rc6Md",
     "team_GF978q",
     "product_catalog_TGjhw8"
   ]

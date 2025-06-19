@@ -252,7 +252,7 @@
               {% endcomment %}
             {%- endif -%}
           </div>
-          <div class="slideshow__text-wrapper banner__content banner__content--{{ block.settings.text_alignment }} page-width{% if block.settings.show_text_box == false %} banner--desktop-transparent{% endif %}{% if settings.animations_reveal_on_scroll and forloop.index == 1 %} scroll-trigger animate--slide-in{% endif %}">
+          <div class="slideshow__text-wrapper banner__content banner__content--{{ block.settings.text_alignment }} {{ section.settings.content_on_page_width }} {% if block.settings.show_text_box == false %} banner--desktop-transparent{% endif %}{% if settings.animations_reveal_on_scroll and forloop.index == 1 %} scroll-trigger animate--slide-in{% endif %}">
             <div class="slideshow__text banner__box {% if block.settings.enable_text_align_center %} center {% endif %} content-container content-container--full-width-mobile slideshow__text--{{ block.settings.text_alignment }} slideshow__text-mobile--{{ block.settings.text_alignment_mobile }}">
               {%- if block.settings.heading != blank -%}
                 <h2 class="banner__heading inline-richtext heading--{{ block.id }}">
@@ -318,6 +318,26 @@
       ],
       "default": "full_bleed",
       "label": "t:sections.slideshow.settings.layout.label"
+    },
+    {
+    	"type": "select",
+    	"id": "content_on_page_width",
+    	"options": [
+    	  {
+    		"value": "page-width",
+    		"label": "Page Width"
+    	  },
+    	  {
+    		"value": "small-page-width",
+    		"label": "Small Page Width"
+    	  },
+    	  {
+    		"value": "full-width",
+    		"label": "Full-width"
+    	  }
+    	],
+    	"default": "page-width",
+    	"label": "Enable Content On Page-Width"
     },
     {
       "type": "select",

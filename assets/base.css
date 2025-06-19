@@ -296,7 +296,7 @@ h5,
   letter-spacing: var(--heading-letterspacing) !important;
   font-weight: var(--heading-font_weight) !important;
 }
-body, p, span, ul, li, b, strong, blockquote, ol {
+body, p, span, ul, li, b, blockquote, ol {
   letter-spacing: var(--body-letterspacing) !important;
   font-weight: var(--body-font-weight) !important;
 }

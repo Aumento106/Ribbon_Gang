@@ -645,7 +645,7 @@
           "settings": {
             "image": "shopify://shop_images/Home_7.png",
             "tag_text": "New innovation!",
-            "custom_tag_font_weight": "400",
+            "custom_tag_font_weight": "600",
             "tag_text_color": "#ffffff",
             "logo_image": "shopify://shop_images/Steriloop_logo.svg",
             "heading": "<p>Silicon mats</p>",
@@ -669,7 +669,7 @@
           "settings": {
             "image": "shopify://shop_images/Home_9.png",
             "tag_text": "Popular!",
-            "custom_tag_font_weight": "400",
+            "custom_tag_font_weight": "600",
             "tag_text_color": "#ffffff",
             "logo_image": "shopify://shop_images/Steriloop_logo.svg",
             "heading": "<p>Suture racks</p>",
@@ -693,7 +693,7 @@
           "settings": {
             "image": "shopify://shop_images/Home_6.png",
             "tag_text": "Best seller!",
-            "custom_tag_font_weight": "400",
+            "custom_tag_font_weight": "600",
             "tag_text_color": "#ffffff",
             "logo_image": "shopify://shop_images/Steriloop_logo.svg",
             "heading": "<p>Basket dividers</p>",

@@ -14,7 +14,9 @@
 .section-custom-slide-show .slideshow__text-wrapper.banner__content--left.page-width .slideshow__text {
   padding: 0 5rem;
 }
-.section-custom-slide-show .slideshow__text-wrapper.banner__content--left.small-page-width {
+.section-custom-slide-show .slideshow__text-wrapper.banner__content--left.small-page-width,
+.section-custom-slide-show .slideshow__text-wrapper.banner__content--right.small-page-width,
+.section-custom-slide-show .slideshow__text-wrapper.banner__content--center.small-page-width {
   /* padding-left: 14rem; */
   padding: 0;
   width: 60%;

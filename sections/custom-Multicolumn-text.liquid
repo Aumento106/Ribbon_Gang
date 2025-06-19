@@ -20,7 +20,7 @@
       font-weight: {{ section.settings.custom_font_weight }} !important;
     {% endif %}
   }
-  .section-{{ section.id }}-padding .multicolumn-box__item .multicolumn-box-description {
+  .section-{{ section.id }}-padding .multicolumn-box__item .multicolumn-section-subtitle.sub--{{ block.title }} {
     font-weight: {{ section.settings.description_custom_font_weight }} !important;
   }
 
@@ -95,7 +95,7 @@
         <div class="title">
           {{ section.settings.title }}
         </div>
-         <div class="multicolumn-section-subtitle subtitle">{{ section.settings.descr }}</div>
+         <div class="multicolumn-section-subtitle sub--{{ block.title }} subtitle">{{ section.settings.descr }}</div>
       </div>
     {%- endif -%}
 

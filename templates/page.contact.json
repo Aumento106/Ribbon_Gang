@@ -49,16 +49,6 @@
         "padding_bottom": 0
       }
     },
-    "section_breadcrumb_TEYBf3": {
-      "type": "section-breadcrumb",
-      "settings": {
-        "color_scheme": "",
-        "padding_top": 30,
-        "padding_bottom": 30,
-        "mobile_padding_top": 30,
-        "mobile_padding_bottom": 30
-      }
-    },
     "form": {
       "type": "contact-form",
       "disabled": true,
@@ -78,7 +68,8 @@
           "settings": {
             "heading": "Contact us",
             "custom_heading_size": 52,
-            "mobile_custom_heading_size": 28
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
           }
         },
         "text_hwy9gg": {
@@ -109,6 +100,16 @@
         "section_border": false,
         "padding_top": 50,
         "padding_bottom": 50
+      }
+    },
+    "section_breadcrumb_TEYBf3": {
+      "type": "section-breadcrumb",
+      "settings": {
+        "color_scheme": "",
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "mobile_padding_top": 30,
+        "mobile_padding_bottom": 30
       }
     },
     "get_in_touch_irHLdw": {
@@ -228,7 +229,8 @@
           "settings": {
             "heading": "RMA request",
             "custom_heading_size": 52,
-            "mobile_custom_heading_size": 28
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
           }
         },
         "text_EP4mQR": {
@@ -279,6 +281,7 @@
         "heading": "<p>BIM Files</p>",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "description": "<p>BIM files are available for download on request. To protect specification integrity, access is granted to trusted partners via password or tokenised link. Please contact us to request access and include your project or firm details for review.</p>",
         "button_1_text": "BIM File Request",
@@ -301,6 +304,7 @@
         "heading": "<p>Product Catalogue</p>",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "description": "<p>Click here to view our latest product and services catalogue in a browser without downloading.</p>",
         "button_1_text": "View catalogue",
@@ -318,9 +322,9 @@
   "order": [
     "main",
     "custom_page_banner_wUjFrR",
-    "section_breadcrumb_TEYBf3",
     "form",
     "rich_text_CeDtL6",
+    "section_breadcrumb_TEYBf3",
     "get_in_touch_irHLdw",
     "rich_text_Tkh3tD",
     "product_catalog_3gEWDy",

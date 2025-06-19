@@ -12,7 +12,7 @@
 .swiper.custom-slider-show .swiper-pagination:empty {
   display: none;
 }
-..banner__media img {
+.banner__media img {
   width: 100%;
   height: 100%;
 }

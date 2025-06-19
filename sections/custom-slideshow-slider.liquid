@@ -278,9 +278,9 @@
 {%- endif -%}
 
 <script>
-  setTimeout(function(){
-     $('.slideshow__text-wrapper').hide();
-  }, 2000);
+ setTimeout(function() {
+    document.getElementById('delayed-content').style.display = 'block';
+  }, 3000);
 </script>
 
 {% schema %}

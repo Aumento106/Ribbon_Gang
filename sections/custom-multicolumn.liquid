@@ -16,10 +16,10 @@
   }
   .multi-column-box-with-image.section-{{ section.id }} .sec-head .title > * {
     font-size: {{ section.settings.custom_heading_size }}px;
-    {% if block.settings.custom_font_weight == 'none' %}
+    {% if section.settings.custom_font_weight == 'none' %}
       font-weight: var(--subheading-font_weight) !important;
     {% else %}
-      font-weight: {{ block.settings.custom_font_weight }} !important;
+      font-weight: {{ section.settings.custom_font_weight }} !important;
     {% endif %}
   }
   

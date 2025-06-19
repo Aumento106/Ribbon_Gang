@@ -556,6 +556,7 @@
           "settings": {
             "image": "shopify://shop_images/Concept_13.png",
             "title": "Clean utility",
+            "block_custom_font_weight": "600",
             "text": "<p>Medications room</p>",
             "text-v": "",
             "button-text": "Explore room",
@@ -567,6 +568,7 @@
           "settings": {
             "image": "shopify://shop_images/Concept_13.png",
             "title": "CSSD",
+            "block_custom_font_weight": "400",
             "text": "<p>Theatre store</p>",
             "text-v": "",
             "button-text": "Explore room",
@@ -578,6 +580,7 @@
           "settings": {
             "image": "shopify://shop_images/Concept_13.png",
             "title": "Pharmacy",
+            "block_custom_font_weight": "400",
             "text": "<p>Dispensary</p>",
             "text-v": "",
             "button-text": "Explore room",
@@ -1253,6 +1256,7 @@
           "settings": {
             "image": "shopify://shop_images/2-grid_Concept_13.png",
             "title": "Shelving, baskets & pharmacy drawers",
+            "block_custom_font_weight": "400",
             "text": "",
             "text-v": "",
             "button-text": "Shop for shelving, baskets etc",
@@ -1264,6 +1268,7 @@
           "settings": {
             "image": "shopify://shop_images/2-grid_Concept_13.png",
             "title": "Benching and workstations",
+            "block_custom_font_weight": "400",
             "text": "",
             "text-v": "",
             "button-text": "Shop for benching etc",
@@ -1275,6 +1280,7 @@
           "settings": {
             "image": "shopify://shop_images/2-grid_Concept_13.png",
             "title": "Trolleys, carts and mobile units",
+            "block_custom_font_weight": "400",
             "text": "",
             "text-v": "",
             "button-text": "Shop for trolleys etc",
@@ -1286,6 +1292,7 @@
           "settings": {
             "image": "shopify://shop_images/2-grid_Concept_13.png",
             "title": "Accessories and colour coding",
+            "block_custom_font_weight": "400",
             "text": "",
             "text-v": "",
             "button-text": "Shop for accessories etc",

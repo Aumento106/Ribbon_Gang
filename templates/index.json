@@ -568,7 +568,7 @@
           "settings": {
             "image": "shopify://shop_images/Concept_13.png",
             "title": "CSSD",
-            "block_custom_font_weight": "400",
+            "block_custom_font_weight": "600",
             "text": "<p>Theatre store</p>",
             "text-v": "",
             "button-text": "Explore room",
@@ -580,7 +580,7 @@
           "settings": {
             "image": "shopify://shop_images/Concept_13.png",
             "title": "Pharmacy",
-            "block_custom_font_weight": "400",
+            "block_custom_font_weight": "600",
             "text": "<p>Dispensary</p>",
             "text-v": "",
             "button-text": "Explore room",

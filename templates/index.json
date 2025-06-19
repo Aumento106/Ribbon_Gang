@@ -113,7 +113,7 @@
       ],
       "settings": {
         "layout": "full_bleed",
-        "content_on_page_width": "small-page-width",
+        "content_on_page_width": "full-width",
         "slide_height": "medium",
         "image_behavior": "none",
         "accessibility_info": "Slideshow about our brand",

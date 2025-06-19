@@ -14,10 +14,10 @@
   }
   .section-{{ section.id }}-padding .title > * {
     font-size: {{ section.settings.custom_heading_size }}px;
-    {% if sectio.settings.custom_font_weight == 'none' %}
+    {% if section.settings.custom_font_weight == 'none' %}
       font-weight: var(--subheading-font_weight) !important;
     {% else %}
-      font-weight: {{ sectio.settings.custom_font_weight }} !important;
+      font-weight: {{ section.settings.custom_font_weight }} !important;
     {% endif %}
   }
   @media screen and (max-width: 1366px) {

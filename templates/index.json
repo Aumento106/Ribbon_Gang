@@ -317,6 +317,7 @@
         "remove_bg": true,
         "page_container": "full-width",
         "image": "shopify://shop_images/Home_23.png",
+        "image_mobile": "shopify://shop_images/sterirack_workstations_concept-1_dimensions_1100px-819x1024.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",

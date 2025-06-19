@@ -1058,7 +1058,7 @@
         "title_alignment": "center",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
-        "custom_font_weight": "600",
+        "custom_font_weight": "400",
         "layout": "image_first",
         "content_layout": "no-overlap",
         "height": "extra-small",

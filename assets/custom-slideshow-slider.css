@@ -5,6 +5,7 @@
 .section-custom-slide-show .slideshow__slide .banner__content--left .banner__box.center .banner__buttons {
   margin: 0 auto;
   right: 0;
+  justify-content: center;
 }
 @media screen and (min-width: 750px) {
 

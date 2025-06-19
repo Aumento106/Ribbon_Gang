@@ -625,6 +625,9 @@
       "settings": {
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "full_width": false,
+        "news_custom_heading_size": 52,
+        "news_mobile_custom_heading_size": 28,
+        "news_font_weight": "400",
         "padding_top": 50,
         "padding_bottom": 50,
         "margin_top": 40,
@@ -1031,7 +1034,7 @@
         "title_alignment": "center",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
-        "custom_font_weight": "400",
+        "custom_font_weight": "600",
         "layout": "image_first",
         "content_layout": "no-overlap",
         "height": "extra-small",
@@ -1057,7 +1060,7 @@
             "heading": "STERIRACK® overhead rail units",
             "custom_heading_size": 52,
             "mobile_custom_heading_size": 28,
-            "custom_font_weight": "400",
+            "custom_font_weight": "600",
             "border_radius": 0
           }
         },
@@ -1305,7 +1308,7 @@
         "button_url": "shopify://collections",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
-        "custom_font_weight": "400",
+        "custom_font_weight": "600",
         "title_alignment": "center",
         "color_scheme": "scheme-7bba877c-319e-4978-b41a-39cbc803dea8",
         "columns_desktop": "2",
@@ -1902,6 +1905,9 @@
       "settings": {
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "full_width": false,
+        "news_custom_heading_size": 52,
+        "news_mobile_custom_heading_size": 28,
+        "news_font_weight": "600",
         "padding_top": 50,
         "padding_bottom": 100,
         "margin_top": 40,

@@ -25,7 +25,6 @@
     "custom_heading_size": 46,
     "font_weight": "600",
     "news_heading": "<p>Make space for care®. Contact a consultant today.</p>",
-    "news_font_weight": "600",
     "news_title_color": "#424242",
     "news_subheading_color": "#424242",
     "type_header_font": "work_sans_n6",
@@ -164,6 +163,7 @@
       "standard-mesh-baskets-copy",
       "standard-mesh-baskets"
     ],
+    "news_font_weight": "600",
     "show_cart_note": false,
     "inputs_shadow_vertical_offset": 4,
     "drawer_comp_product": "sterirack®-transport-case-carts",

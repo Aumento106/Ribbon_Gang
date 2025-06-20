@@ -137,7 +137,7 @@
 -%}
 
 <div class="image-with-text-slider-wrapper section-{{ section.id }} section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}">
-  <div class="{% if section.settings.show_half_slide == false %}{% endif %}">
+  <div class="{% if section.settings.show_half_slide == false %}page-width{% endif %}">
     {%- if section.settings.heading != blank -%}
       <div class="sec-head page-width section-title-alignment-{{ section.settings.title_alignment }} title-wrapper-with-link title-wrapper--no-top-margin">
         <h2 class="sec-title title">

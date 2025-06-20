@@ -20,7 +20,7 @@
             "heading": "Your trusted partner in clinical storage solutions",
             "custom_heading_size": 45,
             "mobile_custom_heading_size": 28,
-            "custom_font_weight": "400",
+            "custom_font_weight": "600",
             "subheading": "Ollie: heading here",
             "button_label": "Shop now",
             "link": "shopify://collections",
@@ -130,7 +130,7 @@
             "heading": "Clean utilities and medication rooms",
             "custom_heading_size": 45,
             "mobile_custom_heading_size": 28,
-            "custom_font_weight": "400",
+            "custom_font_weight": "600",
             "border_radius": 0
           }
         },
@@ -344,7 +344,7 @@
             "heading": "CSSD and theatre stores",
             "custom_heading_size": 45,
             "mobile_custom_heading_size": 28,
-            "custom_font_weight": "400",
+            "custom_font_weight": "600",
             "border_radius": 0
           }
         },
@@ -603,7 +603,7 @@
         "button_url": "",
         "custom_heading_size": 45,
         "mobile_custom_heading_size": 28,
-        "custom_font_weight": "400",
+        "custom_font_weight": "600",
         "title_alignment": "center",
         "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
         "columns_desktop": "3",
@@ -1059,7 +1059,7 @@
         "title_alignment": "center",
         "custom_heading_size": 45,
         "mobile_custom_heading_size": 28,
-        "custom_font_weight": "400",
+        "custom_font_weight": "600",
         "layout": "image_first",
         "content_layout": "no-overlap",
         "height": "extra-small",
@@ -1085,7 +1085,7 @@
             "heading": "STERIRACK® overhead rail units",
             "custom_heading_size": 45,
             "mobile_custom_heading_size": 28,
-            "custom_font_weight": "400",
+            "custom_font_weight": "600",
             "border_radius": 0
           }
         },
@@ -1337,7 +1337,7 @@
         "button_url": "shopify://collections",
         "custom_heading_size": 45,
         "mobile_custom_heading_size": 28,
-        "custom_font_weight": "400",
+        "custom_font_weight": "600",
         "title_alignment": "center",
         "color_scheme": "scheme-7bba877c-319e-4978-b41a-39cbc803dea8",
         "columns_desktop": "2",

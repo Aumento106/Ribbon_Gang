@@ -6,6 +6,36 @@
     padding-top: {{ section.settings.padding_top | times: 0.55 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.55 | round: 0 }}px;
   }
+  {%- for block in section.blocks -%}
+    .product-brochure-box-content .title--{{ block.id }} {
+      font-size: {{ section.settings.custom_heading_size }}px;
+      {% if section.settings.custom_font_weight == 'none' %}
+        font-weight: var(--subheading-font_weight) !important;
+      {% else %}
+        font-weight: {{ section.settings.custom_font_weight }} !important;
+      {% endif %}
+    }
+    @media screen and (max-width: 1366px) {
+      .product-brochure-box-content .title--{{ block.id }} {
+        font-size: {{ section.settings.custom_heading_size | divided_by: 1.238 }}px;
+      }
+    }
+    @media screen and (max-width: 1199px) {
+      .product-brochure-box-content .title--{{ block.id }} {
+        font-size: {{ section.settings.custom_heading_size | divided_by: 1.3 }}px;
+      }
+    }
+    @media screen and (max-width: 989px) {
+      .product-brochure-box-content .title--{{ block.id }} {
+        font-size: {{ section.settings.custom_heading_size | divided_by: 1.52 }}px;
+      }
+    }
+    @media screen and (max-width: 749px) {
+      .product-brochure-box-content .title--{{ block.id }} {
+        font-size: {{ section.settings.mobile_custom_heading_size }}px;
+      }
+    }
+  {% endfor %}
 
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
@@ -40,7 +70,7 @@
                 {%- endif -%}
                 <div class="product-brochure-box-content">
                     {%- if block.settings.heading != blank -%}
-                        <h3 class="product-brochure-box-title title {{ section.settings.heading_size }}">
+                        <h3 class="product-brochure-box-title title title--{{ block.id }}">
                             {{ block.settings.heading }}
                         </h3>
                     {%- endif -%}
@@ -190,6 +220,44 @@
           "id": "heading",
           "default": "Heading",
           "label": "Heading"
+        },
+        {
+          "type": "range",
+          "id": "custom_heading_size",
+          "min": 20,
+          "max": 70,
+          "step": 1,
+          "default": 52,
+          "unit": "px",
+          "label": "Heading Size"
+        },
+        {
+          "type": "range",
+          "id": "mobile_custom_heading_size",
+          "min": 20,
+          "max": 40,
+          "step": 1,
+          "default": 28,
+          "unit": "px",
+          "label": "Mobile Heading Size"
+        },
+        {
+          "type": "select",
+          "id": "custom_font_weight",
+          "label": "Font Weight",
+          "default": "400",
+          "options": [
+            { "label": "Thin (100)", "value": "100" },
+            { "label": "Extra Light (200)", "value": "200" },
+            { "label": "Light (300)", "value": "300" },
+            { "label": "Regular (400)", "value": "400" },
+            { "label": "Medium (500)", "value": "500" },
+            { "label": "Semi Bold (600)", "value": "600" },
+            { "label": "Bold (700)", "value": "700" },
+            { "label": "Extra Bold (800)", "value": "800" },
+            { "label": "Black (900)", "value": "900" },
+            { "label": "None", "value": "none" }
+          ]
         },
         {
           "type": "richtext",

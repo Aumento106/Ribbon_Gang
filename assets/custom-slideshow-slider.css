@@ -112,6 +112,13 @@
   }
 }
 
+@media screen and (max-width: 1200px) {
+  .section-custom-slideshow-slider .slideshow__text-wrapper.banner__content .banner__box {
+    min-width: 39rem;
+    max-width: 39rem;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .section-custom-slideshow-slider .slideshow.swiper.banner {
     padding: 0 150px;

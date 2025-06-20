@@ -194,7 +194,7 @@
 
 .section-custom-slideshow-slider .slideshow.banner .slideshow__slide .slideshow__slide__inner-wrap {
     border-radius: 16px;
-    border-radius: 0px;
+    /* border-radius: 0px; */
     overflow: hidden;
     padding: 16px;
     border: 1px solid rgba(66, 66, 66, 1);
@@ -204,7 +204,7 @@
 
 .section-custom-slideshow-slider .slideshow__slide__inner {
     border-radius: 8px;
-    border-radius: 0px;
+    /* border-radius: 0px; */
     overflow: hidden;
     position: relative;
 }

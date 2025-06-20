@@ -61,10 +61,7 @@
           "settings": {
             "image": "shopify://shop_images/2025_Catalogue_image.jpg",
             "heading": "SpaceLogic product catalogue",
-            "custom_heading_size": 45,
-            "mobile_custom_heading_size": 28,
-            "custom_font_weight": "400",
-            "text": "<p>A complete guide to our storage solutions, featuring the industry-leading STERIRACK® system.</p>",
+            "text": "<p>A complete guide to our storage solutions, featuring the industry-leading STERIRACK® System.</p>",
             "btn_text": "View",
             "btn_link": "https://online.flippingbook.com/view/393434/",
             "button_style_secondary": false
@@ -76,9 +73,6 @@
           "settings": {
             "image": "shopify://shop_images/colour-coding-brochure-img.png",
             "heading": "SpaceLogic Colour Coding Brochure",
-            "custom_heading_size": 52,
-            "mobile_custom_heading_size": 28,
-            "custom_font_weight": "400",
             "text": "<p>Improve efficiency and patient care with our colour-coded storage solutions.</p>",
             "btn_text": "View brochure",
             "btn_link": "https://online.flippingbook.com/view/245421/",
@@ -91,9 +85,6 @@
           "settings": {
             "image": "shopify://shop_images/clean-utilities-brochure-img.png",
             "heading": "STERIRACK® Clean Utilities Presentation",
-            "custom_heading_size": 52,
-            "mobile_custom_heading_size": 28,
-            "custom_font_weight": "400",
             "text": "<p>Discover the perfect storage solution for Clean Utilities and Medication Rooms.</p>",
             "btn_text": "View brochure",
             "btn_link": "https://online.flippingbook.com/view/159525198/",
@@ -106,9 +97,6 @@
           "settings": {
             "image": "shopify://shop_images/glass-door-cart-brochure-img.png",
             "heading": "STERIRACK® Glass Door Carts Brochure",
-            "custom_heading_size": 52,
-            "mobile_custom_heading_size": 28,
-            "custom_font_weight": "400",
             "text": "<p>Customisable, high-quality storage carts designed for hospital use.</p>",
             "btn_text": "View brochure",
             "btn_link": "https://online.flippingbook.com/view/975476699/",
@@ -121,9 +109,6 @@
           "settings": {
             "image": "shopify://shop_images/transport-cart-brochure-img.png",
             "heading": "STERIRACK® Transport Carts Brochure",
-            "custom_heading_size": 52,
-            "mobile_custom_heading_size": 28,
-            "custom_font_weight": "400",
             "text": "<p>Sealed, dust-free transport carts for sterile instruments and supplies.</p>",
             "btn_text": "View brochure",
             "btn_link": "https://online.flippingbook.com/view/497002348/",
@@ -136,9 +121,6 @@
           "settings": {
             "image": "shopify://shop_images/first-responder-storage-brochure-img.png",
             "heading": "STERIRACK® First Responder Storage",
-            "custom_heading_size": 52,
-            "mobile_custom_heading_size": 28,
-            "custom_font_weight": "400",
             "text": "<p>The perfect solution for your facility, giving you options to configure exactly the way that suits your consumables and application. </p>",
             "btn_text": "View brochure",
             "btn_link": "https://online.flippingbook.com/view/30170711/",
@@ -151,9 +133,6 @@
           "settings": {
             "image": "shopify://shop_images/nexus-group-brochure-img.png",
             "heading": "STERIRACK® Nexus Group of Hospitals Presentation​",
-            "custom_heading_size": 52,
-            "mobile_custom_heading_size": 28,
-            "custom_font_weight": "400",
             "text": "<p>A presentation featuring a recent STERIRACK® installation at Orange Private Hospital, owned by Nexus Group of Hospitals.</p>",
             "btn_text": "View brochure",
             "btn_link": "https://online.flippingbook.com/view/490670925/",
@@ -166,9 +145,6 @@
           "settings": {
             "image": "shopify://shop_images/veterinary-brochure-img.png",
             "heading": "STERIRACK® Veterinary Storage Catalogue",
-            "custom_heading_size": 52,
-            "mobile_custom_heading_size": 28,
-            "custom_font_weight": "400",
             "text": "<p>STERIRACK® System is a clinical storage solution perfect for Veterinary, and meets standards for best practice and infection control. </p>",
             "btn_text": "View brochure",
             "btn_link": "https://online.flippingbook.com/view/345276725/",

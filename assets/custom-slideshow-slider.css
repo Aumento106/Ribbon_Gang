@@ -84,10 +84,10 @@
 }
 
 @media screen and (min-width: 1367px) {
-    .section-custom-slideshow-slider .slideshow__text-wrapper.banner__content .banner__box {
+    /* .section-custom-slideshow-slider .slideshow__text-wrapper.banner__content .banner__box {
         padding-left: 20.8rem;
         padding-right: 20.8rem;
-    }
+    } */
 
     .section-custom-slideshow-slider .banner--large:not(.banner--adapt),
     .section-custom-slideshow-slider .banner--large:not(.banner--adapt) .slideshow__slide,

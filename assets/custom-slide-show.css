@@ -82,6 +82,9 @@ slideshow-component .slideshow__slide.enable_side_image_main:before {
     margin-left: 12%!important;
     width: 40%!important;
   }
+  .section-custom-slide-show .slideshow__text-wrapper.banner__content .banner__buttons {
+    margin-top: 21% !important;
+  }
 }
 
 @media screen and (max-width: 989px) and (min-width: 900px) {

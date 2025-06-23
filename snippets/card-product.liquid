@@ -619,6 +619,16 @@
       </div>
     </div>
   </div>
+  {% if card_product.available %}
+  <a class="button button--primary" href="{{ enquire_now_link }}">
+  {{ enquire_now }}
+  </a>
+    {% else %}
+  <a class="button button--primary" href="{{ enquire_now_link }}">
+  {{ enquire_now }}
+  </a>
+
+    {% endif %}
 {%- else -%}
   {%- liquid
     assign ratio = 1

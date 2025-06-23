@@ -8,6 +8,7 @@
   justify-content: center;
   position: unset;
   transform: unset;
+  margin-top: 10px;
 }
 .section-custom-slide-show .slideshow__text-wrapper.banner__content--left.page-width {
   /* padding-left: 14rem; */

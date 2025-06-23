@@ -60,6 +60,9 @@
     .custom-image-banner .banner-text-con {
         padding: 15px;
     }
+    .custom-image-banner .banner__box .banner__text.subtitle {
+      font-size: 28px;
+    }
 }
 
 @media screen and (max-width: 749px) {

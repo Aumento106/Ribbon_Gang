@@ -61,6 +61,7 @@
             "heading": "STERIRACK® Standard Workstations",
             "custom_heading_size": 52,
             "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400",
             "heading_alignment": "center"
           }
         },
@@ -118,6 +119,7 @@
         "heading": "<p>Product Catalogue</p>",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "description": "<p>Click here to view our latest product and services catalogue in a browser without downloading.</p>",
         "button_1_text": "View catalogue",
@@ -214,6 +216,7 @@
         "title": "",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "image_ratio": "square",
         "columns_desktop": 3,
         "color_scheme": "",
@@ -313,7 +316,8 @@
           "settings": {
             "heading": "MEDIBIN™ Colored Label HoldersAvailable in a range of 13 vibrant colors",
             "custom_heading_size": 39,
-            "mobile_custom_heading_size": 28
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
           }
         }
       },
@@ -379,6 +383,7 @@
           "settings": {
             "image": "shopify://shop_images/Wollongong-1-300x225.jpg",
             "title": "",
+            "block_custom_font_weight": "400",
             "text": "",
             "text-v": "",
             "button-text": "",
@@ -390,6 +395,7 @@
           "settings": {
             "image": "shopify://shop_images/Workstation-3-300x300.jpg",
             "title": "",
+            "block_custom_font_weight": "400",
             "text": "",
             "text-v": "",
             "button-text": "",
@@ -401,6 +407,7 @@
           "settings": {
             "image": "shopify://shop_images/Sydney-1-300x225.jpg",
             "title": "",
+            "block_custom_font_weight": "400",
             "text": "",
             "text-v": "",
             "button-text": "",
@@ -412,6 +419,7 @@
           "settings": {
             "image": "shopify://shop_images/Wollongong-2.jpg",
             "title": "",
+            "block_custom_font_weight": "400",
             "text": "",
             "text-v": "",
             "button-text": "",
@@ -423,6 +431,7 @@
           "settings": {
             "image": "shopify://shop_images/Workstation-2-300x300.jpg",
             "title": "",
+            "block_custom_font_weight": "400",
             "text": "",
             "text-v": "",
             "button-text": "",
@@ -434,6 +443,7 @@
           "settings": {
             "image": "shopify://shop_images/Wagga-1-300x225.jpg",
             "title": "",
+            "block_custom_font_weight": "400",
             "text": "",
             "text-v": "",
             "button-text": "",
@@ -445,6 +455,7 @@
           "settings": {
             "image": "shopify://shop_images/Leeton-1-300x300.jpg",
             "title": "",
+            "block_custom_font_weight": "400",
             "text": "",
             "text-v": "",
             "button-text": "",
@@ -456,6 +467,7 @@
           "settings": {
             "image": "shopify://shop_images/Yass-1-300x225.jpg",
             "title": "",
+            "block_custom_font_weight": "400",
             "text": "",
             "text-v": "",
             "button-text": "",
@@ -479,12 +491,14 @@
         "descr": "",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
+        "description_custom_font_weight": "400",
         "title_alignment": "center",
         "title_color": "#ffffff",
         "subheading_color": "#ffffff",
         "color_scheme": "",
         "heading_color_scheme": "",
-        "columns_desktop": "3",
+        "columns_desktop": "4",
         "box_shadow": true,
         "box_color_scheme": "",
         "padding_top": 36,
@@ -524,6 +538,7 @@
         "title": "<h2>VIDEO - STERIRACK® Workstation</h2>",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "title_alignment": "center",
         "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
         "columns_desktop": "2",
@@ -541,7 +556,8 @@
           "settings": {
             "heading": "STERIRACK® Workstations – Concept 1",
             "custom_heading_size": 52,
-            "mobile_custom_heading_size": 28
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
           }
         },
         "text_MfFXrQ": {
@@ -592,6 +608,7 @@
         "heading": "",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "desktop_layout": "left",
         "mobile_layout": "column",
         "card_styles": "product-card-wrapper",
@@ -608,7 +625,8 @@
           "settings": {
             "heading": "STERIRACK® Workstations – Concept 2",
             "custom_heading_size": 52,
-            "mobile_custom_heading_size": 28
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
           }
         },
         "text_V4jP4r": {
@@ -659,6 +677,7 @@
         "heading": "",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "desktop_layout": "left",
         "mobile_layout": "column",
         "card_styles": "product-card-wrapper",
@@ -675,7 +694,8 @@
           "settings": {
             "heading": "TERIRACK® Workstations – Concept 3",
             "custom_heading_size": 52,
-            "mobile_custom_heading_size": 28
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
           }
         },
         "text_8iqnW7": {
@@ -726,6 +746,7 @@
         "heading": "",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "desktop_layout": "left",
         "mobile_layout": "column",
         "card_styles": "product-card-wrapper",
@@ -742,7 +763,8 @@
           "settings": {
             "heading": "STERIRACK® Workstations – Concept 4",
             "custom_heading_size": 52,
-            "mobile_custom_heading_size": 28
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
           }
         },
         "text_a7RWdK": {
@@ -794,6 +816,7 @@
         "heading": "",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "desktop_layout": "left",
         "mobile_layout": "column",
         "card_styles": "product-card-wrapper",
@@ -810,7 +833,8 @@
           "settings": {
             "heading": "STERIRACK® Workstations - Build your own",
             "custom_heading_size": 52,
-            "mobile_custom_heading_size": 28
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
           }
         }
       },
@@ -863,7 +887,8 @@
           "settings": {
             "heading": "Step 1. Select your bench configuration",
             "custom_heading_size": 52,
-            "mobile_custom_heading_size": 28
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
           }
         }
       },

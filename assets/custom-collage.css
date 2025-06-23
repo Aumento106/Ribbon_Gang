@@ -128,9 +128,6 @@ body.popup-overflow-hidden::before {
   border-radius: 50%;
   z-index: 1111;
 }
-.custom-multicolumn-with-text .multi-column-box-with-image .multicolumn-box .grid--4-col-desktop.item-box-shadow {
-  gap: 0;
-}
 .custom-multicolumn-with-text .multi-column-box-with-image .multicolumn-box .grid--4-col-desktop.item-box-shadow .grid__item {
   padding: 0;
 }

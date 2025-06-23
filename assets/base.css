@@ -264,6 +264,12 @@ h3 sup,
   position: relative;
   top: -6px;
 }
+h2 sup,
+.h2 sup {
+  font-size: 18px !important;
+  position: relative;
+  top: -6px;
+}
 .subtitle,
 .subtitle > * {
   font-weight: var(--subheading-font_weight) !important;

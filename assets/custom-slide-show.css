@@ -77,7 +77,7 @@ slideshow-component .slideshow__slide.enable_side_image_main:before {
 @media screen and (max-width: 1200px) {
   .section-custom-slide-show .slideshow__text-wrapper.banner__content {
     margin-left: 10%!important;
-    width: 40%;
+    width: 40% !important;
   }
 }
 

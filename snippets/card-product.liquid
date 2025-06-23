@@ -620,13 +620,17 @@
     </div>
   </div>
   {% if card_product.available %}
+    {% if shop_now_link != blank %}
   <a class="button button--primary" href="{{ shop_now_link }}">
   {{ shop_now_button }}
   </a>
+      {% endif %}
     {% else %}
+    {% if enquire_now_link != blank %}
   <a class="button button--primary" href="{{ enquire_now_link }}">
   {{ enquire_now }}
   </a>
+      {% endif %}
 
     {% endif %}
 {%- else -%}

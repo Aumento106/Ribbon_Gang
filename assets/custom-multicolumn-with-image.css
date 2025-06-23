@@ -130,6 +130,9 @@
         min-height: 580px;
         padding: 30px 24px;
     }
+    .custom-multicolumn-with-image .section-sub-title.subtitle {
+      font-size: 28px;
+    }
 }
 
 @media screen and (max-width: 1199px) {

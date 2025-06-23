@@ -3239,7 +3239,7 @@ ul.header__submenu li ul li a{
   gap: 15px;
 }
 .main-product-categories .collection-list .collection-list__item .card .card__heading {
-  font-weight: 600;
+  font-weight: 600 !important;
 }
 /* .main-product-categories .collection-list .collection-list__item .card .card__inner {
   position: absolute;

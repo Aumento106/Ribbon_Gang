@@ -1,21 +1,18 @@
 .custom-multicolumn-with-text .sec-head .title.h1 {
-    font-size: calc(var(--font-heading-scale)* 4.8rem);
+  font-size: calc(var(--font-heading-scale)* 4.8rem);
 }
-
 .custom-multicolumn-with-text .multicolumn-box .multicolumn-section-subtitle.subtitle {
   font-size: 32px;
   font-weight: 400;
   margin-top: 1.2rem;
   line-height: normal;
 }
-
 .custom-multicolumn-with-text .multicolumn-box .grid__item {
   padding: 24px;
   border: 1px solid rgba(255, 255, 255, 1);
   border-radius: 16px;
   /* border-radius: 0px; */
 }
-
 .custom-multicolumn-with-text .multi-column-box-with-image .multicolumn-box__item {
   padding: 24px 24px 40px;
   text-align: center;
@@ -26,11 +23,9 @@
   justify-content: space-between;
   align-items: center;
 }
-
 .custom-multicolumn-with-text .multi-column-box-with-image .multicolumn-box .subtitle {
   font-weight: 600;
 }
-
 .custom-multicolumn-with-text .multi-column-box-with-image .multicolumn-box-description {
   padding: 0 13px 0 0;
   margin: 0 0 2.9rem;
@@ -41,13 +36,15 @@
   display: block;
 }
 .custom-multicolumn-with-text .multi-column-box-with-image .multicolumn-box-description ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
-
 .custom-multicolumn-with-text .multi-column-box-with-image .multicolumn-box-description li:not(:last-child) {
-    margin: 0 0 1.6rem;
+  margin: 0 0 1.6rem;
+}
+.multi_box_image.custom-multicolumn-with-text .multi-column-box-with-image .item-box-shadow .grid__item {
+  padding: 0;
 }
 
 .custom-multicolumn-with-text .multi-column-box-with-image .multicolumn-box-description ul li::before {

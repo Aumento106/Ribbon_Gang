@@ -621,7 +621,7 @@
   </div>
   {% if card_product.available %}
     {% if shop_now_link != blank %}
-  <a class="button button--primary" href="{{ shop_now_link }}">
+  <a class="button button--primary" href="{{ card_product.url }}">
   {{ shop_now_button }}
   </a>
       {% endif %}

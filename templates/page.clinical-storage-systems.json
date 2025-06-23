@@ -17,7 +17,8 @@
           "settings": {
             "heading": "{{ page.title }}",
             "custom_heading_size": 52,
-            "mobile_custom_heading_size": 28
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
           }
         },
         "text_7xmpEL": {
@@ -70,6 +71,7 @@
         "heading": "<p>Product Catalogue</p>",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "description": "<p>Click here to view our latest product and services catalogue in a browser without downloading.</p>",
         "button_1_text": "View catalogue",
@@ -100,7 +102,7 @@
             "link_1_text": "View full STERIRACK® range",
             "video_1_url": "shopify://pages/sterirack-system",
             "link_2_text": "Watch system walkthrough video",
-            "video_2_url": "shopify://pages/sterirack-system",
+            "video_2_url": "https://cdn.shopify.com/videos/c/o/v/ed541e55ef2348068968bb8f7609a7d7.mp4",
             "button_card_text": "",
             "redirection_link": ""
           }
@@ -175,6 +177,7 @@
         "title": "",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "image_ratio": "square",
         "columns_desktop": 2,
         "color_scheme": "",
@@ -193,7 +196,8 @@
           "settings": {
             "heading": "Need help choosing?",
             "custom_heading_size": 52,
-            "mobile_custom_heading_size": 28
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
           }
         },
         "caption_7ELfmh": {
@@ -276,6 +280,7 @@
         "title": "",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
@@ -299,7 +304,8 @@
           "settings": {
             "heading": "Browse by system or product category",
             "custom_heading_size": 52,
-            "mobile_custom_heading_size": 28
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
           }
         },
         "text_WpRpHU": {
@@ -341,7 +347,8 @@
           "settings": {
             "heading": "Not sure where to begin? We’re here to help",
             "custom_heading_size": 52,
-            "mobile_custom_heading_size": 28
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
           }
         },
         "text_tggAzB": {

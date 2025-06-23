@@ -197,7 +197,7 @@
             "heading": "Need help choosing?",
             "custom_heading_size": 52,
             "mobile_custom_heading_size": 28,
-            "custom_font_weight": "400"
+            "custom_font_weight": "600"
           }
         },
         "caption_7ELfmh": {
@@ -246,7 +246,7 @@
         "column_EwmAWR": {
           "type": "column",
           "settings": {
-            "title": "Procurement manager",
+            "title": "<strong>Procurement manager</strong>",
             "text": "<p><a href=\"/collections/all\" title=\"All products\"> <span style=\"text-decoration:underline\">View costing, compliance & supplier info</span></a><br/><br/></p><p>See pricing transparency, compliance standards, and distributor options.</p>",
             "link_label": "",
             "link": ""
@@ -255,7 +255,7 @@
         "column_6zTgRQ": {
           "type": "column",
           "settings": {
-            "title": "Clinical user",
+            "title": "<strong>Clinical user</strong>",
             "text": "<p><a href=\"/collections/all\" title=\"All products\"> <span style=\"text-decoration:underline\">Tour our systems in action</span></a><br/><br/></p><p>Watch short system walk-throughs and see how they’re used day-to-day.</p>",
             "link_label": "",
             "link": ""
@@ -264,7 +264,7 @@
         "column_K8Kwg3": {
           "type": "column",
           "settings": {
-            "title": "Facility planner / project manager",
+            "title": "<strong>Facility planner / project manager</strong>",
             "text": "<p><a href=\"/collections/all\" title=\"All products\"> <span style=\"text-decoration:underline\">Book a design consultation</span></a><br/><br/></p><p>Work with our team to design a solution tailored to your build or upgrade.</p>",
             "link_label": "",
             "link": ""
@@ -305,7 +305,7 @@
             "heading": "Browse by system or product category",
             "custom_heading_size": 52,
             "mobile_custom_heading_size": 28,
-            "custom_font_weight": "400"
+            "custom_font_weight": "600"
           }
         },
         "text_WpRpHU": {
@@ -348,7 +348,7 @@
             "heading": "Not sure where to begin? We’re here to help",
             "custom_heading_size": 52,
             "mobile_custom_heading_size": 28,
-            "custom_font_weight": "400"
+            "custom_font_weight": "600"
           }
         },
         "text_tggAzB": {

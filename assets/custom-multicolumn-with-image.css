@@ -133,6 +133,9 @@
     .custom-multicolumn-with-image .section-sub-title.subtitle {
       font-size: 28px;
     }
+    .custom-multicolumn-with-image .multicolumn-box-description.subtitle {
+      font-size: 28px;
+    }
 }
 
 @media screen and (max-width: 1199px) {

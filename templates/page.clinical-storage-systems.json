@@ -18,7 +18,7 @@
             "heading": "{{ page.title }}",
             "custom_heading_size": 52,
             "mobile_custom_heading_size": 28,
-            "custom_font_weight": "400"
+            "custom_font_weight": "600"
           }
         },
         "text_7xmpEL": {

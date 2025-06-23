@@ -94,6 +94,12 @@ slideshow-component .slideshow__slide.enable_side_image_main:before {
     }
 }
 
+@media screen and (max-width: 900px) {
+  .section-custom-slide-show .slideshow__text-wrapper.banner__content {
+    width: 100%!important;
+  }
+}
+
 @media screen and (max-width: 749px) {
   slideshow-component .slideshow__slide.enable_side_image_main:after {
     width: 100px;

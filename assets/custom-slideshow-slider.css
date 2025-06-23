@@ -6,6 +6,8 @@
   margin: 0 auto;
   right: 0;
   justify-content: center;
+  position: unset;
+  transform: unset;
 }
 .section-custom-slide-show .slideshow__text-wrapper.banner__content--left.page-width {
   /* padding-left: 14rem; */

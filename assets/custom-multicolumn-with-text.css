@@ -76,6 +76,9 @@
     .custom-multicolumn-with-text .multicolumn-box .grid__item {
         padding: 16px;
     }
+    .custom-multicolumn-with-text .multicolumn-box .multicolumn-section-subtitle.subtitle {
+      font-size: 
+    }
 }
 
 @media screen and (max-width: 1199px) {

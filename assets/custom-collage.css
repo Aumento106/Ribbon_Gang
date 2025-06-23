@@ -1,28 +1,25 @@
 .Custom-Collage .collage-card.product-card-wrapper {
-    --border-radius: 24px;
-    border-color: #BBBBBB;
+  --border-radius: 24px;
+  border-color: #BBBBBB;
 }
-
 .Custom-Collage .collage__item {
-    cursor: pointer;
+  cursor: pointer;
 }
-
 .project-popup-image-slider {
-    border-radius: 16px;
+  border-radius: 16px;
 }
-
 .project-popup-image-slider.swiper .swiper-pagination {
-    border-radius: 0;
-    border: 0;
-    background: transparent;
-    position: static;
-    transform: unset;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-    margin: 0;
-    gap: 30px;
+  border-radius: 0;
+  border: 0;
+  background: transparent;
+  position: static;
+  transform: unset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  gap: 30px;
 }
 
 .project-popup-image-slider.swiper .swiper-pagination.swiper-pagination-bullets .swiper-pagination-bullet {
@@ -36,11 +33,12 @@
 }
 
 .project-popup-image-slider.swiper .swiper-pagination-wrapper {
-    display: flex;
-    justify-content: center;
-    gap: 32px;
-    align-items: center;
-    margin: 0 0 30px;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  align-items: center;
+  margin: 0 0 30px;
+  position: unset;
 }
 
 .project-popup-image-slider.swiper .swiper-arrow-button {

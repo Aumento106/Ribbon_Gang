@@ -204,7 +204,9 @@
                     section_id: section.id,
                     sold_out: section.settings.hide_sold_out,
                     hide_price: section.settings.hide_price,
-                    remove_product_link: section.settings.remove_product_link
+                    remove_product_link: section.settings.remove_product_link,
+                    enquire_now_button: section.settings.enquire_now,
+                    enquire_now_link: section.settings.enquire_now_url
                   %}
                     
                   {% endif %}
@@ -271,6 +273,20 @@
       "id": "remove_product_link",
       "default": false,
       "label": "Remove Product Link Redirect"
+    },
+    {
+      "type": "header",
+      "content": "Enquire now"
+    },
+    {
+      "type": "text",
+      "id": "enquire_now",
+      "label": "Enquire now button text"
+    },
+    {
+      "type": "url",
+      "id": "enquire_now_url",
+      "label": "Enquire now button link"
     },
     {
       "type": "header",

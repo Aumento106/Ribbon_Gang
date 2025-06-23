@@ -126,7 +126,7 @@ body.popup-overflow-hidden::before {
   cursor: pointer;
   background: #fff;
   border-radius: 50%;
-  z-index: 1;
+  z-index: 1111;
 }
 
 .projects-popup-main .close-btn svg {

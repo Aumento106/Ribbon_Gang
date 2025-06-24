@@ -81,7 +81,7 @@
   padding: 0 1.5rem;
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1600px) {
   .template-index .page-width {
     max-width: 1280px;
   }

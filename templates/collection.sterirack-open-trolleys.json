@@ -31,16 +31,24 @@
             "heading_alignment": "center"
           }
         },
+        "caption_H4JVBB": {
+          "type": "caption",
+          "settings": {
+            "caption": "<h2><strong>Superior quality. Best practice. Custom configured to suit.</strong></h2>",
+            "caption_alignment": "center"
+          }
+        },
         "text_G6e3Nj": {
           "type": "text",
           "settings": {
-            "text": "<p>Superior quality. Best practice. Custom configured to suit.</p><p>STERIRACK® System includes a range of Medical Trolleys that fully integrate, sharing the same baskets, shelving and other accessories used in STERIRACK® room installations or stand-alone modules, benches and workstations.</p><p>For the ultimate in efficiency, best practice and infection control you simply can’t go past STERIRACK®, the revolutionary, fully integrated healthcare storage system. Put simply, our flagship STERIRACK® System is a game changer, worldwide.<br/><br/></p>",
+            "text": "<p>STERIRACK® System includes a range of Medical Trolleys that fully integrate, sharing the same baskets, shelving and other accessories used in STERIRACK® room installations or stand-alone modules, benches and workstations.</p><p>For the ultimate in efficiency, best practice and infection control you simply can’t go past STERIRACK®, the revolutionary, fully integrated healthcare storage system. Put simply, our flagship STERIRACK® System is a game changer, worldwide.<br/><br/></p>",
             "text_alignment": "center"
           }
         }
       },
       "block_order": [
         "heading_nhBt8y",
+        "caption_H4JVBB",
         "text_G6e3Nj"
       ],
       "settings": {

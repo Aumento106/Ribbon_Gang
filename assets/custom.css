@@ -3443,6 +3443,6 @@ span.card_product_main_desc {
 }
 @media screen and (max-width: 1320px) {
   span.card_product_main_desc {
-    min-height: 90px;
+    min-height: 95px;
   }
 }

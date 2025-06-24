@@ -287,6 +287,8 @@ strong {
   font-style: var(--font-body-style);
   font-weight: var(--font-body-weight);
 }
+
+/* ------ Trademark Symbol Css ------*/
 .trademark-symbol {
   display: inline-block;
   font-size: 22px;
@@ -335,6 +337,8 @@ li .trademark-symbol-TM {
   font-size: 30px;
   top: -12px;
 }
+/* ------ Trademark Symbol Css ------*/
+
 .subtitle,
 .subtitle > * {
   font-weight: var(--subheading-font_weight) !important;

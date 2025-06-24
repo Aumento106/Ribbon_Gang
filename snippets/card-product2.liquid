@@ -145,7 +145,15 @@
               </a>
               {% else %}
                   {% assign Page = card_product.metafields.custom.redirection_page.value %}
-               {{ Page.url }}
+              {% if page != blank %}
+                <a
+                  href="{{ Page.url }}"
+                  id="CardLink-{{ section_id }}-{{ card_product.id }}"
+                  class="full-unstyled-link"
+                  aria-labelledby="CardLink-{{ section_id }}-{{ card_product.id }} Badge-{{ section_id }}-{{ card_product.id }}"
+                >{{ card_product.title | escape }}
+                </a>
+                {% else %}
                 <span
                 id="StandardCardNoMediaLink-{{ section_id }}-{{ card_product.id }}"
                 class="full-unstyled-link"
@@ -153,6 +161,7 @@
               >
                 {{ card_product.title | escape }}
               </span>
+              {% endif %}
               {% endif %}
             </h3>
           </div>

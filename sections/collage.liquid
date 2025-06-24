@@ -52,7 +52,7 @@
 {%- endstyle -%}
 
 <div class="color-{{ section.settings.color_scheme }} gradient isolate">
-  <div class="page-width section-{{ section.id }}-padding">
+  <div class="{{ section.settings.container_size }} section-{{ section.id }}-padding">
     {%- if section.settings.heading != blank -%}
       <h2 class="collage-wrapper-title inline-richtext {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
         {{ section.settings.heading }}
@@ -257,6 +257,26 @@
     "groups": ["header", "footer"]
   },
   "settings": [
+    {
+      "type": "select",
+      "id": "container_size",
+      "options": [
+        {
+          "value": "page-width",
+          "label": "Page Width"
+        },
+        {
+          "value": "page-width--narrow",
+          "label": "Small Page Width"
+        },
+        {
+          "value": "full",
+          "label": "Full Width"
+        }
+      ],
+      "default": "page-width",
+      "label": "Container Size"
+    },
     {
       "type": "inline_richtext",
       "id": "heading",

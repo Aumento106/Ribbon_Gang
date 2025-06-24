@@ -3385,10 +3385,7 @@ ul.header__submenu li ul li a{
   --ratio-percent: 60% !important;
 }
 
-span.card_product_main_desc {
-    min-height: 75px;
-    display: inline-block;
-}
+
 
 @media screen and (max-width: 1510px) {
   .megamenu-with-image-title {
@@ -3439,3 +3436,13 @@ span.card_product_main_desc {
   }
 }
 
+
+span.card_product_main_desc {
+    min-height: 75px;
+    display: inline-block;
+}
+@media screen and (max-width: 1320px) {
+  span.card_product_main_desc {
+    min-height: 90px;
+  }
+}

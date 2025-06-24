@@ -1,7 +1,4 @@
-.newsletter__wrapper > * {
-  margin-top: 0;
-  margin-bottom: 0;
-}
+
 
 .newsletter__wrapper > * + * {
   margin-top: 2rem;

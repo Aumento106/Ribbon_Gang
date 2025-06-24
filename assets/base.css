@@ -320,6 +320,7 @@ p span.trademark-symbol-TM, a span.trademark-symbol-TM {
 }
 :is(h1, h2) p span.trademark-symbol-TM {
   font-size: 22px;
+  top: -15px;
 }
 :is(h1, h2) p span.trademark-symbol {
   font-size: 30px;

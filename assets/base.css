@@ -294,24 +294,6 @@ span.trademark-symbol {
   position: relative;
   top: -5px;
 }
-h0 sup.trademark-symbol,
-h1 sup.trademark-symbol,
-h2 sup.trademark-symbol,
-h3 sup.trademark-symbol,
-.h0 sup.trademark-symbol,
-.h1 sup.,
-.h2 sup,
-.h3 sup {
-  font-size: 22px !important;
-  /* position: relative; */
-  /* top: -6px; */
-}
-h3 sup,
-.h3 sup {
-  font-size: 17px !important;
-  /* position: relative; */
-  /* top: 0; */
-}
 .subtitle,
 .subtitle > * {
   font-weight: var(--subheading-font_weight) !important;

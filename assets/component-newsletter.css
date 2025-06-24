@@ -23,7 +23,8 @@
   background: #afafaf;
   color: rgba(var(--color-foreground), 1);
 }
-.footer .newsletter-form__field-wrapper .button:hover::after {
+.footer .newsletter-form__field-wrapper .button:hover::after,
+.footer .newsletter-form__field-wrapper .button:hover::before {
   box-shadow: unset;
 }
 .footer .newsletter-form__field-wrapper .button::after,

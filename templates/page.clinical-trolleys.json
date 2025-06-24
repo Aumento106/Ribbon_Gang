@@ -87,7 +87,6 @@
         },
         "text_7xmpEL": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "text": "<p>Superior quality. Best practice. Configured to suit.</p>"
           }

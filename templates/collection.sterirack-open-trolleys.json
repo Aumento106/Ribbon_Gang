@@ -27,14 +27,14 @@
             "heading": "<strong>STERIRACK® Open Trolleys</strong>",
             "custom_heading_size": 52,
             "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400",
             "heading_alignment": "center"
           }
         },
         "text_G6e3Nj": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "<p>Across hospitals, day surgeries, and healthcare facilities in Australia, the U.S, and beyond, SpaceLogic partners with clients to deliver tailored, high-performance storage systems. Every project is a collaboration — from planning and prototyping to seamless installation — ensuring STERIRACK® integrates perfectly into clinical environments with minimal disruption.</p><p>Explore a selection of recent installations below, each one reflecting our commitment to better care through smarter storage.</p>",
+            "text": "<p>Superior quality. Best practice. Custom configured to suit.</p><p>STERIRACK® System includes a range of Medical Trolleys that fully integrate, sharing the same baskets, shelving and other accessories used in STERIRACK® room installations or stand-alone modules, benches and workstations.</p><p>For the ultimate in efficiency, best practice and infection control you simply can’t go past STERIRACK®, the revolutionary, fully integrated healthcare storage system. Put simply, our flagship STERIRACK® System is a game changer, worldwide.<br/><br/></p>",
             "text_alignment": "center"
           }
         }
@@ -71,6 +71,10 @@
         "columns_desktop": 4,
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "remove_product_link": false,
+        "enquire_now": "",
+        "enquire_now_url": "",
+        "shop_now": "",
+        "shop_now_link": "",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": false,
@@ -95,6 +99,7 @@
         "heading": "<p>Product Catalogue</p>",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "description": "<p>Click here to view our latest product and services catalogue in a browser without downloading.</p>",
         "button_1_text": "View catalogue",
@@ -191,6 +196,7 @@
         "title": "",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "image_ratio": "square",
         "columns_desktop": 3,
         "color_scheme": "",
@@ -290,7 +296,8 @@
           "settings": {
             "heading": "MEDIBIN™ Colored Label HoldersAvailable in a range of 13 vibrant colors",
             "custom_heading_size": 39,
-            "mobile_custom_heading_size": 28
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
           }
         }
       },

@@ -315,6 +315,10 @@ p .trademark-symbol-TM, a .trademark-symbol-TM {
   font-size: 12px;
   top: -5px;
 }
+li .trademark-symbol-TM {
+  font-size: inherit;
+  top: -3px;
+}
 :is(h1, h2, h3, h4, h5, h6) a .trademark-symbol-TM, :is(h1, h2, h3, h4, h5, h6) p .trademark-symbol-TM,
 :is(h1, h2, h3, h4, h5, h6) > .trademark-symbol-TM {
   top: -9px;

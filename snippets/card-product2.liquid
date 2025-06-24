@@ -144,6 +144,7 @@
               >{{ card_product.title | escape }}
               </a>
               {% else %}
+                {{ card_product.title }}
                 <span
                 id="StandardCardNoMediaLink-{{ section_id }}-{{ card_product.id }}"
                 class="full-unstyled-link"

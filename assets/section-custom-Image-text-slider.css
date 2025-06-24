@@ -125,6 +125,7 @@ body .Custom_image_text_slider .swiper .swiper-pagination {
     overflow: initial;
 }
 
+
 @media screen and (min-width: 1541px) {
   .Custom_image_text_slider .image-with-text-slider.show-half-slide {
     padding: 0 240px;
@@ -134,6 +135,12 @@ body .Custom_image_text_slider .swiper .swiper-pagination {
 @media screen and (max-width: 1540px) {
   .Custom_image_text_slider .image-with-text-slider.show-half-slide {
     padding: 0 260px;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .Custom_image_text_slider .section-des {
+    font-size: 25px;
   }
 }
 

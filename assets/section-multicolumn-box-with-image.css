@@ -71,6 +71,14 @@
     max-width: calc(33.33% - 32px / 2);
   }
 }
+@media screen and (max-width: 800px) and (min-width: 750px) {
+  .multi-column-box-with-image .multicolumn-box .grid {
+    column-gap: 10px;
+  }
+  .multi-column-box-with-image .multicolumn-box .grid .grid__item {
+    max-width: calc(33.33% - 8px);
+  }
+}
 
 /* @media screen and (min-width: 990px) {
   .multi-column-box-with-image .grid--3-col-desktop .grid__item {

@@ -115,7 +115,7 @@
                 id="title-{{ section_id }}-{{ card_product.id }}"
               {% endif %}
             >
-              {% if remove_product_link != true and card_product.metafields.custom.redirection_page != blank %}
+              {% if remove_product_link != true or card_product.metafields.custom.redirection_page != blank %}
               <a
                 href="{{ card_product.url }}"
                 id="StandardCardNoMediaLink-{{ section_id }}-{{ card_product.id }}"

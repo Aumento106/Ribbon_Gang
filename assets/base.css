@@ -294,6 +294,14 @@ span.trademark-symbol {
   position: relative;
   top: -5px;
 }
+span.trademark-symbol-TM {
+  display: inline-block;
+  font-size: 12px;
+  line-height: 1;
+  position: relative;
+  top: -9px;
+  font-weight: inherit !important;
+}
 .subtitle,
 .subtitle > * {
   font-weight: var(--subheading-font_weight) !important;

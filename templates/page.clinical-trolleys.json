@@ -357,6 +357,51 @@
         "mobile_margin_bottom": 36
       }
     },
+    "custom_collage_bhPQbK": {
+      "type": "custom-Collage",
+      "blocks": {
+        "image_7ybrBB": {
+          "type": "image",
+          "settings": {
+            "project_name": "Project AU",
+            "project_sub_heading": "",
+            "project_des": "The tireless and dynamic SpaceLogic team is dedicated to Healthcare."
+          }
+        },
+        "product_E4UUBy": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "second_image": false
+          }
+        },
+        "collection_fbNpTn": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_7ybrBB",
+        "product_E4UUBy",
+        "collection_fbNpTn"
+      ],
+      "name": "Custom Collage",
+      "settings": {
+        "heading": "Multimedia collage",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
+        "desktop_layout": "equal",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "popup_color_scheme": "",
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
+    },
     "product_catalog_W3r7Xn": {
       "type": "product-catalog",
       "disabled": true,
@@ -394,6 +439,7 @@
     "image_banner_Ein9Ec",
     "rich_text_PzLr4b",
     "image_banner_cNJbkJ",
+    "custom_collage_bhPQbK",
     "product_catalog_W3r7Xn"
   ]
 }

@@ -202,6 +202,22 @@
         "padding_top": 50,
         "padding_bottom": 50
       }
+    },
+    "video_R9kFcy": {
+      "type": "video",
+      "name": "t:sections.video.presets.name",
+      "settings": {
+        "heading": "VIDEO - STERIRACK® Mobile Workstations",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https://youtu.be/Xj3eSTFXtyE",
+        "cover_image": "shopify://shop_images/maxresdefault_2.webp",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -212,6 +228,7 @@
     "main",
     "product_catalog_W3r7Xn",
     "image_banner_UxqAJb",
-    "rich_text_6KW6QC"
+    "rich_text_6KW6QC",
+    "video_R9kFcy"
   ]
 }

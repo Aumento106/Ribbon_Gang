@@ -40,7 +40,6 @@
 
   .newsletter .grid {
     --grid-desktop-horizontal-spacing: 7.5rem;
-    align-items: center;
   }
 }
 

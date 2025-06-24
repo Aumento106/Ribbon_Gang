@@ -111,7 +111,7 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "page_container": "full-width",
+        "page_container": "page-width",
         "image": "shopify://shop_images/Sterirack-trolleys-2-2048x1150.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",

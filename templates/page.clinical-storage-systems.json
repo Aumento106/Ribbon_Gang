@@ -24,7 +24,8 @@
         "text_7xmpEL": {
           "type": "text",
           "settings": {
-            "text": "{{ page.content }}"
+            "text": "{{ page.content }}",
+            "text_content_alignment": "center"
           }
         }
       },
@@ -211,7 +212,8 @@
         "text_YFnmyE": {
           "type": "text",
           "settings": {
-            "text": "<p>We know healthcare storage requirements vary depending on your role.Let us guide you to the most relevant information based on how you work:</p>"
+            "text": "<p>We know healthcare storage requirements vary depending on your role.Let us guide you to the most relevant information based on how you work:</p>",
+            "text_content_alignment": "center"
           }
         },
         "caption_XBKWrq": {
@@ -311,7 +313,8 @@
         "text_WpRpHU": {
           "type": "text",
           "settings": {
-            "text": "<p>Use the filters below to explore every component of our STERIRACK® and MEDIBIN™ Systems. Whether you're searching for a single bench or planning a full facility fit out, you'll find everything here - organised by product type, dimensions, and compatibility.<br/>INSERT ONLINE PRODUCT FILTER</p>"
+            "text": "<p>Use the filters below to explore every component of our STERIRACK® and MEDIBIN™ Systems. Whether you're searching for a single bench or planning a full facility fit out, you'll find everything here - organised by product type, dimensions, and compatibility.<br/>INSERT ONLINE PRODUCT FILTER</p>",
+            "text_content_alignment": "center"
           }
         }
       },
@@ -355,7 +358,8 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>[Book a Design Session] |  [Browse Products] | [Download Product Catalogue]</p>"
+            "text": "<p>[Book a Design Session] |  [Browse Products] | [Download Product Catalogue]</p>",
+            "text_content_alignment": "center"
           }
         },
         "button_m8QFcQ": {

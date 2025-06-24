@@ -65,7 +65,7 @@
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
-        "hide_price": false,
+        "hide_price": true,
         "hide_sold_out": false,
         "products_per_page": 20,
         "columns_desktop": 4,

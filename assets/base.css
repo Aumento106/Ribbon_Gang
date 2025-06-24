@@ -297,14 +297,14 @@ h3 sup,
 .h2 sup,
 .h3 sup {
   font-size: 22px !important;
-  position: relative;
-  top: -6px;
+  /* position: relative; */
+  /* top: -6px; */
 }
 h3 sup,
 .h3 sup {
   font-size: 17px !important;
-  position: relative;
-  top: 0;
+  /* position: relative; */
+  /* top: 0; */
 }
 .subtitle,
 .subtitle > * {
@@ -320,7 +320,7 @@ h3 sup,
   .h1 sup,
   .h2 sup,
   .h3 sup {
-    top: 0;
+    /* top: 0; */
   }
 }
 

@@ -287,23 +287,23 @@ strong {
   font-style: var(--font-body-style);
   font-weight: var(--font-body-weight);
 }
-span.trademark-symbol {
+.trademark-symbol {
   display: inline-block;
   font-size: 22px;
   line-height: 1;
   position: relative;
   top: -5px;
 }
-p span.trademark-symbol, a span.trademark-symbol {
+p .trademark-symbol, a .trademark-symbol {
   font-size: 16px;
   top: -3px;
 }
-:is(h1, h2, h3, h4, h5, h6) a span.trademark-symbol, :is(h1, h2, h3, h4, h5, h6) p span.trademark-symbol {
+:is(h1, h2, h3, h4, h5, h6) a .trademark-symbol, :is(h1, h2, h3, h4, h5, h6) p .trademark-symbol {
   top: -5px;
   font-size: 22px;
 }
 
-span.trademark-symbol-TM {
+.trademark-symbol-TM {
   display: inline-block;
   font-size: 12px;
   line-height: 1;
@@ -311,18 +311,19 @@ span.trademark-symbol-TM {
   top: -9px;
   font-weight: inherit !important;
 }
-p span.trademark-symbol-TM, a span.trademark-symbol-TM {
+p .trademark-symbol-TM, a .trademark-symbol-TM {
   font-size: 12px;
   top: -5px;
 }
-:is(h1, h2, h3, h4, h5, h6) a span.trademark-symbol-TM, :is(h1, h2, h3, h4, h5, h6) p span.trademark-symbol-TM {
+:is(h1, h2, h3, h4, h5, h6) a .trademark-symbol-TM, :is(h1, h2, h3, h4, h5, h6) p .trademark-symbol-TM,
+:is(h1, h2, h3, h4, h5, h6) > .trademark-symbol-TM {
   top: -9px;
 }
-:is(h1, h2) p span.trademark-symbol-TM {
+:is(h1, h2) p .trademark-symbol-TM, :is(h1, h2) > .trademark-symbol-TM {
   font-size: 22px;
   top: -15px;
 }
-:is(h1, h2) p span.trademark-symbol {
+:is(h1, h2) p .trademark-symbol, :is(h1, h2) > .trademark-symbol {
   font-size: 30px;
   top: -12px;
 }

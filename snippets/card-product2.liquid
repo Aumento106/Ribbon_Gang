@@ -144,10 +144,10 @@
               >{{ card_product.title | escape }}
               </a>
               {% else %}
-                  {% assign Page = card_product.metafields.custom.redirection_page.value %}
-              {% if Page != blank %}
+                  {% assign Page_1 = card_product.metafields.custom.redirection_page.value %}
+              {% if Page_1 != blank %}
                 <a
-                  href="{{ Page.url }}"
+                  href="{{ Page_1.url }}"
                   id="CardLink-{{ section_id }}-{{ card_product.id }}"
                   class="full-unstyled-link"
                   aria-labelledby="CardLink-{{ section_id }}-{{ card_product.id }} Badge-{{ section_id }}-{{ card_product.id }}"

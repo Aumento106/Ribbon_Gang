@@ -81,7 +81,7 @@
   padding: 0 1.5rem;
 }
 .template-index .page-width {
-  max-width: 1440px;
+  max-width: 1360px;
 }
 
 body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {

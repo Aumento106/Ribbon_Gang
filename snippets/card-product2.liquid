@@ -145,7 +145,7 @@
               </a>
               {% else %}
                   {% assign Page = card_product.metafields.custom.redirection_page.value %}
-              {% if page != blank %}
+              {% if Page != blank %}
                 <a
                   href="{{ Page.url }}"
                   id="CardLink-{{ section_id }}-{{ card_product.id }}"

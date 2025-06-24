@@ -70,7 +70,7 @@ slideshow-component .slideshow__slide.enable_side_image_main:before {
 
 @media screen and (max-width: 1500px) and (min-width: 1361px) {
   .section-custom-slide-show .slideshow__text-wrapper.banner__content {
-    margin-left: 12% !important;
+    margin-left: 14% !important;
   }
   .section-custom-slide-show .slideshow__text-wrapper .banner__heading {
     margin-top: -27px;

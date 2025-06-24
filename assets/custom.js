@@ -378,7 +378,7 @@ document.querySelectorAll('.sub-header-menu-main .header__submenu li').forEach(i
     }
 
     window.replaceTextInElement(document.body, "®", "<span class='trademark-symbol'>®</span>");
-    window.replaceTextInElement(document.body, "™", "<span class='trademark-symbol'>™</span>");
+    window.replaceTextInElement(document.body, "™", "<span class='trademark-symbol'>TM</span>");
 
 
 // Blog search

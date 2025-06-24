@@ -110,6 +110,13 @@
     }
 }
 
+@media screen and (max-width: 800px) {
+  .custom-multicolumn-with-text .multi-column-box-with-image .multicolumn-box__item .button {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
 @media screen and (max-width: 749px) {
     .custom-multicolumn-with-text .multicolumn-box .multicolumn-section-subtitle.subtitle {
         font-size: 20px;

@@ -104,6 +104,10 @@
   .template-index .page-width .page-width.custom-image-with-text-slider {
     padding: 0 !important;
   }
+  .template-index .page-width {
+    max-width: 100%;
+    padding: 0 6rem !important;
+  }
 }
 
 @media screen and (max-width: 768px) {

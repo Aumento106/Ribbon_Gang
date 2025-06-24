@@ -61,13 +61,14 @@
             "heading": "CSSD and theatre store",
             "custom_heading_size": 52,
             "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400",
             "heading_alignment": "center"
           }
         },
         "text_HHgDEE": {
           "type": "text",
           "settings": {
-            "text": "<p>If you work in healthcare you already know about AS4187, and that sterile consumables must be handled and stored in a manner that maintains the integrity of packs and prevents contamination from any source of dust, vermin, sunlight, water and condensation.</p><p>This is where our gold standard STERIRACK® system comes into its own! Designed and manufactured in Australia by SpaceLogic, STERIRACK® system is the complete modular consumables storage solution that can be configured in myriad ways to suit your space and application while exceeding AS4187 compliance.</p><p>Please feel welcome to use the presentation below to introduce your team to this concept, and do not hesitate to contact a SpaceLogic project consultant if you have any further questions, or would like to book in for a consultation.</p>",
+            "text": "<p>If you work in healthcare you already know about AS4187, and that sterile consumables must be handled and stored in a manner that maintains the integrity of packs and prevents contamination from any source of dust, vermin, sunlight, water and condensation.</p><p>This is where our gold standard STERIRACK® System comes into its own! Designed and manufactured in Australia by SpaceLogic, STERIRACK® System is the complete modular consumables storage solution that can be configured in myriad ways to suit your space and application while exceeding AS4187 compliance.</p><p>Please feel welcome to use the presentation below to introduce your team to this concept, and do not hesitate to contact a SpaceLogic project consultant if you have any further questions, or would like to book in for a consultation.</p>",
             "text_alignment": "left"
           }
         }
@@ -116,6 +117,7 @@
         "heading": "<p>Product Catalogue</p>",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "description": "<p>Click here to view our latest product and services catalogue in a browser without downloading.</p>",
         "button_1_text": "View catalogue",

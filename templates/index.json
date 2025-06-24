@@ -1096,7 +1096,7 @@
         "news_mobile_custom_heading_size": 28,
         "news_font_weight": "400",
         "padding_top": 50,
-        "padding_bottom": 100,
+        "padding_bottom": 50,
         "margin_top": 40,
         "margin_bottom": 0
       }

@@ -363,33 +363,36 @@
         "image_7ybrBB": {
           "type": "image",
           "settings": {
+            "project_name": "Sterirack Medical Trolley 600x400x840 single",
+            "project_sub_heading": "",
+            "project_des": "The tireless and dynamic SpaceLogic team is dedicated to Healthcare."
+          }
+        },
+        "image_yJQQEY": {
+          "type": "image",
+          "settings": {
             "project_name": "Project AU",
             "project_sub_heading": "",
             "project_des": "The tireless and dynamic SpaceLogic team is dedicated to Healthcare."
           }
         },
-        "product_E4UUBy": {
-          "type": "product",
+        "image_wM4BaQ": {
+          "type": "image",
           "settings": {
-            "product": "",
-            "second_image": false
-          }
-        },
-        "collection_fbNpTn": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
+            "project_name": "Project AU",
+            "project_sub_heading": "",
+            "project_des": "The tireless and dynamic SpaceLogic team is dedicated to Healthcare."
           }
         }
       },
       "block_order": [
         "image_7ybrBB",
-        "product_E4UUBy",
-        "collection_fbNpTn"
+        "image_yJQQEY",
+        "image_wM4BaQ"
       ],
       "name": "Custom Collage",
       "settings": {
-        "heading": "Multimedia collage",
+        "heading": "",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
         "custom_font_weight": "400",

@@ -1,9 +1,10 @@
 .custom-multicolumn-with-image .section-sub-title.subtitle {
-    font-size: 32px;
-    font-weight: 400;
-    margin-top: 1rem;
-    margin-bottom: 0;
-    line-height: normal;
+  font-size: 32px;
+  font-weight: 400;
+  margin-top: 1.6rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: normal;
 }
 
 .custom-multicolumn-with-image .multi-column-box-with-image .multicolumn-box__item {

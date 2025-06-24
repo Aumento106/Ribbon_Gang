@@ -28,6 +28,13 @@
 
 {%- style -%}
   {%- for block in section.blocks -%}
+    #Slider-{{ section.id }} slideshow-component .slideshow__slide.enable_side_image_main:after {
+      background: url(https://cdn.shopify.com/s/files/1/0657/3388/6106/files/SpaceLogic_brain_-_left_white.png?v=1748415911) no-repeat bottom;
+      background: url({{ block.settings.left_background_image | image_url }}) no-repeat bottom;
+    }
+     #Slider-{{ section.id }} slideshow-component .slideshow__slide.enable_side_image_main:before {
+      background: url(https://cdn.shopify.com/s/files/1/0657/3388/6106/files/SpaceLogic_brain_-_right_white.png?v=1748415910) no-repeat top;
+    }
     .section-custom-slide-show .banner__buttons-{{ block.id }} {
       position: absolute;
       left: 50%;
@@ -435,6 +442,11 @@
           "id": "enable_side_image",
           "default": false,
           "label": "Enable Side Image"
+        },
+        {
+          "type": "image_picker",
+          "id": "left_background_image",
+          "label": "Left_Background Image"
         },
         {
           "type": "inline_richtext",

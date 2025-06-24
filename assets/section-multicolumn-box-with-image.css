@@ -71,7 +71,7 @@
     max-width: calc(33.33% - 32px / 2);
   }
 }
-@media screen and (max-width: 800px) and (min-width: 750px) {
+@media screen and (max-width: 840px) and (min-width: 750px) {
   .multi-column-box-with-image .multicolumn-box .grid {
     column-gap: 10px;
   }

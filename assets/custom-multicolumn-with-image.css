@@ -14,16 +14,16 @@
 }
 
 .custom-multicolumn-with-image .multicolumn-box__item_inner {
-    position: relative;
-    overflow: hidden;
-    border-radius: 8px;
-    /* border-radius: 0px; */
-    min-height: 576px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 24px 17px;
-    text-align: center;
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  /* border-radius: 0px; */
+  min-height: 576px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 24px 17px;
+  text-align: center;
 }
 
 .custom-multicolumn-with-image.multi_box_image .multicolumn-box-img-wrapper {
@@ -171,7 +171,7 @@
 
 @media screen and (max-width: 989px) {
     .custom-multicolumn-with-image .grid--2-col-desktop .multicolumn-box__item_inner {
-        min-height: 400px;
+        min-height: 310px;
     }
 }
 

@@ -3837,6 +3837,12 @@ sup {
   margin-bottom: 40px;
 }
 
+@media screen and (max-width: 989px) {
+  .template-index .product-catalog-sec {
+    margin-bottom: 20px;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .title {
     font-size: 34px;

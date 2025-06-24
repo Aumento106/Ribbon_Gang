@@ -18,7 +18,9 @@
 .newsletter-form__field-wrapper {
   width: 100%;
 }
-
+.newsletter-form__field-wrapper .button {
+  margin-top: 20px;
+}
 .newsletter-form__field-wrapper .field__input {
   padding-right: 5rem;
 }

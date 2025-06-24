@@ -106,6 +106,13 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .template-index .page-width {
+    max-width: 100%;
+    padding: 0 1.6rem !important;
+  }
+}
+
 body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
   max-width: 100%;
 }

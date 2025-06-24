@@ -1284,7 +1284,7 @@
             "text": "",
             "text-v": "",
             "button-text": "Shop for shelving, baskets etc",
-            "button-url": "shopify://collections"
+            "button-url": "shopify://collections/sterirack-shelving-and-basket-modules"
           }
         },
         "column_G3KQPY": {
@@ -1296,7 +1296,7 @@
             "text": "",
             "text-v": "",
             "button-text": "Shop for benching etc",
-            "button-url": "shopify://collections"
+            "button-url": "shopify://collections/sterirack-benching"
           }
         },
         "column_tJjXWa": {
@@ -1308,7 +1308,7 @@
             "text": "",
             "text-v": "",
             "button-text": "Shop for trolleys etc",
-            "button-url": "shopify://collections"
+            "button-url": "shopify://collections/sterirack-open-trolleys"
           }
         },
         "column_6nDDjQ": {
@@ -1320,7 +1320,7 @@
             "text": "",
             "text-v": "",
             "button-text": "Shop for accessories etc",
-            "button-url": "shopify://collections"
+            "button-url": "shopify://collections/sterirack-accessories"
           }
         }
       },
@@ -1336,7 +1336,7 @@
         "title_color": "#424242",
         "subheading_color": "#424242",
         "button_text": "Shop the full range",
-        "button_url": "shopify://collections",
+        "button_url": "shopify://pages/pharmacy-drawers",
         "custom_heading_size": 45,
         "mobile_custom_heading_size": 28,
         "custom_font_weight": "600",

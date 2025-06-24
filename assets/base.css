@@ -3833,12 +3833,12 @@ sup {
 .image-with-text-v1 .image-with-text__text.rte strong {
   font-weight: 700 !important;
 }
-.template-index .product-catalog-sec {
+.product-catalog-sec {
   margin-bottom: 40px;
 }
 
 @media screen and (max-width: 989px) {
-  .template-index .product-catalog-sec {
+  .product-catalog-sec {
     margin-bottom: 20px;
   }
 }

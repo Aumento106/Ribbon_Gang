@@ -144,24 +144,26 @@
               >{{ card_product.title | escape }}
               </a>
               {% else %}
-              {% if card_product.metafields.custom.redirection_page.value %}
-                  {% assign Page_1 = card_product.metafields.custom.redirection_page.value %}
-                <a
-                  href="{{ Page_1.url }}"
-                  id="CardLink-{{ section_id }}-{{ card_product.id }}"
-                  class="full-unstyled-link"
-                  aria-labelledby="CardLink-{{ section_id }}-{{ card_product.id }} Badge-{{ section_id }}-{{ card_product.id }}"
-                >{{ card_product.title | escape }}
-                </a>
+                {% if card_product.metafields.custom.redirection_page.value %}
+                  11
+                    {% assign Page_1 = card_product.metafields.custom.redirection_page.value %}
+                  <a
+                    href="{{ Page_1.url }}"
+                    id="CardLink-{{ section_id }}-{{ card_product.id }}"
+                    class="full-unstyled-link"
+                    aria-labelledby="CardLink-{{ section_id }}-{{ card_product.id }} Badge-{{ section_id }}-{{ card_product.id }}"
+                  >{{ card_product.title | escape }}
+                  </a>
                 {% else %}
-                <span
-                id="StandardCardNoMediaLink-{{ section_id }}-{{ card_product.id }}"
-                class="full-unstyled-link"
-                aria-labelledby="StandardCardNoMediaLink-{{ section_id }}-{{ card_product.id }} NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}"
-              >
-                {{ card_product.title | escape }}
-              </span>
-              {% endif %}
+                  22
+                  <span
+                  id="StandardCardNoMediaLink-{{ section_id }}-{{ card_product.id }}"
+                  class="full-unstyled-link"
+                  aria-labelledby="StandardCardNoMediaLink-{{ section_id }}-{{ card_product.id }} NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}"
+                >
+                  {{ card_product.title | escape }}
+                </span>
+                {% endif %}
               {% endif %}
             </h3>
           </div>

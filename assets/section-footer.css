@@ -576,9 +576,9 @@
   color: rgb(var(--color-foreground));
 }
 
-.footer-block__newsletter .newsletter-form__field-wrapper .button {
+/* .footer-block__newsletter .newsletter-form__field-wrapper .button {
   border-radius: 6px;
-}
+} */
 
 .footer-block__newsletter .newsletter-form__field-wrapper .button--primary::after {
   box-shadow: none;

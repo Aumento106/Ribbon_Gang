@@ -698,6 +698,12 @@
   }
 }
 
+@media screen and (max-width: 1100px) {
+  .footer__content-bottom-copyright-menu {
+    justify-content: center;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .footer__blocks-wrapper.grid {
     --grid-desktop-horizontal-spacing: 3rem;

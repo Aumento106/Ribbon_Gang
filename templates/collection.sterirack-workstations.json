@@ -560,7 +560,7 @@
           "type": "heading",
           "settings": {
             "heading": "STERIRACK® Workstations – Concept 1",
-            "custom_heading_size": 52,
+            "custom_heading_size": 45,
             "mobile_custom_heading_size": 28,
             "custom_font_weight": "400"
           }
@@ -630,7 +630,7 @@
           "type": "heading",
           "settings": {
             "heading": "STERIRACK® Workstations – Concept 2",
-            "custom_heading_size": 52,
+            "custom_heading_size": 45,
             "mobile_custom_heading_size": 28,
             "custom_font_weight": "400"
           }
@@ -700,7 +700,7 @@
           "type": "heading",
           "settings": {
             "heading": "TERIRACK® Workstations – Concept 3",
-            "custom_heading_size": 52,
+            "custom_heading_size": 45,
             "mobile_custom_heading_size": 28,
             "custom_font_weight": "400"
           }
@@ -841,7 +841,7 @@
           "type": "heading",
           "settings": {
             "heading": "STERIRACK® Workstations - Build your own",
-            "custom_heading_size": 52,
+            "custom_heading_size": 45,
             "mobile_custom_heading_size": 28,
             "custom_font_weight": "400"
           }

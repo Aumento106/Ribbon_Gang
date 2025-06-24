@@ -16,7 +16,8 @@
 }
 
 .logo-strip__image-wrapper img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  max-width: 140px;
 }

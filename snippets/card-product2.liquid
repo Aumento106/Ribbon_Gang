@@ -144,7 +144,7 @@
               >{{ card_product.title | escape }}
               </a>
               {% else %}
-              {% if card_product.metafields.custom.redirection_page.value != blank %}
+              {% if card_product.metafields.custom.redirection_page.value %}
                   {% assign Page_1 = card_product.metafields.custom.redirection_page.value %}
                 <a
                   href="{{ Page_1.url }}"

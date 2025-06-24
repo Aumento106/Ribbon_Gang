@@ -585,7 +585,7 @@
             "text": "<p>Dispensary</p>",
             "text-v": "",
             "button-text": "Explore room",
-            "button-url": "shopify://pages/pharmacy-storage-dispensary"
+            "button-url": "shopify://pages/pharmacy-drawers"
           }
         }
       },

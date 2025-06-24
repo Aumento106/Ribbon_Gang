@@ -179,8 +179,15 @@
     .custom-multicolumn-with-image .multicolumn-box .title {
       font-size: 28px;
     }
-  .custom-multicolumn-with-image .section-sub-title.subtitle, .custom-multicolumn-with-image .multicolumn-box-description.subtitle {
-    font-size: 20px;
+    .custom-multicolumn-with-image .section-sub-title.subtitle, .custom-multicolumn-with-image .multicolumn-box-description.subtitle {
+      font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+  .custom-multicolumn-with-image .button {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 

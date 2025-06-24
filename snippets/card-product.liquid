@@ -135,13 +135,24 @@
               </a>
               {% else %}
                 
-                <span
-                id="StandardCardNoMediaLink-{{ section_id }}-{{ card_product.id }}"
-                class="full-unstyled-link"
-                aria-labelledby="StandardCardNoMediaLink-{{ section_id }}-{{ card_product.id }} NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}"
-              >
-                {{ card_product.title | escape }}
-              </span>
+               {% if card_product.metafields.custom.redirection_page.value %}
+                    {% assign Page_1 = card_product.metafields.custom.redirection_page.value %}
+                  <a
+                    href="{{ Page_1.url }}"
+                    id="CardLink-{{ section_id }}-{{ card_product.id }}"
+                    class="full-unstyled-link"
+                    aria-labelledby="CardLink-{{ section_id }}-{{ card_product.id }} Badge-{{ section_id }}-{{ card_product.id }}"
+                  >{{ card_product.title | escape }}
+                  </a>
+                {% else %}
+                  <span
+                  id="StandardCardNoMediaLink-{{ section_id }}-{{ card_product.id }}"
+                  class="full-unstyled-link"
+                  aria-labelledby="StandardCardNoMediaLink-{{ section_id }}-{{ card_product.id }} NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}"
+                >
+                  {{ card_product.title | escape }}
+                </span>
+                {% endif %}
               {% endif %}
             </h3>
           </div>
@@ -201,27 +212,27 @@
               >
                 {{ card_product.title | escape }}
               </a>
-              {% elsif card_product.metafields.custom.redirection_page != blank %}
-              {% assign page_ = card_product.metafields.custom.redirection_page %}
-              {{ page_ }}==
-              <a
-                href="{{ page_.url }}"
-                id="CardLink-{{ section_id }}-{{ card_product.id }}"
-                class="full-unstyled-link"
-                aria-labelledby="CardLink-{{ section_id }}-{{ card_product.id }} Badge-{{ section_id }}-{{ card_product.id }}"
-              >
-                {{ card_product.title | escape }}
-              </a>
+             
                
             {% else %}
-              11
-              
-              <span id="CardLink-{{ section_id }}-{{ card_product.id }}"
-                class="full-unstyled-link"
-                aria-labelledby="CardLink-{{ section_id }}-{{ card_product.id }} Badge-{{ section_id }}-{{ card_product.id }}"
-              >
-                {{ card_product.title | escape }}
-              </span>
+             {% if card_product.metafields.custom.redirection_page.value %}
+                    {% assign Page_1 = card_product.metafields.custom.redirection_page.value %}
+                  <a
+                    href="{{ Page_1.url }}"
+                    id="CardLink-{{ section_id }}-{{ card_product.id }}"
+                    class="full-unstyled-link"
+                    aria-labelledby="CardLink-{{ section_id }}-{{ card_product.id }} Badge-{{ section_id }}-{{ card_product.id }}"
+                  >{{ card_product.title | escape }}
+                  </a>
+                {% else %}
+                  <span
+                  id="StandardCardNoMediaLink-{{ section_id }}-{{ card_product.id }}"
+                  class="full-unstyled-link"
+                  aria-labelledby="StandardCardNoMediaLink-{{ section_id }}-{{ card_product.id }} NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}"
+                >
+                  {{ card_product.title | escape }}
+                </span>
+                {% endif %}
             {% endif %}
           </h3>
           <div class="card-information">

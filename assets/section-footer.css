@@ -843,7 +843,7 @@
     row-gap: 1.5rem;
     column-gap: 1.5rem;
   }
-
+  
   .footer-menu-wrapper .footer-block__details-content>li {
     flex: 0 0 calc(50% - 8px);
   }

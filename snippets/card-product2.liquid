@@ -145,7 +145,7 @@
               </a>
               {% else %}
                   {% assign Page = card_product.metafields.custom.redirection_page.value %}
-               {{ Page.title }}
+               {{ Page.url }}
                 <span
                 id="StandardCardNoMediaLink-{{ section_id }}-{{ card_product.id }}"
                 class="full-unstyled-link"

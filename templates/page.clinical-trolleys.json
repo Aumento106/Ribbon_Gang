@@ -428,6 +428,60 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
+    },
+    "custom_multicolumn_47n8Bx": {
+      "type": "custom-multicolumn",
+      "blocks": {
+        "column_wAcmDn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/sterirack-clicknclip-coloured-label-holders-1.jpg",
+            "title": "",
+            "block_custom_font_weight": "400",
+            "text": "",
+            "text-v": "",
+            "button-text": "",
+            "button-url": ""
+          }
+        },
+        "column_4CKhYM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/sterirack-clicknclip-coloured-label-holders-2.jpg",
+            "title": "",
+            "block_custom_font_weight": "400",
+            "text": "",
+            "text-v": "",
+            "button-text": "",
+            "button-url": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_wAcmDn",
+        "column_4CKhYM"
+      ],
+      "name": "Custom multicolumn",
+      "settings": {
+        "title": "<h2>STERIRACK® Clip 'n' Click Label Holders</h2><h3>with matching post strips</h3>",
+        "sec_subtitle": "",
+        "title_color": "#424242",
+        "subheading_color": "#ffce00",
+        "button_text": "",
+        "button_url": "",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
+        "title_alignment": "center",
+        "color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
+        "columns_desktop": "2",
+        "box_shadow": true,
+        "image_auto_height": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
     }
   },
   "order": [
@@ -444,6 +498,7 @@
     "rich_text_PzLr4b",
     "image_banner_cNJbkJ",
     "custom_collage_bhPQbK",
-    "product_catalog_W3r7Xn"
+    "product_catalog_W3r7Xn",
+    "custom_multicolumn_47n8Bx"
   ]
 }

@@ -683,7 +683,7 @@
       ],
       "name": "t:sections.collage.presets.name",
       "settings": {
-        "container_size": "page-width",
+        "container_size": "page-width--narrow",
         "heading": "",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
@@ -755,7 +755,7 @@
       ],
       "name": "t:sections.collage.presets.name",
       "settings": {
-        "container_size": "page-width",
+        "container_size": "page-width--narrow",
         "heading": "",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
@@ -828,7 +828,7 @@
       "custom_css": [],
       "name": "t:sections.collage.presets.name",
       "settings": {
-        "container_size": "page-width",
+        "container_size": "page-width--narrow",
         "heading": "",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,

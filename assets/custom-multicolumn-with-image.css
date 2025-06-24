@@ -176,6 +176,9 @@
     .custom-multicolumn-with-image .multicolumn-box__item_inner {
       min-height: 310px;
     }
+    .custom-multicolumn-with-image .multicolumn-box .title {
+      font-size: 28px;
+    }
 }
 
 @media screen and (max-width: 749px) {

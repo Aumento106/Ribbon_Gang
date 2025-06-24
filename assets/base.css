@@ -298,8 +298,9 @@ p span.trademark-symbol, a span.trademark-symbol {
   font-size: 16px;
   top: -3px;
 }
-:is(h1, h2, h3, h4, h5, h6) a span.trademark-symbol {
+:is(h1, h2, h3, h4, h5, h6) a span.trademark-symbol, :is(h1, h2, h3, h4, h5, h6) p span.trademark-symbol {
   top: -5px;
+  font-size: 22px;
 }
 
 span.trademark-symbol-TM {
@@ -314,7 +315,7 @@ p span.trademark-symbol-TM, a span.trademark-symbol-TM {
   font-size: 12px;
   top: -5px;
 }
-:is(h1, h2, h3, h4, h5, h6) a span.trademark-symbol-TM {
+:is(h1, h2, h3, h4, h5, h6) a span.trademark-symbol-TM, :is(h1, h2, h3, h4, h5, h6) p span.trademark-symbol-TM {
   top: -9px;
 }
 .subtitle,

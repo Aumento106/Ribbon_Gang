@@ -5,6 +5,9 @@
     padding-top: {{ section.settings.padding_top | times: 0.35 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.35 | round: 0 }}px;
   }
+  .section-{{ section.id }}-padding .proudly-support__wrapper {
+    margin: 0 auto;
+  }
   .section-{{ section.id }}-padding .title {
     color: {{ section.settings.title_color }};
     font-weight: 400;
@@ -29,7 +32,7 @@
 {%- endstyle -%}
 
 <div class="proudly-support section-{{ section.id }}-padding gradient color-{{ section.settings.color_scheme }}">
-  <div class="proudly-support__wrapper page-width page-width--narrow">
+  <div class="proudly-support__wrapper page-width--narrow">
     {%- if section.settings.heading != blank -%}
     <div class="sec-head section-title-alignment-{{ section.settings.title_alignment }}">
       <h2 class="title">

@@ -68,7 +68,7 @@
     max-width: calc(50% - var(--grid-desktop-horizontal-spacing) / 2);
   }
   .multi-column-box-with-image .grid--3-col-desktop .grid__item {
-    max-width: calc(33.33% - var(--grid-desktop-horizontal-spacing) / 1);
+    max-width: calc(33.33% - var(--grid-desktop-horizontal-spacing) / 1.);
   }
 }
 

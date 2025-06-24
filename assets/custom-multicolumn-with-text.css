@@ -105,6 +105,9 @@
     .custom-multicolumn-with-text .sec-head .title.h1 {
         font-size: calc(var(--font-heading-scale)* 3.4rem);
     }
+    .custom-multicolumn-with-text .multicolumn-box .grid__item {
+      padding: 6px;
+    }
 }
 
 @media screen and (max-width: 749px) {

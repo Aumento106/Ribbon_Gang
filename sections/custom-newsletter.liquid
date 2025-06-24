@@ -65,8 +65,9 @@
 {%- endstyle -%}
 
 <div class="newsletter color-{{ section.settings.color_scheme }} gradient">
-  <div class="newsletter__wrapper content-container isolate{% if section.settings.full_width == false %} newsletter--narrow page-width{% endif %}{% if section.settings.full_width %} content-container--full-width{% endif %} section-{{ section.id }}-padding">
-    <div class="grid grid--1-col grid--2-col-tablet">
+  <div class="newsletter__wrapper content-container isolate{% if section.settings.full_width == false %} newsletter--narrow page-width{% endif %}{% if section.settings.full_width %} content-container--full-width{% endif %}">
+    <div class="section-{{ section.id }}-padding">
+      <div class="grid grid--1-col grid--2-col-tablet">
       <div class="newsletter-heading-con grid__item{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
           <h2 class="title {{ settings.heading_size }} inline-richtext">
               {{ settings.heading }}
@@ -182,6 +183,7 @@
             </div>
         {%- endcase -%}
         {%- endfor -%}
+    </div>
     </div>
     </div>
   </div>

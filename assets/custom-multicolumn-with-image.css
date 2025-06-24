@@ -188,6 +188,9 @@
   .multi-column-box-with-image .multicolumn-box .grid {
     column-gap: 10px;
   }
+  .multi-column-box-with-image .multicolumn-box .grid .grid__item {
+    max-width: calc(33.33% - 8px);
+  }
 }
 
 @media screen and (max-width: 749px) {

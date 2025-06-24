@@ -28,6 +28,18 @@
     .section-{{ section.id }}-padding .multicolumn-box .heading-with-icon-wrapper.title-{{ block.id }} > *  {
       font-weight: {{ block.settings.block_custom_font_weight }} !important;
     }
+
+    @media screen and (max-width: 1500px) {
+      .section-{{ section.id }}-padding .multicolumn-box .heading-with-icon-wrapper.title-{{ block.id }} > * {
+        font-size: 31px;
+      }
+    }
+
+    @media screen and (max-width: 989px) {
+      .section-{{ section.id }}-padding .multicolumn-box .heading-with-icon-wrapper.title-{{ block.id }} > * {
+        font-size: 28px;
+      }
+    }
   
    
     {% endfor %}

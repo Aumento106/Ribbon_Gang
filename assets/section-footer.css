@@ -494,10 +494,6 @@
   @media screen and (min-width: 750px) {
     .footer__content-top .grid {
       margin-left: -3rem;
-      justify-content: space-between;
-    }
-    .footer__content-top .grid .grid__item {
-      max-width: 45%;
     }
 
     .footer__content-top .grid__item {
@@ -690,7 +686,14 @@
 
 @media screen and (min-width: 750px) {
   .footer-bottom-menu .footer-block__details-content>li:not(:last-child) {
-      margin-right: 4rem;
+    margin-right: 4rem;
+  }
+  .footer__content-top .grid {
+    margin-left: -3rem;
+    justify-content: space-between;
+  }
+  .footer__content-top .grid .grid__item {
+    max-width: 45%;
   }
 }
 

@@ -322,7 +322,8 @@ p span.trademark-symbol-TM, a span.trademark-symbol-TM {
   font-size: 22px;
 }
 :is(h1, h2) p span.trademark-symbol {
-  font-size: 22px;
+  font-size: 30px;
+  top: -12px;
 }
 .subtitle,
 .subtitle > * {

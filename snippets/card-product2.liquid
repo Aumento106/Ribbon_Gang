@@ -144,7 +144,7 @@
               >{{ card_product.title | escape }}
               </a>
               {% else %}
-                {{ card_product.title }}
+                {{ card_product.metafields.custom.redirection_page.value }}==
                 <span
                 id="StandardCardNoMediaLink-{{ section_id }}-{{ card_product.id }}"
                 class="full-unstyled-link"

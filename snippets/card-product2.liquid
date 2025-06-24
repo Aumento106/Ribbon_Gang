@@ -134,9 +134,11 @@
               >
                 {{ card_product.title | escape }}
               </a>
-                {% elsif card_product.metafields.custom.redirection_page != blank %}
+                
+              {% assign page = card_product.metafields.custom.redirection_page.value %}
+                {% elsif page != blank %}
               <a
-                href="{{ page_.url }}"
+                href="{{ page.url }}"
                 id="CardLink-{{ section_id }}-{{ card_product.id }}"
                 class="full-unstyled-link"
                 aria-labelledby="CardLink-{{ section_id }}-{{ card_product.id }} Badge-{{ section_id }}-{{ card_product.id }}"

@@ -300,7 +300,7 @@ p .trademark-symbol, a .trademark-symbol {
   font-size: 16px;
   top: -3px;
 }
-li .trademark-symbol {
+li > .trademark-symbol {
   font-size: inherit;
   top: -3px;
 }
@@ -321,7 +321,7 @@ p .trademark-symbol-TM, a .trademark-symbol-TM {
   font-size: 12px;
   top: -5px;
 }
-li .trademark-symbol-TM {
+li > .trademark-symbol-TM {
   font-size: inherit;
   top: -3px;
 }

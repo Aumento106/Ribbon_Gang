@@ -213,10 +213,11 @@
         "column_eqWWcM": {
           "type": "column",
           "settings": {
-            "video_url": "",
+            "image": "shopify://shop_images/sddefault_7.webp",
+            "video_url": "https://youtu.be/F5NKv7KU4fY",
             "enable_video_looping": false,
-            "title": "Box title",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>"
+            "title": "STERIRACK® Trolleys - gold standard range",
+            "text": ""
           }
         }
       },

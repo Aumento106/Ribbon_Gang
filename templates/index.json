@@ -561,7 +561,7 @@
             "text": "<p>Medications room</p>",
             "text-v": "",
             "button-text": "Explore room",
-            "button-url": "shopify://collections"
+            "button-url": "shopify://pages/clean-utility-medications-room"
           }
         },
         "column_UTiAj3": {
@@ -573,7 +573,7 @@
             "text": "<p>Theatre store</p>",
             "text-v": "",
             "button-text": "Explore room",
-            "button-url": "shopify://collections"
+            "button-url": "shopify://pages/cssd-theater-store"
           }
         },
         "column_ggEGqd": {
@@ -585,7 +585,7 @@
             "text": "<p>Dispensary</p>",
             "text-v": "",
             "button-text": "Explore room",
-            "button-url": "shopify://collections"
+            "button-url": "shopify://pages/pharmacy-storage-dispensary"
           }
         }
       },

@@ -298,6 +298,10 @@ p span.trademark-symbol, a span.trademark-symbol {
   font-size: 16px;
   top: -3px;
 }
+:is(h1, h2, h3, h4, h5, h6) a span.trademark-symbol {
+  top: -9px;
+}
+
 span.trademark-symbol-TM {
   display: inline-block;
   font-size: 12px;

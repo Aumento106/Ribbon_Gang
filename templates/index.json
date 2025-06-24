@@ -802,7 +802,7 @@
             "block_custom_font_weight": "600",
             "text": "<p>SpaceLogic is proud to introduce SteriLoop™,  featuring our registered WireLoop Shape Mark – a game-changing  innovation in healthcare  storage.</p><p> SMOOTH ROUNDED CORNERS: Prevents cuts,  micro-tears, and damage to consumables</p><p>NO SHARP EDGES: Superior safety for hospital  staff and patient</p><p>ENHANCED DURABILITY AND HYGIENE:  Engineered for long-term performance</p><p><strong>Look for the Loop™ – The  ultimate in safe, smart storage</strong></p>",
             "button_label": "Shop SteriLoop™ Baskets",
-            "button_link": "shopify://collections",
+            "button_link": "shopify://products/baskets-standard_",
             "button_style_secondary": false
           }
         },

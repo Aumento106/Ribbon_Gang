@@ -88,6 +88,7 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "disabled": true,
       "settings": {
         "hide_price": false,
         "hide_sold_out": false,

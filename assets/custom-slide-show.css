@@ -68,7 +68,16 @@ slideshow-component .slideshow__slide.enable_side_image_main:before {
     }
 }
 
-@media screen and (max-width: 1440px) and (min-width: 1201px) {
+@media screen and (max-width: 1440px) and (min-width: 1361px) {
+  .section-custom-slide-show .slideshow__text-wrapper.banner__content {
+    margin-left: 12% !important;
+  }
+  .section-custom-slide-show .slideshow__text-wrapper.banner__content .banner__buttons {
+    margin-top: 19% !important;
+  }
+}
+
+@media screen and (max-width: 1360px) and (min-width: 1201px) {
   .section-custom-slide-show .slideshow__text-wrapper.banner__content {
     margin-left: 12% !important;
   }

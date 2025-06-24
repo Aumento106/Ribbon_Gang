@@ -174,7 +174,7 @@
         min-height: 400px;
     }
     .custom-multicolumn-with-image .multicolumn-box__item_inner {
-      min
+      min-height: 310px;
     }
 }
 

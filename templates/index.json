@@ -23,7 +23,7 @@
             "custom_font_weight": "600",
             "subheading": "Ollie: heading here",
             "button_label": "Shop now",
-            "link": "shopify://collections",
+            "link": "shopify://collections/shop-all",
             "button_style_secondary": false,
             "botton_position": 80,
             "show_text_box": true,

@@ -28,11 +28,11 @@
 
 {%- style -%}
   {%- for block in section.blocks -%}
-    .slideshow-component #Slider-{{ section.id }} .slideshow__slide.enable_side_image_main:after {
+    slideshow-component #Slider-{{ section.id }} .slideshow__slide.enable_side_image_main:after {
       background: url(https://cdn.shopify.com/s/files/1/0657/3388/6106/files/SpaceLogic_brain_-_left_white.png?v=1748415911) no-repeat bottom;
       background: url({{ block.settings.left_background_image | image_url }}) no-repeat bottom;
     }
-     .slideshow-component #Slider-{{ section.id }} .slideshow__slide.enable_side_image_main:before {
+     slideshow-component #Slider-{{ section.id }} .slideshow__slide.enable_side_image_main:before {
       background: url(https://cdn.shopify.com/s/files/1/0657/3388/6106/files/SpaceLogic_brain_-_right_white.png?v=1748415910) no-repeat top;
     }
     .section-custom-slide-show .banner__buttons-{{ block.id }} {

@@ -21,6 +21,7 @@
 .newsletter-form__field-wrapper .button {
   margin-top: 20px;
   background: #afafaf;
+  color: rgba(var(--color-foreground), 1);
 }
 .newsletter-form__field-wrapper .button::after,
 .newsletter-form__field-wrapper .button::before {

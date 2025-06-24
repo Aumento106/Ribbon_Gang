@@ -135,8 +135,6 @@
                 {{ card_product.title | escape }}
               </a>
                 {% elsif card_product.metafields.custom.redirection_page != blank %}
-              {% assign page_ = card_product.metafields.custom.redirection_page %}
-                {{ page_ }}==
               <a
                 href="{{ page_.url }}"
                 id="CardLink-{{ section_id }}-{{ card_product.id }}"
@@ -146,6 +144,8 @@
                 {{ card_product.title | escape }}
               </a>
               {% else %}
+              {% assign page_ = card_product.metafields.custom.redirection_page %}
+                {{ page_ }}==
                 1212
                 <span
                 id="StandardCardNoMediaLink-{{ section_id }}-{{ card_product.id }}"

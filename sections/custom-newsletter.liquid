@@ -16,7 +16,7 @@
     color: {{ settings.sub_title_color }};
   }
   .section-{{ section.id }}-padding .newsletter-heading-con .title > * {
-    font-size: {{ settings.custom_heading_size }}px;
+    font-size: {{ section.settings.custom_heading_size }}px;
     {% if section.settings.font_weight == 'none' %}
       font-weight: var(--subheading-font_weight) !important;
     {% else %}

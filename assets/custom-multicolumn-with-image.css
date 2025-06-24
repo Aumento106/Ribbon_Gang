@@ -121,7 +121,7 @@
     margin-top: 24px;
 }
 
-@media screen and (max-width: 1366px) {
+@media screen and (max-width: 1500px) {
     .custom-multicolumn-with-image .multicolumn-box__item_inner {
         min-height: 486px;
     }
@@ -131,7 +131,7 @@
         padding: 30px 24px;
     }
     .custom-multicolumn-with-image .section-sub-title.subtitle {
-      font-size: 28px;
+      font-size: 25px;
     }
     .custom-multicolumn-with-image .multicolumn-box-description.subtitle {
       font-size: 28px;

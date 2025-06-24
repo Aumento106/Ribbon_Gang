@@ -145,10 +145,10 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "page_container": "full-width",
+        "page_container": "page-width",
         "image": "shopify://shop_images/Sterirack-theatre-trolleys-4-2048x1150.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "adapt",
         "auto_mobile_height": false,
         "desktop_content_position": "middle-center",
         "show_text_box": true,

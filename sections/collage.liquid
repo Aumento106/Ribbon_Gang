@@ -52,7 +52,7 @@
 {%- endstyle -%}
 
 <div class="color-{{ section.settings.color_scheme }} gradient isolate">
-  <div class="{{ section.settings.container_size }} section-{{ section.id }}-padding">
+  <div class="{{ section.settings.container_size }} {% if section.settings.container_size == 'page-width--narrow'  %} page-width {% endif %} section-{{ section.id }}-padding">
     {%- if section.settings.heading != blank -%}
       <h2 class="collage-wrapper-title inline-richtext {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
         {{ section.settings.heading }}

@@ -185,9 +185,8 @@
 }
 
 @media screen and (max-width: 800px) {
-  .custom-multicolumn-with-image .button {
-    padding-left: 20px;
-    padding-right: 20px;
+  .multi-column-box-with-image .multicolumn-box .grid {
+    column-gap: 10px;
   }
 }
 

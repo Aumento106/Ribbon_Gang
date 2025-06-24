@@ -298,6 +298,10 @@ p .trademark-symbol, a .trademark-symbol {
   font-size: 16px;
   top: -3px;
 }
+li .trademark-symbol {
+  font-size: inherit;
+  top: -3px;
+}
 :is(h1, h2, h3, h4, h5, h6) a .trademark-symbol, :is(h1, h2, h3, h4, h5, h6) p .trademark-symbol {
   top: -5px;
   font-size: 22px;

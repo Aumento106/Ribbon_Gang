@@ -294,7 +294,7 @@ span.trademark-symbol {
   position: relative;
   top: -5px;
 }
-p span.trademark-symbol {
+p span.trademark-symbol, a span.trademark-symbol {
   font-size: 16px;
   top: -3px;
 }
@@ -306,7 +306,7 @@ span.trademark-symbol-TM {
   top: -9px;
   font-weight: inherit !important;
 }
-p span.trademark-symbol-TM {
+p span.trademark-symbol-TM, a span.trademark-symbol-TM {
   font-size: 12px;
   top: -5px;
 }

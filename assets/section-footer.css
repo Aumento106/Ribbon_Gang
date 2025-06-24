@@ -494,6 +494,10 @@
   @media screen and (min-width: 750px) {
     .footer__content-top .grid {
       margin-left: -3rem;
+      justify-content: space-between;
+    }
+    .footer__content-top .grid .grid__item {
+      max-width: 45%;
     }
 
     .footer__content-top .grid__item {

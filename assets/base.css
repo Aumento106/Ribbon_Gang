@@ -3833,6 +3833,9 @@ sup {
 .image-with-text-v1 .image-with-text__text.rte strong {
   font-weight: 700 !important;
 }
+.template-index .product-catalog-sec {
+  margin-bottom: 50px;
+}
 
 @media screen and (max-width: 1024px) {
   .title {

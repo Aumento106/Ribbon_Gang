@@ -318,6 +318,9 @@ p span.trademark-symbol-TM, a span.trademark-symbol-TM {
 :is(h1, h2, h3, h4, h5, h6) a span.trademark-symbol-TM, :is(h1, h2, h3, h4, h5, h6) p span.trademark-symbol-TM {
   top: -9px;
 }
+:is(h1, h2) p span.trademark-symbol-TM {
+  font-size: 22px;
+}
 .subtitle,
 .subtitle > * {
   font-weight: var(--subheading-font_weight) !important;

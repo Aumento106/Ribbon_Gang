@@ -494,7 +494,7 @@
       "settings": {
         "title": "<h2>Photo gallery</h2>",
         "descr": "",
-        "custom_heading_size": 52,
+        "custom_heading_size": 45,
         "mobile_custom_heading_size": 28,
         "custom_font_weight": "400",
         "description_custom_font_weight": "400",

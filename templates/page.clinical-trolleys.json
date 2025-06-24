@@ -170,10 +170,73 @@
     },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-1",
         "padding_top": 0,
         "padding_bottom": 28
+      }
+    },
+    "multicolumn_video_XRNeaW": {
+      "type": "multicolumn-video",
+      "blocks": {
+        "column_P8dYCY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/sddefault_4.webp",
+            "video_url": "https://youtu.be/xfuQA73IXpM",
+            "enable_video_looping": false,
+            "title": "STERIRACK® Trolleys - ultimate for patient care",
+            "text": ""
+          }
+        },
+        "column_GXwQjx": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/sddefault_5.webp",
+            "video_url": "https://youtu.be/eUXvhXIjWRg",
+            "enable_video_looping": false,
+            "title": "STERIRACK® Trolleys - some of our range",
+            "text": ""
+          }
+        },
+        "column_PCrHgB": {
+          "type": "column",
+          "settings": {
+            "enable_video_looping": false,
+            "title": "Box title",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>"
+          }
+        },
+        "column_eqWWcM": {
+          "type": "column",
+          "settings": {
+            "video_url": "",
+            "enable_video_looping": false,
+            "title": "Box title",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "column_P8dYCY",
+        "column_GXwQjx",
+        "column_PCrHgB",
+        "column_eqWWcM"
+      ],
+      "name": "Multicolumn video",
+      "settings": {
+        "title": "<h2>VIDEO GALLERY</h2>",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
+        "title_alignment": "center",
+        "color_scheme": "",
+        "columns_desktop": "2",
+        "box_shadow": true,
+        "box_color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "product_catalog_W3r7Xn": {
@@ -208,6 +271,7 @@
     "image_banner_dtrTwi",
     "rich_text_FgqVHG",
     "main",
+    "multicolumn_video_XRNeaW",
     "product_catalog_W3r7Xn"
   ]
 }

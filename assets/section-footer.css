@@ -326,7 +326,7 @@
   }
   .footer__content-bottom .footer-bottom-menu {
     display: flex;
-    flex: 1;
+    /* flex: 1; */
     justify-content: flex-end;
   }
 

@@ -3441,14 +3441,6 @@ span.card_product_main_desc {
   min-height: 75px;
   display: inline-block;
 }
-span.card_product_main_desc .trademark-symbol-TM {
-  font-size: 9px;
-  top: -5px;
-}
-span.card_product_main_desc .trademark-symbol {
-  font-size: 14px;
-  top: -3px;
-}
 
 @media screen and (max-width: 1320px) {
   span.card_product_main_desc {

@@ -3438,9 +3438,14 @@ ul.header__submenu li ul li a{
 
 
 span.card_product_main_desc {
-    min-height: 75px;
-    display: inline-block;
+  min-height: 75px;
+  display: inline-block;
 }
+span.card_product_main_desc .trademark-symbol-TM {
+  font-size: 9px;
+  top: -5px;
+}
+
 @media screen and (max-width: 1320px) {
   span.card_product_main_desc {
     min-height: 95px;

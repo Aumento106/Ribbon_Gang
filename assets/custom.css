@@ -3455,3 +3455,10 @@ span.card_product_main_desc .trademark-symbol {
     min-height: 95px;
   }
 }
+
+@media screen and (max-width: 989px) {
+  span.card_product_main_desc {
+    min-height: unset;
+  }
+}
+

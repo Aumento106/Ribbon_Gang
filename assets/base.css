@@ -337,8 +337,8 @@ li > .trademark-symbol-TM {
   font-size: 30px;
   top: -12px;
 }
-:not(.template-index) :is(h1, h2, h3, h4, h5, h6)  :not(.product-grid-container) .trademark-symbol-TM, 
-:not(.template-index) :is(h1, h2, h3, h4, h5, h6)  :not(.product-grid-container) .trademark-symbol {
+:not(.template-index) :is(h1, h2, h3, h4, h5, h6)  .trademark-symbol-TM, 
+:not(.template-index) :is(h1, h2, h3, h4, h5, h6)  .trademark-symbol {
   top: -24px;
   font-size: 17px;
 }

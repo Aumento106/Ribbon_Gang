@@ -16,7 +16,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Test_image.jpg",
-            "enable_side_image": false,
+            "enable_side_image": true,
             "heading": "Your trusted partner in clinical storage solutions",
             "custom_heading_size": 45,
             "mobile_custom_heading_size": 28,

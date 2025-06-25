@@ -42,13 +42,15 @@ body .rte li {
 }
 .rte li::before {
   content: "";
-  display: inline-block;
+  /* display: inline-block;
   height: 5px;
   flex: 0 0 5px;
   border-radius: 999px;
   background: rgba(var(--color-foreground), 1);
   margin-top: 10px;
+  margin-right: 10px; */
   margin-right: 10px;
+  content: "\2022";
 }
 body .rte li:not(:last-child) {
   margin-bottom: 1.6rem;

@@ -38,7 +38,7 @@ body .rte ol {
 }
 body .rte li {
   display: flex;
-  gap: 12px;
+  gap: 0;
 }
 .rte li::before {
   content: "";
@@ -48,6 +48,7 @@ body .rte li {
   border-radius: 999px;
   background: rgba(var(--color-foreground), 1);
   margin-top: 10px;
+  margin-right: 10px;
 }
 body .rte li:not(:last-child) {
   margin-bottom: 1.6rem;

@@ -37,7 +37,7 @@ body .rte ol {
   list-style: none;
 }
 body .rte li {
-  display: flex;
+  /* display: flex; */
   gap: 0;
 }
 .rte li::before {

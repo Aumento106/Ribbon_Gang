@@ -118,7 +118,8 @@
         "text_3wTHXQ": {
           "type": "text",
           "settings": {
-            "text": "<p>Our expert team brings together trusted industry-leading professionals dedicated to optimising healthcare storage. By combining specialist knowledge with a client-focused approach, we deliver tailored solutions that enhance efficiency, safety, and usability in clinical environments</p><p><strong>Key Team Members:</strong></p><p><strong>Lloyd Scott – CEO<br/></strong>With extensive industry expertise, Lloyd leads SpaceLogic with a vision for delivering premium client experiences and innovative storage solutions.<br/></p><p><strong>Adam Piech – Product sales manager (AU)<br/></strong>Adam’s 15 years of industry experience and deep product knowledge ensure exceptional customer satisfaction and engagement.</p><p><strong>Craig Stuart – Chief financial officer<br/></strong>Craig drives strategic financial planning and ensures strong risk management and operational efficiency.<br/><br/><strong>David Scott – Project team manager<br/></strong>A founder of SpaceLogic, David has over 35 years of expertise in healthcare storage design, guiding strategic innovation.<br/><br/><strong>Melissa Gillespie – Project admin kanager<br/></strong>With 15+ years in corporate coordination, Melissa ensures smooth project execution and seamless client interactions.<br/><br/><strong>Oleta Blunt – Senior marketing manager<br/></strong>Oleta’s expertise in strategic marketing and branding helps drive impactful campaigns and client relationships.<br/><br/>View our full team directory<strong> </strong><a href=\"/pages/our-team\" title=\"Our Team\"><strong>here. </strong></a></p>"
+            "text": "<p>Our expert team brings together trusted industry-leading professionals dedicated to optimising healthcare storage. By combining specialist knowledge with a client-focused approach, we deliver tailored solutions that enhance efficiency, safety, and usability in clinical environments</p><p><strong>Key Team Members:</strong></p><p><strong>Lloyd Scott – CEO<br/></strong>With extensive industry expertise, Lloyd leads SpaceLogic with a vision for delivering premium client experiences and innovative storage solutions.<br/></p><p><strong>Adam Piech – Product sales manager (AU)<br/></strong>Adam’s 15 years of industry experience and deep product knowledge ensure exceptional customer satisfaction and engagement.</p><p><strong>Craig Stuart – Chief financial officer<br/></strong>Craig drives strategic financial planning and ensures strong risk management and operational efficiency.<br/><br/><strong>David Scott – Project team manager<br/></strong>A founder of SpaceLogic, David has over 35 years of expertise in healthcare storage design, guiding strategic innovation.<br/><br/><strong>Melissa Gillespie – Project admin kanager<br/></strong>With 15+ years in corporate coordination, Melissa ensures smooth project execution and seamless client interactions.<br/><br/><strong>Oleta Blunt – Senior marketing manager<br/></strong>Oleta’s expertise in strategic marketing and branding helps drive impactful campaigns and client relationships.<br/><br/>View our full team directory<strong> </strong><a href=\"/pages/our-team\" title=\"Our Team\"><strong>here. </strong></a></p>",
+            "text_content_alignment": "center"
           }
         }
       },
@@ -127,7 +128,7 @@
         "text_3wTHXQ"
       ],
       "settings": {
-        "content_alignment": "left",
+        "content_alignment": "center",
         "content_width": "full_width",
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "full_width": true,

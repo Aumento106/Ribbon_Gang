@@ -119,7 +119,7 @@
           "type": "featured_collection",
           "settings": {
             "categories_image": "shopify://shop_images/maxresdefault.webp",
-            "collection": "medibin™-trolleys",
+            "collection": "medibin-trolleys",
             "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
             "button_card_text": "Shop now",
             "redirection_link": ""

@@ -648,7 +648,7 @@
     </div>
   </div>
   
-    {% if card_product.metafield.custom.shop_now_btn != blank or card_product.metafield.custom.shop_now_btn == false  %}
+    {% if card_product.metafields.custom.shop_now_btn != blank or card_product.metafields.custom.shop_now_btn == false  %}
       
       {% if shop_now_link != blank %}
         <a class="button button--primary" href="{{ card_product.url }}">

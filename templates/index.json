@@ -1357,7 +1357,7 @@
         "title_color": "#ffffff",
         "subheading_color": "#424242",
         "button_text": "Shop the full range",
-        "button_url": "shopify://collections",
+        "button_url": "shopify://pages/clinical-storage-systems",
         "custom_heading_size": 45,
         "mobile_custom_heading_size": 28,
         "custom_font_weight": "600",

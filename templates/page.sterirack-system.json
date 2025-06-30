@@ -104,7 +104,7 @@
           "disabled": true,
           "settings": {
             "categories_image": "shopify://shop_images/sterirack-post-strips.jpg",
-            "collection": "sterirack-colour-coding-post-strips-various-types",
+            "collection": "sterirack-colour-coding-post-strips",
             "card_text": "Use colour psychology to facilitate best practice categorisation and retrieval protocols.",
             "button_card_text": "Shop now",
             "redirection_link": ""
@@ -301,7 +301,7 @@
           "type": "featured_collection",
           "settings": {
             "categories_image": "shopify://shop_images/sterirack-post-strips.jpg",
-            "collection": "sterirack-colour-coding-post-strips-various-types",
+            "collection": "sterirack-colour-coding-post-strips",
             "card_text": "Use colour psychology to facilitate best practice categorisation and retrieval protocols.",
             "button_card_text": "Shop now",
             "redirection_link": ""

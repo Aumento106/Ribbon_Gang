@@ -15,16 +15,18 @@
         "heading_mGwXwE": {
           "type": "heading",
           "settings": {
-            "heading": "{{ page.title }}",
+            "heading": "<strong>{{ page.title }}</strong>",
             "custom_heading_size": 52,
-            "mobile_custom_heading_size": 28
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
           }
         },
         "text_7xmpEL": {
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>Remove this line of text</p>"
+            "text": "<p>Remove this line of text</p>",
+            "text_content_alignment": "center"
           }
         }
       },
@@ -118,6 +120,7 @@
         "title": "",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "image_ratio": "square",
         "columns_desktop": 3,
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
@@ -145,6 +148,7 @@
         "heading": "<p>Product Catalogue</p>",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "description": "<p>Click here to view our latest product and services catalogue in a browser without downloading.</p>",
         "button_1_text": "View catalogue",

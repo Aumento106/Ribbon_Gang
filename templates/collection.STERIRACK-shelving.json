@@ -65,12 +65,12 @@
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
-        "hide_price": true,
-        "hide_sold_out": true,
+        "hide_price": false,
+        "hide_sold_out": false,
         "products_per_page": 20,
         "columns_desktop": 4,
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "remove_product_link": true,
+        "remove_product_link": false,
         "enquire_now": "Enquire now",
         "enquire_now_url": "shopify://pages/contact",
         "shop_now": "Shop now",

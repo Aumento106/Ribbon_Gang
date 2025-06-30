@@ -79,7 +79,7 @@
           "type": "featured_collection",
           "settings": {
             "categories_image": "shopify://shop_images/01-medipanel.jpg",
-            "collection": "medibin-panels-various-types",
+            "collection": "medibin-panels",
             "card_text": "MEDIBIN™ Panels are attached to a wall to accommodate MEDIBINS™.",
             "button_card_text": "Learn more",
             "redirection_link": ""

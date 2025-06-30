@@ -98,15 +98,17 @@
         "heading_De9nEQ": {
           "type": "heading",
           "settings": {
-            "heading": "Projects",
+            "heading": "<strong>Projects</strong>",
             "custom_heading_size": 52,
-            "mobile_custom_heading_size": 28
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
           }
         },
         "text_kMYRNM": {
           "type": "text",
           "settings": {
-            "text": "<p>Across hospitals, day surgeries, and healthcare facilities in Australia, the US, and beyond, SpaceLogic partners with clients to deliver tailored, high-performance storage systems. Every project is a collaboration — from planning and prototyping to seamless installation — ensuring STERIRACK® integrates perfectly into clinical environments with minimal disruption.</p><p>Explore a selection of recent installations below, each one reflecting our commitment to better care through smarter storage.</p>"
+            "text": "<p>Across hospitals, day surgeries, and healthcare facilities in Australia, the US, and beyond, SpaceLogic partners with clients to deliver tailored, high-performance storage systems. Every project is a collaboration — from planning and prototyping to seamless installation — ensuring STERIRACK® integrates perfectly into clinical environments with minimal disruption.</p><p>Explore a selection of recent installations below, each one reflecting our commitment to better care through smarter storage.</p>",
+            "text_content_alignment": "center"
           }
         }
       },
@@ -190,6 +192,7 @@
         "heading": "",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "desktop_layout": "right",
         "mobile_layout": "collage",
         "card_styles": "product-card-wrapper",
@@ -240,6 +243,7 @@
         "heading": "",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "desktop_layout": "equal",
         "mobile_layout": "collage",
         "card_styles": "product-card-wrapper",
@@ -289,6 +293,7 @@
         "heading": "",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "desktop_layout": "left",
         "mobile_layout": "collage",
         "card_styles": "product-card-wrapper",
@@ -328,6 +333,7 @@
         "heading": "",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "desktop_layout": "equal",
         "mobile_layout": "column",
         "card_styles": "product-card-wrapper",
@@ -346,6 +352,7 @@
         "heading": "<p>Product Catalogue</p>",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "description": "<p>Click here to view our latest product and services catalogue in a browser without downloading.</p>",
         "button_1_text": "View catalogue",

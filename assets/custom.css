@@ -595,6 +595,7 @@ body .newsletter-form {
   font-size: 24px;
   font-weight: 600;
   line-height: 1.25;
+  min-height: 60px;
 }
 
 .related-products .product-card-wrapper .card__heading.h5 {

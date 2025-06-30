@@ -93,7 +93,7 @@
           "disabled": true,
           "settings": {
             "categories_image": "shopify://shop_images/STERIRACK-transport-case-cart-25_1.png",
-            "collection": "sterirack-colour-coding-post-label-holders-various-types",
+            "collection": "sterirack-colour-coding-post-label-holders",
             "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
             "button_card_text": "Learn more",
             "redirection_link": ""
@@ -291,7 +291,7 @@
           "type": "featured_collection",
           "settings": {
             "categories_image": "shopify://shop_images/STERIRACK-transport-case-cart-25_1.png",
-            "collection": "sterirack-colour-coding-post-label-holders-various-types",
+            "collection": "sterirack-colour-coding-post-label-holders",
             "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
             "button_card_text": "Learn more",
             "redirection_link": ""

@@ -99,7 +99,6 @@
         "enquire_now": "Enquire now",
         "enquire_now_url": "shopify://pages/contact",
         "shop_now": "Shop now",
-        "shop_now_link": "",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": false,
@@ -755,7 +754,7 @@
       ],
       "name": "t:sections.collage.presets.name",
       "settings": {
-        "container_size": "page-width",
+        "container_size": "page-width--narrow",
         "heading": "",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,

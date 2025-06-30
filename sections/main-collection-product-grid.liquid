@@ -174,7 +174,7 @@
                     style="--animation-order: {{ forloop.index }};"
                   {% endif %}
                 >
-                  {% if section.settings.hide_sold_out != true and section.settings.hide_price != true %}
+                 
                   {% render 'card-product',
                     card_product: product,
                     media_aspect_ratio: section.settings.image_ratio,
@@ -189,31 +189,11 @@
                     section_id: section.id,
                    remove_product_link: section.settings.remove_product_link,
                     enquire_now_button: section.settings.enquire_now,
-                    enquire_now_link: section.settings.enquire_now_url
-                  %}
-                  {% else %}
-                  {% render 'card-product2',
-                    card_product: product,
-                    media_aspect_ratio: section.settings.image_ratio,
-                    image_shape: section.settings.image_shape,
-                    show_secondary_image: section.settings.show_secondary_image,
-                    show_vendor: section.settings.show_vendor,
-                    show_rating: section.settings.show_rating,
-                    lazy_load: lazy_load,
-                    skip_styles: skip_card_product_styles,
-                    quick_add: section.settings.quick_add,
-                    learn_more_button_text: section.settings.learn_more_button_text,
-                    section_id: section.id,
-                    sold_out: section.settings.hide_sold_out,
-                    hide_price: section.settings.hide_price,
-                    remove_product_link: section.settings.remove_product_link,
-                    enquire_now_button: section.settings.enquire_now,
                     enquire_now_link: section.settings.enquire_now_url,
-                    shop_now_button: section.settings.shop_now,
-                    shop_now_link: section.settings.shop_now_link
+                    hide_price :   section.settings.hide_price,
+                      hhide_soldout : section.settings.hide_sold_out
                   %}
-                    
-                  {% endif %}
+                 
                 </li>
                 {%- assign skip_card_product_styles = true -%}
               {%- endfor -%}

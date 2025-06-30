@@ -3445,6 +3445,9 @@ span.card_product_main_desc {
   min-height: 75px;
   display: inline-block;
 }
+ul#product-grid .button {
+    width: 100%;
+}
 
 @media screen and (max-width: 1320px) {
   span.card_product_main_desc {

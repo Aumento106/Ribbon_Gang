@@ -28,6 +28,7 @@
             "heading": "Click ‘n’ Clip Label Holders",
             "custom_heading_size": 52,
             "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400",
             "heading_alignment": "center"
           }
         },
@@ -82,6 +83,7 @@
             "heading": "Click ‘n’ Clip Label Holders",
             "custom_heading_size": 52,
             "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400",
             "heading_alignment": "center"
           }
         },
@@ -115,6 +117,9 @@
         "columns_desktop": 4,
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "remove_product_link": true,
+        "enquire_now": "Enquire now",
+        "enquire_now_url": "shopify://pages/contact",
+        "shop_now": "Shop now",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": false,
@@ -138,6 +143,7 @@
           "settings": {
             "image": "shopify://shop_images/sterirack-clicknclip-coloured-label-holders-1-1536x1026.jpg",
             "title": "",
+            "block_custom_font_weight": "400",
             "text": "",
             "text-v": "",
             "button-text": "",
@@ -149,6 +155,7 @@
           "settings": {
             "image": "shopify://shop_images/sterirack-clicknclip-coloured-label-holders-2-1536x1188.jpg",
             "title": "",
+            "block_custom_font_weight": "400",
             "text": "",
             "text-v": "",
             "button-text": "",
@@ -170,10 +177,12 @@
         "button_url": "",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "title_alignment": "center",
         "color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
         "columns_desktop": "2",
         "box_shadow": false,
+        "image_auto_height": false,
         "padding_top": 36,
         "padding_bottom": 36,
         "margin_top": 0,
@@ -189,6 +198,7 @@
         "heading": "<p>Product Catalogue</p>",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "description": "<p>Click here to view our latest product and services catalogue in a browser without downloading.</p>",
         "button_1_text": "View catalogue",
@@ -286,6 +296,7 @@
         "title": "",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "image_ratio": "square",
         "columns_desktop": 3,
         "color_scheme": "",
@@ -386,7 +397,8 @@
           "settings": {
             "heading": "MEDIBIN™ Colored Label HoldersAvailable in a range of 13 vibrant colors",
             "custom_heading_size": 39,
-            "mobile_custom_heading_size": 28
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
           }
         }
       },
@@ -455,13 +467,15 @@
           "settings": {
             "heading": "Label holders and post strips in a range of 14 vibrant colors",
             "custom_heading_size": 39,
-            "mobile_custom_heading_size": 28
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
           }
         },
         "text_HpJ6Yz": {
           "type": "text",
           "settings": {
-            "text": "<p>with matching post strips</p>"
+            "text": "<p>with matching post strips</p>",
+            "text_content_alignment": "center"
           }
         }
       },
@@ -581,6 +595,7 @@
         "title": "<h2>VIDEO - Slash time spent hunting through storerooms with colored label holders​</h2>",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "title_alignment": "center",
         "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
         "columns_desktop": "3",
@@ -598,6 +613,7 @@
           "settings": {
             "image": "shopify://shop_images/sterirack-post-strips-1024x725.jpg",
             "title": "",
+            "block_custom_font_weight": "400",
             "text": "",
             "text-v": "",
             "button-text": "",
@@ -609,6 +625,7 @@
           "settings": {
             "image": "shopify://shop_images/sterirack-post-assembly.jpg",
             "title": "",
+            "block_custom_font_weight": "400",
             "text": "",
             "text-v": "",
             "button-text": "",
@@ -630,10 +647,12 @@
         "button_url": "",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "title_alignment": "center",
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "columns_desktop": "2",
         "box_shadow": false,
+        "image_auto_height": false,
         "padding_top": 36,
         "padding_bottom": 36,
         "margin_top": 0,

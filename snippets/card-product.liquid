@@ -165,6 +165,7 @@
               {% endif %}
             {% endfor %}
             {%- if card_product.available == false -%}
+              {%- if hhide_soldout != true -%}
               {%- if settings.soldout_badge_show == true -%}
                 <span
                   id="NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}"
@@ -172,6 +173,7 @@
                 >
                   {{- 'products.product.sold_out' | t -}}
                 </span>
+              {%- endif -%}
               {%- endif -%}
             {%- elsif card_product.compare_at_price > card_product.price and card_product.available -%}
               {%- if hhide_soldout != true -%}

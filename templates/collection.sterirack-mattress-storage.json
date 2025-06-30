@@ -36,6 +36,7 @@
             "heading": "<strong>STERIRACK® Mattress Storage</strong>",
             "custom_heading_size": 52,
             "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400",
             "heading_alignment": "center"
           }
         },
@@ -81,6 +82,7 @@
             "heading": "<strong>STERIRACK® Mattress Storage</strong>",
             "custom_heading_size": 52,
             "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400",
             "heading_alignment": "center"
           }
         },
@@ -108,12 +110,16 @@
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
-        "hide_price": false,
-        "hide_sold_out": false,
+        "hide_price": true,
+        "hide_sold_out": true,
         "products_per_page": 20,
         "columns_desktop": 4,
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "remove_product_link": false,
+        "remove_product_link": true,
+        "enquire_now": "",
+        "enquire_now_url": "",
+        "shop_now": "",
+        "shop_now_link": "",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": false,
@@ -206,6 +212,7 @@
         "heading": "<p>Product Catalogue</p>",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "description": "<p>Click here to view our latest product and services catalogue in a browser without downloading.</p>",
         "button_1_text": "View catalogue",
@@ -302,6 +309,7 @@
         "title": "",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "image_ratio": "square",
         "columns_desktop": 3,
         "color_scheme": "",
@@ -401,7 +409,8 @@
           "settings": {
             "heading": "MEDIBIN™ Colored Label HoldersAvailable in a range of 13 vibrant colors",
             "custom_heading_size": 39,
-            "mobile_custom_heading_size": 28
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
           }
         }
       },
@@ -466,13 +475,15 @@
           "settings": {
             "heading": "STERIRACK® Mattress Trolleys",
             "custom_heading_size": 39,
-            "mobile_custom_heading_size": 28
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
           }
         },
         "text_kzeQkw": {
           "type": "text",
           "settings": {
-            "text": "<h3>Effortless mattress transport for healthcare facilities</h3>"
+            "text": "<h3>Effortless mattress transport for healthcare facilities</h3>",
+            "text_content_alignment": "center"
           }
         }
       },

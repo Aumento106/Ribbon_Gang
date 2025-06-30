@@ -360,7 +360,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop the room",
-            "button_link_1": "shopify://collections",
+            "button_link_1": "shopify://pages/clean-utility-medications-room",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -563,7 +563,7 @@
             "text": "<p>Medications room</p>",
             "text-v": "",
             "button-text": "Explore room",
-            "button-url": "shopify://collections"
+            "button-url": "shopify://pages/clean-utility-medications-room"
           }
         },
         "column_UTiAj3": {
@@ -575,7 +575,7 @@
             "text": "<p>Theatre store</p>",
             "text-v": "",
             "button-text": "Explore room",
-            "button-url": "shopify://collections"
+            "button-url": "shopify://pages/cssd-theater-store"
           }
         },
         "column_ggEGqd": {
@@ -587,7 +587,7 @@
             "text": "<p>Dispensary</p>",
             "text-v": "",
             "button-text": "Explore room",
-            "button-url": "shopify://collections"
+            "button-url": "shopify://pages/pharmacy-storage-dispensary"
           }
         }
       },
@@ -657,7 +657,7 @@
             "custom_font_weight": "600",
             "subheading": "Bearundae voluptatem eum iditatqui aut  doluptiorest adit am rerrum sitae cor  modia voluptatist amu",
             "button_label": "Shop silicon mats",
-            "link": "shopify://collections",
+            "link": "shopify://products/sterirack®-silicon-mats",
             "button_style_secondary": false,
             "box_align": "middle-left",
             "show_text_box": false,
@@ -681,7 +681,7 @@
             "custom_font_weight": "600",
             "subheading": "Bearundae voluptatem eum iditatqui aut  doluptiorest adit am rerrum sitae cor  modia voluptatist amu",
             "button_label": "Shop suture racks and trays",
-            "link": "shopify://collections",
+            "link": "shopify://products/sterirack®-suture-shelves",
             "button_style_secondary": false,
             "box_align": "middle-left",
             "show_text_box": false,
@@ -705,7 +705,7 @@
             "custom_font_weight": "600",
             "subheading": "Bearundae voluptatem eum iditatqui aut  doluptiorest adit am rerrum sitae cor  modia voluptatist amu",
             "button_label": "Shop basket dividers",
-            "link": "shopify://collections",
+            "link": "shopify://products/sterirack-basket-divider",
             "button_style_secondary": false,
             "box_align": "middle-left",
             "show_text_box": false,

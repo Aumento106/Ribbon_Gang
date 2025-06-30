@@ -37,33 +37,6 @@
         "padding_bottom": 50
       }
     },
-    "image_banner_VgKQ7z": {
-      "type": "image-banner",
-      "name": "t:sections.image-banner.presets.name",
-      "settings": {
-        "page_container": "full-width",
-        "image": "shopify://shop_images/Blacktown_1.png",
-        "image_overlay_opacity": 0,
-        "image_height": "small",
-        "auto_mobile_height": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "margin_top": 0,
-        "margin_bottom": 32,
-        "mobile_padding_top": 0,
-        "mobile_padding_bottom": 0,
-        "mobile_margin_top": 0,
-        "mobile_margin_bottom": 0
-      }
-    },
     "section_breadcrumb_F9PzRF": {
       "type": "section-breadcrumb",
       "settings": {
@@ -335,7 +308,6 @@
   },
   "order": [
     "page_banner_YkpPpf",
-    "image_banner_VgKQ7z",
     "section_breadcrumb_F9PzRF",
     "rich_text_P3hBwh",
     "main",

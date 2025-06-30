@@ -24,14 +24,16 @@
         "text_77DGfi": {
           "type": "text",
           "settings": {
-            "text": "<p>STERIRACK® System is a range of high quality components and accessories that mix and match to create tailored storage solutions for hospitals and healthcare facilities. As the most popular clinical space management solution in the world today, STERIRACK® has been designed and developed to meet the needs of healthcare professionals, using feedback from our valued clients.</p>"
+            "text": "<p>STERIRACK® System is a range of high quality components and accessories that mix and match to create tailored storage solutions for hospitals and healthcare facilities. As the most popular clinical space management solution in the world today, STERIRACK® has been designed and developed to meet the needs of healthcare professionals, using feedback from our valued clients.</p>",
+            "text_content_alignment": "center"
           }
         },
         "text_7xmpEL": {
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>Remove this line of text</p>"
+            "text": "<p>Remove this line of text</p>",
+            "text_content_alignment": "center"
           }
         }
       },

@@ -174,6 +174,7 @@
                 </span>
               {%- endif -%}
             {%- elsif card_product.compare_at_price > card_product.price and card_product.available -%}
+              {%- if hhide_soldout != true -%}
               {%- if settings.sale_badge_show == true -%}
                 <span
                   id="NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}"
@@ -181,6 +182,7 @@
                 >
                   {{- 'products.product.on_sale' | t -}}
                 </span>
+              {%- endif -%}
               {%- endif -%}
             {%- endif -%}
           </div>

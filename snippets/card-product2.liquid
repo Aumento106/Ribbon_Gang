@@ -595,7 +595,7 @@
                             {{ card_product.title | escape }}
                           </h3>
                         </a>
-                        {% if section.settings.hide_price != true %} {% render 'price', product: card_product, price_class: '', show_compare_at_price: true %} {% elsif card_product.metafields.custom.add_link_on_product == true %} {% render 'price', product: card_product, price_class: '', show_compare_at_price: true %} {% endif %}
+                        {% if section.settings.hide_price != true %} {% render 'price', product: card_product, price_class: '', show_compare_at_price: true %} {% comment %}{% elsif card_product.metafields.custom.add_link_on_product == true %} {% render 'price', product: card_product, price_class: '', show_compare_at_price: true %}{% endcomment %} {% endif %}
                         {%- if card_product.quantity_price_breaks_configured? -%}
                           <div class="card__information-volume-pricing-note">
                             <span class="caption">{{ 'products.product.volume_pricing.note' | t }}</span>

@@ -642,11 +642,11 @@
       </div>
     </div>
   </div>
-  {% if card_product.available %}
+ 
     {% if shop_now_link != blank %}
-  <a href="{{ card_product.url }}">
-  {{ shop_now_button }}
-  </a>
+    <a href="{{ card_product.url }}">
+    {{ shop_now_button }}
+    </a>
       {% endif %}
     {% else %}
     {% if enquire_now_link != blank %}
@@ -655,7 +655,7 @@
   </a>
       {% endif %}
 
-    {% endif %}
+   
 {%- else -%}
   {%- liquid
     assign ratio = 1

@@ -647,18 +647,22 @@
       </div>
     </div>
   </div>
-      {% if shop_now_link != blank %}
-        <a class="button button--primary" href="{{ card_product.url }}">
-        {{ shop_now_button }}
-        </a>
-      {% endif %}
-    
+  
+    {% if card_product.metafield.custom.shop_now_btn != blank or card_product.metafield.custom.shop_now_btn == true  %}
       {% if enquire_now_link != blank %}
         <a class="button button--primary" href="{{ enquire_now_link }}">
         {{ enquire_now_button }}
         </a>
       {% endif %}
+      
+      {% else %}
 
+      {% if shop_now_link != blank %}
+        <a class="button button--primary" href="{{ card_product.url }}">
+        {{ shop_now_button }}
+        </a>
+      {% endif %}
+    {% endif %}
   
 {%- else -%}
   {%- liquid

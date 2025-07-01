@@ -92,6 +92,7 @@
       "settings": {
         "hide_price": false,
         "hide_sold_out": false,
+        "hide_save": false,
         "products_per_page": 20,
         "columns_desktop": 4,
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
@@ -540,7 +541,7 @@
       ],
       "name": "Multicolumn video",
       "settings": {
-        "title": "<h2>VIDEO - STERIRACK® Workstation</h2>",
+        "title": "<p>VIDEO - STERIRACK® Workstation</p>",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
         "custom_font_weight": "400",

@@ -541,8 +541,8 @@
       ],
       "name": "Multicolumn video",
       "settings": {
-        "title": "<p>VIDEO - STERIRACK® Workstation</p>",
-        "custom_heading_size": 52,
+        "title": "<h2>VIDEO - STERIRACK® Workstation</h2>",
+        "custom_heading_size": 45,
         "mobile_custom_heading_size": 28,
         "custom_font_weight": "400",
         "title_alignment": "center",

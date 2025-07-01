@@ -17,7 +17,12 @@
   height: 100%;
   object-fit: cover;
 }
-
+.banner.page-width--narrow .banner__media img {
+  object-fit: contain;
+}
+.banner.page-width--narrow .banner__media {
+  background-color: unset;
+}
 
 /* Needed for gradient continuity with or without animation, the transform scopes the gradient to its container which happens already when animation are turned on */
 .banner__box.gradient {

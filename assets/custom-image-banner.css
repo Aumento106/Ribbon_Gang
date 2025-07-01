@@ -19,6 +19,9 @@
 .banner.page-width--narrow .banner__media img {
   object-fit: contain;
 }
+.banner.page-width--narrow .banner__media {
+  background-color: unset;
+}
 .custom-image-banner .banner__box .banner__heading+* {
     margin-top: 1.6rem;
 }

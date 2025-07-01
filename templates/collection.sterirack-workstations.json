@@ -503,7 +503,7 @@
         "color_scheme": "",
         "heading_color_scheme": "",
         "columns_desktop": "4",
-        "box_shadow": false,
+        "box_shadow": true,
         "box_color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36

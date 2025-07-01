@@ -412,6 +412,49 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "multicolumn_video_xCCqQQ": {
+      "type": "multicolumn-video",
+      "blocks": {
+        "column_GaCyid": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/41-thumbnail.jpg",
+            "video_url": "https://youtu.be/UWkL7Rs0BBE?si=tzGbFewmeqFSaxMd",
+            "enable_video_looping": false,
+            "title": "",
+            "text": ""
+          }
+        },
+        "column_RnrjFH": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/46-thumbnail.jpg",
+            "video_url": "https://youtu.be/CXemPWjAEmg?si=_5C6qJbYqmKevGTp",
+            "enable_video_looping": false,
+            "title": "",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_GaCyid",
+        "column_RnrjFH"
+      ],
+      "name": "Multicolumn video",
+      "settings": {
+        "title": "<h2>Videos - Emergency Response PPE Trolleys</h2>",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
+        "title_alignment": "center",
+        "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
+        "columns_desktop": "2",
+        "box_shadow": true,
+        "box_color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -425,6 +468,7 @@
     "rich_text_CqT3jr",
     "image_with_no_text_UUP4dk",
     "video_E7wm9f",
-    "custom_multicolumn_2_MaHt4w"
+    "custom_multicolumn_2_MaHt4w",
+    "multicolumn_video_xCCqQQ"
   ]
 }

@@ -288,7 +288,7 @@
                 </span>
               </p>
             {%- endif -%}
-            {% if hide_price != true %}{% render 'price', product: card_product, price_class: '', show_compare_at_price: true %}{% endif %}
+            {% if hide_price != true %}{% render 'price', product: card_product, remove_save: hide_save , price_class: '', show_compare_at_price: true %}{% endif %}
             {%- if card_product.quantity_price_breaks_configured? -%}
               {% if card_product.variants.size == 1 and quick_add == 'bulk' %}
                 {% liquid

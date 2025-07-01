@@ -704,7 +704,7 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "page_container": "page-width",
+        "page_container": "page-width--narrow",
         "image": "shopify://shop_images/sterirack_workstation_build-your-own_c_2200px.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",

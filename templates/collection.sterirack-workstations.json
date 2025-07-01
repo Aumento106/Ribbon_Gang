@@ -619,7 +619,7 @@
         "custom_font_weight": "400",
         "desktop_layout": "left",
         "mobile_layout": "column",
-        "images_auto": false,
+        "images_auto": true,
         "card_styles": "none",
         "color_scheme": "",
         "padding_top": 0,

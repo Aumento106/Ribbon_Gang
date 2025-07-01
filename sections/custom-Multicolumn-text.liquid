@@ -20,11 +20,22 @@
       font-weight: {{ section.settings.custom_font_weight }} !important;
     {% endif %}
   }
+  
   .section-{{ section.id }}-padding .multicolumn-section-subtitle.sub--{{ block.title }} {
     font-weight: {{ section.settings.description_custom_font_weight }} !important;
   }
 
   {%- for block in section.blocks -%}
+    
+    {% if block.settings.Images_same_height %}
+      .section-{{ section.id }}-padding .grid__item.{{ block.id }} .multicolumn-box__item {
+        height: 100%;
+      }
+      .section-{{ section.id }}-padding .grid__item.{{ block.id }} .multicolumn-box__item .multicolumn-box-img-wrapper {
+        height: 100%;
+      }
+    {% endif %}
+    
     .section-{{ section.id }}-padding .multicolumn-box .heading-with-icon-wrapper.title-{{ block.id }} > *  {
       font-weight: {{ block.settings.block_custom_font_weight }} !important;
     }
@@ -98,7 +109,7 @@
 
     <div class="grid grid--1-col grid--2-col-tablet grid--{{ section.settings.columns_desktop }}-col-desktop {% if section.settings.box_shadow == true %}item-box-shadow{% endif %}">
       {%- for block in section.blocks -%}
-        <div class="grid__item" {{ block.shopify_attributes }}>
+        <div class="grid__item {{ block.id }}" {{ block.shopify_attributes }}>
           <div class="multicolumn-box__item color-{{ section.settings.box_color_scheme }} gradient">
             {%- if block.settings.image != blank -%}
               <div class="multicolumn-box-img-wrapper">
@@ -290,6 +301,12 @@
       "id": "box_shadow",
       "default": true,
       "label": "Add Remove Space"
+    },
+    {
+      "type": "checkbox",
+      "id": "Images_same_height",
+      "default": false,
+      "label": "Make all Box Images Same Hight"
     },
     {
       "type": "color_scheme",

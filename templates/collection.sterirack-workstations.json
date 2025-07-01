@@ -759,7 +759,7 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "page_container": "full-width",
+        "page_container": "page-width--narrow",
         "image": "shopify://shop_images/sterirack_workstations_choose-your-configuration_2200px.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",

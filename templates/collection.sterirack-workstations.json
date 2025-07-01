@@ -878,7 +878,7 @@
         "page_container": "page-width",
         "image": "shopify://shop_images/sterirack_workstation_build-your-own_c_2200px.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "adapt",
         "auto_mobile_height": true,
         "desktop_content_position": "middle-center",
         "show_text_box": true,

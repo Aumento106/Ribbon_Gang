@@ -115,29 +115,6 @@
         "padding_bottom": 36
       }
     },
-    "product_catalog_xdFqLr": {
-      "type": "product-catalog",
-      "disabled": true,
-      "settings": {
-        "product_image": "shopify://shop_images/image_104.png",
-        "logo_link": "",
-        "heading": "<p>Product Catalogue</p>",
-        "custom_heading_size": 52,
-        "mobile_custom_heading_size": 28,
-        "custom_font_weight": "400",
-        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
-        "description": "<p>Click here to view our latest product and services catalogue in a browser without downloading.</p>",
-        "button_1_text": "View catalogue",
-        "button_1_link": "https://online.flippingbook.com/view/393434/",
-        "button_2_text": "Download Catalog",
-        "button_2_link": "",
-        "reverse_column": true,
-        "title_color": "#424242",
-        "subheading_color": "#424242",
-        "padding_top": 20,
-        "padding_bottom": 20
-      }
-    },
     "product_list_aMiAGg": {
       "type": "product-list",
       "blocks": {
@@ -228,154 +205,6 @@
         "show_view_all": false,
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "dimension_table_cR8mFy": {
-      "type": "dimension_table",
-      "blocks": {
-        "row_kpAHbi": {
-          "type": "row",
-          "settings": {
-            "description": "Extra Small MEDIBIN™",
-            "code": "10000XS",
-            "dimensions": "100W × 120H × 215D",
-            "dimensions_inch": "",
-            "configurations_data": ""
-          }
-        },
-        "row_gk3xxN": {
-          "type": "row",
-          "settings": {
-            "description": "Small MEDIBIN™",
-            "code": "10001S",
-            "dimensions": "135W x 120H x 215D",
-            "dimensions_inch": "",
-            "configurations_data": ""
-          }
-        },
-        "row_ePetGA": {
-          "type": "row",
-          "settings": {
-            "description": "Medium MEDIBIN™",
-            "code": "10002M",
-            "dimensions": "200W x 160H x 273D",
-            "dimensions_inch": "",
-            "configurations_data": ""
-          }
-        },
-        "row_z4tfHJ": {
-          "type": "row",
-          "settings": {
-            "description": "Large MEDIBIN™",
-            "code": "10003L",
-            "dimensions": "400W x 160H x 284D",
-            "dimensions_inch": "",
-            "configurations_data": ""
-          }
-        },
-        "row_P4xVTA": {
-          "type": "row",
-          "settings": {
-            "description": "Extra Large MEDIBIN™",
-            "code": "10004XL",
-            "dimensions": "400W x 160H x 440D",
-            "dimensions_inch": "",
-            "configurations_data": ""
-          }
-        },
-        "row_U3gGd9": {
-          "type": "row",
-          "settings": {
-            "description": "Extra Extra Large MEDIBIN™ – (does not hang – shelf bin only)",
-            "code": "10040XXL",
-            "dimensions": "440W x 350H x 600D",
-            "dimensions_inch": "",
-            "configurations_data": ""
-          }
-        }
-      },
-      "block_order": [
-        "row_kpAHbi",
-        "row_gk3xxN",
-        "row_ePetGA",
-        "row_z4tfHJ",
-        "row_P4xVTA",
-        "row_U3gGd9"
-      ],
-      "disabled": true,
-      "settings": {
-        "description": "Description",
-        "code": "Code",
-        "dimensions": "Dimensions",
-        "dimensions_inch": "Dimensions (inches)",
-        "configurations": "Configurations (inches)"
-      }
-    },
-    "rich_text_CqT3jr": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_dQJMjW": {
-          "type": "heading",
-          "settings": {
-            "heading": "MEDIBIN™ Colored Label HoldersAvailable in a range of 13 vibrant colors",
-            "custom_heading_size": 39,
-            "mobile_custom_heading_size": 28,
-            "custom_font_weight": "400"
-          }
-        }
-      },
-      "block_order": [
-        "heading_dQJMjW"
-      ],
-      "disabled": true,
-      "settings": {
-        "content_alignment": "center",
-        "content_width": "medium",
-        "color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
-        "full_width": true,
-        "no_margin": false,
-        "section_border": false,
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
-    },
-    "image_with_no_text_UUP4dk": {
-      "type": "image-with-no-text",
-      "blocks": {
-        "image_Qpy3NK": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/MEDIBIN-standard-label-holders-2048x369.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "image_Qpy3NK"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "video_E7wm9f": {
-      "type": "video",
-      "disabled": true,
-      "settings": {
-        "heading": "VIDEO - Use MEDIBINS™ not non-compliant plastic bins",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video_url": "https://youtu.be/0vtNGCmZ-yQ?si=vBueGVrcmnNkQb6i",
-        "cover_image": "shopify://shop_images/maxresdefault_e72b4216-5dde-40ad-ab68-731685d0c282.webp",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -960,12 +789,7 @@
     "section_breadcrumb_nmUW87",
     "page_banner_ntmMYU",
     "product-grid",
-    "product_catalog_xdFqLr",
     "product_list_aMiAGg",
-    "dimension_table_cR8mFy",
-    "rich_text_CqT3jr",
-    "image_with_no_text_UUP4dk",
-    "video_E7wm9f",
     "custom_multicolumn_text_QKXKe6",
     "multicolumn_video_RR9UW7",
     "rich_text_yeDbtX",

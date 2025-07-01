@@ -382,10 +382,10 @@
     "custom_multicolumn_text_QKXKe6": {
       "type": "custom-Multicolumn-text",
       "blocks": {
-        "column_Pc4rbH": {
+        "column_ExmfNK": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Sydney-1.jpg",
+            "image": "shopify://shop_images/Wollongong-1.jpg",
             "title": "",
             "block_custom_font_weight": "400",
             "text": "",
@@ -406,10 +406,10 @@
             "button-url": ""
           }
         },
-        "column_ExmfNK": {
+        "column_Pc4rbH": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Wollongong-1.jpg",
+            "image": "shopify://shop_images/Sydney-1.jpg",
             "title": "",
             "block_custom_font_weight": "400",
             "text": "",
@@ -480,9 +480,9 @@
         }
       },
       "block_order": [
-        "column_Pc4rbH",
-        "column_AFpdmL",
         "column_ExmfNK",
+        "column_AFpdmL",
+        "column_Pc4rbH",
         "column_VqhRMB",
         "column_DDicwj",
         "column_4b7bJD",

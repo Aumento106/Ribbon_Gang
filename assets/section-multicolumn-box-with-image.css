@@ -116,6 +116,6 @@
 }
 
 .multi_box_image .multicolumn-box-img-wrapper {
-  max-height: 300px;
+  /* max-height: 300px; */
   overflow: hidden;
 }

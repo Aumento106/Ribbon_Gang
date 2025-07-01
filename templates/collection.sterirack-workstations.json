@@ -382,46 +382,10 @@
     "custom_multicolumn_text_QKXKe6": {
       "type": "custom-Multicolumn-text",
       "blocks": {
-        "column_ExmfNK": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Wollongong-1.jpg",
-            "title": "",
-            "block_custom_font_weight": "400",
-            "text": "",
-            "text-v": "",
-            "button-text": "",
-            "button-url": ""
-          }
-        },
-        "column_AFpdmL": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Workstation-3.jpg",
-            "title": "",
-            "block_custom_font_weight": "400",
-            "text": "",
-            "text-v": "",
-            "button-text": "",
-            "button-url": ""
-          }
-        },
         "column_Pc4rbH": {
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Sydney-1.jpg",
-            "title": "",
-            "block_custom_font_weight": "400",
-            "text": "",
-            "text-v": "",
-            "button-text": "",
-            "button-url": ""
-          }
-        },
-        "column_VqhRMB": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Wollongong-2.jpg",
             "title": "",
             "block_custom_font_weight": "400",
             "text": "",
@@ -454,10 +418,10 @@
             "button-url": ""
           }
         },
-        "column_NfKygM": {
+        "column_ExmfNK": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Leeton-1.jpg",
+            "image": "shopify://shop_images/Wollongong-1.jpg",
             "title": "",
             "block_custom_font_weight": "400",
             "text": "",
@@ -477,17 +441,53 @@
             "button-text": "",
             "button-url": ""
           }
+        },
+        "column_AFpdmL": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Workstation-3.jpg",
+            "title": "",
+            "block_custom_font_weight": "400",
+            "text": "",
+            "text-v": "",
+            "button-text": "",
+            "button-url": ""
+          }
+        },
+        "column_NfKygM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Leeton-1.jpg",
+            "title": "",
+            "block_custom_font_weight": "400",
+            "text": "",
+            "text-v": "",
+            "button-text": "",
+            "button-url": ""
+          }
+        },
+        "column_VqhRMB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Wollongong-2.jpg",
+            "title": "",
+            "block_custom_font_weight": "400",
+            "text": "",
+            "text-v": "",
+            "button-text": "",
+            "button-url": ""
+          }
         }
       },
       "block_order": [
-        "column_ExmfNK",
-        "column_AFpdmL",
         "column_Pc4rbH",
-        "column_VqhRMB",
         "column_DDicwj",
         "column_4b7bJD",
+        "column_ExmfNK",
+        "column_Aj7wtm",
+        "column_AFpdmL",
         "column_NfKygM",
-        "column_Aj7wtm"
+        "column_VqhRMB"
       ],
       "name": "Custom multicolumn text",
       "settings": {

@@ -16,7 +16,9 @@
     border: 1px solid rgba(255, 255, 255, 1);
     border-radius: 0 0 16px 16px;
 }
-
+.banner.page-width--narrow .banner__media img {
+  object-fit: contain;
+}
 .custom-image-banner .banner__box .banner__heading+* {
     margin-top: 1.6rem;
 }

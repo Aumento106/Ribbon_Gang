@@ -12,7 +12,10 @@
   border: 1px solid #fff;
   border-radius: 8px;
 }
-
+.custom-multicolumn-with-image .grid__item.Auto_image .multicolumn-box__item_inner {
+  min-height: unset;
+  padding: 0;
+}
 .custom-multicolumn-with-image .multicolumn-box__item_inner {
   position: relative;
   overflow: hidden;

@@ -141,6 +141,26 @@
   "class": "section multi_box_image custom-multicolumn-with-image",
   "settings": [
     {
+      "type": "select",
+      "id": "page_container",
+      "options": [
+        {
+        "value": "page-width",
+        "label": "Page Width"
+        },
+        {
+          "value": "page-width--narrow",
+          "label": "Medium"
+        },
+        {
+        "value": "full-width",
+        "label": "Full Width"
+        }
+      ],
+      "default": "full-width",
+      "label": "Page Container"
+    },
+    {
       "type": "richtext",
       "id": "title",
       "default": "<p>Multicolumn Box</p>",

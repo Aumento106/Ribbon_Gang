@@ -789,7 +789,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/sterirack_workstations_choose-your-overhead-configuration_2200px.jpg",
-            "image_page_container": "page-width"
+            "image_page_container": "page-width--narrow"
           }
         }
       },
@@ -818,7 +818,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/sterirack_workstations_choose-your-colour_2200px.jpg",
-            "image_page_container": "page-width"
+            "image_page_container": "page-width--narrow"
           }
         }
       },

@@ -9,17 +9,6 @@
  */
 {
   "sections": {
-    "section_breadcrumb_nmUW87": {
-      "type": "section-breadcrumb",
-      "name": "Breadcrumb",
-      "settings": {
-        "color_scheme": "",
-        "padding_top": 30,
-        "padding_bottom": 30,
-        "mobile_padding_top": 30,
-        "mobile_padding_bottom": 30
-      }
-    },
     "banner": {
       "type": "main-collection-banner",
       "disabled": true,
@@ -63,11 +52,23 @@
         "padding_bottom": 72
       }
     },
+    "section_breadcrumb_nmUW87": {
+      "type": "section-breadcrumb",
+      "name": "Breadcrumb",
+      "settings": {
+        "color_scheme": "",
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "mobile_padding_top": 30,
+        "mobile_padding_bottom": 30
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
         "hide_price": true,
         "hide_sold_out": true,
+        "hide_save": false,
         "products_per_page": 20,
         "columns_desktop": 4,
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
@@ -325,7 +326,8 @@
         "image_Qpy3NK": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/MEDIBIN-standard-label-holders-2048x369.jpg"
+            "image": "shopify://shop_images/MEDIBIN-standard-label-holders-2048x369.jpg",
+            "image_page_container": "page-width"
           }
         }
       },
@@ -335,9 +337,14 @@
       "disabled": true,
       "name": "Image with no text",
       "settings": {
+        "page_container": "full-width",
         "title": "",
-        "heading_size": "h1",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "heading_alignment": "center",
+        "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
+        "text_content_alignment": "center",
         "color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
         "padding_top": 36,
         "padding_bottom": 36
@@ -354,7 +361,8 @@
         "video_url": "https://youtu.be/0vtNGCmZ-yQ?si=vBueGVrcmnNkQb6i",
         "cover_image": "shopify://shop_images/maxresdefault_e72b4216-5dde-40ad-ab68-731685d0c282.webp",
         "description": "",
-        "full_width": false,
+        "video_btm_desc": "",
+        "page_container": "full-width",
         "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
@@ -510,7 +518,8 @@
         "video_url": "https://youtu.be/0vtNGCmZ-yQ?si=vBueGVrcmnNkQb6i",
         "cover_image": "shopify://shop_images/maxresdefault_e72b4216-5dde-40ad-ab68-731685d0c282.webp",
         "description": "",
-        "full_width": false,
+        "video_btm_desc": "",
+        "page_container": "full-width",
         "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
@@ -518,9 +527,9 @@
     }
   },
   "order": [
-    "section_breadcrumb_nmUW87",
     "banner",
     "page_banner_BXQVUB",
+    "section_breadcrumb_nmUW87",
     "product-grid",
     "product_catalog_xdFqLr",
     "product_list_aMiAGg",

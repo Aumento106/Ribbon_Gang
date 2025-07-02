@@ -115,100 +115,6 @@
         "padding_bottom": 36
       }
     },
-    "product_list_aMiAGg": {
-      "type": "product-list",
-      "blocks": {
-        "featured_collection_6k4pWc": {
-          "type": "featured_collection",
-          "settings": {
-            "categories_image": "shopify://shop_images/Blacktown_square.png",
-            "product_name": "Extra Small MEDIBIN™",
-            "collection": "medibin-system",
-            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-            "button_card_text": "Button",
-            "redirection_link": ""
-          }
-        },
-        "featured_collection_8McjeJ": {
-          "type": "featured_collection",
-          "settings": {
-            "categories_image": "shopify://shop_images/Home_20.png",
-            "product_name": "Small MEDIBIN™",
-            "collection": "medibin-system",
-            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-            "button_card_text": "Button",
-            "redirection_link": ""
-          }
-        },
-        "featured_collection_feVR7w": {
-          "type": "featured_collection",
-          "settings": {
-            "categories_image": "shopify://shop_images/Blacktown_Hospital_19.png",
-            "product_name": "Medium MEDIBIN™",
-            "collection": "medibin-system",
-            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-            "button_card_text": "Button",
-            "redirection_link": "shopify://collections/all"
-          }
-        },
-        "featured_collection_FzUGtP": {
-          "type": "featured_collection",
-          "settings": {
-            "categories_image": "shopify://shop_images/Group_1171277822.jpg",
-            "product_name": "Large MEDIBIN™",
-            "collection": "medibin-system",
-            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-            "button_card_text": "Button",
-            "redirection_link": ""
-          }
-        },
-        "featured_collection_F6ttDE": {
-          "type": "featured_collection",
-          "settings": {
-            "categories_image": "shopify://shop_images/Group_1171277824.jpg",
-            "product_name": "Extra Large MEDIBIN™",
-            "collection": "medibin-system",
-            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-            "button_card_text": "Button",
-            "redirection_link": ""
-          }
-        },
-        "featured_collection_pnAkTJ": {
-          "type": "featured_collection",
-          "settings": {
-            "categories_image": "shopify://shop_images/Group_1171277831.jpg",
-            "product_name": "Extra Extra Large MEDIBIN™",
-            "collection": "medibin-system",
-            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-            "button_card_text": "Button",
-            "redirection_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_6k4pWc",
-        "featured_collection_8McjeJ",
-        "featured_collection_feVR7w",
-        "featured_collection_FzUGtP",
-        "featured_collection_F6ttDE",
-        "featured_collection_pnAkTJ"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "custom_heading_size": 52,
-        "mobile_custom_heading_size": 28,
-        "custom_font_weight": "400",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "color_scheme": "",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "custom_multicolumn_text_QKXKe6": {
       "type": "custom-Multicolumn-text",
       "blocks": {
@@ -906,6 +812,33 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "image_banner_HKMK7h": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "page_container": "page-width--narrow",
+        "image": "shopify://shop_images/sterirack_workstation_choose-your-full-height-configuration_2200px.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "auto_height": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "padding_top": 36,
+        "padding_bottom": 0,
+        "margin_top": 36,
+        "margin_bottom": 32,
+        "mobile_padding_top": 36,
+        "mobile_padding_bottom": 36,
+        "mobile_margin_top": 36,
+        "mobile_margin_bottom": 36
+      }
     }
   },
   "order": [
@@ -914,7 +847,6 @@
     "section_breadcrumb_nmUW87",
     "page_banner_ntmMYU",
     "product-grid",
-    "product_list_aMiAGg",
     "custom_multicolumn_text_QKXKe6",
     "multicolumn_video_RR9UW7",
     "rich_text_yeDbtX",
@@ -932,6 +864,7 @@
     "rich_text_63yYaU",
     "image_with_text_v1_QTULRL",
     "image_banner_Nhme6V",
-    "rich_text_6JaCPF"
+    "rich_text_6JaCPF",
+    "image_banner_HKMK7h"
   ]
 }

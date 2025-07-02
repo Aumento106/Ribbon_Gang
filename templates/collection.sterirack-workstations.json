@@ -810,42 +810,28 @@
         "padding_bottom": 0
       }
     },
-    "image_with_text_7BEDLH": {
-      "type": "image-with-text",
+    "image_with_text_v1_QTULRL": {
+      "type": "image-with-text-v1",
       "blocks": {
-        "heading_49fHnM": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
-          }
-        },
-        "text_yxATe8": {
+        "text_YUFDYq": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>Select your bench surface to suit your application. Utilize standard laminate in dry work and storage areas, or premium solid surface surface with antimicrobial properties (highly recommended in most healthcare situations), or select an advanced option with a purpose-built stainless steel work area.</p><p>Then, choose a straight or coved edge for your benchtop. Discuss coving options with our Spacelogic consultants to ensure you make the correct choice to suit your workstation design.</p>",
             "text_style": "body"
-          }
-        },
-        "button_iDmq9U": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "heading_49fHnM",
-        "text_yxATe8",
-        "button_iDmq9U"
+        "text_YUFDYq"
       ],
-      "name": "t:sections.image-with-text.presets.name",
+      "name": "Image with text v1",
       "settings": {
+        "image": "shopify://shop_images/sterirack_workstation_choose-your-material_1100px-1024x509.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "full_width": true,
+        "enable_video_looping": false,
+        "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
@@ -880,6 +866,6 @@
     "rich_text_L7G77q",
     "image_banner_VPcnGW",
     "rich_text_63yYaU",
-    "image_with_text_7BEDLH"
+    "image_with_text_v1_QTULRL"
   ]
 }

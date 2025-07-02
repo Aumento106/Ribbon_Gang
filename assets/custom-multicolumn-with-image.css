@@ -15,6 +15,7 @@
 .custom-multicolumn-with-image .grid__item.Auto_image .multicolumn-box__item_inner {
   min-height: unset;
   padding: 0;
+  height: 100%;
 }
 .custom-multicolumn-with-image .grid__item.Auto_image .multicolumn-box__item_inner .multicolumn-box-img-wrapper {
   position: unset;

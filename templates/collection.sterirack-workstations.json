@@ -709,6 +709,8 @@
         "mobile_custom_heading_size": 28,
         "custom_font_weight": "400",
         "heading_alignment": "center",
+        "text": "",
+        "text_content_alignment": "left",
         "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36

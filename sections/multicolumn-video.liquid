@@ -6,6 +6,19 @@
     padding-top: {{ section.settings.padding_top | times: 0.35 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.35 | round: 0 }}px;
   }
+  
+  {% if section.settings.box_auto_height %}
+    .section-{{ section.id }}-padding .grid__item .multicolumn-box__item {
+      height: auto;
+      border-radius: 16px;
+    }
+    .section-{{ section.id }}-padding .grid__item .multicolumn-box__item .multicolumn-box-img-wrapper {
+      min-height: unset;
+      height: auto;
+      max-height: unset;
+    }
+  {% endif %}
+  
   .section-{{ section.id }}-padding .title > * {
     font-size: {{ section.settings.custom_heading_size }}px;
     {% if section.settings.custom_font_weight == 'none' %}
@@ -314,6 +327,12 @@
       "id": "box_shadow",
       "default": true,
       "label": "Add box shadow"
+    },
+    {
+      "type": "checkbox",
+      "id": "box_auto_height",
+      "default": false,
+      "label": "Box Auto Height"
     },
     {
       "type": "color_scheme",

@@ -24,7 +24,9 @@
 
 <section class="questions-to-ask color-{{ section.settings.color_scheme }}">
   <div class="page-width text-center mb-5">
-    <h2>Questions to ask yourself</h2>
+    <h2 class="title {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+      {{ section.settings.title }}
+    </h2>
   </div>
 
   <div class="page-width">

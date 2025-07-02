@@ -750,67 +750,32 @@
         "mobile_margin_bottom": 36
       }
     },
-    "rich_text_6JaCPF": {
-      "type": "rich-text",
+    "image_with_no_text_VYdwDB": {
+      "type": "image-with-no-text",
       "blocks": {
-        "heading_TYVRcR": {
-          "type": "heading",
+        "image_DgP3A7": {
+          "type": "image",
           "settings": {
-            "heading": "Step 3. Select your full height bay configuration",
-            "custom_heading_size": 45,
-            "mobile_custom_heading_size": 28,
-            "custom_font_weight": "400"
-          }
-        },
-        "text_AqgqcG": {
-          "type": "text",
-          "settings": {
-            "text": "<p>From a blend of user input and years of experience in the field, the following is 6 full height configurations that are also flexible and adjustable within themselves once installed. Think about the product stored and the flow of your new work area and make your choice accordingly, or come up with your own configuration.</p>",
-            "text_content_alignment": "left"
+            "image": "shopify://shop_images/sterirack_workstation_choose-your-full-height-configuration_2200px.jpg"
           }
         }
       },
       "block_order": [
-        "heading_TYVRcR",
-        "text_AqgqcG"
+        "image_DgP3A7"
       ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "content_alignment": "center",
-        "content_width": "medium",
-        "color_scheme": "",
-        "full_width": true,
-        "no_margin": false,
-        "section_border": false,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "image_banner_HKMK7h": {
-      "type": "image-banner",
-      "name": "t:sections.image-banner.presets.name",
+      "name": "Image with no text",
       "settings": {
         "page_container": "page-width--narrow",
-        "image": "shopify://shop_images/sterirack_workstation_choose-your-full-height-configuration_2200px.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "auto_height": true,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
+        "title": "Step 3. Select your full height bay configuration",
+        "custom_heading_size": 45,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
+        "heading_alignment": "center",
+        "text": "<p>From a blend of user input and years of experience in the field, the following is 6 full height configurations that are also flexible and adjustable within themselves once installed. Think about the product stored and the flow of your new work area and make your choice accordingly, or come up with your own configuration.</p>",
+        "text_content_alignment": "left",
         "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true,
         "padding_top": 36,
-        "padding_bottom": 0,
-        "margin_top": 36,
-        "margin_bottom": 0,
-        "mobile_padding_top": 36,
-        "mobile_padding_bottom": 36,
-        "mobile_margin_top": 36,
-        "mobile_margin_bottom": 36
+        "padding_bottom": 36
       }
     }
   },
@@ -836,7 +801,6 @@
     "rich_text_63yYaU",
     "image_with_text_v1_QTULRL",
     "image_banner_Nhme6V",
-    "rich_text_6JaCPF",
-    "image_banner_HKMK7h"
+    "image_with_no_text_VYdwDB"
   ]
 }

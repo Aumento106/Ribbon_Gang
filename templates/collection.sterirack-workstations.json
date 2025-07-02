@@ -641,7 +641,8 @@
         "image_Qen6WQ": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/sterirack_workstations_choose-your-configuration_2200px.webp"
+            "image": "shopify://shop_images/sterirack_workstations_choose-your-configuration_2200px.webp",
+            "image_page_container": "page-width"
           }
         }
       },
@@ -758,7 +759,8 @@
         "image_DgP3A7": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/sterirack_workstation_choose-your-full-height-configuration_2200px.jpg"
+            "image": "shopify://shop_images/sterirack_workstation_choose-your-full-height-configuration_2200px.jpg",
+            "image_page_container": "page-width--narrow"
           }
         }
       },
@@ -786,7 +788,8 @@
         "image_W4epaR": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/sterirack_workstations_choose-your-overhead-configuration_2200px.jpg"
+            "image": "shopify://shop_images/sterirack_workstations_choose-your-overhead-configuration_2200px.jpg",
+            "image_page_container": "page-width"
           }
         }
       },
@@ -814,7 +817,8 @@
         "image_xR7rhk": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/sterirack_workstations_choose-your-colour_2200px.jpg"
+            "image": "shopify://shop_images/sterirack_workstations_choose-your-colour_2200px.jpg",
+            "image_page_container": "page-width"
           }
         }
       },

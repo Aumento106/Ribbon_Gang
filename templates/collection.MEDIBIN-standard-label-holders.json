@@ -449,7 +449,7 @@
         "column_FQc8pT": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/sddefault_3.webp",
+            "image": "shopify://shop_images/sddefault_3.png",
             "video_url": "https://youtu.be/vn3dsLT8Ob8",
             "enable_video_looping": false,
             "title": "",

@@ -703,8 +703,11 @@
       ],
       "name": "Image with no text",
       "settings": {
+        "page_container": "full-width",
         "title": "Step 1. Select your bench configuration",
-        "heading_size": "h1",
+        "custom_heading_size": 45,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "heading_alignment": "center",
         "color_scheme": "",
         "padding_top": 36,

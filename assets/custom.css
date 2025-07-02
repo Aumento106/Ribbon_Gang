@@ -1736,11 +1736,13 @@ body.shopify-section-header-hidden .hotspot-product-list-main {
   column-count: 2;
   break-inside: avoid;
   gap: 30px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .hotspot-product-item {
   display: inline-block;
-  width: 100%;
+  width: calc(50% - 16px);
   break-inside: avoid;
   margin-bottom: 30px;
   font-family: "Work Sans", sans-serif;

@@ -886,6 +886,10 @@
       ],
       "name": "Questions To Ask",
       "settings": {
+        "title": "Questions to ask yourself",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6"
       }
     }

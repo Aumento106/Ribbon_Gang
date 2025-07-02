@@ -688,6 +688,29 @@
         "mobile_margin_bottom": 36
       }
     },
+    "image_with_no_text_QaLbHC": {
+      "type": "image-with-no-text",
+      "blocks": {
+        "image_Qen6WQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/sterirack_workstations_choose-your-configuration_2200px.webp"
+          }
+        }
+      },
+      "block_order": [
+        "image_Qen6WQ"
+      ],
+      "name": "Image with no text",
+      "settings": {
+        "title": "Step 1. Select your bench configuration",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "rich_text_63yYaU": {
       "type": "rich-text",
       "blocks": {
@@ -839,42 +862,6 @@
         "mobile_margin_top": 36,
         "mobile_margin_bottom": 36
       }
-    },
-    "rich_text_N33diq": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_tXJHxh": {
-          "type": "heading",
-          "settings": {
-            "heading": "Step 4. Select your overhead configuration",
-            "custom_heading_size": 45,
-            "mobile_custom_heading_size": 28,
-            "custom_font_weight": "400"
-          }
-        },
-        "text_LaX3ae": {
-          "type": "text",
-          "settings": {
-            "text": "<p>For ease of access overhead configurations are installed on sloping runners. Again make your selection based on your requirements in either standard and fine mesh, bearing in mind whatever footprint you chose for your under bench selection you will need to choose the same width for you overhead module – eg. if you choose a 600mmW x 600mmD bench module you will need to choose a 600mmW overhead module. Likewise, if you choose a 400mmW x 600mmD module for your bench option, you will need to select a 400mmW option for your overhead module. Feel free to discuss these options with our consultants.</p>",
-            "text_content_alignment": "left"
-          }
-        }
-      },
-      "block_order": [
-        "heading_tXJHxh",
-        "text_LaX3ae"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "content_alignment": "center",
-        "content_width": "medium",
-        "color_scheme": "",
-        "full_width": true,
-        "no_margin": false,
-        "section_border": false,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
     }
   },
   "order": [
@@ -897,11 +884,11 @@
     "image_banner_JiDctU",
     "rich_text_L7G77q",
     "image_banner_VPcnGW",
+    "image_with_no_text_QaLbHC",
     "rich_text_63yYaU",
     "image_with_text_v1_QTULRL",
     "image_banner_Nhme6V",
     "rich_text_6JaCPF",
-    "image_banner_HKMK7h",
-    "rich_text_N33diq"
+    "image_banner_HKMK7h"
   ]
 }

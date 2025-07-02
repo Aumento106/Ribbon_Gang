@@ -703,7 +703,7 @@
       ],
       "name": "Image with no text",
       "settings": {
-        "page_container": "full-width",
+        "page_container": "page-width--narrow",
         "title": "Step 1. Select your bench configuration",
         "custom_heading_size": 45,
         "mobile_custom_heading_size": 28,

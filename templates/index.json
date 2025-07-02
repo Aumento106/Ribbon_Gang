@@ -597,6 +597,7 @@
         "column_ggEGqd"
       ],
       "settings": {
+        "page_container": "page-width",
         "title": "<h2>Innovative storage solutions</h2>",
         "sec_subtitle": "Making space for care® across every department",
         "title_color": "#ffffff",
@@ -785,6 +786,7 @@
         "heading_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "columns_desktop": "3",
         "box_shadow": false,
+        "Images_same_height": false,
         "box_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "padding_top": 50,
         "padding_bottom": 50
@@ -1375,6 +1377,7 @@
         "column_6nDDjQ"
       ],
       "settings": {
+        "page_container": "page-width",
         "title": "<p>Find the perfect storage solution</p>",
         "sec_subtitle": "",
         "title_color": "#ffffff",
@@ -1821,7 +1824,7 @@
         "image": "shopify://shop_images/home-about.png",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "full_width": true,
+        "container_size": "page-width",
         "video_url": "",
         "enable_video_looping": false,
         "layout": "image_first",
@@ -1951,7 +1954,7 @@
         "image": "shopify://shop_images/new-product-banner.png",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "full_width": true,
+        "container_size": "page-width",
         "video_url": "",
         "enable_video_looping": false,
         "layout": "text_first",

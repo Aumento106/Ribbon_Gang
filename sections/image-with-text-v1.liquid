@@ -10,6 +10,18 @@
    /* height: auto !important;*/
       object-fit: contain;
   }
+
+  @media screen and (min-width: 750px) {
+    {% if section.settings.both_image_content_size %}
+      .section-{{ section.id }}-padding .image-with-text__grid .image-with-text__media-item {
+        width: calc(40% - var(--grid-desktop-horizontal-spacing) / 2);
+      }
+      .section-{{ section.id }}-padding .image-with-text__grid .image-with-text__text-item {
+        width: calc(60% - var(--grid-desktop-horizontal-spacing) / 2);
+      }
+    {% endif %}
+  }
+  
   {%- for block in section.blocks -%}
     .section-{{ section.id }}-padding .title.title--{{ block.id }} {
       font-size: {{ block.settings.custom_heading_size }}px;
@@ -250,6 +262,12 @@
       ],
       "default": "page-width",
       "label": "Container Size"
+    },
+    {
+      "type": "checkbox",
+      "id": "both_image_content_size",
+      "label": "Image Content Size Change",
+      "default": false
     },
     {
       "type": "header",

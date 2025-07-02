@@ -18,6 +18,7 @@
             "heading": "{{ page.title }}",
             "custom_heading_size": 52,
             "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400",
             "heading_alignment": "center"
           }
         }
@@ -45,6 +46,7 @@
         "image": "shopify://shop_images/Blacktown_1.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
+        "auto_height": false,
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
@@ -81,6 +83,7 @@
         "image": "shopify://shop_images/03-Steriack-Pharmacy-v2.jpg",
         "image_overlay_opacity": 0,
         "image_height": "small",
+        "auto_height": false,
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
@@ -107,13 +110,15 @@
           "settings": {
             "heading": "NEW! STERIRACK® Perforated Pharmacy Drawers",
             "custom_heading_size": 52,
-            "mobile_custom_heading_size": 28
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
           }
         },
         "text_7xmpEL": {
           "type": "text",
           "settings": {
-            "text": "<p>Pharmacy drawers are now available for STERIRACK® System, creating an all-in-one fully integrated medications storage solution for Pharmacies and Healthcare. Pull-out pharmacy drawers now seamlessly integrate with baskets and shelving to create versatile, modular solutions for a multiplicity of applications.</p><p>Imagine STERIRACK® Workstations created with Staron benching, shelves, baskets and pharmacy drawers for decanting medications, or full pharmacy fitouts achieved with a combination of quick-access dispensary areas with pharmacy drawers, wire shelves, and heavy duty baskets for bulk storage.</p><ul><li>Store fluids in designated areas, inside heavy duty baskets on fully-extendable drawer-runners</li><li>Create an efficient stock management system using STERIRACK® color coded labelling and post strips in 13 vibrant colors</li><li>Enjoy the quick-picking capabilities of STERIRACK® by utilising bay labelling and aisle sign plates</li></ul><p>Maximize the available space in your pharmacy or medications storeroom by using the STERIRACK® Pharmacy Drawers in combination with other STERIRACK® products. The combinations are endless!</p>"
+            "text": "<p>Pharmacy drawers are now available for STERIRACK® System, creating an all-in-one fully integrated medications storage solution for Pharmacies and Healthcare. Pull-out pharmacy drawers now seamlessly integrate with baskets and shelving to create versatile, modular solutions for a multiplicity of applications.</p><p>Imagine STERIRACK® Workstations created with Staron benching, shelves, baskets and pharmacy drawers for decanting medications, or full pharmacy fitouts achieved with a combination of quick-access dispensary areas with pharmacy drawers, wire shelves, and heavy duty baskets for bulk storage.</p><ul><li>Store fluids in designated areas, inside heavy duty baskets on fully-extendable drawer-runners</li><li>Create an efficient stock management system using STERIRACK® color coded labelling and post strips in 13 vibrant colors</li><li>Enjoy the quick-picking capabilities of STERIRACK® by utilising bay labelling and aisle sign plates</li></ul><p>Maximize the available space in your pharmacy or medications storeroom by using the STERIRACK® Pharmacy Drawers in combination with other STERIRACK® products. The combinations are endless!</p>",
+            "text_content_alignment": "center"
           }
         }
       },
@@ -185,6 +190,7 @@
         "title": "",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
@@ -222,6 +228,7 @@
         "title": "",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 1,
@@ -246,6 +253,7 @@
         "heading": "<p>Product Catalogue</p>",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "description": "<p>Click here to view our latest product and services catalogue in a browser without downloading.</p>",
         "button_1_text": "View catalogue",
@@ -268,6 +276,7 @@
         "image": "shopify://shop_images/04-Steriack-Pharmacy.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
+        "auto_height": false,
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
@@ -316,13 +325,16 @@
       ],
       "name": "Multicolumn video",
       "settings": {
+        "page_container": "page-width",
         "title": "<h2>VIDEO - STERIRACK® Pharmacy Drawers</h2><p>(Perforated drawers are not shown in these videos. Please check back soon for an updated video)</p>",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "title_alignment": "center",
         "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
         "columns_desktop": "2",
         "box_shadow": true,
+        "box_auto_height": true,
         "box_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "padding_top": 36,
         "padding_bottom": 36
@@ -336,6 +348,7 @@
         "image": "shopify://shop_images/sterirack_pharmacy_shelving_1.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
+        "auto_height": false,
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
@@ -406,7 +419,8 @@
           "settings": {
             "heading": "<strong>Pharmacy Shelving - 400W x 400D pharmacy drawers and/or baskets</strong>",
             "custom_heading_size": 31,
-            "mobile_custom_heading_size": 24
+            "mobile_custom_heading_size": 24,
+            "custom_font_weight": "400"
           }
         }
       },
@@ -433,6 +447,7 @@
         "image": "shopify://shop_images/sterirack_pharmacy_shelving_400W-x-400D_2200px.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
+        "auto_height": false,
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
@@ -459,7 +474,8 @@
           "settings": {
             "heading": "Pharmacy Shelving - 400W x 600D pharmacy drawers and/or baskets",
             "custom_heading_size": 31,
-            "mobile_custom_heading_size": 24
+            "mobile_custom_heading_size": 24,
+            "custom_font_weight": "400"
           }
         }
       },
@@ -486,6 +502,7 @@
         "image": "shopify://shop_images/sterirack_pharmacy_shelving_400W-x-600D_2200px.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
+        "auto_height": false,
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
@@ -512,7 +529,8 @@
           "settings": {
             "heading": "Pharmacy Shelving - 600W x 400D or 600W x 600D pharmacy drawers and/or baskets",
             "custom_heading_size": 31,
-            "mobile_custom_heading_size": 24
+            "mobile_custom_heading_size": 24,
+            "custom_font_weight": "400"
           }
         }
       },
@@ -539,6 +557,7 @@
         "image": "shopify://shop_images/sterirack_pharmacy_shelving_600W-x-400D_600W-x-600D_2200px.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
+        "auto_height": false,
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
@@ -565,6 +584,7 @@
           "settings": {
             "image": "shopify://shop_images/sterirack-clicknclip-coloured-label-holders-1-1536x1026.jpg",
             "title": "",
+            "block_custom_font_weight": "400",
             "text": "",
             "text-v": "",
             "button-text": "",
@@ -576,6 +596,7 @@
           "settings": {
             "image": "shopify://shop_images/sterirack-clicknclip-coloured-label-holders-2-1536x1188.jpg",
             "title": "",
+            "block_custom_font_weight": "400",
             "text": "",
             "text-v": "",
             "button-text": "",
@@ -589,6 +610,7 @@
       ],
       "name": "Custom multicolumn",
       "settings": {
+        "page_container": "full-width",
         "title": "<h2>STERIRACK® Clip 'n' Click Label Holders</h2>",
         "sec_subtitle": "with matching post strips",
         "title_color": "#424242",
@@ -597,6 +619,7 @@
         "button_url": "",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "title_alignment": "center",
         "color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
         "columns_desktop": "2",
@@ -616,13 +639,15 @@
           "settings": {
             "heading": "Label holders and post strips in a range of 14 vibrant colors",
             "custom_heading_size": 39,
-            "mobile_custom_heading_size": 28
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
           }
         },
         "text_8UYMwm": {
           "type": "text",
           "settings": {
-            "text": "<p>(including black)</p>"
+            "text": "<p>(including black)</p>",
+            "text_content_alignment": "center"
           }
         }
       },
@@ -648,7 +673,8 @@
         "image_MMe8Gk": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/sterirack-clicknclip-coloured-label-holders-3-1536x299_1.jpg"
+            "image": "shopify://shop_images/sterirack-clicknclip-coloured-label-holders-3-1536x299_1.jpg",
+            "image_page_container": "page-width"
           }
         }
       },
@@ -657,9 +683,14 @@
       ],
       "name": "Image with no text",
       "settings": {
+        "page_container": "full-width",
         "title": "",
-        "heading_size": "h1",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "heading_alignment": "center",
+        "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
+        "text_content_alignment": "center",
         "color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
         "padding_top": 36,
         "padding_bottom": 36

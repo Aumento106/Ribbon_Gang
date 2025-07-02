@@ -16,6 +16,9 @@
   min-height: unset;
   padding: 0;
 }
+.custom-multicolumn-with-image .grid__item.Auto_image .multicolumn-box__item_inner .multicolumn-box-img-wrapper {
+  position: unset;
+}
 .custom-multicolumn-with-image .multicolumn-box__item_inner {
   position: relative;
   overflow: hidden;

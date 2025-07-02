@@ -19,7 +19,14 @@
   padding-bottom: unset;
   height: 100%;
 }
-
+.video-section__media.deferred-media .video-section__poster {
+  height: auto;
+  position: unset;
+}
+.video-section__media.deferred-media .video-section__poster img {
+  position: unset;
+  height: auto;
+}
 .video-section__media.deferred-media:after {
   content: none;
 }

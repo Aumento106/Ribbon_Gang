@@ -70,7 +70,7 @@
         </div>
       </div>
     {%- endif -%}
-    <div class="image-with-no-text-img-wrapper page-width page-width--narrow">
+    <div class="image-with-no-text-img-wrapper {{ section.settings.image_page_container }} {% if section.settings.image_page_container == 'page-width--narrow'  %} page-width {% endif %}">
       {%- for block in section.blocks -%}
         {%- if block.settings.image != blank -%}
           <div class="img-box">
@@ -249,7 +249,27 @@
           "type": "image_picker",
           "id": "image",
           "label": "Image"
-        }
+        },
+        {
+          "type": "select",
+          "id": "image_page_container",
+          "options": [
+            {
+            "value": "page-width",
+            "label": "Page Width"
+            },
+            {
+              "value": "page-width--narrow",
+              "label": "Medium"
+            },
+            {
+            "value": "full-width",
+            "label": "Full Width"
+            }
+          ],
+          "default": "page-width",
+          "label": "Page Container"
+        },
       ]
     }
   ],

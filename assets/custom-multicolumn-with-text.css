@@ -22,6 +22,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  height: 100%;
 }
 .custom-multicolumn-with-text .multi-column-box-with-image .multicolumn-box .subtitle {
   font-weight: 600;

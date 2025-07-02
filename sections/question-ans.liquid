@@ -98,6 +98,50 @@
   "name": "Questions To Ask",
   "settings": [
     {
+      "type": "inline_richtext",
+      "id": "title",
+      "default": "Section title",
+      "label": "Section title"
+    },
+    {
+      "type": "range",
+      "id": "custom_heading_size",
+      "min": 20,
+      "max": 70,
+      "step": 1,
+      "default": 52,
+      "unit": "px",
+      "label": "Heading Size"
+    },
+    {
+      "type": "range",
+      "id": "mobile_custom_heading_size",
+      "min": 20,
+      "max": 40,
+      "step": 1,
+      "default": 28,
+      "unit": "px",
+      "label": "Mobile Heading Size"
+    },
+    {
+      "type": "select",
+      "id": "custom_font_weight",
+      "label": "Font Weight",
+      "default": "400",
+      "options": [
+        { "label": "Thin (100)", "value": "100" },
+        { "label": "Extra Light (200)", "value": "200" },
+        { "label": "Light (300)", "value": "300" },
+        { "label": "Regular (400)", "value": "400" },
+        { "label": "Medium (500)", "value": "500" },
+        { "label": "Semi Bold (600)", "value": "600" },
+        { "label": "Bold (700)", "value": "700" },
+        { "label": "Extra Bold (800)", "value": "800" },
+        { "label": "Black (900)", "value": "900" },
+        { "label": "None", "value": "none" }
+      ]
+    },
+    {
       "type": "color_scheme",
       "id": "color_scheme",
       "label": "Color Scheme"

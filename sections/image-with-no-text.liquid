@@ -59,7 +59,6 @@
         </h2>
         <div
           class="rich-text__text rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %} {{ section.settings.text_content_alignment }}"
-          {{ block.shopify_attributes }}
           {% if settings.animations_reveal_on_scroll %}
             data-cascade
             style="--animation-order: {{ forloop.index }};"

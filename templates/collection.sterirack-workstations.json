@@ -777,6 +777,34 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "image_with_no_text_cK7mdR": {
+      "type": "image-with-no-text",
+      "blocks": {
+        "image_W4epaR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/sterirack_workstation_choose-your-full-height-configuration_2200px.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_W4epaR"
+      ],
+      "name": "Image with no text",
+      "settings": {
+        "page_container": "page-width--narrow",
+        "title": "Step 4. Select your overhead configuration",
+        "custom_heading_size": 45,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
+        "heading_alignment": "center",
+        "text": "<p>For ease of access overhead configurations are installed on sloping runners. Again make your selection based on your requirements in either standard and fine mesh, bearing in mind whatever footprint you chose for your under bench selection you will need to choose the same width for you overhead module – eg. if you choose a 600mmW x 600mmD bench module you will need to choose a 600mmW overhead module. Likewise, if you choose a 400mmW x 600mmD module for your bench option, you will need to select a 400mmW option for your overhead module. Feel free to discuss these options with our consultants.<br/><br/></p>",
+        "text_content_alignment": "left",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -801,6 +829,7 @@
     "rich_text_63yYaU",
     "image_with_text_v1_QTULRL",
     "image_banner_Nhme6V",
-    "image_with_no_text_VYdwDB"
+    "image_with_no_text_VYdwDB",
+    "image_with_no_text_cK7mdR"
   ]
 }

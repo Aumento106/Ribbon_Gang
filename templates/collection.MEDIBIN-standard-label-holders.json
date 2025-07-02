@@ -439,7 +439,7 @@
         "column_8byWTa": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/sddefault_2.webp",
+            "image": "shopify://shop_images/sddefault_2.png",
             "video_url": "https://youtu.be/LMSV0QB6T14",
             "enable_video_looping": false,
             "title": "",

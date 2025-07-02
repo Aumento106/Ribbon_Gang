@@ -187,7 +187,7 @@
         "video_url": "https://youtu.be/Xj3eSTFXtyE",
         "cover_image": "shopify://shop_images/maxresdefault_2.webp",
         "description": "",
-        "full_width": false,
+        "page_container": "page-width--narrow",
         "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36

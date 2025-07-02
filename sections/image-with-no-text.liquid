@@ -8,6 +8,8 @@
 
   .section-{{ section.id }}-padding .title {
       font-size: {{ section.settings.custom_heading_size }}px;
+      margin-bottom: 24px;
+      margin-top: 24px;
       {% if section.settings.custom_font_weight == 'none' %}
         font-weight: var(--subheading-font_weight) !important;
       {% else %}

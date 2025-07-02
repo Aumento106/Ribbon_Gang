@@ -16,6 +16,8 @@
 .video-section__media.deferred-media {
   box-shadow: var(--media-shadow-horizontal-offset) var(--media-shadow-vertical-offset) var(--media-shadow-blur-radius)
     rgba(var(--color-shadow), var(--media-shadow-opacity));
+  padding-bottom: unset;
+  height: 100%;
 }
 
 .video-section__media.deferred-media:after {

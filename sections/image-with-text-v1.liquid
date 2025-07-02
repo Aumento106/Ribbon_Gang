@@ -6,6 +6,9 @@
     padding-top: {{ section.settings.padding_top | times: 0.55 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.55 | round: 0 }}px;
   }
+  .section-{{ section.id }}-padding .image-with-text__media img {
+   height: auto; 
+  }
   {%- for block in section.blocks -%}
     .section-{{ section.id }}-padding .title.title--{{ block.id }} {
       font-size: {{ block.settings.custom_heading_size }}px;

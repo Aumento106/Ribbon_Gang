@@ -62,7 +62,7 @@
   <div class="page-width">
     <div class="grid grid--1-col grid--3-col-desktop grid--gap-4">
       {% for block in section.blocks %}
-        <div class="box">
+        <div class="grid__item box">
           {% if block.settings.heading != blank %}
             <h4><strong>{{ block.settings.heading }}</strong></h4>
           {% endif %}

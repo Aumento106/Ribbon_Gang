@@ -70,10 +70,10 @@
         </div>
       </div>
     {%- endif -%}
-    <div class="image-with-no-text-img-wrapper {{ block.settings.image_page_container }} {% if block.settings.image_page_container == 'page-width--narrow'  %} page-width {% endif %}">
+    <div class="image-with-no-text-img-wrapper ">
       {%- for block in section.blocks -%}
         {%- if block.settings.image != blank -%}
-          <div class="img-box">
+          <div class="img-box {{ block.settings.image_page_container }} {% if block.settings.image_page_container == 'page-width--narrow'  %} page-width {% endif %}">
             {{
               block.settings.image
               | image_url: width: 1500

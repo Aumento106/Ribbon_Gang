@@ -829,7 +829,7 @@
         "image": "shopify://shop_images/sterirack_workstation_choose-your-material_1100px-1024x509.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "full_width": true,
+        "full_width": false,
         "enable_video_looping": false,
         "layout": "text_first",
         "desktop_content_position": "top",

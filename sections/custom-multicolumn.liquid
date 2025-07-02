@@ -77,7 +77,7 @@
 {%- endstyle -%}
 
 <div class="multi-column-box-with-image section-{{ section.id }} section-{{ section.id }}-padding color-{{ section.settings.color_scheme }} gradient">
-  <div class="multicolumn-box page-width">
+  <div class="multicolumn-box {{ section.settings.page_container }} {% if section.settings.page_container == 'page-width--narrow'  %} page-width {% endif %}">
     {%- if section.settings.title != blank -%}
       <div class="sec-head section-title-alignment-{{ section.settings.title_alignment }}">
         <div class="title">

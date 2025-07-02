@@ -115,6 +115,10 @@
         {%- endif -%}
       </template>
     </deferred-media>
+    {% if section.settings.video_btm_desc != blank %}
+      {{ section.settings.video_btm_desc }}
+    {% endif %}
+    
   </div>
 </div>
 
@@ -202,6 +206,11 @@
       "id": "description",
       "label": "t:sections.video.settings.description.label",
       "info": "t:sections.video.settings.description.info"
+    },
+    {
+      "type": "text",
+      "id": "video_btm_desc",
+      "label": "Video Bottom Description"
     },
     {
       "type": "header",

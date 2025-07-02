@@ -25,10 +25,10 @@
 
 {%- style -%}
 
-  {% if section.settings.auto_mobile_height %}
-    /* #Banner-{{ section.id }} .banner__media img {
-      object-fit: initial;
-    } */
+  {% if section.settings.auto_height %}
+    #Banner-{{ section.id }} .banner__media {
+      height: auto;
+    }
   {% endif %}
   #Banner-{{ section.id }} {
     padding-top: {{ section.settings.padding_top }}px;
@@ -296,7 +296,7 @@
     },
     {
       "type": "checkbox",
-      "id": "auto_mobile_height",
+      "id": "auto_height",
       "default": false,
       "label": "Enable Image Show in height"
     },

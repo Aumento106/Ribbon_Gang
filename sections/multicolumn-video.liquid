@@ -53,7 +53,7 @@
 
 
 <div class="multi-column-box-with-image section-{{ section.id }} section-{{ section.id }}-padding color-{{ section.settings.color_scheme }} gradient">
-  <div class="multicolumn-box page-width">
+  <div class="multicolumn-box {{ section.settings.page_container }} {% if section.settings.page_container == 'page-width--narrow'  %} page-width {% endif %}">
     {%- if section.settings.title != blank -%}
       <div class="sec-head section-title-alignment-{{ section.settings.title_alignment }}">
         <div class="title {{ section.settings.heading_size }}">
@@ -195,6 +195,26 @@
   "tag": "section",
   "class": "section multicolumn-video_sec",
   "settings": [
+    {
+      "type": "select",
+      "id": "page_container",
+      "options": [
+        {
+        "value": "page-width",
+        "label": "Page Width"
+        },
+        {
+          "value": "page-width--narrow",
+          "label": "Medium"
+        },
+        {
+        "value": "full-width",
+        "label": "Full Width"
+        }
+      ],
+      "default": "page-width",
+      "label": "Page Container"
+    },
     {
       "type": "richtext",
       "id": "title",

@@ -795,7 +795,7 @@
       ],
       "name": "Image with no text",
       "settings": {
-        "page_container": "page-width--narrow",
+        "page_container": "page-width",
         "title": "Step 4. Select your overhead configuration",
         "custom_heading_size": 45,
         "mobile_custom_heading_size": 28,
@@ -823,7 +823,7 @@
       ],
       "name": "Image with no text",
       "settings": {
-        "page_container": "page-width--narrow",
+        "page_container": "page-width",
         "title": "Step 5. Select your colors",
         "custom_heading_size": 45,
         "mobile_custom_heading_size": 28,

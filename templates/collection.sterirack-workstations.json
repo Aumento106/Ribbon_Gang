@@ -276,6 +276,7 @@
       ],
       "name": "Multicolumn video",
       "settings": {
+        "page_container": "page-width--narrow",
         "title": "<h2>VIDEO - STERIRACK® Workstation</h2>",
         "custom_heading_size": 45,
         "mobile_custom_heading_size": 28,
@@ -890,6 +891,8 @@
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
         "custom_font_weight": "400",
+        "heading_alignment": "center",
+        "bottom_description": "If you said ‘No’ to any of these questions your current storage system may be out-of-date or non-compliant, and STERIRACK® System is likely the perfect solution for you",
         "color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6"
       }
     }

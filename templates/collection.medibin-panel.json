@@ -514,7 +514,7 @@
       "type": "video",
       "name": "t:sections.video.presets.name",
       "settings": {
-        "heading": "VIDEO - Use MEDIBINS™ not non-compliant plastic bins",
+        "heading": "<strong>VIDEO - Use MEDIBINS™ not non-compliant plastic bins</strong>",
         "custom_heading_size": 45,
         "mobile_custom_heading_size": 28,
         "custom_font_weight": "400",

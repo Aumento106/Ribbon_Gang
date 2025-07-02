@@ -767,7 +767,7 @@
       ],
       "name": "Image with no text",
       "settings": {
-        "page_container": "page-width--narrow",
+        "page_container": "page-width",
         "title": "Step 3. Select your full height bay configuration",
         "custom_heading_size": 45,
         "mobile_custom_heading_size": 28,

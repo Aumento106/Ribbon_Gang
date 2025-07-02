@@ -22,7 +22,7 @@
 {%- endstyle -%}
 
 <div class="image-with-no-text-main section-{{ section.id }}-padding color-{{ section.settings.color_scheme }} isolate gradient">
-  <div class="page-width">
+  <div class="{{ section.settings.page_container }} {% if section.settings.page_container == 'page-width--narrow'  %} page-width {% endif %}">
     {%- if section.settings.title != blank -%}
       <div class="sec-head section-title-alignment-{{ section.settings.heading_alignment }}">
         <h2 class="title {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
@@ -55,6 +55,26 @@
   "tag": "section",
   "class": "section image-with-no-text-sec",
   "settings": [
+    {
+      "type": "select",
+      "id": "page_container",
+      "options": [
+        {
+        "value": "page-width",
+        "label": "Page Width"
+        },
+        {
+          "value": "page-width--narrow",
+          "label": "Medium"
+        },
+        {
+        "value": "full-width",
+        "label": "Full Width"
+        }
+      ],
+      "default": "full-width",
+      "label": "Page Container"
+    },
     {
       "type": "inline_richtext",
       "id": "title",

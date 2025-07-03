@@ -563,6 +563,24 @@
         "padding_bottom": 0
       }
     },
+    "video_XxUU9A": {
+      "type": "video",
+      "settings": {
+        "heading": "VIDEO - STERIRACK® Thermoplastic Benching",
+        "custom_heading_size": 45,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
+        "enable_video_looping": false,
+        "video_url": "https://youtu.be/-us47HoOsAo?si=q9ZfpM-tCFjX2cZo",
+        "cover_image": "shopify://shop_images/sddefault.jpg",
+        "description": "",
+        "video_btm_desc": "",
+        "page_container": "page-width--narrow",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -791,6 +809,7 @@
     "image_with_text_v1_D3j3pr",
     "page_banner_L4cPVw",
     "multicolumn_box_with_image_wRjkpi",
+    "video_XxUU9A",
     "related-products",
     "custom_image_text_slider_k9tKHM",
     "faq_collapsible_content_QQxiNJ",

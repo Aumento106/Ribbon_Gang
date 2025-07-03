@@ -829,7 +829,46 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/STERIRACK-transport-case-cart-22.jpg",
+        "image": "shopify://shop_images/STERIRACK-transport-case-cart-23.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_4zVDtE": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_LHUtWr": {
+          "type": "heading",
+          "settings": {
+            "heading": "Towing and transport",
+            "heading_size": "h1"
+          }
+        },
+        "text_UFWyTn": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Drawbar with ergonomic self-lifting mechanism is easy on the back. Its integrated spring pushes the drawbar up – the user can couple and uncouple carts using their feet and without having to bend over</li><li>If drawbar is not needed it folds up automatically and doesn’t present a trip hazard</li><li>The compatible drawbar coupling completes the system so that several case carts can be securely connected together</li></ul>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_LHUtWr",
+        "text_UFWyTn"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/STERIRACK-transport-case-cart-24.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -1078,6 +1117,7 @@
     "shipping_estimate_7eHtJy",
     "image_with_text_XPrchx",
     "image_with_text_VyWJkY",
+    "image_with_text_4zVDtE",
     "related-products",
     "custom_image_text_slider_k9tKHM",
     "faq_collapsible_content_QQxiNJ",

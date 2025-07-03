@@ -9,77 +9,31 @@
  */
 {
   "sections": {
-    "custom_page_banner_dHyyAj": {
-      "type": "custom-page-banner",
-      "blocks": {
-        "slide_mfK3hU": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Group_1171277884.png",
-            "image_overlay_opacity": 0
-          }
-        },
-        "slide_XDeMCn": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Group_1171277884.png",
-            "image_overlay_opacity": 0
-          }
-        },
-        "slide_GKDFbj": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Group_1171277884.png",
-            "image_overlay_opacity": 0
-          }
-        },
-        "slide_Tw3D9X": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Group_1171277884.png",
-            "image_overlay_opacity": 0
-          }
-        },
-        "slide_tKPUCL": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Group_1171277884.png",
-            "image_overlay_opacity": 0
-          }
-        },
-        "slide_Bhpywf": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Group_1171277884.png",
-            "image_overlay_opacity": 0
-          }
-        },
-        "slide_7zbnVp": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Group_1171277884.png",
-            "image_overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "slide_mfK3hU",
-        "slide_XDeMCn",
-        "slide_GKDFbj",
-        "slide_Tw3D9X",
-        "slide_tKPUCL",
-        "slide_Bhpywf",
-        "slide_7zbnVp"
-      ],
+    "image_banner_QNTcNG": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "layout": "full_bleed",
-        "slide_height": "small",
+        "page_container": "full-width",
+        "image": "shopify://shop_images/sterirack_benching_thermoplastic_2200px.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "auto_height": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
         "image_behavior": "none",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "mobile_padding_top": 36,
+        "mobile_padding_bottom": 36,
+        "mobile_margin_top": 36,
+        "mobile_margin_bottom": 36
       }
     },
     "section_breadcrumb_JneyLg": {
@@ -351,7 +305,8 @@
           "settings": {
             "heading": "Transport Case Cart <strong>Details</strong>",
             "custom_heading_size": 52,
-            "mobile_custom_heading_size": 28
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
           }
         }
       },
@@ -378,7 +333,8 @@
           "settings": {
             "heading": "Superior Strength and Durability",
             "custom_heading_size": 52,
-            "mobile_custom_heading_size": 28
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
           }
         },
         "text_XWWeWi": {
@@ -407,6 +363,8 @@
         "image": "shopify://shop_images/superior-strength-and-durability.png",
         "height": "adapt",
         "desktop_image_width": "medium",
+        "container_size": "page-width",
+        "both_image_content_size": false,
         "video_url": "",
         "enable_video_looping": false,
         "layout": "image_first",
@@ -429,7 +387,8 @@
           "settings": {
             "heading": "Identification and labeling",
             "custom_heading_size": 52,
-            "mobile_custom_heading_size": 28
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
           }
         },
         "text_FYk9bD": {
@@ -458,6 +417,8 @@
         "image": "shopify://shop_images/identification-and-labeling.png",
         "height": "adapt",
         "desktop_image_width": "medium",
+        "container_size": "page-width",
+        "both_image_content_size": false,
         "video_url": "",
         "enable_video_looping": false,
         "layout": "text_first",
@@ -480,7 +441,8 @@
           "settings": {
             "heading": "Towing and transport",
             "custom_heading_size": 52,
-            "mobile_custom_heading_size": 28
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
           }
         },
         "text_dkB3at": {
@@ -509,6 +471,8 @@
         "image": "shopify://shop_images/towing-and-transport.png",
         "height": "adapt",
         "desktop_image_width": "medium",
+        "container_size": "page-width",
+        "both_image_content_size": false,
         "video_url": "",
         "enable_video_looping": false,
         "layout": "image_first",
@@ -523,215 +487,38 @@
         "padding_bottom": 36
       }
     },
-    "image_with_text_v1_GhUNU6": {
-      "type": "image-with-text-v1",
+    "page_banner_L4cPVw": {
+      "type": "page-banner",
       "blocks": {
-        "heading_ymGD7y": {
+        "heading_MDLR9K": {
           "type": "heading",
           "settings": {
-            "heading": "Protection and maneuvrability",
-            "custom_heading_size": 52,
-            "mobile_custom_heading_size": 28
+            "heading": "STERIRACK® Thermoplastic Benching",
+            "custom_heading_size": 45,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400",
+            "heading_alignment": "center"
           }
         },
-        "text_kF7KLU": {
+        "text_9Xedrk": {
           "type": "text",
           "settings": {
-            "text": "<ul><li>Heavy duty nylon buffers for cart protection</li><li>Fully stainless steel castors and bearings with clinical grade non-marking tread</li><li>Full length handles on all four corners for ease of maneuvring and extra protection of cart</li></ul>",
-            "text_style": "body"
-          }
-        },
-        "button_wGw4Xi": {
-          "type": "button",
-          "settings": {
-            "button_label": "Read More",
-            "button_link": "#",
-            "button_style_secondary": false
+            "text": "<p>An application specific workbench for the storage, preparation and application of thermoplastic procedures. These workbenches can be customized in length, with any configuration of baskets, shelves and dividers. The configurations are endless! Speak with one of our expert consultants when designing your custom Thermoplastic Workbench.</p><ul><li>Storage for tools and consumables</li><li>Vertical storage of thermoplastic sheets for easy selection and retrieval</li><li>A subtly-positioned replaceable cutting inlay in the solid-surface benchtop work area</li></ul>",
+            "text_alignment": "center"
           }
         }
       },
       "block_order": [
-        "heading_ymGD7y",
-        "text_kF7KLU",
-        "button_wGw4Xi"
+        "heading_MDLR9K",
+        "text_9Xedrk"
       ],
-      "disabled": true,
       "settings": {
-        "image": "shopify://shop_images/STERIRACK-transport-case-cart-25_1.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "video_url": "",
-        "enable_video_looping": false,
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "image_with_text_v1_iVfAzg": {
-      "type": "image-with-text-v1",
-      "blocks": {
-        "heading_dx74kD": {
-          "type": "heading",
-          "settings": {
-            "heading": "Internal configuration",
-            "custom_heading_size": 52,
-            "mobile_custom_heading_size": 28
-          }
-        },
-        "text_er44G4": {
-          "type": "text",
-          "settings": {
-            "text": "<ul><li>Adjustable runners with stainless steel slide in/out shelves (600mmL x 300mmW)</li><li>Eight levels on each side with aluminum sterilization containers (total of 16)</li><li>Aluminum sterilization containers (285mmW x 460mmL x 145mmH)</li><li>Silicon anti-slip mat</li></ul>",
-            "text_style": "body"
-          }
-        },
-        "button_A9mYtr": {
-          "type": "button",
-          "settings": {
-            "button_label": "Read More",
-            "button_link": "#",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_dx74kD",
-        "text_er44G4",
-        "button_A9mYtr"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "shopify://shop_images/STERIRACK-transport-case-cart-26.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "video_url": "",
-        "enable_video_looping": false,
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "image_with_text_v1_tWdMdC": {
-      "type": "image-with-text-v1",
-      "blocks": {
-        "heading_hrDKH9": {
-          "type": "heading",
-          "settings": {
-            "heading": "Door features",
-            "custom_heading_size": 52,
-            "mobile_custom_heading_size": 28
-          }
-        },
-        "text_jMmCWC": {
-          "type": "text",
-          "settings": {
-            "text": "<ul><li>Bottom door latch to hold door position at 270°</li><li>Top door latch to hold doors in the closed position</li><li>3-point stainless door locking mechanism</li><li>Fully sealed doors preventing contamination</li><li>Security seal provision</li></ul>",
-            "text_style": "body"
-          }
-        },
-        "button_EK6m9U": {
-          "type": "button",
-          "settings": {
-            "button_label": "Read More",
-            "button_link": "#",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_hrDKH9",
-        "text_jMmCWC",
-        "button_EK6m9U"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "shopify://shop_images/STERIRACK-transport-case-cart-27.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "video_url": "",
-        "enable_video_looping": false,
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "image_with_no_text_8FA38J": {
-      "type": "image-with-no-text",
-      "blocks": {
-        "image_Y8tbgH": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/transport-case-carts-samples.png"
-          }
-        }
-      },
-      "block_order": [
-        "image_Y8tbgH"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "Internal Configuration <strong>Samples</strong>",
-        "heading_alignment": "center",
-        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "image_with_no_text_pt9hhC": {
-      "type": "image-with-no-text",
-      "blocks": {
-        "image_KgDRNk": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/transport-case-carts-dimensions.png"
-          }
-        }
-      },
-      "block_order": [
-        "image_KgDRNk"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "Product <strong>Dimensions</strong>",
-        "heading_alignment": "center",
-        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "padding_top": 36,
-        "padding_bottom": 72
-      }
-    },
-    "shipping_estimate_7eHtJy": {
-      "type": "shipping-estimate",
-      "disabled": true,
-      "settings": {
-        "heading": "<p>Shipping <strong>Estimate</strong></p>",
-        "heading_size": "h1",
         "title_alignment": "center",
-        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "btn": "Estimate",
-        "enable_secondary_btn": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "full_width": true,
+        "content_width": "full_width",
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "padding_top": 72,
+        "padding_bottom": 72
       }
     },
     "related-products": {
@@ -766,6 +553,7 @@
             "heading": "<p>BIM Files</p>",
             "block_custom_heading_size": 52,
             "mobile_block_custom_heading_size": 28,
+            "block_custom_font_weight": "400",
             "text": "<p>BIM files are available for download on request. To protect specification integrity, access is granted to trusted partners via password or tokenised link. Please contact us to request access and include your project or firm details for review.</p>",
             "button_label": "BIM file request",
             "button_link": "mailto:sales@spacelogicgroup.com",
@@ -777,6 +565,7 @@
         "slide_UBnzye"
       ],
       "settings": {
+        "enable_content_page_width": false,
         "heading": "",
         "sec_des": "",
         "title_color": "#ffffff",
@@ -784,6 +573,7 @@
         "title_alignment": "center",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "layout": "image_first",
         "content_layout": "no-overlap",
         "height": "extra-small",
@@ -883,6 +673,7 @@
         "heading": "<p>Product Catalogue</p>",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "description": "<p>Click here to view our latest product and services catalogue in a browser without downloading.</p>",
         "button_1_text": "View catalogue",
@@ -949,19 +740,14 @@
     }
   },
   "order": [
-    "custom_page_banner_dHyyAj",
+    "image_banner_QNTcNG",
     "section_breadcrumb_JneyLg",
     "main",
     "rich_text_dwzN8N",
     "image_with_text_v1_HEUki7",
     "image_with_text_v1_3bV76A",
     "image_with_text_v1_D3j3pr",
-    "image_with_text_v1_GhUNU6",
-    "image_with_text_v1_iVfAzg",
-    "image_with_text_v1_tWdMdC",
-    "image_with_no_text_8FA38J",
-    "image_with_no_text_pt9hhC",
-    "shipping_estimate_7eHtJy",
+    "page_banner_L4cPVw",
     "related-products",
     "custom_image_text_slider_k9tKHM",
     "faq_collapsible_content_QQxiNJ",

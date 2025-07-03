@@ -529,7 +529,8 @@
           "settings": {
             "image": "shopify://shop_images/STERIRACK-Thermoplastic-Benching-measurements-in-mm-1024x212.jpg",
             "title": "Dimensions of unit pictured above in mm",
-            "text": ""
+            "text": "",
+            "content_alignment": "center"
           }
         },
         "column_pQKUhW": {
@@ -537,7 +538,8 @@
           "settings": {
             "image": "shopify://shop_images/STERIRACK-Thermoplastic-Benching-measurements-in-inches-1024x212.jpg",
             "title": "Dimensions of unit pictured above in inches",
-            "text": ""
+            "text": "",
+            "content_alignment": "center"
           }
         }
       },

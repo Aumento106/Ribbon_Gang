@@ -5,6 +5,9 @@
     padding-top: {{ section.settings.padding_top | times: 0.55 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.55 | round: 0 }}px;
   }
+  .multi-column-box-with-image.section-{{ section.id }} .subtitle {
+    width: 100%;
+  }
   .multi-column-box-with-image.section-{{ section.id }} .sec-head .title > * {
     font-size: {{ section.settings.custom_heading_size }}px;
     {% if section.settings.custom_font_weight == 'none' %}
@@ -294,7 +297,7 @@
               "label": "Right"
             }
           ],
-          "default": "center",
+          "default": "left",
           "label": "Content alignment"
         }
       ]

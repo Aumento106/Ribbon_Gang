@@ -912,7 +912,19 @@
         "column_Ep3tkP": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Wollongong-2.jpg",
+            "image": "shopify://shop_images/Macksville-1.jpg",
+            "title": "",
+            "block_custom_font_weight": "400",
+            "text": "",
+            "text-v": "",
+            "button-text": "",
+            "button-url": ""
+          }
+        },
+        "column_9CDaC4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Macksville-1.jpg",
             "title": "",
             "block_custom_font_weight": "400",
             "text": "",
@@ -930,7 +942,8 @@
         "column_GdNJkm",
         "column_VTjVah",
         "column_q7YMYr",
-        "column_Ep3tkP"
+        "column_Ep3tkP",
+        "column_9CDaC4"
       ],
       "name": "Custom multicolumn text",
       "settings": {

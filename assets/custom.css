@@ -1848,6 +1848,9 @@ body.shopify-section-header-hidden .hotspot-product-list-main {
 .breadcrumb-sec-main .breadcrumbs {
   margin: 0;
 }
+.custom-multicolumn2 .multicolumn-list .multicolumn-card__image-wrapper {
+  border-radius: 16px;
+}
 
 
 @media screen and (max-width: 1244px) {

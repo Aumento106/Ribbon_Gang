@@ -611,7 +611,7 @@
         "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
         "columns_desktop": "3",
         "box_shadow": false,
-        "image_auto_height1": true,
+        "image_auto_height1": false,
         "auto_width": false,
         "padding_top": 50,
         "padding_bottom": 50,

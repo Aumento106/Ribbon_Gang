@@ -796,7 +796,7 @@
         "height": "adapt",
         "desktop_image_width": "medium",
         "container_size": "page-width",
-        "both_image_content_size": false,
+        "both_image_content_size": true,
         "enable_video_looping": false,
         "layout": "text_first",
         "desktop_content_position": "top",

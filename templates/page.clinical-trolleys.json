@@ -163,7 +163,7 @@
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "content_alignment": "center",
-        "content_width": "medium",
+        "content_width": "full_width",
         "color_scheme": "",
         "full_width": true,
         "no_margin": false,

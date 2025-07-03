@@ -1002,7 +1002,7 @@
         "Images_same_height": true,
         "box_color_scheme": "",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
     "related-products": {

@@ -1,13 +1,11 @@
 .image-with-no-text-sec .sec-head {
     margin-bottom: 4rem;
 }
-
 .image-with-no-text-img-wrapper .img-box {
   border-radius: 16px;
   overflow: hidden;
   box-shadow: 0px 0px 40px 0px #00000014;
 }
-
 .image-with-no-text-img-wrapper .img-box img {
   width: 100%;
   height: auto;
@@ -15,7 +13,9 @@
 }
 
 @media screen and (max-width: 989px) {
-    .image-with-no-text-sec .sec-head {
-        margin-bottom: 2rem;
-    }
+  
+  .image-with-no-text-sec .sec-head {
+      margin-bottom: 2rem;
+  }
+  
 }

@@ -521,6 +521,46 @@
         "padding_bottom": 72
       }
     },
+    "multicolumn_box_with_image_wRjkpi": {
+      "type": "multicolumn-box-with-image",
+      "blocks": {
+        "column_FcCUDW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/STERIRACK-Thermoplastic-Benching-measurements-in-mm-1024x212.jpg",
+            "title": "Dimensions of unit pictured above in mm",
+            "text": ""
+          }
+        },
+        "column_pQKUhW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/STERIRACK-Thermoplastic-Benching-measurements-in-inches-1024x212.jpg",
+            "title": "Dimensions of unit pictured above in inches",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_FcCUDW",
+        "column_pQKUhW"
+      ],
+      "name": "Multicolumn with image",
+      "settings": {
+        "title": "",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
+        "title_alignment": "center",
+        "color_scheme": "",
+        "heading_color_scheme": "",
+        "columns_desktop": "2",
+        "box_shadow": true,
+        "box_color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -748,6 +788,7 @@
     "image_with_text_v1_3bV76A",
     "image_with_text_v1_D3j3pr",
     "page_banner_L4cPVw",
+    "multicolumn_box_with_image_wRjkpi",
     "related-products",
     "custom_image_text_slider_k9tKHM",
     "faq_collapsible_content_QQxiNJ",

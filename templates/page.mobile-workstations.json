@@ -232,7 +232,7 @@
       "settings": {
         "page_container": "page-width--narrow",
         "title": "<p>Multicolumn Box</p>",
-        "sec_subtitle": "Subtitle",
+        "sec_subtitle": "",
         "title_color": "#424242",
         "subheading_color": "#424242",
         "button_text": "",

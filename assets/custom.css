@@ -1849,7 +1849,7 @@ body.shopify-section-header-hidden .hotspot-product-list-main {
   margin: 0;
 }
 .custom-multicolumn2 .multicolumn-list .multicolumn-card__image-wrapper {
-  border-radius: 16px;
+  border-radius: 16px !important;
 }
 
 

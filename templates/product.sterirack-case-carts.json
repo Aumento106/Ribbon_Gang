@@ -927,7 +927,7 @@
       ],
       "name": "Image with text v1",
       "settings": {
-        "image": "shopify://shop_images/STERIRACK-transport-case-cart-24.jpg",
+        "image": "shopify://shop_images/STERIRACK-transport-case-cart-25.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "container_size": "page-width",
@@ -942,6 +942,163 @@
         "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_v1_44qVbk": {
+      "type": "image-with-text-v1",
+      "blocks": {
+        "heading_WPapA3": {
+          "type": "heading",
+          "settings": {
+            "heading": "Internal configuration",
+            "custom_heading_size": 45,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
+          }
+        },
+        "text_pJERgD": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Adjustable runners with stainless steel slide in/out shelves (600mmL x 300mmW)</li><li>Eight levels on each side with aluminum sterilisation containers (total of 16)</li><li>Aluminum sterilisation containers (285mmW x 460mmL x 145mmH)</li><li>Silicon anti-slip mat</li></ul>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_WPapA3",
+        "text_pJERgD"
+      ],
+      "name": "Image with text v1",
+      "settings": {
+        "image": "shopify://shop_images/STERIRACK-transport-case-cart-26.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "container_size": "page-width",
+        "both_image_content_size": true,
+        "video_url": "",
+        "enable_video_looping": false,
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_v1_47QnjB": {
+      "type": "image-with-text-v1",
+      "blocks": {
+        "heading_YEYUbc": {
+          "type": "heading",
+          "settings": {
+            "heading": "Door features",
+            "custom_heading_size": 45,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
+          }
+        },
+        "text_PpDXRm": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Bottom door latch to hold door position at 270°</li><li>Top door latch to hold doors in the closed position</li><li>3-point stainless door locking mechanism</li><li>Fully sealed doors preventing contamination</li><li>Security seal provision</li></ul>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YEYUbc",
+        "text_PpDXRm"
+      ],
+      "name": "Image with text v1",
+      "settings": {
+        "image": "shopify://shop_images/STERIRACK-transport-case-cart-27.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "container_size": "page-width",
+        "both_image_content_size": true,
+        "video_url": "",
+        "enable_video_looping": false,
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_box_with_image_GHNQxK": {
+      "type": "multicolumn-box-with-image",
+      "blocks": {
+        "column_ygcgFG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/STERIRACK-transport-case-cart-7.jpg",
+            "title": "",
+            "text": ""
+          }
+        },
+        "column_F8mmB4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/STERIRACK-transport-case-cart-18.jpg",
+            "title": "",
+            "text": ""
+          }
+        },
+        "column_qCmPzx": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/STERIRACK-transport-case-cart-19.jpg",
+            "title": "",
+            "text": ""
+          }
+        },
+        "column_f6xAWq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/STERIRACK-transport-case-cart-20.jpg",
+            "title": "",
+            "text": ""
+          }
+        },
+        "column_a3VXYE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/STERIRACK-transport-case-cart-21.jpg",
+            "title": "",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_ygcgFG",
+        "column_F8mmB4",
+        "column_qCmPzx",
+        "column_f6xAWq",
+        "column_a3VXYE"
+      ],
+      "name": "Multicolumn with image",
+      "settings": {
+        "title": "<h2>Internal configuration samples</h2>",
+        "custom_heading_size": 45,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
+        "title_alignment": "center",
+        "color_scheme": "",
+        "heading_color_scheme": "",
+        "columns_desktop": "3",
+        "box_shadow": true,
+        "box_color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -1014,154 +1171,6 @@
         "padding_top": 70,
         "padding_bottom": 70
       }
-    },
-    "faq_collapsible_content_QQxiNJ": {
-      "type": "faq-collapsible-content",
-      "blocks": {
-        "collapsible_row_kdXQ4N": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "What are Space Logic?",
-            "row_content": "<p>Yes! Once you choose your design, website name and plan, we will set up your website for you to look exactly like the design you choose, updated with your content and images.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_8w3BXU": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Are Space Logic safe?",
-            "row_content": "<p>Yes! Once you choose your design, website name and plan, we will set up your website for you to look exactly like the design you choose, updated with your content and images.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_gCJNRQ": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Can I take Space Logic on top of my supplement regimen?",
-            "row_content": "<p>Yes! Once you choose your design, website name and plan, we will set up your website for you to look exactly like the design you choose, updated with your content and images.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_KJWhCp": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Will Space Logic help me be smarter?",
-            "row_content": "<p>Yes! Once you choose your design, website name and plan, we will set up your website for you to look exactly like the design you choose, updated with your content and images.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_nFHcKF": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Can I take Space Logic on top of my supplement regimen?",
-            "row_content": "<p>Yes! Once you choose your design, website name and plan, we will set up your website for you to look exactly like the design you choose, updated with your content and images.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_6iW34b": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Will Space Logic help me be smarter?",
-            "row_content": "<p>Yes! Once you choose your design, website name and plan, we will set up your website for you to look exactly like the design you choose, updated with your content and images.</p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_row_kdXQ4N",
-        "collapsible_row_8w3BXU",
-        "collapsible_row_gCJNRQ",
-        "collapsible_row_KJWhCp",
-        "collapsible_row_nFHcKF",
-        "collapsible_row_6iW34b"
-      ],
-      "disabled": true,
-      "settings": {
-        "heading": "<p>Frequently asked questions <strong>Space Logic</strong></p>",
-        "text": "",
-        "button_label": "See All FAQ",
-        "button_link": "#",
-        "heading_size": "h1",
-        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "container_color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
-        "open_first_collapsible_row": true,
-        "padding_top": 72,
-        "padding_bottom": 72
-      }
-    },
-    "product_catalog_3wJXkE": {
-      "type": "product-catalog",
-      "disabled": true,
-      "settings": {
-        "product_image": "shopify://shop_images/image_104.png",
-        "logo_link": "",
-        "heading": "<p>Product Catalogue</p>",
-        "custom_heading_size": 52,
-        "mobile_custom_heading_size": 28,
-        "custom_font_weight": "400",
-        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
-        "description": "<p>Click here to view our latest product and services catalogue in a browser without downloading.</p>",
-        "button_1_text": "View catalogue",
-        "button_1_link": "https://online.flippingbook.com/view/393434/",
-        "button_2_text": "Download Catalog",
-        "button_2_link": "",
-        "reverse_column": true,
-        "title_color": "#424242",
-        "subheading_color": "#424242",
-        "padding_top": 20,
-        "padding_bottom": 20
-      }
-    },
-    "proudly_support_NnMGAw": {
-      "type": "proudly-support",
-      "blocks": {
-        "support_item_3Hcczh": {
-          "type": "support_item",
-          "settings": {
-            "image": "shopify://shop_images/support-logo-1.png"
-          }
-        },
-        "support_item_fjND3Q": {
-          "type": "support_item",
-          "settings": {
-            "image": "shopify://shop_images/support-logo-2.png"
-          }
-        },
-        "support_item_tApGYX": {
-          "type": "support_item",
-          "settings": {
-            "image": "shopify://shop_images/support-logo-5.png"
-          }
-        },
-        "support_item_pzJMPa": {
-          "type": "support_item",
-          "settings": {
-            "image": "shopify://shop_images/support-logo-4.png"
-          }
-        },
-        "support_item_DnVgCF": {
-          "type": "support_item",
-          "settings": {
-            "image": "shopify://shop_images/support-logo-3.png"
-          }
-        }
-      },
-      "block_order": [
-        "support_item_3Hcczh",
-        "support_item_fjND3Q",
-        "support_item_tApGYX",
-        "support_item_pzJMPa",
-        "support_item_DnVgCF"
-      ],
-      "disabled": true,
-      "settings": {
-        "heading": "<p>We Proudly Support</p>",
-        "title_alignment": "center",
-        "color_scheme": "",
-        "title_color": "#424242",
-        "padding_top": 100,
-        "padding_bottom": 100
-      }
     }
   },
   "order": [
@@ -1182,10 +1191,10 @@
     "image_with_text_v1_EzeFeF",
     "image_with_text_v1_DHihVU",
     "image_with_text_v1_RhgVxp",
+    "image_with_text_v1_44qVbk",
+    "image_with_text_v1_47QnjB",
+    "multicolumn_box_with_image_GHNQxK",
     "related-products",
-    "custom_image_text_slider_k9tKHM",
-    "faq_collapsible_content_QQxiNJ",
-    "product_catalog_3wJXkE",
-    "proudly_support_NnMGAw"
+    "custom_image_text_slider_k9tKHM"
   ]
 }

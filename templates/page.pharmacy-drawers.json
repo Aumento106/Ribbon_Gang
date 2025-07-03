@@ -695,67 +695,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "question_ans_cYCzqJ": {
-      "type": "question-ans",
-      "blocks": {
-        "column_EfxWRb": {
-          "type": "column",
-          "settings": {
-            "heading": "Does your current storage:",
-            "item_1_text": "Meet infection control standards?",
-            "item_1_icon": "shopify://shop_images/New_Project.png",
-            "item_2_text": "Meet clinical standards of best practice?",
-            "item_2_icon": "shopify://shop_images/New_Project.png",
-            "item_3_text": "Comply with WHS regulations?",
-            "item_3_icon": "shopify://shop_images/New_Project.png",
-            "item_4_text": ""
-          }
-        },
-        "column_G3rPif": {
-          "type": "column",
-          "settings": {
-            "heading": "Does your current system:",
-            "item_1_text": "Have no sharp or rough edges?",
-            "item_1_icon": "shopify://shop_images/New_Project.png",
-            "item_2_text": "Stay dust free for infection control?",
-            "item_2_icon": "shopify://shop_images/New_Project.png",
-            "item_3_text": "Provide adequate ventilation?",
-            "item_3_icon": "shopify://shop_images/New_Project.png",
-            "item_4_text": "Allow consumables to be accessed, located and identified quickly?",
-            "item_4_icon": "shopify://shop_images/New_Project.png"
-          }
-        },
-        "column_Pa3Pce": {
-          "type": "column",
-          "settings": {
-            "heading": "And does your current system:",
-            "item_1_text": "Meet your specific needs?",
-            "item_1_icon": "shopify://shop_images/New_Project.png",
-            "item_2_text": "Increase administrative efficiencies?",
-            "item_2_icon": "shopify://shop_images/New_Project.png",
-            "item_3_text": "Maximize the use of available space?",
-            "item_3_icon": "shopify://shop_images/New_Project.png",
-            "item_4_text": "Reconfigure to meet your changing needs over time?",
-            "item_4_icon": "shopify://shop_images/New_Project.png"
-          }
-        }
-      },
-      "block_order": [
-        "column_EfxWRb",
-        "column_G3rPif",
-        "column_Pa3Pce"
-      ],
-      "name": "Questions To Ask",
-      "settings": {
-        "title": "Questions to ask yourself",
-        "custom_heading_size": 52,
-        "mobile_custom_heading_size": 28,
-        "custom_font_weight": "400",
-        "heading_alignment": "center",
-        "bottom_description": "If you said ‘No’ to any of these questions your current storage system may be out-of-date or non-compliant, and STERIRACK® System is likely the perfect solution for you",
-        "color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6"
-      }
     }
   },
   "order": [
@@ -780,7 +719,6 @@
     "image_banner_YzDr6K",
     "custom_multicolumn_XBMEpM",
     "rich_text_E9TKTR",
-    "image_with_no_text_wCwp4B",
-    "question_ans_cYCzqJ"
+    "image_with_no_text_wCwp4B"
   ]
 }

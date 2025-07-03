@@ -810,56 +810,19 @@
         "padding_bottom": 36
       }
     },
-    "image_with_text_XPrchx": {
-      "type": "image-with-text",
+    "image_with_text_v1_EzeFeF": {
+      "type": "image-with-text-v1",
       "blocks": {
-        "heading_heEar9": {
-          "type": "heading",
-          "settings": {
-            "heading": "Superior strength and durability",
-            "heading_size": "h1"
-          }
-        },
-        "text_PKGPpr": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Ideal solution for transporting sterile goods within hospitals, and from hospital to hospital.</p><ul><li>Robust stainless steel construction</li><li>Double-skinned doors with perimeter seal</li><li>Doors are three point locking and rotate 270° to facilitate washing</li><li>Robust bumper base frame with bolt-on 150mm lockable swivel castors</li><li>Nylon wheels, stainless steel frame and wheel bearings</li><li>Premium quality Australian made product</li></ul>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_heEar9",
-        "text_PKGPpr"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/STERIRACK-transport-case-cart-22.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "image_with_text_VyWJkY": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_mPyeci": {
+        "heading_cXi4he": {
           "type": "heading",
           "settings": {
             "heading": "Identification and labelling",
-            "heading_size": "h1"
+            "custom_heading_size": 45,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
           }
         },
-        "text_WiimpP": {
+        "text_9NnKVM": {
           "type": "text",
           "settings": {
             "text": "<ul><li>Clean/Dirty Label</li><li>Label Holder to suit A4</li></ul>",
@@ -868,16 +831,19 @@
         }
       },
       "block_order": [
-        "heading_mPyeci",
-        "text_WiimpP"
+        "heading_cXi4he",
+        "text_9NnKVM"
       ],
-      "name": "t:sections.image-with-text.presets.name",
+      "name": "Image with text v1",
       "settings": {
         "image": "shopify://shop_images/STERIRACK-transport-case-cart-23.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
+        "container_size": "page-width",
+        "both_image_content_size": true,
+        "enable_video_looping": false,
         "layout": "text_first",
-        "desktop_content_position": "middle",
+        "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "section_color_scheme": "",
@@ -888,17 +854,19 @@
         "padding_bottom": 36
       }
     },
-    "image_with_text_4zVDtE": {
-      "type": "image-with-text",
+    "image_with_text_v1_DHihVU": {
+      "type": "image-with-text-v1",
       "blocks": {
-        "heading_LHUtWr": {
+        "heading_mUnf7q": {
           "type": "heading",
           "settings": {
             "heading": "Towing and transport",
-            "heading_size": "h1"
+            "custom_heading_size": 45,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
           }
         },
-        "text_UFWyTn": {
+        "text_HJEqJ7": {
           "type": "text",
           "settings": {
             "text": "<ul><li>Drawbar with ergonomic self-lifting mechanism is easy on the back. Its integrated spring pushes the drawbar up – the user can couple and uncouple carts using their feet and without having to bend over</li><li>If drawbar is not needed it folds up automatically and doesn’t present a trip hazard</li><li>The compatible drawbar coupling completes the system so that several case carts can be securely connected together</li></ul>",
@@ -907,16 +875,19 @@
         }
       },
       "block_order": [
-        "heading_LHUtWr",
-        "text_UFWyTn"
+        "heading_mUnf7q",
+        "text_HJEqJ7"
       ],
-      "name": "t:sections.image-with-text.presets.name",
+      "name": "Image with text v1",
       "settings": {
         "image": "shopify://shop_images/STERIRACK-transport-case-cart-24.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
+        "container_size": "page-width",
+        "both_image_content_size": true,
+        "enable_video_looping": false,
         "layout": "text_first",
-        "desktop_content_position": "middle",
+        "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "section_color_scheme": "",
@@ -1160,9 +1131,8 @@
     "image_with_no_text_8FA38J",
     "shipping_estimate_7eHtJy",
     "image_with_text_v1_pYMm3t",
-    "image_with_text_XPrchx",
-    "image_with_text_VyWJkY",
-    "image_with_text_4zVDtE",
+    "image_with_text_v1_EzeFeF",
+    "image_with_text_v1_DHihVU",
     "related-products",
     "custom_image_text_slider_k9tKHM",
     "faq_collapsible_content_QQxiNJ",

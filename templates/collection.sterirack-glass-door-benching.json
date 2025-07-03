@@ -385,7 +385,7 @@
         "cover_image": "shopify://shop_images/maxresdefault_6eb54e1f-95b8-4c7c-a54a-ce243c9094cc.webp",
         "description": "",
         "video_btm_desc": "",
-        "page_container": "full-width",
+        "page_container": "page-width",
         "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36

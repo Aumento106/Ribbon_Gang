@@ -5,7 +5,7 @@
 .image-with-text .grid__item {
   position: relative;
 }
-.image-with-text .image-with-text__media-item,
+.image-with-text .image-with-text__media-item .image-with-text__media,
 .image-with-text .image-with-text__media-item > * img {
   border-radius: 16px;
 }

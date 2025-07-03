@@ -32,6 +32,14 @@
     "page_banner_BXQVUB": {
       "type": "page-banner",
       "blocks": {
+        "image_YK9TCA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/01-workstations_216a438d-e686-4449-9d14-40ef63c4e75e.jpg",
+            "border_radius": true,
+            "image_height": "medium"
+          }
+        },
         "heading_nhBt8y": {
           "type": "heading",
           "settings": {
@@ -40,14 +48,6 @@
             "mobile_custom_heading_size": 28,
             "custom_font_weight": "400",
             "heading_alignment": "center"
-          }
-        },
-        "image_YK9TCA": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/01-workstations_216a438d-e686-4449-9d14-40ef63c4e75e.jpg",
-            "border_radius": true,
-            "image_height": "medium"
           }
         },
         "text_G6e3Nj": {
@@ -59,8 +59,8 @@
         }
       },
       "block_order": [
-        "heading_nhBt8y",
         "image_YK9TCA",
+        "heading_nhBt8y",
         "text_G6e3Nj"
       ],
       "settings": {
@@ -77,6 +77,7 @@
       "settings": {
         "hide_price": true,
         "hide_sold_out": true,
+        "hide_save": false,
         "products_per_page": 20,
         "columns_desktop": 4,
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
@@ -133,6 +134,7 @@
       ],
       "name": "Custom multicolumn",
       "settings": {
+        "page_container": "full-width",
         "title": "",
         "sec_subtitle": "",
         "title_color": "#424242",
@@ -146,7 +148,8 @@
         "color_scheme": "",
         "columns_desktop": "2",
         "box_shadow": true,
-        "image_auto_height": false,
+        "image_auto_height1": true,
+        "auto_width": false,
         "padding_top": 36,
         "padding_bottom": 36,
         "margin_top": 0,
@@ -206,6 +209,7 @@
       ],
       "name": "Multicolumn video",
       "settings": {
+        "page_container": "page-width",
         "title": "<h2>VIDEOS - STERIRACK® Colored Post Strips​</h2>",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
@@ -214,6 +218,7 @@
         "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
         "columns_desktop": "2",
         "box_shadow": true,
+        "box_auto_height1": true,
         "box_color_scheme": "scheme-1",
         "padding_top": 36,
         "padding_bottom": 36
@@ -430,6 +435,7 @@
       ],
       "name": "Custom multicolumn",
       "settings": {
+        "page_container": "full-width",
         "title": "",
         "sec_subtitle": "",
         "title_color": "#424242",
@@ -443,7 +449,8 @@
         "color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
         "columns_desktop": "2",
         "box_shadow": true,
-        "image_auto_height": false,
+        "image_auto_height1": true,
+        "auto_width": false,
         "padding_top": 36,
         "padding_bottom": 36,
         "margin_top": 0,
@@ -492,7 +499,8 @@
         "image_Qpy3NK": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/MEDIBIN-standard-label-holders-2048x369.jpg"
+            "image": "shopify://shop_images/MEDIBIN-standard-label-holders-2048x369.jpg",
+            "image_page_container": "page-width"
           }
         }
       },
@@ -501,9 +509,14 @@
       ],
       "name": "Image with no text",
       "settings": {
+        "page_container": "full-width",
         "title": "",
-        "heading_size": "h1",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "heading_alignment": "center",
+        "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
+        "text_content_alignment": "center",
         "color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
         "padding_top": 36,
         "padding_bottom": 36
@@ -515,12 +528,15 @@
       "name": "t:sections.video.presets.name",
       "settings": {
         "heading": "VIDEO - Use MEDIBINS™ not non-compliant plastic bins",
-        "heading_size": "h1",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "enable_video_looping": false,
         "video_url": "https://youtu.be/0vtNGCmZ-yQ?si=vBueGVrcmnNkQb6i",
         "cover_image": "shopify://shop_images/maxresdefault_e72b4216-5dde-40ad-ab68-731685d0c282.webp",
         "description": "",
-        "full_width": false,
+        "video_btm_desc": "",
+        "page_container": "full-width",
         "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36

@@ -936,7 +936,31 @@
         "column_FHiy6A": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Sydney-4.jpg",
+            "image": "shopify://shop_images/Wollongong-3.jpg",
+            "title": "",
+            "block_custom_font_weight": "400",
+            "text": "",
+            "text-v": "",
+            "button-text": "",
+            "button-url": ""
+          }
+        },
+        "column_YdyM4B": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Wagga-3.jpg",
+            "title": "",
+            "block_custom_font_weight": "400",
+            "text": "",
+            "text-v": "",
+            "button-text": "",
+            "button-url": ""
+          }
+        },
+        "column_Ey4pHQ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Wagga-3.jpg",
             "title": "",
             "block_custom_font_weight": "400",
             "text": "",
@@ -956,7 +980,9 @@
         "column_q7YMYr",
         "column_Ep3tkP",
         "column_9CDaC4",
-        "column_FHiy6A"
+        "column_FHiy6A",
+        "column_YdyM4B",
+        "column_Ey4pHQ"
       ],
       "name": "Custom multicolumn text",
       "settings": {

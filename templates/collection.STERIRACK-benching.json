@@ -552,7 +552,7 @@
         "image_xFk7ni"
       ],
       "settings": {
-        "page_container": "full-width",
+        "page_container": "page-width",
         "title": "",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,

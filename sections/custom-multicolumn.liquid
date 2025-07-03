@@ -92,7 +92,7 @@
 
     <div class="grid grid--1-col grid--2-col-tablet grid--{{ section.settings.columns_desktop }}-col-desktop {% if section.settings.box_shadow == true %}item-box-shadow{% endif %}">
       {%- for block in section.blocks -%}
-        <div class="grid__item {% if section.settings.image_auto_height %} Auto_image {% endif %}" {{ block.shopify_attributes }}>
+        <div class="grid__item {% if section.settings.image_auto_height1 %} Auto_image {% endif %}" {{ block.shopify_attributes }}>
           <div class="multicolumn-box__item">
             <div class="multicolumn-box__item_inner">
               {%- if block.settings.image != blank -%}
@@ -290,7 +290,7 @@
     },
     {
       "type": "checkbox",
-      "id": "image_auto_height",
+      "id": "image_auto_height1",
       "default": false,
       "label": "Enable Auto Image Height"
     },

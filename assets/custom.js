@@ -451,18 +451,28 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
-document.addEventListener('DOMContentLoaded', function () {
-function equalizeCardHeights() {
-  const cards = document.querySelectorAll('.product-grid-container .card__media');
-  if (cards.length === 0) return;
 
-  cards.forEach(card => card.style.height = 'auto');
+  function equalizeCardHeights() {
+    const cards = document.querySelectorAll('.card__inner');
 
-  const maxHeight = Math.max(...Array.from(cards).map(card => card.offsetHeight));
-  cards.forEach(card => card.style.height = `${maxHeight}px`);
-}
+    if (cards.length === 0) return;
 
-window.addEventListener("load", equalizeCardHeights);
-window.addEventListener("resize", equalizeCardHeights);
-});
+    // Reset heights first
+    cards.forEach(card => {
+      card.style.height = 'auto';
+    });
+
+    // Get tallest height
+    const maxHeight = Math.max(...Array.from(cards).map(card => card.offsetHeight));
+
+    // Apply tallest height to all
+    cards.forEach(card => {
+      card.style.height = `${maxHeight}px`;
+    });
+  }
+
+  // Wait for full page + images
+  window.addEventListener('load', equalizeCardHeights);
+  window.addEventListener('resize', equalizeCardHeights);
+
 

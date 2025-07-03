@@ -1154,7 +1154,63 @@
         "image_auto_height1": true,
         "auto_width": true,
         "padding_top": 36,
-        "padding_bottom": 36,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "custom_multicolumn_6ryYy8": {
+      "type": "custom-multicolumn",
+      "blocks": {
+        "column_MMRBYY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/STERIRACK-transport-case-cart-31-1024x353.jpg",
+            "title": "",
+            "block_custom_font_weight": "400",
+            "text": "",
+            "text-v": "",
+            "button-text": "",
+            "button-url": ""
+          }
+        },
+        "column_ztfmfN": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/STERIRACK-transport-case-cart-32-1024x296.jpg",
+            "title": "",
+            "block_custom_font_weight": "400",
+            "text": "",
+            "text-v": "",
+            "button-text": "",
+            "button-url": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_MMRBYY",
+        "column_ztfmfN"
+      ],
+      "name": "Custom multicolumn",
+      "settings": {
+        "page_container": "page-width--narrow",
+        "title": "",
+        "sec_subtitle": "",
+        "title_color": "#424242",
+        "subheading_color": "#424242",
+        "button_text": "",
+        "button_url": "",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
+        "title_alignment": "center",
+        "color_scheme": "",
+        "columns_desktop": "2",
+        "box_shadow": false,
+        "image_auto_height1": true,
+        "auto_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0,
         "margin_top": 0,
         "margin_bottom": 0
       }
@@ -1251,6 +1307,7 @@
     "image_with_text_v1_47QnjB",
     "multicolumn_box_with_image_GHNQxK",
     "custom_multicolumn_m7rrRn",
+    "custom_multicolumn_6ryYy8",
     "related-products",
     "custom_image_text_slider_k9tKHM"
   ]

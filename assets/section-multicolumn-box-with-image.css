@@ -120,3 +120,7 @@
   overflow: hidden;
   border-radius: 16px;
 }
+.multi_box_image .multicolumn-box-img-wrapper {
+  border-radius: 16px;
+}
+

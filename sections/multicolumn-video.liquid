@@ -7,7 +7,7 @@
     padding-bottom: {{ section.settings.padding_bottom | times: 0.35 | round: 0 }}px;
   }
   
-  {% if section.settings.box_auto_height %}
+  {% if section.settings.box_auto_height1 %}
     .section-{{ section.id }}-padding .grid__item .multicolumn-box__item {
       height: auto;
       border-radius: 16px;
@@ -330,8 +330,8 @@
     },
     {
       "type": "checkbox",
-      "id": "box_auto_height",
-      "default": false,
+      "id": "box_auto_height1",
+      "default": true,
       "label": "Box Auto Height"
     },
     {

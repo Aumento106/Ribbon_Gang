@@ -451,6 +451,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
+document.addEventListener('DOMContentLoaded', function () {
 function equalizeCardHeights() {
   const cards = document.querySelectorAll('.product-grid-container .card__media');
   if (cards.length === 0) return;
@@ -463,5 +464,5 @@ function equalizeCardHeights() {
 
 window.addEventListener("load", equalizeCardHeights);
 window.addEventListener("resize", equalizeCardHeights);
-
+});
 

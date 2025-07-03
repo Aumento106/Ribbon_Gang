@@ -1142,6 +1142,97 @@
         "mobile_margin_bottom": 36
       }
     },
+    "dimension_table_6QpxjL": {
+      "type": "dimension_table",
+      "blocks": {
+        "row_jGcdC8": {
+          "type": "row",
+          "settings": {
+            "description": "2-Bay",
+            "code": "1000mmH x 970mmW x 646mmD",
+            "dimensions": "39 3/8″ H x 38 3/16″ W x 25 7/16″ D",
+            "dimensions_inch": "6 x 100mmH and 2 x 180mmH baskets",
+            "configurations_data": "6 x 3 15/16″ H and 2 x 7 1/16″ H baskets"
+          }
+        },
+        "row_NeUJxt": {
+          "type": "row",
+          "settings": {
+            "description": "3-Bay",
+            "code": "1000mmH x 1454mmW x 646mmD",
+            "dimensions": "39 3/8″ H x 57 1/4″ W x 25 7/16″ D",
+            "dimensions_inch": "9 x 100mmH and 3 x 180mmH baskets",
+            "configurations_data": "9 x 3 15/16″ H and 3 x 7 1/16″ H baskets"
+          }
+        },
+        "row_m9fa9W": {
+          "type": "row",
+          "settings": {
+            "description": "4-Bay",
+            "code": "1000mmH x 1938mmW x 646mmD",
+            "dimensions": "39 3/8″ H x 76 5/16″ W x 25 7/16″ D",
+            "dimensions_inch": "12 x 100mmH and 4 x 180mmH baskets",
+            "configurations_data": "12 x 3 15/16″ H and 4 x 7 1/16″ H baskets"
+          }
+        },
+        "row_jMcpqF": {
+          "type": "row",
+          "settings": {
+            "description": "5-Bay",
+            "code": "1000mmH x 2422mmW x 646mmD",
+            "dimensions": "39 3/8″ H x 95 3/8″ W x 25 7/16″ D",
+            "dimensions_inch": "15 x 100mmH and 5 x 180mmH baskets",
+            "configurations_data": "15 x 3 15/16″ H and 5 x 7 1/16″ H baskets"
+          }
+        },
+        "row_JD64xe": {
+          "type": "row",
+          "settings": {
+            "description": "6-Bay",
+            "code": "1000mmH x 2906mmW x 646mmD",
+            "dimensions": "39 3/8″ H x 114 7/16″ W x 25 7/16″ D",
+            "dimensions_inch": "18 x 100mmH and 6 x 180mmH baskets",
+            "configurations_data": "18 x 3 15/16″ H and 6 x 7 1/16″ H baskets"
+          }
+        },
+        "row_ET9Qkk": {
+          "type": "row",
+          "settings": {
+            "description": "7-Bay",
+            "code": "1000mmH x 3390mmW x 646mmD",
+            "dimensions": "39 3/8″ H x 133 7/16″ W x 25 7/16″ D",
+            "dimensions_inch": "21 x 100mmH and 7 x 180mmH baskets",
+            "configurations_data": "21 x 3 15/16″ H and 7 x 7 1/16″ H baskets"
+          }
+        },
+        "row_hidUcc": {
+          "type": "row",
+          "settings": {
+            "description": "8-Bay",
+            "code": "1000mmH x 3874mmW x 646mmD",
+            "dimensions": "39 3/8″ H x 152 1/2″ W x 25 7/16″ D",
+            "dimensions_inch": "24 x 100mmH and 8 x 180mmH baskets",
+            "configurations_data": "24 x 3 15/16″ H and 8 x 7 1/16″ H baskets"
+          }
+        }
+      },
+      "block_order": [
+        "row_jGcdC8",
+        "row_NeUJxt",
+        "row_m9fa9W",
+        "row_jMcpqF",
+        "row_JD64xe",
+        "row_ET9Qkk",
+        "row_hidUcc"
+      ],
+      "settings": {
+        "description": "Description",
+        "code": "Dimensions (mm)",
+        "dimensions": "Dimensions (inches)",
+        "dimensions_inch": "Configuration (mm)",
+        "configurations": "Configurations (inches)"
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -1210,154 +1301,6 @@
         "padding_top": 70,
         "padding_bottom": 70
       }
-    },
-    "faq_collapsible_content_QQxiNJ": {
-      "type": "faq-collapsible-content",
-      "blocks": {
-        "collapsible_row_kdXQ4N": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "What are Space Logic?",
-            "row_content": "<p>Yes! Once you choose your design, website name and plan, we will set up your website for you to look exactly like the design you choose, updated with your content and images.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_8w3BXU": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Are Space Logic safe?",
-            "row_content": "<p>Yes! Once you choose your design, website name and plan, we will set up your website for you to look exactly like the design you choose, updated with your content and images.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_gCJNRQ": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Can I take Space Logic on top of my supplement regimen?",
-            "row_content": "<p>Yes! Once you choose your design, website name and plan, we will set up your website for you to look exactly like the design you choose, updated with your content and images.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_KJWhCp": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Will Space Logic help me be smarter?",
-            "row_content": "<p>Yes! Once you choose your design, website name and plan, we will set up your website for you to look exactly like the design you choose, updated with your content and images.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_nFHcKF": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Can I take Space Logic on top of my supplement regimen?",
-            "row_content": "<p>Yes! Once you choose your design, website name and plan, we will set up your website for you to look exactly like the design you choose, updated with your content and images.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_6iW34b": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Will Space Logic help me be smarter?",
-            "row_content": "<p>Yes! Once you choose your design, website name and plan, we will set up your website for you to look exactly like the design you choose, updated with your content and images.</p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_row_kdXQ4N",
-        "collapsible_row_8w3BXU",
-        "collapsible_row_gCJNRQ",
-        "collapsible_row_KJWhCp",
-        "collapsible_row_nFHcKF",
-        "collapsible_row_6iW34b"
-      ],
-      "disabled": true,
-      "settings": {
-        "heading": "<p>Frequently asked questions <strong>Space Logic</strong></p>",
-        "text": "",
-        "button_label": "See All FAQ",
-        "button_link": "#",
-        "heading_size": "h1",
-        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "container_color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
-        "open_first_collapsible_row": true,
-        "padding_top": 72,
-        "padding_bottom": 72
-      }
-    },
-    "product_catalog_3wJXkE": {
-      "type": "product-catalog",
-      "disabled": true,
-      "settings": {
-        "product_image": "shopify://shop_images/image_104.png",
-        "logo_link": "",
-        "heading": "<p>Product Catalogue</p>",
-        "custom_heading_size": 52,
-        "mobile_custom_heading_size": 28,
-        "custom_font_weight": "400",
-        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
-        "description": "<p>Click here to view our latest product and services catalogue in a browser without downloading.</p>",
-        "button_1_text": "View catalogue",
-        "button_1_link": "https://online.flippingbook.com/view/393434/",
-        "button_2_text": "Download Catalog",
-        "button_2_link": "",
-        "reverse_column": true,
-        "title_color": "#424242",
-        "subheading_color": "#424242",
-        "padding_top": 20,
-        "padding_bottom": 20
-      }
-    },
-    "proudly_support_NnMGAw": {
-      "type": "proudly-support",
-      "blocks": {
-        "support_item_3Hcczh": {
-          "type": "support_item",
-          "settings": {
-            "image": "shopify://shop_images/support-logo-1.png"
-          }
-        },
-        "support_item_fjND3Q": {
-          "type": "support_item",
-          "settings": {
-            "image": "shopify://shop_images/support-logo-2.png"
-          }
-        },
-        "support_item_tApGYX": {
-          "type": "support_item",
-          "settings": {
-            "image": "shopify://shop_images/support-logo-5.png"
-          }
-        },
-        "support_item_pzJMPa": {
-          "type": "support_item",
-          "settings": {
-            "image": "shopify://shop_images/support-logo-4.png"
-          }
-        },
-        "support_item_DnVgCF": {
-          "type": "support_item",
-          "settings": {
-            "image": "shopify://shop_images/support-logo-3.png"
-          }
-        }
-      },
-      "block_order": [
-        "support_item_3Hcczh",
-        "support_item_fjND3Q",
-        "support_item_tApGYX",
-        "support_item_pzJMPa",
-        "support_item_DnVgCF"
-      ],
-      "disabled": true,
-      "settings": {
-        "heading": "<p>We Proudly Support</p>",
-        "title_alignment": "center",
-        "color_scheme": "",
-        "title_color": "#424242",
-        "padding_top": 100,
-        "padding_bottom": 100
-      }
     }
   },
   "order": [
@@ -1381,10 +1324,8 @@
     "custom_multicolumn_mcBFWn",
     "rich_text_VVrerN",
     "image_banner_Jq9EXa",
+    "dimension_table_6QpxjL",
     "related-products",
-    "custom_image_text_slider_k9tKHM",
-    "faq_collapsible_content_QQxiNJ",
-    "product_catalog_3wJXkE",
-    "proudly_support_NnMGAw"
+    "custom_image_text_slider_k9tKHM"
   ]
 }

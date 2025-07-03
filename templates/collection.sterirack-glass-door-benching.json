@@ -91,6 +91,7 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "disabled": true,
       "settings": {
         "hide_price": false,
         "hide_sold_out": true,
@@ -374,10 +375,9 @@
     },
     "video_E7wm9f": {
       "type": "video",
-      "disabled": true,
       "settings": {
-        "heading": "VIDEO - Use MEDIBINS™ not non-compliant plastic bins",
-        "custom_heading_size": 52,
+        "heading": "VIDEO - STERIRACK® Glass Door Benching",
+        "custom_heading_size": 45,
         "mobile_custom_heading_size": 28,
         "custom_font_weight": "400",
         "enable_video_looping": false,

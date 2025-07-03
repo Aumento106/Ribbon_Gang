@@ -729,11 +729,15 @@
         "column_Pa3Pce": {
           "type": "column",
           "settings": {
-            "heading": "",
-            "item_1_text": "",
-            "item_2_text": "",
-            "item_3_text": "",
-            "item_4_text": ""
+            "heading": "And does your current system:",
+            "item_1_text": "Meet your specific needs?",
+            "item_1_icon": "shopify://shop_images/New_Project.png",
+            "item_2_text": "Increase administrative efficiencies?",
+            "item_2_icon": "shopify://shop_images/New_Project.png",
+            "item_3_text": "Maximize the use of available space?",
+            "item_3_icon": "shopify://shop_images/New_Project.png",
+            "item_4_text": "Reconfigure to meet your changing needs over time?",
+            "item_4_icon": "shopify://shop_images/New_Project.png"
           }
         }
       },

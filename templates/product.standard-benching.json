@@ -924,7 +924,19 @@
         "column_9CDaC4": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Macksville-1.jpg",
+            "image": "shopify://shop_images/Sydney-4.jpg",
+            "title": "",
+            "block_custom_font_weight": "400",
+            "text": "",
+            "text-v": "",
+            "button-text": "",
+            "button-url": ""
+          }
+        },
+        "column_FHiy6A": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Sydney-4.jpg",
             "title": "",
             "block_custom_font_weight": "400",
             "text": "",
@@ -943,7 +955,8 @@
         "column_VTjVah",
         "column_q7YMYr",
         "column_Ep3tkP",
-        "column_9CDaC4"
+        "column_9CDaC4",
+        "column_FHiy6A"
       ],
       "name": "Custom multicolumn text",
       "settings": {

@@ -522,7 +522,7 @@
       ],
       "name": "Image with no text",
       "settings": {
-        "page_container": "full-width",
+        "page_container": "page-width",
         "title": "",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
@@ -658,7 +658,7 @@
       ],
       "name": "Custom multicolumn",
       "settings": {
-        "page_container": "full-width",
+        "page_container": "page-width",
         "title": "<h2>STERIRACK® Post Strips​</h2>",
         "sec_subtitle": "",
         "title_color": "#424242",

@@ -34,7 +34,7 @@
         "heading_nhBt8y": {
           "type": "heading",
           "settings": {
-            "heading": "STERIRACK® Standard Benching",
+            "heading": "STERIRACK® Benching",
             "custom_heading_size": 52,
             "mobile_custom_heading_size": 28,
             "custom_font_weight": "400",
@@ -44,7 +44,7 @@
         "text_G6e3Nj": {
           "type": "text",
           "settings": {
-            "text": "<p>Custom-made in any length, and in any basket and/or shelf configuration</p><p>The healthcare sector is committed to better standards, best practice and the ultimate in infection control. That’s why closed-in, dust-gathering joinery and cabinetry is now an outdated system for shelving and baskets.</p><p>To provide our clients with the ultimate solution, SpaceLogic has designed STERIRACK® Benching, providing the perfect solution for practices striving for the highest standard.</p><p>These innovative, adjustable benches can be configured in any length, to suit any application, and fully integrate with STERIRACK® modules, workstations and trolleys.</p><p>Stainless steel or seamless solid surface benchtops provide the perfect easy-clean surface, and provide no safe harbour for pathogens. Alternatively, you can choose a benchtop in a broad variety of laminate finishes to suit your decor.</p><p>Order in any length you require, from two-bay right up to eight-bay and above.</p>",
+            "text": "<p>The healthcare sector is committed to better standards, best practice and the ultimate in infection control. That’s why closed-in, dust-gathering joinery and cabinetry is now an outdated system for shelving and baskets. To provide our clients with the ultimate solution, SpaceLogic has designed STERIRACK® Benching, providing the perfect solution for practices striving for the highest standard.</p><p>These innovative, adjustable benches can be configured in any length, to suit any application, and fully integrate with STERIRACK® modules, workstations and trolleys. Stainless steel or seamless Staron benchtops provide the perfect easy-clean surface, and provide no safe harbor for pathogens. Alternatively, you can choose a benchtop in a broad variety of laminate finishes to suit your decor.</p><p>Order in any length you require, from two-bay right up to eight-bay and above.</p>",
             "text_alignment": "center"
           }
         }
@@ -363,61 +363,65 @@
         "padding_bottom": 36
       }
     },
-    "multicolumn_WwAgde": {
-      "type": "multicolumn",
+    "question_ans_q4cwX4": {
+      "type": "question-ans",
       "blocks": {
-        "column_hECjNP": {
+        "column_cjRVMV": {
           "type": "column",
           "settings": {
-            "title": "Does your current storage:",
-            "text": "<p>Meet infection control standards?</p><p><br/>Meet clinical standards of best practice?</p><p><br/>Comply with WHS regulations?</p>",
-            "link_label": "",
-            "link": ""
+            "heading": "Does your current storage:",
+            "item_1_text": "Meet infection control standards?",
+            "item_1_icon": "shopify://shop_images/New_Project.png",
+            "item_2_text": "Meet clinical standards of best practice?",
+            "item_2_icon": "shopify://shop_images/New_Project.png",
+            "item_3_text": "Comply with WHS regulations?",
+            "item_3_icon": "shopify://shop_images/New_Project.png",
+            "item_4_text": ""
           }
         },
-        "column_w3Rbi6": {
+        "column_J4gUNC": {
           "type": "column",
           "settings": {
-            "title": "Does your current system:",
-            "text": "<p>Have no sharp or rough edges?</p><p><br/>Stay dust free for infection control?</p><p><br/>Provide adequate ventilation?</p><p>Allow consumables to be accessed, </p><p>located and identified quickly?</p>",
-            "link_label": "",
-            "link": ""
+            "heading": "Does your current system:",
+            "item_1_text": "Have no sharp or rough edges?",
+            "item_1_icon": "shopify://shop_images/New_Project.png",
+            "item_2_text": "Stay dust free for infection control?",
+            "item_2_icon": "shopify://shop_images/New_Project.png",
+            "item_3_text": "Provide adequate ventilation?",
+            "item_3_icon": "shopify://shop_images/New_Project.png",
+            "item_4_text": "Allow consumables to be accessed, located and identified quickly?",
+            "item_4_icon": "shopify://shop_images/New_Project.png"
           }
         },
-        "column_Uc48f4": {
+        "column_hmcfam": {
           "type": "column",
           "settings": {
-            "title": "<strong>And does your current system:</strong>",
-            "text": "<p>Meet your specific needs?</p><p><br/>Increase administrative efficiencies?</p><p><br/>Maximize the use of available space?</p><p><br/>Reconfigure to meet your changing needs over time?</p>",
-            "link_label": "",
-            "link": ""
+            "heading": "And does your current system:",
+            "item_1_text": "Meet your specific needs?",
+            "item_1_icon": "shopify://shop_images/New_Project.png",
+            "item_2_text": "Increase administrative efficiencies?",
+            "item_2_icon": "shopify://shop_images/New_Project.png",
+            "item_3_text": "Maximize the use of available space?",
+            "item_3_icon": "shopify://shop_images/New_Project.png",
+            "item_4_text": "Reconfigure to meet your changing needs over time?",
+            "item_4_icon": "shopify://shop_images/New_Project.png"
           }
         }
       },
       "block_order": [
-        "column_hECjNP",
-        "column_w3Rbi6",
-        "column_Uc48f4"
+        "column_cjRVMV",
+        "column_J4gUNC",
+        "column_hmcfam"
       ],
-      "name": "t:sections.multicolumn.presets.name",
+      "name": "Questions To Ask",
       "settings": {
         "title": "Questions to ask yourself",
-        "custom_heading_size": 33,
+        "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
         "custom_font_weight": "400",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "enable_border_content": false,
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "heading_alignment": "center",
+        "bottom_description": "If you said ‘No’ to any of these questions your current storage system may be out-of-date or non-compliant, and STERIRACK® System is likely the perfect solution for you",
+        "color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6"
       }
     },
     "rich_text_ypChVY": {
@@ -577,7 +581,7 @@
     "rich_text_CqT3jr",
     "image_with_no_text_UUP4dk",
     "video_E7wm9f",
-    "multicolumn_WwAgde",
+    "question_ans_q4cwX4",
     "rich_text_ypChVY",
     "dimension_table_KXzpgq",
     "image_with_no_text_VQap7J"

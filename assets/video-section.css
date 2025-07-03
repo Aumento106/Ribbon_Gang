@@ -22,12 +22,13 @@
 .video-section__media.deferred-media .video-section__poster {
   /* height: auto;
   position: unset; */
-  height: auto;
+  /* height: auto; */
   border-radius: 16px;
 }
 .video-section__media.deferred-media .video-section__poster img {
   position: unset;
   height: auto;
+  border-radius: 16px;
 }
 .video-section__media.deferred-media:after {
   content: none;

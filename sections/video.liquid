@@ -50,17 +50,11 @@
   assign alt = 'sections.video.load_video' | t: description: video_alt | escape
   assign poster = section.settings.video.preview_image | default: section.settings.cover_image
 
-  assign aspect_ratio = 0
-
   if section.settings.video != null
-    assign aspect_ratio = section.settings.video.aspect_ratio
-  elsif poster != null and poster.aspect_ratio != null
-    assign aspect_ratio = poster.aspect_ratio
-  endif
-
-  assign ratio_percent = 0
-  if aspect_ratio > 0
-    assign ratio_percent = 1 | divided_by: aspect_ratio | times: 100
+    assign ratio_diff = section.settings.video.aspect_ratio | minus: poster.aspect_ratio | abs
+    if ratio_diff < 0.01 and ratio_diff > 0
+      assign fix_ratio = true
+    endif
   endif
 -%}
 
@@ -88,7 +82,7 @@
       class="video-section__media deferred-media gradient global-media-settings {{ section.settings.page_container }} {% if section.settings.page_container == 'page-width--narrow'  %} page-width {% endif %} {% if fix_ratio %} media-fit-cover{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
       data-media-id="{{ video_id }}"
       {% if poster != null %}
-         style="--ratio-percent: {{ ratio_percent }}%;"
+        style="--ratio-percent: {{ 1 | divided_by: poster.aspect_ratio | times: 100 }}%;"
       {% endif %}
     >
       <button

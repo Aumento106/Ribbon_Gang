@@ -86,11 +86,11 @@
                     }}
                   </div>
                 {%- endif -%}
-                <h3 class="subtitle">{{ block.settings.title | escape }}</h3>
+                <h3 class="subtitle {{ block.settings.content_alignment }}">{{ block.settings.title | escape }}</h3>
               </div>
             {%- endif -%}
             {%- if block.settings.text != blank -%}
-              <div class="multicolumn-box-description">{{ block.settings.text }}</div>
+              <div class="multicolumn-box-description {{ block.settings.content_alignment }}">{{ block.settings.text }}</div>
             {%- endif -%}
           </div>
         </div>
@@ -276,6 +276,26 @@
           "id": "text",
           "default": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>",
           "label": "Text"
+        },
+        {
+          "type": "select",
+          "id": "content_alignment",
+          "options": [
+            {
+              "value": "left",
+              "label": "Left"
+            },
+            {
+              "value": "center",
+              "label": "Center"
+            },
+            {
+              "value": "right",
+              "label": "Right"
+            }
+          ],
+          "default": "center",
+          "label": "Content alignment"
         }
       ]
     }

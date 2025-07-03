@@ -822,6 +822,137 @@
         "margin_bottom": 0
       }
     },
+    "custom_multicolumn_text_B3HG8D": {
+      "type": "custom-Multicolumn-text",
+      "blocks": {
+        "column_7RCNjh": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Royal-North-Shore-1-300x225.jpg",
+            "title": "",
+            "block_custom_font_weight": "400",
+            "text": "",
+            "text-v": "",
+            "button-text": "",
+            "button-url": ""
+          }
+        },
+        "column_b3yVCx": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Workstation-2.jpg",
+            "title": "",
+            "block_custom_font_weight": "400",
+            "text": "",
+            "text-v": "",
+            "button-text": "",
+            "button-url": ""
+          }
+        },
+        "column_9RyT3R": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Wagga-1.jpg",
+            "title": "",
+            "block_custom_font_weight": "400",
+            "text": "",
+            "text-v": "",
+            "button-text": "",
+            "button-url": ""
+          }
+        },
+        "column_6CWwpi": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Wollongong-1.jpg",
+            "title": "",
+            "block_custom_font_weight": "400",
+            "text": "",
+            "text-v": "",
+            "button-text": "",
+            "button-url": ""
+          }
+        },
+        "column_GdNJkm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Yass-1.jpg",
+            "title": "",
+            "block_custom_font_weight": "400",
+            "text": "",
+            "text-v": "",
+            "button-text": "",
+            "button-url": ""
+          }
+        },
+        "column_VTjVah": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Workstation-3.jpg",
+            "title": "",
+            "block_custom_font_weight": "400",
+            "text": "",
+            "text-v": "",
+            "button-text": "",
+            "button-url": ""
+          }
+        },
+        "column_q7YMYr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Leeton-1.jpg",
+            "title": "",
+            "block_custom_font_weight": "400",
+            "text": "",
+            "text-v": "",
+            "button-text": "",
+            "button-url": ""
+          }
+        },
+        "column_Ep3tkP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Wollongong-2.jpg",
+            "title": "",
+            "block_custom_font_weight": "400",
+            "text": "",
+            "text-v": "",
+            "button-text": "",
+            "button-url": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_7RCNjh",
+        "column_b3yVCx",
+        "column_9RyT3R",
+        "column_6CWwpi",
+        "column_GdNJkm",
+        "column_VTjVah",
+        "column_q7YMYr",
+        "column_Ep3tkP"
+      ],
+      "name": "Custom multicolumn text",
+      "settings": {
+        "title": "<h2>Photo gallery</h2>",
+        "descr": "",
+        "custom_heading_size": 45,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
+        "description_custom_font_weight": "400",
+        "title_alignment": "center",
+        "title_color": "#ffffff",
+        "subheading_color": "#ffffff",
+        "color_scheme": "",
+        "heading_color_scheme": "",
+        "columns_desktop": "4",
+        "box_shadow": true,
+        "Images_same_height": true,
+        "box_color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -1056,6 +1187,7 @@
     "shipping_estimate_7eHtJy",
     "rich_text_CYjQBw",
     "custom_multicolumn_LG3nVT",
+    "custom_multicolumn_text_B3HG8D",
     "related-products",
     "custom_image_text_slider_k9tKHM",
     "faq_collapsible_content_QQxiNJ",

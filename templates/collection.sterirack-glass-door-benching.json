@@ -34,7 +34,7 @@
         "text_G6e3Nj": {
           "type": "text",
           "settings": {
-            "text": "<p>Across hospitals, day surgeries, and healthcare facilities in Australia, the U.S, and beyond, SpaceLogic partners with clients to deliver tailored, high-performance storage systems. Every project is a collaboration — from planning and prototyping to seamless installation — ensuring STERIRACK® integrates perfectly into clinical environments with minimal disruption.</p><p>Explore a selection of recent installations below, each one reflecting our commitment to better care through smarter storage.</p>",
+            "text": "<p>STERIRACK® Glass Door Benching is another new innovation from SpaceLogic. These benches are ideal for Anesthetic Bays and other areas in hospitals and healthcare centers.</p><p>The modules have a stainless steel top with three-sided return to maximize infection control and contain spills. The doors use toughen glass for visual accessibility and are designed to protect stock from any unexpected contaminants.</p><p>Like all STERIRACK® benches, these enclosed benches can be made to any length, from a 2-bay unit right up to 5-bay and above. See the video below for a run through of how these benches can be configured with any arrangement of baskets and shelves to suit your requirements.</p>",
             "text_alignment": "center"
           }
         }
@@ -350,6 +350,9 @@
       "disabled": true,
       "settings": {
         "heading": "VIDEO - Use MEDIBINS™ not non-compliant plastic bins",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "enable_video_looping": false,
         "video_url": "https://youtu.be/0vtNGCmZ-yQ?si=vBueGVrcmnNkQb6i",
         "cover_image": "shopify://shop_images/maxresdefault_e72b4216-5dde-40ad-ab68-731685d0c282.webp",

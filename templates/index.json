@@ -611,7 +611,8 @@
         "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
         "columns_desktop": "3",
         "box_shadow": false,
-        "image_auto_height": false,
+        "image_auto_height1": true,
+        "auto_width": false,
         "padding_top": 50,
         "padding_bottom": 50,
         "margin_top": 0,
@@ -1391,7 +1392,8 @@
         "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
         "columns_desktop": "2",
         "box_shadow": true,
-        "image_auto_height": false,
+        "image_auto_height1": false,
+        "auto_width": false,
         "padding_top": 50,
         "padding_bottom": 50,
         "margin_top": 0,
@@ -1566,7 +1568,8 @@
           "settings": {
             "title": "Increase patient care time",
             "icon": "shopify://shop_images/bed-icon.svg",
-            "text": "<p>With STERIRACK® System, nurses and healthcare personnel can now spend less time hunting through storerooms, and more time devoted to face-to-face patient care. Where they want to be.</p><p>These time efficiencies provide hospitals and health-care centers with impressive Return on Effectiveness (ROE), with some facilities enjoying time savings of up to 50%.</p><p>Introduce the gold standard healthcare storage system today. You’ll never look back. </p>"
+            "text": "<p>With STERIRACK® System, nurses and healthcare personnel can now spend less time hunting through storerooms, and more time devoted to face-to-face patient care. Where they want to be.</p><p>These time efficiencies provide hospitals and health-care centers with impressive Return on Effectiveness (ROE), with some facilities enjoying time savings of up to 50%.</p><p>Introduce the gold standard healthcare storage system today. You’ll never look back. </p>",
+            "content_alignment": "left"
           }
         },
         "column_FL4YKp": {
@@ -1575,7 +1578,8 @@
             "image": "shopify://shop_images/improve-infection-control.png",
             "title": "Improve infection control",
             "icon": "shopify://shop_images/hand-icon.svg",
-            "text": "<p>STERIRACK® is the world’s leading healthcare storage solution, exceeding standards for best practice and infection control.</p><p>Rounded corners and smart design protect consumables from damage and contamination. Mesh baskets and shelving provide air circulation, and prevent dust and dirt build-up.</p><p>Hard-to-clean, outdated timber cabinetry, with its dark, dank corners is now a thing of the past.</p>"
+            "text": "<p>STERIRACK® is the world’s leading healthcare storage solution, exceeding standards for best practice and infection control.</p><p>Rounded corners and smart design protect consumables from damage and contamination. Mesh baskets and shelving provide air circulation, and prevent dust and dirt build-up.</p><p>Hard-to-clean, outdated timber cabinetry, with its dark, dank corners is now a thing of the past.</p>",
+            "content_alignment": "left"
           }
         },
         "column_zqbWrd": {
@@ -1584,7 +1588,8 @@
             "image": "shopify://shop_images/maximize-available-space.png",
             "title": "Maximize available space",
             "icon": "shopify://shop_images/boxes-icon.svg",
-            "text": "<p>STERIRACK® is the complete modular system. Versatile and customizable, this system can be configured to suit your available space and application.</p><p>Our experts are ready to provide room layouts, 2D/3D visualizations, and details on exactly how much additional storage capacity you’ll enjoy with your new STERIRACK® installation.</p><p>Contact one of our STERIRACK® consultants today and begin your hassle-free journey to the gold standard healthcare storage solution.</p>"
+            "text": "<p>STERIRACK® is the complete modular system. Versatile and customizable, this system can be configured to suit your available space and application.</p><p>Our experts are ready to provide room layouts, 2D/3D visualizations, and details on exactly how much additional storage capacity you’ll enjoy with your new STERIRACK® installation.</p><p>Contact one of our STERIRACK® consultants today and begin your hassle-free journey to the gold standard healthcare storage solution.</p>",
+            "content_alignment": "left"
           }
         }
       },
@@ -1825,6 +1830,7 @@
         "height": "adapt",
         "desktop_image_width": "medium",
         "container_size": "page-width",
+        "both_image_content_size": false,
         "video_url": "",
         "enable_video_looping": false,
         "layout": "image_first",
@@ -1955,6 +1961,7 @@
         "height": "adapt",
         "desktop_image_width": "medium",
         "container_size": "page-width",
+        "both_image_content_size": false,
         "video_url": "",
         "enable_video_looping": false,
         "layout": "text_first",

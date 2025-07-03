@@ -14,6 +14,11 @@
   .section-{{ section.id }}-padding .section-sub-title {
     color: {{ section.settings.subheading_color }};
   }
+  {% if section.settings.auto_width %}
+    .multi-column-box-with-image.section-{{ section.id }} .multicolumn-box-img-wrapper img {
+      object-fit: contain;
+    }
+  {% endif %}
   .multi-column-box-with-image.section-{{ section.id }} .sec-head .title > * {
     font-size: {{ section.settings.custom_heading_size }}px;
     {% if section.settings.custom_font_weight == 'none' %}
@@ -30,9 +35,7 @@
       {% else %}
         font-weight: {{ block.settings.block_custom_font_weight }} !important;
       {% endif %}
-    }
-  
-   
+      }   
     {% endfor %}
     
     @media screen and (max-width: 1500px) {
@@ -293,6 +296,12 @@
       "id": "image_auto_height1",
       "default": true,
       "label": "Enable Auto Image Height"
+    },
+    {
+      "type": "checkbox",
+      "id": "auto_width",
+      "default": false,
+      "label": "Enable Auto Image Width"
     },
     {
       "type": "header",

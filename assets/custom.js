@@ -449,3 +449,24 @@ document.addEventListener('DOMContentLoaded', function () {
   closeBtn?.addEventListener('click', closePopup);
   overlay?.addEventListener('click', closePopup);
 });
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  const listItems = document.querySelectorAll(".product-grid-container .card__inner");
+
+  if (listItems.length === 0) return;
+
+  let maxHeight = 0;
+
+  // Reset height and calculate max height
+  listItems.forEach(item => {
+    item.style.height = 'auto'; // Reset to auto before measuring
+    maxHeight = Math.max(maxHeight, item.offsetHeight);
+  });
+
+  // Set all to max height
+  listItems.forEach(item => {
+    item.style.height = maxHeight + "px";
+  });
+});
+

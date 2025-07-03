@@ -452,7 +452,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 document.addEventListener("DOMContentLoaded", function () {
-  const listItems = document.querySelectorAll(".product-grid-container .card__inner");
+  const listItems = document.querySelectorAll(".product-grid-container .card-wrapper");
 
   if (listItems.length === 0) return;
 

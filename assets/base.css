@@ -3935,4 +3935,7 @@ span.card_product_main_desc .trademark-symbol {
     top: -6px;
     font-size: 17px;
   }
+  .hotspot-product-item .product-name {
+    font-size: 18px;
+  }
 }

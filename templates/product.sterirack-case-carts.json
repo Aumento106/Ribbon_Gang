@@ -752,35 +752,6 @@
         "padding_bottom": 36
       }
     },
-    "image_with_no_text_pt9hhC": {
-      "type": "image-with-no-text",
-      "blocks": {
-        "image_KgDRNk": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/transport-case-carts-dimensions.png",
-            "image_page_container": "page-width"
-          }
-        }
-      },
-      "block_order": [
-        "image_KgDRNk"
-      ],
-      "disabled": true,
-      "settings": {
-        "page_container": "full-width",
-        "title": "Product <strong>Dimensions</strong>",
-        "custom_heading_size": 52,
-        "mobile_custom_heading_size": 28,
-        "custom_font_weight": "400",
-        "heading_alignment": "center",
-        "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
-        "text_content_alignment": "center",
-        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "padding_top": 36,
-        "padding_bottom": 72
-      }
-    },
     "shipping_estimate_7eHtJy": {
       "type": "shipping-estimate",
       "disabled": true,
@@ -791,6 +762,84 @@
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "btn": "Estimate",
         "enable_secondary_btn": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_XPrchx": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_heEar9": {
+          "type": "heading",
+          "settings": {
+            "heading": "Superior strength and durability",
+            "heading_size": "h1"
+          }
+        },
+        "text_PKGPpr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ideal solution for transporting sterile goods within hospitals, and from hospital to hospital.</p><ul><li>Robust stainless steel construction</li><li>Double-skinned doors with perimeter seal</li><li>Doors are three point locking and rotate 270° to facilitate washing</li><li>Robust bumper base frame with bolt-on 150mm lockable swivel castors</li><li>Nylon wheels, stainless steel frame and wheel bearings</li><li>Premium quality Australian made product</li></ul>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_heEar9",
+        "text_PKGPpr"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/STERIRACK-transport-case-cart-22.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_VyWJkY": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_mPyeci": {
+          "type": "heading",
+          "settings": {
+            "heading": "Identification and labelling",
+            "heading_size": "h1"
+          }
+        },
+        "text_WiimpP": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Clean/Dirty Label</li><li>Label Holder to suit A4</li></ul>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_mPyeci",
+        "text_WiimpP"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/STERIRACK-transport-case-cart-22.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -1026,8 +1075,9 @@
     "image_with_text_v1_iVfAzg",
     "image_with_text_v1_tWdMdC",
     "image_with_no_text_8FA38J",
-    "image_with_no_text_pt9hhC",
     "shipping_estimate_7eHtJy",
+    "image_with_text_XPrchx",
+    "image_with_text_VyWJkY",
     "related-products",
     "custom_image_text_slider_k9tKHM",
     "faq_collapsible_content_QQxiNJ",

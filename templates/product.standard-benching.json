@@ -1023,6 +1023,62 @@
         "padding_bottom": 36
       }
     },
+    "custom_multicolumn_mcBFWn": {
+      "type": "custom-multicolumn",
+      "blocks": {
+        "column_JimNf4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/sterirack-clicknclip-coloured-label-holders-1_2598dc4d-8f87-4a48-9a6a-c9c67108d160.jpg",
+            "title": "",
+            "block_custom_font_weight": "400",
+            "text": "",
+            "text-v": "",
+            "button-text": "",
+            "button-url": ""
+          }
+        },
+        "column_HP7QTB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/sterirack-clicknclip-coloured-label-holders-2_bd0641fe-e4c4-4f6c-aede-65f43dfaa288.jpg",
+            "title": "",
+            "block_custom_font_weight": "400",
+            "text": "",
+            "text-v": "",
+            "button-text": "",
+            "button-url": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_JimNf4",
+        "column_HP7QTB"
+      ],
+      "name": "Custom multicolumn",
+      "settings": {
+        "page_container": "page-width",
+        "title": "<h2>STERIRACK® Clip 'n' Click Label Holders</h2>",
+        "sec_subtitle": "with matching post strips",
+        "title_color": "#424242",
+        "subheading_color": "#424242",
+        "button_text": "",
+        "button_url": "",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
+        "title_alignment": "center",
+        "color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
+        "columns_desktop": "2",
+        "box_shadow": true,
+        "image_auto_height1": true,
+        "auto_width": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -1259,6 +1315,7 @@
     "custom_multicolumn_LG3nVT",
     "custom_multicolumn_text_B3HG8D",
     "video_j7DBNL",
+    "custom_multicolumn_mcBFWn",
     "related-products",
     "custom_image_text_slider_k9tKHM",
     "faq_collapsible_content_QQxiNJ",

@@ -1137,7 +1137,7 @@
       ],
       "name": "Custom multicolumn",
       "settings": {
-        "page_container": "page-width",
+        "page_container": "page-width--narrow",
         "title": "<p>Multicolumn Box</p>",
         "sec_subtitle": "Subtitle",
         "title_color": "#424242",

@@ -182,11 +182,14 @@
       "name": "t:sections.video.presets.name",
       "settings": {
         "heading": "VIDEO - STERIRACK® Mobile Workstations",
-        "heading_size": "h1",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "enable_video_looping": false,
-        "video_url": "https://youtu.be/Xj3eSTFXtyE",
+        "video_url": "https://youtu.be/Xj3eSTFXtyE?si=Xjadz6BDfuUS9zc4",
         "cover_image": "shopify://shop_images/maxresdefault_2.webp",
         "description": "",
+        "video_btm_desc": "",
         "page_container": "page-width--narrow",
         "color_scheme": "",
         "padding_top": 36,
@@ -290,7 +293,8 @@
         "image_LeGDPq": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/sterirack-clicknclip-coloured-label-holders-3-2048x398.jpg"
+            "image": "shopify://shop_images/sterirack-clicknclip-coloured-label-holders-3-2048x398.jpg",
+            "image_page_container": "page-width"
           }
         }
       },

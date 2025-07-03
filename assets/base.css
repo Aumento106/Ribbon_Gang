@@ -3931,4 +3931,8 @@ span.card_product_main_desc .trademark-symbol {
   .rich-text__wrapper {
     width: 100%;
   }
+  :not(.template-index) :is(h1,h2,h3,h4,h5,h6)>.trademark-symbol-TM, :not(.template-index) :is(h1,h2,h3,h4,h5,h6)>.trademark-symbol {
+    top: -6px;
+    font-size: 17px;
+  }
 }

@@ -1079,6 +1079,69 @@
         "margin_bottom": 0
       }
     },
+    "rich_text_VVrerN": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_U4LmwQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Label holders and post strips in a range of 14 vibrant colors",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
+          }
+        },
+        "text_VcqkrG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>(including black)</p>",
+            "text_content_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "heading_U4LmwQ",
+        "text_VcqkrG"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "content_alignment": "center",
+        "content_width": "medium",
+        "color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
+        "full_width": true,
+        "no_margin": false,
+        "section_border": false,
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "image_banner_Jq9EXa": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "page_container": "page-width",
+        "image": "shopify://shop_images/sterirack-clicknclip-coloured-label-holders-3-2048x398_3ebc9df7-027d-45e1-8e4e-2efcd6e90c2e.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "auto_height": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "mobile_padding_top": 36,
+        "mobile_padding_bottom": 36,
+        "mobile_margin_top": 36,
+        "mobile_margin_bottom": 36
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -1316,6 +1379,8 @@
     "custom_multicolumn_text_B3HG8D",
     "video_j7DBNL",
     "custom_multicolumn_mcBFWn",
+    "rich_text_VVrerN",
+    "image_banner_Jq9EXa",
     "related-products",
     "custom_image_text_slider_k9tKHM",
     "faq_collapsible_content_QQxiNJ",

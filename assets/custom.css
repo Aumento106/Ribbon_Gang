@@ -2687,6 +2687,9 @@ body.shopify-section-header-hidden .hotspot-product-list-main {
 
 @media screen and (max-width: 749px) {
 
+  .product-card-wrapper .card__heading.h5 {
+    min-height: 80px;
+  }
   .product-card-wrapper .card__heading.h5,
   .card-wrapper .price__sale .price-item--sale,
   .card-wrapper .price__regular .price-item--regular {

@@ -351,7 +351,6 @@
       "disabled": true,
       "settings": {
         "heading": "VIDEO - Use MEDIBINS™ not non-compliant plastic bins",
-        "heading_size": "h1",
         "enable_video_looping": false,
         "video_url": "https://youtu.be/0vtNGCmZ-yQ?si=vBueGVrcmnNkQb6i",
         "cover_image": "shopify://shop_images/maxresdefault_e72b4216-5dde-40ad-ab68-731685d0c282.webp",
@@ -459,7 +458,6 @@
         "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
         "columns_desktop": "2",
         "box_shadow": true,
-        "box_auto_height": true,
         "box_color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36

@@ -12,63 +12,33 @@
     "page_banner_YkpPpf": {
       "type": "page-banner",
       "blocks": {
-        "heading_KHPFgM": {
-          "type": "heading",
+        "image_HLQwXz": {
+          "type": "image",
           "settings": {
-            "heading": "{{ page.title }}",
-            "custom_heading_size": 52,
-            "mobile_custom_heading_size": 28,
-            "custom_font_weight": "400",
-            "heading_alignment": "center"
+            "image": "shopify://shop_images/Sterirack-theatre-trolleys-4-2048x1150_cef11b6f-3a72-4c54-bde7-e8df0f9e7e91.jpg",
+            "border_radius": false,
+            "image_height": "small"
           }
         }
       },
       "block_order": [
-        "heading_KHPFgM"
+        "image_HLQwXz"
       ],
-      "disabled": true,
       "name": "Page Banner",
       "settings": {
         "title_alignment": "center",
         "full_width": true,
         "content_width": "full_width",
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
-        "padding_top": 80,
-        "padding_bottom": 50
-      }
-    },
-    "image_banner_VgKQ7z": {
-      "type": "image-banner",
-      "name": "t:sections.image-banner.presets.name",
-      "settings": {
-        "page_container": "full-width",
-        "image": "shopify://shop_images/Blacktown_1.png",
-        "image_overlay_opacity": 0,
-        "image_height": "small",
-        "auto_height": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true,
         "padding_top": 0,
-        "padding_bottom": 0,
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "mobile_padding_top": 0,
-        "mobile_padding_bottom": 0,
-        "mobile_margin_top": 0,
-        "mobile_margin_bottom": 0
+        "padding_bottom": 0
       }
     },
     "section_breadcrumb_F9PzRF": {
       "type": "section-breadcrumb",
       "settings": {
         "color_scheme": "",
-        "padding_top": 30,
+        "padding_top": 0,
         "padding_bottom": 30,
         "mobile_padding_top": 30,
         "mobile_padding_bottom": 30
@@ -88,9 +58,8 @@
         },
         "text_7xmpEL": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "<p>Remove this line of text</p>",
+            "text": "<p>A fully customisable theater set up trolley. Reconfigure at a moments notice for any procedure, with a mix of consumables, instrument trays and large custom pack storage areas. The ideal theater set up trolley.</p><p>STERIRACK™ Theater Trolleys can be color coded for each theater or color coded for different procedures. Coming with medical grade, non-marking, anti-static noise free 125mmH castors the trolley fully loaded maneuvers with ease in, out and around busy OT environments. All trays, baskets and shelves are interchangeable with the entire STERIRACK™ system. PVC covers can be tailor made to suit the height and trolley variation you choose.</p><p>Choose from our range or have a custom solution configured to suit your facility and/or application.</p>",
             "text_content_alignment": "center"
           }
         }
@@ -106,102 +75,149 @@
         "full_width": true,
         "no_margin": false,
         "section_border": false,
-        "padding_top": 50,
+        "padding_top": 40,
         "padding_bottom": 50
       }
     },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-1",
         "padding_top": 0,
         "padding_bottom": 28
       }
     },
-    "product_catalog_W3r7Xn": {
-      "type": "product-catalog",
-      "disabled": true,
-      "settings": {
-        "product_image": "shopify://shop_images/image_104.png",
-        "logo_link": "",
-        "heading": "<p>Product Catalogue</p>",
-        "custom_heading_size": 52,
-        "mobile_custom_heading_size": 28,
-        "custom_font_weight": "400",
-        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
-        "description": "<p>Click here to view our latest product and services catalogue in a browser without downloading.</p>",
-        "button_1_text": "View catalogue",
-        "button_1_link": "https://online.flippingbook.com/view/393434/",
-        "button_2_text": "Download Catalog",
-        "button_2_link": "",
-        "reverse_column": true,
-        "title_color": "#424242",
-        "subheading_color": "#424242",
-        "padding_top": 20,
-        "padding_bottom": 20
-      }
-    },
-    "image_banner_FNqHFn": {
-      "type": "image-banner",
-      "name": "t:sections.image-banner.presets.name",
-      "settings": {
-        "page_container": "page-width",
-        "image": "shopify://shop_images/Sterirack-theatre-trolleys-4-2048x1150.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "auto_height": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "margin_top": 36,
-        "margin_bottom": 36,
-        "mobile_padding_top": 36,
-        "mobile_padding_bottom": 36,
-        "mobile_margin_top": 36,
-        "mobile_margin_bottom": 36
-      }
-    },
-    "rich_text_L6Vn3d": {
-      "type": "rich-text",
+    "video_with_text_rThyni": {
+      "type": "video-with-text",
       "blocks": {
-        "heading_a7Tfcy": {
+        "heading_y6tR8B": {
           "type": "heading",
-          "disabled": true,
           "settings": {
-            "heading": "{{ page.title }}",
+            "heading": "Theater Trolleys - in any size and any configuration",
             "custom_heading_size": 52,
             "mobile_custom_heading_size": 28,
             "custom_font_weight": "400"
           }
         },
-        "text_9kPwjw": {
+        "text_6Qxxmm": {
           "type": "text",
           "settings": {
-            "text": "<p>A fully customisable theater set up trolley. Reconfigure at a moments notice for any procedure, with a mix of consumables, instrument trays and large custom pack storage areas. The ideal theater set up trolley.</p><p>STERIRACK™ Theater Trolleys can be color coded for each theater or color coded for different procedures. Coming with medical grade, non-marking, anti-static noise free 125mmH castors the trolley fully loaded maneuvers with ease in, out and around busy OT environments. All trays, baskets and shelves are interchangeable with the entire STERIRACK™ system. PVC covers can be tailor made to suit the height and trolley variation you choose.</p><p>Choose from our range or have a custom solution configured to suit your facility and/or application.</p>",
-            "text_content_alignment": "center"
+            "text": "<p>STERIRACK™ Theater Trolleys are the ultimate. Check out the video at left to see all the ways this trolley can be used and configured to meet the needs of every single Theater Department in Hospitals and Healthcare.</p>",
+            "text_style": "body"
           }
         }
       },
       "block_order": [
-        "heading_a7Tfcy",
-        "text_9kPwjw"
+        "heading_y6tR8B",
+        "text_6Qxxmm"
       ],
+      "name": "Video With Text",
       "settings": {
-        "content_alignment": "center",
-        "content_width": "full_width",
-        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
-        "full_width": true,
-        "no_margin": false,
-        "section_border": false,
-        "padding_top": 50,
-        "padding_bottom": 50
+        "video_url": "https://youtu.be/97okYg3fcEc?si=-fn5F3RwUhX4TeDs",
+        "cover_image": "shopify://shop_images/sddefault_1.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_XWnKQH": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_KaAE6d": {
+          "type": "heading",
+          "settings": {
+            "heading": "Catheter Baskets",
+            "heading_size": "h1"
+          }
+        },
+        "text_TJifGw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Safe and secure storage. Designed to clip onto the end frames of STERIRACK™ Theater Setup Trolley solutions. Baskets can be divided to utilize and maximize space within the basket.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_ERBewE": {
+          "type": "button",
+          "settings": {
+            "button_label": "Find out more",
+            "button_link": "shopify://products/sterirack-catheter-baskets",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_KaAE6d",
+        "text_TJifGw",
+        "button_ERBewE"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/STERIRACK-Catheter-basket-closeup.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "video_with_text_YyXKh4": {
+      "type": "video-with-text",
+      "blocks": {
+        "heading_WY3XKd": {
+          "type": "heading",
+          "settings": {
+            "heading": "Co-branding and PVC Dust Covers",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
+          }
+        },
+        "text_F6UmGA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>STERIRACK™ Co-branded Trolleys can be used to increase brand recognition and maintain ownership of capital equipment. Have your trolleys branded, and customized in design, to suit your requirements. Include dust covers to keep your stock protected and dust free.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_WY3XKd",
+        "text_F6UmGA"
+      ],
+      "name": "Video With Text",
+      "settings": {
+        "video_url": "https://youtu.be/97okYg3fcEc?si=-fn5F3RwUhX4TeDs",
+        "cover_image": "shopify://shop_images/sddefault.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "custom_multicolumn_hErqPV": {
@@ -293,7 +309,7 @@
         "no_margin": false,
         "section_border": false,
         "padding_top": 40,
-        "padding_bottom": 40
+        "padding_bottom": 0
       }
     },
     "image_with_no_text_EcKjJW": {
@@ -328,13 +344,12 @@
   },
   "order": [
     "page_banner_YkpPpf",
-    "image_banner_VgKQ7z",
     "section_breadcrumb_F9PzRF",
     "rich_text_P3hBwh",
     "main",
-    "product_catalog_W3r7Xn",
-    "image_banner_FNqHFn",
-    "rich_text_L6Vn3d",
+    "video_with_text_rThyni",
+    "image_with_text_XWnKQH",
+    "video_with_text_YyXKh4",
     "custom_multicolumn_hErqPV",
     "rich_text_FWkHzN",
     "image_with_no_text_EcKjJW"

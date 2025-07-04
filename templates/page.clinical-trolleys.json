@@ -127,9 +127,9 @@
         "stack_images_on_mobile": true,
         "show_text_below": true,
         "padding_top": 36,
-        "padding_bottom": 36,
-        "margin_top": 36,
-        "margin_bottom": 36,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
         "mobile_padding_top": 36,
         "mobile_padding_bottom": 36,
         "mobile_margin_top": 36,
@@ -187,41 +187,41 @@
         "column_P8dYCY": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/sddefault_4.webp",
+            "image": "shopify://shop_images/sddefault_4.png",
             "video_url": "https://youtu.be/xfuQA73IXpM",
             "enable_video_looping": false,
-            "title": "STERIRACK® Trolleys - ultimate for patient care",
-            "text": ""
+            "title": "",
+            "text": "<p>STERIRACK® Trolleys - ultimate for patient care</p>"
           }
         },
         "column_GXwQjx": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/sddefault_5.webp",
+            "image": "shopify://shop_images/sddefault_5_1.png",
             "video_url": "https://youtu.be/eUXvhXIjWRg",
             "enable_video_looping": false,
-            "title": "STERIRACK® Trolleys - some of our range",
-            "text": ""
+            "title": "",
+            "text": "<p>STERIRACK® Trolleys - some of our range</p>"
           }
         },
         "column_PCrHgB": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/sddefault_6.webp",
+            "image": "shopify://shop_images/sddefault_6.png",
             "video_url": "https://youtu.be/Yz9cHDUMMYM",
             "enable_video_looping": false,
-            "title": "STERIRACK® Trolleys - loved by Balmain Village",
-            "text": ""
+            "title": "",
+            "text": "<p>STERIRACK® Trolleys - loved by Balmain Village</p>"
           }
         },
         "column_eqWWcM": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/sddefault_7.webp",
+            "image": "shopify://shop_images/sddefault_7.png",
             "video_url": "https://youtu.be/F5NKv7KU4fY",
             "enable_video_looping": false,
-            "title": "STERIRACK® Trolleys - gold standard range",
-            "text": ""
+            "title": "",
+            "text": "<p>STERIRACK® Trolleys - gold standard range</p>"
           }
         }
       },
@@ -303,6 +303,200 @@
         "mobile_margin_bottom": 36
       }
     },
+    "multicolumn_box_with_image_Q3gwyi": {
+      "type": "multicolumn-box-with-image",
+      "blocks": {
+        "column_rNrRxk": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Trolley-600x400x840-single-for-web-1-2_b92ccb27-343a-443b-9998-8b7158a5554b.jpg",
+            "title": "",
+            "text": "<p>Sterirack Medical Trolley 600x400x840 single</p>",
+            "content_alignment": "center"
+          }
+        },
+        "column_prMjDL": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Trolley-400x400x840-single-for-web-1-2.jpg",
+            "title": "",
+            "text": "<p>Sterirack Medical Trolley 400x400x840 single</p>",
+            "content_alignment": "center"
+          }
+        },
+        "column_NjdiHe": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Trolley-400x400x920-single-for-web-2-2.jpg",
+            "title": "",
+            "text": "<p>Sterirack Medical Trolley 400x400x920 single</p>",
+            "content_alignment": "center"
+          }
+        },
+        "column_qYt8aj": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Trolley-400x400x1000-single-for-web-3-2.jpg",
+            "title": "",
+            "text": "<p>Sterirack Medical Trolley 400x400x1000 single</p>",
+            "content_alignment": "center"
+          }
+        },
+        "column_iHxFnm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Trolley-400x400x1080-single-for-web-4-2.jpg",
+            "title": "",
+            "text": "<p>Sterirack Medical Trolley 400x400x1080 single</p>",
+            "content_alignment": "center"
+          }
+        },
+        "column_qwTRkh": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Trolley-400x400x840-double-for-web-2.jpg",
+            "title": "",
+            "text": "<p>Sterirack Medical Trolley 400x400x840 double</p>",
+            "content_alignment": "center"
+          }
+        },
+        "column_qYLfmW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Trolley-400x600x600-double-for-web-2.jpg",
+            "title": "",
+            "text": "<p>Sterirack Medical Trolley 400x600x600 double</p>",
+            "content_alignment": "center"
+          }
+        },
+        "column_pJtqat": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Trolley-600x600x1500-single-for-web-1-2.jpg",
+            "title": "",
+            "text": "<p>Sterirack Medical Trolley 600x600x1500 single</p>",
+            "content_alignment": "center"
+          }
+        },
+        "column_h8kQ4B": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Trolley-600x600x1500-single-for-web-2-2.jpg",
+            "title": "",
+            "text": "<p>Sterirack Medical Trolley 600x600x1500 single</p>",
+            "content_alignment": "center"
+          }
+        },
+        "column_caK4gB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Trolley-600x600x1500-single-for-web-3-2.jpg",
+            "title": "",
+            "text": "<p>Sterirack Medical Trolley 600x600x1500 single</p>",
+            "content_alignment": "center"
+          }
+        },
+        "column_jEFN3V": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Trolley-600x600x1500-single-for-web-4-2.jpg",
+            "title": "",
+            "text": "<p>Sterirack Medical Trolley 600x600x1500 single</p>",
+            "content_alignment": "center"
+          }
+        },
+        "column_PVKYdL": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Trolley-600x600x1500-single-for-web-5-1.jpg",
+            "title": "",
+            "text": "<p>Sterirack Medical Trolley 600x600x1500 single</p>",
+            "content_alignment": "center"
+          }
+        },
+        "column_8mVe4y": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Trolley-1200x600x1500-double-for-web-1-1.jpg",
+            "title": "",
+            "text": "<p>Sterirack Medical Trolley 1200x600x1500 double</p>",
+            "content_alignment": "center"
+          }
+        },
+        "column_NRX3Dy": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Trolley-1200x600x1500-double-for-web-2-1_1.jpg",
+            "title": "",
+            "text": "<p>Sterirack Medical Trolley 1200x600x1500 double</p>",
+            "content_alignment": "center"
+          }
+        },
+        "column_FkAhKi": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Trolley-1200x600x1500-double-for-web-4-1.jpg",
+            "title": "",
+            "text": "<p>Sterirack Medical Trolley 1200x600x1500 double</p>",
+            "content_alignment": "center"
+          }
+        },
+        "column_wnGnVg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Trolley-1200x600x1500-double-for-web-4-1_1.jpg",
+            "title": "",
+            "text": "<p>Sterirack Medical Trolley 1200x600x1500 double</p>",
+            "content_alignment": "center"
+          }
+        },
+        "column_iffhMp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Trolley-1200x600x1500-double-for-web-5-1.jpg",
+            "title": "",
+            "text": "<p>Sterirack Medical Trolley 1200x600x1500 double</p>",
+            "content_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "column_rNrRxk",
+        "column_prMjDL",
+        "column_NjdiHe",
+        "column_qYt8aj",
+        "column_iHxFnm",
+        "column_qwTRkh",
+        "column_qYLfmW",
+        "column_pJtqat",
+        "column_h8kQ4B",
+        "column_caK4gB",
+        "column_jEFN3V",
+        "column_PVKYdL",
+        "column_8mVe4y",
+        "column_NRX3Dy",
+        "column_FkAhKi",
+        "column_wnGnVg",
+        "column_iffhMp"
+      ],
+      "name": "Multicolumn with image",
+      "settings": {
+        "title": "<h3>Design your own medical trolley - the configurations are endless!</h3>",
+        "text": "Below are some of the variety of heights and configurations available for medical trolleys. You can choose one of these or come up with your own design. The configurations are endless!",
+        "custom_heading_size": 45,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
+        "title_alignment": "center",
+        "color_scheme": "",
+        "heading_color_scheme": "",
+        "columns_desktop": "4",
+        "box_shadow": true,
+        "enable_popup": true,
+        "box_color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
     "rich_text_PzLr4b": {
       "type": "rich-text",
       "blocks": {
@@ -358,197 +552,53 @@
         "mobile_margin_bottom": 36
       }
     },
-    "multicolumn_box_with_image_Cw7bzp": {
-      "type": "multicolumn-box-with-image",
+    "custom_collage_bhPQbK": {
+      "type": "custom-Collage",
       "blocks": {
-        "column_gHPiQk": {
-          "type": "column",
+        "image_7ybrBB": {
+          "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Trolley-600x400x840-single-for-web-1-2_b92ccb27-343a-443b-9998-8b7158a5554b.jpg",
-            "title": "",
-            "text": "<p>Sterirack Medical Trolley 600x400x840 single</p>",
-            "content_alignment": "center"
+            "project_name": "Sterirack Medical Trolley 600x400x840 single",
+            "project_sub_heading": "",
+            "project_des": "The tireless and dynamic SpaceLogic team is dedicated to Healthcare.",
+            "image": "shopify://shop_images/Trolley-600x400x840-single-for-web-1-2.jpg"
           }
         },
-        "column_kRLJnn": {
-          "type": "column",
+        "image_yJQQEY": {
+          "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Trolley-400x400x840-single-for-web-1-2.jpg",
-            "title": "",
-            "text": "<p>Sterirack Medical Trolley 400x400x840 single</p>",
-            "content_alignment": "center"
+            "project_name": "Project AU",
+            "project_sub_heading": "",
+            "project_des": "The tireless and dynamic SpaceLogic team is dedicated to Healthcare."
           }
         },
-        "column_hJBtGx": {
-          "type": "column",
+        "image_wM4BaQ": {
+          "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Trolley-400x400x920-single-for-web-2-2.jpg",
-            "title": "",
-            "text": "<p>Sterirack Medical Trolley 400x400x920 single</p>",
-            "content_alignment": "center"
-          }
-        },
-        "column_erWXeQ": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Trolley-400x400x1000-single-for-web-3-2.jpg",
-            "title": "",
-            "text": "<p>Sterirack Medical Trolley 400x400x1000 single</p>",
-            "content_alignment": "center"
-          }
-        },
-        "column_YCrQzq": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Trolley-400x400x1080-single-for-web-4-2.jpg",
-            "title": "",
-            "text": "<p>Sterirack Medical Trolley 400x400x1080 single</p>",
-            "content_alignment": "center"
-          }
-        },
-        "column_bGWfPp": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Trolley-400x400x840-double-for-web-2.jpg",
-            "title": "",
-            "text": "<p>Sterirack Medical Trolley 400x400x840 double</p>",
-            "content_alignment": "center"
-          }
-        },
-        "column_aQm8tw": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Trolley-400x600x600-double-for-web-2.jpg",
-            "title": "",
-            "text": "<p>Sterirack Medical Trolley 400x600x600 double</p>",
-            "content_alignment": "center"
-          }
-        },
-        "column_FU4x3Y": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Trolley-600x600x1500-single-for-web-1-2.jpg",
-            "title": "",
-            "text": "<p>Sterirack Medical Trolley 600x600x1500 single</p>",
-            "content_alignment": "center"
-          }
-        },
-        "column_PqPMk6": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Trolley-600x600x1500-single-for-web-2-2.jpg",
-            "title": "",
-            "text": "<p>Sterirack Medical Trolley 600x600x1500 single</p>",
-            "content_alignment": "center"
-          }
-        },
-        "column_i4bkcB": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Trolley-600x600x1500-single-for-web-3-2.jpg",
-            "title": "",
-            "text": "<p>Sterirack Medical Trolley 600x600x1500 single</p>",
-            "content_alignment": "center"
-          }
-        },
-        "column_gYUFV7": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Trolley-600x600x1500-single-for-web-4-2.jpg",
-            "title": "",
-            "text": "<p>Sterirack Medical Trolley 600x600x1500 single</p>",
-            "content_alignment": "center"
-          }
-        },
-        "column_RfX8FH": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Trolley-600x600x1500-single-for-web-5-1.jpg",
-            "title": "",
-            "text": "<p>Sterirack Medical Trolley 600x600x1500 single</p>",
-            "content_alignment": "center"
-          }
-        },
-        "column_Yxk7gm": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Trolley-1200x600x1500-double-for-web-1-1.jpg",
-            "title": "",
-            "text": "<p>Sterirack Medical Trolley 1200x600x1500 double</p>",
-            "content_alignment": "center"
-          }
-        },
-        "column_jiQmM7": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Trolley-1200x600x1500-double-for-web-2-1_1.jpg",
-            "title": "",
-            "text": "<p>Sterirack Medical Trolley 1200x600x1500 double</p>",
-            "content_alignment": "center"
-          }
-        },
-        "column_t6BFY3": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Trolley-1200x600x1500-double-for-web-4-1.jpg",
-            "title": "",
-            "text": "<p>Sterirack Medical Trolley 1200x600x1500 double</p>",
-            "content_alignment": "center"
-          }
-        },
-        "column_djDkr7": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Trolley-1200x600x1500-double-for-web-4-1_1.jpg",
-            "title": "",
-            "text": "<p>Sterirack Medical Trolley 1200x600x1500 double</p>",
-            "content_alignment": "center"
-          }
-        },
-        "column_4fcPT6": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Trolley-1200x600x1500-double-for-web-5-1.jpg",
-            "title": "",
-            "text": "<p>Sterirack Medical Trolley 1200x600x1500 double</p>",
-            "content_alignment": "center"
+            "project_name": "Project AU",
+            "project_sub_heading": "",
+            "project_des": "The tireless and dynamic SpaceLogic team is dedicated to Healthcare."
           }
         }
       },
       "block_order": [
-        "column_gHPiQk",
-        "column_kRLJnn",
-        "column_hJBtGx",
-        "column_erWXeQ",
-        "column_YCrQzq",
-        "column_bGWfPp",
-        "column_aQm8tw",
-        "column_FU4x3Y",
-        "column_PqPMk6",
-        "column_i4bkcB",
-        "column_gYUFV7",
-        "column_RfX8FH",
-        "column_Yxk7gm",
-        "column_jiQmM7",
-        "column_t6BFY3",
-        "column_djDkr7",
-        "column_4fcPT6"
+        "image_7ybrBB",
+        "image_yJQQEY",
+        "image_wM4BaQ"
       ],
-      "disabled": true,
-      "name": "Multicolumn with image",
+      "name": "Custom Collage",
       "settings": {
-        "title": "<h3>Design your own medical trolley - the configurations are endless!</h3>",
-        "custom_heading_size": 45,
+        "heading": "",
+        "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
         "custom_font_weight": "400",
-        "title_alignment": "center",
+        "desktop_layout": "equal",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
         "color_scheme": "",
-        "heading_color_scheme": "",
-        "columns_desktop": "4",
-        "box_shadow": true,
-        "box_color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "popup_color_scheme": "",
+        "padding_top": 45,
+        "padding_bottom": 45
       }
     },
     "product_catalog_W3r7Xn": {
@@ -707,9 +757,10 @@
     "multicolumn_video_XRNeaW",
     "rich_text_xxTTcf",
     "image_banner_Ein9Ec",
+    "multicolumn_box_with_image_Q3gwyi",
     "rich_text_PzLr4b",
     "image_banner_cNJbkJ",
-    "multicolumn_box_with_image_Cw7bzp",
+    "custom_collage_bhPQbK",
     "product_catalog_W3r7Xn",
     "custom_multicolumn_47n8Bx",
     "rich_text_MKpATp",

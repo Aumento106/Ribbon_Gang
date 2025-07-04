@@ -5,11 +5,54 @@
     padding-top: {{ section.settings.padding_top | times: 0.55 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.55 | round: 0 }}px;
   }
+  #lightbox .lb-details {
+    width: 100%;
+  }
+  #lightbox {
+    position: fixed;
+    top: 50% !important;
+    transform: translate(-50%, -50%);
+    left: 50% !important;
+    right: 0;
+    margin: 0 auto;
+    width: 100%;
+  }
+  #lightbox .lb-number {
+    display: none !important;
+  }
+  /* #lightbox .lb-number {
+    display: none !important;
+  } */
+  #lightbox .lb-close {
+    position: absolute;
+    top: 0;
+    right: 10%;
+  }
+  #lightbox .lb-caption {
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+  }
   .multi-column-box-with-image.section-{{ section.id }} .subtitle {
     width: 100%;
   }
+  .multi_box_image #global-lightbox {
+    position: fixed;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    width: 100%;
+  }
+  .multi_box_image #global-lightbox .grid__item.lightbox-image {
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+  } 
   .multi-column-box-with-image.section-{{ section.id }} .sec-head .title > * {
     font-size: {{ section.settings.custom_heading_size }}px;
+    margin: 0;
     {% if section.settings.custom_font_weight == 'none' %}
       font-weight: var(--subheading-font_weight) !important;
     {% else %}
@@ -57,25 +100,41 @@
   <div class="multicolumn-box page-width">
     {%- if section.settings.title != blank -%}
       <div class="sec-head section-title-alignment-{{ section.settings.title_alignment }}">
-        <div class="title">
+        <div class="title" style="margin-bottom: 10px;">
           {{ section.settings.title }}
         </div>
+        <p>
+          {{ section.settings.text }}
+        </p>
       </div>
     {%- endif -%}
 
     <div class="grid grid--1-col grid--2-col-tablet grid--{{ section.settings.columns_desktop }}-col-desktop {% if section.settings.box_shadow == true %}item-box-shadow{% endif %}">
       {%- for block in section.blocks -%}
-        <div class="grid__item" {{ block.shopify_attributes }}>
+        <div class="grid__item lightbox-trigger" {{ block.shopify_attributes }}>
           <div class="multicolumn-box__item color-{{ section.settings.box_color_scheme }} gradient">
             {%- if block.settings.image != blank -%}
-              <div class="multicolumn-box-img-wrapper">
-                {{ block.settings.image | image_url: width: 600 | image_tag:
-                  loading: 'lazy',
-                  width: block.settings.image.width,
-                  height: block.settings.image.height,
-                  class: 'multicolumn-box__image'
-                }}
-              </div>
+              {% if section.settings.enable_popup %}
+                <a href="{{ block.settings.image | img_url: 'master' }}" data-lightbox="product-gallery" data-title="{{ block.settings.text }}">
+                  <div class="multicolumn-box-img-wrapper">
+                    {{ block.settings.image | image_url: width: 600 | image_tag:
+                      loading: 'lazy',
+                      width: block.settings.image.width,
+                      height: block.settings.image.height,
+                      class: 'multicolumn-box__image'
+                    }}
+                  </div>
+                </a>
+              {% else %}
+                  <div class="multicolumn-box-img-wrapper">
+                    {{ block.settings.image | image_url: width: 600 | image_tag:
+                      loading: 'lazy',
+                      width: block.settings.image.width,
+                      height: block.settings.image.height,
+                      class: 'multicolumn-box__image'
+                    }}
+                  </div>
+              {% endif %}
             {%- endif -%}
             {%- if block.settings.title != blank -%}
               <div class="heading-with-icon-wrapper color-{{ section.settings.heading_color_scheme }} gradient">
@@ -102,6 +161,22 @@
   </div>
 </div>
 
+<script>
+  // Show close button when lightbox is opened
+  document.addEventListener('click', function(event) {
+  if (event.target.dataset.lbType === 'image') {
+  document.getElementById('lightboxClose').style.display = 'block';
+  }
+  });
+  
+  // Hide close button when lightbox is closed
+  document.addEventListener('click', function(event) {
+  if (event.target.classList.contains('lb-close')) {
+  document.getElementById('lightboxClose').style.display = 'none';
+  }
+  });
+</script>
+
 {% schema %}
 {
   "name": "Multicolumn with image",
@@ -113,6 +188,11 @@
       "id": "title",
       "default": "<p>Multicolumn Box</p>",
       "label": "Section Title"
+    },
+    {
+      "type": "text",
+      "id": "text",
+      "label": "Description"
     },
     {
       "type": "range",
@@ -221,6 +301,12 @@
       "id": "box_shadow",
       "default": true,
       "label": "Add box shadow"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_popup",
+      "default": false,
+      "label": "Enable Popup"
     },
     {
       "type": "color_scheme",

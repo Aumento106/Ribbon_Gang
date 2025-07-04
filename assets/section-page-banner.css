@@ -19,7 +19,9 @@
     aspect-ratio: 1 / 1;
     max-height: 600px;
 }
-
+.page-banner_sec .content-alignment-center ul li sup {
+  margin-left: -12px;
+}
 .video_yt_banner.project-consultation__image-wrapper {
     box-shadow: 0px 0px 40px 0px #00000014;
     margin: 0 0 4rem;

@@ -423,6 +423,51 @@
             "text": "<p>Sterirack Medical Trolley 400x600x600 double</p>",
             "content_alignment": "center"
           }
+        },
+        "column_FU4x3Y": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Trolley-600x600x1500-single-for-web-1-2.jpg",
+            "title": "",
+            "text": "<p>Sterirack Medical Trolley 600x600x1500 single</p>",
+            "content_alignment": "center"
+          }
+        },
+        "column_PqPMk6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Trolley-600x600x1500-single-for-web-2-2.jpg",
+            "title": "",
+            "text": "<p>Sterirack Medical Trolley 600x600x1500 single</p>",
+            "content_alignment": "center"
+          }
+        },
+        "column_i4bkcB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Trolley-600x600x1500-single-for-web-3-2.jpg",
+            "title": "",
+            "text": "<p>Sterirack Medical Trolley 600x600x1500 single</p>",
+            "content_alignment": "center"
+          }
+        },
+        "column_gYUFV7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Trolley-600x600x1500-single-for-web-4-2.jpg",
+            "title": "",
+            "text": "<p>Sterirack Medical Trolley 600x600x1500 single</p>",
+            "content_alignment": "center"
+          }
+        },
+        "column_RfX8FH": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Trolley-600x600x1500-single-for-web-5-1.jpg",
+            "title": "",
+            "text": "<p>Sterirack Medical Trolley 600x600x1500 single</p>",
+            "content_alignment": "center"
+          }
         }
       },
       "block_order": [
@@ -432,7 +477,12 @@
         "column_erWXeQ",
         "column_YCrQzq",
         "column_bGWfPp",
-        "column_aQm8tw"
+        "column_aQm8tw",
+        "column_FU4x3Y",
+        "column_PqPMk6",
+        "column_i4bkcB",
+        "column_gYUFV7",
+        "column_RfX8FH"
       ],
       "name": "Multicolumn with image",
       "settings": {

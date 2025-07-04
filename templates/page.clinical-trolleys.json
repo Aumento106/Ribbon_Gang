@@ -358,53 +358,96 @@
         "mobile_margin_bottom": 36
       }
     },
-    "custom_collage_bhPQbK": {
-      "type": "custom-Collage",
+    "multicolumn_box_with_image_Cw7bzp": {
+      "type": "multicolumn-box-with-image",
       "blocks": {
-        "image_7ybrBB": {
-          "type": "image",
+        "column_gHPiQk": {
+          "type": "column",
           "settings": {
-            "project_name": "Sterirack Medical Trolley 600x400x840 single",
-            "project_sub_heading": "",
-            "project_des": "The tireless and dynamic SpaceLogic team is dedicated to Healthcare.",
-            "image": "shopify://shop_images/Trolley-600x400x840-single-for-web-1-2.jpg"
+            "image": "shopify://shop_images/Trolley-600x400x840-single-for-web-1-2_b92ccb27-343a-443b-9998-8b7158a5554b.jpg",
+            "title": "",
+            "text": "<p>Sterirack Medical Trolley 600x400x840 single</p>",
+            "content_alignment": "center"
           }
         },
-        "image_yJQQEY": {
-          "type": "image",
+        "column_kRLJnn": {
+          "type": "column",
           "settings": {
-            "project_name": "Project AU",
-            "project_sub_heading": "",
-            "project_des": "The tireless and dynamic SpaceLogic team is dedicated to Healthcare."
+            "image": "shopify://shop_images/Trolley-400x400x840-single-for-web-1-2.jpg",
+            "title": "",
+            "text": "<p>Sterirack Medical Trolley 400x400x840 single<a href=\"https://spacelogicgroup.com/wp-content/uploads/2019/08/Trolley-400x400x920-single-for-web-2-2.jpg\"><br/><br/></a></p>",
+            "content_alignment": "center"
           }
         },
-        "image_wM4BaQ": {
-          "type": "image",
+        "column_hJBtGx": {
+          "type": "column",
           "settings": {
-            "project_name": "Project AU",
-            "project_sub_heading": "",
-            "project_des": "The tireless and dynamic SpaceLogic team is dedicated to Healthcare."
+            "image": "shopify://shop_images/Trolley-400x400x920-single-for-web-2-2.jpg",
+            "title": "",
+            "text": "<p>Sterirack Medical Trolley 400x400x920 single</p>",
+            "content_alignment": "center"
+          }
+        },
+        "column_erWXeQ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Trolley-400x400x1000-single-for-web-3-2.jpg",
+            "title": "",
+            "text": "<p>Sterirack Medical Trolley 400x400x1000 single</p>",
+            "content_alignment": "center"
+          }
+        },
+        "column_YCrQzq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Trolley-400x400x1080-single-for-web-4-2.jpg",
+            "title": "",
+            "text": "<p>Sterirack Medical Trolley 400x400x1080 single</p>",
+            "content_alignment": "center"
+          }
+        },
+        "column_bGWfPp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Trolley-400x400x840-double-for-web-2.jpg",
+            "title": "",
+            "text": "<p>Sterirack Medical Trolley 400x400x840 double</p>",
+            "content_alignment": "center"
+          }
+        },
+        "column_aQm8tw": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Trolley-400x600x600-double-for-web-2.jpg",
+            "title": "",
+            "text": "<p>Sterirack Medical Trolley 400x600x600 double</p>",
+            "content_alignment": "center"
           }
         }
       },
       "block_order": [
-        "image_7ybrBB",
-        "image_yJQQEY",
-        "image_wM4BaQ"
+        "column_gHPiQk",
+        "column_kRLJnn",
+        "column_hJBtGx",
+        "column_erWXeQ",
+        "column_YCrQzq",
+        "column_bGWfPp",
+        "column_aQm8tw"
       ],
-      "name": "Custom Collage",
+      "name": "Multicolumn with image",
       "settings": {
-        "heading": "",
+        "title": "",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
         "custom_font_weight": "400",
-        "desktop_layout": "equal",
-        "mobile_layout": "column",
-        "card_styles": "product-card-wrapper",
+        "title_alignment": "center",
         "color_scheme": "",
-        "popup_color_scheme": "",
-        "padding_top": 45,
-        "padding_bottom": 45
+        "heading_color_scheme": "",
+        "columns_desktop": "4",
+        "box_shadow": true,
+        "box_color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "product_catalog_W3r7Xn": {
@@ -565,7 +608,7 @@
     "image_banner_Ein9Ec",
     "rich_text_PzLr4b",
     "image_banner_cNJbkJ",
-    "custom_collage_bhPQbK",
+    "multicolumn_box_with_image_Cw7bzp",
     "product_catalog_W3r7Xn",
     "custom_multicolumn_47n8Bx",
     "rich_text_MKpATp",

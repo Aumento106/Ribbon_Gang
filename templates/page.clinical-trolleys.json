@@ -534,6 +534,7 @@
         "column_djDkr7",
         "column_4fcPT6"
       ],
+      "disabled": true,
       "name": "Multicolumn with image",
       "settings": {
         "title": "<h3>Design your own medical trolley - the configurations are endless!</h3>",

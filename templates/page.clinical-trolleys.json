@@ -481,7 +481,34 @@
         "column_jiQmM7": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Trolley-1200x600x1500-double-for-web-2-1.jpg",
+            "image": "shopify://shop_images/Trolley-1200x600x1500-double-for-web-2-1_1.jpg",
+            "title": "",
+            "text": "<p>Sterirack Medical Trolley 1200x600x1500 double</p>",
+            "content_alignment": "center"
+          }
+        },
+        "column_t6BFY3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Trolley-1200x600x1500-double-for-web-4-1.jpg",
+            "title": "",
+            "text": "<p>Sterirack Medical Trolley 1200x600x1500 double</p>",
+            "content_alignment": "center"
+          }
+        },
+        "column_djDkr7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Trolley-1200x600x1500-double-for-web-4-1_1.jpg",
+            "title": "",
+            "text": "<p>Sterirack Medical Trolley 1200x600x1500 double</p>",
+            "content_alignment": "center"
+          }
+        },
+        "column_4fcPT6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Trolley-1200x600x1500-double-for-web-5-1.jpg",
             "title": "",
             "text": "<p>Sterirack Medical Trolley 1200x600x1500 double</p>",
             "content_alignment": "center"
@@ -502,7 +529,10 @@
         "column_gYUFV7",
         "column_RfX8FH",
         "column_Yxk7gm",
-        "column_jiQmM7"
+        "column_jiQmM7",
+        "column_t6BFY3",
+        "column_djDkr7",
+        "column_4fcPT6"
       ],
       "name": "Multicolumn with image",
       "settings": {

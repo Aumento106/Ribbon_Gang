@@ -536,8 +536,8 @@
       ],
       "name": "Multicolumn with image",
       "settings": {
-        "title": "",
-        "custom_heading_size": 52,
+        "title": "<h3>Design your own medical trolley - the configurations are endless!</h3>",
+        "custom_heading_size": 45,
         "mobile_custom_heading_size": 28,
         "custom_font_weight": "400",
         "title_alignment": "center",

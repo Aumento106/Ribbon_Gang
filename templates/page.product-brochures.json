@@ -61,18 +61,17 @@
           "settings": {
             "image": "shopify://shop_images/2025_Catalogue_image.jpg",
             "heading": "SpaceLogic product catalogue",
-            "custom_heading_size": 52,
+            "custom_heading_size": 32,
             "mobile_custom_heading_size": 28,
-            "custom_font_weight": "400",
-            "text": "<p>A complete guide to our storage solutions, featuring the industry-leading STERIRACK® System.</p>",
-            "btn_text": "View",
+            "custom_font_weight": "600",
+            "text": "<p>A complete guide to our storage solutions, featuring the industry-leading STERIRACK® System. View our flipping book in your browser without the need for a download.</p>",
+            "btn_text": "View catalogue",
             "btn_link": "https://online.flippingbook.com/view/393434/",
             "button_style_secondary": false
           }
         },
         "brochure_MaPNke": {
           "type": "brochure",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/colour-coding-brochure-img.png",
             "heading": "SpaceLogic Colour Coding Brochure",
@@ -87,7 +86,6 @@
         },
         "brochure_CMXVaH": {
           "type": "brochure",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/clean-utilities-brochure-img.png",
             "heading": "STERIRACK® Clean Utilities Presentation",
@@ -102,7 +100,6 @@
         },
         "brochure_czMfpM": {
           "type": "brochure",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/glass-door-cart-brochure-img.png",
             "heading": "STERIRACK® Glass Door Carts Brochure",
@@ -117,7 +114,6 @@
         },
         "brochure_G9gyCD": {
           "type": "brochure",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/transport-cart-brochure-img.png",
             "heading": "STERIRACK® Transport Carts Brochure",
@@ -132,7 +128,6 @@
         },
         "brochure_gtibBq": {
           "type": "brochure",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/first-responder-storage-brochure-img.png",
             "heading": "STERIRACK® First Responder Storage",
@@ -147,7 +142,6 @@
         },
         "brochure_HpGBw7": {
           "type": "brochure",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/nexus-group-brochure-img.png",
             "heading": "STERIRACK® Nexus Group of Hospitals Presentation​",
@@ -162,7 +156,6 @@
         },
         "brochure_AFimiq": {
           "type": "brochure",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/veterinary-brochure-img.png",
             "heading": "STERIRACK® Veterinary Storage Catalogue",
@@ -189,7 +182,7 @@
       "settings": {
         "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
         "layout": "image_first",
-        "box_color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
+        "box_color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "padding_top": 72,
         "padding_bottom": 72
       }

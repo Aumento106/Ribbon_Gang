@@ -1,48 +1,216 @@
+{{ 'team-member.css' | asset_url | stylesheet_tag }}
+
+
+{%- style -%}
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+
+  @media screen and (max-width: 1440px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top | times: 0.50 | round: 0 }}px;
+      padding-bottom: {{ section.settings.padding_bottom | times: 0.50 | round: 0 }}px;
+    }
+  }
+
+  @media screen and (max-width: 749px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.mobile_padding_top }}px;
+      padding-bottom: {{ section.settings.mobile_padding_bottom }}px;
+    }
+  }
+
+{%- endstyle -%}
+
+
+<div class="color-{{ section.settings.color_scheme }}">
+    
+  <div class="main_team_page page-width section-{{ section.id }}-padding">
+
+    <div class="team-section">
+    {% if section.settings.title != blank %}
+      <h2 class="section-title text-center">{{ section.settings.title }}</h2>
+    {% endif %}
+
+
+      
+    <div class="team-grid">
+      
+        {% for members in shop.metaobjects.our_team.values %}
+        {% comment %}<div class="team-member" {{ block.shopify_attributes }}>
+          
+            <div class="team-member-image">
+          {{ members.employee_image | img_url: width:250 | img_tag  }}
+            </div>
+          
+          
+          <div class="team-member-detail-wrp">
+            <p class="team-member-name">{{ members.employee_name }}</p>
+              <div class="team-member-position">{{ members.employee_designation }}</div>
+              <div class="team-description">
+                Adam leads Product Sales and is often the friendly voice you’ll hear when you call. With 15 years of hands-on industry experience, Adam’s in-depth product knowledge and exceptional customer engagement skills have been key to his success in delivering outstanding client satisfaction.
+              </div>
+              
+              <div class="social-links">
+                {% for image in  members.social_media_icons.value %}
+                  <a href="{{ members.icon_link.value[forloop.index0] }}" class="social-link" target="_blank" rel="noopener">
+                    {{  image | img_url: width:25 | img_tag  }}
+                  </a> 
+                {% endfor %}
+              </div>
+          </div>
+
+        </div>{% endcomment %}
+
+          <div class="team-member">
+          {% if members.employee_image != blank %}
+            <div class="team-member-image">
+            {{ members.employee_image | image_url: width:200 , height:200 |image_tag }}
+            </div>
+          {% endif %}
+          
+          
+        <div class="team-member-detail-wrp color-{{ section.settings.box_color_scheme }}">
+          {% if members.employee_name != blank %}
+            <p class="team-member-name">{{ members.employee_name }}</p>
+          {% endif %}
+          {% if members.employee_designation != blank %}
+            <div class="team-member-position">{{ members.employee_designation }}</div>
+          {% endif %}
+          {% if members.employee_description != blank %}
+              <div class="team-description">
+                {{ members.employee_description }}
+              </div>
+          {% endif %}
+              
+              <div class="social-links">
+              {% comment %} {% for image in  members.social_media_icons.value %}
+                  <a href="{{ members.icon_link.value[forloop.index0] }}" class="social-link" target="_blank" rel="noopener">
+                    {{  image | img_url: width:25 | img_tag  }}
+                  </a> 
+                  {% endfor %}
+              {% endcomment %}
+                <div class="social-links">
+                {% if members.employee_facebook_link != blank %}
+                  <a href="{{ members.employee_facebook_link }}" class="social-link" target="_blank" rel="noopener">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="22" viewBox="0 0 13 22" fill="none">
+                      <path d="M12 1H9C7.67392 1 6.40215 1.52678 5.46447 2.46447C4.52678 3.40215 4 4.67392 4 6V9H1V13H4V21H8V13H11L12 9H8V6C8 5.73478 8.10536 5.48043 8.29289 5.29289C8.48043 5.10536 8.73478 5 9 5H12V1Z" stroke="#424242" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </a>
+                {% endif %}
+                        
+                  {% if members.employee_email_link != blank %}
+                    <a href="{{ members.employee_email_link }}" class="social-link" target="_blank" rel="noopener">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M20 4H4C2.89543 4 2 4.89543 2 6V18C2 19.1046 2.89543 20 4 20H20C21.1046 20 22 19.1046 22 18V6C22 4.89543 21.1046 4 20 4Z" stroke="#424242" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M22 7L13.03 12.7C12.7213 12.8934 12.3643 12.996 12 12.996C11.6357 12.996 11.2787 12.8934 10.97 12.7L2 7" stroke="#424242" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                    </a>
+                {% endif %}
+
+                {% if members.employee_instagram_link != blank %}
+                    <a href="{{ members.employee_instagram_link }}" class="social-link" target="_blank" rel="noopener">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M17 2H7C4.23858 2 2 4.23858 2 7V17C2 19.7614 4.23858 22 7 22H17C19.7614 22 22 19.7614 22 17V7C22 4.23858 19.7614 2 17 2Z" stroke="#424242" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M15.9997 11.3703C16.1231 12.2025 15.981 13.0525 15.5935 13.7993C15.206 14.5461 14.5929 15.1517 13.8413 15.53C13.0898 15.9082 12.2382 16.0399 11.4075 15.9062C10.5768 15.7726 9.80947 15.3804 9.21455 14.7855C8.61962 14.1905 8.22744 13.4232 8.09377 12.5925C7.96011 11.7619 8.09177 10.9102 8.47003 10.1587C8.84829 9.40716 9.45389 8.79404 10.2007 8.40654C10.9475 8.01904 11.7975 7.87689 12.6297 8.0003C13.4786 8.12619 14.2646 8.52176 14.8714 9.12861C15.4782 9.73545 15.8738 10.5214 15.9997 11.3703Z" stroke="#424242" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M17.5 6.5H17.51" stroke="#424242" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                    </a>
+                {% endif %}
+
+                {% if members.employee_linkedin_link != blank %}
+                    <a href="{{ members.employee_linkedin_link }}" class="social-link" target="_blank" rel="noopener">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                        <path d="M13.8661 17.6383C13.6561 17.6383 13.4851 17.4679 13.4851 17.2579V11.4763C13.4851 9.38594 12.4123 9.38594 12.0079 9.38594C10.8811 9.38594 10.3105 10.0891 10.3105 11.4763V17.2585C10.3105 17.4685 10.1401 17.6389 9.93007 17.6389H6.66067C6.45067 17.6389 6.28027 17.4685 6.28027 17.2585V6.24434C6.28027 6.03434 6.45067 5.86394 6.66067 5.86394H9.93067C10.1407 5.86394 10.3111 6.03434 10.3111 6.24434V6.65474L10.5079 6.49214C11.2819 5.85194 12.2053 5.52734 13.2523 5.52734C14.5465 5.52734 15.6361 5.94074 16.4029 6.72374C17.2129 7.55054 17.6407 8.78174 17.6407 10.2835V17.2585C17.6407 17.4685 17.4697 17.6389 17.2597 17.6389L13.8661 17.6383ZM12.0085 8.62394C12.8449 8.62394 14.2477 8.99474 14.2477 11.4763V16.8775H16.8787V10.2835C16.8787 7.74494 15.5569 6.28934 13.2523 6.28934C11.1943 6.28934 10.3027 7.84334 10.2655 7.90934C10.1983 8.03114 10.0711 8.10674 9.93247 8.10674C9.90127 8.10674 9.86947 8.10194 9.83707 8.09414C9.66787 8.05154 9.54967 7.90094 9.54967 7.72814V6.62594H7.04167V16.8781H9.54967V11.4763C9.54967 9.69014 10.4689 8.62394 12.0085 8.62394Z" fill="#424242"/>
+                        <path d="M1.0685 17.6377C0.8585 17.6377 0.6875 17.4673 0.6875 17.2573V6.24368C0.6875 6.03368 0.8585 5.86328 1.0685 5.86328H4.4795C4.6895 5.86328 4.8599 6.03368 4.8599 6.24368V17.2573C4.8599 17.4673 4.6895 17.6377 4.4795 17.6377H1.0685ZM1.4495 16.8769H4.0985V6.62468H1.4495V16.8769Z" fill="#424242"/>
+                        <path d="M2.75855 5.18278C1.43615 5.18278 0.360352 4.10098 0.360352 2.77138C0.360352 1.44117 1.43615 0.359375 2.75855 0.359375C4.07915 0.359375 5.15435 1.44178 5.15435 2.77198C5.15435 4.10098 4.07915 5.18278 2.75855 5.18278ZM2.75855 1.11898C1.85615 1.11898 1.12235 1.85997 1.12235 2.77138C1.12235 3.68218 1.85615 4.42198 2.75855 4.42198C3.66035 4.42198 4.39355 3.68218 4.39355 2.77138C4.39295 1.86058 3.66035 1.11898 2.75855 1.11898Z" fill="#424242"/>
+                      </svg>
+                    </a>
+                {% endif %}
+                
+              </div>
+              </div>
+          </div>
+
+        </div>
+      {% endfor %}
+    
+    </div>
+
+  </div>
+
+  </div>
+
+</div>
 {% schema %}
 {
   "name": "Team Members",
-  "max_blocks": 12,
-  "blocks": [
+  "settings": [
     {
-      "type": "team_member",
-      "name": "Team Member",
-      "settings": [
-        {
-          "type": "image_picker",
-          "id": "photo",
-          "label": "Photo"
-        },
-        {
-          "type": "text",
-          "id": "name",
-          "label": "Name"
-        },
-        {
-          "type": "text",
-          "id": "title",
-          "label": "Title"
-        },
-        {
-          "type": "textarea",
-          "id": "description",
-          "label": "Description"
-        },
-        {
-          "type": "url",
-          "id": "facebook",
-          "label": "Facebook URL"
-        },
-        {
-          "type": "url",
-          "id": "linkedin",
-          "label": "LinkedIn URL"
-        },
-        {
-          "type": "url",
-          "id": "instagram",
-          "label": "Instagram URL"
-        }
-      ]
+      "type": "paragraph",
+      "content": "Our team data is managed via metaobjects."
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    },
+    {
+      "type": "color_scheme",
+      "id": "box_color_scheme",
+      "label": "Box color scheme",
+      "default": "scheme-1"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Section Title",
+      "default": "Our Team"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 180,
+      "step": 5,
+      "unit": "px",
+      "label": "Padding Top",
+      "default": 30
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 180,
+      "step": 5,
+      "unit": "px",
+      "label": "Padding Bottom",
+      "default": 30
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding_top",
+      "min": 0,
+      "max": 180,
+      "step": 5,
+      "unit": "px",
+      "label": "Mobile Padding Top",
+      "default": 30
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding_bottom",
+      "min": 0,
+      "max": 180,
+      "step": 5,
+      "unit": "px",
+      "label": "Mobile Padding Bottom",
+      "default": 30
     }
   ],
   "presets": [
@@ -53,49 +221,3 @@
   ]
 }
 {% endschema %}
-
-<div class="team-grid">
-  {% for block in section.blocks %}
-    <div class="team-member">
-      {% if block.settings.photo %}
-        <div class="team-photo">
-          <img src="{{ block.settings.photo | image_url: width: 300 }}" alt="{{ block.settings.name }}">
-        </div>
-      {% endif %}
-      <h3>{{ block.settings.name }}</h3>
-      <h4>{{ block.settings.title }}</h4>
-      <p>{{ block.settings.description }}</p>
-      <div class="social-links">
-        {% if block.settings.facebook != blank %}
-          <a href="{{ block.settings.facebook }}" target="_blank">Facebook</a>
-        {% endif %}
-        {% if block.settings.linkedin != blank %}
-          <a href="{{ block.settings.linkedin }}" target="_blank">LinkedIn</a>
-        {% endif %}
-        {% if block.settings.instagram != blank %}
-          <a href="{{ block.settings.instagram }}" target="_blank">Instagram</a>
-        {% endif %}
-      </div>
-    </div>
-  {% endfor %}
-</div>
-
-<style>
-.team-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 30px;
-  margin: 50px 0;
-}
-.team-member {
-  text-align: center;
-}
-.team-photo img {
-  border-radius: 50%;
-  max-width: 150px;
-}
-.social-links a {
-  margin: 0 8px;
-  font-size: 14px;
-}
-</style>

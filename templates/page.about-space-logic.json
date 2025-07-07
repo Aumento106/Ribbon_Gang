@@ -88,7 +88,8 @@
         "image": "shopify://shop_images/improve-infection-control.png",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "full_width": false,
+        "container_size": "page-width",
+        "both_image_content_size": false,
         "video_url": "https://www.youtube.com/watch?v=lHnJFanm7tM",
         "enable_video_looping": false,
         "layout": "image_first",
@@ -160,9 +161,39 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
+    },
+    "custom_page_banner_xYEjM4": {
+      "type": "custom-page-banner",
+      "blocks": {
+        "slide_gTzEjF": {
+          "type": "slide",
+          "settings": {
+            "image_overlay_opacity": 0
+          }
+        },
+        "slide_yqEXeB": {
+          "type": "slide",
+          "settings": {
+            "image_overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "slide_gTzEjF",
+        "slide_yqEXeB"
+      ],
+      "name": "Custom Page Banner",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "image_behavior": "none",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
+    "custom_page_banner_xYEjM4",
     "main",
     "page_banner_J4tRrR",
     "section_breadcrumb_eRP7JN",

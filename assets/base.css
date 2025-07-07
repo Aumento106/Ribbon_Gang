@@ -3945,3 +3945,8 @@ span.card_product_main_desc .trademark-symbol {
 .breadcrumb-sec-main *::after {
   font-size: 12px !important;
 }
+
+.breadcrumb-sec-main svg {
+  width: 10px;
+  height: auto;
+}

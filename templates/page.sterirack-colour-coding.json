@@ -9,40 +9,47 @@
  */
 {
   "sections": {
-    "rich_text_P3hBwh": {
-      "type": "rich-text",
+    "page_banner_PR6mgA": {
+      "type": "page-banner",
       "blocks": {
-        "heading_mGwXwE": {
+        "heading_mdrQ3m": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>{{ page.title }}</strong>",
+            "heading": "{{ page.title }}",
             "custom_heading_size": 52,
             "mobile_custom_heading_size": 28,
-            "custom_font_weight": "400"
+            "custom_font_weight": "600",
+            "heading_alignment": "center"
           }
         },
-        "text_7xmpEL": {
-          "type": "text",
-          "disabled": true,
+        "caption_q9FC9x": {
+          "type": "caption",
           "settings": {
-            "text": "<p>Remove this line of text</p>",
-            "text_content_alignment": "center"
+            "caption": "<p>Add caption here</p>",
+            "caption_alignment": "center"
+          }
+        },
+        "text_kGRLAB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Text to go here.</p>",
+            "text_alignment": "left"
           }
         }
       },
       "block_order": [
-        "heading_mGwXwE",
-        "text_7xmpEL"
+        "heading_mdrQ3m",
+        "caption_q9FC9x",
+        "text_kGRLAB"
       ],
+      "name": "Page Banner",
       "settings": {
-        "content_alignment": "center",
+        "title_alignment": "center",
+        "full_width": true,
         "content_width": "full_width",
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
-        "full_width": true,
-        "no_margin": false,
-        "section_border": false,
         "padding_top": 80,
-        "padding_bottom": 50
+        "padding_bottom": 40
       }
     },
     "section_breadcrumb_6kEHfa": {
@@ -164,7 +171,7 @@
     }
   },
   "order": [
-    "rich_text_P3hBwh",
+    "page_banner_PR6mgA",
     "section_breadcrumb_6kEHfa",
     "categories_9acj3x",
     "main",

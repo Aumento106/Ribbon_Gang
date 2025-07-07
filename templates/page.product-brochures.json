@@ -88,12 +88,12 @@
           "type": "brochure",
           "settings": {
             "image": "shopify://shop_images/clean-utilities-brochure-img.png",
-            "heading": "STERIRACK® Clean Utilities Presentation",
+            "heading": "Clean utilities presentation",
             "custom_heading_size": 32,
             "mobile_custom_heading_size": 24,
-            "custom_font_weight": "400",
+            "custom_font_weight": "600",
             "text": "<p>Discover the perfect storage solution for Clean Utilities and Medication Rooms.</p>",
-            "btn_text": "View brochure",
+            "btn_text": "View presentation",
             "btn_link": "https://online.flippingbook.com/view/159525198/",
             "button_style_secondary": false
           }

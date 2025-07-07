@@ -25,14 +25,14 @@
         "caption_dKycKd": {
           "type": "caption",
           "settings": {
-            "caption": "<p>Add caption here</p>",
+            "caption": "<p>See our systems in action and hear from those who use them every day.</p>",
             "caption_alignment": "center"
           }
         },
         "text_d4bR8k": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your page information.</p>",
+            "text": "<p>Welcome to our Video Gallery — a valuable resource for anyone interested in learning more about the STERIRACK® System and our full range of products and services. Here you’ll find a collection of videos showcasing customer testimonials, real-world case studies, and practical demonstrations, all designed to give you a clearer picture of how our solutions can transform your space.</p>",
             "text_alignment": "left"
           }
         }

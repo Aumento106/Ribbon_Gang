@@ -61,6 +61,7 @@
     },
     "product_catalog_4eBaMw": {
       "type": "product-catalog",
+      "disabled": true,
       "settings": {
         "product_image": "shopify://shop_images/Product_catalogue_cover.png",
         "logo_link": "",

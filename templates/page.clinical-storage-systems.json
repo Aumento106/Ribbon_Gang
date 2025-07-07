@@ -9,6 +9,37 @@
  */
 {
   "sections": {
+    "custom_page_banner_xFRPrm": {
+      "type": "custom-page-banner",
+      "blocks": {
+        "slide_EjgKKr": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image_overlay_opacity": 0
+          }
+        },
+        "slide_XbLzDm": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/woman-wades-in-ocean-at-sunset.jpg",
+            "image_overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "slide_EjgKKr",
+        "slide_XbLzDm"
+      ],
+      "name": "Custom Page Banner",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "image_behavior": "none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "page_banner_x8XVji": {
       "type": "page-banner",
       "blocks": {
@@ -500,40 +531,10 @@
         "padding_top": 20,
         "padding_bottom": 60
       }
-    },
-    "custom_page_banner_xFRPrm": {
-      "type": "custom-page-banner",
-      "blocks": {
-        "slide_EjgKKr": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
-            "image_overlay_opacity": 0
-          }
-        },
-        "slide_XbLzDm": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/woman-wades-in-ocean-at-sunset.jpg",
-            "image_overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "slide_EjgKKr",
-        "slide_XbLzDm"
-      ],
-      "name": "Custom Page Banner",
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "medium",
-        "image_behavior": "none",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
+    "custom_page_banner_xFRPrm",
     "page_banner_x8XVji",
     "rich_text_P3hBwh",
     "section_breadcrumb_QmHraV",
@@ -545,7 +546,6 @@
     "rich_text_reYctM",
     "custom_liquid_Y6PCdj",
     "rich_text_aAqpH6",
-    "multirow_XY7QxL",
-    "custom_page_banner_xFRPrm"
+    "multirow_XY7QxL"
   ]
 }

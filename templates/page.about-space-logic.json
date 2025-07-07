@@ -34,10 +34,21 @@
       "name": "TF Custom Page Slideshow",
       "settings": {
         "layout": "full_bleed",
-        "slide_height": "medium",
+        "slide_height": "large",
         "image_behavior": "none",
         "padding_top": 0,
         "padding_bottom": 0
+      }
+    },
+    "section_breadcrumb_X4BUdU": {
+      "type": "section-breadcrumb",
+      "name": "TF Breadcrumb",
+      "settings": {
+        "color_scheme": "",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "mobile_padding_top": 20,
+        "mobile_padding_bottom": 20
       }
     },
     "main": {
@@ -63,6 +74,7 @@
       "block_order": [
         "text_zj4HVF"
       ],
+      "disabled": true,
       "settings": {
         "title_alignment": "center",
         "full_width": true,
@@ -70,16 +82,6 @@
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "padding_top": 0,
         "padding_bottom": 0
-      }
-    },
-    "section_breadcrumb_eRP7JN": {
-      "type": "section-breadcrumb",
-      "settings": {
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "mobile_padding_top": 30,
-        "mobile_padding_bottom": 30
       }
     },
     "image_with_text_v1_Kk8cPy": {
@@ -183,27 +185,15 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
-    },
-    "section_breadcrumb_X4BUdU": {
-      "type": "section-breadcrumb",
-      "name": "TF Breadcrumb",
-      "settings": {
-        "color_scheme": "",
-        "padding_top": 20,
-        "padding_bottom": 20,
-        "mobile_padding_top": 20,
-        "mobile_padding_bottom": 20
-      }
     }
   },
   "order": [
     "custom_page_banner_xYEjM4",
+    "section_breadcrumb_X4BUdU",
     "main",
     "page_banner_J4tRrR",
-    "section_breadcrumb_eRP7JN",
     "image_with_text_v1_Kk8cPy",
     "rich_text_EQJmnB",
-    "product_catalog_Bnebfb",
-    "section_breadcrumb_X4BUdU"
+    "product_catalog_Bnebfb"
   ]
 }

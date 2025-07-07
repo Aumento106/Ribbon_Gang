@@ -159,10 +159,10 @@
           "settings": {
             "button_label": "Product design and innovation",
             "button_link": "shopify://pages/product-design-and-innovation",
-            "button_style_secondary": false,
+            "button_style_secondary": true,
             "button_label_2": "Project management and expert installation",
             "button_link_2": "shopify://pages/project-management-and-expert-installation",
-            "button_style_secondary_2": false,
+            "button_style_secondary_2": true,
             "button_alignment": "center"
           }
         }

@@ -109,61 +109,61 @@
         "featured_collection_NkPVMK": {
           "type": "featured_collection",
           "settings": {
-            "categories_image": "shopify://shop_images/32-SpaceLogic-STERIRACK-MEDIBIN-Extra-Small-Extra-Extra-Large-cropped-for-web-scaled.jpg",
+            "categories_image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
             "collection": "steriloop-medibin",
             "card_text": "MEDIBINS™ are high quality, chrome finished, wire bins, available in six sizes.",
             "button_card_text": "Learn more",
-            "redirection_link": ""
+            "redirection_link": "shopify://collections/steriloop-medibin"
           }
         },
         "featured_collection_ant9n7": {
           "type": "featured_collection",
           "settings": {
-            "categories_image": "shopify://shop_images/01-medipanel.jpg",
+            "categories_image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
             "collection": "medibin-panels",
             "card_text": "MEDIBIN™ Panels are attached to a wall to accommodate MEDIBINS™.",
             "button_card_text": "Learn more",
-            "redirection_link": ""
+            "redirection_link": "shopify://collections/medibin-panels"
           }
         },
         "featured_collection_F9Q6w4": {
           "type": "featured_collection",
           "settings": {
-            "categories_image": "shopify://shop_images/Blacktown_Hospital_19.png",
+            "categories_image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
             "collection": "medibin-freestanding-racks",
             "card_text": "It is a long established fact that a reader",
             "button_card_text": "Learn more",
-            "redirection_link": ""
+            "redirection_link": "shopify://collections/medibin-freestanding-racks"
           }
         },
         "featured_collection_eMKwDQ": {
           "type": "featured_collection",
           "settings": {
-            "categories_image": "shopify://shop_images/01-workstations.jpg",
+            "categories_image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
             "collection": "medibin-standard-label-holders",
             "card_text": "Now available for STERIRACK® System racking, shelving and baskets, Trolleys and Carts.",
             "button_card_text": "Learn more",
-            "redirection_link": ""
+            "redirection_link": "shopify://collections/medibin-standard-label-holders"
           }
         },
         "featured_collection_TtYFqg": {
           "type": "featured_collection",
           "settings": {
-            "categories_image": "shopify://shop_images/Concept_13.png",
+            "categories_image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
             "collection": "medibin-dividers",
             "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
             "button_card_text": "Learn more",
-            "redirection_link": ""
+            "redirection_link": "shopify://collections/medibin-dividers"
           }
         },
         "featured_collection_JNdDid": {
           "type": "featured_collection",
           "settings": {
-            "categories_image": "shopify://shop_images/maxresdefault.webp",
+            "categories_image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
             "collection": "medibin-trolleys",
             "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
             "button_card_text": "Learn more",
-            "redirection_link": ""
+            "redirection_link": "shopify://collections/medibin-trolleys"
           }
         }
       },

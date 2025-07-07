@@ -9,6 +9,35 @@
  */
 {
   "sections": {
+    "custom_page_banner_eiQ9zY": {
+      "type": "custom-page-banner",
+      "blocks": {
+        "slide_Lp7BeL": {
+          "type": "slide",
+          "settings": {
+            "image_overlay_opacity": 0
+          }
+        },
+        "slide_frEw93": {
+          "type": "slide",
+          "settings": {
+            "image_overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "slide_Lp7BeL",
+        "slide_frEw93"
+      ],
+      "name": "TF Custom Page Slideshow",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "image_behavior": "none",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "page_banner_9jPapd": {
       "type": "page-banner",
       "blocks": {
@@ -52,6 +81,7 @@
             "heading": "Project consultation, planning and room design",
             "custom_heading_size": 52,
             "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400",
             "heading_alignment": "center"
           }
         },
@@ -104,6 +134,7 @@
         "sec_title": "<p>Three interconnected divisions, delivering <br/>a complete end-to-end service</p>",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "title_alignment": "center",
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "icon_bg_color": "#5a5a5a",
@@ -117,6 +148,7 @@
     }
   },
   "order": [
+    "custom_page_banner_eiQ9zY",
     "page_banner_9jPapd",
     "section_breadcrumb_YHdzrq",
     "page_banner_iVH9eY",

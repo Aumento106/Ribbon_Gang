@@ -9,6 +9,37 @@
  */
 {
   "sections": {
+    "custom_page_banner_3tEUtC": {
+      "type": "custom-page-banner",
+      "blocks": {
+        "slide_qdiyzp": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image_overlay_opacity": 0
+          }
+        },
+        "slide_67c4re": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/woman-wades-in-ocean-at-sunset.jpg",
+            "image_overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "slide_qdiyzp",
+        "slide_67c4re"
+      ],
+      "name": "Custom Page Banner",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "large",
+        "image_behavior": "none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "page_banner_UzkEwz": {
       "type": "page-banner",
       "blocks": {
@@ -329,6 +360,7 @@
     }
   },
   "order": [
+    "custom_page_banner_3tEUtC",
     "page_banner_UzkEwz",
     "section_breadcrumb_P4NhUR",
     "categories_kraekT",

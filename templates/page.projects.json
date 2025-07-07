@@ -154,47 +154,55 @@
         "padding_bottom": 45
       }
     },
-    "custom_collage_7i6FXi": {
+    "custom_collage_QhWJqp": {
       "type": "custom-Collage",
       "blocks": {
-        "image_6Qygnt": {
+        "image_kiaDtp": {
           "type": "image",
           "settings": {
-            "project_name": "Sydney Children’s Hospital Randwick redevelopment",
-            "project_sub_heading": "Designing with care at the core",
-            "project_des": "Our team is contributing to the Sydney Children’s hospital redevelopment in Randwick, a project focused on creating world-class paediatric healthcare environments. Through tailored STERIRACK® storage solutions, we are helping deliver safer, more efficient spaces for clinicians, patients, and families. It is a privilege to be part of a development that places children’s wellbeing at the centre of care.",
-            "image": "shopify://shop_images/Group_1171277821.jpg"
+            "project_name": "Project name",
+            "project_sub_heading": "Project sub heading",
+            "project_des": "Project description. Work is progressing at Griffith base hospital, where we are delivering advanced healthcare storage systems tailored to the needs of the facility. Our focus is on enhancing infection control, maximising space efficiency, and streamlining clinical workflows. This project is a strong example of how STERIRACK® can be customised to meet department-specific demands.",
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image_1": "shopify://shop_images/winding-road-covered-in-autumn-trees.jpg",
+            "image_2": "shopify://shop_images/woman-wades-in-ocean-at-sunset.jpg",
+            "project_logo": "shopify://shop_images/SPACELOGIC_logo_-_grey_and_yellow_2025_v1_1.svg"
           }
         },
-        "image_VXH9zp": {
+        "image_H4nfc4": {
           "type": "image",
           "settings": {
-            "project_name": "Liverpool hospital redevelopment – main works stage 1",
-            "project_sub_heading": "Storage innovation at scale",
-            "project_des": "SpaceLogic was awarded the contract to supply, deliver, and install the clinical storage package for the $830 million Liverpool hospital redevelopment – Stage 1. Selected through a rigorous tender process, our STERIRACK® System was chosen for its modularity, WHS-compliant design, and ability to integrate seamlessly across diverse hospital departments. From emergency and maternity units to interventional radiology, paediatrics, research, and renal services, this project demonstrates the power of adaptable storage to enhance patient care and staff safety at scale. A highlight of the project was the successful deployment of the STERIRACK® Overhead Rail System—an Australian-first solution that maximises vertical space without compromising ergonomic access or mobility. In addition, SpaceLogic was awarded the separate pharmacy shelving contract, showcasing how STERIRACK® can unify storage strategies across complex healthcare environments. This project reflects our ongoing commitment to innovation, stakeholder collaboration, and future-focused healthcare infrastructure.",
-            "image": "shopify://shop_images/Group_1171277822.jpg",
-            "image_1": "shopify://shop_images/Group_1171277831.jpg"
+            "project_name": "Cranbourne community hospital",
+            "project_sub_heading": "Bringing care closer with Cranbourne community hospital",
+            "project_des": "Currently in the later stages of installation, this project supports the delivery of care closer to home for the Cranbourne community. We are providing modular, future-ready storage systems designed to improve daily workflows and maintain best-practice hygiene. Our solutions contribute to building flexible clinical environments that will serve patients and staff for years to come.",
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image_1": "shopify://shop_images/winding-road-covered-in-autumn-trees.jpg",
+            "image_2": "shopify://shop_images/woman-wades-in-ocean-at-sunset.jpg",
+            "project_logo": "shopify://shop_images/SPACELOGIC_logo_-_grey_and_yellow_2025_v1_1.svg"
           }
         },
-        "image_6pPACQ": {
+        "image_Dht7GG": {
           "type": "image",
           "settings": {
-            "project_name": "Maryborough and district hospital",
-            "project_sub_heading": "Regional care, reimagined",
-            "project_des": "This completed project forms part of the Maryborough and district hospital redevelopment to provide accessible, modern healthcare for the region. We delivered modular, efficient storage solutions that align with clinical best practice and infection control standards. The result is a future-proofed environment that supports growing healthcare needs in regional Victoria.",
-            "image": "shopify://shop_images/Group_1171277824.jpg"
+            "project_name": "St George hospital redevelopment – stage 3",
+            "project_sub_heading": "Strengthening care, supporting communities",
+            "project_des": "We are proud to support the St George hospital redevelopment – Stage 3, in partnership with South Eastern Sydney local health district. This project focuses on expanding critical care services through the integration of scalable storage systems that enhance hospital workflows. Our team is helping to create smarter clinical environments that support both staff efficiency and patient care.",
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image_1": "shopify://shop_images/woman-wades-in-ocean-at-sunset.jpg",
+            "image_2": "shopify://shop_images/winding-road-covered-in-autumn-trees.jpg",
+            "project_logo": "shopify://shop_images/SPACELOGIC_logo_-_grey_and_yellow_2025_v1_1.svg"
           }
         }
       },
       "block_order": [
-        "image_6Qygnt",
-        "image_VXH9zp",
-        "image_6pPACQ"
+        "image_kiaDtp",
+        "image_H4nfc4",
+        "image_Dht7GG"
       ],
       "name": "TF Project Collage",
       "settings": {
         "heading": "",
-        "custom_heading_size": 52,
+        "custom_heading_size": 32,
         "mobile_custom_heading_size": 28,
         "custom_font_weight": "400",
         "desktop_layout": "equal",
@@ -202,50 +210,59 @@
         "card_styles": "product-card-wrapper",
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "popup_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "padding_top": 0,
+        "padding_top": 40,
         "padding_bottom": 45
       }
     },
-    "custom_collage_4qRb99": {
+    "custom_collage_FFkWEq": {
       "type": "custom-Collage",
       "blocks": {
-        "image_deAhDE": {
+        "image_NzLLh3": {
           "type": "image",
           "settings": {
-            "project_name": "Orange private hospital",
-            "project_sub_heading": "Efficient storage across pharmacy and wards",
-            "project_des": "Orange private hospital engaged SpaceLogic to improve both pharmacy and general ward storage. We delivered a cohesive STERIRACK® solution that enhanced organisation, reduced search time, and supported infection control compliance. The result is a cleaner, more accessible environment for staff and patients alike.",
-            "image": "shopify://shop_images/Group_1171277829.jpg"
+            "project_name": "Project name",
+            "project_sub_heading": "Project sub heading",
+            "project_des": "Project description. Work is progressing at Griffith base hospital, where we are delivering advanced healthcare storage systems tailored to the needs of the facility. Our focus is on enhancing infection control, maximising space efficiency, and streamlining clinical workflows. This project is a strong example of how STERIRACK® can be customised to meet department-specific demands.",
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image_1": "shopify://shop_images/winding-road-covered-in-autumn-trees.jpg",
+            "image_2": "shopify://shop_images/woman-wades-in-ocean-at-sunset.jpg",
+            "project_logo": "shopify://shop_images/SPACELOGIC_logo_-_grey_and_yellow_2025_v1_1.svg"
           }
         },
-        "image_cgWbkk": {
+        "image_LqgT9V": {
           "type": "image",
           "settings": {
-            "project_name": "Goulburn base hospital",
-            "project_sub_heading": "Streamlining clinical storage in tight spaces",
-            "project_des": "Our project at Goulburn Base Hospital focused on maximising usable space in clinical areas with limited footprint. Using fine mesh baskets, flat shelving, and mobile trolleys, we delivered a system that supports best practice while improving staff efficiency. The installation has helped future-proof the hospital’s daily workflows.",
-            "image": "shopify://shop_images/Group_1171277830.jpg"
+            "project_name": "Cranbourne community hospital",
+            "project_sub_heading": "Bringing care closer with Cranbourne community hospital",
+            "project_des": "Currently in the later stages of installation, this project supports the delivery of care closer to home for the Cranbourne community. We are providing modular, future-ready storage systems designed to improve daily workflows and maintain best-practice hygiene. Our solutions contribute to building flexible clinical environments that will serve patients and staff for years to come.",
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image_1": "shopify://shop_images/winding-road-covered-in-autumn-trees.jpg",
+            "image_2": "shopify://shop_images/woman-wades-in-ocean-at-sunset.jpg",
+            "project_logo": "shopify://shop_images/SPACELOGIC_logo_-_grey_and_yellow_2025_v1_1.svg"
           }
         },
-        "image_ebLceD": {
+        "image_BPwFWb": {
           "type": "image",
           "settings": {
-            "project_name": "Royal north shore hospital",
-            "project_sub_heading": "Installation in under ten days",
-            "project_des": "Spacelogic completed a full STERIRACK® installation at Royal North Shore hospital in less than ten days, minimising disruption to the hospital’s operations. The fast turnaround was matched with tailored configurations that supported compliance and stock management. Our work here is a showcase of quality delivery under tight timelines.",
-            "image": "shopify://shop_images/Group_1171277831.jpg"
+            "project_name": "St George hospital redevelopment – stage 3",
+            "project_sub_heading": "Strengthening care, supporting communities",
+            "project_des": "We are proud to support the St George hospital redevelopment – Stage 3, in partnership with South Eastern Sydney local health district. This project focuses on expanding critical care services through the integration of scalable storage systems that enhance hospital workflows. Our team is helping to create smarter clinical environments that support both staff efficiency and patient care.",
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image_1": "shopify://shop_images/woman-wades-in-ocean-at-sunset.jpg",
+            "image_2": "shopify://shop_images/winding-road-covered-in-autumn-trees.jpg",
+            "project_logo": "shopify://shop_images/SPACELOGIC_logo_-_grey_and_yellow_2025_v1_1.svg"
           }
         }
       },
       "block_order": [
-        "image_deAhDE",
-        "image_cgWbkk",
-        "image_ebLceD"
+        "image_NzLLh3",
+        "image_LqgT9V",
+        "image_BPwFWb"
       ],
       "name": "TF Project Collage",
       "settings": {
         "heading": "",
-        "custom_heading_size": 52,
+        "custom_heading_size": 32,
         "mobile_custom_heading_size": 28,
         "custom_font_weight": "400",
         "desktop_layout": "left",
@@ -253,47 +270,7 @@
         "card_styles": "product-card-wrapper",
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "popup_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "padding_top": 0,
-        "padding_bottom": 100
-      }
-    },
-    "custom_collage_Mi6wGj": {
-      "type": "custom-Collage",
-      "blocks": {
-        "image_ax9MDb": {
-          "type": "image",
-          "settings": {
-            "project_name": "Blacktown hospital",
-            "project_sub_heading": "Improved efficiency through colour-coded storage",
-            "project_des": "Blacktown hospital saw a 51% reduction in stock valuation after implementing the STERIRACK® System with a colour-coded labelling strategy. The transformation streamlined storage across wards and reduced daily stock retrieval from 60 to 10 minutes. This project is a clear example of how thoughtful design enhances efficiency and patient care.",
-            "image": "shopify://shop_images/Group_1171277822.jpg"
-          }
-        },
-        "image_ecCYrC": {
-          "type": "image",
-          "settings": {
-            "project_name": "Wagga Wagga base hospital",
-            "project_sub_heading": "Smart storage for streamlined care",
-            "project_des": "At Wagga Wagga Base hospital, we upgraded key storage areas with STERIRACK® clean utility configurations to enhance infection control. Our team delivered tailored basket and shelving layouts designed to optimise space and simplify daily stock retrieval. The installation supports more efficient workflows and better patient outcomes.",
-            "image": "shopify://shop_images/Blacktown_square.png"
-          }
-        }
-      },
-      "block_order": [
-        "image_ax9MDb",
-        "image_ecCYrC"
-      ],
-      "settings": {
-        "heading": "",
-        "custom_heading_size": 52,
-        "mobile_custom_heading_size": 28,
-        "custom_font_weight": "400",
-        "desktop_layout": "equal",
-        "mobile_layout": "column",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "",
-        "popup_color_scheme": "",
-        "padding_top": 0,
+        "padding_top": 40,
         "padding_bottom": 45
       }
     },
@@ -377,9 +354,8 @@
     "page_banner_3RY4Xt",
     "section_breadcrumb_jNkhmy",
     "custom_collage_JqxjyW",
-    "custom_collage_7i6FXi",
-    "custom_collage_4qRb99",
-    "custom_collage_Mi6wGj",
+    "custom_collage_QhWJqp",
+    "custom_collage_FFkWEq",
     "product_catalog_AHJEg3",
     "proudly_support_NnMGAw"
   ]

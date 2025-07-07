@@ -100,14 +100,12 @@
         "image_NcM4V4": {
           "type": "image",
           "settings": {
-            "project_name": "Griffith base hospital",
-            "project_sub_heading": "From design to delivery at Griffith base",
-            "project_des": "Work is progressing at Griffith base hospital, where we are delivering advanced healthcare storage systems tailored to the needs of the facility. Our focus is on enhancing infection control, maximising space efficiency, and streamlining clinical workflows. This project is a strong example of how STERIRACK® can be customised to meet department-specific demands.",
-            "image": "shopify://shop_images/Blacktown_square.png",
-            "image_1": "shopify://shop_images/Blacktown_1.png",
-            "image_2": "shopify://shop_images/Sterirack-workstations-1536x864.jpg",
-            "image_3": "shopify://shop_images/sterirack_workstations_concept-3_1100px-1024x662.jpg",
-            "image_4": "shopify://shop_images/sterirack_workstations_concept-4_1100px-1024x655.jpg"
+            "project_name": "Project name",
+            "project_sub_heading": "Project sub heading",
+            "project_des": "Project description. Work is progressing at Griffith base hospital, where we are delivering advanced healthcare storage systems tailored to the needs of the facility. Our focus is on enhancing infection control, maximising space efficiency, and streamlining clinical workflows. This project is a strong example of how STERIRACK® can be customised to meet department-specific demands.",
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image_1": "shopify://shop_images/winding-road-covered-in-autumn-trees.jpg",
+            "project_logo": "shopify://shop_images/SPACELOGIC_logo_-_grey_and_yellow_2025_v1_1.svg"
           }
         },
         "image_QJBQEU": {

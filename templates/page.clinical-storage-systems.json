@@ -231,6 +231,7 @@
         "text_YFnmyE",
         "caption_XBKWrq"
       ],
+      "disabled": true,
       "settings": {
         "content_alignment": "center",
         "content_width": "medium",
@@ -278,6 +279,7 @@
         "column_6zTgRQ",
         "column_K8Kwg3"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "custom_heading_size": 52,
@@ -322,6 +324,7 @@
         "heading_pajqEU",
         "text_WpRpHU"
       ],
+      "disabled": true,
       "settings": {
         "content_alignment": "center",
         "content_width": "medium",
@@ -383,6 +386,7 @@
         "text_tggAzB",
         "button_m8QFcQ"
       ],
+      "disabled": true,
       "settings": {
         "content_alignment": "center",
         "content_width": "medium",
@@ -392,6 +396,62 @@
         "section_border": false,
         "padding_top": 40,
         "padding_bottom": 40
+      }
+    },
+    "multirow_XY7QxL": {
+      "type": "multirow",
+      "blocks": {
+        "row_BAtiEa": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>The gold standard in hospital-grade storage, STERIRACK® is designed to meet the high-volume, high-compliance needs of clinical spaces. Built on starter and add-on bays, this system integrates mobile carts, workbenches, and flexible accessories for complete workflow alignment.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_7jHayW": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_Lfqfym": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_BAtiEa",
+        "row_7jHayW",
+        "row_Lfqfym"
+      ],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
@@ -405,6 +465,7 @@
     "multicolumn_Dnn3A6",
     "rich_text_reYctM",
     "custom_liquid_Y6PCdj",
-    "rich_text_aAqpH6"
+    "rich_text_aAqpH6",
+    "multirow_XY7QxL"
   ]
 }

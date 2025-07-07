@@ -63,7 +63,7 @@
         "text_UhW6zH": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your page information.</p>",
+            "text": "<p>Text to go here.</p>",
             "text_alignment": "left"
           }
         }
@@ -133,7 +133,7 @@
         "heading_P7KtwF": {
           "type": "heading",
           "settings": {
-            "heading": "About us",
+            "heading": "Our history",
             "custom_heading_size": 52,
             "mobile_custom_heading_size": 28,
             "custom_font_weight": "400"
@@ -142,7 +142,7 @@
         "text_UJHQb4": {
           "type": "text",
           "settings": {
-            "text": "<p>Welcome to SpaceLogic Group - a global leader in clinical healthcare storage solutions. With more than 40 years of experience, we’ve grown from a small family business into a trusted authority in healthcare space management. Our expertise spans complete project design, planning, and installation, supported by a modular, customisable range of innovative storage products.</p><p>Headquartered in Orange, New South Wales, Australia, and Springfield, New Jersey, USA, our team is dedicated to improving patient care time, enhancing infection control, and maximising space efficiency in hospitals, medical centres, day surgeries, veterinary clinics, and aged care facilities.</p><p>In this video, meet the SpaceLogic team as they share our mission, introduce our head office, and highlight our contribution to smarter healthcare storage.</p>",
+            "text": "<p>Text to go here.</p>",
             "text_style": "body"
           }
         }

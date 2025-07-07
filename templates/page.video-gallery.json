@@ -9,29 +9,52 @@
  */
 {
   "sections": {
-    "section_breadcrumb_jyYcDd": {
-      "type": "section-breadcrumb",
-      "settings": {
-        "color_scheme": "",
-        "padding_top": 30,
-        "padding_bottom": 30,
-        "mobile_padding_top": 30,
-        "mobile_padding_bottom": 30
-      }
-    },
-    "page_banner_DR8Ha9": {
+    "page_banner_wCRpx9": {
       "type": "page-banner",
       "blocks": {
-        "heading_pekfyj": {
+        "heading_WrdnGQ": {
           "type": "heading",
           "settings": {
-            "heading": "Project spotlight",
+            "heading": "{{ page.title }}",
             "custom_heading_size": 52,
             "mobile_custom_heading_size": 28,
             "custom_font_weight": "600",
             "heading_alignment": "center"
           }
         },
+        "caption_dKycKd": {
+          "type": "caption",
+          "settings": {
+            "caption": "<p>Add caption here</p>",
+            "caption_alignment": "center"
+          }
+        },
+        "text_d4bR8k": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your page information.</p>",
+            "text_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "heading_WrdnGQ",
+        "caption_dKycKd",
+        "text_d4bR8k"
+      ],
+      "name": "TF Page Banner",
+      "settings": {
+        "title_alignment": "center",
+        "full_width": true,
+        "content_width": "full_width",
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "padding_top": 80,
+        "padding_bottom": 40
+      }
+    },
+    "page_banner_DR8Ha9": {
+      "type": "page-banner",
+      "blocks": {
         "video_Vx4rMD": {
           "type": "video",
           "settings": {
@@ -40,30 +63,33 @@
             "border_radius": true
           }
         },
-        "heading_7XFgg6": {
+        "heading_pekfyj": {
           "type": "heading",
           "settings": {
-            "heading": "Wagga Wagga base hospital installs STERIRACK® clean utilities",
-            "custom_heading_size": 28,
+            "heading": "Project spotlight",
+            "custom_heading_size": 38,
             "mobile_custom_heading_size": 28,
             "custom_font_weight": "600",
             "heading_alignment": "center"
           }
         },
-        "text_w8R9mD": {
-          "type": "text",
+        "heading_7XFgg6": {
+          "type": "heading",
           "settings": {
-            "text": "<p>Watch how this Wagga Wagga transformed its storage solutions with SpaceLogic's STERIRACK® System.</p>",
-            "text_alignment": "center"
+            "heading": "Wagga Wagga base hospital installs STERIRACK® clean utilities",
+            "custom_heading_size": 24,
+            "mobile_custom_heading_size": 20,
+            "custom_font_weight": "300",
+            "heading_alignment": "center"
           }
         }
       },
       "block_order": [
-        "heading_pekfyj",
         "video_Vx4rMD",
-        "heading_7XFgg6",
-        "text_w8R9mD"
+        "heading_pekfyj",
+        "heading_7XFgg6"
       ],
+      "custom_css": [],
       "name": "TF Project Spotlight",
       "settings": {
         "title_alignment": "center",
@@ -71,7 +97,18 @@
         "content_width": "full_width",
         "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
         "padding_top": 80,
-        "padding_bottom": 40
+        "padding_bottom": 20
+      }
+    },
+    "section_breadcrumb_6bEnej": {
+      "type": "section-breadcrumb",
+      "name": "TF Breadcrumb",
+      "settings": {
+        "color_scheme": "",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "mobile_padding_top": 20,
+        "mobile_padding_bottom": 20
       }
     },
     "multicolumn_video_TCdMgy": {
@@ -555,7 +592,7 @@
       ],
       "settings": {
         "page_container": "page-width",
-        "title": "<p>Video<strong> </strong>library</p>",
+        "title": "",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
         "custom_font_weight": "400",
@@ -591,24 +628,13 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
-    },
-    "section_breadcrumb_6bEnej": {
-      "type": "section-breadcrumb",
-      "name": "TF Breadcrumb",
-      "settings": {
-        "color_scheme": "",
-        "padding_top": 20,
-        "padding_bottom": 20,
-        "mobile_padding_top": 20,
-        "mobile_padding_bottom": 20
-      }
     }
   },
   "order": [
-    "section_breadcrumb_jyYcDd",
+    "page_banner_wCRpx9",
     "page_banner_DR8Ha9",
+    "section_breadcrumb_6bEnej",
     "multicolumn_video_TCdMgy",
-    "product_catalog_qeWkQW",
-    "section_breadcrumb_6bEnej"
+    "product_catalog_qeWkQW"
   ]
 }

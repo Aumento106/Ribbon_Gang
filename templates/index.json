@@ -633,8 +633,8 @@
       "settings": {
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "full_width": false,
-        "custom_heading_size": 52,
-        "mobile_custom_heading_size": 28,
+        "custom_heading_size": 32,
+        "mobile_custom_heading_size": 24,
         "font_weight": "600",
         "padding_top": 50,
         "padding_bottom": 50,

@@ -3940,6 +3940,8 @@ span.card_product_main_desc .trademark-symbol {
   }
 }
 .breadcrumb-sec-main,
-.breadcrumb-sec-main * {
-  font-size: 10px !important;
+.breadcrumb-sec-main *,
+.breadcrumb-sec-main *::before,
+.breadcrumb-sec-main *::after {
+  font-size: 8px !important;
 }

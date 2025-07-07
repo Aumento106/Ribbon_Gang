@@ -281,7 +281,7 @@
             "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
             "video_url": "https://www.youtube.com/watch?v=-AGWI07LVO8",
             "enable_video_looping": false,
-            "title": "Testimonials - Why our valued clients choose SpaceLogic",
+            "title": "Testimonials - Why our valued clients choose us",
             "text": "<p>Watch some testimonials from clients to see how they enjoyed working with SpaceLogic, and why they choose us. </p><p>[4 years ago]</p>"
           }
         },
@@ -382,7 +382,7 @@
             "video_url": "https://youtu.be/vn3dsLT8Ob8",
             "enable_video_looping": false,
             "title": "Use colour to influence memory with STERIRACK® Click 'n' Clip Label Holders",
-            "text": "<p>Blacktown hospital Sydney is getting incredible results using STERIRACK® System colour coding. Join us to find out how. </p><p>[4 years ago]</p>"
+            "text": "<p>Blacktown Hospital Sydney is getting incredible results using STERIRACK® System colour coding. Join us to find out how. </p><p>[4 years ago]</p>"
           }
         },
         "column_gXm6pJ": {
@@ -402,7 +402,7 @@
             "video_url": "https://youtu.be/V4UoNWNlaI8",
             "enable_video_looping": false,
             "title": "Innovative STERIRACK® Orthopedic equipment storage",
-            "text": "<p>SpaceLogic has developed an orthopedic equipment storage system that's just perfect for crutches, frames, and CAMBoots.</p><p>[4 years ago]</p>"
+            "text": "<p>SpaceLogic has developed an orthopedic equipment storage system that's just perfect for crutches, frames and CAMBoots.</p><p>[4 years ago]</p>"
           }
         },
         "column_Hw6q7f": {
@@ -443,16 +443,6 @@
             "enable_video_looping": false,
             "title": "Co-branded STERIRACK® Trolleys with custom dust covers",
             "text": "<p>Just one of the recent innovations brought to you by SpaceLogic. Can be delivered with quality dust covers.</p><p>[4 years ago]</p>"
-          }
-        },
-        "column_wVkpeq": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
-            "video_url": "https://youtu.be/6A9LrFGBP5Q",
-            "enable_video_looping": false,
-            "title": "Balmain Village loves STERIRACK® Trolleys​",
-            "text": "<p>Join Dr April Armstrong as she discusses the features and benefits of customised STERIRACK® Medical Trolleys.</p><p>[4 years ago]</p>"
           }
         },
         "column_8pcKiq": {
@@ -501,7 +491,7 @@
             "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
             "video_url": "https://youtu.be/a5W1LsZUxKU",
             "enable_video_looping": false,
-            "title": "STERIRACK® Set-up Trolleys are a game changer",
+            "title": "STERIRACK® Theatre Trolleys are a game changer",
             "text": "<p>Lloyd Scott discusses the STERIRACK® Theatre Trolley and where you can find more information on this product.</p><p>[4 years ago]</p>"
           }
         },
@@ -515,6 +505,16 @@
             "text": "<p>Adam Piech does a great demo of these innovative trolleys as they come off the production line.</p><p>[4 years ago]</p>"
           }
         },
+        "column_wVkpeq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "video_url": "https://youtu.be/6A9LrFGBP5Q",
+            "enable_video_looping": false,
+            "title": "Balmain Village loves STERIRACK® Medical Trolleys​",
+            "text": "<p>Join Dr April Armstrong as she discusses the features and benefits of customised STERIRACK® Medical Trolleys.</p><p>[6 years ago]</p>"
+          }
+        },
         "column_7DNh7T": {
           "type": "column",
           "settings": {
@@ -522,7 +522,7 @@
             "video_url": "https://youtu.be/ihYdHWsQFZA",
             "enable_video_looping": false,
             "title": "St Vincent's Private Hospital STERIRACK® System installation",
-            "text": "<p>SpaceLogic worked closely with David, the project manager, to install a complete storage fit-out for St Vincent’s private hospital.</p><p>[6 years ago]</p>"
+            "text": "<p>SpaceLogic worked closely with David, the project manager, to install a complete storage fit-out for St Vincent’s Private Hospital.</p><p>[6 years ago]</p>"
           }
         },
         "column_DGqwCM": {
@@ -532,7 +532,7 @@
             "video_url": "https://youtu.be/k0oqvWGXs7U",
             "enable_video_looping": false,
             "title": "Prince of Wales STERIRACK® installation before and after",
-            "text": "<p>Watch a SpaceLogic upgrade at Prince of Wales hospital ED. See the before and after transformation!</p><p>[6 years ago]</p>"
+            "text": "<p>Watch a SpaceLogic upgrade at Prince of Wales Hospital ED. See the before and after transformation!</p><p>[6 years ago]</p>"
           }
         },
         "column_tKgdmx": {
@@ -581,13 +581,13 @@
         "column_tybRCJ",
         "column_eCKjYc",
         "column_g7cqwp",
-        "column_wVkpeq",
         "column_8pcKiq",
         "column_CeLg8q",
         "column_6Bfd9q",
         "column_gQeqcD",
         "column_DapDGL",
         "column_wbNcAF",
+        "column_wVkpeq",
         "column_7DNh7T",
         "column_DGqwCM",
         "column_tKgdmx"

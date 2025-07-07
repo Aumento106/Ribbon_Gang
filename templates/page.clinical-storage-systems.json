@@ -9,6 +9,58 @@
  */
 {
   "sections": {
+    "page_banner_x8XVji": {
+      "type": "page-banner",
+      "blocks": {
+        "heading_rzrk9a": {
+          "type": "heading",
+          "settings": {
+            "heading": "Clinical storage systems",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "600",
+            "heading_alignment": "center"
+          }
+        },
+        "caption_tXA8FR": {
+          "type": "caption",
+          "settings": {
+            "caption": "<p>Smarter storage for healthcare spaces</p>",
+            "caption_alignment": "center"
+          }
+        },
+        "text_EkBWed": {
+          "type": "text",
+          "settings": {
+            "text": "<p>From major hospitals to day clinics, storage isn’t just about space - it’s about safety, compliance, and care. At SpaceLogic, we design clinical storage systems that are modular, hygienic, and tailored to the real-world needs of healthcare teams.</p><p>Whether you’re fitting out a new CSSD, upgrading medication rooms, or building flexible ward setups, our two purpose-built systems - STERIRACK® and MEDIBIN™ - offer the adaptability and precision to help your team work smarter.</p>",
+            "text_alignment": "left"
+          }
+        },
+        "video_t7BEVd": {
+          "type": "video",
+          "settings": {
+            "video_url": "",
+            "enable_video_looping": false,
+            "border_radius": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_rzrk9a",
+        "caption_tXA8FR",
+        "text_EkBWed",
+        "video_t7BEVd"
+      ],
+      "name": "Page Banner",
+      "settings": {
+        "title_alignment": "center",
+        "full_width": true,
+        "content_width": "full_width",
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "padding_top": 80,
+        "padding_bottom": 40
+      }
+    },
     "rich_text_P3hBwh": {
       "type": "rich-text",
       "blocks": {
@@ -33,6 +85,7 @@
         "heading_mGwXwE",
         "text_7xmpEL"
       ],
+      "disabled": true,
       "settings": {
         "content_alignment": "center",
         "content_width": "full_width",
@@ -448,6 +501,7 @@
     }
   },
   "order": [
+    "page_banner_x8XVji",
     "rich_text_P3hBwh",
     "section_breadcrumb_F9PzRF",
     "main",

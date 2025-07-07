@@ -9,6 +9,37 @@
  */
 {
   "sections": {
+    "custom_page_banner_h8qPHK": {
+      "type": "custom-page-banner",
+      "blocks": {
+        "slide_NJt9zF": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image_overlay_opacity": 0
+          }
+        },
+        "slide_zhd3MF": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image_overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "slide_NJt9zF",
+        "slide_zhd3MF"
+      ],
+      "name": "TF Custom Page Slideshow",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "image_behavior": "none",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -122,43 +153,58 @@
         "padding_bottom": 20
       }
     },
-    "custom_page_banner_h8qPHK": {
-      "type": "custom-page-banner",
+    "page_banner_Umz6fF": {
+      "type": "page-banner",
       "blocks": {
-        "slide_NJt9zF": {
-          "type": "slide",
+        "heading_arze8C": {
+          "type": "heading",
           "settings": {
-            "image_overlay_opacity": 0
+            "heading": "{{ page.title }}",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400",
+            "heading_alignment": "center"
           }
         },
-        "slide_zhd3MF": {
-          "type": "slide",
+        "caption_Um9XwP": {
+          "type": "caption",
           "settings": {
-            "image_overlay_opacity": 0
+            "caption": "<p>Add caption here</p>",
+            "caption_alignment": "center"
+          }
+        },
+        "text_MW9qfg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your page information.</p>",
+            "text_alignment": "center"
           }
         }
       },
       "block_order": [
-        "slide_NJt9zF",
-        "slide_zhd3MF"
+        "heading_arze8C",
+        "caption_Um9XwP",
+        "text_MW9qfg"
       ],
-      "name": "TF Custom Page Slideshow",
+      "name": "TF Page Banner",
       "settings": {
-        "layout": "full_bleed",
-        "slide_height": "medium",
-        "image_behavior": "none",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "title_alignment": "center",
+        "full_width": true,
+        "content_width": "full_width",
+        "color_scheme": "",
+        "padding_top": 30,
+        "padding_bottom": 30
       }
     }
   },
   "order": [
+    "custom_page_banner_h8qPHK",
     "main",
     "page_banner_wL3g6z",
     "section_breadcrumb_yNadMC",
     "page_banner_zThXNm",
     "rich_text_y4gmC7",
     "product_catalog_zMqMUU",
-    "custom_page_banner_h8qPHK"
+    "page_banner_Umz6fF"
   ]
 }

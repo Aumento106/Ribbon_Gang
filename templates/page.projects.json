@@ -15,65 +15,23 @@
         "slide_mfK3hU": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Group_1171277884.png",
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
             "image_overlay_opacity": 0
           }
         },
         "slide_XDeMCn": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Group_1171277884.png",
-            "image_overlay_opacity": 0
-          }
-        },
-        "slide_GKDFbj": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Group_1171277884.png",
-            "image_overlay_opacity": 0
-          }
-        },
-        "slide_Tw3D9X": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Group_1171277884.png",
-            "image_overlay_opacity": 0
-          }
-        },
-        "slide_tKPUCL": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Group_1171277884.png",
-            "image_overlay_opacity": 0
-          }
-        },
-        "slide_Bhpywf": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Group_1171277884.png",
-            "image_overlay_opacity": 0
-          }
-        },
-        "slide_7zbnVp": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Group_1171277884.png",
+            "image": "shopify://shop_images/winding-road-covered-in-autumn-trees.jpg",
             "image_overlay_opacity": 0
           }
         }
       },
       "block_order": [
         "slide_mfK3hU",
-        "slide_XDeMCn",
-        "slide_GKDFbj",
-        "slide_Tw3D9X",
-        "slide_tKPUCL",
-        "slide_Bhpywf",
-        "slide_7zbnVp"
+        "slide_XDeMCn"
       ],
+      "name": "TF Custom Page Slideshow",
       "settings": {
         "layout": "full_bleed",
         "slide_height": "small",
@@ -82,14 +40,58 @@
         "padding_bottom": 0
       }
     },
-    "section_breadcrumb_HDAW79": {
+    "page_banner_3RY4Xt": {
+      "type": "page-banner",
+      "blocks": {
+        "heading_DL3pUh": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ page.title }}",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "600",
+            "heading_alignment": "center"
+          }
+        },
+        "caption_PRmGMr": {
+          "type": "caption",
+          "settings": {
+            "caption": "<p>Add caption here</p>",
+            "caption_alignment": "center"
+          }
+        },
+        "text_ichQRw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your page information.</p>",
+            "text_alignment": "left"
+          }
+        }
+      },
+      "block_order": [
+        "heading_DL3pUh",
+        "caption_PRmGMr",
+        "text_ichQRw"
+      ],
+      "name": "TF Page Banner",
+      "settings": {
+        "title_alignment": "center",
+        "full_width": true,
+        "content_width": "full_width",
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section_breadcrumb_jNkhmy": {
       "type": "section-breadcrumb",
+      "name": "TF Breadcrumb",
       "settings": {
         "color_scheme": "",
-        "padding_top": 30,
-        "padding_bottom": 30,
-        "mobile_padding_top": 30,
-        "mobile_padding_bottom": 30
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "mobile_padding_top": 20,
+        "mobile_padding_bottom": 20
       }
     },
     "rich_text_wTzENJ": {
@@ -420,7 +422,8 @@
   },
   "order": [
     "custom_page_banner_dHyyAj",
-    "section_breadcrumb_HDAW79",
+    "page_banner_3RY4Xt",
+    "section_breadcrumb_jNkhmy",
     "rich_text_wTzENJ",
     "section_breadcrumb_JneyLg",
     "custom_collage_JqxjyW",

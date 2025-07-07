@@ -106,29 +106,6 @@
     "team_GF978q": {
       "type": "team",
       "settings": {}
-    },
-    "product_catalog_TGjhw8": {
-      "type": "product-catalog",
-      "disabled": true,
-      "settings": {
-        "product_image": "shopify://shop_images/image_104.png",
-        "logo_link": "",
-        "heading": "<p>Product Catalogue</p>",
-        "custom_heading_size": 52,
-        "mobile_custom_heading_size": 28,
-        "custom_font_weight": "400",
-        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
-        "description": "<p>Click here to view our latest product and services catalogue in a browser without downloading.</p>",
-        "button_1_text": "View catalogue",
-        "button_1_link": "https://online.flippingbook.com/view/393434/",
-        "button_2_text": "Download Catalog",
-        "button_2_link": "",
-        "reverse_column": true,
-        "title_color": "#424242",
-        "subheading_color": "#424242",
-        "padding_top": 20,
-        "padding_bottom": 20
-      }
     }
   },
   "order": [
@@ -136,7 +113,6 @@
     "page_banner_kdETkF",
     "section_breadcrumb_t4Nt8t",
     "main",
-    "team_GF978q",
-    "product_catalog_TGjhw8"
+    "team_GF978q"
   ]
 }

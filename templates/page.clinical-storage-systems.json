@@ -404,6 +404,7 @@
         "row_BAtiEa": {
           "type": "row",
           "settings": {
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
             "caption": "Modular bays, trolleys, benches, and shelving for full-facility fitouts.",
             "heading": "STERIRACK® SYSTEM",
             "text": "<p>The gold standard in hospital-grade storage, STERIRACK® is designed to meet the high-volume, high-compliance needs of clinical spaces. Built on starter and add-on bays, this system integrates mobile carts, workbenches, and flexible accessories for complete workflow alignment.</p>",
@@ -414,16 +415,7 @@
         "row_7jHayW": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
-        "row_Lfqfym": {
-          "type": "row",
-          "settings": {
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
             "caption": "Caption",
             "heading": "Row",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
@@ -434,8 +426,7 @@
       },
       "block_order": [
         "row_BAtiEa",
-        "row_7jHayW",
-        "row_Lfqfym"
+        "row_7jHayW"
       ],
       "name": "t:sections.multirow.presets.name",
       "settings": {
@@ -447,8 +438,8 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "image_layout": "alternate-left",
-        "section_color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
-        "row_color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
+        "section_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "row_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36

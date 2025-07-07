@@ -58,7 +58,7 @@
         "heading_dJkybV": {
           "type": "heading",
           "settings": {
-            "heading": "Job openings at SpaceLogic",
+            "heading": "{{ page.title }}",
             "custom_heading_size": 52,
             "mobile_custom_heading_size": 28,
             "custom_font_weight": "600",
@@ -121,6 +121,35 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
+    },
+    "custom_page_banner_h8qPHK": {
+      "type": "custom-page-banner",
+      "blocks": {
+        "slide_NJt9zF": {
+          "type": "slide",
+          "settings": {
+            "image_overlay_opacity": 0
+          }
+        },
+        "slide_zhd3MF": {
+          "type": "slide",
+          "settings": {
+            "image_overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "slide_NJt9zF",
+        "slide_zhd3MF"
+      ],
+      "name": "TF Custom Page Slideshow",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "image_behavior": "none",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -129,6 +158,7 @@
     "section_breadcrumb_yNadMC",
     "page_banner_zThXNm",
     "rich_text_y4gmC7",
-    "product_catalog_zMqMUU"
+    "product_catalog_zMqMUU",
+    "custom_page_banner_h8qPHK"
   ]
 }

@@ -51,7 +51,7 @@
         "text_EkBWed",
         "video_t7BEVd"
       ],
-      "name": "Page Banner",
+      "name": "TF Page Banner",
       "settings": {
         "title_alignment": "center",
         "full_width": true,
@@ -97,14 +97,15 @@
         "padding_bottom": 50
       }
     },
-    "section_breadcrumb_F9PzRF": {
+    "section_breadcrumb_QmHraV": {
       "type": "section-breadcrumb",
+      "name": "TF Breadcrumb",
       "settings": {
-        "color_scheme": "scheme-1",
-        "padding_top": 30,
-        "padding_bottom": 30,
-        "mobile_padding_top": 30,
-        "mobile_padding_bottom": 30
+        "color_scheme": "",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "mobile_padding_top": 20,
+        "mobile_padding_bottom": 20
       }
     },
     "main": {
@@ -392,6 +393,7 @@
     },
     "custom_liquid_Y6PCdj": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "",
         "color_scheme": "",
@@ -482,7 +484,7 @@
         "row_BAtiEa",
         "row_7jHayW"
       ],
-      "name": "t:sections.multirow.presets.name",
+      "name": "TF Multirow",
       "settings": {
         "image_height": "medium",
         "desktop_image_width": "medium",
@@ -495,15 +497,15 @@
         "section_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "row_color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
         "mobile_content_alignment": "left",
-        "padding_top": 52,
-        "padding_bottom": 52
+        "padding_top": 20,
+        "padding_bottom": 60
       }
     }
   },
   "order": [
     "page_banner_x8XVji",
     "rich_text_P3hBwh",
-    "section_breadcrumb_F9PzRF",
+    "section_breadcrumb_QmHraV",
     "main",
     "product_catalog_W3r7Xn",
     "categories_slider_E78EBH",

@@ -15,12 +15,14 @@
         "slide_rWYCkp": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
             "image_overlay_opacity": 0
           }
         },
         "slide_hcmg98": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/winding-road-covered-in-autumn-trees.jpg",
             "image_overlay_opacity": 0
           }
         }
@@ -32,10 +34,10 @@
       "name": "TF Custom Page Slideshow",
       "settings": {
         "layout": "full_bleed",
-        "slide_height": "medium",
+        "slide_height": "large",
         "image_behavior": "none",
         "padding_top": 0,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
     "rich_text_P3hBwh": {

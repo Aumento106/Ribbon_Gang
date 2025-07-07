@@ -37,7 +37,7 @@
         "slide_height": "medium",
         "image_behavior": "none",
         "padding_top": 0,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
     "main": {
@@ -51,19 +51,6 @@
     },
     "page_banner_wL3g6z": {
       "type": "page-banner",
-      "blocks": {
-        "image_DKAD6w": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Blacktown_1.png",
-            "border_radius": false,
-            "image_height": "small"
-          }
-        }
-      },
-      "block_order": [
-        "image_DKAD6w"
-      ],
       "settings": {
         "title_alignment": "center",
         "full_width": true,
@@ -195,6 +182,17 @@
         "padding_top": 30,
         "padding_bottom": 30
       }
+    },
+    "section_breadcrumb_XmKTwV": {
+      "type": "section-breadcrumb",
+      "name": "TF Breadcrumb",
+      "settings": {
+        "color_scheme": "",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "mobile_padding_top": 20,
+        "mobile_padding_bottom": 20
+      }
     }
   },
   "order": [
@@ -205,6 +203,7 @@
     "page_banner_zThXNm",
     "rich_text_y4gmC7",
     "product_catalog_zMqMUU",
-    "page_banner_Umz6fF"
+    "page_banner_Umz6fF",
+    "section_breadcrumb_XmKTwV"
   ]
 }

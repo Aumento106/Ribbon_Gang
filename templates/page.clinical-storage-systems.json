@@ -31,10 +31,10 @@
         "slide_EjgKKr",
         "slide_XbLzDm"
       ],
-      "name": "TF Custom Page Slideshow",
+      "name": "TF Custom Page Slideshow - add auto transition",
       "settings": {
         "layout": "full_bleed",
-        "slide_height": "medium",
+        "slide_height": "large",
         "image_behavior": "none",
         "padding_top": 0,
         "padding_bottom": 0

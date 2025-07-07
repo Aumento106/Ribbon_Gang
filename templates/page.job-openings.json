@@ -40,6 +40,60 @@
         "padding_bottom": 0
       }
     },
+    "page_banner_Umz6fF": {
+      "type": "page-banner",
+      "blocks": {
+        "heading_arze8C": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ page.title }}",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "600",
+            "heading_alignment": "center"
+          }
+        },
+        "caption_Um9XwP": {
+          "type": "caption",
+          "settings": {
+            "caption": "<p>Join us in making space for care®</p>",
+            "caption_alignment": "center"
+          }
+        },
+        "text_MW9qfg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At SpaceLogic, we’re committed to building a talented and diverse team that drives innovation and delivers excellence. As a trusted leader in healthcare storage solutions, we offer an inclusive and supportive environment where your skills and expertise can thrive. Explore our current job openings below and discover the next step in your career with us.</p>",
+            "text_alignment": "left"
+          }
+        }
+      },
+      "block_order": [
+        "heading_arze8C",
+        "caption_Um9XwP",
+        "text_MW9qfg"
+      ],
+      "name": "TF Page Banner",
+      "settings": {
+        "title_alignment": "center",
+        "full_width": true,
+        "content_width": "full_width",
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "padding_top": 80,
+        "padding_bottom": 40
+      }
+    },
+    "section_breadcrumb_XmKTwV": {
+      "type": "section-breadcrumb",
+      "name": "TF Breadcrumb",
+      "settings": {
+        "color_scheme": "",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "mobile_padding_top": 20,
+        "mobile_padding_bottom": 20
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -60,16 +114,6 @@
         "padding_bottom": 0
       }
     },
-    "section_breadcrumb_yNadMC": {
-      "type": "section-breadcrumb",
-      "settings": {
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 30,
-        "mobile_padding_top": 30,
-        "mobile_padding_bottom": 30
-      }
-    },
     "page_banner_zThXNm": {
       "type": "page-banner",
       "blocks": {
@@ -86,7 +130,7 @@
         "text_aKVfwT": {
           "type": "text",
           "settings": {
-            "text": "<p>At SpaceLogic, we’re committed to building a talented and diverse team that drives innovation and delivers excellence. As a trusted leader in healthcare storage solutions, we offer an inclusive and supportive environment where your skills and expertise can thrive. Explore our current job openings below and discover the next step in your career with us.<br/></p><p><strong>Join us in making space for care®<br/></strong><br/><strong>Open position:</strong><br/>We currently have no open positions. Please check back as we regularly seek skilled professionals to join our team.</p>",
+            "text": "<p>At SpaceLogic, we’re committed to building a talented and diverse team that drives innovation and delivers excellence. As a trusted leader in healthcare storage solutions, we offer an inclusive and supportive environment where your skills and expertise can thrive. Explore our current job openings below and discover the next step in your career with us.</p><p>Join us in making space for care®<br/><br/>Open position:<br/>We currently have no open positions. Please check back as we regularly seek skilled professionals to join our team.</p>",
             "text_alignment": "left"
           }
         }
@@ -140,70 +184,72 @@
         "padding_bottom": 20
       }
     },
-    "page_banner_Umz6fF": {
-      "type": "page-banner",
+    "multirow_pJNhfW": {
+      "type": "multirow",
       "blocks": {
-        "heading_arze8C": {
-          "type": "heading",
+        "row_MTFYAF": {
+          "type": "row",
           "settings": {
-            "heading": "{{ page.title }}",
-            "custom_heading_size": 52,
-            "mobile_custom_heading_size": 28,
-            "custom_font_weight": "400",
-            "heading_alignment": "center"
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
           }
         },
-        "caption_Um9XwP": {
-          "type": "caption",
+        "row_Gj7LEy": {
+          "type": "row",
           "settings": {
-            "caption": "<p>Add caption here</p>",
-            "caption_alignment": "center"
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
           }
         },
-        "text_MW9qfg": {
-          "type": "text",
+        "row_99tHaX": {
+          "type": "row",
           "settings": {
-            "text": "<p>Share information about your page information.</p>",
-            "text_alignment": "center"
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
           }
         }
       },
       "block_order": [
-        "heading_arze8C",
-        "caption_Um9XwP",
-        "text_MW9qfg"
+        "row_MTFYAF",
+        "row_Gj7LEy",
+        "row_99tHaX"
       ],
-      "name": "TF Page Banner",
+      "name": "t:sections.multirow.presets.name",
       "settings": {
-        "title_alignment": "center",
-        "full_width": true,
-        "content_width": "full_width",
-        "color_scheme": "",
-        "padding_top": 30,
-        "padding_bottom": 30
-      }
-    },
-    "section_breadcrumb_XmKTwV": {
-      "type": "section-breadcrumb",
-      "name": "TF Breadcrumb",
-      "settings": {
-        "color_scheme": "",
-        "padding_top": 20,
-        "padding_bottom": 20,
-        "mobile_padding_top": 20,
-        "mobile_padding_bottom": 20
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
     "custom_page_banner_h8qPHK",
+    "page_banner_Umz6fF",
+    "section_breadcrumb_XmKTwV",
     "main",
     "page_banner_wL3g6z",
-    "section_breadcrumb_yNadMC",
     "page_banner_zThXNm",
     "rich_text_y4gmC7",
     "product_catalog_zMqMUU",
-    "page_banner_Umz6fF",
-    "section_breadcrumb_XmKTwV"
+    "multirow_pJNhfW"
   ]
 }

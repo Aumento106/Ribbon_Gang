@@ -290,7 +290,7 @@
           "button": "#424242",
           "button_label": "#ffffff",
           "secondary_button_label": "#424242",
-          "shadow": "#121212",
+          "shadow": "#424242",
           "button_hover": "#ffffff",
           "primary_theme_color": "#ffce00"
         }

@@ -83,6 +83,17 @@
         "padding_bottom": 40
       }
     },
+    "section_breadcrumb_t4Nt8t": {
+      "type": "section-breadcrumb",
+      "name": "TF Breadcrumb",
+      "settings": {
+        "color_scheme": "",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "mobile_padding_top": 20,
+        "mobile_padding_bottom": 20
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -90,16 +101,6 @@
         "color_scheme": "",
         "padding_top": 28,
         "padding_bottom": 28
-      }
-    },
-    "section_breadcrumb_4rc6Md": {
-      "type": "section-breadcrumb",
-      "settings": {
-        "color_scheme": "",
-        "padding_top": 30,
-        "padding_bottom": 30,
-        "mobile_padding_top": 30,
-        "mobile_padding_bottom": 30
       }
     },
     "team_GF978q": {
@@ -141,8 +142,8 @@
   "order": [
     "custom_page_banner_cefheK",
     "page_banner_kdETkF",
+    "section_breadcrumb_t4Nt8t",
     "main",
-    "section_breadcrumb_4rc6Md",
     "team_GF978q",
     "product_catalog_TGjhw8"
   ]

@@ -105,7 +105,15 @@
     },
     "team_GF978q": {
       "type": "team",
-      "settings": {}
+      "settings": {
+        "color_scheme": "",
+        "box_color_scheme": "",
+        "title": "Our team",
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "mobile_padding_top": 30,
+        "mobile_padding_bottom": 30
+      }
     }
   },
   "order": [

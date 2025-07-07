@@ -37,7 +37,7 @@
         "slide_height": "large",
         "image_behavior": "none",
         "padding_top": 0,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
     "page_banner_zL7QFq": {
@@ -136,6 +136,7 @@
       "block_order": [
         "column_6VTpxy"
       ],
+      "disabled": true,
       "settings": {
         "sec_title": "<p>Three interconnected divisions, delivering <br/>a complete end-to-end service</p>",
         "custom_heading_size": 52,
@@ -174,6 +175,49 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
+    },
+    "page_banner_pt7aUW": {
+      "type": "page-banner",
+      "blocks": {
+        "heading_tXWghx": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ page.title }}",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400",
+            "heading_alignment": "center"
+          }
+        },
+        "caption_6XxrRH": {
+          "type": "caption",
+          "settings": {
+            "caption": "<p>Add caption here</p>",
+            "caption_alignment": "center"
+          }
+        },
+        "text_DJEm7w": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Installing a STERIRACK® System is a seamless process, designed for efficiency and minimal disruption. Unlike traditional joinery or cabinetry, our system allows for quick, hassle-free setup. Our expert team will arrive on-site and, before you know it, your facility will be equipped with pristine baskets, shelves, drawers, and benches, ready to be stocked with consumables.</p><p>We ensure minimal disruption to daily operations and other tradespeople. Our installation specialists are available for national and international projects.design and innovation, ensuring you get the ultimate tailored storage system.</p>",
+            "text_alignment": "left"
+          }
+        }
+      },
+      "block_order": [
+        "heading_tXWghx",
+        "caption_6XxrRH",
+        "text_DJEm7w"
+      ],
+      "name": "Page Banner",
+      "settings": {
+        "title_alignment": "center",
+        "full_width": true,
+        "content_width": "full_width",
+        "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
+        "padding_top": 80,
+        "padding_bottom": 40
+      }
     }
   },
   "order": [
@@ -181,6 +225,7 @@
     "page_banner_zL7QFq",
     "multicolumn_services_box_Kh8zd7",
     "multicolumn_services_box_nmcdxw",
-    "product_catalog_xQiN4g"
+    "product_catalog_xQiN4g",
+    "page_banner_pt7aUW"
   ]
 }

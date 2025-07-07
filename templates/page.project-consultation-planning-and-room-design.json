@@ -40,38 +40,15 @@
         "padding_bottom": 0
       }
     },
-    "page_banner_9jPapd": {
-      "type": "page-banner",
-      "blocks": {
-        "image_KqNrzT": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/image_161.png",
-            "border_radius": false,
-            "image_height": "small"
-          }
-        }
-      },
-      "block_order": [
-        "image_KqNrzT"
-      ],
-      "settings": {
-        "title_alignment": "center",
-        "full_width": true,
-        "content_width": "full_width",
-        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "section_breadcrumb_YHdzrq": {
+    "section_breadcrumb_PKhPRz": {
       "type": "section-breadcrumb",
+      "name": "TF Breadcrumb",
       "settings": {
         "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 30,
-        "mobile_padding_top": 30,
-        "mobile_padding_bottom": 30
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "mobile_padding_top": 20,
+        "mobile_padding_bottom": 20
       }
     },
     "page_banner_iVH9eY": {
@@ -112,6 +89,7 @@
         "text_KdCiWp",
         "button_fn8KLw"
       ],
+      "disabled": true,
       "settings": {
         "title_alignment": "center",
         "full_width": false,
@@ -132,6 +110,7 @@
       "block_order": [
         "column_BpVqDr"
       ],
+      "disabled": true,
       "settings": {
         "sec_title": "<p>Three interconnected divisions, delivering <br/>a complete end-to-end service</p>",
         "custom_heading_size": 52,
@@ -147,13 +126,69 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "page_banner_kqzM33": {
+      "type": "page-banner",
+      "blocks": {
+        "heading_M3iwNe": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ page.title }}",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "600",
+            "heading_alignment": "center"
+          }
+        },
+        "caption_WHgzJX": {
+          "type": "caption",
+          "settings": {
+            "caption": "<p>Three interconnected divisions, delivering a complete end-to-end service</p>",
+            "caption_alignment": "center"
+          }
+        },
+        "text_MjCJKf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Whether designing new storage systems or optimising existing clinical storerooms, we collaborate with all stakeholders to create tailored STERIRACK® System solutions. We develop bespoke solutions tailored to your healthcare needs, ensuring high efficiency and minimal disruption during installation.</p><p>Our process includes:</p><ul><li>In-depth consultation with our expert project team.</li><li>Customised design using our gold-standard STERIRACK® modular system.</li><li>Creation of floor plans to optimise storage capacity and efficiency.</li><li>Photorealistic imaging available upon request.</li><li>Professional project management and installation services.</li></ul><p></p>",
+            "text_alignment": "left"
+          }
+        },
+        "button_H4cPXC": {
+          "type": "button",
+          "settings": {
+            "button_label": "Product design and innovation",
+            "button_link": "shopify://pages/product-design-and-innovation",
+            "button_style_secondary": true,
+            "button_label_2": "Project management and expert installation",
+            "button_link_2": "shopify://pages/project-management-and-expert-installation",
+            "button_style_secondary_2": true,
+            "button_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "heading_M3iwNe",
+        "caption_WHgzJX",
+        "text_MjCJKf",
+        "button_H4cPXC"
+      ],
+      "name": "TF Page Banner",
+      "settings": {
+        "title_alignment": "center",
+        "full_width": true,
+        "content_width": "full_width",
+        "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
+        "padding_top": 80,
+        "padding_bottom": 40
+      }
     }
   },
   "order": [
     "custom_page_banner_eiQ9zY",
-    "page_banner_9jPapd",
-    "section_breadcrumb_YHdzrq",
+    "section_breadcrumb_PKhPRz",
     "page_banner_iVH9eY",
-    "multicolumn_services_box_Kh8zd7"
+    "multicolumn_services_box_Kh8zd7",
+    "page_banner_kqzM33"
   ]
 }

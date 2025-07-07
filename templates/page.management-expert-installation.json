@@ -185,14 +185,14 @@
             "heading": "{{ page.title }}",
             "custom_heading_size": 52,
             "mobile_custom_heading_size": 28,
-            "custom_font_weight": "400",
+            "custom_font_weight": "600",
             "heading_alignment": "center"
           }
         },
         "caption_6XxrRH": {
           "type": "caption",
           "settings": {
-            "caption": "<p>Add caption here</p>",
+            "caption": "<p>Three interconnected divisions, delivering a complete end-to-end service</p>",
             "caption_alignment": "center"
           }
         },

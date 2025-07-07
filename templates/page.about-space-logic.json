@@ -124,42 +124,95 @@
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 72
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     },
-    "rich_text_EQJmnB": {
-      "type": "rich-text",
+    "image_with_text_v1_thYDy8": {
+      "type": "image-with-text-v1",
       "blocks": {
-        "heading_n8F6Rm": {
+        "heading_9VGyQt": {
           "type": "heading",
           "settings": {
-            "heading": "The SpaceLogic team",
+            "heading": "Our mission",
             "custom_heading_size": 52,
             "mobile_custom_heading_size": 28,
             "custom_font_weight": "400"
           }
         },
-        "text_3wTHXQ": {
+        "text_6jCfKx": {
           "type": "text",
           "settings": {
-            "text": "<p>Our expert team brings together trusted industry-leading professionals dedicated to optimising healthcare storage. By combining specialist knowledge with a client-focused approach, we deliver tailored solutions that enhance efficiency, safety, and usability in clinical environments</p><p><strong>Key Team Members:</strong></p><p><strong>Lloyd Scott – CEO<br/></strong>With extensive industry expertise, Lloyd leads SpaceLogic with a vision for delivering premium client experiences and innovative storage solutions.<br/></p><p><strong>Adam Piech – Product sales manager (AU)<br/></strong>Adam’s 15 years of industry experience and deep product knowledge ensure exceptional customer satisfaction and engagement.</p><p><strong>Craig Stuart – Chief financial officer<br/></strong>Craig drives strategic financial planning and ensures strong risk management and operational efficiency.<br/><br/><strong>David Scott – Project team manager<br/></strong>A founder of SpaceLogic, David has over 35 years of expertise in healthcare storage design, guiding strategic innovation.<br/><br/><strong>Melissa Gillespie – Project admin kanager<br/></strong>With 15+ years in corporate coordination, Melissa ensures smooth project execution and seamless client interactions.<br/><br/><strong>Oleta Blunt – Senior marketing manager<br/></strong>Oleta’s expertise in strategic marketing and branding helps drive impactful campaigns and client relationships.<br/><br/>View our full team directory<strong> </strong><a href=\"/pages/our-team\" title=\"Our Team\"><strong>here. </strong></a></p>",
-            "text_content_alignment": "center"
+            "text": "<p>Text to go here.</p>",
+            "text_style": "body"
           }
         }
       },
       "block_order": [
-        "heading_n8F6Rm",
-        "text_3wTHXQ"
+        "heading_9VGyQt",
+        "text_6jCfKx"
       ],
       "settings": {
-        "content_alignment": "center",
-        "content_width": "full_width",
-        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
-        "full_width": true,
-        "no_margin": false,
-        "section_border": false,
-        "padding_top": 80,
+        "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "container_size": "page-width",
+        "both_image_content_size": false,
+        "video_url": "",
+        "enable_video_looping": false,
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "image_with_text_v1_dEQcmg": {
+      "type": "image-with-text-v1",
+      "blocks": {
+        "heading_tfHz9g": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our values",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
+          }
+        },
+        "text_pLMKNr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Text to go here.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_tfHz9g",
+        "text_pLMKNr"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "container_size": "page-width",
+        "both_image_content_size": false,
+        "video_url": "",
+        "enable_video_looping": false,
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 20,
         "padding_bottom": 80
       }
     },
@@ -193,7 +246,8 @@
     "main",
     "page_banner_J4tRrR",
     "image_with_text_v1_Kk8cPy",
-    "rich_text_EQJmnB",
+    "image_with_text_v1_thYDy8",
+    "image_with_text_v1_dEQcmg",
     "product_catalog_Bnebfb"
   ]
 }

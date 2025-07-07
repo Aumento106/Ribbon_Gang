@@ -145,7 +145,7 @@
       ],
       "settings": {
         "heading": "",
-        "custom_heading_size": 52,
+        "custom_heading_size": 32,
         "mobile_custom_heading_size": 28,
         "custom_font_weight": "400",
         "desktop_layout": "right",

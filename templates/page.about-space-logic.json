@@ -40,6 +40,49 @@
         "padding_bottom": 0
       }
     },
+    "page_banner_6acXXA": {
+      "type": "page-banner",
+      "blocks": {
+        "heading_f3KeVb": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ page.title }}",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "600",
+            "heading_alignment": "center"
+          }
+        },
+        "caption_JARpPF": {
+          "type": "caption",
+          "settings": {
+            "caption": "<p>Add caption here</p>",
+            "caption_alignment": "center"
+          }
+        },
+        "text_UhW6zH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your page information.</p>",
+            "text_alignment": "left"
+          }
+        }
+      },
+      "block_order": [
+        "heading_f3KeVb",
+        "caption_JARpPF",
+        "text_UhW6zH"
+      ],
+      "name": "Page Banner",
+      "settings": {
+        "title_alignment": "center",
+        "full_width": true,
+        "content_width": "full_width",
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
     "section_breadcrumb_X4BUdU": {
       "type": "section-breadcrumb",
       "name": "TF Breadcrumb",
@@ -108,6 +151,7 @@
         "heading_P7KtwF",
         "text_UJHQb4"
       ],
+      "name": "TF Image Text",
       "settings": {
         "image": "shopify://shop_images/improve-infection-control.png",
         "height": "adapt",
@@ -152,6 +196,7 @@
         "heading_9VGyQt",
         "text_6jCfKx"
       ],
+      "name": "TF Image Text",
       "settings": {
         "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
         "height": "adapt",
@@ -196,6 +241,7 @@
         "heading_tfHz9g",
         "text_pLMKNr"
       ],
+      "name": "TF Image Text",
       "settings": {
         "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
         "height": "adapt",
@@ -242,6 +288,7 @@
   },
   "order": [
     "custom_page_banner_xYEjM4",
+    "page_banner_6acXXA",
     "section_breadcrumb_X4BUdU",
     "main",
     "page_banner_J4tRrR",

@@ -113,7 +113,7 @@
             "collection": "steriloop-medibin",
             "card_text": "MEDIBINS™ are high quality, chrome finished, wire bins, available in six sizes.",
             "button_card_text": "Learn more",
-            "redirection_link": "shopify://collections/steriloop-medibin"
+            "redirection_link": ""
           }
         },
         "featured_collection_ant9n7": {
@@ -175,6 +175,7 @@
         "featured_collection_TtYFqg",
         "featured_collection_JNdDid"
       ],
+      "name": "TF Categories",
       "settings": {
         "title": "",
         "custom_heading_size": 52,

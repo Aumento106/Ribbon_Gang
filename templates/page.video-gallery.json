@@ -520,8 +520,8 @@
             "image": "shopify://shop_images/50-thumbnail-pbfvnzzzzl7s2oem7w2z4ktzxsj89728967hnd525c.jpg",
             "video_url": "https://youtu.be/a5W1LsZUxKU",
             "enable_video_looping": false,
-            "title": "STERIRACK® operating theatre set up trolleys",
-            "text": "<p>Lloyd Scott discusses the STERIRACK® Theatre Trolley and how you can find more information. </p>"
+            "title": "STERIRACK® Set-up Trolleys are a game changer",
+            "text": "<p>Lloyd Scott discusses the STERIRACK® Theatre Trolley and where you can find more information on this product.</p>"
           }
         },
         "column_wbNcAF": {
@@ -530,12 +530,13 @@
             "image": "shopify://shop_images/46-thumbnail-pbfvnz25sr6hr2fzddock32jcenv1hyhx1k0636gbk.jpg",
             "video_url": "https://youtu.be/CXemPWjAEmg",
             "enable_video_looping": false,
-            "title": "STERIRACK® operating theatre set up trolleys",
-            "text": "<p>Lloyd Scott discusses the STERIRACK® Theatre Trolley and how you can find more information. </p>"
+            "title": "A demonstration of STERIRACK® Set-up Trolleys",
+            "text": "<p>Adam Piech does a great demo of these innovative trolleys as they come off the production line.</p>"
           }
         },
         "column_tKgdmx": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/About_Us.jpg",
             "video_url": "https://youtu.be/cu_FGYCCIxQ",
@@ -603,7 +604,7 @@
         "box_auto_height1": true,
         "box_color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 80
       }
     },
     "product_catalog_qeWkQW": {

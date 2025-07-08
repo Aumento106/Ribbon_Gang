@@ -120,7 +120,7 @@
         "caption_kyqBaM": {
           "type": "caption",
           "settings": {
-            "caption": "<p>Please check back at another time.</p>",
+            "caption": "<p>We currently have no open positions. Please check back as we regularly seek skilled professionals to join our team.</p>",
             "caption_alignment": "center"
           }
         }
@@ -164,7 +164,6 @@
         "heading_dJkybV",
         "text_aKVfwT"
       ],
-      "disabled": true,
       "settings": {
         "title_alignment": "center",
         "full_width": true,

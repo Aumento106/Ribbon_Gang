@@ -46,25 +46,25 @@
         "heading_LxBUzb": {
           "type": "heading",
           "settings": {
-            "heading": "Banner Title",
+            "heading": "Contact us",
             "custom_heading_size": 52,
             "mobile_custom_heading_size": 28,
-            "custom_font_weight": "400",
+            "custom_font_weight": "600",
             "heading_alignment": "center"
           }
         },
         "caption_4bGanb": {
           "type": "caption",
           "settings": {
-            "caption": "<p>Add caption here</p>",
+            "caption": "<p>We are always happy to discuss your healthcare storage needs</p>",
             "caption_alignment": "center"
           }
         },
         "text_WFELBF": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your page information.</p>",
-            "text_alignment": "center"
+            "text": "<p>Our expert consultants are friendly, knowledgeable, and ready to help. Contact us today to discover how SpaceLogic can transform your clinical storage management system. Our consultants will respond within 12 business hours.</p>",
+            "text_alignment": "left"
           }
         }
       },
@@ -78,9 +78,20 @@
         "title_alignment": "center",
         "full_width": true,
         "content_width": "full_width",
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "padding_top": 80,
+        "padding_bottom": 40
+      }
+    },
+    "section_breadcrumb_DNXeDp": {
+      "type": "section-breadcrumb",
+      "name": "TF Breadcrumb",
+      "settings": {
         "color_scheme": "",
-        "padding_top": 30,
-        "padding_bottom": 30
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "mobile_padding_top": 20,
+        "mobile_padding_bottom": 20
       }
     },
     "main": {
@@ -90,17 +101,6 @@
         "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "form": {
-      "type": "contact-form",
-      "disabled": true,
-      "settings": {
-        "heading": "heading",
-        "heading_size": "h1",
-        "color_scheme": "scheme-1",
-        "padding_top": 60,
-        "padding_bottom": 28
       }
     },
     "rich_text_CeDtL6": {
@@ -136,6 +136,7 @@
         "text_hwy9gg",
         "text_HyiR3k"
       ],
+      "disabled": true,
       "settings": {
         "content_alignment": "center",
         "content_width": "full_width",
@@ -147,23 +148,13 @@
         "padding_bottom": 50
       }
     },
-    "section_breadcrumb_TEYBf3": {
-      "type": "section-breadcrumb",
-      "settings": {
-        "color_scheme": "",
-        "padding_top": 30,
-        "padding_bottom": 30,
-        "mobile_padding_top": 30,
-        "mobile_padding_bottom": 30
-      }
-    },
     "get_in_touch_irHLdw": {
       "type": "get-in-touch",
       "blocks": {
         "location_xwBwzh": {
           "type": "location",
           "settings": {
-            "box_color_scheme": "scheme-1",
+            "box_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
             "title": "Australia",
             "company": "Head office: SpaceLogic Group Pty Ltd",
             "company_icon": "shopify://shop_images/organization-svgrepo-com_1_small_26426c1f-6500-422b-826e-1f5dfd600d5b.svg",
@@ -188,7 +179,7 @@
         "location_mTCeAQ": {
           "type": "location",
           "settings": {
-            "box_color_scheme": "",
+            "box_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
             "title": "United States",
             "company": "SpaceLogic Group Ltd",
             "company_icon": "shopify://shop_images/organization-svgrepo-com_1_small_26426c1f-6500-422b-826e-1f5dfd600d5b.svg",
@@ -213,7 +204,7 @@
         "location_BQBU6m": {
           "type": "location",
           "settings": {
-            "box_color_scheme": "",
+            "box_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
             "title": "Authorised  distributors (US)",
             "company": "",
             "address": "",
@@ -368,10 +359,9 @@
   "order": [
     "custom_page_banner_ALNNd4",
     "page_banner_n9BQTW",
+    "section_breadcrumb_DNXeDp",
     "main",
-    "form",
     "rich_text_CeDtL6",
-    "section_breadcrumb_TEYBf3",
     "get_in_touch_irHLdw",
     "rich_text_Tkh3tD",
     "product_catalog_3gEWDy",

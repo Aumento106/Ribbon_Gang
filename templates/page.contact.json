@@ -9,6 +9,80 @@
  */
 {
   "sections": {
+    "custom_page_banner_ALNNd4": {
+      "type": "custom-page-banner",
+      "blocks": {
+        "slide_GncqWA": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image_overlay_opacity": 0
+          }
+        },
+        "slide_4Kq6Ax": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/winding-road-covered-in-autumn-trees.jpg",
+            "image_overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "slide_GncqWA",
+        "slide_4Kq6Ax"
+      ],
+      "name": "TF Custom Page Slideshow",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "image_behavior": "none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "page_banner_n9BQTW": {
+      "type": "page-banner",
+      "blocks": {
+        "heading_LxBUzb": {
+          "type": "heading",
+          "settings": {
+            "heading": "Banner Title",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400",
+            "heading_alignment": "center"
+          }
+        },
+        "caption_4bGanb": {
+          "type": "caption",
+          "settings": {
+            "caption": "<p>Add caption here</p>",
+            "caption_alignment": "center"
+          }
+        },
+        "text_WFELBF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your page information.</p>",
+            "text_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "heading_LxBUzb",
+        "caption_4bGanb",
+        "text_WFELBF"
+      ],
+      "name": "TF Page Banner",
+      "settings": {
+        "title_alignment": "center",
+        "full_width": true,
+        "content_width": "full_width",
+        "color_scheme": "",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -16,37 +90,6 @@
         "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "custom_page_banner_wUjFrR": {
-      "type": "custom-page-banner",
-      "blocks": {
-        "slide_rqd8X3": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Concept_1_1.png",
-            "image_overlay_opacity": 0
-          }
-        },
-        "slide_Nzx7FR": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Concept_1_1.png",
-            "image_overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "slide_rqd8X3",
-        "slide_Nzx7FR"
-      ],
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "small",
-        "image_behavior": "none",
-        "padding_top": 0,
-        "padding_bottom": 0
       }
     },
     "form": {
@@ -320,47 +363,18 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
-    },
-    "custom_page_banner_ALNNd4": {
-      "type": "custom-page-banner",
-      "blocks": {
-        "slide_GncqWA": {
-          "type": "slide",
-          "settings": {
-            "image_overlay_opacity": 0
-          }
-        },
-        "slide_4Kq6Ax": {
-          "type": "slide",
-          "settings": {
-            "image_overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "slide_GncqWA",
-        "slide_4Kq6Ax"
-      ],
-      "name": "TF Custom Page Slideshow",
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "medium",
-        "image_behavior": "none",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
+    "custom_page_banner_ALNNd4",
+    "page_banner_n9BQTW",
     "main",
-    "custom_page_banner_wUjFrR",
     "form",
     "rich_text_CeDtL6",
     "section_breadcrumb_TEYBf3",
     "get_in_touch_irHLdw",
     "rich_text_Tkh3tD",
     "product_catalog_3gEWDy",
-    "product_catalog_L6BQhH",
-    "custom_page_banner_ALNNd4"
+    "product_catalog_L6BQhH"
   ]
 }

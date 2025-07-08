@@ -154,7 +154,7 @@
         "location_xwBwzh": {
           "type": "location",
           "settings": {
-            "box_color_scheme": "scheme-1",
+            "box_color_scheme": "scheme-7bba877c-319e-4978-b41a-39cbc803dea8",
             "title": "Australia",
             "company": "Head office: SpaceLogic Group Pty Ltd",
             "company_icon": "shopify://shop_images/organization-svgrepo-com_1_small_26426c1f-6500-422b-826e-1f5dfd600d5b.svg",
@@ -163,7 +163,7 @@
             "phone": "+61 2 6362 5533",
             "phone_icon": "shopify://shop_images/Frame_10.svg",
             "phone_link": "tel:+61 2 6362 5533",
-            "email": "sales2@spacelogic.com.au",
+            "email": "Email us",
             "email_icon": "shopify://shop_images/Vector_small_1f9a86ca-db61-4142-b62c-15c3074fa473.svg",
             "email_link": "mailto:sales2@spacelogic.com.au",
             "facebook": "",
@@ -179,16 +179,16 @@
         "location_mTCeAQ": {
           "type": "location",
           "settings": {
-            "box_color_scheme": "scheme-1",
+            "box_color_scheme": "scheme-7bba877c-319e-4978-b41a-39cbc803dea8",
             "title": "United States",
-            "company": "SpaceLogic Group Ltd",
+            "company": "SpaceLogic Group LLC",
             "company_icon": "shopify://shop_images/organization-svgrepo-com_1_small_26426c1f-6500-422b-826e-1f5dfd600d5b.svg",
             "address": "44 Commerce Street, Springfield NJ 07081, United States",
             "address_icon": "shopify://shop_images/region_1_small_59dee43b-1303-4539-b331-6fd5f32b1d59.svg",
             "phone": "+1 973 379 4033",
             "phone_icon": "shopify://shop_images/Frame_10.svg",
             "phone_link": "tel:+1 973 379 4033",
-            "email": "lee.macdougall@spacelogicgroup.com",
+            "email": "Email us",
             "email_icon": "shopify://shop_images/Vector_small_1f9a86ca-db61-4142-b62c-15c3074fa473.svg",
             "email_link": "mailto:lee.macdougall@spacelogicgroup.com",
             "facebook": "",
@@ -204,7 +204,7 @@
         "location_BQBU6m": {
           "type": "location",
           "settings": {
-            "box_color_scheme": "scheme-1",
+            "box_color_scheme": "scheme-7bba877c-319e-4978-b41a-39cbc803dea8",
             "title": "Authorised  distributors (US)",
             "company": "",
             "address": "",
@@ -217,7 +217,7 @@
             "twitter": "",
             "youtube": "",
             "linkedin": "",
-            "distributor_text": "For more information on our Distributors in the US please click on the logos below:",
+            "distributor_text": "For more information on our distributors in the US, please click on the logos below:",
             "distributor_logo_1": "shopify://shop_images/Coulmed-logo.png",
             "distributor_logo_1_url": "https://coulmed.com/",
             "distributor_logo_2": "shopify://shop_images/Stat-Med-logo-1.png",
@@ -234,7 +234,7 @@
         ".contact-section {margin-bottom: 40px;}"
       ],
       "settings": {
-        "row_color_scheme": "scheme-1",
+        "row_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "title": "Enquiry",
         "name": "Your name",
         "name_icon": "shopify://shop_images/user-svgrepo-com.svg",

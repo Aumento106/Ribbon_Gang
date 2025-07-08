@@ -82,7 +82,7 @@
         "inv_no": "Invoice no.",
         "reason": "Reason for return",
         "decrip": "Please provide item number, quantity, description and reason for return (eg. Faulty/damaged item, incorrect item, not suitable, or other).",
-        "submit_btn": "Submit RMA authorisation",
+        "submit_btn": "Submit RMA",
         "padding_top": 36,
         "padding_bottom": 36
       }

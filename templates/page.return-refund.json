@@ -78,11 +78,11 @@
         "phone": "Phone",
         "fax": "Fax",
         "email": "Email",
-        "invoice_data": "Invoice Data",
-        "inv_no": "Inv no",
-        "reason": "Reason",
+        "invoice_data": "Invoice date",
+        "inv_no": "Invoice no.",
+        "reason": "Reason for return",
         "decrip": "Please provide item number, quantity, description and reason for return (eg. Faulty/damaged item, incorrect item, not suitable, or other).",
-        "submit_btn": "submit",
+        "submit_btn": "Submit RMA authorisation",
         "padding_top": 36,
         "padding_bottom": 36
       }

@@ -154,7 +154,7 @@
         "location_xwBwzh": {
           "type": "location",
           "settings": {
-            "box_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+            "box_color_scheme": "scheme-1",
             "title": "Australia",
             "company": "Head office: SpaceLogic Group Pty Ltd",
             "company_icon": "shopify://shop_images/organization-svgrepo-com_1_small_26426c1f-6500-422b-826e-1f5dfd600d5b.svg",
@@ -179,7 +179,7 @@
         "location_mTCeAQ": {
           "type": "location",
           "settings": {
-            "box_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+            "box_color_scheme": "scheme-1",
             "title": "United States",
             "company": "SpaceLogic Group Ltd",
             "company_icon": "shopify://shop_images/organization-svgrepo-com_1_small_26426c1f-6500-422b-826e-1f5dfd600d5b.svg",
@@ -204,7 +204,7 @@
         "location_BQBU6m": {
           "type": "location",
           "settings": {
-            "box_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+            "box_color_scheme": "scheme-1",
             "title": "Authorised  distributors (US)",
             "company": "",
             "address": "",

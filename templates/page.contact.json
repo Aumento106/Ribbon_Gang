@@ -76,13 +76,15 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<ol><li><strong>Australia & New Zealand • United States & Canada</strong></li></ol>"
+            "text": "<ol><li><strong>Australia & New Zealand • United States & Canada</strong></li></ol>",
+            "text_content_alignment": "center"
           }
         },
         "text_HyiR3k": {
           "type": "text",
           "settings": {
-            "text": "<p>We are always happy to discuss your healthcare storage needs. Our expert consultants are friendly, knowledgeable, and ready to help. Contact us today to discover how SpaceLogic can transform your clinical storage management system. Our consultants will respond within 12 business hours.</p>"
+            "text": "<p>We are always happy to discuss your healthcare storage needs. Our expert consultants are friendly, knowledgeable, and ready to help. Contact us today to discover how SpaceLogic can transform your clinical storage management system. Our consultants will respond within 12 business hours.</p>",
+            "text_content_alignment": "center"
           }
         }
       },
@@ -158,7 +160,7 @@
             "facebook": "",
             "instagram": "",
             "twitter": "",
-            "youtube": "",
+            "youtube": "http://www.youtube.com/@SpaceLogicGroup",
             "linkedin": "https://www.linkedin.com/company/spacelogic/",
             "distributor_text": "",
             "distributor_logo_1_url": "",
@@ -236,7 +238,8 @@
         "text_EP4mQR": {
           "type": "text",
           "settings": {
-            "text": "<p>To return your SpaceLogic product for service or to make a warranty claim, you are required to complete an RMA (Return Material Authorisation) request form.</p>"
+            "text": "<p>To return your SpaceLogic product for service or to make a warranty claim, you are required to complete an RMA (Return Material Authorisation) request form.</p>",
+            "text_content_alignment": "center"
           }
         },
         "button_pghPdT": {
@@ -317,6 +320,35 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
+    },
+    "custom_page_banner_ALNNd4": {
+      "type": "custom-page-banner",
+      "blocks": {
+        "slide_GncqWA": {
+          "type": "slide",
+          "settings": {
+            "image_overlay_opacity": 0
+          }
+        },
+        "slide_4Kq6Ax": {
+          "type": "slide",
+          "settings": {
+            "image_overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "slide_GncqWA",
+        "slide_4Kq6Ax"
+      ],
+      "name": "TF Custom Page Slideshow",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "image_behavior": "none",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -328,6 +360,7 @@
     "get_in_touch_irHLdw",
     "rich_text_Tkh3tD",
     "product_catalog_3gEWDy",
-    "product_catalog_L6BQhH"
+    "product_catalog_L6BQhH",
+    "custom_page_banner_ALNNd4"
   ]
 }

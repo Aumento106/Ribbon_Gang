@@ -176,6 +176,7 @@
     },
     "rich_text_y4gmC7": {
       "type": "rich-text",
+      "disabled": true,
       "settings": {
         "content_alignment": "center",
         "content_width": "full_width",

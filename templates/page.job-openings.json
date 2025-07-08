@@ -110,7 +110,7 @@
         "heading_agXX9w": {
           "type": "heading",
           "settings": {
-            "heading": "Sorry, there are no positions vacant at this time.",
+            "heading": "We currently have no open positions.",
             "custom_heading_size": 28,
             "mobile_custom_heading_size": 28,
             "custom_font_weight": "600",
@@ -120,7 +120,7 @@
         "caption_kyqBaM": {
           "type": "caption",
           "settings": {
-            "caption": "<p>We currently have no open positions. Please check back as we regularly seek skilled professionals to join our team.</p>",
+            "caption": "<p>Please check back as we regularly seek skilled professionals to join our team.</p>",
             "caption_alignment": "center"
           }
         }

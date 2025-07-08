@@ -253,8 +253,8 @@
         "enquiry": "Enquiry",
         "enquiry_icon": "shopify://shop_images/transaction-detail-enquiry-1_1_1.svg",
         "submit_btn": "Submit",
-        "padding_top": 70,
-        "padding_bottom": 70
+        "padding_top": 40,
+        "padding_bottom": 80
       }
     },
     "rich_text_Tkh3tD": {

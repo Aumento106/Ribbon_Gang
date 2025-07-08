@@ -234,7 +234,7 @@
         ".contact-section {margin-bottom: 40px;}"
       ],
       "settings": {
-        "row_color_scheme": "scheme-7bba877c-319e-4978-b41a-39cbc803dea8",
+        "row_color_scheme": "scheme-1",
         "title": "Enquiry",
         "name": "Your name",
         "name_icon": "shopify://shop_images/user-svgrepo-com.svg",
@@ -244,11 +244,11 @@
         "organisation_icon": "shopify://shop_images/organization-svgrepo-com_1.svg",
         "email": "Email",
         "email_icon": "shopify://shop_images/Vector.svg",
-        "region": "Region",
+        "region": "",
         "region_icon": "shopify://shop_images/region_1.svg",
         "phone": "Phone",
         "phone_icon": "shopify://shop_images/email-8-svgrepo-com_1.svg",
-        "enquiry_type": "Enquiry type",
+        "enquiry_type": "",
         "enquiry_type_icon": "shopify://shop_images/inquiry-svgrepo-com_1_1.svg",
         "enquiry": "Enquiry",
         "enquiry_icon": "shopify://shop_images/transaction-detail-enquiry-1_1_1.svg",

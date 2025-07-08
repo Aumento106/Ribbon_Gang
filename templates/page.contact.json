@@ -304,9 +304,7 @@
         "text_FF7Jcz",
         "button_EYt6Qp"
       ],
-      "custom_css": [
-        ".contact-section {margin-bottom: 40px !important;}"
-      ],
+      "custom_css": [],
       "name": "TF RMA Request",
       "settings": {
         "title_alignment": "center",

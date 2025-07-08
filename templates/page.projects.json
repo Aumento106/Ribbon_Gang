@@ -34,7 +34,7 @@
       "name": "TF Custom Page Slideshow",
       "settings": {
         "layout": "full_bleed",
-        "slide_height": "small",
+        "slide_height": "medium",
         "image_behavior": "none",
         "padding_top": 0,
         "padding_bottom": 0
@@ -214,66 +214,6 @@
         "padding_bottom": 45
       }
     },
-    "custom_collage_yaX46N": {
-      "type": "custom-Collage",
-      "blocks": {
-        "image_AgEQQU": {
-          "type": "image",
-          "settings": {
-            "project_name": "Project name",
-            "project_sub_heading": "Project sub heading",
-            "project_des": "Project description. Work is progressing at Griffith base hospital, where we are delivering advanced healthcare storage systems tailored to the needs of the facility. Our focus is on enhancing infection control, maximising space efficiency, and streamlining clinical workflows. This project is a strong example of how STERIRACK® can be customised to meet department-specific demands.",
-            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
-            "image_1": "shopify://shop_images/winding-road-covered-in-autumn-trees.jpg",
-            "image_2": "shopify://shop_images/woman-wades-in-ocean-at-sunset.jpg",
-            "project_logo": "shopify://shop_images/SPACELOGIC_logo_-_grey_and_yellow_2025_v1_1.svg"
-          }
-        },
-        "image_Jrh3aU": {
-          "type": "image",
-          "settings": {
-            "project_name": "Cranbourne community hospital",
-            "project_sub_heading": "Bringing care closer with Cranbourne community hospital",
-            "project_des": "Currently in the later stages of installation, this project supports the delivery of care closer to home for the Cranbourne community. We are providing modular, future-ready storage systems designed to improve daily workflows and maintain best-practice hygiene. Our solutions contribute to building flexible clinical environments that will serve patients and staff for years to come.",
-            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
-            "image_1": "shopify://shop_images/winding-road-covered-in-autumn-trees.jpg",
-            "image_2": "shopify://shop_images/woman-wades-in-ocean-at-sunset.jpg",
-            "project_logo": "shopify://shop_images/SPACELOGIC_logo_-_grey_and_yellow_2025_v1_1.svg"
-          }
-        },
-        "image_xWwfPK": {
-          "type": "image",
-          "settings": {
-            "project_name": "St George hospital redevelopment – stage 3",
-            "project_sub_heading": "Strengthening care, supporting communities",
-            "project_des": "We are proud to support the St George hospital redevelopment – Stage 3, in partnership with South Eastern Sydney local health district. This project focuses on expanding critical care services through the integration of scalable storage systems that enhance hospital workflows. Our team is helping to create smarter clinical environments that support both staff efficiency and patient care.",
-            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
-            "image_1": "shopify://shop_images/woman-wades-in-ocean-at-sunset.jpg",
-            "image_2": "shopify://shop_images/winding-road-covered-in-autumn-trees.jpg",
-            "project_logo": "shopify://shop_images/SPACELOGIC_logo_-_grey_and_yellow_2025_v1_1.svg"
-          }
-        }
-      },
-      "block_order": [
-        "image_AgEQQU",
-        "image_Jrh3aU",
-        "image_xWwfPK"
-      ],
-      "name": "TF Project Collage",
-      "settings": {
-        "heading": "",
-        "custom_heading_size": 32,
-        "mobile_custom_heading_size": 28,
-        "custom_font_weight": "400",
-        "desktop_layout": "equal",
-        "mobile_layout": "collage",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "popup_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "padding_top": 0,
-        "padding_bottom": 45
-      }
-    },
     "custom_collage_FFkWEq": {
       "type": "custom-Collage",
       "blocks": {
@@ -326,6 +266,66 @@
         "mobile_custom_heading_size": 28,
         "custom_font_weight": "400",
         "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "popup_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "padding_top": 0,
+        "padding_bottom": 45
+      }
+    },
+    "custom_collage_yaX46N": {
+      "type": "custom-Collage",
+      "blocks": {
+        "image_AgEQQU": {
+          "type": "image",
+          "settings": {
+            "project_name": "Project name",
+            "project_sub_heading": "Project sub heading",
+            "project_des": "Project description. Work is progressing at Griffith base hospital, where we are delivering advanced healthcare storage systems tailored to the needs of the facility. Our focus is on enhancing infection control, maximising space efficiency, and streamlining clinical workflows. This project is a strong example of how STERIRACK® can be customised to meet department-specific demands.",
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image_1": "shopify://shop_images/winding-road-covered-in-autumn-trees.jpg",
+            "image_2": "shopify://shop_images/woman-wades-in-ocean-at-sunset.jpg",
+            "project_logo": "shopify://shop_images/SPACELOGIC_logo_-_grey_and_yellow_2025_v1_1.svg"
+          }
+        },
+        "image_Jrh3aU": {
+          "type": "image",
+          "settings": {
+            "project_name": "Cranbourne community hospital",
+            "project_sub_heading": "Bringing care closer with Cranbourne community hospital",
+            "project_des": "Currently in the later stages of installation, this project supports the delivery of care closer to home for the Cranbourne community. We are providing modular, future-ready storage systems designed to improve daily workflows and maintain best-practice hygiene. Our solutions contribute to building flexible clinical environments that will serve patients and staff for years to come.",
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image_1": "shopify://shop_images/winding-road-covered-in-autumn-trees.jpg",
+            "image_2": "shopify://shop_images/woman-wades-in-ocean-at-sunset.jpg",
+            "project_logo": "shopify://shop_images/SPACELOGIC_logo_-_grey_and_yellow_2025_v1_1.svg"
+          }
+        },
+        "image_xWwfPK": {
+          "type": "image",
+          "settings": {
+            "project_name": "St George hospital redevelopment – stage 3",
+            "project_sub_heading": "Strengthening care, supporting communities",
+            "project_des": "We are proud to support the St George hospital redevelopment – Stage 3, in partnership with South Eastern Sydney local health district. This project focuses on expanding critical care services through the integration of scalable storage systems that enhance hospital workflows. Our team is helping to create smarter clinical environments that support both staff efficiency and patient care.",
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image_1": "shopify://shop_images/woman-wades-in-ocean-at-sunset.jpg",
+            "image_2": "shopify://shop_images/winding-road-covered-in-autumn-trees.jpg",
+            "project_logo": "shopify://shop_images/SPACELOGIC_logo_-_grey_and_yellow_2025_v1_1.svg"
+          }
+        }
+      },
+      "block_order": [
+        "image_AgEQQU",
+        "image_Jrh3aU",
+        "image_xWwfPK"
+      ],
+      "name": "TF Project Collage",
+      "settings": {
+        "heading": "",
+        "custom_heading_size": 32,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
+        "desktop_layout": "equal",
         "mobile_layout": "collage",
         "card_styles": "product-card-wrapper",
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",

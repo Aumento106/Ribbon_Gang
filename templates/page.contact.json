@@ -289,10 +289,10 @@
           "type": "button",
           "settings": {
             "button_label": "RMA request",
-            "button_link": "",
+            "button_link": "shopify://pages/return-and-refund-policy",
             "button_style_secondary": false,
             "button_label_2": "",
-            "button_link_2": "https://space-logic-development.myshopify.com/pages/return-and-refund-policy",
+            "button_link_2": "",
             "button_style_secondary_2": false,
             "button_alignment": "center"
           }

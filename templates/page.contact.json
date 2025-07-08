@@ -257,6 +257,62 @@
         "padding_bottom": 80
       }
     },
+    "page_banner_WgXPaN": {
+      "type": "page-banner",
+      "blocks": {
+        "heading_m6xGYm": {
+          "type": "heading",
+          "settings": {
+            "heading": "RMA request",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "600",
+            "heading_alignment": "center"
+          }
+        },
+        "caption_b3pbPd": {
+          "type": "caption",
+          "settings": {
+            "caption": "<p>Add caption here</p>",
+            "caption_alignment": "center"
+          }
+        },
+        "text_FF7Jcz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>To return your SpaceLogic product for service or to make a warranty claim, you are required to complete an RMA (Return Material Authorisation) request form.</p>",
+            "text_alignment": "center"
+          }
+        },
+        "button_EYt6Qp": {
+          "type": "button",
+          "settings": {
+            "button_label": "RMA request",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "button_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "heading_m6xGYm",
+        "caption_b3pbPd",
+        "text_FF7Jcz",
+        "button_EYt6Qp"
+      ],
+      "name": "TF RMA Request",
+      "settings": {
+        "title_alignment": "center",
+        "full_width": true,
+        "content_width": "full_width",
+        "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
+        "padding_top": 80,
+        "padding_bottom": 40
+      }
+    },
     "rich_text_Tkh3tD": {
       "type": "rich-text",
       "blocks": {
@@ -273,6 +329,13 @@
           "type": "text",
           "settings": {
             "text": "<p>To return your SpaceLogic product for service or to make a warranty claim, you are required to complete an RMA (Return Material Authorisation) request form.</p>",
+            "text_content_alignment": "center"
+          }
+        },
+        "text_PR3ywb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
             "text_content_alignment": "center"
           }
         },
@@ -295,17 +358,18 @@
       "block_order": [
         "heading_B3XexP",
         "text_EP4mQR",
+        "text_PR3ywb",
         "button_pghPdT"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "content_alignment": "center",
         "content_width": "full_width",
-        "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "full_width": true,
         "no_margin": true,
         "section_border": false,
-        "padding_top": 40,
+        "padding_top": 80,
         "padding_bottom": 40
       }
     },
@@ -354,18 +418,6 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
-    },
-    "page_banner_WgXPaN": {
-      "type": "page-banner",
-      "name": "TF RMA Request",
-      "settings": {
-        "title_alignment": "center",
-        "full_width": true,
-        "content_width": "full_width",
-        "color_scheme": "",
-        "padding_top": 30,
-        "padding_bottom": 30
-      }
     }
   },
   "order": [
@@ -375,9 +427,9 @@
     "main",
     "rich_text_CeDtL6",
     "get_in_touch_irHLdw",
+    "page_banner_WgXPaN",
     "rich_text_Tkh3tD",
     "product_catalog_3gEWDy",
-    "product_catalog_L6BQhH",
-    "page_banner_WgXPaN"
+    "product_catalog_L6BQhH"
   ]
 }

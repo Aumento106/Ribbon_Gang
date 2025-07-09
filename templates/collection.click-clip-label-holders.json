@@ -40,6 +40,17 @@
         "padding_bottom": 0
       }
     },
+    "section_breadcrumb_WYEyHJ": {
+      "type": "section-breadcrumb",
+      "name": "TF Breadcrumb",
+      "settings": {
+        "color_scheme": "",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "mobile_padding_top": 20,
+        "mobile_padding_bottom": 20
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "disabled": true,
@@ -855,20 +866,22 @@
         "configurations": ""
       }
     },
-    "section_breadcrumb_WYEyHJ": {
-      "type": "section-breadcrumb",
-      "name": "TF Breadcrumb",
+    "page_banner_qJF7iM": {
+      "type": "page-banner",
+      "name": "TF Page Banner",
       "settings": {
+        "title_alignment": "center",
+        "full_width": true,
+        "content_width": "full_width",
         "color_scheme": "",
-        "padding_top": 20,
-        "padding_bottom": 20,
-        "mobile_padding_top": 20,
-        "mobile_padding_bottom": 20
+        "padding_top": 30,
+        "padding_bottom": 30
       }
     }
   },
   "order": [
     "custom_page_banner_Dz7YQL",
+    "section_breadcrumb_WYEyHJ",
     "banner",
     "page_banner_BXQVUB",
     "page_banner_yDthVa",
@@ -885,6 +898,6 @@
     "multicolumn_video_7hERd9",
     "custom_multicolumn_WCpiaq",
     "dimension_table_GhDdM9",
-    "section_breadcrumb_WYEyHJ"
+    "page_banner_qJF7iM"
   ]
 }

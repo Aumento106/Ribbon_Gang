@@ -83,15 +83,15 @@
             "heading": "STERIRACK® Click ‘n’ Clip Label Holders",
             "custom_heading_size": 45,
             "mobile_custom_heading_size": 28,
-            "custom_font_weight": "400",
+            "custom_font_weight": "600",
             "heading_alignment": "center"
           }
         },
         "text_WeKnmh": {
           "type": "text",
           "settings": {
-            "text": "<p>Vastly improve the efficiency of your ward and implement best practice search and retrieval protocols using STERIRACK® Click ‘n’ Clip Coloured Label Holders.</p><ul><li>Now available for STERIRACK® System racking, shelving and baskets, as well as STERIRACK® Trolleys and Carts</li><li>An innovation brought to you by the SpaceLogic design team and inspired by feedback from our healthcare colleagues all over Australia</li><li>Innovative Click ‘n’ Clip Coloured Label Holders click together both vertically and horizontally, and clip to the front of STERIRACK® baskets and shelving</li><li>Use colour psychology to facilitate best practice categorisation and retrieval protocols, or simply colour co-ordinate to suit your decor</li><li>Available in 13 great colours</li><li>Post strips are also available in the same great colour range</li><li>Check out the videos below to see how hospitals are slashing the time their nurses spend hunting through storerooms</li><li>Label size: 80mmW x 40mmH. Label holders come with accompanying cardboard and plastic inserts.</li></ul>",
-            "text_alignment": "center"
+            "text": "<p>Vastly improve the efficiency of your ward and implement best practice search and retrieval protocols using STERIRACK® Click ‘n’ Clip Coloured Label Holders. An innovation brought to you by the SpaceLogic design team and inspired by feedback from our healthcare colleagues all over Australia.</p><ul><li>Click together both vertically and horizontally</li><li>Use colour psychology to facilitate best practice categorisation and retrieval protocols, or simply colour co-ordinate to suit your decor</li><li>Available in 13 great colours</li><li>Post strips available in the same great colour range</li></ul>",
+            "text_alignment": "left"
           }
         }
       },
@@ -168,6 +168,7 @@
         "column_PGaWWB",
         "column_KpVGbe"
       ],
+      "disabled": true,
       "name": "Custom multicolumn",
       "settings": {
         "page_container": "page-width",
@@ -495,6 +496,7 @@
         "heading_MiUyTH",
         "text_HpJ6Yz"
       ],
+      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "content_alignment": "center",
@@ -521,6 +523,7 @@
       "block_order": [
         "image_HzaGBz"
       ],
+      "disabled": true,
       "name": "Image with no text",
       "settings": {
         "page_container": "page-width",
@@ -611,18 +614,18 @@
       "name": "Multicolumn video",
       "settings": {
         "page_container": "page-width",
-        "title": "<h2>VIDEO - Slash time spent hunting through storerooms with colored label holders​</h2>",
-        "custom_heading_size": 45,
+        "title": "<h3>Slash time spent hunting through storerooms with coloured label holders​</h3>",
+        "custom_heading_size": 28,
         "mobile_custom_heading_size": 28,
-        "custom_font_weight": "400",
+        "custom_font_weight": "300",
         "title_alignment": "center",
         "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
         "columns_desktop": "3",
         "box_shadow": true,
         "box_auto_height1": true,
         "box_color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 60,
+        "padding_bottom": 60
       }
     },
     "custom_multicolumn_WCpiaq": {
@@ -657,6 +660,7 @@
         "column_zYfLBn",
         "column_Gpyxrq"
       ],
+      "disabled": true,
       "name": "Custom multicolumn",
       "settings": {
         "page_container": "page-width",
@@ -830,6 +834,7 @@
         "row_pK8ycK",
         "row_FYwyHk"
       ],
+      "disabled": true,
       "name": "dimension-table",
       "settings": {
         "description": "Color",

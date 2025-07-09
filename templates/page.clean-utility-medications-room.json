@@ -188,6 +188,18 @@
         "mobile_padding_top": 20,
         "mobile_padding_bottom": 20
       }
+    },
+    "page_banner_iFJ7BP": {
+      "type": "page-banner",
+      "name": "TF Page Banner",
+      "settings": {
+        "title_alignment": "center",
+        "full_width": true,
+        "content_width": "full_width",
+        "color_scheme": "",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
     }
   },
   "order": [
@@ -198,6 +210,7 @@
     "application_list_Uf6gg7",
     "product_catalog_3QUeXT",
     "custom_page_banner_QnUe9R",
-    "section_breadcrumb_U66dwV"
+    "section_breadcrumb_U66dwV",
+    "page_banner_iFJ7BP"
   ]
 }

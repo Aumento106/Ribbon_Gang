@@ -18,38 +18,89 @@
         "padding_bottom": 28
       }
     },
-    "page_banner_3PRnKf": {
-      "type": "page-banner",
+    "custom_page_banner_xXMNmz": {
+      "type": "custom-page-banner",
       "blocks": {
-        "image_7eRJ34": {
-          "type": "image",
+        "slide_r6ffxk": {
+          "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/2.jpg",
-            "border_radius": false,
-            "image_height": "small"
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image_overlay_opacity": 0
+          }
+        },
+        "slide_jPzdwU": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/winding-road-covered-in-autumn-trees.jpg",
+            "image_overlay_opacity": 0
           }
         }
       },
       "block_order": [
-        "image_7eRJ34"
+        "slide_r6ffxk",
+        "slide_jPzdwU"
       ],
+      "name": "TF Custom Page Slideshow",
       "settings": {
-        "title_alignment": "center",
-        "full_width": true,
-        "content_width": "full_width",
-        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "layout": "full_bleed",
+        "slide_height": "large",
+        "image_behavior": "none",
         "padding_top": 0,
         "padding_bottom": 0
       }
     },
-    "section_breadcrumb_XKT77B": {
+    "page_banner_pqmRJx": {
+      "type": "page-banner",
+      "blocks": {
+        "heading_x4qgnN": {
+          "type": "heading",
+          "settings": {
+            "heading": "Pharmacy storage and dispensary",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "600",
+            "heading_alignment": "center"
+          }
+        },
+        "caption_fyNTNU": {
+          "type": "caption",
+          "settings": {
+            "caption": "<p>Add caption here</p>",
+            "caption_alignment": "center"
+          }
+        },
+        "text_mkE9H3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your page information.</p>",
+            "text_alignment": "left"
+          }
+        }
+      },
+      "block_order": [
+        "heading_x4qgnN",
+        "caption_fyNTNU",
+        "text_mkE9H3"
+      ],
+      "name": "TF Page Banner",
+      "settings": {
+        "title_alignment": "center",
+        "full_width": true,
+        "content_width": "full_width",
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "padding_top": 80,
+        "padding_bottom": 40
+      }
+    },
+    "section_breadcrumb_WLfUde": {
       "type": "section-breadcrumb",
+      "name": "TF Breadcrumb",
       "settings": {
         "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 30,
-        "mobile_padding_top": 30,
-        "mobile_padding_bottom": 30
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "mobile_padding_top": 20,
+        "mobile_padding_bottom": 20
       }
     },
     "page_banner_W3aXJm": {
@@ -129,68 +180,14 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
-    },
-    "custom_page_banner_xXMNmz": {
-      "type": "custom-page-banner",
-      "blocks": {
-        "slide_r6ffxk": {
-          "type": "slide",
-          "settings": {
-            "image_overlay_opacity": 0
-          }
-        },
-        "slide_jPzdwU": {
-          "type": "slide",
-          "settings": {
-            "image_overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "slide_r6ffxk",
-        "slide_jPzdwU"
-      ],
-      "name": "TF Custom Page Slideshow",
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "medium",
-        "image_behavior": "none",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "page_banner_pqmRJx": {
-      "type": "page-banner",
-      "name": "TF Page Banner",
-      "settings": {
-        "title_alignment": "center",
-        "full_width": true,
-        "content_width": "full_width",
-        "color_scheme": "",
-        "padding_top": 30,
-        "padding_bottom": 30
-      }
-    },
-    "section_breadcrumb_WLfUde": {
-      "type": "section-breadcrumb",
-      "name": "TF Breadcrumb",
-      "settings": {
-        "color_scheme": "",
-        "padding_top": 20,
-        "padding_bottom": 20,
-        "mobile_padding_top": 20,
-        "mobile_padding_bottom": 20
-      }
     }
   },
   "order": [
     "main",
-    "page_banner_3PRnKf",
-    "section_breadcrumb_XKT77B",
-    "page_banner_W3aXJm",
-    "product_catalog_XB68mf",
     "custom_page_banner_xXMNmz",
     "page_banner_pqmRJx",
-    "section_breadcrumb_WLfUde"
+    "section_breadcrumb_WLfUde",
+    "page_banner_W3aXJm",
+    "product_catalog_XB68mf"
   ]
 }

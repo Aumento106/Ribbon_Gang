@@ -132,7 +132,7 @@
         "application_item_tFPwi8": {
           "type": "application_item",
           "settings": {
-            "heading": "<p><strong>Clean utility presentation - Wagga Wagga Hospital</strong></p>",
+            "heading": "<p><strong>Wagga Wagga Hospital</strong></p>",
             "heading_size": "h2",
             "heading_alignment": "center",
             "catalog_url": "https://online.flippingbook.com/view/159525198/"
@@ -153,7 +153,7 @@
         "application_item_rneMRa"
       ],
       "settings": {
-        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
         "padding_top": 60,
         "padding_bottom": 60
       }

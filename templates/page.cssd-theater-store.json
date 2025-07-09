@@ -72,7 +72,7 @@
         "text_i7iMF6": {
           "type": "text",
           "settings": {
-            "text": "<p>If you work in healthcare you already know about AS4187, and that sterile consumables must be handled and stored in a manner that maintains the integrity of packs and prevents contamination from any source of dust, vermin, sunlight, water and condensation. This is where our gold standard STERIRACK® System comes into its own! Designed and manufactured in Australia by SpaceLogic, STERIRACK® System is the complete modular consumables storage solution that can be configured in myriad ways to suit your space and application while exceeding AS4187 compliance.</p>",
+            "text": "<p>If you work in healthcare you already know about AS4187, and that sterile consumables must be handled and stored in a manner that maintains the integrity of packs and prevents contamination from any source of dust, vermin, sunlight, water and condensation. This is where our gold standard STERIRACK® System comes into its own! Designed and manufactured in Australia by SpaceLogic, STERIRACK® System is the complete modular consumables storage solution that can be configured in myriad ways to suit your space and application while exceeding AS4187 compliance.</p><p>Please feel welcome to use the presentation below to introduce your team to this concept, and do not hesitate to contact a SpaceLogic project consultant if you have any further questions, or would like to book in for a consultation.</p>",
             "text_alignment": "left"
           }
         }
@@ -143,7 +143,7 @@
         "application_item_DqPWKh"
       ],
       "settings": {
-        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
         "padding_top": 36,
         "padding_bottom": 72
       }

@@ -40,6 +40,49 @@
         "padding_bottom": 0
       }
     },
+    "page_banner_qJF7iM": {
+      "type": "page-banner",
+      "blocks": {
+        "heading_ChL4rY": {
+          "type": "heading",
+          "settings": {
+            "heading": "STERIRACK® Click ‘n’ Clip Label Holders",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "600",
+            "heading_alignment": "center"
+          }
+        },
+        "caption_eTkKgq": {
+          "type": "caption",
+          "settings": {
+            "caption": "<p>Add caption here</p>",
+            "caption_alignment": "center"
+          }
+        },
+        "text_d8PdMm": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Vastly improve the efficiency of your ward and implement best practice search and retrieval protocols using STERIRACK® Click ‘n’ Clip Coloured Label Holders. An innovation brought to you by the SpaceLogic design team and inspired by feedback from our healthcare colleagues all over Australia.</p><ul><li>Click together both vertically and horizontally</li><li>Use colour psychology to facilitate best practice categorisation and retrieval protocols, or simply colour co-ordinate to suit your decor</li><li>Available in 13 great colours</li><li>Post strips available in the same great colour range</li></ul>",
+            "text_alignment": "left"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ChL4rY",
+        "caption_eTkKgq",
+        "text_d8PdMm"
+      ],
+      "name": "TF Page Banner",
+      "settings": {
+        "title_alignment": "center",
+        "full_width": true,
+        "content_width": "full_width",
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "padding_top": 80,
+        "padding_bottom": 30
+      }
+    },
     "section_breadcrumb_WYEyHJ": {
       "type": "section-breadcrumb",
       "name": "TF Breadcrumb",
@@ -865,22 +908,11 @@
         "dimensions_inch": "Post Strip",
         "configurations": ""
       }
-    },
-    "page_banner_qJF7iM": {
-      "type": "page-banner",
-      "name": "TF Page Banner",
-      "settings": {
-        "title_alignment": "center",
-        "full_width": true,
-        "content_width": "full_width",
-        "color_scheme": "",
-        "padding_top": 30,
-        "padding_bottom": 30
-      }
     }
   },
   "order": [
     "custom_page_banner_Dz7YQL",
+    "page_banner_qJF7iM",
     "section_breadcrumb_WYEyHJ",
     "banner",
     "page_banner_BXQVUB",
@@ -897,7 +929,6 @@
     "image_with_no_text_rpXw36",
     "multicolumn_video_7hERd9",
     "custom_multicolumn_WCpiaq",
-    "dimension_table_GhDdM9",
-    "page_banner_qJF7iM"
+    "dimension_table_GhDdM9"
   ]
 }

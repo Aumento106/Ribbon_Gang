@@ -18,6 +18,37 @@
         "padding_bottom": 28
       }
     },
+    "custom_page_banner_4yqM4n": {
+      "type": "custom-page-banner",
+      "blocks": {
+        "slide_R6aWdC": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image_overlay_opacity": 0
+          }
+        },
+        "slide_rWwcY8": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/winding-road-covered-in-autumn-trees.jpg",
+            "image_overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "slide_R6aWdC",
+        "slide_rWwcY8"
+      ],
+      "name": "TF Custom Page Slideshow",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "large",
+        "image_behavior": "none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "page_banner_retx9C": {
       "type": "page-banner",
       "blocks": {
@@ -131,45 +162,26 @@
         "padding_bottom": 20
       }
     },
-    "custom_page_banner_4yqM4n": {
-      "type": "custom-page-banner",
-      "blocks": {
-        "slide_R6aWdC": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
-            "image_overlay_opacity": 0
-          }
-        },
-        "slide_rWwcY8": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/winding-road-covered-in-autumn-trees.jpg",
-            "image_overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "slide_R6aWdC",
-        "slide_rWwcY8"
-      ],
-      "name": "TF Custom Page Slideshow",
+    "section_breadcrumb_WGNXRX": {
+      "type": "section-breadcrumb",
+      "name": "TF Breadcrumb",
       "settings": {
-        "layout": "full_bleed",
-        "slide_height": "large",
-        "image_behavior": "none",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "color_scheme": "",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "mobile_padding_top": 20,
+        "mobile_padding_bottom": 20
       }
     }
   },
   "order": [
     "main",
+    "custom_page_banner_4yqM4n",
     "page_banner_retx9C",
     "section_breadcrumb_WqJecP",
     "page_banner_D8HBxJ",
     "application_list_GJhrcm",
     "product_catalog_cEjzp9",
-    "custom_page_banner_4yqM4n"
+    "section_breadcrumb_WGNXRX"
   ]
 }

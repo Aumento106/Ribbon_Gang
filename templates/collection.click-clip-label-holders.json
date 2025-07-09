@@ -80,7 +80,7 @@
         "content_width": "full_width",
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "padding_top": 80,
-        "padding_bottom": 30
+        "padding_bottom": 40
       }
     },
     "section_breadcrumb_WYEyHJ": {
@@ -137,40 +137,6 @@
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "padding_top": 0,
         "padding_bottom": 0
-      }
-    },
-    "page_banner_yDthVa": {
-      "type": "page-banner",
-      "blocks": {
-        "heading_bBTm9d": {
-          "type": "heading",
-          "settings": {
-            "heading": "STERIRACK® Click ‘n’ Clip Label Holders",
-            "custom_heading_size": 45,
-            "mobile_custom_heading_size": 28,
-            "custom_font_weight": "600",
-            "heading_alignment": "center"
-          }
-        },
-        "text_WeKnmh": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Vastly improve the efficiency of your ward and implement best practice search and retrieval protocols using STERIRACK® Click ‘n’ Clip Coloured Label Holders. An innovation brought to you by the SpaceLogic design team and inspired by feedback from our healthcare colleagues all over Australia.</p><ul><li>Click together both vertically and horizontally</li><li>Use colour psychology to facilitate best practice categorisation and retrieval protocols, or simply colour co-ordinate to suit your decor</li><li>Available in 13 great colours</li><li>Post strips available in the same great colour range</li></ul>",
-            "text_alignment": "left"
-          }
-        }
-      },
-      "block_order": [
-        "heading_bBTm9d",
-        "text_WeKnmh"
-      ],
-      "settings": {
-        "title_alignment": "center",
-        "full_width": true,
-        "content_width": "full_width",
-        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "padding_top": 30,
-        "padding_bottom": 72
       }
     },
     "product-grid": {
@@ -916,7 +882,6 @@
     "section_breadcrumb_WYEyHJ",
     "banner",
     "page_banner_BXQVUB",
-    "page_banner_yDthVa",
     "product-grid",
     "custom_multicolumn_FnhV9g",
     "product_catalog_xdFqLr",

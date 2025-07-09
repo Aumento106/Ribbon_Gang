@@ -132,7 +132,7 @@
         "application_item_tFPwi8": {
           "type": "application_item",
           "settings": {
-            "heading": "<p>Clean utility presentation - Wagga Wagga Hospital</p>",
+            "heading": "<p><strong>Clean utility presentation - Wagga Wagga Hospital</strong></p>",
             "heading_size": "h2",
             "heading_alignment": "center",
             "catalog_url": "https://online.flippingbook.com/view/159525198/"
@@ -141,7 +141,7 @@
         "application_item_rneMRa": {
           "type": "application_item",
           "settings": {
-            "heading": "<p>Clean utility presentation - Goulburn Hospital</p>",
+            "heading": "<p><strong>Clean utility presentation - Goulburn Hospital</strong></p>",
             "heading_size": "h2",
             "heading_alignment": "center",
             "catalog_url": "https://online.flippingbook.com/view/712221459/"

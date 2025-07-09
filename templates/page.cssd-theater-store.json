@@ -112,7 +112,7 @@
           "settings": {
             "heading": "<p><strong>Orange Private Hospital</strong></p>",
             "heading_size": "h2",
-            "heading_alignment": "left",
+            "heading_alignment": "center",
             "catalog_url": "https://online.flippingbook.com/view/1031758163/"
           }
         }

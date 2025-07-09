@@ -9,6 +9,37 @@
  */
 {
   "sections": {
+    "custom_page_banner_Dz7YQL": {
+      "type": "custom-page-banner",
+      "blocks": {
+        "slide_eLpjHQ": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image_overlay_opacity": 0
+          }
+        },
+        "slide_CRxi9g": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/winding-road-covered-in-autumn-trees.jpg",
+            "image_overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "slide_eLpjHQ",
+        "slide_CRxi9g"
+      ],
+      "name": "TF Custom Page Slideshow",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "large",
+        "image_behavior": "none",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "disabled": true,
@@ -39,20 +70,11 @@
             "text": "<p>Vastly improve the efficiency of your ward and implement best practice search and retrieval protocols using STERIRACK® Click ‘n’ Clip Coloured Label Holders.</p><ul><li>Now available for STERIRACK® System racking, shelving and baskets, as well as STERIRACK® Trolleys and Carts</li><li>An innovation brought to you by the SpaceLogic design team and inspired by feedback from our healthcare colleagues all over Australia</li><li>Innovative Click ‘n’ Clip Coloured Label Holders click together both vertically and horizontally, and clip to the front of STERIRACK® baskets and shelving</li><li>Use colour psychology to facilitate best practice categorisation and retrieval protocols, or simply colour co-ordinate to suit your decor</li><li>Available in 13 great colours</li><li>Post strips are also available in the same great colour range</li><li>Check out the videos below to see how hospitals are slashing the time their nurses spend hunting through storerooms</li><li>Label size: 80mmW x 40mmH. Label holders come with accompanying cardboard and plastic inserts.</li></ul>",
             "text_alignment": "center"
           }
-        },
-        "image_kMQRQH": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/01-workstations-1536x922.jpg",
-            "border_radius": false,
-            "image_height": "small"
-          }
         }
       },
       "block_order": [
         "heading_nhBt8y",
-        "text_G6e3Nj",
-        "image_kMQRQH"
+        "text_G6e3Nj"
       ],
       "settings": {
         "title_alignment": "center",
@@ -846,6 +868,7 @@
     }
   },
   "order": [
+    "custom_page_banner_Dz7YQL",
     "banner",
     "page_banner_BXQVUB",
     "section_breadcrumb_nmUW87",

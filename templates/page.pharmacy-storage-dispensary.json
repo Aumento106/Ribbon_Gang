@@ -109,11 +109,11 @@
         "row_7UXHnL": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
-            "button_link": ""
+            "caption": "SUB HEADING HERE",
+            "heading": "Heading here",
+            "text": "<p>Engineered for medication storage, our perforated drawers feature self-retracting mechanisms, internal dividers, and optional colour-coded labelling - maximising visibility and control in high-demand pharmacy environments.</p>",
+            "button_label": "Explore STERIRACK® Pharmacy Drawers",
+            "button_link": "shopify://pages/pharmacy-drawers"
           }
         },
         "row_hMg7BR": {
@@ -152,7 +152,7 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "image_layout": "alternate-left",
-        "section_color_scheme": "",
+        "section_color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
         "row_color_scheme": "",
         "mobile_content_alignment": "left",
         "padding_top": 36,
@@ -165,7 +165,7 @@
         "text_yEpLht": {
           "type": "text",
           "settings": {
-            "text": "<p>Engineered for medication storage, our perforated drawers feature self-retracting mechanisms, internal dividers, and optional colour-coded labelling - maximising visibility and control in high-demand pharmacy environments.<br/></p>",
+            "text": "<p>Engineered for medication storage, our perforated drawers feature self-retracting mechanisms, internal dividers, and optional colour-coded labelling - maximising visibility and control in high-demand pharmacy environments.</p>",
             "text_alignment": "left"
           }
         },

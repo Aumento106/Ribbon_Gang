@@ -72,7 +72,7 @@
         "text_mkE9H3": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your page information.</p>",
+            "text": "<p>Streamline your pharmacy workflow with modular, hygienic, and fully compliant storage solutions from the STERIRACK® System. Whether you’re managing bulk stock or daily dispensing, our pharmacy configurations offer seamless organisation, easy labelling, and smooth retrieval - reducing search time and improving patient care. Designed to integrate with our colour-coded pharmacy drawers, baskets, and shelf dividers, SpaceLogic’s pharmacy solutions help eliminate expired stock and create smarter, safer storage environments.</p>",
             "text_alignment": "left"
           }
         }
@@ -103,30 +103,76 @@
         "mobile_padding_bottom": 20
       }
     },
+    "multirow_UqFcL3": {
+      "type": "multirow",
+      "blocks": {
+        "row_7UXHnL": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_hMg7BR": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_HNj63z": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_7UXHnL",
+        "row_hMg7BR",
+        "row_HNj63z"
+      ],
+      "name": "TF Pharmacy Drawers",
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "page_banner_W3aXJm": {
       "type": "page-banner",
       "blocks": {
-        "heading_TfU8qq": {
-          "type": "heading",
-          "settings": {
-            "heading": "Pharmacy storage and dispensary",
-            "custom_heading_size": 52,
-            "mobile_custom_heading_size": 28,
-            "custom_font_weight": "400",
-            "heading_alignment": "center"
-          }
-        },
-        "text_wg3Ymh": {
+        "text_yEpLht": {
           "type": "text",
           "settings": {
-            "text": "<p>Streamline your pharmacy workflow with modular, hygienic, and fully compliant storage solutions from the STERIRACK® System. Whether you’re managing bulk stock or daily dispensing, our pharmacy configurations offer seamless organisation, easy labelling, and smooth retrieval - reducing search time and improving patient care. Designed to integrate with our colour-coded pharmacy drawers, baskets, and shelf dividers, SpaceLogic’s pharmacy solutions help eliminate expired stock and create smarter, safer storage environments.</p>",
+            "text": "<p>Engineered for medication storage, our perforated drawers feature self-retracting mechanisms, internal dividers, and optional colour-coded labelling - maximising visibility and control in high-demand pharmacy environments.<br/></p>",
             "text_alignment": "left"
           }
         },
         "button_VKUpYr": {
           "type": "button",
           "settings": {
-            "button_label": "Explore our STERIRACK® Pharmacy Drawers",
+            "button_label": "Explore STERIRACK® Pharmacy Drawers",
             "button_link": "shopify://pages/pharmacy-drawers",
             "button_style_secondary": false,
             "button_label_2": "",
@@ -134,28 +180,19 @@
             "button_style_secondary_2": false,
             "button_alignment": "center"
           }
-        },
-        "text_yEpLht": {
-          "type": "text",
-          "settings": {
-            "text": "<p><br/>Engineered for medication storage, our perforated drawers feature self-retracting mechanisms, internal dividers, and optional colour-coded labelling - maximising visibility and control in high-demand pharmacy environments.<br/><br/></p>",
-            "text_alignment": "left"
-          }
         }
       },
       "block_order": [
-        "heading_TfU8qq",
-        "text_wg3Ymh",
-        "button_VKUpYr",
-        "text_yEpLht"
+        "text_yEpLht",
+        "button_VKUpYr"
       ],
       "settings": {
         "title_alignment": "center",
         "full_width": true,
         "content_width": "full_width",
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "padding_top": 0,
-        "padding_bottom": 36
+        "padding_top": 80,
+        "padding_bottom": 80
       }
     },
     "product_catalog_XB68mf": {
@@ -187,6 +224,7 @@
     "custom_page_banner_xXMNmz",
     "page_banner_pqmRJx",
     "section_breadcrumb_WLfUde",
+    "multirow_UqFcL3",
     "page_banner_W3aXJm",
     "product_catalog_XB68mf"
   ]

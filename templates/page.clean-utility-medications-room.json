@@ -63,7 +63,7 @@
         "text_PKcLKC": {
           "type": "text",
           "settings": {
-            "text": "<p>Timber joinery and cabinetry is no longer viable for storage applications for clinical and non-clinical consumables and medications storage.nSTERIRACK® System by SpaceLogic is the perfect solution for fit-outs and replacements in clean utilities or medications rooms.</p>",
+            "text": "<p>Timber joinery and cabinetry is no longer viable for storage applications for clinical and non-clinical consumables and medications storage.nSTERIRACK® System by SpaceLogic is the perfect solution for fit-outs and replacements in clean utilities or medications rooms.</p><p>See the clean utility presentations below which include information and photos of recent installations, as well as video and photorealistic images of example room layouts. Keep in mind that we can create a clean utility design to suit any room dimensions, and configure your STERIRACK® System with baskets, shelving and accessories to suit your own requirements.</p>",
             "text_alignment": "left"
           }
         }
@@ -85,6 +85,7 @@
     },
     "section_breadcrumb_U66dwV": {
       "type": "section-breadcrumb",
+      "disabled": true,
       "name": "TF Breadcrumb",
       "settings": {
         "color_scheme": "",
@@ -101,29 +102,6 @@
         "color_scheme": "",
         "padding_top": 28,
         "padding_bottom": 28
-      }
-    },
-    "page_banner_V7X6Vq": {
-      "type": "page-banner",
-      "blocks": {
-        "text_GaDFJt": {
-          "type": "text",
-          "settings": {
-            "text": "<p>See the clean utility presentations below which include information and photos of recent installations, as well as video and photorealistic images of example room layouts. Keep in mind that we can create a clean utility design to suit any room dimensions, and configure your STERIRACK® System with baskets, shelving and accessories to suit your own requirements.</p><p>Please feel welcome to use the presentations on Wagga Wagga and Goulburn Hospitals to introduce your team to the STERIRACK® concept. Don’t hesitate to contact a SpaceLogic project consultant if you have any further questions, or would like to book in for a consultation.</p>",
-            "text_alignment": "left"
-          }
-        }
-      },
-      "block_order": [
-        "text_GaDFJt"
-      ],
-      "settings": {
-        "title_alignment": "center",
-        "full_width": true,
-        "content_width": "full_width",
-        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "padding_top": 30,
-        "padding_bottom": 36
       }
     },
     "application_list_Uf6gg7": {
@@ -187,7 +165,6 @@
     "page_banner_iFJ7BP",
     "section_breadcrumb_U66dwV",
     "main",
-    "page_banner_V7X6Vq",
     "application_list_Uf6gg7",
     "product_catalog_3QUeXT"
   ]

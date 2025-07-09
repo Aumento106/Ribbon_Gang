@@ -129,6 +129,58 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
+    },
+    "custom_page_banner_xXMNmz": {
+      "type": "custom-page-banner",
+      "blocks": {
+        "slide_r6ffxk": {
+          "type": "slide",
+          "settings": {
+            "image_overlay_opacity": 0
+          }
+        },
+        "slide_jPzdwU": {
+          "type": "slide",
+          "settings": {
+            "image_overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "slide_r6ffxk",
+        "slide_jPzdwU"
+      ],
+      "name": "TF Custom Page Slideshow",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "image_behavior": "none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "page_banner_pqmRJx": {
+      "type": "page-banner",
+      "name": "TF Page Banner",
+      "settings": {
+        "title_alignment": "center",
+        "full_width": true,
+        "content_width": "full_width",
+        "color_scheme": "",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section_breadcrumb_WLfUde": {
+      "type": "section-breadcrumb",
+      "name": "TF Breadcrumb",
+      "settings": {
+        "color_scheme": "",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "mobile_padding_top": 20,
+        "mobile_padding_bottom": 20
+      }
     }
   },
   "order": [
@@ -136,6 +188,9 @@
     "page_banner_3PRnKf",
     "section_breadcrumb_XKT77B",
     "page_banner_W3aXJm",
-    "product_catalog_XB68mf"
+    "product_catalog_XB68mf",
+    "custom_page_banner_xXMNmz",
+    "page_banner_pqmRJx",
+    "section_breadcrumb_WLfUde"
   ]
 }

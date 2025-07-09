@@ -37,7 +37,7 @@
         "slide_height": "large",
         "image_behavior": "none",
         "padding_top": 0,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
     "banner": {
@@ -83,17 +83,6 @@
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "padding_top": 0,
         "padding_bottom": 0
-      }
-    },
-    "section_breadcrumb_nmUW87": {
-      "type": "section-breadcrumb",
-      "name": "Breadcrumb",
-      "settings": {
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 30,
-        "mobile_padding_top": 30,
-        "mobile_padding_bottom": 30
       }
     },
     "page_banner_yDthVa": {
@@ -865,13 +854,23 @@
         "dimensions_inch": "Post Strip",
         "configurations": ""
       }
+    },
+    "section_breadcrumb_WYEyHJ": {
+      "type": "section-breadcrumb",
+      "name": "TF Breadcrumb",
+      "settings": {
+        "color_scheme": "",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "mobile_padding_top": 20,
+        "mobile_padding_bottom": 20
+      }
     }
   },
   "order": [
     "custom_page_banner_Dz7YQL",
     "banner",
     "page_banner_BXQVUB",
-    "section_breadcrumb_nmUW87",
     "page_banner_yDthVa",
     "product-grid",
     "custom_multicolumn_FnhV9g",
@@ -885,6 +884,7 @@
     "image_with_no_text_rpXw36",
     "multicolumn_video_7hERd9",
     "custom_multicolumn_WCpiaq",
-    "dimension_table_GhDdM9"
+    "dimension_table_GhDdM9",
+    "section_breadcrumb_WYEyHJ"
   ]
 }

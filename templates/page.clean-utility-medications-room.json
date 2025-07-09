@@ -15,12 +15,14 @@
         "slide_UVFEyV": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
             "image_overlay_opacity": 0
           }
         },
         "slide_DkWCwb": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/winding-road-covered-in-autumn-trees.jpg",
             "image_overlay_opacity": 0
           }
         }
@@ -44,7 +46,7 @@
         "heading_hyMihJ": {
           "type": "heading",
           "settings": {
-            "heading": "Banner Title",
+            "heading": "Clean utility and medications room",
             "custom_heading_size": 52,
             "mobile_custom_heading_size": 28,
             "custom_font_weight": "600",
@@ -54,14 +56,14 @@
         "caption_3GKmgE": {
           "type": "caption",
           "settings": {
-            "caption": "<p>Add caption here</p>",
+            "caption": "<p>Timber joinery is a thing of the past!</p>",
             "caption_alignment": "center"
           }
         },
         "text_PKcLKC": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your page information.</p>",
+            "text": "<p>Timber joinery and cabinetry is no longer viable for storage applications for clinical and non-clinical consumables and medications storage.nSTERIRACK® System by SpaceLogic is the perfect solution for fit-outs and replacements in clean utilities or medications rooms.</p>",
             "text_alignment": "left"
           }
         }
@@ -104,34 +106,15 @@
     "page_banner_V7X6Vq": {
       "type": "page-banner",
       "blocks": {
-        "heading_9Y9VYH": {
-          "type": "heading",
-          "settings": {
-            "heading": "Clean utility and medications room",
-            "custom_heading_size": 52,
-            "mobile_custom_heading_size": 28,
-            "custom_font_weight": "400",
-            "heading_alignment": "center"
-          }
-        },
-        "caption_UQa9yM": {
-          "type": "caption",
-          "settings": {
-            "caption": "<p>Timber joinery is a thing of the past!</p>",
-            "caption_alignment": "center"
-          }
-        },
         "text_GaDFJt": {
           "type": "text",
           "settings": {
-            "text": "<p>Timber joinery and cabinetry is no longer viable for storage applications for clinical and non-clinical consumables and medications storage. STERIRACK® System by SpaceLogic is the perfect solution for fit-outs and replacements in clean utilities or medications rooms.</p><p>See the clean utility presentations below which include information and photos of recent installations, as well as video and photorealistic images of example room layouts. Keep in mind that we can create a clean utility design to suit any room dimensions, and configure your STERIRACK® System with baskets, shelving and accessories to suit your own requirements.</p><p>Please feel welcome to use the presentations on Wagga Wagga and Goulburn hospitals to introduce your team to the STERIRACK® concept. Don’t hesitate to contact a SpaceLogic project consultant if you have any further questions, or would like to book in for a consultation.</p>",
+            "text": "<p>See the clean utility presentations below which include information and photos of recent installations, as well as video and photorealistic images of example room layouts. Keep in mind that we can create a clean utility design to suit any room dimensions, and configure your STERIRACK® System with baskets, shelving and accessories to suit your own requirements.</p><p>Please feel welcome to use the presentations on Wagga Wagga and Goulburn Hospitals to introduce your team to the STERIRACK® concept. Don’t hesitate to contact a SpaceLogic project consultant if you have any further questions, or would like to book in for a consultation.</p>",
             "text_alignment": "left"
           }
         }
       },
       "block_order": [
-        "heading_9Y9VYH",
-        "caption_UQa9yM",
         "text_GaDFJt"
       ],
       "settings": {
@@ -149,8 +132,8 @@
         "application_item_tFPwi8": {
           "type": "application_item",
           "settings": {
-            "heading": "<p>Clean utility presentation - Wagga Wagga hospital</p>",
-            "heading_size": "h1",
+            "heading": "<p>Clean utility presentation - Wagga Wagga Hospital</p>",
+            "heading_size": "h2",
             "heading_alignment": "center",
             "catalog_url": "https://online.flippingbook.com/view/159525198/"
           }
@@ -158,8 +141,8 @@
         "application_item_rneMRa": {
           "type": "application_item",
           "settings": {
-            "heading": "<p>Goulburn hospital presentation</p>",
-            "heading_size": "h1",
+            "heading": "<p>Clean utility presentation - Goulburn Hospital</p>",
+            "heading_size": "h2",
             "heading_alignment": "center",
             "catalog_url": "https://online.flippingbook.com/view/712221459/"
           }
@@ -171,7 +154,7 @@
       ],
       "settings": {
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "padding_top": 36,
+        "padding_top": 60,
         "padding_bottom": 72
       }
     },

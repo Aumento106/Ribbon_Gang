@@ -92,8 +92,8 @@
         "application_item_DqPWKh": {
           "type": "application_item",
           "settings": {
-            "heading": "<p>CSSD and theatre store presentation</p>",
-            "heading_size": "h1",
+            "heading": "<p><strong>CSSD and theatre store presentation - Orange Private Hospital</strong></p>",
+            "heading_size": "h2",
             "heading_alignment": "center",
             "catalog_url": "https://online.flippingbook.com/view/1031758163/"
           }

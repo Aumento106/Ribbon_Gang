@@ -94,6 +94,7 @@
     },
     "section_breadcrumb_WGNXRX": {
       "type": "section-breadcrumb",
+      "disabled": true,
       "name": "TF Breadcrumb",
       "settings": {
         "color_scheme": "",
@@ -101,29 +102,6 @@
         "padding_bottom": 20,
         "mobile_padding_top": 20,
         "mobile_padding_bottom": 20
-      }
-    },
-    "page_banner_D8HBxJ": {
-      "type": "page-banner",
-      "blocks": {
-        "text_HHgDEE": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Please feel welcome to use the presentation below to introduce your team to this concept, and do not hesitate to contact a SpaceLogic project consultant if you have any further questions, or would like to book in for a consultation.</p>",
-            "text_alignment": "left"
-          }
-        }
-      },
-      "block_order": [
-        "text_HHgDEE"
-      ],
-      "settings": {
-        "title_alignment": "center",
-        "full_width": true,
-        "content_width": "full_width",
-        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "padding_top": 40,
-        "padding_bottom": 40
       }
     },
     "application_list_GJhrcm": {
@@ -177,7 +155,6 @@
     "custom_page_banner_4yqM4n",
     "page_banner_zyQ7aj",
     "section_breadcrumb_WGNXRX",
-    "page_banner_D8HBxJ",
     "application_list_GJhrcm",
     "product_catalog_cEjzp9"
   ]

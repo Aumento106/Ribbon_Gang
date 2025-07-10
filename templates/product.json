@@ -15,12 +15,14 @@
         "slide_E9NVL6": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
             "image_overlay_opacity": 0
           }
         },
         "slide_hGYB9A": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/winding-road-covered-in-autumn-trees.jpg",
             "image_overlay_opacity": 0
           }
         }
@@ -30,79 +32,6 @@
         "slide_hGYB9A"
       ],
       "name": "TF Custom Page Slideshow",
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "medium",
-        "image_behavior": "none",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "custom_page_banner_dHyyAj": {
-      "type": "custom-page-banner",
-      "blocks": {
-        "slide_mfK3hU": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Group_1171277884.png",
-            "image_overlay_opacity": 0
-          }
-        },
-        "slide_XDeMCn": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Group_1171277884.png",
-            "image_overlay_opacity": 0
-          }
-        },
-        "slide_GKDFbj": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Group_1171277884.png",
-            "image_overlay_opacity": 0
-          }
-        },
-        "slide_Tw3D9X": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Group_1171277884.png",
-            "image_overlay_opacity": 0
-          }
-        },
-        "slide_tKPUCL": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Group_1171277884.png",
-            "image_overlay_opacity": 0
-          }
-        },
-        "slide_Bhpywf": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Group_1171277884.png",
-            "image_overlay_opacity": 0
-          }
-        },
-        "slide_7zbnVp": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Group_1171277884.png",
-            "image_overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "slide_mfK3hU",
-        "slide_XDeMCn",
-        "slide_GKDFbj",
-        "slide_Tw3D9X",
-        "slide_tKPUCL",
-        "slide_Bhpywf",
-        "slide_7zbnVp"
-      ],
       "settings": {
         "layout": "full_bleed",
         "slide_height": "small",
@@ -1016,7 +945,6 @@
   },
   "order": [
     "custom_page_banner_k3ABdf",
-    "custom_page_banner_dHyyAj",
     "section_breadcrumb_JneyLg",
     "main",
     "rich_text_dwzN8N",

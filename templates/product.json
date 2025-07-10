@@ -9,6 +9,35 @@
  */
 {
   "sections": {
+    "custom_page_banner_k3ABdf": {
+      "type": "custom-page-banner",
+      "blocks": {
+        "slide_E9NVL6": {
+          "type": "slide",
+          "settings": {
+            "image_overlay_opacity": 0
+          }
+        },
+        "slide_hGYB9A": {
+          "type": "slide",
+          "settings": {
+            "image_overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "slide_E9NVL6",
+        "slide_hGYB9A"
+      ],
+      "name": "TF Custom Page Slideshow",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "image_behavior": "none",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "custom_page_banner_dHyyAj": {
       "type": "custom-page-banner",
       "blocks": {
@@ -351,7 +380,8 @@
           "settings": {
             "heading": "Transport Case Cart <strong>Details</strong>",
             "custom_heading_size": 52,
-            "mobile_custom_heading_size": 28
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
           }
         }
       },
@@ -378,7 +408,8 @@
           "settings": {
             "heading": "Superior Strength and Durability",
             "custom_heading_size": 52,
-            "mobile_custom_heading_size": 28
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
           }
         },
         "text_XWWeWi": {
@@ -407,7 +438,8 @@
         "image": "shopify://shop_images/superior-strength-and-durability.png",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "full_width": false,
+        "container_size": "page-width",
+        "both_image_content_size": false,
         "video_url": "",
         "enable_video_looping": false,
         "layout": "image_first",
@@ -430,7 +462,8 @@
           "settings": {
             "heading": "Identification and labeling",
             "custom_heading_size": 52,
-            "mobile_custom_heading_size": 28
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
           }
         },
         "text_FYk9bD": {
@@ -459,7 +492,8 @@
         "image": "shopify://shop_images/identification-and-labeling.png",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "full_width": false,
+        "container_size": "page-width",
+        "both_image_content_size": false,
         "video_url": "",
         "enable_video_looping": false,
         "layout": "text_first",
@@ -482,7 +516,8 @@
           "settings": {
             "heading": "Towing and transport",
             "custom_heading_size": 52,
-            "mobile_custom_heading_size": 28
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
           }
         },
         "text_dkB3at": {
@@ -511,7 +546,8 @@
         "image": "shopify://shop_images/towing-and-transport.png",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "full_width": false,
+        "container_size": "page-width",
+        "both_image_content_size": false,
         "video_url": "",
         "enable_video_looping": false,
         "layout": "image_first",
@@ -534,7 +570,8 @@
           "settings": {
             "heading": "Protection and maneuvrability",
             "custom_heading_size": 52,
-            "mobile_custom_heading_size": 28
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
           }
         },
         "text_kF7KLU": {
@@ -563,7 +600,8 @@
         "image": "shopify://shop_images/STERIRACK-transport-case-cart-25_1.png",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "full_width": false,
+        "container_size": "page-width",
+        "both_image_content_size": false,
         "video_url": "",
         "enable_video_looping": false,
         "layout": "text_first",
@@ -586,7 +624,8 @@
           "settings": {
             "heading": "Internal configuration",
             "custom_heading_size": 52,
-            "mobile_custom_heading_size": 28
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
           }
         },
         "text_er44G4": {
@@ -615,7 +654,8 @@
         "image": "shopify://shop_images/STERIRACK-transport-case-cart-26.png",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "full_width": false,
+        "container_size": "page-width",
+        "both_image_content_size": false,
         "video_url": "",
         "enable_video_looping": false,
         "layout": "image_first",
@@ -638,7 +678,8 @@
           "settings": {
             "heading": "Door features",
             "custom_heading_size": 52,
-            "mobile_custom_heading_size": 28
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
           }
         },
         "text_jMmCWC": {
@@ -667,7 +708,8 @@
         "image": "shopify://shop_images/STERIRACK-transport-case-cart-27.png",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "full_width": false,
+        "container_size": "page-width",
+        "both_image_content_size": false,
         "video_url": "",
         "enable_video_looping": false,
         "layout": "text_first",
@@ -688,7 +730,8 @@
         "image_Y8tbgH": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/transport-case-carts-samples.png"
+            "image": "shopify://shop_images/transport-case-carts-samples.png",
+            "image_page_container": "page-width"
           }
         }
       },
@@ -697,9 +740,14 @@
       ],
       "disabled": true,
       "settings": {
+        "page_container": "full-width",
         "title": "Internal Configuration <strong>Samples</strong>",
-        "heading_size": "h1",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "heading_alignment": "center",
+        "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
+        "text_content_alignment": "center",
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "padding_top": 36,
         "padding_bottom": 36
@@ -711,7 +759,8 @@
         "image_KgDRNk": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/transport-case-carts-dimensions.png"
+            "image": "shopify://shop_images/transport-case-carts-dimensions.png",
+            "image_page_container": "page-width"
           }
         }
       },
@@ -720,9 +769,14 @@
       ],
       "disabled": true,
       "settings": {
+        "page_container": "full-width",
         "title": "Product <strong>Dimensions</strong>",
-        "heading_size": "h1",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "heading_alignment": "center",
+        "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
+        "text_content_alignment": "center",
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "padding_top": 36,
         "padding_bottom": 72
@@ -774,6 +828,7 @@
             "heading": "<p>BIM Files</p>",
             "block_custom_heading_size": 52,
             "mobile_block_custom_heading_size": 28,
+            "block_custom_font_weight": "400",
             "text": "<p>BIM files are available for download on request. To protect specification integrity, access is granted to trusted partners via password or tokenised link. Please contact us to request access and include your project or firm details for review.</p>",
             "button_label": "BIM file request",
             "button_link": "mailto:sales@spacelogicgroup.com",
@@ -785,6 +840,7 @@
         "slide_UBnzye"
       ],
       "settings": {
+        "enable_content_page_width": false,
         "heading": "",
         "sec_des": "",
         "title_color": "#ffffff",
@@ -792,6 +848,7 @@
         "title_alignment": "center",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "layout": "image_first",
         "content_layout": "no-overlap",
         "height": "extra-small",
@@ -891,6 +948,7 @@
         "heading": "<p>Product Catalogue</p>",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "description": "<p>Click here to view our latest product and services catalogue in a browser without downloading.</p>",
         "button_1_text": "View catalogue",
@@ -957,6 +1015,7 @@
     }
   },
   "order": [
+    "custom_page_banner_k3ABdf",
     "custom_page_banner_dHyyAj",
     "section_breadcrumb_JneyLg",
     "main",

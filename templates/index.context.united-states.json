@@ -8,12 +8,15 @@
  * ------------------------------------------------------------
  */
 {
-  "markets": {
-    "au": {
-      "parent": "@default"
-    },
-    "united-states": {
-      "parent": "@default"
+  "parent": "index.json",
+  "context": {
+    "market": "united-states"
+  },
+  "sections": {
+    "product_catalog_VjYNFG": {
+      "settings": {
+        "heading": "<p>Product catalogue 2025</p>"
+      }
     }
   }
 }

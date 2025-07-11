@@ -94,6 +94,30 @@
         "mobile_padding_bottom": 20
       }
     },
+    "page_banner_mzYicw": {
+      "type": "page-banner",
+      "blocks": {
+        "text_7FpiLQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Content about colour coding to go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
+            "text_alignment": "left"
+          }
+        }
+      },
+      "block_order": [
+        "text_7FpiLQ"
+      ],
+      "name": "TF Colour coding",
+      "settings": {
+        "title_alignment": "center",
+        "full_width": true,
+        "content_width": "full_width",
+        "color_scheme": "",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
     "categories_9acj3x": {
       "type": "categories",
       "blocks": {
@@ -155,6 +179,7 @@
         "featured_collection_TcYQVN",
         "featured_collection_3hM6pA"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "custom_heading_size": 52,
@@ -172,6 +197,7 @@
     },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-1",
         "padding_top": 52,
@@ -200,14 +226,246 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
+    },
+    "featured_product_jJamNw": {
+      "type": "featured-product",
+      "blocks": {
+        "text_kbPGnA": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_mdEAV7": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_yzFCKA": {
+          "type": "price",
+          "disabled": true,
+          "settings": {}
+        },
+        "variant_picker_k3J9ag": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_EWBdbb": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {}
+        },
+        "buy_buttons_KfrKUX": {
+          "type": "buy_buttons",
+          "disabled": true,
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_CF8CrT": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_kbPGnA",
+        "title_mdEAV7",
+        "price_yzFCKA",
+        "variant_picker_k3J9ag",
+        "quantity_selector_EWBdbb",
+        "buy_buttons_KfrKUX",
+        "share_CF8CrT"
+      ],
+      "name": "t:sections.featured-product.presets.name",
+      "settings": {
+        "product": "sterirack®-click-n-clip-label-holders-mk-ii",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "secondary_background": false,
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "none",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 80,
+        "padding_bottom": 40
+      }
+    },
+    "featured_product_K4yWq6": {
+      "type": "featured-product",
+      "blocks": {
+        "text_GymbpD": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_c98xkB": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_zaK7Xq": {
+          "type": "price",
+          "disabled": true,
+          "settings": {}
+        },
+        "variant_picker_hgrnPd": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_xMgD7C": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {}
+        },
+        "buy_buttons_CzCWRd": {
+          "type": "buy_buttons",
+          "disabled": true,
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_zxBQdj": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_GymbpD",
+        "title_c98xkB",
+        "price_zaK7Xq",
+        "variant_picker_hgrnPd",
+        "quantity_selector_xMgD7C",
+        "buy_buttons_CzCWRd",
+        "share_zxBQdj"
+      ],
+      "name": "t:sections.featured-product.presets.name",
+      "settings": {
+        "product": "sterirack®-click-n-clip-label-holders-mk-ii",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "secondary_background": false,
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "none",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 80,
+        "padding_bottom": 40
+      }
+    },
+    "featured_product_Q7Vqn3": {
+      "type": "featured-product",
+      "blocks": {
+        "text_YMhhHa": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_fjgFc6": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_LB8Adw": {
+          "type": "price",
+          "disabled": true,
+          "settings": {}
+        },
+        "variant_picker_TdcH8H": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_p6eE7k": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {}
+        },
+        "buy_buttons_ddfXbr": {
+          "type": "buy_buttons",
+          "disabled": true,
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_pdEEj6": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_YMhhHa",
+        "title_fjgFc6",
+        "price_LB8Adw",
+        "variant_picker_TdcH8H",
+        "quantity_selector_p6eE7k",
+        "buy_buttons_ddfXbr",
+        "share_pdEEj6"
+      ],
+      "name": "t:sections.featured-product.presets.name",
+      "settings": {
+        "product": "post-strips",
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "secondary_background": false,
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "right",
+        "image_zoom": "none",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
     }
   },
   "order": [
     "custom_page_banner_aNLQyc",
     "page_banner_PR6mgA",
     "section_breadcrumb_LVwMDy",
+    "page_banner_mzYicw",
     "categories_9acj3x",
     "main",
-    "product_catalog_W3r7Xn"
+    "product_catalog_W3r7Xn",
+    "featured_product_jJamNw",
+    "featured_product_Q7Vqn3",
+    "featured_product_K4yWq6"
   ]
 }

@@ -87,33 +87,6 @@
         "padding_bottom": 50
       }
     },
-    "multicolumn_services_box_Kh8zd7": {
-      "type": "multicolumn-services-box",
-      "blocks": {
-        "column_BpVqDr": {
-          "type": "column",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "column_BpVqDr"
-      ],
-      "settings": {
-        "sec_title": "<p>Three interconnected divisions, delivering <br/>a complete end-to-end Service</p>",
-        "custom_heading_size": 52,
-        "mobile_custom_heading_size": 28,
-        "custom_font_weight": "400",
-        "title_alignment": "center",
-        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "icon_bg_color": "#5a5a5a",
-        "border_color": "#eeeeee",
-        "columns_desktop": 3,
-        "columns_alignment": "left",
-        "columns_mobile": "1",
-        "padding_top": 36,
-        "padding_bottom": 72
-      }
-    },
     "product_catalog_M3kjRW": {
       "type": "product-catalog",
       "disabled": true,
@@ -143,7 +116,6 @@
     "page_banner_iVH9eY",
     "section_breadcrumb_dbXHkc",
     "page_banner_pmrK7U",
-    "multicolumn_services_box_Kh8zd7",
     "product_catalog_M3kjRW"
   ]
 }

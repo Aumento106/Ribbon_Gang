@@ -59,7 +59,7 @@
         "heading_7ipWna": {
           "type": "heading",
           "settings": {
-            "heading": "Project consultation, planning and room design",
+            "heading": "End-to-End Hospital Storage Solutions, Designed, Built and Installed by Clinical Experts",
             "custom_heading_size": 52,
             "mobile_custom_heading_size": 28,
             "custom_font_weight": "400",
@@ -69,27 +69,14 @@
         "text_VLNNJT": {
           "type": "text",
           "settings": {
-            "text": "<p>Whether for a new build, a major renovation or a rejuvenation of existing clinical store rooms, all stakeholders are consulted in the design and planning of your new, tailored STERIRACK® System storage solution.</p><p>During this phase you will meet with our expert project consultants, either in person or online, to work through the project brief and determine all the deliverables for the project.</p><p>We pride ourselves on exceeding client expectations and meeting project timelines. We then design a tailored solution, using our own gold standard, modular STERIRACK® range – a solution that will exactly suit your application and room dimensions.</p><p>Floor plans are created to demonstrate achievable storage capacity as well as other efficiencies you will achieve. Photorealistic images can be produced on request.</p><p>Once every aspect of the project has been agreed upon and approved, your project is placed in the hands of our expert project management and installation team, who will seamlessly create, deliver and install your brand new clinical storage solution. You’ll never look back!</p>",
+            "text": "<h3><strong>Three interconnected divisions delivering smarter design, customised solutions, and seamless installation across Australia</strong></h3><p>At SpaceLogic, we deliver fully integrated hospital storage solutions through a complete end-to-end service model, from clinical planning and design through to custom manufacturing and professional installation. Whether for a new build, major renovation, or the rejuvenation of existing clinical storerooms, we engage all key stakeholders to co-design a tailored STERIRACK® System that meets the specific needs of your facility. Our expert project consultants will guide you through the process, either in person or online, ensuring your brief is understood, timelines are clear, and deliverables are defined from day one.</p><p>We use our own gold-standard modular STERIRACK® range to create solutions that fit your application, infection control needs, and room dimensions precisely. Floor plans and photorealistic visuals demonstrate the efficiencies and capacity you can expect to gain. Once the design is approved, our experienced project management and installation team handles everything, from manufacturing to final handover, ensuring your clinical storage solution is delivered on time, on site, and to the highest standards. From CSSDs and theatres to ICU and general wards, SpaceLogic helps healthcare teams streamline workflows, improve compliance, and maximise every square metre of storage. You’ll never look back.</p>",
             "text_alignment": "left"
-          }
-        },
-        "button_j7MfRM": {
-          "type": "button",
-          "settings": {
-            "button_label": "Next: Project management and expert installation",
-            "button_link": "#",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false,
-            "button_alignment": "center"
           }
         }
       },
       "block_order": [
         "heading_7ipWna",
-        "text_VLNNJT",
-        "button_j7MfRM"
+        "text_VLNNJT"
       ],
       "settings": {
         "title_alignment": "center",

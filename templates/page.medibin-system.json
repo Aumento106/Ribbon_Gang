@@ -220,16 +220,16 @@
         "featured_collection_MbDDHk": {
           "type": "featured_collection",
           "settings": {
-            "collection": "steriloop-medibin",
+            "collection": "medibin-system",
             "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-            "button_card_text": "Button",
+            "button_card_text": "Shop now",
             "redirection_link": ""
           }
         },
         "featured_collection_kcMRaV": {
           "type": "featured_collection",
           "settings": {
-            "collection": "",
+            "collection": "steriloop-medibin",
             "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
             "button_card_text": "Button",
             "redirection_link": ""
@@ -238,7 +238,7 @@
         "featured_collection_KcxQRV": {
           "type": "featured_collection",
           "settings": {
-            "collection": "",
+            "collection": "medibin-trolleys",
             "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
             "button_card_text": "Button",
             "redirection_link": ""
@@ -252,7 +252,62 @@
       ],
       "name": "Categories",
       "settings": {
-        "title": "Collections",
+        "title": "Categories",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "product_list_36CwhM": {
+      "type": "product-list",
+      "blocks": {
+        "featured_collection_VLtGt8": {
+          "type": "featured_collection",
+          "settings": {
+            "product_name": "",
+            "collection": "",
+            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "button_card_text": "Button",
+            "redirection_link": ""
+          }
+        },
+        "featured_collection_rWzJkN": {
+          "type": "featured_collection",
+          "settings": {
+            "product_name": "",
+            "collection": "",
+            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "button_card_text": "Button",
+            "redirection_link": ""
+          }
+        },
+        "featured_collection_faBkg8": {
+          "type": "featured_collection",
+          "settings": {
+            "product_name": "",
+            "collection": "",
+            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "button_card_text": "Button",
+            "redirection_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_VLtGt8",
+        "featured_collection_rWzJkN",
+        "featured_collection_faBkg8"
+      ],
+      "name": "Product List",
+      "settings": {
+        "title": "Product list",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
         "custom_font_weight": "400",
@@ -274,6 +329,7 @@
     "main",
     "categories_Kr4y7C",
     "product_catalog_W3r7Xn",
-    "categories_fK4RX4"
+    "categories_fK4RX4",
+    "product_list_36CwhM"
   ]
 }

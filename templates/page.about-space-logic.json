@@ -223,7 +223,7 @@
         "heading_tfHz9g": {
           "type": "heading",
           "settings": {
-            "heading": "Our team",
+            "heading": "Our difference - Why us?",
             "custom_heading_size": 52,
             "mobile_custom_heading_size": 28,
             "custom_font_weight": "400"
@@ -232,7 +232,7 @@
         "text_pLMKNr": {
           "type": "text",
           "settings": {
-            "text": "<p>Text to go here.</p>",
+            "text": "<p><strong>We’re not just another supplier - we’re your clinical storage partner.</strong></p><ul><li>From room plans to handover, we manage everything, including coordinating with trades or trusted local teams when remote.</li><li>STERIRACK® is Australia’s leading modular clinical storage system, designed for infection control, adaptability, and real-time efficiencies.</li><li>With thousands of installations across public and private hospitals, we’ve seen and solved it all.</li><li>Staff love using our systems. It’s not just about storage, it’s about creating environments that support workflow, morale, and care.</li><li>Our solutions save time, reduce stock loss, and improve safety, delivering a powerful Return on Effectiveness (ROE).</li></ul>",
             "text_style": "body"
           }
         }

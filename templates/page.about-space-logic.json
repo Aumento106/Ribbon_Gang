@@ -56,14 +56,14 @@
         "caption_JARpPF": {
           "type": "caption",
           "settings": {
-            "caption": "<p>Add caption here</p>",
+            "caption": "<p>Innovating Clinical Storage to Make Space for Care</p><p></p>",
             "caption_alignment": "center"
           }
         },
         "text_UhW6zH": {
           "type": "text",
           "settings": {
-            "text": "<p>Text to go here.</p>",
+            "text": "<p>At SpaceLogic, we believe that smarter storage leads to better healthcare. We design, manufacture and install modular systems that help hospitals and clinical environments operate more efficiently, meet rigorous infection control standards, and ultimately make space for what matters most, patient care.</p><p>From our base in regional NSW, we’ve grown into an internationally trusted partner for hospitals and clinical facilities of all sizes, delivering tailored solutions backed by over four decades of experience and a passion for doing things properly.</p><p>We’re not the only provider in this space, but we’ve built an enviable reputation by offering a truly end-to-end service - supplying project design, planning, installation, and our own innovative, customisable range of clinical storage products. Our systems are designed to improve infection control, maximise space, streamline workflows, and boost staff satisfaction.</p><p>Welcome to SpaceLogic Group, your trusted partner in clinical storage solutions.</p>",
             "text_alignment": "left"
           }
         }

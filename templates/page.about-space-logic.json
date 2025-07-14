@@ -142,7 +142,7 @@
         "text_UJHQb4": {
           "type": "text",
           "settings": {
-            "text": "<p>Text to go here.</p>",
+            "text": "<p><strong>Australian Made. Family Owned. 40+ Years Strong.</strong></p><p>Founded over 42 years ago in Orange, NSW, SpaceLogic has remained proudly family-owned and operated, growing steadily alongside the healthcare sector’s evolving needs. What began as a regional storage manufacturer has become a national leader in healthcare shelving, trolleys, and complete clinical storage systems. Today, the Scott family continues to lead the business with the same values of care, integrity, and innovation that shaped its beginnings.</p>",
             "text_style": "body"
           }
         }
@@ -187,7 +187,7 @@
         "text_6jCfKx": {
           "type": "text",
           "settings": {
-            "text": "<p>Text to go here.</p>",
+            "text": "<p><strong>Ethical. Proactive. Focused on Care.</strong></p><ul><li>We go beyond transactions, we form long-standing partnerships based on mutual respect and accountability.</li><li>Infection control isn’t just a standard, it’s a mission. Our systems help prevent contamination, protect consumables, and support safer clinical environments.</li><li>We design and build to meet (and exceed) global standards for safety, cleanability and performance.</li><li>Our team and manufacturing base in Orange NSW support local industry while delivering national impact.</li></ul>",
             "text_style": "body"
           }
         }

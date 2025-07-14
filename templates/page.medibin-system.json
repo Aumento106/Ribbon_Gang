@@ -214,33 +214,30 @@
         "padding_bottom": 20
       }
     },
-    "product_list_gDLKFG": {
-      "type": "product-list",
+    "categories_fK4RX4": {
+      "type": "categories",
       "blocks": {
-        "featured_collection_BaiyiF": {
+        "featured_collection_MbDDHk": {
           "type": "featured_collection",
           "settings": {
-            "product_name": "ME",
+            "collection": "steriloop-medibin",
+            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "button_card_text": "Button",
+            "redirection_link": ""
+          }
+        },
+        "featured_collection_kcMRaV": {
+          "type": "featured_collection",
+          "settings": {
             "collection": "",
             "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
             "button_card_text": "Button",
             "redirection_link": ""
           }
         },
-        "featured_collection_4xi8Hi": {
+        "featured_collection_KcxQRV": {
           "type": "featured_collection",
           "settings": {
-            "product_name": "",
-            "collection": "",
-            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-            "button_card_text": "Button",
-            "redirection_link": ""
-          }
-        },
-        "featured_collection_VnyrcC": {
-          "type": "featured_collection",
-          "settings": {
-            "product_name": "",
             "collection": "",
             "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
             "button_card_text": "Button",
@@ -249,13 +246,13 @@
         }
       },
       "block_order": [
-        "featured_collection_BaiyiF",
-        "featured_collection_4xi8Hi",
-        "featured_collection_VnyrcC"
+        "featured_collection_MbDDHk",
+        "featured_collection_kcMRaV",
+        "featured_collection_KcxQRV"
       ],
-      "name": "Product List",
+      "name": "Categories",
       "settings": {
-        "title": "",
+        "title": "Collections",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
         "custom_font_weight": "400",
@@ -277,6 +274,6 @@
     "main",
     "categories_Kr4y7C",
     "product_catalog_W3r7Xn",
-    "product_list_gDLKFG"
+    "categories_fK4RX4"
   ]
 }

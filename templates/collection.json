@@ -35,7 +35,7 @@
           "type": "text",
           "settings": {
             "text": "<p>Across hospitals, day surgeries, and healthcare facilities in Australia, the U.S, and beyond, SpaceLogic partners with clients to deliver tailored, high-performance storage systems. Every project is a collaboration — from planning and prototyping to seamless installation — ensuring STERIRACK® integrates perfectly into clinical environments with minimal disruption.</p><p>Explore a selection of recent installations below, each one reflecting our commitment to better care through smarter storage.</p>",
-            "text_alignment": "center"
+            "text_alignment": "left"
           }
         }
       },
@@ -350,7 +350,9 @@
       "disabled": true,
       "settings": {
         "heading": "VIDEO - Use MEDIBINS™ not non-compliant plastic bins",
-        "heading_size": "h1",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "enable_video_looping": false,
         "video_url": "https://youtu.be/0vtNGCmZ-yQ?si=vBueGVrcmnNkQb6i",
         "cover_image": "shopify://shop_images/maxresdefault_e72b4216-5dde-40ad-ab68-731685d0c282.webp",

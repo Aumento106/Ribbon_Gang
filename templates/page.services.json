@@ -109,6 +109,62 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
+    },
+    "multirow_43R769": {
+      "type": "multirow",
+      "blocks": {
+        "row_Rpx74p": {
+          "type": "row",
+          "settings": {
+            "caption": "Plan with Confidence",
+            "heading": "Healthcare Storage Planning, Room Design & Clinical Consultation",
+            "text": "<p>Get your hospital storage right from the start. Our clinical storage consultants work with hospital planners, architects, procurement teams and frontline staff to design compliant, space-efficient layouts. From CSSDs to theatre store rooms, we deliver room-specific audits, floor plans and 3D models tailored to infection control, safety, and workflow.</p><p></p>",
+            "button_label": "Start Planning Your Space",
+            "button_link": ""
+          }
+        },
+        "row_t4rjMm": {
+          "type": "row",
+          "settings": {
+            "caption": "Modular Design for Clinical Performance",
+            "heading": "Customisable Hospital Storage Systems Engineered for Infection Control",
+            "text": "<p>Our in-house team designs and manufactures high-performance clinical storage systems, including the STERIRACK® range, Australia’s leading modular hospital shelving. Built for cleanability, durability and AS5369 compliance, every product is tailored to meet the demands of modern healthcare. From sterile zones to medication storage, we build solutions that last.</p>",
+            "button_label": "Discover Our Product Range",
+            "button_link": ""
+          }
+        },
+        "row_aLd9wk": {
+          "type": "row",
+          "settings": {
+            "caption": "Clinical Fitouts Delivered Seamlessly",
+            "heading": "Hospital Storage Installation and Project Management Services",
+            "text": "<p>Minimise disruption and maximise results with SpaceLogic’s expert installation and project management services. We coordinate delivery, trade scheduling, and full install of compliant hospital storage across Australia. Whether you need a full hospital fit-out or a single ward upgrade, our experienced team ensures your project is delivered right, first time.</p><p></p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_Rpx74p",
+        "row_t4rjMm",
+        "row_aLd9wk"
+      ],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -116,6 +172,7 @@
     "page_banner_iVH9eY",
     "section_breadcrumb_dbXHkc",
     "page_banner_pmrK7U",
-    "product_catalog_M3kjRW"
+    "product_catalog_M3kjRW",
+    "multirow_43R769"
   ]
 }

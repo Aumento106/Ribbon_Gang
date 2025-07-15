@@ -229,16 +229,16 @@
         "featured_collection_kcMRaV": {
           "type": "featured_collection",
           "settings": {
-            "collection": "steriloop-medibin",
+            "collection": "medibin-trolleys",
             "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
             "button_card_text": "Button",
-            "redirection_link": ""
+            "redirection_link": "shopify://collections/medibin-trolleys"
           }
         },
         "featured_collection_KcxQRV": {
           "type": "featured_collection",
           "settings": {
-            "collection": "medibin-trolleys",
+            "collection": "",
             "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
             "button_card_text": "Button",
             "redirection_link": ""

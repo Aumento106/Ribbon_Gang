@@ -9,6 +9,35 @@
  */
 {
   "sections": {
+    "custom_page_banner_FHjiJE": {
+      "type": "custom-page-banner",
+      "blocks": {
+        "slide_EQCjJK": {
+          "type": "slide",
+          "settings": {
+            "image_overlay_opacity": 0
+          }
+        },
+        "slide_UixyLG": {
+          "type": "slide",
+          "settings": {
+            "image_overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "slide_EQCjJK",
+        "slide_UixyLG"
+      ],
+      "name": "TF Custom Page Slideshow",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "image_behavior": "none",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
     "section_breadcrumb_nmUW87": {
       "type": "section-breadcrumb",
       "settings": {
@@ -34,7 +63,7 @@
         "heading_nhBt8y": {
           "type": "heading",
           "settings": {
-            "heading": "TF STERIRACK® Shelving (template)",
+            "heading": "TF STERIRACK® Shelving",
             "custom_heading_size": 52,
             "mobile_custom_heading_size": 28,
             "custom_font_weight": "400",
@@ -480,6 +509,7 @@
     }
   },
   "order": [
+    "custom_page_banner_FHjiJE",
     "section_breadcrumb_nmUW87",
     "banner",
     "page_banner_BXQVUB",

@@ -9,6 +9,37 @@
  */
 {
   "sections": {
+    "custom_page_banner_B4fRQL": {
+      "type": "custom-page-banner",
+      "blocks": {
+        "slide_8iUMBy": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image_overlay_opacity": 0
+          }
+        },
+        "slide_VAMMHJ": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/winding-road-covered-in-autumn-trees.jpg",
+            "image_overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "slide_8iUMBy",
+        "slide_VAMMHJ"
+      ],
+      "name": "TF Custom Page Slideshow",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "large",
+        "image_behavior": "none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "page_banner_BXQVUB": {
       "type": "page-banner",
       "blocks": {
@@ -95,7 +126,7 @@
       "settings": {
         "page_container": "page-width",
         "title": "<p>Video gallery</p>",
-        "custom_heading_size": 48,
+        "custom_heading_size": 40,
         "mobile_custom_heading_size": 40,
         "custom_font_weight": "300",
         "title_alignment": "center",
@@ -106,16 +137,6 @@
         "box_color_scheme": "",
         "padding_top": 60,
         "padding_bottom": 80
-      }
-    },
-    "section_breadcrumb_nmUW87": {
-      "type": "section-breadcrumb",
-      "settings": {
-        "color_scheme": "",
-        "padding_top": 30,
-        "padding_bottom": 30,
-        "mobile_padding_top": 30,
-        "mobile_padding_bottom": 30
       }
     },
     "banner": {
@@ -428,41 +449,12 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "custom_page_banner_B4fRQL": {
-      "type": "custom-page-banner",
-      "blocks": {
-        "slide_8iUMBy": {
-          "type": "slide",
-          "settings": {
-            "image_overlay_opacity": 0
-          }
-        },
-        "slide_VAMMHJ": {
-          "type": "slide",
-          "settings": {
-            "image_overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "slide_8iUMBy",
-        "slide_VAMMHJ"
-      ],
-      "name": "TF Custom Page Slideshow",
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "medium",
-        "image_behavior": "none",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
+    "custom_page_banner_B4fRQL",
     "page_banner_BXQVUB",
     "multicolumn_video_7DEUqP",
-    "section_breadcrumb_nmUW87",
     "banner",
     "product-grid",
     "product_catalog_xdFqLr",
@@ -470,7 +462,6 @@
     "dimension_table_cR8mFy",
     "rich_text_CqT3jr",
     "image_with_no_text_UUP4dk",
-    "video_E7wm9f",
-    "custom_page_banner_B4fRQL"
+    "video_E7wm9f"
   ]
 }

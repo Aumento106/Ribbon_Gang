@@ -46,7 +46,7 @@
         "heading_QjbYrr": {
           "type": "heading",
           "settings": {
-            "heading": "{{ page.title }}",
+            "heading": "TF STERIRACK® System",
             "custom_heading_size": 52,
             "mobile_custom_heading_size": 28,
             "custom_font_weight": "600",
@@ -66,12 +66,25 @@
             "text": "<p>The STERIRACK® System is a premium modular hospital storage and shelving solution engineered to meet the strict demands of modern healthcare environments. Whether you’re managing a hospital redevelopment, CSSD upgrade, or operating theatre fitout, STERIRACK® delivers a compliant, scalable, and cost-effective approach to clinical storage. Built for long-term durability and infection control, the system combines robust starter bays with cost-efficient add-on bays and a wide range of customisable inserts, including SpaceLogic’s registered wire-looped baskets, slide-in/out trays, and shelf dividers, tailored to suit the specific requirements of your facility.</p><p>As the trusted clinical storage solution across both public and private healthcare settings, STERIRACK® is designed with flexibility and functionality at its core. It integrates seamlessly into sterile zones, ICUs, theatres, and treatment areas, supporting AS5369 compliance. Our registered wire-looped design reduces the risk of snags to both skin and consumables, while enhancing airflow and cleanability, key to maintaining the highest infection control standards.</p><p>From rapid, low-disruption installation to fully tailored configurations, the STERIRACK® System supports improved workflow efficiency, faster restocking, and clearer inventory visibility. It helps reduce downtime, minimise stock loss, and optimise use of clinical space, delivering measurable operational savings and long-term value. For procurement teams seeking dependable, compliant, and adaptable storage, STERIRACK® remains the leading choice in healthcare shelving.</p>",
             "text_alignment": "left"
           }
+        },
+        "button_4Kkird": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contact a consultant",
+            "button_link": "shopify://pages/contact",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "button_alignment": "center"
+          }
         }
       },
       "block_order": [
         "heading_QjbYrr",
         "caption_WRzYcK",
-        "text_c69Ej3"
+        "text_c69Ej3",
+        "button_4Kkird"
       ],
       "name": "TF Page Banner",
       "settings": {

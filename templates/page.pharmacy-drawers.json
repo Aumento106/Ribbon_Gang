@@ -66,12 +66,25 @@
             "text": "<p>Pharmacy drawers are now available for STERIRACK® System, creating an all-in-one fully integrated medications storage solution for Pharmacies and Healthcare. Pull-out pharmacy drawers now seamlessly integrate with baskets and shelving to create versatile, modular solutions for a multiplicity of applications.</p><p>Imagine STERIRACK® Workstations created with Staron benching, shelves, baskets and pharmacy drawers for decanting medications, or full pharmacy fitouts achieved with a combination of quick-access dispensary areas with pharmacy drawers, wire shelves, and heavy duty baskets for bulk storage.</p><ul><li>Store fluids in designated areas, inside heavy duty baskets on fully-extendable drawer-runners</li><li>Create an efficient stock management system using STERIRACK® color coded labelling and post strips in 13 vibrant colors</li><li>Enjoy the quick-picking capabilities of STERIRACK® by utilising bay labelling and aisle sign plates</li></ul><p>Maximise the available space in your pharmacy or medications storeroom by using the STERIRACK® Pharmacy Drawers in combination with other STERIRACK® products. The combinations are endless!</p>",
             "text_alignment": "left"
           }
+        },
+        "button_keQDBy": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contact a consultant",
+            "button_link": "shopify://pages/contact",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "button_alignment": "center"
+          }
         }
       },
       "block_order": [
         "heading_k8dhrG",
         "caption_my4yNC",
-        "text_irrzn9"
+        "text_irrzn9",
+        "button_keQDBy"
       ],
       "name": "TF Page Banner",
       "settings": {

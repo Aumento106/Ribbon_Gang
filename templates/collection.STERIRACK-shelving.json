@@ -146,8 +146,8 @@
         "box_shadow": true,
         "box_auto_height1": true,
         "box_color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 60
+        "padding_top": 60,
+        "padding_bottom": 80
       }
     },
     "banner": {

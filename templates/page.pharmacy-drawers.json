@@ -75,33 +75,6 @@
         "mobile_padding_bottom": 30
       }
     },
-    "image_banner_rdWtDL": {
-      "type": "image-banner",
-      "name": "t:sections.image-banner.presets.name",
-      "settings": {
-        "page_container": "full-width",
-        "image": "shopify://shop_images/03-Steriack-Pharmacy-v2.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "small",
-        "auto_height": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "mobile_padding_top": 0,
-        "mobile_padding_bottom": 0,
-        "mobile_margin_top": 0,
-        "mobile_margin_bottom": 0
-      }
-    },
     "rich_text_P3hBwh": {
       "type": "rich-text",
       "blocks": {
@@ -144,104 +117,6 @@
         "color_scheme": "scheme-1",
         "padding_top": 0,
         "padding_bottom": 28
-      }
-    },
-    "multicolumn_QEaeLE": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_fPAy4i": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/07-Steriack-Pharmacy.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_z989gL": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/02-Steriack-Pharmacy.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_J9CfbW": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/01-Steriack-Pharmacy.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_fPAy4i",
-        "column_z989gL",
-        "column_J9CfbW"
-      ],
-      "name": "t:sections.multicolumn.presets.name",
-      "settings": {
-        "title": "",
-        "custom_heading_size": 52,
-        "mobile_custom_heading_size": 28,
-        "custom_font_weight": "400",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "none",
-        "enable_border_content": false,
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 20
-      }
-    },
-    "multicolumn_qEGabM": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_FbEmxK": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/04-Steriack-Pharmacy-1536x614.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_FbEmxK"
-      ],
-      "name": "t:sections.multicolumn.presets.name",
-      "settings": {
-        "title": "",
-        "custom_heading_size": 52,
-        "mobile_custom_heading_size": 28,
-        "custom_font_weight": "400",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 1,
-        "column_alignment": "left",
-        "background_style": "none",
-        "enable_border_content": false,
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 0,
-        "padding_bottom": 32
       }
     },
     "product_catalog_W3r7Xn": {
@@ -323,6 +198,7 @@
         "column_QhKJRk",
         "column_rH69Ve"
       ],
+      "disabled": true,
       "name": "Multicolumn video",
       "settings": {
         "page_container": "page-width",
@@ -342,6 +218,7 @@
     },
     "image_banner_PLWz9M": {
       "type": "image-banner",
+      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "page_container": "page-width",
@@ -393,6 +270,7 @@
         "column_qHbB7Y",
         "column_NahPpE"
       ],
+      "disabled": true,
       "name": "Custom multicolumn 2",
       "settings": {
         "title": "",
@@ -427,6 +305,7 @@
       "block_order": [
         "heading_Xie6Ur"
       ],
+      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "content_alignment": "center",
@@ -437,148 +316,22 @@
         "section_border": false,
         "padding_top": 43,
         "padding_bottom": 0
-      }
-    },
-    "image_banner_CrHCey": {
-      "type": "image-banner",
-      "name": "t:sections.image-banner.presets.name",
-      "settings": {
-        "page_container": "page-width--narrow",
-        "image": "shopify://shop_images/sterirack_pharmacy_shelving_400W-x-400D_2200px.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "auto_height": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "mobile_padding_top": 0,
-        "mobile_padding_bottom": 0,
-        "mobile_margin_top": 0,
-        "mobile_margin_bottom": 0
-      }
-    },
-    "rich_text_nHrx4A": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_3jUKFp": {
-          "type": "heading",
-          "settings": {
-            "heading": "Pharmacy Shelving - 400W x 600D pharmacy drawers and/or baskets",
-            "custom_heading_size": 31,
-            "mobile_custom_heading_size": 24,
-            "custom_font_weight": "400"
-          }
-        }
-      },
-      "block_order": [
-        "heading_3jUKFp"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "content_alignment": "center",
-        "content_width": "full_width",
-        "color_scheme": "",
-        "full_width": true,
-        "no_margin": false,
-        "section_border": false,
-        "padding_top": 43,
-        "padding_bottom": 0
-      }
-    },
-    "image_banner_8aL7YX": {
-      "type": "image-banner",
-      "name": "t:sections.image-banner.presets.name",
-      "settings": {
-        "page_container": "page-width--narrow",
-        "image": "shopify://shop_images/sterirack_pharmacy_shelving_400W-x-600D_2200px.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "auto_height": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "mobile_padding_top": 0,
-        "mobile_padding_bottom": 0,
-        "mobile_margin_top": 0,
-        "mobile_margin_bottom": 0
-      }
-    },
-    "rich_text_ptUgyQ": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_Gfhxgc": {
-          "type": "heading",
-          "settings": {
-            "heading": "Pharmacy Shelving - 600W x 400D or 600W x 600D pharmacy drawers and/or baskets",
-            "custom_heading_size": 31,
-            "mobile_custom_heading_size": 24,
-            "custom_font_weight": "400"
-          }
-        }
-      },
-      "block_order": [
-        "heading_Gfhxgc"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "content_alignment": "center",
-        "content_width": "full_width",
-        "color_scheme": "",
-        "full_width": true,
-        "no_margin": false,
-        "section_border": false,
-        "padding_top": 43,
-        "padding_bottom": 0
-      }
-    },
-    "image_banner_YzDr6K": {
-      "type": "image-banner",
-      "name": "t:sections.image-banner.presets.name",
-      "settings": {
-        "page_container": "page-width--narrow",
-        "image": "shopify://shop_images/sterirack_pharmacy_shelving_600W-x-400D_600W-x-600D_2200px.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "auto_height": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "margin_top": 0,
-        "margin_bottom": 52,
-        "mobile_padding_top": 0,
-        "mobile_padding_bottom": 0,
-        "mobile_margin_top": 0,
-        "mobile_margin_bottom": 32
       }
     },
     "custom_multicolumn_XBMEpM": {
       "type": "custom-multicolumn",
       "blocks": {
+        "column_4zzLmL": {
+          "type": "column",
+          "settings": {
+            "title": "Box title",
+            "block_custom_font_weight": "400",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>",
+            "text-v": "",
+            "button-text": "",
+            "button-url": ""
+          }
+        },
         "column_77ChJi": {
           "type": "column",
           "settings": {
@@ -605,9 +358,11 @@
         }
       },
       "block_order": [
+        "column_4zzLmL",
         "column_77ChJi",
         "column_HiGJmB"
       ],
+      "disabled": true,
       "name": "Custom multicolumn",
       "settings": {
         "page_container": "page-width",
@@ -625,6 +380,7 @@
         "columns_desktop": "2",
         "box_shadow": true,
         "image_auto_height1": true,
+        "auto_width": false,
         "padding_top": 36,
         "padding_bottom": 36,
         "margin_top": 0,
@@ -655,6 +411,7 @@
         "heading_qji4VN",
         "text_8UYMwm"
       ],
+      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "content_alignment": "center",
@@ -681,6 +438,7 @@
       "block_order": [
         "image_MMe8Gk"
       ],
+      "disabled": true,
       "name": "Image with no text",
       "settings": {
         "page_container": "page-width",
@@ -695,30 +453,52 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "custom_page_banner_REDfMA": {
+      "type": "custom-page-banner",
+      "blocks": {
+        "slide_6dzj73": {
+          "type": "slide",
+          "settings": {
+            "image_overlay_opacity": 0
+          }
+        },
+        "slide_LnfKdL": {
+          "type": "slide",
+          "settings": {
+            "image_overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "slide_6dzj73",
+        "slide_LnfKdL"
+      ],
+      "name": "TF Custom Page Slideshow",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "image_behavior": "none",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "page_banner_YkpPpf",
     "image_banner_VgKQ7z",
     "section_breadcrumb_F9PzRF",
-    "image_banner_rdWtDL",
     "rich_text_P3hBwh",
     "main",
-    "multicolumn_QEaeLE",
-    "multicolumn_qEGabM",
     "product_catalog_W3r7Xn",
     "image_banner_bXr39C",
     "multicolumn_video_PF3C4a",
     "image_banner_PLWz9M",
     "custom_multicolumn_2_qD7dU8",
     "rich_text_RwpJHH",
-    "image_banner_CrHCey",
-    "rich_text_nHrx4A",
-    "image_banner_8aL7YX",
-    "rich_text_ptUgyQ",
-    "image_banner_YzDr6K",
     "custom_multicolumn_XBMEpM",
     "rich_text_E9TKTR",
-    "image_with_no_text_wCwp4B"
+    "image_with_no_text_wCwp4B",
+    "custom_page_banner_REDfMA"
   ]
 }

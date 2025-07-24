@@ -259,12 +259,12 @@
     "contact": {
       "form": {
         "title": "Contact form",
-        "name": "Your Name",
+        "name": "Your name",
         "email": "Email",
         "phone": "Phone",
         "organisation": "Organisation",
         "region": "Region",
-        "job_title": "Job Title",
+        "job_title": "Job title",
         "enquiry_type": "Enquiry type",
         "enquiry": "Enquiry",
         "comment": "Comment",

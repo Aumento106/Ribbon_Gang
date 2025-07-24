@@ -426,7 +426,7 @@
       "city": "City",
       "country": "Country/region",
       "province": "Province",
-      "zip": "Postal/ZIP code",
+      "zip": "Postcode",
       "phone": "Phone",
       "set_default": "Set as default address",
       "add": "Add address",

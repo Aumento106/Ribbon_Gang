@@ -120,7 +120,7 @@
       "choose_product_options": "Choose options for {{ product_name }}",
       "description": "Description",
       "inventory_in_stock": "In stock",
-      "inventory_in_stock_show_count": "In Stock. {{ quantity }} are left",
+      "inventory_in_stock_show_count": "In stock. {{ quantity }} are left",
       "inventory_low_stock": "Low stock",
       "inventory_low_stock_show_count": "Low stock. {{ quantity }} are left",
       "inventory_out_of_stock": "Out of stock",
@@ -129,13 +129,13 @@
       "on_sale": "Sale",
       "product_variants": "Product variants",
       "media": {
-        "gallery_viewer": "Gallery Viewer",
+        "gallery_viewer": "Gallery viewer",
         "load_image": "Load image {{ index }} in gallery view",
-        "load_model": "Load 3D Model {{ index }} in gallery view",
+        "load_model": "Load 3D model {{ index }} in gallery view",
         "load_video": "Play video {{ index }} in gallery view",
         "image_available": "Image {{ index }} is now available in gallery view",
         "open_media": "Open media {{ index }} in modal",
-        "play_model": "Play 3D Viewer",
+        "play_model": "Play 3D viewer",
         "play_video": "Play video"
       },
       "quantity": {
@@ -152,7 +152,7 @@
         "note": "View quantity rules"
       },
       "volume_pricing": {
-        "title": "Volume Pricing",
+        "title": "Volume pricing",
         "note": "Volume pricing available",
         "minimum": "{{ quantity }}+",
         "price_at_each": "at {{ price }}/ea",

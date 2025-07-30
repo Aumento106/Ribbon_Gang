@@ -11,6 +11,7 @@
   "sections": {
     "section_breadcrumb_nmUW87": {
       "type": "section-breadcrumb",
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "padding_top": 30,
@@ -41,6 +42,13 @@
             "heading_alignment": "center"
           }
         },
+        "caption_Ecqkyt": {
+          "type": "caption",
+          "settings": {
+            "caption": "<p>Add caption here</p>",
+            "caption_alignment": "center"
+          }
+        },
         "text_G6e3Nj": {
           "type": "text",
           "settings": {
@@ -51,6 +59,7 @@
       },
       "block_order": [
         "heading_nhBt8y",
+        "caption_Ecqkyt",
         "text_G6e3Nj"
       ],
       "settings": {
@@ -58,12 +67,13 @@
         "full_width": true,
         "content_width": "full_width",
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
-        "padding_top": 72,
+        "padding_top": 80,
         "padding_bottom": 72
       }
     },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "disabled": true,
       "settings": {
         "hide_price": true,
         "hide_sold_out": true,
@@ -347,6 +357,7 @@
     },
     "video_E7wm9f": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "heading": "VIDEO - STERIRACK® Benching",
         "custom_heading_size": 52,
@@ -413,6 +424,7 @@
         "column_J4gUNC",
         "column_hmcfam"
       ],
+      "disabled": true,
       "name": "Questions To Ask",
       "settings": {
         "title": "Questions to ask yourself",

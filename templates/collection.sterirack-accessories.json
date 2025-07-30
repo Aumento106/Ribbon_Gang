@@ -9,6 +9,49 @@
  */
 {
   "sections": {
+    "page_banner_pwf4zd": {
+      "type": "page-banner",
+      "blocks": {
+        "heading_rRLYjC": {
+          "type": "heading",
+          "settings": {
+            "heading": "Banner Title",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400",
+            "heading_alignment": "center"
+          }
+        },
+        "caption_ee7rkH": {
+          "type": "caption",
+          "settings": {
+            "caption": "<p>Add caption here</p>",
+            "caption_alignment": "center"
+          }
+        },
+        "text_PqEYCz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your page information.</p>",
+            "text_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "heading_rRLYjC",
+        "caption_ee7rkH",
+        "text_PqEYCz"
+      ],
+      "name": "TF Page Banner",
+      "settings": {
+        "title_alignment": "center",
+        "full_width": true,
+        "content_width": "full_width",
+        "color_scheme": "",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "disabled": true,
@@ -378,6 +421,7 @@
     }
   },
   "order": [
+    "page_banner_pwf4zd",
     "banner",
     "page_banner_BXQVUB",
     "section_breadcrumb_nmUW87",

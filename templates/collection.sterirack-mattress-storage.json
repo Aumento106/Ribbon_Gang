@@ -630,6 +630,7 @@
         "column_gxwgeQ": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
             "enable_video_looping": false,
             "title": "Video title",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>"
@@ -638,6 +639,7 @@
         "column_9zKH89": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
             "enable_video_looping": false,
             "title": "Video title",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>"
@@ -646,6 +648,7 @@
         "column_TreUXb": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
             "enable_video_looping": false,
             "title": "Video title",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>"

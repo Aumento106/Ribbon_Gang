@@ -254,9 +254,9 @@
         "featured_collection_xdfVym": {
           "type": "featured_collection",
           "settings": {
-            "categories_image": "shopify://shop_images/Mattress-storage-2.png",
+            "categories_image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
             "collection": "sterirack-mattress-storage",
-            "card_text": "Practical, vertical storage for greater infection control.",
+            "card_text": "",
             "button_card_text": "Learn more",
             "redirection_link": ""
           }

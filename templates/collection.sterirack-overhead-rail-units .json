@@ -31,6 +31,32 @@
             "heading_alignment": "center"
           }
         },
+        "caption_FWaTeR": {
+          "type": "caption",
+          "settings": {
+            "caption": "<p>Add caption here</p>",
+            "caption_alignment": "center"
+          }
+        },
+        "text_9A4HHM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your page information.</p>",
+            "text_alignment": "center"
+          }
+        },
+        "button_U8FMxR": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "button_alignment": "center"
+          }
+        },
         "text_G6e3Nj": {
           "type": "text",
           "disabled": true,
@@ -42,6 +68,9 @@
       },
       "block_order": [
         "heading_nhBt8y",
+        "caption_FWaTeR",
+        "text_9A4HHM",
+        "button_U8FMxR",
         "text_G6e3Nj"
       ],
       "settings": {
@@ -49,12 +78,13 @@
         "full_width": true,
         "content_width": "full_width",
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
-        "padding_top": 100,
-        "padding_bottom": 80
+        "padding_top": 80,
+        "padding_bottom": 60
       }
     },
     "section_breadcrumb_nmUW87": {
       "type": "section-breadcrumb",
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "padding_top": 30,
@@ -77,12 +107,14 @@
       "block_order": [
         "text_nV3wJw"
       ],
+      "disabled": true,
       "name": "Image with text v1",
       "settings": {
         "image": "shopify://shop_images/sterirack_overhead_rail_unit_3_1100px-1024x494.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "container_size": "page-width",
+        "both_image_content_size": false,
         "video_url": "",
         "enable_video_looping": false,
         "layout": "text_first",
@@ -358,7 +390,8 @@
         "image_Qpy3NK": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/MEDIBIN-standard-label-holders-2048x369.jpg"
+            "image": "shopify://shop_images/MEDIBIN-standard-label-holders-2048x369.jpg",
+            "image_page_container": "page-width"
           }
         }
       },
@@ -385,11 +418,14 @@
       "disabled": true,
       "settings": {
         "heading": "VIDEO - Use MEDIBINS™ not non-compliant plastic bins",
-        "heading_size": "h1",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "enable_video_looping": false,
         "video_url": "https://youtu.be/0vtNGCmZ-yQ?si=vBueGVrcmnNkQb6i",
         "cover_image": "shopify://shop_images/maxresdefault_e72b4216-5dde-40ad-ab68-731685d0c282.webp",
         "description": "",
+        "video_btm_desc": "",
         "page_container": "full-width",
         "color_scheme": "",
         "padding_top": 36,
@@ -428,6 +464,7 @@
         "column_nNeReH",
         "column_nkh6Ah"
       ],
+      "disabled": true,
       "name": "Custom multicolumn",
       "settings": {
         "page_container": "page-width",
@@ -444,7 +481,8 @@
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "columns_desktop": "2",
         "box_shadow": true,
-        "image_auto_height": true,
+        "image_auto_height1": true,
+        "auto_width": false,
         "padding_top": 36,
         "padding_bottom": 36,
         "margin_top": 0,
@@ -483,6 +521,7 @@
         "column_mFDciL",
         "column_WjQKPp"
       ],
+      "disabled": true,
       "name": "Custom multicolumn",
       "settings": {
         "page_container": "page-width",
@@ -499,7 +538,8 @@
         "color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
         "columns_desktop": "2",
         "box_shadow": true,
-        "image_auto_height": true,
+        "image_auto_height1": true,
+        "auto_width": false,
         "padding_top": 36,
         "padding_bottom": 36,
         "margin_top": 0,
@@ -530,6 +570,7 @@
         "heading_7k6W3y",
         "text_nKTbA7"
       ],
+      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "content_alignment": "center",
@@ -548,13 +589,15 @@
         "image_wrXfQt": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/sterirack-clicknclip-coloured-label-holders-3-1536x299_2.jpg"
+            "image": "shopify://shop_images/sterirack-clicknclip-coloured-label-holders-3-1536x299_2.jpg",
+            "image_page_container": "page-width"
           }
         }
       },
       "block_order": [
         "image_wrXfQt"
       ],
+      "disabled": true,
       "name": "Image with no text",
       "settings": {
         "page_container": "page-width",

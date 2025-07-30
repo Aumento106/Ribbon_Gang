@@ -204,9 +204,9 @@
         "featured_collection_BF4bE9": {
           "type": "featured_collection",
           "settings": {
-            "categories_image": "shopify://shop_images/Standard-Sterirack-Baskets.jpg",
+            "categories_image": "shopify://shop_images/10025_SteriLoop_Basket_400x300x100h_FM_cart.png",
             "collection": "sterirack-baskets",
-            "card_text": "Choose a configuration of baskets and shelving to suit your application.",
+            "card_text": "",
             "button_card_text": "Learn more",
             "redirection_link": ""
           }

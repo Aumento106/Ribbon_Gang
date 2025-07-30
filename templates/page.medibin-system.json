@@ -153,7 +153,7 @@
           "settings": {
             "categories_image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
             "collection": "medibin-dividers",
-            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "card_text": "",
             "button_card_text": "Learn more",
             "redirection_link": ""
           }
@@ -163,7 +163,7 @@
           "settings": {
             "categories_image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
             "collection": "medibin-trolleys",
-            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "card_text": "",
             "button_card_text": "Learn more",
             "redirection_link": ""
           }

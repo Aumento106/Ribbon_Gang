@@ -652,7 +652,7 @@
       "name": "Multicolumn video",
       "settings": {
         "page_container": "page-width",
-        "title": "<p>Multicolumn Box</p>",
+        "title": "<p>Video gallery</p>",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
         "custom_font_weight": "300",

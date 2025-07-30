@@ -9,6 +9,35 @@
  */
 {
   "sections": {
+    "custom_page_banner_i6RpBt": {
+      "type": "custom-page-banner",
+      "blocks": {
+        "slide_6Jkbmn": {
+          "type": "slide",
+          "settings": {
+            "image_overlay_opacity": 0
+          }
+        },
+        "slide_Y7z8RD": {
+          "type": "slide",
+          "settings": {
+            "image_overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "slide_6Jkbmn",
+        "slide_Y7z8RD"
+      ],
+      "name": "Custom Page Banner",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "image_behavior": "none",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "disabled": true,
@@ -668,6 +697,7 @@
     }
   },
   "order": [
+    "custom_page_banner_i6RpBt",
     "banner",
     "page_banner_BXQVUB",
     "section_breadcrumb_nmUW87",

@@ -111,9 +111,9 @@
           "type": "featured_collection",
           "settings": {
             "categories_image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
-            "collection": "steriloop-medibin",
-            "card_text": "MEDIBINS™ are high quality, chrome finished, wire bins, available in six sizes.",
-            "button_card_text": "Shop now",
+            "collection": "tm-medibins™",
+            "card_text": "",
+            "button_card_text": "Learn more",
             "redirection_link": "shopify://products/medibins™"
           }
         },
@@ -122,7 +122,7 @@
           "settings": {
             "categories_image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
             "collection": "medibin-panels",
-            "card_text": "MEDIBIN™ Panels are attached to a wall to accommodate MEDIBINS™.",
+            "card_text": "",
             "button_card_text": "Learn more",
             "redirection_link": ""
           }

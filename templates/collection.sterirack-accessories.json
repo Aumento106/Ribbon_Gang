@@ -32,8 +32,8 @@
         "text_PqEYCz": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your page information.</p>",
-            "text_alignment": "center"
+            "text": "<p>Content to go here</p>",
+            "text_alignment": "left"
           }
         }
       },

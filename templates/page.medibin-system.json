@@ -127,17 +127,6 @@
             "redirection_link": ""
           }
         },
-        "featured_collection_F9Q6w4": {
-          "type": "featured_collection",
-          "disabled": true,
-          "settings": {
-            "categories_image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
-            "collection": "medibin-freestanding-racks",
-            "card_text": "It is a long established fact that a reader",
-            "button_card_text": "Learn more",
-            "redirection_link": ""
-          }
-        },
         "featured_collection_eMKwDQ": {
           "type": "featured_collection",
           "settings": {
@@ -172,7 +161,6 @@
       "block_order": [
         "featured_collection_NkPVMK",
         "featured_collection_ant9n7",
-        "featured_collection_F9Q6w4",
         "featured_collection_eMKwDQ",
         "featured_collection_TtYFqg",
         "featured_collection_JNdDid"

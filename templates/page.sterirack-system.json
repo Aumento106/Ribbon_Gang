@@ -211,14 +211,14 @@
             "redirection_link": ""
           }
         },
-        "featured_collection_zk8byR": {
+        "featured_collection_kNDbN9": {
           "type": "featured_collection",
           "settings": {
             "categories_image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
-            "collection": "sterirack-pharmacy-drawers",
+            "collection": "sterirack-accessories",
             "card_text": "",
             "button_card_text": "Learn more",
-            "redirection_link": "shopify://pages/pharmacy-drawers"
+            "redirection_link": ""
           }
         },
         "featured_collection_qpt6gM": {
@@ -229,6 +229,16 @@
             "card_text": "",
             "button_card_text": "Learn more",
             "redirection_link": ""
+          }
+        },
+        "featured_collection_zk8byR": {
+          "type": "featured_collection",
+          "settings": {
+            "categories_image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "collection": "sterirack-pharmacy-drawers",
+            "card_text": "",
+            "button_card_text": "Learn more",
+            "redirection_link": "shopify://pages/pharmacy-drawers"
           }
         },
         "featured_collection_JyFg6G": {
@@ -290,30 +300,20 @@
             "button_card_text": "Learn more",
             "redirection_link": ""
           }
-        },
-        "featured_collection_kNDbN9": {
-          "type": "featured_collection",
-          "settings": {
-            "categories_image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
-            "collection": "sterirack-accessories",
-            "card_text": "",
-            "button_card_text": "Learn more",
-            "redirection_link": ""
-          }
         }
       },
       "block_order": [
         "featured_collection_jYRxp4",
         "featured_collection_BF4bE9",
-        "featured_collection_zk8byR",
+        "featured_collection_kNDbN9",
         "featured_collection_qpt6gM",
+        "featured_collection_zk8byR",
         "featured_collection_JyFg6G",
         "featured_collection_wDAjpL",
         "featured_collection_xdfVym",
         "featured_collection_diBUE4",
         "featured_collection_wYritT",
-        "featured_collection_Dd8cQx",
-        "featured_collection_kNDbN9"
+        "featured_collection_Dd8cQx"
       ],
       "settings": {
         "title": "",

@@ -131,12 +131,12 @@
             "redirection_link": ""
           }
         },
-        "featured_collection_jtRiJK": {
+        "featured_collection_TcYQVN": {
           "type": "featured_collection",
           "settings": {
-            "categories_image": "shopify://shop_images/23-thumbnail-pbfvnz25sr6hr2fzddock32jcenv1hyhx1k0636gbk.jpg",
-            "collection": "sterirack-colour-coding-waterfall-label-holders",
-            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "categories_image": "shopify://shop_images/sterirack-post-strips.jpg",
+            "collection": "sterirack-colour-coding-post-strips",
+            "card_text": "",
             "button_card_text": "Learn more",
             "redirection_link": ""
           }
@@ -151,12 +151,13 @@
             "redirection_link": ""
           }
         },
-        "featured_collection_TcYQVN": {
+        "featured_collection_jtRiJK": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
-            "categories_image": "shopify://shop_images/sterirack-post-strips.jpg",
-            "collection": "sterirack-colour-coding-post-strips",
-            "card_text": "Use colour psychology to facilitate best practice categorisation and retrieval protocols.",
+            "categories_image": "shopify://shop_images/23-thumbnail-pbfvnz25sr6hr2fzddock32jcenv1hyhx1k0636gbk.jpg",
+            "collection": "sterirack-colour-coding-waterfall-label-holders",
+            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
             "button_card_text": "Learn more",
             "redirection_link": ""
           }
@@ -174,9 +175,9 @@
       },
       "block_order": [
         "featured_collection_m4aNRE",
-        "featured_collection_jtRiJK",
-        "featured_collection_kFcGGX",
         "featured_collection_TcYQVN",
+        "featured_collection_kFcGGX",
+        "featured_collection_jtRiJK",
         "featured_collection_3hM6pA"
       ],
       "settings": {

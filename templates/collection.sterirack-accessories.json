@@ -79,8 +79,8 @@
         "full_width": true,
         "content_width": "full_width",
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
-        "padding_top": 30,
-        "padding_bottom": 30
+        "padding_top": 80,
+        "padding_bottom": 40
       }
     },
     "multicolumn_video_peTRRF": {
@@ -129,7 +129,7 @@
         "box_shadow": true,
         "box_auto_height1": true,
         "box_color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
-        "padding_top": 36,
+        "padding_top": 60,
         "padding_bottom": 36
       }
     },

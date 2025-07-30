@@ -9,6 +9,35 @@
  */
 {
   "sections": {
+    "custom_page_banner_aLHnLR": {
+      "type": "custom-page-banner",
+      "blocks": {
+        "slide_Nhaabm": {
+          "type": "slide",
+          "settings": {
+            "image_overlay_opacity": 0
+          }
+        },
+        "slide_VwQNAN": {
+          "type": "slide",
+          "settings": {
+            "image_overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "slide_Nhaabm",
+        "slide_VwQNAN"
+      ],
+      "name": "Custom Page Banner",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "large",
+        "image_behavior": "none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "disabled": true,
@@ -21,14 +50,6 @@
     "page_banner_BXQVUB": {
       "type": "page-banner",
       "blocks": {
-        "image_DYVqDA": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Mattress-storage-2-1536x922.png",
-            "border_radius": false,
-            "image_height": "small"
-          }
-        },
         "heading_nhBt8y": {
           "type": "heading",
           "disabled": true,
@@ -50,7 +71,6 @@
         }
       },
       "block_order": [
-        "image_DYVqDA",
         "heading_nhBt8y",
         "text_G6e3Nj"
       ],
@@ -61,16 +81,6 @@
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "padding_top": 0,
         "padding_bottom": 0
-      }
-    },
-    "section_breadcrumb_nmUW87": {
-      "type": "section-breadcrumb",
-      "settings": {
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 30,
-        "mobile_padding_top": 30,
-        "mobile_padding_bottom": 30
       }
     },
     "page_banner_h7fUHA": {
@@ -89,8 +99,8 @@
         "text_hG6cTR": {
           "type": "text",
           "settings": {
-            "text": "<h3>Practical, vertical storage for greater infection control</h3>",
-            "text_alignment": "center"
+            "text": "<p>Practical, vertical storage for greater infection control</p>",
+            "text_alignment": "left"
           }
         }
       },
@@ -465,7 +475,9 @@
       "type": "video",
       "settings": {
         "heading": "",
-        "heading_size": "h1",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "enable_video_looping": false,
         "video_url": "https://youtu.be/4epjvsmhI-k?si=z2OSqyiFPMZsb4UZ",
         "cover_image": "shopify://shop_images/maxresdefault_e72b4216-5dde-40ad-ab68-731685d0c282.webp",
@@ -584,9 +596,9 @@
     }
   },
   "order": [
+    "custom_page_banner_aLHnLR",
     "banner",
     "page_banner_BXQVUB",
-    "section_breadcrumb_nmUW87",
     "page_banner_h7fUHA",
     "product-grid",
     "image_with_text_v1_BFJ64b",

@@ -129,6 +129,7 @@
         },
         "featured_collection_F9Q6w4": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "categories_image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
             "collection": "medibin-freestanding-racks",
@@ -189,7 +190,7 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 60,
-        "padding_bottom": 36
+        "padding_bottom": 60
       }
     },
     "product_catalog_W3r7Xn": {

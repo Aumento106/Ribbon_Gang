@@ -214,9 +214,9 @@
         "featured_collection_zk8byR": {
           "type": "featured_collection",
           "settings": {
-            "categories_image": "shopify://shop_images/03-Steriack-Pharmacy-v2.jpg",
+            "categories_image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
             "collection": "sterirack-pharmacy-drawers",
-            "card_text": "Creating an all-in-one fully integrated medications storage solution for Pharmacies and Healthcare.",
+            "card_text": "",
             "button_card_text": "Learn more",
             "redirection_link": "shopify://pages/pharmacy-drawers"
           }

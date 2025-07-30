@@ -15,12 +15,14 @@
         "slide_Nhaabm": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
             "image_overlay_opacity": 0
           }
         },
         "slide_VwQNAN": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/winding-road-covered-in-autumn-trees.jpg",
             "image_overlay_opacity": 0
           }
         }

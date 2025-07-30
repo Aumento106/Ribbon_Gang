@@ -298,12 +298,12 @@
       "name": "Benefits",
       "settings": {
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
-        "container_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "container_color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
         "icon_bg_color": "#424242",
         "container_padding_top": 24,
         "container_padding_bottom": 24,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 60,
+        "padding_bottom": 80
       }
     },
     "multicolumn_video_RR9UW7": {
@@ -968,7 +968,6 @@
         "column_V6ikKF",
         "column_xgxmRW"
       ],
-      "disabled": true,
       "name": "Questions To Ask",
       "settings": {
         "title": "Questions to ask yourself",

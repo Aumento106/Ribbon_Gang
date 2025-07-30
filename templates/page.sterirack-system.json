@@ -196,7 +196,7 @@
           "settings": {
             "categories_image": "shopify://shop_images/22476_Shelving_1_cart.png",
             "collection": "sterirack-shelving",
-            "card_text": "Remove this?",
+            "card_text": "",
             "button_card_text": "Learn more",
             "redirection_link": ""
           }

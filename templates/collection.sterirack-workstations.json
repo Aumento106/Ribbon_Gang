@@ -265,6 +265,47 @@
         "padding_bottom": 36
       }
     },
+    "benefits_AtVcr6": {
+      "type": "benefits",
+      "blocks": {
+        "benefit_bqwDGV": {
+          "type": "benefit",
+          "settings": {
+            "heading": "<p>We consult</p>",
+            "text": "<p>How we consult blurb to go here</p>"
+          }
+        },
+        "benefit_EmtVix": {
+          "type": "benefit",
+          "settings": {
+            "heading": "<p>We design</p>",
+            "text": "<p>How we design blurb to go here</p>"
+          }
+        },
+        "benefit_LtVPKz": {
+          "type": "benefit",
+          "settings": {
+            "heading": "<p>We deliver</p>",
+            "text": "<p>We deliver blurb to go here</p>"
+          }
+        }
+      },
+      "block_order": [
+        "benefit_bqwDGV",
+        "benefit_EmtVix",
+        "benefit_LtVPKz"
+      ],
+      "name": "Benefits",
+      "settings": {
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "container_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "icon_bg_color": "#424242",
+        "container_padding_top": 24,
+        "container_padding_bottom": 24,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "multicolumn_video_RR9UW7": {
       "type": "multicolumn-video",
       "blocks": {
@@ -938,47 +979,6 @@
         "bottom_description": "If you said ‘No’ to any of these questions your current storage system may be out-of-date or non-compliant, and STERIRACK® System is likely the perfect solution for you",
         "color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6"
       }
-    },
-    "benefits_AtVcr6": {
-      "type": "benefits",
-      "blocks": {
-        "benefit_bqwDGV": {
-          "type": "benefit",
-          "settings": {
-            "heading": "<p>We consult</p>",
-            "text": "<p>How we consult blurb to go here</p>"
-          }
-        },
-        "benefit_EmtVix": {
-          "type": "benefit",
-          "settings": {
-            "heading": "<p>We design</p>",
-            "text": "<p>How we design blurb to go here</p>"
-          }
-        },
-        "benefit_LtVPKz": {
-          "type": "benefit",
-          "settings": {
-            "heading": "<p>We deliver</p>",
-            "text": "<p>We deliver blurb to go here</p>"
-          }
-        }
-      },
-      "block_order": [
-        "benefit_bqwDGV",
-        "benefit_EmtVix",
-        "benefit_LtVPKz"
-      ],
-      "name": "Benefits",
-      "settings": {
-        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
-        "container_color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
-        "icon_bg_color": "#424242",
-        "container_padding_top": 24,
-        "container_padding_bottom": 24,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -987,6 +987,7 @@
     "page_banner_ntmMYU",
     "product-grid",
     "custom_multicolumn_text_QKXKe6",
+    "benefits_AtVcr6",
     "multicolumn_video_RR9UW7",
     "rich_text_yeDbtX",
     "collage_J6UFCH",
@@ -1005,7 +1006,6 @@
     "image_with_no_text_VYdwDB",
     "image_with_no_text_cK7mdR",
     "image_with_no_text_3tfL7U",
-    "question_ans_dF9xTW",
-    "benefits_AtVcr6"
+    "question_ans_dF9xTW"
   ]
 }

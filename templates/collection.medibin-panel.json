@@ -9,13 +9,35 @@
  */
 {
   "sections": {
-    "banner": {
-      "type": "main-collection-banner",
-      "disabled": true,
+    "custom_page_banner_tWEXbP": {
+      "type": "custom-page-banner",
+      "blocks": {
+        "slide_3qUePw": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image_overlay_opacity": 0
+          }
+        },
+        "slide_HxEA7U": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/winding-road-covered-in-autumn-trees.jpg",
+            "image_overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "slide_3qUePw",
+        "slide_HxEA7U"
+      ],
+      "name": "Custom Page Banner",
       "settings": {
-        "show_collection_description": true,
-        "show_collection_image": false,
-        "color_scheme": "scheme-1"
+        "layout": "full_bleed",
+        "slide_height": "large",
+        "image_behavior": "none",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "page_banner_BXQVUB": {
@@ -70,6 +92,15 @@
         "padding_bottom": 30,
         "mobile_padding_top": 30,
         "mobile_padding_bottom": 30
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "scheme-1"
       }
     },
     "product-grid": {
@@ -440,6 +471,7 @@
         "row_DBmyBa",
         "row_Xjx7aT"
       ],
+      "disabled": true,
       "name": "dimension-table",
       "settings": {
         "description": "Description",
@@ -510,6 +542,7 @@
         "row_JVwNwK",
         "row_G9jUxV"
       ],
+      "disabled": true,
       "name": "dimension-table",
       "settings": {
         "description": "Description",
@@ -521,6 +554,7 @@
     },
     "video_WiiXtp": {
       "type": "video",
+      "disabled": true,
       "name": "t:sections.video.presets.name",
       "settings": {
         "heading": "<strong>VIDEO - Use MEDIBINS™ not non-compliant plastic bins</strong>",
@@ -538,42 +572,62 @@
         "padding_bottom": 36
       }
     },
-    "custom_page_banner_tWEXbP": {
-      "type": "custom-page-banner",
+    "multicolumn_video_pkJXQ3": {
+      "type": "multicolumn-video",
       "blocks": {
-        "slide_3qUePw": {
-          "type": "slide",
+        "column_NiHYKb": {
+          "type": "column",
           "settings": {
-            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
-            "image_overlay_opacity": 0
+            "enable_video_looping": false,
+            "title": "Box title",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>"
           }
         },
-        "slide_HxEA7U": {
-          "type": "slide",
+        "column_KKzLgW": {
+          "type": "column",
           "settings": {
-            "image": "shopify://shop_images/winding-road-covered-in-autumn-trees.jpg",
-            "image_overlay_opacity": 0
+            "enable_video_looping": false,
+            "title": "Box title",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>"
+          }
+        },
+        "column_Gki6Vw": {
+          "type": "column",
+          "settings": {
+            "enable_video_looping": false,
+            "title": "Box title",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>"
           }
         }
       },
       "block_order": [
-        "slide_3qUePw",
-        "slide_HxEA7U"
+        "column_NiHYKb",
+        "column_KKzLgW",
+        "column_Gki6Vw"
       ],
-      "name": "Custom Page Banner",
+      "name": "Multicolumn video",
       "settings": {
-        "layout": "full_bleed",
-        "slide_height": "large",
-        "image_behavior": "none",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "page_container": "page-width",
+        "title": "<p>Video gallery</p>",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "300",
+        "title_alignment": "center",
+        "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
+        "columns_desktop": "3",
+        "box_shadow": true,
+        "box_auto_height1": true,
+        "box_color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
-    "banner",
+    "custom_page_banner_tWEXbP",
     "page_banner_BXQVUB",
     "section_breadcrumb_nmUW87",
+    "banner",
     "product-grid",
     "product_catalog_xdFqLr",
     "product_list_aMiAGg",
@@ -584,6 +638,6 @@
     "dimension_table_A6GeUe",
     "dimension_table_M7RpQG",
     "video_WiiXtp",
-    "custom_page_banner_tWEXbP"
+    "multicolumn_video_pkJXQ3"
   ]
 }

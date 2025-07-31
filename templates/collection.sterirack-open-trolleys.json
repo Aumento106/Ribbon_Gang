@@ -49,48 +49,6 @@
         "color_scheme": "scheme-1"
       }
     },
-    "page_banner_BXQVUB": {
-      "type": "page-banner",
-      "blocks": {
-        "heading_nhBt8y": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>STERIRACK® Open Trolleys</strong>",
-            "custom_heading_size": 52,
-            "mobile_custom_heading_size": 28,
-            "custom_font_weight": "400",
-            "heading_alignment": "center"
-          }
-        },
-        "caption_H4JVBB": {
-          "type": "caption",
-          "settings": {
-            "caption": "<h2><strong>Superior quality. Best practice. Custom configured to suit.</strong></h2>",
-            "caption_alignment": "center"
-          }
-        },
-        "text_G6e3Nj": {
-          "type": "text",
-          "settings": {
-            "text": "<p>STERIRACK® System includes a range of Medical Trolleys that fully integrate, sharing the same baskets, shelving and other accessories used in STERIRACK® room installations or stand-alone modules, benches and workstations.</p><p>For the ultimate in efficiency, best practice and infection control you simply can’t go past STERIRACK®, the revolutionary, fully integrated healthcare storage system. Put simply, our flagship STERIRACK® System is a game changer, worldwide.<br/><br/></p>",
-            "text_alignment": "center"
-          }
-        }
-      },
-      "block_order": [
-        "heading_nhBt8y",
-        "caption_H4JVBB",
-        "text_G6e3Nj"
-      ],
-      "settings": {
-        "title_alignment": "center",
-        "full_width": true,
-        "content_width": "full_width",
-        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
-        "padding_top": 72,
-        "padding_bottom": 72
-      }
-    },
     "section_breadcrumb_nmUW87": {
       "type": "section-breadcrumb",
       "disabled": true,
@@ -411,10 +369,10 @@
         "heading_EpNNpr": {
           "type": "heading",
           "settings": {
-            "heading": "Banner Title",
+            "heading": "{{ collection.title }}",
             "custom_heading_size": 52,
             "mobile_custom_heading_size": 28,
-            "custom_font_weight": "400",
+            "custom_font_weight": "600",
             "heading_alignment": "center"
           }
         },
@@ -460,12 +418,61 @@
         "padding_top": 80,
         "padding_bottom": 40
       }
+    },
+    "multicolumn_video_Qfftkc": {
+      "type": "multicolumn-video",
+      "blocks": {
+        "column_r3F6ah": {
+          "type": "column",
+          "settings": {
+            "enable_video_looping": false,
+            "title": "Box title",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>"
+          }
+        },
+        "column_4dMHrh": {
+          "type": "column",
+          "settings": {
+            "enable_video_looping": false,
+            "title": "Box title",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>"
+          }
+        },
+        "column_wEtTC8": {
+          "type": "column",
+          "settings": {
+            "enable_video_looping": false,
+            "title": "Box title",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "column_r3F6ah",
+        "column_4dMHrh",
+        "column_wEtTC8"
+      ],
+      "name": "Multicolumn video",
+      "settings": {
+        "page_container": "page-width",
+        "title": "<p>Video gallery</p>",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
+        "title_alignment": "center",
+        "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
+        "columns_desktop": "3",
+        "box_shadow": true,
+        "box_auto_height1": true,
+        "box_color_scheme": "",
+        "padding_top": 60,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "custom_page_banner_PFpPwD",
     "banner",
-    "page_banner_BXQVUB",
     "section_breadcrumb_nmUW87",
     "product-grid",
     "product_catalog_xdFqLr",
@@ -474,6 +481,7 @@
     "rich_text_CqT3jr",
     "image_with_no_text_UUP4dk",
     "video_E7wm9f",
-    "page_banner_QJy7dF"
+    "page_banner_QJy7dF",
+    "multicolumn_video_Qfftkc"
   ]
 }

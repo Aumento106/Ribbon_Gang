@@ -415,7 +415,7 @@
           "type": "column",
           "settings": {
             "enable_video_looping": false,
-            "title": "Box title",
+            "title": "Video title",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>"
           }
         },
@@ -423,7 +423,7 @@
           "type": "column",
           "settings": {
             "enable_video_looping": false,
-            "title": "Box title",
+            "title": "Video title",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>"
           }
         },
@@ -431,7 +431,7 @@
           "type": "column",
           "settings": {
             "enable_video_looping": false,
-            "title": "Box title",
+            "title": "Video title",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>"
           }
         }

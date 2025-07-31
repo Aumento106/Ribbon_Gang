@@ -24,23 +24,31 @@
         "heading_nhBt8y": {
           "type": "heading",
           "settings": {
-            "heading": "MEDIBIN™ Panels",
+            "heading": "{{ collection.title }}",
             "custom_heading_size": 52,
             "mobile_custom_heading_size": 28,
-            "custom_font_weight": "400",
+            "custom_font_weight": "600",
             "heading_alignment": "center"
+          }
+        },
+        "caption_fPciET": {
+          "type": "caption",
+          "settings": {
+            "caption": "<p>Add caption here</p>",
+            "caption_alignment": "center"
           }
         },
         "text_G6e3Nj": {
           "type": "text",
           "settings": {
-            "text": "<p>MEDIBIN™ Panels are attached to a wall to accommodate MEDIBINS™, or are used in the construction of MEDIBIN™ PPE Trolleys.</p><p>MEDIBIN™ Panels are available in five sizes to enable maximum use of storage space and is easily mounted to all wall surfaces.</p><p>Buffers raise the panels off the wall surface for additional hygiene protection.</p><p>Also available in a size to accommodate one single medium-size MEDIBIN™ beside each hospital bed.</p><p>MEDIBIN™ Panel pricing does not include MEDIBINS™.</p>",
-            "text_alignment": "center"
+            "text": "<p>MEDIBIN™ Panels are attached to a wall to accommodate MEDIBINS™, or are used in the construction of MEDIBIN™ PPE Trolleys. MEDIBIN™ Panels are available in five sizes to enable maximum use of storage space and is easily mounted to all wall surfaces. Buffers raise the panels off the wall surface for additional hygiene protection.</p><p>Also available in a size to accommodate one single medium-size MEDIBIN™ beside each hospital bed.</p>",
+            "text_alignment": "left"
           }
         }
       },
       "block_order": [
         "heading_nhBt8y",
+        "caption_fPciET",
         "text_G6e3Nj"
       ],
       "settings": {
@@ -48,8 +56,8 @@
         "full_width": true,
         "content_width": "full_width",
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
-        "padding_top": 72,
-        "padding_bottom": 72
+        "padding_top": 80,
+        "padding_bottom": 40
       }
     },
     "section_breadcrumb_nmUW87": {

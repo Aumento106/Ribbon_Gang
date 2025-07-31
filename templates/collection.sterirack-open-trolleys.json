@@ -9,6 +9,37 @@
  */
 {
   "sections": {
+    "custom_page_banner_PFpPwD": {
+      "type": "custom-page-banner",
+      "blocks": {
+        "slide_Y9xCH7": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image_overlay_opacity": 0
+          }
+        },
+        "slide_GnMafD": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/winding-road-covered-in-autumn-trees.jpg",
+            "image_overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "slide_Y9xCH7",
+        "slide_GnMafD"
+      ],
+      "name": "Custom Page Banner",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "large",
+        "image_behavior": "none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "disabled": true,
@@ -62,6 +93,7 @@
     },
     "section_breadcrumb_nmUW87": {
       "type": "section-breadcrumb",
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "padding_top": 30,
@@ -72,9 +104,11 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "disabled": true,
       "settings": {
         "hide_price": true,
         "hide_sold_out": true,
+        "hide_save": false,
         "products_per_page": 20,
         "columns_desktop": 4,
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
@@ -329,7 +363,8 @@
         "image_Qpy3NK": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/MEDIBIN-standard-label-holders-2048x369.jpg"
+            "image": "shopify://shop_images/MEDIBIN-standard-label-holders-2048x369.jpg",
+            "image_page_container": "page-width"
           }
         }
       },
@@ -338,9 +373,14 @@
       ],
       "disabled": true,
       "settings": {
+        "page_container": "full-width",
         "title": "",
-        "heading_size": "h1",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "heading_alignment": "center",
+        "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
+        "text_content_alignment": "center",
         "color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
         "padding_top": 36,
         "padding_bottom": 36
@@ -351,19 +391,79 @@
       "disabled": true,
       "settings": {
         "heading": "VIDEO - Use MEDIBINS™ not non-compliant plastic bins",
-        "heading_size": "h1",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "enable_video_looping": false,
         "video_url": "https://youtu.be/0vtNGCmZ-yQ?si=vBueGVrcmnNkQb6i",
         "cover_image": "shopify://shop_images/maxresdefault_e72b4216-5dde-40ad-ab68-731685d0c282.webp",
         "description": "",
-        "full_width": false,
+        "video_btm_desc": "",
+        "page_container": "full-width",
         "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "page_banner_QJy7dF": {
+      "type": "page-banner",
+      "blocks": {
+        "heading_EpNNpr": {
+          "type": "heading",
+          "settings": {
+            "heading": "Banner Title",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400",
+            "heading_alignment": "center"
+          }
+        },
+        "caption_yiAdVc": {
+          "type": "caption",
+          "settings": {
+            "caption": "<p>Add caption here</p>",
+            "caption_alignment": "center"
+          }
+        },
+        "text_Jbd4Uf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your page information.</p>",
+            "text_alignment": "left"
+          }
+        },
+        "button_denNzJ": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "button_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "heading_EpNNpr",
+        "caption_yiAdVc",
+        "text_Jbd4Uf",
+        "button_denNzJ"
+      ],
+      "name": "Page Banner",
+      "settings": {
+        "title_alignment": "center",
+        "full_width": true,
+        "content_width": "full_width",
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "padding_top": 80,
+        "padding_bottom": 40
+      }
     }
   },
   "order": [
+    "custom_page_banner_PFpPwD",
     "banner",
     "page_banner_BXQVUB",
     "section_breadcrumb_nmUW87",
@@ -373,6 +473,7 @@
     "dimension_table_cR8mFy",
     "rich_text_CqT3jr",
     "image_with_no_text_UUP4dk",
-    "video_E7wm9f"
+    "video_E7wm9f",
+    "page_banner_QJy7dF"
   ]
 }

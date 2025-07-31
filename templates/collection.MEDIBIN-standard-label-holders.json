@@ -11,6 +11,7 @@
   "sections": {
     "section_breadcrumb_nmUW87": {
       "type": "section-breadcrumb",
+      "disabled": true,
       "name": "Breadcrumb",
       "settings": {
         "color_scheme": "",
@@ -35,23 +36,31 @@
         "heading_nhBt8y": {
           "type": "heading",
           "settings": {
-            "heading": "MEDIBIN™ Standard Label Holders",
+            "heading": "{{ collection.title }}",
             "custom_heading_size": 52,
             "mobile_custom_heading_size": 28,
-            "custom_font_weight": "400",
+            "custom_font_weight": "600",
             "heading_alignment": "center"
+          }
+        },
+        "caption_68hiWc": {
+          "type": "caption",
+          "settings": {
+            "caption": "<p>Add caption here</p>",
+            "caption_alignment": "center"
           }
         },
         "text_G6e3Nj": {
           "type": "text",
           "settings": {
-            "text": "<p>Vastly improve the efficiency of your ward and implement best practice search and retrieval protocols using STERIRACK® Click ‘n’ Clip Coloured Label Holders.</p><ul><li>Now available for STERIRACK® System racking, shelving and baskets, as well as STERIRACK® Trolleys and Carts</li><li>An innovation brought to you by the SpaceLogic design team and inspired by feedback from our healthcare colleagues all over Australia</li><li>Innovative Click ‘n’ Clip Coloured Label Holders click together both vertically and horizontally, and clip to the front of STERIRACK® baskets and shelving</li><li>Use colour psychology to facilitate best practice categorisation and retrieval protocols, or simply colour co-ordinate to suit your decor</li><li>Available in 13 great colours</li><li>Post strips are also available in the same great colour range</li><li>Check out the videos below to see how hospitals are slashing the time their nurses spend hunting through storerooms</li></ul><p>Label size: 80mmW x 40mmH. Label holders come with accompanying cardboard and plastic inserts.</p>",
-            "text_alignment": "center"
+            "text": "<p>Text to go here.</p>",
+            "text_alignment": "left"
           }
         }
       },
       "block_order": [
         "heading_nhBt8y",
+        "caption_68hiWc",
         "text_G6e3Nj"
       ],
       "settings": {
@@ -59,8 +68,8 @@
         "full_width": true,
         "content_width": "full_width",
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
-        "padding_top": 72,
-        "padding_bottom": 72
+        "padding_top": 80,
+        "padding_bottom": 40
       }
     },
     "product-grid": {
@@ -87,7 +96,7 @@
         "filter_type": "horizontal",
         "enable_sorting": true,
         "columns_mobile": "2",
-        "padding_top": 72,
+        "padding_top": 60,
         "padding_bottom": 36
       }
     },
@@ -356,7 +365,9 @@
       "name": "t:sections.video.presets.name",
       "settings": {
         "heading": "VIDEO - Use MEDIBINS™ not non-compliant plastic bins",
-        "heading_size": "h1",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "enable_video_looping": false,
         "video_url": "https://youtu.be/0vtNGCmZ-yQ?si=vBueGVrcmnNkQb6i",
         "cover_image": "shopify://shop_images/maxresdefault_e72b4216-5dde-40ad-ab68-731685d0c282.webp",
@@ -392,6 +403,7 @@
         "heading_n8pqAY",
         "text_THn7LF"
       ],
+      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "content_alignment": "center",
@@ -418,6 +430,7 @@
       "block_order": [
         "image_9h7qzV"
       ],
+      "disabled": true,
       "name": "Image with no text",
       "settings": {
         "page_container": "full-width",
@@ -461,6 +474,7 @@
         "column_8byWTa",
         "column_FQc8pT"
       ],
+      "disabled": true,
       "name": "Multicolumn video",
       "settings": {
         "page_container": "page-width",
@@ -472,7 +486,7 @@
         "color_scheme": "",
         "columns_desktop": "2",
         "box_shadow": true,
-        "box_auto_height": true,
+        "box_auto_height1": true,
         "box_color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
@@ -627,6 +641,7 @@
         "row_DxzjcW",
         "row_9UhWnj"
       ],
+      "disabled": true,
       "name": "dimension-table",
       "settings": {
         "description": "Color",

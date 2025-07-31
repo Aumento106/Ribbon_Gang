@@ -9,6 +9,92 @@
  */
 {
   "sections": {
+    "custom_page_banner_hAg9JQ": {
+      "type": "custom-page-banner",
+      "blocks": {
+        "slide_xXn9jq": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image_overlay_opacity": 0
+          }
+        },
+        "slide_MMW69j": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image_overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "slide_xXn9jq",
+        "slide_MMW69j"
+      ],
+      "name": "Custom Page Banner",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "large",
+        "image_behavior": "none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "page_banner_BXQVUB": {
+      "type": "page-banner",
+      "blocks": {
+        "heading_nhBt8y": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ collection.title }}",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "600",
+            "heading_alignment": "center"
+          }
+        },
+        "caption_9hQiRX": {
+          "type": "caption",
+          "settings": {
+            "caption": "<p>Add caption here</p>",
+            "caption_alignment": "center"
+          }
+        },
+        "text_G6e3Nj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The healthcare sector is committed to better standards, best practice and the ultimate in infection control. That’s why closed-in, dust-gathering joinery and cabinetry is now an outdated system for shelving and baskets. To provide our clients with the ultimate solution, SpaceLogic has designed STERIRACK® Carts, providing the perfect solution for practices striving for the highest standard. Ideal solution for transporting sterile goods within hospitals, and from hospital to hospital.<br/><br/></p>",
+            "text_alignment": "left"
+          }
+        },
+        "button_pqdxFX": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contact a consultant",
+            "button_link": "shopify://pages/contact",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "button_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nhBt8y",
+        "caption_9hQiRX",
+        "text_G6e3Nj",
+        "button_pqdxFX"
+      ],
+      "settings": {
+        "title_alignment": "center",
+        "full_width": true,
+        "content_width": "full_width",
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "padding_top": 80,
+        "padding_bottom": 40
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "disabled": true,
@@ -18,42 +104,9 @@
         "color_scheme": "scheme-1"
       }
     },
-    "page_banner_BXQVUB": {
-      "type": "page-banner",
-      "blocks": {
-        "heading_nhBt8y": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>STERIRACK® Enclosed Carts</strong>",
-            "custom_heading_size": 52,
-            "mobile_custom_heading_size": 28,
-            "custom_font_weight": "400",
-            "heading_alignment": "center"
-          }
-        },
-        "text_G6e3Nj": {
-          "type": "text",
-          "settings": {
-            "text": "<p>The healthcare sector is committed to better standards, best practice and the ultimate in infection control. That’s why closed-in, dust-gathering joinery and cabinetry is now an outdated system for shelving and baskets. To provide our clients with the ultimate solution, SpaceLogic has designed STERIRACK® Carts, providing the perfect solution for practices striving for the highest standard. Ideal solution for transporting sterile goods within hospitals, and from hospital to hospital.<br/><br/></p>",
-            "text_alignment": "center"
-          }
-        }
-      },
-      "block_order": [
-        "heading_nhBt8y",
-        "text_G6e3Nj"
-      ],
-      "settings": {
-        "title_alignment": "center",
-        "full_width": true,
-        "content_width": "full_width",
-        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
-        "padding_top": 72,
-        "padding_bottom": 72
-      }
-    },
     "section_breadcrumb_nmUW87": {
       "type": "section-breadcrumb",
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "padding_top": 30,
@@ -64,6 +117,7 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "disabled": true,
       "settings": {
         "hide_price": true,
         "hide_sold_out": true,
@@ -348,6 +402,7 @@
     },
     "video_E7wm9f": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "heading": "VIDEO - STERIRACK® Carts",
         "custom_heading_size": 45,
@@ -400,6 +455,7 @@
         "column_tefHkP",
         "column_qtPHHA"
       ],
+      "disabled": true,
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "Questions to ask yourself",
@@ -435,6 +491,7 @@
       "block_order": [
         "text_yebg9X"
       ],
+      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "content_alignment": "center",
@@ -449,8 +506,9 @@
     }
   },
   "order": [
-    "banner",
+    "custom_page_banner_hAg9JQ",
     "page_banner_BXQVUB",
+    "banner",
     "section_breadcrumb_nmUW87",
     "product-grid",
     "product_catalog_xdFqLr",

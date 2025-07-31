@@ -46,7 +46,7 @@
         "heading_9B9EPa": {
           "type": "heading",
           "settings": {
-            "heading": "Banner Title",
+            "heading": "{{ collection.title }}",
             "custom_heading_size": 52,
             "mobile_custom_heading_size": 28,
             "custom_font_weight": "600",

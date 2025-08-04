@@ -24,23 +24,31 @@
         "heading_nhBt8y": {
           "type": "heading",
           "settings": {
-            "heading": "MEDIBIN™ PPE Trolleys",
+            "heading": "{{ collection.title }}",
             "custom_heading_size": 52,
             "mobile_custom_heading_size": 28,
-            "custom_font_weight": "400",
+            "custom_font_weight": "600",
             "heading_alignment": "center"
+          }
+        },
+        "caption_pRting": {
+          "type": "caption",
+          "settings": {
+            "caption": "<p>Add caption here</p>",
+            "caption_alignment": "center"
           }
         },
         "text_G6e3Nj": {
           "type": "text",
           "settings": {
-            "text": "<p>During the COVID-19 pandemic these trolleys have been extremely popular, and are used as Emergency Response PPE Trolleys and for a variety of other uses. Choose from our existing range or have your own custom built in a configuration that suits you.</p><p>Constructed using a combination of <a href=\"https://spacelogicgroup.com/products/medibin-system/medibins/\">MEDIBINS</a>™ and STERIRACK®, these trolleys can be supplied with colored post strips and label holders in a range of 13 vibrant colors to suit your decor or consumables management protocols.</p>",
-            "text_alignment": "center"
+            "text": "<p>Text to go here.</p>",
+            "text_alignment": "left"
           }
         }
       },
       "block_order": [
         "heading_nhBt8y",
+        "caption_pRting",
         "text_G6e3Nj"
       ],
       "settings": {
@@ -52,14 +60,15 @@
         "padding_bottom": 72
       }
     },
-    "section_breadcrumb_nmUW87": {
+    "section_breadcrumb_qj3UGR": {
       "type": "section-breadcrumb",
+      "name": "Breadcrumb",
       "settings": {
         "color_scheme": "",
-        "padding_top": 30,
-        "padding_bottom": 30,
-        "mobile_padding_top": 30,
-        "mobile_padding_bottom": 30
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "mobile_padding_top": 20,
+        "mobile_padding_bottom": 20
       }
     },
     "product-grid": {
@@ -351,7 +360,9 @@
       "disabled": true,
       "settings": {
         "heading": "VIDEO - Use MEDIBINS™ not non-compliant plastic bins",
-        "heading_size": "h1",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "enable_video_looping": false,
         "video_url": "https://youtu.be/0vtNGCmZ-yQ?si=vBueGVrcmnNkQb6i",
         "cover_image": "shopify://shop_images/maxresdefault_e72b4216-5dde-40ad-ab68-731685d0c282.webp",
@@ -402,6 +413,7 @@
         "column_wyT73t",
         "column_ryjR4c"
       ],
+      "disabled": true,
       "name": "Custom multicolumn 2",
       "settings": {
         "title": "",
@@ -448,6 +460,7 @@
         "column_GaCyid",
         "column_RnrjFH"
       ],
+      "disabled": true,
       "name": "Multicolumn video",
       "settings": {
         "page_container": "page-width",
@@ -459,17 +472,70 @@
         "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
         "columns_desktop": "2",
         "box_shadow": true,
-        "box_auto_height": true,
+        "box_auto_height1": true,
         "box_color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "multicolumn_video_xBY9Lp": {
+      "type": "multicolumn-video",
+      "blocks": {
+        "column_WYmJaM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "enable_video_looping": false,
+            "title": "Video title",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>"
+          }
+        },
+        "column_GNUxLj": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "enable_video_looping": false,
+            "title": "Video title",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>"
+          }
+        },
+        "column_zRXcym": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "enable_video_looping": false,
+            "title": "Video title",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "column_WYmJaM",
+        "column_GNUxLj",
+        "column_zRXcym"
+      ],
+      "name": "Multicolumn video",
+      "settings": {
+        "page_container": "page-width",
+        "title": "<p>Video gallery</p>",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "300",
+        "title_alignment": "center",
+        "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
+        "columns_desktop": "3",
+        "box_shadow": true,
+        "box_auto_height1": true,
+        "box_color_scheme": "",
+        "padding_top": 60,
+        "padding_bottom": 80
       }
     }
   },
   "order": [
     "banner",
     "page_banner_BXQVUB",
-    "section_breadcrumb_nmUW87",
+    "section_breadcrumb_qj3UGR",
     "product-grid",
     "product_catalog_xdFqLr",
     "product_list_aMiAGg",
@@ -478,6 +544,7 @@
     "image_with_no_text_UUP4dk",
     "video_E7wm9f",
     "custom_multicolumn_2_MaHt4w",
-    "multicolumn_video_xCCqQQ"
+    "multicolumn_video_xCCqQQ",
+    "multicolumn_video_xBY9Lp"
   ]
 }

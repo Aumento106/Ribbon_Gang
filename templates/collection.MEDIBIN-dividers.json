@@ -15,12 +15,14 @@
         "slide_xbMgiP": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
             "image_overlay_opacity": 0
           }
         },
         "slide_UGEyEq": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/winding-road-covered-in-autumn-trees.jpg",
             "image_overlay_opacity": 0
           }
         }
@@ -36,6 +38,18 @@
         "image_behavior": "none",
         "padding_top": 0,
         "padding_bottom": 0
+      }
+    },
+    "page_banner_mkqkqk": {
+      "type": "page-banner",
+      "name": "Page Banner",
+      "settings": {
+        "title_alignment": "center",
+        "full_width": true,
+        "content_width": "full_width",
+        "color_scheme": "",
+        "padding_top": 30,
+        "padding_bottom": 30
       }
     },
     "banner": {
@@ -403,6 +417,7 @@
   },
   "order": [
     "custom_page_banner_YJ9jAY",
+    "page_banner_mkqkqk",
     "banner",
     "page_banner_BXQVUB",
     "product-grid",

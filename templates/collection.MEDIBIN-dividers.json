@@ -42,14 +42,45 @@
     },
     "page_banner_mkqkqk": {
       "type": "page-banner",
+      "blocks": {
+        "heading_jAm86f": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ collection.title }}",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "600",
+            "heading_alignment": "center"
+          }
+        },
+        "caption_Bzxqhc": {
+          "type": "caption",
+          "settings": {
+            "caption": "<p>Add caption here</p>",
+            "caption_alignment": "center"
+          }
+        },
+        "text_Wkhgee": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Text to go here.</p>",
+            "text_alignment": "left"
+          }
+        }
+      },
+      "block_order": [
+        "heading_jAm86f",
+        "caption_Bzxqhc",
+        "text_Wkhgee"
+      ],
       "name": "Page Banner",
       "settings": {
         "title_alignment": "center",
         "full_width": true,
         "content_width": "full_width",
-        "color_scheme": "",
-        "padding_top": 30,
-        "padding_bottom": 30
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "padding_top": 80,
+        "padding_bottom": 40
       }
     },
     "banner": {

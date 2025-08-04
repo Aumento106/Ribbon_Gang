@@ -103,6 +103,62 @@
         "padding_bottom": 40
       }
     },
+    "multicolumn_video_LNhnMx": {
+      "type": "multicolumn-video",
+      "blocks": {
+        "column_HQPaDq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "video_url": "",
+            "enable_video_looping": false,
+            "title": "Video title",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>"
+          }
+        },
+        "column_g6pAGK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "video_url": "",
+            "enable_video_looping": false,
+            "title": "Video title",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>"
+          }
+        },
+        "column_TLxrWK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "video_url": "",
+            "enable_video_looping": false,
+            "title": "Video title",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "column_HQPaDq",
+        "column_g6pAGK",
+        "column_TLxrWK"
+      ],
+      "name": "Multicolumn video",
+      "settings": {
+        "page_container": "page-width",
+        "title": "<p>Video gallery</p>",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "300",
+        "title_alignment": "center",
+        "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
+        "columns_desktop": "3",
+        "box_shadow": true,
+        "box_auto_height1": true,
+        "box_color_scheme": "",
+        "padding_top": 60,
+        "padding_bottom": 80
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -246,59 +302,6 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multicolumn_video_LNhnMx": {
-      "type": "multicolumn-video",
-      "blocks": {
-        "column_HQPaDq": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
-            "enable_video_looping": false,
-            "title": "Video title",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>"
-          }
-        },
-        "column_g6pAGK": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
-            "enable_video_looping": false,
-            "title": "Video title",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>"
-          }
-        },
-        "column_TLxrWK": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
-            "enable_video_looping": false,
-            "title": "Video title",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "column_HQPaDq",
-        "column_g6pAGK",
-        "column_TLxrWK"
-      ],
-      "name": "Multicolumn video",
-      "settings": {
-        "page_container": "page-width",
-        "title": "<p>Video gallery</p>",
-        "custom_heading_size": 52,
-        "mobile_custom_heading_size": 28,
-        "custom_font_weight": "300",
-        "title_alignment": "center",
-        "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
-        "columns_desktop": "3",
-        "box_shadow": true,
-        "box_auto_height1": true,
-        "box_color_scheme": "",
-        "padding_top": 60,
         "padding_bottom": 36
       }
     },
@@ -741,10 +744,10 @@
     "section_breadcrumb_nmUW87",
     "banner",
     "page_banner_BXQVUB",
+    "multicolumn_video_LNhnMx",
     "product-grid",
     "product_catalog_xdFqLr",
     "product_list_aMiAGg",
-    "multicolumn_video_LNhnMx",
     "dimension_table_cR8mFy",
     "rich_text_CqT3jr",
     "image_with_no_text_UUP4dk",

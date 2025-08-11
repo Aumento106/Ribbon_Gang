@@ -1,0 +1,190 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "custom_page_banner_DQT7cB": {
+      "type": "custom-page-banner",
+      "blocks": {
+        "slide_Cy3Kid": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image_overlay_opacity": 0
+          }
+        },
+        "slide_QRC7HD": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/winding-road-covered-in-autumn-trees.jpg",
+            "image_overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "slide_Cy3Kid",
+        "slide_QRC7HD"
+      ],
+      "name": "TF Custom Page Slideshow",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "large",
+        "image_behavior": "none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "page_banner_kqtpn4": {
+      "type": "page-banner",
+      "blocks": {
+        "heading_GXRbTT": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ page.title }}",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "600",
+            "heading_alignment": "center"
+          }
+        },
+        "caption_XXqUV4": {
+          "type": "caption",
+          "settings": {
+            "caption": "<p>Making space for care® - and for what really matters.</p>",
+            "caption_alignment": "center"
+          }
+        },
+        "text_gr63kL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At SpaceLogic, our mission is grounded in a simple belief: that care begins with the right environment. Through smart, modular, and clinically driven storage systems, we help hospitals and healthcare providers create more than just functional spaces, we help them create space for what really matters: the person.</p><p>Whether it’s a patient in recovery, a nurse at shift change, or a surgeon in theatre, our systems are designed to support the people behind every procedure. By removing physical clutter, minimising infection risk, and improving workflow, we give time, clarity, and control back to the professionals delivering care.</p><p>We partner with hospital executives, procurement teams, and health planners to deliver compliant, cost-effective solutions that adapt to change. We work closely with architects, designers, and contractors to ensure seamless specification, modularity, and installation. And we equip our distributors and project partners with the tools they need to deliver exceptional results, every time.</p><p>Internally, we hold ourselves to the same standard, valuing quality, trust, and the knowledge that our work directly impacts lives. Because in every hospital, health centre, or day surgery we serve, there’s always more at stake than space. There’s a person. A moment. A life.</p><p>That’s why we’re here - Making space for care®.</p>",
+            "text_alignment": "left"
+          }
+        },
+        "button_e8Cjb3": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "button_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "heading_GXRbTT",
+        "caption_XXqUV4",
+        "text_gr63kL",
+        "button_e8Cjb3"
+      ],
+      "name": "TF Page Banner",
+      "settings": {
+        "title_alignment": "center",
+        "full_width": true,
+        "content_width": "full_width",
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "padding_top": 80,
+        "padding_bottom": 60
+      }
+    },
+    "section_breadcrumb_AQ4VAU": {
+      "type": "section-breadcrumb",
+      "disabled": true,
+      "name": "TF Breadcrumb",
+      "settings": {
+        "color_scheme": "",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "mobile_padding_top": 20,
+        "mobile_padding_bottom": 20
+      }
+    },
+    "rich_text_P3hBwh": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_mGwXwE": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ page.title }}",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
+          }
+        },
+        "text_7xmpEL": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Remove this line of text</p>",
+            "text_content_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "heading_mGwXwE",
+        "text_7xmpEL"
+      ],
+      "disabled": true,
+      "settings": {
+        "content_alignment": "center",
+        "content_width": "full_width",
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "full_width": true,
+        "no_margin": false,
+        "section_border": false,
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 28
+      }
+    },
+    "product_catalog_W3r7Xn": {
+      "type": "product-catalog",
+      "disabled": true,
+      "settings": {
+        "product_image": "shopify://shop_images/image_104.png",
+        "logo_link": "",
+        "heading": "<p>Product Catalogue</p>",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "description": "<p>Click here to view our latest product and services catalogue in a browser without downloading.</p>",
+        "button_1_text": "View catalogue",
+        "button_1_link": "https://online.flippingbook.com/view/393434/",
+        "button_2_text": "Download Catalog",
+        "button_2_link": "",
+        "reverse_column": true,
+        "title_color": "#424242",
+        "subheading_color": "#424242",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    }
+  },
+  "order": [
+    "custom_page_banner_DQT7cB",
+    "page_banner_kqtpn4",
+    "section_breadcrumb_AQ4VAU",
+    "rich_text_P3hBwh",
+    "main",
+    "product_catalog_W3r7Xn"
+  ]
+}

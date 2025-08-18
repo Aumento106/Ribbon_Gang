@@ -108,7 +108,7 @@
         "collapsible_tab_cEBm8X": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "BROCHURE OR SPEC SHEET",
+            "heading": "Brochure Or Space Sheet",
             "accordian_icon_image": "shopify://shop_images/Group_1171277814_1.svg",
             "icon": "check_mark",
             "content": "{{ product.metafields.custom.brochure_description | metafield_tag }}",
@@ -117,6 +117,7 @@
         },
         "collapsible_tab_mY4f8B": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "REQUEST A ROOM DESIGN OR CUSTOM QUOTE",
             "accordian_icon_image": "shopify://shop_images/Group_1171277814_2.svg",

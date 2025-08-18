@@ -1310,9 +1310,10 @@ body .complementary-products-contains-quick-add .card__heading:hover a {
   width: 100%;
 }
 .product-detail-tabs-container .tab-content table tbody tr td .trademark-symbol sup {
-  font-size: inherit;
+  font-size: 14px;
   line-height: normal;
-  top: 2px;
+  top: 8px;
+  position: relative;
 }
 .product-detail-tabs-container .tab-content-inner {
   padding: 22px 40px 22px 30px;

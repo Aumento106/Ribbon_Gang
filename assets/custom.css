@@ -929,9 +929,9 @@ body .quantity:after {
   box-shadow: 0px 4px 4px 0px #00000040;
   padding: 16px 40px;
   gap: 10px;
-  font-weight: 600;
+  font-weight: 400;
   white-space: nowrap;
-  text-transform: capitalize;
+  text-transform: unset;
 }
 
 .add-to-cart-icon {

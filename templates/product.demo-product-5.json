@@ -117,6 +117,7 @@
         },
         "collapsible_tab_mY4f8B": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "REQUEST A ROOM DESIGN OR CUSTOM QUOTE",
             "accordian_icon_image": "shopify://shop_images/Group_1171277814_2.svg",
@@ -145,6 +146,7 @@
         },
         "q_a_Fz3EyY": {
           "type": "Q_A",
+          "disabled": true,
           "settings": {
             "Heading_qa": "Q&A",
             "sub_heading1": "",

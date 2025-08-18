@@ -380,6 +380,40 @@ document.querySelectorAll('.sub-header-menu-main .header__submenu li').forEach(i
     window.replaceTextInElement(document.body, "®", "<span class='trademark-symbol'>®</span>");
     window.replaceTextInElement(document.body, "™", "<span class='trademark-symbol-TM'>TM</span>");
 
+    // you may also like 
+
+function setEqualCardHeadings() {
+  const headings = document.querySelectorAll('.card__heading');
+  let maxHeight = 0;
+
+  // Reset heights first
+  headings.forEach(heading => {
+    heading.style.height = 'auto';
+  });
+
+  // Force a reflow and find tallest
+  headings.forEach(heading => {
+    const height = heading.offsetHeight;
+    if (height > maxHeight) {
+      maxHeight = height;
+    }
+  });
+
+  // Apply tallest height
+  headings.forEach(heading => {
+    heading.style.height = maxHeight + 'px';
+  });
+}
+
+// Run after page load
+window.addEventListener('load', () => {
+  requestAnimationFrame(setEqualCardHeadings);
+});
+
+// Recalculate on resize
+window.addEventListener('resize', () => {
+  requestAnimationFrame(setEqualCardHeadings);
+});
 
 // Blog search
 
@@ -449,5 +483,9 @@ document.addEventListener('DOMContentLoaded', function () {
   closeBtn?.addEventListener('click', closePopup);
   overlay?.addEventListener('click', closePopup);
 });
+
+
+
+
 
 

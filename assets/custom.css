@@ -3260,6 +3260,7 @@ ul.header__submenu li:hover:has(ul.list-unstyled)::after {
 .header-main-menu ul.header__submenu li,
 .sub-header-menu-main ul.header__submenu li {
   position: relative;
+  padding: 0 2rem;
 }
 .product__accordion.accordion .accordion__content a {
   text-decoration: underline;

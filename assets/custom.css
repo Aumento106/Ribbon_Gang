@@ -3254,7 +3254,7 @@ ul.header__submenu li:hover:has(ul.list-unstyled)::after {
 .template-page-product-brochures .projects-popup-main {
     background-color: #fdf3d3;
 }
-.template-page-product-brochures .projects-popup-main .popup-content {
+.template-page-product-brochures .projects-popup-main#brochure-popup .popup-content {
   box-shadow: unset;
 }
 .default-menu li a {

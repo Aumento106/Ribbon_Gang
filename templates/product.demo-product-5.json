@@ -98,7 +98,7 @@
         "collapsible_tab_HaEpLp": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "WARRANTY INFORMATION",
+            "heading": "Warranty Information",
             "accordian_icon_image": "shopify://shop_images/Group_1171277814.svg",
             "icon": "check_mark",
             "content": "<p>All SpaceLogic Accessories are backed by a 5-year warranty against faulty manufacture or workmanship under normal use. This warranty applies only when installed and used according to our guidelines. For full details, please refer to our Warranty Certificate.</p>",
@@ -108,7 +108,7 @@
         "collapsible_tab_cEBm8X": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "BROCHURE OR SPEC SHEET",
+            "heading": "Brochure Or Space Sheet",
             "accordian_icon_image": "shopify://shop_images/Group_1171277814_1.svg",
             "icon": "check_mark",
             "content": "{{ product.metafields.custom.brochure_description | metafield_tag }}",
@@ -129,7 +129,7 @@
         "collapsible_tab_HpkKRY": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "REQUEST A MINI EXHIBITION",
+            "heading": "Request A Mini Exhibition",
             "accordian_icon_image": "shopify://shop_images/Group_1171277814_3.svg",
             "icon": "check_mark",
             "content": "<p>Request a Mini Exhibition → See STERIRACK® signage solutions in action, on-site.</p>",

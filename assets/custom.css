@@ -3232,7 +3232,7 @@ ul.header__submenu li:hover:has(ul.list-unstyled)::after {
   background: #424242;
   background: #adb5b5;
   opacity: 0;
-  padding: 3rem 10px;
+  padding: 3rem 0;
   max-width: 200px;
   min-width: 200px;
 }

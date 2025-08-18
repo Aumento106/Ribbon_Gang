@@ -602,7 +602,7 @@ body .newsletter-form {
 }
 
 .related-products .product-card-wrapper .card__heading.h5 {
-  font-weight: 500;
+  font-weight: 300 !important;
 }
 
 .product-card-wrapper .card-information>*:not(.visually-hidden:first-child)+*:not(.rating):not(.card__information-volume-pricing-note) {

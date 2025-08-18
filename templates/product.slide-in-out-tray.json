@@ -140,7 +140,7 @@
         "collapsible_tab_HaEpLp": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "WARRANTY INFORMATION",
+            "heading": "Warranty Information",
             "accordian_icon_image": "shopify://shop_images/Group_1171277814.svg",
             "icon": "check_mark",
             "content": "<p>All SpaceLogic Accessories are backed by a 5-year warranty against faulty manufacture or workmanship under normal use. This warranty applies only when installed and used according to our guidelines. For full details, please refer to our Warranty Certificate.</p>",
@@ -150,7 +150,7 @@
         "collapsible_tab_cEBm8X": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "BROCHURE OR SPEC SHEET",
+            "heading": "Brochure Or Space Sheet",
             "accordian_icon_image": "shopify://shop_images/Group_1171277814_1.svg",
             "icon": "check_mark",
             "content": "{{ product.metafields.custom.brochure_description | metafield_tag }}",
@@ -159,6 +159,7 @@
         },
         "collapsible_tab_mY4f8B": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "REQUEST A ROOM DESIGN OR CUSTOM QUOTE",
             "accordian_icon_image": "shopify://shop_images/Group_1171277814_2.svg",
@@ -170,7 +171,7 @@
         "collapsible_tab_HpkKRY": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "REQUEST A MINI EXHIBITION",
+            "heading": "Request A Mini Exhibition",
             "accordian_icon_image": "shopify://shop_images/Group_1171277814_3.svg",
             "icon": "check_mark",
             "content": "<p>Request a Mini Exhibition → See STERIRACK® signage solutions in action, on-site.</p>",
@@ -187,6 +188,7 @@
         },
         "q_a_Fz3EyY": {
           "type": "Q_A",
+          "disabled": true,
           "settings": {
             "Heading_qa": "Q&A",
             "sub_heading1": "",
@@ -351,6 +353,7 @@
         "image": "shopify://shop_images/01-slide-in-out-shelf.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
+        "auto_height": false,
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
@@ -436,7 +439,8 @@
           "settings": {
             "heading": "Transport Case Cart <strong>Details</strong>",
             "custom_heading_size": 52,
-            "mobile_custom_heading_size": 28
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
           }
         }
       },
@@ -463,7 +467,8 @@
           "settings": {
             "heading": "Superior Strength and Durability",
             "custom_heading_size": 52,
-            "mobile_custom_heading_size": 28
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
           }
         },
         "text_XWWeWi": {
@@ -492,7 +497,8 @@
         "image": "shopify://shop_images/superior-strength-and-durability.png",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "full_width": false,
+        "container_size": "page-width",
+        "both_image_content_size": false,
         "video_url": "",
         "enable_video_looping": false,
         "layout": "image_first",
@@ -515,7 +521,8 @@
           "settings": {
             "heading": "Identification and labeling",
             "custom_heading_size": 52,
-            "mobile_custom_heading_size": 28
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
           }
         },
         "text_FYk9bD": {
@@ -544,7 +551,8 @@
         "image": "shopify://shop_images/identification-and-labeling.png",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "full_width": false,
+        "container_size": "page-width",
+        "both_image_content_size": false,
         "video_url": "",
         "enable_video_looping": false,
         "layout": "text_first",
@@ -567,7 +575,8 @@
           "settings": {
             "heading": "Towing and transport",
             "custom_heading_size": 52,
-            "mobile_custom_heading_size": 28
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
           }
         },
         "text_dkB3at": {
@@ -596,7 +605,8 @@
         "image": "shopify://shop_images/towing-and-transport.png",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "full_width": false,
+        "container_size": "page-width",
+        "both_image_content_size": false,
         "video_url": "",
         "enable_video_looping": false,
         "layout": "image_first",
@@ -619,7 +629,8 @@
           "settings": {
             "heading": "Protection and maneuvrability",
             "custom_heading_size": 52,
-            "mobile_custom_heading_size": 28
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
           }
         },
         "text_kF7KLU": {
@@ -648,7 +659,8 @@
         "image": "shopify://shop_images/STERIRACK-transport-case-cart-25_1.png",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "full_width": false,
+        "container_size": "page-width",
+        "both_image_content_size": false,
         "video_url": "",
         "enable_video_looping": false,
         "layout": "text_first",
@@ -671,7 +683,8 @@
           "settings": {
             "heading": "Internal configuration",
             "custom_heading_size": 52,
-            "mobile_custom_heading_size": 28
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
           }
         },
         "text_er44G4": {
@@ -700,7 +713,8 @@
         "image": "shopify://shop_images/STERIRACK-transport-case-cart-26.png",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "full_width": false,
+        "container_size": "page-width",
+        "both_image_content_size": false,
         "video_url": "",
         "enable_video_looping": false,
         "layout": "image_first",
@@ -723,7 +737,8 @@
           "settings": {
             "heading": "Door features",
             "custom_heading_size": 52,
-            "mobile_custom_heading_size": 28
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
           }
         },
         "text_jMmCWC": {
@@ -752,7 +767,8 @@
         "image": "shopify://shop_images/STERIRACK-transport-case-cart-27.png",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "full_width": false,
+        "container_size": "page-width",
+        "both_image_content_size": false,
         "video_url": "",
         "enable_video_looping": false,
         "layout": "text_first",
@@ -773,7 +789,8 @@
         "image_Y8tbgH": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/transport-case-carts-samples.png"
+            "image": "shopify://shop_images/transport-case-carts-samples.png",
+            "image_page_container": "page-width"
           }
         }
       },
@@ -782,9 +799,14 @@
       ],
       "disabled": true,
       "settings": {
+        "page_container": "full-width",
         "title": "Internal Configuration <strong>Samples</strong>",
-        "heading_size": "h1",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "heading_alignment": "center",
+        "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
+        "text_content_alignment": "center",
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "padding_top": 36,
         "padding_bottom": 36
@@ -796,7 +818,8 @@
         "image_KgDRNk": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/transport-case-carts-dimensions.png"
+            "image": "shopify://shop_images/transport-case-carts-dimensions.png",
+            "image_page_container": "page-width"
           }
         }
       },
@@ -805,9 +828,14 @@
       ],
       "disabled": true,
       "settings": {
+        "page_container": "full-width",
         "title": "Product <strong>Dimensions</strong>",
-        "heading_size": "h1",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "heading_alignment": "center",
+        "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
+        "text_content_alignment": "center",
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "padding_top": 36,
         "padding_bottom": 72
@@ -859,6 +887,7 @@
             "heading": "<p>BIM Files</p>",
             "block_custom_heading_size": 52,
             "mobile_block_custom_heading_size": 28,
+            "block_custom_font_weight": "400",
             "text": "<p>BIM files are available for download on request. To protect specification integrity, access is granted to trusted partners via password or tokenised link. Please contact us to request access and include your project or firm details for review.</p>",
             "button_label": "BIM file request",
             "button_link": "mailto:sales@spacelogicgroup.com",
@@ -870,6 +899,7 @@
         "slide_UBnzye"
       ],
       "settings": {
+        "enable_content_page_width": false,
         "heading": "",
         "sec_des": "",
         "title_color": "#ffffff",
@@ -877,6 +907,7 @@
         "title_alignment": "center",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "layout": "image_first",
         "content_layout": "no-overlap",
         "height": "extra-small",
@@ -976,6 +1007,7 @@
         "heading": "<p>Product Catalogue</p>",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "description": "<p>Click here to view our latest product and services catalogue in a browser without downloading.</p>",
         "button_1_text": "View catalogue",

@@ -42,7 +42,7 @@
       ],
       "name": "TF Custom Page Slideshow",
       "settings": {
-        "layout": "full_bleed",
+        "layout": "grid",
         "slide_height": "large",
         "image_behavior": "none",
         "padding_top": 0,

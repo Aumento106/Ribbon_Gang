@@ -152,27 +152,29 @@
                   id="tab-{{ block.id }}"
                 >
                   {% assign matching_1 = block.settings.Heading_sp | strip | downcase %}
-                  {% assign matching_2 = "Specs" | strip | downcase %}
+                  {% assign matching_2 = "Features & Benefits" | strip | downcase %}
                   {% if matching_2 == matching_1 %}
-                     {% if block.settings.Heading_sp == "Specs" %}
-                    <table id="specification_table">
-                      {% assign metaobject  = product.metafields.custom.specifications.value %}
-                        <thead>
-                          <tr>
-                          {% for heading in metaobject.table_heading.value %}
-                            <th>{{ heading }}<div class="resizer"></div></th>
-                          {% endfor %}
-                          </tr>
-                        </thead>
-                      <tbody>
-                        {% for table_row in metaobject.table_row.value %}
-                          {% assign forloop_modulo = forloop.index0 | modulo : 2 %}
-                          {% if forloop_modulo == 0 %}<tr id="file-lotrmoviedata-csv-LC2" class="combined">{% endif %}
-                              <td class="nowrap left">{{ table_row }}</td>
-                          {% if forloop_modulo == 1 %}</tr>{% endif %}
-                        {% endfor %}
-                      </tbody>
-                    </table>
+                     {% if block.settings.Heading_sp == "Features & Benefits" %}
+                      <div class="tab-content-inner">
+                        <table id="specification_table">
+                          {% assign metaobject  = product.metafields.custom.specifications.value %}
+                            <thead>
+                              <tr>
+                              {% for heading in metaobject.table_heading.value %}
+                                <th>{{ heading }}<div class="resizer"></div></th>
+                              {% endfor %}
+                              </tr>
+                            </thead>
+                          <tbody>
+                            {% for table_row in metaobject.table_row.value %}
+                              {% assign forloop_modulo = forloop.index0 | modulo : 2 %}
+                              {% if forloop_modulo == 0 %}<tr id="file-lotrmoviedata-csv-LC2" class="combined">{% endif %}
+                                  <td class="nowrap left">{{ table_row }}</td>
+                              {% if forloop_modulo == 1 %}</tr>{% endif %}
+                            {% endfor %}
+                          </tbody>
+                        </table>
+                      </div>
                     {% endif %}
                   
                     
@@ -296,7 +298,7 @@
                 </div>
               {%- when 'title' -%}
                 <div class="product__title" {{ block.shopify_attributes }}>
-                  <h1 class="title h0">{{ product.title | escape }}</h1>
+                  <h1 class="title h1">{{ product.title | escape }}</h1>
                   <a href="{{ product.url }}" class="product__title">
                     <h2 class="h0">
                       {{ product.title | escape }}
@@ -342,7 +344,7 @@
               {% endcomment %}
               {%- when 'inventory' -%}
                 <div
-                  class="product__inventory{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}{% if product.selected_or_first_available_variant.inventory_management != 'shopify' %} visibility-hidden{% endif %}"
+                  class="product__inventory{% if block.settings.text_style == 'capitalize' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}{% if product.selected_or_first_available_variant.inventory_management != 'shopify' %} visibility-hidden{% endif %}"
                   {{ block.shopify_attributes }}
                   id="Inventory-{{ section.id }}"
                   role="status"
@@ -352,7 +354,7 @@
                       {%- if product.selected_or_first_available_variant.inventory_quantity
                           <= block.settings.inventory_threshold
                       -%}
-                        <div class="product-info-fields-wrapper">
+                        <div class="product-info-fields-wrapper 1">
                           <span class="form__label">Availability :</span>
                           <div class="top-class">
                           <div class="product-inventory-status">
@@ -427,13 +429,13 @@
                 </div>
               {%- when 'sku' -%}
                 <div
-                  class="product__sku{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}{% if product.selected_or_first_available_variant.sku.size == 0 %} visually-hidden{% endif %}"
+                  class="product__sku{% if block.settings.text_style == 'capitalize' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}{% if product.selected_or_first_available_variant.sku.size == 0 %} visually-hidden{% endif %}"
                   id="Sku-{{ section.id }}"
                   role="status"
                   {{ block.shopify_attributes }}
                 >
-                  <div class="product-info-fields-wrapper">
-                    <span class="form__label">{{ 'products.product.sku' | t }} :</span>
+                  <div class="product-info-fields-wrapper 1">
+                    <span class="form__label">Sku :</span>
                     {{- product.selected_or_first_available_variant.sku -}}
                   </div>
                 </div>

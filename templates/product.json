@@ -129,7 +129,7 @@
         "collapsible_tab_HpkKRY": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "REQUEST A MINI EXHIBITION",
+            "heading": "Request A Mini Exhibition",
             "accordian_icon_image": "shopify://shop_images/Group_1171277814_3.svg",
             "icon": "check_mark",
             "content": "<p>Request a Mini Exhibition → See STERIRACK® signage solutions in action, on-site.</p>",
@@ -139,13 +139,14 @@
         "specifications_prC9K9": {
           "type": "Specifications",
           "settings": {
-            "Heading_sp": "Specs",
+            "Heading_sp": "Features & Benefits",
             "sub_heading": "",
             "content": ""
           }
         },
         "q_a_Fz3EyY": {
           "type": "Q_A",
+          "disabled": true,
           "settings": {
             "Heading_qa": "Q&A",
             "sub_heading1": "",

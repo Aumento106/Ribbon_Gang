@@ -1309,7 +1309,7 @@ body .complementary-products-contains-quick-add .card__heading:hover a {
 .product-detail-tabs-container .tab-content table {
   width: 100%;
 }
-.product-detail-tabs-container .tab-content table tbody tr td .trademark-symbol {
+.product-detail-tabs-container .tab-content table tbody tr td .trademark-symbol sup {
   font-size: inherit;
   line-height: normal;
   top: 2px;

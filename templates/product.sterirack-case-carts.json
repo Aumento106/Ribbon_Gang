@@ -187,6 +187,7 @@
         },
         "collapsible_tab_mY4f8B": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "REQUEST A ROOM DESIGN OR CUSTOM QUOTE",
             "accordian_icon_image": "shopify://shop_images/Group_1171277814_2.svg",
@@ -215,6 +216,7 @@
         },
         "q_a_Fz3EyY": {
           "type": "Q_A",
+          "disabled": true,
           "settings": {
             "Heading_qa": "Q&A",
             "sub_heading1": "",
@@ -1044,7 +1046,8 @@
           "settings": {
             "image": "shopify://shop_images/STERIRACK-transport-case-cart-7.jpg",
             "title": "",
-            "text": ""
+            "text": "",
+            "content_alignment": "left"
           }
         },
         "column_F8mmB4": {
@@ -1052,7 +1055,8 @@
           "settings": {
             "image": "shopify://shop_images/STERIRACK-transport-case-cart-18.jpg",
             "title": "",
-            "text": ""
+            "text": "",
+            "content_alignment": "left"
           }
         },
         "column_qCmPzx": {
@@ -1060,7 +1064,8 @@
           "settings": {
             "image": "shopify://shop_images/STERIRACK-transport-case-cart-19.jpg",
             "title": "",
-            "text": ""
+            "text": "",
+            "content_alignment": "left"
           }
         },
         "column_f6xAWq": {
@@ -1068,7 +1073,8 @@
           "settings": {
             "image": "shopify://shop_images/STERIRACK-transport-case-cart-20.jpg",
             "title": "",
-            "text": ""
+            "text": "",
+            "content_alignment": "left"
           }
         },
         "column_a3VXYE": {
@@ -1076,7 +1082,8 @@
           "settings": {
             "image": "shopify://shop_images/STERIRACK-transport-case-cart-21.jpg",
             "title": "",
-            "text": ""
+            "text": "",
+            "content_alignment": "left"
           }
         }
       },

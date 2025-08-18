@@ -113,6 +113,7 @@
         },
         "collapsible_tab_mY4f8B": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "REQUEST A ROOM DESIGN OR CUSTOM QUOTE",
             "accordian_icon_image": "shopify://shop_images/Group_1171277814_2.svg",
@@ -134,13 +135,14 @@
         "specifications_prC9K9": {
           "type": "Specifications",
           "settings": {
-            "Heading_sp": "Specs",
+            "Heading_sp": "Features & Benefits",
             "sub_heading": "",
             "content": ""
           }
         },
         "q_a_Fz3EyY": {
           "type": "Q_A",
+          "disabled": true,
           "settings": {
             "Heading_qa": "Q&A",
             "sub_heading1": "",

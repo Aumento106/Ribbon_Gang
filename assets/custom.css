@@ -3251,6 +3251,12 @@ ul.header__submenu li:hover:has(ul.list-unstyled)::after {
     position: absolute;
     top: 30%;
 }
+.template-page-product-brochures .projects-popup-main {
+    background-color: #fdf3d3;
+}
+.template-page-product-brochures .projects-popup-main .popup-content {
+  box-shadow: unset;
+}
 .default-menu li a {
   color: #fff !important;
   text-decoration: none;

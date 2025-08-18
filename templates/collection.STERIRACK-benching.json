@@ -106,7 +106,7 @@
       "type": "main-collection-product-grid",
       "disabled": true,
       "settings": {
-        "hide_price": true,
+        "hide_price": false,
         "hide_sold_out": true,
         "hide_save": false,
         "products_per_page": 20,

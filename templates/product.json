@@ -943,6 +943,30 @@
         "padding_top": 100,
         "padding_bottom": 100
       }
+    },
+    "newsletter_fXQxXm": {
+      "type": "newsletter",
+      "blocks": {
+        "email_form_MUBbBX": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "email_form_MUBbBX"
+      ],
+      "name": "t:sections.newsletter.presets.name",
+      "settings": {
+        "color_scheme": "",
+        "full_width": true,
+        "news_custom_heading_size": 52,
+        "news_mobile_custom_heading_size": 28,
+        "news_font_weight": "400",
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
     }
   },
   "order": [
@@ -963,6 +987,7 @@
     "custom_image_text_slider_k9tKHM",
     "faq_collapsible_content_QQxiNJ",
     "product_catalog_3wJXkE",
-    "proudly_support_NnMGAw"
+    "proudly_support_NnMGAw",
+    "newsletter_fXQxXm"
   ]
 }

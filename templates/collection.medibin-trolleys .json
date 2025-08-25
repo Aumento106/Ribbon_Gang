@@ -590,7 +590,7 @@
         "padding_top": 60,
         "padding_bottom": 80,
         "margin_bottom": 100,
-        "mobile_margin_bottom": 0
+        "mobile_margin_bottom": 40
       }
     }
   },

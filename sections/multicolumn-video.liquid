@@ -5,6 +5,13 @@
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.35 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.35 | round: 0 }}px;
+    margin-bottom: {{ section.settings.margin_bottom }}px;
+  }
+
+  @media screen and (max-width: 749px) {
+    .section-{{ section.id }}-padding {
+      margin-bottom: {{ section.settings.margin_bottom }}px;
+    }
   }
   
   {% if section.settings.box_auto_height1 %}

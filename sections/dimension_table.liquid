@@ -25,6 +25,15 @@
 .table-row:nth-child(even):not(.table-head) {
   background-color: #f9f9f9;
 }
+.section-{{ section.id }}-padding {
+  margin-bottom: {{ section.settings.margin_bottom }}px;
+}
+
+@media screen and (max-width: 749px) {
+  .section-{{ section.id }}-padding {
+    margin-bottom: {{ section.settings.mobile_margin_bottom }}px;
+  }
+}
 
 /* @media screen and (max-width: 640px) {
   .medibin-table {

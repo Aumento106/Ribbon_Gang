@@ -313,7 +313,9 @@
         "code": "Code",
         "dimensions": "Dimensions",
         "dimensions_inch": "Dimensions (inches)",
-        "configurations": "Configurations (inches)"
+        "configurations": "Configurations (inches)",
+        "margin_bottom": 0,
+        "mobile_margin_bottom": 0
       }
     },
     "rich_text_CqT3jr": {
@@ -440,6 +442,7 @@
         "columns_desktop": "2",
         "box_shadow": true,
         "image_auto_height1": true,
+        "auto_width": false,
         "padding_top": 36,
         "padding_bottom": 36,
         "margin_top": 0,
@@ -569,7 +572,9 @@
         "custom_font_weight": "400",
         "heading_alignment": "center",
         "bottom_description": "If you said ‘No’ to any of these questions your current storage system may be out-of-date or non-compliant, and STERIRACK® System is likely the perfect solution for you",
-        "color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6"
+        "color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
+        "margin_bottom": 100,
+        "mobile_margin_bottom": 40
       }
     }
   },

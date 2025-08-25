@@ -156,7 +156,6 @@
                   {% if matching_2 == matching_1 %}
                      {% if block.settings.Heading_sp == "Features & Benefits" %}
                       <div class="tab-content-inner">
-                        {% if metaobject and metaobject.table_heading.value != blank and metaobject.table_row.value != blank %}
                           <table id="specification_table">
                             {% assign metaobject  = product.metafields.custom.specifications.value %}
                               <thead>
@@ -175,7 +174,6 @@
                               {% endfor %}
                             </tbody>
                           </table>
-                        {% endif %}
                       </div>
                     {% endif %}
                   

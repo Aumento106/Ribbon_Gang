@@ -328,7 +328,9 @@
         "code": "Code",
         "dimensions": "Dimensions",
         "dimensions_inch": "Dimensions (inches)",
-        "configurations": "Configurations (inches)"
+        "configurations": "Configurations (inches)",
+        "margin_bottom": 0,
+        "mobile_margin_bottom": 0
       }
     },
     "rich_text_CqT3jr": {
@@ -478,7 +480,9 @@
         "code": "Code",
         "dimensions": "Dimensions",
         "dimensions_inch": "",
-        "configurations": ""
+        "configurations": "",
+        "margin_bottom": 0,
+        "mobile_margin_bottom": 0
       }
     },
     "dimension_table_M7RpQG": {
@@ -549,7 +553,9 @@
         "code": "Code",
         "dimensions": "Dimensions",
         "dimensions_inch": "Dimensions (inches)",
-        "configurations": ""
+        "configurations": "",
+        "margin_bottom": 0,
+        "mobile_margin_bottom": 0
       }
     },
     "video_WiiXtp": {
@@ -625,7 +631,9 @@
         "box_auto_height1": true,
         "box_color_scheme": "",
         "padding_top": 60,
-        "padding_bottom": 180
+        "padding_bottom": 60,
+        "margin_bottom": 100,
+        "mobile_margin_bottom": 40
       }
     }
   },

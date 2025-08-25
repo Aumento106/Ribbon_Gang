@@ -136,7 +136,9 @@
         "box_auto_height1": true,
         "box_color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
         "padding_top": 60,
-        "padding_bottom": 80
+        "padding_bottom": 80,
+        "margin_bottom": 0,
+        "mobile_margin_bottom": 0
       }
     },
     "banner": {
@@ -184,7 +186,7 @@
         "enable_sorting": true,
         "columns_mobile": "2",
         "padding_top": 60,
-        "padding_bottom": 80
+        "padding_bottom": 100
       }
     },
     "product_catalog_xdFqLr": {
@@ -393,7 +395,9 @@
         "code": "Code",
         "dimensions": "Dimensions",
         "dimensions_inch": "Dimensions (inches)",
-        "configurations": "Configurations (inches)"
+        "configurations": "Configurations (inches)",
+        "margin_bottom": 0,
+        "mobile_margin_bottom": 0
       }
     },
     "rich_text_CqT3jr": {

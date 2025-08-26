@@ -154,7 +154,7 @@
                   {% assign matching_1 = block.settings.Heading_sp | strip | downcase %}
                   {% assign matching_2 = "Features & Benefits" | strip | downcase %}
                   {% if matching_2 == matching_1 %}
-                     {% if block.settings.Heading_sp == "Features & Benefits" %}
+                     {% if block.settings.Heading_sp == "Features & benefits" %}
                       <div class="tab-content-inner">
                           <table id="specification_table">
                             {% assign metaobject  = product.metafields.custom.specifications.value %}

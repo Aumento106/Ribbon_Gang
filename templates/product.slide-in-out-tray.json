@@ -900,6 +900,7 @@
       "block_order": [
         "slide_UBnzye"
       ],
+      "disabled": true,
       "settings": {
         "enable_content_page_width": false,
         "heading": "",

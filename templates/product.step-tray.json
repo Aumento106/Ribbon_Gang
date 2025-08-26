@@ -181,7 +181,7 @@
         "specifications_prC9K9": {
           "type": "Specifications",
           "settings": {
-            "Heading_sp": "Features & Benefits",
+            "Heading_sp": "Features & benefits",
             "sub_heading": "",
             "content": ""
           }
@@ -423,7 +423,9 @@
         "code": "Chrome",
         "dimensions": "Stainless",
         "dimensions_inch": "Dimensions (mm)",
-        "configurations": "Dimensions (inches)"
+        "configurations": "Dimensions (inches)",
+        "margin_bottom": 0,
+        "mobile_margin_bottom": 0
       }
     },
     "image_with_text_v1_HEUki7": {

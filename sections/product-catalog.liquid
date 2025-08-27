@@ -68,14 +68,14 @@
         </div>
         
         <div class="product-catalog-right grid__item">
-          {% if section.settings.logo %}
+          {% if section.settings.newsletter_logo %}
             <div class="logo">
             {% if section.settings.logo_link != blank %}
               <a href="{{ section.settings.logo_link }}">
-              {{ section.settings.logo | image_url: width: 300 | image_tag }}
+              {{ section.settings.newsletter_logo | image_url: width: 300 | image_tag }}
               </a>
               {% else %}
-                  {{ section.settings.logo | image_url: width: 300 | image_tag }}
+                  {{ section.settings.newsletter_logo | image_url: width: 300 | image_tag }}
               {% endif %}
             </div>
           {% endif %}

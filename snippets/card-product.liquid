@@ -692,21 +692,21 @@
       <div
         class="card__inner{% if settings.card_style == 'standard' %} color-{{ settings.card_color_scheme }} gradient{% endif %} ratio"
       >
-        <div
-          class="card__media {% if image_shape and image_shape != 'default' %} shape--{{ image_shape }} color-{{ settings.card_color_scheme }} gradient{% endif %}"
-        >
-          <a href="{{ card_product.url }}" class="media_link">
-            <div
-              class="media media--transparent"
-            >
-              {%- if placeholder_image -%}
-                {{ placeholder_image | placeholder_svg_tag: 'placeholder-svg' }}
-              {%- else -%}
-                {{ 'product-apparel-2' | placeholder_svg_tag: 'placeholder-svg' }}
-              {% endif %}
-            </div>
-          </a>
-        </div>
+        <a href="{{ card_product.url }}" class="media_link">
+          <div
+            class="card__media {% if image_shape and image_shape != 'default' %} shape--{{ image_shape }} color-{{ settings.card_color_scheme }} gradient{% endif %}"
+          >
+              <div
+                class="media media--transparent"
+              >
+                {%- if placeholder_image -%}
+                  {{ placeholder_image | placeholder_svg_tag: 'placeholder-svg' }}
+                {%- else -%}
+                  {{ 'product-apparel-2' | placeholder_svg_tag: 'placeholder-svg' }}
+                {% endif %}
+              </div>
+          </div>
+        </a>
       </div>
       <div class="card__content">
         <div class="card__information">

@@ -96,19 +96,10 @@
         "padding_top": 16,
         "padding_bottom": 16
       }
-    },
-    "product_catalog_NqkGwL": {
-      "type": "product-catalog",
-      "name": "Product Catalog",
-      "settings": {
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "announcement-bar",
-    "header",
-    "product_catalog_NqkGwL"
+    "header"
   ]
 }

@@ -53,14 +53,14 @@
           "type": "icon_text",
           "settings": {
             "icon_image": "shopify://shop_images/shipping-truck_e6850ce2-b0a2-44e3-b33f-447e9d2adff1.svg",
-            "icon_text": "Free Shipping"
+            "icon_text": "Free shipping"
           }
         },
         "icon_text_zQ3wVr": {
           "type": "icon_text",
           "settings": {
             "icon_image": "shopify://shop_images/premium-material.svg",
-            "icon_text": "Premium Materials"
+            "icon_text": "Premium materials"
           }
         },
         "icon_text_reiiVN": {

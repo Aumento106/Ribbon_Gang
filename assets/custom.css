@@ -1830,6 +1830,10 @@ body.shopify-section-header-hidden .hotspot-product-list-main {
   font-weight: 600;
   margin: 0 0 1rem;
 }
+.hotspot-product-item .product-name .trademark-symbol {
+  font-size: 15px;
+  top: 3px;
+}
 /* .hotspot-product-item .product-name .trademark-symbol {
 
 } */

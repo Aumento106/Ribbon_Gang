@@ -153,9 +153,9 @@
                   {% if matching_2 == matching_1 %}
                      {% if block.settings.Heading_sp == "Features & benefits" %}
                       <div class="tab-content-inner">
+                        {% assign metaobject  = product.metafields.custom.specifications.value %}
                         {% if metaobject.table_heading.value %}
                           <table id="specification_table">
-                            {% assign metaobject  = product.metafields.custom.specifications.value %}
                               <thead>
                                 <tr>
                                 {% for heading in metaobject.table_heading.value %}

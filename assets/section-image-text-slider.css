@@ -67,7 +67,9 @@
 .image-with-text-slider .image-with-text__heading {
   margin-bottom: 2.4rem;
 }
-
+.image-with-text-slider .image-with-text__heading .trademark-symbol-TM {
+  font-size: 14px;
+}
 .main_slider .image-with-text__grid {
   align-items: center;
 }

@@ -1749,7 +1749,10 @@ body.shopify-section-header-hidden .hotspot-product-list-main {
 .hotspot-product-list-wrap .sec-head {
   margin-bottom: 4rem;
 }
-
+.hotspot-product-list-wrap .sec-head .trademark-symbol-TM {
+  top: -8px;
+  font-size: 12px;
+}
 .hotspot-product-list-wrap .sec-head .title {
   font-size: calc(var(--font-heading-scale)* 4.8rem);
   font-weight: 700;

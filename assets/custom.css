@@ -607,6 +607,7 @@ body .newsletter-form {
 
 .product-card-wrapper .card-information>*:not(.visually-hidden:first-child)+*:not(.rating):not(.card__information-volume-pricing-note) {
   margin-top: 1.8rem;
+  margin-top: 10px;
 }
 
 .card-wrapper .price {
@@ -619,7 +620,7 @@ body .newsletter-form {
 
 .card-wrapper .price__sale .price-item--sale,
 .card-wrapper .price__regular .price-item--regular {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 600;
   line-height: 1.08;
   /* color: rgba(var(--color-button), var(--alpha-button-background)); */
@@ -627,7 +628,7 @@ body .newsletter-form {
 }
 
 .card-wrapper .price__sale .price-item--regular {
-  font-size: 18px;
+  font-size: 14px;
   line-height: 1.44;
   color: #BBBBBB;
 }
@@ -904,14 +905,16 @@ body .quantity:after {
   min-width: fit-content;
 }
 .product-grid-container .collection .card__heading {
-  font-weight: 400 !important;
+  font-weight: 300 !important;
   font-size: 18px;
 }
 .product__info-wrapper .product__sku,
 .product__info-wrapper .product__info-container .product-form__input {
   margin: 0 0 4rem 0;
 }
-
+.product__info-wrapper .product__sku .form__label {
+  text-transform: uppercase;
+}
 .product__info-wrapper .product__inventory {
   margin: 0 0 4rem 0;
 }
@@ -1312,7 +1315,7 @@ body .complementary-products-contains-quick-add .card__heading:hover a {
 .product-detail-tabs-container .tab-content table tbody tr td .trademark-symbol sup {
   font-size: 14px;
   line-height: normal;
-  top: 8px;
+  top: 12px;
   position: relative;
 }
 .product-detail-tabs-container .tab-content-inner {
@@ -2258,6 +2261,7 @@ body.shopify-section-header-hidden .hotspot-product-list-main {
 
   .product-card-wrapper .card-information>*:not(.visually-hidden:first-child)+*:not(.rating):not(.card__information-volume-pricing-note) {
     margin-top: 1.2rem;
+    margin-top: 0;
   }
 
   .swiper .swiper-button {
@@ -3198,6 +3202,9 @@ ul.header__submenu li:hover ul li .mega-menu__link:hover {
   padding-bottom: 3rem;
   padding-left: 0;
   padding-right: 0;
+}
+.shopify-section-group-header-group .header__inline-menu ul.header__submenu .trademark-symbol {
+  font-size: 11px;
 }
 .shopify-section-group-header-group .sub-header-menu-main .header__inline-menu ul.header__submenu {
   top: 22px;

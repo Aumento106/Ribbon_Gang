@@ -762,6 +762,9 @@ body .newsletter-form {
 .product__info-wrapper .product__title .title.text-uppercase .trademark-symbol {
   top: -4px;
 }
+.product__info-wrapper .product__title .title:not(.text-uppercase) .trademark-symbol {
+  top: 0;
+}
 .product__info-wrapper .product__info-container .price--on-sale .price-item--regular {
   font-size: 24px;
   line-height: normal;

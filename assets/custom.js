@@ -415,47 +415,70 @@ window.addEventListener('resize', () => {
   requestAnimationFrame(setEqualCardHeadings);
 });
 
+document.addEventListener("DOMContentLoaded", function() {
+  var specialWords = ["TF MEDIBIN", "TF STERILOOP", "TF STERIRACK"];
+
+  // target common title containers
+  var selectors = [
+    "h1", "h2", "h3", "h4", "h5", "h6",
+    ".title", ".product__title", ".collection-title", ".article__title"
+  ];
+
+  var elements = document.querySelectorAll(selectors.join(","));
+
+  elements.forEach(function(el) {
+    // normalize full text including nested spans
+    var text = el.innerText || el.textContent;
+
+    specialWords.forEach(function(word) {
+      if (text.toUpperCase().includes(word)) {
+        el.classList.add("uppercase");
+      }
+    });
+  });
+});
+
 // Blog search
 
-// document.getElementById('blogSearch').addEventListener('input', function() {
-//   const searchValue = this.value.toLowerCase();
-//   const blogPosts = document.querySelectorAll('.blog-articles__article');
-//   let visibleCount = 0;
+document.getElementById('blogSearch').addEventListener('input', function() {
+  const searchValue = this.value.toLowerCase();
+  const blogPosts = document.querySelectorAll('.blog-articles__article');
+  let visibleCount = 0;
 
-//   blogPosts.forEach(function(post) {
-//     const title = post.querySelector('.full-unstyled-link').textContent.toLowerCase();
-//     const content = post.querySelector('.article-card__excerpt').textContent.toLowerCase();
+  blogPosts.forEach(function(post) {
+    const title = post.querySelector('.full-unstyled-link').textContent.toLowerCase();
+    const content = post.querySelector('.article-card__excerpt').textContent.toLowerCase();
 
-//     if (title.includes(searchValue) || content.includes(searchValue)) {
-//       post.style.display = '';
-//       visibleCount++;
-//     } else {
-//       post.style.display = 'none';
-//     }
-//   });
+    if (title.includes(searchValue) || content.includes(searchValue)) {
+      post.style.display = '';
+      visibleCount++;
+    } else {
+      post.style.display = 'none';
+    }
+  });
 
  
-//   const loadMore = document.querySelector('.loade-more');
-//   if (loadMore) {
-//     if (visibleCount < 12) {
-//       loadMore.style.display = 'none';
-//     } else {
-//       loadMore.style.display = '';
-//     }
-//   }
+  const loadMore = document.querySelector('.loade-more');
+  if (loadMore) {
+    if (visibleCount < 12) {
+      loadMore.style.display = 'none';
+    } else {
+      loadMore.style.display = '';
+    }
+  }
 
-//   // Show/hide "no results" message
-//   const noResults = document.getElementById('noResultsMessage');
-//   if (noResults) {
-//     if (visibleCount === 0 && searchValue.trim() !== '') {
-//       noResults.style.display = '';
-//       noResults.innerHTML = `No results found for “${this.value}”. Check the spelling or use a different word or phrase.`;
-//     } else {
-//       noResults.style.display = 'none';
-//       noResults.innerHTML = '';
-//     }
-//   }
-// });
+  // Show/hide "no results" message
+  const noResults = document.getElementById('noResultsMessage');
+  if (noResults) {
+    if (visibleCount === 0 && searchValue.trim() !== '') {
+      noResults.style.display = '';
+      noResults.innerHTML = `No results found for “${this.value}”. Check the spelling or use a different word or phrase.`;
+    } else {
+      noResults.style.display = 'none';
+      noResults.innerHTML = '';
+    }
+  }
+});
 
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -484,55 +507,3 @@ document.addEventListener('DOMContentLoaded', function () {
   overlay?.addEventListener('click', closePopup);
 });
 
-
-
-document.addEventListener("DOMContentLoaded", function() {
-  // Words that should trigger uppercase styling
-  var specialWords = ["MEDIBIN", "STERILOOP", "STERIRACK"];
-
-  // Possible selectors for titles across site
-  var selectors = [
-    "h1", "h2", "h3", "h4", "h5", "h6",
-    ".title", ".product__title", ".title", ".product-single__title",
-    ".collection-title", ".blog-title", ".article__title",
-    ".page-title", ".section-title",
-    "[data-title]"
-  ];
-
-  var elements = document.querySelectorAll(selectors.join(","));
-
-  elements.forEach(function(el) {
-    var text = el.textContent || el.innerText;
-    if (text) {
-      specialWords.forEach(function(word) {
-        if (text.includes(word)) {
-          el.classList.add("uppercase");
-        }
-      });
-    }
-  });
-});
-
-
-document.addEventListener("DOMContentLoaded", function() {
-  var specialWords = ["TF MEDIBIN", "TF STERILOOP", "TF STERIRACK"];
-
-  // target common title containers
-  var selectors = [
-    "h1", "h2", "h3", "h4", "h5", "h6",
-    ".title", ".product__title", ".collection-title", ".article__title"
-  ];
-
-  var elements = document.querySelectorAll(selectors.join(","));
-
-  elements.forEach(function(el) {
-    // normalize full text including nested spans
-    var text = el.innerText || el.textContent;
-
-    specialWords.forEach(function(word) {
-      if (text.toUpperCase().includes(word)) {
-        el.classList.add("uppercase");
-      }
-    });
-  });
-});

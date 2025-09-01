@@ -512,3 +512,27 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   });
 });
+
+
+document.addEventListener("DOMContentLoaded", function() {
+  var specialWords = ["MEDIBIN", "STERILOOP", "STERIRACK"];
+
+  // target common title containers
+  var selectors = [
+    "h1", "h2", "h3", "h4", "h5", "h6",
+    ".title", ".product__title", ".collection-title", ".article__title"
+  ];
+
+  var elements = document.querySelectorAll(selectors.join(","));
+
+  elements.forEach(function(el) {
+    // normalize full text including nested spans
+    var text = el.innerText || el.textContent;
+
+    specialWords.forEach(function(word) {
+      if (text.toUpperCase().includes(word)) {
+        el.classList.add("uppercase");
+      }
+    });
+  });
+});

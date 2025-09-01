@@ -420,6 +420,7 @@ window.addEventListener('resize', () => {
 document.addEventListener("DOMContentLoaded", function() {
   var specialWords = ["TF MEDIBIN", "TF STERILOOP", "TF STERIRACK"];
 
+  // target common title containers
   var selectors = [
     "h1", "h2", "h3", "h4", "h5", "h6",
     ".title", ".product__title", ".collection-title", ".article__title"
@@ -428,16 +429,18 @@ document.addEventListener("DOMContentLoaded", function() {
   var elements = document.querySelectorAll(selectors.join(","));
 
   elements.forEach(function(el) {
-    var text = el.innerText.trim();
+    // normalize full text including nested spans
+    var text = el.innerText || el.textContent;
 
     specialWords.forEach(function(word) {
-      // check if it matches *exactly uppercase* (not mixed case)
-      if (text.includes(word) && text === text.toUpperCase()) {
+      // check if the exact uppercase word exists
+      if (text.includes(word)) {
         el.classList.add("text-uppercase");
       }
     });
   });
 });
+
 
 
 

@@ -441,7 +441,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-
 // Blog search
 
 document.getElementById('blogSearch').addEventListener('input', function() {

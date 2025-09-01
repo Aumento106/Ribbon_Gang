@@ -1817,7 +1817,9 @@ body.shopify-section-header-hidden .hotspot-product-list-main {
   font-size: 14px;
   font-weight: 500;
 }
-
+.hotspot-product-item .product-des .trademark-symbol {
+  font-size: 11px;
+}
 .hotspot-product-item .product-des p {
   margin: 0;
 }

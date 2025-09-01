@@ -383,7 +383,7 @@ document.querySelectorAll('.sub-header-menu-main .header__submenu li').forEach(i
     // you may also like 
 
 function setEqualCardHeadings() {
-  const headings = document.querySelectorAll('.card__heading');
+  const headings = document.querySelectorAll('.related-products .card__heading');
   let maxHeight = 0;
 
   // Reset heights first
@@ -486,6 +486,29 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
+document.addEventListener("DOMContentLoaded", function() {
+  // Words that should trigger uppercase styling
+  var specialWords = ["MEDIBIN", "STERILOOP", "STERIRACK"];
 
+  // Possible selectors for titles across site
+  var selectors = [
+    "h1", "h2", "h3", "h4", "h5", "h6",
+    ".title", ".product__title", ".product-single__title",
+    ".collection-title", ".blog-title", ".article__title",
+    ".page-title", ".section-title",
+    "[data-title]"
+  ];
 
+  var elements = document.querySelectorAll(selectors.join(","));
 
+  elements.forEach(function(el) {
+    var text = el.textContent || el.innerText;
+    if (text) {
+      specialWords.forEach(function(word) {
+        if (text.includes(word)) {
+          el.classList.add("uppercase");
+        }
+      });
+    }
+  });
+});

@@ -493,7 +493,7 @@ document.addEventListener("DOMContentLoaded", function() {
   // Possible selectors for titles across site
   var selectors = [
     "h1", "h2", "h3", "h4", "h5", "h6",
-    ".title", ".product__title", ".product-single__title",
+    ".title", ".product__title", "title", ".product-single__title",
     ".collection-title", ".blog-title", ".article__title",
     ".page-title", ".section-title",
     "[data-title]"

@@ -318,7 +318,7 @@ li > .trademark-symbol {
   font-weight: inherit !important;
 }
 p .trademark-symbol-TM, a .trademark-symbol-TM {
-  font-size: 12px;
+  font-size: 10px;
   /* top: -5px; */
 }
 li > .trademark-symbol-TM {

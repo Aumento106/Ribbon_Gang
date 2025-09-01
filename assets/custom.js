@@ -515,7 +515,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 document.addEventListener("DOMContentLoaded", function() {
-  var specialWords = ["MEDIBIN", "STERILOOP", "STERIRACK"];
+  var specialWords = ["TF MEDIBIN", "TF STERILOOP", "TF STERIRACK"];
 
   // target common title containers
   var selectors = [

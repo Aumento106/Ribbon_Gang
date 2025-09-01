@@ -3230,8 +3230,8 @@ ul.header__submenu li:hover ul li .mega-menu__link:hover {
 .shopify-section-group-header-group .header__inline-menu ul.header__submenu .trademark-symbol,
 .shopify-section-group-header-group .header__inline-menu ul.header__submenu sup {
   position: relative;
-  top: 8px;
-  font-size: 13px;
+  top: 1px;
+  font-size: 12px;
 }
 .shopify-section-group-header-group .sub-header-menu-main .header__inline-menu ul.header__submenu {
   top: 22px;

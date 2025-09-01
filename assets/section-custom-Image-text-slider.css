@@ -13,6 +13,9 @@
 .Custom_image_text_slider .image-with-text-slider .image-with-text__content .sec-des.image-with-text__text strong {
   font-weight: 600 !important;
 }
+.Custom_image_text_slider .image-with-text-slider .image-with-text__content .image-with-text__heading .trademark-symbol {
+    font-size: 15px;
+}
 .Custom_image_text_slider .image-with-text .image-with-text__media-item {
     border-radius: 8px;
     overflow: hidden;

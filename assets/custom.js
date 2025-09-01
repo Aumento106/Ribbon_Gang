@@ -432,7 +432,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     specialWords.forEach(function(word) {
       if (text.toUpperCase().includes(word)) {
-        el.classList.add("uppercase");
+        el.classList.add("text-uppercase");
       }
     });
   });

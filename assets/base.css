@@ -294,18 +294,18 @@ strong {
   font-size: 22px;
   line-height: 1;
   position: relative;
-  top: -5px;
+  /* top: -5px; */
 }
 p .trademark-symbol, a .trademark-symbol {
   font-size: 16px;
-  top: -3px;
+  /* top: -3px; */
 }
 li > .trademark-symbol {
   font-size: inherit;
-  top: -3px;
+  /* top: -3px; */
 }
 :is(h1, h2, h3, h4, h5, h6) a .trademark-symbol, :is(h1, h2, h3, h4, h5, h6) p .trademark-symbol {
-  top: -5px;
+  /* top: -5px; */
   font-size: 22px;
 }
 
@@ -314,32 +314,32 @@ li > .trademark-symbol {
   font-size: 12px;
   line-height: 1;
   position: relative;
-  top: -9px;
+  /* top: -9px; */
   font-weight: inherit !important;
 }
 p .trademark-symbol-TM, a .trademark-symbol-TM {
   font-size: 12px;
-  top: -5px;
+  /* top: -5px; */
 }
 li > .trademark-symbol-TM {
   font-size: 12px;
-  top: -3px;
+  /* top: -3px; */
 }
 :is(h1, h2, h3, h4, h5, h6) a .trademark-symbol-TM, :is(h1, h2, h3, h4, h5, h6) p .trademark-symbol-TM,
 :is(h1, h2, h3, h4, h5, h6) > .trademark-symbol-TM {
-  top: -9px;
+  /* top: -9px; */
 }
 :is(h1, h2) p .trademark-symbol-TM, :is(h1, h2) > .trademark-symbol-TM {
   font-size: 22px;
-  top: -15px;
+  /* top: -15px; */
 }
 :is(h1, h2) p .trademark-symbol, :is(h1, h2) > .trademark-symbol {
   font-size: 30px;
-  top: -12px;
+  /* top: -12px; */
 }
 :not(.template-index) :is(h1, h2, h3, h4, h5, h6) > .trademark-symbol-TM, 
 :not(.template-index) :is(h1, h2, h3, h4, h5, h6) > .trademark-symbol {
-  top: -24px;
+  /* top: -24px; */
   font-size: 17px;
 }
 

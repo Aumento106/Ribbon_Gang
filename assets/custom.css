@@ -601,8 +601,8 @@ body .newsletter-form {
   font-size: 18px;
 }
 .related-products .product-card-wrapper .card__heading.h5 sup {
-  font-size: 14px;
-  top: 4px;
+  font-size: 12px;
+  top: 2px;
   position: relative;
 }
 .related-products .product-card-wrapper .card__heading.h5 {

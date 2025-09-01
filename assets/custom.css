@@ -908,6 +908,9 @@ body .quantity:after {
   font-weight: 300 !important;
   font-size: 18px;
 }
+.product-grid-container .collection .card__heading .trademark-symbol {
+  font-size: 12px;
+}
 .product__info-wrapper .product__sku,
 .product__info-wrapper .product__info-container .product-form__input {
   margin: 0 0 4rem 0;

@@ -600,7 +600,11 @@ body .newsletter-form {
 .related-products .product-card-wrapper .card__heading.h5 {
   font-size: 18px;
 }
-
+.related-products .product-card-wrapper .card__heading.h5 sup {
+  font-size: 14px;
+  top: 4px;
+  position: relative;
+}
 .related-products .product-card-wrapper .card__heading.h5 {
   font-weight: 300 !important;
 }

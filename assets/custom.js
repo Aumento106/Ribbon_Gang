@@ -417,45 +417,45 @@ window.addEventListener('resize', () => {
 
 // Blog search
 
-document.getElementById('blogSearch').addEventListener('input', function() {
-  const searchValue = this.value.toLowerCase();
-  const blogPosts = document.querySelectorAll('.blog-articles__article');
-  let visibleCount = 0;
+// document.getElementById('blogSearch').addEventListener('input', function() {
+//   const searchValue = this.value.toLowerCase();
+//   const blogPosts = document.querySelectorAll('.blog-articles__article');
+//   let visibleCount = 0;
 
-  blogPosts.forEach(function(post) {
-    const title = post.querySelector('.full-unstyled-link').textContent.toLowerCase();
-    const content = post.querySelector('.article-card__excerpt').textContent.toLowerCase();
+//   blogPosts.forEach(function(post) {
+//     const title = post.querySelector('.full-unstyled-link').textContent.toLowerCase();
+//     const content = post.querySelector('.article-card__excerpt').textContent.toLowerCase();
 
-    if (title.includes(searchValue) || content.includes(searchValue)) {
-      post.style.display = '';
-      visibleCount++;
-    } else {
-      post.style.display = 'none';
-    }
-  });
+//     if (title.includes(searchValue) || content.includes(searchValue)) {
+//       post.style.display = '';
+//       visibleCount++;
+//     } else {
+//       post.style.display = 'none';
+//     }
+//   });
 
  
-  const loadMore = document.querySelector('.loade-more');
-  if (loadMore) {
-    if (visibleCount < 12) {
-      loadMore.style.display = 'none';
-    } else {
-      loadMore.style.display = '';
-    }
-  }
+//   const loadMore = document.querySelector('.loade-more');
+//   if (loadMore) {
+//     if (visibleCount < 12) {
+//       loadMore.style.display = 'none';
+//     } else {
+//       loadMore.style.display = '';
+//     }
+//   }
 
-  // Show/hide "no results" message
-  const noResults = document.getElementById('noResultsMessage');
-  if (noResults) {
-    if (visibleCount === 0 && searchValue.trim() !== '') {
-      noResults.style.display = '';
-      noResults.innerHTML = `No results found for “${this.value}”. Check the spelling or use a different word or phrase.`;
-    } else {
-      noResults.style.display = 'none';
-      noResults.innerHTML = '';
-    }
-  }
-});
+//   // Show/hide "no results" message
+//   const noResults = document.getElementById('noResultsMessage');
+//   if (noResults) {
+//     if (visibleCount === 0 && searchValue.trim() !== '') {
+//       noResults.style.display = '';
+//       noResults.innerHTML = `No results found for “${this.value}”. Check the spelling or use a different word or phrase.`;
+//     } else {
+//       noResults.style.display = 'none';
+//       noResults.innerHTML = '';
+//     }
+//   }
+// });
 
 
 document.addEventListener('DOMContentLoaded', function () {

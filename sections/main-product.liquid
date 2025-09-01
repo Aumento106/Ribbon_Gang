@@ -147,10 +147,7 @@
           {%- for block in section.blocks -%}
             {%- case block.type -%}
               {%- when 'Specifications' -%}
-                <div 
-                  class="tab-content  {% if forloop.first %}active{% endif %}" 
-                  id="tab-{{ block.id }}"
-                >
+                <div class="tab-content  {% if forloop.first %}active{% endif %}" id="tab-{{ block.id }}">
                   {% assign matching_1 = block.settings.Heading_sp | strip | downcase %}
                   {% assign matching_2 = "Features & Benefits" | strip | downcase %}
                   {% if matching_2 == matching_1 %}

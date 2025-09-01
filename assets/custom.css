@@ -3227,7 +3227,8 @@ ul.header__submenu li:hover ul li .mega-menu__link:hover {
   padding-left: 0;
   padding-right: 0;
 }
-.shopify-section-group-header-group .header__inline-menu ul.header__submenu .trademark-symbol {
+.shopify-section-group-header-group .header__inline-menu ul.header__submenu .trademark-symbol,
+.shopify-section-group-header-group .header__inline-menu ul.header__submenu sup {
   font-size: 11px;
 }
 .shopify-section-group-header-group .sub-header-menu-main .header__inline-menu ul.header__submenu {

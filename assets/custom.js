@@ -415,6 +415,8 @@ window.addEventListener('resize', () => {
   requestAnimationFrame(setEqualCardHeadings);
 });
 
+
+
 document.addEventListener("DOMContentLoaded", function() {
   var specialWords = ["TF MEDIBIN", "TF STERILOOP", "TF STERIRACK"];
 

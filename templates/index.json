@@ -183,74 +183,6 @@
         "padding_bottom": 50
       }
     },
-    "custom_multicolumn_tEhTPk": {
-      "type": "custom-multicolumn",
-      "blocks": {
-        "column_nPJerb": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Concept_13.png",
-            "title": "Clean utility",
-            "block_custom_font_weight": "600",
-            "text": "<p>Medications room</p>",
-            "text-v": "",
-            "button-text": "Explore room",
-            "button-url": "shopify://pages/clean-utility-medications-room"
-          }
-        },
-        "column_UTiAj3": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Concept_13.png",
-            "title": "CSSD",
-            "block_custom_font_weight": "600",
-            "text": "<p>Theatre store</p>",
-            "text-v": "",
-            "button-text": "Explore room",
-            "button-url": "shopify://pages/cssd-theater-store"
-          }
-        },
-        "column_ggEGqd": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Concept_13.png",
-            "title": "Pharmacy",
-            "block_custom_font_weight": "600",
-            "text": "<p>Dispensary</p>",
-            "text-v": "",
-            "button-text": "Explore room",
-            "button-url": "shopify://pages/pharmacy-storage-dispensary"
-          }
-        }
-      },
-      "block_order": [
-        "column_nPJerb",
-        "column_UTiAj3",
-        "column_ggEGqd"
-      ],
-      "settings": {
-        "page_container": "page-width",
-        "title": "<h2>Innovative storage solutions</h2>",
-        "sec_subtitle": "Making space for care® across every department",
-        "title_color": "#ffffff",
-        "subheading_color": "#ffffff",
-        "button_text": "",
-        "button_url": "",
-        "custom_heading_size": 45,
-        "mobile_custom_heading_size": 28,
-        "custom_font_weight": "600",
-        "title_alignment": "center",
-        "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
-        "columns_desktop": "3",
-        "box_shadow": false,
-        "image_auto_height1": false,
-        "auto_width": false,
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
     "custom_image_banner_wTxxEB": {
       "type": "custom-image-banner",
       "blocks": {
@@ -464,6 +396,74 @@
         "mobile_content_alignment": "center",
         "padding_top": 0,
         "padding_bottom": 40
+      }
+    },
+    "custom_multicolumn_tEhTPk": {
+      "type": "custom-multicolumn",
+      "blocks": {
+        "column_nPJerb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Concept_13.png",
+            "title": "Clean utility",
+            "block_custom_font_weight": "600",
+            "text": "<p>Medications room</p>",
+            "text-v": "",
+            "button-text": "Explore room",
+            "button-url": "shopify://pages/clean-utility-medications-room"
+          }
+        },
+        "column_UTiAj3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Concept_13.png",
+            "title": "CSSD",
+            "block_custom_font_weight": "600",
+            "text": "<p>Theatre store</p>",
+            "text-v": "",
+            "button-text": "Explore room",
+            "button-url": "shopify://pages/cssd-theater-store"
+          }
+        },
+        "column_ggEGqd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Concept_13.png",
+            "title": "Pharmacy",
+            "block_custom_font_weight": "600",
+            "text": "<p>Dispensary</p>",
+            "text-v": "",
+            "button-text": "Explore room",
+            "button-url": "shopify://pages/pharmacy-storage-dispensary"
+          }
+        }
+      },
+      "block_order": [
+        "column_nPJerb",
+        "column_UTiAj3",
+        "column_ggEGqd"
+      ],
+      "settings": {
+        "page_container": "page-width",
+        "title": "<h2>Innovative storage solutions</h2>",
+        "sec_subtitle": "Making space for care® across every department",
+        "title_color": "#ffffff",
+        "subheading_color": "#ffffff",
+        "button_text": "",
+        "button_url": "",
+        "custom_heading_size": 45,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "600",
+        "title_alignment": "center",
+        "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
+        "columns_desktop": "3",
+        "box_shadow": false,
+        "image_auto_height1": false,
+        "auto_width": false,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "margin_top": 0,
+        "margin_bottom": 0
       }
     },
     "custom_image_banner_xDTGLj": {
@@ -945,13 +945,13 @@
           "settings": {
             "image": "shopify://shop_images/Concept_5.png",
             "offer_title": "",
-            "heading": "<p>Blacktown hospital improves bottom line by 30% using STERIRACK® system</p>",
+            "heading": "<p>Improving efficiency, organisation, and infection control with STERIRACK®</p>",
             "block_custom_heading_size": 28,
             "mobile_block_custom_heading_size": 28,
-            "block_custom_font_weight": "600",
-            "text": "<p>Bearundae voluptatem eum iditatqui aut doluptiorest adit  am rerrum sitae cor modia voluptatist amu.<br/><br/><em>\"Bearundae voluptatem eum iditatqui aut doluptiorest  adit am rerrum sitae cor modia voluptatist amu.  Bearundae voluptatem eum iditatqui aut doluptiorest  adit am rerrum sitae cor modia voluptatist amu.\"</em><br/><br/>SHANE BROWN | BLACKTOWN HOSPITAL</p>",
-            "button_label": "Read more",
-            "button_link": "shopify://collections/sterirack-system",
+            "block_custom_font_weight": "500",
+            "text": "<p>As part of the Liverpool Hospital redevelopment, SpaceLogic delivered a full suite of STERIRACK® systems to optimise storage in clean utility, CSSD, and pharmacy spaces. The modular, cleanable design improved workflow efficiency, supported strict infection control protocols, and reduced wasted time searching for supplies.</p><p><em>\"The SpaceLogic team worked seamlessly with our planners and clinical staff to deliver a solution that’s flexible, durable, and easy to maintain. The difference in organisation and workflow has been remarkable.\"</em><br/><br/>— NUM, Liverpool Hospital</p>",
+            "button_label": "View more case studies",
+            "button_link": "shopify://pages/hospital-projects",
             "button_style_secondary": false
           }
         },
@@ -1965,8 +1965,8 @@
   "order": [
     "custom_slide_show_aTXHa3",
     "custom_multicolumn_text_JtzPeP",
-    "custom_multicolumn_tEhTPk",
     "custom_image_banner_wTxxEB",
+    "custom_multicolumn_tEhTPk",
     "custom_image_banner_xDTGLj",
     "custom_newsletter_NdaReb",
     "custom_slideshow_slider_8brNtf",

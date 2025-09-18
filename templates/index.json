@@ -62,7 +62,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Sydney_Products_June_25_HR-72.jpg",
-            "enable_side_image": false,
+            "enable_side_image": true,
             "heading": "Storage systems that transform clinical spaces",
             "custom_heading_size": 45,
             "mobile_custom_heading_size": 28,

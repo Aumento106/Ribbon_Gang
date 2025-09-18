@@ -802,32 +802,18 @@
             "button_style_secondary": false
           }
         },
-        "slide_dUeE8E": {
-          "type": "slide",
-          "settings": {
-            "offer_title": "<p>Super Saver Offer</p>",
-            "heading": "<p>Image with text</p>",
-            "block_custom_heading_size": 52,
-            "mobile_block_custom_heading_size": 28,
-            "block_custom_font_weight": "400",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        },
         "slide_tWbjPi": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Concept_20.png",
+            "image": "shopify://shop_images/Sydney_Products_June_25_HR-66.jpg",
             "offer_title": "",
-            "heading": "<p>Introducing the registered wireLoop shape mark and SteriLoop™ innovation</p>",
+            "heading": "<p>Colour-coded clarity</p>",
             "block_custom_heading_size": 45,
             "mobile_block_custom_heading_size": 28,
             "block_custom_font_weight": "600",
-            "text": "<p>SpaceLogic is proud to introduce SteriLoop®,  featuring our registered WireLoop Shape Mark – a game-changing  innovation in healthcare  storage.</p><p> SMOOTH ROUNDED CORNERS: Prevents cuts,  micro-tears, and damage to consumables</p><p>NO SHARP EDGES: Superior safety for hospital  staff and patient</p><p>ENHANCED DURABILITY AND HYGIENE:  Engineered for long-term performance</p><p><strong>Look for the Loop™ – The  ultimate in safe, smart storage</strong></p>",
-            "button_label": "Shop SteriLoop™ Baskets",
-            "button_link": "shopify://collections/steriloop-baskets",
+            "text": "<p>Colour-coded labelling helps busy clinical teams find supplies faster, reduce errors, and support infection control. From Post Label Holders to label strips, our labelling accessories integrate seamlessly with the STERIRACK® System.</p><p><strong>Smarter organisation through colour.</strong></p>",
+            "button_label": "Shop labelling accessories",
+            "button_link": "shopify://collections/sterirack®-labelling-and-signage",
             "button_style_secondary": false
           }
         }
@@ -835,7 +821,6 @@
       "block_order": [
         "slide_gMCqNw",
         "slide_iUhckn",
-        "slide_dUeE8E",
         "slide_tWbjPi"
       ],
       "settings": {

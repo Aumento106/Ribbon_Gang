@@ -40,11 +40,11 @@
           "settings": {
             "image": "shopify://shop_images/Concept_1_1.png",
             "enable_side_image": false,
-            "heading": "Infection-controlled solutions",
+            "heading": "Shop accessories for smarter care",
             "custom_heading_size": 45,
             "mobile_custom_heading_size": 28,
             "custom_font_weight": "600",
-            "subheading": "",
+            "subheading": "Baskets, bins, and dividers built for clean, organised spaces.",
             "button_label": "Shop Now",
             "link": "shopify://pages/pharmacy-drawers",
             "button_style_secondary": false,

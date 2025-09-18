@@ -25,11 +25,19 @@
             "image": "shopify://shop_images/Colour_options_19.jpg",
             "image_overlay_opacity": 0
           }
+        },
+        "slide_aPqAjn": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Colour_options_20.jpg",
+            "image_overlay_opacity": 0
+          }
         }
       },
       "block_order": [
         "slide_EjgKKr",
-        "slide_XbLzDm"
+        "slide_XbLzDm",
+        "slide_aPqAjn"
       ],
       "name": "TF Custom Page Slideshow",
       "settings": {

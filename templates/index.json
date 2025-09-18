@@ -121,6 +121,136 @@
         "padding_bottom": 40
       }
     },
+    "custom_multicolumn_text_JtzPeP": {
+      "type": "custom-Multicolumn-text",
+      "blocks": {
+        "column_yYnNU6": {
+          "type": "column",
+          "settings": {
+            "title": "Service",
+            "block_custom_font_weight": "600",
+            "text": "<ul><li>All-in-one  and beginning-to-end</li><li>Project consultation with 2D and 3D visualisations</li><li>Custom solutions and innovate designs</li><li>Precision planning and seamless execution</li></ul>",
+            "text-v": "",
+            "button-text": "Find out more",
+            "button-url": "shopify://pages/services"
+          }
+        },
+        "column_Q9aepq": {
+          "type": "column",
+          "settings": {
+            "title": "Focus",
+            "block_custom_font_weight": "600",
+            "text": "<ul><li>Clinical storage solutions</li><li>Infection control and safety focus</li><li>Optimised workflow</li><li>Sterile and non-sterile options</li><li>Optimised workflow</li></ul>",
+            "text-v": "",
+            "button-text": "Find out more",
+            "button-url": "shopify://collections"
+          }
+        },
+        "column_ERyxPw": {
+          "type": "column",
+          "settings": {
+            "title": "Quality",
+            "block_custom_font_weight": "600",
+            "text": "<ul><li>Gold standard STERIRACK®  System</li><li>Patented excellence</li><li>Compliance with safety standards</li><li>Ergonomic design</li><li>Patented excellence</li></ul>",
+            "text-v": "",
+            "button-text": "Find out more",
+            "button-url": "shopify://collections"
+          }
+        }
+      },
+      "block_order": [
+        "column_yYnNU6",
+        "column_Q9aepq",
+        "column_ERyxPw"
+      ],
+      "settings": {
+        "title": "<h2>Why SpaceLogic?</h2>",
+        "descr": "For over 40 years, SpaceLogic has specialised in creating smarter, safer, and more efficient clinical spaces. Our modular storage systems are purpose-built to support infection control, streamline workflows, and adapt as your facility grows. Trusted by hospitals and healthcare teams nationwide, we make space work harder — so you can focus on care.",
+        "custom_heading_size": 45,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
+        "description_custom_font_weight": "300",
+        "title_alignment": "center",
+        "title_color": "#ffffff",
+        "subheading_color": "#ffffff",
+        "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
+        "heading_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "columns_desktop": "3",
+        "box_shadow": false,
+        "Images_same_height": false,
+        "box_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "custom_multicolumn_tEhTPk": {
+      "type": "custom-multicolumn",
+      "blocks": {
+        "column_nPJerb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Concept_13.png",
+            "title": "Clean utility",
+            "block_custom_font_weight": "600",
+            "text": "<p>Medications room</p>",
+            "text-v": "",
+            "button-text": "Explore room",
+            "button-url": "shopify://pages/clean-utility-medications-room"
+          }
+        },
+        "column_UTiAj3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Concept_13.png",
+            "title": "CSSD",
+            "block_custom_font_weight": "600",
+            "text": "<p>Theatre store</p>",
+            "text-v": "",
+            "button-text": "Explore room",
+            "button-url": "shopify://pages/cssd-theater-store"
+          }
+        },
+        "column_ggEGqd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Concept_13.png",
+            "title": "Pharmacy",
+            "block_custom_font_weight": "600",
+            "text": "<p>Dispensary</p>",
+            "text-v": "",
+            "button-text": "Explore room",
+            "button-url": "shopify://pages/pharmacy-storage-dispensary"
+          }
+        }
+      },
+      "block_order": [
+        "column_nPJerb",
+        "column_UTiAj3",
+        "column_ggEGqd"
+      ],
+      "settings": {
+        "page_container": "page-width",
+        "title": "<h2>Innovative storage solutions</h2>",
+        "sec_subtitle": "Making space for care® across every department",
+        "title_color": "#ffffff",
+        "subheading_color": "#ffffff",
+        "button_text": "",
+        "button_url": "",
+        "custom_heading_size": 45,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "600",
+        "title_alignment": "center",
+        "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
+        "columns_desktop": "3",
+        "box_shadow": false,
+        "image_auto_height1": false,
+        "auto_width": false,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "custom_image_banner_wTxxEB": {
       "type": "custom-image-banner",
       "blocks": {
@@ -551,74 +681,6 @@
         "padding_bottom": 40
       }
     },
-    "custom_multicolumn_tEhTPk": {
-      "type": "custom-multicolumn",
-      "blocks": {
-        "column_nPJerb": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Concept_13.png",
-            "title": "Clean utility",
-            "block_custom_font_weight": "600",
-            "text": "<p>Medications room</p>",
-            "text-v": "",
-            "button-text": "Explore room",
-            "button-url": "shopify://pages/clean-utility-medications-room"
-          }
-        },
-        "column_UTiAj3": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Concept_13.png",
-            "title": "CSSD",
-            "block_custom_font_weight": "600",
-            "text": "<p>Theatre store</p>",
-            "text-v": "",
-            "button-text": "Explore room",
-            "button-url": "shopify://pages/cssd-theater-store"
-          }
-        },
-        "column_ggEGqd": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Concept_13.png",
-            "title": "Pharmacy",
-            "block_custom_font_weight": "600",
-            "text": "<p>Dispensary</p>",
-            "text-v": "",
-            "button-text": "Explore room",
-            "button-url": "shopify://pages/pharmacy-storage-dispensary"
-          }
-        }
-      },
-      "block_order": [
-        "column_nPJerb",
-        "column_UTiAj3",
-        "column_ggEGqd"
-      ],
-      "settings": {
-        "page_container": "page-width",
-        "title": "<h2>Innovative storage solutions</h2>",
-        "sec_subtitle": "Making space for care® across every department",
-        "title_color": "#ffffff",
-        "subheading_color": "#ffffff",
-        "button_text": "",
-        "button_url": "",
-        "custom_heading_size": 45,
-        "mobile_custom_heading_size": 28,
-        "custom_font_weight": "600",
-        "title_alignment": "center",
-        "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
-        "columns_desktop": "3",
-        "box_shadow": false,
-        "image_auto_height1": false,
-        "auto_width": false,
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
     "custom_newsletter_NdaReb": {
       "type": "custom-newsletter",
       "blocks": {
@@ -729,68 +791,6 @@
         "accessibility_info": "Slideshow about our brand",
         "padding_top": 0,
         "padding_bottom": 40
-      }
-    },
-    "custom_multicolumn_text_JtzPeP": {
-      "type": "custom-Multicolumn-text",
-      "blocks": {
-        "column_yYnNU6": {
-          "type": "column",
-          "settings": {
-            "title": "Service",
-            "block_custom_font_weight": "600",
-            "text": "<ul><li>All-in-one  and beginning-to-end</li><li>Project consultation with 2D and 3D visualisations</li><li>Custom solutions and innovate designs</li><li>Precision planning and seamless execution</li></ul>",
-            "text-v": "",
-            "button-text": "Find out more",
-            "button-url": "shopify://pages/services"
-          }
-        },
-        "column_Q9aepq": {
-          "type": "column",
-          "settings": {
-            "title": "Focus",
-            "block_custom_font_weight": "600",
-            "text": "<ul><li>Clinical storage solutions</li><li>Infection control and safety focus</li><li>Optimised workflow</li><li>Sterile and non-sterile options</li><li>Optimised workflow</li></ul>",
-            "text-v": "",
-            "button-text": "Find out more",
-            "button-url": "shopify://collections"
-          }
-        },
-        "column_ERyxPw": {
-          "type": "column",
-          "settings": {
-            "title": "Quality",
-            "block_custom_font_weight": "600",
-            "text": "<ul><li>Gold standard STERIRACK®  System</li><li>Patented excellence</li><li>Compliance with safety standards</li><li>Ergonomic design</li><li>Patented excellence</li></ul>",
-            "text-v": "",
-            "button-text": "Find out more",
-            "button-url": "shopify://collections"
-          }
-        }
-      },
-      "block_order": [
-        "column_yYnNU6",
-        "column_Q9aepq",
-        "column_ERyxPw"
-      ],
-      "settings": {
-        "title": "<h2>Why SpaceLogic?</h2>",
-        "descr": "Making Space for Care®.",
-        "custom_heading_size": 45,
-        "mobile_custom_heading_size": 28,
-        "custom_font_weight": "600",
-        "description_custom_font_weight": "400",
-        "title_alignment": "center",
-        "title_color": "#ffffff",
-        "subheading_color": "#ffffff",
-        "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
-        "heading_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "columns_desktop": "3",
-        "box_shadow": false,
-        "Images_same_height": false,
-        "box_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "padding_top": 50,
-        "padding_bottom": 50
       }
     },
     "custom_image_text_slider_mztD6t": {
@@ -1964,12 +1964,12 @@
   },
   "order": [
     "custom_slide_show_aTXHa3",
+    "custom_multicolumn_text_JtzPeP",
+    "custom_multicolumn_tEhTPk",
     "custom_image_banner_wTxxEB",
     "custom_image_banner_xDTGLj",
-    "custom_multicolumn_tEhTPk",
     "custom_newsletter_NdaReb",
     "custom_slideshow_slider_8brNtf",
-    "custom_multicolumn_text_JtzPeP",
     "custom_image_text_slider_mztD6t",
     "custom_image_text_slider_k9tKHM",
     "newsletter_kYQP7r",

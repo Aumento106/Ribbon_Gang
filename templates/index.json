@@ -676,8 +676,8 @@
         "color_scheme": "scheme-7bba877c-319e-4978-b41a-39cbc803dea8",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
-        "padding_top": 0,
-        "padding_bottom": 40
+        "padding_top": 26,
+        "padding_bottom": 26
       }
     },
     "custom_slideshow_slider_8brNtf": {

@@ -63,36 +63,13 @@
           "settings": {
             "image": "shopify://shop_images/Concept_1_1.png",
             "enable_side_image": false,
-            "heading": "Infection-controlled solutions",
+            "heading": "See how hospitals optimise space",
             "custom_heading_size": 45,
             "mobile_custom_heading_size": 28,
             "custom_font_weight": "600",
-            "subheading": "",
-            "button_label": "Shop Now",
-            "link": "shopify://pages/pharmacy-drawers",
-            "button_style_secondary": false,
-            "botton_position": 120,
-            "show_text_box": true,
-            "enable_text_align_center": true,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "slide_text_color": "#000000",
-            "btn_bg": "#ffce00",
-            "btn_text_color": "#ffffff"
-          }
-        },
-        "slide_faXiaL": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Concept_1_1.png",
-            "enable_side_image": false,
-            "heading": "Infection-controlled solutions",
-            "custom_heading_size": 45,
-            "mobile_custom_heading_size": 28,
-            "custom_font_weight": "600",
-            "subheading": "",
-            "button_label": "Shop Now",
-            "link": "shopify://pages/pharmacy-drawers",
+            "subheading": "Real results from leading hospitals.",
+            "button_label": "View case studies",
+            "link": "shopify://pages/hospital-projects",
             "button_style_secondary": false,
             "botton_position": 120,
             "show_text_box": true,
@@ -108,8 +85,7 @@
       "block_order": [
         "slide_eEdaKF",
         "slide_QcKVdY",
-        "slide_gCWg7E",
-        "slide_faXiaL"
+        "slide_gCWg7E"
       ],
       "settings": {
         "layout": "full_bleed",

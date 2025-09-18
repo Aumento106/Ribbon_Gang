@@ -845,7 +845,7 @@
         "section_color_scheme": "",
         "offer_title_color": "#ffce00",
         "show_pagination": true,
-        "padding_top": 40,
+        "padding_top": 20,
         "padding_bottom": 40
       }
     },

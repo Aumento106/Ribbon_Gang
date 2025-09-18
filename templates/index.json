@@ -790,15 +790,15 @@
         "slide_iUhckn": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Concept_20.png",
+            "image": "shopify://shop_images/Thumbnail_-_Label_holders_Mk_II_4.png",
             "offer_title": "",
-            "heading": "<p>Introducing the registered wireLoop shape mark and SteriLoop™ innovation</p>",
+            "heading": "<p>Clip 'N' Click Label Holder - Mark 2</p>",
             "block_custom_heading_size": 45,
             "mobile_block_custom_heading_size": 28,
             "block_custom_font_weight": "600",
-            "text": "<p>SpaceLogic is proud to introduce SteriLoop®,  featuring our registered WireLoop Shape Mark – a game-changing  innovation in healthcare  storage.</p><p> SMOOTH ROUNDED CORNERS: Prevents cuts,  micro-tears, and damage to consumables</p><p>NO SHARP EDGES: Superior safety for hospital  staff and patient</p><p>ENHANCED DURABILITY AND HYGIENE:  Engineered for long-term performance</p><p><strong>Look for the Loop™ – The  ultimate in safe, smart storage</strong></p>",
-            "button_label": "Shop SteriLoop™ Baskets",
-            "button_link": "shopify://collections/steriloop-baskets",
+            "text": "<p>The upgraded Mark 2 Click ’N’ Clip Label Holder saves time and reduces frustration in fast-paced clinical environments. </p><p>With a clear protective cover that snaps securely into place, labels stay clean, legible, and contamination-free, no peeling, no fiddling, no wasted time.</p><p><strong>Smarter labelling, safer care, designed to work seamlessly with STERIRACK® systems.</strong></p>",
+            "button_label": "Shop label holders",
+            "button_link": "shopify://products/sterirack®-click-n-clip-label-holders-mk-ii",
             "button_style_secondary": false
           }
         },

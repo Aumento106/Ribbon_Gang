@@ -63,11 +63,11 @@
           "settings": {
             "image": "shopify://shop_images/Concept_1_1.png",
             "enable_side_image": false,
-            "heading": "See how hospitals optimise space",
+            "heading": "Storage systems that transform clinical spaces",
             "custom_heading_size": 45,
             "mobile_custom_heading_size": 28,
             "custom_font_weight": "600",
-            "subheading": "Real results from leading hospitals.",
+            "subheading": "Proven results in efficiency, organisation, and infection control.",
             "button_label": "View case studies",
             "link": "shopify://pages/hospital-projects",
             "button_style_secondary": false,

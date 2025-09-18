@@ -791,12 +791,12 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Sydney_Products_June_25_HR-155.jpg",
-            "offer_title": "",
-            "heading": "<p>Blacktown hospital improves their bottom line by 30% using STERIRACK™ system</p>",
+            "offer_title": "<p>Royal Prince Alfred Hospital</p>",
+            "heading": "<p>Children's ward</p>",
             "block_custom_heading_size": 45,
             "mobile_block_custom_heading_size": 28,
             "block_custom_font_weight": "600",
-            "text": "<p>Bearundae voluptatem eum iditatqui aut doluptiorest adit  am rerrum sitae cor modia voluptatist amu.<br/><br/>Bearundae voluptatem eum iditatqui aut doluptiorest  adit am rerrum sitae cor modia voluptatist amu.  Bearundae voluptatem eum iditatqui aut doluptiorest  adit am rerrum sitae cor modia voluptatist amu.<br/><br/><strong>“We couldn’t have asked for a better system —  the nurses absolutely love it!”</strong><br/><br/>Shane Brown | Blacktown Hospital</p>",
+            "text": "<p>xxx</p>",
             "button_label": "Read More...",
             "button_link": "shopify://collections/sterirack-system",
             "button_style_secondary": false

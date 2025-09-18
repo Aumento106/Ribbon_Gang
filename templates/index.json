@@ -427,7 +427,7 @@
         "column_ggEGqd": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Concept_13.png",
+            "image": "shopify://shop_images/Sydney_Products_June_25_HR-185.jpg",
             "title": "Pharmacy",
             "block_custom_font_weight": "600",
             "text": "<p>Dispensary</p>",
@@ -787,66 +787,6 @@
             "button_style_secondary": false
           }
         },
-        "slide_tKpxBb": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Concept_5.png",
-            "offer_title": "",
-            "heading": "<p>Improving efficiency, organisation, and infection control with STERIRACK®</p>",
-            "block_custom_heading_size": 45,
-            "mobile_block_custom_heading_size": 28,
-            "block_custom_font_weight": "600",
-            "text": "<p>As part of the Liverpool Hospital redevelopment, SpaceLogic delivered a full suite of STERIRACK® systems to optimise storage in clean utility, CSSD, and pharmacy spaces. The modular, cleanable design improved workflow efficiency, supported strict infection control protocols, and reduced wasted time searching for supplies.</p><p><em><strong>\"The SpaceLogic team worked seamlessly with our planners and clinical staff to deliver a solution that’s flexible, durable, and easy to maintain. The difference in organisation and workflow has been remarkable.\"</strong></em><br/><br/>— NUM, Liverpool Hospital</p>",
-            "button_label": "View more case studies",
-            "button_link": "shopify://pages/hospital-projects",
-            "button_style_secondary": false
-          }
-        },
-        "slide_th39Lp": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Concept_5.png",
-            "offer_title": "",
-            "heading": "<p>Blacktown hospital improves their bottom line by 30% using STERIRACK™ system</p>",
-            "block_custom_heading_size": 45,
-            "mobile_block_custom_heading_size": 28,
-            "block_custom_font_weight": "600",
-            "text": "<p>Bearundae voluptatem eum iditatqui aut doluptiorest adit  am rerrum sitae cor modia voluptatist amu.<br/><br/>Bearundae voluptatem eum iditatqui aut doluptiorest  adit am rerrum sitae cor modia voluptatist amu.  Bearundae voluptatem eum iditatqui aut doluptiorest  adit am rerrum sitae cor modia voluptatist amu.<br/><br/><strong>“We couldn’t have asked for a better system —  the nurses absolutely love it!”</strong><br/><br/>Shane Brown | Blacktown Hospital</p>",
-            "button_label": "Read More...",
-            "button_link": "shopify://collections/sterirack-system",
-            "button_style_secondary": false
-          }
-        },
-        "slide_CAFkN3": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Concept_5.png",
-            "offer_title": "",
-            "heading": "<p>Blacktown hospital improves their bottom line by 30% using STERIRACK™ system</p>",
-            "block_custom_heading_size": 45,
-            "mobile_block_custom_heading_size": 28,
-            "block_custom_font_weight": "600",
-            "text": "<p>Bearundae voluptatem eum iditatqui aut doluptiorest adit  am rerrum sitae cor modia voluptatist amu.<br/><br/>Bearundae voluptatem eum iditatqui aut doluptiorest  adit am rerrum sitae cor modia voluptatist amu.  Bearundae voluptatem eum iditatqui aut doluptiorest  adit am rerrum sitae cor modia voluptatist amu.<br/><br/><strong>“We couldn’t have asked for a better system —  the nurses absolutely love it!”</strong><br/><br/>Shane Brown | Blacktown Hospital</p>",
-            "button_label": "Read More...",
-            "button_link": "shopify://collections/sterirack-system",
-            "button_style_secondary": false
-          }
-        },
-        "slide_gCfhTB": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Concept_5.png",
-            "offer_title": "",
-            "heading": "<p>Blacktown hospital improves their bottom line by 30% using STERIRACK™ system</p>",
-            "block_custom_heading_size": 45,
-            "mobile_block_custom_heading_size": 28,
-            "block_custom_font_weight": "600",
-            "text": "<p>Bearundae voluptatem eum iditatqui aut doluptiorest adit  am rerrum sitae cor modia voluptatist amu.<br/><br/>Bearundae voluptatem eum iditatqui aut doluptiorest  adit am rerrum sitae cor modia voluptatist amu.  Bearundae voluptatem eum iditatqui aut doluptiorest  adit am rerrum sitae cor modia voluptatist amu.<br/><br/><strong>“We couldn’t have asked for a better system —  the nurses absolutely love it!”</strong><br/><br/>Shane Brown | Blacktown Hospital</p>",
-            "button_label": "Read More...",
-            "button_link": "shopify://collections/sterirack-system",
-            "button_style_secondary": false
-          }
-        },
         "slide_EmBXDp": {
           "type": "slide",
           "settings": {
@@ -880,10 +820,6 @@
       },
       "block_order": [
         "slide_UBnzye",
-        "slide_tKpxBb",
-        "slide_th39Lp",
-        "slide_CAFkN3",
-        "slide_gCfhTB",
         "slide_EmBXDp",
         "slide_cbQUAP"
       ],

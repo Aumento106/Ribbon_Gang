@@ -776,7 +776,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Sydney_Products_June_25_HR-1.jpg",
-            "offer_title": "",
+            "offer_title": "<p>Liverpool Hospital Redevelopment</p>",
             "heading": "<p>Clinical storage solutions improving efficiency, organisation, and infection control with STERIRACK®</p>",
             "block_custom_heading_size": 28,
             "mobile_block_custom_heading_size": 28,
@@ -825,8 +825,8 @@
       ],
       "settings": {
         "enable_content_page_width": true,
-        "heading": "Liverpool Hospital",
-        "sec_des": "<p>SpaceLogic project highlight</p>",
+        "heading": "Project highlights",
+        "sec_des": "<p>Trusted by leading hospitals</p>",
         "title_color": "#424242",
         "subheading_color": "#424242",
         "title_alignment": "center",

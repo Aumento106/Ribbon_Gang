@@ -769,86 +769,6 @@
         "padding_bottom": 20
       }
     },
-    "custom_image_text_slider_mztD6t": {
-      "type": "custom-Image-text-slider",
-      "blocks": {
-        "slide_gMCqNw": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Sydney_Products_June_25_HR-210.jpg",
-            "offer_title": "",
-            "heading": "<p>SteriLoop® advantage</p>",
-            "block_custom_heading_size": 45,
-            "mobile_block_custom_heading_size": 28,
-            "block_custom_font_weight": "600",
-            "text": "<p>SteriLoop® baskets feature our exclusive registered loop-edge design, engineered for safety, durability, and infection control. Unlike traditional wire baskets, SteriLoop® eliminates sharp edges, protecting staff, patients, and supplies, while integrating seamlessly with the STERIRACK® System.</p><p><strong>Look for the Loop™ – because small details make a big difference.</strong></p><p></p>",
-            "button_label": "Shop SteriLoop® baskets",
-            "button_link": "shopify://collections/steriloop-baskets",
-            "button_style_secondary": false
-          }
-        },
-        "slide_iUhckn": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Thumbnail_-_Label_holders_Mk_II_4.png",
-            "offer_title": "",
-            "heading": "<p>Clip 'N' Click Label Holder - Mark 2</p>",
-            "block_custom_heading_size": 45,
-            "mobile_block_custom_heading_size": 28,
-            "block_custom_font_weight": "600",
-            "text": "<p>The upgraded Mark 2 Click ’N’ Clip Label Holder saves time and reduces frustration in fast-paced clinical environments. </p><p>With a clear protective cover that snaps securely into place, labels stay clean, legible, and contamination-free, no peeling, no fiddling, no wasted time.</p><p><strong>Smarter labelling, safer care, designed to work seamlessly with STERIRACK® systems.</strong></p>",
-            "button_label": "Shop label holders",
-            "button_link": "shopify://products/sterirack®-click-n-clip-label-holders-mk-ii",
-            "button_style_secondary": false
-          }
-        },
-        "slide_tWbjPi": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Sydney_Products_June_25_HR-66.jpg",
-            "offer_title": "",
-            "heading": "<p>Colour-coded clarity</p>",
-            "block_custom_heading_size": 45,
-            "mobile_block_custom_heading_size": 28,
-            "block_custom_font_weight": "600",
-            "text": "<p>Colour-coded labelling helps busy clinical teams find supplies faster, reduce errors, and support infection control. From Post Label Holders to label strips, our labelling accessories integrate seamlessly with the STERIRACK® System.</p><p><strong>Smarter organisation through colour.</strong></p>",
-            "button_label": "Shop labelling accessories",
-            "button_link": "shopify://collections/sterirack®-labelling-and-signage",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "slide_gMCqNw",
-        "slide_iUhckn",
-        "slide_tWbjPi"
-      ],
-      "settings": {
-        "enable_content_page_width": false,
-        "heading": "",
-        "sec_des": "",
-        "title_color": "#ffffff",
-        "subheading_color": "#ffffff",
-        "title_alignment": "left",
-        "custom_heading_size": 45,
-        "mobile_custom_heading_size": 28,
-        "custom_font_weight": "400",
-        "layout": "image_first",
-        "content_layout": "no-overlap",
-        "height": "medium",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "mobile_content_alignment": "left",
-        "show_button_on_image": true,
-        "show_half_slide": true,
-        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
-        "section_color_scheme": "",
-        "offer_title_color": "#ffce00",
-        "show_pagination": true,
-        "padding_top": 20,
-        "padding_bottom": 40
-      }
-    },
     "custom_image_text_slider_k9tKHM": {
       "type": "custom-Image-text-slider",
       "blocks": {
@@ -989,8 +909,88 @@
         "section_color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
         "offer_title_color": "#ffce00",
         "show_pagination": true,
-        "padding_top": 72,
-        "padding_bottom": 72
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "custom_image_text_slider_mztD6t": {
+      "type": "custom-Image-text-slider",
+      "blocks": {
+        "slide_gMCqNw": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Sydney_Products_June_25_HR-210.jpg",
+            "offer_title": "",
+            "heading": "<p>SteriLoop® advantage</p>",
+            "block_custom_heading_size": 45,
+            "mobile_block_custom_heading_size": 28,
+            "block_custom_font_weight": "600",
+            "text": "<p>SteriLoop® baskets feature our exclusive registered loop-edge design, engineered for safety, durability, and infection control. Unlike traditional wire baskets, SteriLoop® eliminates sharp edges, protecting staff, patients, and supplies, while integrating seamlessly with the STERIRACK® System.</p><p><strong>Look for the Loop™ – because small details make a big difference.</strong></p><p></p>",
+            "button_label": "Shop SteriLoop® baskets",
+            "button_link": "shopify://collections/steriloop-baskets",
+            "button_style_secondary": false
+          }
+        },
+        "slide_iUhckn": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Thumbnail_-_Label_holders_Mk_II_4.png",
+            "offer_title": "",
+            "heading": "<p>Clip 'N' Click Label Holder - Mark 2</p>",
+            "block_custom_heading_size": 45,
+            "mobile_block_custom_heading_size": 28,
+            "block_custom_font_weight": "600",
+            "text": "<p>The upgraded Mark 2 Click ’N’ Clip Label Holder saves time and reduces frustration in fast-paced clinical environments. </p><p>With a clear protective cover that snaps securely into place, labels stay clean, legible, and contamination-free, no peeling, no fiddling, no wasted time.</p><p><strong>Smarter labelling, safer care, designed to work seamlessly with STERIRACK® systems.</strong></p>",
+            "button_label": "Shop label holders",
+            "button_link": "shopify://products/sterirack®-click-n-clip-label-holders-mk-ii",
+            "button_style_secondary": false
+          }
+        },
+        "slide_tWbjPi": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Sydney_Products_June_25_HR-66.jpg",
+            "offer_title": "",
+            "heading": "<p>Colour-coded clarity</p>",
+            "block_custom_heading_size": 45,
+            "mobile_block_custom_heading_size": 28,
+            "block_custom_font_weight": "600",
+            "text": "<p>Colour-coded labelling helps busy clinical teams find supplies faster, reduce errors, and support infection control. From Post Label Holders to label strips, our labelling accessories integrate seamlessly with the STERIRACK® System.</p><p><strong>Smarter organisation through colour.</strong></p>",
+            "button_label": "Shop labelling accessories",
+            "button_link": "shopify://collections/sterirack®-labelling-and-signage",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_gMCqNw",
+        "slide_iUhckn",
+        "slide_tWbjPi"
+      ],
+      "settings": {
+        "enable_content_page_width": false,
+        "heading": "",
+        "sec_des": "",
+        "title_color": "#ffffff",
+        "subheading_color": "#ffffff",
+        "title_alignment": "left",
+        "custom_heading_size": 45,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
+        "layout": "image_first",
+        "content_layout": "no-overlap",
+        "height": "medium",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "mobile_content_alignment": "left",
+        "show_button_on_image": true,
+        "show_half_slide": true,
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "section_color_scheme": "",
+        "offer_title_color": "#ffce00",
+        "show_pagination": true,
+        "padding_top": 20,
+        "padding_bottom": 40
       }
     },
     "custom_newsletter_NdaReb": {
@@ -1882,8 +1882,8 @@
     "custom_multicolumn_tEhTPk",
     "custom_image_banner_wTxxEB",
     "custom_slideshow_slider_8brNtf",
-    "custom_image_text_slider_mztD6t",
     "custom_image_text_slider_k9tKHM",
+    "custom_image_text_slider_mztD6t",
     "custom_newsletter_NdaReb",
     "custom_image_banner_87wCPQ",
     "custom_multicolumn_inkqq6",

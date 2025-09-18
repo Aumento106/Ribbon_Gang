@@ -403,7 +403,7 @@
         "column_nPJerb": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Goulburn-Hospital-2.jpg",
+            "image": "shopify://shop_images/Sydney-1.jpg",
             "title": "Clean utility",
             "block_custom_font_weight": "600",
             "text": "<p>Medications room</p>",
@@ -415,7 +415,7 @@
         "column_UTiAj3": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Concept_13.png",
+            "image": "shopify://shop_images/Sydney_Products_June_25_HR-66.jpg",
             "title": "CSSD",
             "block_custom_font_weight": "600",
             "text": "<p>Theatre store</p>",

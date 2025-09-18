@@ -142,8 +142,8 @@
             "block_custom_font_weight": "600",
             "text": "<ul><li>Clinical storage solutions</li><li>Infection control and safety focus</li><li>Optimised workflow</li><li>Sterile and non-sterile options</li><li>Optimised workflow</li></ul>",
             "text-v": "",
-            "button-text": "Find out more",
-            "button-url": "shopify://collections"
+            "button-text": "See storage solutions",
+            "button-url": "shopify://pages/clinical-storage-systems"
           }
         },
         "column_ERyxPw": {
@@ -153,8 +153,8 @@
             "block_custom_font_weight": "600",
             "text": "<ul><li>Gold standard STERIRACK®  System</li><li>Patented excellence</li><li>Compliance with safety standards</li><li>Ergonomic design</li><li>Patented excellence</li></ul>",
             "text-v": "",
-            "button-text": "Find out more",
-            "button-url": "shopify://collections"
+            "button-text": "Discover STERIRACK®",
+            "button-url": "shopify://pages/sterirack-system"
           }
         }
       },

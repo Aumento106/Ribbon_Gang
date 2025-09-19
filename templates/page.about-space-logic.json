@@ -56,7 +56,7 @@
         "caption_JARpPF": {
           "type": "caption",
           "settings": {
-            "caption": "<p>Innovating Clinical Storage to Make Space for Care</p><p></p>",
+            "caption": "<p>Innovating clinical storage to make space for care</p><p></p>",
             "caption_alignment": "center"
           }
         },
@@ -142,7 +142,7 @@
         "text_UJHQb4": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Australian Made. Family Owned. 40+ Years Strong.</strong></p><p>Founded over 42 years ago in Orange, NSW, SpaceLogic has remained proudly family-owned and operated, growing steadily alongside the healthcare sector’s evolving needs. What began as a regional storage manufacturer has become a national leader in healthcare shelving, trolleys, and complete clinical storage systems. Today, the Scott family continues to lead the business with the same values of care, integrity, and innovation that shaped its beginnings.</p>",
+            "text": "<p><strong>Australian manufacturing. Family owned. 40+ years strong.</strong></p><p>Founded over 42 years ago in Orange NSW, SpaceLogic has remained proudly family-owned and operated, growing steadily alongside the healthcare sector’s evolving needs. What began as a regional storage manufacturer has become a national leader in healthcare shelving, trolleys, and complete clinical storage systems. Today, the Scott family continues to lead the business with the same values of care, integrity, and innovation that shaped its beginnings.</p>",
             "text_style": "body"
           }
         }
@@ -223,7 +223,7 @@
         "heading_tfHz9g": {
           "type": "heading",
           "settings": {
-            "heading": "The SpaceLogic Difference",
+            "heading": "The SpaceLogic difference",
             "custom_heading_size": 52,
             "mobile_custom_heading_size": 28,
             "custom_font_weight": "400"
@@ -232,7 +232,7 @@
         "text_pLMKNr": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>We’re not just another supplier - we’re your clinical storage partner.</strong></p><p>From detailed room planning through to installation and handover, we manage every step of the process, even coordinating with trusted local teams when remote. Our STERIRACK® system is Australia’s leading modular clinical storage solution, purpose-built for infection control, adaptability, and efficiency. With thousands of installations across public and private hospitals, we’ve encountered, and solved, a wide range of clinical challenges. Staff genuinely enjoy working with our systems, because they’re designed to improve workflow, boost morale, and support better care. By saving time, reducing stock loss, and improving safety, our solutions deliver measurable returns and lasting impact.</p>",
+            "text": "<p><strong>We’re not just another supplier - we’re your clinical storage partner.</strong></p><p>From detailed room planning through to installation and handover, we manage every step of the process, even coordinating with trusted local teams when remote. Our STERIRACK® System is Australia’s leading modular clinical storage solution, purpose-built for infection control, adaptability, and efficiency. With hundreds of installations across public and private hospitals, we’ve encountered, and solved, a wide range of clinical challenges. Staff genuinely enjoy working with our systems, because they’re designed to improve workflow, boost morale, and support better care. By saving time, reducing stock loss, and improving safety, our solutions deliver measurable returns and lasting impact.</p>",
             "text_style": "body"
           }
         }

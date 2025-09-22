@@ -792,13 +792,13 @@
           "settings": {
             "image": "shopify://shop_images/Sydney_Products_June_25_HR-155.jpg",
             "offer_title": "<p>Royal Prince Alfred Hospital</p>",
-            "heading": "<p>Children's ward</p>",
+            "heading": "<p>STERIRACK® enclosed carts with decals create a friendlier care space at RPA Hospital</p>",
             "block_custom_heading_size": 45,
             "mobile_block_custom_heading_size": 28,
             "block_custom_font_weight": "600",
-            "text": "<p>xxx</p>",
-            "button_label": "Read More...",
-            "button_link": "shopify://collections/sterirack-system",
+            "text": "<p>To soften the look of treatment areas, SpaceLogic provided enclosed STERIRACK® carts with frosted panels and playful decals. These carts maintain full infection control and storage efficiency while creating a warmer, less clinical environment for young patients and their families.</p><p><em>\"The decals have made our treatment areas feel more welcoming for children, while still giving staff the storage performance they need.\"</em><br/><br/>— Clinical Nurse Lead, RPA Hospital</p>",
+            "button_label": "Explore more case studies",
+            "button_link": "shopify://pages/hospital-projects",
             "button_style_secondary": false
           }
         },

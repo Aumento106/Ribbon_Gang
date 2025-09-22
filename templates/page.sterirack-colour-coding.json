@@ -63,7 +63,7 @@
         "text_kGRLAB": {
           "type": "text",
           "settings": {
-            "text": "<p>Text to go here.</p>",
+            "text": "<p>At SpaceLogic, we understand how critical it is for nurses and clinicians to find supplies fast. Colour psychology supports memory and recognition, which is why we developed the STERIRACK® Colour Coding System.</p><p>Using Click ’n’ Clip Coloured Label Holders and Coloured Post Strips, hospitals can allocate colours to categories of consumables, making it faster and easier for staff to locate essential stock. This not only improves efficiency but also reduces errors and stress in high-pressure situations.</p><p>Hospitals that have adopted our colour coding system have seen dramatic improvements. At <a href=\"/pages/hospital-projects\" title=\"Projects\">Blacktown Hospital,</a> daily storeroom search times were reduced from 60 minutes to just 10.</p><p>Available in <strong>14 vibrant colours</strong>, our labels and strips are versatile, durable, and designed to integrate seamlessly with the STERIRACK® System, helping busy clinical teams save time and focus more on patient care.</p>",
             "text_alignment": "left"
           }
         }
@@ -92,30 +92,6 @@
         "padding_bottom": 20,
         "mobile_padding_top": 20,
         "mobile_padding_bottom": 20
-      }
-    },
-    "page_banner_mzYicw": {
-      "type": "page-banner",
-      "blocks": {
-        "text_7FpiLQ": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Content about colour coding to go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
-            "text_alignment": "left"
-          }
-        }
-      },
-      "block_order": [
-        "text_7FpiLQ"
-      ],
-      "name": "TF Colour coding",
-      "settings": {
-        "title_alignment": "center",
-        "full_width": true,
-        "content_width": "full_width",
-        "color_scheme": "",
-        "padding_top": 30,
-        "padding_bottom": 30
       }
     },
     "categories_9acj3x": {
@@ -217,7 +193,6 @@
     "custom_page_banner_aNLQyc",
     "page_banner_PR6mgA",
     "section_breadcrumb_LVwMDy",
-    "page_banner_mzYicw",
     "categories_9acj3x",
     "main",
     "product_catalog_W3r7Xn"

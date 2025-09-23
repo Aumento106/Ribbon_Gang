@@ -182,7 +182,6 @@
     },
     "product_catalog_W3r7Xn": {
       "type": "product-catalog",
-      "disabled": true,
       "settings": {
         "padding_top": 20,
         "padding_bottom": 20

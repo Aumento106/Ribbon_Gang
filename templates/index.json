@@ -357,6 +357,7 @@
         "hotspot_button_MWxXKN",
         "hotspot_button_7HYTie"
       ],
+      "disabled": true,
       "name": "Clean utility and medications",
       "settings": {
         "remove_bg": true,
@@ -393,8 +394,8 @@
         "news_font_weight": "600",
         "padding_top": 50,
         "padding_bottom": 50,
-        "margin_top": 0,
-        "margin_bottom": 26
+        "margin_top": 40,
+        "margin_bottom": 40
       }
     },
     "custom_multicolumn_tEhTPk": {
@@ -663,6 +664,7 @@
         "hotspot_button_akTq93",
         "hotspot_button_jtiwdc"
       ],
+      "disabled": true,
       "name": "CSSD and theatre store",
       "settings": {
         "remove_bg": true,
@@ -765,8 +767,8 @@
         "slide_height": "large",
         "image_behavior": "none",
         "accessibility_info": "Slideshow about our brand",
-        "padding_top": 0,
-        "padding_bottom": 20
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     },
     "custom_image_text_slider_k9tKHM": {
@@ -925,8 +927,8 @@
         "section_color_scheme": "",
         "offer_title_color": "#ffce00",
         "show_pagination": true,
-        "padding_top": 26,
-        "padding_bottom": 26
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     },
     "custom_newsletter_NdaReb": {
@@ -949,7 +951,7 @@
         "padding_top": 50,
         "padding_bottom": 50,
         "margin_top": 0,
-        "margin_bottom": 0
+        "margin_bottom": 40
       }
     },
     "custom_image_banner_87wCPQ": {
@@ -1150,6 +1152,7 @@
         "hotspot_button_AwgpTL",
         "hotspot_button_fnCCtN"
       ],
+      "disabled": true,
       "name": "Pharmacy storage and dispensary",
       "settings": {
         "remove_bg": true,

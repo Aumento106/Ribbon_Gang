@@ -114,6 +114,14 @@
         "mobile_padding_top": 30,
         "mobile_padding_bottom": 30
       }
+    },
+    "product_catalog_GDUEcj": {
+      "type": "product-catalog",
+      "name": "Product Catalog",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -121,6 +129,7 @@
     "page_banner_kdETkF",
     "section_breadcrumb_t4Nt8t",
     "main",
-    "team_GF978q"
+    "team_GF978q",
+    "product_catalog_GDUEcj"
   ]
 }

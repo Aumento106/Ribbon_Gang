@@ -613,7 +613,6 @@
     },
     "product_catalog_qeWkQW": {
       "type": "product-catalog",
-      "disabled": true,
       "settings": {
         "padding_top": 20,
         "padding_bottom": 20

@@ -354,7 +354,7 @@
                           <= block.settings.inventory_threshold
                       -%}
                         <div class="product-info-fields-wrapper 1">
-                          <span class="form__label">Availability : 11</span>
+                          <span class="form__label">Availability :</span>
                           <div class="top-class">
                           <div class="product-inventory-status">
                             <span class="svg-wrapper" style="color: rgb(238, 148, 65)">
@@ -373,9 +373,9 @@
                         </div>
                       {%- else -%}
                         <div class="product-info-fields-wrapper">
-                          <span class="form__label">Availability : 1</span>
+                          <span class="form__label">Availability :</span>
                           <div class="top-class">
-                          <div class="product-inventory-status 1 {% if product.selected_or_first_available_variant.inventory_quantity %} in-stock  {% else %} in-stock {% endif %} ">
+                          <div class="product-inventory-status 1  ">
                             <span class="svg-wrapper" style="color: rgb(255, 206, 1)">
                               {{- 'icon-inventory-status.svg' | inline_asset_content -}}
                             </span>
@@ -394,9 +394,9 @@
                     {%- else -%}
                       {%- if product.selected_or_first_available_variant.inventory_policy == 'continue' -%}
                         <div class="product-info-fields-wrapper">
-                          <span class="form__label">Availability : 111</span>
+                          <span class="form__label">Availability :</span>
                           <div class="top-class">
-                          <div class="product-inventory-status">
+                          <div class="product-inventory-status {% if product.selected_or_first_available_variant.inventory_quantity %} in-stock  {% else %} in-stock {% endif %}">
                             <span class="svg-wrapper" style="color: rgb(62, 214, 96)">
                               {{- 'icon-inventory-status.svg' | inline_asset_content -}}
                             </span>

@@ -911,6 +911,9 @@ body .quantity:after {
 .product__info-wrapper .product-inventory-status.in-stock svg circle + circle {
   fill: #ffce00;
 }
+.product__info-wrapper .product-inventory-status.out-of-stock svg circle + circle {
+  fill: red;
+}
 .product-grid-container .grid__item .button {
   width: 100%;
   display: flex;

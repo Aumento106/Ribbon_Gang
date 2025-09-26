@@ -908,6 +908,9 @@ body .quantity:after {
   width: 20px;
   height: 20px;
 }
+.product__info-wrapper .product-inventory-status.in-stock svg circle {
+  fill: #ffce00;
+}
 .product-grid-container .grid__item .button {
   width: 100%;
   display: flex;

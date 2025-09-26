@@ -396,7 +396,7 @@
                         <div class="product-info-fields-wrapper">
                           <span class="form__label">Availability :</span>
                           <div class="top-class">
-                          <div class="product-inventory-status {% if product.selected_or_first_available_variant.inventory_quantity %} in-stock  {% else %} in-stock {% endif %}">
+                          <div class="product-inventory-status {% if product.selected_or_first_available_variant.inventory_quantity %} {% else %} in-stock {% endif %}">
                             <span class="svg-wrapper" style="color: rgb(62, 214, 96)">
                               {{- 'icon-inventory-status.svg' | inline_asset_content -}}
                             </span>

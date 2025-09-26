@@ -377,7 +377,7 @@
                           <div class="top-class">
                           <div class="product-inventory-status">
                             <span class="svg-wrapper" style="color: #ffce00">
-                              {{- 'icon-inventory-status.svg' | inline_asset_content -}}
+                              <svg class="icon icon-inventory-status"><circle cx="10" cy="10" r="9" fill="none" stroke="#ffce00"/><circle cx="10" cy="10" r="6" fill="red" stroke="#FFF"/></svg>
                             </span>
                             {%- if block.settings.show_inventory_quantity -%}
                               {{-
@@ -399,6 +399,7 @@
                           <div class="product-inventory-status">
                             <span class="svg-wrapper" style="color: rgb(62, 214, 96)">
                               {{- 'icon-inventory-status.svg' | inline_asset_content -}}
+                              <svg class="icon icon-inventory-status"><circle cx="10" cy="10" r="9" fill="none" stroke="red"/><circle cx="10" cy="10" r="6" fill="red" stroke="#FFF"/></svg>
                             </span>
                             {{- 'products.product.inventory_out_of_stock_continue_selling' | t -}}
                           </div>

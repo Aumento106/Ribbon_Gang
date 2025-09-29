@@ -15,7 +15,7 @@
         "slide_Lp7BeL": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image": "shopify://shop_images/Banner_image18_a0505a9f-0510-40b5-8c1b-275b5d741665.jpg",
             "image_overlay_opacity": 0
           }
         },
@@ -33,8 +33,8 @@
       ],
       "name": "TF Custom Page Slideshow",
       "settings": {
-        "layout": "grid",
-        "slide_height": "large",
+        "layout": "full_bleed",
+        "slide_height": "medium",
         "image_behavior": "none",
         "padding_top": 0,
         "padding_bottom": 0

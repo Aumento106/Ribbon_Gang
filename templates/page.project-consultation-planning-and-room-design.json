@@ -15,21 +15,13 @@
         "slide_Lp7BeL": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Banner_image18_a0505a9f-0510-40b5-8c1b-275b5d741665.jpg",
-            "image_overlay_opacity": 0
-          }
-        },
-        "slide_frEw93": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/winding-road-covered-in-autumn-trees.jpg",
+            "image": "shopify://shop_images/Banner_image17.jpg",
             "image_overlay_opacity": 0
           }
         }
       },
       "block_order": [
-        "slide_Lp7BeL",
-        "slide_frEw93"
+        "slide_Lp7BeL"
       ],
       "name": "TF Custom Page Slideshow",
       "settings": {

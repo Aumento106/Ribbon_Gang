@@ -308,7 +308,7 @@
         "column_4ytrW7": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image": "shopify://shop_images/Video_19.jpg",
             "video_url": "https://youtu.be/5jLA_fHSPYU",
             "enable_video_looping": false,
             "title": "Huge savings and efficiencies for Blacktown Hospital",
@@ -317,8 +317,9 @@
         },
         "column_4ArbNk": {
           "type": "column",
+          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image": "shopify://shop_images/Video_20.jpg",
             "video_url": "https://youtu.be/PkVW2nbRp4M",
             "enable_video_looping": false,
             "title": "60 min. hunting through storerooms REDUCED to just 10 min. per day!",
@@ -328,7 +329,7 @@
         "column_NpBBHF": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image": "shopify://shop_images/Video_20.jpg",
             "video_url": "https://youtu.be/kl0J8RAlvbE",
             "enable_video_looping": false,
             "title": "Superior consumables management with STERIRACK® at Blacktown hospital",
@@ -337,6 +338,7 @@
         },
         "column_AC63cw": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
             "video_url": "https://youtu.be/bz8bqXypkpQ",
@@ -347,6 +349,7 @@
         },
         "column_zCrCRg": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
             "video_url": "https://youtu.be/CYwYI9mFjEI",
@@ -358,7 +361,7 @@
         "column_AnwiPq": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image": "shopify://shop_images/Video_21.jpg",
             "video_url": "https://youtu.be/LMSV0QB6T14",
             "enable_video_looping": false,
             "title": "Slash time spent hunting through hospital storerooms using colour",
@@ -367,6 +370,7 @@
         },
         "column_VEXkpc": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
             "video_url": "https://youtu.be/xfuQA73IXpM",
@@ -377,6 +381,7 @@
         },
         "column_ydp8rj": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
             "video_url": "https://youtu.be/vn3dsLT8Ob8",
@@ -387,6 +392,7 @@
         },
         "column_gXm6pJ": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
             "video_url": "https://youtu.be/tv8Gffi8FdU",

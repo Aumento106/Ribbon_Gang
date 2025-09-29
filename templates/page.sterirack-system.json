@@ -12,29 +12,37 @@
     "custom_page_banner_3tEUtC": {
       "type": "custom-page-banner",
       "blocks": {
+        "slide_fCMicy": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Banner_image85.jpg",
+            "image_overlay_opacity": 0
+          }
+        },
         "slide_qdiyzp": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image": "shopify://shop_images/Banner_image34.jpg",
             "image_overlay_opacity": 0
           }
         },
         "slide_67c4re": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/winding-road-covered-in-autumn-trees.jpg",
+            "image": "shopify://shop_images/Banner_image35.jpg",
             "image_overlay_opacity": 0
           }
         }
       },
       "block_order": [
+        "slide_fCMicy",
         "slide_qdiyzp",
         "slide_67c4re"
       ],
       "name": "TF Custom Page Slideshow",
       "settings": {
-        "layout": "grid",
-        "slide_height": "large",
+        "layout": "full_bleed",
+        "slide_height": "medium",
         "image_behavior": "none",
         "padding_top": 0,
         "padding_bottom": 0

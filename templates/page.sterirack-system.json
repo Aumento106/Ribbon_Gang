@@ -33,6 +33,13 @@
             "image_overlay_opacity": 0
           }
         },
+        "slide_BJH37R": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Banner_image91.jpg",
+            "image_overlay_opacity": 0
+          }
+        },
         "slide_wTkzxB": {
           "type": "slide",
           "settings": {
@@ -45,6 +52,7 @@
         "slide_fCMicy",
         "slide_qdiyzp",
         "slide_67c4re",
+        "slide_BJH37R",
         "slide_wTkzxB"
       ],
       "name": "TF Custom Page Slideshow",

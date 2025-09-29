@@ -38,7 +38,7 @@
         "heading_nqmXgr": {
           "type": "heading",
           "settings": {
-            "heading": "{{ page.title }}",
+            "heading": "SteriLoop® Medibin System",
             "custom_heading_size": 52,
             "mobile_custom_heading_size": 28,
             "custom_font_weight": "600",
@@ -55,7 +55,7 @@
         "text_RVU4Lp": {
           "type": "text",
           "settings": {
-            "text": "<p>MEDIBIN™ System is a high quality, chrome finished, wire bin system with backing panels. Wire construction removes the risk of dust accumulation, and looped wire on the bins eliminates sharp edges, giving a smooth feel and finish, eliminating the risk of cuts, scratches and product damage.</p>",
+            "text": "<p>Our SteriLoop® Medibin System is a high quality, chrome finished, wire bin system with backing panels. Wire construction removes the risk of dust accumulation, and looped wire on the bins eliminates sharp edges, giving a smooth feel and finish, eliminating the risk of cuts, scratches and product damage.</p>",
             "text_alignment": "left"
           }
         }

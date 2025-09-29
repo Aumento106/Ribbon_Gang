@@ -33,7 +33,7 @@
       ],
       "name": "Custom Page Banner",
       "settings": {
-        "layout": "grid",
+        "layout": "full_bleed",
         "slide_height": "large",
         "image_behavior": "none",
         "padding_top": 0,

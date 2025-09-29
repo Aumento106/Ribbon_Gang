@@ -32,12 +32,20 @@
             "image": "shopify://shop_images/Banner_image35.jpg",
             "image_overlay_opacity": 0
           }
+        },
+        "slide_wTkzxB": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Banner_image89.jpg",
+            "image_overlay_opacity": 0
+          }
         }
       },
       "block_order": [
         "slide_fCMicy",
         "slide_qdiyzp",
-        "slide_67c4re"
+        "slide_67c4re",
+        "slide_wTkzxB"
       ],
       "name": "TF Custom Page Slideshow",
       "settings": {

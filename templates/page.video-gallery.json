@@ -207,7 +207,7 @@
         "column_E7Ajhp": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image": "shopify://shop_images/Video_10.jpg",
             "video_url": "https://www.youtube.com/watch?v=QbpacpEUiAM",
             "enable_video_looping": false,
             "title": "STERIRACK® Trolleys roll out the door on their way to Sydney healthcare",
@@ -217,7 +217,7 @@
         "column_ACWKWG": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image": "shopify://shop_images/Video_11.jpg",
             "video_url": "https://www.youtube.com/watch?v=ERbIN1v-js4",
             "enable_video_looping": false,
             "title": "Demonstration of baskets, shelving, drop-in bins and dividers",
@@ -227,7 +227,7 @@
         "column_bK47NB": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image": "shopify://shop_images/Video_12.jpg",
             "video_url": "https://www.youtube.com/watch?v=F-knGdXqp2g",
             "enable_video_looping": false,
             "title": "STERIRACK® Click 'n' Clip Label Holders for increased efficiencies",
@@ -237,7 +237,7 @@
         "column_pQzfJK": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image": "shopify://shop_images/Video_13.jpg",
             "video_url": "https://www.youtube.com/watch?v=FT1fm1Xj-bU",
             "enable_video_looping": false,
             "title": "Healthcare set to benefit from more manufacturing in Australia",
@@ -397,6 +397,7 @@
         },
         "column_zNphkG": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
             "video_url": "https://youtu.be/V4UoNWNlaI8",
@@ -407,6 +408,7 @@
         },
         "column_Hw6q7f": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
             "video_url": "https://youtu.be/ltxJ586mFsM",
@@ -417,6 +419,7 @@
         },
         "column_tybRCJ": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
             "video_url": "https://youtu.be/qLRith_doSg",
@@ -427,6 +430,7 @@
         },
         "column_eCKjYc": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
             "video_url": "https://youtu.be/7mPOxk6QO6Y",
@@ -437,6 +441,7 @@
         },
         "column_g7cqwp": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
             "video_url": "https://youtu.be/Og6PVq8sSyM",
@@ -447,6 +452,7 @@
         },
         "column_8pcKiq": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
             "video_url": "https://youtu.be/oOnwnC2Tt3A",
@@ -457,6 +463,7 @@
         },
         "column_CeLg8q": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
             "video_url": "https://youtu.be/_JcdkUyIz2g",
@@ -467,6 +474,7 @@
         },
         "column_6Bfd9q": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
             "video_url": "https://youtu.be/scAVA4pkUF8",
@@ -477,6 +485,7 @@
         },
         "column_gQeqcD": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
             "video_url": "https://youtu.be/Yl6SZniAkLA",
@@ -487,6 +496,7 @@
         },
         "column_DapDGL": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
             "video_url": "https://youtu.be/a5W1LsZUxKU",
@@ -497,6 +507,7 @@
         },
         "column_wbNcAF": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
             "video_url": "https://youtu.be/CXemPWjAEmg",
@@ -507,6 +518,7 @@
         },
         "column_wVkpeq": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
             "video_url": "https://youtu.be/6A9LrFGBP5Q",
@@ -517,6 +529,7 @@
         },
         "column_7DNh7T": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
             "video_url": "https://youtu.be/ihYdHWsQFZA",
@@ -527,6 +540,7 @@
         },
         "column_DGqwCM": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
             "video_url": "https://youtu.be/k0oqvWGXs7U",

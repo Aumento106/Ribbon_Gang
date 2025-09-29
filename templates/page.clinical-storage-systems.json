@@ -12,13 +12,6 @@
     "custom_page_banner_xFRPrm": {
       "type": "custom-page-banner",
       "blocks": {
-        "slide_EjgKKr": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Banner_image41.jpg",
-            "image_overlay_opacity": 0
-          }
-        },
         "slide_XbLzDm": {
           "type": "slide",
           "settings": {
@@ -29,15 +22,38 @@
         "slide_aPqAjn": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Colour_options_20.jpg",
+            "image": "shopify://shop_images/Banner_image67.jpg",
+            "image_overlay_opacity": 0
+          }
+        },
+        "slide_LGTUFc": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Banner_image87.jpg",
+            "image_overlay_opacity": 0
+          }
+        },
+        "slide_CnhxFq": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Banner_image81.jpg",
+            "image_overlay_opacity": 0
+          }
+        },
+        "slide_YUD9CH": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Banner_image77.jpg",
             "image_overlay_opacity": 0
           }
         }
       },
       "block_order": [
-        "slide_EjgKKr",
         "slide_XbLzDm",
-        "slide_aPqAjn"
+        "slide_aPqAjn",
+        "slide_LGTUFc",
+        "slide_CnhxFq",
+        "slide_YUD9CH"
       ],
       "name": "TF Custom Page Slideshow",
       "settings": {

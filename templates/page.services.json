@@ -102,30 +102,30 @@
           "type": "row",
           "settings": {
             "caption": "Plan with Confidence",
-            "heading": "Healthcare Storage Planning, Room Design & Clinical Consultation",
+            "heading": "Healthcare storage planning, room design & clinical consultation",
             "text": "<p>Get your hospital storage right from the start. Our clinical storage consultants work with hospital planners, architects, procurement teams and frontline staff to design compliant, space-efficient layouts. From CSSDs to theatre store rooms, we deliver room-specific audits, floor plans and 3D models tailored to infection control, safety, and workflow.</p><p></p>",
-            "button_label": "Start Planning Your Space",
-            "button_link": ""
+            "button_label": "Start planning your space",
+            "button_link": "shopify://pages/contact"
           }
         },
         "row_t4rjMm": {
           "type": "row",
           "settings": {
             "caption": "Modular Design for Clinical Performance",
-            "heading": "Customisable Hospital Storage Systems Engineered for Infection Control",
+            "heading": "Customisable hospital storage systems engineered for infection control",
             "text": "<p>Our in-house team designs and manufactures high-performance clinical storage systems, including the STERIRACK® range, Australia’s leading modular hospital shelving. Built for cleanability, durability and AS5369 compliance, every product is tailored to meet the demands of modern healthcare. From sterile zones to medication storage, we build solutions that last.</p>",
-            "button_label": "Discover Our Product Range",
-            "button_link": ""
+            "button_label": "Discover our product range",
+            "button_link": "shopify://collections/all"
           }
         },
         "row_aLd9wk": {
           "type": "row",
           "settings": {
             "caption": "Clinical Fitouts Delivered Seamlessly",
-            "heading": "Hospital Storage Installation and Project Management Services",
+            "heading": "Hospital storage installation and project management services",
             "text": "<p>Minimise disruption and maximise results with SpaceLogic’s expert installation and project management services. We coordinate delivery, trade scheduling, and full install of compliant hospital storage across Australia. Whether you need a full hospital fit-out or a single ward upgrade, our experienced team ensures your project is delivered right, first time.</p><p></p>",
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "Explore our process",
+            "button_link": "shopify://pages/services"
           }
         }
       },

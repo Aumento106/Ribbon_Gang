@@ -190,27 +190,16 @@
           "type": "row",
           "settings": {
             "caption": "Wagga Wagga Hospital",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
-        "row_njCCxj": {
-          "type": "row",
-          "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
-            "button_link": ""
+            "heading": "Heading to go here",
+            "text": "<p>Intro text to go here</p>",
+            "button_label": "View flipping book in your browser",
+            "button_link": "https://online.flippingbook.com/view/159525198/"
           }
         }
       },
       "block_order": [
         "row_QNAN47",
-        "row_ggHhMg",
-        "row_njCCxj"
+        "row_ggHhMg"
       ],
       "name": "t:sections.multirow.presets.name",
       "settings": {

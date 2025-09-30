@@ -17,7 +17,7 @@ slideshow-component .slideshow.banner {
     display: flex;
     justify-content: flex-end;
 }
-.announcement-bar-section .localization-wrapper:empty {
+.announcement-bar-section .localization-wrapper.empty {
   display: none;
 }
 .slideshow__slide {

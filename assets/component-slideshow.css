@@ -16,6 +16,7 @@ slideshow-component .slideshow.banner {
     align-self: center;
     display: flex;
     justify-content: flex-end;
+    padding: 10px 30px;
 }
 .announcement-bar-section .localization-wrapper.empty {
   display: none;

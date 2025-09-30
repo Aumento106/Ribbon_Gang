@@ -11,7 +11,12 @@ slideshow-component .slideshow.banner {
   gap: 0;
   /* overflow-y: hidden; */
 }
-
+.announcement-bar-section .enquiry-btn {
+    display: flex;
+    align-self: center;
+    display: flex;
+    justify-content: flex-end;
+}
 .slideshow__slide {
   padding: 0;
   position: relative;

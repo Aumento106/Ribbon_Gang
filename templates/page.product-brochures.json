@@ -57,6 +57,7 @@
         "heading_BrJdAP",
         "text_aa4wDX"
       ],
+      "disabled": true,
       "name": "TF Page Banner",
       "settings": {
         "title_alignment": "center",
@@ -212,6 +213,7 @@
         "brochure_HpGBw7",
         "brochure_AFimiq"
       ],
+      "disabled": true,
       "name": "TF Product brochure",
       "settings": {
         "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
@@ -228,6 +230,14 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
+    },
+    "product_catalog_AAJdFa": {
+      "type": "product-catalog",
+      "name": "Product Catalog",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -235,6 +245,7 @@
     "page_banner_GqfUtR",
     "section_breadcrumb_LxRkGH",
     "product_brochure_yeBAq3",
-    "product_catalog_HtCJpW"
+    "product_catalog_HtCJpW",
+    "product_catalog_AAJdFa"
   ]
 }

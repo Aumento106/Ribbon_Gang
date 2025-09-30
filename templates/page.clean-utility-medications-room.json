@@ -33,8 +33,8 @@
       ],
       "name": "TF Custom Page Slideshow",
       "settings": {
-        "layout": "grid",
-        "slide_height": "large",
+        "layout": "full_bleed",
+        "slide_height": "medium",
         "image_behavior": "none",
         "padding_top": 0,
         "padding_bottom": 0
@@ -63,15 +63,36 @@
         "text_PKcLKC": {
           "type": "text",
           "settings": {
-            "text": "<p>Traditional timber joinery is no longer suitable for clinical storage in healthcare environments—particularly for medications, consumables, and sterile stock. SpaceLogic’s STERIRACK® System is a cleanable, modular, and fully compliant alternative designed to meet modern infection control requirements, including AS5369.</p><p>Our systems are purpose-built for clean utility rooms, medication rooms, and sterile environments across hospitals, day surgeries, and aged care facilities. With fully customisable shelving, registered wire-loop baskets, pull-out trays and accessories, the STERIRACK® System delivers maximum cleanability, flexibility, and long-term durability.</p><p>Whether you're replacing timber joinery or planning a brand-new fitout, we’ll design a tailored solution to suit your exact room size, clinical workflow, and compliance needs, improving access, stock control, and staff productivity.</p><p>Explore some of our recent clean utility and medication room installations below. Each project showcases how the STERIRACK® System can be configured for maximum space efficiency, infection control, and staff usability. You'll find layout plans, before-and-after photos, photorealistic renders, and practical examples of clinical room transformations.</p><p><strong>Ready to upgrade your clean utility room?</strong><br/><br/>Contact us today to book a free consultation or request a tailored layout for your facility.</p><p></p><p></p>",
+            "text": "<p>Traditional timber joinery is no longer suitable for clinical storage in healthcare environments—particularly for medications, consumables, and sterile stock. SpaceLogic’s STERIRACK® System is a cleanable, modular, and fully compliant alternative designed to meet modern infection control requirements, including AS5369.</p><p>Our systems are purpose-built for clean utility rooms, medication rooms, and sterile environments across hospitals, day surgeries, and aged care facilities. With fully customisable shelving, registered wire-loop baskets, pull-out trays and accessories, STERIRACK® System delivers maximum cleanability, flexibility, and long-term durability.</p><p>Explore some of our recent clean utility and medication room installations below. Each project showcases how the STERIRACK® System can be configured for maximum space efficiency, infection control, and staff usability. You'll find layout plans, before-and-after photos, photorealistic renders, and practical examples of clinical room transformations.</p><p></p>",
             "text_alignment": "left"
+          }
+        },
+        "caption_X9CNYM": {
+          "type": "caption",
+          "settings": {
+            "caption": "<p>Ready to upgrade your clean utility room? Contact us today to book a free consultation or request a tailored layout for your facility.</p>",
+            "caption_alignment": "center"
+          }
+        },
+        "button_iyweBU": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contact us today",
+            "button_link": "shopify://pages/contact",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "button_alignment": "center"
           }
         }
       },
       "block_order": [
         "heading_hyMihJ",
         "caption_3GKmgE",
-        "text_PKcLKC"
+        "text_PKcLKC",
+        "caption_X9CNYM",
+        "button_iyweBU"
       ],
       "name": "TF Page Banner",
       "settings": {
@@ -140,21 +161,6 @@
       "type": "product-catalog",
       "disabled": true,
       "settings": {
-        "product_image": "shopify://shop_images/image_104.png",
-        "logo_link": "",
-        "heading": "<p>Product Catalogue</p>",
-        "custom_heading_size": 52,
-        "mobile_custom_heading_size": 28,
-        "custom_font_weight": "400",
-        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
-        "description": "<p>Click here to view our latest product and services catalogue in a browser without downloading.</p>",
-        "button_1_text": "View catalogue",
-        "button_1_link": "https://online.flippingbook.com/view/393434/",
-        "button_2_text": "Download Catalog",
-        "button_2_link": "",
-        "reverse_column": true,
-        "title_color": "#424242",
-        "subheading_color": "#424242",
         "padding_top": 20,
         "padding_bottom": 20
       }

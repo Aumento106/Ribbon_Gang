@@ -9,10 +9,96 @@
  */
 {
   "sections": {
+    "custom_page_banner_xYEjM4": {
+      "type": "custom-page-banner",
+      "blocks": {
+        "slide_gTzEjF": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Banner_image15.jpg",
+            "image_overlay_opacity": 0
+          }
+        },
+        "slide_yqEXeB": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Banner_image9.jpg",
+            "image_overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "slide_gTzEjF",
+        "slide_yqEXeB"
+      ],
+      "name": "TF Custom Page Slideshow",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "image_behavior": "none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "page_banner_6acXXA": {
+      "type": "page-banner",
+      "blocks": {
+        "heading_f3KeVb": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ page.title }}",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "600",
+            "heading_alignment": "center"
+          }
+        },
+        "caption_JARpPF": {
+          "type": "caption",
+          "settings": {
+            "caption": "<p>Innovating clinical storage to make space for care</p><p></p>",
+            "caption_alignment": "center"
+          }
+        },
+        "text_UhW6zH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At SpaceLogic, we believe that smarter storage leads to better healthcare. We design, manufacture and install modular systems that help hospitals and clinical environments operate more efficiently, meet rigorous infection control standards, and ultimately make space for what matters most, patient care.</p><p>From our base in regional NSW, we’ve grown into an internationally trusted partner for hospitals and clinical facilities of all sizes, delivering tailored solutions backed by over four decades of experience and a passion for doing things properly.</p><p>We’re not the only provider in this space, but we’ve built an enviable reputation by offering a truly end-to-end service - supplying project design, planning, installation, and our own innovative, customisable range of clinical storage products. Our systems are designed to improve infection control, maximise space, streamline workflows, and boost staff satisfaction.</p><p>Welcome to SpaceLogic Group, your trusted partner in clinical storage solutions.</p>",
+            "text_alignment": "left"
+          }
+        }
+      },
+      "block_order": [
+        "heading_f3KeVb",
+        "caption_JARpPF",
+        "text_UhW6zH"
+      ],
+      "name": "TF Page Banner",
+      "settings": {
+        "title_alignment": "center",
+        "full_width": true,
+        "content_width": "full_width",
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "padding_top": 80,
+        "padding_bottom": 40
+      }
+    },
+    "section_breadcrumb_X4BUdU": {
+      "type": "section-breadcrumb",
+      "name": "TF Breadcrumb",
+      "settings": {
+        "color_scheme": "",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "mobile_padding_top": 20,
+        "mobile_padding_bottom": 20
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
       "settings": {
+        "color_scheme": "",
         "padding_top": 28,
         "padding_bottom": 28
       }
@@ -20,31 +106,25 @@
     "page_banner_J4tRrR": {
       "type": "page-banner",
       "blocks": {
-        "image_LRhKXn": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/image_2_d105ff1d-19fc-449a-9518-1392329e41f4.png",
-            "border_radius": true
-          }
-        },
         "text_zj4HVF": {
           "type": "text",
           "settings": {
-            "text": "<p>Some of the team taking time out for a friendly chat in the lunch room with Managing Director Lloyd Scott (standing).</p>"
+            "text": "",
+            "text_alignment": "center"
           }
         }
       },
       "block_order": [
-        "image_LRhKXn",
         "text_zj4HVF"
       ],
+      "disabled": true,
       "settings": {
         "title_alignment": "center",
-        "full_width": false,
+        "full_width": true,
         "content_width": "full_width",
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "image_with_text_v1_Kk8cPy": {
@@ -53,14 +133,16 @@
         "heading_P7KtwF": {
           "type": "heading",
           "settings": {
-            "heading": "About us",
-            "heading_size": "h1"
+            "heading": "Our history",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
           }
         },
         "text_UJHQb4": {
           "type": "text",
           "settings": {
-            "text": "<p>Welcome to SpaceLogic Group – the authoritative experts in clinical healthcare storage solutions for the healthcare sector. Over 35 years SpaceLogic has grown from a small family firm into an acknowledged leader in healthcare space management. We have built an enviable reputation by providing a complete service to our clients, suppling project design, planning and installation services, and our own innovative and customizable range of products.</p><p>Our head office is located in Orange NSW, where our team of professionals work with single-minded focus to increase patient care time, improve infection control and maximize available space.</p><p>For more information, watch this video.</p>",
+            "text": "<p><strong>Australian manufacturing. Family owned. 40+ years strong.</strong></p><p>Founded over 42 years ago in Orange NSW, SpaceLogic has remained proudly family-owned and operated, growing steadily alongside the healthcare sector’s evolving needs. What began as a regional storage manufacturer has become a national leader in healthcare shelving, trolleys, and complete clinical storage systems. Today, the Scott family continues to lead the business with the same values of care, integrity, and innovation that shaped its beginnings.</p>",
             "text_style": "body"
           }
         }
@@ -69,11 +151,13 @@
         "heading_P7KtwF",
         "text_UJHQb4"
       ],
+      "name": "TF Image Text",
       "settings": {
-        "image": "shopify://shop_images/improve-infection-control.png",
+        "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "full_width": false,
+        "container_size": "page-width",
+        "both_image_content_size": false,
         "video_url": "https://www.youtube.com/watch?v=lHnJFanm7tM",
         "enable_video_looping": false,
         "layout": "image_first",
@@ -84,58 +168,117 @@
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 72
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     },
-    "rich_text_EQJmnB": {
-      "type": "rich-text",
+    "image_with_text_v1_thYDy8": {
+      "type": "image-with-text-v1",
       "blocks": {
-        "heading_n8F6Rm": {
+        "heading_9VGyQt": {
           "type": "heading",
           "settings": {
-            "heading": "Our <strong>Team</strong>",
-            "heading_size": "h1"
+            "heading": "Our values",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
           }
         },
-        "text_3wTHXQ": {
+        "text_6jCfKx": {
           "type": "text",
           "settings": {
-            "text": "<p>Our tireless and dynamic SpaceLogic team is dedicated to Healthcare. Our mission is to provide a fresh new approach, and premium advice and expertise to hospitals, medical centers and other clinical facilities. By combining the specialist skills of our entire team, we create a cohesive whole to give you individual attention, dedicated commitment and a result superior to any other.</p>"
+            "text": "<p><strong>Professional. Pro-active. Passionate. Caring. Committed. Respectful.</strong></p><p>At SpaceLogic, our values guide everything we do. We care deeply about creating safer, more efficient clinical spaces that support the people who use them. We’re committed to seeing every project through with precision and integrity, and we take a proactive approach, anticipating needs and solving challenges before they arise. Our team operates with professionalism and respect, whether on site or in planning, and we bring genuine passion to every solution we deliver. These values are the foundation of our long-standing relationships and the outcomes we’re proud to stand behind.</p>",
+            "text_style": "body"
           }
         }
       },
       "block_order": [
-        "heading_n8F6Rm",
-        "text_3wTHXQ"
+        "heading_9VGyQt",
+        "text_6jCfKx"
       ],
+      "name": "TF Image Text",
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "content_width": "full_width",
-        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
-        "full_width": true,
-        "padding_top": 80,
+        "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "container_size": "page-width",
+        "both_image_content_size": false,
+        "video_url": "",
+        "enable_video_looping": false,
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "image_with_text_v1_dEQcmg": {
+      "type": "image-with-text-v1",
+      "blocks": {
+        "heading_tfHz9g": {
+          "type": "heading",
+          "settings": {
+            "heading": "The SpaceLogic difference",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
+          }
+        },
+        "text_pLMKNr": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>We’re not just another supplier - we’re your clinical storage partner.</strong></p><p>From detailed room planning through to installation and handover, we manage every step of the process, even coordinating with trusted local teams when remote. Our STERIRACK® System is Australia’s leading modular clinical storage solution, purpose-built for infection control, adaptability, and efficiency. With hundreds of installations across public and private hospitals, we’ve encountered, and solved, a wide range of clinical challenges. Staff genuinely enjoy working with our systems, because they’re designed to improve workflow, boost morale, and support better care. By saving time, reducing stock loss, and improving safety, our solutions deliver measurable returns and lasting impact.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_tfHz9g",
+        "text_pLMKNr"
+      ],
+      "name": "TF Image Text",
+      "settings": {
+        "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "container_size": "page-width",
+        "both_image_content_size": false,
+        "video_url": "",
+        "enable_video_looping": false,
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 20,
         "padding_bottom": 80
       }
     },
-    "team_fyjyTF": {
-      "type": "team",
+    "product_catalog_Bnebfb": {
+      "type": "product-catalog",
       "settings": {
-        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "title": "",
-        "padding_top": 140,
-        "padding_bottom": 70,
-        "mobile_padding_top": 100,
-        "mobile_padding_bottom": 50
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     }
   },
   "order": [
+    "custom_page_banner_xYEjM4",
+    "page_banner_6acXXA",
+    "section_breadcrumb_X4BUdU",
     "main",
     "page_banner_J4tRrR",
     "image_with_text_v1_Kk8cPy",
-    "rich_text_EQJmnB",
-    "team_fyjyTF"
+    "image_with_text_v1_thYDy8",
+    "image_with_text_v1_dEQcmg",
+    "product_catalog_Bnebfb"
   ]
 }

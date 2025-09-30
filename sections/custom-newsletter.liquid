@@ -9,6 +9,45 @@
     margin-top: {{ section.settings.margin_top | times: 0.55 | round: 0 }}px;
     margin-bottom: {{ section.settings.margin_bottom | times: 0.55 | round: 0 }}px;
   }
+  .section-{{ section.id }}-padding .title {
+    color: {{ settings.title_color }};
+  }
+  .section-{{ section.id }}-padding .newsletter__subheading {
+    color: {{ settings.sub_title_color }};
+  }
+  .section-{{ section.id }}-padding .newsletter-heading-con .title > *,
+  .section-{{ section.id }}-padding .newsletter-heading-con .title {
+    font-size: {{ section.settings.custom_heading_size }}px;
+    {% if section.settings.font_weight == 'none' %}
+      font-weight: var(--subheading-font_weight) !important;
+    {% else %}
+      font-weight: {{ section.settings.font_weight }} !important;
+    {% endif %}
+  }
+  @media screen and (max-width: 1500px) {
+    .section-{{ section.id }}-padding .newsletter-heading-con .title > *,
+    .section-{{ section.id }}-padding .newsletter-heading-con .title {
+      font-size: {{ section.settings.custom_heading_size | divided_by: 1.438 }}px;
+    }
+  }
+  @media screen and (max-width: 1199px) {
+    .section-{{ section.id }}-padding .newsletter-heading-con .title > *,
+    .section-{{ section.id }}-padding .newsletter-heading-con .title {
+      font-size: {{ section.settings.custom_heading_size | divided_by: 1.3 }}px;
+    }
+  }
+  @media screen and (max-width: 989px) {
+    .section-{{ section.id }}-padding .newsletter-heading-con .title > *,
+    .section-{{ section.id }}-padding .newsletter-heading-con .title {
+      font-size: {{ section.settings.custom_heading_size | divided_by: 1.52 }}px;
+    }
+  }
+  @media screen and (max-width: 749px) {
+    .section-{{ section.id }}-padding .newsletter-heading-con .title > *,
+    .section-{{ section.id }}-padding .newsletter-heading-con .title {
+      font-size: {{ section.settings.mobile_custom_heading_size }}px;
+    }
+  }
 
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
@@ -27,17 +66,19 @@
       margin-bottom: {{ section.settings.margin_bottom }}px;
     }
   }
+  
 {%- endstyle -%}
 
 <div class="newsletter color-{{ section.settings.color_scheme }} gradient">
-  <div class="newsletter__wrapper content-container isolate{% if section.settings.full_width == false %} newsletter--narrow page-width{% endif %}{% if section.settings.full_width %} content-container--full-width{% endif %} section-{{ section.id }}-padding">
-    <div class="grid grid--1-col grid--2-col-tablet">
+  <div class="newsletter__wrapper content-container isolate{% if section.settings.full_width == false %} newsletter--narrow page-width{% endif %}{% if section.settings.full_width %} content-container--full-width{% endif %}">
+    <div class="section-{{ section.id }}-padding">
+      <div class="grid grid--1-col grid--2-col-tablet">
       <div class="newsletter-heading-con grid__item{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-          <h2 class="title {{ section.settings.heading_size }} inline-richtext">
-              {{ section.settings.heading }}
+          <h2 class="title {{ settings.heading_size }} inline-richtext">
+              {{ settings.heading }}
           </h2>
-          <div class="newsletter__subheading rte">
-              {{ section.settings.text }}
+          <div class="newsletter__subheading subtitle rte">
+              {{ settings.text_desc }}
           </div>
       </div>
       <div class="newsletter-email-form-con grid__item{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
@@ -72,7 +113,7 @@
                     </div> {% endcomment %}
                     <div class="input_field">
                       <label class="field__label" for="NewsletterForm--{{ section.id }}">
-                        {{- 'icon-mail.svg' | inline_asset_content -}} {{ 'newsletter.label' | t }} *
+                        {{- 'icon-mail.svg' | inline_asset_content -}} {{ 'newsletter.label' | t }}
                       </label>
                       <input
                           id="NewsletterForm--{{ section.id }}"
@@ -80,6 +121,7 @@
                           name="contact[email]"
                           class="field__input"
                           value="{{ form.email }}"
+                          required
                           aria-required="true"
                           autocorrect="off"
                           autocapitalize="off"
@@ -92,7 +134,7 @@
                           aria-describedby="Newsletter-success--{{ section.id }}"
                           {% endif %}
                           placeholder="{{ 'newsletter.label' | t }}"
-                          required
+                          
                       >
                     </div>
                     {% comment %} <div class="input_field">
@@ -116,7 +158,7 @@
                         id="Subscribe"
                         aria-label="{{ 'newsletter.button_label' | t }}"
                     >
-                        Subscribe
+                        Subscribe now
                     </button>
                   </div>
                     {%- if form.errors -%}
@@ -148,28 +190,26 @@
         {%- endfor -%}
     </div>
     </div>
+    </div>
   </div>
 </div>
 
 {% schema %}
 {
-  "name": "Custom Newsletter",
+  "name": "Custom newsletter",
   "tag": "section",
   "class": "section newsletter-sec",
-  "disabled_on": {
-    "groups": ["header"]
-  },
   "settings": [
     {
       "type": "color_scheme",
       "id": "color_scheme",
       "label": "t:sections.all.colors.label",
-      "default": "scheme-1"
+      "default": "scheme-9"
     },
     {
       "type": "checkbox",
       "id": "full_width",
-      "default": true,
+      "default": false,
       "label": "t:sections.newsletter.settings.full_width.label"
     },
     {
@@ -177,36 +217,41 @@
       "content": "t:sections.newsletter.settings.paragraph.content"
     },
     {
-        "type": "richtext",
-        "id": "heading",
-        "default": "<p>t:sections.newsletter.blocks.heading.settings.heading.default</p>",
-        "label": "t:sections.newsletter.blocks.heading.settings.heading.label"
-    },
-    {
-      "type": "select",
-      "id": "heading_size",
-      "options": [
-        {
-          "value": "h2",
-          "label": "Small"
-        },
-        {
-          "value": "h1",
-          "label": "Medium"
-        },
-        {
-          "value": "h0",
-          "label": "Large"
-        }
-      ],
-      "default": "h1",
+      "type": "range",
+      "id": "custom_heading_size",
+      "min": 20,
+      "max": 70,
+      "step": 1,
+      "default": 32,
+      "unit": "px",
       "label": "Heading Size"
     },
     {
-        "type": "richtext",
-        "id": "text",
-        "default": "t:sections.newsletter.blocks.paragraph.settings.paragraph.default",
-        "label": "t:sections.newsletter.blocks.paragraph.settings.paragraph.label"
+      "type": "range",
+      "id": "mobile_custom_heading_size",
+      "min": 20,
+      "max": 40,
+      "step": 1,
+      "default": 24,
+      "unit": "px",
+      "label": "Mobile Heading Size"
+    },
+    {
+      "type": "select",
+      "id": "font_weight",
+      "label": "Font Weight",
+      "default": "600",
+      "options": [
+        { "label": "Thin (100)", "value": "100" },
+        { "label": "Extra Light (200)", "value": "200" },
+        { "label": "Light (300)", "value": "300" },
+        { "label": "Regular (400)", "value": "400" },
+        { "label": "Medium (500)", "value": "500" },
+        { "label": "Semi Bold (600)", "value": "600" },
+        { "label": "Bold (700)", "value": "700" },
+        { "label": "Extra Bold (800)", "value": "800" },
+        { "label": "Black (900)", "value": "900" }
+      ]
     },
     {
       "type": "header",
@@ -220,7 +265,7 @@
       "step": 2,
       "unit": "px",
       "label": "t:sections.all.padding.padding_top",
-      "default": 40
+      "default": 50
     },
     {
       "type": "range",
@@ -230,7 +275,7 @@
       "step": 2,
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
-      "default": 52
+      "default": 50
     },
     {
       "type": "range",
@@ -240,7 +285,7 @@
       "step": 2,
       "unit": "px",
       "label": "Margin top",
-      "default": 0
+      "default": 40
     },
     {
       "type": "range",
@@ -250,7 +295,7 @@
       "step": 2,
       "unit": "px",
       "label": "Margin bottom",
-      "default": 0
+      "default": 40
     }
   ],
   "blocks": [
@@ -265,7 +310,7 @@
   ],
   "presets": [
     {
-      "name": "custom Newsletter",
+      "name": "Custom newsletter",
       "blocks": [
         {
           "type": "email_form"

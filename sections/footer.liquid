@@ -176,16 +176,16 @@
                           <label class="field__label" for="NewsletterForm--{{ section.id }}">
                             Enter your email
                           </label>
-                          <button
-                            type="submit"
-                            class="button button--primary"
-                            name="commit"
-                            id="Subscribe"
-                            aria-label="{{ 'newsletter.button_label' | t }}"
-                          >
-                            Subscribe
-                          </button>
                         </div>
+                        <button
+                          type="submit"
+                          class="button button--secoundary"
+                          name="commit"
+                          id="Subscribe"
+                          aria-label="{{ 'newsletter.button_label' | t }}"
+                        >
+                          Subscribe
+                        </button>
                         {%- if form.errors -%}
                           <small class="newsletter-form__message form__message" id="ContactFooter-error">
                             <span class="svg-wrapper">
@@ -319,7 +319,7 @@
     <div class="footer__content-bottom-wrapper footer__content-bottom-copyright-menu page-width">
       <div class="footer__copyright">
         <small class="copyright__content">
-          Copyright {{ shop.name | link_to: routes.root_url -}} &nbsp;{{ 'now' | date: '%Y' }}
+          <a href="/"> © 2025 SpaceLogic Group | All rights reserved | ABN 98 157 674 881 </a>
         </small>
         {%- if section.settings.show_policy -%}
           <ul class="policies list-unstyled">

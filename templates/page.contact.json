@@ -9,6 +9,100 @@
  */
 {
   "sections": {
+    "custom_page_banner_ALNNd4": {
+      "type": "custom-page-banner",
+      "blocks": {
+        "slide_GncqWA": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Banner_image7.jpg",
+            "image_overlay_opacity": 0
+          }
+        },
+        "slide_4Kq6Ax": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Banner_image6.jpg",
+            "image_overlay_opacity": 0
+          }
+        },
+        "slide_DdaPQn": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Banner_image15.jpg",
+            "image_overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "slide_GncqWA",
+        "slide_4Kq6Ax",
+        "slide_DdaPQn"
+      ],
+      "name": "TF Custom Page Slideshow",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "image_behavior": "none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "page_banner_n9BQTW": {
+      "type": "page-banner",
+      "blocks": {
+        "heading_LxBUzb": {
+          "type": "heading",
+          "settings": {
+            "heading": "Contact us",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "600",
+            "heading_alignment": "center"
+          }
+        },
+        "caption_4bGanb": {
+          "type": "caption",
+          "settings": {
+            "caption": "<p>We are always happy to discuss your healthcare storage needs</p>",
+            "caption_alignment": "center"
+          }
+        },
+        "text_WFELBF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our expert consultants are friendly, knowledgeable, and ready to help. Contact us today to discover how SpaceLogic can transform your clinical storage management system. Our consultants will respond within 12 business hours.</p>",
+            "text_alignment": "left"
+          }
+        }
+      },
+      "block_order": [
+        "heading_LxBUzb",
+        "caption_4bGanb",
+        "text_WFELBF"
+      ],
+      "name": "TF Page Banner",
+      "settings": {
+        "title_alignment": "center",
+        "full_width": true,
+        "content_width": "full_width",
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "padding_top": 80,
+        "padding_bottom": 40
+      }
+    },
+    "section_breadcrumb_DNXeDp": {
+      "type": "section-breadcrumb",
+      "disabled": true,
+      "name": "TF Breadcrumb",
+      "settings": {
+        "color_scheme": "",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "mobile_padding_top": 20,
+        "mobile_padding_bottom": 20
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -18,69 +112,31 @@
         "padding_bottom": 36
       }
     },
-    "custom_page_banner_wUjFrR": {
-      "type": "custom-page-banner",
-      "blocks": {
-        "slide_rqd8X3": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Concept_1_1.png",
-            "image_overlay_opacity": 0
-          }
-        },
-        "slide_Nzx7FR": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Concept_1_1.png",
-            "image_overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "slide_rqd8X3",
-        "slide_Nzx7FR"
-      ],
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "small",
-        "change_slides_speed": 3,
-        "image_behavior": "none",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "form": {
-      "type": "contact-form",
-      "disabled": true,
-      "settings": {
-        "heading": "heading",
-        "heading_size": "h1",
-        "color_scheme": "scheme-1",
-        "padding_top": 60,
-        "padding_bottom": 28
-      }
-    },
     "rich_text_CeDtL6": {
       "type": "rich-text",
       "blocks": {
         "heading_V4KxXi": {
           "type": "heading",
           "settings": {
-            "heading": "Contact US",
-            "heading_size": "h0"
+            "heading": "Contact us",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
           }
         },
         "text_hwy9gg": {
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<ol><li><strong>Australia & New Zealand • United States & Canada</strong></li></ol>"
+            "text": "<ol><li><strong>Australia & New Zealand • United States & Canada</strong></li></ol>",
+            "text_content_alignment": "center"
           }
         },
         "text_HyiR3k": {
           "type": "text",
           "settings": {
-            "text": "<ul><li>The tireless and dynamic SpaceLogic team is dedicated to Healthcare. Our mission is to provide a fresh new approach, and premium advice and expertise to hospitals, medical centres and other clinical facilities. By combining the specialist skills of our entire team, we create a cohesive whole to give you individual attention, dedicated commitment and a result superior to any other.</li></ul>"
+            "text": "<p>We are always happy to discuss your healthcare storage needs. Our expert consultants are friendly, knowledgeable, and ready to help. Contact us today to discover how SpaceLogic can transform your clinical storage management system. Our consultants will respond within 12 business hours.</p>",
+            "text_content_alignment": "center"
           }
         }
       },
@@ -89,8 +145,8 @@
         "text_hwy9gg",
         "text_HyiR3k"
       ],
+      "disabled": true,
       "settings": {
-        "desktop_content_position": "center",
         "content_alignment": "center",
         "content_width": "full_width",
         "color_scheme": "scheme-28b9a3ce-e916-452a-9440-95fefcedbf92",
@@ -107,23 +163,23 @@
         "location_xwBwzh": {
           "type": "location",
           "settings": {
-            "box_color_scheme": "scheme-1",
+            "box_color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
             "title": "Australia",
-            "company": "SPACELOGIC GROUP PTY LTD",
-            "company_icon": "shopify://shop_images/Frame_8.svg",
+            "company": "Head office: SpaceLogic Group Pty Ltd",
+            "company_icon": "shopify://shop_images/organization-svgrepo-com_1_small_26426c1f-6500-422b-826e-1f5dfd600d5b.svg",
             "address": "7 Cameron Place, Orange NSW 2800, Australia",
-            "address_icon": "shopify://shop_images/Frame_9.svg",
-            "phone": "02 6362 5533",
+            "address_icon": "shopify://shop_images/region_1_small_59dee43b-1303-4539-b331-6fd5f32b1d59.svg",
+            "phone": "+61 2 6362 5533",
             "phone_icon": "shopify://shop_images/Frame_10.svg",
-            "phone_link": "tel:02 6362 5533",
-            "email": "abc@gmail.com",
-            "email_icon": "shopify://shop_images/Frame_11.svg",
-            "email_link": "mailto:abc@gmail.com",
-            "facebook": "https://www.facebook.com/spacelogichealthcare",
-            "instagram": "https://www.instagram.com/spacelogichealthcare/",
-            "twitter": "https://twitter.com/space_logic",
-            "youtube": "https://www.youtube.com/channel/UCtN25Fwi7Evc-SAI86suAjg/videos",
-            "linkedin": "",
+            "phone_link": "tel:+61 2 6362 5533",
+            "email": "Email us",
+            "email_icon": "shopify://shop_images/Vector_small_1f9a86ca-db61-4142-b62c-15c3074fa473.svg",
+            "email_link": "mailto:oleta.blunt@spacelogicgroup.com",
+            "facebook": "",
+            "instagram": "",
+            "twitter": "",
+            "youtube": "http://www.youtube.com/@SpaceLogicGroup",
+            "linkedin": "https://www.facebook.com/spacelogichealthcare",
             "distributor_text": "",
             "distributor_logo_1_url": "",
             "distributor_logo_2_url": ""
@@ -132,22 +188,22 @@
         "location_mTCeAQ": {
           "type": "location",
           "settings": {
-            "box_color_scheme": "",
+            "box_color_scheme": "scheme-7bba877c-319e-4978-b41a-39cbc803dea8",
             "title": "United States",
-            "company": "SPACELOGIC GROUP LTD",
-            "company_icon": "shopify://shop_images/Frame_8.svg",
-            "address": "44 Commerce Street, etc",
-            "address_icon": "shopify://shop_images/Frame_9.svg",
-            "phone": "973 379 4033",
+            "company": "SpaceLogic Group LLC",
+            "company_icon": "shopify://shop_images/organization-svgrepo-com_1_small_26426c1f-6500-422b-826e-1f5dfd600d5b.svg",
+            "address": "44 Commerce Street, Springfield NJ 07081, United States",
+            "address_icon": "shopify://shop_images/region_1_small_59dee43b-1303-4539-b331-6fd5f32b1d59.svg",
+            "phone": "+1 973 379 4033",
             "phone_icon": "shopify://shop_images/Frame_10.svg",
-            "phone_link": "tel:973 379 4033",
-            "email": "abc@gmail.com",
-            "email_icon": "shopify://shop_images/Frame_11.svg",
-            "email_link": "mailto:abc@gmail.com",
-            "facebook": "https://www.facebook.com/spacelogichealthcare",
+            "phone_link": "tel:+1 973 379 4033",
+            "email": "Email us",
+            "email_icon": "shopify://shop_images/Vector_small_1f9a86ca-db61-4142-b62c-15c3074fa473.svg",
+            "email_link": "mailto:oleta.blunt@spacelogicgroup.com",
+            "facebook": "",
             "instagram": "",
             "twitter": "",
-            "youtube": "",
+            "youtube": "http://www.youtube.com/@SpaceLogicGroup",
             "linkedin": "https://www.linkedin.com/company/spacelogic/",
             "distributor_text": "",
             "distributor_logo_1_url": "",
@@ -157,7 +213,7 @@
         "location_BQBU6m": {
           "type": "location",
           "settings": {
-            "box_color_scheme": "",
+            "box_color_scheme": "scheme-7bba877c-319e-4978-b41a-39cbc803dea8",
             "title": "Authorised  distributors (US)",
             "company": "",
             "address": "",
@@ -170,10 +226,10 @@
             "twitter": "",
             "youtube": "",
             "linkedin": "",
-            "distributor_text": "For more information on our Distributors in the US please click on the logos below:",
-            "distributor_logo_1": "shopify://shop_images/image_108.png",
+            "distributor_text": "For more information on our distributors in the US, please click on the logos below:",
+            "distributor_logo_1": "shopify://shop_images/Coulmed-logo.png",
             "distributor_logo_1_url": "https://coulmed.com/",
-            "distributor_logo_2": "shopify://shop_images/image_109.png",
+            "distributor_logo_2": "shopify://shop_images/Stat-Med-logo-1.png",
             "distributor_logo_2_url": "https://www.statmedicalcanada.com/"
           }
         }
@@ -183,55 +239,106 @@
         "location_mTCeAQ",
         "location_BQBU6m"
       ],
+      "custom_css": [
+        ".contact-section {margin-bottom: 0px;}"
+      ],
       "settings": {
-        "row_color_scheme": "scheme-7bba877c-319e-4978-b41a-39cbc803dea8",
-        "title": "Enquiry",
-        "name": "Your Name",
+        "row_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "title": "",
+        "name": "Your name",
         "name_icon": "shopify://shop_images/user-svgrepo-com.svg",
-        "job_title": "Job Title",
+        "job_title": "Job title",
         "job_title_icon": "shopify://shop_images/job-svgrepo-com_1_1.svg",
         "organisation": "Organisation",
         "organisation_icon": "shopify://shop_images/organization-svgrepo-com_1.svg",
         "email": "Email",
-        "email_icon": "shopify://shop_images/email-8-svgrepo-com.png",
+        "email_icon": "shopify://shop_images/Vector.svg",
         "region": "Region",
         "region_icon": "shopify://shop_images/region_1.svg",
         "phone": "Phone",
         "phone_icon": "shopify://shop_images/email-8-svgrepo-com_1.svg",
-        "enquiry_type": "Enquiry Type",
+        "enquiry_type": "Enquiry type",
         "enquiry_type_icon": "shopify://shop_images/inquiry-svgrepo-com_1_1.svg",
         "enquiry": "Enquiry",
         "enquiry_icon": "shopify://shop_images/transaction-detail-enquiry-1_1_1.svg",
         "submit_btn": "Submit",
-        "padding_top": 70,
-        "padding_bottom": 70
+        "padding_top": 40,
+        "padding_bottom": 80
+      }
+    },
+    "page_banner_WgXPaN": {
+      "type": "page-banner",
+      "blocks": {
+        "heading_m6xGYm": {
+          "type": "heading",
+          "settings": {
+            "heading": "RMA request",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "600",
+            "heading_alignment": "center"
+          }
+        },
+        "caption_b3pbPd": {
+          "type": "caption",
+          "settings": {
+            "caption": "<p>Add caption here</p>",
+            "caption_alignment": "center"
+          }
+        },
+        "text_FF7Jcz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>To return your SpaceLogic product for service or to make a warranty claim, you are required to complete an RMA (Return Material Authorisation) request form.</p>",
+            "text_alignment": "center"
+          }
+        },
+        "button_EYt6Qp": {
+          "type": "button",
+          "settings": {
+            "button_label": "RMA request",
+            "button_link": "shopify://pages/return-and-refund-policy",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "button_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "heading_m6xGYm",
+        "caption_b3pbPd",
+        "text_FF7Jcz",
+        "button_EYt6Qp"
+      ],
+      "custom_css": [],
+      "name": "TF RMA Request",
+      "settings": {
+        "title_alignment": "center",
+        "full_width": true,
+        "content_width": "full_width",
+        "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
+        "padding_top": 80,
+        "padding_bottom": 80
       }
     },
     "product_catalog_3gEWDy": {
       "type": "product-catalog",
       "settings": {
-        "product_image": "shopify://shop_images/Concept_5.png",
-        "logo_link": "",
-        "heading": "<p>BIM Files</p>",
-        "heading_size": "h1",
-        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
-        "description": "<p>Tusandanda sit ut lis dolore platiatiasit eturia  quam rem eniminime omnimintore plit pediti iur  ma commole caborem quatum quuntur raecesto  quiassimus explica tecepudam, si nobit evelitem  ipienist et resto enia quo evelenis ditas.</p>",
-        "button_1_text": "BIM File Request",
-        "button_1_link": "#",
-        "button_2_text": "Download Catalog",
-        "button_2_link": "",
-        "reverse_column": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
     }
   },
   "order": [
+    "custom_page_banner_ALNNd4",
+    "page_banner_n9BQTW",
+    "section_breadcrumb_DNXeDp",
     "main",
-    "custom_page_banner_wUjFrR",
-    "form",
     "rich_text_CeDtL6",
     "get_in_touch_irHLdw",
+    "page_banner_WgXPaN",
     "product_catalog_3gEWDy"
   ]
 }

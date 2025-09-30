@@ -9,6 +9,92 @@
  */
 {
   "sections": {
+    "custom_page_banner_QnUe9R": {
+      "type": "custom-page-banner",
+      "blocks": {
+        "slide_UVFEyV": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image_overlay_opacity": 0
+          }
+        },
+        "slide_DkWCwb": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/winding-road-covered-in-autumn-trees.jpg",
+            "image_overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "slide_UVFEyV",
+        "slide_DkWCwb"
+      ],
+      "name": "TF Custom Page Slideshow",
+      "settings": {
+        "layout": "grid",
+        "slide_height": "large",
+        "image_behavior": "none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "page_banner_iFJ7BP": {
+      "type": "page-banner",
+      "blocks": {
+        "heading_hyMihJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Clean utility and medications room",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "600",
+            "heading_alignment": "center"
+          }
+        },
+        "caption_3GKmgE": {
+          "type": "caption",
+          "settings": {
+            "caption": "<p>Timber joinery is a thing of the past. Upgrade to modular, hygienic storage that lasts</p><h3></h3>",
+            "caption_alignment": "center"
+          }
+        },
+        "text_PKcLKC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Traditional timber joinery is no longer suitable for clinical storage in healthcare environments—particularly for medications, consumables, and sterile stock. SpaceLogic’s STERIRACK® System is a cleanable, modular, and fully compliant alternative designed to meet modern infection control requirements, including AS5369.</p><p>Our systems are purpose-built for clean utility rooms, medication rooms, and sterile environments across hospitals, day surgeries, and aged care facilities. With fully customisable shelving, registered wire-loop baskets, pull-out trays and accessories, the STERIRACK® System delivers maximum cleanability, flexibility, and long-term durability.</p><p>Whether you're replacing timber joinery or planning a brand-new fitout, we’ll design a tailored solution to suit your exact room size, clinical workflow, and compliance needs, improving access, stock control, and staff productivity.</p><p>Explore some of our recent clean utility and medication room installations below. Each project showcases how the STERIRACK® System can be configured for maximum space efficiency, infection control, and staff usability. You'll find layout plans, before-and-after photos, photorealistic renders, and practical examples of clinical room transformations.</p><p><strong>Ready to upgrade your clean utility room?</strong><br/><br/>Contact us today to book a free consultation or request a tailored layout for your facility.</p><p></p><p></p>",
+            "text_alignment": "left"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hyMihJ",
+        "caption_3GKmgE",
+        "text_PKcLKC"
+      ],
+      "name": "TF Page Banner",
+      "settings": {
+        "title_alignment": "center",
+        "full_width": true,
+        "content_width": "full_width",
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "padding_top": 80,
+        "padding_bottom": 40
+      }
+    },
+    "section_breadcrumb_U66dwV": {
+      "type": "section-breadcrumb",
+      "disabled": true,
+      "name": "TF Breadcrumb",
+      "settings": {
+        "color_scheme": "",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "mobile_padding_top": 20,
+        "mobile_padding_bottom": 20
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -18,62 +104,14 @@
         "padding_bottom": 28
       }
     },
-    "page_banner_3tga7L": {
-      "type": "page-banner",
-      "blocks": {
-        "image_kxKHJQ": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/image_3_ce1ed38e-3fa0-477d-ac90-eee0e78253c7.png",
-            "border_radius": true
-          }
-        },
-        "heading_bTjkgN": {
-          "type": "heading",
-          "settings": {
-            "heading": "Clean <strong>Utility and Medications Room</strong>",
-            "heading_size": "h0",
-            "heading_alignment": "center"
-          }
-        },
-        "caption_eyMhcd": {
-          "type": "caption",
-          "settings": {
-            "caption": "<p>Timber joinery is a thing of the past!</p>",
-            "caption_alignment": "center"
-          }
-        },
-        "text_Yp6mkU": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Timber joinery and cabinetry is no longer viable for storage applications for clinical and non-clinical consumables and medications storage. STERIRACK® System by SpaceLogic is the perfect solution for fit-outs and replacements in Clean Utilities or Medications Rooms.</p><p>See the Clean Utility presentations below which include information and photos of recent installations, as well as video and photorealistic images of example room layouts. Keep in mind that we can create a Clean Utility design to suit any room dimensions, and configure your STERIRACK® System with baskets, shelving and accessories to suit your own requirements.</p><p>Please feel welcome to use the presentations on Wagga Wagga and Goulburn Hospitals to introduce your team to the STERIRACK® concept. Don’t hesitate to contact a SpaceLogic Project Consultant if you have any further questions, or would like to book in for a consultation.</p>",
-            "text_alignment": "center"
-          }
-        }
-      },
-      "block_order": [
-        "image_kxKHJQ",
-        "heading_bTjkgN",
-        "caption_eyMhcd",
-        "text_Yp6mkU"
-      ],
-      "settings": {
-        "title_alignment": "center",
-        "full_width": false,
-        "content_width": "full_width",
-        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "padding_top": 72,
-        "padding_bottom": 36
-      }
-    },
     "application_list_Uf6gg7": {
       "type": "application-list",
       "blocks": {
         "application_item_tFPwi8": {
           "type": "application_item",
           "settings": {
-            "heading": "<p>Clean Utility presentation - <strong>Wagga Wagga Hospital</strong></p>",
-            "heading_size": "h1",
+            "heading": "<p><strong>Wagga Wagga Hospital</strong></p>",
+            "heading_size": "h2",
             "heading_alignment": "center",
             "catalog_url": "https://online.flippingbook.com/view/159525198/"
           }
@@ -81,8 +119,8 @@
         "application_item_rneMRa": {
           "type": "application_item",
           "settings": {
-            "heading": "<p>Goulburn Hospital <strong>presentation</strong></p>",
-            "heading_size": "h1",
+            "heading": "<p><strong>Goulburn Hospital</strong></p>",
+            "heading_size": "h2",
             "heading_alignment": "center",
             "catalog_url": "https://online.flippingbook.com/view/712221459/"
           }
@@ -93,15 +131,26 @@
         "application_item_rneMRa"
       ],
       "settings": {
-        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "padding_top": 36,
-        "padding_bottom": 72
+        "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "product_catalog_3QUeXT": {
+      "type": "product-catalog",
+      "disabled": true,
+      "settings": {
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     }
   },
   "order": [
+    "custom_page_banner_QnUe9R",
+    "page_banner_iFJ7BP",
+    "section_breadcrumb_U66dwV",
     "main",
-    "page_banner_3tga7L",
-    "application_list_Uf6gg7"
+    "application_list_Uf6gg7",
+    "product_catalog_3QUeXT"
   ]
 }

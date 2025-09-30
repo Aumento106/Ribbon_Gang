@@ -2,10 +2,72 @@
   margin-top: 0;
   margin-bottom: 0;
 }
-
 .collection-list-title {
   margin: 0;
 }
+.categories-slider .main-product-categories .collection-list {
+  flex-wrap: nowrap;
+  /* overflow: auto; */
+  /* overflow: visible; */
+  padding-bottom: 30px;
+}
+.categories-slider .main-product-categories .collection-list .card_product_main_desc strong {
+  font-weight: 600;
+}
+.categories-slider .main-product-categories .collection-list .card-wrapper {
+  width: calc(100% - 24px);
+}
+.categories-slider .main-product-categories .collection-list .card_product_main_desc a {
+  text-decoration: underline;
+}
+/* .categories-slider .main-product-categories .collection-list .collection-list__item {
+  max-width: unset;
+  width: unset;
+} */
+/* .categories-slider .main-product-categories .collection-list .full-unstyled-link::after {
+  pointer-events: none;
+} */
+.video-popup.projects-popup-main {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 90%;
+  max-width: 800px;
+  transform: translate(-50%, -50%);
+  /* background: #000; */
+  height: auto;
+  z-index: 9999;
+  aspect-ratio: 16/9;
+  opacity: 1;
+  overflow: visible;
+  visibility: visible;
+}
+.video-popup.projects-popup-main video {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.video-popup.projects-popup-main .popup-inner {
+  width: 100%;
+}
+.video-popup iframe {
+  width: 100%;
+  height: 100%;
+}
+.categories-slider .main-product-categories .collection-list .video-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.categories-slider .main-product-categories .collection-list .video-links a {
+  z-index: 2;
+}
+body.video-popup-open {
+  /* height: 100vh; */
+  overflow: hidden;
+}
+
+
 
 @media screen and (max-width: 749px) {
   .collection-list:not(.slider) {
@@ -33,6 +95,9 @@
   .slider.collection-list--1-items {
     padding-bottom: 0;
   }
+  .categories-slider .main-product-categories .collection-list.grid--1-col-tablet-down li {
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 750px) and (max-width: 989px) {
@@ -53,6 +118,9 @@
 @media screen and (max-width: 989px) {
   .collection-list.slider .collection-list__item {
     max-width: 100%;
+  }
+  .categories-slider .main-product-categories .collection-list .card-wrapper {
+    width: 100%;
   }
 }
 

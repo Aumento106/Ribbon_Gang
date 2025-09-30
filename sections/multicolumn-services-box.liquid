@@ -7,6 +7,34 @@
     padding-top: {{ section.settings.padding_top | times: 0.55 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.55 | round: 0 }}px;
   }
+  .section-{{ section.id }}-padding .title {
+    font-size: {{ section.settings.custom_heading_size }}px;
+    {% if section.settings.custom_font_weight == 'none' %}
+      font-weight: var(--subheading-font_weight) !important;
+    {% else %}
+      font-weight: {{ section.settings.custom_font_weight }} !important;
+    {% endif %}    
+  }
+  @media screen and (max-width: 1500px) {
+    .section-{{ section.id }}-padding .title {
+      font-size: {{ section.settings.custom_heading_size | divided_by: 1.438 }}px;
+    }
+  }
+  @media screen and (max-width: 1199px) {
+    .section-{{ section.id }}-padding .title {
+      font-size: {{ section.settings.custom_heading_size | divided_by: 1.3 }}px;
+    }
+  }
+  @media screen and (max-width: 989px) {
+    .section-{{ section.id }}-padding .title {
+      font-size: {{ section.settings.custom_heading_size | divided_by: 1.52 }}px;
+    }
+  }
+  @media screen and (max-width: 749px) {
+    .section-{{ section.id }}-padding .title {
+      font-size: {{ section.settings.mobile_custom_heading_size }}px;
+    }
+  }
 
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
@@ -41,27 +69,72 @@
     <div class="multicolumn-services__grid grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-mobile column-alignment-{{ section.settings.columns_alignment }}">
       {%- for block in section.blocks -%}
         <div class="multicolumn-services__item grid__item" {{ block.shopify_attributes }}>
+          
           <div class="services-icon-heading">
-            {%- if block.settings.icon != blank -%}
+            {%- if settings.icon1 != blank -%}
               <div class="multicolumn-services__icon">
-                {{ block.settings.icon | image_url: width: 40 | image_tag:
+                {{ settings.icon1 | image_url: width: 40 | image_tag:
                   loading: 'lazy',
                   width: 35,
                   height: 35,
-                  alt: block.settings.heading
+                  alt: settings.heading1
                 }}
               </div>
             {%- endif -%}
             
-            {%- if block.settings.heading != blank -%}
-              <h3 class="subtitle">{{ block.settings.heading }}</h3>
+            {%- if settings.heading1 != blank -%}
+              <h3 class="subtitle">{{ settings.heading1 }}</h3>
             {%- endif -%}
           </div>
           
-          {%- if block.settings.text != blank -%}
-            <div class="rte">{{ block.settings.text }}</div>
+          {%- if settings.text1 != blank -%}
+            <div class="rte">{{ settings.text1 }}</div>
           {%- endif -%}
         </div>
+ <div class="multicolumn-services__item grid__item" {{ block.shopify_attributes }}>
+      <div class="services-icon-heading">
+            {%- if settings.icon2 != blank -%}
+              <div class="multicolumn-services__icon">
+                {{ settings.icon2 | image_url: width: 40 | image_tag:
+                  loading: 'lazy',
+                  width: 35,
+                  height: 35,
+                  alt: settings.heading2
+                }}
+              </div>
+            {%- endif -%}
+            
+            {%- if settings.heading2 != blank -%}
+              <h3 class="subtitle">{{ settings.heading2 }}</h3>
+            {%- endif -%}
+          </div>
+          
+          {%- if settings.text2 != blank -%}
+            <div class="rte">{{ settings.text2 }}</div>
+          {%- endif -%}
+ </div>
+       <div class="multicolumn-services__item grid__item" {{ block.shopify_attributes }}>
+          <div class="services-icon-heading">
+            {%- if settings.icon2 != blank -%}
+              <div class="multicolumn-services__icon">
+                {{ settings.icon3 | image_url: width: 40 | image_tag:
+                  loading: 'lazy',
+                  width: 35,
+                  height: 35,
+                  alt: settings.heading3
+                }}
+              </div>
+            {%- endif -%}
+            
+            {%- if settings.heading3 != blank -%}
+              <h3 class="subtitle">{{ settings.heading3 }}</h3>
+            {%- endif -%}
+          </div>
+          
+          {%- if settings.text3 != blank -%}
+            <div class="rte">{{ settings.text3 }}</div>
+          {%- endif -%}
+       </div>
       {%- endfor -%}
     </div>
   </div>
@@ -80,24 +153,42 @@
       "default": "<p>Section Title</p>"
     },
     {
-      "type": "select",
-      "id": "heading_size",
-      "options": [
-        {
-          "value": "h2",
-          "label": "Small"
-        },
-        {
-          "value": "h1",
-          "label": "Medium"
-        },
-        {
-          "value": "h0",
-          "label": "Large"
-        }
-      ],
-      "default": "h1",
+      "type": "range",
+      "id": "custom_heading_size",
+      "min": 20,
+      "max": 70,
+      "step": 1,
+      "default": 52,
+      "unit": "px",
       "label": "Heading Size"
+    },
+    {
+      "type": "range",
+      "id": "mobile_custom_heading_size",
+      "min": 20,
+      "max": 40,
+      "step": 1,
+      "default": 28,
+      "unit": "px",
+      "label": "Mobile Heading Size"
+    },
+    {
+      "type": "select",
+      "id": "custom_font_weight",
+      "label": "Font Weight",
+      "default": "400",
+      "options": [
+        { "label": "Thin (100)", "value": "100" },
+        { "label": "Extra Light (200)", "value": "200" },
+        { "label": "Light (300)", "value": "300" },
+        { "label": "Regular (400)", "value": "400" },
+        { "label": "Medium (500)", "value": "500" },
+        { "label": "Semi Bold (600)", "value": "600" },
+        { "label": "Bold (700)", "value": "700" },
+        { "label": "Extra Bold (800)", "value": "800" },
+        { "label": "Black (900)", "value": "900" },
+        { "label": "None", "value": "none" }
+      ]
     },
     {
       "type": "select",
@@ -145,7 +236,7 @@
       "type": "range",
       "id": "columns_desktop",
       "min": 1,
-      "max": 4,
+      "max": 6,
       "step": 1,
       "default": 3,
       "label": "Number of columns on desktop"
@@ -215,25 +306,8 @@
     {
       "type": "column",
       "name": "Service Column",
-      "settings": [
-        {
-          "type": "image_picker",
-          "id": "icon",
-          "label": "Icon"
-        },
-        {
-          "type": "richtext",
-          "id": "heading",
-          "default": "<p>Column heading</p>",
-          "label": "Heading"
-        },
-        {
-          "type": "richtext",
-          "id": "text",
-          "default": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>",
-          "label": "Text"
-        }
-      ]
+      "limit": 3,
+      "settings": []
     }
   ],
   "presets": [

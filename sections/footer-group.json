@@ -11,23 +11,60 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
-    "product_catalog_jUgXDj": {
+    "custom_newsletter_ewjixR": {
+      "type": "custom-newsletter",
+      "blocks": {
+        "email_form_m8gTqr": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "email_form_m8gTqr"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "full_width": false,
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "font_weight": "400",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "margin_top": 40,
+        "margin_bottom": 40
+      }
+    },
+    "newsletter_FcrfEW": {
+      "type": "newsletter",
+      "blocks": {
+        "email_form_WWBQWR": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "email_form_WWBQWR"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "full_width": false,
+        "news_custom_heading_size": 52,
+        "news_mobile_custom_heading_size": 28,
+        "news_font_weight": "400",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "margin_top": 40,
+        "margin_bottom": 0
+      }
+    },
+    "product_catalog_4eBaMw": {
       "type": "product-catalog",
       "disabled": true,
       "settings": {
-        "product_image": "shopify://shop_images/product-catalog.png",
-        "logo": "shopify://shop_images/spacelogic-logo.png",
-        "logo_link": "/",
-        "heading": "<p>Product <strong>Catalog</strong> 2024</p>",
-        "heading_size": "h1",
-        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
-        "description": "<p>Click the <a href=\"https://online.flippingbook.com/view/141548076/\" target=\"_blank\" title=\"https://online.flippingbook.com/view/141548076/\">link</a> to view our comprehensive product and services catalog. View in a browser window without the need for a download.</p>",
-        "button_1_text": "View Catalog",
-        "button_1_link": "https://online.flippingbook.com/view/141548076/",
-        "button_2_text": "Download Catalog",
-        "button_2_link": "https://online.flippingbook.com/view/141548076/",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 30,
+        "padding_bottom": 20
       }
     },
     "proudly_support_EqkBPA": {
@@ -73,10 +110,10 @@
       ],
       "disabled": true,
       "settings": {
-        "heading": "<p>We proudly <strong>Support</strong></p>",
-        "heading_size": "h1",
+        "heading": "<p>We proudly support</p>",
         "title_alignment": "center",
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "title_color": "#424242",
         "padding_top": 36,
         "padding_bottom": 72
       }
@@ -96,29 +133,50 @@
       "settings": {
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "full_width": false,
-        "heading": "<p><strong>Subscribe</strong> to receive <br/>updates and product releases</p>",
-        "heading_size": "h1",
-        "text": "<p>*The shape of the wire loops in wire loop baskets and bins is used as a shape trade mark.</p>",
+        "news_custom_heading_size": 52,
+        "news_mobile_custom_heading_size": 28,
+        "news_font_weight": "400",
         "padding_top": 36,
-        "padding_bottom": 72
+        "padding_bottom": 72,
+        "margin_top": 0,
+        "margin_bottom": 0
       }
     },
     "logo_strip_LCaMt9": {
       "type": "logo-strip",
       "blocks": {
+        "logo_jnc3tx": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/STERIRACK_logo_-_white_and_yellow_2025_4abb89ae-ec41-429a-bac4-e64c43e55c33.png"
+          }
+        },
         "logo_jdEJbk": {
           "type": "logo",
           "settings": {
-            "image": "shopify://shop_images/logo-strip.png"
+            "image": "shopify://shop_images/STERILOOP_logo_-_white_and_yellow_2025.png"
+          }
+        },
+        "logo_xBG7Wc": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/CLICK_N_CLIP_logo_-_white_and_yellow_2025_2.png"
           }
         }
       },
       "block_order": [
-        "logo_jdEJbk"
+        "logo_jnc3tx",
+        "logo_jdEJbk",
+        "logo_xBG7Wc"
+      ],
+      "custom_css": [
+        "{font-size-adjust: 0.2;}"
       ],
       "settings": {
         "color_scheme": "scheme-28b9a3ce-e916-452a-9440-95fefcedbf92",
-        "padding_top": 16,
+        "logo_stript_text": "*The shape of the wire loops in wire loop baskets and bins is used as a shape trade mark.",
+        "logo_color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
+        "padding_top": 20,
         "padding_bottom": 16
       }
     },
@@ -128,10 +186,10 @@
         "image_dehRNG": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Space-Logic-logo-light-font-large.png",
+            "image": "shopify://shop_images/white_logo_2.svg",
             "image_width": 330,
             "alignment": "",
-            "subtext": "<p>the authoritative experts in clinical healthcare storage solutions for the healthcare sector. Over 35 years SpaceLogic has grown from a small family firm into an acknowledged leader in healthcare space management. </p>",
+            "subtext": "<p>With over four decades of experience, SpaceLogic Group is your trusted partner in clinical storage solutions. From modular systems to custom-designed fit outs design and installation, we help healthcare providers optimise space, improve infection control, and future-proof their facilities to make space for care.</p>",
             "show_social": true
           }
         },
@@ -169,7 +227,7 @@
       "settings": {
         "color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
         "newsletter_enable": true,
-        "newsletter_heading": "Our Newsletter",
+        "newsletter_heading": "Our newsletter",
         "bottom_menu": "footer-bottom-menu",
         "enable_follow_on_shop": true,
         "show_social": true,
@@ -178,16 +236,80 @@
         "payment_enable": false,
         "show_policy": false,
         "margin_top": 0,
-        "padding_top": 60,
+        "padding_top": 32,
         "padding_bottom": 24
+      }
+    },
+    "proudly_support_VHAdkW": {
+      "type": "proudly-support",
+      "blocks": {
+        "support_item_XYTHPJ": {
+          "type": "support_item",
+          "settings": {
+            "image": "shopify://shop_images/support-logo-1.png"
+          }
+        },
+        "support_item_emwr9f": {
+          "type": "support_item",
+          "settings": {
+            "image": "shopify://shop_images/support-logo-2.png"
+          }
+        },
+        "support_item_E6MeTi": {
+          "type": "support_item",
+          "settings": {
+            "image": "shopify://shop_images/support-logo-5.png"
+          }
+        },
+        "support_item_CN43RH": {
+          "type": "support_item",
+          "settings": {
+            "image": "shopify://shop_images/support-logo-4.png"
+          }
+        },
+        "support_item_aweiFG": {
+          "type": "support_item",
+          "settings": {
+            "image": "shopify://shop_images/support-logo-3.png"
+          }
+        }
+      },
+      "block_order": [
+        "support_item_XYTHPJ",
+        "support_item_emwr9f",
+        "support_item_E6MeTi",
+        "support_item_CN43RH",
+        "support_item_aweiFG"
+      ],
+      "settings": {
+        "heading": "<p>We proudly support</p>",
+        "title_alignment": "center",
+        "color_scheme": "",
+        "title_color": "#424242",
+        "padding_top": 32,
+        "padding_bottom": 12
+      }
+    },
+    "custom_liquid_PpRQYR": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<div class=\"page-width\">\n© 2025 SpaceLogic Group | All rights reserved | ABN 00 000 000 000\n</div>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 20
       }
     }
   },
   "order": [
-    "product_catalog_jUgXDj",
+    "custom_newsletter_ewjixR",
+    "newsletter_FcrfEW",
+    "product_catalog_4eBaMw",
     "proudly_support_EqkBPA",
     "newsletter_8hYyN9",
     "logo_strip_LCaMt9",
-    "footer"
+    "footer",
+    "proudly_support_VHAdkW",
+    "custom_liquid_PpRQYR"
   ]
 }

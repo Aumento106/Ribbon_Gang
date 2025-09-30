@@ -9,6 +9,20 @@
 .banner__box {
   text-align: center;
 }
+.swiper.custom-slider-show .swiper-pagination:empty {
+  display: none;
+}
+.banner__media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.banner.page-width--narrow .banner__media img {
+  object-fit: contain;
+}
+/* .banner.page-width--narrow .banner__media {
+  background-color: unset;
+} */
 
 /* Needed for gradient continuity with or without animation, the transform scopes the gradient to its container which happens already when animation are turned on */
 .banner__box.gradient {
@@ -18,6 +32,10 @@
 @media only screen and (max-width: 749px) {
   .banner--content-align-mobile-right .banner__box {
     text-align: right;
+  }
+  .custom-image-banner .banner--adapt {
+    max-height: 500px;
+    min-height: 500px;
   }
 
   .banner--content-align-mobile-left .banner__box {
@@ -87,14 +105,17 @@
 
   .banner--small:not(.banner--adapt) {
     min-height: 38rem;
+    max-height: 38rem;
   }
 
   .banner--medium:not(.banner--adapt) {
     min-height: 56rem;
+    max-height: 56rem;
   }
 
   .banner--large:not(.banner--adapt) {
     min-height: 72rem;
+    max-height: 72rem;
   }
 
   .banner__content.banner__content--top-left {
@@ -391,7 +412,7 @@
   content: '';
   position: absolute;
   top: 0;
-  background: #000000;
+  /* background: #000000; */
   opacity: 0;
   z-index: 1;
   width: 100%;

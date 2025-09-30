@@ -9,35 +9,65 @@
  */
 {
   "sections": {
+    "custom_page_banner_eiQ9zY": {
+      "type": "custom-page-banner",
+      "blocks": {
+        "slide_Lp7BeL": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Banner_image17.jpg",
+            "image_overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "slide_Lp7BeL"
+      ],
+      "name": "TF Custom Page Slideshow",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "image_behavior": "none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_breadcrumb_PKhPRz": {
+      "type": "section-breadcrumb",
+      "disabled": true,
+      "name": "TF Breadcrumb",
+      "settings": {
+        "color_scheme": "",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "mobile_padding_top": 20,
+        "mobile_padding_bottom": 20
+      }
+    },
     "page_banner_iVH9eY": {
       "type": "page-banner",
       "blocks": {
-        "image_W4zerL": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/image_161.png",
-            "border_radius": true
-          }
-        },
-        "heading_pVBz9T": {
+        "heading_NQMLXJ": {
           "type": "heading",
           "settings": {
-            "heading": "Project Consultation, <strong>Planning and Room Design</strong>",
-            "heading_size": "h0",
+            "heading": "Project consultation, planning and room design",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400",
             "heading_alignment": "center"
           }
         },
         "text_KdCiWp": {
           "type": "text",
           "settings": {
-            "text": "<p>Whether for a new build, a major renovation or a rejuvenation of existing clinical store rooms, all stakeholders are consulted in the design and planning of your new, tailored STERIRACK® System storage solution. During this phase you will meet with our expert project consultants, either in person or online, to work through the project brief and determine all the deliverables for the project. We pride ourselves on exceeding client expectations and meeting project timelines. We then design a tailored solution, using our own gold standard, modular STERIRACK® range – a solution that will exactly suit your application and room dimensions. Floor plans are created to demonstrate achievable storage capacity as well as other efficiencies you will achieve. Photorealistic images can be produced on request. Once every aspect of the project has been agreed upon and approved, your project is placed in the hands of our expert project management and installation team, who will seamlessly create, deliver and install your brand new clinical storage solution. You’ll never look back!</p>",
-            "text_alignment": "center"
+            "text": "<p>SpaceLogic offers expert project consultation, planning, and room design for medical and healthcare facilities. Whether designing new storage systems or optimising existing clinical storerooms, we collaborate with all stakeholders to create tailored STERIRACK® System solutions.</p><p><strong>Our process includes:</strong></p><ul><li>In-depth consultation with our expert project team.</li><li>Customised design using our gold-standard STERIRACK® modular system.</li><li>Creation of floor plans to optimise storage capacity and efficiency.</li><li>Photorealistic imaging available upon request.</li><li>Professional project management and installation services.</li></ul><p>Product Innovation: We develop bespoke solutions tailored to your healthcare needs, ensuring high efficiency and minimal disruption during installation.</p>",
+            "text_alignment": "left"
           }
         },
         "button_fn8KLw": {
           "type": "button",
           "settings": {
-            "button_label": "Next: Project management and expert installation",
+            "button_label": "Project management and expert installation",
             "button_link": "shopify://pages/project-management-and-expert-installation",
             "button_style_secondary": false,
             "button_label_2": "",
@@ -48,17 +78,17 @@
         }
       },
       "block_order": [
-        "image_W4zerL",
-        "heading_pVBz9T",
+        "heading_NQMLXJ",
         "text_KdCiWp",
         "button_fn8KLw"
       ],
+      "disabled": true,
       "settings": {
         "title_alignment": "center",
         "full_width": false,
         "content_width": "full_width",
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "padding_top": 72,
+        "padding_top": 30,
         "padding_bottom": 36
       }
     },
@@ -67,37 +97,18 @@
       "blocks": {
         "column_BpVqDr": {
           "type": "column",
-          "settings": {
-            "icon": "shopify://shop_images/project-consultation.svg",
-            "heading": "<p>Project consultation <br/>and room design</p>",
-            "text": "<p>Each client receives a tailored storage solution that maximizes storage capacity within the available space, and suits its application. All stakeholder needs are incorporated in the design and planning of a new STERIRACK®System installation.</p>"
-          }
-        },
-        "column_GqV7PJ": {
-          "type": "column",
-          "settings": {
-            "icon": "shopify://shop_images/bulb-icon.svg",
-            "heading": "<p>Product customization <br/>and continuous innovation</p>",
-            "text": "<p>We specialize in custom storage solutions for healthcare, and our STERIRACK® System and MEDIBIN™ ranges are exclusive to SpaceLogic. Liaise with our designers to have custom components and accessories created to meet your specific needs.</p>"
-          }
-        },
-        "column_yL9hGf": {
-          "type": "column",
-          "settings": {
-            "icon": "shopify://shop_images/setting-icon.svg",
-            "heading": "<p>Project management <br/>and installation</p>",
-            "text": "<p>Our expert installation team specializes in fast, no-fuss storage installations with minimal interruptions to everyday operations or other trades. Our team travels nationally and internationally, or project manages local tradespeople.</p>"
-          }
+          "settings": {}
         }
       },
       "block_order": [
-        "column_BpVqDr",
-        "column_GqV7PJ",
-        "column_yL9hGf"
+        "column_BpVqDr"
       ],
+      "disabled": true,
       "settings": {
-        "sec_title": "<p>Three interconnected divisions, delivering <br/>a complete end-to-end <strong>Service</strong></p>",
-        "heading_size": "h1",
+        "sec_title": "<p>Three interconnected divisions, delivering <br/>a complete end-to-end service</p>",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "title_alignment": "center",
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "icon_bg_color": "#5a5a5a",
@@ -108,10 +119,78 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "page_banner_kqzM33": {
+      "type": "page-banner",
+      "blocks": {
+        "heading_M3iwNe": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ page.title }}",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "600",
+            "heading_alignment": "center"
+          }
+        },
+        "caption_WHgzJX": {
+          "type": "caption",
+          "settings": {
+            "caption": "<p>Clinical storage planning tailored to your exact space and workflow</p>",
+            "caption_alignment": "center"
+          }
+        },
+        "text_MjCJKf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Every great clinical outcome starts with intelligent planning. At SpaceLogic, we collaborate with hospital planners, architects, procurement leads and clinical staff to co-design storage layouts that enhance efficiency and future-proof your facility. From detailed site assessments and room audits to 2D floor plans and 3D walkthroughs, we help you visualise and optimise your storage from the outset.</p><p>Whether it’s a new build or a hospital refurbishment, we ensure your STERIRACK® System is designed to meet space constraints, infection control standards, and clinical workflow demands - before a single shelf is installed.</p>",
+            "text_alignment": "left"
+          }
+        },
+        "button_H4cPXC": {
+          "type": "button",
+          "settings": {
+            "button_label": "Product design and innovation",
+            "button_link": "shopify://pages/product-design-and-innovation",
+            "button_style_secondary": true,
+            "button_label_2": "Project management and expert installation",
+            "button_link_2": "shopify://pages/project-management-and-expert-installation",
+            "button_style_secondary_2": true,
+            "button_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "heading_M3iwNe",
+        "caption_WHgzJX",
+        "text_MjCJKf",
+        "button_H4cPXC"
+      ],
+      "name": "TF Services Page Banner",
+      "settings": {
+        "title_alignment": "center",
+        "full_width": true,
+        "content_width": "full_width",
+        "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
+        "padding_top": 80,
+        "padding_bottom": 40
+      }
+    },
+    "product_catalog_DkPtYN": {
+      "type": "product-catalog",
+      "name": "Product Catalog",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
+    "custom_page_banner_eiQ9zY",
+    "section_breadcrumb_PKhPRz",
     "page_banner_iVH9eY",
-    "multicolumn_services_box_Kh8zd7"
+    "multicolumn_services_box_Kh8zd7",
+    "page_banner_kqzM33",
+    "product_catalog_DkPtYN"
   ]
 }

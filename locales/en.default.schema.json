@@ -909,7 +909,7 @@
           }
         },
         "sku": {
-          "name": "SKU",
+          "name": "Sku",
           "settings": {
             "text_style": {
               "label": "Text style",
@@ -2078,7 +2078,7 @@
           "name": "Description"
         },
         "sku": {
-          "name": "SKU",
+          "name": "Sku",
           "settings": {
             "text_style": {
               "label": "Text style",

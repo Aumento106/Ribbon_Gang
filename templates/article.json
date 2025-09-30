@@ -50,9 +50,18 @@
         "padding_top": 32,
         "padding_bottom": 52
       }
+    },
+    "product_catalog_7qkQdG": {
+      "type": "product-catalog",
+      "disabled": true,
+      "settings": {
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "product_catalog_7qkQdG"
   ]
 }

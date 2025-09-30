@@ -32,7 +32,7 @@
           <div class="drawer__heading-wrapper">
             <h2 class="drawer__heading title">
               {{ 'sections.cart.title' | t }}
-              <strong> {{ 'sections.cart.title_cart' | t }} </strong>
+              {{ 'sections.cart.title_cart' | t }}
             </h2>
             {%- if cart != empty -%}
               <span class="cart-count">{{ cart.item_count }}</span>
@@ -76,7 +76,7 @@
         <div class="drawer__inner-empty">
           <div class="cart-drawer__warnings center{% if settings.cart_drawer_collection != blank %} cart-drawer__warnings--has-collection{% endif %}">
             <div class="cart-drawer__empty-content">
-              <h2 class="cart__empty-text title h1">Your Cart Is <strong>Empty</strong></h2>
+              <h2 class="cart__empty-text title h1">Your cart is empty</h2>
               <div class="empty-cart-icon">
                 {{- 'icon-empty-cart.svg' | inline_asset_content -}}
               </div>
@@ -736,7 +736,7 @@
       {%- else -%}
         <div class="checkout-container">
           <a href="{{ routes.all_products_collection_url }}" class="button button--primary button--full-width"
-            >Shop All</a
+            >Shop all</a
           >
         </div>
       {%- endif -%}

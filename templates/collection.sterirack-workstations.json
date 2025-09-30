@@ -1,0 +1,1014 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "custom_page_banner_r9QaiB": {
+      "type": "custom-page-banner",
+      "blocks": {
+        "slide_Tn3CNz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image_overlay_opacity": 0
+          }
+        },
+        "slide_YGNFK3": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/winding-road-covered-in-autumn-trees.jpg",
+            "image_overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "slide_Tn3CNz",
+        "slide_YGNFK3"
+      ],
+      "name": "Custom Page Banner",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "large",
+        "image_behavior": "none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "scheme-1"
+      }
+    },
+    "page_banner_ntmMYU": {
+      "type": "page-banner",
+      "blocks": {
+        "heading_9MUFRt": {
+          "type": "heading",
+          "settings": {
+            "heading": "STERIRACK® Standard Workstations",
+            "custom_heading_size": 45,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "600",
+            "heading_alignment": "center"
+          }
+        },
+        "caption_Uak4eL": {
+          "type": "caption",
+          "settings": {
+            "caption": "<p>Add caption here</p>",
+            "caption_alignment": "center"
+          }
+        },
+        "text_6i44C4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>No more dark, dusty corners. No more inflexible, fixed cabinetry. No more lost and hidden stock. No more mouldy cracks and crevices around benchtops. Think of rows of modern, clean, shiny baskets and shelves that slide smoothly in and out. Designed with patented looped wire baskets, and smooth corners with no sharp edges, eradicating the risk of tears to skin or sterile stock. Wire baskets and open shelves provide 100% visibility of stock and ideal ventilation.</p><p>Imagine smooth-to-the-touch solid surface benchtops that are super easy to clean and disinfect. Made of a hard, non-porous material that no moulds can latch onto. There’s no place for pathogenic micro-organisms to hide.</p><p>Tailored to suit you space and application, STERIRACK® Workstations are the answer. And they’re made using premium materials. Because you want to know you’re getting great value for money, and a fabulous return on your investment.</p><p>Shown below are 4 popular concept STERIRACK® Workstations (available with laminate, stainless steel or solid surface benchtops) which can be customised to suit your room specifications. Available in a wide variety of widths, depths and configurations to suit your facility.</p><p>Alternatively, check out the steps below on how you can build your own. The configurations are endless!</p>",
+            "text_alignment": "left"
+          }
+        },
+        "button_gkFLg7": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contact a consultant",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "button_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "heading_9MUFRt",
+        "caption_Uak4eL",
+        "text_6i44C4",
+        "button_gkFLg7"
+      ],
+      "settings": {
+        "title_alignment": "center",
+        "full_width": true,
+        "content_width": "full_width",
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "padding_top": 80,
+        "padding_bottom": 40
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "disabled": true,
+      "settings": {
+        "hide_price": false,
+        "hide_sold_out": false,
+        "hide_save": false,
+        "products_per_page": 20,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "remove_product_link": false,
+        "enquire_now": "Enquire now",
+        "enquire_now_url": "shopify://pages/contact",
+        "shop_now": "Shop now",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "learnmore",
+        "learn_more_button_text": "Learn More",
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 72,
+        "padding_bottom": 36
+      }
+    },
+    "custom_multicolumn_text_QKXKe6": {
+      "type": "custom-Multicolumn-text",
+      "blocks": {
+        "column_Pc4rbH": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Sydney-1.jpg",
+            "title": "",
+            "block_custom_font_weight": "400",
+            "text": "",
+            "text-v": "",
+            "button-text": "",
+            "button-url": ""
+          }
+        },
+        "column_DDicwj": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Workstation-2.jpg",
+            "title": "",
+            "block_custom_font_weight": "400",
+            "text": "",
+            "text-v": "",
+            "button-text": "",
+            "button-url": ""
+          }
+        },
+        "column_4b7bJD": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Wagga-1.jpg",
+            "title": "",
+            "block_custom_font_weight": "400",
+            "text": "",
+            "text-v": "",
+            "button-text": "",
+            "button-url": ""
+          }
+        },
+        "column_ExmfNK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Wollongong-1.jpg",
+            "title": "",
+            "block_custom_font_weight": "400",
+            "text": "",
+            "text-v": "",
+            "button-text": "",
+            "button-url": ""
+          }
+        },
+        "column_Aj7wtm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Yass-1.jpg",
+            "title": "",
+            "block_custom_font_weight": "400",
+            "text": "",
+            "text-v": "",
+            "button-text": "",
+            "button-url": ""
+          }
+        },
+        "column_AFpdmL": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Workstation-3.jpg",
+            "title": "",
+            "block_custom_font_weight": "400",
+            "text": "",
+            "text-v": "",
+            "button-text": "",
+            "button-url": ""
+          }
+        },
+        "column_NfKygM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Leeton-1.jpg",
+            "title": "",
+            "block_custom_font_weight": "400",
+            "text": "",
+            "text-v": "",
+            "button-text": "",
+            "button-url": ""
+          }
+        },
+        "column_VqhRMB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Wollongong-2.jpg",
+            "title": "",
+            "block_custom_font_weight": "400",
+            "text": "",
+            "text-v": "",
+            "button-text": "",
+            "button-url": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_Pc4rbH",
+        "column_DDicwj",
+        "column_4b7bJD",
+        "column_ExmfNK",
+        "column_Aj7wtm",
+        "column_AFpdmL",
+        "column_NfKygM",
+        "column_VqhRMB"
+      ],
+      "disabled": true,
+      "name": "Custom multicolumn text",
+      "settings": {
+        "title": "<h2>Photo gallery</h2>",
+        "descr": "",
+        "custom_heading_size": 45,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
+        "description_custom_font_weight": "400",
+        "title_alignment": "center",
+        "title_color": "#ffffff",
+        "subheading_color": "#ffffff",
+        "color_scheme": "",
+        "heading_color_scheme": "",
+        "columns_desktop": "4",
+        "box_shadow": true,
+        "Images_same_height": true,
+        "box_color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "benefits_AtVcr6": {
+      "type": "benefits",
+      "blocks": {
+        "benefit_bqwDGV": {
+          "type": "benefit",
+          "settings": {
+            "heading": "<p>We consult</p>",
+            "text": "<p>How we consult blurb to go here</p>"
+          }
+        },
+        "benefit_EmtVix": {
+          "type": "benefit",
+          "settings": {
+            "heading": "<p>We design</p>",
+            "text": "<p>How we design blurb to go here</p>"
+          }
+        },
+        "benefit_LtVPKz": {
+          "type": "benefit",
+          "settings": {
+            "heading": "<p>We deliver</p>",
+            "text": "<p>We deliver blurb to go here</p>"
+          }
+        }
+      },
+      "block_order": [
+        "benefit_bqwDGV",
+        "benefit_EmtVix",
+        "benefit_LtVPKz"
+      ],
+      "name": "Benefits",
+      "settings": {
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "container_color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
+        "icon_bg_color": "#424242",
+        "container_padding_top": 24,
+        "container_padding_bottom": 24,
+        "padding_top": 60,
+        "padding_bottom": 80
+      }
+    },
+    "multicolumn_video_RR9UW7": {
+      "type": "multicolumn-video",
+      "blocks": {
+        "column_yCekeN": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "video_url": "https://youtu.be/UAUVJd0oq3o?si=ODTwZynbTdtklZrH",
+            "enable_video_looping": false,
+            "title": "Video name",
+            "text": "<p>Text to go here</p>"
+          }
+        },
+        "column_fpbbLM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "video_url": "https://youtu.be/f-xzYD_27AI?si=qdsbT6tI4SepS2ap",
+            "enable_video_looping": false,
+            "title": "Video title",
+            "text": "<p>Text to go here</p>"
+          }
+        }
+      },
+      "block_order": [
+        "column_yCekeN",
+        "column_fpbbLM"
+      ],
+      "name": "Multicolumn video",
+      "settings": {
+        "page_container": "page-width",
+        "title": "<h2>Video gallery</h2>",
+        "custom_heading_size": 45,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "300",
+        "title_alignment": "center",
+        "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
+        "columns_desktop": "2",
+        "box_shadow": true,
+        "box_auto_height1": true,
+        "box_color_scheme": "",
+        "padding_top": 60,
+        "padding_bottom": 80,
+        "margin_bottom": 0,
+        "mobile_margin_bottom": 0
+      }
+    },
+    "rich_text_yeDbtX": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_bbg4WV": {
+          "type": "heading",
+          "settings": {
+            "heading": "STERIRACK® Workstations – Concept 1",
+            "custom_heading_size": 45,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
+          }
+        },
+        "text_MfFXrQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information abA compact workstation with adequate storage and work area. Ideally suited to a deboxing room or a small storeroom to maximize the storage space and incorporate a multipurpose work top. Turn a blank wall space or an underutilized area into a well-organised center for any facility. Get rid of old, worn out joinery units, where stock is hidden away in a disorganised fashion behind closed doors and unaccounted for and out of date. Replace these old units with a best practice, superior alternative.</p>",
+            "text_content_alignment": "left"
+          }
+        }
+      },
+      "block_order": [
+        "heading_bbg4WV",
+        "text_MfFXrQ"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "content_alignment": "center",
+        "content_width": "full_width",
+        "color_scheme": "",
+        "full_width": true,
+        "no_margin": false,
+        "section_border": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "collage_J6UFCH": {
+      "type": "collage",
+      "blocks": {
+        "image_fEDMVb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/sterirack_workstations_concept-1_1100px.jpg"
+          }
+        },
+        "image_iyk44F": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/sterirack_workstations_concept-1_dimensions_1100px-819x1024.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_fEDMVb",
+        "image_iyk44F"
+      ],
+      "disabled": true,
+      "name": "t:sections.collage.presets.name",
+      "settings": {
+        "container_size": "page-width--narrow",
+        "heading": "",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "images_auto": true,
+        "card_styles": "none",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_ReT4C9": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_w3rHBC": {
+          "type": "heading",
+          "settings": {
+            "heading": "STERIRACK® Workstations – Concept 2",
+            "custom_heading_size": 45,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
+          }
+        },
+        "text_V4jP4r": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A multipurpose workstation that will create the heartbeat for any facility whether it be in a clean utility in a large hospital or a smaller veterinary hospital or private medical center. This multifaceted concept takes all aspects into consideration. Decanted smaller items for quick access stored on the wall, large clear clean work area, plenty of baskets for consumables storage, a trolley for restocking and distribution, also incorporating medication storage on sloping pharmacy shelving, ideal for a one stop set up and storage work area.<br/><br/></p>",
+            "text_content_alignment": "left"
+          }
+        }
+      },
+      "block_order": [
+        "heading_w3rHBC",
+        "text_V4jP4r"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "content_alignment": "center",
+        "content_width": "full_width",
+        "color_scheme": "",
+        "full_width": true,
+        "no_margin": false,
+        "section_border": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "collage_rdnLMi": {
+      "type": "collage",
+      "blocks": {
+        "image_4tVXdA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/sterirack_workstations_concept-2_1100px.jpg"
+          }
+        },
+        "image_YqPPqy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/sterirack_workstations_concept-2_dimensions_1100px-987x1024.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_4tVXdA",
+        "image_YqPPqy"
+      ],
+      "disabled": true,
+      "name": "t:sections.collage.presets.name",
+      "settings": {
+        "container_size": "page-width--narrow",
+        "heading": "",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "images_auto": true,
+        "card_styles": "none",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_yN37eR": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_wa9GjH": {
+          "type": "heading",
+          "settings": {
+            "heading": "STERIRACK® Workstations – Concept 3",
+            "custom_heading_size": 45,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
+          }
+        },
+        "text_8iqnW7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A medication clean utility dream, medication stored and labeled in its each individual lane for the ease of picking, packing and stock rotation on purpose built sloping pharmacy slide-out drawer units. Also with Medibin wall storage for syringes and smaller decanted items, an area for a wall mounted S8 drug safe, under bench baskets for bulk storage and consumables, and provision for a drug fridge. Turning the area into a vibrant, efficient hassle free medication hub.</p>",
+            "text_content_alignment": "left"
+          }
+        }
+      },
+      "block_order": [
+        "heading_wa9GjH",
+        "text_8iqnW7"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "content_alignment": "center",
+        "content_width": "full_width",
+        "color_scheme": "",
+        "full_width": true,
+        "no_margin": false,
+        "section_border": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "collage_7bxh7N": {
+      "type": "collage",
+      "blocks": {
+        "image_wfxqeY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/sterirack_workstations_concept-3_1100px-1024x662.jpg"
+          }
+        },
+        "image_tzWywi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/sterirack_workstations_concept-3_dimensions_1100px-1024x950.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_wfxqeY",
+        "image_tzWywi"
+      ],
+      "disabled": true,
+      "name": "t:sections.collage.presets.name",
+      "settings": {
+        "container_size": "page-width--narrow",
+        "heading": "",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "images_auto": true,
+        "card_styles": "none",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_99JGzB": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_yDYKnL": {
+          "type": "heading",
+          "settings": {
+            "heading": "STERIRACK® Workstations – Concept 4",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
+          }
+        },
+        "text_a7RWdK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A large storage and work area, providing seamless flow for multiple users simultaneously. Comprising 60 baskets of varied sizes, these can be further customized with dividers and drop-in bins to create a regimented, well-ordered storage center, where stock accounted for, visible and 100% accessible.<br/>Pick and pack with ease and reduce WHS risk with a large work area where items can be laid out and attended to.</p>",
+            "text_content_alignment": "left"
+          }
+        }
+      },
+      "block_order": [
+        "heading_yDYKnL",
+        "text_a7RWdK"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "content_alignment": "center",
+        "content_width": "full_width",
+        "color_scheme": "",
+        "full_width": true,
+        "no_margin": false,
+        "section_border": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "collage_4iPJDq": {
+      "type": "collage",
+      "blocks": {
+        "image_ze8HaR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/sterirack_workstations_concept-4_1100px-1024x655_1.jpg"
+          }
+        },
+        "image_Hpp4th": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/sterirack_workstations_concept-4_dimensions_1100px-1024x1012.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_ze8HaR",
+        "image_Hpp4th"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "name": "t:sections.collage.presets.name",
+      "settings": {
+        "container_size": "page-width--narrow",
+        "heading": "",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "images_auto": true,
+        "card_styles": "none",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_qYcmbP": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_pmD7dw": {
+          "type": "heading",
+          "settings": {
+            "heading": "STERIRACK® Workstations - Build your own",
+            "custom_heading_size": 45,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
+          }
+        }
+      },
+      "block_order": [
+        "heading_pmD7dw"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "content_alignment": "center",
+        "content_width": "full_width",
+        "color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
+        "full_width": true,
+        "no_margin": false,
+        "section_border": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "image_banner_JiDctU": {
+      "type": "image-banner",
+      "disabled": true,
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "page_container": "page-width--narrow",
+        "image": "shopify://shop_images/sterirack_workstation_build-your-own_c_2200px.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "auto_height": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "margin_top": 36,
+        "margin_bottom": 36,
+        "mobile_padding_top": 36,
+        "mobile_padding_bottom": 36,
+        "mobile_margin_top": 36,
+        "mobile_margin_bottom": 36
+      }
+    },
+    "image_with_no_text_QaLbHC": {
+      "type": "image-with-no-text",
+      "blocks": {
+        "image_Qen6WQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/sterirack_workstations_choose-your-configuration_2200px.webp",
+            "image_page_container": "page-width"
+          }
+        }
+      },
+      "block_order": [
+        "image_Qen6WQ"
+      ],
+      "disabled": true,
+      "name": "Image with no text",
+      "settings": {
+        "page_container": "page-width--narrow",
+        "title": "Step 1. Select your bench configuration",
+        "custom_heading_size": 45,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
+        "heading_alignment": "center",
+        "text": "",
+        "text_content_alignment": "left",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_63yYaU": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_zQPyDF": {
+          "type": "heading",
+          "settings": {
+            "heading": "Step 2. Select your bench surface and coving options",
+            "custom_heading_size": 45,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
+          }
+        }
+      },
+      "block_order": [
+        "heading_zQPyDF"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "content_alignment": "center",
+        "content_width": "medium",
+        "color_scheme": "",
+        "full_width": true,
+        "no_margin": false,
+        "section_border": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_v1_QTULRL": {
+      "type": "image-with-text-v1",
+      "blocks": {
+        "text_YUFDYq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Select your bench surface to suit your application. Utilize standard laminate in dry work and storage areas, or premium solid surface surface with antimicrobial properties (highly recommended in most healthcare situations), or select an advanced option with a purpose-built stainless steel work area.</p><p>Then, choose a straight or coved edge for your benchtop. Discuss coving options with our Spacelogic consultants to ensure you make the correct choice to suit your workstation design.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_YUFDYq"
+      ],
+      "disabled": true,
+      "name": "Image with text v1",
+      "settings": {
+        "image": "shopify://shop_images/sterirack_workstation_choose-your-material_1100px-1024x509.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "container_size": "page-width",
+        "both_image_content_size": false,
+        "video_url": "",
+        "enable_video_looping": false,
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_Nhme6V": {
+      "type": "image-banner",
+      "disabled": true,
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "page_container": "page-width",
+        "image": "shopify://shop_images/sterirack_workstation_choose-your-edge_2200px.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "auto_height": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "padding_top": 36,
+        "padding_bottom": 0,
+        "margin_top": 36,
+        "margin_bottom": 32,
+        "mobile_padding_top": 36,
+        "mobile_padding_bottom": 36,
+        "mobile_margin_top": 36,
+        "mobile_margin_bottom": 36
+      }
+    },
+    "image_with_no_text_VYdwDB": {
+      "type": "image-with-no-text",
+      "blocks": {
+        "image_DgP3A7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/sterirack_workstation_choose-your-full-height-configuration_2200px.jpg",
+            "image_page_container": "page-width--narrow"
+          }
+        }
+      },
+      "block_order": [
+        "image_DgP3A7"
+      ],
+      "disabled": true,
+      "name": "Image with no text",
+      "settings": {
+        "page_container": "page-width",
+        "title": "Step 3. Select your full height bay configuration",
+        "custom_heading_size": 45,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
+        "heading_alignment": "center",
+        "text": "<p>From a blend of user input and years of experience in the field, the following is 6 full height configurations that are also flexible and adjustable within themselves once installed. Think about the product stored and the flow of your new work area and make your choice accordingly, or come up with your own configuration.</p>",
+        "text_content_alignment": "left",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_no_text_cK7mdR": {
+      "type": "image-with-no-text",
+      "blocks": {
+        "image_W4epaR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/sterirack_workstations_choose-your-overhead-configuration_2200px.jpg",
+            "image_page_container": "page-width--narrow"
+          }
+        }
+      },
+      "block_order": [
+        "image_W4epaR"
+      ],
+      "disabled": true,
+      "name": "Image with no text",
+      "settings": {
+        "page_container": "page-width",
+        "title": "Step 4. Select your overhead configuration",
+        "custom_heading_size": 45,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
+        "heading_alignment": "center",
+        "text": "<p>For ease of access overhead configurations are installed on sloping runners. Again make your selection based on your requirements in either standard and fine mesh, bearing in mind whatever footprint you chose for your under bench selection you will need to choose the same width for you overhead module – eg. if you choose a 600mmW x 600mmD bench module you will need to choose a 600mmW overhead module. Likewise, if you choose a 400mmW x 600mmD module for your bench option, you will need to select a 400mmW option for your overhead module. Feel free to discuss these options with our consultants.<br/><br/></p>",
+        "text_content_alignment": "left",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_no_text_3tfL7U": {
+      "type": "image-with-no-text",
+      "blocks": {
+        "image_xR7rhk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/sterirack_workstations_choose-your-colour_2200px.jpg",
+            "image_page_container": "page-width--narrow"
+          }
+        }
+      },
+      "block_order": [
+        "image_xR7rhk"
+      ],
+      "disabled": true,
+      "name": "Image with no text",
+      "settings": {
+        "page_container": "page-width",
+        "title": "Step 5. Select your colors",
+        "custom_heading_size": 45,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
+        "heading_alignment": "center",
+        "text": "",
+        "text_content_alignment": "left",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "question_ans_dF9xTW": {
+      "type": "question-ans",
+      "blocks": {
+        "column_TNPeWR": {
+          "type": "column",
+          "settings": {
+            "heading": "Does your current storage:",
+            "item_1_text": "Meet infection control standards?",
+            "item_1_icon": "shopify://shop_images/New_Project.png",
+            "item_2_text": "Meet clinical standards of best practice?",
+            "item_2_icon": "shopify://shop_images/New_Project.png",
+            "item_3_text": "Comply with WHS regulations?",
+            "item_3_icon": "shopify://shop_images/New_Project.png",
+            "item_4_text": ""
+          }
+        },
+        "column_V6ikKF": {
+          "type": "column",
+          "settings": {
+            "heading": "Does your current system:",
+            "item_1_text": "Have no sharp or rough edges?",
+            "item_1_icon": "shopify://shop_images/New_Project.png",
+            "item_2_text": "Stay dust free for infection control?",
+            "item_2_icon": "shopify://shop_images/New_Project.png",
+            "item_3_text": "Provide adequate ventilation?",
+            "item_3_icon": "shopify://shop_images/New_Project.png",
+            "item_4_text": "Allow consumables to be accessed, located and identified quickly?",
+            "item_4_icon": "shopify://shop_images/New_Project.png"
+          }
+        },
+        "column_xgxmRW": {
+          "type": "column",
+          "settings": {
+            "heading": "And does your current system:",
+            "item_1_text": "Meet your specific needs?",
+            "item_1_icon": "shopify://shop_images/New_Project.png",
+            "item_2_text": "Increase administrative efficiencies?",
+            "item_2_icon": "shopify://shop_images/New_Project.png",
+            "item_3_text": "Maximize the use of available space?",
+            "item_3_icon": "shopify://shop_images/New_Project.png",
+            "item_4_text": "Reconfigure to meet your changing needs over time?",
+            "item_4_icon": "shopify://shop_images/New_Project.png"
+          }
+        }
+      },
+      "block_order": [
+        "column_TNPeWR",
+        "column_V6ikKF",
+        "column_xgxmRW"
+      ],
+      "name": "Questions To Ask",
+      "settings": {
+        "title": "Questions to ask yourself",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
+        "heading_alignment": "center",
+        "bottom_description": "If you said ‘No’ to any of these questions your current storage system may be out-of-date or non-compliant, and STERIRACK® System is likely the perfect solution for you",
+        "color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
+        "margin_bottom": 100,
+        "mobile_margin_bottom": 40
+      }
+    }
+  },
+  "order": [
+    "custom_page_banner_r9QaiB",
+    "banner",
+    "page_banner_ntmMYU",
+    "product-grid",
+    "custom_multicolumn_text_QKXKe6",
+    "benefits_AtVcr6",
+    "multicolumn_video_RR9UW7",
+    "rich_text_yeDbtX",
+    "collage_J6UFCH",
+    "rich_text_ReT4C9",
+    "collage_rdnLMi",
+    "rich_text_yN37eR",
+    "collage_7bxh7N",
+    "rich_text_99JGzB",
+    "collage_4iPJDq",
+    "rich_text_qYcmbP",
+    "image_banner_JiDctU",
+    "image_with_no_text_QaLbHC",
+    "rich_text_63yYaU",
+    "image_with_text_v1_QTULRL",
+    "image_banner_Nhme6V",
+    "image_with_no_text_VYdwDB",
+    "image_with_no_text_cK7mdR",
+    "image_with_no_text_3tfL7U",
+    "question_ans_dF9xTW"
+  ]
+}

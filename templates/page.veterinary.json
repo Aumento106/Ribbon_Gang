@@ -9,9 +9,20 @@
  */
 {
   "sections": {
+    "section_breadcrumb_TwJPMV": {
+      "type": "section-breadcrumb",
+      "settings": {
+        "color_scheme": "",
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "mobile_padding_top": 30,
+        "mobile_padding_bottom": 30
+      }
+    },
     "main": {
       "type": "main-page",
       "settings": {
+        "color_scheme": "",
         "padding_top": 28,
         "padding_bottom": 28
       }
@@ -30,7 +41,6 @@
           "type": "heading",
           "settings": {
             "heading": "<strong>Veterinary</strong>",
-            "heading_size": "h0",
             "heading_alignment": "center"
           }
         },
@@ -85,11 +95,21 @@
         "padding_top": 36,
         "padding_bottom": 72
       }
+    },
+    "product_catalog_TNaDzg": {
+      "type": "product-catalog",
+      "disabled": true,
+      "settings": {
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
     }
   },
   "order": [
+    "section_breadcrumb_TwJPMV",
     "main",
     "page_banner_j4tgqW",
-    "application_list_z4zWVB"
+    "application_list_z4zWVB",
+    "product_catalog_TNaDzg"
   ]
 }

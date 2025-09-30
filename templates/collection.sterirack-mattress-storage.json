@@ -1,0 +1,692 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "custom_page_banner_aLHnLR": {
+      "type": "custom-page-banner",
+      "blocks": {
+        "slide_Nhaabm": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image_overlay_opacity": 0
+          }
+        },
+        "slide_VwQNAN": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/winding-road-covered-in-autumn-trees.jpg",
+            "image_overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "slide_Nhaabm",
+        "slide_VwQNAN"
+      ],
+      "name": "Custom Page Banner",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "large",
+        "image_behavior": "none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "page_banner_riwfWx": {
+      "type": "page-banner",
+      "blocks": {
+        "heading_TLgE7J": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ collection.title }}",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "600",
+            "heading_alignment": "center"
+          }
+        },
+        "caption_w7hCaM": {
+          "type": "caption",
+          "settings": {
+            "caption": "<p>Add caption here</p>",
+            "caption_alignment": "center"
+          }
+        },
+        "text_W6H7c6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your page information.</p>",
+            "text_alignment": "left"
+          }
+        },
+        "button_KxfCE7": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "button_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "heading_TLgE7J",
+        "caption_w7hCaM",
+        "text_W6H7c6",
+        "button_KxfCE7"
+      ],
+      "name": "Page Banner",
+      "settings": {
+        "title_alignment": "center",
+        "full_width": true,
+        "content_width": "full_width",
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "padding_top": 80,
+        "padding_bottom": 40
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "scheme-1"
+      }
+    },
+    "page_banner_BXQVUB": {
+      "type": "page-banner",
+      "blocks": {
+        "heading_nhBt8y": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<strong>STERIRACK® Mattress Storage</strong>",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400",
+            "heading_alignment": "center"
+          }
+        },
+        "text_G6e3Nj": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Across hospitals, day surgeries, and healthcare facilities in Australia, the U.S, and beyond, SpaceLogic partners with clients to deliver tailored, high-performance storage systems. Every project is a collaboration — from planning and prototyping to seamless installation — ensuring STERIRACK® integrates perfectly into clinical environments with minimal disruption.</p><p>Explore a selection of recent installations below, each one reflecting our commitment to better care through smarter storage.</p>",
+            "text_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nhBt8y",
+        "text_G6e3Nj"
+      ],
+      "settings": {
+        "title_alignment": "center",
+        "full_width": true,
+        "content_width": "full_width",
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "disabled": true,
+      "settings": {
+        "hide_price": true,
+        "hide_sold_out": true,
+        "hide_save": false,
+        "products_per_page": 20,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "remove_product_link": true,
+        "enquire_now": "Enquire now",
+        "enquire_now_url": "shopify://pages/contact",
+        "shop_now": "Shop now",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "learnmore",
+        "learn_more_button_text": "Learn More",
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 72,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_v1_BFJ64b": {
+      "type": "image-with-text-v1",
+      "blocks": {
+        "text_kyqyjH": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Efficiency and infection control</strong></p><p>Typically in hospitals, mattresses are stored horizontally, flat on the floor, and stacked up in a pile in the storeroom. This creates mattress compression and difficulties for staff when moving and lifting these cumbersome items. Also, dust and contaminants must be routinely removed from the large flat surface on the mattress at the top of the stack each time a mattress is accessed. Hardly ideal for infection control measures.</p><p><strong>Vertical storage redefined</strong></p><p>STERIRACK® Mattress Storage Modules are a game changer. These convenient modules store mattresses vertically – providing easy, comfortable access to every mattress at any time, and preventing mattress compression completely. Space is maximized and dust collection is minimised.</p><p><strong>Antimicrobial coating for peace of mind</strong></p><p>These Mattress Storage Modules feature an antimicrobial powder coated base which is easy to clean, adding additional infection control. Say goodbye to worries about contaminants and focus on maintaining a hygienic environment effortlessly</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_kyqyjH"
+      ],
+      "disabled": true,
+      "name": "Image with text v1",
+      "settings": {
+        "image": "shopify://shop_images/Matress-storage-post-strip-colours.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "container_size": "page-width",
+        "both_image_content_size": true,
+        "video_url": "",
+        "enable_video_looping": false,
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_v1_aAtGXD": {
+      "type": "image-with-text-v1",
+      "blocks": {
+        "text_Nmimkb": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Efficient storage with color-coded identification</strong></p><p>Color-coded post strips are available in your choice of 15 colors. Create a color coding system to identify the different grades of mattresses available, making it super easy for staff to get in and out of the storeroom efficiently. No more wasted time searching for the right mattress.</p><p><strong>Smooth castors for easy mobility</strong></p><p>Additionally, these STERIRACK® Mattress Storage Modules can be fitted with smooth, quiet, lockable castors, making the units wonderfully versatile and maneuverable. Adapt to changing storage needs or rearrange your facility effortlessly, without compromising on convenience.</p><p><strong>Contact us today for more information</strong></p><p>If you’re interested in more information about this new and innovative addition to STERIRACK® System, please contact one of our consultants today using the form below. Upgrade your mattress storage with STERIRACK® and experience a new level of convenience, efficiency, and infection control.</p><p>See below for information on Mattress Trolleys.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_Nmimkb"
+      ],
+      "disabled": true,
+      "name": "Image with text v1",
+      "settings": {
+        "image": "shopify://shop_images/Mattress-Storage-Starters-and-add-ons.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "container_size": "page-width",
+        "both_image_content_size": true,
+        "video_url": "",
+        "enable_video_looping": false,
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "product_catalog_xdFqLr": {
+      "type": "product-catalog",
+      "disabled": true,
+      "settings": {
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "product_list_aMiAGg": {
+      "type": "product-list",
+      "blocks": {
+        "featured_collection_6k4pWc": {
+          "type": "featured_collection",
+          "settings": {
+            "categories_image": "shopify://shop_images/Blacktown_square.png",
+            "product_name": "Extra Small MEDIBIN™",
+            "collection": "medibin-system",
+            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "button_card_text": "Button",
+            "redirection_link": ""
+          }
+        },
+        "featured_collection_8McjeJ": {
+          "type": "featured_collection",
+          "settings": {
+            "categories_image": "shopify://shop_images/Home_20.png",
+            "product_name": "Small MEDIBIN™",
+            "collection": "medibin-system",
+            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "button_card_text": "Button",
+            "redirection_link": ""
+          }
+        },
+        "featured_collection_feVR7w": {
+          "type": "featured_collection",
+          "settings": {
+            "categories_image": "shopify://shop_images/Blacktown_Hospital_19.png",
+            "product_name": "Medium MEDIBIN™",
+            "collection": "medibin-system",
+            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "button_card_text": "Button",
+            "redirection_link": "shopify://collections/all"
+          }
+        },
+        "featured_collection_FzUGtP": {
+          "type": "featured_collection",
+          "settings": {
+            "categories_image": "shopify://shop_images/Group_1171277822.jpg",
+            "product_name": "Large MEDIBIN™",
+            "collection": "medibin-system",
+            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "button_card_text": "Button",
+            "redirection_link": ""
+          }
+        },
+        "featured_collection_F6ttDE": {
+          "type": "featured_collection",
+          "settings": {
+            "categories_image": "shopify://shop_images/Group_1171277824.jpg",
+            "product_name": "Extra Large MEDIBIN™",
+            "collection": "medibin-system",
+            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "button_card_text": "Button",
+            "redirection_link": ""
+          }
+        },
+        "featured_collection_pnAkTJ": {
+          "type": "featured_collection",
+          "settings": {
+            "categories_image": "shopify://shop_images/Group_1171277831.jpg",
+            "product_name": "Extra Extra Large MEDIBIN™",
+            "collection": "medibin-system",
+            "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "button_card_text": "Button",
+            "redirection_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_6k4pWc",
+        "featured_collection_8McjeJ",
+        "featured_collection_feVR7w",
+        "featured_collection_FzUGtP",
+        "featured_collection_F6ttDE",
+        "featured_collection_pnAkTJ"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "dimension_table_cR8mFy": {
+      "type": "dimension_table",
+      "blocks": {
+        "row_kpAHbi": {
+          "type": "row",
+          "settings": {
+            "description": "Extra Small MEDIBIN™",
+            "code": "10000XS",
+            "dimensions": "100W × 120H × 215D",
+            "dimensions_inch": "",
+            "configurations_data": ""
+          }
+        },
+        "row_gk3xxN": {
+          "type": "row",
+          "settings": {
+            "description": "Small MEDIBIN™",
+            "code": "10001S",
+            "dimensions": "135W x 120H x 215D",
+            "dimensions_inch": "",
+            "configurations_data": ""
+          }
+        },
+        "row_ePetGA": {
+          "type": "row",
+          "settings": {
+            "description": "Medium MEDIBIN™",
+            "code": "10002M",
+            "dimensions": "200W x 160H x 273D",
+            "dimensions_inch": "",
+            "configurations_data": ""
+          }
+        },
+        "row_z4tfHJ": {
+          "type": "row",
+          "settings": {
+            "description": "Large MEDIBIN™",
+            "code": "10003L",
+            "dimensions": "400W x 160H x 284D",
+            "dimensions_inch": "",
+            "configurations_data": ""
+          }
+        },
+        "row_P4xVTA": {
+          "type": "row",
+          "settings": {
+            "description": "Extra Large MEDIBIN™",
+            "code": "10004XL",
+            "dimensions": "400W x 160H x 440D",
+            "dimensions_inch": "",
+            "configurations_data": ""
+          }
+        },
+        "row_U3gGd9": {
+          "type": "row",
+          "settings": {
+            "description": "Extra Extra Large MEDIBIN™ – (does not hang – shelf bin only)",
+            "code": "10040XXL",
+            "dimensions": "440W x 350H x 600D",
+            "dimensions_inch": "",
+            "configurations_data": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_kpAHbi",
+        "row_gk3xxN",
+        "row_ePetGA",
+        "row_z4tfHJ",
+        "row_P4xVTA",
+        "row_U3gGd9"
+      ],
+      "disabled": true,
+      "settings": {
+        "description": "Description",
+        "code": "Code",
+        "dimensions": "Dimensions",
+        "dimensions_inch": "Dimensions (inches)",
+        "configurations": "Configurations (inches)",
+        "margin_bottom": 0,
+        "mobile_margin_bottom": 0
+      }
+    },
+    "rich_text_CqT3jr": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_dQJMjW": {
+          "type": "heading",
+          "settings": {
+            "heading": "MEDIBIN™ Colored Label HoldersAvailable in a range of 13 vibrant colors",
+            "custom_heading_size": 39,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
+          }
+        }
+      },
+      "block_order": [
+        "heading_dQJMjW"
+      ],
+      "disabled": true,
+      "settings": {
+        "content_alignment": "center",
+        "content_width": "medium",
+        "color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
+        "full_width": true,
+        "no_margin": false,
+        "section_border": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "image_with_no_text_UUP4dk": {
+      "type": "image-with-no-text",
+      "blocks": {
+        "image_Qpy3NK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MEDIBIN-standard-label-holders-2048x369.jpg",
+            "image_page_container": "page-width"
+          }
+        }
+      },
+      "block_order": [
+        "image_Qpy3NK"
+      ],
+      "disabled": true,
+      "settings": {
+        "page_container": "full-width",
+        "title": "",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
+        "heading_alignment": "center",
+        "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
+        "text_content_alignment": "center",
+        "color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "video_E7wm9f": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
+        "enable_video_looping": false,
+        "video_url": "https://youtu.be/4epjvsmhI-k?si=z2OSqyiFPMZsb4UZ",
+        "cover_image": "shopify://shop_images/maxresdefault_e72b4216-5dde-40ad-ab68-731685d0c282.webp",
+        "description": "",
+        "video_btm_desc": "Observe a demonstration of STERIRACK® Mattress Storage Modules, showcasing its remarkable functionality.",
+        "page_container": "full-width",
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_ghwckk": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_XPhLgg": {
+          "type": "heading",
+          "settings": {
+            "heading": "STERIRACK® Mattress Trolleys",
+            "custom_heading_size": 45,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
+          }
+        },
+        "text_kzeQkw": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Effortless mattress transport for healthcare facilities</h3>",
+            "text_content_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "heading_XPhLgg",
+        "text_kzeQkw"
+      ],
+      "disabled": true,
+      "settings": {
+        "content_alignment": "center",
+        "content_width": "medium",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "full_width": true,
+        "no_margin": false,
+        "section_border": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "image_with_text_v1_crc8ei": {
+      "type": "image-with-text-v1",
+      "blocks": {
+        "text_ApiFmt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>STERIRACK® Mattress Trolleys, the latest innovation from SpaceLogic. Designed specifically for healthcare facilities, our mattress trolleys are a game-changer for streamlining the transportation of mattresses from storage areas to wards. With advanced features and customisable options, STERIRACK® Mattress Trolleys offer unmatched convenience and efficiency</p><p><strong>Effortless transport, made to order</strong></p><p>Moving mattresses within a hospital or healthcare facility can be a daunting task. STERIRACK® Mattress Trolleys are here to change that. Our trolleys are built to make mattress transport a breeze. Whether you need to negotiate non-standard doorways or transport a specific quantity of mattresses at once, STERIRACK® Mattress Trolleys can be fully customized to meet your specific requirements.</p><p><strong>Quality materials for maximum protection</strong></p><p>At SpaceLogic, we understand the importance of protecting valuable assets like mattresses. That’s why our STERIRACK® Mattress Trolleys are constructed using top-grade materials with rounded corners and no sharp edges. This ensures that mattresses remain undamaged during transportation and handling. Crafted from quality anodised aluminum, the trolleys are perfectly suited for clinical environments. It resists chipping, rusting, and moulding, and is easy to clean, maintaining a high level of hygiene.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_ApiFmt"
+      ],
+      "disabled": true,
+      "name": "Image with text v1",
+      "settings": {
+        "image": "shopify://shop_images/18-Mattress-storage-and-trolley-fixed.5-1024x576_4ed57347-9652-48c9-9c19-1b9bb73a3be3.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "container_size": "page-width",
+        "both_image_content_size": false,
+        "video_url": "",
+        "enable_video_looping": false,
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_v1_3rkiR7": {
+      "type": "image-with-text-v1",
+      "blocks": {
+        "text_iGxMa3": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Effortless maneuvering for efficient workflow</strong></p><p>Our STERIRACK® Mattress Trolleys are designed for ultimate maneuverability. Equipped with six noise-free, non-marking castors, including two heavy-duty central castors, the trolley provides exceptional stability and control. With its 200kg capacity and the ability to tip and turn on a dime, the trolley allows for smooth navigation through tight spaces and corners. Move mattresses with ease, saving time and effort in your daily operations.</p><p><strong>The perfect companion for STERIRACK® Mattress Storage Modules</strong></p><p>Enhance the efficiency of your storage and transportation system by combining STERIRACK® Mattress Trolleys with our STERIRACK® Mattress Storage Modules. Seamlessly slide mattresses straight out of the storage modules and into a trolley, eliminating most of the manual lifting and reducing the risk of damage or injury. Achieve a streamlined workflow from storage to transportation with SpaceLogic’s integrated solution.</p><p>Experience the difference that STERIRACK® Mattress Trolleys can make in your healthcare facility. Contact us today to learn more about our customisable options and how our trolleys can revolutionise your mattress logistics. Upgrade to effortless mattress transport with SpaceLogic.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_iGxMa3"
+      ],
+      "disabled": true,
+      "name": "Image with text v1",
+      "settings": {
+        "image": "shopify://shop_images/18-Mattress-storage-and-trolley-fixed.4-1024x576_4a4c3259-7d19-4604-a660-28362a13efdd.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "container_size": "page-width",
+        "both_image_content_size": false,
+        "video_url": "",
+        "enable_video_looping": false,
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_video_wACdyA": {
+      "type": "multicolumn-video",
+      "blocks": {
+        "column_gxwgeQ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "video_url": "",
+            "enable_video_looping": false,
+            "title": "Video title",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>"
+          }
+        },
+        "column_9zKH89": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "video_url": "",
+            "enable_video_looping": false,
+            "title": "Video title",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>"
+          }
+        },
+        "column_TreUXb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "video_url": "",
+            "enable_video_looping": false,
+            "title": "Video title",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "column_gxwgeQ",
+        "column_9zKH89",
+        "column_TreUXb"
+      ],
+      "name": "Multicolumn video",
+      "settings": {
+        "page_container": "page-width",
+        "title": "<p>Video gallery</p>",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "300",
+        "title_alignment": "center",
+        "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
+        "columns_desktop": "3",
+        "box_shadow": true,
+        "box_auto_height1": true,
+        "box_color_scheme": "",
+        "padding_top": 60,
+        "padding_bottom": 80,
+        "margin_bottom": 100,
+        "mobile_margin_bottom": 40
+      }
+    }
+  },
+  "order": [
+    "custom_page_banner_aLHnLR",
+    "page_banner_riwfWx",
+    "banner",
+    "page_banner_BXQVUB",
+    "product-grid",
+    "image_with_text_v1_BFJ64b",
+    "image_with_text_v1_aAtGXD",
+    "product_catalog_xdFqLr",
+    "product_list_aMiAGg",
+    "dimension_table_cR8mFy",
+    "rich_text_CqT3jr",
+    "image_with_no_text_UUP4dk",
+    "video_E7wm9f",
+    "rich_text_ghwckk",
+    "image_with_text_v1_crc8ei",
+    "image_with_text_v1_3rkiR7",
+    "multicolumn_video_wACdyA"
+  ]
+}

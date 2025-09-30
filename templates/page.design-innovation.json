@@ -9,35 +9,120 @@
  */
 {
   "sections": {
-    "page_banner_iVH9eY": {
+    "custom_page_banner_iB78NH": {
+      "type": "custom-page-banner",
+      "blocks": {
+        "slide_QGAwjG": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Banner_image18.jpg",
+            "image_overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "slide_QGAwjG"
+      ],
+      "name": "TF Custom Page Slideshow",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "image_behavior": "none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "page_banner_4PWrqh": {
       "type": "page-banner",
       "blocks": {
-        "image_W4zerL": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/5.jpg",
-            "border_radius": true
-          }
-        },
-        "heading_pVBz9T": {
+        "heading_FcHPDy": {
           "type": "heading",
           "settings": {
-            "heading": "Product <strong>Design and Innovation</strong>",
-            "heading_size": "h0",
+            "heading": "{{ page.title }}",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "600",
             "heading_alignment": "center"
           }
         },
-        "text_KdCiWp": {
-          "type": "text",
+        "caption_RjJGP6": {
+          "type": "caption",
           "settings": {
-            "text": "<p>STERIRACK® System is a healthcare consumables management innovation that is designed and manufactured by, and available only through SpaceLogic. STERIRACK® System is a fully integrated, modular system of shelving, baskets, pharmacy drawers, benches, trolleys, accessories and components that all seamlessly combine to create a complete consumables storage solution for any application in hospitals and healthcare. See the Applications Menu for more information. Product innovation is driven by the requirements of healthcare personnel who share their needs with us. From these needs, we create products and continue to expand our STERIRACK® System range. One of our most recent innovations (June 2021) are STERIRACK® Transport Carts and Glass Door Carts which are now available for order. These carts can be configured in a broad range of sizes and configurations, further adding to our stable of tailored solutions. New innovations are in the pipeline all the time. STERIRACK® System is design by SpaceLogic product designers located in Orange NSW, at the SpaceLogic head office and manufacturing facility.</p>",
-            "text_alignment": "center"
+            "caption": "<p>Custom-manufactured modular solutions for clinical performance</p>",
+            "caption_alignment": "center"
           }
         },
-        "button_fn8KLw": {
+        "text_7ba97c": {
+          "type": "text",
+          "settings": {
+            "text": "<p>SpaceLogic’s in-house team of designers and engineers develop fully customisable STERIRACK® storage systems that align with your facility’s compliance, safety, and workflow needs. From pharmacy drawer units and theatre trolleys to thermoplastic benches and wire-looped baskets, every product is designed for cleanability, durability, and modular expansion.</p><p>Our innovation-led process ensures that your solution isn’t off-the-shelf—it’s purpose-built. We prototype, test, and manufacture products that integrate seamlessly into high-pressure clinical environments, supporting AS5369 and hospital storage standards.</p>",
+            "text_alignment": "left"
+          }
+        },
+        "button_hUdb8w": {
           "type": "button",
           "settings": {
-            "button_label": "Next: Project consultation, planning and room design",
+            "button_label": "Project management and expert installation",
+            "button_link": "shopify://pages/project-management-and-expert-installation",
+            "button_style_secondary": true,
+            "button_label_2": "Project consultation, planning and room design",
+            "button_link_2": "shopify://pages/project-consultation-planning-and-room-design",
+            "button_style_secondary_2": true,
+            "button_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "heading_FcHPDy",
+        "caption_RjJGP6",
+        "text_7ba97c",
+        "button_hUdb8w"
+      ],
+      "name": "TF Page Banner",
+      "settings": {
+        "title_alignment": "center",
+        "full_width": true,
+        "content_width": "full_width",
+        "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
+        "padding_top": 80,
+        "padding_bottom": 40
+      }
+    },
+    "page_banner_iVH9eY": {
+      "type": "page-banner",
+      "settings": {
+        "title_alignment": "center",
+        "full_width": true,
+        "content_width": "full_width",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "page_banner_HTpeq4": {
+      "type": "page-banner",
+      "blocks": {
+        "heading_eDGzxr": {
+          "type": "heading",
+          "settings": {
+            "heading": "Product design and innovation",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400",
+            "heading_alignment": "center"
+          }
+        },
+        "text_6XGjyC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At SpaceLogic, innovation is at the heart of our product development. Our exclusive STERIRACK® and MEDIBIN™ Systems and complementing product ranges,  provide industry-leading storage solutions tailored to clinical environment facilities. Need something unique? Our design team collaborates with clients to develop custom components and accessories that meet specific storage needs, ensuring optimal efficiency and usability.</p>",
+            "text_alignment": "left"
+          }
+        },
+        "button_C99BQe": {
+          "type": "button",
+          "settings": {
+            "button_label": "Project consultation, planning and room design",
             "button_link": "shopify://pages/project-consultation-planning-and-room-design",
             "button_style_secondary": false,
             "button_label_2": "",
@@ -48,17 +133,17 @@
         }
       },
       "block_order": [
-        "image_W4zerL",
-        "heading_pVBz9T",
-        "text_KdCiWp",
-        "button_fn8KLw"
+        "heading_eDGzxr",
+        "text_6XGjyC",
+        "button_C99BQe"
       ],
+      "disabled": true,
       "settings": {
         "title_alignment": "center",
-        "full_width": false,
+        "full_width": true,
         "content_width": "full_width",
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "padding_top": 72,
+        "padding_top": 30,
         "padding_bottom": 36
       }
     },
@@ -67,27 +152,15 @@
       "blocks": {
         "column_BpVqDr": {
           "type": "column",
-          "settings": {
-            "icon": "shopify://shop_images/project-consultation.svg",
-            "heading": "<p>Project consultation <br/>and room design</p>",
-            "text": "<p>Each client receives a tailored storage solution that maximizes storage capacity within the available space, and suits its application. All stakeholder needs are incorporated in the design and planning of a new STERIRACK®System installation.</p>"
-          }
+          "settings": {}
         },
         "column_GqV7PJ": {
           "type": "column",
-          "settings": {
-            "icon": "shopify://shop_images/bulb-icon.svg",
-            "heading": "<p>Product customization <br/>and continuous innovation</p>",
-            "text": "<p>We specialize in custom storage solutions for healthcare, and our STERIRACK® System and MEDIBIN™ ranges are exclusive to SpaceLogic. Liaise with our designers to have custom components and accessories created to meet your specific needs.</p>"
-          }
+          "settings": {}
         },
         "column_yL9hGf": {
           "type": "column",
-          "settings": {
-            "icon": "shopify://shop_images/setting-icon.svg",
-            "heading": "<p>Project management <br/>and installation</p>",
-            "text": "<p>Our expert installation team specializes in fast, no-fuss storage installations with minimal interruptions to everyday operations or other trades. Our team travels nationally and internationally, or project manages local tradespeople.</p>"
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -95,9 +168,12 @@
         "column_GqV7PJ",
         "column_yL9hGf"
       ],
+      "disabled": true,
       "settings": {
-        "sec_title": "<p>Three interconnected divisions, delivering <br/>a complete end-to-end <strong>Service</strong></p>",
-        "heading_size": "h1",
+        "sec_title": "<p>Three interconnected divisions, delivering <br/>a complete end-to-end Service</p>",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "title_alignment": "center",
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "icon_bg_color": "#5a5a5a",
@@ -108,10 +184,50 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "multicolumn_services_box_RrKnEQ": {
+      "type": "multicolumn-services-box",
+      "blocks": {
+        "column_6VK6ij": {
+          "type": "column",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "column_6VK6ij"
+      ],
+      "disabled": true,
+      "settings": {
+        "sec_title": "<p>Three interconnected divisions, delivering <br/>a complete end-to-end service</p>",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
+        "title_alignment": "center",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "icon_bg_color": "#5a5a5a",
+        "border_color": "#eeeeee",
+        "columns_desktop": 3,
+        "columns_alignment": "left",
+        "columns_mobile": "1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "product_catalog_rJxUTn": {
+      "type": "product-catalog",
+      "settings": {
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
     }
   },
   "order": [
+    "custom_page_banner_iB78NH",
+    "page_banner_4PWrqh",
     "page_banner_iVH9eY",
-    "multicolumn_services_box_Kh8zd7"
+    "page_banner_HTpeq4",
+    "multicolumn_services_box_Kh8zd7",
+    "multicolumn_services_box_RrKnEQ",
+    "product_catalog_rJxUTn"
   ]
 }

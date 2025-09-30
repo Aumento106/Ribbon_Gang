@@ -9,10 +9,21 @@
  */
 {
   "sections": {
+    "section_breadcrumb_g9Kwry": {
+      "type": "section-breadcrumb",
+      "settings": {
+        "color_scheme": "",
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "mobile_padding_top": 30,
+        "mobile_padding_bottom": 30
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
       "settings": {
+        "color_scheme": "",
         "padding_top": 28,
         "padding_bottom": 28
       }
@@ -23,7 +34,7 @@
         "application_item_qEyzfw": {
           "type": "application_item",
           "settings": {
-            "heading": "<p>Orange <strong>Private Hospital</strong></p>",
+            "heading": "<p>Orange Private Hospital</p>",
             "heading_size": "h1",
             "heading_alignment": "center",
             "catalog_url": "https://online.flippingbook.com/view/490670925/"
@@ -38,10 +49,20 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "product_catalog_VYLKpG": {
+      "type": "product-catalog",
+      "disabled": true,
+      "settings": {
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
     }
   },
   "order": [
+    "section_breadcrumb_g9Kwry",
     "main",
-    "application_list_eiFVBP"
+    "application_list_eiFVBP",
+    "product_catalog_VYLKpG"
   ]
 }

@@ -120,7 +120,7 @@
       "choose_product_options": "Choose options for {{ product_name }}",
       "description": "Description",
       "inventory_in_stock": "In stock",
-      "inventory_in_stock_show_count": "In Stock. {{ quantity }} are left",
+      "inventory_in_stock_show_count": "In stock. {{ quantity }} are left",
       "inventory_low_stock": "Low stock",
       "inventory_low_stock_show_count": "Low stock. {{ quantity }} are left",
       "inventory_out_of_stock": "Out of stock",
@@ -129,13 +129,13 @@
       "on_sale": "Sale",
       "product_variants": "Product variants",
       "media": {
-        "gallery_viewer": "Gallery Viewer",
+        "gallery_viewer": "Gallery viewer",
         "load_image": "Load image {{ index }} in gallery view",
-        "load_model": "Load 3D Model {{ index }} in gallery view",
+        "load_model": "Load 3D model {{ index }} in gallery view",
         "load_video": "Play video {{ index }} in gallery view",
         "image_available": "Image {{ index }} is now available in gallery view",
         "open_media": "Open media {{ index }} in modal",
-        "play_model": "Play 3D Viewer",
+        "play_model": "Play 3D viewer",
         "play_video": "Play video"
       },
       "quantity": {
@@ -152,7 +152,7 @@
         "note": "View quantity rules"
       },
       "volume_pricing": {
-        "title": "Volume Pricing",
+        "title": "Volume pricing",
         "note": "Volume pricing available",
         "minimum": "{{ quantity }}+",
         "price_at_each": "at {{ price }}/ea",
@@ -259,12 +259,12 @@
     "contact": {
       "form": {
         "title": "Contact form",
-        "name": "Your Name",
+        "name": "Your name",
         "email": "Email",
         "phone": "Phone",
         "organisation": "Organisation",
         "region": "Region",
-        "job_title": "Job Title",
+        "job_title": "Job title",
         "enquiry_type": "Enquiry type",
         "enquiry": "Enquiry",
         "comment": "Comment",
@@ -426,7 +426,7 @@
       "city": "City",
       "country": "Country/region",
       "province": "Province",
-      "zip": "Postal/ZIP code",
+      "zip": "Postcode",
       "phone": "Phone",
       "set_default": "Set as default address",
       "add": "Add address",
@@ -454,12 +454,12 @@
     "order": {
       "title": "Order {{ name }}",
       "date_html": "Placed on {{ date }}",
-      "cancelled_html": "Order Cancelled on {{ date }}",
+      "cancelled_html": "Order cancelled on {{ date }}",
       "cancelled_reason": "Reason: {{ reason }}",
-      "billing_address": "Billing Address",
-      "payment_status": "Payment Status",
-      "shipping_address": "Shipping Address",
-      "fulfillment_status": "Fulfillment Status",
+      "billing_address": "Billing address",
+      "payment_status": "Payment status",
+      "shipping_address": "Shipping address",
+      "fulfillment_status": "Fulfillment status",
       "discount": "Discount",
       "shipping": "Shipping",
       "tax": "Tax",
@@ -538,6 +538,13 @@
       "max_characters": "{{ max_chars }} characters max",
       "send_on": "YYYY-MM-DD",
       "send_on_label": "Send on (optional)"
+    }
+  },
+  "shopify": {
+    "checkout": {
+      "stock": {
+        "empty_cart_label": "Your cart is empty"
+      }
     }
   }
 }

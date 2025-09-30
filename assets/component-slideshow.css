@@ -23,11 +23,34 @@ slideshow-component .slideshow.banner {
 .swiper.custom-slider-show  .swiper-pagination {
   bottom: 30px;
 }
+/* .slideshow__text.slideshow__text--left .banner__buttons {
+  left: 0;
+  transform: unset;
+} */
+
+@media screen and (max-width: 1024px) {
+  .section-custom-slide-show .slideshow__text-wrapper.banner__content {
+    padding: 0 0px;
+  }
+}
+
+@media screen and (max-width: 989px) {
+  .section-custom-slide-show .slideshow__text.banner__box {
+    padding: 0 20px;
+  }
+  /* .slideshow__text.slideshow__text--left .banner__buttons {
+    left: 20px;
+  } */
+}
 
 @media screen and (max-width: 749px) {
   .slideshow--placeholder.banner--mobile-bottom.banner--adapt_image .slideshow__media,
   .slideshow--placeholder.banner--adapt_image:not(.banner--mobile-bottom) {
     height: 28rem;
+  }
+
+  .swiper.custom-slider-show .swiper-pagination {
+    bottom: 20px;
   }
 }
 

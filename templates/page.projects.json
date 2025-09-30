@@ -9,183 +9,399 @@
  */
 {
   "sections": {
-    "page_banner_EAANcW": {
-      "type": "page-banner",
+    "custom_page_banner_dHyyAj": {
+      "type": "custom-page-banner",
       "blocks": {
-        "image_aCzXHd": {
-          "type": "image",
+        "slide_mfK3hU": {
+          "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/image_1_f447e747-d3f3-4818-bd48-a3a839e42a16.png",
-            "border_radius": true
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image_overlay_opacity": 0
           }
         },
-        "heading_RiVNji": {
-          "type": "heading",
+        "slide_XDeMCn": {
+          "type": "slide",
           "settings": {
-            "heading": "Our Project <strong>Customers</strong>",
-            "heading_size": "h0"
-          }
-        },
-        "text_w93Xcb": {
-          "type": "text",
-          "settings": {
-            "text": "<p>SpaceLogic collaborates with hospitals and healthcare institutions across the America’s, Asia Pacific and some regions across the UK and Europe. Our team of esteemed healthcare consultants is readily accessible to address your unique needs and create inventive solutions to tackle any storage obstacles you may encounter. Below, we present a small selection of some of our esteemed clients who have engaged with us on new constructions, refurbishments, renovations, or ongoing endeavors to enhance their storage efficiency by using our remarkable STERIRACK® System baskets and shelving, trolleys and accessories.</p>"
+            "image": "shopify://shop_images/winding-road-covered-in-autumn-trees.jpg",
+            "image_overlay_opacity": 0
           }
         }
       },
       "block_order": [
-        "image_aCzXHd",
-        "heading_RiVNji",
-        "text_w93Xcb"
+        "slide_mfK3hU",
+        "slide_XDeMCn"
       ],
+      "name": "TF Custom Page Slideshow",
       "settings": {
-        "title_alignment": "center",
-        "full_width": false,
-        "content_width": "full_width",
-        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "layout": "grid",
+        "slide_height": "medium",
+        "image_behavior": "none",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
-    "project_list_QPj93j": {
-      "type": "project-list",
+    "page_banner_3RY4Xt": {
+      "type": "page-banner",
       "blocks": {
-        "project_GYiGjw": {
-          "type": "project",
+        "heading_DL3pUh": {
+          "type": "heading",
           "settings": {
-            "project_logo": "shopify://shop_images/act.png",
-            "project_title": "Australian Capital Territory Health",
-            "project_location": "Phillip, ACT, Australia",
-            "hospital_name": "Canberra Hospital"
+            "heading": "{{ page.title }}",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "600",
+            "heading_alignment": "center"
           }
         },
-        "project_bkTLKR": {
-          "type": "project",
+        "caption_PRmGMr": {
+          "type": "caption",
           "settings": {
-            "project_logo": "shopify://shop_images/bapist-health.png",
-            "project_title": "Baptist Health",
-            "project_location": "Homestead, Florida, United States",
-            "hospital_name": "Homestead Hospital"
+            "caption": "<p>Setting new standards in clean clinical spaces across every clinical setting</p>",
+            "caption_alignment": "center"
           }
         },
-        "project_QcEF8R": {
-          "type": "project",
+        "text_ichQRw": {
+          "type": "text",
           "settings": {
-            "project_logo": "shopify://shop_images/calvary.png",
-            "project_title": "Calvary Health Care",
-            "project_location": "Adelaide, SA, Australia",
-            "hospital_name": "Calvary Adelaide Hospital | Calvary Private Hospital | Calvary Riverina Hospital"
-          }
-        },
-        "project_ig3wm6": {
-          "type": "project",
-          "settings": {
-            "project_logo": "shopify://shop_images/city-of-hope.png",
-            "project_title": "City of Hope",
-            "project_location": "Irvine, California, United States",
-            "hospital_name": "City of Hope Orange County"
-          }
-        },
-        "project_iiUK4E": {
-          "type": "project",
-          "settings": {
-            "project_logo": "shopify://shop_images/cleveland-clinic.png",
-            "project_title": "Cleveland Clinic",
-            "project_location": "Cleveland, Ohio, United States",
-            "hospital_name": "Cleveland Clinic Main Campus | Cleveland Clinic – Hillcrest Hospital | Cleveland Clinic – Euclid Hospital | Cleveland Clinic – Avon Hospital"
-          }
-        },
-        "project_By3wrq": {
-          "type": "project",
-          "settings": {
-            "project_logo": "shopify://shop_images/ogh.png",
-            "project_title": "Ochiltree General Hospital",
-            "project_location": "Perryton, Texas, United States",
-            "hospital_name": "Ochiltree General Hospital"
-          }
-        },
-        "project_RqWHk9": {
-          "type": "project",
-          "settings": {
-            "project_logo": "shopify://shop_images/hss.png",
-            "project_title": "Hospital for Special Surgery​",
-            "project_location": "New York, New York, United States",
-            "hospital_name": "Hospital for Special Surgery"
-          }
-        },
-        "project_VhyyAM": {
-          "type": "project",
-          "settings": {
-            "project_logo": "shopify://shop_images/lasfayette-surgical.png",
-            "project_title": "Lafayette Surgical Specialty Hospital",
-            "project_location": "Lafayette, Louisiana, United States",
-            "hospital_name": "Lafayette Surgical Specialty Hospital"
-          }
-        },
-        "project_pi8GMW": {
-          "type": "project",
-          "settings": {
-            "project_logo": "shopify://shop_images/mount-sinai.png",
-            "project_title": "Mount Sinai",
-            "project_location": "New York, New York, United States",
-            "hospital_name": "The Mount Sinai Hospital"
-          }
-        },
-        "project_PziRfn": {
-          "type": "project",
-          "settings": {
-            "project_logo": "shopify://shop_images/NYU-langone-health.png",
-            "project_title": "NYU Langone Health",
-            "project_location": "New York, New York, United States",
-            "hospital_name": "NYU Langone Orthopedic Hospital"
-          }
-        },
-        "project_jnN8RW": {
-          "type": "project",
-          "settings": {
-            "project_logo": "shopify://shop_images/northern-territory-health.png",
-            "project_title": "Northern Territory Health",
-            "project_location": "Darwin, Northern Territory, Australia",
-            "hospital_name": "Tennant Creek Hospital | Gove District Hospital | Katherine Hospital"
-          }
-        },
-        "project_KD86e7": {
-          "type": "project",
-          "settings": {
-            "project_logo": "shopify://shop_images/nexus-hospitals.png",
-            "project_title": "Nexus Hospitals",
-            "project_location": "Crows Nest, NSW, Australia",
-            "hospital_name": "Orange Private Hospital | Tennyson Center Day Hospital"
+            "text": "<p>Across hospitals, day surgeries and clinical facilities in Australia, the US, and beyond, SpaceLogic partners with clients to deliver tailored, high-performance storage systems. Every project is a collaboration, from planning and prototyping to seamless installation, ensuring STERIRACK® integrates perfectly into clinical environments with minimal disruption. Explore a selection of recent installations below, each one reflecting our commitment to better care through smarter storage solutions.</p>",
+            "text_alignment": "left"
           }
         }
       },
       "block_order": [
-        "project_GYiGjw",
-        "project_bkTLKR",
-        "project_QcEF8R",
-        "project_ig3wm6",
-        "project_iiUK4E",
-        "project_By3wrq",
-        "project_RqWHk9",
-        "project_VhyyAM",
-        "project_pi8GMW",
-        "project_PziRfn",
-        "project_jnN8RW",
-        "project_KD86e7"
+        "heading_DL3pUh",
+        "caption_PRmGMr",
+        "text_ichQRw"
       ],
+      "name": "TF Page Banner",
+      "settings": {
+        "title_alignment": "center",
+        "full_width": true,
+        "content_width": "full_width",
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "padding_top": 80,
+        "padding_bottom": 40
+      }
+    },
+    "section_breadcrumb_jNkhmy": {
+      "type": "section-breadcrumb",
+      "name": "TF Breadcrumb",
+      "settings": {
+        "color_scheme": "",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "mobile_padding_top": 20,
+        "mobile_padding_bottom": 20
+      }
+    },
+    "custom_collage_JqxjyW": {
+      "type": "custom-Collage",
+      "blocks": {
+        "image_NcM4V4": {
+          "type": "image",
+          "settings": {
+            "project_name": "Griffith Base Hospital MLHD",
+            "project_sub_heading": "Raising the standard in clinical storage across critical areas",
+            "project_des": "Project description. Work is progressing at Griffith base hospital, where we are delivering advanced healthcare storage systems tailored to the needs of the facility. Our focus is on enhancing infection control, maximising space efficiency, and streamlining clinical workflows. This project is a strong example of how STERIRACK® can be customised to meet department-specific demands.",
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image_1": "shopify://shop_images/winding-road-covered-in-autumn-trees.jpg",
+            "image_2": "shopify://shop_images/woman-wades-in-ocean-at-sunset.jpg",
+            "project_logo": "shopify://shop_images/SPACELOGIC_logo_-_grey_and_yellow_2025_v1_1.svg"
+          }
+        },
+        "image_QJBQEU": {
+          "type": "image",
+          "settings": {
+            "project_name": "Cranbourne community hospital",
+            "project_sub_heading": "Bringing care closer with Cranbourne community hospital",
+            "project_des": "Currently in the later stages of installation, this project supports the delivery of care closer to home for the Cranbourne community. We are providing modular, future-ready storage systems designed to improve daily workflows and maintain best-practice hygiene. Our solutions contribute to building flexible clinical environments that will serve patients and staff for years to come.",
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image_1": "shopify://shop_images/winding-road-covered-in-autumn-trees.jpg",
+            "image_2": "shopify://shop_images/woman-wades-in-ocean-at-sunset.jpg",
+            "project_logo": "shopify://shop_images/SPACELOGIC_logo_-_grey_and_yellow_2025_v1_1.svg"
+          }
+        },
+        "image_beaCzB": {
+          "type": "image",
+          "settings": {
+            "project_name": "Canberra Hospital",
+            "project_sub_heading": "Modular and mobile storage excellence",
+            "project_des": "Canberra Hospital needed a solution to maximise storage across multiple departments while supporting infection control. We delivered a fully customised STERIRACK® System, with over 1,000 bays of modular storage installed in just six weeks. Offsite manufacturing minimised disruptions, while our colour-coded labelling allowed staff to quickly locate items, enhancing efficiency and patient response times.In anaesthetic bays, we introduced modular STERIRACK®, a forward-thinking alternative to timber joinery, which poses hygiene challenges. This adaptable, WHS-compliant solution provides long-term flexibility, making it a new benchmark in clinical storage.",
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image_1": "shopify://shop_images/woman-wades-in-ocean-at-sunset.jpg",
+            "image_2": "shopify://shop_images/winding-road-covered-in-autumn-trees.jpg",
+            "project_logo": "shopify://shop_images/SPACELOGIC_logo_-_grey_and_yellow_2025_v1_1.svg"
+          }
+        }
+      },
+      "block_order": [
+        "image_NcM4V4",
+        "image_QJBQEU",
+        "image_beaCzB"
+      ],
+      "name": "TF Project Collage",
       "settings": {
         "heading": "",
-        "heading_size": "h1",
-        "title_alignment": "center",
-        "box_alignment": "left",
+        "custom_heading_size": 32,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
+        "desktop_layout": "right",
+        "mobile_layout": "collage",
+        "card_styles": "product-card-wrapper",
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "popup_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "padding_top": 40,
+        "padding_bottom": 45
+      }
+    },
+    "custom_collage_QhWJqp": {
+      "type": "custom-Collage",
+      "blocks": {
+        "image_kiaDtp": {
+          "type": "image",
+          "settings": {
+            "project_name": "Sydney Children’s Hospital Randwick Redevelopment",
+            "project_sub_heading": "Designing with care at the core",
+            "project_des": "Our team is contributing to the Sydney Children’s Hospital Redevelopment in Randwick, a project focused on creating world-class paediatric healthcare environments. Through tailored STERIRACK® storage solutions, we are helping deliver safer, more efficient spaces for clinicians, patients, and families. It is a privilege to be part of a development that places children’s wellbeing at the centre of care.",
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image_1": "shopify://shop_images/winding-road-covered-in-autumn-trees.jpg",
+            "image_2": "shopify://shop_images/woman-wades-in-ocean-at-sunset.jpg",
+            "project_logo": "shopify://shop_images/SPACELOGIC_logo_-_grey_and_yellow_2025_v1_1.svg"
+          }
+        },
+        "image_H4nfc4": {
+          "type": "image",
+          "settings": {
+            "project_name": "Liverpool Hospital Redevelopment – Main Works Stage 1",
+            "project_sub_heading": "Storage innovation at scale",
+            "project_des": "Spacelogic was awarded the contract to supply, deliver, and install the clinical storage package for the $830 million Liverpool Hospital Redevelopment – Stage 1. Selected through a rigorous tender process, our STERIRACK® system was chosen for its modularity, WHS-compliant design, and ability to integrate seamlessly across diverse hospital departments. From emergency and maternity units to interventional radiology, paediatrics, research, and renal services, this project demonstrates the power of adaptable storage to enhance patient care and staff safety at scale.A highlight of the project was the successful deployment of the STERIRACK® Overhead Rail System—an Australian-first solution that maximises vertical space without compromising ergonomic access or mobility. In addition, Spacelogic was awarded the separate pharmacy shelving contract, showcasing how STERIRACK® can unify storage strategies across complex healthcare environments. This project reflects our ongoing commitment to innovation, stakeholder collaboration, and future-focused healthcare infrastructure.",
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image_1": "shopify://shop_images/winding-road-covered-in-autumn-trees.jpg",
+            "image_2": "shopify://shop_images/woman-wades-in-ocean-at-sunset.jpg",
+            "project_logo": "shopify://shop_images/SPACELOGIC_logo_-_grey_and_yellow_2025_v1_1.svg"
+          }
+        },
+        "image_Dht7GG": {
+          "type": "image",
+          "settings": {
+            "project_name": "Maryborough and District Hospital",
+            "project_sub_heading": "Regional care, reimagined",
+            "project_des": "This completed project forms part of the Maryborough and District Hospital redevelopment to provide accessible, modern healthcare for the region. We delivered modular, efficient storage solutions that align with clinical best practice and infection control standards. The result is a future-proofed environment that supports growing healthcare needs in regional Victoria.",
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image_1": "shopify://shop_images/woman-wades-in-ocean-at-sunset.jpg",
+            "image_2": "shopify://shop_images/winding-road-covered-in-autumn-trees.jpg",
+            "project_logo": "shopify://shop_images/SPACELOGIC_logo_-_grey_and_yellow_2025_v1_1.svg"
+          }
+        }
+      },
+      "block_order": [
+        "image_kiaDtp",
+        "image_H4nfc4",
+        "image_Dht7GG"
+      ],
+      "name": "TF Project Collage",
+      "settings": {
+        "heading": "",
+        "custom_heading_size": 32,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
+        "desktop_layout": "equal",
+        "mobile_layout": "collage",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "popup_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "padding_top": 0,
+        "padding_bottom": 45
+      }
+    },
+    "custom_collage_FFkWEq": {
+      "type": "custom-Collage",
+      "blocks": {
+        "image_NzLLh3": {
+          "type": "image",
+          "settings": {
+            "project_name": "Orange Private Hospital",
+            "project_sub_heading": "Efficient storage across pharmacy and wards",
+            "project_des": "Orange Private Hospital engaged Spacelogic to improve both pharmacy and general ward storage. We delivered a cohesive STERIRACK® solution that enhanced organisation, reduced search time, and supported infection control compliance. The result is a cleaner, more accessible environment for staff and patients alike.",
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image_1": "shopify://shop_images/winding-road-covered-in-autumn-trees.jpg",
+            "image_2": "shopify://shop_images/woman-wades-in-ocean-at-sunset.jpg",
+            "project_logo": "shopify://shop_images/SPACELOGIC_logo_-_grey_and_yellow_2025_v1_1.svg"
+          }
+        },
+        "image_LqgT9V": {
+          "type": "image",
+          "settings": {
+            "project_name": "Goulburn Base Hospital",
+            "project_sub_heading": "Streamlining clinical storage in tight spaces",
+            "project_des": "Our project at Goulburn Base Hospital focused on maximising usable space in clinical areas with limited footprint. Using fine mesh baskets, flat shelving, and mobile trolleys, we delivered a system that supports best practice while improving staff efficiency. The installation has helped future-proof the hospital’s daily workflows.",
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image_1": "shopify://shop_images/winding-road-covered-in-autumn-trees.jpg",
+            "image_2": "shopify://shop_images/woman-wades-in-ocean-at-sunset.jpg",
+            "project_logo": "shopify://shop_images/SPACELOGIC_logo_-_grey_and_yellow_2025_v1_1.svg"
+          }
+        },
+        "image_BPwFWb": {
+          "type": "image",
+          "settings": {
+            "project_name": "Royal North Shore Hospital",
+            "project_sub_heading": "Installation in under ten days",
+            "project_des": "Spacelogic completed a full STERIRACK® installation at Royal North Shore Hospital in less than ten days, minimising disruption to the hospital’s operations. The fast turnaround was matched with tailored configurations that supported compliance and stock management. Our work here is a showcase of quality delivery under tight timelines.",
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image_1": "shopify://shop_images/woman-wades-in-ocean-at-sunset.jpg",
+            "image_2": "shopify://shop_images/winding-road-covered-in-autumn-trees.jpg",
+            "project_logo": "shopify://shop_images/SPACELOGIC_logo_-_grey_and_yellow_2025_v1_1.svg"
+          }
+        }
+      },
+      "block_order": [
+        "image_NzLLh3",
+        "image_LqgT9V",
+        "image_BPwFWb"
+      ],
+      "name": "TF Project Collage",
+      "settings": {
+        "heading": "",
+        "custom_heading_size": 32,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "popup_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "padding_top": 0,
+        "padding_bottom": 45
+      }
+    },
+    "custom_collage_yaX46N": {
+      "type": "custom-Collage",
+      "blocks": {
+        "image_AgEQQU": {
+          "type": "image",
+          "settings": {
+            "project_name": "Blacktown Hospital",
+            "project_sub_heading": "Improved efficiency through colour-coded storage",
+            "project_des": "Blacktown Hospital saw a 51% reduction in stock valuation after implementing the STERIRACK® System with a colour-coded labelling strategy. The transformation streamlined storage across wards and reduced daily stock retrieval from 60 to 10 minutes. This project is a clear example of how thoughtful design enhances efficiency and patient care.",
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image_1": "shopify://shop_images/winding-road-covered-in-autumn-trees.jpg",
+            "image_2": "shopify://shop_images/woman-wades-in-ocean-at-sunset.jpg",
+            "project_logo": "shopify://shop_images/SPACELOGIC_logo_-_grey_and_yellow_2025_v1_1.svg"
+          }
+        },
+        "image_Jrh3aU": {
+          "type": "image",
+          "settings": {
+            "project_name": "Wagga Wagga Base Hospital",
+            "project_sub_heading": "Smart storage for streamlined care",
+            "project_des": "At Wagga Wagga Base Hospital, we upgraded key storage areas with STERIRACK® Clean Utility configurations to enhance infection control. Our team delivered tailored basket and shelving layouts designed to optimise space and simplify daily stock retrieval. The installation supports more efficient workflows and better patient outcomes.",
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image_1": "shopify://shop_images/winding-road-covered-in-autumn-trees.jpg",
+            "image_2": "shopify://shop_images/woman-wades-in-ocean-at-sunset.jpg",
+            "project_logo": "shopify://shop_images/SPACELOGIC_logo_-_grey_and_yellow_2025_v1_1.svg"
+          }
+        },
+        "image_xWwfPK": {
+          "type": "image",
+          "settings": {
+            "project_name": "St George hospital redevelopment – stage 3",
+            "project_sub_heading": "Strengthening care, supporting communities",
+            "project_des": "We are proud to support the St George hospital redevelopment – Stage 3, in partnership with South Eastern Sydney local health district. This project focuses on expanding critical care services through the integration of scalable storage systems that enhance hospital workflows. Our team is helping to create smarter clinical environments that support both staff efficiency and patient care.",
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image_1": "shopify://shop_images/woman-wades-in-ocean-at-sunset.jpg",
+            "image_2": "shopify://shop_images/winding-road-covered-in-autumn-trees.jpg",
+            "project_logo": "shopify://shop_images/SPACELOGIC_logo_-_grey_and_yellow_2025_v1_1.svg"
+          }
+        }
+      },
+      "block_order": [
+        "image_AgEQQU",
+        "image_Jrh3aU",
+        "image_xWwfPK"
+      ],
+      "name": "TF Project Collage",
+      "settings": {
+        "heading": "",
+        "custom_heading_size": 32,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
+        "desktop_layout": "equal",
+        "mobile_layout": "collage",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "popup_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "padding_top": 0,
+        "padding_bottom": 45
+      }
+    },
+    "proudly_support_NnMGAw": {
+      "type": "proudly-support",
+      "blocks": {
+        "support_item_3Hcczh": {
+          "type": "support_item",
+          "settings": {
+            "image": "shopify://shop_images/support-logo-1.png"
+          }
+        },
+        "support_item_fjND3Q": {
+          "type": "support_item",
+          "settings": {
+            "image": "shopify://shop_images/support-logo-2.png"
+          }
+        },
+        "support_item_tApGYX": {
+          "type": "support_item",
+          "settings": {
+            "image": "shopify://shop_images/support-logo-5.png"
+          }
+        },
+        "support_item_pzJMPa": {
+          "type": "support_item",
+          "settings": {
+            "image": "shopify://shop_images/support-logo-4.png"
+          }
+        },
+        "support_item_DnVgCF": {
+          "type": "support_item",
+          "settings": {
+            "image": "shopify://shop_images/support-logo-3.png"
+          }
+        }
+      },
+      "block_order": [
+        "support_item_3Hcczh",
+        "support_item_fjND3Q",
+        "support_item_tApGYX",
+        "support_item_pzJMPa",
+        "support_item_DnVgCF"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "<p>We Proudly Support</p>",
+        "title_alignment": "center",
+        "color_scheme": "",
+        "title_color": "#424242",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "product_catalog_AHJEg3": {
+      "type": "product-catalog",
+      "settings": {
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     }
   },
   "order": [
-    "page_banner_EAANcW",
-    "project_list_QPj93j"
+    "custom_page_banner_dHyyAj",
+    "page_banner_3RY4Xt",
+    "section_breadcrumb_jNkhmy",
+    "custom_collage_JqxjyW",
+    "custom_collage_QhWJqp",
+    "custom_collage_FFkWEq",
+    "custom_collage_yaX46N",
+    "proudly_support_NnMGAw",
+    "product_catalog_AHJEg3"
   ]
 }

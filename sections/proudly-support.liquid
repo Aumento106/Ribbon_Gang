@@ -2,14 +2,29 @@
 
 {%- style -%}
   .section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding_top | times: 0.55 | round: 0 }}px;
-    padding-bottom: {{ section.settings.padding_bottom | times: 0.55 | round: 0 }}px;
+    padding-top: {{ section.settings.padding_top | times: 0.35 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.35 | round: 0 }}px;
+  }
+  .section-{{ section.id }}-padding .proudly-support__wrapper {
+    margin: 0 auto;
+  }
+  @media screen and (max-width: 1100px) {
+    .section-{{ section.id }}-padding .proudly-support__wrapper {
+      max-width: 72.6rem;  
+    }
+  }
+  .section-{{ section.id }}-padding .title {
+    color: {{ section.settings.title_color }};
+    font-weight: 400;
+  }
+  .section-{{ section.id }}-padding .newsletter__subheading {
+    color: {{ section.settings.subheading_color }};
   }
 
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
-      padding-top: {{ section.settings.padding_top | times: 0.7 | round: 0 }}px;
-      padding-bottom: {{ section.settings.padding_bottom | times: 0.7 | round: 0 }}px;
+      padding-top: {{ section.settings.padding_top | times: 0.4 | round: 0 }}px;
+      padding-bottom: {{ section.settings.padding_bottom | times: 0.4 | round: 0 }}px;
     }
   }
 
@@ -22,10 +37,10 @@
 {%- endstyle -%}
 
 <div class="proudly-support section-{{ section.id }}-padding gradient color-{{ section.settings.color_scheme }}">
-  <div class="proudly-support__wrapper page-width">
+  <div class="proudly-support__wrapper page-width--narrow">
     {%- if section.settings.heading != blank -%}
     <div class="sec-head section-title-alignment-{{ section.settings.title_alignment }}">
-      <h2 class="title {{ section.settings.heading_size }}">
+      <h2 class="title">
         {{ section.settings.heading }}
       </h2>
     </div>
@@ -36,7 +51,7 @@
         <div class="proudly-support__item grid__item" {{ block.shopify_attributes }}>
           {%- if block.settings.image != blank -%}
             <div class="proudly-support__image-wrapper">
-              {{ block.settings.image | image_url: width: 400 | image_tag:
+              {{ block.settings.image | image_url: width: 200 | image_tag:
                 loading: 'lazy',
                 width: block.settings.image.width,
                 height: block.settings.image.height,
@@ -64,26 +79,6 @@
       "label": "Section Title"
     },
     {
-      "type": "select",
-      "id": "heading_size",
-      "options": [
-        {
-          "value": "h2",
-          "label": "Small"
-        },
-        {
-          "value": "h1",
-          "label": "Medium"
-        },
-        {
-          "value": "h0",
-          "label": "Large"
-        }
-      ],
-      "default": "h1",
-      "label": "Heading Size"
-    },
-    {
         "type": "select",
         "id": "title_alignment",
         "options": [
@@ -108,6 +103,12 @@
         "id": "color_scheme",
         "label": "t:sections.all.colors.label",
         "default": "scheme-1"
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Title Color",
+      "default": "#424242"
     },
     {
         "type": "header",

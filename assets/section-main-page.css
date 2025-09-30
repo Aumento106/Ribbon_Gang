@@ -16,7 +16,7 @@ ul.page_list li {
   padding-left: 30px;
   position: relative;
 }
-ul.page_list li::after {
+/* ul.page_list li::after {
   position: absolute;
   content: "";
   left: 16px;
@@ -25,6 +25,16 @@ ul.page_list li::after {
   height: 5px;
   border-radius: 50%;
   background: rgba(var(--color-foreground), 1);
+} */
+.return-refund-main .rte {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+}
+.return-refund-main .main_content,
+.return-refund-main .return-refund-form {
+  flex: 1;
 }
 
 @media screen and (min-width: 750px) {

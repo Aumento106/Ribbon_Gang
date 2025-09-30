@@ -1,7 +1,9 @@
 .related-products {
   display: block;
 }
-
+.related-products .title {
+  font-weight: 400 !important;
+}
 .related-products__heading {
   margin: 0 0 3rem;
 }

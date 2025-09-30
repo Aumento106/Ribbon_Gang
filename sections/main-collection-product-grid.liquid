@@ -150,6 +150,7 @@
             class="collection{% if section.settings.filter_type != 'vertical' %} page-width{% endif %}"
           >
             <div class="loading-overlay gradient"></div>
+            
             <ul
               id="product-grid"
               data-id="{{ section.id }}"
@@ -159,6 +160,7 @@
                 {% if section.settings.quick_add == 'bulk' %} collection-quick-add-bulk{% endif %}
               "
             >
+              
               {% assign skip_card_product_styles = false %}
               {%- for product in collection.products -%}
                 {% assign lazy_load = false %}
@@ -172,6 +174,7 @@
                     style="--animation-order: {{ forloop.index }};"
                   {% endif %}
                 >
+                 
                   {% render 'card-product',
                     card_product: product,
                     media_aspect_ratio: section.settings.image_ratio,
@@ -183,8 +186,16 @@
                     skip_styles: skip_card_product_styles,
                     quick_add: section.settings.quick_add,
                     learn_more_button_text: section.settings.learn_more_button_text,
-                    section_id: section.id
+                    section_id: section.id,
+                   remove_product_link: section.settings.remove_product_link,
+                    enquire_now_button: section.settings.enquire_now,
+                    shop_now_link_button: section.settings.shop_now,
+                    enquire_now_link: section.settings.enquire_now_url,
+                    hide_price :   section.settings.hide_price,
+                    hide_save :   section.settings.hide_save,
+                      hhide_soldout : section.settings.hide_sold_out
                   %}
+                 
                 </li>
                 {%- assign skip_card_product_styles = true -%}
               {%- endfor -%}
@@ -209,6 +220,21 @@
   "class": "section",
   "settings": [
     {
+      "type": "checkbox",
+      "id": "hide_price",
+      "label": "Hide Price form grid"
+    },
+    {
+      "type": "checkbox",
+      "id": "hide_sold_out",
+      "label": "Hide labels"
+    },
+    {
+      "type": "checkbox",
+      "id": "hide_save",
+      "label": "Hide Save %"
+    },
+    {
       "type": "range",
       "id": "products_per_page",
       "min": 4,
@@ -232,6 +258,31 @@
       "label": "t:sections.all.colors.label",
       "info": "t:sections.all.colors.has_cards_info",
       "default": "scheme-1"
+    },
+    {
+      "type": "checkbox",
+      "id": "remove_product_link",
+      "default": false,
+      "label": "Remove Product Link Redirect"
+    },
+    {
+      "type": "header",
+      "content": "Enquire now"
+    },
+    {
+      "type": "text",
+      "id": "enquire_now",
+      "label": "Enquire now button text"
+    },
+    {
+      "type": "url",
+      "id": "enquire_now_url",
+      "label": "Enquire now button link"
+    },
+    {
+      "type": "text",
+      "id": "shop_now",
+      "label": "Shop now"
     },
     {
       "type": "header",
@@ -343,6 +394,44 @@
       "id": "learn_more_button_text",
       "label": "Learn More Button Text",
       "default": "Learn More"
+    },
+        {
+      "type": "header",
+      "content": "t:sections.main-collection-product-grid.settings.header__1.content"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_filtering",
+      "default": true,
+      "label": "t:sections.main-collection-product-grid.settings.enable_filtering.label",
+      "info": "t:sections.main-collection-product-grid.settings.enable_filtering.info"
+    },
+    {
+      "type": "select",
+      "id": "filter_type",
+      "options": [
+        {
+          "value": "horizontal",
+          "label": "t:sections.main-collection-product-grid.settings.filter_type.options__1.label"
+        },
+        {
+          "value": "vertical",
+          "label": "t:sections.main-collection-product-grid.settings.filter_type.options__2.label"
+        },
+        {
+          "value": "drawer",
+          "label": "t:sections.main-collection-product-grid.settings.filter_type.options__3.label"
+        }
+      ],
+      "default": "horizontal",
+      "label": "t:sections.main-collection-product-grid.settings.filter_type.label",
+      "info": "t:sections.main-collection-product-grid.settings.filter_type.info"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_sorting",
+      "default": true,
+      "label": "t:sections.main-collection-product-grid.settings.enable_sorting.label"
     },
     {
       "type": "header",

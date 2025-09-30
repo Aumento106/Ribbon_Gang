@@ -1161,6 +1161,8 @@ class ProductRecommendations extends HTMLElement {
         if (html.querySelector('.grid__item')) {
           this.classList.add('product-recommendations--loaded');
         }
+        window.replaceTextInElement(document.body, "®", "<sup>®</sup>");
+        window.replaceTextInElement(document.body, "™", "<sup>™</sup>");
       })
       .catch((e) => {
         console.error(e);

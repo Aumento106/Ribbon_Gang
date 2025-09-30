@@ -4,7 +4,7 @@
   .contact-section {
     padding-top: {{ section.settings.padding_top }}px;
     padding-bottom: {{ section.settings.padding_bottom }}px;
-    margin-top: 100px;
+    margin-top: 0;
   }
 
   @media screen and (max-width: 749px) {
@@ -242,7 +242,7 @@
 
                   {% if block.settings.phone != blank %}
                   {% if block.settings.phone_link != blank %}
-                    <a href="tel:{{ block.settings.phone_link }}" class="location-detail">
+                    <a href="{{ block.settings.phone_link }}" class="location-detail">
                     {% if block.settings.phone_icon != blank %}
                       <img src="{{ block.settings.phone_icon | img_url }}">
                     {% endif %}
@@ -260,7 +260,7 @@
 
                   {% if block.settings.email != blank %}
                     {% if block.settings.email_link != blank %}
-                      <a href="mailto:{{ block.settings.email_link }}" class="location-detail">
+                      <a href="{{ block.settings.email_link }}" class="location-detail">
                       {% if block.settings.email_icon != blank %}
                         <img src="{{ block.settings.email_icon | img_url }}">
                       {% endif %}
@@ -285,9 +285,9 @@
               {% if block.settings.distributor_logo_1 != blank or block.settings.distributor_logo_2 != blank %}
                 <div class="distributor-logos">
                     {% if block.settings.distributor_logo_1_url != blank %}
-                      <a href="block.settings.distributor_logo_1_url">
+                      <a href="{{ block.settings.distributor_logo_1_url }}">
                       {% if block.settings.distributor_logo_1 %}
-                        <img src="{{ block.settings.distributor_logo_1 | img_url: '200x' }}" 
+                        <img src="{{ block.settings.distributor_logo_1 | img_url: 'master' }}" 
                               alt="Distributor Logo" 
                               loading="lazy"
                               class="distributor-logo">
@@ -295,14 +295,14 @@
                       </a>
                       {% else %}
                       {% if block.settings.distributor_logo_1 %}
-                        <img src="{{ block.settings.distributor_logo_1 | img_url: '200x' }}" 
+                        <img src="{{ block.settings.distributor_logo_1 | img_url: 'master' }}" 
                               alt="Distributor Logo" 
                               loading="lazy"
                               class="distributor-logo">
                       {% endif %}
                     {% endif %}
                     {% if block.settings.distributor_logo_2_url != blank %}
-                      <a href="block.settings.distributor_logo_2_url">
+                      <a href="{{ block.settings.distributor_logo_2_url }}">
                       {% if block.settings.distributor_logo_2 %}
                         <img src="{{ block.settings.distributor_logo_2 | img_url: '200x' }}" 
                           alt="Distributor Logo" 

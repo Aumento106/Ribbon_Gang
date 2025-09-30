@@ -1,7 +1,4 @@
-.newsletter__wrapper > * {
-  margin-top: 0;
-  margin-bottom: 0;
-}
+
 
 .newsletter__wrapper > * + * {
   margin-top: 2rem;
@@ -43,7 +40,6 @@
 
   .newsletter .grid {
     --grid-desktop-horizontal-spacing: 7.5rem;
-    align-items: center;
   }
 }
 
@@ -58,7 +54,8 @@
 .newsletter .field__label {
   position: static;
   display: block;
-  margin-bottom: 0.8rem;
+  /* margin-bottom: 0.8rem; */
+  margin-bottom: 0;
   font-weight: 500;
   line-height: 1.66;
   color: rgb(var(--color-foreground));
@@ -76,7 +73,8 @@
 .newsletter .field__input {
   border: 1px solid #4242424D;
   border-radius: 8px;
-  height: 6rem;
+  /* height: 6rem; */
+  height: 5rem;
   background: #fff;
   /* font-size: 20px; */
 }
@@ -125,6 +123,10 @@
 
   .newsletter .grid {
     --grid-desktop-horizontal-spacing: 3rem;
+  }
+
+  .newsletter-heading-con .title br {
+    display: none;
   }
 }
 

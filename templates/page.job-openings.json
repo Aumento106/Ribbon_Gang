@@ -9,80 +9,211 @@
  */
 {
   "sections": {
+    "custom_page_banner_h8qPHK": {
+      "type": "custom-page-banner",
+      "blocks": {
+        "slide_NJt9zF": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Banner_image19.jpg",
+            "image_overlay_opacity": 0
+          }
+        },
+        "slide_zhd3MF": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Banner_image18_a0505a9f-0510-40b5-8c1b-275b5d741665.jpg",
+            "image_overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "slide_NJt9zF",
+        "slide_zhd3MF"
+      ],
+      "name": "TF Custom Page Slideshow",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "image_behavior": "none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "page_banner_Umz6fF": {
+      "type": "page-banner",
+      "blocks": {
+        "heading_arze8C": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ page.title }}",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "600",
+            "heading_alignment": "center"
+          }
+        },
+        "caption_Um9XwP": {
+          "type": "caption",
+          "settings": {
+            "caption": "<p>Join us in Making space for care®</p>",
+            "caption_alignment": "center"
+          }
+        },
+        "text_MW9qfg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At SpaceLogic, we’re committed to building a talented and diverse team that drives innovation and delivers excellence. As a trusted leader in healthcare storage solutions, we offer an inclusive and supportive environment where your skills and expertise can thrive. Explore our current job openings below and discover the next step in your career with us.</p>",
+            "text_alignment": "left"
+          }
+        }
+      },
+      "block_order": [
+        "heading_arze8C",
+        "caption_Um9XwP",
+        "text_MW9qfg"
+      ],
+      "name": "TF Page Banner",
+      "settings": {
+        "title_alignment": "center",
+        "full_width": true,
+        "content_width": "full_width",
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "padding_top": 80,
+        "padding_bottom": 40
+      }
+    },
+    "section_breadcrumb_XmKTwV": {
+      "type": "section-breadcrumb",
+      "disabled": true,
+      "name": "TF Breadcrumb",
+      "settings": {
+        "color_scheme": "",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "mobile_padding_top": 20,
+        "mobile_padding_bottom": 20
+      }
+    },
+    "page_banner_REFqdq": {
+      "type": "page-banner",
+      "blocks": {
+        "heading_agXX9w": {
+          "type": "heading",
+          "settings": {
+            "heading": "We currently have no open positions open.",
+            "custom_heading_size": 28,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "600",
+            "heading_alignment": "center"
+          }
+        },
+        "caption_kyqBaM": {
+          "type": "caption",
+          "settings": {
+            "caption": "<p>Please check back, as we regularly seek skilled professionals to join our team.</p>",
+            "caption_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "heading_agXX9w",
+        "caption_kyqBaM"
+      ],
+      "name": "TF No Positions Vacant",
+      "settings": {
+        "title_alignment": "center",
+        "full_width": true,
+        "content_width": "full_width",
+        "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
+        "padding_top": 80,
+        "padding_bottom": 50
+      }
+    },
+    "multirow_pJNhfW": {
+      "type": "multirow",
+      "blocks": {
+        "row_MTFYAF": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "caption": "Caption",
+            "heading": "Heading here",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_Gj7LEy": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "caption": "Caption",
+            "heading": "Heading here",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_99tHaX": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "caption": "Caption",
+            "heading": "Heading here",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_MTFYAF",
+        "row_Gj7LEy",
+        "row_99tHaX"
+      ],
+      "disabled": true,
+      "name": "TF Positions Vacant",
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "row_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "mobile_content_alignment": "left",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
       "settings": {
+        "color_scheme": "",
         "padding_top": 28,
         "padding_bottom": 28
       }
     },
-    "page_banner_wL3g6z": {
-      "type": "page-banner",
-      "blocks": {
-        "image_DKAD6w": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/image_1.png",
-            "border_radius": true
-          }
-        },
-        "heading_q4a9w9": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Job Openings</strong> at SpaceLogic",
-            "heading_size": "h0"
-          }
-        },
-        "text_xdYUrK": {
-          "type": "text",
-          "settings": {
-            "text": "<p>At SpaceLogic, we believe in building a talented and diverse workforce that drives innovation and success. As a leader in the healthcare sector, we are dedicated to fostering an inclusive environment where every individual can thrive and contribute their unique skills and perspectives. Browse through our current job openings below and submit an application.</p><p>Let’s shape the future of healthcare together!</p>"
-          }
-        }
-      },
-      "block_order": [
-        "image_DKAD6w",
-        "heading_q4a9w9",
-        "text_xdYUrK"
-      ],
+    "product_catalog_zMqMUU": {
+      "type": "product-catalog",
       "settings": {
-        "title_alignment": "center",
-        "full_width": false,
-        "content_width": "full_width",
-        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "rich_text_y4gmC7": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_PxW4X4": {
-          "type": "heading",
-          "settings": {
-            "heading": "Open Positions",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "heading_PxW4X4"
-      ],
-      "settings": {
-        "desktop_content_position": "left",
-        "content_alignment": "center",
-        "content_width": "full_width",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 36
+        "padding_top": 40,
+        "padding_bottom": 30
       }
     }
   },
   "order": [
+    "custom_page_banner_h8qPHK",
+    "page_banner_Umz6fF",
+    "section_breadcrumb_XmKTwV",
+    "page_banner_REFqdq",
+    "multirow_pJNhfW",
     "main",
-    "page_banner_wL3g6z",
-    "rich_text_y4gmC7"
+    "product_catalog_zMqMUU"
   ]
 }

@@ -1,6 +1,6 @@
 .card-wrapper {
   color: inherit;
-  height: 100%;
+  /* height: 100%; */
   position: relative;
   text-decoration: none;
 }
@@ -45,7 +45,7 @@
   position: relative;
   box-sizing: border-box;
   border-radius: var(--border-radius);
-  border: var(--border-width) solid var(--primary-theme-color);
+  border: var(--border-width) solid #eee;
 }
 
 .card--card:after,
@@ -354,12 +354,18 @@
   right: 0;
   top: 0;
   z-index: 1;
+  pointer-events: none;
 }
-
 .card__heading a:after {
   outline-offset: 0.3rem;
 }
-
+.card .card__inner .media_link {
+  display: flex;
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  z-index: 1;
+}
 .card__heading a:focus:after {
   box-shadow: 0 0 0 0.3rem rgb(var(--color-background)), 0 0 0.5rem 0.4rem rgba(var(--color-foreground), 0.3);
   outline: 0.2rem solid rgba(var(--color-foreground), 0.5);

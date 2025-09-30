@@ -34,6 +34,234 @@
     ]
   },
   {
+    "name": "Multicolumn Services Box",
+    "settings": [
+       {
+          "type": "image_picker",
+          "id": "icon1",
+          "label": "Icon"
+        },
+        {
+          "type": "richtext",
+          "id": "heading1",
+          "default": "<p>Column heading</p>",
+          "label": "Heading"
+        },
+        {
+          "type": "richtext",
+          "id": "text1",
+          "default": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>",
+          "label": "Text"
+        }, 
+       {
+          "type": "image_picker",
+          "id": "icon2",
+          "label": "Icon"
+        },
+        {
+          "type": "richtext",
+          "id": "heading2",
+          "default": "<p>Column heading</p>",
+          "label": "Heading"
+        },
+        {
+          "type": "richtext",
+          "id": "text2",
+          "default": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>",
+          "label": "Text"
+        }, 
+       {
+          "type": "image_picker",
+          "id": "icon3",
+          "label": "Icon"
+        },
+        {
+          "type": "richtext",
+          "id": "heading3",
+          "default": "<p>Column heading</p>",
+          "label": "Heading"
+        },
+        {
+          "type": "richtext",
+          "id": "text3",
+          "default": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>",
+          "label": "Text"
+        }
+    ]
+  },
+  {
+    "name": "Custom Newsletter",
+    "settings": [
+      {
+        "type": "richtext",
+        "id": "heading",
+        "label": "t:sections.newsletter.blocks.heading.settings.heading.label"
+    },
+    {
+      "type": "richtext",
+      "id": "text_desc",
+      "default": "t:sections.newsletter.blocks.paragraph.settings.paragraph.default",
+      "label": "t:sections.newsletter.blocks.paragraph.settings.paragraph.label"
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Title Color",
+      "default": "#424242"
+    },
+    {
+      "type": "color",
+      "id": "sub_title_color",
+      "label": "SubHeading Color",
+      "default": "#424242"
+    }
+    ]
+  },
+  {
+    "name": "Custom Catalogue",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "product_image",
+        "label": "Product Image"
+      },
+      {
+        "type": "image_picker",
+        "id": "catalog_logo",
+        "label": "Logo"
+      },
+      {
+        "type": "url",
+        "id": "logo_link",
+        "label": "Logo Link"
+      },
+      {
+        "type": "richtext",
+        "id": "catalog_heading",
+        "label": "Heading",
+        "default": "<p>Product Catalog 2024</p>"
+      },
+      {
+        "type": "range",
+        "id": "custom_heading_size",
+        "min": 20,
+        "max": 70,
+        "step": 1,
+        "default": 52,
+        "unit": "px",
+        "label": "Heading Size"
+      },
+      {
+        "type": "range",
+        "id": "mobile_custom_heading_size",
+        "min": 20,
+        "max": 40,
+        "step": 1,
+        "default": 28,
+        "unit": "px",
+        "label": "Mobile Heading Size"
+      },
+      {
+        "type": "select",
+        "id": "custom_font_weight",
+        "label": "Font Weight",
+        "default": "400",
+        "options": [
+          { "label": "Thin (100)", "value": "100" },
+          { "label": "Extra Light (200)", "value": "200" },
+          { "label": "Light (300)", "value": "300" },
+          { "label": "Regular (400)", "value": "400" },
+          { "label": "Medium (500)", "value": "500" },
+          { "label": "Semi Bold (600)", "value": "600" },
+          { "label": "Bold (700)", "value": "700" },
+          { "label": "Extra Bold (800)", "value": "800" },
+          { "label": "Black (900)", "value": "900" },
+          { "label": "None", "value": "none" }
+        ]
+      },
+      {
+        "type": "color_scheme",
+        "id": "color_scheme",
+        "label": "t:sections.all.colors.label",
+        "default": "scheme-1"
+      },
+      {
+        "type": "richtext",
+        "id": "description",
+        "label": "Description",
+        "default": "<p>Click the link to view our comprehensive product and services catalog. View in a browser window without the need for a download.</p>"
+      },
+      {
+        "type": "text",
+        "id": "button_1_text",
+        "label": "Secondary Button Text",
+        "default": "View Catalog"
+      },
+      {
+        "type": "url",
+        "id": "button_1_link",
+        "label": "Primary Button Link"
+      },
+      {
+        "type": "text",
+        "id": "button_2_text",
+        "label": "Primary Button Text",
+        "default": "Download Catalog"
+      },
+      {
+        "type": "url",
+        "id": "button_2_link",
+        "label": "Secondary Button Link"
+      },
+      {
+        "type": "checkbox",
+        "id": "reverse_column",
+        "label": "Reverse columns",
+        "default": false
+      },
+      {
+        "type": "color",
+        "id": "catalog_title_color",
+        "label": "Title Color",
+        "default": "#424242"
+      },
+      {
+        "type": "color",
+        "id": "subheading_color",
+        "label": "SubHeading Color",
+        "default": "#424242"
+      }
+    ]
+  },
+  {
+    "name": "Email Signup",
+    "settings": [
+      {
+      "type": "richtext",
+      "id": "news_heading",
+      "label": "t:sections.newsletter.blocks.heading.settings.heading.label"
+    },
+    {
+        "type": "richtext",
+        "id": "news_text",
+        "default": "t:sections.newsletter.blocks.paragraph.settings.paragraph.default",
+        "label": "t:sections.newsletter.blocks.paragraph.settings.paragraph.label"
+    },
+    {
+      "type": "color",
+      "id": "news_title_color",
+      "label": "Title Color",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "news_subheading_color",
+      "label": "SubHeading Color",
+      "default": "#fff"
+    }
+    ]
+  },
+  {
     "name": "t:settings_schema.colors.name",
     "settings": [
       {
@@ -138,6 +366,50 @@
         "default": 100
       },
       {
+        "type": "select",
+        "id": "main_font_weight",
+        "label": "Heading Font Weight",
+        "default": "400",
+        "options": [
+          { "label": "Thin (100)", "value": "100" },
+          { "label": "Extra Light (200)", "value": "200" },
+          { "label": "Light (300)", "value": "300" },
+          { "label": "Regular (400)", "value": "400" },
+          { "label": "Medium (500)", "value": "500" },
+          { "label": "Semi Bold (600)", "value": "600" },
+          { "label": "Bold (700)", "value": "700" },
+          { "label": "Extra Bold (800)", "value": "800" },
+          { "label": "Black (900)", "value": "900" }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "main_subheading_font_weight",
+        "label": "SubHeading Font Weight",
+        "default": "400",
+        "options": [
+          { "label": "Thin (100)", "value": "100" },
+          { "label": "Extra Light (200)", "value": "200" },
+          { "label": "Light (300)", "value": "300" },
+          { "label": "Regular (400)", "value": "400" },
+          { "label": "Medium (500)", "value": "500" },
+          { "label": "Semi Bold (600)", "value": "600" },
+          { "label": "Bold (700)", "value": "700" },
+          { "label": "Extra Bold (800)", "value": "800" },
+          { "label": "Black (900)", "value": "900" }
+        ]
+      },
+      {
+        "type": "range",
+        "id": "heading_lettespecing",
+        "label": "Heading Letter-Spacing",
+        "min": 0.1,
+        "max": 5.5,
+        "step": 0.1,
+        "unit": "px",
+        "default": 1.0
+      },
+      {
         "type": "header",
         "content": "t:settings_schema.typography.settings.header__2.content"
       },
@@ -157,7 +429,34 @@
         "unit": "%",
         "label": "t:settings_schema.typography.settings.body_scale.label",
         "default": 100
-      }
+      },
+      {
+        "type": "select",
+        "id": "main_body_font_weight",
+        "label": "Body Font Weight",
+        "default": "400",
+        "options": [
+          { "label": "Thin (100)", "value": "100" },
+          { "label": "Extra Light (200)", "value": "200" },
+          { "label": "Light (300)", "value": "300" },
+          { "label": "Regular (400)", "value": "400" },
+          { "label": "Medium (500)", "value": "500" },
+          { "label": "Semi Bold (600)", "value": "600" },
+          { "label": "Bold (700)", "value": "700" },
+          { "label": "Extra Bold (800)", "value": "800" },
+          { "label": "Black (900)", "value": "900" }
+        ]
+      },
+      {
+        "type": "range",
+        "id": "body_lettespecing",
+        "label": "Body Letter-Spacing",
+        "min": 0.1,
+        "max": 5.5,
+        "step": 0.1,
+        "unit": "px",
+        "default": 1.0
+      },
     ]
   },
   {
@@ -210,6 +509,11 @@
         "default": 8,
         "unit": "px",
         "label": "t:settings_schema.layout.settings.spacing_grid_vertical.label"
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_popup_view",
+        "label": "Enable popup for View button"
       }
     ]
   },
@@ -1346,6 +1650,18 @@
         "id": "social_youtube_link",
         "label": "t:settings_schema.social-media.settings.social_youtube_link.label",
         "placeholder": "t:settings_schema.social-media.settings.social_youtube_link.info"
+      },
+      {
+        "type": "text",
+        "id": "linkdin",
+        "label": "LinkedIn",
+        "placeholder": "https://www.linkdin.com/shopify"
+      },
+      {
+        "type": "text",
+        "id": "email",
+        "label": "Email",
+        "placeholder": "https://www.email.com/shopify"
       },
       {
         "type": "text",

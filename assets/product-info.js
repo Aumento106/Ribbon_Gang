@@ -10,11 +10,22 @@ if (!customElements.get('product-info')) {
       pendingRequestUrl = null;
       preProcessHtmlCallbacks = [];
       postProcessHtmlCallbacks = [];
+      originalPrice = null;
+      salePrice = null;
 
       constructor() {
         super();
 
         this.quantityInput = this.querySelector('.quantity__input');
+        // Store the original price when component is initialized
+        const priceElement = this.querySelector('.price-item.price-item--regular');
+        const salePriceElement = this.querySelector('.price__sale .price-item--sale');
+        if (priceElement) {
+          this.originalPrice = parseFloat(priceElement.textContent.replace(/[^0-9.-]+/g, ''));
+        }
+        if (salePriceElement) {
+          this.salePrice = parseFloat(salePriceElement.textContent.replace(/[^0-9.-]+/g, ''));
+        }
       }
 
       connectedCallback() {
@@ -43,6 +54,10 @@ if (!customElements.get('product-info')) {
         if (!this.dataset.originalSection) {
           this.cartUpdateUnsubscriber = subscribe(PUB_SUB_EVENTS.cartUpdate, this.fetchQuantityRules.bind(this));
         }
+
+        // Add event listener for quantity changes
+        this.quantityInput.addEventListener('change', this.updateTotalPrice.bind(this));
+        this.quantityInput.addEventListener('input', this.updateTotalPrice.bind(this));
       }
 
       disconnectedCallback() {
@@ -192,6 +207,16 @@ if (!customElements.get('product-info')) {
           updateSourceFromDestination('ShippingBar', ({ innerText }) => innerText === '');
           updateSourceFromDestination('Volume');
           updateSourceFromDestination('Price-Per-Item', ({ classList }) => classList.contains('hidden'));
+
+          // Update the original price and sale price when variant changes
+          const priceElement = this.querySelector('.price-item.price-item--regular');
+          const salePriceElement = this.querySelector('.price__sale .price-item--sale');
+          if (priceElement) {
+            this.originalPrice = parseFloat(priceElement.textContent.replace(/[^0-9.-]+/g, ''));
+          }
+          if (salePriceElement) {
+            this.salePrice = parseFloat(salePriceElement.textContent.replace(/[^0-9.-]+/g, ''));
+          }
 
           this.updateQuantityRules(this.sectionId, html);
           this.querySelector(`#Quantity-Rules-${this.dataset.section}`)?.classList.remove('hidden');
@@ -375,6 +400,7 @@ if (!customElements.get('product-info')) {
             current.innerHTML = updated.innerHTML;
           }
         }
+        this.updateTotalPrice();
       }
 
       get productForm() {
@@ -411,6 +437,42 @@ if (!customElements.get('product-info')) {
 
       get sectionId() {
         return this.dataset.originalSection || this.dataset.section;
+      }
+
+      updateTotalPrice() {
+        const quantity = parseInt(this.quantityInput.value);
+        const priceElement = this.querySelector('.price-item.price-item--regular');
+        const salePriceElement = this.querySelector('.price__sale .price-item--sale');
+        
+        if (!priceElement) return;
+
+        // Calculate total price using the appropriate price (sale or regular)
+        const basePrice = salePriceElement ? this.salePrice : this.originalPrice;
+        if (!basePrice) return;
+
+        const totalPrice = basePrice * quantity;
+
+        // Format the price with currency symbol and proper decimal places
+        const formattedPrice = this.formatMoney(totalPrice);
+
+        // Update both regular and sale price displays if they exist
+        if (salePriceElement) {
+          salePriceElement.textContent = formattedPrice;
+        }
+        priceElement.textContent = formattedPrice;
+      }
+
+      formatMoney(amount) {
+        // Get the currency symbol from the original price element
+        const originalPriceElement = this.querySelector('.price-item.price-item--regular');
+        const originalPriceText = originalPriceElement.textContent;
+        const currencySymbol = originalPriceText.match(/[^0-9.,]+/)[0];
+
+        // Format the number with 2 decimal places
+        const formattedAmount = amount.toFixed(2);
+
+        // Combine currency symbol and amount
+        return `${currencySymbol}${formattedAmount}`;
       }
     }
   );

@@ -9,71 +9,148 @@
  */
 {
   "sections": {
+    "custom_page_banner_k3ABdf": {
+      "type": "custom-page-banner",
+      "blocks": {
+        "slide_E9NVL6": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image_overlay_opacity": 0
+          }
+        },
+        "slide_hGYB9A": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/winding-road-covered-in-autumn-trees.jpg",
+            "image_overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "slide_E9NVL6",
+        "slide_hGYB9A"
+      ],
+      "name": "TF Custom Page Slideshow",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "small",
+        "image_behavior": "none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_breadcrumb_JneyLg": {
+      "type": "section-breadcrumb",
+      "settings": {
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "padding_top": 30,
+        "padding_bottom": 60,
+        "mobile_padding_top": 30,
+        "mobile_padding_bottom": 30
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
         "icon_text_4xM6N7": {
           "type": "icon_text",
           "settings": {
-            "icon_image": "shopify://shop_images/Frame_809565a1-1d00-43ba-8b44-8dfbb979c689.png",
-            "icon_text": "Free Shipping"
+            "icon_image": "shopify://shop_images/shipping-truck_e6850ce2-b0a2-44e3-b33f-447e9d2adff1.svg",
+            "icon_text": "Free shipping"
           }
         },
         "icon_text_zQ3wVr": {
           "type": "icon_text",
           "settings": {
-            "icon_image": "shopify://shop_images/Vector_3.png",
-            "icon_text": "Premium Materials"
+            "icon_image": "shopify://shop_images/premium-material.svg",
+            "icon_text": "Premium materials"
           }
         },
         "icon_text_reiiVN": {
           "type": "icon_text",
           "settings": {
-            "icon_image": "shopify://shop_images/Vector_3.png",
-            "icon_text": "Premium Materials"
+            "icon_image": "shopify://shop_images/delivery-time.svg",
+            "icon_text": "Fast delivery"
           }
         },
         "product_description_GjJGyV": {
           "type": "product_description",
+          "disabled": true,
           "settings": {
-            "heading": "warranty information",
+            "heading": "WARRANTY iNFORMATION",
+            "accordian_icon_image": "shopify://shop_images/Group_1171277814.svg",
             "icon": "check_mark",
-            "content": "<p><strong>Lorem Ipsum </strong>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>"
+            "content": "<p>All SpaceLogic Accessories are backed by a 5-year warranty against faulty manufacture or workmanship under normal use. This warranty applies only when installed and used according to our guidelines. For full details, please refer to our Warranty Certificate.</p>"
           }
         },
         "collapsible_tab_WGBYJ7": {
           "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "BROCHURE OR SPEC SHEET",
+            "accordian_icon_image": "shopify://shop_images/Group_1171277814_1.svg",
+            "icon": "check_mark",
+            "content": "{{ product.metafields.custom.brochure_description | metafield_tag }}<p>Request a Room Design → Collaborate with our consultants to optimise your layout.<br/><br/></p><p>Request a Custom Quote → Get pricing tailored to your signage and configuration needs.<br/><br/></p><p>Request a Mini Exhibition → See STERIRACK® signage solutions in action, on-site.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_HaEpLp": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Warranty information",
+            "accordian_icon_image": "shopify://shop_images/Group_1171277814.svg",
+            "icon": "check_mark",
+            "content": "<p>All SpaceLogic accessories are backed by a 5-year warranty against faulty manufacture or workmanship under normal use. This warranty applies only when installed and used according to our guidelines. For full details, please refer to our Warranty Certificate. (<a href=\"https://online.flippingbook.com/view/308211667/\" target=\"_blank\" title=\"https://online.flippingbook.com/view/308211667/\">https://online.flippingbook.com/view/308211667/</a>). Please note that all section headings should be in light, not in bold.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_cEBm8X": {
+          "type": "collapsible_tab",
           "settings": {
             "heading": "Brochure or spec sheet",
+            "accordian_icon_image": "shopify://shop_images/Group_1171277814_1.svg",
             "icon": "check_mark",
-            "content": "",
+            "content": "<p>Explore the full range of SpaceLogic products and services with our comprehensive product catalogue. Inside, you’ll find detailed specifications, features, and configurations to help you choose the right products for your project. Whether you’re planning a small upgrade or a full facility fitout, our catalogue is your go-to resource for inspiration and technical guidance. View product catalogue (<a href=\"https://online.flippingbook.com/view/393434/13/\" title=\"https://online.flippingbook.com/view/393434/13/\">catalogue flipping book</a>)</p>",
             "page": ""
           }
         },
         "collapsible_tab_mY4f8B": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
-            "heading": "request a room design or custom quote",
+            "heading": "REQUEST A ROOM DESIGN OR CUSTOM QUOTE",
+            "accordian_icon_image": "shopify://shop_images/Group_1171277814_2.svg",
             "icon": "check_mark",
-            "content": "",
+            "content": "<p>Request a Room Design → Collabrorate with our consultants to optimise your layout.<br/></p><p>Request a Custom Quote → Get pricing tailored to your signage and configuration needs.</p>",
             "page": ""
           }
         },
         "collapsible_tab_HpkKRY": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "request a mini exhibition",
+            "heading": "Request a mini exhibition",
+            "accordian_icon_image": "shopify://shop_images/Group_1171277814_3.svg",
             "icon": "check_mark",
-            "content": "",
+            "content": "<p>Experience the SpaceLogic Mini Exhibition, a tailored showcase that brings the gold standard in clinical storage right to your facility. Our team will walk you through STERIRACK® System’s design and concept capabilities, while you share your plans and objectives, so we can create the best outcome together. Discover how SpaceLogic can define the path forward for your project and give you complete confidence in achieving the optimal clinical storage solution. Learn more (<a href=\"https://online.flippingbook.com/view/308232103/\" target=\"_blank\" title=\"https://online.flippingbook.com/view/308232103/\">https://online.flippingbook.com/view/308232103/</a>)</p>",
             "page": ""
+          }
+        },
+        "specifications_prC9K9": {
+          "type": "Specifications",
+          "settings": {
+            "Heading_sp": "Features & benefits",
+            "sub_heading": "",
+            "content": ""
           }
         },
         "q_a_Fz3EyY": {
           "type": "Q_A",
+          "disabled": true,
           "settings": {
             "Heading_qa": "Q&A",
             "sub_heading1": "",
-            "content1": "<p>Lorem ipsum odor amet, consectetuer adipiscing elit. Auctor pharetra aliquet magna pharetra condimentum suscipit. Nostra sit accumsan; senectus congue tristique feugiat. Gravida magna etiam nascetur, pellentesque etiam pretium fermentum.</p>",
+            "content1": "{{ product.metafields.custom.qa_details | metafield_tag }}",
             "sub_heading2": "",
             "content2": "",
             "sub_heading3": "",
@@ -84,26 +161,36 @@
             "content5": ""
           }
         },
-        "specifications_prC9K9": {
+        "specifications_G4hKqK": {
           "type": "Specifications",
           "settings": {
-            "Heading_sp": "Specs",
-            "sub_heading": "Specifications",
-            "content": "<p>Lorem ipsum odor amet, consectetuer adipiscing elit. Auctor pharetra aliquet magna pharetra condimentum suscipit. Nostra sit accumsan; senectus congue tristique feugiat. Gravida magna etiam nascetur, pellentesque etiam pretium fermentum.</p>"
+            "Heading_sp": "Delivery",
+            "sub_heading": "",
+            "content": "<p>Products are dispatched from our warehouse in Orange, NSW. Standard lead times apply for core accessories and shelving systems. For large-scale projects or international shipping, a dedicated project coordinator will work with you on timelines and freight solutions.</p>"
+          }
+        },
+        "specifications_hgHdtk": {
+          "type": "Specifications",
+          "settings": {
+            "Heading_sp": "Care",
+            "sub_heading": "",
+            "content": "<ul><li>Clean with mild detergent or hospital-grade disinfectants</li><li>Avoid abrasive pads or strong acid-based cleaners</li><li>Autoclavable items are labelled accordingly</li><li>Do not overload baskets, bins, or shelves beyond rated capacity</li></ul>"
+          }
+        },
+        "vendor_logo_AtNTKn": {
+          "type": "vendor_logo",
+          "settings": {
+            "vendor_logo_img": "shopify://shop_images/Frame_1171278104.svg"
           }
         },
         "title": {
           "type": "title",
           "settings": {}
         },
-        "price": {
-          "type": "price",
-          "settings": {}
-        },
         "text_z8PRWE": {
           "type": "text",
           "settings": {
-            "text": "Simple design: Simple button design, simple operation, practical function, SATA power supply, compact and exquisite, cool lighting mode, extended interface cable design, convenient connection, and meet the needs of most cases for cable length.",
+            "text": "{{ product.description }}",
             "text_style": "body"
           }
         },
@@ -118,31 +205,49 @@
             "swatch_shape": "circle"
           }
         },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
         "inventory_7FwdWm": {
           "type": "inventory",
           "settings": {
             "text_style": "body",
             "inventory_threshold": 20,
-            "show_inventory_quantity": false
+            "show_inventory_quantity": false,
+            "share_label": "Share"
           }
+        },
+        "share_YcN6pn": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false,
+            "request_quote_btn": "Request a quote",
+            "request_quote_btn_link": "shopify://pages/contact",
+            "enquire_now": "Enquire now",
+            "enquire_now_link": "shopify://pages/contact"
           }
         },
         "shipping_bar_EAdyyd": {
           "type": "shipping_bar",
+          "disabled": true,
           "settings": {}
         },
         "complementary_bgcUGQ": {
           "type": "complementary",
+          "disabled": true,
           "settings": {
             "block_heading": "",
             "make_collapsible_row": false,
@@ -161,17 +266,23 @@
         "icon_text_reiiVN",
         "product_description_GjJGyV",
         "collapsible_tab_WGBYJ7",
+        "collapsible_tab_HaEpLp",
+        "collapsible_tab_cEBm8X",
         "collapsible_tab_mY4f8B",
         "collapsible_tab_HpkKRY",
-        "q_a_Fz3EyY",
         "specifications_prC9K9",
+        "q_a_Fz3EyY",
+        "specifications_G4hKqK",
+        "specifications_hgHdtk",
+        "vendor_logo_AtNTKn",
         "title",
-        "price",
         "text_z8PRWE",
         "sku_4xMVrm",
         "variant_picker",
-        "quantity_selector",
         "inventory_7FwdWm",
+        "share_YcN6pn",
+        "quantity_selector",
+        "price",
         "buy_buttons",
         "shipping_bar_EAdyyd",
         "complementary_bgcUGQ"
@@ -182,14 +293,14 @@
         "media_size": "medium",
         "constrain_to_viewport": true,
         "media_fit": "contain",
-        "gallery_layout": "thumbnail_slider",
+        "gallery_layout": "stacked",
         "media_position": "left",
         "image_zoom": "hover",
         "mobile_thumbnails": "show",
         "hide_variants": true,
         "enable_video_looping": false,
-        "padding_top": 72,
-        "padding_bottom": 72
+        "padding_top": 0,
+        "padding_bottom": 64
       }
     },
     "rich_text_dwzN8N": {
@@ -199,7 +310,9 @@
           "type": "heading",
           "settings": {
             "heading": "Transport Case Cart <strong>Details</strong>",
-            "heading_size": "h1"
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
           }
         }
       },
@@ -208,7 +321,6 @@
       ],
       "disabled": true,
       "settings": {
-        "desktop_content_position": "center",
         "content_alignment": "center",
         "content_width": "full_width",
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
@@ -226,7 +338,9 @@
           "type": "heading",
           "settings": {
             "heading": "Superior Strength and Durability",
-            "heading_size": "h1"
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
           }
         },
         "text_XWWeWi": {
@@ -255,7 +369,8 @@
         "image": "shopify://shop_images/superior-strength-and-durability.png",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "full_width": false,
+        "container_size": "page-width",
+        "both_image_content_size": false,
         "video_url": "",
         "enable_video_looping": false,
         "layout": "image_first",
@@ -277,7 +392,9 @@
           "type": "heading",
           "settings": {
             "heading": "Identification and labeling",
-            "heading_size": "h1"
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
           }
         },
         "text_FYk9bD": {
@@ -306,7 +423,8 @@
         "image": "shopify://shop_images/identification-and-labeling.png",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "full_width": false,
+        "container_size": "page-width",
+        "both_image_content_size": false,
         "video_url": "",
         "enable_video_looping": false,
         "layout": "text_first",
@@ -328,7 +446,9 @@
           "type": "heading",
           "settings": {
             "heading": "Towing and transport",
-            "heading_size": "h1"
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
           }
         },
         "text_dkB3at": {
@@ -357,7 +477,8 @@
         "image": "shopify://shop_images/towing-and-transport.png",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "full_width": false,
+        "container_size": "page-width",
+        "both_image_content_size": false,
         "video_url": "",
         "enable_video_looping": false,
         "layout": "image_first",
@@ -379,7 +500,9 @@
           "type": "heading",
           "settings": {
             "heading": "Protection and maneuvrability",
-            "heading_size": "h1"
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
           }
         },
         "text_kF7KLU": {
@@ -408,7 +531,8 @@
         "image": "shopify://shop_images/STERIRACK-transport-case-cart-25_1.png",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "full_width": false,
+        "container_size": "page-width",
+        "both_image_content_size": false,
         "video_url": "",
         "enable_video_looping": false,
         "layout": "text_first",
@@ -430,7 +554,9 @@
           "type": "heading",
           "settings": {
             "heading": "Internal configuration",
-            "heading_size": "h1"
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
           }
         },
         "text_er44G4": {
@@ -459,7 +585,8 @@
         "image": "shopify://shop_images/STERIRACK-transport-case-cart-26.png",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "full_width": false,
+        "container_size": "page-width",
+        "both_image_content_size": false,
         "video_url": "",
         "enable_video_looping": false,
         "layout": "image_first",
@@ -481,7 +608,9 @@
           "type": "heading",
           "settings": {
             "heading": "Door features",
-            "heading_size": "h1"
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
           }
         },
         "text_jMmCWC": {
@@ -510,7 +639,8 @@
         "image": "shopify://shop_images/STERIRACK-transport-case-cart-27.png",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "full_width": false,
+        "container_size": "page-width",
+        "both_image_content_size": false,
         "video_url": "",
         "enable_video_looping": false,
         "layout": "text_first",
@@ -531,7 +661,8 @@
         "image_Y8tbgH": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/transport-case-carts-samples.png"
+            "image": "shopify://shop_images/transport-case-carts-samples.png",
+            "image_page_container": "page-width"
           }
         }
       },
@@ -540,9 +671,14 @@
       ],
       "disabled": true,
       "settings": {
+        "page_container": "full-width",
         "title": "Internal Configuration <strong>Samples</strong>",
-        "heading_size": "h1",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "heading_alignment": "center",
+        "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
+        "text_content_alignment": "center",
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "padding_top": 36,
         "padding_bottom": 36
@@ -554,7 +690,8 @@
         "image_KgDRNk": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/transport-case-carts-dimensions.png"
+            "image": "shopify://shop_images/transport-case-carts-dimensions.png",
+            "image_page_container": "page-width"
           }
         }
       },
@@ -563,9 +700,14 @@
       ],
       "disabled": true,
       "settings": {
+        "page_container": "full-width",
         "title": "Product <strong>Dimensions</strong>",
-        "heading_size": "h1",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "heading_alignment": "center",
+        "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
+        "text_content_alignment": "center",
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "padding_top": 36,
         "padding_bottom": 72
@@ -588,9 +730,9 @@
     "related-products": {
       "type": "related-products",
       "settings": {
-        "title": "Related <strong>Products</strong>",
-        "heading_size": "h1",
-        "heading_alignment": "center",
+        "title": "You may also like",
+        "heading_size": "h0",
+        "heading_alignment": "left",
         "products_to_show": 4,
         "columns_desktop": 4,
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
@@ -604,6 +746,55 @@
         "columns_mobile": "2",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "custom_image_text_slider_k9tKHM": {
+      "type": "custom-Image-text-slider",
+      "blocks": {
+        "slide_UBnzye": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Concept_5.png",
+            "offer_title": "",
+            "heading": "<p>BIM Files</p>",
+            "block_custom_heading_size": 52,
+            "mobile_block_custom_heading_size": 28,
+            "block_custom_font_weight": "400",
+            "text": "<p>BIM files are available for download on request. To protect specification integrity, access is granted to trusted partners via password or tokenised link. Please contact us to request access and include your project or firm details for review.</p>",
+            "button_label": "BIM file request",
+            "button_link": "mailto:sales@spacelogicgroup.com",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_UBnzye"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_content_page_width": false,
+        "heading": "",
+        "sec_des": "",
+        "title_color": "#ffffff",
+        "subheading_color": "#ffffff",
+        "title_alignment": "center",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
+        "layout": "image_first",
+        "content_layout": "no-overlap",
+        "height": "extra-small",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "show_button_on_image": false,
+        "show_half_slide": false,
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "section_color_scheme": "scheme-28b9a3ce-e916-452a-9440-95fefcedbf92",
+        "offer_title_color": "#ffce00",
+        "show_pagination": true,
+        "padding_top": 70,
+        "padding_bottom": 70
       }
     },
     "faq_collapsible_content_QQxiNJ": {
@@ -680,93 +871,42 @@
         "padding_bottom": 72
       }
     },
-    "custom_image_text_slider_qnArW6": {
-      "type": "custom-Image-text-slider",
-      "blocks": {
-        "slide_iCMmUq": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Concept_5_bac74a20-bd01-40dc-a7e1-fcc5e77cbdfe.png",
-            "offer_title": "",
-            "heading": "<p>BIM Files</p>",
-            "heading_size": "h1",
-            "text": "<p>Tusandanda sit ut lis dolore platiatiasit eturia  quam rem eniminime omnimintore plit pediti iur  ma commole caborem quatum quuntur raecesto  quiassimus explica tecepudam, si nobit evelitem  ipienist et resto enia quo evelenis ditas.</p>",
-            "button_label": "BIM File Request",
-            "offer_code_txt": "",
-            "button_link": "shopify://collections",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "slide_iCMmUq"
-      ],
-      "settings": {
-        "heading": "",
-        "title_alignment": "left",
-        "heading_size": "h1",
-        "layout": "image_first",
-        "content_layout": "no-overlap",
-        "height": "adapt",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "mobile_content_alignment": "left",
-        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "section_color_scheme": "",
-        "offer_title_color": "#ffce00",
-        "autoplay": false,
-        "autoplay_speed": 5,
-        "show_pagination": true,
-        "dot_color": "#000000",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "product_catalog_LjhqD8": {
+    "product_catalog_3wJXkE": {
       "type": "product-catalog",
+      "disabled": true,
       "settings": {
-        "product_image": "shopify://shop_images/image_104.png",
-        "logo_link": "",
-        "heading": "<p>View our cataloguein your browser window</p>",
-        "heading_size": "h1",
-        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "description": "<p>View online or download a PDF, et quo bea suntion serrovide  por aute natempos erovita ium quunt iumquae plab intium fuga.  Temolore conescidis repudam alicient fugit expland ucipsant</p>",
-        "button_1_text": "View Catalog",
-        "button_1_link": "",
-        "button_2_text": "View Catalogue",
-        "button_2_link": "shopify://collections",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     },
-    "proudly_support_YNWedy": {
+    "proudly_support_NnMGAw": {
       "type": "proudly-support",
       "blocks": {
-        "support_item_hHbRwD": {
+        "support_item_3Hcczh": {
           "type": "support_item",
           "settings": {
             "image": "shopify://shop_images/support-logo-1.png"
           }
         },
-        "support_item_BrMipR": {
+        "support_item_fjND3Q": {
           "type": "support_item",
           "settings": {
             "image": "shopify://shop_images/support-logo-2.png"
           }
         },
-        "support_item_3UqxpH": {
+        "support_item_tApGYX": {
           "type": "support_item",
           "settings": {
             "image": "shopify://shop_images/support-logo-5.png"
           }
         },
-        "support_item_PpGFCx": {
+        "support_item_pzJMPa": {
           "type": "support_item",
           "settings": {
             "image": "shopify://shop_images/support-logo-4.png"
           }
         },
-        "support_item_iFqgQn": {
+        "support_item_DnVgCF": {
           "type": "support_item",
           "settings": {
             "image": "shopify://shop_images/support-logo-3.png"
@@ -774,23 +914,51 @@
         }
       },
       "block_order": [
-        "support_item_hHbRwD",
-        "support_item_BrMipR",
-        "support_item_3UqxpH",
-        "support_item_PpGFCx",
-        "support_item_iFqgQn"
+        "support_item_3Hcczh",
+        "support_item_fjND3Q",
+        "support_item_tApGYX",
+        "support_item_pzJMPa",
+        "support_item_DnVgCF"
       ],
+      "disabled": true,
       "settings": {
-        "heading": "<p>We proudly Support</p>",
-        "heading_size": "h1",
+        "heading": "<p>We Proudly Support</p>",
         "title_alignment": "center",
         "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "title_color": "#424242",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "newsletter_yynjMi": {
+      "type": "newsletter",
+      "blocks": {
+        "email_form_hDfKeN": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "email_form_hDfKeN"
+      ],
+      "disabled": true,
+      "name": "t:sections.newsletter.presets.name",
+      "settings": {
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "full_width": true,
+        "news_custom_heading_size": 52,
+        "news_mobile_custom_heading_size": 28,
+        "news_font_weight": "400",
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "margin_top": 0,
+        "margin_bottom": 0
       }
     }
   },
   "order": [
+    "custom_page_banner_k3ABdf",
+    "section_breadcrumb_JneyLg",
     "main",
     "rich_text_dwzN8N",
     "image_with_text_v1_HEUki7",
@@ -803,9 +971,10 @@
     "image_with_no_text_pt9hhC",
     "shipping_estimate_7eHtJy",
     "related-products",
+    "custom_image_text_slider_k9tKHM",
     "faq_collapsible_content_QQxiNJ",
-    "custom_image_text_slider_qnArW6",
-    "product_catalog_LjhqD8",
-    "proudly_support_YNWedy"
+    "product_catalog_3wJXkE",
+    "proudly_support_NnMGAw",
+    "newsletter_yynjMi"
   ]
 }

@@ -9,15 +9,36 @@
  */
 {
   "sections": {
+    "section_breadcrumb_g9wGqh": {
+      "type": "section-breadcrumb",
+      "settings": {
+        "color_scheme": "",
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "mobile_padding_top": 30,
+        "mobile_padding_bottom": 30
+      }
+    },
     "main": {
       "type": "main-page",
       "settings": {
+        "color_scheme": "",
         "padding_top": 28,
         "padding_bottom": 28
+      }
+    },
+    "product_catalog_WC6h8B": {
+      "type": "product-catalog",
+      "disabled": true,
+      "settings": {
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     }
   },
   "order": [
-    "main"
+    "section_breadcrumb_g9wGqh",
+    "main",
+    "product_catalog_WC6h8B"
   ]
 }

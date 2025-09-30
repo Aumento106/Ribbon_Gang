@@ -9,57 +9,27 @@
  */
 {
   "sections": {
-    "page_banner_iVH9eY": {
-      "type": "page-banner",
+    "custom_page_banner_RcYaKi": {
+      "type": "custom-page-banner",
       "blocks": {
-        "image_W4zerL": {
-          "type": "image",
+        "slide_hejNNy": {
+          "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/6.jpg",
-            "border_radius": true
-          }
-        },
-        "heading_pVBz9T": {
-          "type": "heading",
-          "settings": {
-            "heading": "Project Management and <strong>Expert Installation</strong>",
-            "heading_size": "h0",
-            "heading_alignment": "center"
-          }
-        },
-        "text_KdCiWp": {
-          "type": "text",
-          "settings": {
-            "text": "<p>STERIRACK® System installations are a beautiful thing to watch. They happen quickly and efficiently because no old-fashioned joinery or cabinetry is required! Our team will arrive at your facility and before you know it, you will see clean, shiny baskets, shelves, drawers and benches ready to be stocked with consumables. With no fuss, no hassle and very little interruption to everyday operations, or other tradespeople. Our installation team is ready to travel anywhere. However, if for some reason another team must be engaged (for example, if the borders are closed due to COVID-19 restrictions), we will project manage a local team of suitable tradespeople. Don’t forget, SpaceLogic specializes in custom product design and innovation. For the ultimate tailored solution!</p>",
-            "text_alignment": "center"
-          }
-        },
-        "button_fn8KLw": {
-          "type": "button",
-          "settings": {
-            "button_label": "Next: Product design and innovation",
-            "button_link": "shopify://pages/product-design-and-innovation",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false,
-            "button_alignment": "center"
+            "image": "shopify://shop_images/Banner_image19.jpg",
+            "image_overlay_opacity": 0
           }
         }
       },
       "block_order": [
-        "image_W4zerL",
-        "heading_pVBz9T",
-        "text_KdCiWp",
-        "button_fn8KLw"
+        "slide_hejNNy"
       ],
+      "name": "TF Custom Page Slideshow",
       "settings": {
-        "title_alignment": "center",
-        "full_width": false,
-        "content_width": "full_width",
-        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "padding_top": 72,
-        "padding_bottom": 36
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "image_behavior": "none",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "multicolumn_services_box_Kh8zd7": {
@@ -67,27 +37,15 @@
       "blocks": {
         "column_BpVqDr": {
           "type": "column",
-          "settings": {
-            "icon": "shopify://shop_images/project-consultation.svg",
-            "heading": "<p>Project consultation <br/>and room design</p>",
-            "text": "<p>Each client receives a tailored storage solution that maximizes storage capacity within the available space, and suits its application. All stakeholder needs are incorporated in the design and planning of a new STERIRACK®System installation.</p>"
-          }
+          "settings": {}
         },
         "column_GqV7PJ": {
           "type": "column",
-          "settings": {
-            "icon": "shopify://shop_images/bulb-icon.svg",
-            "heading": "<p>Product customization <br/>and continuous innovation</p>",
-            "text": "<p>We specialize in custom storage solutions for healthcare, and our STERIRACK® System and MEDIBIN™ ranges are exclusive to SpaceLogic. Liaise with our designers to have custom components and accessories created to meet your specific needs.</p>"
-          }
+          "settings": {}
         },
         "column_yL9hGf": {
           "type": "column",
-          "settings": {
-            "icon": "shopify://shop_images/setting-icon.svg",
-            "heading": "<p>Project management <br/>and installation</p>",
-            "text": "<p>Our expert installation team specializes in fast, no-fuss storage installations with minimal interruptions to everyday operations or other trades. Our team travels nationally and internationally, or project manages local tradespeople.</p>"
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -95,9 +53,12 @@
         "column_GqV7PJ",
         "column_yL9hGf"
       ],
+      "disabled": true,
       "settings": {
-        "sec_title": "<p>Three interconnected divisions, delivering <br/>a complete end-to-end <strong>Service</strong></p>",
-        "heading_size": "h1",
+        "sec_title": "<p>Three interconnected divisions, delivering <br/>a complete end-to-end Service</p>",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "title_alignment": "center",
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "icon_bg_color": "#5a5a5a",
@@ -108,10 +69,104 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "multicolumn_services_box_nmcdxw": {
+      "type": "multicolumn-services-box",
+      "blocks": {
+        "column_6VTpxy": {
+          "type": "column",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "column_6VTpxy"
+      ],
+      "disabled": true,
+      "settings": {
+        "sec_title": "<p>Three interconnected divisions, delivering <br/>a complete end-to-end service</p>",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
+        "title_alignment": "center",
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "icon_bg_color": "#5a5a5a",
+        "border_color": "#eeeeee",
+        "columns_desktop": 3,
+        "columns_alignment": "left",
+        "columns_mobile": "1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "page_banner_pt7aUW": {
+      "type": "page-banner",
+      "blocks": {
+        "heading_tXWghx": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ page.title }}",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "600",
+            "heading_alignment": "center"
+          }
+        },
+        "caption_6XxrRH": {
+          "type": "caption",
+          "settings": {
+            "caption": "<p>Turnkey clinical storage installation, delivered with zero disruption</p>",
+            "caption_alignment": "center"
+          }
+        },
+        "text_DJEm7w": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our project management and installation team ensures your clinical storage solution is delivered on time, on site, and with minimal disruption to daily hospital operations. We handle procurement, manufacturing logistics, trade coordination and on-site install, whether it’s a single room or a hospital-wide fit-out.</p><p>If your site is remote, we’ll coordinate local trusted partners under our supervision to maintain our gold-standard quality and compliance benchmarks. From delivery through to handover, we ensure your hospital shelving is functional, cleanable, and ready for clinical use.</p>",
+            "text_alignment": "left"
+          }
+        },
+        "button_qWngFk": {
+          "type": "button",
+          "settings": {
+            "button_label": "Project consultation, planning and room design",
+            "button_link": "shopify://pages/project-consultation-planning-and-room-design",
+            "button_style_secondary": true,
+            "button_label_2": "Product design and innovation",
+            "button_link_2": "shopify://pages/product-design-and-innovation",
+            "button_style_secondary_2": true,
+            "button_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "heading_tXWghx",
+        "caption_6XxrRH",
+        "text_DJEm7w",
+        "button_qWngFk"
+      ],
+      "name": "TF Services Page Banner",
+      "settings": {
+        "title_alignment": "center",
+        "full_width": true,
+        "content_width": "full_width",
+        "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
+        "padding_top": 80,
+        "padding_bottom": 40
+      }
+    },
+    "product_catalog_xQiN4g": {
+      "type": "product-catalog",
+      "settings": {
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
     }
   },
   "order": [
-    "page_banner_iVH9eY",
-    "multicolumn_services_box_Kh8zd7"
+    "custom_page_banner_RcYaKi",
+    "multicolumn_services_box_Kh8zd7",
+    "multicolumn_services_box_nmcdxw",
+    "page_banner_pt7aUW",
+    "product_catalog_xQiN4g"
   ]
 }

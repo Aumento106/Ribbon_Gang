@@ -1,0 +1,81 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "rich_text_P3hBwh": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_mGwXwE": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ page.title }}",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
+          }
+        },
+        "text_7xmpEL": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Remove this line of text</p>",
+            "text_content_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "heading_mGwXwE",
+        "text_7xmpEL"
+      ],
+      "settings": {
+        "content_alignment": "center",
+        "content_width": "full_width",
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "full_width": true,
+        "no_margin": true,
+        "section_border": false,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "section_breadcrumb_JV4FGX": {
+      "type": "section-breadcrumb",
+      "settings": {
+        "color_scheme": "",
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "mobile_padding_top": 30,
+        "mobile_padding_bottom": 30
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "padding_top": 52,
+        "padding_bottom": 28
+      }
+    },
+    "product_catalog_W3r7Xn": {
+      "type": "product-catalog",
+      "disabled": true,
+      "settings": {
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    }
+  },
+  "order": [
+    "rich_text_P3hBwh",
+    "section_breadcrumb_JV4FGX",
+    "main",
+    "product_catalog_W3r7Xn"
+  ]
+}

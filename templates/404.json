@@ -12,9 +12,17 @@
     "main": {
       "type": "main-404",
       "settings": {}
+    },
+    "product_catalog_nrMmqk": {
+      "type": "product-catalog",
+      "settings": {
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "product_catalog_nrMmqk"
   ]
 }

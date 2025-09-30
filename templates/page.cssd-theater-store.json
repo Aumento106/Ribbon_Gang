@@ -18,44 +18,111 @@
         "padding_bottom": 28
       }
     },
-    "page_banner_retx9C": {
-      "type": "page-banner",
+    "custom_page_banner_cGdnFG": {
+      "type": "custom-page-banner",
       "blocks": {
-        "image_pJCHY9": {
-          "type": "image",
+        "slide_rb7dLg": {
+          "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/4.jpg",
-            "border_radius": true
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image_overlay_opacity": 0
           }
         },
-        "heading_HUVM6E": {
-          "type": "heading",
+        "slide_BqRfBF": {
+          "type": "slide",
           "settings": {
-            "heading": "<strong>CSSD and Theater</strong> Store",
-            "heading_size": "h0",
-            "heading_alignment": "center"
-          }
-        },
-        "text_PwM7Xe": {
-          "type": "text",
-          "settings": {
-            "text": "<p>If you work in healthcare you already know about AS4187, and that sterile consumables must be handled and stored in a manner that maintains the integrity of packs and prevents contamination from any source of dust, vermin, sunlight, water and condensation.</p><p>This is where our gold standard STERIRACK®System comes into its own! Designed and manufactured in Australia by SpaceLogic, STERIRACK®System is the complete modular consumables storage solution that can be configured in myriad ways to suit your space and application while exceeding AS4187 compliance.</p><p>Please feel welcome to use the presentation below to introduce your team to this concept, and do not hesitate to contact a SpaceLogic Project Consultant if you have any further questions, or would like to book in for a consultation.</p>",
-            "text_alignment": "center"
+            "image": "shopify://shop_images/winding-road-covered-in-autumn-trees.jpg",
+            "image_overlay_opacity": 0
           }
         }
       },
       "block_order": [
-        "image_pJCHY9",
-        "heading_HUVM6E",
-        "text_PwM7Xe"
+        "slide_rb7dLg",
+        "slide_BqRfBF"
       ],
+      "name": "TF Custom Page Slideshow",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "image_behavior": "none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "page_banner_RXJYp7": {
+      "type": "page-banner",
+      "blocks": {
+        "heading_ddrryP": {
+          "type": "heading",
+          "settings": {
+            "heading": "Modular storage for CSSD and Theatre",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "600",
+            "heading_alignment": "center"
+          }
+        },
+        "caption_PDTedm": {
+          "type": "caption",
+          "settings": {
+            "caption": "<p>AS5369 Compliant sterile storage. Designed for infection control, built for efficiency.</p><h3></h3>",
+            "caption_alignment": "center"
+          }
+        },
+        "text_PWnbfa": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Effective sterile storage in CSSD and operating theatre environments starts with compliance. According to AS5369, sterile consumables must be stored in a way that protects their integrity and prevents contamination from dust, vermin, light, and moisture. That’s why leading hospitals across Australia trust STERIRACK® System, a fully modular clinical storage solution engineered specifically for sterile environments.</p><p>Proudly designed and manufactured in Australia, STERIRACK® System offers industry-leading infection control, durability, and customisation. It’s easy to clean, simple to reconfigure, and fully compatible with CSSD workflows, sterile stock rooms, and theatre consumable storage. With reconfigurable wire-loop baskets, pull-out trays, and a wide variety of other components, the system improves stock visibility, increases access, and enhances compliance across all sterile storage zones.</p><p>With thousands of successful hospital installations, SpaceLogic is the trusted partner in modular healthcare storage. Whether you're upgrading a single sterile store or redesigning your entire CSSD, our team can help you create a clean, compliant and highly efficient space that improves safety, workflow, and usability.</p><p></p>",
+            "text_alignment": "left"
+          }
+        },
+        "caption_e4mgNN": {
+          "type": "caption",
+          "settings": {
+            "caption": "<p>Ready to upgrade your CSSD or sterile theatre storage?<br/>Contact our team to request a consultation, layout design, or on-site presentation.</p>",
+            "caption_alignment": "center"
+          }
+        },
+        "button_eWDNTp": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contact us today",
+            "button_link": "shopify://pages/contact",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "button_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ddrryP",
+        "caption_PDTedm",
+        "text_PWnbfa",
+        "caption_e4mgNN",
+        "button_eWDNTp"
+      ],
+      "name": "TF Page Banner",
       "settings": {
         "title_alignment": "center",
-        "full_width": false,
+        "full_width": true,
         "content_width": "full_width",
-        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "padding_top": 72,
-        "padding_bottom": 36
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "padding_top": 80,
+        "padding_bottom": 40
+      }
+    },
+    "section_breadcrumb_WGNXRX": {
+      "type": "section-breadcrumb",
+      "disabled": true,
+      "name": "TF Breadcrumb",
+      "settings": {
+        "color_scheme": "",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "mobile_padding_top": 20,
+        "mobile_padding_bottom": 20
       }
     },
     "application_list_GJhrcm": {
@@ -64,8 +131,8 @@
         "application_item_DqPWKh": {
           "type": "application_item",
           "settings": {
-            "heading": "<p>CSSD and Theater <strong>presentation</strong></p>",
-            "heading_size": "h1",
+            "heading": "<p><strong>Orange Private Hospital</strong></p>",
+            "heading_size": "h2",
             "heading_alignment": "center",
             "catalog_url": "https://online.flippingbook.com/view/1031758163/"
           }
@@ -74,16 +141,64 @@
       "block_order": [
         "application_item_DqPWKh"
       ],
+      "disabled": true,
       "settings": {
-        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
         "padding_top": 36,
         "padding_bottom": 72
+      }
+    },
+    "multirow_hwRBdr": {
+      "type": "multirow",
+      "blocks": {
+        "row_aatgLe": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Orange_Private_Hospital_flipbook_thumb_49220d61-452e-4025-83b7-697b63f66818.png",
+            "caption": "Orange Private Hospital",
+            "heading": "Heading to go here",
+            "text": "<p>Intro text to go here</p>",
+            "button_label": "View flipping book",
+            "button_link": "https://online.flippingbook.com/view/1031758163/"
+          }
+        }
+      },
+      "block_order": [
+        "row_aatgLe"
+      ],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "large",
+        "desktop_image_width": "large",
+        "heading_size": "h2",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
+        "row_color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
+        "mobile_content_alignment": "left",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "product_catalog_cEjzp9": {
+      "type": "product-catalog",
+      "disabled": true,
+      "settings": {
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     }
   },
   "order": [
     "main",
-    "page_banner_retx9C",
-    "application_list_GJhrcm"
+    "custom_page_banner_cGdnFG",
+    "page_banner_RXJYp7",
+    "section_breadcrumb_WGNXRX",
+    "application_list_GJhrcm",
+    "multirow_hwRBdr",
+    "product_catalog_cEjzp9"
   ]
 }

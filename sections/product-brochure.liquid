@@ -1,10 +1,41 @@
 {{ 'section-product-brochure.css' | asset_url | stylesheet_tag }}
+{{ 'custom-collage.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.55 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.55 | round: 0 }}px;
   }
+  {%- for block in section.blocks -%}
+    .product-brochure-box-content .title--{{ block.id }} {
+      font-size: {{ block.settings.custom_heading_size }}px;
+      {% if block.settings.custom_font_weight == 'none' %}
+        font-weight: var(--subheading-font_weight) !important;
+      {% else %}
+        font-weight: {{ block.settings.custom_font_weight }} !important;
+      {% endif %}
+    }
+    @media screen and (max-width: 1366px) {
+      .product-brochure-box-content .title--{{ block.id }} {
+        font-size: {{ block.settings.custom_heading_size | divided_by: 1.38 }}px;
+      }
+    }
+    @media screen and (max-width: 1199px) {
+      .product-brochure-box-content .title--{{ block.id }} {
+        font-size: {{ block.settings.custom_heading_size | divided_by: 1.3 }}px;
+      }
+    }
+    @media screen and (max-width: 989px) {
+      .product-brochure-box-content .title--{{ block.id }} {
+        font-size: {{ block.settings.custom_heading_size | divided_by: 1.52 }}px;
+      }
+    }
+    @media screen and (max-width: 749px) {
+      .product-brochure-box-content .title--{{ block.id }} {
+        font-size: {{ block.settings.mobile_custom_heading_size }}px;
+      }
+    }
+  {% endfor %}
 
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
@@ -20,6 +51,7 @@
     }
   }
 
+  
 {%- endstyle -%}
 
 <div class="product-brochure section-{{ section.id }} section-{{ section.id }}-padding color-{{ section.settings.color_scheme }} gradient">
@@ -38,7 +70,7 @@
                 {%- endif -%}
                 <div class="product-brochure-box-content">
                     {%- if block.settings.heading != blank -%}
-                        <h3 class="product-brochure-box-title title {{ section.settings.heading_size }}">
+                        <h3 class="product-brochure-box-title title title--{{ block.id }}">
                             {{ block.settings.heading }}
                         </h3>
                     {%- endif -%}
@@ -48,7 +80,7 @@
                         </div>
                     {%- endif -%}
                     {%- if block.settings.btn_text != blank -%}
-                        <a href="{% if block.settings.btn_link != blank %}{{ block.settings.btn_link }}{% else %}#{% endif %}" target="_blank" class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}">
+                        <a href="{% if block.settings.btn_link != blank %}{{ block.settings.btn_link }}{% else %}#{% endif %}" {% unless settings.enable_popup_view %} target="_blank" rel="noopener"{% endunless %} class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %} {% if settings.enable_popup_view %} popup-trigger{% endif %}">
                             {{ block.settings.btn_text }}
                         </a>
                     {%- endif -%}
@@ -57,6 +89,50 @@
         {% endfor %}
     </div>
 </div>
+
+{%- for block in section.blocks -%}
+  <div id="brochure-popup" class="projects-popup-main">
+    <div class="popup-overlay"></div>
+    <button class="popup-close">
+      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="2" y="2" width="28" height="28" rx="14" stroke="#424242" stroke-width="2"></rect>
+        <path d="M22 10L10 22" stroke="#424242" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M10 10L22 22" stroke="#424242" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+      </svg>
+    </button>
+    <div class="popup-content">
+      <iframe src="{{ block.settings.btn_link }}" frameborder="0"></iframe>
+    </div>
+  </div>
+{% endfor %}
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const popup = document.getElementById('brochure-popup');
+    const iframe = popup?.querySelector('iframe');
+    const closeBtn = popup?.querySelector('.popup-close');
+    const overlay = popup?.querySelector('.popup-overlay');
+
+    document.querySelectorAll('.popup-trigger').forEach(button => {
+      button.addEventListener('click', function (e) {
+        e.preventDefault();
+        const url = this.getAttribute('href');
+        if (url && popup && iframe) {
+          iframe.src = url;
+          popup.style.display = 'block';
+        }
+      });
+    });
+
+    function closePopup() {
+      popup.style.display = 'none';
+      iframe.src = '';
+    }
+
+    closeBtn?.addEventListener('click', closePopup);
+    overlay?.addEventListener('click', closePopup);
+  });
+</script>
 
 
 {% schema %}
@@ -97,26 +173,6 @@
       ],
       "default": "image_first",
       "label": "Layout",
-    },
-    {
-        "type": "select",
-        "id": "heading_size",
-        "options": [
-          {
-            "value": "h2",
-            "label": "Small"
-          },
-          {
-            "value": "h1",
-            "label": "Medium"
-          },
-          {
-            "value": "h0",
-            "label": "Large"
-          }
-        ],
-        "default": "h1",
-        "label": "Heading Size"
     },
     {
       "type": "color_scheme",
@@ -164,6 +220,44 @@
           "id": "heading",
           "default": "Heading",
           "label": "Heading"
+        },
+        {
+          "type": "range",
+          "id": "custom_heading_size",
+          "min": 20,
+          "max": 70,
+          "step": 1,
+          "default": 52,
+          "unit": "px",
+          "label": "Heading Size"
+        },
+        {
+          "type": "range",
+          "id": "mobile_custom_heading_size",
+          "min": 20,
+          "max": 40,
+          "step": 1,
+          "default": 28,
+          "unit": "px",
+          "label": "Mobile Heading Size"
+        },
+        {
+          "type": "select",
+          "id": "custom_font_weight",
+          "label": "Font Weight",
+          "default": "400",
+          "options": [
+            { "label": "Thin (100)", "value": "100" },
+            { "label": "Extra Light (200)", "value": "200" },
+            { "label": "Light (300)", "value": "300" },
+            { "label": "Regular (400)", "value": "400" },
+            { "label": "Medium (500)", "value": "500" },
+            { "label": "Semi Bold (600)", "value": "600" },
+            { "label": "Bold (700)", "value": "700" },
+            { "label": "Extra Bold (800)", "value": "800" },
+            { "label": "Black (900)", "value": "900" },
+            { "label": "None", "value": "none" }
+          ]
         },
         {
           "type": "richtext",

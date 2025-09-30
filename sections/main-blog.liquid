@@ -7,6 +7,19 @@
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
+  .blog_main_search {
+    display: flex;
+    margin: 50px auto auto auto;
+    width: 70%;
+  }
+  .blog_main_search input::placeholder,
+  .blog_main_search input {
+    color: #424242;
+    opacity: 1;
+  }
+  .blog_main_search input:focus {
+    padding: 15px;
+  }
 
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
@@ -17,6 +30,14 @@
 {%- endstyle -%}
 
 {%- paginate blog.articles by 100 -%}
+
+  <div class="page-width">
+    <div class="blog_main_search center">
+      <input class="field__input" type="text" id="blogSearch" placeholder="Search blogs...">
+    </div>
+  <div id="noResultsMessage" class="center" style="display:none; color: #d00; margin: 1em 0;"></div>
+  </div>
+  
   <div class="main-blog page-width section-{{ section.id }}-padding color-{{ section.settings.section_color_scheme }}">
     <h1 class="title title--primary{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
       {% if section.settings.blog_title != blank %}
@@ -57,7 +78,7 @@
             {{ section.settings.view_all_btn_text }}
             </a>
           {% else %}
-            <button class="button button--primary">
+            <button class="button button--primary loade-more">
             {{ section.settings.view_all_btn_text }}
             </button>
           {% endif %}

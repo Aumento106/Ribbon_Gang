@@ -1,0 +1,703 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "page_banner_YkpPpf": {
+      "type": "page-banner",
+      "blocks": {
+        "heading_KHPFgM": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ page.title }}",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400",
+            "heading_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "heading_KHPFgM"
+      ],
+      "disabled": true,
+      "name": "Page Banner",
+      "settings": {
+        "title_alignment": "center",
+        "full_width": true,
+        "content_width": "full_width",
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "padding_top": 80,
+        "padding_bottom": 50
+      }
+    },
+    "image_banner_VgKQ7z": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "page_container": "page-width",
+        "image": "shopify://shop_images/Blacktown_1.png",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "auto_height": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 0,
+        "mobile_margin_top": 0,
+        "mobile_margin_bottom": 0
+      }
+    },
+    "section_breadcrumb_F9PzRF": {
+      "type": "section-breadcrumb",
+      "settings": {
+        "color_scheme": "",
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "mobile_padding_top": 30,
+        "mobile_padding_bottom": 30
+      }
+    },
+    "rich_text_P3hBwh": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_mGwXwE": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ page.title }}",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
+          }
+        },
+        "text_7xmpEL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Superior quality. Best practice. Configured to suit.</p>",
+            "text_content_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "heading_mGwXwE",
+        "text_7xmpEL"
+      ],
+      "settings": {
+        "content_alignment": "center",
+        "content_width": "full_width",
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "full_width": true,
+        "no_margin": false,
+        "section_border": false,
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "image_banner_dtrTwi": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "page_container": "page-width--narrow",
+        "image": "shopify://shop_images/Sterirack-trolleys-2-2048x1150.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "auto_height": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "margin_top": 36,
+        "margin_bottom": 36,
+        "mobile_padding_top": 36,
+        "mobile_padding_bottom": 36,
+        "mobile_margin_top": 36,
+        "mobile_margin_bottom": 36
+      }
+    },
+    "rich_text_FgqVHG": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_7cT7HR": {
+          "type": "heading",
+          "settings": {
+            "heading": "The World's No.1 Medical Cart",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
+          }
+        },
+        "text_pmKmx3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Accessible, smooth gliding and so easily manoeuvrable, SpaceLogic STERIRACK® Clinical Trolleys represent global best practice, using premium quality materials. Available in a huge selection of sizes and configurations, the trolleys are available in one- or two-bay configurations. Accessories include baskets, shelves, drop-in bins, dividers and color-coded label holders and post strips. Choose post strips and label holders from a range of 13 colors to suit your facility, or use color to categorise. Trolleys come with or without a stainless steel top.</p><p>All STERIRACK® Clinical Trolley baskets and shelves are interchangeable with STERIRACK® System room installations and free-standing modules, giving you a fully integrated, gold standard storage system.</p>",
+            "text_content_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "heading_7cT7HR",
+        "text_pmKmx3"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "content_alignment": "center",
+        "content_width": "full_width",
+        "color_scheme": "",
+        "full_width": true,
+        "no_margin": false,
+        "section_border": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 28
+      }
+    },
+    "multicolumn_video_XRNeaW": {
+      "type": "multicolumn-video",
+      "blocks": {
+        "column_P8dYCY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/sddefault_4.webp",
+            "video_url": "https://youtu.be/xfuQA73IXpM",
+            "enable_video_looping": false,
+            "title": "STERIRACK® Trolleys - ultimate for patient care",
+            "text": ""
+          }
+        },
+        "column_GXwQjx": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/sddefault_5.webp",
+            "video_url": "https://youtu.be/eUXvhXIjWRg",
+            "enable_video_looping": false,
+            "title": "STERIRACK® Trolleys - some of our range",
+            "text": ""
+          }
+        },
+        "column_PCrHgB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/sddefault_6.webp",
+            "video_url": "https://youtu.be/Yz9cHDUMMYM",
+            "enable_video_looping": false,
+            "title": "STERIRACK® Trolleys - loved by Balmain Village",
+            "text": ""
+          }
+        },
+        "column_eqWWcM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/sddefault_7.webp",
+            "video_url": "https://youtu.be/F5NKv7KU4fY",
+            "enable_video_looping": false,
+            "title": "STERIRACK® Trolleys - gold standard range",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_P8dYCY",
+        "column_GXwQjx",
+        "column_PCrHgB",
+        "column_eqWWcM"
+      ],
+      "name": "Multicolumn video",
+      "settings": {
+        "page_container": "page-width",
+        "title": "<h2>VIDEO GALLERY</h2>",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
+        "title_alignment": "center",
+        "color_scheme": "",
+        "columns_desktop": "2",
+        "box_shadow": true,
+        "box_auto_height1": true,
+        "box_color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_xxTTcf": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_JkkNz6": {
+          "type": "heading",
+          "settings": {
+            "heading": "Choose a HEIGHT to best suit your application",
+            "custom_heading_size": 45,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
+          }
+        }
+      },
+      "block_order": [
+        "heading_JkkNz6"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "content_alignment": "center",
+        "content_width": "medium",
+        "color_scheme": "",
+        "full_width": true,
+        "no_margin": false,
+        "section_border": false,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "image_banner_Ein9Ec": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "page_container": "page-width--narrow",
+        "image": "shopify://shop_images/sterirack_trolleys_single_1987px.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "auto_height": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "margin_top": 36,
+        "margin_bottom": 36,
+        "mobile_padding_top": 36,
+        "mobile_padding_bottom": 36,
+        "mobile_margin_top": 36,
+        "mobile_margin_bottom": 36
+      }
+    },
+    "rich_text_PzLr4b": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_7yJLjc": {
+          "type": "heading",
+          "settings": {
+            "heading": "Choose a WIDTH and DEPTH to best suit your application",
+            "custom_heading_size": 36,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
+          }
+        }
+      },
+      "block_order": [
+        "heading_7yJLjc"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "content_alignment": "center",
+        "content_width": "medium",
+        "color_scheme": "",
+        "full_width": true,
+        "no_margin": false,
+        "section_border": false,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "image_banner_cNJbkJ": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "page_container": "page-width--narrow",
+        "image": "shopify://shop_images/sterirack_trolleys_single-and-double_2745px.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "auto_height": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "margin_top": 36,
+        "margin_bottom": 36,
+        "mobile_padding_top": 36,
+        "mobile_padding_bottom": 36,
+        "mobile_margin_top": 36,
+        "mobile_margin_bottom": 36
+      }
+    },
+    "multicolumn_box_with_image_Cw7bzp": {
+      "type": "multicolumn-box-with-image",
+      "blocks": {
+        "column_gHPiQk": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Trolley-600x400x840-single-for-web-1-2_b92ccb27-343a-443b-9998-8b7158a5554b.jpg",
+            "title": "",
+            "text": "<p>Sterirack Medical Trolley 600x400x840 single</p>",
+            "content_alignment": "center"
+          }
+        },
+        "column_kRLJnn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Trolley-400x400x840-single-for-web-1-2.jpg",
+            "title": "",
+            "text": "<p>Sterirack Medical Trolley 400x400x840 single</p>",
+            "content_alignment": "center"
+          }
+        },
+        "column_hJBtGx": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Trolley-400x400x920-single-for-web-2-2.jpg",
+            "title": "",
+            "text": "<p>Sterirack Medical Trolley 400x400x920 single</p>",
+            "content_alignment": "center"
+          }
+        },
+        "column_erWXeQ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Trolley-400x400x1000-single-for-web-3-2.jpg",
+            "title": "",
+            "text": "<p>Sterirack Medical Trolley 400x400x1000 single</p>",
+            "content_alignment": "center"
+          }
+        },
+        "column_YCrQzq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Trolley-400x400x1080-single-for-web-4-2.jpg",
+            "title": "",
+            "text": "<p>Sterirack Medical Trolley 400x400x1080 single</p>",
+            "content_alignment": "center"
+          }
+        },
+        "column_bGWfPp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Trolley-400x400x840-double-for-web-2.jpg",
+            "title": "",
+            "text": "<p>Sterirack Medical Trolley 400x400x840 double</p>",
+            "content_alignment": "center"
+          }
+        },
+        "column_aQm8tw": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Trolley-400x600x600-double-for-web-2.jpg",
+            "title": "",
+            "text": "<p>Sterirack Medical Trolley 400x600x600 double</p>",
+            "content_alignment": "center"
+          }
+        },
+        "column_FU4x3Y": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Trolley-600x600x1500-single-for-web-1-2.jpg",
+            "title": "",
+            "text": "<p>Sterirack Medical Trolley 600x600x1500 single</p>",
+            "content_alignment": "center"
+          }
+        },
+        "column_PqPMk6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Trolley-600x600x1500-single-for-web-2-2.jpg",
+            "title": "",
+            "text": "<p>Sterirack Medical Trolley 600x600x1500 single</p>",
+            "content_alignment": "center"
+          }
+        },
+        "column_i4bkcB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Trolley-600x600x1500-single-for-web-3-2.jpg",
+            "title": "",
+            "text": "<p>Sterirack Medical Trolley 600x600x1500 single</p>",
+            "content_alignment": "center"
+          }
+        },
+        "column_gYUFV7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Trolley-600x600x1500-single-for-web-4-2.jpg",
+            "title": "",
+            "text": "<p>Sterirack Medical Trolley 600x600x1500 single</p>",
+            "content_alignment": "center"
+          }
+        },
+        "column_RfX8FH": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Trolley-600x600x1500-single-for-web-5-1.jpg",
+            "title": "",
+            "text": "<p>Sterirack Medical Trolley 600x600x1500 single</p>",
+            "content_alignment": "center"
+          }
+        },
+        "column_Yxk7gm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Trolley-1200x600x1500-double-for-web-1-1.jpg",
+            "title": "",
+            "text": "<p>Sterirack Medical Trolley 1200x600x1500 double</p>",
+            "content_alignment": "center"
+          }
+        },
+        "column_jiQmM7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Trolley-1200x600x1500-double-for-web-2-1_1.jpg",
+            "title": "",
+            "text": "<p>Sterirack Medical Trolley 1200x600x1500 double</p>",
+            "content_alignment": "center"
+          }
+        },
+        "column_t6BFY3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Trolley-1200x600x1500-double-for-web-4-1.jpg",
+            "title": "",
+            "text": "<p>Sterirack Medical Trolley 1200x600x1500 double</p>",
+            "content_alignment": "center"
+          }
+        },
+        "column_djDkr7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Trolley-1200x600x1500-double-for-web-4-1_1.jpg",
+            "title": "",
+            "text": "<p>Sterirack Medical Trolley 1200x600x1500 double</p>",
+            "content_alignment": "center"
+          }
+        },
+        "column_4fcPT6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Trolley-1200x600x1500-double-for-web-5-1.jpg",
+            "title": "",
+            "text": "<p>Sterirack Medical Trolley 1200x600x1500 double</p>",
+            "content_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "column_gHPiQk",
+        "column_kRLJnn",
+        "column_hJBtGx",
+        "column_erWXeQ",
+        "column_YCrQzq",
+        "column_bGWfPp",
+        "column_aQm8tw",
+        "column_FU4x3Y",
+        "column_PqPMk6",
+        "column_i4bkcB",
+        "column_gYUFV7",
+        "column_RfX8FH",
+        "column_Yxk7gm",
+        "column_jiQmM7",
+        "column_t6BFY3",
+        "column_djDkr7",
+        "column_4fcPT6"
+      ],
+      "disabled": true,
+      "name": "Multicolumn with image",
+      "settings": {
+        "title": "<h3>Design your own medical trolley - the configurations are endless!</h3>",
+        "custom_heading_size": 45,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
+        "title_alignment": "center",
+        "color_scheme": "",
+        "heading_color_scheme": "",
+        "columns_desktop": "4",
+        "box_shadow": true,
+        "box_color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "product_catalog_W3r7Xn": {
+      "type": "product-catalog",
+      "disabled": true,
+      "settings": {
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "custom_multicolumn_47n8Bx": {
+      "type": "custom-multicolumn",
+      "blocks": {
+        "column_wAcmDn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/sterirack-clicknclip-coloured-label-holders-1.jpg",
+            "title": "",
+            "block_custom_font_weight": "400",
+            "text": "",
+            "text-v": "",
+            "button-text": "",
+            "button-url": ""
+          }
+        },
+        "column_4CKhYM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/sterirack-clicknclip-coloured-label-holders-2.jpg",
+            "title": "",
+            "block_custom_font_weight": "400",
+            "text": "",
+            "text-v": "",
+            "button-text": "",
+            "button-url": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_wAcmDn",
+        "column_4CKhYM"
+      ],
+      "name": "Custom multicolumn",
+      "settings": {
+        "page_container": "page-width",
+        "title": "<h2>STERIRACK® Clip 'n' Click Label Holders</h2><h3>with matching post strips</h3>",
+        "sec_subtitle": "",
+        "title_color": "#424242",
+        "subheading_color": "#ffce00",
+        "button_text": "",
+        "button_url": "",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
+        "title_alignment": "center",
+        "color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
+        "columns_desktop": "2",
+        "box_shadow": true,
+        "image_auto_height1": true,
+        "auto_width": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "rich_text_MKpATp": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_AhXrpB": {
+          "type": "heading",
+          "settings": {
+            "heading": "Label holders and post strips in a range of 14 vibrant colors",
+            "custom_heading_size": 36,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
+          }
+        },
+        "text_hedbWM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>(including black)</p>",
+            "text_content_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "heading_AhXrpB",
+        "text_hedbWM"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "content_alignment": "center",
+        "content_width": "medium",
+        "color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
+        "full_width": true,
+        "no_margin": false,
+        "section_border": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "image_with_no_text_XijQPm": {
+      "type": "image-with-no-text",
+      "blocks": {
+        "image_e3Uahz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/sterirack-clicknclip-coloured-label-holders-3-2048x398.jpg",
+            "image_page_container": "page-width"
+          }
+        }
+      },
+      "block_order": [
+        "image_e3Uahz"
+      ],
+      "name": "Image with no text",
+      "settings": {
+        "page_container": "full-width",
+        "title": "",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
+        "heading_alignment": "center",
+        "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
+        "text_content_alignment": "center",
+        "color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "page_banner_YkpPpf",
+    "image_banner_VgKQ7z",
+    "section_breadcrumb_F9PzRF",
+    "rich_text_P3hBwh",
+    "image_banner_dtrTwi",
+    "rich_text_FgqVHG",
+    "main",
+    "multicolumn_video_XRNeaW",
+    "rich_text_xxTTcf",
+    "image_banner_Ein9Ec",
+    "rich_text_PzLr4b",
+    "image_banner_cNJbkJ",
+    "multicolumn_box_with_image_Cw7bzp",
+    "product_catalog_W3r7Xn",
+    "custom_multicolumn_47n8Bx",
+    "rich_text_MKpATp",
+    "image_with_no_text_XijQPm"
+  ]
+}

@@ -4,6 +4,7 @@
 
 {%- if section.settings.slide_height == 'adapt_image' and section.blocks.first.settings.image != blank -%}
   {%- style -%}
+    
     @media screen and (max-width: 749px) {
       #Slider-{{ section.id }}::before,
       #Slider-{{ section.id }} .media::before,
@@ -166,7 +167,7 @@
               </h2>
             {%- endif -%}
             {%- if block.settings.subheading != blank -%}
-              <div class="banner__text rte" {{ block.shopify_attributes }}>
+              <div class="banner__text rte .subtitle" {{ block.shopify_attributes }}>
                 <p>{{ block.settings.subheading }}</p>
               </div>
             {%- endif -%}

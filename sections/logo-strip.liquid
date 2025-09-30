@@ -5,6 +5,48 @@
     padding-top: {{ section.settings.padding_top | times: 0.55 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.55 | round: 0 }}px;
   }
+  .logo-strip_note p {
+    margin: 0;
+    padding: 18px 0;
+  }
+  .logo-strip-section .logo-strip-wrapper {
+    flex-direction: row;
+    max-width: 33%;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 29px;
+  }
+  .logo-strip-section .logo-strip-wrapper .logo-strip__item {
+    /* border-right: 1px solid #fff; */
+    height: 100%;
+    width: calc(33.33% - 20px);
+    position: relative;
+  }
+  .logo-strip-section .logo-strip-wrapper .logo-strip__item::after {
+    position: absolute;
+    content: "";
+    border-right: 1px solid #fff;
+    right: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 100%;
+    width: 1px;
+  }
+  .logo-strip-section .logo-strip-wrapper .logo-strip__item:last-child::after {
+    border-right: 0;
+  }
+
+  @media screen and (max-width: 989px) {
+    .logo-strip-section .logo-strip-wrapper {
+      max-width: 50%;
+    }
+  }
+
+  @media screen and (max-width: 749px) {
+    .logo-strip-section .logo-strip-wrapper {
+      max-width: 100%;
+    }
+  }
 
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
@@ -41,6 +83,13 @@
     </div>
 </div>
 
+{% if section.settings.logo_stript_text != blank %}
+  <div class="logo-strip_note center  gradient color-{{ section.settings.logo_color_scheme }}">
+    <div class="page-width">
+      <p>{{ section.settings.logo_stript_text }}</p>
+    </div>
+  </div>
+{% endif %}
 
 {% schema %}
 {
@@ -52,6 +101,18 @@
         "id": "color_scheme",
         "label": "t:sections.all.colors.label",
         "default": "scheme-1"
+    },
+    {
+      "type": "text",
+      "id": "logo_stript_text",
+      "label": "Logo Strip Text",
+      "default": "The shape of the wire loops in wire loop baskets and bins is used as a shape trade mark."
+    },
+    {
+      "type": "color_scheme",
+      "id": "logo_color_scheme",
+      "label": "Logo Strip",
+      "default": "scheme-1"
     },
     {
         "type": "header",

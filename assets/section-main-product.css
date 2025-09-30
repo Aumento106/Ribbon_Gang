@@ -120,6 +120,7 @@ product-info {
   font-size: 1.4rem;
   line-height: calc(1 + 0.2 / var(--font-body-scale));
   letter-spacing: 0.07rem;
+  transition: all .3s ease-in-out;
 }
 
 .shopify-payment-button__button--unbranded::selection {
@@ -128,7 +129,8 @@ product-info {
 
 .shopify-payment-button__button--unbranded:hover,
 .shopify-payment-button__button--unbranded:hover:not([disabled]) {
-  background-color: rgba(var(--color-button), var(--alpha-button-background));
+  background-color: #bbb;
+  filter: brightness(.9);
 }
 
 .shopify-payment-button__more-options {
@@ -218,7 +220,7 @@ product-info {
 /* Product info */
 
 .product__info-container > * + * {
-  margin: 1.5rem 0;
+  margin: 2.4rem 0;
 }
 
 .product__info-container iframe {
@@ -268,6 +270,14 @@ a.product__text {
 
 .product__accordion .accordion__content {
   padding: 0 1rem;
+}
+.product__accordion .accordion__content .metafield-rich_text_field > * {
+  margin: 0;
+}
+.product__accordion .accordion__content p .trademark-symbol sup {
+  font-size: 14px;
+  position: relative;
+  top: 5px;
 }
 
 .product .price .badge {
@@ -1187,6 +1197,8 @@ a.product__text {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .product__inventory .svg-wrapper,

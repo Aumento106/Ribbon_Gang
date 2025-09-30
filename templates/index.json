@@ -15,96 +15,148 @@
         "slide_eEdaKF": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Concept_1_1.png",
-            "heading": "infection-controlled solutions",
-            "heading_size": "h0",
-            "subheading": "",
-            "button_label": "Shop Now",
-            "link": "shopify://collections",
+            "image": "shopify://shop_images/Test_image.jpg",
+            "enable_side_image": true,
+            "heading": "Making Space for Care®",
+            "custom_heading_size": 45,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "600",
+            "subheading": "Hospital and clinical storage solutions designed for efficiency and organisation.",
+            "button_label": "Discover SpaceLogic",
+            "link": "shopify://pages/about-spacelogic",
             "button_style_secondary": false,
-            "botton_position": 120,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
+            "botton_position": 80,
+            "show_text_box": true,
+            "enable_text_align_center": true,
+            "text_alignment": "left",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-            "text_alignment_mobile": "center"
+            "slide_text_color": "#424242",
+            "btn_bg": "#ffce00",
+            "btn_text_color": "#ffffff"
           }
         },
         "slide_QcKVdY": {
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Concept_1_1.png",
-            "heading": "infection-controlled solutions",
-            "heading_size": "h1",
-            "subheading": "",
+            "enable_side_image": false,
+            "heading": "Shop accessories for smarter care",
+            "custom_heading_size": 45,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "600",
+            "subheading": "Baskets, bins, and dividers built for clean, organised spaces.",
             "button_label": "Shop Now",
-            "link": "shopify://collections",
+            "link": "shopify://pages/pharmacy-drawers",
             "button_style_secondary": false,
             "botton_position": 120,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
+            "show_text_box": true,
+            "enable_text_align_center": true,
+            "text_alignment": "left",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-            "text_alignment_mobile": "center"
+            "slide_text_color": "#000000",
+            "btn_bg": "#ffce00",
+            "btn_text_color": "#ffffff"
           }
         },
         "slide_gCWg7E": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Concept_1_1.png",
-            "heading": "infection-controlled solutions",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "Shop Now",
-            "link": "shopify://collections",
+            "image": "shopify://shop_images/Sydney_Products_June_25_HR-72.jpg",
+            "enable_side_image": false,
+            "heading": "Storage systems that transform clinical spaces",
+            "custom_heading_size": 45,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "600",
+            "subheading": "Proven results in efficiency, organisation, and infection control.",
+            "button_label": "View case studies",
+            "link": "shopify://pages/hospital-projects",
             "button_style_secondary": false,
             "botton_position": 120,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
+            "show_text_box": true,
+            "enable_text_align_center": true,
+            "text_alignment": "left",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_faXiaL": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Concept_1_1.png",
-            "heading": "infection-controlled solutions",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "Shop Now",
-            "link": "shopify://collections",
-            "button_style_secondary": false,
-            "botton_position": 120,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-            "text_alignment_mobile": "center"
+            "slide_text_color": "#000000",
+            "btn_bg": "#ffce00",
+            "btn_text_color": "#ffffff"
           }
         }
       },
       "block_order": [
         "slide_eEdaKF",
         "slide_QcKVdY",
-        "slide_gCWg7E",
-        "slide_faXiaL"
+        "slide_gCWg7E"
       ],
       "settings": {
         "layout": "full_bleed",
-        "slide_height": "large",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
+        "content_on_page_width": "small-page-width",
+        "slide_height": "medium",
         "image_behavior": "none",
-        "show_text_below": false,
         "accessibility_info": "Slideshow about our brand",
         "padding_top": 0,
-        "padding_bottom": 100
+        "padding_bottom": 40
+      }
+    },
+    "custom_multicolumn_text_JtzPeP": {
+      "type": "custom-Multicolumn-text",
+      "blocks": {
+        "column_yYnNU6": {
+          "type": "column",
+          "settings": {
+            "title": "Service",
+            "block_custom_font_weight": "600",
+            "text": "<ul><li>End-to-end project consultation with 2D/3D design</li><li>Custom storage solutions, precision planning, seamless delivery</li></ul>",
+            "text-v": "",
+            "button-text": "Explore services",
+            "button-url": "shopify://pages/services"
+          }
+        },
+        "column_Q9aepq": {
+          "type": "column",
+          "settings": {
+            "title": "Focus",
+            "block_custom_font_weight": "600",
+            "text": "<ul><li>Clinical storage solutions for every department</li><li>Infection control, workflow efficiency, sterile/non-sterile options</li></ul>",
+            "text-v": "",
+            "button-text": "See storage solutions",
+            "button-url": "shopify://pages/clinical-storage-systems"
+          }
+        },
+        "column_ERyxPw": {
+          "type": "column",
+          "settings": {
+            "title": "Quality",
+            "block_custom_font_weight": "600",
+            "text": "<ul><li>Gold-standard STERIRACK® System, patented design</li><li>Compliant, ergonomic, and built for long-term performance</li></ul>",
+            "text-v": "",
+            "button-text": "Discover STERIRACK®",
+            "button-url": "shopify://pages/sterirack-system"
+          }
+        }
+      },
+      "block_order": [
+        "column_yYnNU6",
+        "column_Q9aepq",
+        "column_ERyxPw"
+      ],
+      "settings": {
+        "title": "<h2>Why choose SpaceLogic?</h2>",
+        "descr": "SpaceLogic provides hospital and clinical storage solutions that improve organisation, support infection control, and create safer, more efficient healthcare environments. Our modular systems and accessories adapt to clean utility, CSSD, and pharmacy spaces, helping staff save time, reduce clutter, and optimise workflows.",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "600",
+        "description_custom_font_weight": "300",
+        "title_alignment": "center",
+        "title_color": "#ffffff",
+        "subheading_color": "#ffffff",
+        "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
+        "heading_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "columns_desktop": "3",
+        "box_shadow": false,
+        "Images_same_height": false,
+        "box_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     },
     "custom_image_banner_xDTGLj": {
@@ -113,50 +165,237 @@
         "heading_wtkCw3": {
           "type": "heading",
           "settings": {
-            "heading": "Hospital and Surgical Centrea",
-            "heading_size": "h0"
+            "heading": "Clean utility and medications room",
+            "custom_heading_size": 45,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "600",
+            "border_radius": 0
           }
         },
         "text_t9P8ME": {
           "type": "text",
           "settings": {
-            "text": "Smarter storage. Safer care",
+            "text": "Clinical storage that improves organisation, infection control, and workflows.",
             "text_style": "subtitle"
           }
         },
         "buttons_3efdfV": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop the Room",
-            "button_link_1": "shopify://collections",
+            "button_label_1": "Shop the room",
+            "button_link_1": "shopify://pages/clean-utility-medications-room",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false,
-            "botton_position": 120
+            "botton_position": 50
+          }
+        },
+        "hotspot_button_VaQwGY": {
+          "type": "hotspot_button",
+          "settings": {
+            "hotspot_icon": "shopify://shop_images/icon-hotspot.svg",
+            "hotspot_product_list": [
+              "standard-mesh-baskets-copy",
+              "sterirack-transport-case-carts",
+              "standard-mesh-baskets-5",
+              "standard-mesh-baskets-4",
+              "standard-mesh-baskets-3",
+              "standard-mesh-baskets"
+            ],
+            "product_list_sec_title": "MEDIBIN™ System",
+            "product_list_subtitle": "(lorem ipsum)",
+            "hotspot_color_scheme": "",
+            "top_position": 37,
+            "left_position": 65
+          }
+        },
+        "hotspot_button_R89bNL": {
+          "type": "hotspot_button",
+          "settings": {
+            "hotspot_icon": "shopify://shop_images/icon-hotspot.svg",
+            "hotspot_product_list": [
+              "standard-mesh-baskets-copy",
+              "sterirack-transport-case-carts",
+              "standard-mesh-baskets-5",
+              "standard-mesh-baskets-4",
+              "standard-mesh-baskets-3",
+              "standard-mesh-baskets"
+            ],
+            "product_list_sec_title": "STERIRACK® Benching",
+            "product_list_subtitle": "(lorem ipsum)",
+            "hotspot_color_scheme": "",
+            "top_position": 55,
+            "left_position": 55
+          }
+        },
+        "hotspot_button_a39kn9": {
+          "type": "hotspot_button",
+          "settings": {
+            "hotspot_icon": "shopify://shop_images/icon-hotspot.svg",
+            "hotspot_product_list": [
+              "standard-mesh-baskets-copy",
+              "sterirack-transport-case-carts",
+              "standard-mesh-baskets-5",
+              "standard-mesh-baskets-4",
+              "standard-mesh-baskets-3",
+              "standard-mesh-baskets"
+            ],
+            "product_list_sec_title": "STERIRACK® Storage Modules",
+            "product_list_subtitle": "(lorem ipsum)",
+            "hotspot_color_scheme": "",
+            "top_position": 40,
+            "left_position": 24
+          }
+        },
+        "hotspot_button_wCVNRq": {
+          "type": "hotspot_button",
+          "settings": {
+            "hotspot_icon": "shopify://shop_images/icon-hotspot.svg",
+            "hotspot_product_list": [
+              "standard-mesh-baskets-copy",
+              "sterirack-transport-case-carts",
+              "standard-mesh-baskets-5",
+              "standard-mesh-baskets-4",
+              "standard-mesh-baskets-3",
+              "standard-mesh-baskets"
+            ],
+            "product_list_sec_title": "STERIRACK® Standard Baskets - 100mmH",
+            "product_list_subtitle": "(lorem ipsum)",
+            "hotspot_color_scheme": "",
+            "top_position": 49,
+            "left_position": 28
+          }
+        },
+        "hotspot_button_h8GzFA": {
+          "type": "hotspot_button",
+          "settings": {
+            "hotspot_icon": "shopify://shop_images/icon-hotspot.svg",
+            "hotspot_product_list": [
+              "standard-mesh-baskets-copy",
+              "sterirack-transport-case-carts",
+              "standard-mesh-baskets-5",
+              "standard-mesh-baskets-4",
+              "standard-mesh-baskets-3",
+              "standard-mesh-baskets"
+            ],
+            "product_list_sec_title": "STERIRACK® Pharmacy Drawers",
+            "product_list_subtitle": "(lorem ipsum)",
+            "hotspot_color_scheme": "",
+            "top_position": 54,
+            "left_position": 35
+          }
+        },
+        "hotspot_button_VPTcxi": {
+          "type": "hotspot_button",
+          "settings": {
+            "hotspot_icon": "shopify://shop_images/icon-hotspot.svg",
+            "hotspot_product_list": [
+              "standard-mesh-baskets-copy",
+              "sterirack-transport-case-carts",
+              "standard-mesh-baskets-5",
+              "standard-mesh-baskets-4",
+              "standard-mesh-baskets-3",
+              "standard-mesh-baskets"
+            ],
+            "product_list_sec_title": "STERIRACK® Standard Baskets - 300mmH",
+            "product_list_subtitle": "(lorem ipsum)",
+            "hotspot_color_scheme": "",
+            "top_position": 60,
+            "left_position": 24
+          }
+        },
+        "hotspot_button_MWxXKN": {
+          "type": "hotspot_button",
+          "settings": {
+            "hotspot_icon": "shopify://shop_images/icon-hotspot.svg",
+            "hotspot_product_list": [
+              "standard-mesh-baskets-copy",
+              "sterirack-transport-case-carts",
+              "standard-mesh-baskets-5",
+              "standard-mesh-baskets-4",
+              "standard-mesh-baskets-3",
+              "standard-mesh-baskets"
+            ],
+            "product_list_sec_title": "STERIRACK® Colour Coded Labelling",
+            "product_list_subtitle": "(lorem ipsum)",
+            "hotspot_color_scheme": "",
+            "top_position": 64,
+            "left_position": 56
+          }
+        },
+        "hotspot_button_7HYTie": {
+          "type": "hotspot_button",
+          "settings": {
+            "hotspot_icon": "shopify://shop_images/icon-hotspot.svg",
+            "hotspot_product_list": [
+              "standard-mesh-baskets-copy",
+              "sterirack-transport-case-carts",
+              "standard-mesh-baskets-5",
+              "standard-mesh-baskets-4",
+              "standard-mesh-baskets-3",
+              "standard-mesh-baskets"
+            ],
+            "product_list_sec_title": "STERIRACK® Colour Coded Post Strips",
+            "product_list_subtitle": "(lorem ipsum)",
+            "hotspot_color_scheme": "",
+            "top_position": 70,
+            "left_position": 60
           }
         }
       },
       "block_order": [
         "heading_wtkCw3",
         "text_t9P8ME",
-        "buttons_3efdfV"
+        "buttons_3efdfV",
+        "hotspot_button_VaQwGY",
+        "hotspot_button_R89bNL",
+        "hotspot_button_a39kn9",
+        "hotspot_button_wCVNRq",
+        "hotspot_button_h8GzFA",
+        "hotspot_button_VPTcxi",
+        "hotspot_button_MWxXKN",
+        "hotspot_button_7HYTie"
       ],
+      "disabled": true,
+      "name": "Clean utility and medications",
       "settings": {
+        "remove_bg": true,
         "page_container": "full-width",
-        "image": "shopify://shop_images/Concept_9.png",
-        "image_overlay_opacity": 30,
-        "image_height": "large",
-        "desktop_content_position": "top-center",
+        "image": "shopify://shop_images/Sterirack_Room_Application.2a_adj.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
-        "color_scheme": "scheme-28b9a3ce-e916-452a-9440-95fefcedbf92",
+        "color_scheme": "scheme-7bba877c-319e-4978-b41a-39cbc803dea8",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true,
-        "padding_top": 0,
-        "padding_bottom": 100
+        "padding_top": 26,
+        "padding_bottom": 26
+      }
+    },
+    "newsletter_kYQP7r": {
+      "type": "newsletter",
+      "blocks": {
+        "email_form_pCJFft": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "email_form_pCJFft"
+      ],
+      "settings": {
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "full_width": false,
+        "news_custom_heading_size": 45,
+        "news_mobile_custom_heading_size": 28,
+        "news_font_weight": "600",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "margin_top": 40,
+        "margin_bottom": 40
       }
     },
     "custom_multicolumn_tEhTPk": {
@@ -165,34 +404,37 @@
         "column_nPJerb": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Concept_13.png",
-            "title": "CSSD",
-            "text": "<p>Theatre store</p>",
-            "text-v": "Designed for hygiene, engineered for safety",
-            "button-text": "Shop the Room",
-            "button-url": "shopify://collections"
+            "image": "shopify://shop_images/Sydney-1.jpg",
+            "title": "Clean utility",
+            "block_custom_font_weight": "600",
+            "text": "<p>Medications room</p>",
+            "text-v": "",
+            "button-text": "Explore room",
+            "button-url": "shopify://pages/clean-utility-medications-room"
           }
         },
         "column_UTiAj3": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Concept_13.png",
-            "title": "Clean Utility",
-            "text": "<p>Medications</p>",
-            "text-v": "Every space optimised,  text to go here.",
-            "button-text": "Shop the Room",
-            "button-url": "shopify://collections"
+            "image": "shopify://shop_images/Sydney_Products_June_25_HR-66.jpg",
+            "title": "CSSD",
+            "block_custom_font_weight": "600",
+            "text": "<p>Theatre store</p>",
+            "text-v": "",
+            "button-text": "Explore room",
+            "button-url": "shopify://pages/cssd-theater-store"
           }
         },
         "column_ggEGqd": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Concept_13.png",
+            "image": "shopify://shop_images/Sydney_Products_June_25_HR-185.jpg",
             "title": "Pharmacy",
+            "block_custom_font_weight": "600",
             "text": "<p>Dispensary</p>",
-            "text-v": "Less time searching, more time caring",
-            "button-text": "Shop the Room",
-            "button-url": "shopify://collections"
+            "text-v": "",
+            "button-text": "Explore room",
+            "button-url": "shopify://pages/pharmacy-storage-dispensary"
           }
         }
       },
@@ -202,19 +444,491 @@
         "column_ggEGqd"
       ],
       "settings": {
-        "title": "<p>Innovative Storage Solutions</p>",
-        "sec_subtitle": "Making space for care. Across every department.",
+        "page_container": "page-width",
+        "title": "<h2>Innovative storage solutions</h2>",
+        "sec_subtitle": "Making space for care® across every department",
+        "title_color": "#ffffff",
+        "subheading_color": "#ffffff",
         "button_text": "",
         "button_url": "",
-        "heading_size": "h0",
+        "custom_heading_size": 45,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "600",
         "title_alignment": "center",
         "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
         "columns_desktop": "3",
         "box_shadow": false,
+        "image_auto_height1": false,
+        "auto_width": false,
         "padding_top": 50,
         "padding_bottom": 50,
         "margin_top": 0,
         "margin_bottom": 0
+      }
+    },
+    "custom_image_banner_wTxxEB": {
+      "type": "custom-image-banner",
+      "blocks": {
+        "heading_wrKCR8": {
+          "type": "heading",
+          "settings": {
+            "heading": "CSSD and theatre store",
+            "custom_heading_size": 45,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "600",
+            "border_radius": 0
+          }
+        },
+        "text_dRjWew": {
+          "type": "text",
+          "settings": {
+            "text": "Sub heading to go here",
+            "text_style": "subtitle"
+          }
+        },
+        "buttons_YfcGj9": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop the room",
+            "button_link_1": "shopify://pages/cssd-theater-store",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "botton_position": 50
+          }
+        },
+        "hotspot_button_WRJ9bt": {
+          "type": "hotspot_button",
+          "settings": {
+            "hotspot_icon": "shopify://shop_images/icon-hotspot.svg",
+            "hotspot_product_list": [
+              "standard-mesh-baskets-copy",
+              "sterirack-transport-case-carts",
+              "standard-mesh-baskets-5",
+              "standard-mesh-baskets-4",
+              "standard-mesh-baskets-3",
+              "standard-mesh-baskets"
+            ],
+            "product_list_sec_title": "lorem ipsum",
+            "product_list_subtitle": "(lorem ipsum)",
+            "hotspot_color_scheme": "",
+            "top_position": 45,
+            "left_position": 77
+          }
+        },
+        "hotspot_button_CcdfLG": {
+          "type": "hotspot_button",
+          "settings": {
+            "hotspot_icon": "shopify://shop_images/icon-hotspot.svg",
+            "hotspot_product_list": [
+              "standard-mesh-baskets-copy",
+              "sterirack-transport-case-carts",
+              "standard-mesh-baskets-5",
+              "standard-mesh-baskets-4",
+              "standard-mesh-baskets-3",
+              "standard-mesh-baskets"
+            ],
+            "product_list_sec_title": "lorem ipsum",
+            "product_list_subtitle": "(lorem ipsum)",
+            "hotspot_color_scheme": "",
+            "top_position": 53,
+            "left_position": 53
+          }
+        },
+        "hotspot_button_Xj83ew": {
+          "type": "hotspot_button",
+          "settings": {
+            "hotspot_icon": "shopify://shop_images/icon-hotspot.svg",
+            "hotspot_product_list": [
+              "standard-mesh-baskets-copy",
+              "sterirack-transport-case-carts",
+              "standard-mesh-baskets-5",
+              "standard-mesh-baskets-4",
+              "standard-mesh-baskets-3",
+              "standard-mesh-baskets"
+            ],
+            "product_list_sec_title": "lorem ipsum",
+            "product_list_subtitle": "(lorem ipsum)",
+            "hotspot_color_scheme": "",
+            "top_position": 58,
+            "left_position": 59
+          }
+        },
+        "hotspot_button_EY3YAc": {
+          "type": "hotspot_button",
+          "settings": {
+            "hotspot_icon": "shopify://shop_images/icon-hotspot.svg",
+            "hotspot_product_list": [
+              "standard-mesh-baskets-copy",
+              "sterirack-transport-case-carts",
+              "standard-mesh-baskets-5",
+              "standard-mesh-baskets-4",
+              "standard-mesh-baskets-3",
+              "standard-mesh-baskets"
+            ],
+            "product_list_sec_title": "lorem ipsum",
+            "product_list_subtitle": "(lorem ipsum)",
+            "hotspot_color_scheme": "",
+            "top_position": 34,
+            "left_position": 30
+          }
+        },
+        "hotspot_button_m93PxC": {
+          "type": "hotspot_button",
+          "settings": {
+            "hotspot_icon": "shopify://shop_images/icon-hotspot.svg",
+            "hotspot_product_list": [
+              "standard-mesh-baskets-copy",
+              "sterirack-transport-case-carts",
+              "standard-mesh-baskets-5",
+              "standard-mesh-baskets-4",
+              "standard-mesh-baskets-3",
+              "standard-mesh-baskets"
+            ],
+            "product_list_sec_title": "lorem ipsum",
+            "product_list_subtitle": "(lorem ipsum)",
+            "hotspot_color_scheme": "",
+            "top_position": 49,
+            "left_position": 35
+          }
+        },
+        "hotspot_button_XgLLrX": {
+          "type": "hotspot_button",
+          "settings": {
+            "hotspot_icon": "shopify://shop_images/icon-hotspot.svg",
+            "hotspot_product_list": [
+              "standard-mesh-baskets-copy",
+              "sterirack-transport-case-carts",
+              "standard-mesh-baskets-5",
+              "standard-mesh-baskets-4",
+              "standard-mesh-baskets-3",
+              "standard-mesh-baskets"
+            ],
+            "product_list_sec_title": "lorem ipsum",
+            "product_list_subtitle": "(lorem ipsum)",
+            "hotspot_color_scheme": "",
+            "top_position": 70,
+            "left_position": 46
+          }
+        },
+        "hotspot_button_akTq93": {
+          "type": "hotspot_button",
+          "settings": {
+            "hotspot_icon": "shopify://shop_images/icon-hotspot.svg",
+            "hotspot_product_list": [
+              "standard-mesh-baskets-copy",
+              "sterirack-transport-case-carts",
+              "standard-mesh-baskets-5",
+              "standard-mesh-baskets-4",
+              "standard-mesh-baskets-3",
+              "standard-mesh-baskets"
+            ],
+            "product_list_sec_title": "lorem ipsum",
+            "product_list_subtitle": "(lorem ipsum)",
+            "hotspot_color_scheme": "",
+            "top_position": 70,
+            "left_position": 25
+          }
+        },
+        "hotspot_button_jtiwdc": {
+          "type": "hotspot_button",
+          "settings": {
+            "hotspot_icon": "shopify://shop_images/icon-hotspot.svg",
+            "hotspot_product_list": [
+              "standard-mesh-baskets-copy",
+              "sterirack-transport-case-carts",
+              "standard-mesh-baskets-5",
+              "standard-mesh-baskets-4",
+              "standard-mesh-baskets-3",
+              "standard-mesh-baskets"
+            ],
+            "product_list_sec_title": "lorem ipsum",
+            "product_list_subtitle": "(lorem ipsum)",
+            "hotspot_color_scheme": "",
+            "top_position": 71,
+            "left_position": 69
+          }
+        }
+      },
+      "block_order": [
+        "heading_wrKCR8",
+        "text_dRjWew",
+        "buttons_YfcGj9",
+        "hotspot_button_WRJ9bt",
+        "hotspot_button_CcdfLG",
+        "hotspot_button_Xj83ew",
+        "hotspot_button_EY3YAc",
+        "hotspot_button_m93PxC",
+        "hotspot_button_XgLLrX",
+        "hotspot_button_akTq93",
+        "hotspot_button_jtiwdc"
+      ],
+      "disabled": true,
+      "name": "CSSD and theatre store",
+      "settings": {
+        "remove_bg": true,
+        "page_container": "full-width",
+        "image": "shopify://shop_images/Sterirack_Room_Application.1e-adj.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-7bba877c-319e-4978-b41a-39cbc803dea8",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 26,
+        "padding_bottom": 26
+      }
+    },
+    "custom_slideshow_slider_8brNtf": {
+      "type": "custom-slideshow-slider",
+      "blocks": {
+        "slide_4JtzGz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Home_7.png",
+            "tag_text": "New innovation!",
+            "custom_tag_font_weight": "600",
+            "tag_text_color": "#ffffff",
+            "logo_image": "shopify://shop_images/SPACELOGIC_logo_-_grey_and_yellow_2025_v1_1.svg",
+            "heading": "<p>Silicon mats</p>",
+            "custom_heading_size": 45,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "600",
+            "subheading": "Anti-slip, chemical-resistant mats that stabilise instruments and trays, reducing spills and improving safety across sterile storage and transport.",
+            "button_label": "Shop silicon mats",
+            "link": "shopify://products/sterirack-silicon-mats",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "color_scheme": "scheme-7bba877c-319e-4978-b41a-39cbc803dea8",
+            "btn_bg": "#ffce00",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_pmtHCz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Home_9.png",
+            "tag_text": "Popular!",
+            "custom_tag_font_weight": "600",
+            "tag_text_color": "#ffffff",
+            "logo_image": "shopify://shop_images/STERIRACK-logo-grey-and-yellow-2025_1.svg",
+            "heading": "<p>Suture racks</p>",
+            "custom_heading_size": 45,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "600",
+            "subheading": "Designed for easy access and safe organisation, our suture racks keep trays secure, visible, and ready for use in fast-paced clinical environments.",
+            "button_label": "Shop suture racks and trays",
+            "link": "shopify://products/sterirack-suture-shelves",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "color_scheme": "scheme-7bba877c-319e-4978-b41a-39cbc803dea8",
+            "btn_bg": "#ffce00",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_Eez4pR": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Home_6.png",
+            "tag_text": "Best seller!",
+            "custom_tag_font_weight": "600",
+            "tag_text_color": "#ffffff",
+            "logo_image": "shopify://shop_images/Steriloop_logo.svg",
+            "heading": "<p>Basket dividers</p>",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "600",
+            "subheading": "Create order and reduce clutter with durable basket dividers that optimise space, improve visibility, and support infection control.",
+            "button_label": "Shop basket dividers",
+            "link": "shopify://products/sterirack-basket-divider",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "color_scheme": "scheme-7bba877c-319e-4978-b41a-39cbc803dea8",
+            "btn_bg": "#ffce00",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_4JtzGz",
+        "slide_pmtHCz",
+        "slide_Eez4pR"
+      ],
+      "settings": {
+        "slide_height": "large",
+        "image_behavior": "none",
+        "accessibility_info": "Slideshow about our brand",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "custom_image_text_slider_k9tKHM": {
+      "type": "custom-Image-text-slider",
+      "blocks": {
+        "slide_UBnzye": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Sydney_Products_June_25_HR-1.jpg",
+            "offer_title": "<p>Liverpool Hospital Redevelopment</p>",
+            "heading": "<p>Clinical storage solutions improving efficiency, organisation, and infection control with STERIRACK®</p>",
+            "block_custom_heading_size": 29,
+            "mobile_block_custom_heading_size": 28,
+            "block_custom_font_weight": "500",
+            "text": "<p>As part of the Liverpool Hospital redevelopment, SpaceLogic installed STERIRACK® clinical storage systems across clean utility, CSSD, and pharmacy. The modular, easy-clean design improved efficiency, supported infection control, and reduced wasted time searching for supplies.</p><p><em>\"The difference in organisation and workflow has been remarkable.\"</em><br/><br/>— NUM, Liverpool Hospital</p>",
+            "button_label": "View more case studies",
+            "button_link": "shopify://pages/hospital-projects",
+            "button_style_secondary": false
+          }
+        },
+        "slide_EmBXDp": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Sydney_Products_June_25_HR-155.jpg",
+            "offer_title": "<p>Royal Prince Alfred Hospital</p>",
+            "heading": "<p>STERIRACK® enclosed carts with decals create a friendlier care space at RPA Hospital.</p>",
+            "block_custom_heading_size": 29,
+            "mobile_block_custom_heading_size": 28,
+            "block_custom_font_weight": "600",
+            "text": "<p>To soften the look of treatment areas, SpaceLogic provided enclosed STERIRACK® carts with frosted panels and playful decals. These carts maintain full infection control and storage efficiency while creating a warmer, less clinical environment for young patients and their families.</p><p><em>\"The decals have made our treatment areas feel more welcoming for children, while still giving staff the storage performance they need.\"</em><br/><br/>— Clinical Nurse Lead, RPA Hospital</p>",
+            "button_label": "Explore more case studies",
+            "button_link": "shopify://pages/hospital-projects",
+            "button_style_secondary": false
+          }
+        },
+        "slide_cbQUAP": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Sydney_Products_June_25_HR-223.jpg",
+            "offer_title": "<p>Wyvern Private Hospital</p>",
+            "heading": "<p>Smarter, cleaner, and more efficient storage at Wyvern Private Hospital</p>",
+            "block_custom_heading_size": 29,
+            "mobile_block_custom_heading_size": 28,
+            "block_custom_font_weight": "600",
+            "text": "<p>SpaceLogic partnered with Wyvern Private Hospital to deliver a complete clinical storage fit-out for its new 85-bed facility on Sydney’s Northern Beaches. Through a collaborative design process, we installed customised stainless-steel STERIRACK® systems that maximise space, streamline workflows, and support strict infection control standards, helping Wyvern achieve its vision of clinical excellence and outstanding patient care.</p>",
+            "button_label": "See how we deliver across clinical rooms",
+            "button_link": "shopify://collections/sterirack-system",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_UBnzye",
+        "slide_EmBXDp",
+        "slide_cbQUAP"
+      ],
+      "settings": {
+        "enable_content_page_width": true,
+        "heading": "Project highlights",
+        "sec_des": "<p>Trusted by leading hospitals</p>",
+        "title_color": "#424242",
+        "subheading_color": "#424242",
+        "title_alignment": "center",
+        "custom_heading_size": 45,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "600",
+        "layout": "image_first",
+        "content_layout": "no-overlap",
+        "height": "extra-small",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "mobile_content_alignment": "left",
+        "show_button_on_image": true,
+        "show_half_slide": false,
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "section_color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
+        "offer_title_color": "#ffce00",
+        "show_pagination": true,
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "custom_image_text_slider_mztD6t": {
+      "type": "custom-Image-text-slider",
+      "blocks": {
+        "slide_gMCqNw": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Sydney_Products_June_25_HR-210.jpg",
+            "offer_title": "",
+            "heading": "<p>SteriLoop® advantage</p>",
+            "block_custom_heading_size": 45,
+            "mobile_block_custom_heading_size": 28,
+            "block_custom_font_weight": "600",
+            "text": "<p>SteriLoop® baskets feature our exclusive registered loop-edge design, engineered for safety, durability, and infection control. Unlike traditional wire baskets, SteriLoop® eliminates sharp edges, protecting staff, patients, and supplies, while integrating seamlessly with the STERIRACK® System.</p><p><strong>Look for the Loop™ – because small details make a big difference.</strong></p><p></p>",
+            "button_label": "Shop SteriLoop® baskets",
+            "button_link": "shopify://collections/steriloop-baskets",
+            "button_style_secondary": false
+          }
+        },
+        "slide_iUhckn": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Thumbnail_-_Label_holders_Mk_II_4.png",
+            "offer_title": "",
+            "heading": "<p>Clip 'N' Click Label Holder - Mark 2</p>",
+            "block_custom_heading_size": 45,
+            "mobile_block_custom_heading_size": 28,
+            "block_custom_font_weight": "600",
+            "text": "<p>The upgraded Mark 2 Click ’N’ Clip Label Holder saves time and reduces frustration in fast-paced clinical environments. </p><p>With a clear protective cover that snaps securely into place, labels stay clean, legible, and contamination-free, no peeling, no fiddling, no wasted time.</p><p><strong>Smarter labelling, safer care, designed to work seamlessly with STERIRACK® systems.</strong></p>",
+            "button_label": "Shop label holders",
+            "button_link": "shopify://products/sterirack®-click-n-clip-label-holders-mk-ii",
+            "button_style_secondary": false
+          }
+        },
+        "slide_tWbjPi": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Sydney_Products_June_25_HR-66.jpg",
+            "offer_title": "",
+            "heading": "<p>Colour-coded clarity</p>",
+            "block_custom_heading_size": 45,
+            "mobile_block_custom_heading_size": 28,
+            "block_custom_font_weight": "600",
+            "text": "<p>Colour-coded labelling helps busy clinical teams find supplies faster, reduce errors, and support infection control. From Post Label Holders to label strips, our labelling accessories integrate seamlessly with the STERIRACK® System.</p><p><strong>Smarter organisation through colour.</strong></p>",
+            "button_label": "Shop labelling accessories",
+            "button_link": "shopify://collections/sterirack®-labelling-and-signage",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_gMCqNw",
+        "slide_iUhckn",
+        "slide_tWbjPi"
+      ],
+      "settings": {
+        "enable_content_page_width": false,
+        "heading": "",
+        "sec_des": "",
+        "title_color": "#ffffff",
+        "subheading_color": "#ffffff",
+        "title_alignment": "left",
+        "custom_heading_size": 45,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
+        "layout": "image_first",
+        "content_layout": "no-overlap",
+        "height": "medium",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "mobile_content_alignment": "left",
+        "show_button_on_image": true,
+        "show_half_slide": true,
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "section_color_scheme": "",
+        "offer_title_color": "#ffce00",
+        "show_pagination": true,
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     },
     "custom_newsletter_NdaReb": {
@@ -231,572 +945,229 @@
       "settings": {
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "full_width": false,
-        "heading": "<p>Stay ahead in healthcare storage. Subscribe for updates.</p>",
-        "heading_size": "h0",
-        "text": "<p>Archici enimodiae ratibus aut volum quiam, et quo bea  suntion serrovide por aute natempos erovita ium quunt  iumquae plab intium fuga.</p>",
-        "padding_top": 70,
-        "padding_bottom": 70,
-        "margin_top": 100,
-        "margin_bottom": 100
-      }
-    },
-    "custom_slideshow_slider_8brNtf": {
-      "type": "custom-slideshow-slider",
-      "blocks": {
-        "slide_4JtzGz": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Concept_20_1.png",
-            "tag_text": "Best Sellers",
-            "tag_text_color": "#ffffff",
-            "logo_image": "shopify://shop_images/Steriloop_logo.png",
-            "heading": "<p>Innovative <br/>Theatre Trolley</p>",
-            "heading_size": "h0",
-            "subheading": "Bearundae voluptatem eum iditatqui aut  doluptiorest adit am rerrum sitae cor  modia voluptatist amu",
-            "button_label": "Shop Theatre Trolleys",
-            "link": "shopify://collections",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_T8tDVP": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Concept_20_1.png",
-            "tag_text": "Best Sellers",
-            "tag_text_color": "#ffffff",
-            "logo_image": "shopify://shop_images/Steriloop_logo.png",
-            "heading": "<p>Innovative <br/>Theatre Trolley</p>",
-            "heading_size": "h0",
-            "subheading": "Bearundae voluptatem eum iditatqui aut  doluptiorest adit am rerrum sitae cor  modia voluptatist amu",
-            "button_label": "Shop Theatre Trolleys",
-            "link": "shopify://collections",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_dBgQYn": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Concept_20_1.png",
-            "tag_text": "Best Sellers",
-            "tag_text_color": "#ffffff",
-            "logo_image": "shopify://shop_images/Steriloop_logo.png",
-            "heading": "<p>Innovative <br/>Theatre Trolley</p>",
-            "heading_size": "h0",
-            "subheading": "Bearundae voluptatem eum iditatqui aut  doluptiorest adit am rerrum sitae cor  modia voluptatist amu",
-            "button_label": "Shop Theatre Trolleys",
-            "link": "shopify://collections",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_aznbmG": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Concept_20_1.png",
-            "tag_text": "Best Sellers",
-            "tag_text_color": "#ffffff",
-            "logo_image": "shopify://shop_images/Steriloop_logo.png",
-            "heading": "<p>Innovative <br/>Theatre Trolley</p>",
-            "heading_size": "h0",
-            "subheading": "Bearundae voluptatem eum iditatqui aut  doluptiorest adit am rerrum sitae cor  modia voluptatist amu",
-            "button_label": "Shop Theatre Trolleys",
-            "link": "shopify://collections",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_Dh3Y6A": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Concept_20_1.png",
-            "tag_text": "Best Sellers",
-            "tag_text_color": "#ffffff",
-            "logo_image": "shopify://shop_images/Steriloop_logo.png",
-            "heading": "<p>Innovative <br/>Theatre Trolley</p>",
-            "heading_size": "h0",
-            "subheading": "Bearundae voluptatem eum iditatqui aut  doluptiorest adit am rerrum sitae cor  modia voluptatist amu",
-            "button_label": "Shop Theatre Trolleys",
-            "link": "shopify://collections",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_qaBMjy": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Concept_20_1.png",
-            "tag_text": "Best Sellers",
-            "tag_text_color": "#ffffff",
-            "logo_image": "shopify://shop_images/Steriloop_logo.png",
-            "heading": "<p>Innovative <br/>Theatre Trolley</p>",
-            "heading_size": "h0",
-            "subheading": "Bearundae voluptatem eum iditatqui aut  doluptiorest adit am rerrum sitae cor  modia voluptatist amu",
-            "button_label": "Shop Theatre Trolleys",
-            "link": "shopify://collections",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_ApcRHc": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Concept_20_1.png",
-            "tag_text": "Best Sellers",
-            "tag_text_color": "#ffffff",
-            "logo_image": "shopify://shop_images/Steriloop_logo.png",
-            "heading": "<p>Innovative <br/>Theatre Trolley</p>",
-            "heading_size": "h0",
-            "subheading": "Bearundae voluptatem eum iditatqui aut  doluptiorest adit am rerrum sitae cor  modia voluptatist amu",
-            "button_label": "Shop Theatre Trolleys",
-            "link": "shopify://collections",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "slide_4JtzGz",
-        "slide_T8tDVP",
-        "slide_dBgQYn",
-        "slide_aznbmG",
-        "slide_Dh3Y6A",
-        "slide_qaBMjy",
-        "slide_ApcRHc"
-      ],
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "large",
-        "slider_visual": "dots",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "image_behavior": "none",
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand",
-        "padding_top": 0,
-        "padding_bottom": 100
-      }
-    },
-    "custom_multicolumn_text_JtzPeP": {
-      "type": "custom-Multicolumn-text",
-      "blocks": {
-        "column_yYnNU6": {
-          "type": "column",
-          "settings": {
-            "title": "Service",
-            "text": "<ul><li>All-in-one  and beginning-to-end</li><li>Project consultation with 2D and 3D visualisations</li><li>Custom solutions and innovate designs</li><li>Precision planning and seamless execution</li></ul>",
-            "button-text": "Find out more",
-            "button-url": "shopify://collections"
-          }
-        },
-        "column_Q9aepq": {
-          "type": "column",
-          "settings": {
-            "title": "Focus",
-            "text": "<ul><li>Clinical storage solutions</li><li>Infection control andsafety focus</li><li>Optimised workflow</li><li>Sterile and non-sterile options</li><li>Optimised workflow</li></ul>",
-            "button-text": "Find out more",
-            "button-url": "shopify://collections"
-          }
-        },
-        "column_ERyxPw": {
-          "type": "column",
-          "settings": {
-            "title": "Quality",
-            "text": "<ul><li>Gold standard STERIRACK®  System</li><li>Patented excellence</li><li>Compliance with safety standards</li><li>Ergonomic design</li><li>Patented excellence</li></ul>",
-            "button-text": "Find out more",
-            "button-url": "shopify://collections"
-          }
-        }
-      },
-      "block_order": [
-        "column_yYnNU6",
-        "column_Q9aepq",
-        "column_ERyxPw"
-      ],
-      "settings": {
-        "title": "<p>Why SpaceLogic?</p>",
-        "descr": "Making space for care.",
-        "heading_size": "h1",
-        "title_alignment": "center",
-        "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
-        "columns_desktop": "3",
-        "box_shadow": true,
-        "box_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "custom_image_text_slider_mztD6t": {
-      "type": "custom-Image-text-slider",
-      "blocks": {
-        "slide_gMCqNw": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Concept_20.png",
-            "offer_title": "",
-            "heading": "<p>Introducing the registered WireLoop Shape Mark andSteriLoop™ innovation</p>",
-            "heading_size": "h0",
-            "text": "<p>SpaceLogic is proud to introduce SteriLoop®,  featuring our registered WireLoop Shape Mark – a game-changing  innovation in healthcare  storage.</p><p><br/> SMOOTH ROUNDED CORNERS: Prevents cuts,  micro-tears, and damage to consumables<br/><br/>NO SHARP EDGES: Superior safety for hospital  staff and patient<br/><br/>ENHANCED DURABILITY AND HYGIENE:  Engineered for long-term performance<br/><br/> Look for the Loop™ – The  ultimate in safe, smart storage<br/></p>",
-            "button_label": "Shop Theatre Trolleys",
-            "offer_code_txt": "",
-            "button_link": "shopify://collections",
-            "button_style_secondary": false
-          }
-        },
-        "slide_6QRK8N": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Concept_20.png",
-            "offer_title": "",
-            "heading": "<p>Introducing the registered WireLoop Shape Mark andSteriLoop™ innovation</p>",
-            "heading_size": "h0",
-            "text": "<p>SpaceLogic is proud to introduce SteriLoop®,  featuring our registered WireLoop Shape Mark – a game-changing  innovation in healthcare  storage.</p><p><br/>SMOOTH ROUNDED CORNERS: Prevents cuts,  micro-tears, and damage to consumables<br/><br/>NO SHARP EDGES: Superior safety for hospital  staff and patient<br/><br/>ENHANCED DURABILITY AND HYGIENE:  Engineered for long-term performance<br/><br/><strong>Look for the Loop™ – The  ultimate in safe, smart storage</strong></p>",
-            "button_label": "Shop Theatre Trolleys",
-            "offer_code_txt": "",
-            "button_link": "shopify://collections",
-            "button_style_secondary": false
-          }
-        },
-        "slide_7tjFEN": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Concept_20.png",
-            "offer_title": "",
-            "heading": "<p>Introducing the registered WireLoop Shape Mark andSteriLoop™ innovation</p>",
-            "heading_size": "h0",
-            "text": "<p>SpaceLogic is proud to introduce SteriLoop®,  featuring our registered WireLoop Shape Mark – a game-changing  innovation in healthcare  storage.</p><p><br/>SMOOTH ROUNDED CORNERS: Prevents cuts,  micro-tears, and damage to consumables<br/><br/>NO SHARP EDGES: Superior safety for hospital  staff and patient<br/><br/>ENHANCED DURABILITY AND HYGIENE:  Engineered for long-term performance<br/><br/><strong>Look for the Loop™ – The  ultimate in safe, smart storage</strong></p>",
-            "button_label": "Shop Theatre Trolleys",
-            "offer_code_txt": "",
-            "button_link": "shopify://collections",
-            "button_style_secondary": false
-          }
-        },
-        "slide_zEHRHV": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Concept_20.png",
-            "offer_title": "",
-            "heading": "<p>Introducing the registered WireLoop Shape Mark andSteriLoop™ innovation</p>",
-            "heading_size": "h0",
-            "text": "<p>SpaceLogic is proud to introduce SteriLoop®,  featuring our registered WireLoop Shape Mark – a game-changing  innovation in healthcare  storage.</p><p><br/>SMOOTH ROUNDED CORNERS: Prevents cuts,  micro-tears, and damage to consumables<br/><br/>NO SHARP EDGES: Superior safety for hospital  staff and patient<br/><br/>ENHANCED DURABILITY AND HYGIENE:  Engineered for long-term performance<br/><br/><strong>Look for the Loop™ – The  ultimate in safe, smart storage</strong></p>",
-            "button_label": "Shop Theatre Trolleys",
-            "offer_code_txt": "",
-            "button_link": "shopify://collections",
-            "button_style_secondary": false
-          }
-        },
-        "slide_GEfh8E": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Concept_20.png",
-            "offer_title": "",
-            "heading": "<p>Introducing the registered WireLoop Shape Mark andSteriLoop™ innovation</p>",
-            "heading_size": "h0",
-            "text": "<p>SpaceLogic is proud to introduce SteriLoop®,  featuring our registered WireLoop Shape Mark – a game-changing  innovation in healthcare  storage.</p><p><br/>SMOOTH ROUNDED CORNERS: Prevents cuts,  micro-tears, and damage to consumables<br/><br/>NO SHARP EDGES: Superior safety for hospital  staff and patient<br/><br/>ENHANCED DURABILITY AND HYGIENE:  Engineered for long-term performance<br/><br/><strong>Look for the Loop™ – The  ultimate in safe, smart storage</strong></p>",
-            "button_label": "Shop Theatre Trolleys",
-            "offer_code_txt": "",
-            "button_link": "shopify://collections",
-            "button_style_secondary": false
-          }
-        },
-        "slide_iUhckn": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Concept_20.png",
-            "offer_title": "",
-            "heading": "<p>Introducing the registered WireLoop Shape Mark andSteriLoop™ innovation</p>",
-            "heading_size": "h0",
-            "text": "<p>SpaceLogic is proud to introduce SteriLoop®,  featuring our registered WireLoop Shape Mark – a game-changing  innovation in healthcare  storage.</p><p><br/>SMOOTH ROUNDED CORNERS: Prevents cuts,  micro-tears, and damage to consumables<br/><br/>NO SHARP EDGES: Superior safety for hospital  staff and patient<br/><br/>ENHANCED DURABILITY AND HYGIENE:  Engineered for long-term performance<br/><br/><strong>Look for the Loop™ – The  ultimate in safe, smart storage</strong></p>",
-            "button_label": "Shop Theatre Trolleys",
-            "offer_code_txt": "",
-            "button_link": "shopify://collections",
-            "button_style_secondary": false
-          }
-        },
-        "slide_tWbjPi": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Concept_20.png",
-            "offer_title": "",
-            "heading": "<p>Introducing the registered WireLoop Shape Mark andSteriLoop™ innovation</p>",
-            "heading_size": "h0",
-            "text": "<p>SpaceLogic is proud to introduce SteriLoop®,  featuring our registered WireLoop Shape Mark – a game-changing  innovation in healthcare  storage.</p><p><br/>SMOOTH ROUNDED CORNERS: Prevents cuts,  micro-tears, and damage to consumables<br/><br/>NO SHARP EDGES: Superior safety for hospital  staff and patient<br/><br/>ENHANCED DURABILITY AND HYGIENE:  Engineered for long-term performance<br/><br/><strong>Look for the Loop™ – The  ultimate in safe, smart storage</strong></p>",
-            "button_label": "Shop Theatre Trolleys",
-            "offer_code_txt": "",
-            "button_link": "shopify://collections",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "slide_gMCqNw",
-        "slide_6QRK8N",
-        "slide_7tjFEN",
-        "slide_zEHRHV",
-        "slide_GEfh8E",
-        "slide_iUhckn",
-        "slide_tWbjPi"
-      ],
-      "settings": {
-        "heading": "",
-        "sec_des": "",
-        "title_alignment": "left",
-        "heading_size": "h1",
-        "layout": "image_first",
-        "content_layout": "no-overlap",
-        "height": "medium",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "mobile_content_alignment": "left",
-        "show_half_slide": true,
-        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
-        "section_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "offer_title_color": "#ffce00",
-        "show_pagination": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "custom_image_text_slider_k9tKHM": {
-      "type": "custom-Image-text-slider",
-      "blocks": {
-        "slide_UBnzye": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Concept_5.png",
-            "offer_title": "",
-            "heading": "<p>Blacktown Hospital improves their bottom line by 30% using STERIRACK™ System</p>",
-            "heading_size": "h0",
-            "text": "<p>Bearundae voluptatem eum iditatqui aut doluptiorest adit  am rerrum sitae cor modia voluptatist amu.<br/><br/>Bearundae voluptatem eum iditatqui aut doluptiorest  adit am rerrum sitae cor modia voluptatist amu.  Bearundae voluptatem eum iditatqui aut doluptiorest  adit am rerrum sitae cor modia voluptatist amu.<br/><br/><strong>“We couldn’t have asked for a better system —  the nurses absolutely love it!”</strong><br/><br/>Shane Brown | Blacktown Hospital</p>",
-            "button_label": "Shop Theatre Trolleys",
-            "offer_code_txt": "",
-            "button_link": "shopify://collections",
-            "button_style_secondary": false
-          }
-        },
-        "slide_tKpxBb": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Concept_5.png",
-            "offer_title": "",
-            "heading": "<p>Blacktown Hospital improves their bottom line by 30% using STERIRACK™ System</p>",
-            "heading_size": "h0",
-            "text": "<p>Bearundae voluptatem eum iditatqui aut doluptiorest adit  am rerrum sitae cor modia voluptatist amu.<br/><br/>Bearundae voluptatem eum iditatqui aut doluptiorest  adit am rerrum sitae cor modia voluptatist amu.  Bearundae voluptatem eum iditatqui aut doluptiorest  adit am rerrum sitae cor modia voluptatist amu.<br/><br/><strong>“We couldn’t have asked for a better system —  the nurses absolutely love it!”</strong><br/><br/>Shane Brown | Blacktown Hospital</p>",
-            "button_label": "Shop Theatre Trolleys",
-            "offer_code_txt": "",
-            "button_link": "shopify://collections",
-            "button_style_secondary": false
-          }
-        },
-        "slide_th39Lp": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Concept_5.png",
-            "offer_title": "",
-            "heading": "<p>Blacktown Hospital improves their bottom line by 30% using STERIRACK™ System</p>",
-            "heading_size": "h0",
-            "text": "<p>Bearundae voluptatem eum iditatqui aut doluptiorest adit  am rerrum sitae cor modia voluptatist amu.<br/><br/>Bearundae voluptatem eum iditatqui aut doluptiorest  adit am rerrum sitae cor modia voluptatist amu.  Bearundae voluptatem eum iditatqui aut doluptiorest  adit am rerrum sitae cor modia voluptatist amu.<br/><br/><strong>“We couldn’t have asked for a better system —  the nurses absolutely love it!”</strong><br/><br/>Shane Brown | Blacktown Hospital</p>",
-            "button_label": "Shop Theatre Trolleys",
-            "offer_code_txt": "",
-            "button_link": "shopify://collections",
-            "button_style_secondary": false
-          }
-        },
-        "slide_CAFkN3": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Concept_5.png",
-            "offer_title": "",
-            "heading": "<p>Blacktown Hospital improves their bottom line by 30% using STERIRACK™ System</p>",
-            "heading_size": "h0",
-            "text": "<p>Bearundae voluptatem eum iditatqui aut doluptiorest adit  am rerrum sitae cor modia voluptatist amu.<br/><br/>Bearundae voluptatem eum iditatqui aut doluptiorest  adit am rerrum sitae cor modia voluptatist amu.  Bearundae voluptatem eum iditatqui aut doluptiorest  adit am rerrum sitae cor modia voluptatist amu.<br/><br/><strong>“We couldn’t have asked for a better system —  the nurses absolutely love it!”</strong><br/><br/>Shane Brown | Blacktown Hospital</p>",
-            "button_label": "Shop Theatre Trolleys",
-            "offer_code_txt": "",
-            "button_link": "shopify://collections",
-            "button_style_secondary": false
-          }
-        },
-        "slide_gCfhTB": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Concept_5.png",
-            "offer_title": "",
-            "heading": "<p>Blacktown Hospital improves their bottom line by 30% using STERIRACK™ System</p>",
-            "heading_size": "h0",
-            "text": "<p>Bearundae voluptatem eum iditatqui aut doluptiorest adit  am rerrum sitae cor modia voluptatist amu.<br/><br/>Bearundae voluptatem eum iditatqui aut doluptiorest  adit am rerrum sitae cor modia voluptatist amu.  Bearundae voluptatem eum iditatqui aut doluptiorest  adit am rerrum sitae cor modia voluptatist amu.<br/><br/><strong>“We couldn’t have asked for a better system —  the nurses absolutely love it!”</strong><br/><br/>Shane Brown | Blacktown Hospital</p>",
-            "button_label": "Shop Theatre Trolleys",
-            "offer_code_txt": "",
-            "button_link": "shopify://collections",
-            "button_style_secondary": false
-          }
-        },
-        "slide_EmBXDp": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Concept_5.png",
-            "offer_title": "",
-            "heading": "<p>Blacktown Hospital improves their bottom line by 30% using STERIRACK™ System</p>",
-            "heading_size": "h0",
-            "text": "<p>Bearundae voluptatem eum iditatqui aut doluptiorest adit  am rerrum sitae cor modia voluptatist amu.<br/><br/>Bearundae voluptatem eum iditatqui aut doluptiorest  adit am rerrum sitae cor modia voluptatist amu.  Bearundae voluptatem eum iditatqui aut doluptiorest  adit am rerrum sitae cor modia voluptatist amu.<br/><br/><strong>“We couldn’t have asked for a better system —  the nurses absolutely love it!”</strong><br/><br/>Shane Brown | Blacktown Hospital</p>",
-            "button_label": "Shop Theatre Trolleys",
-            "offer_code_txt": "",
-            "button_link": "shopify://collections",
-            "button_style_secondary": false
-          }
-        },
-        "slide_cbQUAP": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Concept_5.png",
-            "offer_title": "",
-            "heading": "<p>Blacktown Hospital improves their bottom line by 30% using STERIRACK™ System</p>",
-            "heading_size": "h0",
-            "text": "<p>Bearundae voluptatem eum iditatqui aut doluptiorest adit  am rerrum sitae cor modia voluptatist amu.<br/><br/>Bearundae voluptatem eum iditatqui aut doluptiorest  adit am rerrum sitae cor modia voluptatist amu.  Bearundae voluptatem eum iditatqui aut doluptiorest  adit am rerrum sitae cor modia voluptatist amu.<br/><br/><strong>“We couldn’t have asked for a better system —  the nurses absolutely love it!”</strong><br/><br/>Shane Brown | Blacktown Hospital</p>",
-            "button_label": "Shop Theatre Trolleys",
-            "offer_code_txt": "",
-            "button_link": "shopify://collections",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "slide_UBnzye",
-        "slide_tKpxBb",
-        "slide_th39Lp",
-        "slide_CAFkN3",
-        "slide_gCfhTB",
-        "slide_EmBXDp",
-        "slide_cbQUAP"
-      ],
-      "settings": {
-        "heading": "Testimonials and Case Studies",
-        "sec_des": "<p>World-class reputation.</p>",
-        "title_alignment": "center",
-        "heading_size": "h1",
-        "layout": "image_first",
-        "content_layout": "no-overlap",
-        "height": "small",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "mobile_content_alignment": "left",
-        "show_half_slide": false,
-        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "section_color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
-        "offer_title_color": "#ffce00",
-        "show_pagination": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "newsletter_8aQKDA": {
-      "type": "newsletter",
-      "blocks": {
-        "email_form_UTUPJm": {
-          "type": "email_form",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "email_form_UTUPJm"
-      ],
-      "settings": {
-        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
-        "full_width": false,
-        "heading": "<p>Make space for care. <br/>Contact a consultant today</p>",
-        "heading_size": "h0",
-        "text": "<p>Archici enimodiae ratibus aut volum quiam, et quo bea  suntion serrovide por aute natempos erovita ium quunt  iumquae plab intium fuga. Temolore conescidis repudam  alicient fugit expland ucipsant.</p>",
+        "custom_heading_size": 32,
+        "mobile_custom_heading_size": 24,
+        "font_weight": "600",
         "padding_top": 50,
         "padding_bottom": 50,
         "margin_top": 0,
-        "margin_bottom": 0
+        "margin_bottom": 40
       }
     },
-    "custom_image_banner_QipkJ6": {
+    "custom_image_banner_87wCPQ": {
       "type": "custom-image-banner",
       "blocks": {
-        "heading_kiwDwJ": {
+        "heading_T8g796": {
           "type": "heading",
           "settings": {
-            "heading": "Medical Centres and Dentistry",
-            "heading_size": "h0"
+            "heading": "Pharmacy storage and dispensary",
+            "custom_heading_size": 45,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "600",
+            "border_radius": 0
           }
         },
-        "text_qUDXLE": {
+        "text_YqAtbN": {
           "type": "text",
           "settings": {
-            "text": "Smarter storage. Safer care.",
+            "text": "Sub heading to go here",
             "text_style": "subtitle"
           }
         },
-        "buttons_7Dnmnc": {
+        "buttons_twP8KY": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop the Room",
-            "button_link_1": "shopify://collections",
+            "button_label_1": "Shop the room",
+            "button_link_1": "shopify://pages/pharmacy-storage-dispensary",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false,
-            "botton_position": 120
+            "botton_position": 50
+          }
+        },
+        "hotspot_button_UtRXXL": {
+          "type": "hotspot_button",
+          "settings": {
+            "hotspot_icon": "shopify://shop_images/icon-hotspot.svg",
+            "hotspot_product_list": [
+              "standard-mesh-baskets-copy",
+              "sterirack-transport-case-carts",
+              "standard-mesh-baskets-5",
+              "standard-mesh-baskets-4",
+              "standard-mesh-baskets-3",
+              "standard-mesh-baskets"
+            ],
+            "product_list_sec_title": "MEDIBIN™ System",
+            "product_list_subtitle": "(lorem ipsum)",
+            "hotspot_color_scheme": "",
+            "top_position": 37,
+            "left_position": 65
+          }
+        },
+        "hotspot_button_NyKmhG": {
+          "type": "hotspot_button",
+          "settings": {
+            "hotspot_icon": "shopify://shop_images/icon-hotspot.svg",
+            "hotspot_product_list": [
+              "standard-mesh-baskets-copy",
+              "sterirack-transport-case-carts",
+              "standard-mesh-baskets-5",
+              "standard-mesh-baskets-4",
+              "standard-mesh-baskets-3",
+              "standard-mesh-baskets"
+            ],
+            "product_list_sec_title": "STERIRACK® Benching",
+            "product_list_subtitle": "(lorem ipsum)",
+            "hotspot_color_scheme": "",
+            "top_position": 55,
+            "left_position": 55
+          }
+        },
+        "hotspot_button_qQHHyg": {
+          "type": "hotspot_button",
+          "settings": {
+            "hotspot_icon": "shopify://shop_images/icon-hotspot.svg",
+            "hotspot_product_list": [
+              "standard-mesh-baskets-copy",
+              "sterirack-transport-case-carts",
+              "standard-mesh-baskets-5",
+              "standard-mesh-baskets-4",
+              "standard-mesh-baskets-3",
+              "standard-mesh-baskets"
+            ],
+            "product_list_sec_title": "STERIRACK® Storage Modules",
+            "product_list_subtitle": "(lorem ipsum)",
+            "hotspot_color_scheme": "",
+            "top_position": 40,
+            "left_position": 24
+          }
+        },
+        "hotspot_button_adYcUK": {
+          "type": "hotspot_button",
+          "settings": {
+            "hotspot_icon": "shopify://shop_images/icon-hotspot.svg",
+            "hotspot_product_list": [
+              "standard-mesh-baskets-copy",
+              "sterirack-transport-case-carts",
+              "standard-mesh-baskets-5",
+              "standard-mesh-baskets-4",
+              "standard-mesh-baskets-3",
+              "standard-mesh-baskets"
+            ],
+            "product_list_sec_title": "STERIRACK® Standard Baskets - 100mmH",
+            "product_list_subtitle": "(lorem ipsum)",
+            "hotspot_color_scheme": "",
+            "top_position": 49,
+            "left_position": 28
+          }
+        },
+        "hotspot_button_AYLNJG": {
+          "type": "hotspot_button",
+          "settings": {
+            "hotspot_icon": "shopify://shop_images/icon-hotspot.svg",
+            "hotspot_product_list": [
+              "standard-mesh-baskets-copy",
+              "sterirack-transport-case-carts",
+              "standard-mesh-baskets-5",
+              "standard-mesh-baskets-4",
+              "standard-mesh-baskets-3",
+              "standard-mesh-baskets"
+            ],
+            "product_list_sec_title": "STERIRACK® Pharmacy Drawers",
+            "product_list_subtitle": "(lorem ipsum)",
+            "hotspot_color_scheme": "",
+            "top_position": 54,
+            "left_position": 35
+          }
+        },
+        "hotspot_button_ngmTH8": {
+          "type": "hotspot_button",
+          "settings": {
+            "hotspot_icon": "shopify://shop_images/icon-hotspot.svg",
+            "hotspot_product_list": [
+              "standard-mesh-baskets-copy",
+              "sterirack-transport-case-carts",
+              "standard-mesh-baskets-5",
+              "standard-mesh-baskets-4",
+              "standard-mesh-baskets-3",
+              "standard-mesh-baskets"
+            ],
+            "product_list_sec_title": "STERIRACK® Standard Baskets - 300mmH",
+            "product_list_subtitle": "(lorem ipsum)",
+            "hotspot_color_scheme": "",
+            "top_position": 60,
+            "left_position": 24
+          }
+        },
+        "hotspot_button_AwgpTL": {
+          "type": "hotspot_button",
+          "settings": {
+            "hotspot_icon": "shopify://shop_images/icon-hotspot.svg",
+            "hotspot_product_list": [
+              "standard-mesh-baskets-copy",
+              "sterirack-transport-case-carts",
+              "standard-mesh-baskets-5",
+              "standard-mesh-baskets-4",
+              "standard-mesh-baskets-3",
+              "standard-mesh-baskets"
+            ],
+            "product_list_sec_title": "STERIRACK® Colour Coded Labelling",
+            "product_list_subtitle": "(lorem ipsum)",
+            "hotspot_color_scheme": "",
+            "top_position": 64,
+            "left_position": 56
+          }
+        },
+        "hotspot_button_fnCCtN": {
+          "type": "hotspot_button",
+          "settings": {
+            "hotspot_icon": "shopify://shop_images/icon-hotspot.svg",
+            "hotspot_product_list": [
+              "standard-mesh-baskets-copy",
+              "sterirack-transport-case-carts",
+              "standard-mesh-baskets-5",
+              "standard-mesh-baskets-4",
+              "standard-mesh-baskets-3",
+              "standard-mesh-baskets"
+            ],
+            "product_list_sec_title": "STERIRACK® Colour Coded Post Strips",
+            "product_list_subtitle": "(lorem ipsum)",
+            "hotspot_color_scheme": "",
+            "top_position": 70,
+            "left_position": 60
           }
         }
       },
       "block_order": [
-        "heading_kiwDwJ",
-        "text_qUDXLE",
-        "buttons_7Dnmnc"
+        "heading_T8g796",
+        "text_YqAtbN",
+        "buttons_twP8KY",
+        "hotspot_button_UtRXXL",
+        "hotspot_button_NyKmhG",
+        "hotspot_button_qQHHyg",
+        "hotspot_button_adYcUK",
+        "hotspot_button_AYLNJG",
+        "hotspot_button_ngmTH8",
+        "hotspot_button_AwgpTL",
+        "hotspot_button_fnCCtN"
       ],
+      "disabled": true,
+      "name": "Pharmacy storage and dispensary",
       "settings": {
+        "remove_bg": true,
         "page_container": "full-width",
-        "image": "shopify://shop_images/Concept_9.png",
-        "image_overlay_opacity": 30,
-        "image_height": "large",
-        "desktop_content_position": "top-center",
+        "image": "shopify://shop_images/Sterirack_Room_Application.3a-adj.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
-        "color_scheme": "scheme-28b9a3ce-e916-452a-9440-95fefcedbf92",
+        "color_scheme": "scheme-7bba877c-319e-4978-b41a-39cbc803dea8",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true,
-        "padding_top": 100,
-        "padding_bottom": 100
+        "padding_top": 26,
+        "padding_bottom": 26
       }
     },
     "custom_multicolumn_inkqq6": {
@@ -805,45 +1176,49 @@
         "column_KPBaVb": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/2-grid_Concept_13.png",
-            "title": "Shelving",
-            "text": "<p> Text to go here.</p>",
+            "image": "shopify://shop_images/Thumbnail_-_Flat_and_step_trays_1.png",
+            "title": "Shelving, baskets & pharmacy drawers",
+            "block_custom_font_weight": "400",
+            "text": "",
             "text-v": "",
-            "button-text": "Shop for Shelving",
-            "button-url": "shopify://collections"
+            "button-text": "Shop for shelving, baskets etc",
+            "button-url": "shopify://pages/pharmacy-drawers"
           }
         },
         "column_G3KQPY": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/2-grid_Concept_13.png",
-            "title": "Benching",
-            "text": "<p> Text to go here.</p>",
+            "image": "shopify://shop_images/Sydney-2.jpg",
+            "title": "Benching and workstations",
+            "block_custom_font_weight": "400",
+            "text": "",
             "text-v": "",
-            "button-text": "Shop for Benching",
-            "button-url": "shopify://collections"
+            "button-text": "Shop for benching etc",
+            "button-url": "shopify://pages/sterirack-mobile-workstations"
           }
         },
         "column_tJjXWa": {
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/2-grid_Concept_13.png",
-            "title": "Trolleys & Carts",
-            "text": "<p> Text to go here.</p>",
+            "title": "Trolleys, carts and mobile units",
+            "block_custom_font_weight": "400",
+            "text": "",
             "text-v": "",
-            "button-text": "Shop for Benching",
-            "button-url": "shopify://collections"
+            "button-text": "Shop for trolleys etc",
+            "button-url": "shopify://pages/medibin-trolleys"
           }
         },
         "column_6nDDjQ": {
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/2-grid_Concept_13.png",
-            "title": "Accessories",
-            "text": "<p> Text to go here.</p>",
+            "title": "Accessories and colour coding",
+            "block_custom_font_weight": "400",
+            "text": "",
             "text-v": "",
-            "button-text": "Shop for Benching",
-            "button-url": "shopify://collections"
+            "button-text": "Shop for accessories etc",
+            "button-url": "shopify://pages/sterirack-colour-coding"
           }
         }
       },
@@ -854,37 +1229,34 @@
         "column_6nDDjQ"
       ],
       "settings": {
-        "title": "<p>Find the Perfect Storage Solution</p>",
+        "page_container": "page-width",
+        "title": "<p>Find the perfect storage solution</p>",
         "sec_subtitle": "",
+        "title_color": "#ffffff",
+        "subheading_color": "#424242",
         "button_text": "Shop the full range",
-        "button_url": "shopify://collections",
-        "heading_size": "h0",
+        "button_url": "shopify://pages/clinical-storage-systems",
+        "custom_heading_size": 45,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "600",
         "title_alignment": "center",
         "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
         "columns_desktop": "2",
         "box_shadow": true,
-        "padding_top": 36,
-        "padding_bottom": 36,
+        "image_auto_height1": false,
+        "auto_width": false,
+        "padding_top": 50,
+        "padding_bottom": 50,
         "margin_top": 0,
-        "margin_bottom": 100
+        "margin_bottom": 40
       }
     },
     "product_catalog_VjYNFG": {
       "type": "product-catalog",
+      "disabled": true,
       "settings": {
-        "product_image": "shopify://shop_images/image_104.png",
-        "logo_link": "",
-        "heading": "<p>View our catalogue <br/>in your browser window</p>",
-        "heading_size": "h1",
-        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
-        "description": "<p>View online or download a PDF, et quo bea suntion serrovide  por aute natempos erovita ium quunt iumquae plab intium fuga.  Temolore conescidis repudam alicient fugit expland ucipsant</p>",
-        "button_1_text": "View Catalogue",
-        "button_1_link": "",
-        "button_2_text": "View Catalogue",
-        "button_2_link": "shopify://collections",
-        "reverse_column": true,
-        "padding_top": 50,
-        "padding_bottom": 50
+        "padding_top": 40,
+        "padding_bottom": 30
       }
     },
     "proudly_support_NnMGAw": {
@@ -928,13 +1300,14 @@
         "support_item_pzJMPa",
         "support_item_DnVgCF"
       ],
+      "disabled": true,
       "settings": {
-        "heading": "<p>We proudly Support</p>",
-        "heading_size": "h1",
+        "heading": "<p>We proudly support</p>",
         "title_alignment": "center",
         "color_scheme": "",
-        "padding_top": 100,
-        "padding_bottom": 100
+        "title_color": "#424242",
+        "padding_top": 40,
+        "padding_bottom": 64
       }
     },
     "image_text_slider_HkQX47": {
@@ -1031,7 +1404,8 @@
           "settings": {
             "title": "Increase patient care time",
             "icon": "shopify://shop_images/bed-icon.svg",
-            "text": "<p>With STERIRACK® System, nurses and healthcare personnel can now spend less time hunting through storerooms, and more time devoted to face-to-face patient care. Where they want to be.</p><p>These time efficiencies provide hospitals and health-care centers with impressive Return on Effectiveness (ROE), with some facilities enjoying time savings of up to 50%.</p><p>Introduce the gold standard healthcare storage system today. You’ll never look back. </p>"
+            "text": "<p>With STERIRACK® System, nurses and healthcare personnel can now spend less time hunting through storerooms, and more time devoted to face-to-face patient care. Where they want to be.</p><p>These time efficiencies provide hospitals and health-care centers with impressive Return on Effectiveness (ROE), with some facilities enjoying time savings of up to 50%.</p><p>Introduce the gold standard healthcare storage system today. You’ll never look back. </p>",
+            "content_alignment": "left"
           }
         },
         "column_FL4YKp": {
@@ -1040,7 +1414,8 @@
             "image": "shopify://shop_images/improve-infection-control.png",
             "title": "Improve infection control",
             "icon": "shopify://shop_images/hand-icon.svg",
-            "text": "<p>STERIRACK® is the world’s leading healthcare storage solution, exceeding standards for best practice and infection control.</p><p>Rounded corners and smart design protect consumables from damage and contamination. Mesh baskets and shelving provide air circulation, and prevent dust and dirt build-up.</p><p>Hard-to-clean, outdated timber cabinetry, with its dark, dank corners is now a thing of the past.</p>"
+            "text": "<p>STERIRACK® is the world’s leading healthcare storage solution, exceeding standards for best practice and infection control.</p><p>Rounded corners and smart design protect consumables from damage and contamination. Mesh baskets and shelving provide air circulation, and prevent dust and dirt build-up.</p><p>Hard-to-clean, outdated timber cabinetry, with its dark, dank corners is now a thing of the past.</p>",
+            "content_alignment": "left"
           }
         },
         "column_zqbWrd": {
@@ -1049,7 +1424,8 @@
             "image": "shopify://shop_images/maximize-available-space.png",
             "title": "Maximize available space",
             "icon": "shopify://shop_images/boxes-icon.svg",
-            "text": "<p>STERIRACK® is the complete modular system. Versatile and customizable, this system can be configured to suit your available space and application.</p><p>Our experts are ready to provide room layouts, 2D/3D visualizations, and details on exactly how much additional storage capacity you’ll enjoy with your new STERIRACK® installation.</p><p>Contact one of our STERIRACK® consultants today and begin your hassle-free journey to the gold standard healthcare storage solution.</p>"
+            "text": "<p>STERIRACK® is the complete modular system. Versatile and customizable, this system can be configured to suit your available space and application.</p><p>Our experts are ready to provide room layouts, 2D/3D visualizations, and details on exactly how much additional storage capacity you’ll enjoy with your new STERIRACK® installation.</p><p>Contact one of our STERIRACK® consultants today and begin your hassle-free journey to the gold standard healthcare storage solution.</p>",
+            "content_alignment": "left"
           }
         }
       },
@@ -1061,7 +1437,9 @@
       "disabled": true,
       "settings": {
         "title": "",
-        "heading_size": "h1",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "title_alignment": "center",
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "heading_color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
@@ -1108,27 +1486,15 @@
       "blocks": {
         "column_nq4xKL": {
           "type": "column",
-          "settings": {
-            "icon": "shopify://shop_images/project-consultation.svg",
-            "heading": "<p>Project consultation <br/>and room design</p>",
-            "text": "<p>Each client receives a tailored storage solution that maximizes storage capacity within the available space, and suits its application. All stakeholder needs are incorporated in the design and planning of a new STERIRACK® System installation.</p>"
-          }
+          "settings": {}
         },
         "column_BrzGgm": {
           "type": "column",
-          "settings": {
-            "icon": "shopify://shop_images/bulb-icon.svg",
-            "heading": "<p>Product customization <br/>and continuous innovation</p>",
-            "text": "<p>We specialize in custom storage solutions for healthcare, and our STERIRACK® and MEDIBIN™ ranges are exclusive to SpaceLogic. Liaise with our designers to have custom components and accessories created to meet your specific needs.</p>"
-          }
+          "settings": {}
         },
         "column_byiDxM": {
           "type": "column",
-          "settings": {
-            "icon": "shopify://shop_images/setting-icon.svg",
-            "heading": "<p>Project management <br/>and installation</p>",
-            "text": "<p>Our expert installation team specializes in fast, no-fuss storage installations with minimal interruptions to everyday operations or other trades. Our team travels nationally and internationally, or project manages local tradespeople.</p>"
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -1139,7 +1505,9 @@
       "disabled": true,
       "settings": {
         "sec_title": "<p>Three interconnected divisions, delivering a complete end-to-end <strong>Service</strong></p>",
-        "heading_size": "h1",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
         "title_alignment": "center",
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "icon_bg_color": "#5a5a5a",
@@ -1158,14 +1526,17 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/image_f8e2b89c-4982-4e99-954d-febf9d883ec4.png",
-            "border_radius": false
+            "border_radius": false,
+            "image_height": "medium"
           }
         },
         "heading_qykFgG": {
           "type": "heading",
           "settings": {
             "heading": "Project Consultation, Planning and Room Design",
-            "heading_size": "h1",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400",
             "heading_alignment": "center"
           }
         },
@@ -1254,7 +1625,9 @@
           "type": "heading",
           "settings": {
             "heading": "About us",
-            "heading_size": "h1"
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
           }
         },
         "caption_RdyUkV": {
@@ -1292,7 +1665,8 @@
         "image": "shopify://shop_images/home-about.png",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "full_width": true,
+        "container_size": "page-width",
+        "both_image_content_size": false,
         "video_url": "",
         "enable_video_looping": false,
         "layout": "image_first",
@@ -1382,7 +1756,9 @@
           "type": "heading",
           "settings": {
             "heading": "New <strong>Products</strong>",
-            "heading_size": "h1"
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400"
           }
         },
         "caption_4DDFCN": {
@@ -1420,7 +1796,8 @@
         "image": "shopify://shop_images/new-product-banner.png",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "full_width": true,
+        "container_size": "page-width",
+        "both_image_content_size": false,
         "video_url": "",
         "enable_video_looping": false,
         "layout": "text_first",
@@ -1434,19 +1811,28 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "product_catalog_6gjCcx": {
+      "type": "product-catalog",
+      "name": "Product Catalog",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "custom_slide_show_aTXHa3",
-    "custom_image_banner_xDTGLj",
-    "custom_multicolumn_tEhTPk",
-    "custom_newsletter_NdaReb",
-    "custom_slideshow_slider_8brNtf",
     "custom_multicolumn_text_JtzPeP",
-    "custom_image_text_slider_mztD6t",
+    "custom_image_banner_xDTGLj",
+    "newsletter_kYQP7r",
+    "custom_multicolumn_tEhTPk",
+    "custom_image_banner_wTxxEB",
+    "custom_slideshow_slider_8brNtf",
     "custom_image_text_slider_k9tKHM",
-    "newsletter_8aQKDA",
-    "custom_image_banner_QipkJ6",
+    "custom_image_text_slider_mztD6t",
+    "custom_newsletter_NdaReb",
+    "custom_image_banner_87wCPQ",
     "custom_multicolumn_inkqq6",
     "product_catalog_VjYNFG",
     "proudly_support_NnMGAw",
@@ -1459,6 +1845,7 @@
     "multicolumn_pages_box_VCT8HN",
     "image_with_text_v1_CK3fUJ",
     "spacelogic_commitment_9ixh9w",
-    "image_with_text_v1_tjigzf"
+    "image_with_text_v1_tjigzf",
+    "product_catalog_6gjCcx"
   ]
 }

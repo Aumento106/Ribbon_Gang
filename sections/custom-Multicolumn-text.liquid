@@ -6,6 +6,79 @@
     padding-top: {{ section.settings.padding_top | times: 0.55 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.55 | round: 0 }}px;
   }
+  .section-{{ section.id }}-padding .title {
+    color: {{ section.settings.title_color }};
+  }
+  .section-{{ section.id }}-padding .multicolumn-section-subtitle {
+    color: {{ section.settings.subheading_color }};
+  }
+  .section-{{ section.id }}-padding .sec-head .title > * {
+    font-size: {{ section.settings.custom_heading_size }}px;
+    {% if section.settings.custom_font_weight == 'none' %}
+      font-weight: var(--subheading-font_weight) !important;
+    {% else %}
+      font-weight: {{ section.settings.custom_font_weight }} !important;
+    {% endif %}
+  }
+  
+  .section-{{ section.id }}-padding .multicolumn-section-subtitle.sub--{{ block.title }} {
+    font-weight: {{ section.settings.description_custom_font_weight }} !important;
+  }
+
+  {%- for block in section.blocks -%}
+   {% if section.settings.Images_same_height %}
+    .section-{{ section.id }}-padding .grid__item .multicolumn-box__item {
+      height: 100%;
+    }
+    .section-{{ section.id }}-padding .grid__item .multicolumn-box__item .multicolumn-box-img-wrapper {
+      height: 100%;
+    }
+    .section-{{ section.id }}-padding .grid__item .multicolumn-box__item .multicolumn-box-img-wrapper img {
+      height: 100%;
+    }
+    {% endif %} 
+    .section-{{ section.id }}-padding .multicolumn-box .heading-with-icon-wrapper.title-{{ block.id }} > *  {
+      font-weight: {{ block.settings.block_custom_font_weight }} !important;
+    }
+
+    @media screen and (max-width: 1500px) {
+      .section-{{ section.id }}-padding .multicolumn-box .heading-with-icon-wrapper.title-{{ block.id }} > * {
+        font-size: 31px;
+      }
+    }
+
+    @media screen and (max-width: 989px) {
+      .section-{{ section.id }}-padding .multicolumn-box .heading-with-icon-wrapper.title-{{ block.id }} > * {
+        font-size: 28px;
+      }
+    }
+  
+   
+    {% endfor %}
+  
+  @media screen and (max-width: 1500px) {
+    .section-{{ section.id }}-padding .sec-head .title > * {
+      font-size: {{ section.settings.custom_heading_size | divided_by: 1.438 }}px;
+    }
+    .custom-multicolumn-with-text .multicolumn-box .multicolumn-section-subtitle.subtitle {
+      font-size: 25px;
+    }
+  }
+  @media screen and (max-width: 1199px) {
+    .section-{{ section.id }}-padding .sec-head .title > * {
+      font-size: {{ section.settings.custom_heading_size | divided_by: 1.3 }}px;
+    }
+  }
+  @media screen and (max-width: 989px) {
+    .section-{{ section.id }}-padding .sec-head .title > * {
+      font-size: {{ section.settings.custom_heading_size | divided_by: 1.52 }}px;
+    }
+  }
+  @media screen and (max-width: 749px) {
+    .section-{{ section.id }}-padding .sec-head .title > * {
+      font-size: {{ section.settings.mobile_custom_heading_size }}px;
+    }
+  }
 
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
@@ -20,35 +93,58 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
 {%- endstyle -%}
 
 <div class="multi-column-box-with-image section-{{ section.id }} section-{{ section.id }}-padding color-{{ section.settings.color_scheme }} gradient">
   <div class="multicolumn-box page-width">
     {%- if section.settings.title != blank -%}
       <div class="sec-head section-title-alignment-{{ section.settings.title_alignment }}">
-        <h2 class="title {{ section.settings.heading_size }}">
+        <div class="title">
           {{ section.settings.title }}
-        </h2>
-        <div class="multicolumn-section-subtitle subtitle">{{ section.settings.descr }}</div>
+        </div>
+         <div class="multicolumn-section-subtitle sub--{{ block.title }} subtitle">{{ section.settings.descr }}</div>
       </div>
     {%- endif -%}
 
+
     <div class="grid grid--1-col grid--2-col-tablet grid--{{ section.settings.columns_desktop }}-col-desktop {% if section.settings.box_shadow == true %}item-box-shadow{% endif %}">
       {%- for block in section.blocks -%}
-        <div class="grid__item" {{ block.shopify_attributes }}>
+        <div class="grid__item {{ block.id }}" {{ block.shopify_attributes }}>
           <div class="multicolumn-box__item color-{{ section.settings.box_color_scheme }} gradient">
-            <div class="box-text-con-wrap">
-              {%- if block.settings.title != blank -%}
-                <h3 class="box-title h0">{{ block.settings.title | escape }}</h3>
-              {%- endif -%}
-              {%- if block.settings.text != blank -%}
-                <div class="multicolumn-box-description">{{ block.settings.text }}</div>
-              {%- endif -%}
-            </div>
-            {%- if block.settings['button-text'] != blank -%}
-              <a href="{{ block.settings.button-url }}" class="button button--primary">
-                {{- block.settings['button-text'] -}}
-              </a>
+            {%- if block.settings.image != blank -%}
+              <div class="multicolumn-box-img-wrapper">
+                {{ block.settings.image | image_url: width: 600 | image_tag:
+                  loading: 'lazy',
+                  width: block.settings.image.width,
+                  height: block.settings.image.height,
+                  class: 'multicolumn-box__image'
+                }}
+              </div>
+            {%- endif -%}
+            {%- if block.settings.title != blank -%}
+              <div class="heading-with-icon-wrapper title-{{ block.id }} color-{{ section.settings.heading_color_scheme }} gradient">
+                {%- if block.settings.icon != blank -%}
+                  {% comment %} <div class="img-box">
+                    {{ block.settings.icon | image_url: width: 40 | image_tag:
+                      loading: 'lazy',
+                      width: block.settings.icon.width,
+                      height: block.settings.icon.height,
+                      class: 'multicolumn-box__icon'
+                    }}
+                  </div> {% endcomment %}
+                {%- endif -%}
+                <h1 class="h0">{{ block.settings.title | escape }}</h1>
+              </div>
+            {%- endif -%}
+            {%- if block.settings.text != blank -%}
+              <div class="multicolumn-box-description">{{ block.settings.text }}</div>
+            {%- endif -%}
+            {%- if block.settings.text-v != blank -%}
+              <div class="multicolumn-box-description">{{ block.settings.text-v }}</div>
+            {%- endif -%}
+            {%- if block.settings.button-text != blank -%}
+              <a href="{{ block.settings.button-url }}" class="button button--primary" >{{ block.settings.button-text }}</a>
             {%- endif -%}
           </div>
         </div>
@@ -59,7 +155,7 @@
 
 {% schema %}
 {
-  "name": "custom Multicolumn Text",
+  "name": "Custom multicolumn text",
   "tag": "section",
   "class": "section multi_box_image custom-multicolumn-with-text",
   "settings": [
@@ -75,49 +171,102 @@
       "label": "Description"
     },
     {
-      "type": "select",
-      "id": "heading_size",
-      "options": [
-        {
-          "value": "h2",
-          "label": "Small"
-        },
-        {
-          "value": "h1",
-          "label": "Medium"
-        },
-        {
-          "value": "h0",
-          "label": "Large"
-        }
-      ],
-      "default": "h1",
+      "type": "range",
+      "id": "custom_heading_size",
+      "min": 20,
+      "max": 70,
+      "step": 1,
+      "default": 52,
+      "unit": "px",
       "label": "Heading Size"
+    },
+    {
+      "type": "range",
+      "id": "mobile_custom_heading_size",
+      "min": 20,
+      "max": 40,
+      "step": 1,
+      "default": 28,
+      "unit": "px",
+      "label": "Mobile Heading Size"
+    },
+    {
+      "type": "select",
+      "id": "custom_font_weight",
+      "label": "Title Font Weight",
+      "default": "400",
+      "options": [
+        { "label": "Thin (100)", "value": "100" },
+        { "label": "Extra Light (200)", "value": "200" },
+        { "label": "Light (300)", "value": "300" },
+        { "label": "Regular (400)", "value": "400" },
+        { "label": "Medium (500)", "value": "500" },
+        { "label": "Semi Bold (600)", "value": "600" },
+        { "label": "Bold (700)", "value": "700" },
+        { "label": "Extra Bold (800)", "value": "800" },
+        { "label": "Black (900)", "value": "900" },
+        { "label": "None", "value": "none" }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "description_custom_font_weight",
+      "label": "Description Font Weight",
+      "default": "400",
+      "options": [
+        { "label": "Thin (100)", "value": "100" },
+        { "label": "Extra Light (200)", "value": "200" },
+        { "label": "Light (300)", "value": "300" },
+        { "label": "Regular (400)", "value": "400" },
+        { "label": "Medium (500)", "value": "500" },
+        { "label": "Semi Bold (600)", "value": "600" },
+        { "label": "Bold (700)", "value": "700" },
+        { "label": "Extra Bold (800)", "value": "800" },
+        { "label": "Black (900)", "value": "900" }
+      ]
     },
     {
       "type": "select",
       "id": "title_alignment",
       "options": [
-        {
+          {
           "value": "left",
           "label": "Left"
-        },
-        {
+          },
+          {
           "value": "center",
           "label": "Center"
-        },
-        {
+          },
+          {
           "value": "right",
           "label": "Right"
-        }
+          }
       ],
       "default": "center",
       "label": "Section title alignment"
     },
     {
+      "type": "color",
+      "id": "title_color",
+      "label": "Title Color",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "subheading_color",
+      "label": "SubHeading Color",
+      "default": "#fff"
+    },
+    {
       "type": "color_scheme",
       "id": "color_scheme",
       "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    },
+    {
+      "type": "color_scheme",
+      "id": "heading_color_scheme",
+      "label": "Heading color scheme",
       "default": "scheme-1"
     },
     {
@@ -139,6 +288,18 @@
         {
           "value": "3",
           "label": "3 columns"
+        },
+        {
+          "value": "4",
+          "label": "4 columns"
+        },
+        {
+          "value": "5",
+          "label": "5 columns"
+        },
+        {
+          "value": "6",
+          "label": "6 columns"
         }
       ],
       "default": "3",
@@ -148,7 +309,13 @@
       "type": "checkbox",
       "id": "box_shadow",
       "default": true,
-      "label": "Add box shadow"
+      "label": "Add Remove Space"
+    },
+    {
+      "type": "checkbox",
+      "id": "Images_same_height",
+      "default": false,
+      "label": "Make all Box Images Same Hight"
     },
     {
       "type": "color_scheme",
@@ -187,16 +354,49 @@
       "name": "Box",
       "settings": [
         {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
           "type": "text",
           "id": "title",
           "default": "Box title",
           "label": "Title"
         },
         {
+          "type": "select",
+          "id": "block_custom_font_weight",
+          "label": "Title Font Weight",
+          "default": "400",
+          "options": [
+            { "label": "Thin (100)", "value": "100" },
+            { "label": "Extra Light (200)", "value": "200" },
+            { "label": "Light (300)", "value": "300" },
+            { "label": "Regular (400)", "value": "400" },
+            { "label": "Medium (500)", "value": "500" },
+            { "label": "Semi Bold (600)", "value": "600" },
+            { "label": "Bold (700)", "value": "700" },
+            { "label": "Extra Bold (800)", "value": "800" },
+            { "label": "Black (900)", "value": "900" },
+            { "label": "None", "value": "none" }
+          ]
+        },
+        {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "Heading icon"
+        },
+        {
           "type": "richtext",
           "id": "text",
           "default": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>",
           "label": "Text"
+        },
+        {
+          "type": "text",
+          "id": "text-v",
+          "label": "Description"
         },
         {
           "type": "text",
@@ -208,12 +408,13 @@
           "id": "button-url",
           "label": "Button url"
         }
+        
       ]
     }
   ],
   "presets": [
     {
-      "name": "custom Multicolumn Text",
+      "name": "Custom multicolumn text",
       "blocks": [
         {
           "type": "column"
@@ -229,3 +430,4 @@
   ]
 }
 {% endschema %}
+

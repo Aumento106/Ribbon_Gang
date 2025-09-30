@@ -279,13 +279,6 @@
             "heading_alignment": "center"
           }
         },
-        "caption_b3pbPd": {
-          "type": "caption",
-          "settings": {
-            "caption": "<p>Add caption here</p>",
-            "caption_alignment": "center"
-          }
-        },
         "text_FF7Jcz": {
           "type": "text",
           "settings": {
@@ -308,7 +301,6 @@
       },
       "block_order": [
         "heading_m6xGYm",
-        "caption_b3pbPd",
         "text_FF7Jcz",
         "button_EYt6Qp"
       ],

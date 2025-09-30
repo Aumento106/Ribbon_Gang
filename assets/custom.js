@@ -513,3 +513,9 @@ document.addEventListener('DOMContentLoaded', function () {
   overlay?.addEventListener('click', closePopup);
 });
 
+
+document.querySelectorAll('div').forEach(div => {
+  if (!div.textContent.trim() && div.children.length === 0) {
+    div.classList.add('empty');
+  }
+});

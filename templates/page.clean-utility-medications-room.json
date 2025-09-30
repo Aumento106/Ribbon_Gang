@@ -70,7 +70,14 @@
         "caption_X9CNYM": {
           "type": "caption",
           "settings": {
-            "caption": "<p>Ready to upgrade your clean utility room? Contact us today to book a free consultation or request a tailored layout for your facility.</p>",
+            "caption": "<p>Ready to upgrade your clean utility room?</p>",
+            "caption_alignment": "center"
+          }
+        },
+        "caption_PJqV6r": {
+          "type": "caption",
+          "settings": {
+            "caption": "<p>Contact us today to book a free consultation or request a tailored layout for your facility.</p>",
             "caption_alignment": "center"
           }
         },
@@ -92,6 +99,7 @@
         "caption_3GKmgE",
         "text_PKcLKC",
         "caption_X9CNYM",
+        "caption_PJqV6r",
         "button_iyweBU"
       ],
       "name": "TF Page Banner",

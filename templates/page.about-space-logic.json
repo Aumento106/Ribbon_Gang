@@ -232,7 +232,7 @@
         "text_pLMKNr": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>We’re not just another supplier - we’re your clinical storage partner.</strong></p><p>From detailed room planning through to installation and handover, we manage every step of the process, even coordinating with trusted local teams when remote. Our STERIRACK® System is Australia’s leading modular clinical storage solution, purpose-built for infection control, adaptability, and efficiency. With hundreds of installations across public and private hospitals, we’ve encountered, and solved, a wide range of clinical challenges. Staff genuinely enjoy working with our systems, because they’re designed to improve workflow, boost morale, and support better care. By saving time, reducing stock loss, and improving safety, our solutions deliver measurable returns and lasting impact.</p>",
+            "text": "<h3>We’re not just another supplier - we’re your clinical storage partner.</h3><p>From detailed room planning through to installation and handover, we manage every step of the process, even coordinating with trusted local teams when remote. Our STERIRACK® System is Australia’s leading modular clinical storage solution, purpose-built for infection control, adaptability, and efficiency. With hundreds of installations across public and private hospitals, we’ve encountered, and solved, a wide range of clinical challenges. Staff genuinely enjoy working with our systems, because they’re designed to improve workflow, boost morale, and support better care. By saving time, reducing stock loss, and improving safety, our solutions deliver measurable returns and lasting impact.</p>",
             "text_style": "body"
           }
         }

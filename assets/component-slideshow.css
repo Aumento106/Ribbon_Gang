@@ -52,6 +52,12 @@ slideshow-component .slideshow.banner {
   /* .slideshow__text.slideshow__text--left .banner__buttons {
     left: 20px;
   } */
+   .announcement-bar-section .enquiry-btn {
+    display: flex;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+  }
 }
 
 @media screen and (max-width: 749px) {

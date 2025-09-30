@@ -18,7 +18,7 @@
         "show_line_separator": false,
         "phone_number": "02 6362 5533 ",
         "btn_text": "Enquiry Now",
-        "btn_link": "shopify://pages/contact",
+        "btn_url": "shopify://pages/contact",
         "auto_rotate": true,
         "change_slides_speed": 3,
         "enable_country_selector": false,

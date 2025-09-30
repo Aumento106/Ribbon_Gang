@@ -121,18 +121,6 @@
         "padding_bottom": 40
       }
     },
-    "section_breadcrumb_WGNXRX": {
-      "type": "section-breadcrumb",
-      "disabled": true,
-      "name": "TF Breadcrumb",
-      "settings": {
-        "color_scheme": "",
-        "padding_top": 20,
-        "padding_bottom": 20,
-        "mobile_padding_top": 20,
-        "mobile_padding_bottom": 20
-      }
-    },
     "application_list_GJhrcm": {
       "type": "application-list",
       "blocks": {
@@ -168,7 +156,6 @@
     "main",
     "custom_page_banner_4yqM4n",
     "page_banner_zyQ7aj",
-    "section_breadcrumb_WGNXRX",
     "application_list_GJhrcm",
     "product_catalog_cEjzp9"
   ]

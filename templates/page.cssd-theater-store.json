@@ -72,15 +72,31 @@
         "text_i7iMF6": {
           "type": "text",
           "settings": {
-            "text": "<p>Effective sterile storage in CSSD and operating theatre environments starts with compliance. According to AS5369, sterile consumables must be stored in a way that protects their integrity and prevents contamination from dust, vermin, light, and moisture. That’s why leading hospitals across Australia trust STERIRACK® System, a fully modular clinical storage solution engineered specifically for sterile environments.</p><p>Proudly designed and manufactured in Australia, STERIRACK® System offers industry-leading infection control, durability, and customisation. It’s easy to clean, simple to reconfigure, and fully compatible with CSSD workflows, sterile stock rooms, and theatre consumable storage. With reconfigurable wire-loop baskets, pull-out trays, and a wide variety of other components, the system improves stock visibility, increases access, and enhances compliance across all sterile storage zones.</p><p>With thousands of successful hospital installations, SpaceLogic is the trusted partner in modular healthcare storage. Whether you're upgrading a single sterile store or redesigning your entire CSSD, our team can help you create a clean, compliant and highly efficient space that improves safety, workflow, and usability.</p><p><strong>Ready to upgrade your CSSD or sterile theatre storage?</strong><br/><br/>Contact our team to request a consultation, layout design, or on-site presentation.</p><p></p>",
+            "text": "<p>Effective sterile storage in CSSD and operating theatre environments starts with compliance. According to AS5369, sterile consumables must be stored in a way that protects their integrity and prevents contamination from dust, vermin, light, and moisture. That’s why leading hospitals across Australia trust STERIRACK® System, a fully modular clinical storage solution engineered specifically for sterile environments.</p><p>Proudly designed and manufactured in Australia, STERIRACK® System offers industry-leading infection control, durability, and customisation. It’s easy to clean, simple to reconfigure, and fully compatible with CSSD workflows, sterile stock rooms, and theatre consumable storage. With reconfigurable wire-loop baskets, pull-out trays, and a wide variety of other components, the system improves stock visibility, increases access, and enhances compliance across all sterile storage zones.</p><p>With thousands of successful hospital installations, SpaceLogic is the trusted partner in modular healthcare storage. Whether you're upgrading a single sterile store or redesigning your entire CSSD, our team can help you create a clean, compliant and highly efficient space that improves safety, workflow, and usability.</p><p></p>",
             "text_alignment": "left"
+          }
+        },
+        "caption_kgRc6X": {
+          "type": "caption",
+          "settings": {
+            "caption": "<p>Ready to upgrade your CSSD or sterile theatre storage?</p>",
+            "caption_alignment": "center"
+          }
+        },
+        "caption_CyUe7M": {
+          "type": "caption",
+          "settings": {
+            "caption": "<p>Contact our team to request a consultation, layout design, or on-site presentation.</p>",
+            "caption_alignment": "center"
           }
         }
       },
       "block_order": [
         "heading_axMd4B",
         "caption_8EddGd",
-        "text_i7iMF6"
+        "text_i7iMF6",
+        "caption_kgRc6X",
+        "caption_CyUe7M"
       ],
       "name": "TF Page Banner",
       "settings": {

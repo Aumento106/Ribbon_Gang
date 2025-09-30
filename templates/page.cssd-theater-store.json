@@ -150,6 +150,40 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
+    },
+    "multirow_KNFxkx": {
+      "type": "multirow",
+      "blocks": {
+        "row_KDQgHw": {
+          "type": "row",
+          "settings": {
+            "caption": "Orange Private Hospital",
+            "heading": "Heading to go here",
+            "text": "<p>Intro text to go here</p>",
+            "button_label": "View flipping book",
+            "button_link": "https://online.flippingbook.com/view/1031758163/"
+          }
+        }
+      },
+      "block_order": [
+        "row_KDQgHw"
+      ],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "large",
+        "desktop_image_width": "large",
+        "heading_size": "h2",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
+        "row_color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -157,6 +191,7 @@
     "custom_page_banner_4yqM4n",
     "page_banner_zyQ7aj",
     "application_list_GJhrcm",
-    "product_catalog_cEjzp9"
+    "product_catalog_cEjzp9",
+    "multirow_KNFxkx"
   ]
 }

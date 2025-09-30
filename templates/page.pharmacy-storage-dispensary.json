@@ -72,21 +72,14 @@
         "text_mkE9H3": {
           "type": "text",
           "settings": {
-            "text": "<p>Efficient medication management starts with smart storage. STERIRACK® System by SpaceLogic delivers modular, hygienic, and fully compliant pharmacy storage solutions tailored to the needs of hospital pharmacies and dispensary areas. Whether you're managing bulk medication stock, schedule 8 drugs, or high-rotation daily dispensing, our systems improve workflow, accessibility and patient safety.</p><p>Designed to support compliance and best practice, our pharmacy storage configurations integrate colour-coded drawers, wire baskets, and adjustable shelf dividers, making it easy to organise, label and retrieve stock quickly. This reduces search time, limits medication errors, and helps prevent stock expiry or duplication.</p><p>From sterile storage zones to nurse stations and outpatient pharmacies, SpaceLogic provides scalable, cleanable solutions that support infection control, medication traceability, and streamlined restocking. Backed by decades of experience and hundreds of hospital installations, we help healthcare providers create smarter, safer storage environments for pharmacy teams and patients alike.</p>",
+            "text": "<p>Efficient medication management starts with smart storage. STERIRACK® System by SpaceLogic delivers modular, hygienic, and fully compliant pharmacy storage solutions tailored to the needs of hospital pharmacies and dispensary areas. Whether you're managing bulk medication stock, schedule 8 drugs, or high-rotation daily dispensing, our systems improve workflow, accessibility and patient safety.</p><p>Designed to support compliance and best practice, our pharmacy storage configurations integrate colour-coded drawers, wire baskets, and adjustable shelf dividers, making it easy to organise, label and retrieve stock quickly. This reduces search time, limits medication errors, and helps prevent stock expiry or duplication.</p><p>From sterile storage zones to nurse stations and outpatient pharmacies, SpaceLogic provides scalable, cleanable solutions that support infection control, medication traceability, and streamlined restocking. Backed by decades of experience and hundreds of hospital installations, we help healthcare providers create smarter, safer storage environments for pharmacy teams and patients alike.</p><p></p>",
             "text_alignment": "left"
           }
         },
         "caption_YkyQLG": {
           "type": "caption",
           "settings": {
-            "caption": "<p>Upgrade your dispensary storage with confidence.</p>",
-            "caption_alignment": "center"
-          }
-        },
-        "caption_eYtGJL": {
-          "type": "caption",
-          "settings": {
-            "caption": "<p>Contact SpaceLogic to request a pharmacy layout consultation or explore recent install examples.</p>",
+            "caption": "<p>Upgrade your dispensary storage with confidence.<br/>Contact SpaceLogic to request a pharmacy layout consultation or explore recent install examples.</p>",
             "caption_alignment": "center"
           }
         },
@@ -108,7 +101,6 @@
         "caption_fyNTNU",
         "text_mkE9H3",
         "caption_YkyQLG",
-        "caption_eYtGJL",
         "button_8AB3xN"
       ],
       "name": "TF Page Banner",

@@ -89,6 +89,18 @@
             "caption": "<p>Contact our team to request a consultation, layout design, or on-site presentation.</p>",
             "caption_alignment": "center"
           }
+        },
+        "button_6aVwam": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contact us today",
+            "button_link": "shopify://pages/contact",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "button_alignment": "center"
+          }
         }
       },
       "block_order": [
@@ -96,7 +108,8 @@
         "caption_8EddGd",
         "text_i7iMF6",
         "caption_kgRc6X",
-        "caption_CyUe7M"
+        "caption_CyUe7M",
+        "button_6aVwam"
       ],
       "name": "TF Page Banner",
       "settings": {

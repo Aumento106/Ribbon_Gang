@@ -25,8 +25,7 @@
         "heading_mGwXwE": {
           "type": "heading",
           "settings": {
-            "heading": "{{ page.title }}",
-            "heading_size": "h1"
+            "heading": "{{ page.title }}"
           }
         },
         "text_7xmpEL": {
@@ -104,7 +103,6 @@
       ],
       "settings": {
         "title": "",
-        "heading_size": "h1",
         "image_ratio": "square",
         "columns_desktop": 4,
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",

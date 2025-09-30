@@ -126,6 +126,7 @@
       "blocks": {
         "application_item_DqPWKh": {
           "type": "application_item",
+          "disabled": true,
           "settings": {
             "heading": "<p><strong>Orange Private Hospital</strong></p>",
             "heading_size": "h2",
@@ -137,6 +138,7 @@
       "block_order": [
         "application_item_DqPWKh"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
         "padding_top": 36,
@@ -183,7 +185,7 @@
         "row_color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
         "mobile_content_alignment": "left",
         "padding_top": 80,
-        "padding_bottom": 36
+        "padding_bottom": 80
       }
     }
   },
@@ -191,8 +193,8 @@
     "main",
     "custom_page_banner_4yqM4n",
     "page_banner_zyQ7aj",
-    "application_list_GJhrcm",
     "product_catalog_cEjzp9",
-    "multirow_KNFxkx"
+    "multirow_KNFxkx",
+    "application_list_GJhrcm"
   ]
 }

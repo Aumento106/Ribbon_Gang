@@ -33,8 +33,8 @@
       ],
       "name": "TF Custom Page Slideshow",
       "settings": {
-        "layout": "grid",
-        "slide_height": "large",
+        "layout": "full_bleed",
+        "slide_height": "medium",
         "image_behavior": "none",
         "padding_top": 0,
         "padding_bottom": 0
@@ -63,15 +63,36 @@
         "text_PKcLKC": {
           "type": "text",
           "settings": {
-            "text": "<p>Traditional timber joinery is no longer suitable for clinical storage in healthcare environments—particularly for medications, consumables, and sterile stock. SpaceLogic’s STERIRACK® System is a cleanable, modular, and fully compliant alternative designed to meet modern infection control requirements, including AS5369.</p><p>Our systems are purpose-built for clean utility rooms, medication rooms, and sterile environments across hospitals, day surgeries, and aged care facilities. With fully customisable shelving, registered wire-loop baskets, pull-out trays and accessories, the STERIRACK® System delivers maximum cleanability, flexibility, and long-term durability.</p><p>Whether you're replacing timber joinery or planning a brand-new fitout, we’ll design a tailored solution to suit your exact room size, clinical workflow, and compliance needs, improving access, stock control, and staff productivity.</p><p>Explore some of our recent clean utility and medication room installations below. Each project showcases how the STERIRACK® System can be configured for maximum space efficiency, infection control, and staff usability. You'll find layout plans, before-and-after photos, photorealistic renders, and practical examples of clinical room transformations.</p><p><strong>Ready to upgrade your clean utility room?</strong><br/><br/>Contact us today to book a free consultation or request a tailored layout for your facility.</p><p></p><p></p>",
+            "text": "<p>Traditional timber joinery is no longer suitable for clinical storage in healthcare environments—particularly for medications, consumables, and sterile stock. SpaceLogic’s STERIRACK® System is a cleanable, modular, and fully compliant alternative designed to meet modern infection control requirements, including AS5369.</p><p>Our systems are purpose-built for clean utility rooms, medication rooms, and sterile environments across hospitals, day surgeries, and aged care facilities. With fully customisable shelving, registered wire-loop baskets, pull-out trays and accessories, STERIRACK® System delivers maximum cleanability, flexibility, and long-term durability.</p><p>Explore some of our recent clean utility and medication room installations below. Each project showcases how the STERIRACK® System can be configured for maximum space efficiency, infection control, and staff usability. You'll find layout plans, before-and-after photos, photorealistic renders, and practical examples of clinical room transformations.</p><p></p>",
             "text_alignment": "left"
+          }
+        },
+        "caption_X9CNYM": {
+          "type": "caption",
+          "settings": {
+            "caption": "<p>Ready to upgrade your clean utility room?<br/>Contact us today to book a free consultation or request a tailored layout for your facility.</p>",
+            "caption_alignment": "center"
+          }
+        },
+        "button_iyweBU": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contact us today",
+            "button_link": "shopify://pages/contact",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "button_alignment": "center"
           }
         }
       },
       "block_order": [
         "heading_hyMihJ",
         "caption_3GKmgE",
-        "text_PKcLKC"
+        "text_PKcLKC",
+        "caption_X9CNYM",
+        "button_iyweBU"
       ],
       "name": "TF Page Banner",
       "settings": {
@@ -104,11 +125,67 @@
         "padding_bottom": 28
       }
     },
+    "multirow_Xaw7xT": {
+      "type": "multirow",
+      "blocks": {
+        "row_QNAN47": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Goulburn_Base_Hospital_flipbook_thumb_12965707-4b75-44c0-a530-3988335812e3.png",
+            "caption": "Goulburn Base Hospital",
+            "heading": "Heading to go here",
+            "text": "<p>Intro text to go here</p>",
+            "button_label": "View flipping book",
+            "button_link": "https://online.flippingbook.com/view/712221459/"
+          }
+        },
+        "row_ggHhMg": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Wagga_Wagga_Hospital_flipbook_thumb_b1576f19-86b9-46be-9b0e-3d34b9565b4e.png",
+            "caption": "Wagga Wagga Hospital",
+            "heading": "Heading to go here",
+            "text": "<p>Intro text to go here</p>",
+            "button_label": "View flipping book",
+            "button_link": "https://online.flippingbook.com/view/159525198/"
+          }
+        }
+      },
+      "block_order": [
+        "row_QNAN47",
+        "row_ggHhMg"
+      ],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "large",
+        "desktop_image_width": "large",
+        "heading_size": "h2",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
+        "row_color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
+        "mobile_content_alignment": "left",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "product_catalog_WLYMnV": {
+      "type": "product-catalog",
+      "name": "Product Catalog",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "application_list_Uf6gg7": {
       "type": "application-list",
       "blocks": {
         "application_item_tFPwi8": {
           "type": "application_item",
+          "disabled": true,
           "settings": {
             "heading": "<p><strong>Wagga Wagga Hospital</strong></p>",
             "heading_size": "h2",
@@ -118,6 +195,7 @@
         },
         "application_item_rneMRa": {
           "type": "application_item",
+          "disabled": true,
           "settings": {
             "heading": "<p><strong>Goulburn Hospital</strong></p>",
             "heading_size": "h2",
@@ -130,18 +208,11 @@
         "application_item_tFPwi8",
         "application_item_rneMRa"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
         "padding_top": 60,
         "padding_bottom": 60
-      }
-    },
-    "product_catalog_3QUeXT": {
-      "type": "product-catalog",
-      "disabled": true,
-      "settings": {
-        "padding_top": 20,
-        "padding_bottom": 20
       }
     }
   },
@@ -150,7 +221,8 @@
     "page_banner_iFJ7BP",
     "section_breadcrumb_U66dwV",
     "main",
-    "application_list_Uf6gg7",
-    "product_catalog_3QUeXT"
+    "multirow_Xaw7xT",
+    "product_catalog_WLYMnV",
+    "application_list_Uf6gg7"
   ]
 }

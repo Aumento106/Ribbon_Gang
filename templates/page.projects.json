@@ -15,25 +15,25 @@
         "slide_mfK3hU": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image": "shopify://shop_images/Banner_image87.jpg",
             "image_overlay_opacity": 0
           }
         },
-        "slide_XDeMCn": {
+        "slide_nFR8ay": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/winding-road-covered-in-autumn-trees.jpg",
+            "image": "shopify://shop_images/Banner_image36.jpg",
             "image_overlay_opacity": 0
           }
         }
       },
       "block_order": [
         "slide_mfK3hU",
-        "slide_XDeMCn"
+        "slide_nFR8ay"
       ],
       "name": "TF Custom Page Slideshow",
       "settings": {
-        "layout": "grid",
+        "layout": "full_bleed",
         "slide_height": "medium",
         "image_behavior": "none",
         "padding_top": 0,
@@ -100,25 +100,25 @@
         "image_NcM4V4": {
           "type": "image",
           "settings": {
-            "project_name": "Griffith Base Hospital MLHD",
+            "project_name": "Griffith Base Hospital",
             "project_sub_heading": "Raising the standard in clinical storage across critical areas",
-            "project_des": "Project description. Work is progressing at Griffith base hospital, where we are delivering advanced healthcare storage systems tailored to the needs of the facility. Our focus is on enhancing infection control, maximising space efficiency, and streamlining clinical workflows. This project is a strong example of how STERIRACK® can be customised to meet department-specific demands.",
-            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
-            "image_1": "shopify://shop_images/winding-road-covered-in-autumn-trees.jpg",
-            "image_2": "shopify://shop_images/woman-wades-in-ocean-at-sunset.jpg",
-            "project_logo": "shopify://shop_images/SPACELOGIC_logo_-_grey_and_yellow_2025_v1_1.svg"
+            "project_des": "Project description. Work is progressing at Griffith Base Hospital, where we are delivering advanced healthcare storage systems tailored to the needs of the facility. Our focus is on enhancing infection control, maximising space efficiency, and streamlining clinical workflows. This project is a strong example of how STERIRACK® can be customised to meet department-specific demands.",
+            "image": "shopify://shop_images/Griffith_Base_Hospital_image_03.png",
+            "image_1": "shopify://shop_images/Griffith_Base_Hospital_image_03.png",
+            "image_2": "shopify://shop_images/Griffith_Base_Hospital_image_03.png",
+            "project_logo": "shopify://shop_images/Griffith_Base_Hospital_logo_01.png"
           }
         },
         "image_QJBQEU": {
           "type": "image",
           "settings": {
-            "project_name": "Cranbourne community hospital",
-            "project_sub_heading": "Bringing care closer with Cranbourne community hospital",
+            "project_name": "Cranbourne Community Hospital",
+            "project_sub_heading": "Bringing care closer with Cranbourne Community Hospital",
             "project_des": "Currently in the later stages of installation, this project supports the delivery of care closer to home for the Cranbourne community. We are providing modular, future-ready storage systems designed to improve daily workflows and maintain best-practice hygiene. Our solutions contribute to building flexible clinical environments that will serve patients and staff for years to come.",
-            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
-            "image_1": "shopify://shop_images/winding-road-covered-in-autumn-trees.jpg",
-            "image_2": "shopify://shop_images/woman-wades-in-ocean-at-sunset.jpg",
-            "project_logo": "shopify://shop_images/SPACELOGIC_logo_-_grey_and_yellow_2025_v1_1.svg"
+            "image": "shopify://shop_images/Cranbourne_Community_image_01.png",
+            "image_1": "shopify://shop_images/Cranbourne_Community_image_01.png",
+            "image_2": "shopify://shop_images/Cranbourne_Community_image_01.png",
+            "project_logo": "shopify://shop_images/Cranbourne_Community_logo_01.png"
           }
         },
         "image_beaCzB": {
@@ -127,10 +127,10 @@
             "project_name": "Canberra Hospital",
             "project_sub_heading": "Modular and mobile storage excellence",
             "project_des": "Canberra Hospital needed a solution to maximise storage across multiple departments while supporting infection control. We delivered a fully customised STERIRACK® System, with over 1,000 bays of modular storage installed in just six weeks. Offsite manufacturing minimised disruptions, while our colour-coded labelling allowed staff to quickly locate items, enhancing efficiency and patient response times.In anaesthetic bays, we introduced modular STERIRACK®, a forward-thinking alternative to timber joinery, which poses hygiene challenges. This adaptable, WHS-compliant solution provides long-term flexibility, making it a new benchmark in clinical storage.",
-            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
-            "image_1": "shopify://shop_images/woman-wades-in-ocean-at-sunset.jpg",
-            "image_2": "shopify://shop_images/winding-road-covered-in-autumn-trees.jpg",
-            "project_logo": "shopify://shop_images/SPACELOGIC_logo_-_grey_and_yellow_2025_v1_1.svg"
+            "image": "shopify://shop_images/Canberra_Hospital_image_01.png",
+            "image_1": "shopify://shop_images/Canberra_Hospital_image_01.png",
+            "image_2": "shopify://shop_images/Canberra_Hospital_image_01.png",
+            "project_logo": "shopify://shop_images/Canberra_Hospital_logo_01.png"
           }
         }
       },
@@ -160,7 +160,7 @@
         "image_kiaDtp": {
           "type": "image",
           "settings": {
-            "project_name": "Sydney Children’s Hospital Randwick Redevelopment",
+            "project_name": "Sydney Children’s Hospital Randwick",
             "project_sub_heading": "Designing with care at the core",
             "project_des": "Our team is contributing to the Sydney Children’s Hospital Redevelopment in Randwick, a project focused on creating world-class paediatric healthcare environments. Through tailored STERIRACK® storage solutions, we are helping deliver safer, more efficient spaces for clinicians, patients, and families. It is a privilege to be part of a development that places children’s wellbeing at the centre of care.",
             "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
@@ -172,7 +172,7 @@
         "image_H4nfc4": {
           "type": "image",
           "settings": {
-            "project_name": "Liverpool Hospital Redevelopment – Main Works Stage 1",
+            "project_name": "Liverpool Hospital",
             "project_sub_heading": "Storage innovation at scale",
             "project_des": "Spacelogic was awarded the contract to supply, deliver, and install the clinical storage package for the $830 million Liverpool Hospital Redevelopment – Stage 1. Selected through a rigorous tender process, our STERIRACK® system was chosen for its modularity, WHS-compliant design, and ability to integrate seamlessly across diverse hospital departments. From emergency and maternity units to interventional radiology, paediatrics, research, and renal services, this project demonstrates the power of adaptable storage to enhance patient care and staff safety at scale.A highlight of the project was the successful deployment of the STERIRACK® Overhead Rail System—an Australian-first solution that maximises vertical space without compromising ergonomic access or mobility. In addition, Spacelogic was awarded the separate pharmacy shelving contract, showcasing how STERIRACK® can unify storage strategies across complex healthcare environments. This project reflects our ongoing commitment to innovation, stakeholder collaboration, and future-focused healthcare infrastructure.",
             "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
@@ -199,6 +199,7 @@
         "image_H4nfc4",
         "image_Dht7GG"
       ],
+      "disabled": true,
       "name": "TF Project Collage",
       "settings": {
         "heading": "",
@@ -259,6 +260,7 @@
         "image_LqgT9V",
         "image_BPwFWb"
       ],
+      "disabled": true,
       "name": "TF Project Collage",
       "settings": {
         "heading": "",
@@ -304,7 +306,7 @@
         "image_xWwfPK": {
           "type": "image",
           "settings": {
-            "project_name": "St George hospital redevelopment – stage 3",
+            "project_name": "St George Hospital",
             "project_sub_heading": "Strengthening care, supporting communities",
             "project_des": "We are proud to support the St George hospital redevelopment – Stage 3, in partnership with South Eastern Sydney local health district. This project focuses on expanding critical care services through the integration of scalable storage systems that enhance hospital workflows. Our team is helping to create smarter clinical environments that support both staff efficiency and patient care.",
             "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
@@ -319,6 +321,7 @@
         "image_Jrh3aU",
         "image_xWwfPK"
       ],
+      "disabled": true,
       "name": "TF Project Collage",
       "settings": {
         "heading": "",

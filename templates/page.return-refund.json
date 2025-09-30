@@ -21,26 +21,10 @@
             "custom_font_weight": "600",
             "heading_alignment": "center"
           }
-        },
-        "caption_EfyzhY": {
-          "type": "caption",
-          "settings": {
-            "caption": "<p>Add caption here</p>",
-            "caption_alignment": "center"
-          }
-        },
-        "text_3Y9ajL": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your page information.</p>",
-            "text_alignment": "left"
-          }
         }
       },
       "block_order": [
-        "heading_QhzbhL",
-        "caption_EfyzhY",
-        "text_3Y9ajL"
+        "heading_QhzbhL"
       ],
       "name": "Page Banner",
       "settings": {
@@ -83,10 +67,22 @@
         "padding_top": 80,
         "padding_bottom": 80
       }
+    },
+    "section_breadcrumb_AWCpeK": {
+      "type": "section-breadcrumb",
+      "name": "Breadcrumb",
+      "settings": {
+        "color_scheme": "",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "mobile_padding_top": 20,
+        "mobile_padding_bottom": 20
+      }
     }
   },
   "order": [
     "page_banner_kygFxA",
+    "section_breadcrumb_AWCpeK",
     "main",
     "return_refund_form_yRWQyC"
   ]

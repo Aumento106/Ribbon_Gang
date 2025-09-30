@@ -25,7 +25,8 @@
         "heading_mGwXwE": {
           "type": "heading",
           "settings": {
-            "heading": "{{ page.title }}"
+            "heading": "{{ page.title }}",
+            "heading_size": "h1"
           }
         },
         "text_7xmpEL": {

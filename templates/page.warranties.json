@@ -18,6 +18,7 @@
             "heading": "{{ page.title }}",
             "custom_heading_size": 52,
             "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400",
             "heading_alignment": "center"
           }
         }
@@ -45,6 +46,7 @@
         "image": "shopify://shop_images/Blacktown_1.png",
         "image_overlay_opacity": 0,
         "image_height": "small",
+        "auto_height": false,
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
@@ -52,7 +54,15 @@
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
-        "show_text_below": true
+        "show_text_below": true,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "margin_top": 36,
+        "margin_bottom": 36,
+        "mobile_padding_top": 36,
+        "mobile_padding_bottom": 36,
+        "mobile_margin_top": 36,
+        "mobile_margin_bottom": 36
       }
     },
     "rich_text_P3hBwh": {
@@ -63,14 +73,16 @@
           "settings": {
             "heading": "{{ page.title }}",
             "custom_heading_size": 52,
-            "mobile_custom_heading_size": 28
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "600"
           }
         },
         "text_7xmpEL": {
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>Remove this line of text</p>"
+            "text": "<p>Remove this line of text</p>",
+            "text_content_alignment": "center"
           }
         }
       },
@@ -85,18 +97,19 @@
         "full_width": true,
         "no_margin": false,
         "section_border": false,
-        "padding_top": 50,
-        "padding_bottom": 50
+        "padding_top": 80,
+        "padding_bottom": 40
       }
     },
-    "section_breadcrumb_F9PzRF": {
+    "section_breadcrumb_Vwz7zE": {
       "type": "section-breadcrumb",
+      "name": "Breadcrumb",
       "settings": {
         "color_scheme": "",
-        "padding_top": 30,
-        "padding_bottom": 30,
-        "mobile_padding_top": 30,
-        "mobile_padding_bottom": 30
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "mobile_padding_top": 20,
+        "mobile_padding_bottom": 20
       }
     },
     "main": {
@@ -120,7 +133,7 @@
     "page_banner_YkpPpf",
     "image_banner_VgKQ7z",
     "rich_text_P3hBwh",
-    "section_breadcrumb_F9PzRF",
+    "section_breadcrumb_Vwz7zE",
     "main",
     "product_catalog_W3r7Xn"
   ]

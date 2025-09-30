@@ -21,26 +21,10 @@
             "custom_font_weight": "600",
             "heading_alignment": "center"
           }
-        },
-        "caption_Q4Mdd9": {
-          "type": "caption",
-          "settings": {
-            "caption": "<p>Add caption here</p>",
-            "caption_alignment": "center"
-          }
-        },
-        "text_hBfFgQ": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your page information.</p>",
-            "text_alignment": "center"
-          }
         }
       },
       "block_order": [
-        "heading_yUnnhq",
-        "caption_Q4Mdd9",
-        "text_hBfFgQ"
+        "heading_yUnnhq"
       ],
       "name": "TF Page Banner",
       "settings": {

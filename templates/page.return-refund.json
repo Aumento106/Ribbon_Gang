@@ -21,26 +21,10 @@
             "custom_font_weight": "600",
             "heading_alignment": "center"
           }
-        },
-        "caption_EfyzhY": {
-          "type": "caption",
-          "settings": {
-            "caption": "<p>Add caption here</p>",
-            "caption_alignment": "center"
-          }
-        },
-        "text_3Y9ajL": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your page information.</p>",
-            "text_alignment": "left"
-          }
         }
       },
       "block_order": [
-        "heading_QhzbhL",
-        "caption_EfyzhY",
-        "text_3Y9ajL"
+        "heading_QhzbhL"
       ],
       "name": "Page Banner",
       "settings": {

@@ -95,23 +95,23 @@
             "page": ""
           }
         },
-        "collapsible_tab_rtVmJ4": {
+        "collapsible_tab_HaEpLp": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Warranty information",
             "accordian_icon_image": "shopify://shop_images/Group_1171277814.svg",
             "icon": "check_mark",
-            "content": "<p>All SpaceLogic accessories are backed by a 5-year warranty against faulty manufacture or workmanship under normal use. This warranty applies only when installed and used according to our guidelines. For full details, please refer to our Warranty Certificate. (<a href=\"https://online.flippingbook.com/view/308211667/\" target=\"_blank\" title=\"https://online.flippingbook.com/view/308211667/\">https://online.flippingbook.com/view/308211667/</a>). Please note that all section headings should be in light, not in bold.</p>",
+            "content": "<p>All SpaceLogic Accessories are backed by a 5-year warranty against faulty manufacture or workmanship under normal use. This warranty applies only when installed and used according to our guidelines. For full details, please refer to our Warranty Certificate.</p>",
             "page": ""
           }
         },
-        "collapsible_tab_6UANEN": {
+        "collapsible_tab_cEBm8X": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Brochure or spec sheet",
+            "heading": "Brochure or space sheet",
             "accordian_icon_image": "shopify://shop_images/Group_1171277814_1.svg",
             "icon": "check_mark",
-            "content": "<p>Explore the full range of SpaceLogic products and services with our comprehensive product catalogue. Inside, you’ll find detailed specifications, features, and configurations to help you choose the right products for your project. Whether you’re planning a small upgrade or a full facility fitout, our catalogue is your go-to resource for inspiration and technical guidance. View product catalogue (<a href=\"https://online.flippingbook.com/view/393434/13/\" title=\"https://online.flippingbook.com/view/393434/13/\">catalogue flipping book</a>)</p>",
+            "content": "{{ product.metafields.custom.brochure_description | metafield_tag }}",
             "page": ""
           }
         },
@@ -126,13 +126,13 @@
             "page": ""
           }
         },
-        "collapsible_tab_tNetXr": {
+        "collapsible_tab_HpkKRY": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Request a mini exhibition",
             "accordian_icon_image": "shopify://shop_images/Group_1171277814_3.svg",
             "icon": "check_mark",
-            "content": "<p>Experience the SpaceLogic Mini Exhibition, a tailored showcase that brings the gold standard in clinical storage right to your facility. Our team will walk you through STERIRACK® System’s design and concept capabilities, while you share your plans and objectives, so we can create the best outcome together. Discover how SpaceLogic can define the path forward for your project and give you complete confidence in achieving the optimal clinical storage solution. Learn more (<a href=\"https://online.flippingbook.com/view/308232103/\" target=\"_blank\" title=\"https://online.flippingbook.com/view/308232103/\">https://online.flippingbook.com/view/308232103/</a>)</p>",
+            "content": "<p>Request a Mini Exhibition → See STERIRACK® signage solutions in action, on-site.</p>",
             "page": ""
           }
         },
@@ -266,10 +266,10 @@
         "icon_text_reiiVN",
         "product_description_GjJGyV",
         "collapsible_tab_WGBYJ7",
-        "collapsible_tab_rtVmJ4",
-        "collapsible_tab_6UANEN",
+        "collapsible_tab_HaEpLp",
+        "collapsible_tab_cEBm8X",
         "collapsible_tab_mY4f8B",
-        "collapsible_tab_tNetXr",
+        "collapsible_tab_HpkKRY",
         "specifications_prC9K9",
         "q_a_Fz3EyY",
         "specifications_G4hKqK",

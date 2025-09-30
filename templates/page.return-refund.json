@@ -67,10 +67,22 @@
         "padding_top": 80,
         "padding_bottom": 80
       }
+    },
+    "section_breadcrumb_AWCpeK": {
+      "type": "section-breadcrumb",
+      "name": "Breadcrumb",
+      "settings": {
+        "color_scheme": "",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "mobile_padding_top": 20,
+        "mobile_padding_bottom": 20
+      }
     }
   },
   "order": [
     "page_banner_kygFxA",
+    "section_breadcrumb_AWCpeK",
     "main",
     "return_refund_form_yRWQyC"
   ]

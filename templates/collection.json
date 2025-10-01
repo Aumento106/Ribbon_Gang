@@ -24,7 +24,7 @@
         "heading_nhBt8y": {
           "type": "heading",
           "settings": {
-            "heading": "{{ collection.title }}",
+            "heading": "STERIRACK® System - Accessories",
             "custom_heading_size": 52,
             "mobile_custom_heading_size": 28,
             "custom_font_weight": "400",
@@ -34,7 +34,7 @@
         "text_G6e3Nj": {
           "type": "text",
           "settings": {
-            "text": "<p>Explore our full range of hospital and medical storage accessories, designed to improve organisation, support infection control, and create safer, more efficient clinical spaces. From bins and baskets to labels and dividers, every detail is engineered to help healthcare teams work smarter. Browse the collection and find the right accessories to optimise your hospital or clinical facility.</p>",
+            "text": "<p>Explore our full range of hospital and medical storage accessories, designed to improve organisation, support infection control, and create safer, more efficient clinical spaces. From bins and baskets to labels and dividers, every detail is engineered to help healthcare teams work smarter. Browse the collection and find the right accessories to optimise your STERIRACK® System.</p>",
             "text_alignment": "left"
           }
         }

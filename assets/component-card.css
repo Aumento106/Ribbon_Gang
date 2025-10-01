@@ -45,7 +45,7 @@
   position: relative;
   box-sizing: border-box;
   border-radius: var(--border-radius);
-  border: var(--border-width) solid #eee;
+  border: var(--border-width) solid #424242;
 }
 
 .card--card:after,

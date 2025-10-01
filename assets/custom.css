@@ -798,14 +798,11 @@ body .newsletter-form {
 }
 
 .product__info-wrapper .product-info-price .price-name-label {
-  font-size: 24px;
+  font-size: 32px;
   font-weight: 300;
   line-height: normal;
 }
-.product-grid-container .collection .button {
-  font-size: 16px;
-  padding: 13px 50px;
-}
+
 .product__info-wrapper .share-button__button {
   min-height: auto;
   padding: 0;
@@ -3443,7 +3440,7 @@ ul.header__submenu li ul li a{
   height: 100%;
   align-items: stretch;
   /* margin: 50px 0; */
-  margin: 40px 0;
+  margin: 0;
 }
 .main_customer .main_login_col,
 .main_customer .main_register_col {

@@ -1,9 +1,3 @@
-document.querySelectorAll('div').forEach(div => {
-  if (!div.textContent.trim() && div.children.length === 0) {
-    div.classList.add('empty');
-  }
-});
-
 async function udpateProgressbar() {
     if (window.location.pathname == `${routes.cart_url}`) {
         await fetch(`${routes.cart_url}?section_id=main-cart-items`)
@@ -518,6 +512,4 @@ document.addEventListener('DOMContentLoaded', function () {
   closeBtn?.addEventListener('click', closePopup);
   overlay?.addEventListener('click', closePopup);
 });
-
-
 

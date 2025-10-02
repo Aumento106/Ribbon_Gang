@@ -90,7 +90,7 @@
         "caption_CxjiDf": {
           "type": "caption",
           "settings": {
-            "caption": "<p>—</p>",
+            "caption": "<p>...</p>",
             "caption_alignment": "center"
           }
         },

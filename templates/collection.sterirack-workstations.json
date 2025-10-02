@@ -175,6 +175,58 @@
         "padding_bottom": 80
       }
     },
+    "multicolumn_video_YLWTEY": {
+      "type": "multicolumn-video",
+      "blocks": {
+        "column_Cbwdhz": {
+          "type": "column",
+          "settings": {
+            "enable_video_looping": false,
+            "title": "Box title",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>"
+          }
+        },
+        "column_8ymHKD": {
+          "type": "column",
+          "settings": {
+            "enable_video_looping": false,
+            "title": "Box title",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>"
+          }
+        },
+        "column_hwgfMF": {
+          "type": "column",
+          "settings": {
+            "enable_video_looping": false,
+            "title": "Box title",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "column_Cbwdhz",
+        "column_8ymHKD",
+        "column_hwgfMF"
+      ],
+      "name": "Multicolumn video",
+      "settings": {
+        "page_container": "page-width",
+        "title": "",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
+        "title_alignment": "center",
+        "color_scheme": "",
+        "columns_desktop": "3",
+        "box_shadow": true,
+        "box_auto_height1": true,
+        "box_color_scheme": "",
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "margin_bottom": 0,
+        "mobile_margin_bottom": 0
+      }
+    },
     "multicolumn_video_RR9UW7": {
       "type": "multicolumn-video",
       "blocks": {
@@ -212,12 +264,12 @@
         "custom_font_weight": "300",
         "title_alignment": "center",
         "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
-        "columns_desktop": "3",
+        "columns_desktop": "2",
         "box_shadow": true,
         "box_auto_height1": true,
         "box_color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
         "padding_top": 60,
-        "padding_bottom": 80,
+        "padding_bottom": 60,
         "margin_bottom": 0,
         "mobile_margin_bottom": 0
       }
@@ -499,6 +551,7 @@
     "page_banner_ntmMYU",
     "product-grid",
     "benefits_AtVcr6",
+    "multicolumn_video_YLWTEY",
     "multicolumn_video_RR9UW7",
     "rich_text_yeDbtX",
     "rich_text_ReT4C9",

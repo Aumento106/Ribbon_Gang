@@ -83,7 +83,7 @@
         "text_6i44C4": {
           "type": "text",
           "settings": {
-            "text": "<p>No more dark, dusty corners. No more inflexible, fixed cabinetry. No more lost and hidden stock. No more mouldy cracks and crevices around benchtops. Think of rows of modern, clean, shiny baskets and shelves that slide smoothly in and out. Designed with patented looped wire baskets, and smooth corners with no sharp edges, eradicating the risk of tears to skin or sterile stock. Wire baskets and open shelves provide 100% visibility of stock and ideal ventilation.</p><p>Imagine smooth-to-the-touch solid surface benchtops that are super easy to clean and disinfect. Made of a hard, non-porous material that no moulds can latch onto. There’s no place for pathogenic micro-organisms to hide.</p><p>Tailored to suit you space and application, STERIRACK® Workstations are the answer. And they’re made using premium materials. Because you want to know you’re getting great value for money, and a fabulous return on your investment.</p><p>Shown below are 4 popular concept STERIRACK® Workstations (available with laminate, stainless steel or solid surface benchtops) which can be customised to suit your room specifications. Available in a wide variety of widths, depths and configurations to suit your facility.</p><p>Alternatively, check out the steps below on how you can build your own. The configurations are endless!</p>",
+            "text": "<p>STERIRACK® workstations combine a clean, practical solid surface benchtop with fully customisable storage above, below and beside the work area. They eliminate the dark corners and fixed cabinetry of traditional layouts, replacing them with hygienic work surfaces and baskets, shelving or pharmacy drawers that keep everything visible, accessible and ventilated.<br/>Every workstation is built on the trusted STERIRACK® frame and can be tailored to your exact space and workflow. Choose from a wide range of widths, depths and configurations, or create your own design step by step.</p><h2>How to design your own workstation</h2><p><strong>Step 1: Select your bench configuration</strong></p><p>Choose the basic workstation frame that best suits your room size and application.</p><p>Step 2: Select your bench surface<br/>Opt for a premium solid surface benchtop, smooth and non-porous for easy cleaning and disinfection.</p><h3>Step 3: Select your edging option</h3><p>Decide on the benchtop edging profile that best suits your workflow and cleaning needs.</p><h3>Step 4: Select your full-height bay configuration</h3><p>Add full-height bays on one or both sides of the workstation. These can be fitted with SteriLoop® baskets, shelving or pharmacy drawers to match your storage needs.</p><h3>Step 5: Select your overhead configuration</h3><p>Add overhead modules with baskets, drawers or shelving to maximise vertical space.</p><h3>Step 6: Select your colour coding</h3><p>Finish with label holders and post strips in your choice of 14 colours to create a clear and efficient stock management system.</p><p>With these options, the configurations are virtually endless. Whether you need a compact packing station, a larger multi-user preparation bench, or a full storage-and-work hub, STERIRACK® workstations adapt seamlessly to your workflow.</p><p>To design a STERIRACK® workstation for your facility, please contact our consultants. We’ll work with you to plan the right configuration, provide quotes and layout options, and ensure you get exactly what you need.<br/><br/></p>",
             "text_alignment": "left"
           }
         }
@@ -180,6 +180,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "video_url": "",
             "enable_video_looping": false,
             "title": "Video title",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>"
@@ -189,6 +190,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "video_url": "",
             "enable_video_looping": false,
             "title": "Video title",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>"
@@ -198,6 +200,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "video_url": "",
             "enable_video_looping": false,
             "title": "Video title",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>"

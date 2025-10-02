@@ -74,7 +74,7 @@
         "text_irrzn9": {
           "type": "text",
           "settings": {
-            "text": "<p>STERIRACK® pharmacy drawers are purpose-built for the secure and efficient storage of medicines. Integrated seamlessly into full-height or bench-height modules, they transform static shelving into high-performance storage tailored to pharmacy workflows.</p><p>The self-retracting pull-out design provides smooth, reliable access. Drawers can be positioned flat or angled to improve visibility and ergonomics, while perforated bases promote airflow and ensure dust and particles fall through, supporting hygiene and infection control. Adjustable dividers allow aisles of any desired width, and integrated stoppers compartmentalise each aisle to keep medicines neatly organised.</p><p>Pharmacy drawers can also be colour-coded using label holders and post strips in 14 colours, helping staff implement clear and efficient medicine management systems. They are designed specifically for pharmacy applications, but can be combined within the same STERIRACK® bay as baskets or shelving to create hybrid modules when required.</p><p>By improving accessibility, enhancing organisation and supporting compliance, STERIRACK® pharmacy drawers streamline medicine storage and help pharmacy teams deliver care more safely and efficiently. Better stock management also reduces waste from misplaced or expired medicines, delivering significant cost savings alongside improved patient outcomes.</p><p>Below you can view demonstration videos of STERIRACK® pharmacy drawers in action, along with the full range of drawer options available for purchase.</p>",
+            "text": "<p>STERIRACK® pharmacy drawers are purpose-built for the secure and efficient storage of medicines. Integrated seamlessly into full-height or bench-height modules, they transform static shelving into high-performance storage tailored to pharmacy workflows.</p><p>The self-retracting pull-out design provides smooth, reliable access. Drawers can be positioned flat or angled to improve visibility and ergonomics, while perforated bases promote airflow and ensure dust and particles fall through, supporting hygiene and infection control. Adjustable dividers allow aisles of any desired width, and integrated stoppers compartmentalise each aisle to keep medicines neatly organised.</p><p>Pharmacy drawers can also be colour-coded using label holders and post strips in 14 colours, helping staff implement clear and efficient medicine management systems. They are designed specifically for pharmacy applications, but can be combined within the same STERIRACK® bay as baskets or shelving to create hybrid modules when required.</p><p>By improving accessibility, enhancing organisation and supporting compliance, STERIRACK® pharmacy drawers streamline medicine storage and help pharmacy teams deliver care more safely and efficiently. Better stock management also reduces waste from misplaced or expired medicines, delivering significant cost savings alongside improved patient outcomes.</p><p>Below you can view demonstration videos of STERIRACK® pharmacy drawers in action. To design a STERIRACK® pharmacy drawer solution for your facility, please contact our consultants — we’ll plan the right configuration, provide quotes and layout options, and ensure you get exactly what you need.</p>",
             "text_alignment": "left"
           }
         }
@@ -460,6 +460,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "video_url": "",
             "enable_video_looping": false,
             "title": "Video title",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>"
@@ -469,6 +470,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "video_url": "",
             "enable_video_looping": false,
             "title": "Video title",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>"
@@ -478,6 +480,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "video_url": "",
             "enable_video_looping": false,
             "title": "Video title",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>"

@@ -83,8 +83,8 @@
         "text_G6e3Nj": {
           "type": "text",
           "settings": {
-            "text": "<p>The healthcare sector is committed to better standards, best practice and the ultimate in infection control. That’s why closed-in, dust-gathering joinery and cabinetry is now an outdated system for shelving and baskets. To provide our clients with the ultimate solution, SpaceLogic has designed STERIRACK® Benching, providing the perfect solution for practices striving for the highest standard.</p><p>These innovative, adjustable benches can be configured in any length, to suit any application, and fully integrate with STERIRACK® modules, workstations and trolleys. Stainless steel or seamless Staron benchtops provide the perfect easy-clean surface, and provide no safe harbor for pathogens. Alternatively, you can choose a benchtop in a broad variety of laminate finishes to suit your decor.</p><p>Order in any length you require, from two-bay right up to eight-bay and above.</p>",
-            "text_alignment": "center"
+            "text": "<p>Traditional joinery beneath clinical benchtops is a thing of the past. STERIRACK® benching brings a modern, free-standing and modular approach that combines durable work surfaces with visible, accessible storage. With no hidden voids in the benchtops, there are no places for dust or particles to collect, making it a safer and more hygienic choice for healthcare environments.</p><p>Benchtops are available in seamless solid surface materials or stainless steel, both chosen for their easy-to-clean, pathogen-resistant qualities. Spaces beneath the bench can be left open to accommodate chairs, fridges, or equipment, or fitted with under-bench storage including baskets, shelving, or pharmacy drawers. A wide selection of SteriLoop® baskets in standard or fine mesh, chrome or stainless steel, can be integrated beneath the work surface, while accessories such as basket dividers, drop-in bins, label holders and post strips in 14 colours provide further flexibility.</p><p>STERIRACK® benching is tailored to the needs of each department, from compact two-bay benches through to extended eight-bay installations and beyond. Every configuration is designed for maximum hygiene, with open frames that make it easy to clean inside, around and beneath the system. Benching integrates seamlessly with full-height racking systems, workstations and trolleys, creating a unified storage ecosystem across the facility.</p><p>Benches are available as fixed installations or with castors for full mobility, and a choice of benchtop coving options can be added to meet specific clinical requirements. Each bench can be reconfigured at any time, whether by changing basket sizes or adjusting the number of shelves, allowing departments to adapt layouts without the cost or disruption of rebuilding. This built-in flexibility makes STERIRACK® benching a reliable, long-term investment for the future.</p><p>SpaceLogic is the only trusted partner you need for storage, handling and worksurfaces across sterile and clinical spaces.</p><p>Below you can view demonstration videos of STERIRACK® benching in action, along with the full range of benching options available for purchase.<br/></p>",
+            "text_alignment": "left"
           }
         }
       },
@@ -451,7 +451,9 @@
         "custom_font_weight": "400",
         "heading_alignment": "center",
         "bottom_description": "If you said ‘No’ to any of these questions your current storage system may be out-of-date or non-compliant, and STERIRACK® System is likely the perfect solution for you",
-        "color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6"
+        "color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
+        "margin_bottom": 0,
+        "mobile_margin_bottom": 0
       }
     },
     "dimension_table_KXzpgq": {

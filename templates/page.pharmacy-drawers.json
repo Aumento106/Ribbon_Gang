@@ -94,54 +94,6 @@
         "padding_bottom": 60
       }
     },
-    "page_banner_Ndzjrc": {
-      "type": "page-banner",
-      "blocks": {
-        "heading_QeGhgp": {
-          "type": "heading",
-          "settings": {
-            "heading": "Expert consultation and support",
-            "custom_heading_size": 36,
-            "mobile_custom_heading_size": 28,
-            "custom_font_weight": "600",
-            "heading_alignment": "center"
-          }
-        },
-        "text_MW8y3R": {
-          "type": "text",
-          "settings": {
-            "text": "<p>At SpaceLogic, we know that every department is different. That’s why our consultants are ready to work with you to ensure you get exactly what you’re looking for. We can visit your site to measure up and provide detailed plans and quotes, or deliver a face-to-face presentation to stakeholders. If your team is spread across locations, we can also host a virtual presentation to walk everyone through the options.<br/><br/>Whatever format you choose, our goal is to make the process simple, clear and tailored. You can be confident your STERIRACK® solution will be designed to meet your workflow, compliance and space requirements now and into the future.</p>",
-            "text_alignment": "left"
-          }
-        },
-        "button_hRyzwg": {
-          "type": "button",
-          "settings": {
-            "button_label": "Contact us today",
-            "button_link": "shopify://pages/contact",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false,
-            "button_alignment": "center"
-          }
-        }
-      },
-      "block_order": [
-        "heading_QeGhgp",
-        "text_MW8y3R",
-        "button_hRyzwg"
-      ],
-      "name": "Expert consultation",
-      "settings": {
-        "title_alignment": "center",
-        "full_width": true,
-        "content_width": "full_width",
-        "color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
-    },
     "image_banner_VgKQ7z": {
       "type": "image-banner",
       "disabled": true,
@@ -555,13 +507,68 @@
         "margin_bottom": 0,
         "mobile_margin_bottom": 0
       }
+    },
+    "page_banner_Ndzjrc": {
+      "type": "page-banner",
+      "blocks": {
+        "heading_QeGhgp": {
+          "type": "heading",
+          "settings": {
+            "heading": "Expert consultation and support",
+            "custom_heading_size": 36,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "600",
+            "heading_alignment": "center"
+          }
+        },
+        "text_MW8y3R": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At SpaceLogic, we know that every department is different. That’s why our consultants are ready to work with you to ensure you get exactly what you’re looking for. We can visit your site to measure up and provide detailed plans and quotes, or deliver a face-to-face presentation to stakeholders. If your team is spread across locations, we can also host a virtual presentation to walk everyone through the options.<br/><br/>Whatever format you choose, our goal is to make the process simple, clear and tailored. You can be confident your STERIRACK® solution will be designed to meet your workflow, compliance and space requirements now and into the future.</p>",
+            "text_alignment": "left"
+          }
+        },
+        "button_hRyzwg": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contact us today",
+            "button_link": "shopify://pages/contact",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "button_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "heading_QeGhgp",
+        "text_MW8y3R",
+        "button_hRyzwg"
+      ],
+      "name": "Expert consultation",
+      "settings": {
+        "title_alignment": "center",
+        "full_width": true,
+        "content_width": "full_width",
+        "color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "product_catalog_JQxrpi": {
+      "type": "product-catalog",
+      "name": "Product Catalog",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "custom_page_banner_REDfMA",
     "section_breadcrumb_XeR87V",
     "page_banner_WNLfNg",
-    "page_banner_Ndzjrc",
     "image_banner_VgKQ7z",
     "main",
     "product_catalog_W3r7Xn",
@@ -573,6 +580,8 @@
     "custom_multicolumn_XBMEpM",
     "rich_text_E9TKTR",
     "image_with_no_text_wCwp4B",
-    "multicolumn_video_4b3tqi"
+    "multicolumn_video_4b3tqi",
+    "page_banner_Ndzjrc",
+    "product_catalog_JQxrpi"
   ]
 }

@@ -130,20 +130,11 @@
             "text": "<p>At SpaceLogic, we know that every department is different. That’s why our consultants are ready to work with you to ensure you get exactly what you’re looking for. We can visit your site to measure up and provide detailed plans and quotes, or deliver a face-to-face presentation to stakeholders. If your team is spread across locations, we can also host a virtual presentation to walk everyone through the options.<br/><br/>Whatever format you choose, our goal is to make the process simple, clear and tailored. You can be confident your STERIRACK® solution will be designed to meet your workflow, compliance and space requirements now and into the future.</p>",
             "text_alignment": "left"
           }
-        },
-        "text_aGJVi4": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Although overhead rail units are not always the answer for maximising space or reducing WHS risk, and are regularly being replaced with STERIRACK® System Baskets and Shelving, these rail units definitely have a purpose and are very well suited in particular applications.</p><p>Fully customisable in size and configuration, utilising baskets and/or flat shelving and a broad range of accessories for additional efficiencies.</p><p>Speak with our consultants about the pros and cons of implementing compact overhead rail units in your facility. We’d be very happy to walk you through this on your next project.</p>",
-            "text_alignment": "center"
-          }
         }
       },
       "block_order": [
         "heading_DDxNne",
-        "text_ppVrRz",
-        "text_aGJVi4"
+        "text_ppVrRz"
       ],
       "name": "Expert consultation",
       "settings": {

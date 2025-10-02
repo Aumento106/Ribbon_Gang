@@ -15,21 +15,13 @@
         "slide_6Jkbmn": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
-            "image_overlay_opacity": 0
-          }
-        },
-        "slide_Y7z8RD": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/winding-road-covered-in-autumn-trees.jpg",
+            "image": "shopify://shop_images/Banner_image52.jpg",
             "image_overlay_opacity": 0
           }
         }
       },
       "block_order": [
-        "slide_6Jkbmn",
-        "slide_Y7z8RD"
+        "slide_6Jkbmn"
       ],
       "name": "Custom Page Banner",
       "settings": {

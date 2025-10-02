@@ -137,7 +137,7 @@
       "name": "TF Multicolumn video",
       "settings": {
         "page_container": "page-width",
-        "title": "<p>Video gallery</p>",
+        "title": "",
         "custom_heading_size": 42,
         "mobile_custom_heading_size": 28,
         "custom_font_weight": "300",
@@ -148,7 +148,7 @@
         "box_auto_height1": true,
         "box_color_scheme": "",
         "padding_top": 60,
-        "padding_bottom": 80,
+        "padding_bottom": 60,
         "margin_bottom": 0,
         "mobile_margin_bottom": 0
       }

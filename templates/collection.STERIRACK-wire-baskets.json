@@ -94,6 +94,49 @@
         "padding_bottom": 40
       }
     },
+    "page_banner_MpF6Jt": {
+      "type": "page-banner",
+      "blocks": {
+        "heading_HmYmyW": {
+          "type": "heading",
+          "settings": {
+            "heading": "SteriLoop® Baskets",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "600",
+            "heading_alignment": "center"
+          }
+        },
+        "caption_7xYbef": {
+          "type": "caption",
+          "settings": {
+            "caption": "<p>Designed to protect staff, patients and sterile stock</p>",
+            "caption_alignment": "center"
+          }
+        },
+        "text_TRiyqR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>SteriLoop® baskets are the signature basket of the STERIRACK® system, designed to set the benchmark for safety, hygiene and efficiency in clinical storage. Their unique looped-wire design eliminates sharp cut ends, protecting both staff and sterile packaging — <strong>Look for the Loop™</strong> as the mark of genuine SpaceLogic quality.</p><p>The open mesh structure promotes airflow, prevents dust build-up and makes cleaning almost unnecessary, because dust and particles fall straight through to the floor rather than collecting inside the basket. This is a major advantage over plastic drawers, which trap dirt and require regular cleaning. Contents remain visible at a glance, helping staff retrieve supplies quickly and rotate stock with confidence. Strong and durable in constant hospital use, baskets are available in chrome or stainless steel, with stainless steel the preferred choice in sterile storage areas.</p><p>SteriLoop® baskets are offered in two mesh types. Standard mesh provides optimal strength, airflow and visibility for general consumables, while fine mesh offers added support for small or delicate items that require secure storage without the risk of slipping through. Both types integrate seamlessly across shelving, trolleys, workstations and carts, and can run on flat, angled or telescopic runners for maximum flexibility.</p><p>Below you can view demonstration videos of SteriLoop® baskets in action, along with the full range of baskets available for purchase.<br/><br/></p>",
+            "text_alignment": "left"
+          }
+        }
+      },
+      "block_order": [
+        "heading_HmYmyW",
+        "caption_7xYbef",
+        "text_TRiyqR"
+      ],
+      "name": "TF Page Banner",
+      "settings": {
+        "title_alignment": "center",
+        "full_width": true,
+        "content_width": "full_width",
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "padding_top": 80,
+        "padding_bottom": 40
+      }
+    },
     "multicolumn_video_7DEUqP": {
       "type": "multicolumn-video",
       "blocks": {
@@ -147,7 +190,7 @@
         "box_auto_height1": true,
         "box_color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
         "padding_top": 60,
-        "padding_bottom": 80,
+        "padding_bottom": 60,
         "margin_bottom": 0,
         "mobile_margin_bottom": 0
       }
@@ -455,6 +498,7 @@
     "custom_page_banner_B4fRQL",
     "section_breadcrumb_tr669R",
     "page_banner_BXQVUB",
+    "page_banner_MpF6Jt",
     "multicolumn_video_7DEUqP",
     "banner",
     "product-grid",

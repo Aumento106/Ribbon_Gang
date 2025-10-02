@@ -94,6 +94,49 @@
         "padding_bottom": 60
       }
     },
+    "page_banner_KFDtfz": {
+      "type": "page-banner",
+      "blocks": {
+        "heading_mxCTMc": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ collection.title }}",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "600",
+            "heading_alignment": "center"
+          }
+        },
+        "caption_wLemet": {
+          "type": "caption",
+          "settings": {
+            "caption": "<p>Customise your system, optimise your workflow</p>",
+            "caption_alignment": "center"
+          }
+        },
+        "text_h9RwMp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>STERIRACK® System isn’t just shelving, it’s a complete ecosystem of accessories that let you customise, organise, and future-proof your storage. From colour-coded labelling to clever basket dividers and drop-in bins, every accessory has been designed in consultation with healthcare professionals to meet the demands of clinical workflows.</p><h3>Baskets and shelves</h3><p>At the heart of the system are the baskets and shelves themselves. SteriLoop® Baskets feature smooth looped-wire construction that protects sterile packaging, prevents dust accumulation, and ensures visibility at a glance. Shelving options range from slide-in shelves for oversized items to step shelves for sterile packs, all of which integrate seamlessly with accessories for tailored layouts.</p><h3>Labelling and signage</h3><p>STERIRACK® offers 14 colour options for label holders and post strips, as well as clear bay and aisle signs. This system makes identification fast and intuitive, supporting compliance and patient safety by reducing picking errors. Departments can colour-code zones or procedures, or simply make it easier for staff to find items instantly.</p><h3>Basket dividers and drop-in bins</h3><p>SteriLoop® Basket Dividers create precise compartments that keep packs, vials, and syringes upright, visible, and separated. They maintain organisation whether baskets are in fixed racks or on trolleys, ensuring stock rotation and retrieval are consistent across the workflow.</p><p>SteriLoop® Basket Drop-in Bins provide removable, open-structured inserts that stop small consumables from scattering. They increase usable basket volume by allowing vertical storage and are easy to lift out for restocking. Their airflow-friendly design supports infection control by reducing dust build-up.</p><h3>Shelf dividers and ledgers</h3><p>For shelf storage, dividers and ledgers segment supplies so they remain upright, visible, and easy to reach. This improves efficiency in high-volume areas and keeps stock well-organised, especially when combined with labelling and colour-coding.</p><h3>Why accessories matter</h3><p>STERIRACK® accessories take a modular storage system and turn it into a clinical advantage. They:</p><ul><li>Save time with clear, colour-coded identification</li><li>Improve accuracy and reduce errors in stock handling</li><li>Support infection control through easy-clean, airflow-friendly designs</li><li>Enhance flexibility, adapting to the needs of each department</li><li>Maintain consistency across fixed storage, trolleys, and carts</li></ul><p>With the right accessories, every STERIRACK® installation becomes more than just storage. It becomes a streamlined, efficient, and safe working environment that makes space for care.</p><p>Below you can view demonstration videos of STERIRACK® Accessories in action, along with the full range of products available for purchase.</p>",
+            "text_alignment": "left"
+          }
+        }
+      },
+      "block_order": [
+        "heading_mxCTMc",
+        "caption_wLemet",
+        "text_h9RwMp"
+      ],
+      "name": "Expert consultation",
+      "settings": {
+        "title_alignment": "center",
+        "full_width": true,
+        "content_width": "full_width",
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "padding_top": 80,
+        "padding_bottom": 60
+      }
+    },
     "multicolumn_video_peTRRF": {
       "type": "multicolumn-video",
       "blocks": {
@@ -466,6 +509,7 @@
     "custom_page_banner_q6xCQ9",
     "section_breadcrumb_Wdqetk",
     "page_banner_pwf4zd",
+    "page_banner_KFDtfz",
     "multicolumn_video_peTRRF",
     "banner",
     "product-grid",

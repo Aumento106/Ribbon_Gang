@@ -86,21 +86,12 @@
             "text": "<p>Traditional compactus-style storage is heavy, awkward and built with solid shelving that blocks visibility and airflow. STERIRACK® Overhead Rail Units overcome these limitations, using open mesh SteriLoop® Baskets and shelving to keep stock fully visible, well ventilated and easy to clean.</p><p>Designed by SpaceLogic specifically for our baskets, these units run on smooth overhead rails with castors for effortless mobility. They provide compact storage without sacrificing infection control, efficiency or ergonomics.</p><p>A wide variety of SteriLoop® Basket styles and sizes can be fitted, including sloping baskets for visibility, flat baskets for general consumables and fine mesh baskets for small or delicate items. Bulk storage modules can also be integrated. Colour-coded label holders and post strips in 14 colours support clear zoning, and accessories such as drop-in bins, shelf dividers and ledgers provide further customisation.</p><p>Below you can view demonstration videos of STERIRACK® overhead rail units in action. To design a solution for your facility, please contact our consultants — we’ll work with you to plan the right configuration, provide quotes and layout options, and ensure you get exactly what you need.<br/><br/></p>",
             "text_alignment": "left"
           }
-        },
-        "text_G6e3Nj": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Although overhead rail units are not always the answer for maximising space or reducing WHS risk, and are regularly being replaced with STERIRACK® System Baskets and Shelving, these rail units definitely have a purpose and are very well suited in particular applications.</p><p>Fully customisable in size and configuration, utilising baskets and/or flat shelving and a broad range of accessories for additional efficiencies.</p><p>Speak with our consultants about the pros and cons of implementing compact overhead rail units in your facility. We’d be very happy to walk you through this on your next project.</p>",
-            "text_alignment": "center"
-          }
         }
       },
       "block_order": [
         "heading_nhBt8y",
         "caption_FWaTeR",
-        "text_9A4HHM",
-        "text_G6e3Nj"
+        "text_9A4HHM"
       ],
       "settings": {
         "title_alignment": "center",

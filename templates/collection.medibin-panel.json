@@ -178,7 +178,6 @@
         "featured_collection_FzUGtP": {
           "type": "featured_collection",
           "settings": {
-            "categories_image": "shopify://shop_images/Group_1171277822.jpg",
             "product_name": "Large MEDIBIN™",
             "collection": "medibin-system",
             "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
@@ -189,7 +188,6 @@
         "featured_collection_F6ttDE": {
           "type": "featured_collection",
           "settings": {
-            "categories_image": "shopify://shop_images/Group_1171277824.jpg",
             "product_name": "Extra Large MEDIBIN™",
             "collection": "medibin-system",
             "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
@@ -200,7 +198,6 @@
         "featured_collection_pnAkTJ": {
           "type": "featured_collection",
           "settings": {
-            "categories_image": "shopify://shop_images/Group_1171277831.jpg",
             "product_name": "Extra Extra Large MEDIBIN™",
             "collection": "medibin-system",
             "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
@@ -605,7 +602,7 @@
       "name": "Multicolumn video",
       "settings": {
         "page_container": "page-width",
-        "title": "<p>Video gallery</p>",
+        "title": "",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
         "custom_font_weight": "300",
@@ -614,7 +611,7 @@
         "columns_desktop": "3",
         "box_shadow": true,
         "box_auto_height1": true,
-        "box_color_scheme": "",
+        "box_color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
         "padding_top": 60,
         "padding_bottom": 60,
         "margin_bottom": 100,

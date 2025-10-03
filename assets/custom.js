@@ -240,7 +240,11 @@ document.addEventListener('DOMContentLoaded', function () {
         spaceBetween: 0,
         centeredSlides: false,
         grabCursor: true,
-        loop: false,
+        loop: true,
+        autoplay: {
+          delay: 3000,  // 3000ms = 3 seconds
+          disableOnInteraction: false,  // Allows autoplay to continue after interaction
+        },
         pagination: {
           el: '.swiper-pagination',
           clickable: true,

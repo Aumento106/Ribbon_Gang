@@ -130,7 +130,7 @@
         "full_width": true,
         "content_width": "full_width",
         "color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
-        "padding_top": 80,
+        "padding_top": 60,
         "padding_bottom": 60
       }
     },
@@ -162,6 +162,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "video_url": "",
             "enable_video_looping": false,
             "title": "Video title",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>"
@@ -171,6 +172,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "video_url": "",
             "enable_video_looping": false,
             "title": "Video title",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>"
@@ -180,6 +182,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "video_url": "",
             "enable_video_looping": false,
             "title": "Video title",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>"
@@ -273,12 +276,12 @@
       ],
       "name": "TF Categories",
       "settings": {
-        "title": "",
-        "custom_heading_size": 52,
+        "title": "Available to purchase online",
+        "custom_heading_size": 36,
         "mobile_custom_heading_size": 28,
-        "custom_font_weight": "400",
+        "custom_font_weight": "600",
         "image_ratio": "square",
-        "columns_desktop": 3,
+        "columns_desktop": 5,
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "show_view_all": false,
         "columns_mobile": "1",

@@ -38,7 +38,6 @@
         "slide_QcKVdY": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Concept_1_1.png",
             "enable_side_image": false,
             "heading": "Shop accessories for smarter care",
             "custom_heading_size": 45,
@@ -1200,7 +1199,6 @@
         "column_tJjXWa": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/2-grid_Concept_13.png",
             "title": "Trolleys, carts and mobile units",
             "block_custom_font_weight": "400",
             "text": "",
@@ -1212,7 +1210,6 @@
         "column_6nDDjQ": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/2-grid_Concept_13.png",
             "title": "Accessories and colour coding",
             "block_custom_font_weight": "400",
             "text": "",
@@ -1816,8 +1813,8 @@
       "type": "product-catalog",
       "name": "Product Catalog",
       "settings": {
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     }
   },

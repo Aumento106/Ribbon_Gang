@@ -203,7 +203,7 @@
       "type": "product-catalog",
       "settings": {
         "padding_top": 40,
-        "padding_bottom": 30
+        "padding_bottom": 40
       }
     }
   },

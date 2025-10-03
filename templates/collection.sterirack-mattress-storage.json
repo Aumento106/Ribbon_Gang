@@ -96,24 +96,16 @@
             "heading_alignment": "center"
           }
         },
-        "caption_JDU4A8": {
-          "type": "caption",
-          "settings": {
-            "caption": "<p>Add caption here</p>",
-            "caption_alignment": "center"
-          }
-        },
         "text_RA6nFC": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your page information.</p>",
+            "text": "<p>At SpaceLogic, we know that every department is different. That’s why our consultants are ready to work with you to ensure you get exactly what you’re looking for. We can visit your site to measure up and provide detailed plans and quotes, or deliver a face-to-face presentation to stakeholders. If your team is spread across locations, we can also host a virtual presentation to walk everyone through the options.<br/><br/>Whatever format you choose, our goal is to make the process simple, clear and tailored. You can be confident your STERIRACK® solution will be designed to meet your workflow, compliance and space requirements now and into the future.</p>",
             "text_alignment": "left"
           }
         }
       },
       "block_order": [
         "heading_hxK6Cf",
-        "caption_JDU4A8",
         "text_RA6nFC"
       ],
       "name": "Expert consultation",

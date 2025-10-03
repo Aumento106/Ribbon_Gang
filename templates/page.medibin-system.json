@@ -96,7 +96,7 @@
             "custom_heading_size": 36,
             "mobile_custom_heading_size": 28,
             "custom_font_weight": "600",
-            "heading_alignment": "center"
+            "heading_alignment": "left"
           }
         },
         "text_L9VrpH": {
@@ -115,7 +115,7 @@
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false,
-            "button_alignment": "center"
+            "button_alignment": "left"
           }
         }
       },

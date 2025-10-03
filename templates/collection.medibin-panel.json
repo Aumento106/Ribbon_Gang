@@ -53,24 +53,16 @@
             "heading_alignment": "center"
           }
         },
-        "caption_fPciET": {
-          "type": "caption",
-          "settings": {
-            "caption": "<p>Add caption here</p>",
-            "caption_alignment": "center"
-          }
-        },
         "text_G6e3Nj": {
           "type": "text",
           "settings": {
-            "text": "<p>Replace product grid below with cart page for Panels (same as for Medibins)</p>",
+            "text": "<p>Replace product grid below with cart page for Panels and related products (same as for Medibins)</p>",
             "text_alignment": "center"
           }
         }
       },
       "block_order": [
         "heading_nhBt8y",
-        "caption_fPciET",
         "text_G6e3Nj"
       ],
       "settings": {

@@ -3954,3 +3954,7 @@ span.card_product_main_desc .trademark-symbol {
   width: 6px;
   height: auto;
 }
+.multirow .multirow__inner .image-with-text {
+    border-radius: 20px;
+    overflow: hidden;
+}

@@ -39,9 +39,11 @@
         </a>
       </div>
     {%- endif -%}
+    {% if section.settings.inquirynow__btntext != blank %}
     <div class="enquiry-now__btn">
       <a href="{{ section.settings.inquirynow__btnurl }}" class="button button--primary">{{ section.settings.inquirynow__btntext }}</a>
     </div>
+  {% endif %}
 
     {%- if section.blocks.size == 1 -%}
       <div

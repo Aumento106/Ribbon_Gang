@@ -146,7 +146,12 @@
                 <label class="form-label" for="ContactRegion">{{ section.settings.region }} *</label>
               </div>
               <!-- Hidden input -->
-            <input type="hidden" name="note" id="ContactNoteHidden" required>
+            <input 
+              type="hidden" 
+              id="ContactRegionHidden"
+              name="contact[region]"
+              required
+            >
 
             <!-- Select dropdown -->
             <select class="form-input" id="ContactRegionSelect" required>
@@ -159,14 +164,13 @@
             </select>
 
             <script>
-               const select = document.getElementById('ContactRegionSelect');
-              const noteInput = document.getElementById('ContactNoteHidden');
-
-              noteInput.value = select.value || '';
-
+              const select = document.getElementById('ContactRegionSelect');
+              const hiddenInput = document.getElementById('ContactRegionHidden');
+              hiddenInput.value = select.value;
+          
               select.addEventListener('change', function() {
-                noteInput.value = this.value;
-                console.log('Contact note value:', noteInput.value); 
+                hiddenInput.value = this.value;
+                console.log('Hidden input value updated:', hiddenInput.value); 
               });
             </script>
 

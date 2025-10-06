@@ -11,7 +11,7 @@
     background-repeat: no-repeat;
     background-size: 30px;
     background-position: right 10px center;
-}
+  }
   @media screen and (max-width: 749px) {
     .contact-section {
       margin-top: 0;
@@ -31,55 +31,58 @@
 
         {% form 'contact' %}
 
-        {%- if form.posted_successfully? -%}
-            <h2 class="form-status form-status-list form__message" tabindex="-1" autofocus>
-              {{- 'icon-success.svg' | inline_asset_content -}}
-              {{ 'templates.contact.form.post_success' | t }}
+        {% if form.posted_successfully? %}
+          <h2 class="form-status form-status-list form__message" tabindex="-1" autofocus>
+            {{ 'icon-success.svg' | inline_asset_content }}
+            {{ 'templates.contact.form.post_success' | t }}
+          </h2>
+        {% elsif form.errors %}
+          <div class="form__message">
+            <h2 class="form-status caption-large text-body" role="alert" tabindex="-1" autofocus>
+              {{ 'icon-error.svg' | inline_asset_content }}
+              {{ 'templates.contact.form.error_heading' | t }}
             </h2>
-          {%- elsif form.errors -%}
-            <div class="form__message">
-              <h2 class="form-status caption-large text-body" role="alert" tabindex="-1" autofocus>
-                {{- 'icon-error.svg' | inline_asset_content -}}
-                {{ 'templates.contact.form.error_heading' | t }}
-              </h2>
-            </div>
-            <ul class="form-status-list caption-large" role="list">
+          </div>
+          <ul class="form-status-list caption-large" role="list">
+            {% for field in form.errors.translated_fields %}
               <li>
-                <a href="#ContactForm-email" class="link">
-                  {{ form.errors.translated_fields.email | capitalize }}
-                  {{ form.errors.messages.email }}
+                <a href="#ContactForm-{{ field }}" class="link">
+                  {{ field | capitalize }}
+                  {{ form.errors.messages[field] }}
                 </a>
               </li>
-            </ul>
-        {%- endif -%}
+            {% endfor %}
+          </ul>
+        {% endif %}
 
-          {% if form.errors %}
-            <div class="form-error" style="display: block; margin-bottom: 20px;">
-              {{ form.errors | default_errors }}
-            </div>
-          {% endif %}
-
-        {% if section.settings.name != blank %}
-          <div class="form-field">
-            <div class="form_label_main">
-              {% if section.settings.name_icon != blank %}
-                <img src="{{ section.settings.name_icon | img_url }}">
-              {% endif %}
-              <label class="form-label" for="ContactName">{{ section.settings.name }} *</label>
-            </div>
-            <input 
-              type="text" 
-              class="form-input" 
-              id="ContactName"
-              name="contact[name]" 
-              value="{{ form.name }}"
-              required
-            >
+        {% if form.errors %}
+          <div class="form-error" style="display: block; margin-bottom: 20px;">
+            {{ form.errors | default_errors }}
           </div>
         {% endif %}
 
-        {% if section.settings.job_title != blank %}
-          <div class="form-row">
+        <div class="form-fields">
+
+          {% if section.settings.name != blank %}
+            <div class="form-field">
+              <div class="form_label_main">
+                {% if section.settings.name_icon != blank %}
+                  <img src="{{ section.settings.name_icon | img_url }}">
+                {% endif %}
+                <label class="form-label" for="ContactName">{{ section.settings.name }} *</label>
+              </div>
+              <input 
+                type="text" 
+                class="form-input" 
+                id="ContactName"
+                name="contact[name]" 
+                value="{{ form.name }}"
+                required
+              >
+            </div>
+          {% endif %}
+
+          {% if section.settings.job_title != blank %}
             <div class="form-field required">
               <div class="form_label_main">
                 {% if section.settings.job_title_icon != blank %}
@@ -94,11 +97,10 @@
                 name="contact[job_title]" 
                 required
               >
-          </div>
-        {% endif %}
+            </div>
+          {% endif %}
 
-        {% if section.settings.organisation != blank %}
-          <div class="form-row">
+          {% if section.settings.organisation != blank %}
             <div class="form-field required">
               <div class="form_label_main">
                 {% if section.settings.organisation_icon != blank %}
@@ -113,277 +115,239 @@
                 name="contact[organisation]" 
                 required
               >
-          </div>
-        {% endif %}
-
-        {% if section.settings.email != blank %}
-          <div class="form-field">
-          <div class="form_label_main">
-            {% if section.settings.email_icon != blank %}
-              <img src="{{ section.settings.email_icon | img_url }}">
-            {% endif %}
-            <label class="form-label" for="ContactEmail">{{ section.settings.email }} *</label>
-          </div>
-            <input 
-              type="email" 
-              class="form-input" 
-              id="ContactEmail"
-              name="contact[email]" 
-              value="{{ form.email }}"
-              required
-            >
-          </div>
-        {% endif %}
-
-        {% if section.settings.region != blank %}
-          <div class="form-field required">
-          <div class="form_label_main">
-            {% if section.settings.region_icon != blank %}
-              <img src="{{ section.settings.region_icon | img_url }}">
-            {% endif %}
-            <label class="form-label" for="ContactRegion">{{ section.settings.region }} *</label>
-          </div>
-            {% comment %} <input type="text" class="form-input" id="ContactRegion" name="contact[region]" value="{{ form.region }}" required> {% endcomment %}
-             <select class="form-input" id="ContactRegion" name="contact[region]" required>
-            <option value="" disabled selected></option>
-            <option value="australia" {% if form.region == "australia" %}selected{% endif %}>Australia (Oceania)</option>
-            <option value="northamerica" {% if form.region == "northamerica" %}selected{% endif %}>North America</option>
-            <option value="unitedkingdom" {% if form.region == "unitedkingdom" %}selected{% endif %}>United Kingdom</option>
-            <option value="europe" {% if form.region == "europe" %}selected{% endif %}>Europe</option>
-            <option value="other" {% if form.region == "other" %}selected{% endif %}>Other</option>
-          </select>
-                </div>
-        {% endif %}
-
-        {% if section.settings.phone != blank %}
-          <div class="form-field">
-            <div class="form_label_main">
-              {% if section.settings.phone_icon != blank %}
-                <img src="{{ section.settings.phone_icon | img_url }}">
-              {% endif %}
-              <label class="form-label" for="ContactPhone">{{ section.settings.phone }} *</label>
             </div>
-            <input 
-              type="tel" 
-              class="form-input" 
-              id="ContactPhone"
-              name="contact[phone]" 
-              value="{{ form.phone }}"
-              required
-            >
-          </div>
-        {% endif %}
-
-        </div>
-        
-        {% if section.settings.enquiry_type != blank %}
-          <div class="form-field required">
-            <div class="form_label_main">
-              {% if section.settings.enquiry_type_icon != blank %}
-                <img src="{{ section.settings.enquiry_type_icon | img_url }}">
-              {% endif %}
-              <label class="form-label" for="ContactEnquiryType">{{ section.settings.enquiry_type }} *</label>
-            </div>
-            {% comment %} <input 
-              type="tel" 
-              class="form-input" 
-              id="ContactEnquiryType"
-              name="contact[enquiry_type]" 
-              value="{{ form.enquiry_type }}"
-              required
-            > {% endcomment %}
-              <select class="form-input" id="ContactEnquiryType" name="contact[enquiry_type]" required>
-    <option value="" disabled {% if form.enquiry_type == blank %}selected{% endif %}></option>
-    <option value="Project enquiry" {% if form.enquiry_type == "Project enquiry" %}selected{% endif %}>Project enquiry</option>
-    <option value="Product enquiry" {% if form.enquiry_type == "Product enquiry" %}selected{% endif %}>Product enquiry</option>
-    <option value="Quote request" {% if form.enquiry_type == "Quote request" %}selected{% endif %}>Quote request</option>
-    <option value="Catalogue request" {% if form.enquiry_type == "Catalogue request" %}selected{% endif %}>Catalogue request</option>
-    <option value="Presentation request (Face-to-face)" {% if form.enquiry_type == "Presentation request (Face-to-face)" %}selected{% endif %}>Presentation request (Face-to-face)</option>
-    <option value="Presentation request (Online)" {% if form.enquiry_type == "Presentation request (Online)" %}selected{% endif %}>Presentation request (Online)</option>
-    <option value="BIM file request" {% if form.enquiry_type == "BIM file request" %}selected{% endif %}>BIM file request</option>
-  </select>
-          </div>
-        </div>
-        {% endif %}
-
-        {% if section.settings.enquiry != blank %}
-          <div class="form-field">
-            <div class="form_label_main">
-              {% if section.settings.enquiry_icon != blank %}
-                <img src="{{ section.settings.enquiry_icon | img_url }}">
-              {% endif %}
-              <label class="form-label" for="ContactMessage">{{ section.settings.enquiry }}</label>
-            </div>
-            <textarea
-              class="form-textarea"
-              id="ContactMessage"
-              name="contact[body]"              
-            >{{ form.body }}</textarea>
-          </div>
-
           {% endif %}
+
+          {% if section.settings.email != blank %}
+            <div class="form-field">
+              <div class="form_label_main">
+                {% if section.settings.email_icon != blank %}
+                  <img src="{{ section.settings.email_icon | img_url }}">
+                {% endif %}
+                <label class="form-label" for="ContactEmail">{{ section.settings.email }} *</label>
+              </div>
+              <input 
+                type="email" 
+                class="form-input" 
+                id="ContactEmail"
+                name="contact[email]" 
+                value="{{ form.email }}"
+                required
+              >
+            </div>
+          {% endif %}
+
+          {% if section.settings.region != blank %}
+            <div class="form-field required">
+              <div class="form_label_main">
+                {% if section.settings.region_icon != blank %}
+                  <img src="{{ section.settings.region_icon | img_url }}">
+                {% endif %}
+                <label class="form-label" for="ContactRegion">{{ section.settings.region }} *</label>
+              </div>
+              <select class="form-input" id="ContactRegion" name="contact[region]" required>
+                <option value="" disabled selected></option>
+                <option value="australia" {% if form.region == "australia" %}selected{% endif %}>Australia (Oceania)</option>
+                <option value="northamerica" {% if form.region == "northamerica" %}selected{% endif %}>North America</option>
+                <option value="unitedkingdom" {% if form.region == "unitedkingdom" %}selected{% endif %}>United Kingdom</option>
+                <option value="europe" {% if form.region == "europe" %}selected{% endif %}>Europe</option>
+                <option value="other" {% if form.region == "other" %}selected{% endif %}>Other</option>
+              </select>
+            </div>
+          {% endif %}
+
+          {% if section.settings.phone != blank %}
+            <div class="form-field">
+              <div class="form_label_main">
+                {% if section.settings.phone_icon != blank %}
+                  <img src="{{ section.settings.phone_icon | img_url }}">
+                {% endif %}
+                <label class="form-label" for="ContactPhone">{{ section.settings.phone }} *</label>
+              </div>
+              <input 
+                type="tel" 
+                class="form-input" 
+                id="ContactPhone"
+                name="contact[phone]" 
+                value="{{ form.phone }}"
+                required
+              >
+            </div>
+          {% endif %}
+
+          {% if section.settings.enquiry_type != blank %}
+            <div class="form-field required">
+              <div class="form_label_main">
+                {% if section.settings.enquiry_type_icon != blank %}
+                  <img src="{{ section.settings.enquiry_type_icon | img_url }}">
+                {% endif %}
+                <label class="form-label" for="ContactEnquiryType">{{ section.settings.enquiry_type }} *</label>
+              </div>
+              <select class="form-input" id="ContactEnquiryType" name="contact[enquiry_type]" required>
+                <option value="" disabled {% if form.enquiry_type == blank %}selected{% endif %}></option>
+                <option value="Project enquiry" {% if form.enquiry_type == "Project enquiry" %}selected{% endif %}>Project enquiry</option>
+                <option value="Product enquiry" {% if form.enquiry_type == "Product enquiry" %}selected{% endif %}>Product enquiry</option>
+                <option value="Quote request" {% if form.enquiry_type == "Quote request" %}selected{% endif %}>Quote request</option>
+                <option value="Catalogue request" {% if form.enquiry_type == "Catalogue request" %}selected{% endif %}>Catalogue request</option>
+                <option value="Presentation request (Face-to-face)" {% if form.enquiry_type == "Presentation request (Face-to-face)" %}selected{% endif %}>Presentation request (Face-to-face)</option>
+                <option value="Presentation request (Online)" {% if form.enquiry_type == "Presentation request (Online)" %}selected{% endif %}>Presentation request (Online)</option>
+                <option value="BIM file request" {% if form.enquiry_type == "BIM file request" %}selected{% endif %}>BIM file request</option>
+              </select>
+            </div>
+          {% endif %}
+
+          {% if section.settings.enquiry != blank %}
+            <div class="form-field">
+              <div class="form_label_main">
+                {% if section.settings.enquiry_icon != blank %}
+                  <img src="{{ section.settings.enquiry_icon | img_url }}">
+                {% endif %}
+                <label class="form-label" for="ContactMessage">{{ section.settings.enquiry }}</label>
+              </div>
+              <textarea class="form-textarea" id="ContactMessage" name="contact[body]">{{ form.body }}</textarea>
+            </div>
+          {% endif %}
+
+        </div>
 
         {% if section.settings.submit_btn != blank %}
           <button type="submit" class="submit-button button button--primary">{{ section.settings.submit_btn }}</button>
         {% endif %}
+
         {% endform %}
-      </div>
-        <div class="contact-details">
-          <div class="location-cards">
+
+      </div> <!-- /.contact-form-wrapper -->
+
+      <div class="contact-details">
+        <div class="location-cards">
           {% for block in section.blocks %}
             {% if block.type == 'location' %}
               <div class="location-card" {{ block.shopify_attributes }}>
                 <div class="location-card-main color-{{ block.settings.box_color_scheme }}">
                   <h1 class="location-title">{{ block.settings.title }}</h1>
-
-                <div class="location-info">
-
-                {% if block.settings.company != blank %}
-                  <div class="location-detail">
-                  {% if block.settings.company_icon != blank %}
-                      <img src="{{ block.settings.company_icon | img_url }}">
-                  {% endif %}
-                      <span>{{ block.settings.company }}</span>
-                  </div>
-                {% endif %}
-                  
-                  {% if block.settings.address != blank %}
-                    <div class="location-detail">
-                    {% if block.settings.address_icon != blank %}
-                      <img src="{{ block.settings.address_icon | img_url }}">
-                    {% endif %}
-                      <span>{{ block.settings.address }}</span>
-                    </div>
-                  {% endif %}
-
-                  {% if block.settings.phone != blank %}
-                  {% if block.settings.phone_link != blank %}
-                    <a href="{{ block.settings.phone_link }}" class="location-detail">
-                    {% if block.settings.phone_icon != blank %}
-                      <img src="{{ block.settings.phone_icon | img_url }}">
-                    {% endif %}
-                      <span>{{ block.settings.phone }}</span>
-                    </a>
-                    {% else %}
-                    <div class="location-detail">
-                    {% if block.settings.phone_icon != blank %}
-                      <img src="{{ block.settings.phone_icon | img_url }}">
-                    {% endif %}
-                      <span>{{ block.settings.phone }}</span>
-                    </div>
-                    {% endif %}
-                  {% endif %}
-
-                  {% if block.settings.email != blank %}
-                    {% if block.settings.email_link != blank %}
-                      <a href="{{ block.settings.email_link }}" class="location-detail">
-                      {% if block.settings.email_icon != blank %}
-                        <img src="{{ block.settings.email_icon | img_url }}">
-                      {% endif %}
-                        <span>{{ block.settings.email }}</span>
-                      </a>
-                    {% else %}
+                  <div class="location-info">
+                    {% if block.settings.company != blank %}
                       <div class="location-detail">
-                      {% if block.settings.email_icon != blank %}
-                        <img src="{{ block.settings.email_icon | img_url }}">
-                      {% endif %}
-                        <span>{{ block.settings.email }}</span>
+                        {% if block.settings.company_icon != blank %}
+                          <img src="{{ block.settings.company_icon | img_url }}">
+                        {% endif %}
+                        <span>{{ block.settings.company }}</span>
                       </div>
                     {% endif %}
-                  {% endif %}
 
-                </div>
+                    {% if block.settings.address != blank %}
+                      <div class="location-detail">
+                        {% if block.settings.address_icon != blank %}
+                          <img src="{{ block.settings.address_icon | img_url }}">
+                        {% endif %}
+                        <span>{{ block.settings.address }}</span>
+                      </div>
+                    {% endif %}
 
-                {% if block.settings.distributor_text != blank %}
-                  <p class="distributor_text">{{ block.settings.distributor_text }}</p>
-                {% endif %}
-
-              {% if block.settings.distributor_logo_1 != blank or block.settings.distributor_logo_2 != blank %}
-                <div class="distributor-logos">
-                    {% if block.settings.distributor_logo_1_url != blank %}
-                      <a href="{{ block.settings.distributor_logo_1_url }}">
-                      {% if block.settings.distributor_logo_1 %}
-                        <img src="{{ block.settings.distributor_logo_1 | img_url: 'master' }}" 
-                              alt="Distributor Logo" 
-                              loading="lazy"
-                              class="distributor-logo">
-                      {% endif %}
-                      </a>
+                    {% if block.settings.phone != blank %}
+                      {% if block.settings.phone_link != blank %}
+                        <a href="{{ block.settings.phone_link }}" class="location-detail">
+                          {% if block.settings.phone_icon != blank %}
+                            <img src="{{ block.settings.phone_icon | img_url }}">
+                          {% endif %}
+                          <span>{{ block.settings.phone }}</span>
+                        </a>
                       {% else %}
-                      {% if block.settings.distributor_logo_1 %}
-                        <img src="{{ block.settings.distributor_logo_1 | img_url: 'master' }}" 
-                              alt="Distributor Logo" 
-                              loading="lazy"
-                              class="distributor-logo">
+                        <div class="location-detail">
+                          {% if block.settings.phone_icon != blank %}
+                            <img src="{{ block.settings.phone_icon | img_url }}">
+                          {% endif %}
+                          <span>{{ block.settings.phone }}</span>
+                        </div>
                       {% endif %}
                     {% endif %}
-                    {% if block.settings.distributor_logo_2_url != blank %}
-                      <a href="{{ block.settings.distributor_logo_2_url }}">
+
+                    {% if block.settings.email != blank %}
+                      {% if block.settings.email_link != blank %}
+                        <a href="{{ block.settings.email_link }}" class="location-detail">
+                          {% if block.settings.email_icon != blank %}
+                            <img src="{{ block.settings.email_icon | img_url }}">
+                          {% endif %}
+                          <span>{{ block.settings.email }}</span>
+                        </a>
+                      {% else %}
+                        <div class="location-detail">
+                          {% if block.settings.email_icon != blank %}
+                            <img src="{{ block.settings.email_icon | img_url }}">
+                          {% endif %}
+                          <span>{{ block.settings.email }}</span>
+                        </div>
+                      {% endif %}
+                    {% endif %}
+                  </div>
+
+                  {% if block.settings.distributor_text != blank %}
+                    <p class="distributor_text">{{ block.settings.distributor_text }}</p>
+                  {% endif %}
+
+                  {% if block.settings.distributor_logo_1 or block.settings.distributor_logo_2 %}
+                    <div class="distributor-logos">
+                      {% if block.settings.distributor_logo_1 %}
+                        {% if block.settings.distributor_logo_1_url %}
+                          <a href="{{ block.settings.distributor_logo_1_url }}">
+                            <img src="{{ block.settings.distributor_logo_1 | img_url: 'master' }}" alt="Distributor Logo" loading="lazy" class="distributor-logo">
+                          </a>
+                        {% else %}
+                          <img src="{{ block.settings.distributor_logo_1 | img_url: 'master' }}" alt="Distributor Logo" loading="lazy" class="distributor-logo">
+                        {% endif %}
+                      {% endif %}
+
                       {% if block.settings.distributor_logo_2 %}
-                        <img src="{{ block.settings.distributor_logo_2 | img_url: '200x' }}" 
-                          alt="Distributor Logo" 
-                          loading="lazy"
-                          class="distributor-logo">
-                    {% endif %}
+                        {% if block.settings.distributor_logo_2_url %}
+                          <a href="{{ block.settings.distributor_logo_2_url }}">
+                            <img src="{{ block.settings.distributor_logo_2 | img_url: '200x' }}" alt="Distributor Logo" loading="lazy" class="distributor-logo">
+                          </a>
+                        {% else %}
+                          <img src="{{ block.settings.distributor_logo_2 | img_url: '200x' }}" alt="Distributor Logo" loading="lazy" class="distributor-logo">
+                        {% endif %}
+                      {% endif %}
+                    </div>
+                  {% endif %}
+
+                  <div class="social-links">
+                    {% if block.settings.facebook %}
+                      <a href="{{ block.settings.facebook }}" class="social-link" target="_blank" rel="noopener">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="22" viewBox="0 0 13 22" fill="none">
+                          <path d="M11.9443 1.10156H8.97496C7.66242 1.10156 6.40364 1.62297 5.47553 2.55108C4.54742 3.47919 4.02601 4.73797 4.02601 6.05051V9.01989H1.05664V12.979H4.02601V20.8974H7.98517V12.979H10.9545L11.9443 9.01989H7.98517V6.05051C7.98517 5.78801 8.08946 5.53625 8.27508 5.35063C8.4607 5.16501 8.71246 5.06072 8.97496 5.06072H11.9443V1.10156Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
                       </a>
-                    {% else %}
-                    {% if block.settings.distributor_logo_2 %}
-                    <img src="{{ block.settings.distributor_logo_2 | img_url: '200x' }}" 
-                          alt="Distributor Logo" 
-                          loading="lazy"
-                          class="distributor-logo">
                     {% endif %}
-                  {% endif %}
-                </div>
-              {% endif %}
-
-                <div class="social-links">
-                  
-                  {% if block.settings.facebook %}
-                    <a href="{{ block.settings.facebook }}" class="social-link" target="_blank" rel="noopener">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="13" height="22" viewBox="0 0 13 22" fill="none">
-                        <path d="M11.9443 1.10156H8.97496C7.66242 1.10156 6.40364 1.62297 5.47553 2.55108C4.54742 3.47919 4.02601 4.73797 4.02601 6.05051V9.01989H1.05664V12.979H4.02601V20.8974H7.98517V12.979H10.9545L11.9443 9.01989H7.98517V6.05051C7.98517 5.78801 8.08946 5.53625 8.27508 5.35063C8.4607 5.16501 8.71246 5.06072 8.97496 5.06072H11.9443V1.10156Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-                      </svg>
-                    </a>
-                  {% endif %}
-                  
-                  {% if block.settings.instagram %}
-                    <a href="{{ block.settings.instagram }}" class="social-link" target="_blank" rel="noopener">
-                      {{- 'instragram.svg' | inline_asset_content -}}
-                    </a>
-                  {% endif %}
-                  
-                  {% if block.settings.twitter %}
-                    <a href="{{ block.settings.twitter }}" class="social-link" target="_blank" rel="noopener">
-                      {{- 'twitter.svg' | inline_asset_content -}}
-                    </a>
-                  {% endif %}
-
-                  {% if block.settings.youtube %}
-                    <a href="{{ block.settings.youtube }}" class="social-link" target="_blank" rel="noopener">
-                      {{- 'youtube.svg' | inline_asset_content -}}
-                    </a>
-                  {% endif %}
-
-                  {% if block.settings.linkedin %}
-                    <a href="{{ block.settings.linkedin }}" class="social-link" target="_blank" rel="noopener">
-                      {{- 'linkdin.svg' | inline_asset_content -}}
-                    </a>
-                  {% endif %}
-                  
-                </div>
+                    {% if block.settings.instagram %}
+                      <a href="{{ block.settings.instagram }}" class="social-link" target="_blank" rel="noopener">
+                        {{ 'instragram.svg' | inline_asset_content }}
+                      </a>
+                    {% endif %}
+                    {% if block.settings.twitter %}
+                      <a href="{{ block.settings.twitter }}" class="social-link" target="_blank" rel="noopener">
+                        {{ 'twitter.svg' | inline_asset_content }}
+                      </a>
+                    {% endif %}
+                    {% if block.settings.youtube %}
+                      <a href="{{ block.settings.youtube }}" class="social-link" target="_blank" rel="noopener">
+                        {{ 'youtube.svg' | inline_asset_content }}
+                      </a>
+                    {% endif %}
+                    {% if block.settings.linkedin %}
+                      <a href="{{ block.settings.linkedin }}" class="social-link" target="_blank" rel="noopener">
+                        {{ 'linkdin.svg' | inline_asset_content }}
+                      </a>
+                    {% endif %}
+                  </div>
                 </div>
               </div>
             {% endif %}
           {% endfor %}
-          </div>
         </div>
+      </div>
     </div>
   </div>
-
-
-
 </div>
+
 
 
 {% schema %}

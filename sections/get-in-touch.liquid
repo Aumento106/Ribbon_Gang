@@ -160,9 +160,7 @@
   <option value="europe" {% if form.region == "europe" %}selected{% endif %}>Europe</option>
   <option value="other" {% if form.region == "other" %}selected{% endif %}>Other</option>
 </select>
-{% for country in localization.available_countries -%}
-{{ country }}
-{%- endfor %}
+
 
             </div>
           {% endif %}

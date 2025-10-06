@@ -388,3 +388,6 @@ slider-component.slider-component-full-width {
 .enquiry-now__btn {
     text-align: right;
 }
+.enquiry-now__btn a.button {
+    padding: 10px 30px;
+}

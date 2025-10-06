@@ -51,7 +51,7 @@
                 </a>
               </li>
             </ul>
-          {%- endif -%}
+        {%- endif -%}
 
           {% if form.errors %}
             <div class="form-error" style="display: block; margin-bottom: 20px;">
@@ -95,7 +95,7 @@
                 required
               >
           </div>
-          {% endif %}
+        {% endif %}
 
         {% if section.settings.organisation != blank %}
           <div class="form-row">
@@ -114,7 +114,7 @@
                 required
               >
           </div>
-          {% endif %}
+        {% endif %}
 
         {% if section.settings.email != blank %}
           <div class="form-field">
@@ -145,14 +145,14 @@
           </div>
             {% comment %} <input type="text" class="form-input" id="ContactRegion" name="contact[region]" value="{{ form.region }}" required> {% endcomment %}
              <select class="form-input" id="ContactRegion" name="contact[region]" required>
-      <option value="" disabled selected></option>
-      <option value="australia" {% if form.region == "australia" %}selected{% endif %}>Australia (Oceania)</option>
-      <option value="northamerica" {% if form.region == "northamerica" %}selected{% endif %}>North America</option>
-      <option value="unitedkingdom" {% if form.region == "unitedkingdom" %}selected{% endif %}>United Kingdom</option>
-      <option value="europe" {% if form.region == "europe" %}selected{% endif %}>Europe</option>
-      <option value="other" {% if form.region == "other" %}selected{% endif %}>Other</option>
-    </select>
-          </div>
+            <option value="" disabled selected></option>
+            <option value="australia" {% if form.region == "australia" %}selected{% endif %}>Australia (Oceania)</option>
+            <option value="northamerica" {% if form.region == "northamerica" %}selected{% endif %}>North America</option>
+            <option value="unitedkingdom" {% if form.region == "unitedkingdom" %}selected{% endif %}>United Kingdom</option>
+            <option value="europe" {% if form.region == "europe" %}selected{% endif %}>Europe</option>
+            <option value="other" {% if form.region == "other" %}selected{% endif %}>Other</option>
+          </select>
+                </div>
         {% endif %}
 
         {% if section.settings.phone != blank %}
@@ -172,7 +172,7 @@
               required
             >
           </div>
-          {% endif %}
+        {% endif %}
 
         </div>
         

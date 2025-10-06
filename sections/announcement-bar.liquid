@@ -39,6 +39,9 @@
         </a>
       </div>
     {%- endif -%}
+    <div class="enquiry-now__btn">
+      <a href="{{ section.settings.inquirynow__btnurl }}" class="button button--primary">{{ section.settings.inquirynow__btntext }}</a>
+    </div>
 
     {%- if section.blocks.size == 1 -%}
       <div
@@ -216,6 +219,16 @@
       "id": "phone_number",
       "label": "Phone Number",
       "info": "Enter your contact phone number"
+    },
+    {
+      "type": "text",
+      "id":"inquirynow__btntext",
+      "label": "Button Text"
+    },
+    {
+      "type":"url",
+      "id":"inquirynow__btnurl",
+      "label":"Button Url"
     },
     {
       "type": "header",

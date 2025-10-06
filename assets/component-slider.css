@@ -382,6 +382,9 @@ slider-component.slider-component-full-width {
   transform: rotate(90deg) scale(1.1);
 }
 
-.localization-wrapper:empty{
+.localization-wrapper{
   display:none;
+}
+.enquiry-now__btn {
+    text-align: right;
 }

@@ -157,7 +157,7 @@
         </style>
       {%- endif -%}
     {%- endif -%}
-    {% comment %} <div class="localization-wrapper">
+    <div class="localization-wrapper">
       {%- if section.settings.enable_country_selector and localization.available_countries.size > 0 -%}
         <localization-form class="small-hide medium-hide">
           {%- form 'localization', id: 'AnnouncementCountryForm', class: 'localization-form' -%}
@@ -179,7 +179,7 @@
           {%- endform -%}
         </localization-form>
       {%- endif -%}
-    </div> {% endcomment %}
+    </div>
   </div>
 </div>
 

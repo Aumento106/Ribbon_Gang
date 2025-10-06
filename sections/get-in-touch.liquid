@@ -140,7 +140,7 @@
           </div>
             {% comment %} <input type="text" class="form-input" id="ContactRegion" name="contact[region]" value="{{ form.region }}" required> {% endcomment %}
              <select class="form-input" id="ContactRegion" name="contact[region]" required>
-      <option value="" disabled selected>Select option</option>
+      <option value="" disabled selected></option>
       <option value="australia" {% if form.region == "australia" %}selected{% endif %}>Australia (Oceania)</option>
       <option value="northamerica" {% if form.region == "northamerica" %}selected{% endif %}>North America</option>
       <option value="unitedkingdom" {% if form.region == "unitedkingdom" %}selected{% endif %}>United Kingdom</option>

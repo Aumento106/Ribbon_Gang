@@ -146,36 +146,33 @@
                 <label class="form-label" for="ContactRegion">{{ section.settings.region }} *</label>
               </div>
               <!-- Hidden input -->
-<input 
-  type="hidden" 
-  id="ContactRegionHidden"
-  name="contact[region]"
-  required
->
+            <input 
+              type="hidden" 
+              id="ContactRegionHidden"
+              name="contact[region]"
+              required
+            >
 
-<!-- Select dropdown -->
-<select class="form-input" id="ContactRegionSelect" required>
-  <option value="" disabled selected></option>
-  <option value="australia">Australia (Oceania)</option>
-  <option value="northamerica">North America</option>
-  <option value="unitedkingdom">United Kingdom</option>
-  <option value="europe">Europe</option>
-  <option value="other">Other</option>
-</select>
+            <!-- Select dropdown -->
+            <select class="form-input" id="ContactRegionSelect" required>
+              <option value="" disabled selected></option>
+              <option value="australia">Australia (Oceania)</option>
+              <option value="northamerica">North America</option>
+              <option value="unitedkingdom">United Kingdom</option>
+              <option value="europe">Europe</option>
+              <option value="other">Other</option>
+            </select>
 
-<script>
-  const select = document.getElementById('ContactRegionSelect');
-  const hiddenInput = document.getElementById('ContactRegionHidden');
-
-  // Initialize hidden input with current select value (if any)
-  hiddenInput.value = select.value;
-
-  // Update hidden input whenever selection changes
-  select.addEventListener('change', function() {
-    hiddenInput.value = this.value;
-    console.log('Hidden input value updated:', hiddenInput.value); // optional: check in console
-  });
-</script>
+            <script>
+              const select = document.getElementById('ContactRegionSelect');
+              const hiddenInput = document.getElementById('ContactRegionHidden');
+              hiddenInput.value = select.value;
+          
+              select.addEventListener('change', function() {
+                hiddenInput.value = this.value;
+                console.log('Hidden input value updated:', hiddenInput.value); 
+              });
+            </script>
 
             </div>
           {% endif %}

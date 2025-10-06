@@ -193,7 +193,7 @@
               required
             > {% endcomment %}
               <select class="form-input" id="ContactEnquiryType" name="contact[enquiry_type]" required>
-    <option value="" disabled {% if form.enquiry_type == blank %}selected{% endif %}>Select option</option>
+    <option value="" disabled {% if form.enquiry_type == blank %}selected{% endif %}></option>
     <option value="Project enquiry" {% if form.enquiry_type == "Project enquiry" %}selected{% endif %}>Project enquiry</option>
     <option value="Product enquiry" {% if form.enquiry_type == "Product enquiry" %}selected{% endif %}>Product enquiry</option>
     <option value="Quote request" {% if form.enquiry_type == "Quote request" %}selected{% endif %}>Quote request</option>

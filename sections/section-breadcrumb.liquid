@@ -26,6 +26,30 @@
 <div class="breadcrumb-sec-main color-{{ section.settings.color_scheme }} section-{{ section.id }}-padding">
   <div class="page-width">
     {% render 'breadcrumbs' %}
+    {% assign collection_handle = collection.handle %}
+{% assign breadCrumbArray = '' %}
+ {{ navigation_menu.links }}
+{% for mainLink in navigation_menu.links %}
+  {% assign link = mainLink.title | append: '||' | append: mainLink.url %}
+  {% if mainLink.object.handle == collection_handle %}
+    {% assign breadCrumbArray = breadCrumbArray | append: link %}
+  {% endif %}
+ 
+  {% for subLink in mainLink.links %}
+    {% assign subLinkLink = subLink.title | append: '||' | append: subLink.url %}
+    {% if subLink.object.handle == collection_handle %}
+      {% assign breadCrumbArray = breadCrumbArray | append: link | append: '>>' | append: subLinkLink %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+ 
+{% if breadCrumbArray != blank %}
+  {% assign splitBread = breadCrumbArray | split: '>>' %}
+  {% assign lastCollectionTitle = blank %}
+  {% for breadCrumb in splitBread %}
+    {{ breadCrumb }}
+  {% endfor %}
+{% endif %}
   </div>
 </div>
 

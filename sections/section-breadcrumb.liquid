@@ -30,7 +30,6 @@
     {% assign collection_handle = collection.handle %}
 {% assign breadCrumbArray = '' %}
 {% for mainLink in menu.links %}
-  {{ menu.links }}
   {% assign link = mainLink.title | append: '||' | append: mainLink.url %}
   {% if mainLink.object.handle == collection_handle %}
     {% assign breadCrumbArray = breadCrumbArray | append: link %}

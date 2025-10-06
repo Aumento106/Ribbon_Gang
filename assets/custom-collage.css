@@ -142,7 +142,8 @@ body.popup-overflow-hidden::before {
 .projects-popup-main .project-image-item {
     border-radius: 16px;
     overflow: hidden;
-    height: 400px;
+    /* height: 400px; */
+        aspect-ratio: 15 / 10;
 }
 
 .projects-popup-main .project-image-item img {

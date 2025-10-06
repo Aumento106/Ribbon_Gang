@@ -193,14 +193,13 @@
 
   window.addEventListener('load', setAnnouncementBarHeight);
   window.addEventListener('resize', setAnnouncementBarHeight);
+  
   document.addEventListener("DOMContentLoaded", function () {
-    const wrappers = document.querySelectorAll('localization-wrapper');
+    const wrapper = document.querySelector('localization-wrapper');
     
-    wrappers.forEach(wrapper => {
-        if (wrapper.innerHTML.trim() === "") {
-            wrapper.style.display = 'none';
-        }
-    });
+    if (wrapper && wrapper.innerHTML.trim() === "") {
+        wrapper.style.display = 'none';
+    }
 });
 
 {% endjavascript %}

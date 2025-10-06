@@ -340,7 +340,8 @@ li > .trademark-symbol-TM {
 :not(.template-index) :is(h1, h2, h3, h4, h5, h6) > .trademark-symbol-TM, 
 :not(.template-index) :is(h1, h2, h3, h4, h5, h6) > .trademark-symbol {
   /* top: -24px; */
-  font-size: 17px;
+  font-size: 18px;
+  top:-4px;
 }
 
 

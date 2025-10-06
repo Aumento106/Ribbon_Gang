@@ -101,7 +101,7 @@
             "heading": "Warranty information",
             "accordian_icon_image": "shopify://shop_images/Group_1171277814.svg",
             "icon": "check_mark",
-            "content": "<p>All SpaceLogic Accessories are backed by a 5-year warranty against faulty manufacture or workmanship under normal use. This warranty applies only when installed and used according to our guidelines. For full details, please refer to our Warranty Certificate.</p>",
+            "content": "<p>All SpaceLogic accessories are backed by a 5-year warranty against faulty manufacture or workmanship under normal use. This warranty applies only when installed and used according to our guidelines. For full details, please refer to our Warranty Certificate. (<a href=\"https://online.flippingbook.com/view/308211667/\" target=\"_blank\" title=\"https://online.flippingbook.com/view/308211667/\">https://online.flippingbook.com/view/308211667/</a>). Please note that all section headings should be in light, not in bold</p>",
             "page": ""
           }
         },
@@ -875,7 +875,9 @@
       "disabled": true,
       "settings": {
         "padding_top": 20,
-        "padding_bottom": 20
+        "padding_bottom": 20,
+        "margin_top": 40,
+        "margin_bottom": 40
       }
     },
     "proudly_support_NnMGAw": {

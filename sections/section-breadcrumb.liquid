@@ -26,11 +26,11 @@
 <div class="breadcrumb-sec-main color-{{ section.settings.color_scheme }} section-{{ section.id }}-padding">
   <div class="page-width">
     {% render 'breadcrumbs' %}
-    
+
     {% assign collection_handle = collection.handle %}
 {% assign breadCrumbArray = '' %}
- {{ menu.links }}
 {% for mainLink in menu.links %}
+  {{ menu.links }}
   {% assign link = mainLink.title | append: '||' | append: mainLink.url %}
   {% if mainLink.object.handle == collection_handle %}
     {% assign breadCrumbArray = breadCrumbArray | append: link %}

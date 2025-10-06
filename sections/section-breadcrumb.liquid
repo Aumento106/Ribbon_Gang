@@ -31,15 +31,15 @@
 {% assign breadCrumbArray = '' %}
 {% for mainLink in main-menu.links %}
   {% assign link = mainLink.title | append: '||' | append: mainLink.url %}
-  {% if mainLink.object.handle == collection_handle %}
+  
     {% assign breadCrumbArray = breadCrumbArray | append: link %}
-  {% endif %}
+  
  
   {% for subLink in mainLink.links %}
     {% assign subLinkLink = subLink.title | append: '||' | append: subLink.url %}
-    {% if subLink.object.handle == collection_handle %}
+    
       {% assign breadCrumbArray = breadCrumbArray | append: link | append: '>>' | append: subLinkLink %}
-    {% endif %}
+    
   {% endfor %}
 {% endfor %}
  

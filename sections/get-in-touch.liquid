@@ -145,15 +145,13 @@
                 {% endif %}
                 <label class="form-label" for="ContactRegion">{{ section.settings.region }} *</label>
               </div>
-              <!-- Hidden input -->
-<input 
+              <input 
   type="hidden" 
   name="contact[region]" 
   value="{% if form.region %}{{ form.region }}{% else %}australia{% endif %}" 
   required
 >
 
-<!-- Select dropdown -->
 <select class="form-input" name="contact[region]" required>
   <option value="" disabled {% unless form.region %}selected{% endunless %}></option>
   <option value="australia" {% if form.region == "australia" %}selected{% endif %}>Australia (Oceania)</option>

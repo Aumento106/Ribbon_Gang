@@ -146,22 +146,20 @@
                 <label class="form-label" for="ContactRegion">{{ section.settings.region }} *</label>
               </div>
               <input 
-  type="hidden" 
-  name="contact[region]" 
-  value="{% if form.region %}{{ form.region }}{% else %}australia{% endif %}" 
-  required
->
-
-<select class="form-input" name="contact[region]" required>
-  <option value="" disabled {% unless form.region %}selected{% endunless %}></option>
-  <option value="australia" {% if form.region == "australia" %}selected{% endif %}>Australia (Oceania)</option>
-  <option value="northamerica" {% if form.region == "northamerica" %}selected{% endif %}>North America</option>
-  <option value="unitedkingdom" {% if form.region == "unitedkingdom" %}selected{% endif %}>United Kingdom</option>
-  <option value="europe" {% if form.region == "europe" %}selected{% endif %}>Europe</option>
-  <option value="other" {% if form.region == "other" %}selected{% endif %}>Other</option>
-</select>
-
-
+                type="hidden" 
+                class="form-input" 
+                id="ContactRegion"
+                name="contact[region]" 
+                required
+              >
+              <select class="form-input" id="ContactRegion" name="contact[region]" required>
+                <option value="" disabled selected></option>
+                <option value="australia" {% if form.region == "australia" %}selected{% endif %}>Australia (Oceania)</option>
+                <option value="northamerica" {% if form.region == "northamerica" %}selected{% endif %}>North America</option>
+                <option value="unitedkingdom" {% if form.region == "unitedkingdom" %}selected{% endif %}>United Kingdom</option>
+                <option value="europe" {% if form.region == "europe" %}selected{% endif %}>Europe</option>
+                <option value="other" {% if form.region == "other" %}selected{% endif %}>Other</option>
+              </select>
             </div>
           {% endif %}
 

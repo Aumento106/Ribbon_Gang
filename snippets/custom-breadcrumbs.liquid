@@ -3,7 +3,6 @@
 {% assign breadCrumbArray = '' %}
  
 {% for mainLink in main-menu.links %}
-    {{ mainLink.title }}
   {% assign link = mainLink.title | append: '||' | append: mainLink.url %}
   
     {% assign breadCrumbArray = breadCrumbArray | append: link %}

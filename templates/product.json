@@ -731,7 +731,7 @@
       "type": "related-products",
       "settings": {
         "title": "You may also like",
-        "heading_size": "h2",
+        "heading_size": "h1",
         "heading_alignment": "left",
         "products_to_show": 6,
         "columns_desktop": 6,

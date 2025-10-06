@@ -160,14 +160,14 @@
 
             <script>
                const select = document.getElementById('ContactRegionSelect');
-  const noteInput = document.getElementById('ContactNoteHidden');
+              const noteInput = document.getElementById('ContactNoteHidden');
 
-  noteInput.value = select.value || '';
+              noteInput.value = select.value || '';
 
-  select.addEventListener('change', function() {
-    noteInput.value = this.value;
-    console.log('Contact note value:', noteInput.value); // for debugging
-  });
+              select.addEventListener('change', function() {
+                noteInput.value = this.value;
+                console.log('Contact note value:', noteInput.value); // for debugging
+              });
             </script>
 
             </div>

@@ -184,14 +184,24 @@
               {% endif %}
               <label class="form-label" for="ContactEnquiryType">{{ section.settings.enquiry_type }} *</label>
             </div>
-            <input 
+            {% comment %} <input 
               type="tel" 
               class="form-input" 
               id="ContactEnquiryType"
               name="contact[enquiry_type]" 
               value="{{ form.enquiry_type }}"
               required
-            >
+            > {% endcomment %}
+              <select class="form-input" id="ContactEnquiryType" name="contact[enquiry_type]" required>
+    <option value="" disabled {% if form.enquiry_type == blank %}selected{% endif %}>Select option</option>
+    <option value="Project enquiry" {% if form.enquiry_type == "Project enquiry" %}selected{% endif %}>Project enquiry</option>
+    <option value="Product enquiry" {% if form.enquiry_type == "Product enquiry" %}selected{% endif %}>Product enquiry</option>
+    <option value="Quote request" {% if form.enquiry_type == "Quote request" %}selected{% endif %}>Quote request</option>
+    <option value="Catalogue request" {% if form.enquiry_type == "Catalogue request" %}selected{% endif %}>Catalogue request</option>
+    <option value="Presentation request (Face-to-face)" {% if form.enquiry_type == "Presentation request (Face-to-face)" %}selected{% endif %}>Presentation request (Face-to-face)</option>
+    <option value="Presentation request (Online)" {% if form.enquiry_type == "Presentation request (Online)" %}selected{% endif %}>Presentation request (Online)</option>
+    <option value="BIM file request" {% if form.enquiry_type == "BIM file request" %}selected{% endif %}>BIM file request</option>
+  </select>
           </div>
         </div>
         {% endif %}

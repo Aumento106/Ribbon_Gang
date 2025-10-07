@@ -15,14 +15,14 @@
         "slide_Y9xCH7": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image": "shopify://shop_images/Banner_image75.jpg",
             "image_overlay_opacity": 0
           }
         },
         "slide_GnMafD": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/winding-road-covered-in-autumn-trees.jpg",
+            "image": "shopify://shop_images/Banner_image76.jpg",
             "image_overlay_opacity": 0
           }
         }
@@ -34,7 +34,7 @@
       "name": "Custom Page Banner",
       "settings": {
         "layout": "full_bleed",
-        "slide_height": "large",
+        "slide_height": "medium",
         "image_behavior": "none",
         "padding_top": 0,
         "padding_bottom": 0
@@ -94,7 +94,9 @@
       "disabled": true,
       "settings": {
         "padding_top": 20,
-        "padding_bottom": 20
+        "padding_bottom": 20,
+        "margin_top": 40,
+        "margin_bottom": 40
       }
     },
     "product_list_aMiAGg": {
@@ -136,7 +138,6 @@
         "featured_collection_FzUGtP": {
           "type": "featured_collection",
           "settings": {
-            "categories_image": "shopify://shop_images/Group_1171277822.jpg",
             "product_name": "Large MEDIBIN™",
             "collection": "medibin-system",
             "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
@@ -147,7 +148,6 @@
         "featured_collection_F6ttDE": {
           "type": "featured_collection",
           "settings": {
-            "categories_image": "shopify://shop_images/Group_1171277824.jpg",
             "product_name": "Extra Large MEDIBIN™",
             "collection": "medibin-system",
             "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
@@ -158,7 +158,6 @@
         "featured_collection_pnAkTJ": {
           "type": "featured_collection",
           "settings": {
-            "categories_image": "shopify://shop_images/Group_1171277831.jpg",
             "product_name": "Extra Extra Large MEDIBIN™",
             "collection": "medibin-system",
             "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",

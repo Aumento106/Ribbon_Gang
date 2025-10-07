@@ -177,7 +177,9 @@
       "disabled": true,
       "settings": {
         "padding_top": 20,
-        "padding_bottom": 20
+        "padding_bottom": 20,
+        "margin_top": 40,
+        "margin_bottom": 40
       }
     },
     "categories_slider_E78EBH": {
@@ -500,7 +502,7 @@
         "row_BAtiEa": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image": "shopify://shop_images/Sterirack_application_1.jpg",
             "caption": "Modular bays, trolleys, benches, and shelving for full-facility fitouts",
             "heading": "STERIRACK® SYSTEM",
             "text": "<p>The gold standard in hospital-grade storage, STERIRACK® System is designed to meet the high-volume, high-compliance needs of clinical spaces. Built on starter and add-on bays, this system integrates trolleys, mobile workbenches, and flexible accessories for complete workflow alignment.</p><ul><li>Modular bays and mobile open trolleys and enclosed carts</li><li>Adjustable baskets and shelves</li><li>Bench, racking and accessory integration</li><li>Easy to clean and reconfigure</li><li>Ideal for full facility fit outs</li></ul>",
@@ -511,7 +513,7 @@
         "row_7jHayW": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image": "shopify://shop_images/SteriLoop_Medibin_application_1.png",
             "caption": "Enhanced small consumables management",
             "heading": "STERILOOP® MEDIBIN SYSTEM",
             "text": "<p>Introducing SteriLoop® Medibins, a high-quality, chrome-finished wire bin system designed for hygiene, durability, and visibility. The looped-wire construction minimises dust accumulation and provides a smooth finish, eliminating the risk of cuts, scratches, and product damage. With multiple size and divider options, SteriLoop® Medibin System is purpose-built for efficient stock control in clinical environments.</p><ul><li>Available in six sizes to optimise storage space</li><li>Create smaller compartments for maximum efficiency</li><li>Semi-open front design enhances stock visibility</li><li>Backing panels provide secure wall mounting</li><li>Colour-coded label holders available in 14 vibrant options</li></ul>",
@@ -546,7 +548,9 @@
       "name": "Product Catalog",
       "settings": {
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 36,
+        "margin_top": 40,
+        "margin_bottom": 40
       }
     }
   },

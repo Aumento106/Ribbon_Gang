@@ -32,26 +32,49 @@
   {% endfor %}
 {% endif %} {% endcomment %}
 
-{% assign breadCrumbArray = '' %}
+<nav class="breadcrumb">
+  <a href="{{ shop.url }}">Home</a>
+  {% assign separator = ' > ' %}
 
-{% for mainLink in linklists.main-menu.links %}
-  {% if mainLink.current %}
-    {% assign breadCrumbArray = breadCrumbArray | append: mainLink.title %}
-    
-    {% for subLink in mainLink.links %}
-      {% if subLink.current %}
-        {% assign breadCrumbArray = breadCrumbArray | append: ' > ' | append: subLink.title %}
-        
-        {% for grandchildLink in subLink.links %}
-          {% if grandchildLink.current %}
-            {% assign breadCrumbArray = breadCrumbArray | append: ' > ' | append: grandchildLink.title %}
-          {% endif %}
-        {% endfor %}
+  {% comment %} Handle menu-based pages {% endcomment %}
+  {% assign breadCrumbArray = '' %}
+  {% for mainLink in linklists.main-menu.links %}
+    {% if mainLink.current %}
+      {% assign breadCrumbArray = mainLink.title %}
+      {% for subLink in mainLink.links %}
+        {% if subLink.current %}
+          {% assign breadCrumbArray = breadCrumbArray | append: separator | append: subLink.title %}
+          {% for grandchildLink in subLink.links %}
+            {% if grandchildLink.current %}
+              {% assign breadCrumbArray = breadCrumbArray | append: separator | append: grandchildLink.title %}
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+
+  {% comment %} Fallbacks for pages not in menu {% endcomment %}
+  {% if breadCrumbArray == blank %}
+    {% if template contains 'page' %}
+      {% assign breadCrumbArray = page.title %}
+    {% elsif template contains 'product' %}
+      {% if product.collections.size > 0 %}
+        {% assign collection = product.collections.first %}
+        {% assign breadCrumbArray = collection.title | append: separator | append: product.title %}
+      {% else %}
+        {% assign breadCrumbArray = product.title %}
       {% endif %}
-    {% endfor %}
+    {% elsif template contains 'collection' %}
+      {% assign breadCrumbArray = collection.title %}
+    {% elsif template contains 'blog' %}
+      {% assign breadCrumbArray = blog.title %}
+    {% elsif template contains 'article' %}
+      {% assign breadCrumbArray = blog.title | append: separator | append: article.title %}
+    {% endif %}
   {% endif %}
-{% endfor %}
 
-{% if breadCrumbArray != blank %}
-  {{ 'Home' }} > {{ breadCrumbArray }}
-{% endif %}
+  {% if breadCrumbArray != blank %}
+    {{ separator }}{{ breadCrumbArray }}
+  {% endif %}
+</nav>

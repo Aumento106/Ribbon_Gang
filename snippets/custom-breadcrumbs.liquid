@@ -34,6 +34,7 @@
 
 {% assign breadCrumbArray = '' %}
 
+{%- comment -%} Check if current page is in main menu {% endcomment -%}
 {% for mainLink in linklists.main-menu.links %}
   {% if mainLink.current %}
     {% assign breadCrumbArray = breadCrumbArray | append: mainLink.title %}
@@ -52,6 +53,24 @@
   {% endif %}
 {% endfor %}
 
-{% if breadCrumbArray != blank %}
-  {{ 'Home' }} > {{ breadCrumbArray }}
+{%- comment -%} Fallbacks for pages not in menu {% endcomment -%}
+{% if breadCrumbArray == blank %}
+  {% if template == 'page' %}
+    {% assign breadCrumbArray = page.title %}
+  {% elsif template == 'product' %}
+    {% if product.collections.size > 0 %}
+      {% assign collection = product.collections.first %}
+      {% assign breadCrumbArray = collection.title | append: ' > ' | append: product.title %}
+    {% else %}
+      {% assign breadCrumbArray = product.title %}
+    {% endif %}
+  {% elsif template == 'collection' %}
+    {% assign breadCrumbArray = collection.title %}
+  {% endif %}
 {% endif %}
+
+{%- if breadCrumbArray != blank -%}
+  <nav class="breadcrumb">
+    <a href="{{ shop.url }}">Home</a> > {{ breadCrumbArray }}
+  </nav>
+{% endif -%}

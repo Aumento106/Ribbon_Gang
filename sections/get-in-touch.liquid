@@ -146,32 +146,34 @@
                 <label class="form-label" for="ContactRegion">{{ section.settings.region }} *</label>
               </div>
              
-            <input 
-              type="hidden" 
-              id="contact_note"
-              name="contact[body]"
-              required
-            >
-            <!-- Select dropdown -->
-            <select class="form-input" id="ContactRegionSelect" required>
-              <option value="" disabled selected></option>
-              <option value="Australia (Oceania)">Australia (Oceania)</option>
-              <option value="North America">North America</option>
-              <option value="United Kingdom">United Kingdom</option>
-              <option value="Europe">Europe</option>
-              <option value="Other">Other</option>
-            </select>
-            <script>
-              const select = document.getElementById('ContactRegionSelect');
-              const noteInput = document.getElementById('contact_note');
+            <!-- Message field (hidden) -->
+              <textarea 
+                id="contact_body" 
+                name="contact[body]" 
+                hidden
+              ></textarea>
 
-              noteInput.value = select.value;
+              <!-- Select dropdown -->
+              <select class="form-input" id="ContactRegionSelect" required>
+                <option value="" disabled selected></option>
+                <option value="Australia (Oceania)">Australia (Oceania)</option>
+                <option value="North America">North America</option>
+                <option value="United Kingdom">United Kingdom</option>
+                <option value="Europe">Europe</option>
+                <option value="Other">Other</option>
+              </select>
 
-              select.addEventListener('change', function() {
-                noteInput.value = this.value;
-                console.log('Note value updated:', noteInput.value); 
-              });
-            </script>
+              <script>
+                const select = document.getElementById('ContactRegionSelect');
+                const bodyField = document.getElementById('contact_body');
+
+                // When select changes, push it into contact[body]
+                select.addEventListener('change', function() {
+                  bodyField.value = "Region: " + this.value;
+                  console.log("Contact body updated:", bodyField.value);
+                });
+              </script>
+
 
             </div>
           {% endif %}

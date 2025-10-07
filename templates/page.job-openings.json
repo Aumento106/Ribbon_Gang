@@ -85,7 +85,6 @@
     },
     "section_breadcrumb_XmKTwV": {
       "type": "section-breadcrumb",
-      "disabled": true,
       "name": "TF Breadcrumb",
       "settings": {
         "color_scheme": "",
@@ -203,7 +202,9 @@
       "type": "product-catalog",
       "settings": {
         "padding_top": 40,
-        "padding_bottom": 40
+        "padding_bottom": 40,
+        "margin_top": 40,
+        "margin_bottom": 40
       }
     }
   },

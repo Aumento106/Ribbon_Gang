@@ -24,6 +24,7 @@
         "slide_87rNLJ": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/Banner_image64.jpg",
             "image_overlay_opacity": 0
           }
         },
@@ -44,7 +45,7 @@
         "slide_height": "medium",
         "image_behavior": "none",
         "padding_top": 0,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
     "page_banner_BXQVUB": {

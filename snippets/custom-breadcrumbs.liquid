@@ -1,18 +1,17 @@
 {% assign breadCrumbArray = '' %}
  
 {% for mainLink in linklists.main-menu.links %}
-  {{ mainLink.title }}
   {% if mainLink.current  %}
-  {% assign link = mainLink.title | append: '>' %}
+  {% assign link = mainLink.title | append: '||' | append: mainLink.url %}
   
     {% assign breadCrumbArray = breadCrumbArray | append: link %}
   
   {% endif %}
   {% for subLink in mainLink.links %}
     {% if subLink.current %}
-    {% assign subLinkLink = subLink.title %}
+    {% assign subLinkLink = subLink.title | append: '||' | append: subLink.url %}
    
-      {% assign breadCrumbArray = breadCrumbArray | append: '>>' | append: subLinkLink %}
+      {% assign breadCrumbArray = breadCrumbArray | append: link | append: '>>' | append: subLinkLink %}
     {% endif %}
   {% endfor %}
 {% endfor %}

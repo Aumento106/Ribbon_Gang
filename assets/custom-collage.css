@@ -251,7 +251,7 @@ body.popup-overflow-hidden::before {
 
 @media screen and (max-width: 749px) {
     .projects-popup-main .project-image-item {
-        height: 220px;
+        /* height: 220px; */
         border-radius: 10px;
     }
 

@@ -1,10 +1,7 @@
 {% assign breadCrumbArray = '' %}
  
 {% for mainLink in linklists.main-menu.links %}
-  <script>
-
-    console.log({{ mainLink.current  | json }});
-  </script>
+  {{ mainLink.title }}
   {% if mainLink.current  %}
   {% assign link = mainLink.title | append: '>' %}
   

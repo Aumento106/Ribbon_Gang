@@ -12,24 +12,24 @@
     "custom_page_banner_REDfMA": {
       "type": "custom-page-banner",
       "blocks": {
-        "slide_LnfKdL": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Banner_image34.jpg",
-            "image_overlay_opacity": 0
-          }
-        },
         "slide_6dzj73": {
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Banner_image89.jpg",
             "image_overlay_opacity": 0
           }
+        },
+        "slide_LnfKdL": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Banner_image34.jpg",
+            "image_overlay_opacity": 0
+          }
         }
       },
       "block_order": [
-        "slide_LnfKdL",
-        "slide_6dzj73"
+        "slide_6dzj73",
+        "slide_LnfKdL"
       ],
       "name": "TF Custom Page Slideshow",
       "settings": {

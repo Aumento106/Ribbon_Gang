@@ -254,6 +254,9 @@ body.popup-overflow-hidden::before {
         /* height: 220px; */
         border-radius: 10px;
     }
+    .single-product__img{
+        margin:0;
+    }
 
     .projects-popup-main {
         width: calc(100vw - 30px);

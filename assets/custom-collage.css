@@ -239,9 +239,9 @@ body.popup-overflow-hidden::before {
         width: 26px;
     }
 
-    .projects-popup-main .project-image-item {
+    /* .projects-popup-main .project-image-item {
         height: 370px;
-    }
+    } */
 
     .Custom-Collage .collage {
         --grid-desktop-horizontal-spacing: 23px;

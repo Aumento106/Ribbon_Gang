@@ -1,4 +1,4 @@
-{% assign breadCrumbArray = '' %}
+{% comment %} {% assign breadCrumbArray = '' %}
  
 {% for mainLink in linklists.main-menu.links %}
   {% if mainLink.current  %}
@@ -30,4 +30,28 @@
   {% for breadCrumb in splitBread %}
     {{ breadCrumb }}
   {% endfor %}
+{% endif %} {% endcomment %}
+
+{% assign breadCrumbArray = '' %}
+
+{% for mainLink in linklists.main-menu.links %}
+  {% if mainLink.current or mainLink.active %}
+    {% assign breadCrumbArray = breadCrumbArray | append: mainLink.title %}
+    
+    {% for subLink in mainLink.links %}
+      {% if subLink.current or subLink.active %}
+        {% assign breadCrumbArray = breadCrumbArray | append: ' > ' | append: subLink.title %}
+        
+        {% for grandchildLink in subLink.links %}
+          {% if grandchildLink.current or grandchildLink.active %}
+            {% assign breadCrumbArray = breadCrumbArray | append: ' > ' | append: grandchildLink.title %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+
+{% if breadCrumbArray != blank %}
+  {{ 'Home' }} > {{ breadCrumbArray }}
 {% endif %}

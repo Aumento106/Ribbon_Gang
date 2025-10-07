@@ -2,14 +2,14 @@
  
 {% for mainLink in linklists.main-menu.links %}
   {% if mainLink.current  %}
-  {% assign link = mainLink.title | append: '||' %}
+  {% assign link = mainLink.title | append: '|' %}
   
     {% assign breadCrumbArray = breadCrumbArray | append: link %}
   
   {% endif %}
   {% for subLink in mainLink.links %}
     {% if subLink.current %}
-    {% assign subLinkLink = subLink.title | append: '||' %}
+    {% assign subLinkLink = subLink.title | append: '|' %}
    
       {% assign breadCrumbArray = breadCrumbArray | append: '>>' | append: subLinkLink %}
     {% endif %}

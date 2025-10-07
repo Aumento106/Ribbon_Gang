@@ -1,25 +1,31 @@
-{% assign breadCrumbArray = '' %}
- 
-{% for mainLink in linklists.main-menu.links %}
-  {% assign link = mainLink.title | append: '||' | append: mainLink.url %}
-  
-    {% assign breadCrumbArray = breadCrumbArray | append: link %}
-  
- 
-  {% for subLink in mainLink.links %}
-    {% assign subLinkLink = subLink.title | append: '||' | append: subLink.url %}
-   
-      {% assign breadCrumbArray = breadCrumbArray | append: link | append: '>>' | append: subLinkLink %}
-   
-  {% endfor %}
-{% endfor %}
 {% assign current_url = request.path %}
- {{ current_url }}
- 
-{% if breadCrumbArray != blank %}
-  {% assign splitBread = breadCrumbArray | split: '>>' %}
-  {% assign lastCollectionTitle = blank %}
-  {% for breadCrumb in splitBread %}
-    {{ breadCrumb }}
+<nav class="breadcrumb">
+  <a href="{{ routes.root_url }}">Home</a>
+
+  {% assign breadcrumb_found = false %}
+
+  {% for mainLink in linklists.main-menu.links %}
+    {% if mainLink.url == current_url %}
+      &gt; <span>{{ mainLink.title }}</span>
+      {% assign breadcrumb_found = true %}
+      {% break %}
+    {% endif %}
+
+    {% for subLink in mainLink.links %}
+      {% if subLink.url == current_url %}
+        &gt; <span>{{ mainLink.title }}</span>
+        &gt; <span>{{ subLink.title }}</span>
+        {% assign breadcrumb_found = true %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+
+    {% if breadcrumb_found %}
+      {% break %}
+    {% endif %}
   {% endfor %}
-{% endif %}
+
+  {% if product and not breadcrumb_found %}
+    &gt; <span>{{ product.title }}</span>
+  {% endif %}
+</nav>

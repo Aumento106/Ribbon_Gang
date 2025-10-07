@@ -34,7 +34,6 @@
     },
     "section_breadcrumb_PKhPRz": {
       "type": "section-breadcrumb",
-      "disabled": true,
       "name": "TF Breadcrumb",
       "settings": {
         "color_scheme": "",
@@ -181,7 +180,9 @@
       "name": "Product Catalog",
       "settings": {
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 36,
+        "margin_top": 40,
+        "margin_bottom": 40
       }
     }
   },

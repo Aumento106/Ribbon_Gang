@@ -2,7 +2,7 @@
 {% assign collection_handle = collection.handle %}
 {% assign breadCrumbArray = '' %}
  
-{% for mainLink in main-menu.links %}
+{% for mainLink in linklists.main-menu.links %}
   {% assign link = mainLink.title | append: '||' | append: mainLink.url %}
   
     {% assign breadCrumbArray = breadCrumbArray | append: link %}

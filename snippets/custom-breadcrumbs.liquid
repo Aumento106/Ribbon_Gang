@@ -14,6 +14,7 @@
       {% assign breadCrumbArray = breadCrumbArray | append: link | append: '>>' | append: subLinkLink %}
     {% endif %}
     {% for grandchildlink in subLink.links %}
+      {{ grandchildlink.title }}
       {% assign grandchildlink = grandchildlink.title | append: '||' | append: grandchildlink.url %}
    
       {% assign breadCrumbArray = breadCrumbArray | append: link | append: '>>' | append: subLinkLink | append: '>>' | append: grandchildlink %}

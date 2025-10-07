@@ -1,24 +1,39 @@
-{% assign breadCrumbArray = '' %}
- 
+{% comment %}
+  Breadcrumb: Home > Main Menu > Submenu > Collection
+{% endcomment %}
+
+{% assign collection_url = collection.url %}
+{% assign breadcrumb = '' %}
+
 {% for mainLink in linklists.main-menu.links %}
-  {% assign link = mainLink.title | append: '||' | append: mainLink.url %}
-  
-    {% assign breadCrumbArray = breadCrumbArray | append: link %}
-  
- 
+  {% assign main_found = false %}
+
+  {% if mainLink.url == collection_url %}
+    {% assign breadcrumb = mainLink.title %}
+    {% assign main_found = true %}
+  {% endif %}
+
   {% for subLink in mainLink.links %}
-    {% assign subLinkLink = subLink.title | append: '||' | append: subLink.url %}
-   
-      {% assign breadCrumbArray = breadCrumbArray | append: link | append: '>>' | append: subLinkLink %}
-   
+    {% if subLink.url == collection_url %}
+      {% assign breadcrumb = mainLink.title | append: ' > ' | append: subLink.title %}
+      {% assign main_found = true %}
+    {% endif %}
+
+    {% for subSubLink in subLink.links %}
+      {% if subSubLink.url == collection_url %}
+        {% assign breadcrumb = mainLink.title | append: ' > ' | append: subLink.title | append: ' > ' | append: subSubLink.title %}
+        {% assign main_found = true %}
+      {% endif %}
+    {% endfor %}
   {% endfor %}
+
+  {% if main_found %}
+    {% break %}
+  {% endif %}
 {% endfor %}
 
- 
-{% if breadCrumbArray != blank %}
-  {% assign splitBread = breadCrumbArray | split: '>>' %}
-  {% assign lastCollectionTitle = blank %}
-  {% for breadCrumb in splitBread %}
-    {{ breadCrumb }}
-  {% endfor %}
+{% if breadcrumb != '' %}
+  <nav class="breadcrumb">
+    <a href="/">Home</a> > {{ breadcrumb }}
+  </nav>
 {% endif %}

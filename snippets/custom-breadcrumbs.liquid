@@ -1,24 +1,31 @@
-{% assign breadCrumbArray = '' %}
- 
+{% assign current_url = request.path %}
+
+{% assign breadcrumb = '' %}
+
 {% for mainLink in linklists.main-menu.links %}
-  {% assign link = mainLink.title | append: '||' | append: mainLink.url %}
   
-    {% assign breadCrumbArray = breadCrumbArray | append: link %}
-  
- 
+  {% if mainLink.url == current_url %}
+    <!-- If current page matches main link -->
+    {% assign breadcrumb = mainLink.title %}
+    {% break %}
+  {% endif %}
+
   {% for subLink in mainLink.links %}
-    {% assign subLinkLink = subLink.title | append: '||' | append: subLink.url %}
-   
-      {% assign breadCrumbArray = breadCrumbArray | append: link | append: '>>' | append: subLinkLink %}
-   
+    {% if subLink.url == current_url %}
+      <!-- If current page matches sublink -->
+      {% assign breadcrumb = mainLink.title | append: ' > ' | append: subLink.title %}
+      {% break %}
+    {% endif %}
   {% endfor %}
+
+  {% if breadcrumb != '' %}
+    {% break %}
+  {% endif %}
+
 {% endfor %}
 
- 
-{% if breadCrumbArray != blank %}
-  {% assign splitBread = breadCrumbArray | split: '>>' %}
-  {% assign lastCollectionTitle = blank %}
-  {% for breadCrumb in splitBread %}
-    {{ breadCrumb }}
-  {% endfor %}
+{% if breadcrumb != '' %}
+  <nav class="breadcrumb">
+    {{ breadcrumb }}
+  </nav>
 {% endif %}

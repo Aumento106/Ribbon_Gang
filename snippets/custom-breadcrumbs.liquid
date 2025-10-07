@@ -32,26 +32,58 @@
   {% endfor %}
 {% endif %} {% endcomment %}
 
-{% assign breadCrumbArray = '' %}
+{% assign breadcrumb = '' %}
+{% assign separator = ' > ' %}
 
-{% for mainLink in linklists.main-menu.links %}
+{% comment %} Recursive function to find current page in menu {% endcomment %}
+{% assign found = false %}
+
+{% assign menu_links = linklists.main-menu.links %}
+
+{% assign current_breadcrumb = '' %}
+
+{% for mainLink in menu_links %}
   {% if mainLink.current %}
-    {% assign breadCrumbArray = breadCrumbArray | append: mainLink.title %}
-    
-    {% for subLink in mainLink.links %}
-      {% if subLink.current %}
-        {% assign breadCrumbArray = breadCrumbArray | append: ' > ' | append: subLink.title %}
-        
-        {% for grandchildLink in subLink.links %}
-          {% if grandchildLink.current %}
-            {% assign breadCrumbArray = breadCrumbArray | append: ' > ' | append: grandchildLink.title %}
-          {% endif %}
-        {% endfor %}
+    {% assign current_breadcrumb = mainLink.title %}
+    {% assign found = true %}
+  {% endif %}
+
+  {% for subLink in mainLink.links %}
+    {% if subLink.current %}
+      {% assign current_breadcrumb = mainLink.title | append: separator | append: subLink.title %}
+      {% assign found = true %}
+    {% endif %}
+
+    {% for grandchildLink in subLink.links %}
+      {% if grandchildLink.current %}
+        {% assign current_breadcrumb = mainLink.title | append: separator | append: subLink.title | append: separator | append: grandchildLink.title %}
+        {% assign found = true %}
       {% endif %}
     {% endfor %}
-  {% endif %}
+  {% endfor %}
 {% endfor %}
 
-{% if breadCrumbArray != blank %}
-  {{ 'Home' }} > {{ breadCrumbArray }}
+{% comment %} Fallback for pages not in menu {% endcomment %}
+{% if current_breadcrumb == blank %}
+  {% if template contains 'page' %}
+    {% assign current_breadcrumb = page.title %}
+  {% elsif template contains 'product' %}
+    {% if product.collections.size > 0 %}
+      {% assign collection = product.collections.first %}
+      {% assign current_breadcrumb = collection.title | append: separator | append: product.title %}
+    {% else %}
+      {% assign current_breadcrumb = product.title %}
+    {% endif %}
+  {% elsif template contains 'collection' %}
+    {% assign current_breadcrumb = collection.title %}
+  {% endif %}
 {% endif %}
+
+{% comment %} Output breadcrumb {% endcomment %}
+<nav class="breadcrumb">
+  <a href="{{ shop.url }}">Home</a>
+  {% if current_breadcrumb != blank %}
+    {{ separator }}{{ current_breadcrumb }}
+  {% endif %}
+</nav>
+

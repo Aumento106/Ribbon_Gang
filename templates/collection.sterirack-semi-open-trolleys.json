@@ -69,25 +69,12 @@
             "text": "<p>Share information about your page information.</p>",
             "text_alignment": "left"
           }
-        },
-        "button_zhAXEn": {
-          "type": "button",
-          "settings": {
-            "button_label": "Contact a consultant",
-            "button_link": "shopify://pages/contact",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false,
-            "button_alignment": "center"
-          }
         }
       },
       "block_order": [
         "heading_9B9EPa",
         "caption_YDGwqA",
-        "text_xckdQw",
-        "button_zhAXEn"
+        "text_xckdQw"
       ],
       "name": "Page Banner",
       "settings": {
@@ -439,7 +426,7 @@
       "name": "Multicolumn video",
       "settings": {
         "page_container": "page-width",
-        "title": "<p>Video gallery</p>",
+        "title": "",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
         "custom_font_weight": "300",
@@ -448,9 +435,9 @@
         "columns_desktop": "3",
         "box_shadow": true,
         "box_auto_height1": true,
-        "box_color_scheme": "",
+        "box_color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
         "padding_top": 60,
-        "padding_bottom": 80,
+        "padding_bottom": 60,
         "margin_bottom": 100,
         "mobile_margin_bottom": 40
       }

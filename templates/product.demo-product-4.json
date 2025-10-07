@@ -108,7 +108,7 @@
         "collapsible_tab_cEBm8X": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Brochure or space sheet",
+            "heading": "Brochure or spac sheet",
             "accordian_icon_image": "shopify://shop_images/Group_1171277814_1.svg",
             "icon": "check_mark",
             "content": "{{ product.metafields.custom.brochure_description | metafield_tag }}",
@@ -754,7 +754,6 @@
         "slide_UBnzye": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Concept_5.png",
             "offer_title": "",
             "heading": "<p>BIM Files</p>",
             "block_custom_heading_size": 52,
@@ -876,7 +875,9 @@
       "disabled": true,
       "settings": {
         "padding_top": 20,
-        "padding_bottom": 20
+        "padding_bottom": 20,
+        "margin_top": 40,
+        "margin_bottom": 40
       }
     },
     "proudly_support_NnMGAw": {

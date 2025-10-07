@@ -11,7 +11,7 @@
     {% if subLink.current %}
     {% assign subLinkLink = subLink.title | append: '||' %}
    
-      {% assign breadCrumbArray = breadCrumbArray | append: link | append: '>>' | append: subLinkLink %}
+      {% assign breadCrumbArray = breadCrumbArray | append: '>>' | append: subLinkLink %}
     {% endif %}
   {% endfor %}
 {% endfor %}

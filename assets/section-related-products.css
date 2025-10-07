@@ -7,4 +7,5 @@
 }
 .related-products .title {
     font-weight: 400 !important;
+    text-transform:capitalize;
 }

@@ -24,7 +24,7 @@
         "heading_nhBt8y": {
           "type": "heading",
           "settings": {
-            "heading": "STERIRACK® System - Accessories",
+            "heading": "{{ collection.title }}",
             "custom_heading_size": 52,
             "mobile_custom_heading_size": 28,
             "custom_font_weight": "400",
@@ -34,7 +34,7 @@
         "text_G6e3Nj": {
           "type": "text",
           "settings": {
-            "text": "<p>Explore our full range of hospital and medical storage accessories, designed to improve organisation, support infection control, and create safer, more efficient clinical spaces. From bins and baskets to labels and dividers, every detail is engineered to help healthcare teams work smarter. Browse the collection and find the right accessories to optimise your STERIRACK® System.</p>",
+            "text": "<p>STERIRACK® Click ‘n’ Clip Label Holders Mk II are the latest upgrade to our trusted labelling system, developed with direct input from nurses and clinical teams. Each holder clips securely to SteriLoop® Baskets and Shelves and can be clicked together vertically or horizontally to create continuous runs of colour to suit any layout. A clear front cover snaps into place to protect the paper insert from dust and splashes, keeping it perfectly aligned and easy to read. Inserts slide in and out quickly, so relabelling is fast and hassle free.</p><p>Colour coding is one of the simplest and most powerful ways to bring order to clinical storage. By assigning a colour to each category, procedure, or room, staff can identify the right basket at a glance, even in high pressure situations such as emergencies. This visual system shortens search times, reduces picking errors, and helps ensure that the right item is always in the right place.</p><p>With 14 vibrant colours to choose from, Click ‘n’ Clip Label Holders Mk II make it easy to create a clear, logical layout that is instantly recognisable. New or rotating staff can learn the colour system in minutes, reducing training time and boosting confidence when navigating storerooms. One hospital reported that implementing colour coded label holders cut the time staff spent searching for supplies from 60 minutes a day to just 10 minutes, a saving that adds up to hundreds of clinical hours every year.</p><p>Used together with matching post strips, aisle signs, and bay signs, Click ‘n’ Clip Label Holders Mk II form a complete visual management system. The result is a professional, standardised appearance across every storage area, streamlined stock rotation, and faster, more efficient retrieval that supports better patient care.</p><h3>Features</h3><p>• Clear clip-on front cover protects paper insert from dust, splashes, and daily wear<br/>• Paper insert slides in and out quickly for fast relabelling<br/>• Clips securely to SteriLoop® Baskets and Shelves<br/>• Clicks together vertically and horizontally to create continuous runs of colour<br/>• Available in 14 vibrant colours, with matching post strips<br/>• Supplied with cardboard and plastic inserts, ready to use<br/>• Durable, easy-clean construction designed for clinical environments</p><h3>Benefits</h3><p>• Keeps labels clean, legible, and aligned for a professional appearance<br/>• Saves staff time by making relabelling fast and frustration-free<br/>• Supports rapid item identification, even in high-pressure situations<br/>• Reduces picking errors and helps ensure the right item is always in the right place<br/>• Enables intuitive colour-coding for procedures, rooms, or categories<br/>• Cuts search time dramatically, freeing up hundreds of clinical hours each year<br/>• Helps storerooms stay neat, organised, and audit-ready<br/>• Creates a consistent, standardised system across the entire facility</p>",
             "text_alignment": "left"
           }
         }
@@ -95,7 +95,9 @@
       "disabled": true,
       "settings": {
         "padding_top": 20,
-        "padding_bottom": 20
+        "padding_bottom": 20,
+        "margin_top": 40,
+        "margin_bottom": 40
       }
     },
     "product_list_aMiAGg": {
@@ -137,7 +139,6 @@
         "featured_collection_FzUGtP": {
           "type": "featured_collection",
           "settings": {
-            "categories_image": "shopify://shop_images/Group_1171277822.jpg",
             "product_name": "Large MEDIBIN™",
             "collection": "medibin-system",
             "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
@@ -148,7 +149,6 @@
         "featured_collection_F6ttDE": {
           "type": "featured_collection",
           "settings": {
-            "categories_image": "shopify://shop_images/Group_1171277824.jpg",
             "product_name": "Extra Large MEDIBIN™",
             "collection": "medibin-system",
             "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
@@ -159,7 +159,6 @@
         "featured_collection_pnAkTJ": {
           "type": "featured_collection",
           "settings": {
-            "categories_image": "shopify://shop_images/Group_1171277831.jpg",
             "product_name": "Extra Extra Large MEDIBIN™",
             "collection": "medibin-system",
             "card_text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",

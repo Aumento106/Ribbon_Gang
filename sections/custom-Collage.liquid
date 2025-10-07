@@ -94,7 +94,7 @@
   {% for i in (1..10) %}
     {% capture imageID %}image_{{ forloop.index }}{% endcapture %}
     {% if block.settings[imageID] != blank %}
-      <div class="project-image-item">
+      <div class="project-image-item single-product__img">
         {{ block.settings[imageID] | image_url: width: 1000 | image_tag }}
       </div>
       {% break %}

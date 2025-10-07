@@ -32,6 +32,17 @@
         "padding_bottom": 0
       }
     },
+    "section_breadcrumb_7geHPP": {
+      "type": "section-breadcrumb",
+      "name": "Breadcrumb",
+      "settings": {
+        "color_scheme": "",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "mobile_padding_top": 20,
+        "mobile_padding_bottom": 20
+      }
+    },
     "multicolumn_services_box_Kh8zd7": {
       "type": "multicolumn-services-box",
       "blocks": {
@@ -158,12 +169,15 @@
       "type": "product-catalog",
       "settings": {
         "padding_top": 20,
-        "padding_bottom": 20
+        "padding_bottom": 20,
+        "margin_top": 40,
+        "margin_bottom": 40
       }
     }
   },
   "order": [
     "custom_page_banner_RcYaKi",
+    "section_breadcrumb_7geHPP",
     "multicolumn_services_box_Kh8zd7",
     "multicolumn_services_box_nmcdxw",
     "page_banner_pt7aUW",

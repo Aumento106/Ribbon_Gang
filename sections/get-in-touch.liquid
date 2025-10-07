@@ -146,34 +146,32 @@
                 <label class="form-label" for="ContactRegion">{{ section.settings.region }} *</label>
               </div>
              
-            <!-- Message field (hidden) -->
-              <textarea 
-                id="contact_body" 
-                name="contact[body]" 
-                hidden
-              ></textarea>
+            <input 
+              type="hidden" 
+              id="contact_note"
+              name="contact[body]"
+              required
+            >
+            <!-- Select dropdown -->
+            <select class="form-input" id="ContactRegionSelect" required>
+              <option value="" disabled selected></option>
+              <option value="Australia (Oceania)">Australia (Oceania)</option>
+              <option value="North America">North America</option>
+              <option value="United Kingdom">United Kingdom</option>
+              <option value="Europe">Europe</option>
+              <option value="Other">Other</option>
+            </select>
+            <script>
+              const select = document.getElementById('ContactRegionSelect');
+              const noteInput = document.getElementById('contact_note');
 
-              <!-- Select dropdown -->
-              <select class="form-input" id="ContactRegionSelect" required>
-                <option value="" disabled selected></option>
-                <option value="Australia (Oceania)">Australia (Oceania)</option>
-                <option value="North America">North America</option>
-                <option value="United Kingdom">United Kingdom</option>
-                <option value="Europe">Europe</option>
-                <option value="Other">Other</option>
-              </select>
+              noteInput.value = select.value;
 
-              <script>
-                const select = document.getElementById('ContactRegionSelect');
-                const bodyField = document.getElementById('contact_body');
-
-                // When select changes, push it into contact[body]
-                select.addEventListener('change', function() {
-                  bodyField.value = "Region: " + this.value;
-                  console.log("Contact body updated:", bodyField.value);
-                });
-              </script>
-
+              select.addEventListener('change', function() {
+                noteInput.value = this.value;
+                console.log('Note value updated:', noteInput.value); 
+              });
+            </script>
 
             </div>
           {% endif %}
@@ -208,34 +206,33 @@
               <!-- Hidden input for enquiry type -->
                 <input 
                   type="hidden" 
-                  id="contact_body" 
-                  name="contact[body]" 
+                  id="contact_note_enquiry" 
+                   name="contact[body]"
                   required
                 >
-
                 <!-- Enquiry type dropdown -->
                 <select class="form-input" id="ContactEnquiryType" required>
-                  <option value="" disabled selected></option>
-                  <option value="Project enquiry">Project enquiry</option>
-                  <option value="Product enquiry">Product enquiry</option>
-                  <option value="Quote request">Quote request</option>
-                  <option value="Catalogue request">Catalogue request</option>
-                  <option value="Presentation request (Face-to-face)">Presentation request (Face-to-face)</option>
-                  <option value="Presentation request (Online)">Presentation request (Online)</option>
-                  <option value="BIM file request">BIM file request</option>
+                  <option value="" disabled {% if form.enquiry_type == blank %}selected{% endif %}></option>
+                  <option value="Project enquiry" {% if form.enquiry_type == "Project enquiry" %}selected{% endif %}>Project enquiry</option>
+                  <option value="Product enquiry" {% if form.enquiry_type == "Product enquiry" %}selected{% endif %}>Product enquiry</option>
+                  <option value="Quote request" {% if form.enquiry_type == "Quote request" %}selected{% endif %}>Quote request</option>
+                  <option value="Catalogue request" {% if form.enquiry_type == "Catalogue request" %}selected{% endif %}>Catalogue request</option>
+                  <option value="Presentation request (Face-to-face)" {% if form.enquiry_type == "Presentation request (Face-to-face)" %}selected{% endif %}>Presentation request (Face-to-face)</option>
+                  <option value="Presentation request (Online)" {% if form.enquiry_type == "Presentation request (Online)" %}selected{% endif %}>Presentation request (Online)</option>
+                  <option value="BIM file request" {% if form.enquiry_type == "BIM file request" %}selected{% endif %}>BIM file request</option>
                 </select>
 
                 <script>
                   const enquirySelect = document.getElementById('ContactEnquiryType');
-                  const enquiryBody = document.getElementById('contact_body');
+                  const enquiryNote = document.getElementById('contact_note_enquiry');
 
-                  enquiryBody.value = enquirySelect.value;
+                  enquiryNote.value = enquirySelect.value;
 
                   enquirySelect.addEventListener('change', function() {
-                    enquiryBody.value = this.value;
+                    enquiryNote.value = this.value;
+                    console.log('Enquiry note updated:', enquiryNote.value);
                   });
                 </script>
-
 
             </div>
           {% endif %}

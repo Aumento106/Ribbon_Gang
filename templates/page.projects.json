@@ -105,7 +105,6 @@
             "project_des": "Project description. Work is progressing at Griffith Base Hospital, where we are delivering advanced healthcare storage systems tailored to the needs of the facility. Our focus is on enhancing infection control, maximising space efficiency, and streamlining clinical workflows. This project is a strong example of how STERIRACK® can be customised to meet department-specific demands.",
             "image": "shopify://shop_images/Griffith_Base_Hospital_image_03.png",
             "image_1": "shopify://shop_images/Griffith_Base_Hospital_image_03.png",
-            "image_2": "shopify://shop_images/Griffith_Base_Hospital_image_03.png",
             "project_logo": "shopify://shop_images/Griffith_Base_Hospital_logo_01.png"
           }
         },
@@ -392,7 +391,9 @@
       "type": "product-catalog",
       "settings": {
         "padding_top": 20,
-        "padding_bottom": 20
+        "padding_bottom": 20,
+        "margin_top": 40,
+        "margin_bottom": 40
       }
     }
   },

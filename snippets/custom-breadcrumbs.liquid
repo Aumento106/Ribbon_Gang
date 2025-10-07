@@ -20,6 +20,6 @@
   {% assign splitBread = breadCrumbArray | split: '>>' %}
   {% assign lastCollectionTitle = blank %}
   {% for breadCrumb in splitBread %}
-    111{{ breadCrumb }}1111
+    {{ breadCrumb }}
   {% endfor %}
 {% endif %}

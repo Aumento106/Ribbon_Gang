@@ -139,6 +139,64 @@
         "box_auto_height1": true,
         "box_color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
         "padding_top": 60,
+        "padding_bottom": 0,
+        "margin_bottom": 0,
+        "mobile_margin_bottom": 0
+      }
+    },
+    "multicolumn_video_ryHRay": {
+      "type": "multicolumn-video",
+      "blocks": {
+        "column_LdfQHG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "video_url": "https://www.youtube.com/watch?v=xetl16bZ37s",
+            "enable_video_looping": true,
+            "title": "STERIRACK® Wire Shelf Ledges ",
+            "text": "<p>SpaceLogic Wire Shelf Ledges keep supplies in place, reduce clutter, and ensure your storage stays secure.</p>"
+          }
+        },
+        "column_tq8gpP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "video_url": "https://www.youtube.com/watch?v=PFKVR8_3dpk",
+            "enable_video_looping": true,
+            "title": "STERIRACK® Basket Dividers",
+            "text": "<p>Designed for easy item separation and visibility, SpaceLogic Basket Dividers support faster workflows, reduce cross-contamination, and keep every item exactly where it belongs.</p>"
+          }
+        },
+        "column_GQ7rr9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "video_url": "https://www.youtube.com/watch?v=MvAvYEJimro",
+            "enable_video_looping": true,
+            "title": "STERIRACK® Drop-In Bins",
+            "text": "<p>SpaceLogic Drop-In Bins fit neatly into baskets to keep supplies sorted, visible, and within reach. Designed to save time and improve accessibility, they help healthcare teams focus on what matters most, patient care.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "column_LdfQHG",
+        "column_tq8gpP",
+        "column_GQ7rr9"
+      ],
+      "name": "Multicolumn video",
+      "settings": {
+        "page_container": "page-width",
+        "title": "",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "300",
+        "title_alignment": "center",
+        "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
+        "columns_desktop": "3",
+        "box_shadow": true,
+        "box_auto_height1": true,
+        "box_color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
+        "padding_top": 20,
         "padding_bottom": 60,
         "margin_bottom": 0,
         "mobile_margin_bottom": 0
@@ -506,6 +564,7 @@
     "section_breadcrumb_Wdqetk",
     "page_banner_pwf4zd",
     "multicolumn_video_peTRRF",
+    "multicolumn_video_ryHRay",
     "banner",
     "page_banner_KFDtfz",
     "product-grid",

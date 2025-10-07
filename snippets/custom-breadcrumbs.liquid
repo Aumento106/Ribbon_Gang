@@ -1,16 +1,17 @@
 {% assign breadCrumbArray = '' %}
  
 {% for mainLink in linklists.main-menu.links %}
-  <script>
-
-    console.log({{ mainLink.current  | json }});
-  </script>
+  
   {% assign link = mainLink.title | append: '||' | append: mainLink.url %}
   
     {% assign breadCrumbArray = breadCrumbArray | append: link %}
   
  
   {% for subLink in mainLink.links %}
+    <script>
+
+    console.log({{ subLink.current  | json }});
+  </script>
     {% assign subLinkLink = subLink.title | append: '||' | append: subLink.url %}
    
       {% assign breadCrumbArray = breadCrumbArray | append: link | append: '>>' | append: subLinkLink %}

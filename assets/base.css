@@ -291,7 +291,7 @@ strong {
 /* ------ Trademark Symbol Css ------*/
 .trademark-symbol {
   display: inline-block;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1;
   position: relative;
   /* top: -5px; */
@@ -340,7 +340,7 @@ li > .trademark-symbol-TM {
 :not(.template-index) :is(h1, h2, h3, h4, h5, h6) > .trademark-symbol-TM, 
 :not(.template-index) :is(h1, h2, h3, h4, h5, h6) > .trademark-symbol {
   /* top: -24px; */
-  font-size: 18px;
+  font-size: 16px;
   top:-4px;
 }
 
@@ -3938,7 +3938,7 @@ span.card_product_main_desc .trademark-symbol {
   }
   :not(.template-index) :is(h1,h2,h3,h4,h5,h6)>.trademark-symbol-TM, :not(.template-index) :is(h1,h2,h3,h4,h5,h6)>.trademark-symbol {
     top: -6px;
-    font-size: 17px;
+    font-size: 16px;
   }
   .hotspot-product-item .product-name {
     font-size: 18px;

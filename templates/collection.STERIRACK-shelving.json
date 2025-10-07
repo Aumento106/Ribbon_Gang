@@ -129,10 +129,10 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
-            "video_url": "https://youtu.be/lHnJFanm7tM?si=vcweo3HkTNj6yXdB",
-            "enable_video_looping": false,
-            "title": "Video",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>"
+            "video_url": "https://www.youtube.com/watch?v=QbMyMQqJSJo",
+            "enable_video_looping": true,
+            "title": "STERIRACK® Step Trays",
+            "text": "<p>Increase storage by up to 33% per bay with STERIRACK® Step Trays. The tiered design maximises space and ensures easy, compliant access to every pack.</p>"
           }
         }
       },

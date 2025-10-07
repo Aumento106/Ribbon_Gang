@@ -2,7 +2,7 @@
  
 {% for mainLink in linklists.main-menu.links %}
   {% if mainLink.current  %}
-  {% assign link = mainLink.title %}
+  {% assign link = mainLink.title | append: '>' %}
   
     {% assign breadCrumbArray = breadCrumbArray | append: link %}
   

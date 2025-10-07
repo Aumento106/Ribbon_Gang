@@ -27,17 +27,10 @@
             "image": "shopify://shop_images/Banner_image64.jpg",
             "image_overlay_opacity": 0
           }
-        },
-        "slide_QrtMHV": {
-          "type": "slide",
-          "settings": {
-            "image_overlay_opacity": 0
-          }
         }
       },
       "block_order": [
-        "slide_87rNLJ",
-        "slide_QrtMHV"
+        "slide_87rNLJ"
       ],
       "name": "Custom Page Banner",
       "settings": {

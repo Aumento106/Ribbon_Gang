@@ -1,39 +1,24 @@
-{% comment %}
-  Breadcrumb: Home > Main Menu > Submenu > Collection
-{% endcomment %}
-
-{% assign collection_url = collection.url %}
-{% assign breadcrumb = '' %}
-
+{% assign breadCrumbArray = '' %}
+ 
 {% for mainLink in linklists.main-menu.links %}
-  {% assign main_found = false %}
-
-  {% if mainLink.url == collection_url %}
-    {% assign breadcrumb = mainLink.title %}
-    {% assign main_found = true %}
-  {% endif %}
-
+  {% assign link = mainLink.title | append: '||' | append: mainLink.url %}
+  
+    {% assign breadCrumbArray = breadCrumbArray | append: link %}
+  
+ 
   {% for subLink in mainLink.links %}
-    {% if subLink.url == collection_url %}
-      {% assign breadcrumb = mainLink.title | append: ' > ' | append: subLink.title %}
-      {% assign main_found = true %}
-    {% endif %}
-
-    {% for subSubLink in subLink.links %}
-      {% if subSubLink.url == collection_url %}
-        {% assign breadcrumb = mainLink.title | append: ' > ' | append: subLink.title | append: ' > ' | append: subSubLink.title %}
-        {% assign main_found = true %}
-      {% endif %}
-    {% endfor %}
+    {% assign subLinkLink = subLink.title | append: '||' | append: subLink.url %}
+   
+      {% assign breadCrumbArray = breadCrumbArray | append: link | append: '>>' | append: subLinkLink %}
+   
   {% endfor %}
-
-  {% if main_found %}
-    {% break %}
-  {% endif %}
 {% endfor %}
 
-{% if breadcrumb != '' %}
-  <nav class="breadcrumb">
-    <a href="/">Home</a> > {{ breadcrumb }}
-  </nav>
+ 
+{% if breadCrumbArray != blank %}
+  {% assign splitBread = breadCrumbArray | split: '>>' %}
+  {% assign lastCollectionTitle = blank %}
+  {% for breadCrumb in splitBread %}
+    {{ breadCrumb }}
+  {% endfor %}
 {% endif %}

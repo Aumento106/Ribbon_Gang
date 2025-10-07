@@ -145,6 +145,9 @@ body.popup-overflow-hidden::before {
     /* height: 400px; */
         aspect-ratio: 15 / 10;
 }
+.single-product__img {
+    margin: 40px 0 0 0;
+}
 
 .projects-popup-main .project-image-item img {
     width: 100%;

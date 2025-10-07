@@ -48,6 +48,17 @@
         "padding_bottom": 0
       }
     },
+    "section_breadcrumb_DziViU": {
+      "type": "section-breadcrumb",
+      "name": "Breadcrumb",
+      "settings": {
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "mobile_padding_top": 20,
+        "mobile_padding_bottom": 20
+      }
+    },
     "page_banner_BXQVUB": {
       "type": "page-banner",
       "blocks": {
@@ -61,6 +72,13 @@
             "heading_alignment": "center"
           }
         },
+        "caption_Gp3nLb": {
+          "type": "caption",
+          "settings": {
+            "caption": "<p>The complete visual management system</p>",
+            "caption_alignment": "center"
+          }
+        },
         "text_G6e3Nj": {
           "type": "text",
           "settings": {
@@ -71,6 +89,7 @@
       },
       "block_order": [
         "heading_nhBt8y",
+        "caption_Gp3nLb",
         "text_G6e3Nj"
       ],
       "settings": {
@@ -78,18 +97,8 @@
         "full_width": true,
         "content_width": "full_width",
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
-        "padding_top": 72,
-        "padding_bottom": 72
-      }
-    },
-    "section_breadcrumb_nmUW87": {
-      "type": "section-breadcrumb",
-      "settings": {
-        "color_scheme": "",
-        "padding_top": 30,
-        "padding_bottom": 30,
-        "mobile_padding_top": 30,
-        "mobile_padding_bottom": 30
+        "padding_top": 80,
+        "padding_bottom": 60
       }
     },
     "product-grid": {
@@ -384,8 +393,8 @@
   "order": [
     "banner",
     "custom_page_banner_bN3mgL",
+    "section_breadcrumb_DziViU",
     "page_banner_BXQVUB",
-    "section_breadcrumb_nmUW87",
     "product-grid",
     "product_catalog_xdFqLr",
     "product_list_aMiAGg",

@@ -389,7 +389,9 @@ slider-component.slider-component-full-width {
     text-align: right;
 }
 .enquiry-now__btn a.button {
-    padding: 10px 30px;
+    padding: 8px 30px;
+    font-size: 16px;
+    line-height: 18px;
 }
 @media (max-width:989px){
   .enquiry-now__btn {

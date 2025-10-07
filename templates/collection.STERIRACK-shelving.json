@@ -119,10 +119,10 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
-            "video_url": "https://youtu.be/lHnJFanm7tM?si=vcweo3HkTNj6yXdB",
-            "enable_video_looping": false,
-            "title": "Video",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>"
+            "video_url": "https://youtu.be/62nkaDxYwTQ?si=Uec_GXg8_qXhCIDc",
+            "enable_video_looping": true,
+            "title": "STERIRACK® Slide In/Out Shelf",
+            "text": "<p>Fast, flexible, and functional. SpaceLogic® Slide In/Out Shelves optimise storage without compromising access. Smooth and sturdy, they make it easy to slide, grab, and get back to work.</p>"
           }
         },
         "column_tGL9mM": {

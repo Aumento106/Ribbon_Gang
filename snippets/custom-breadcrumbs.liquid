@@ -13,8 +13,7 @@
    
   {% endfor %}
 {% endfor %}
-{% assign current_url = request.path %}
- {{ current_url }}
+
  
 {% if breadCrumbArray != blank %}
   {% assign splitBread = breadCrumbArray | split: '>>' %}

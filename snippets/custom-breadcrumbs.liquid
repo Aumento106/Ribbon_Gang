@@ -1,36 +1,3 @@
-{% comment %} {% assign breadCrumbArray = '' %}
- 
-{% for mainLink in linklists.main-menu.links %}
-  {% if mainLink.current  %}
-  {% assign link = mainLink.title | append: '||' | append: mainLink.url %}
-  
-    {% assign breadCrumbArray = breadCrumbArray | append: link %}
-  
-  {% endif %}
-  {% for subLink in mainLink.links %}
-    {% if subLink.current %}
-    {% assign subLinkLink = subLink.title | append: '||' | append: subLink.url %}
-   
-      {% assign breadCrumbArray = breadCrumbArray | append: link | append: '>>' | append: subLinkLink %}
-    {% endif %}
-    {% for grandchildlink in subLink.links %}
-      {% if grandchildlink.current %}
-      {% assign grandchildlink = grandchildlink.title | append: '||' | append: grandchildlink.url %}
-   
-      {% assign breadCrumbArray = breadCrumbArray | append: link | append: '>>' | append: subLinkLink | append: '>>' | append: grandchildlink %}
-      {% endif %}
-    {% endfor %}
-  {% endfor %}
-{% endfor %}
-
- 
-{% if breadCrumbArray != blank %}
-  {% assign splitBread = breadCrumbArray | split: '>>' %}
-  {% assign lastCollectionTitle = blank %}
-  {% for breadCrumb in splitBread %}
-    {{ breadCrumb }}
-  {% endfor %}
-{% endif %} {% endcomment %}
 
 {% assign breadcrumb = '' %}
 {% assign separator = ' > ' %}

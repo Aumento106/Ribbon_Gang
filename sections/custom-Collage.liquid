@@ -71,7 +71,7 @@
           {% assign number = number | plus: 1 %}
         {% endif %}
       {% endfor %}
-      {% if number > 0 %}
+      {% if number > 1 %}
         <div class="swiper project-popup-image-slider">
           <div class="swiper-pagination-wrapper">
             <div class="swiper-button-prev swiper-arrow-button"></div>
@@ -89,7 +89,18 @@
             {% endfor %}
           </div>
         </div>
-      {% endif %}
+      {% else %}
+  <!-- Show single image when there's only one image -->
+  {% for i in (1..10) %}
+    {% capture imageID %}image_{{ forloop.index }}{% endcapture %}
+    {% if block.settings[imageID] != blank %}
+      <div class="project-image-item">
+        {{ block.settings[imageID] | image_url: width: 1000 | image_tag }}
+      </div>
+      {% break %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
       {% if block.settings.project_name != blank %}
         <h2 class="project-name h0">{{ block.settings.project_name }}</h2>
       {% endif %}

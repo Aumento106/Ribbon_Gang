@@ -438,8 +438,18 @@
         "box_color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
         "padding_top": 60,
         "padding_bottom": 60,
-        "margin_bottom": 100,
+        "margin_bottom": 0,
         "mobile_margin_bottom": 40
+      }
+    },
+    "product_catalog_HVF84E": {
+      "type": "product-catalog",
+      "name": "Product Catalog",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "margin_top": 40,
+        "margin_bottom": 40
       }
     }
   },
@@ -455,6 +465,7 @@
     "rich_text_CqT3jr",
     "image_with_no_text_UUP4dk",
     "video_E7wm9f",
-    "multicolumn_video_UiKUCN"
+    "multicolumn_video_UiKUCN",
+    "product_catalog_HVF84E"
   ]
 }

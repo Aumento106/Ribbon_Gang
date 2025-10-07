@@ -1,19 +1,24 @@
-<nav class="breadcrumb">
-  <a href="{{ routes.root_url }}">Home</a>
+{% assign breadCrumbArray = '' %}
+ 
+{% for mainLink in linklists.main-menu.links %}
+  {% assign link = mainLink.title | append: '||' | append: mainLink.url %}
+  
+    {% assign breadCrumbArray = breadCrumbArray | append: link %}
+  
+ 
+  {% for subLink in mainLink.links %}
+    {% assign subLinkLink = subLink.title | append: '||' | append: subLink.url %}
+   
+      {% assign breadCrumbArray = breadCrumbArray | append: link | append: '>>' | append: subLinkLink %}
+   
+  {% endfor %}
+{% endfor %}
 
-  {% if collection %}
-    &gt; <a href="{{ collection.url }}">{{ collection.title }}</a>
-  {% endif %}
-
-  {% if product %}
-    {% if collection %}
-      &gt; <span>{{ product.title }}</span>
-    {% else %}
-      &gt; <span>{{ product.title }}</span>
-    {% endif %}
-  {% endif %}
-
-  {% if page.title and template contains 'page' %}
-    &gt; <span>{{ page.title }}</span>
-  {% endif %}
-</nav>
+ 
+{% if breadCrumbArray != blank %}
+  {% assign splitBread = breadCrumbArray | split: '>>' %}
+  {% assign lastCollectionTitle = blank %}
+  {% for breadCrumb in splitBread %}
+    {{ breadCrumb }}
+  {% endfor %}
+{% endif %}

@@ -25,11 +25,27 @@
             "image": "shopify://shop_images/Banner_image22.jpg",
             "image_overlay_opacity": 0
           }
+        },
+        "slide_xMi6LW": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Banner_image24.jpg",
+            "image_overlay_opacity": 0
+          }
+        },
+        "slide_xbW6eQ": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Banner_image29.jpg",
+            "image_overlay_opacity": 0
+          }
         }
       },
       "block_order": [
         "slide_q9CMgd",
-        "slide_VDaGtc"
+        "slide_VDaGtc",
+        "slide_xMi6LW",
+        "slide_xbW6eQ"
       ],
       "name": "Custom Page Banner",
       "settings": {

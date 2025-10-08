@@ -107,6 +107,16 @@
             "text": "<p>STERIRACK® Thermoplastic Benching can be customised to any length and configuration, with options for baskets, shelves, and dividers. Designed for tools and consumables. </p>"
           }
         },
+        "column_gkyRyA": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Video_25.jpg",
+            "video_url": "https://www.youtube.com/watch?v=7I31GVrpZS0",
+            "enable_video_looping": true,
+            "title": "STERIRACK® Thermoplastic Benching",
+            "text": "<p>STERIRACK® Thermoplastic Benching can be customised to any length and configuration, with options for baskets, shelves, and dividers. Designed for tools and consumables. </p>"
+          }
+        },
         "column_nw963U": {
           "type": "column",
           "settings": {
@@ -120,6 +130,7 @@
       },
       "block_order": [
         "column_Y3QwFg",
+        "column_gkyRyA",
         "column_nw963U"
       ],
       "name": "Multicolumn video",
@@ -131,7 +142,7 @@
         "custom_font_weight": "300",
         "title_alignment": "center",
         "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
-        "columns_desktop": "2",
+        "columns_desktop": "3",
         "box_shadow": true,
         "box_auto_height1": true,
         "box_color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",

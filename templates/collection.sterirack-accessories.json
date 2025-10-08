@@ -19,13 +19,6 @@
             "image_overlay_opacity": 0
           }
         },
-        "slide_VDaGtc": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Banner_image22.jpg",
-            "image_overlay_opacity": 0
-          }
-        },
         "slide_xMi6LW": {
           "type": "slide",
           "settings": {
@@ -39,13 +32,28 @@
             "image": "shopify://shop_images/Banner_image29.jpg",
             "image_overlay_opacity": 0
           }
+        },
+        "slide_iWB3iY": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Banner_image32.jpg",
+            "image_overlay_opacity": 0
+          }
+        },
+        "slide_GhPLdm": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Banner_image33.jpg",
+            "image_overlay_opacity": 0
+          }
         }
       },
       "block_order": [
         "slide_q9CMgd",
-        "slide_VDaGtc",
         "slide_xMi6LW",
-        "slide_xbW6eQ"
+        "slide_xbW6eQ",
+        "slide_iWB3iY",
+        "slide_GhPLdm"
       ],
       "name": "Custom Page Banner",
       "settings": {

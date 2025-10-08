@@ -41,7 +41,7 @@
         "padding_bottom": 0
       }
     },
-    "section_breadcrumb_DziViU": {
+    "section_breadcrumb_a7DKDX": {
       "type": "section-breadcrumb",
       "name": "Breadcrumb",
       "settings": {
@@ -386,7 +386,7 @@
   "order": [
     "banner",
     "custom_page_banner_bN3mgL",
-    "section_breadcrumb_DziViU",
+    "section_breadcrumb_a7DKDX",
     "page_banner_BXQVUB",
     "product-grid",
     "product_catalog_xdFqLr",

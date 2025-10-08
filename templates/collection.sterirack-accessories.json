@@ -183,7 +183,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
-            "video_url": "https://www.youtube.com/watch?v=xetl16bZ37s",
+            "video_url": "",
             "enable_video_looping": true,
             "title": "Ollie video",
             "text": "<p>Text here</p>"
@@ -193,7 +193,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
-            "video_url": "https://www.youtube.com/watch?v=PFKVR8_3dpk",
+            "video_url": "",
             "enable_video_looping": true,
             "title": "Ollie video",
             "text": "<p>Text here</p>"
@@ -203,7 +203,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
-            "video_url": "https://www.youtube.com/watch?v=MvAvYEJimro",
+            "video_url": "",
             "enable_video_looping": true,
             "title": "Ollie video",
             "text": "<p>Text here</p>"

@@ -100,7 +100,7 @@
         "column_Y3QwFg": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image": "shopify://shop_images/Video_25.jpg",
             "video_url": "https://www.youtube.com/watch?v=7I31GVrpZS0",
             "enable_video_looping": true,
             "title": "STERIRACK® Thermoplastic workbench",
@@ -116,22 +116,11 @@
             "title": "STERIRACK® Glass Door Benching",
             "text": "<p>Custom-built for St Vincent’s Sydney, these STERIRACK® workbenches feature stainless-steel tops and three-sided returns to maximise infection control and contain spills. Fully customisable, designed to optimise space, efficiency, and patient care.</p>"
           }
-        },
-        "column_rEQwrK": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
-            "video_url": "",
-            "enable_video_looping": false,
-            "title": "Video title",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>"
-          }
         }
       },
       "block_order": [
         "column_Y3QwFg",
-        "column_nw963U",
-        "column_rEQwrK"
+        "column_nw963U"
       ],
       "name": "Multicolumn video",
       "settings": {
@@ -142,7 +131,7 @@
         "custom_font_weight": "300",
         "title_alignment": "center",
         "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
-        "columns_desktop": "3",
+        "columns_desktop": "2",
         "box_shadow": true,
         "box_auto_height1": true,
         "box_color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",

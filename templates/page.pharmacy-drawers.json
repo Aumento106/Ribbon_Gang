@@ -462,8 +462,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
-            "video_url": "",
-            "enable_video_looping": false,
+            "video_url": "https://youtu.be/U8ueZYv878o",
+            "enable_video_looping": true,
             "title": "STERIRACK® Pharmacy System | Goulburn Hospital",
             "text": "<p>Enjoy quick, easy access with flat or angled shelves, adjustable dividers to suit any package size, and perforated drawer bases designed for better airflow and reduced dust collection.</p>"
           }

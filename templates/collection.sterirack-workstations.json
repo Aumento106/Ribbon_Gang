@@ -204,10 +204,10 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
-            "video_url": "",
-            "enable_video_looping": false,
-            "title": "Video title",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>"
+            "video_url": "https://www.youtube.com/watch?v=4ySmyaEC0uE",
+            "enable_video_looping": true,
+            "title": "STERIRACK® Mobile workstations",
+            "text": "<p>In fast-paced hospital environments like anaesthetic bays, traditional joinery simply doesn’t make the cut. Dust collection, rubbish build-up, and poor cleanability can compromise infection control, especially in spaces that demand a sterile, hygienic standard. </p>"
           }
         },
         "column_8ymHKD": {
@@ -570,7 +570,9 @@
       "name": "Product Catalog",
       "settings": {
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 36,
+        "margin_top": 40,
+        "margin_bottom": 40
       }
     }
   },

@@ -326,7 +326,7 @@ li > .trademark-symbol-TM {
   /* top: -3px; */
 }
 .image-with-text__content a.button.button--primary sup.trademark-symbol {
-    top: -3px;
+    top: -6px;
 }
 
 :is(h1, h2, h3, h4, h5, h6) a .trademark-symbol-TM, :is(h1, h2, h3, h4, h5, h6) p .trademark-symbol-TM,

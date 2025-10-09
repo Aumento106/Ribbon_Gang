@@ -224,10 +224,10 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
-            "video_url": "",
-            "enable_video_looping": false,
-            "title": "Video title",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>"
+            "video_url": "https://youtu.be/UAUVJd0oq3o",
+            "enable_video_looping": true,
+            "title": "Customisable | STERIRACK® Workstations",
+            "text": "<p>STERIRACK® Workstations offer a flexible, future-proof alternative to fixed joinery, adapting to changing needs while maintaining efficiency and compliance.</p>"
           }
         }
       },

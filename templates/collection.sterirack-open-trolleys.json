@@ -410,7 +410,7 @@
           "settings": {
             "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
             "video_url": "https://www.youtube.com/watch?v=SLW5lZv7y8s",
-            "enable_video_looping": false,
+            "enable_video_looping": true,
             "title": "STERIRACK® Theatre Trolleys",
             "text": "<p>Experience smooth, stable mobility with lockable casters and durable bolt-bearing runners, no more unreliable plastic tracks. </p>"
           }
@@ -420,7 +420,7 @@
           "settings": {
             "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
             "video_url": "https://www.youtube.com/watch?v=hsuQVkj6Xhk",
-            "enable_video_looping": false,
+            "enable_video_looping": true,
             "title": "STERIRACK® Medical Trolley",
             "text": "<p>Enhance clinical efficiency with the STERIRACK® Medical Trolley, designed for durability, mobility, and infection control in demanding healthcare environments.</p>"
           }

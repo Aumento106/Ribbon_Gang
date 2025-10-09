@@ -203,10 +203,10 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
-            "video_url": "",
+            "video_url": "https://youtu.be/P2aE1NuB4eM?si=x0NA-JG0Bve-q-f3",
             "enable_video_looping": true,
-            "title": "Ollie video",
-            "text": "<p>Text here</p>"
+            "title": "STERIRACK® Silicon Mat ",
+            "text": "<p>Stop steel-on-steel slippage before it starts. SpaceLogic® Silicon Mats stabilise equipment on trolleys and shelves, reducing spills, damage, and clean-up time.</p>"
           }
         }
       },

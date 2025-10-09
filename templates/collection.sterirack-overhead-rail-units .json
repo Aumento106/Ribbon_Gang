@@ -627,10 +627,10 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
-            "video_url": "",
-            "enable_video_looping": false,
-            "title": "Video title",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>"
+            "video_url": "https://youtu.be/mgm67_eziOA?si=Zoxl929QzTHseO5L",
+            "enable_video_looping": true,
+            "title": "Reducing WHS risk | Prince Of Wales Hospital Testimonial",
+            "text": "<p>Watch as Corazon Caro, the Emergency Department Equipment Nurse for Prince of Wales, run you through the changes in their storage and the benefits of having the STERIRACK® System at their hospital.</p>"
           }
         }
       },

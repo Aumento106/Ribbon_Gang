@@ -48,6 +48,17 @@
         "padding_bottom": 0
       }
     },
+    "section_breadcrumb_AQ4VAU": {
+      "type": "section-breadcrumb",
+      "name": "TF Breadcrumb",
+      "settings": {
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "mobile_padding_top": 20,
+        "mobile_padding_bottom": 20
+      }
+    },
     "page_banner_kqtpn4": {
       "type": "page-banner",
       "blocks": {
@@ -64,14 +75,14 @@
         "caption_XXqUV4": {
           "type": "caption",
           "settings": {
-            "caption": "<p>Making space for care® - and for what really matters</p>",
+            "caption": "<p>Corporate social and sustainable responsibility</p>",
             "caption_alignment": "center"
           }
         },
         "text_gr63kL": {
           "type": "text",
           "settings": {
-            "text": "<p>At SpaceLogic, our mission is grounded in a simple belief: that care begins with the right environment. Through smart, modular, and clinically driven storage systems, we help hospitals and healthcare providers create more than just functional spaces, we help them create space for what really matters: the person.</p><p>Whether it’s a patient in recovery, a nurse at shift change, or a surgeon in theatre, our systems are designed to support the people behind every procedure. By removing physical clutter, minimising infection risk, and improving workflow, we give time, clarity, and control back to the professionals delivering care.</p><p>We partner with hospital executives, procurement teams, and health planners to deliver compliant, cost-effective solutions that adapt to change. We work closely with architects, designers, and contractors to ensure seamless specification, modularity, and installation. And we equip our distributors and project partners with the tools they need to deliver exceptional results, every time.</p><p>Internally, we hold ourselves to the same standard, valuing quality, trust, and the knowledge that our work directly impacts lives. Because in every hospital, health centre, or day surgery we serve, there’s always more at stake than space. There’s a person. A moment. A life.</p><p>That’s why we’re here - Making space for care®.</p>",
+            "text": "<p>SpaceLogic is deeply committed to corporate social and sustainable responsibility, prioritising both environmental outcomes and social impact. Our products are designed with sustainability in mind, using anodised aluminium frames sourced from Brisbane to support local industries and reduce transportation emissions. Steel benchtops are crafted for recyclability, aligning with circular economy principles, while our modular designs ensure adaptability to evolving healthcare needs, reducing waste and promoting longevity.</p><p>On the social front, we actively engage with Indigenous businesses and create employment opportunities for disadvantaged groups, including individuals with disabilities, long-term unemployed, and culturally diverse communities. We are dedicated to fostering inclusivity and support First Nations communities and Organisations such as, Indigenous Literacy Foundation, through targeted initiatives.</p><p>Our zero-tolerance policy on domestic and family violence provides employees with 10 days of paid leave annually, along with resources, flexible work arrangements, and counselling services. By addressing critical issues through prevention programs and partnerships with socially responsible suppliers, SpaceLogic creates lasting value for the environment, the community, and our workforce.</p>",
             "text_alignment": "left"
           }
         },
@@ -103,17 +114,6 @@
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "padding_top": 80,
         "padding_bottom": 60
-      }
-    },
-    "section_breadcrumb_AQ4VAU": {
-      "type": "section-breadcrumb",
-      "name": "TF Breadcrumb",
-      "settings": {
-        "color_scheme": "",
-        "padding_top": 20,
-        "padding_bottom": 20,
-        "mobile_padding_top": 20,
-        "mobile_padding_bottom": 20
       }
     },
     "rich_text_P3hBwh": {
@@ -174,8 +174,8 @@
   },
   "order": [
     "custom_page_banner_DQT7cB",
-    "page_banner_kqtpn4",
     "section_breadcrumb_AQ4VAU",
+    "page_banner_kqtpn4",
     "rich_text_P3hBwh",
     "main",
     "product_catalog_W3r7Xn"

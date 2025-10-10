@@ -110,7 +110,7 @@
         "box_color_scheme": "",
         "title": "",
         "padding_top": 30,
-        "padding_bottom": 100,
+        "padding_bottom": 20,
         "mobile_padding_top": 30,
         "mobile_padding_bottom": 30
       }
@@ -120,7 +120,9 @@
       "name": "Product Catalog",
       "settings": {
         "padding_top": 40,
-        "padding_bottom": 40
+        "padding_bottom": 40,
+        "margin_top": 40,
+        "margin_bottom": 40
       }
     }
   },

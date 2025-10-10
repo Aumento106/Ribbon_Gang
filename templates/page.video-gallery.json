@@ -114,6 +114,66 @@
     "multicolumn_video_TCdMgy": {
       "type": "multicolumn-video",
       "blocks": {
+        "column_L7KNkt": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "video_url": "",
+            "enable_video_looping": false,
+            "title": "New video",
+            "text": "<p>Text to go here</p>"
+          }
+        },
+        "column_nmmhqi": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "video_url": "",
+            "enable_video_looping": false,
+            "title": "New video",
+            "text": "<p>Text to go here</p>"
+          }
+        },
+        "column_bPxazY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "video_url": "",
+            "enable_video_looping": false,
+            "title": "New video",
+            "text": "<p>Text to go here</p>"
+          }
+        },
+        "column_EqREHa": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "video_url": "",
+            "enable_video_looping": false,
+            "title": "New video",
+            "text": "<p>Text to go here</p>"
+          }
+        },
+        "column_NipVVY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "video_url": "",
+            "enable_video_looping": false,
+            "title": "New video",
+            "text": "<p>Text to go here</p>"
+          }
+        },
+        "column_rxpUxH": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "video_url": "",
+            "enable_video_looping": false,
+            "title": "New video",
+            "text": "<p>Text to go here</p>"
+          }
+        },
         "column_nfCMP4": {
           "type": "column",
           "settings": {
@@ -568,6 +628,12 @@
         }
       },
       "block_order": [
+        "column_L7KNkt",
+        "column_nmmhqi",
+        "column_bPxazY",
+        "column_EqREHa",
+        "column_NipVVY",
+        "column_rxpUxH",
         "column_nfCMP4",
         "column_qjVEtB",
         "column_cFztGc",

@@ -395,14 +395,14 @@
     "multicolumn_video_Qfftkc": {
       "type": "multicolumn-video",
       "blocks": {
-        "column_r3F6ah": {
+        "column_wEtTC8": {
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
-            "video_url": "https://youtu.be/v0zjlhqTq4Q?si=nqwUISOjVIKOM-nh",
+            "video_url": "https://youtu.be/Yz9cHDUMMYM",
             "enable_video_looping": true,
-            "title": "STERIRACK® PPE / Restocking Trolleys",
-            "text": "<p>From bedside convenience to accommodating larger stock requirements, these trolleys adapt seamlessly to any facility's demands.</p>"
+            "title": "Balmain Village Health | STERIRACK® Medical Trolleys",
+            "text": "<p>Enhance clinical efficiency with STERIRACK® Medical Trolleys, designed for durability, mobility, and infection control in demanding healthcare environments.</p>"
           }
         },
         "column_4dMHrh": {
@@ -412,24 +412,24 @@
             "video_url": "https://www.youtube.com/watch?v=SLW5lZv7y8s",
             "enable_video_looping": true,
             "title": "STERIRACK® Theatre Trolleys",
-            "text": "<p>Experience smooth, stable mobility with lockable casters and durable bolt-bearing runners, no more unreliable plastic tracks. </p>"
+            "text": "<p>Purpose-built for surgical environments, combining sterile-grade construction, smooth manoeuvrability, and customisable layouts.</p>"
           }
         },
-        "column_wEtTC8": {
+        "column_r3F6ah": {
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
-            "video_url": "https://youtu.be/Yz9cHDUMMYM",
+            "video_url": "https://youtu.be/v0zjlhqTq4Q?si=nqwUISOjVIKOM-nh",
             "enable_video_looping": true,
-            "title": "Balmain Village Health | STERIRACK® Medical Trolleys",
-            "text": "<p>Enhance clinical efficiency with the STERIRACK® Medical Trolley, designed for durability, mobility, and infection control in demanding healthcare environments.</p>"
+            "title": "STERIRACK® PPE / Restocking Trolleys",
+            "text": "<p>From bedside convenience to accommodating larger stock requirements, these trolleys adapt seamlessly to any facility's demands.</p>"
           }
         }
       },
       "block_order": [
-        "column_r3F6ah",
+        "column_wEtTC8",
         "column_4dMHrh",
-        "column_wEtTC8"
+        "column_r3F6ah"
       ],
       "name": "Multicolumn video",
       "settings": {

@@ -200,41 +200,41 @@
     "multicolumn_video_YLWTEY": {
       "type": "multicolumn-video",
       "blocks": {
+        "column_hwgfMF": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Video_42.jpg",
+            "video_url": "https://youtu.be/UAUVJd0oq3o",
+            "enable_video_looping": true,
+            "title": "Customisable | STERIRACK® Workstations",
+            "text": "<p>STERIRACK® Workstations offer a flexible, future-proof alternative to fixed joinery, adapting to changing needs while maintaining efficiency and compliance.</p>"
+          }
+        },
         "column_Cbwdhz": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image": "shopify://shop_images/Video_40.jpg",
             "video_url": "https://www.youtube.com/watch?v=4ySmyaEC0uE",
             "enable_video_looping": true,
-            "title": "STERIRACK® Mobile workstations",
+            "title": "STERIRACK® Workstations | Mobile",
             "text": "<p>In high-traffic hospital areas like anaesthetic bays, traditional joinery struggles to meet strict infection control standards due to dust, waste build-up, and poor cleanability.</p>"
           }
         },
         "column_8ymHKD": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image": "shopify://shop_images/Video_41.jpg",
             "video_url": "https://youtu.be/ZjulRN0gH0g",
             "enable_video_looping": true,
             "title": "RPA HealthOne Green Square | Complete STERIRACK® System",
-            "text": "<p>This project showcases how the STERIRACK® System combines precision, efficiency, and innovation in modern healthcare environments.</p>"
-          }
-        },
-        "column_hwgfMF": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
-            "video_url": "https://youtu.be/UAUVJd0oq3o",
-            "enable_video_looping": true,
-            "title": "Customisable | STERIRACK® Workstations",
-            "text": "<p>STERIRACK® Workstations offer a flexible, future-proof alternative to fixed joinery, adapting to changing needs while maintaining efficiency and compliance.</p>"
+            "text": "<p>This project showcases how STERIRACK® System combines precision, efficiency, and innovation in modern healthcare environments.</p>"
           }
         }
       },
       "block_order": [
+        "column_hwgfMF",
         "column_Cbwdhz",
-        "column_8ymHKD",
-        "column_hwgfMF"
+        "column_8ymHKD"
       ],
       "name": "Multicolumn video",
       "settings": {

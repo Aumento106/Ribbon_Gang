@@ -15,21 +15,13 @@
         "slide_xXn9jq": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
-            "image_overlay_opacity": 0
-          }
-        },
-        "slide_MMW69j": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image": "shopify://shop_images/Banner_image64.jpg",
             "image_overlay_opacity": 0
           }
         }
       },
       "block_order": [
-        "slide_xXn9jq",
-        "slide_MMW69j"
+        "slide_xXn9jq"
       ],
       "name": "Custom Page Banner",
       "settings": {

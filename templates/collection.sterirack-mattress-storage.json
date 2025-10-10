@@ -603,30 +603,30 @@
     "multicolumn_video_wACdyA": {
       "type": "multicolumn-video",
       "blocks": {
-        "column_gxwgeQ": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
-            "video_url": "https://youtu.be/ejg4HzODZ1Y",
-            "enable_video_looping": false,
-            "title": "Designed for Efficiency | STERIRACK® Mattress Storage",
-            "text": "<p>Our vertical storage design eliminates mattress compression and lifting strain while maximising space and reducing dust collection for a cleaner, more organised storeroom.</p>"
-          }
-        },
         "column_9zKH89": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image": "shopify://shop_images/Video_45.jpg",
             "video_url": "https://youtu.be/4epjvsmhI-k",
             "enable_video_looping": true,
             "title": "Built for Infection Control | STERIRACK® Mattress Storage",
             "text": "<p>With an antimicrobial powder-coated base that’s easy to clean, STERIRACK® Mattress Storage Modules support the highest hygiene standards and effortless infection control.</p>"
           }
+        },
+        "column_gxwgeQ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Video_46.jpg",
+            "video_url": "https://youtu.be/ejg4HzODZ1Y",
+            "enable_video_looping": false,
+            "title": "Designed for Efficiency | STERIRACK® Mattress Storage",
+            "text": "<p>Our vertical storage design eliminates mattress compression and lifting strain while maximising space and reducing dust collection for a cleaner, more organised storeroom.</p>"
+          }
         }
       },
       "block_order": [
-        "column_gxwgeQ",
-        "column_9zKH89"
+        "column_9zKH89",
+        "column_gxwgeQ"
       ],
       "name": "Multicolumn video",
       "settings": {

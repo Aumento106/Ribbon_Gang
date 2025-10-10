@@ -547,6 +547,16 @@
         "margin_bottom": 0,
         "mobile_margin_bottom": 40
       }
+    },
+    "product_catalog_XTk7gz": {
+      "type": "product-catalog",
+      "name": "Product Catalog",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "margin_top": 40,
+        "margin_bottom": 40
+      }
     }
   },
   "order": [
@@ -563,6 +573,7 @@
     "video_E7wm9f",
     "multicolumn_g4HghQ",
     "rich_text_3VADFP",
-    "multicolumn_video_NpMDzr"
+    "multicolumn_video_NpMDzr",
+    "product_catalog_XTk7gz"
   ]
 }

@@ -34,7 +34,7 @@
       "name": "Custom Page Banner",
       "settings": {
         "layout": "full_bleed",
-        "slide_height": "large",
+        "slide_height": "medium",
         "image_behavior": "none",
         "padding_top": 0,
         "padding_bottom": 0
@@ -507,7 +507,7 @@
         "column_9xfUze": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image": "shopify://shop_images/Video_52.jpg",
             "video_url": "https://youtu.be/KOfLrAdQ9qA",
             "enable_video_looping": true,
             "title": "Secure and Visible Storage | STERIRACK® Enclosed Carts",
@@ -517,7 +517,7 @@
         "column_bQBLWa": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image": "shopify://shop_images/Video_53.jpg",
             "video_url": "https://youtu.be/4lJuaMZxphM",
             "enable_video_looping": true,
             "title": "Royal Prince Alfred (RPA) | STERIRACK® Enclosed Cart Decals",
@@ -527,7 +527,7 @@
         "column_FaE6Wt": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image": "shopify://shop_images/Video_54.jpg",
             "video_url": "https://youtu.be/ZjulRN0gH0g",
             "enable_video_looping": false,
             "title": "RPA HealthOne Green Square | Complete STERIRACK® System",

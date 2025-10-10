@@ -211,6 +211,7 @@
         "brochure_HpGBw7",
         "brochure_AFimiq"
       ],
+      "disabled": true,
       "name": "TF Product brochure",
       "settings": {
         "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
@@ -229,13 +230,24 @@
         "margin_top": 40,
         "margin_bottom": 40
       }
+    },
+    "product_catalog_yzGWzT": {
+      "type": "product-catalog",
+      "name": "Product Catalog",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "margin_top": 40,
+        "margin_bottom": 40
+      }
     }
   },
   "order": [
     "custom_page_banner_Q7TV98",
-    "page_banner_GqfUtR",
     "section_breadcrumb_LxRkGH",
+    "page_banner_GqfUtR",
     "product_brochure_yeBAq3",
-    "product_catalog_HtCJpW"
+    "product_catalog_HtCJpW",
+    "product_catalog_yzGWzT"
   ]
 }

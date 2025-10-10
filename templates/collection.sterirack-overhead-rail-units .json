@@ -609,7 +609,7 @@
             "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
             "video_url": "https://www.youtube.com/watch?v=lWTpbSqwAhw",
             "enable_video_looping": true,
-            "title": "STERIRACK® Overhead Rail Unit in action",
+            "title": "STERIRACK® Overhead Rail Units | In action",
             "text": "<p>Liverpool Hospital installed our STERIRACK® Overhead Rail Unit to deliver clean, efficient, high-density storage for their clinical team; maximising available space  and increasing patient care time .</p>"
           }
         },
@@ -619,25 +619,14 @@
             "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
             "video_url": "https://youtu.be/ZAcVwaOTX_A?si=hXR_5T2SGYdRezB3",
             "enable_video_looping": true,
-            "title": "Space-saving storage",
+            "title": "STERIRACK® Overhead Rail Units | Space-saving storage",
             "text": "<p>Ideal for healthcare and cleanroom environments, they offer fully customisable layouts, basket and shelf combinations, and a floor-clear design to keep storage efficient and hygienic.</p>"
-          }
-        },
-        "column_VrhHza": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
-            "video_url": "https://youtu.be/mgm67_eziOA?si=Zoxl929QzTHseO5L",
-            "enable_video_looping": true,
-            "title": "Reducing WHS risk | Prince Of Wales Hospital Testimonial",
-            "text": "<p>Corazon Caro, Emergency Department Equipment Nurse for Prince of Wales, discusses the changes in their storage and the benefits of having STERIRACK® installed. </p>"
           }
         }
       },
       "block_order": [
         "column_nBgwXF",
-        "column_fwVMNX",
-        "column_VrhHza"
+        "column_fwVMNX"
       ],
       "name": "Multicolumn video",
       "settings": {
@@ -648,7 +637,7 @@
         "custom_font_weight": "300",
         "title_alignment": "center",
         "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
-        "columns_desktop": "3",
+        "columns_desktop": "2",
         "box_shadow": true,
         "box_auto_height1": true,
         "box_color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",

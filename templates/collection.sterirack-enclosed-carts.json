@@ -67,7 +67,7 @@
         "caption_9hQiRX": {
           "type": "caption",
           "settings": {
-            "caption": "<p>Add caption here</p>",
+            "caption": "<p>Mobile, secure and built for advanced infection control</p>",
             "caption_alignment": "center"
           }
         },
@@ -531,7 +531,7 @@
             "video_url": "https://youtu.be/ZjulRN0gH0g",
             "enable_video_looping": false,
             "title": "RPA HealthOne Green Square | Complete STERIRACK® System",
-            "text": "<p>This project showcases how the STERIRACK® System combines precision, efficiency, and innovation in modern healthcare environments.</p>"
+            "text": "<p>This project showcases how STERIRACK® System combines precision, efficiency, and innovation in modern healthcare environments.</p>"
           }
         }
       },

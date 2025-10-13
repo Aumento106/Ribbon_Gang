@@ -24,20 +24,28 @@
         "slide_R6aWdC": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+            "image": "shopify://shop_images/Banner_image109.jpg",
+            "image_overlay_opacity": 0
+          }
+        },
+        "slide_xHCMp8": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Banner_image104.jpg",
             "image_overlay_opacity": 0
           }
         },
         "slide_rWwcY8": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/winding-road-covered-in-autumn-trees.jpg",
+            "image": "shopify://shop_images/Banner_image95.jpg",
             "image_overlay_opacity": 0
           }
         }
       },
       "block_order": [
         "slide_R6aWdC",
+        "slide_xHCMp8",
         "slide_rWwcY8"
       ],
       "name": "TF Custom Page Slideshow",

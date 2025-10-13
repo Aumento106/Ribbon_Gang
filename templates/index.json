@@ -74,7 +74,7 @@
             "show_text_box": true,
             "enable_text_align_center": true,
             "text_alignment": "left",
-            "image_overlay_opacity": 50,
+            "image_overlay_opacity": 0,
             "slide_text_color": "#000000",
             "btn_bg": "#ffce00",
             "btn_text_color": "#ffffff"
@@ -794,8 +794,8 @@
             "block_custom_heading_size": 45,
             "mobile_block_custom_heading_size": 28,
             "block_custom_font_weight": "600",
-            "text": "<p>SteriLoop® baskets feature our exclusive registered loop-edge design, engineered for safety, durability, and infection control. Unlike traditional wire baskets, SteriLoop® eliminates sharp edges, protecting staff, patients, and supplies, while integrating seamlessly with the STERIRACK® System.</p><p><strong>Look for the Loop™ – because small details make a big difference.</strong></p><p></p>",
-            "button_label": "Shop SteriLoop® baskets",
+            "text": "<p>SteriLoop® Baskets feature our exclusive registered loop-edge design, engineered for safety, durability, and infection control. Unlike traditional wire baskets, SteriLoop® eliminates sharp edges, protecting staff, patients, and supplies, while integrating seamlessly with STERIRACK® System.</p><p>Look for the Loop™ – because small details make a big difference.</p><p></p>",
+            "button_label": "Shop SteriLoop® Baskets",
             "button_link": "shopify://collections/steriloop-baskets",
             "button_style_secondary": false
           }

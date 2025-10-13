@@ -270,77 +270,6 @@
         "margin_top": 40,
         "margin_bottom": 40
       }
-    },
-    "video_t38tW6": {
-      "type": "video",
-      "name": "t:sections.video.presets.name",
-      "settings": {
-        "heading": "",
-        "custom_heading_size": 52,
-        "mobile_custom_heading_size": 28,
-        "custom_font_weight": "400",
-        "enable_video_looping": false,
-        "video_url": "https://www.youtube.com/watch?v=lHnJFanm7tM",
-        "cover_image": "shopify://shop_images/Video_03.jpg",
-        "description": "",
-        "video_btm_desc": "",
-        "page_container": "full-width",
-        "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
-    },
-    "multicolumn_video_Kwjdk8": {
-      "type": "multicolumn-video",
-      "blocks": {
-        "column_YLwKqa": {
-          "type": "column",
-          "settings": {
-            "enable_video_looping": false,
-            "title": "Box title",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>"
-          }
-        },
-        "column_Fex3GJ": {
-          "type": "column",
-          "settings": {
-            "enable_video_looping": false,
-            "title": "Box title",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>"
-          }
-        },
-        "column_CMNRbg": {
-          "type": "column",
-          "settings": {
-            "enable_video_looping": false,
-            "title": "Box title",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "column_YLwKqa",
-        "column_Fex3GJ",
-        "column_CMNRbg"
-      ],
-      "name": "Multicolumn video",
-      "settings": {
-        "page_container": "page-width",
-        "title": "<p>Multicolumn Box</p>",
-        "custom_heading_size": 52,
-        "mobile_custom_heading_size": 28,
-        "custom_font_weight": "400",
-        "title_alignment": "center",
-        "color_scheme": "",
-        "columns_desktop": "3",
-        "box_shadow": true,
-        "box_auto_height1": true,
-        "box_color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "margin_bottom": 0,
-        "mobile_margin_bottom": 0
-      }
     }
   },
   "order": [
@@ -352,8 +281,6 @@
     "image_with_text_v1_Kk8cPy",
     "image_with_text_v1_thYDy8",
     "image_with_text_v1_dEQcmg",
-    "product_catalog_Bnebfb",
-    "video_t38tW6",
-    "multicolumn_video_Kwjdk8"
+    "product_catalog_Bnebfb"
   ]
 }

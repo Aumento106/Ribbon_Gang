@@ -58,9 +58,9 @@
         "video_Vx4rMD": {
           "type": "video",
           "settings": {
-            "video_url": "https://youtu.be/oOnwnC2Tt3A",
+            "video_url": "https://youtu.be/h9ORjEzKRZU?si=COqEaLO062Oewots",
             "enable_video_looping": false,
-            "border_radius": false
+            "border_radius": true
           }
         },
         "heading_pekfyj": {
@@ -76,7 +76,7 @@
         "heading_7XFgg6": {
           "type": "heading",
           "settings": {
-            "heading": "Wagga Wagga Base Hospital installs STERIRACK® System in clean utilities",
+            "heading": "STERIRACK® System and Pharmacy shelving | Liverpool Hospital Redevelopment",
             "custom_heading_size": 24,
             "mobile_custom_heading_size": 20,
             "custom_font_weight": "300",

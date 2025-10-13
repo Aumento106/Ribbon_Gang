@@ -585,7 +585,7 @@
       "name": "Multicolumn video",
       "settings": {
         "page_container": "page-width",
-        "title": "<p>Video gallery</p>",
+        "title": "",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
         "custom_font_weight": "300",
@@ -596,9 +596,19 @@
         "box_auto_height1": true,
         "box_color_scheme": "",
         "padding_top": 60,
-        "padding_bottom": 80,
-        "margin_bottom": 100,
+        "padding_bottom": 60,
+        "margin_bottom": 0,
         "mobile_margin_bottom": 40
+      }
+    },
+    "product_catalog_n8cC7C": {
+      "type": "product-catalog",
+      "name": "Product Catalog",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "margin_top": 40,
+        "margin_bottom": 40
       }
     }
   },
@@ -617,6 +627,7 @@
     "video_E7wm9f",
     "custom_multicolumn_2_MaHt4w",
     "multicolumn_video_xCCqQQ",
-    "multicolumn_video_xBY9Lp"
+    "multicolumn_video_xBY9Lp",
+    "product_catalog_n8cC7C"
   ]
 }

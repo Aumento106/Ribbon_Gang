@@ -12,11 +12,5 @@
   "context": {
     "market": "au"
   },
-  "sections": {
-    "dimension_table_RhKB48": {
-      "settings": {
-        "description": "Colour"
-      }
-    }
-  }
+  "sections": {}
 }

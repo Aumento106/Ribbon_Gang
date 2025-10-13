@@ -198,7 +198,7 @@
       ],
       "name": "TF Image Text",
       "settings": {
-        "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+        "image": "shopify://shop_images/Video_07.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "container_size": "page-width",
@@ -243,7 +243,7 @@
       ],
       "name": "TF Image Text",
       "settings": {
-        "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
+        "image": "shopify://shop_images/Video_09.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "container_size": "page-width",

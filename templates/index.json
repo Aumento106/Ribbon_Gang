@@ -29,7 +29,7 @@
             "show_text_box": true,
             "enable_text_align_center": true,
             "text_alignment": "left",
-            "image_overlay_opacity": 50,
+            "image_overlay_opacity": 0,
             "slide_text_color": "#424242",
             "btn_bg": "#ffce00",
             "btn_text_color": "#ffffff"
@@ -51,7 +51,7 @@
             "show_text_box": true,
             "enable_text_align_center": true,
             "text_alignment": "left",
-            "image_overlay_opacity": 50,
+            "image_overlay_opacity": 0,
             "slide_text_color": "#000000",
             "btn_bg": "#ffce00",
             "btn_text_color": "#ffffff"

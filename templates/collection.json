@@ -58,7 +58,7 @@
         "heading_nhBt8y": {
           "type": "heading",
           "settings": {
-            "heading": "{{ collection.title }}",
+            "heading": "Online store",
             "custom_heading_size": 52,
             "mobile_custom_heading_size": 28,
             "custom_font_weight": "400",
@@ -68,7 +68,7 @@
         "caption_Gp3nLb": {
           "type": "caption",
           "settings": {
-            "caption": "<p>The complete visual management system</p>",
+            "caption": "<p>STERIRACK® and SteriLoop® accessories</p>",
             "caption_alignment": "center"
           }
         },

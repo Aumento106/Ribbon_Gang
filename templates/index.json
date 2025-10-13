@@ -418,7 +418,7 @@
             "image": "shopify://shop_images/Sydney-1.jpg",
             "title": "Clean utilities",
             "block_custom_font_weight": "600",
-            "text": "<p>& Medication rooms</p>",
+            "text": "<p>and medication rooms</p>",
             "text-v": "",
             "button-text": "Explore room",
             "button-url": "shopify://pages/clean-utility-medications-room"
@@ -430,7 +430,7 @@
             "image": "shopify://shop_images/Sydney_Products_June_25_HR-66.jpg",
             "title": "CSSD",
             "block_custom_font_weight": "600",
-            "text": "<p>& Theatre stores</p>",
+            "text": "<p>and theatre stores</p>",
             "text-v": "",
             "button-text": "Explore room",
             "button-url": "shopify://pages/cssd-theater-store"
@@ -442,7 +442,7 @@
             "image": "shopify://shop_images/Sydney_Products_June_25_HR-185.jpg",
             "title": "Pharmacy",
             "block_custom_font_weight": "600",
-            "text": "<p>Dispensary</p>",
+            "text": "<p>and dispensary</p>",
             "text-v": "",
             "button-text": "Explore room",
             "button-url": "shopify://pages/pharmacy-storage-dispensary"

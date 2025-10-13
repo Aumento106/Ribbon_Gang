@@ -63,7 +63,7 @@
         "text_UhW6zH": {
           "type": "text",
           "settings": {
-            "text": "<p>At SpaceLogic, we believe that smarter storage leads to better healthcare. We design, manufacture and install modular systems that help hospitals and clinical environments operate more efficiently, meet rigorous infection control standards, and ultimately make space for what matters most, patient care.</p><p>From our base in regional NSW, we’ve grown into an internationally trusted partner for hospitals and clinical facilities of all sizes, delivering tailored solutions backed by over four decades of experience and a passion for doing things properly.</p><p>We’ve built an enviable reputation by offering a truly end-to-end service - supplying project design, planning, installation, and our own innovative, customisable range of clinical storage products. Our systems are designed to improve infection control, maximise space, streamline workflows, and boost staff satisfaction.</p><p>Welcome to SpaceLogic Group, your trusted partner in clinical storage solutions.</p><p><strong>At SpaceLogic, we believe smarter storage leads to better healthcare. We design, manufacture, and install modular systems that help hospitals and clinical environments run more efficiently, meet strict infection control standards, and focus on what matters most: patient care.</strong></p><p><strong>From our base in Orange, NSW, we’ve grown into an internationally trusted partner with over four decades of expertise. Our solutions are not just products, but complete end-to-end services — from design and planning to installation and handover — ensuring every project delivers long-lasting value and confidence.</strong></p>",
+            "text": "<p>At SpaceLogic, we believe that smarter storage leads to better healthcare. We design, manufacture, and install modular systems that help hospitals and clinical environments operate more efficiently, meet rigorous infection control standards, and ultimately make space for what matters most — patient care.</p><p>With over four decades of expertise in storage innovation, we now focus exclusively on the healthcare sector. From our base in Orange, New South Wales, we’ve grown into an internationally trusted partner for hospitals and clinical facilities of all sizes, delivering solutions that unite precision engineering, clinical insight, and design excellence.</p><p>Our end-to-end service covers every stage of a project — from consultation, planning, and visualisation to manufacturing, installation, and post-project support — ensuring every solution delivers lasting value and confidence.</p><p>Built on a legacy of quality and a passion for doing things properly, every SpaceLogic installation is designed to enhance infection control, maximise available space, and simplify workflows so healthcare professionals can focus on what they do best: providing outstanding patient care.</p><p>Welcome to SpaceLogic Group — your trusted partner in clinical storage solutions.</p>",
             "text_alignment": "left"
           }
         }
@@ -266,7 +266,9 @@
       "type": "product-catalog",
       "settings": {
         "padding_top": 40,
-        "padding_bottom": 40
+        "padding_bottom": 40,
+        "margin_top": 40,
+        "margin_bottom": 40
       }
     }
   },

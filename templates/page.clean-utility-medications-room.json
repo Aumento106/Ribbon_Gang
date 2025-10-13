@@ -19,6 +19,13 @@
             "image_overlay_opacity": 0
           }
         },
+        "slide_tB6pdB": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Banner_image89_b67f7977-5ab0-4fb4-8d8d-9a0c6ad459b2.jpg",
+            "image_overlay_opacity": 0
+          }
+        },
         "slide_tHkFpx": {
           "type": "slide",
           "settings": {
@@ -36,6 +43,7 @@
       },
       "block_order": [
         "slide_UVFEyV",
+        "slide_tB6pdB",
         "slide_tHkFpx",
         "slide_DkWCwb"
       ],

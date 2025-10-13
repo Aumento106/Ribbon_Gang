@@ -140,7 +140,7 @@
       ],
       "settings": {
         "title": "<h2>Why choose SpaceLogic?</h2>",
-        "descr": "<p style=\"font-size:22px !important; font-weight:300 !important;\">SpaceLogic provides hospital and clinical storage solutions that improve organisation, support infection control, and create safer, more efficient healthcare environments. Our modular systems and accessories adapt to clean utility, CSSD, and pharmacy spaces, helping staff save time, reduce clutter, and optimise workflows.</p>",
+        "descr": "<p style=\"font-size:20px !important; font-weight:300 !important;\">SpaceLogic provides hospital and clinical storage solutions that improve organisation, support infection control, and create safer, more efficient healthcare environments. Our modular systems and accessories adapt to clean utility, CSSD, and pharmacy spaces, helping staff save time, reduce clutter, and optimise workflows.</p>",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
         "custom_font_weight": "600",

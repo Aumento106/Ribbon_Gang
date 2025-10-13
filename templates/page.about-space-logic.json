@@ -91,7 +91,7 @@
         "content_width": "full_width",
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "padding_top": 80,
-        "padding_bottom": 40
+        "padding_bottom": 60
       }
     },
     "main": {
@@ -155,7 +155,7 @@
       "settings": {
         "image": "shopify://shop_images/autumn-photographer-taking-picture.jpg",
         "height": "adapt",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "large",
         "container_size": "page-width",
         "both_image_content_size": false,
         "video_url": "https://www.youtube.com/watch?v=lHnJFanm7tM",
@@ -164,8 +164,8 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "section_color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
+        "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 20,
@@ -270,6 +270,24 @@
         "margin_top": 40,
         "margin_bottom": 40
       }
+    },
+    "video_t38tW6": {
+      "type": "video",
+      "name": "t:sections.video.presets.name",
+      "settings": {
+        "heading": "",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
+        "enable_video_looping": false,
+        "video_url": "https://www.youtube.com/watch?v=lHnJFanm7tM",
+        "description": "",
+        "video_btm_desc": "",
+        "page_container": "full-width",
+        "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -281,6 +299,7 @@
     "image_with_text_v1_Kk8cPy",
     "image_with_text_v1_thYDy8",
     "image_with_text_v1_dEQcmg",
-    "product_catalog_Bnebfb"
+    "product_catalog_Bnebfb",
+    "video_t38tW6"
   ]
 }

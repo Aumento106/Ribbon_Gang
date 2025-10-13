@@ -48,6 +48,17 @@
         "padding_bottom": 0
       }
     },
+    "section_breadcrumb_qj3UGR": {
+      "type": "section-breadcrumb",
+      "name": "Breadcrumb",
+      "settings": {
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "mobile_padding_top": 20,
+        "mobile_padding_bottom": 20
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "disabled": true,
@@ -73,7 +84,7 @@
         "caption_pRting": {
           "type": "caption",
           "settings": {
-            "caption": "<p>Add caption here</p>",
+            "caption": "<p>Mobile efficiency for consumables and PPE</p>",
             "caption_alignment": "center"
           }
         },
@@ -97,17 +108,6 @@
         "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
         "padding_top": 72,
         "padding_bottom": 72
-      }
-    },
-    "section_breadcrumb_qj3UGR": {
-      "type": "section-breadcrumb",
-      "name": "Breadcrumb",
-      "settings": {
-        "color_scheme": "",
-        "padding_top": 20,
-        "padding_bottom": 20,
-        "mobile_padding_top": 20,
-        "mobile_padding_bottom": 20
       }
     },
     "page_banner_E47JNg": {
@@ -590,9 +590,9 @@
   },
   "order": [
     "custom_page_banner_pbjbT7",
+    "section_breadcrumb_qj3UGR",
     "banner",
     "page_banner_BXQVUB",
-    "section_breadcrumb_qj3UGR",
     "page_banner_E47JNg",
     "product-grid",
     "product_catalog_xdFqLr",

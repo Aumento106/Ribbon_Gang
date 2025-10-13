@@ -412,18 +412,6 @@
     "custom_multicolumn_tEhTPk": {
       "type": "custom-multicolumn",
       "blocks": {
-        "column_nPJerb": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Sydney-1.jpg",
-            "title": "Clean utilities",
-            "block_custom_font_weight": "600",
-            "text": "<p>and medication rooms</p>",
-            "text-v": "",
-            "button-text": "Explore room",
-            "button-url": "shopify://pages/clean-utility-medications-room"
-          }
-        },
         "column_UTiAj3": {
           "type": "column",
           "settings": {
@@ -434,6 +422,18 @@
             "text-v": "",
             "button-text": "Explore room",
             "button-url": "shopify://pages/cssd-theater-store"
+          }
+        },
+        "column_nPJerb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Sydney-1.jpg",
+            "title": "Clean utilities",
+            "block_custom_font_weight": "600",
+            "text": "<p>and medication rooms</p>",
+            "text-v": "",
+            "button-text": "Explore room",
+            "button-url": "shopify://pages/clean-utility-medications-room"
           }
         },
         "column_ggEGqd": {
@@ -450,8 +450,8 @@
         }
       },
       "block_order": [
-        "column_nPJerb",
         "column_UTiAj3",
+        "column_nPJerb",
         "column_ggEGqd"
       ],
       "settings": {

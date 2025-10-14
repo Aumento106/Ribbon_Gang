@@ -15,57 +15,13 @@
         "slide_mfK3hU": {
           "type": "slide",
           "settings": {
-            "image_overlay_opacity": 0
-          }
-        },
-        "slide_XDeMCn": {
-          "type": "slide",
-          "settings": {
-            "image_overlay_opacity": 0
-          }
-        },
-        "slide_GKDFbj": {
-          "type": "slide",
-          "settings": {
-            "image_overlay_opacity": 0
-          }
-        },
-        "slide_Tw3D9X": {
-          "type": "slide",
-          "settings": {
-            "image_overlay_opacity": 0
-          }
-        },
-        "slide_tKPUCL": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image_overlay_opacity": 0
-          }
-        },
-        "slide_Bhpywf": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image_overlay_opacity": 0
-          }
-        },
-        "slide_7zbnVp": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
+            "image": "shopify://shop_images/Banner_image101.jpg",
             "image_overlay_opacity": 0
           }
         }
       },
       "block_order": [
-        "slide_mfK3hU",
-        "slide_XDeMCn",
-        "slide_GKDFbj",
-        "slide_Tw3D9X",
-        "slide_tKPUCL",
-        "slide_Bhpywf",
-        "slide_7zbnVp"
+        "slide_mfK3hU"
       ],
       "settings": {
         "layout": "full_bleed",

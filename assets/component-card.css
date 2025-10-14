@@ -46,6 +46,7 @@
   box-sizing: border-box;
   border-radius: var(--border-radius);
   border: var(--border-width) solid #424242;
+  border-color: #eee;
 }
 
 .card--card:after,

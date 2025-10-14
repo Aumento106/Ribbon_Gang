@@ -3453,6 +3453,12 @@ ul.header__submenu li ul li a{
 .template-page-pharmacy-storage-dispensary .image-with-text__content .button {
   display: inline-block;
 }
+.section-collection-list .collection-list-wrapper .card__heading sup {
+  font-size: 16px;
+}
+.project-consultation__text sup {
+  font-size: 10px;
+}
 .main_customer .main_login_col,
 .main_customer .main_register_col {
   width: 50%;

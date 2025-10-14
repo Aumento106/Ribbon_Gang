@@ -3443,6 +3443,22 @@ ul.header__submenu li ul li a{
   margin: 40px 0;
   /* margin: 0; */
 }
+.template-page-medibin-system h3 sup.trademark-symbol {
+  top: 0;
+}
+.template-page-medibin-system .collection-list__item sup {
+  font-size: 18px;
+  top: 3px;
+}
+.template-page-pharmacy-storage-dispensary .image-with-text__content .button {
+  display: inline-block;
+}
+.section-collection-list .collection-list-wrapper .card__heading sup {
+  font-size: 16px;
+}
+.project-consultation__text sup {
+  font-size: 10px;
+}
 .main_customer .main_login_col,
 .main_customer .main_register_col {
   width: 50%;

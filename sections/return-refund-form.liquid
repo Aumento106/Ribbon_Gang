@@ -1,0 +1,283 @@
+{{ 'section-main-page.css' | asset_url | stylesheet_tag }}
+{{ 'return-refund-form.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="return-refund-main page-width color-{{ section.settings.color_scheme }} gradient main-page-col section-{{ section.id }}-padding">
+  <h1 class="main-page-title page-title hide hidden {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">={{ page.title }}</h1>
+  <div class="rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+    <div class="main_content">
+      {{ page.content }}
+    </div>
+    <div class="return-refund-form">
+      <div cass="">
+      <div class="return_refund_main">
+        {% form 'contact' %}
+          <form class="wpforms-validate wpforms-form wpforms-ajax-form">
+          <div class="wpforms-head-container">
+            <div class="wpforms-title h2">{{ section.settings.form_title }}</div>
+          </div>
+          <noscript class="wpforms-error-noscript">Please enable JavaScript in your browser to complete this form.</noscript>
+          <div class="wpforms-field-container">
+            <div id="wpforms-39261-field_8-container" class="wpforms-field wpforms-field-checkbox" data-field-id="8">
+              {% if section.settings.form_subtitle != blank %}
+                <label class="form-label">{{ section.settings.form_subtitle }}
+                </label>
+              {% endif %}
+              <ul id="wpforms-39261-field_8" class="main-form-top wpforms-field-required">
+                <li class="choice-1 depth-1">
+                  <input type="checkbox" id="wpforms-39261-field_8_1" name="contact[checkbox]" value="Yes" required="checkbox">
+                  <label class="wpforms-field-label-inline" for="wpforms-39261-field_8_1">{{ section.settings.checkbox_text }}</label>
+                </li>
+              </ul>
+              {% if section.settings.form_description != blank %}
+                <div class="wpforms-field-description">
+                  {{ section.settings.form_description }}
+                </div>
+              {% endif %}
+            </div>
+            {% if section.settings.name != blank %}
+              <div class="bottom_form wpforms-field wpforms-field-name">
+                  <label class="form-label">
+                    {{ section.settings.name }}
+                    <span class="wpforms-required-label">*</span>
+                  </label>
+                <div class="wpforms-field-row wpforms-field-medium">
+                  <div class="wpforms-field-row-block wpforms-first wpforms-one-half">
+                    <input type="text" class="form-input" id="first_name" name="contact[first_name]" value="{{ form.first_name }}" requiredtype="text">
+                    <label for="first_name" class="form-label">First</label>
+                  </div>
+                  <div class="wpforms-field-row-block wpforms-one-half">
+                    <input type="text" class="form-input" id="last_name" name="contact[last_name]" value="{{ form.last_name }}" requiredtype="text">
+                    <label for="last_name" class="form-label">Last</label>
+                  </div>
+                </div>
+              </div>
+            {% endif %}
+            {% if section.settings.company_name != blank %}
+              <div class="bottom_form  wpforms-field wpforms-field-text">
+                <label class="form-label" for="company_name">
+                  {{ section.settings.company_name }}  
+                  <span class="wpforms-required-label">*</span>
+                </label>
+                <input type="text" class="form-input" id="company_name" name="contact[company_name]" value="{{ form.company }}" requiredtype="text">
+              </div>
+            {% endif %}
+            {% if section.settings.phone != blank %}
+              <div class="bottom_form  wpforms-field wpforms-field-text">
+                <label class="form-label" for="phone">
+                  {{ section.settings.phone }}
+                  <span class="wpforms-required-label">*</span>
+                </label>
+                <input type="tel" id="phone" class="form-input" name="contact[phone]" value="{{ form.phone }}" required   pattern="\d{10}"   maxlength="10"   inputmode="numeric"  oninput="this.value = this.value.replace(/[^0-9]/g, '')">
+              </div>
+            {% endif %}
+            {% if section.settings.fax != blank %}
+              <div class="bottom_form  wpforms-field wpforms-field-text">
+                <label class="form-label" for="fax">
+                  {{ section.settings.fax }}
+                </label>
+                <input type="text" id="fax" class="wpforms-field-medium wpforms-field-required form-input" name="contact[fax]" value="{{ customer.fax }}" required="text">
+              </div>
+            {% endif %}
+            {% if section.settings.email != blank %}
+              <div class="bottom_form  wpforms-field wpforms-field-text">
+                <label class="form-label" for="ContactEmail">
+                  {{ section.settings.email }}
+                  <span class="wpforms-required-label">*</span>
+                </label>
+                <input type="email" class="form-input" id="ContactEmail" name="contact[email]" value="{{ form.email }}" requiredtype="text">
+              </div>
+            {% endif %}
+            {% if section.settings.invoice_data != blank %}
+              <div class="bottom_form  wpforms-field wpforms-field-text">
+                <label class="form-label" for="invoice_data">
+                  {{ section.settings.invoice_data }}
+                  <span class="wpforms-required-label">*</span>
+                </label>
+                <input type="text" id="invoice_data" class="wpforms-field-medium wpforms-field-required form-input" name="contact[invoice_data]" value="{{ customer.invoice_data }}" required="text">
+              </div>
+            {% endif %}
+            {% if section.settings.inv_no != blank %}
+              <div class="bottom_form  wpforms-field wpforms-field-text">
+                <label class="form-label" for="inv_no">
+                  {{ section.settings.inv_no }}
+                  <span class="wpforms-required-label">*</span>
+                </label>
+                <input type="text" id="inv_no" class="wpforms-field-medium wpforms-field-required form-input" name="contact[inv_no]" value="{{ customer.inv_no }}" required="text">
+              </div>
+            {% endif %}
+            {% if section.settings.reason != blank %}
+              <div class="bottom_form  wpforms-field wpforms-field-text">
+                <label class="form-label" for="wish">
+                  {{ section.settings.reason }}
+                  <span class="wpforms-required-label">*</span>
+                </label>
+                <textarea id="wish" class="wpforms-field-medium wpforms-field-required form-input" name="contact[message]" value="{{ form.message }}" requiredtype="text"></textarea>
+                {% if section.settings.decrip != blank %}<div class="wpforms-field-description">{{ section.settings.decrip }}</div>{% endif %}
+                </div>
+              {% endif %}
+            </div>
+            {% if section.settings.submit_btn != blank %}
+              <div class="wpforms-submit-container">
+                <input type="hidden" name="wpforms[id]" value="39261">
+                <input type="hidden" name="page_title" value="Customer Returns Policy">
+                <input type="hidden" name="page_url" value="https://spacelogicgroup.com/customer-returns-policy/">
+                <input type="hidden" name="url_referer" value="">
+                <input type="hidden" name="page_id" value="39250">
+                <input type="hidden" name="wpforms[post_id]" value="39250">
+                <button type="submit" name="wpforms[submit]" class="wpforms-submit button button--primary">
+                  {{ section.settings.submit_btn }}
+                </button>
+                <img decoding="async" src="https://spacelogicgroup.com/wp-content/plugins/wpforms-lite/assets/images/submit-spin.svg" class="wpforms-submit-spinner" style="display: none;" width="26" height="26" alt="Loading">
+              </div>
+            {% endif %}
+        </form>
+        {% endform %}
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Return-refund",
+  "tag": "section",
+  "class": "section main-page",
+  "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    },
+    {
+      "type": "header",
+      "content": "Return Refund Form"
+    },
+    {
+      "type": "text",
+      "id": "checkbox_text",
+      "label": "Checkbox text"
+    },
+    {
+      "type": "text",
+      "id": "form_title",
+      "default": "Return merchandise authorisation",
+      "label": "Form Title"
+    },
+    {
+      "type": "text",
+      "id": "form_subtitle",
+      "default": "I am applying for a Return Merchandise Authorisation *",
+      "label": "Form Subtitle"
+    },
+    {
+      "type": "text",
+      "id": "form_description",
+      "default": "By ticking this box you acknowledge and agree to the SpaceLogic Return Policy and Warrany Terms. To submit a Return Merchandise Authorisation (RMA) request, please complete the following form. In order to expedite your request, please complete all information requested below and submit. You will be notified with an RMA number if your return request has been approved. Shipping information for sending the unit to SpaceLogic Group Pty Ltd will be provided once the RMA is issued.",
+      "label": "Form Description"
+    },
+    {
+      "type": "header",
+      "content": "Return Refund Form Fields"
+    },
+    {
+      "type": "text",
+      "id": "name",
+      "default": "Name",
+      "label": "Name"
+    },
+    {
+      "type": "text",
+      "id": "company_name",
+      "default": "Company name",
+      "label": "Company Name"
+    },
+    {
+      "type": "text",
+      "id": "phone",
+      "default": "Phone",
+      "label": "Phone"
+    },
+    {
+      "type": "text",
+      "id": "fax",
+      "default": "Fax",
+      "label": "Fax"
+    },
+    {
+      "type": "text",
+      "id": "email",
+      "default": "Email",
+      "label": "Email"
+    },
+    {
+      "type": "text",
+      "id": "invoice_data",
+      "default": "Invoice Data",
+      "label": "Invoice data"
+    },
+    {
+      "type": "text",
+      "id": "inv_no",
+      "default": "Inv no",
+      "label": "Inv No"
+    },
+    {
+      "type": "text",
+      "id": "reason",
+      "default": "Reason",
+      "label": "Reason"
+    },
+    {
+      "type": "text",
+      "id": "decrip",
+      "label": "Form buttom description"
+    },
+    {
+      "type": "text",
+      "id": "submit_btn",
+      "default": "submit_btn",
+      "label": "Submit Button"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    }
+  ]
+}
+{% endschema %}

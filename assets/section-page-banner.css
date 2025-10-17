@@ -141,6 +141,10 @@
     margin-bottom: 16px;
 }
 
+.template-page-video-gallery .project-consultation-sec {
+    border-radius: 0;
+}
+
 @media screen and (max-width: 1440px) {
   .page-banner_sec .content-alignment-center ul li {
     display: inline-block;

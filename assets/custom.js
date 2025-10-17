@@ -242,7 +242,7 @@ document.addEventListener('DOMContentLoaded', function () {
         grabCursor: true,
         loop: true,
         autoplay: {
-          delay: 3000,  // 3000ms = 3 seconds
+          delay: 4000,
           disableOnInteraction: false,  // Allows autoplay to continue after interaction
         },
         pagination: {

@@ -52,6 +52,9 @@
   /* line-height: 1.2; */
   /* font-weight: 500; */
 }
+#ContactRegionSelect, #ContactEnquiryType {
+    font-family: Helvetica;
+}
 .contact-form-wrapper .form_label_main {
   display: flex;
   align-items: center;

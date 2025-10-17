@@ -1,0 +1,196 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "scheme-1"
+      }
+    },
+    "custom_page_banner_LgMyHK": {
+      "type": "custom-page-banner",
+      "blocks": {
+        "slide_mmixGf": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Banner_image109.jpg",
+            "image_overlay_opacity": 0
+          }
+        },
+        "slide_UkfD3K": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Banner_image104.jpg",
+            "image_overlay_opacity": 0
+          }
+        },
+        "slide_DKh3JH": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Banner_image95.jpg",
+            "image_overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "slide_mmixGf",
+        "slide_UkfD3K",
+        "slide_DKh3JH"
+      ],
+      "name": "TF Custom Page Slideshow",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "image_behavior": "none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "page_banner_iLfggk": {
+      "type": "page-banner",
+      "blocks": {
+        "heading_BePeqr": {
+          "type": "heading",
+          "settings": {
+            "heading": "Modular storage for CSSD and Theatre",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "600",
+            "heading_alignment": "center"
+          }
+        },
+        "caption_r9jUx4": {
+          "type": "caption",
+          "settings": {
+            "caption": "<p>AS5369 compliant sterile storage. Designed for infection control, built for efficiency.</p><h3></h3>",
+            "caption_alignment": "center"
+          }
+        },
+        "text_Q88xW3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Effective sterile storage in CSSD and operating theatre environments starts with compliance. According to AS5369, sterile consumables must be stored in a way that protects their integrity and prevents contamination from dust, vermin, light, and moisture. That’s why leading hospitals across Australia trust STERIRACK® System, a fully modular clinical storage solution engineered specifically for sterile environments.</p><p>Proudly designed and manufactured in Australia, STERIRACK® System offers industry-leading infection control, durability, and customisation. It’s easy to clean, simple to reconfigure, and fully compatible with CSSD workflows, sterile stock rooms, and theatre consumable storage. With reconfigurable wire-loop baskets, pull-out trays, and a wide variety of other components, the system improves stock visibility, increases access, and enhances compliance across all sterile storage zones.</p><p>With thousands of successful hospital installations, SpaceLogic is the trusted partner in modular healthcare storage. Whether you're upgrading a single sterile store or redesigning your entire CSSD, our team can help you create a clean, compliant and highly efficient space that improves safety, workflow, and usability.</p><p></p>",
+            "text_alignment": "left"
+          }
+        },
+        "caption_rFVyJF": {
+          "type": "caption",
+          "settings": {
+            "caption": "<p>Ready to upgrade your CSSD or sterile theatre storage?<br/>Contact our team to request a consultation, layout design, or on-site presentation.</p>",
+            "caption_alignment": "center"
+          }
+        },
+        "button_LgazCa": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contact us today",
+            "button_link": "shopify://pages/contact",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "button_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BePeqr",
+        "caption_r9jUx4",
+        "text_Q88xW3",
+        "caption_rFVyJF",
+        "button_LgazCa"
+      ],
+      "name": "TF Page Banner",
+      "settings": {
+        "title_alignment": "center",
+        "full_width": true,
+        "content_width": "full_width",
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "padding_top": 80,
+        "padding_bottom": 40
+      }
+    },
+    "multirow_KcQEKQ": {
+      "type": "multirow",
+      "blocks": {
+        "row_4wqmrn": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Orange_Private_Hospital_flipbook_thumb_49220d61-452e-4025-83b7-697b63f66818.png",
+            "caption": "Orange Private Hospital",
+            "heading": "CSSD and theatre storage solutions at Orange Private Hospital",
+            "text": "<p>Take a look inside Orange Private Hospital, where SpaceLogic’s STERIRACK® System has been expertly integrated into the Central Sterile Supply Department (CSSD) and theatre areas. This project highlights how modular stainless steel storage can transform sterile workflows — improving visibility, access, and infection control while supporting seamless instrument management across critical zones. Explore the interactive flipbook to see how precision storage design drives performance in high-demand clinical environments.<br/></p>",
+            "button_label": "View flipping book",
+            "button_link": "https://online.flippingbook.com/view/1031758163/"
+          }
+        }
+      },
+      "block_order": [
+        "row_4wqmrn"
+      ],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "large",
+        "desktop_image_width": "large",
+        "heading_size": "h2",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
+        "row_color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
+        "mobile_content_alignment": "left",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "disabled": true,
+      "settings": {
+        "hide_price": false,
+        "hide_sold_out": true,
+        "hide_save": true,
+        "products_per_page": 20,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "remove_product_link": false,
+        "enquire_now": "Enquire now",
+        "enquire_now_url": "shopify://pages/contact",
+        "shop_now": "Shop now",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "learnmore",
+        "learn_more_button_text": "Learn More",
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 80,
+        "padding_bottom": 100
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "custom_page_banner_LgMyHK",
+    "page_banner_iLfggk",
+    "multirow_KcQEKQ",
+    "product-grid"
+  ]
+}

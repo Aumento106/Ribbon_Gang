@@ -232,8 +232,8 @@
             "categories_image": "shopify://shop_images/10008_Medipanel_0450_cart.jpg",
             "collection": "medibin-panels",
             "card_text": "",
-            "button_card_text": "Learn more",
-            "redirection_link": ""
+            "button_card_text": "Buy now",
+            "redirection_link": "shopify://products/tf-medibin™-panels"
           }
         },
         "featured_collection_eMKwDQ": {
@@ -242,8 +242,8 @@
             "categories_image": "shopify://shop_images/10285C_Sterirack_Standard_cart.jpg",
             "collection": "medibin-standard-label-holders",
             "card_text": "",
-            "button_card_text": "Learn more",
-            "redirection_link": ""
+            "button_card_text": "Buy now",
+            "redirection_link": "shopify://products/tf-medibin™-standard-label-holders"
           }
         },
         "featured_collection_TtYFqg": {
@@ -252,8 +252,8 @@
             "categories_image": "shopify://shop_images/10006_Medibin_Divider_cart.jpg",
             "collection": "medibin-dividers",
             "card_text": "",
-            "button_card_text": "Learn more",
-            "redirection_link": ""
+            "button_card_text": "Buy now",
+            "redirection_link": "shopify://products/medibin-divider"
           }
         },
         "featured_collection_JNdDid": {

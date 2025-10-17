@@ -93,7 +93,7 @@
             "heading": "Warranty information",
             "accordian_icon_image": "shopify://shop_images/Group_1171277814.svg",
             "icon": "check_mark",
-            "content": "<p>All SpaceLogic accessories are backed by a 5-year warranty against faulty manufacture or workmanship under normal use. This warranty applies only when installed and used according to our guidelines. For full details, please refer to our Warranty Certificate. (<a href=\"https://online.flippingbook.com/view/308211667/\" target=\"_blank\" title=\"https://online.flippingbook.com/view/308211667/\">https://online.flippingbook.com/view/308211667/</a>).</p>",
+            "content": "<p>All SpaceLogic accessories are backed by a 5-year warranty against faulty manufacture or workmanship under normal use. This warranty applies only when installed and used according to our guidelines. For full details, please refer to our <a href=\"https://online.flippingbook.com/view/308211667/\" target=\"_blank\" title=\"https://online.flippingbook.com/view/308211667/\">Warranty Certificate.</a></p>",
             "page": ""
           }
         },
@@ -103,7 +103,7 @@
             "heading": "Brochure or spec sheet",
             "accordian_icon_image": "shopify://shop_images/Group_1171277814_1.svg",
             "icon": "check_mark",
-            "content": "{{ product.metafields.custom.brochure_description | metafield_tag }}",
+            "content": "<p>{{ product.metafields.custom.brochure_description | metafield_tag }}</p>",
             "page": ""
           }
         },
@@ -124,7 +124,7 @@
             "heading": "Request a mini exhibition",
             "accordian_icon_image": "shopify://shop_images/Group_1171277814_3.svg",
             "icon": "check_mark",
-            "content": "<p>Experience the SpaceLogic Mini Exhibition, a tailored showcase that brings the gold standard in clinical storage right to your facility. Our team will walk you through STERIRACK® System’s design and concept capabilities, while you share your plans and objectives, so we can create the best outcome together. Discover how SpaceLogic can define the path forward for your project and give you complete confidence in achieving the optimal clinical storage solution. Learn more (<a href=\"https://online.flippingbook.com/view/308232103/\" target=\"_blank\" title=\"https://online.flippingbook.com/view/308232103/\">https://online.flippingbook.com/view/308232103/</a>)<br/><br/></p>",
+            "content": "<p>Experience the SpaceLogic Mini Exhibition, a tailored showcase that brings the gold standard in clinical storage right to your facility. Our team will walk you through STERIRACK® System’s design and concept capabilities, while you share your plans and objectives, so we can create the best outcome together. Discover how SpaceLogic can define the path forward for your project and give you complete confidence in achieving the optimal clinical storage solution. <a href=\"https://online.flippingbook.com/view/308232103/\" target=\"_blank\" title=\"https://online.flippingbook.com/view/308232103/\">Learn more </a></p>",
             "page": ""
           }
         },
@@ -697,9 +697,9 @@
         "title": "You may also like",
         "heading_size": "h0",
         "heading_alignment": "left",
-        "products_to_show": 6,
-        "columns_desktop": 6,
-        "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "image_ratio": "square",
         "image_shape": "default",
         "show_secondary_image": true,

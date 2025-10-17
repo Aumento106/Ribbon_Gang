@@ -1,29 +1,30 @@
-
-{% assign breadcrumb = '' %}
 {% assign separator = ' > ' %}
-
-{% comment %} Recursive function to find current page in menu {% endcomment %}
 {% assign found = false %}
-
 {% assign menu_links = linklists.main-menu.links %}
-
 {% assign current_breadcrumb = '' %}
 
 {% for mainLink in menu_links %}
   {% if mainLink.current %}
-    {% assign current_breadcrumb = mainLink.title %}
+    {% assign current_breadcrumb = '<a href="' | append: mainLink.url | append: '">' | append: mainLink.title | append: '</a>' %}
     {% assign found = true %}
   {% endif %}
 
   {% for subLink in mainLink.links %}
     {% if subLink.current %}
-      {% assign current_breadcrumb = mainLink.title | append: separator | append: subLink.title %}
+      {% assign current_breadcrumb = '<a href="' | append: mainLink.url | append: '">' | append: mainLink.title | append: '</a>' 
+        | append: separator 
+        | append: '<a href="' | append: subLink.url | append: '">' | append: subLink.title | append: '</a>' %}
       {% assign found = true %}
     {% endif %}
 
     {% for grandchildLink in subLink.links %}
       {% if grandchildLink.current %}
-        {% assign current_breadcrumb = mainLink.title | append: separator | append: subLink.title | append: separator | append: grandchildLink.title %}
+        {% assign current_breadcrumb = 
+          '<a href="' | append: mainLink.url | append: '">' | append: mainLink.title | append: '</a>' 
+          | append: separator 
+          | append: '<a href="' | append: subLink.url | append: '">' | append: subLink.title | append: '</a>'
+          | append: separator 
+          | append: '<a href="' | append: grandchildLink.url | append: '">' | append: grandchildLink.title | append: '</a>' %}
         {% assign found = true %}
       {% endif %}
     {% endfor %}
@@ -37,7 +38,9 @@
   {% elsif template contains 'product' %}
     {% if product.collections.size > 0 %}
       {% assign collection = product.collections.first %}
-      {% assign current_breadcrumb = collection.title | append: separator | append: product.title %}
+      {% assign current_breadcrumb = '<a href="' | append: collection.url | append: '">' | append: collection.title | append: '</a>' 
+        | append: separator 
+        | append: product.title %}
     {% else %}
       {% assign current_breadcrumb = product.title %}
     {% endif %}
@@ -46,11 +49,9 @@
   {% endif %}
 {% endif %}
 
-{% comment %} Output breadcrumb {% endcomment %}
 <nav class="breadcrumb">
   <a href="{{ shop.url }}">Home</a>
   {% if current_breadcrumb != blank %}
     {{ separator }}{{ current_breadcrumb }}
   {% endif %}
 </nav>
-

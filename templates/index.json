@@ -15,7 +15,7 @@
         "slide_eEdaKF": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Test_image.jpg",
+            "image": "shopify://shop_images/Banner_image109.jpg",
             "enable_side_image": true,
             "heading": "Making space for care®",
             "custom_heading_size": 45,
@@ -38,6 +38,7 @@
         "slide_QcKVdY": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/Banner_image33.jpg",
             "enable_side_image": false,
             "heading": "Shop accessories for smarter care",
             "custom_heading_size": 45,
@@ -60,7 +61,7 @@
         "slide_gCWg7E": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Sydney_Products_June_25_HR-72.jpg",
+            "image": "shopify://shop_images/Banner_image103.jpg",
             "enable_side_image": false,
             "heading": "Storage systems that transform clinical spaces",
             "custom_heading_size": 45,
@@ -103,7 +104,7 @@
         "description": "<p>Your trusted partner.....</p>",
         "heading_size": "h0",
         "content_alignment": "center",
-        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "color_scheme": "scheme-28b9a3ce-e916-452a-9440-95fefcedbf92",
         "padding_top": 40,
         "padding_bottom": 40
       }
@@ -415,7 +416,7 @@
         "column_UTiAj3": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Sydney_Products_June_25_HR-66.jpg",
+            "image": "shopify://shop_images/Banner_image110.jpg",
             "title": "CSSD",
             "block_custom_font_weight": "600",
             "text": "<p>and theatre stores</p>",
@@ -703,7 +704,7 @@
             "tag_text": "New innovation!",
             "custom_tag_font_weight": "600",
             "tag_text_color": "#ffffff",
-            "logo_image": "shopify://shop_images/SPACELOGIC_logo_-_grey_and_yellow_2025_v1_1.svg",
+            "logo_image": "shopify://shop_images/STERIRACK-logo-grey-and-yellow-2025_1.svg",
             "heading": "<p>Silicon mats</p>",
             "custom_heading_size": 45,
             "mobile_custom_heading_size": 28,

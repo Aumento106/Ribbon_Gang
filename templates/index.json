@@ -1160,13 +1160,37 @@
             "btn_bg": "#ffce00",
             "text_alignment_mobile": "center"
           }
+        },
+        "slide_a3kDLr": {
+          "type": "slide",
+          "settings": {
+            "tag_text": "Favourite!",
+            "custom_tag_font_weight": "400",
+            "tag_text_color": "#ffffff",
+            "logo_image": "shopify://shop_images/STERILOOP-logo-grey-and-yellow-2025_2.svg",
+            "heading": "<p>Drop-in bins</p>",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "400",
+            "subheading": "Text to go here",
+            "button_label": "Link to go here",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "color_scheme": "scheme-1",
+            "btn_bg": "#ffce00",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "slide_ebmQpn",
         "slide_ptPDbe",
         "slide_JUcCqx",
-        "slide_ReUFtK"
+        "slide_ReUFtK",
+        "slide_a3kDLr"
       ],
       "name": "Custom slideshow slider TIFF",
       "settings": {

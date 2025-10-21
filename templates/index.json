@@ -106,7 +106,7 @@
           "settings": {
             "enable_side_image": true,
             "heading": "Making space for care®",
-            "custom_heading_size": 45,
+            "custom_heading_size": 55,
             "mobile_custom_heading_size": 28,
             "custom_font_weight": "600",
             "subheading": "It’s the reason we exist. Every system we design gives structure to care, restoring order, efficiency, and calm.",
@@ -128,7 +128,7 @@
           "settings": {
             "enable_side_image": false,
             "heading": "Every second counts in healthcare",
-            "custom_heading_size": 45,
+            "custom_heading_size": 55,
             "mobile_custom_heading_size": 28,
             "custom_font_weight": "600",
             "subheading": "Our modular systems simplify access and reduce wasted movement, giving clinicians back time for patients.",

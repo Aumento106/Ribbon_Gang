@@ -1065,6 +1065,99 @@
     "custom_slideshow_slider_zVR4zh": {
       "type": "custom-slideshow-slider",
       "blocks": {
+        "slide_JUcCqx": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Home_6.png",
+            "tag_text": "Best seller!",
+            "custom_tag_font_weight": "600",
+            "tag_text_color": "#ffffff",
+            "logo_image": "shopify://shop_images/Steriloop_logo.svg",
+            "heading": "<p>Basket dividers</p>",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "600",
+            "subheading": "Text to go here",
+            "button_label": "Shop basket dividers",
+            "link": "shopify://products/sterirack-basket-divider",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "color_scheme": "scheme-7bba877c-319e-4978-b41a-39cbc803dea8",
+            "btn_bg": "#ffce00",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_gyz74Y": {
+          "type": "slide",
+          "settings": {
+            "tag_text": "Best seller!",
+            "custom_tag_font_weight": "600",
+            "tag_text_color": "#ffffff",
+            "logo_image": "shopify://shop_images/STERILOOP-logo-grey-and-yellow-2025_2.svg",
+            "heading": "<p>Basket drop-in bins</p>",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "600",
+            "subheading": "Text to go here",
+            "button_label": "Shop drop-in bins",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "color_scheme": "scheme-7bba877c-319e-4978-b41a-39cbc803dea8",
+            "btn_bg": "#ffce00",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_L9qbfj": {
+          "type": "slide",
+          "settings": {
+            "tag_text": "Best seller!",
+            "custom_tag_font_weight": "600",
+            "tag_text_color": "#ffffff",
+            "logo_image": "shopify://shop_images/STERIRACK-logo-grey-and-yellow-2025_1.svg",
+            "heading": "<p>Shelf ledges</p>",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "600",
+            "subheading": "Text to go here",
+            "button_label": "Shop shelf ledges",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "color_scheme": "scheme-7bba877c-319e-4978-b41a-39cbc803dea8",
+            "btn_bg": "#ffce00",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_z9yzXF": {
+          "type": "slide",
+          "settings": {
+            "tag_text": "Best seller!",
+            "custom_tag_font_weight": "600",
+            "tag_text_color": "#ffffff",
+            "logo_image": "shopify://shop_images/STERIRACK-logo-grey-and-yellow-2025_1.svg",
+            "heading": "<p>Shelf dividers</p>",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "600",
+            "subheading": "Text to go here",
+            "button_label": "Shop shelf dividers",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "color_scheme": "scheme-7bba877c-319e-4978-b41a-39cbc803dea8",
+            "btn_bg": "#ffce00",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_ebmQpn": {
           "type": "slide",
           "settings": {
@@ -1113,84 +1206,15 @@
             "btn_bg": "#ffce00",
             "text_alignment_mobile": "center"
           }
-        },
-        "slide_JUcCqx": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Home_6.png",
-            "tag_text": "Best seller!",
-            "custom_tag_font_weight": "600",
-            "tag_text_color": "#ffffff",
-            "logo_image": "shopify://shop_images/Steriloop_logo.svg",
-            "heading": "<p>Basket dividers</p>",
-            "custom_heading_size": 52,
-            "mobile_custom_heading_size": 28,
-            "custom_font_weight": "600",
-            "subheading": "Text to go here",
-            "button_label": "Shop basket dividers",
-            "link": "shopify://products/sterirack-basket-divider",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "color_scheme": "scheme-7bba877c-319e-4978-b41a-39cbc803dea8",
-            "btn_bg": "#ffce00",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_L9qbfj": {
-          "type": "slide",
-          "settings": {
-            "tag_text": "Best seller!",
-            "custom_tag_font_weight": "600",
-            "tag_text_color": "#ffffff",
-            "logo_image": "shopify://shop_images/STERIRACK-logo-grey-and-yellow-2025_1.svg",
-            "heading": "<p>Shelf ledges</p>",
-            "custom_heading_size": 52,
-            "mobile_custom_heading_size": 28,
-            "custom_font_weight": "600",
-            "subheading": "Text to go here",
-            "button_label": "Shop shelf ledges",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "color_scheme": "scheme-7bba877c-319e-4978-b41a-39cbc803dea8",
-            "btn_bg": "#ffce00",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_gyz74Y": {
-          "type": "slide",
-          "settings": {
-            "tag_text": "Best seller!",
-            "custom_tag_font_weight": "600",
-            "tag_text_color": "#ffffff",
-            "logo_image": "shopify://shop_images/STERILOOP-logo-grey-and-yellow-2025_2.svg",
-            "heading": "<p>Basket drop-in bins</p>",
-            "custom_heading_size": 52,
-            "mobile_custom_heading_size": 28,
-            "custom_font_weight": "600",
-            "subheading": "Text to go here",
-            "button_label": "Shop drop-in bins",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "color_scheme": "scheme-7bba877c-319e-4978-b41a-39cbc803dea8",
-            "btn_bg": "#ffce00",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
-        "slide_ebmQpn",
-        "slide_ptPDbe",
         "slide_JUcCqx",
+        "slide_gyz74Y",
         "slide_L9qbfj",
-        "slide_gyz74Y"
+        "slide_z9yzXF",
+        "slide_ebmQpn",
+        "slide_ptPDbe"
       ],
       "name": "Custom slideshow slider TIFF",
       "settings": {

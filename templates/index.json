@@ -249,7 +249,7 @@
         "description": "<p>Find baskets, label holders, dividers, and components engineered for every SpaceLogic system.</p>",
         "heading_size": "h1",
         "content_alignment": "center",
-        "color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
+        "color_scheme": "scheme-28b9a3ce-e916-452a-9440-95fefcedbf92",
         "padding_top": 40,
         "padding_bottom": 40
       }
@@ -296,9 +296,73 @@
         "column_Q9aepq",
         "column_ERyxPw"
       ],
+      "disabled": true,
       "settings": {
         "title": "<h2>Why choose SpaceLogic?</h2>",
         "descr": "SpaceLogic provides hospital and clinical storage solutions that improve organisation, support infection control, and create safer, more efficient healthcare environments. Our modular systems and accessories adapt to clean utility, CSSD, and pharmacy spaces, helping staff save time, reduce clutter, and optimise workflows.",
+        "custom_heading_size": 52,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "600",
+        "description_custom_font_weight": "300",
+        "title_alignment": "center",
+        "title_color": "#ffffff",
+        "subheading_color": "#ffffff",
+        "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
+        "heading_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "columns_desktop": "3",
+        "box_shadow": false,
+        "Images_same_height": false,
+        "box_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "custom_multicolumn_text_LzdAVr": {
+      "type": "custom-Multicolumn-text",
+      "blocks": {
+        "column_9A8gAR": {
+          "type": "column",
+          "settings": {
+            "title": "Service",
+            "block_custom_font_weight": "600",
+            "text": "<p>End-to-end project consultation with 2D/3D design.</p><p>Custom storage solutions, precision planning, seamless delivery.</p>",
+            "text-v": "",
+            "button-text": "Explore services",
+            "button-url": "shopify://pages/services"
+          }
+        },
+        "column_i4Rp4i": {
+          "type": "column",
+          "settings": {
+            "title": "Focus",
+            "block_custom_font_weight": "600",
+            "text": "<p>Clinical storage solutions for every department.</p><p>Infection control, workflow efficiency, sterile/non-sterile options.</p>",
+            "text-v": "",
+            "button-text": "See storage solutions",
+            "button-url": "shopify://pages/clinical-storage-systems"
+          }
+        },
+        "column_CbLj8f": {
+          "type": "column",
+          "settings": {
+            "title": "Quality",
+            "block_custom_font_weight": "600",
+            "text": "<p>Gold-standard STERIRACK® System, patented design.</p><p>Compliant, ergonomic, and built for long-term performance.</p>",
+            "text-v": "",
+            "button-text": "Discover STERIRACK®",
+            "button-url": "shopify://pages/sterirack-system"
+          }
+        }
+      },
+      "block_order": [
+        "column_9A8gAR",
+        "column_i4Rp4i",
+        "column_CbLj8f"
+      ],
+      "name": "Custom multicolumn text 2",
+      "settings": {
+        "title": "<p>Precision engineered for clinical performance.</p>",
+        "descr": "Every SpaceLogic system is built on the same foundation — efficiency, safety, and certainty. Together, these principles shape how we design, manufacture, and deliver storage systems that perform flawlessly in demanding healthcare environments.",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
         "custom_font_weight": "600",
@@ -1693,6 +1757,7 @@
     "key_message_Ccdzez",
     "key_message_AKmGXH",
     "custom_multicolumn_text_JtzPeP",
+    "custom_multicolumn_text_LzdAVr",
     "custom_image_banner_xDTGLj",
     "newsletter_kYQP7r",
     "custom_multicolumn_tEhTPk",

@@ -1607,89 +1607,6 @@
         "margin_bottom": 40
       }
     },
-    "product_catalog_VjYNFG": {
-      "type": "product-catalog",
-      "disabled": true,
-      "settings": {
-        "padding_top": 40,
-        "padding_bottom": 30,
-        "margin_top": 40,
-        "margin_bottom": 40
-      }
-    },
-    "image_text_slider_HkQX47": {
-      "type": "image-text-slider",
-      "blocks": {
-        "slide_LHpFNR": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/megasale-offer-banner.png",
-            "offer_title": "<p><strong>Super Saver Offer</strong></p>",
-            "heading": "<p>Gold Standard Clinical Storage For <strong>Healthcare</strong></p>",
-            "heading_size": "h1",
-            "text": "<p>High quality components mix and match to create modular clinical storege solutions, tailored exactly to your requirements.</p><p>STERIRACK®  System is used to create fully integrated room installations, and workstation, benches and trolleys.</p>",
-            "button_label": "Shop Now",
-            "offer_code_txt": "MEGASALE",
-            "button_link": "shopify://collections/all",
-            "button_style_secondary": false
-          }
-        },
-        "slide_7RNfbg": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/megasale-offer-banner_938a82df-53d3-4aaa-ba45-57c4b93c4463.png",
-            "offer_title": "<p><strong>Super Saver Offer</strong></p>",
-            "heading": "<p>Gold Standard Clinical Storage For <strong>Healthcare</strong></p>",
-            "heading_size": "h1",
-            "text": "<p>High quality components mix and match to create modular clinical storege solutions, tailored exactly to your requirements.</p><p>STERIRACK®  System is used to create fully integrated room installations, and workstation, benches and trolleys.</p>",
-            "button_label": "Shop Now",
-            "offer_code_txt": "MEGASALE",
-            "button_link": "shopify://collections/all",
-            "button_style_secondary": false
-          }
-        },
-        "slide_fqRC9F": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/megasale-offer-banner_d03c647a-a5dd-4537-859a-298359b30937.png",
-            "offer_title": "<p><strong>Super Saver Offer</strong></p>",
-            "heading": "<p>Gold Standard Clinical Storage For <strong>Healthcare</strong></p>",
-            "heading_size": "h1",
-            "text": "<p>High quality components mix and match to create modular clinical storege solutions, tailored exactly to your requirements.</p><p>STERIRACK®  System is used to create fully integrated room installations, and workstation, benches and trolleys.</p>",
-            "button_label": "Shop Now",
-            "offer_code_txt": "MEGASALE",
-            "button_link": "shopify://collections/all",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "slide_LHpFNR",
-        "slide_7RNfbg",
-        "slide_fqRC9F"
-      ],
-      "disabled": true,
-      "settings": {
-        "heading": "",
-        "title_alignment": "left",
-        "heading_size": "h1",
-        "layout": "text_first",
-        "content_layout": "no-overlap",
-        "height": "adapt",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "mobile_content_alignment": "left",
-        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "section_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "offer_title_color": "#ffce00",
-        "autoplay": false,
-        "autoplay_speed": 5,
-        "show_pagination": true,
-        "dot_color": "#eeeeee",
-        "padding_top": 68,
-        "padding_bottom": 32
-      }
-    },
     "multicolumn_box_with_image_jL37Wi": {
       "type": "multicolumn-box-with-image",
       "blocks": {
@@ -1856,8 +1773,6 @@
     "custom_newsletter_NdaReb",
     "custom_image_banner_87wCPQ",
     "custom_multicolumn_inkqq6",
-    "product_catalog_VjYNFG",
-    "image_text_slider_HkQX47",
     "multicolumn_box_with_image_jL37Wi",
     "multicolumn_services_box_FEbT7G",
     "multicolumn_pages_box_VCT8HN",

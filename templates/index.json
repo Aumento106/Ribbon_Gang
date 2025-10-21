@@ -1095,8 +1095,8 @@
             "tag_text": "New product!",
             "custom_tag_font_weight": "600",
             "tag_text_color": "#ffffff",
-            "logo_image": "shopify://shop_images/Steriloop_logo.svg",
-            "heading": "<p>STERIRACK® Click 'n' Clip Label Holders Mk II</p>",
+            "logo_image": "shopify://shop_images/STERIRACK-logo-grey-and-yellow-2025_1.svg",
+            "heading": "<p>Click 'n' Clip Label Holders Mk II</p>",
             "custom_heading_size": 52,
             "mobile_custom_heading_size": 28,
             "custom_font_weight": "600",
@@ -1228,31 +1228,6 @@
             "btn_bg": "#ffce00",
             "text_alignment_mobile": "center"
           }
-        },
-        "slide_ptPDbe": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Home_9.png",
-            "tag_text": "Popular!",
-            "custom_tag_font_weight": "600",
-            "tag_text_color": "#ffffff",
-            "logo_image": "shopify://shop_images/STERIRACK-logo-grey-and-yellow-2025_1.svg",
-            "heading": "<p>Suture racks</p>",
-            "custom_heading_size": 45,
-            "mobile_custom_heading_size": 28,
-            "custom_font_weight": "600",
-            "subheading": "Designed for easy access and safe organisation, our suture racks keep trays secure, visible, and ready for use in fast-paced clinical environments.",
-            "button_label": "Shop suture racks and trays",
-            "link": "shopify://products/sterirack-suture-shelves",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "color_scheme": "scheme-7bba877c-319e-4978-b41a-39cbc803dea8",
-            "btn_bg": "#ffce00",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
@@ -1262,8 +1237,7 @@
         "slide_L9qbfj",
         "slide_z9yzXF",
         "slide_ebmQpn",
-        "slide_REpprK",
-        "slide_ptPDbe"
+        "slide_REpprK"
       ],
       "name": "Custom slideshow slider TIFF",
       "settings": {

@@ -664,10 +664,80 @@
         "column_nPJerb",
         "column_ggEGqd"
       ],
+      "disabled": true,
       "settings": {
         "page_container": "page-width",
         "title": "<h2>Innovative storage solutions</h2>",
         "sec_subtitle": "Making space for care® across every department",
+        "title_color": "#ffffff",
+        "subheading_color": "#ffffff",
+        "button_text": "",
+        "button_url": "",
+        "custom_heading_size": 45,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "600",
+        "title_alignment": "center",
+        "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
+        "columns_desktop": "3",
+        "box_shadow": false,
+        "image_auto_height1": false,
+        "auto_width": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 40,
+        "margin_bottom": 0
+      }
+    },
+    "custom_multicolumn_8pVJfV": {
+      "type": "custom-multicolumn",
+      "blocks": {
+        "column_RXN9RV": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Banner_image110.jpg",
+            "title": "CSSD",
+            "block_custom_font_weight": "600",
+            "text": "<p>and theatre stores</p>",
+            "text-v": "",
+            "button-text": "Explore room",
+            "button-url": "shopify://pages/cssd-theater-store"
+          }
+        },
+        "column_LrmbYY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Sydney-1.jpg",
+            "title": "Clean utilities",
+            "block_custom_font_weight": "600",
+            "text": "<p>and medication rooms</p>",
+            "text-v": "",
+            "button-text": "Explore room",
+            "button-url": "shopify://pages/clean-utility-medications-room"
+          }
+        },
+        "column_XVrRJX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Sydney_Products_June_25_HR-185.jpg",
+            "title": "Pharmacy",
+            "block_custom_font_weight": "600",
+            "text": "<p>and dispensary</p>",
+            "text-v": "",
+            "button-text": "Explore room",
+            "button-url": "shopify://pages/pharmacy-storage-dispensary"
+          }
+        }
+      },
+      "block_order": [
+        "column_RXN9RV",
+        "column_LrmbYY",
+        "column_XVrRJX"
+      ],
+      "name": "Custom multicolumn 2",
+      "settings": {
+        "page_container": "page-width",
+        "title": "<p>Complete solutions for every clinical space.</p>",
+        "sec_subtitle": "Complete solutions for every clinical space.",
         "title_color": "#ffffff",
         "subheading_color": "#ffffff",
         "button_text": "",
@@ -1761,6 +1831,7 @@
     "custom_image_banner_xDTGLj",
     "newsletter_kYQP7r",
     "custom_multicolumn_tEhTPk",
+    "custom_multicolumn_8pVJfV",
     "custom_image_banner_wTxxEB",
     "custom_slideshow_slider_8brNtf",
     "custom_image_text_slider_mztD6t",

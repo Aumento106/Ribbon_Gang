@@ -1182,6 +1182,30 @@
             "text_alignment_mobile": "center"
           }
         },
+        "slide_REpprK": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Home_7.png",
+            "tag_text": "Shop now",
+            "custom_tag_font_weight": "600",
+            "tag_text_color": "#ffffff",
+            "logo_image": "shopify://shop_images/STERIRACK-logo-grey-and-yellow-2025_1.svg",
+            "heading": "<p>Shop the full range of accessories</p>",
+            "custom_heading_size": 45,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "600",
+            "subheading": "Text to go here",
+            "button_label": "See the full range",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "color_scheme": "scheme-7bba877c-319e-4978-b41a-39cbc803dea8",
+            "btn_bg": "#ffce00",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_ptPDbe": {
           "type": "slide",
           "disabled": true,
@@ -1214,6 +1238,7 @@
         "slide_L9qbfj",
         "slide_z9yzXF",
         "slide_ebmQpn",
+        "slide_REpprK",
         "slide_ptPDbe"
       ],
       "name": "Custom slideshow slider TIFF",

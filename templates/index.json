@@ -105,7 +105,7 @@
           "type": "slide",
           "settings": {
             "enable_side_image": true,
-            "heading": "Making space for care®",
+            "heading": "Making space for care®.",
             "custom_heading_size": 55,
             "mobile_custom_heading_size": 28,
             "custom_font_weight": "600",
@@ -171,10 +171,10 @@
           "type": "slide",
           "settings": {
             "enable_side_image": false,
-            "heading": "Certainty in every space",
+            "heading": "Certainty in every space.",
             "custom_heading_size": 55,
             "mobile_custom_heading_size": 28,
-            "custom_font_weight": "400",
+            "custom_font_weight": "600",
             "subheading": "With over four decades of experience, we deliver storage systems that work exactly as they should — every time.",
             "button_label": "Link to go here",
             "link": "",

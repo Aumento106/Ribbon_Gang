@@ -1329,6 +1329,86 @@
         "padding_bottom": 40
       }
     },
+    "custom_image_text_slider_HwfQc3": {
+      "type": "custom-Image-text-slider",
+      "blocks": {
+        "slide_R6QL9p": {
+          "type": "slide",
+          "settings": {
+            "offer_title": "",
+            "heading": "<p>SteriLoop® advantage</p>",
+            "block_custom_heading_size": 45,
+            "mobile_block_custom_heading_size": 28,
+            "block_custom_font_weight": "600",
+            "text": "<p>SteriLoop® Baskets feature our exclusive registered loop-edge design, engineered for safety, durability, and infection control. Unlike traditional wire baskets, SteriLoop® eliminates sharp edges, protecting staff, patients, and supplies, while integrating seamlessly with STERIRACK® System.</p><p>Look for the Loop™ – because small details make a big difference.</p><p></p>",
+            "button_label": "Shop SteriLoop® Baskets",
+            "button_link": "shopify://collections/steriloop-baskets",
+            "button_style_secondary": false
+          }
+        },
+        "slide_zCNaeN": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Thumbnail_-_Label_holders_Mk_II_4.png",
+            "offer_title": "",
+            "heading": "<p>Clip 'N' Click Label Holders - Mk II</p>",
+            "block_custom_heading_size": 45,
+            "mobile_block_custom_heading_size": 28,
+            "block_custom_font_weight": "600",
+            "text": "<p>The upgraded Mk II Click ’N’ Clip Label Holders save time and reduce frustration in fast-paced clinical environments. </p><p>With a clear protective cover that snaps securely into place, labels stay clean, legible, and contamination-free. No peeling, no fiddling, no wasted time.</p><p>Smarter labelling, safer care, designed to work seamlessly with STERIRACK® systems.</p>",
+            "button_label": "Shop label holders",
+            "button_link": "shopify://products/sterirack®-click-n-clip-label-holders-mk-ii",
+            "button_style_secondary": false
+          }
+        },
+        "slide_ewWmni": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Sydney_Products_June_25_HR-66.jpg",
+            "offer_title": "",
+            "heading": "<p>Colour-coded clarity</p>",
+            "block_custom_heading_size": 45,
+            "mobile_block_custom_heading_size": 28,
+            "block_custom_font_weight": "600",
+            "text": "<p>Colour-coded labelling helps busy clinical teams find supplies faster, reduce errors, and support infection control. From label holders to post strips, our labelling accessories integrate seamlessly with STERIRACK® System.</p><p>Smarter organisation through colour.</p>",
+            "button_label": "Shop labelling accessories",
+            "button_link": "shopify://collections/sterirack®-labelling-and-signage",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_R6QL9p",
+        "slide_zCNaeN",
+        "slide_ewWmni"
+      ],
+      "name": "Custom Image Text Slider TIFF",
+      "settings": {
+        "enable_content_page_width": false,
+        "heading": "",
+        "sec_des": "",
+        "title_color": "#ffffff",
+        "subheading_color": "#ffffff",
+        "title_alignment": "left",
+        "custom_heading_size": 45,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "400",
+        "layout": "image_first",
+        "content_layout": "no-overlap",
+        "height": "medium",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "mobile_content_alignment": "left",
+        "show_button_on_image": true,
+        "show_half_slide": true,
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "section_color_scheme": "",
+        "offer_title_color": "#ffce00",
+        "show_pagination": true,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
     "custom_image_text_slider_k9tKHM": {
       "type": "custom-Image-text-slider",
       "blocks": {
@@ -1584,6 +1664,87 @@
         "column_tJjXWa",
         "column_6nDDjQ"
       ],
+      "disabled": true,
+      "settings": {
+        "page_container": "page-width",
+        "title": "<p>Find the perfect storage solution</p>",
+        "sec_subtitle": "",
+        "title_color": "#ffffff",
+        "subheading_color": "#424242",
+        "button_text": "Shop the full range",
+        "button_url": "shopify://pages/clinical-storage-systems",
+        "custom_heading_size": 45,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "600",
+        "title_alignment": "center",
+        "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
+        "columns_desktop": "2",
+        "box_shadow": true,
+        "image_auto_height1": false,
+        "auto_width": false,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "margin_top": 0,
+        "margin_bottom": 40
+      }
+    },
+    "custom_multicolumn_nD6n7U": {
+      "type": "custom-multicolumn",
+      "blocks": {
+        "column_EV9PEy": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Thumbnail_-_Flat_and_step_trays_1.png",
+            "title": "Shelving, baskets & pharmacy drawers",
+            "block_custom_font_weight": "400",
+            "text": "",
+            "text-v": "",
+            "button-text": "Shop for shelving, baskets etc",
+            "button-url": "shopify://pages/pharmacy-drawers"
+          }
+        },
+        "column_P6qNUY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Sydney-2.jpg",
+            "title": "Benching and workstations",
+            "block_custom_font_weight": "400",
+            "text": "",
+            "text-v": "",
+            "button-text": "Shop for benching etc",
+            "button-url": "shopify://pages/sterirack-mobile-workstations"
+          }
+        },
+        "column_VgXPnf": {
+          "type": "column",
+          "settings": {
+            "title": "Trolleys, carts and mobile units",
+            "block_custom_font_weight": "400",
+            "text": "",
+            "text-v": "",
+            "button-text": "Shop for trolleys etc",
+            "button-url": "shopify://pages/medibin-trolleys"
+          }
+        },
+        "column_x7PJY7": {
+          "type": "column",
+          "settings": {
+            "title": "Accessories and colour coding",
+            "block_custom_font_weight": "400",
+            "text": "",
+            "text-v": "",
+            "button-text": "Shop for accessories etc",
+            "button-url": "shopify://pages/sterirack-colour-coding"
+          }
+        }
+      },
+      "block_order": [
+        "column_EV9PEy",
+        "column_P6qNUY",
+        "column_VgXPnf",
+        "column_x7PJY7"
+      ],
+      "name": "Custom multicolumn TIFF",
       "settings": {
         "page_container": "page-width",
         "title": "<p>Find the perfect storage solution</p>",
@@ -1769,10 +1930,12 @@
     "custom_slideshow_slider_8brNtf",
     "custom_slideshow_slider_zVR4zh",
     "custom_image_text_slider_mztD6t",
+    "custom_image_text_slider_HwfQc3",
     "custom_image_text_slider_k9tKHM",
     "custom_newsletter_NdaReb",
     "custom_image_banner_87wCPQ",
     "custom_multicolumn_inkqq6",
+    "custom_multicolumn_nD6n7U",
     "multicolumn_box_with_image_jL37Wi",
     "multicolumn_services_box_FEbT7G",
     "multicolumn_pages_box_VCT8HN",

@@ -694,34 +694,31 @@
         "column_RXN9RV": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Banner_image110.jpg",
-            "title": "Clinical Storage Systems.",
+            "title": "Clinical storage systems.",
             "block_custom_font_weight": "600",
             "text": "<p>Modular storage for healthcare efficiency.</p>",
             "text-v": "",
             "button-text": "Link to go here",
-            "button-url": "shopify://pages/cssd-theater-store"
+            "button-url": ""
           }
         },
         "column_LrmbYY": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Sydney-1.jpg",
-            "title": "Clean utilities",
+            "title": "Carts and mobile solutions.",
             "block_custom_font_weight": "600",
-            "text": "<p>and medication rooms</p>",
+            "text": "<p>Mobile workflow at its best.</p>",
             "text-v": "",
-            "button-text": "Explore room",
-            "button-url": "shopify://pages/clean-utility-medications-room"
+            "button-text": "Link to go here",
+            "button-url": ""
           }
         },
         "column_XVrRJX": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Sydney_Products_June_25_HR-185.jpg",
-            "title": "Pharmacy",
+            "title": "Worksurfaces and benching.",
             "block_custom_font_weight": "600",
-            "text": "<p>and dispensary</p>",
+            "text": "<p>Flexible and infection-control compliance.</p>",
             "text-v": "",
             "button-text": "Explore room",
             "button-url": "shopify://pages/pharmacy-storage-dispensary"

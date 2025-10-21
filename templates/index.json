@@ -219,7 +219,7 @@
         "slide_JGkGnA",
         "slide_i6gDTG"
       ],
-      "name": "Custom slideshow 2",
+      "name": "Custom slideshow TIFF",
       "settings": {
         "layout": "full_bleed",
         "content_on_page_width": "small-page-width",
@@ -232,6 +232,7 @@
     },
     "key_message_Ccdzez": {
       "type": "key-message",
+      "name": "Key Message 1 TIFF",
       "settings": {
         "title": "Innovating medical storage for hospitals and healthcare environments worldwide",
         "description": "<p>SpaceLogic® is the trusted partner in clean clinical spaces, delivering complete, turnkey solutions across storage, handling, and worksurfaces.</p>",
@@ -244,6 +245,7 @@
     },
     "key_message_AKmGXH": {
       "type": "key-message",
+      "name": "Key Message 2 TIFF",
       "settings": {
         "title": "Shop accessories online",
         "description": "<p>Find baskets, label holders, dividers, and components engineered for every SpaceLogic system.</p>",
@@ -359,7 +361,7 @@
         "column_i4Rp4i",
         "column_CbLj8f"
       ],
-      "name": "Custom multicolumn text 2",
+      "name": "Custom multicolumn text TIFF",
       "settings": {
         "title": "<p>Precision engineered for clinical performance.</p>",
         "descr": "Every SpaceLogic system is built on the same foundation. Together, these principles shape how we design, manufacture, and deliver storage systems that perform flawlessly in demanding healthcare environments.",
@@ -730,7 +732,7 @@
         "column_LrmbYY",
         "column_XVrRJX"
       ],
-      "name": "Custom multicolumn 2",
+      "name": "Custom multicolumn TIFF",
       "settings": {
         "page_container": "page-width",
         "title": "<p>Complete solutions for every clinical space.</p>",
@@ -1051,6 +1053,123 @@
         "slide_pmtHCz",
         "slide_Eez4pR"
       ],
+      "disabled": true,
+      "settings": {
+        "slide_height": "large",
+        "image_behavior": "none",
+        "accessibility_info": "Slideshow about our brand",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "custom_slideshow_slider_zVR4zh": {
+      "type": "custom-slideshow-slider",
+      "blocks": {
+        "slide_ebmQpn": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Home_7.png",
+            "tag_text": "New innovation!",
+            "custom_tag_font_weight": "600",
+            "tag_text_color": "#ffffff",
+            "logo_image": "shopify://shop_images/STERIRACK-logo-grey-and-yellow-2025_1.svg",
+            "heading": "<p>Silicon mats</p>",
+            "custom_heading_size": 45,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "600",
+            "subheading": "Anti-slip, chemical-resistant mats that stabilise instruments and trays, reducing spills and improving safety across sterile storage and transport.",
+            "button_label": "Shop silicon mats",
+            "link": "shopify://products/sterirack-silicon-mats",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "color_scheme": "scheme-7bba877c-319e-4978-b41a-39cbc803dea8",
+            "btn_bg": "#ffce00",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_ptPDbe": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Home_9.png",
+            "tag_text": "Popular!",
+            "custom_tag_font_weight": "600",
+            "tag_text_color": "#ffffff",
+            "logo_image": "shopify://shop_images/STERIRACK-logo-grey-and-yellow-2025_1.svg",
+            "heading": "<p>Suture racks</p>",
+            "custom_heading_size": 45,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "600",
+            "subheading": "Designed for easy access and safe organisation, our suture racks keep trays secure, visible, and ready for use in fast-paced clinical environments.",
+            "button_label": "Shop suture racks and trays",
+            "link": "shopify://products/sterirack-suture-shelves",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "color_scheme": "scheme-7bba877c-319e-4978-b41a-39cbc803dea8",
+            "btn_bg": "#ffce00",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_JUcCqx": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Home_6.png",
+            "tag_text": "Best seller!",
+            "custom_tag_font_weight": "600",
+            "tag_text_color": "#ffffff",
+            "logo_image": "shopify://shop_images/Steriloop_logo.svg",
+            "heading": "<p>Basket dividers</p>",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "600",
+            "subheading": "Text to go here",
+            "button_label": "Shop basket dividers",
+            "link": "shopify://products/sterirack-basket-divider",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "color_scheme": "scheme-7bba877c-319e-4978-b41a-39cbc803dea8",
+            "btn_bg": "#ffce00",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_ReUFtK": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Home_6.png",
+            "tag_text": "Best seller!",
+            "custom_tag_font_weight": "600",
+            "tag_text_color": "#ffffff",
+            "logo_image": "shopify://shop_images/Steriloop_logo.svg",
+            "heading": "<p>Basket dividers</p>",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "600",
+            "subheading": "Create order and reduce clutter with durable basket dividers that optimise space, improve visibility, and support infection control.",
+            "button_label": "Shop basket dividers",
+            "link": "shopify://products/sterirack-basket-divider",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "color_scheme": "scheme-7bba877c-319e-4978-b41a-39cbc803dea8",
+            "btn_bg": "#ffce00",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_ebmQpn",
+        "slide_ptPDbe",
+        "slide_JUcCqx",
+        "slide_ReUFtK"
+      ],
+      "name": "Custom slideshow slider TIFF",
       "settings": {
         "slide_height": "large",
         "image_behavior": "none",
@@ -1831,6 +1950,7 @@
     "custom_multicolumn_8pVJfV",
     "custom_image_banner_wTxxEB",
     "custom_slideshow_slider_8brNtf",
+    "custom_slideshow_slider_zVR4zh",
     "custom_image_text_slider_mztD6t",
     "custom_image_text_slider_k9tKHM",
     "custom_newsletter_NdaReb",

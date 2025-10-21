@@ -1454,20 +1454,6 @@
             "button_style_secondary": false
           }
         },
-        "slide_7fkHT3": {
-          "type": "slide",
-          "settings": {
-            "offer_title": "<p>Super Saver Offer</p>",
-            "heading": "<p>Image with text</p>",
-            "block_custom_heading_size": 52,
-            "mobile_block_custom_heading_size": 28,
-            "block_custom_font_weight": "400",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        },
         "slide_EmBXDp": {
           "type": "slide",
           "settings": {
@@ -1515,7 +1501,6 @@
       },
       "block_order": [
         "slide_UBnzye",
-        "slide_7fkHT3",
         "slide_EmBXDp",
         "slide_cbQUAP",
         "slide_HUHERt"

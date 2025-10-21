@@ -1089,6 +1089,29 @@
             "text_alignment_mobile": "center"
           }
         },
+        "slide_Jyc4QV": {
+          "type": "slide",
+          "settings": {
+            "tag_text": "New product!",
+            "custom_tag_font_weight": "600",
+            "tag_text_color": "#ffffff",
+            "logo_image": "shopify://shop_images/Steriloop_logo.svg",
+            "heading": "<p>STERIRACK® Click 'n' Clip Label Holders Mk II</p>",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "600",
+            "subheading": "Text to go here",
+            "button_label": "Shop basket dividers",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "color_scheme": "scheme-7bba877c-319e-4978-b41a-39cbc803dea8",
+            "btn_bg": "#ffce00",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_gyz74Y": {
           "type": "slide",
           "settings": {
@@ -1234,6 +1257,7 @@
       },
       "block_order": [
         "slide_JUcCqx",
+        "slide_Jyc4QV",
         "slide_gyz74Y",
         "slide_L9qbfj",
         "slide_z9yzXF",

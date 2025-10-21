@@ -233,11 +233,11 @@
     "key_message_Ccdzez": {
       "type": "key-message",
       "settings": {
-        "title": "Innovating medical storage for hospitals and healthcare environments worldwide.",
+        "title": "Innovating medical storage for hospitals and healthcare environments worldwide",
         "description": "<p>SpaceLogic® is the trusted partner in clean clinical spaces, delivering complete, turnkey solutions across storage, handling, and worksurfaces.</p>",
-        "heading_size": "h0",
+        "heading_size": "h1",
         "content_alignment": "center",
-        "color_scheme": "scheme-28b9a3ce-e916-452a-9440-95fefcedbf92",
+        "color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
         "padding_top": 40,
         "padding_bottom": 40
       }

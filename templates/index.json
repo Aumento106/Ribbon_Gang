@@ -323,9 +323,9 @@
         "column_9A8gAR": {
           "type": "column",
           "settings": {
-            "title": "Service",
+            "title": "Efficiency",
             "block_custom_font_weight": "600",
-            "text": "<p>End-to-end project consultation with 2D/3D design.</p><p>Custom storage solutions, precision planning, seamless delivery.</p>",
+            "text": "<p>Designed around people, not products. Our systems simplify access, reduce wasted movement, and help clinicians reclaim valuable time in every procedure.</p>",
             "text-v": "",
             "button-text": "Explore services",
             "button-url": "shopify://pages/services"
@@ -362,7 +362,7 @@
       "name": "Custom multicolumn text 2",
       "settings": {
         "title": "<p>Precision engineered for clinical performance.</p>",
-        "descr": "Every SpaceLogic system is built on the same foundation — efficiency, safety, and certainty. Together, these principles shape how we design, manufacture, and deliver storage systems that perform flawlessly in demanding healthcare environments.",
+        "descr": "Every SpaceLogic system is built on the same foundation. Together, these principles shape how we design, manufacture, and deliver storage systems that perform flawlessly in demanding healthcare environments.",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
         "custom_font_weight": "600",

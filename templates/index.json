@@ -1256,7 +1256,6 @@
         "slide_gMCqNw": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Sydney_Products_June_25_HR-210.jpg",
             "offer_title": "",
             "heading": "<p>SteriLoop® advantage</p>",
             "block_custom_heading_size": 45,
@@ -1502,120 +1501,6 @@
             "top_position": 55,
             "left_position": 55
           }
-        },
-        "hotspot_button_qQHHyg": {
-          "type": "hotspot_button",
-          "settings": {
-            "hotspot_icon": "shopify://shop_images/icon-hotspot.svg",
-            "hotspot_product_list": [
-              "standard-mesh-baskets-copy",
-              "sterirack-transport-case-carts",
-              "standard-mesh-baskets-5",
-              "standard-mesh-baskets-4",
-              "standard-mesh-baskets-3",
-              "standard-mesh-baskets"
-            ],
-            "product_list_sec_title": "STERIRACK® Storage Modules",
-            "product_list_subtitle": "(lorem ipsum)",
-            "hotspot_color_scheme": "",
-            "top_position": 40,
-            "left_position": 24
-          }
-        },
-        "hotspot_button_adYcUK": {
-          "type": "hotspot_button",
-          "settings": {
-            "hotspot_icon": "shopify://shop_images/icon-hotspot.svg",
-            "hotspot_product_list": [
-              "standard-mesh-baskets-copy",
-              "sterirack-transport-case-carts",
-              "standard-mesh-baskets-5",
-              "standard-mesh-baskets-4",
-              "standard-mesh-baskets-3",
-              "standard-mesh-baskets"
-            ],
-            "product_list_sec_title": "STERIRACK® Standard Baskets - 100mmH",
-            "product_list_subtitle": "(lorem ipsum)",
-            "hotspot_color_scheme": "",
-            "top_position": 49,
-            "left_position": 28
-          }
-        },
-        "hotspot_button_AYLNJG": {
-          "type": "hotspot_button",
-          "settings": {
-            "hotspot_icon": "shopify://shop_images/icon-hotspot.svg",
-            "hotspot_product_list": [
-              "standard-mesh-baskets-copy",
-              "sterirack-transport-case-carts",
-              "standard-mesh-baskets-5",
-              "standard-mesh-baskets-4",
-              "standard-mesh-baskets-3",
-              "standard-mesh-baskets"
-            ],
-            "product_list_sec_title": "STERIRACK® Pharmacy Drawers",
-            "product_list_subtitle": "(lorem ipsum)",
-            "hotspot_color_scheme": "",
-            "top_position": 54,
-            "left_position": 35
-          }
-        },
-        "hotspot_button_ngmTH8": {
-          "type": "hotspot_button",
-          "settings": {
-            "hotspot_icon": "shopify://shop_images/icon-hotspot.svg",
-            "hotspot_product_list": [
-              "standard-mesh-baskets-copy",
-              "sterirack-transport-case-carts",
-              "standard-mesh-baskets-5",
-              "standard-mesh-baskets-4",
-              "standard-mesh-baskets-3",
-              "standard-mesh-baskets"
-            ],
-            "product_list_sec_title": "STERIRACK® Standard Baskets - 300mmH",
-            "product_list_subtitle": "(lorem ipsum)",
-            "hotspot_color_scheme": "",
-            "top_position": 60,
-            "left_position": 24
-          }
-        },
-        "hotspot_button_AwgpTL": {
-          "type": "hotspot_button",
-          "settings": {
-            "hotspot_icon": "shopify://shop_images/icon-hotspot.svg",
-            "hotspot_product_list": [
-              "standard-mesh-baskets-copy",
-              "sterirack-transport-case-carts",
-              "standard-mesh-baskets-5",
-              "standard-mesh-baskets-4",
-              "standard-mesh-baskets-3",
-              "standard-mesh-baskets"
-            ],
-            "product_list_sec_title": "STERIRACK® Colour Coded Labelling",
-            "product_list_subtitle": "(lorem ipsum)",
-            "hotspot_color_scheme": "",
-            "top_position": 64,
-            "left_position": 56
-          }
-        },
-        "hotspot_button_fnCCtN": {
-          "type": "hotspot_button",
-          "settings": {
-            "hotspot_icon": "shopify://shop_images/icon-hotspot.svg",
-            "hotspot_product_list": [
-              "standard-mesh-baskets-copy",
-              "sterirack-transport-case-carts",
-              "standard-mesh-baskets-5",
-              "standard-mesh-baskets-4",
-              "standard-mesh-baskets-3",
-              "standard-mesh-baskets"
-            ],
-            "product_list_sec_title": "STERIRACK® Colour Coded Post Strips",
-            "product_list_subtitle": "(lorem ipsum)",
-            "hotspot_color_scheme": "",
-            "top_position": 70,
-            "left_position": 60
-          }
         }
       },
       "block_order": [
@@ -1623,13 +1508,7 @@
         "text_YqAtbN",
         "buttons_twP8KY",
         "hotspot_button_UtRXXL",
-        "hotspot_button_NyKmhG",
-        "hotspot_button_qQHHyg",
-        "hotspot_button_adYcUK",
-        "hotspot_button_AYLNJG",
-        "hotspot_button_ngmTH8",
-        "hotspot_button_AwgpTL",
-        "hotspot_button_fnCCtN"
+        "hotspot_button_NyKmhG"
       ],
       "disabled": true,
       "name": "Pharmacy storage and dispensary",
@@ -1736,57 +1615,6 @@
         "padding_bottom": 30,
         "margin_top": 40,
         "margin_bottom": 40
-      }
-    },
-    "proudly_support_NnMGAw": {
-      "type": "proudly-support",
-      "blocks": {
-        "support_item_3Hcczh": {
-          "type": "support_item",
-          "settings": {
-            "image": "shopify://shop_images/support-logo-1.png"
-          }
-        },
-        "support_item_fjND3Q": {
-          "type": "support_item",
-          "settings": {
-            "image": "shopify://shop_images/support-logo-2.png"
-          }
-        },
-        "support_item_tApGYX": {
-          "type": "support_item",
-          "settings": {
-            "image": "shopify://shop_images/support-logo-5.png"
-          }
-        },
-        "support_item_pzJMPa": {
-          "type": "support_item",
-          "settings": {
-            "image": "shopify://shop_images/support-logo-4.png"
-          }
-        },
-        "support_item_DnVgCF": {
-          "type": "support_item",
-          "settings": {
-            "image": "shopify://shop_images/support-logo-3.png"
-          }
-        }
-      },
-      "block_order": [
-        "support_item_3Hcczh",
-        "support_item_fjND3Q",
-        "support_item_tApGYX",
-        "support_item_pzJMPa",
-        "support_item_DnVgCF"
-      ],
-      "disabled": true,
-      "settings": {
-        "heading": "<p>We proudly support</p>",
-        "title_alignment": "center",
-        "color_scheme": "",
-        "title_color": "#424242",
-        "padding_top": 40,
-        "padding_bottom": 64
       }
     },
     "image_text_slider_HkQX47": {
@@ -2029,7 +1857,6 @@
     "custom_image_banner_87wCPQ",
     "custom_multicolumn_inkqq6",
     "product_catalog_VjYNFG",
-    "proudly_support_NnMGAw",
     "image_text_slider_HkQX47",
     "multicolumn_box_with_image_jL37Wi",
     "multicolumn_services_box_FEbT7G",

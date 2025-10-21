@@ -327,16 +327,16 @@
             "block_custom_font_weight": "600",
             "text": "<p>Designed around people, not products. Our systems simplify access, reduce wasted movement, and help clinicians reclaim valuable time in every procedure.</p>",
             "text-v": "",
-            "button-text": "Explore services",
+            "button-text": "Link to go here",
             "button-url": "shopify://pages/services"
           }
         },
         "column_i4Rp4i": {
           "type": "column",
           "settings": {
-            "title": "Focus",
+            "title": "Safety",
             "block_custom_font_weight": "600",
-            "text": "<p>Clinical storage solutions for every department.</p><p>Infection control, workflow efficiency, sterile/non-sterile options.</p>",
+            "text": "<p>Infection-control compliance is built in. From open-wire construction to smooth, cleanable surfaces, every detail supports safer workflows for staff and patients.</p>",
             "text-v": "",
             "button-text": "See storage solutions",
             "button-url": "shopify://pages/clinical-storage-systems"

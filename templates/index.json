@@ -188,13 +188,36 @@
             "btn_bg": "#ffce00",
             "btn_text_color": "#ffffff"
           }
+        },
+        "slide_i6gDTG": {
+          "type": "slide",
+          "settings": {
+            "enable_side_image": false,
+            "heading": "Trusted by hospitals worldwide.",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "600",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "botton_position": 120,
+            "show_text_box": true,
+            "enable_text_align_center": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "slide_text_color": "#000000",
+            "btn_bg": "#ffce00",
+            "btn_text_color": "#ffffff"
+          }
         }
       },
       "block_order": [
         "slide_UMWB7Y",
         "slide_NpB3RP",
         "slide_UhJB8i",
-        "slide_JGkGnA"
+        "slide_JGkGnA",
+        "slide_i6gDTG"
       ],
       "name": "Custom slideshow 2",
       "settings": {

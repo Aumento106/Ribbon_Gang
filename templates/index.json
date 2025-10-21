@@ -1365,13 +1365,26 @@
         "slide_YLkWAt": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Sydney_Products_June_25_HR-66.jpg",
             "offer_title": "",
             "heading": "<p>STERIRACK® Medical Trolleys</p>",
             "block_custom_heading_size": 45,
             "mobile_block_custom_heading_size": 28,
             "block_custom_font_weight": "600",
             "text": "<p>Mobile, open-frame units for quick, hygienic access to consumables anywhere in the hospital.</p>",
+            "button_label": "Link to go here",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "slide_7VxPc3": {
+          "type": "slide",
+          "settings": {
+            "offer_title": "",
+            "heading": "<p>SteriLoop® Medibin System</p>",
+            "block_custom_heading_size": 45,
+            "mobile_block_custom_heading_size": 28,
+            "block_custom_font_weight": "600",
+            "text": "<p>Chrome wire bins and backing panels for safe, visible clinical-waste segregation and infection-control compliance.</p>",
             "button_label": "Link to go here",
             "button_link": "",
             "button_style_secondary": false
@@ -1397,6 +1410,7 @@
         "slide_R6QL9p",
         "slide_zCNaeN",
         "slide_YLkWAt",
+        "slide_7VxPc3",
         "slide_ewWmni"
       ],
       "name": "Custom Image Text Slider TIFF",

@@ -1347,20 +1347,6 @@
             "button_style_secondary": false
           }
         },
-        "slide_zCNaeN": {
-          "type": "slide",
-          "settings": {
-            "offer_title": "",
-            "heading": "<p>NEW! Clip 'N' Click Label Holders - Mk II</p>",
-            "block_custom_heading_size": 45,
-            "mobile_block_custom_heading_size": 28,
-            "block_custom_font_weight": "600",
-            "text": "<p>The upgraded Mk II Click ’N’ Clip Label Holders save time and reduce frustration in fast-paced clinical environments. </p><p>With a clear protective cover that snaps securely into place, labels stay clean, legible, and contamination-free. No peeling, no fiddling, no wasted time.</p><p>Smarter labelling, safer care, designed to work seamlessly with STERIRACK® System.</p>",
-            "button_label": "Shop label holders",
-            "button_link": "shopify://products/sterirack®-click-n-clip-label-holders-mk-ii",
-            "button_style_secondary": false
-          }
-        },
         "slide_YLkWAt": {
           "type": "slide",
           "settings": {
@@ -1372,6 +1358,20 @@
             "text": "<p>Mobile, open-frame units for quick, hygienic access to consumables anywhere in the hospital.</p>",
             "button_label": "Link to go here",
             "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "slide_zCNaeN": {
+          "type": "slide",
+          "settings": {
+            "offer_title": "",
+            "heading": "<p>NEW! Clip 'N' Click Label Holders - Mk II</p>",
+            "block_custom_heading_size": 45,
+            "mobile_block_custom_heading_size": 28,
+            "block_custom_font_weight": "600",
+            "text": "<p>The upgraded Mk II Click ’N’ Clip Label Holders save time and reduce frustration in fast-paced clinical environments. </p><p>With a clear protective cover that snaps securely into place, labels stay clean, legible, and contamination-free. No peeling, no fiddling, no wasted time.</p><p>Smarter labelling, safer care, designed to work seamlessly with STERIRACK® System.</p>",
+            "button_label": "Shop label holders",
+            "button_link": "shopify://products/sterirack®-click-n-clip-label-holders-mk-ii",
             "button_style_secondary": false
           }
         },
@@ -1412,7 +1412,7 @@
             "block_custom_heading_size": 45,
             "mobile_block_custom_heading_size": 28,
             "block_custom_font_weight": "600",
-            "text": "<p>Colour-coded labelling helps busy clinical teams find supplies faster, reduce errors, and support infection control. From label holders to post strips, our labelling accessories integrate seamlessly with STERIRACK® System.</p><p>Smarter organisation through colour.</p>",
+            "text": "<p>Colour-coded labelling helps busy clinical teams find supplies faster, reduce errors, and support infection control. From label holders to post strips, our labelling accessories integrate seamlessly with STERIRACK® System.</p><p>Fourteen colour options for post strips and labels that bring clarity, speed, and order to every storage zone.</p><p>Smarter organisation through colour.</p>",
             "button_label": "Shop labelling accessories",
             "button_link": "shopify://collections/sterirack®-labelling-and-signage",
             "button_style_secondary": false
@@ -1421,8 +1421,8 @@
       },
       "block_order": [
         "slide_R6QL9p",
-        "slide_zCNaeN",
         "slide_YLkWAt",
+        "slide_zCNaeN",
         "slide_7VxPc3",
         "slide_qNzTjE",
         "slide_ewWmni"

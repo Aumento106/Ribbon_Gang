@@ -97,6 +97,92 @@
         "padding_bottom": 40
       }
     },
+    "custom_slide_show_Vgpx8w": {
+      "type": "custom-slide-show",
+      "blocks": {
+        "slide_UMWB7Y": {
+          "type": "slide",
+          "settings": {
+            "enable_side_image": true,
+            "heading": "Making space for care®",
+            "custom_heading_size": 45,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "600",
+            "subheading": "It’s the reason we exist. Every system we design gives structure to care, restoring order, efficiency, and calm",
+            "button_label": "Discover SpaceLogic",
+            "link": "shopify://pages/about-spacelogic",
+            "button_style_secondary": true,
+            "botton_position": 80,
+            "show_text_box": true,
+            "enable_text_align_center": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "slide_text_color": "#424242",
+            "btn_bg": "#ffce00",
+            "btn_text_color": "#ffffff"
+          }
+        },
+        "slide_NpB3RP": {
+          "type": "slide",
+          "settings": {
+            "enable_side_image": false,
+            "heading": "Shop accessories for smarter care",
+            "custom_heading_size": 45,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "600",
+            "subheading": "Baskets, bins, and dividers built for clean, organised spaces.",
+            "button_label": "Shop Now",
+            "link": "shopify://pages/pharmacy-drawers",
+            "button_style_secondary": true,
+            "botton_position": 120,
+            "show_text_box": true,
+            "enable_text_align_center": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "slide_text_color": "#000000",
+            "btn_bg": "#ffce00",
+            "btn_text_color": "#ffffff"
+          }
+        },
+        "slide_UhJB8i": {
+          "type": "slide",
+          "settings": {
+            "enable_side_image": false,
+            "heading": "Storage systems that transform clinical spaces",
+            "custom_heading_size": 45,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "600",
+            "subheading": "Proven results in efficiency, organisation, and infection control.",
+            "button_label": "View case studies",
+            "link": "shopify://pages/hospital-projects",
+            "button_style_secondary": true,
+            "botton_position": 120,
+            "show_text_box": true,
+            "enable_text_align_center": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "slide_text_color": "#000000",
+            "btn_bg": "#ffce00",
+            "btn_text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "slide_UMWB7Y",
+        "slide_NpB3RP",
+        "slide_UhJB8i"
+      ],
+      "name": "Custom slideshow 2",
+      "settings": {
+        "layout": "full_bleed",
+        "content_on_page_width": "small-page-width",
+        "slide_height": "medium",
+        "image_behavior": "none",
+        "accessibility_info": "Slideshow about our brand",
+        "padding_top": 0,
+        "padding_bottom": 40
+      }
+    },
     "key_message_Ccdzez": {
       "type": "key-message",
       "settings": {
@@ -1544,6 +1630,7 @@
   },
   "order": [
     "custom_slide_show_aTXHa3",
+    "custom_slide_show_Vgpx8w",
     "key_message_Ccdzez",
     "custom_multicolumn_text_JtzPeP",
     "custom_image_banner_xDTGLj",

@@ -87,6 +87,7 @@
         "slide_QcKVdY",
         "slide_gCWg7E"
       ],
+      "disabled": true,
       "settings": {
         "layout": "full_bleed",
         "content_on_page_width": "small-page-width",
@@ -148,12 +149,12 @@
           "type": "slide",
           "settings": {
             "enable_side_image": false,
-            "heading": "Storage systems that transform clinical spaces",
+            "heading": "<em>Clean design saves lives</em>",
             "custom_heading_size": 45,
             "mobile_custom_heading_size": 28,
             "custom_font_weight": "600",
-            "subheading": "Proven results in efficiency, organisation, and infection control.",
-            "button_label": "View case studies",
+            "subheading": "From open-wire shelving to seamless work surfaces, our systems protect staff and patients by reducing contamination risks.",
+            "button_label": "Link to go here",
             "link": "shopify://pages/hospital-projects",
             "button_style_secondary": true,
             "botton_position": 120,

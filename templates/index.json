@@ -1786,6 +1786,7 @@
         "column_VgXPnf",
         "column_x7PJY7"
       ],
+      "disabled": true,
       "name": "Custom multicolumn TIFF",
       "settings": {
         "page_container": "page-width",
@@ -1876,7 +1877,7 @@
         "column_nq4xKL"
       ],
       "settings": {
-        "sec_title": "<p>Three interconnected divisions, delivering a complete end-to-end service</p>",
+        "sec_title": "<p>Three interconnected divisions. One purpose — to make space for care®.</p>",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
         "custom_font_weight": "400",

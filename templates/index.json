@@ -1362,6 +1362,21 @@
             "button_style_secondary": false
           }
         },
+        "slide_YLkWAt": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Sydney_Products_June_25_HR-66.jpg",
+            "offer_title": "",
+            "heading": "<p>STERIRACK® Medical Trolleys</p>",
+            "block_custom_heading_size": 45,
+            "mobile_block_custom_heading_size": 28,
+            "block_custom_font_weight": "600",
+            "text": "<p>Mobile, open-frame units for quick, hygienic access to consumables anywhere in the hospital.</p>",
+            "button_label": "Link to go here",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
         "slide_ewWmni": {
           "type": "slide",
           "settings": {
@@ -1376,28 +1391,13 @@
             "button_link": "shopify://collections/sterirack®-labelling-and-signage",
             "button_style_secondary": false
           }
-        },
-        "slide_YLkWAt": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Sydney_Products_June_25_HR-66.jpg",
-            "offer_title": "",
-            "heading": "<p>STERIRACK® Medical Trolleys</p>",
-            "block_custom_heading_size": 45,
-            "mobile_block_custom_heading_size": 28,
-            "block_custom_font_weight": "600",
-            "text": "<p>Colour-coded labelling helps busy clinical teams find supplies faster, reduce errors, and support infection control. From label holders to post strips, our labelling accessories integrate seamlessly with STERIRACK® System.</p><p>Smarter organisation through colour.</p>",
-            "button_label": "Shop labelling accessories",
-            "button_link": "shopify://collections/sterirack®-labelling-and-signage",
-            "button_style_secondary": false
-          }
         }
       },
       "block_order": [
         "slide_R6QL9p",
         "slide_zCNaeN",
-        "slide_ewWmni",
-        "slide_YLkWAt"
+        "slide_YLkWAt",
+        "slide_ewWmni"
       ],
       "name": "Custom Image Text Slider TIFF",
       "settings": {

@@ -695,11 +695,11 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Banner_image110.jpg",
-            "title": "CSSD",
+            "title": "Clinical Storage Systems.",
             "block_custom_font_weight": "600",
-            "text": "<p>and theatre stores</p>",
+            "text": "<p>Modular storage for healthcare efficiency.</p>",
             "text-v": "",
-            "button-text": "Explore room",
+            "button-text": "Link to go here",
             "button-url": "shopify://pages/cssd-theater-store"
           }
         },

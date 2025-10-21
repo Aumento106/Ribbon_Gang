@@ -127,7 +127,7 @@
           "type": "slide",
           "settings": {
             "enable_side_image": false,
-            "heading": "Every second counts in healthcare",
+            "heading": "Every second counts in healthcare.",
             "custom_heading_size": 55,
             "mobile_custom_heading_size": 28,
             "custom_font_weight": "600",
@@ -149,7 +149,7 @@
           "type": "slide",
           "settings": {
             "enable_side_image": false,
-            "heading": "Clean design saves lives",
+            "heading": "Clean design saves lives.",
             "custom_heading_size": 55,
             "mobile_custom_heading_size": 28,
             "custom_font_weight": "600",
@@ -160,7 +160,7 @@
             "botton_position": 120,
             "show_text_box": true,
             "enable_text_align_center": true,
-            "text_alignment": "left",
+            "text_alignment": "center",
             "image_overlay_opacity": 0,
             "slide_text_color": "#000000",
             "btn_bg": "#ffce00",

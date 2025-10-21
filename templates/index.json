@@ -1390,6 +1390,20 @@
             "button_style_secondary": false
           }
         },
+        "slide_qNzTjE": {
+          "type": "slide",
+          "settings": {
+            "offer_title": "",
+            "heading": "<p>STERIRACK® Benching & Workstations</p>",
+            "block_custom_heading_size": 45,
+            "mobile_block_custom_heading_size": 28,
+            "block_custom_font_weight": "600",
+            "text": "<p>Durable, ergonomic surfaces built for organised, contamination-free clinical workflows.</p>",
+            "button_label": "Link to go here",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
         "slide_ewWmni": {
           "type": "slide",
           "settings": {
@@ -1411,6 +1425,7 @@
         "slide_zCNaeN",
         "slide_YLkWAt",
         "slide_7VxPc3",
+        "slide_qNzTjE",
         "slide_ewWmni"
       ],
       "name": "Custom Image Text Slider TIFF",

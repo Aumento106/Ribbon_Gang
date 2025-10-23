@@ -3963,6 +3963,6 @@ span.card_product_main_desc .trademark-symbol {
     border-radius: 20px;
     overflow: hidden;
 }
-.template-product-flat-shelf .nowrap .trademark-symbol sup {
+.product-template .nowrap .trademark-symbol sup {
   top: 7px !important;
 }

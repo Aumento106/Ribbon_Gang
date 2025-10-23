@@ -243,7 +243,7 @@ document.addEventListener('DOMContentLoaded', function () {
         loop: true,
         effect: 'fade', // 👈 Add fade effect
         fadeEffect: {
-          crossFade: true, // 👈 Smooth transition between slides
+          crossFade: false, // 👈 Smooth transition between slides
         },
         autoplay: {
           delay: 4000,

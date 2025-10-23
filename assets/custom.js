@@ -241,9 +241,13 @@ document.addEventListener('DOMContentLoaded', function () {
         centeredSlides: false,
         grabCursor: true,
         loop: true,
+        effect: 'fade', // 👈 Add fade effect
+        fadeEffect: {
+          crossFade: true, // 👈 Smooth transition between slides
+        },
         autoplay: {
           delay: 4000,
-          disableOnInteraction: false,  // Allows autoplay to continue after interaction
+          disableOnInteraction: false, // Allows autoplay to continue after interaction
         },
         pagination: {
           el: '.swiper-pagination',

@@ -3964,5 +3964,5 @@ span.card_product_main_desc .trademark-symbol {
     overflow: hidden;
 }
 .template-product-flat-shelf .nowrap .trademark-symbol sup {
-  top: 0;
+  top: 7px !important;
 }

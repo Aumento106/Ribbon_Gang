@@ -76,7 +76,7 @@
 
 {%- style -%}
   .header.page-width {
-    padding: {{ section.settings.padding_top | times: 0.5 | round: 0 }}px 1.5rem {{ section.settings.padding_bottom | times: 0.5 | round: 0 }}px 1.5rem !important;
+    padding: {{ section.settings.padding_top }}px 1.5rem {{ section.settings.padding_bottom }}px 1.5rem !important;
   }
 
   .section-header {
@@ -100,15 +100,14 @@
 
 <script src="{{ 'cart-notification.js' | asset_url }}" defer="defer"></script>
 
-{%- liquid
-  for block in section.blocks
+{%- liquid for block in section.blocks
     if block.type == '@app'
       assign has_app_block = true
     endif
   endfor
 -%}
 
-<{% if section.settings.sticky_header_type != 'none' %}sticky-header data-sticky-type="{{ section.settings.sticky_header_type }}"{% else %}div{% endif %} class="header-wrapper color-{{ section.settings.color_scheme }} gradient{% if section.settings.show_line_separator %} header-wrapper--border-bottom{% endif %}">
+<{% if section.settings.sticky_header_type != 'none' %}sticky-header data-sticky-type="{{ section.settings.sticky_header_type }}"{% else %} div {% endif %} class="header-wrapper color-{{ section.settings.color_scheme }} gradient {% if section.settings.show_line_separator %} header-wrapper--border-bottom {% endif %}">
   {%- liquid
     assign social_links = false
     assign localization_forms = false

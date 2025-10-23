@@ -1,0 +1,227 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "scheme-1"
+      }
+    },
+    "custom_page_banner_6BTr9P": {
+      "type": "custom-page-banner",
+      "blocks": {
+        "slide_jLqCV6": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Banner_image103.jpg",
+            "image_overlay_opacity": 0
+          }
+        },
+        "slide_hLhUDR": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Banner_image89_b67f7977-5ab0-4fb4-8d8d-9a0c6ad459b2.jpg",
+            "image_overlay_opacity": 0
+          }
+        },
+        "slide_48eiMb": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Banner_image90.jpg",
+            "image_overlay_opacity": 0
+          }
+        },
+        "slide_TVw3Jj": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Banner_image99.jpg",
+            "image_overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "slide_jLqCV6",
+        "slide_hLhUDR",
+        "slide_48eiMb",
+        "slide_TVw3Jj"
+      ],
+      "name": "TF Custom Page Slideshow",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "image_behavior": "none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "page_banner_LydTcK": {
+      "type": "page-banner",
+      "blocks": {
+        "heading_fikAbt": {
+          "type": "heading",
+          "settings": {
+            "heading": "Clean utility and medications room",
+            "custom_heading_size": 52,
+            "mobile_custom_heading_size": 28,
+            "custom_font_weight": "600",
+            "heading_alignment": "center"
+          }
+        },
+        "caption_MWkYwJ": {
+          "type": "caption",
+          "settings": {
+            "caption": "<p>Timber joinery is a thing of the past. Upgrade to modular, hygienic storage that lasts</p><h3></h3>",
+            "caption_alignment": "center"
+          }
+        },
+        "text_npJHMq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Traditional timber joinery is no longer suitable for clinical storage in healthcare environments—particularly for medications, consumables, and sterile stock. SpaceLogic’s STERIRACK® System is a cleanable, modular, and fully compliant alternative designed to meet modern infection control requirements, including AS5369.</p><p>Our systems are purpose-built for clean utility rooms, medication rooms, and sterile environments across hospitals, day surgeries, and aged care facilities. With fully customisable shelving, registered wire-loop baskets, pull-out trays and accessories, STERIRACK® System delivers maximum cleanability, flexibility, and long-term durability.</p><p>Explore some of our recent clean utility and medication room installations below. Each project showcases how the STERIRACK® System can be configured for maximum space efficiency, infection control, and staff usability. You'll find layout plans, before-and-after photos, photorealistic renders, and practical examples of clinical room transformations.</p><p></p>",
+            "text_alignment": "left"
+          }
+        },
+        "caption_c7T7rK": {
+          "type": "caption",
+          "settings": {
+            "caption": "<p>Ready to upgrade your clean utility room?<br/>Contact us today to book a free consultation or request a tailored layout for your facility.</p>",
+            "caption_alignment": "center"
+          }
+        },
+        "button_wKrHQE": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contact us today",
+            "button_link": "shopify://pages/contact",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "button_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "heading_fikAbt",
+        "caption_MWkYwJ",
+        "text_npJHMq",
+        "caption_c7T7rK",
+        "button_wKrHQE"
+      ],
+      "name": "TF Page Banner",
+      "settings": {
+        "title_alignment": "center",
+        "full_width": true,
+        "content_width": "full_width",
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "padding_top": 80,
+        "padding_bottom": 40
+      }
+    },
+    "multirow_zyrCGK": {
+      "type": "multirow",
+      "blocks": {
+        "row_4g4JVz": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Goulburn_Base_Hospital_flipbook_thumb_12965707-4b75-44c0-a530-3988335812e3.png",
+            "caption": "Goulburn Base Hospital",
+            "heading": "Optimising clinical efficiency in clean utility and medication spaces",
+            "text": "<p>Explore our STERIRACK® System installation at Goulburn Base Hospital, where precision-engineered storage meets clinical efficiency. This project showcases a fully integrated approach to healthcare storage across multiple departments, designed to optimise workflow, improve visibility, and enhance infection control. View the interactive flipbook to see how SpaceLogic is transforming hospital environments into organised, high-performance spaces.</p>",
+            "button_label": "View flipping book",
+            "button_link": "https://online.flippingbook.com/view/712221459/"
+          }
+        },
+        "row_3ADznr": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Wagga_Wagga_Hospital_flipbook_thumb_b1576f19-86b9-46be-9b0e-3d34b9565b4e.png",
+            "caption": "Wagga Wagga Hospital",
+            "heading": "Clean utility and medication rooms at Wagga Wagga Base Hospital",
+            "text": "<p>Discover how SpaceLogic’s STERIRACK® System has transformed the clean utility and medication rooms at Wagga Wagga Base Hospital. This project showcases the power of modular, fully integrated storage to enhance visibility, improve infection control, and streamline daily workflows. Explore the interactive flipbook to see how efficient design translates into real clinical impact.</p>",
+            "button_label": "View flipping book",
+            "button_link": "https://online.flippingbook.com/view/159525198/"
+          }
+        }
+      },
+      "block_order": [
+        "row_4g4JVz",
+        "row_3ADznr"
+      ],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "large",
+        "desktop_image_width": "large",
+        "heading_size": "h2",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
+        "row_color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
+        "mobile_content_alignment": "left",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "product_catalog_PNzWUg": {
+      "type": "product-catalog",
+      "name": "Product Catalog",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "margin_top": 40,
+        "margin_bottom": 40
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "disabled": true,
+      "settings": {
+        "hide_price": false,
+        "hide_sold_out": true,
+        "hide_save": true,
+        "products_per_page": 20,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "remove_product_link": false,
+        "enquire_now": "Enquire now",
+        "enquire_now_url": "shopify://pages/contact",
+        "shop_now": "Shop now",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "learnmore",
+        "learn_more_button_text": "Learn More",
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 80,
+        "padding_bottom": 100
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "custom_page_banner_6BTr9P",
+    "page_banner_LydTcK",
+    "multirow_zyrCGK",
+    "product-grid",
+    "product_catalog_PNzWUg"
+  ]
+}

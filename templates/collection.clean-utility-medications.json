@@ -176,19 +176,8 @@
         "padding_bottom": 80
       }
     },
-    "product_catalog_PNzWUg": {
-      "type": "product-catalog",
-      "name": "Product Catalog",
-      "settings": {
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "margin_top": 40,
-        "margin_bottom": 40
-      }
-    },
     "product-grid": {
       "type": "main-collection-product-grid",
-      "disabled": true,
       "settings": {
         "hide_price": false,
         "hide_sold_out": true,
@@ -213,6 +202,16 @@
         "columns_mobile": "2",
         "padding_top": 80,
         "padding_bottom": 100
+      }
+    },
+    "product_catalog_PNzWUg": {
+      "type": "product-catalog",
+      "name": "Product Catalog",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "margin_top": 40,
+        "margin_bottom": 40
       }
     }
   },

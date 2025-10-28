@@ -230,19 +230,6 @@
         "padding_bottom": 40
       }
     },
-    "key_message_Ccdzez": {
-      "type": "key-message",
-      "name": "Key Message 1 TIFF",
-      "settings": {
-        "title": "Innovating medical storage for hospitals and healthcare environments worldwide",
-        "description": "<p>SpaceLogic® is the trusted partner in clean clinical spaces, delivering complete, turnkey solutions across storage, handling, and worksurfaces.</p>",
-        "heading_size": "h1",
-        "content_alignment": "center",
-        "color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
-    },
     "key_message_AKmGXH": {
       "type": "key-message",
       "name": "Key Message 2 TIFF",
@@ -363,8 +350,8 @@
       ],
       "name": "Custom multicolumn text TIFF",
       "settings": {
-        "title": "<p>Precision engineered for clinical performance.</p>",
-        "descr": "Every SpaceLogic system is built on the same foundation. Together, these principles shape how we design, manufacture, and deliver storage systems that perform flawlessly in demanding healthcare environments.",
+        "title": "<h3><strong>Innovating medical storage for hospitals and healthcare</strong></h3>",
+        "descr": "Your turnkey solution across storage, handling, and worksurfaces. SpaceLogic® is the trusted partner in clean clinical spaces, delivering complete, end-to-end systems that optimise performance and precision in demanding healthcare environments.",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
         "custom_font_weight": "600",
@@ -380,6 +367,29 @@
         "box_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "padding_top": 60,
         "padding_bottom": 60
+      }
+    },
+    "newsletter_kYQP7r": {
+      "type": "newsletter",
+      "blocks": {
+        "email_form_pCJFft": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "email_form_pCJFft"
+      ],
+      "settings": {
+        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
+        "full_width": false,
+        "news_custom_heading_size": 45,
+        "news_mobile_custom_heading_size": 28,
+        "news_font_weight": "600",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "margin_top": 40,
+        "margin_bottom": 40
       }
     },
     "custom_image_banner_xDTGLj": {
@@ -731,29 +741,6 @@
         "padding_bottom": 40,
         "margin_top": 40,
         "margin_bottom": 0
-      }
-    },
-    "newsletter_kYQP7r": {
-      "type": "newsletter",
-      "blocks": {
-        "email_form_pCJFft": {
-          "type": "email_form",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "email_form_pCJFft"
-      ],
-      "settings": {
-        "color_scheme": "scheme-8105c9da-6d1f-4b60-a7d1-9f02f8e38de3",
-        "full_width": false,
-        "news_custom_heading_size": 45,
-        "news_mobile_custom_heading_size": 28,
-        "news_font_weight": "600",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "margin_top": 40,
-        "margin_bottom": 40
       }
     },
     "custom_image_banner_wTxxEB": {
@@ -1328,6 +1315,101 @@
         "padding_bottom": 40
       }
     },
+    "custom_image_text_slider_k9tKHM": {
+      "type": "custom-Image-text-slider",
+      "blocks": {
+        "slide_UBnzye": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Sydney_Products_June_25_HR-1.jpg",
+            "offer_title": "<p>Liverpool Hospital Redevelopment</p>",
+            "heading": "<p>Clinical storage solutions improving efficiency, organisation, and infection control with STERIRACK®</p>",
+            "block_custom_heading_size": 30,
+            "mobile_block_custom_heading_size": 28,
+            "block_custom_font_weight": "500",
+            "text": "<p>As part of the Liverpool Hospital redevelopment, SpaceLogic installed STERIRACK® clinical storage systems across clean utility, CSSD, and pharmacy. The modular, easy-clean design improved efficiency, supported infection control, and reduced wasted time searching for supplies.</p><p><em>\"The difference in organisation and workflow has been remarkable.\"</em><br/><br/>— NUM, Liverpool Hospital</p>",
+            "button_label": "View more case studies",
+            "button_link": "shopify://pages/hospital-projects",
+            "button_style_secondary": false
+          }
+        },
+        "slide_EmBXDp": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Sydney_Products_June_25_HR-155.jpg",
+            "offer_title": "<p>Royal Prince Alfred Hospital</p>",
+            "heading": "<p>STERIRACK® enclosed carts with decals create a friendlier care space at RPA Hospital.</p>",
+            "block_custom_heading_size": 30,
+            "mobile_block_custom_heading_size": 28,
+            "block_custom_font_weight": "500",
+            "text": "<p>To soften the look of treatment areas, SpaceLogic provided enclosed STERIRACK® carts with frosted panels and playful decals. These carts maintain full infection control and storage efficiency while creating a warmer, less clinical environment for young patients and their families.</p><p><em>\"The decals have made our treatment areas feel more welcoming for children, while still giving staff the storage performance they need.\"</em><br/><br/>— Clinical Nurse Lead, RPA Hospital</p>",
+            "button_label": "Explore more case studies",
+            "button_link": "shopify://pages/hospital-projects",
+            "button_style_secondary": false
+          }
+        },
+        "slide_cbQUAP": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Sydney_Products_June_25_HR-223.jpg",
+            "offer_title": "<p>Wyvern Private Hospital</p>",
+            "heading": "<p>Smarter, cleaner, and more efficient storage at Wyvern Private Hospital</p>",
+            "block_custom_heading_size": 30,
+            "mobile_block_custom_heading_size": 28,
+            "block_custom_font_weight": "500",
+            "text": "<p>SpaceLogic partnered with Wyvern Private Hospital to deliver a complete clinical storage fit-out for its new 85-bed facility on Sydney’s Northern Beaches. Through a collaborative design process, we installed customised stainless-steel STERIRACK® System to maximise space, streamline workflows, and support strict infection control standards, helping Wyvern achieve its vision of clinical excellence and outstanding patient care.</p>",
+            "button_label": "See how we deliver across clinical rooms",
+            "button_link": "shopify://collections/sterirack-system",
+            "button_style_secondary": false
+          }
+        },
+        "slide_HUHERt": {
+          "type": "slide",
+          "settings": {
+            "offer_title": "<p>US Project</p>",
+            "heading": "<p>US Project</p>",
+            "block_custom_heading_size": 30,
+            "mobile_block_custom_heading_size": 28,
+            "block_custom_font_weight": "500",
+            "text": "<p>US project to go here</p>",
+            "button_label": "Link to go here",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_UBnzye",
+        "slide_EmBXDp",
+        "slide_cbQUAP",
+        "slide_HUHERt"
+      ],
+      "settings": {
+        "enable_content_page_width": true,
+        "heading": "Project highlights",
+        "sec_des": "<p>Proven performance in hospitals and healthcare facilities worldwide.</p>",
+        "title_color": "#424242",
+        "subheading_color": "#424242",
+        "title_alignment": "center",
+        "custom_heading_size": 45,
+        "mobile_custom_heading_size": 28,
+        "custom_font_weight": "600",
+        "layout": "image_first",
+        "content_layout": "no-overlap",
+        "height": "extra-small",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "mobile_content_alignment": "left",
+        "show_button_on_image": true,
+        "show_half_slide": false,
+        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+        "section_color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
+        "offer_title_color": "#ffce00",
+        "show_pagination": true,
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
     "custom_image_text_slider_HwfQc3": {
       "type": "custom-Image-text-slider",
       "blocks": {
@@ -1434,101 +1516,6 @@
         "show_pagination": true,
         "padding_top": 40,
         "padding_bottom": 40
-      }
-    },
-    "custom_image_text_slider_k9tKHM": {
-      "type": "custom-Image-text-slider",
-      "blocks": {
-        "slide_UBnzye": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Sydney_Products_June_25_HR-1.jpg",
-            "offer_title": "<p>Liverpool Hospital Redevelopment</p>",
-            "heading": "<p>Clinical storage solutions improving efficiency, organisation, and infection control with STERIRACK®</p>",
-            "block_custom_heading_size": 30,
-            "mobile_block_custom_heading_size": 28,
-            "block_custom_font_weight": "500",
-            "text": "<p>As part of the Liverpool Hospital redevelopment, SpaceLogic installed STERIRACK® clinical storage systems across clean utility, CSSD, and pharmacy. The modular, easy-clean design improved efficiency, supported infection control, and reduced wasted time searching for supplies.</p><p><em>\"The difference in organisation and workflow has been remarkable.\"</em><br/><br/>— NUM, Liverpool Hospital</p>",
-            "button_label": "View more case studies",
-            "button_link": "shopify://pages/hospital-projects",
-            "button_style_secondary": false
-          }
-        },
-        "slide_EmBXDp": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Sydney_Products_June_25_HR-155.jpg",
-            "offer_title": "<p>Royal Prince Alfred Hospital</p>",
-            "heading": "<p>STERIRACK® enclosed carts with decals create a friendlier care space at RPA Hospital.</p>",
-            "block_custom_heading_size": 30,
-            "mobile_block_custom_heading_size": 28,
-            "block_custom_font_weight": "500",
-            "text": "<p>To soften the look of treatment areas, SpaceLogic provided enclosed STERIRACK® carts with frosted panels and playful decals. These carts maintain full infection control and storage efficiency while creating a warmer, less clinical environment for young patients and their families.</p><p><em>\"The decals have made our treatment areas feel more welcoming for children, while still giving staff the storage performance they need.\"</em><br/><br/>— Clinical Nurse Lead, RPA Hospital</p>",
-            "button_label": "Explore more case studies",
-            "button_link": "shopify://pages/hospital-projects",
-            "button_style_secondary": false
-          }
-        },
-        "slide_cbQUAP": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Sydney_Products_June_25_HR-223.jpg",
-            "offer_title": "<p>Wyvern Private Hospital</p>",
-            "heading": "<p>Smarter, cleaner, and more efficient storage at Wyvern Private Hospital</p>",
-            "block_custom_heading_size": 30,
-            "mobile_block_custom_heading_size": 28,
-            "block_custom_font_weight": "500",
-            "text": "<p>SpaceLogic partnered with Wyvern Private Hospital to deliver a complete clinical storage fit-out for its new 85-bed facility on Sydney’s Northern Beaches. Through a collaborative design process, we installed customised stainless-steel STERIRACK® System to maximise space, streamline workflows, and support strict infection control standards, helping Wyvern achieve its vision of clinical excellence and outstanding patient care.</p>",
-            "button_label": "See how we deliver across clinical rooms",
-            "button_link": "shopify://collections/sterirack-system",
-            "button_style_secondary": false
-          }
-        },
-        "slide_HUHERt": {
-          "type": "slide",
-          "settings": {
-            "offer_title": "<p>US Project</p>",
-            "heading": "<p>US Project</p>",
-            "block_custom_heading_size": 30,
-            "mobile_block_custom_heading_size": 28,
-            "block_custom_font_weight": "500",
-            "text": "<p>US project to go here</p>",
-            "button_label": "Link to go here",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "slide_UBnzye",
-        "slide_EmBXDp",
-        "slide_cbQUAP",
-        "slide_HUHERt"
-      ],
-      "settings": {
-        "enable_content_page_width": true,
-        "heading": "Project highlights",
-        "sec_des": "<p>Proven performance in hospitals and healthcare facilities worldwide.</p>",
-        "title_color": "#424242",
-        "subheading_color": "#424242",
-        "title_alignment": "center",
-        "custom_heading_size": 45,
-        "mobile_custom_heading_size": 28,
-        "custom_font_weight": "600",
-        "layout": "image_first",
-        "content_layout": "no-overlap",
-        "height": "extra-small",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "mobile_content_alignment": "left",
-        "show_button_on_image": true,
-        "show_half_slide": false,
-        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "section_color_scheme": "scheme-06fff2dc-79a4-47d4-9533-e76e042f6db6",
-        "offer_title_color": "#ffce00",
-        "show_pagination": true,
-        "padding_top": 50,
-        "padding_bottom": 50
       }
     },
     "custom_newsletter_NdaReb": {
@@ -1866,33 +1853,6 @@
         "padding_bottom": 36
       }
     },
-    "multicolumn_services_box_FEbT7G": {
-      "type": "multicolumn-services-box",
-      "blocks": {
-        "column_nq4xKL": {
-          "type": "column",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "column_nq4xKL"
-      ],
-      "settings": {
-        "sec_title": "<p>Three interconnected divisions.<br/>One purpose – to Make space for care®.</p>",
-        "custom_heading_size": 52,
-        "mobile_custom_heading_size": 28,
-        "custom_font_weight": "400",
-        "title_alignment": "center",
-        "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-        "icon_bg_color": "#5a5a5a",
-        "border_color": "#eeeeee",
-        "columns_desktop": 3,
-        "columns_alignment": "left",
-        "columns_mobile": "1",
-        "padding_top": 36,
-        "padding_bottom": 72
-      }
-    },
     "multicolumn_pages_box_VCT8HN": {
       "type": "multicolumn-pages-box",
       "blocks": {
@@ -1962,26 +1922,24 @@
   "order": [
     "custom_slide_show_aTXHa3",
     "custom_slide_show_Vgpx8w",
-    "key_message_Ccdzez",
     "key_message_AKmGXH",
     "custom_multicolumn_text_JtzPeP",
     "custom_multicolumn_text_LzdAVr",
+    "newsletter_kYQP7r",
     "custom_image_banner_xDTGLj",
     "custom_multicolumn_tEhTPk",
     "custom_multicolumn_8pVJfV",
-    "newsletter_kYQP7r",
     "custom_image_banner_wTxxEB",
     "custom_slideshow_slider_8brNtf",
     "custom_slideshow_slider_zVR4zh",
     "custom_image_text_slider_mztD6t",
-    "custom_image_text_slider_HwfQc3",
     "custom_image_text_slider_k9tKHM",
+    "custom_image_text_slider_HwfQc3",
     "custom_newsletter_NdaReb",
     "custom_image_banner_87wCPQ",
     "custom_multicolumn_inkqq6",
     "custom_multicolumn_nD6n7U",
     "multicolumn_box_with_image_jL37Wi",
-    "multicolumn_services_box_FEbT7G",
     "multicolumn_pages_box_VCT8HN",
     "product_catalog_6gjCcx"
   ]

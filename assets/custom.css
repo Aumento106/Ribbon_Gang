@@ -1904,6 +1904,9 @@ body.shopify-section-header-hidden .hotspot-product-list-main {
   -webkit-animation: ringPulse 4s infinite;
   animation: ringPulse 2.8s infinite;
 }
+ .price--on-sale .price__sale .price-item--regular {
+    display: none;
+  }
 
 @keyframes ringPulse {
   0% {
@@ -2777,7 +2780,12 @@ body.shopify-section-header-hidden .hotspot-product-list-main {
   .card-wrapper .price__sale .price-item--regular {
     font-size: 14px;
   }
-
+  /* .card-wrapper .price__sale a.price-item--regular {
+    display: none;
+  } */
+   .price--on-sale .price__sale .price-item--regular {
+    display: none;
+   }
   .product-card-wrapper .card__information {
     padding: 1.5rem 0;
   }

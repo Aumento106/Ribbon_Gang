@@ -41,6 +41,7 @@
   text-transform: capitalize;
   border-radius: 4px;
   margin-left: 1.2rem;
+  display: none;
 }
 
 @media screen and (min-width: 750px) {

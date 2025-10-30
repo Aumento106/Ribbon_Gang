@@ -450,6 +450,34 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
+document.addEventListener('DOMContentLoaded', function () {
+  const popup = document.getElementById('brochure-popup');
+  const iframe = popup?.querySelector('iframe');
+  const closeBtn = popup?.querySelector('.popup-close');
+  const overlay = popup?.querySelector('.popup-overlay');
+  const body = document.body;
+
+  document.querySelectorAll('.popup-trigger').forEach(button => {
+    button.addEventListener('click', function (e) {
+      e.preventDefault();
+      const url = this.getAttribute('href');
+      if (url && popup && iframe) {
+        iframe.src = url;
+        popup.style.display = 'block';
+        body.classList.add('overhide'); // add class when popup opens
+      }
+    });
+  });
+
+  function closePopup() {
+    popup.style.display = 'none';
+    iframe.src = '';
+    body.classList.remove('overhide'); // remove class when popup closes
+  }
+
+  closeBtn?.addEventListener('click', closePopup);
+  overlay?.addEventListener('click', closePopup);
+});
 
 
 // Blog search
@@ -495,32 +523,5 @@ document.getElementById('blogSearch').addEventListener('input', function() {
 });
 
 
-document.addEventListener('DOMContentLoaded', function () {
-  const popup = document.getElementById('brochure-popup');
-  const iframe = popup?.querySelector('iframe');
-  const closeBtn = popup?.querySelector('.popup-close');
-  const overlay = popup?.querySelector('.popup-overlay');
-  const body = document.body;
 
-  document.querySelectorAll('.popup-trigger').forEach(button => {
-    button.addEventListener('click', function (e) {
-      e.preventDefault();
-      const url = this.getAttribute('href');
-      if (url && popup && iframe) {
-        iframe.src = url;
-        popup.style.display = 'block';
-        body.classList.add('overhide'); // add class when popup opens
-      }
-    });
-  });
-
-  function closePopup() {
-    popup.style.display = 'none';
-    iframe.src = '';
-    body.classList.remove('overhide'); // remove class when popup closes
-  }
-
-  closeBtn?.addEventListener('click', closePopup);
-  overlay?.addEventListener('click', closePopup);
-});
 

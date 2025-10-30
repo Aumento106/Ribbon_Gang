@@ -242,22 +242,21 @@ body .section-custom-slideshow-slider .banner__media:after {
 }
 
 @media screen and (max-width: 989px) {
-    .section-custom-slideshow-slider .slideshow.banner {
-        padding: 0 1.5rem;
+    
+  .section-custom-slideshow-slider .slideshow.banner {
+      padding: 0 1.5rem;
     }
-
     .section-custom-slideshow-slider .slideshow__text.banner__box {
-        max-width: 36rem;
-        min-width: auto;
+      max-width: 36rem;
+      min-width: auto;
     }
-
     .section-custom-slideshow-slider .slideshow__text.banner__box .tag-text {
-        margin: 0 0 2rem;
+      margin: 0 0 2rem;
     }
-
     .section-custom-slideshow-slider .slideshow__text.banner__box .banner__buttons {
-        margin: 3rem 0 0;
+      margin: 3rem 0 0;
     }
+    
 }
 
 @media screen and (max-width: 568px) {

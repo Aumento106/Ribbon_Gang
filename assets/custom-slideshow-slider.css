@@ -138,8 +138,20 @@
 }
 
 @media screen and (max-width: 749px) {
+  
   .section-custom-slideshow-slider .slideshow.swiper.banner {
     padding: 0 1.5rem;
+    padding-bottom: 30px;
+  }
+  .section-custom-slideshow-slider .slideshow.swiper.banner .swiper-pagination-wrapper {
+    bottom: 10px;
+  }
+  .section-custom-slideshow-slider .slideshow__text-wrapper {
+    padding: 0 !important;
+  }
+  .section-custom-slideshow-slider .slideshow__text-wrapper.banner__content .banner__box {
+    min-width: 100%;
+    max-width: 100%;
   }
   
 }

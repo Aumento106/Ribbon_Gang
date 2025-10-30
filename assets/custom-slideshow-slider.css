@@ -261,16 +261,17 @@ body .section-custom-slideshow-slider .banner__media:after {
 }
 
 @media screen and (max-width: 568px) {
+
     .section-custom-slideshow-slider .slideshow.banner .slideshow__slide .slideshow__slide__inner-wrap .slideshow__slide__inner::before {
-        content: "";
-        display: block;
-        width: 100%;
-        height: 100%;
-        background: #fff;
-        position: absolute;
-        top: 0;
-        left: 0;
-        opacity: 0.5;
-        z-index: 1;
+      content: "";
+      display: block;
+      width: 100%;
+      height: 100%;
+      background: #fff;
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 0.5;
+      z-index: 1;
     }
 }

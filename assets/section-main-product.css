@@ -633,7 +633,11 @@ a.product__text {
   align-items: center;
   height: 100vh;
 }
-
+.product-media-modal__dialog .product-media-modal__content img {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+}
 .product-media-modal__content {
   max-height: 100vh;
   width: 100%;

@@ -61,7 +61,12 @@
     z-index: 99999;
     transition: visibility 0s,opacity .3s;
 }
-
+.multicolumn-video_sec .video_yt_popup_box .close-popup {
+    opacity: 0;
+}
+.multicolumn-video_sec .video_yt_popup_box:hover .close-popup {
+    opacity: 1;
+}
 .multicolumn-video_sec .video_yt_popup_box iframe {
     width: 100%;
     height: 100%;

@@ -2768,6 +2768,15 @@ body.shopify-section-header-hidden .hotspot-product-list-main {
 
 @media screen and (max-width: 749px) {
 
+  #brochure-popup .popup-close svg {
+    width: 24px;
+    height: auto;
+  }
+  #brochure-popup .popup-close {
+    top: 6px;
+    right: 6px;
+    display: flex;
+  }
   .product-card-wrapper .card__heading.h5 {
     min-height: 80px;
   }
@@ -3592,4 +3601,3 @@ ul#product-grid .button {
     min-height: unset;
   }
 }
-

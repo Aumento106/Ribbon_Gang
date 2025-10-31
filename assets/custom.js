@@ -500,6 +500,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const iframe = popup?.querySelector('iframe');
   const closeBtn = popup?.querySelector('.popup-close');
   const overlay = popup?.querySelector('.popup-overlay');
+  const body = document.body;
 
   document.querySelectorAll('.popup-trigger').forEach(button => {
     button.addEventListener('click', function (e) {
@@ -508,6 +509,7 @@ document.addEventListener('DOMContentLoaded', function () {
       if (url && popup && iframe) {
         iframe.src = url;
         popup.style.display = 'block';
+        body.classList.add('overhide'); // add class when popup opens
       }
     });
   });
@@ -515,9 +517,11 @@ document.addEventListener('DOMContentLoaded', function () {
   function closePopup() {
     popup.style.display = 'none';
     iframe.src = '';
+    body.classList.remove('overhide'); // remove class when popup closes
   }
 
   closeBtn?.addEventListener('click', closePopup);
   overlay?.addEventListener('click', closePopup);
 });
+
 

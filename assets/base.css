@@ -3970,3 +3970,6 @@ body.overhide {
 .product-template .nowrap .trademark-symbol sup {
   top: 7px !important;
 }
+.template-page-maintenance .project-consultation__image-wrapper img {
+    object-fit: contain;
+}

@@ -28,7 +28,7 @@
       "settings": {
         "title_alignment": "center",
         "full_width": false,
-        "content_width": "medium",
+        "content_width": "full_width",
         "color_scheme": "scheme-1",
         "padding_top": 80,
         "padding_bottom": 0

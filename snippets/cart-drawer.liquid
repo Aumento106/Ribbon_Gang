@@ -57,7 +57,7 @@
       {% assign remainiang_amount_shipping = thresold | minus: cart.total_price | money %}
       {% assign progress_bar_count = cart.total_price | divided_by: thresold | times:100.0 %}
       
-{% if hide_free_shipping == true %}
+{% if settings.hide_free_shipping == true %}
       <div class="shipping-bar-wrapper">
         <div class="shipping-bar-text">
         <div class="shipping-txt">

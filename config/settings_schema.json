@@ -1809,6 +1809,11 @@
         "content": "Free Shipping"
       },
       {
+        "type": "checkbox",
+        "id": "hide_free_shipping",
+        "label": "Hide Free Shipping",
+      },
+      {
         "type": "text",
         "id": "thresold_for_free_shipping",
         "label": "Free shipping...in cents"

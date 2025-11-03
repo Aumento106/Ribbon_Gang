@@ -1810,8 +1810,8 @@
       },
       {
         "type": "checkbox",
-        "id": "hide_free_shipping",
-        "label": "Hide Free Shipping",
+        "id": "show_free_shipping",
+        "label": "Show Free Shipping",
         "default": true
       },
       {

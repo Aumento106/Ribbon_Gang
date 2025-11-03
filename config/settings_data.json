@@ -160,7 +160,7 @@
     "show_vendor": false,
     "cart_drawer_collection": "",
     "cart_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
-    "hide_free_shipping": true,
+    "hide_free_shipping": false,
     "thresold_for_free_shipping": "450",
     "free_shipping_not_reach_msg": "Add $price to get a free delivery",
     "free_shipping_reach_msg": "You got free shipping",

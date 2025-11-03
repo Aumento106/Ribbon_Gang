@@ -1812,6 +1812,7 @@
         "type": "checkbox",
         "id": "hide_free_shipping",
         "label": "Hide Free Shipping",
+        "default": true
       },
       {
         "type": "text",

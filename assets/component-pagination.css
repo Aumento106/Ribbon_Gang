@@ -27,6 +27,7 @@
   background-color: rgba(var(--color-button),var(--alpha-button-background));
   font-size: 24px;
   line-height: 1.16;
+  color: #fff;
 }
 
 .pagination__item {
@@ -49,6 +50,7 @@
 
 .pagination__item:hover {
   background-color: rgba(var(--color-button),var(--alpha-button-background));
+  color: #fff;
 }
 
 a.pagination__item:hover::after {

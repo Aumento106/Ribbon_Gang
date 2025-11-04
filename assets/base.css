@@ -3031,6 +3031,7 @@ details[open] > .header__submenu li a {
 .header__menu-item span {
   transition: text-decoration var(--duration-short) ease;
   text-transform: uppercase;
+  font-weight: 500 !important;
 }
 
 /* .header__menu-item:hover span {
@@ -3897,6 +3898,9 @@ body.overhide {
   height: 100%;
   overflow: hidden;
 }
+.password .project-consultation__wrapper .image-block.banner--large img {
+  object-fit: contain;
+}
 
 
 
@@ -3969,4 +3973,7 @@ body.overhide {
 }
 .product-template .nowrap .trademark-symbol sup {
   top: 7px !important;
+}
+.template-page-maintenance .project-consultation__image-wrapper img {
+    object-fit: contain;
 }

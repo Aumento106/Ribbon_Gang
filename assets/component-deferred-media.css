@@ -8,6 +8,8 @@
   width: 100%;
   overflow: hidden;
   border-radius: calc(var(--border-radius) - var(--border-width));
+  left: 0;
+  right: 0;
 }
 
 .media > .deferred-media__poster {

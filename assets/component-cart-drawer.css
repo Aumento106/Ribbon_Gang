@@ -493,6 +493,8 @@ cart-drawer-items {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  /* flex-wrap: wrap; */
+  gap: 20px;
 }
 
 .checkout-container .total-section.total_estimation {
@@ -562,7 +564,9 @@ cart-drawer-items {
   font-weight: 600;
   line-height: 1.2;
 }
-
+.cart-estimated-total .totals__total-value.price span {
+  text-align: right;
+}
 .cart-estimated-total .totals__total-value.price .product_compar_price {
   font-size: 18px;
 }

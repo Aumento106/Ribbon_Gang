@@ -78,6 +78,9 @@ body .rte li:not(:last-child) {
   font-size: 16px;
   line-height: 18px;
 }
+.utility-bar .phone-number__link span {
+  font-weight: 500 !important;
+}
 .utility-bar .phone-number__link svg {
   width: 20px;
   height: 20px;

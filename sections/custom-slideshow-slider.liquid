@@ -89,7 +89,7 @@
 {%- endstyle -%}
 
 <div
-  class="slider-mobile-gutter{% if section.settings.layout == 'grid' %} page-width{% endif %}{% if section.settings.show_text_below %} mobile-text-below{% endif %} section-{{ section.id }}-padding"
+  class="slider-mobile-gutter{% if section.settings.layout == 'grid' %} page-width{% endif %}{% if section.settings.show_text_below %} mobile-text-below{% endif %} section-{{ section.id }}-padding {% if section.settings.mobile_slide_hide %} small-hide {% endif %} {% if section.settings.desktop_sec_hide %} medium-hide large-up-hide {% endif %}"
   role="region"
   aria-roledescription="{{ 'sections.slideshow.carousel' | t }}"
   aria-label="{{ section.settings.accessibility_info | escape }}"
@@ -287,6 +287,18 @@
     "groups": ["header", "footer"]
   },
   "settings": [
+    {
+      "type": "checkbox",
+      "id": "mobile_slide_hide",
+      "label": "Mobile Section Hide",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "desktop_sec_hide",
+      "label": "Desktop Section Hide",
+      "default": false
+    },
     {
       "type": "select",
       "id": "slide_height",

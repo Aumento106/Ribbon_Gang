@@ -136,7 +136,7 @@
   endif
 -%}
 
-<div class="image-with-text-slider-wrapper section-{{ section.id }} section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}">
+<div class="image-with-text-slider-wrapper section-{{ section.id }} section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }} {% if section.settings.mobile_slide_hide %} small-hide {% endif %} {% if section.settings.desktop_sec_hide %} medium-hide large-up-hide {% endif %}">
   <div class="{% if section.settings.show_half_slide == false %}page-width{% endif %}">
     {%- if section.settings.heading != blank -%}
       <div class="sec-head page-width section-title-alignment-{{ section.settings.title_alignment }} title-wrapper-with-link title-wrapper--no-top-margin">
@@ -271,6 +271,18 @@
     "groups": ["header", "footer"]
   },
   "settings": [
+    {
+      "type": "checkbox",
+      "id": "mobile_slide_hide",
+      "label": "Mobile Section Hide",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "desktop_sec_hide",
+      "label": "Desktop Section Hide",
+      "default": false
+    },
     {
       "type": "checkbox",
       "id": "enable_content_page_width",

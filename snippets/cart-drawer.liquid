@@ -57,7 +57,7 @@
       {% assign remainiang_amount_shipping = thresold | minus: cart.total_price | money %}
       {% assign progress_bar_count = cart.total_price | divided_by: thresold | times:100.0 %}
       
-
+    {% if settings.show_free_shipping == true %}
       <div class="shipping-bar-wrapper">
         <div class="shipping-bar-text">
         <div class="shipping-txt">
@@ -72,6 +72,7 @@
           <span class="highlighted-bar" style="width: {{ progress_bar_count }}%;"></span>
         </div>
       </div>
+    {% endif %}
       {%- if cart == empty -%}
         <div class="drawer__inner-empty">
           <div class="cart-drawer__warnings center{% if settings.cart_drawer_collection != blank %} cart-drawer__warnings--has-collection{% endif %}">
@@ -636,6 +637,12 @@
               <span class="product-main-price">{{ cart.total_price | money_with_currency }}</span>
               <span class="product_compar_price">{{ compare_price | money }}</span>
               <span class="save_tag">Save {{ save_prcent }}%</span>
+            </span>
+          </div>
+          <div class="total-section cart-estimated-total">
+            <span>Shipping</span>
+            <span class="totals__total-value price">
+              <span class="product-main-price">Shipping will be calculated at the Checkout Page</span>
             </span>
           </div>
           <div class="total-section total_estimation">

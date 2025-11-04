@@ -68,7 +68,7 @@
 {%- endcapture -%}
 
 <div class="color-{{ section.settings.color_scheme }} gradient">
-  <div class="video-section isolate{% unless section.settings.full_width %} page-width{% endunless %} section-{{ section.id }}-padding">
+  <div class="video-section isolate {% if section.settings.page_container == 'full_width' %} page-width {% endif %} section-{{ section.id }}-padding">
     <div
       {{ section.settings.page_container }} {% if section.settings.page_container == 'page-width--narrow'  %} page-width {% endif %}
     >

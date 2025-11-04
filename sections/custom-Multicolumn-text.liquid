@@ -39,6 +39,7 @@
     {% endif %} 
     .section-{{ section.id }}-padding .multicolumn-box .heading-with-icon-wrapper.title-{{ block.id }} > *  {
       font-weight: {{ block.settings.block_custom_font_weight }} !important;
+      font-size: 50px;
     }
 
     @media screen and (max-width: 1500px) {
@@ -166,7 +167,7 @@
       "label": "Section Title"
     },
     {
-      "type": "text",
+      "type": "richtext",
       "id": "descr",
       "label": "Description"
     },

@@ -115,6 +115,7 @@
 .rich-text__blocks p,
 .rich-text__blocks p > * {
   font-size: 22px;
+  font-weight: 500 !important;
 }
 .rich-text__blocks > * + a {
   margin-top: 3rem;

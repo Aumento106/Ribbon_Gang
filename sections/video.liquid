@@ -83,7 +83,7 @@
       data-media-id="{{ video_id }}"
       {% if poster != null %}
         style="--ratio-percent: {{ 1 | divided_by: poster.aspect_ratio | times: 50 }}%;"
-      {% endif %} loaded="true"
+      {% endif %}
     >
       <button
         id="Deferred-Poster-Modal-{{ video_id }}"

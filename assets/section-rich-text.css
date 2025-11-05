@@ -90,13 +90,13 @@
   }
 
   .rich-text__blocks {
-    max-width: 50rem;
+    max-width: unset;
   }
 }
 
 @media screen and (min-width: 990px) {
   .rich-text__blocks {
-    max-width: 105rem;
+    max-width: unset;
   }
 }
 

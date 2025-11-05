@@ -57,6 +57,7 @@
 .video-section__media video {
   background: #000000;
   height: auto;
+  position: unset;
 }
 
 .video-section__media.media-fit-cover video {

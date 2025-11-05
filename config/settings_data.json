@@ -160,6 +160,7 @@
     "show_vendor": false,
     "cart_drawer_collection": "",
     "cart_color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
+    "show_free_shipping": false,
     "thresold_for_free_shipping": "450",
     "free_shipping_not_reach_msg": "Add $price to get a free delivery",
     "free_shipping_reach_msg": "You got free shipping",
@@ -173,6 +174,7 @@
       "standard-mesh-baskets-copy",
       "standard-mesh-baskets"
     ],
+    "hide_free_shipping": false,
     "font_weight": "600",
     "news_font_weight": "600",
     "show_cart_note": false,
@@ -341,6 +343,19 @@
           "button_label": "#424242",
           "secondary_button_label": "#424242",
           "shadow": "#424242",
+          "button_hover": "#ffce00",
+          "primary_theme_color": "#ffce00"
+        }
+      },
+      "scheme-c102f87f-683d-402f-956c-b435503b510c": {
+        "settings": {
+          "background": "#ffce00",
+          "background_gradient": "",
+          "text": "#ffffff",
+          "button": "#121212",
+          "button_label": "#ffffff",
+          "secondary_button_label": "#121212",
+          "shadow": "#121212",
           "button_hover": "#ffce00",
           "primary_theme_color": "#ffce00"
         }

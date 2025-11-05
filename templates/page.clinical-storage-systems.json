@@ -208,17 +208,17 @@
           "type": "featured_collection",
           "settings": {
             "categories_image": "shopify://shop_images/Blacktown_square.png",
-            "collection": "medibin-system",
+            "collection": "steriloop-medibin-system",
             "card_text": "<p><strong>Compact, rail-mounted bin storage for medication and clean utility rooms.</strong><br/>When space is tight but hygiene and visibility matter, MEDIBIN™ delivers. Featuring clear bins on wall or post-mounted runners, it’s the ideal solution for fast-access pick zones and sterile stock control.</p>",
             "card_text_alignment": "left",
             "card_text_descriptio": "<p><strong>Key Benefits:</strong></p><ul><li>Transparent bins in multiple sizes</li><li>Wall or post-mounted rails</li><li>Tilt or pull-out runners</li><li>Colour-coded label strips</li><li>Perfect for medication and utility rooms</li></ul>",
             "card_text_description_alignment": "left",
             "text": "",
-            "Button_link": "shopify://pages/medibin-system",
+            "Button_link": "shopify://pages/steriloop-medibin-system",
             "link_1_text": "View full MEDIBIN™ range",
-            "video_1_url": "shopify://pages/medibin-system",
+            "video_1_url": "shopify://pages/steriloop-medibin-system",
             "link_2_text": "Watch system walkthrough video",
-            "video_2_url": "shopify://pages/medibin-system",
+            "video_2_url": "shopify://pages/steriloop-medibin-system",
             "button_card_text": "",
             "redirection_link": ""
           }
@@ -518,7 +518,7 @@
             "heading": "STERILOOP® MEDIBIN SYSTEM",
             "text": "<p>Introducing SteriLoop® Medibins, a high-quality, chrome-finished wire bin system designed for hygiene, durability, and visibility. The looped-wire construction minimises dust accumulation and provides a smooth finish, eliminating the risk of cuts, scratches, and product damage. With multiple size and divider options, SteriLoop® Medibin System is purpose-built for efficient stock control in clinical environments.</p><ul><li>Available in six sizes to optimise storage space</li><li>Create smaller compartments for maximum efficiency</li><li>Semi-open front design enhances stock visibility</li><li>Backing panels provide secure wall mounting</li><li>Colour-coded label holders available in 14 vibrant options</li></ul>",
             "button_label": "View SteriLoop® Medibin range",
-            "button_link": "shopify://pages/medibin-system"
+            "button_link": "shopify://pages/steriloop-medibin-system"
           }
         }
       },

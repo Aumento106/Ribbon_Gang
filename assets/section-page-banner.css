@@ -144,6 +144,77 @@
 .template-page-video-gallery .project-consultation-sec {
     border-radius: 0;
 }
+.popup-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.popup-overlay.active {
+  display: flex;
+}
+
+.popup-content {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 600px;
+  width: 90%;
+  position: relative;
+}
+.popup-content label {
+    color: #424242;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.popup-content .field {
+    margin-bottom: 16px;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+}
+.popup-content input {
+    min-height: 40px;
+}
+.popup-content input,
+.popup-content textarea {
+    border: 1px solid #4242424d;
+    border-radius: 8px;
+    background: transparent;
+    color: #424242;
+    padding: 18px 15px;
+}
+.popup-close {
+  position: absolute;
+  top: 10px;
+  right: 14px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 1;
+}
+.popup-content .form-status,
+.popup-content .errors {
+    display: flex;
+    justify-content: flex-start;
+    color:#424242;
+    align-items: center;
+}
+.popup-content .errors ul {
+    padding: 0 0 0 20px;
+}
+.popup-button {
+  cursor: pointer;
+}
+
+
+
+
 
 @media screen and (max-width: 1440px) {
   .page-banner_sec .content-alignment-center ul li {

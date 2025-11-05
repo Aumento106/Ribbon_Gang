@@ -68,7 +68,7 @@
     assign video_id = section.settings.video.id | default: section.settings.video_url.id
 -%}
 
-<div class="project-consultation-sec section-{{ section.id }}-padding gradient color-{{ section.settings.color_scheme }}">
+<div class="project-consultation-sec 11 section-{{ section.id }}-padding gradient color-{{ section.settings.color_scheme }}">
     <div class="project-consultation__wrapper {% if section.settings.full_width != true %}page-width{% endif %} section-title-alignment-{{ section.settings.title_alignment }}">
     {%- for block in section.blocks -%}
           {%- case block.type -%}
@@ -142,6 +142,105 @@
                 </div>
               {%- endif -%}
 
+            {%- when 'popup-button' -%}
+                <button class="popup-button button button--primary" data-popup-id="form-popup-{{ section.id }}">
+                  {{ block.settings.popup_button_label }}
+                </button>
+
+                <div id="form-popup-{{ section.id }}" class="popup-overlay">
+                  <div class="popup-content">
+                    <button class="popup-close" aria-label="Close popup">&times;</button>
+  
+                    {% form 'contact' %}
+                      {%- if form.posted_successfully -%}
+                        <h2 class="form-status form-status-list form__message" tabindex="-1" autofocus>
+                          {{- 'icon-success.svg' | inline_asset_content -}}
+                          {{ 'templates.contact.form.post_success' | t }}
+                          Thanks! Your message has been sent.
+                        </h2>
+                      {%- elsif form.errors -%}
+                        <div class="form__message">
+                          <h2 class="form-status caption-large text-body" role="alert" tabindex="-1" autofocus>
+                            {{- 'icon-error.svg' | inline_asset_content -}}
+                            {{ 'templates.contact.form.error_heading' | t }}
+                          </h2>
+                        </div>
+                      {%- endif -%}
+                      <div class="contact__fields">
+                      <div class="form-field field hidden">
+                        <input
+                          autocomplete="email"
+                          type="email"
+                          id="ContactForm-email"
+                          class="field__input"
+                          name="contact[email]"
+                          spellcheck="false"
+                          autocapitalize="off"
+                          value="{% if customer %}{{ customer.email }}{% else %}guestuser@gmail.com{% endif %}"
+                          {% if form.errors contains 'email' %}
+                            aria-invalid="true"
+                            aria-describedby="ContactForm-email-error"
+                          {% endif %}
+                          placeholder="{{ 'templates.contact.form.email' | t }}"
+                        >
+                        <label class="field__label" for="ContactForm-email">
+                          {{- 'templates.contact.form.email' | t }}
+                          <span aria-hidden="true">*</span></label
+                        >
+                      </div>
+                      <div class="form-field field">
+                            <div class="form_label_main">
+                              <label class="form-label" for="name">Name *</label>
+                            </div>
+                            <input 
+                              type="text" 
+                              class="form-input" 
+                              id="name"
+                              name="contact[name]" 
+                              value="{{ form.name }}"
+                              required
+                            >
+                        </div>
+                        <div class="form-field field required">
+                            <div class="form_label_main">
+                              <label class="form-label" for="role">Role *</label>
+                            </div>
+                            <input 
+                              type="text" 
+                              class="form-input" 
+                              id="role"
+                              name="contact[job_title]" 
+                              required
+                            >
+                          </div>
+
+                          <div class="form-field field required">
+                            <div class="form_label_main">
+                              <label class="form-label" for="linkedinLink">Linkedin Link *</label>
+                            </div>
+                            <input 
+                              type="text" 
+                              class="form-input" 
+                              id="linkedinLink"
+                              name="contact[organisation]" 
+                              required
+                            >
+                          </div>
+
+                          <div class="form-field field required">
+                            <label for="cvUrl">Upload CV</label>
+                            <input type="file" id="cvUrl" name="contact[cv]">
+                          </div>
+                      <div class="contact__button">
+                        <button type="submit" class="button">
+                          Submit
+                        </button>
+                      </div>
+                    {%- endform -%}
+
+                  </div>
+                </div>
+
               {%- when 'button' -%}
                 <div class="{% if section.settings.content_width == 'medium' %}medium-width{% elsif section.settings.full_width == true %}page-width{% endif %} content-alignment-{{ block.settings.button_alignment }}">
                   {% if block.settings.button_label != blank or block.settings.button_label_2 != blank %}
@@ -180,10 +279,34 @@
                     </div>
                   {%- endif -%}
                 </div>
+
           {%- endcase -%}
       {%- endfor -%}
     </div>
 </div>
+
+<script>
+document.addEventListener('click', function (e) {
+  const btn = e.target.closest('.popup-button');
+  if (btn) {
+    const popupId = btn.dataset.popupId;
+    const popup = document.getElementById(popupId);
+    if (popup) popup.classList.add('active');
+  }
+
+  if (e.target.matches('.popup-close') || e.target.classList.contains('popup-overlay')) {
+    e.target.closest('.popup-overlay')?.classList.remove('active');
+  }
+});
+</script>
+
+<script>
+ document.getElementById('cvFile').addEventListener('change', e => {
+    const file = e.target.files[0];
+    // upload file to external service, then:
+    document.getElementById('cvUrl').value = uploadedFileUrl;
+  });
+</script>
 
 {% schema %}
 {
@@ -532,6 +655,19 @@
           "default": "center",
           "label": "Buttons alignment"
         },
+      ]
+    },
+    {
+      "type": "popup-button",
+      "name": "Popup Button",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "popup_button_label",
+          "label": "Button label",
+          "default": "Open Form"
+        }
       ]
     }
   ],

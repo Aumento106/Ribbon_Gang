@@ -265,7 +265,7 @@
         "text_iPfnbC": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Click here to find baskets, label holders, dividers, and components engineered for every SpaceLogic system.</strong></p>",
+            "text": "<p>Click here to find baskets, label holders, dividers, and components engineered for every SpaceLogic system.</p>",
             "text_content_alignment": "center"
           }
         },

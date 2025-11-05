@@ -17,7 +17,7 @@
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,
         "custom_font_weight": "400",
-        "enable_video_looping": false,
+        "enable_video_looping": true,
         "video": "shopify://files/videos/SpaceLogic website banner DRAFT v1.mp4",
         "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "description": "",

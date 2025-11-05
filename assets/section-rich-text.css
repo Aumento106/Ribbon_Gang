@@ -112,7 +112,10 @@
 .rich-text__blocks > * + * {
   margin-top: 3rem;
 }
-
+.rich-text__blocks p,
+.rich-text__blocks p > * {
+  font-size: 22px;
+}
 .rich-text__blocks > * + a {
   margin-top: 3rem;
 }

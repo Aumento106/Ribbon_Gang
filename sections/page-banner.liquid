@@ -167,39 +167,39 @@
                         </div>
                       {%- endif -%}
                       <div class="contact__fields">
-                      <div class="form-field field hidden">
-                        <input
-                          autocomplete="email"
-                          type="email"
-                          id="ContactForm-email"
-                          class="field__input"
-                          name="contact[email]"
-                          spellcheck="false"
-                          autocapitalize="off"
-                          value="{% if customer %}{{ customer.email }}{% else %}guestuser@gmail.com{% endif %}"
-                          {% if form.errors contains 'email' %}
-                            aria-invalid="true"
-                            aria-describedby="ContactForm-email-error"
-                          {% endif %}
-                          placeholder="{{ 'templates.contact.form.email' | t }}"
-                        >
-                        <label class="field__label" for="ContactForm-email">
-                          {{- 'templates.contact.form.email' | t }}
-                          <span aria-hidden="true">*</span></label
-                        >
-                      </div>
-                      <div class="form-field field">
-                            <div class="form_label_main">
-                              <label class="form-label" for="name">Name *</label>
-                            </div>
-                            <input 
-                              type="text" 
-                              class="form-input" 
-                              id="name"
-                              name="contact[name]" 
-                              value="{{ form.name }}"
-                              required
-                            >
+                        <div class="form-field field hidden">
+                          <input
+                            autocomplete="email"
+                            type="email"
+                            id="ContactForm-email"
+                            class="field__input"
+                            name="contact[email]"
+                            spellcheck="false"
+                            autocapitalize="off"
+                            value="{% if customer %}{{ customer.email }}{% else %}guestuser@gmail.com{% endif %}"
+                            {% if form.errors contains 'email' %}
+                              aria-invalid="true"
+                              aria-describedby="ContactForm-email-error"
+                            {% endif %}
+                            placeholder="{{ 'templates.contact.form.email' | t }}"
+                          >
+                          <label class="field__label" for="ContactForm-email">
+                            {{- 'templates.contact.form.email' | t }}
+                            <span aria-hidden="true">*</span></label
+                          >
+                        </div>
+                        <div class="form-field field">
+                              <div class="form_label_main">
+                                <label class="form-label" for="name">Name *</label>
+                              </div>
+                              <input 
+                                type="text" 
+                                class="form-input" 
+                                id="name"
+                                name="contact[name]" 
+                                value="{{ form.name }}"
+                                required
+                              >
                         </div>
                         <div class="form-field field required">
                             <div class="form_label_main">
@@ -212,9 +212,9 @@
                               name="contact[job_title]" 
                               required
                             >
-                          </div>
+                        </div>
 
-                          <div class="form-field field required">
+                        <div class="form-field field required">
                             <div class="form_label_main">
                               <label class="form-label" for="linkedinLink">Linkedin Link *</label>
                             </div>
@@ -225,21 +225,23 @@
                               name="contact[organisation]" 
                               required
                             >
-                          </div>
+                        </div>
 
-                          <div class="form-field field required">
-                            <label for="cvUrl">Upload CV</label>
-                            <input type="file" id="cvUrl" name="contact[cv]">
-                          </div>
-                      <div class="contact__button">
-                        <button type="submit" class="button">
-                          Submit
-                        </button>
+                        <div class="form-field field required">
+                          <label for="cvUrl">Upload CV</label>
+                          <input type="file" id="cvFile" name="contact[cv]">
+                        </div>
+
+                        <div class="contact__button">
+                          <button type="submit" class="button">
+                            Submit
+                          </button>
+                        </div>
+                        
                       </div>
                     {%- endform -%}
-
                   </div>
-                </div>
+                  </div>
 
               {%- when 'button' -%}
                 <div class="{% if section.settings.content_width == 'medium' %}medium-width{% elsif section.settings.full_width == true %}page-width{% endif %} content-alignment-{{ block.settings.button_alignment }}">
@@ -301,11 +303,17 @@ document.addEventListener('click', function (e) {
 </script>
 
 <script>
- document.getElementById('cvFile').addEventListener('change', e => {
+document.addEventListener('DOMContentLoaded', () => {
+  const fileInput = document.getElementById('cvFile');
+  if (!fileInput) return; // ✅ Prevents the "null.addEventListener" error
+
+  fileInput.addEventListener('change', (e) => {
     const file = e.target.files[0];
-    // upload file to external service, then:
-    document.getElementById('cvUrl').value = uploadedFileUrl;
+    if (!file) return;
+
+    console.log('Selected file:', file.name);
   });
+});
 </script>
 
 {% schema %}

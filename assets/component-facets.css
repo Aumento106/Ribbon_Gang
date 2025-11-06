@@ -290,8 +290,13 @@
   top: 0;
   background-color: rgb(var(--color-background));
   z-index: 1;
-}
+  justify-content: flex-end;
 
+
+}
+.facets__header .facets__selected {
+  display: none;
+}
 .facets__header facet-remove {
   align-self: center;
 }
@@ -810,6 +815,7 @@ a.active-facets__button.focused .active-facets__button-inner {
 
 .mobile-facets__info {
   padding: 0 2.6rem;
+  display: none;
 }
 
 .mobile-facets__heading {

@@ -83,6 +83,8 @@
   -webkit-appearance: none;
   position: relative;
   font-weight: 500;
+  font-family: var(--font-body-family);
+  font-weight: 300;
 }
 /* .form-input:hover, .form-input:focus, .form-input:focus-visible,
 .form-textarea:hover, .form-textarea:focus, .form-textarea:focus-visible,

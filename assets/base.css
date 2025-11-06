@@ -3901,6 +3901,10 @@ body.overhide {
 .password .project-consultation__wrapper .image-block.banner--large img {
   object-fit: contain;
 }
+.template-page-job-openings.overflow-hidden {
+  height: 100%;
+  overflow: hidden;
+}
 
 
 

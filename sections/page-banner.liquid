@@ -293,11 +293,18 @@ document.addEventListener('click', function (e) {
   if (btn) {
     const popupId = btn.dataset.popupId;
     const popup = document.getElementById(popupId);
-    if (popup) popup.classList.add('active');
+    if (popup) {
+      popup.classList.add('active');
+      document.body.classList.add('overflow-hidden'); // ✅ prevent background scroll
+    }
   }
 
   if (e.target.matches('.popup-close') || e.target.classList.contains('popup-overlay')) {
-    e.target.closest('.popup-overlay')?.classList.remove('active');
+    const popup = e.target.closest('.popup-overlay');
+    if (popup) {
+      popup.classList.remove('active');
+      document.body.classList.remove('overflow-hidden'); // ✅ restore scroll
+    }
   }
 });
 </script>

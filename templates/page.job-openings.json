@@ -99,6 +99,7 @@
       "blocks": {
         "heading_agXX9w": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "We currently have no open positions open.",
             "custom_heading_size": 28,
@@ -109,15 +110,23 @@
         },
         "caption_kyqBaM": {
           "type": "caption",
+          "disabled": true,
           "settings": {
             "caption": "<p>Please check back, as we regularly seek skilled professionals to join our team.</p>",
             "caption_alignment": "center"
+          }
+        },
+        "popup_button_jmh9fd": {
+          "type": "popup-button",
+          "settings": {
+            "popup_button_label": "Apply Job"
           }
         }
       },
       "block_order": [
         "heading_agXX9w",
-        "caption_kyqBaM"
+        "caption_kyqBaM",
+        "popup_button_jmh9fd"
       ],
       "name": "TF No Positions Vacant",
       "settings": {
@@ -125,7 +134,7 @@
         "full_width": true,
         "content_width": "full_width",
         "color_scheme": "scheme-7d2cf62a-ccc4-4338-8631-165b41315882",
-        "padding_top": 80,
+        "padding_top": 50,
         "padding_bottom": 50
       }
     },

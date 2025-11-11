@@ -1323,7 +1323,7 @@
   });  
 
 </script>
-
+{% comment %} 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const btn = document.getElementById('open-omnisend-form');
@@ -1343,7 +1343,40 @@ document.addEventListener('DOMContentLoaded', function() {
     openOmnisendForm();
   });
 });
+</script> {% endcomment %}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const btn = document.getElementById('open-omnisend-form');
+  if (!btn) return;
+
+  btn.addEventListener('click', function(e) {
+    e.preventDefault();
+
+    const productTitle = '{{ product.title | escape }}';
+    const productHandle = '{{ product.handle }}';
+    const productUrl = window.location.href;
+    const productPrice = '{{ product.price | money }}';
+    const productImage = "{{ product.featured_image | img_url: '600x600' }}";
+
+    window.omnisend = window.omnisend || [];
+    window.omnisend.push([
+      'identify',
+      {
+        properties: {
+          product_title: productTitle,
+          product_handle: productHandle,
+          product_url: productUrl,
+          product_price: productPrice,
+          product_image: productImage
+        }
+      }
+    ]);
+
+    window.omnisend.push(['openForm', '6912e6e9a4d433ba5d0032dd']);
+  });
+});
 </script>
+
 
 
 

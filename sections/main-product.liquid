@@ -1325,46 +1325,37 @@
 </script>
 
 <script>
-  document.addEventListener('DOMContentLoaded', function() {
-    const btn = document.getElementById('open-omnisend-form');
-    if (!btn) return;
+document.addEventListener('DOMContentLoaded', function() {
+  const btn = document.getElementById('open-omnisend-form');
+  if (!btn) return;
 
-    btn.addEventListener('click', function(e) {
-      e.preventDefault();
+  btn.addEventListener('click', function(e) {
+    e.preventDefault();
 
-      // Collect product details dynamically from the product page
-      const productTitle = document.querySelector('[data-product-title]')?.textContent?.trim() || '{{ product.title | escape }}';
-      const productHandle = '{{ product.handle }}';
-      const productUrl = window.location.href;
-      const productPrice = '{{ product.price | money }}';
+    const productTitle = '{{ product.title | escape }}';
+    const productHandle = '{{ product.handle }}';
+    const productUrl = window.location.href;
+    const productPrice = '{{ product.price | money }}';
+    const productImage = "{{ product.featured_image | img_url: '600x600' }}";
 
-      // Send data to Omnisend as custom properties
-      window.omnisend = window.omnisend || [];
-      window.omnisend.push([
-        'identify', 
-        { 
-          properties: {
-            product_title: productTitle,
-            product_handle: productHandle,
-            product_url: productUrl,
-            product_price: productPrice
-          }
-        }
-      ]);
-
-      // Then open the Omnisend popup form
-      function openOmnisendForm() {
-        if (window.omnisend && Array.isArray(window.omnisend)) {
-          window.omnisend.push(['openForm', '6912e6e9a4d433ba5d0032dd']);
-        } else {
-          setTimeout(openOmnisendForm, 500); // Retry if Omnisend script not loaded yet
+    window.omnisend = window.omnisend || [];
+    window.omnisend.push([
+      'identify',
+      {
+        properties: {
+          product_title: productTitle,
+          product_handle: productHandle,
+          product_url: productUrl,
+          product_price: productPrice,
+          product_image: productImage
         }
       }
-      openOmnisendForm();
-    });
-  });
-</script>
+    ]);
 
+    window.omnisend.push(['openForm', '6912e6e9a4d433ba5d0032dd']);
+  });
+});
+</script>
 
 
 {% schema %}

@@ -3921,6 +3921,9 @@ body.overhide {
   display: flex;
   align-items: center;
  }
+ .template-page-privacy-policy ul li::before {
+  font-size: 30px;
+ }
 
 
 

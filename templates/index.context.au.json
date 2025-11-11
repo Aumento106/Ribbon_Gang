@@ -212,6 +212,20 @@
           }
         }
       }
+    },
+    "multicolumn_box_with_image_jL37Wi": {
+      "blocks": {
+        "column_MEcPqY": {
+          "settings": {
+            "text": "<p>With STERIRACK™ System, nurses and healthcare personnel can now spend less time hunting through storerooms, and more time devoted to face-to-face patient care. Where they want to be.</p><p>These time efficiencies provide hospitals and health-care centers with impressive Return on Effectiveness (ROE), with some facilities enjoying time savings of up to 50%.</p><p>Introduce the gold standard healthcare storage system today. You’ll never look back. </p>"
+          }
+        },
+        "column_FL4YKp": {
+          "settings": {
+            "text": "<p>STERIRACK™ is the world’s leading healthcare storage solution, exceeding standards for best practice and infection control.</p><p>Rounded corners and smart design protect consumables from damage and contamination. Mesh baskets and shelving provide air circulation, and prevent dust and dirt build-up.</p><p>Hard-to-clean, outdated timber cabinetry, with its dark, dank corners is now a thing of the past.</p>"
+          }
+        }
+      }
     }
   }
 }

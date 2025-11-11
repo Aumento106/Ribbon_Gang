@@ -56,6 +56,20 @@
       "settings": {
         "descr": "<p>Your turnkey solution across storage, handling, and worksurfaces.<br/>SpaceLogic® is the trusted partner in clean clinical spaces, delivering complete, end-to-end systems that optimize performance and precision in demanding healthcare environments.</p>"
       }
+    },
+    "custom_image_banner_wTxxEB": {
+      "blocks": {
+        "heading_wrKCR8": {
+          "settings": {
+            "heading": "SPD and theater store"
+          }
+        },
+        "buttons_YfcGj9": {
+          "settings": {
+            "button_link_1": "shopify://pages/spd-theatre-store"
+          }
+        }
+      }
     }
   }
 }

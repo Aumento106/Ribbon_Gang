@@ -3924,6 +3924,9 @@ body.overhide {
  .template-page-privacy-policy ul li::before {
   font-size: 30px;
  }
+ .template-page-privacy-policy ul li p {
+  margin: 0;
+ }
 
 
 

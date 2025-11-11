@@ -12,5 +12,12 @@
   "context": {
     "market": "united-states"
   },
-  "sections": {}
+  "sections": {
+    "return_refund_form_yRWQyC": {
+      "settings": {
+        "form_description": "By ticking this box, you confirm that you have read and understood SpaceLogic’s Returns Policy and Warranty Terms. To submit a Return Merchandise Authorisation (RMA) request, please complete the form below in full. Once your request has been reviewed, you will be notified with an RMA number if it has been approved. Instructions for returning your item(s) will be provided at that time."
+      },
+      "blocks": {}
+    }
+  }
 }

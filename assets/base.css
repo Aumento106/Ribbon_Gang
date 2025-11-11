@@ -3917,6 +3917,10 @@ body.overhide {
   position: absolute;
   left: 0 !important;
 } */
+ .template-page-privacy-policy ul li {
+  display: flex;
+  align-items: center;
+ }
 
 
 

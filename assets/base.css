@@ -3911,7 +3911,7 @@ body.overhide {
   border: unset !important;
   box-shadow: unset !important;
 }
-.html5-video-player .video-click-tracking, .html5-video-player .video-stream {
+.html5-video-player .video-stream {
   width: 100% !important;
   height: 100%;
   position: absolute;

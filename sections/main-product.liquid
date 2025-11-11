@@ -1224,12 +1224,12 @@
                         section_id: section.id,
                         show_pickup_availability: true
                       -%}
-                      {% if block.settings.request_quote_btn_link != blank %}
+                      
                         <button id="open-omnisend-form" class="button product-form__submit request-quote-btn">
                           {{- 'icon-edit.svg' | inline_asset_content -}}
                           {{ block.settings.request_quote_btn }}
                         </button>
-                      {% endif %}
+                      
                     </div>
                   {% else %}
                       {% if block.settings.enquire_now_link != blank %}

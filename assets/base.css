@@ -3908,7 +3908,8 @@ body.overhide {
 #omnisend-form-6912d4e3a4d433ba5d003272-field-container-62a34db0f7b3732a01429b16-emailField-input.omnisend-form-6912d4e3a4d433ba5d003272-field-container-62a34db0f7b3732a01429b16-input:focus,
 #omnisend-form-6912d4e3a4d433ba5d003272-field-container-62a34db0f7b3732a01429b16-emailField-input.omnisend-form-6912d4e3a4d433ba5d003272-field-container-62a34db0f7b3732a01429b16-input:focus-visible {
   outline: unset !important;
-  bordeR: unset !important;
+  border: unset !important;
+  box-shadow: unset !important;
 }
 
 

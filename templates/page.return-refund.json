@@ -36,6 +36,17 @@
         "padding_bottom": 40
       }
     },
+    "section_breadcrumb_AWCpeK": {
+      "type": "section-breadcrumb",
+      "name": "Breadcrumb",
+      "settings": {
+        "color_scheme": "",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "mobile_padding_top": 20,
+        "mobile_padding_bottom": 20
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -53,7 +64,7 @@
         "checkbox_text": "Yes",
         "form_title": "Return Merchandise Authorisation",
         "form_subtitle": "I am applying for a return merchandise authorisation.",
-        "form_description": "By ticking this box you acknowledge and agree to the SpaceLogic return policy and warranty terms. To submit a Return Merchandise Authorisation (RMA) request, please complete the following form. In order to expedite your request, please complete all information requested below and submit. You will be notified with an RMA number if your return request has been approved. Shipping information for sending the unit to SpaceLogic Group Pty Ltd will be provided once the RMA is issued.",
+        "form_description": "By ticking this box, you confirm that you have read and understood SpaceLogic’s <strong>Returns Policy</strong> and <strong>Warranty Terms</strong>. To submit a Return Merchandise Authorisation (RMA) request, please complete the form below in full. Once your request has been reviewed, you will be notified with an RMA number if it has been approved. Instructions for returning your item(s) will be provided at that time.",
         "name": "Name",
         "company_name": "Company name",
         "phone": "Phone",
@@ -66,17 +77,6 @@
         "submit_btn": "Submit RMA",
         "padding_top": 80,
         "padding_bottom": 80
-      }
-    },
-    "section_breadcrumb_AWCpeK": {
-      "type": "section-breadcrumb",
-      "name": "Breadcrumb",
-      "settings": {
-        "color_scheme": "",
-        "padding_top": 20,
-        "padding_bottom": 20,
-        "mobile_padding_top": 20,
-        "mobile_padding_bottom": 20
       }
     }
   },

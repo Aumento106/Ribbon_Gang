@@ -12,5 +12,26 @@
   "context": {
     "market": "au"
   },
-  "sections": {}
+  "sections": {
+    "custom_slide_show_aTXHa3": {
+      "blocks": {
+        "slide_eEdaKF": {
+          "settings": {
+            "heading": "Making space for care™",
+            "subheading": "Hospital and clinical storage solutions designed for efficiency and organization."
+          }
+        },
+        "slide_QcKVdY": {
+          "settings": {
+            "subheading": "Baskets, bins, and dividers built for clean, organized spaces."
+          }
+        },
+        "slide_gCWg7E": {
+          "settings": {
+            "subheading": "Proven results in efficiency, organization, and infection control."
+          }
+        }
+      }
+    }
+  }
 }

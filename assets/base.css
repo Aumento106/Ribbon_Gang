@@ -3918,15 +3918,18 @@ body.overhide {
   left: 0 !important;
 } */
 .template-page-privacy-policy ul li,
+.template-page-online-store-terms-conditions ul li,
 .template-page-warranties .return-refund-main ul li {
   display: flex;
   align-items: center;
 }
 .template-page-warranties ul li::before,
+.template-page-online-store-terms-conditions ul li::before,
 .template-page-privacy-policy ul li::before {
   font-size: 30px;
 }
 .template-page-warranties ul li p,
+.template-page-online-store-terms-conditions ul li p,
 .template-page-privacy-policy ul li p {
   margin: 0;
 }  

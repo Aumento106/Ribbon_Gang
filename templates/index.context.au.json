@@ -111,6 +111,29 @@
             "text": "<p>SteriLoop™ Baskets feature our exclusive registered loop-edge design, engineered for safety, durability, and infection control. Unlike traditional wire baskets, SteriLoop™ eliminates sharp edges, protecting staff, patients, and supplies, while integrating seamlessly with STERIRACK™ System.</p><p>Look for the Loop™, because small details make a big difference.</p>",
             "button_label": "Shop SteriLoop™ Baskets"
           }
+        },
+        "slide_iUhckn": {
+          "settings": {
+            "text": "<p>The upgraded Mk II Click ’N’ Clip Label Holders save time and reduce frustration in fast-paced clinical environments. </p><p>With a clear protective cover that snaps securely into place, labels stay clean, legible, and contamination-free. No peeling, no fiddling, no wasted time.</p><p>Smarter labeling, safer care, designed to work seamlessly with STERIRACK™ systems.</p>"
+          }
+        },
+        "slide_tWbjPi": {
+          "settings": {
+            "heading": "<p>Color-coded clarity</p>",
+            "text": "<p>Color-coded labeling helps busy clinical teams find supplies faster, reduce errors, and support infection control. From label holders to post strips, our labeling accessories integrate seamlessly with STERIRACK™ System.</p><p>Smarter organization through color.</p>",
+            "button_label": "Shop labeling accessories",
+            "button_link": "shopify://collections/sterirack™-labeling-and-signage"
+          }
+        }
+      }
+    },
+    "custom_image_text_slider_k9tKHM": {
+      "blocks": {
+        "slide_UBnzye": {
+          "settings": {
+            "heading": "<p>Clinical storage solutions improving efficiency, organization, and infection control with STERIRACK™</p>",
+            "text": "<p>As part of the Liverpool Hospital redevelopment, SpaceLogic installed STERIRACK™ clinical storage systems across clean utility, SPD, and pharmacy. The modular, easy-clean design improved efficiency, supported infection control, and reduced wasted time searching for supplies.</p><p><em>\"The difference in organization and workflow has been remarkable.\"</em><br/><br/>— Nurse Unit Manager, Liverpool Hospital</p>"
+          }
         }
       }
     }

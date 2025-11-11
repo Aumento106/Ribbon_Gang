@@ -1326,18 +1326,15 @@
 
 <script>
   document.addEventListener('DOMContentLoaded', function() {
-    var btn = document.getElementById('open-omnisend-form');
+    var btn = document.querySelector('.open-omnisend-form');
     if (btn) {
       btn.addEventListener('click', function() {
-        if (window.omnisend) {
-          window.omnisend.push(['openForm', '6912d95eb127c51a5d21ffb5']);
-        } else {
-          console.error('Omnisend not loaded yet');
-        }
+        window.omnisend.push(['openForm', '6912d95eb127c51a5d21ffb5']);
       });
     }
   });
 </script>
+
 
 {% schema %}
 {

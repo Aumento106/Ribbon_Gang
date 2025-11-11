@@ -3911,7 +3911,7 @@ body.overhide {
   border: unset !important;
   box-shadow: unset !important;
 }
-.html5-video-player .video-stream {
+.html5-video-container video {
   width: 100% !important;
   height: 100%;
   position: absolute;

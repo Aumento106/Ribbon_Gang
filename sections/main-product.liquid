@@ -1225,7 +1225,7 @@
                         show_pickup_availability: true
                       -%}
                       
-                        <button id="open-omnisend-form" class="button product-form__submit request-quote-btn">
+                        <button id="open-omnisend-form" onclick="openOmnisendForm()" class="button product-form__submit request-quote-btn">
                           {{- 'icon-edit.svg' | inline_asset_content -}}
                           {{ block.settings.request_quote_btn }}
                         </button>
@@ -1324,7 +1324,7 @@
 
 </script>
 
-<script>
+{% comment %} <script>
 document.addEventListener('DOMContentLoaded', function() {
   const btn = document.getElementById('open-omnisend-form');
   if (!btn) return;
@@ -1343,14 +1343,14 @@ document.addEventListener('DOMContentLoaded', function() {
     openOmnisendForm();
   });
 });
-</script>
+</script> {% endcomment %}
 
-{% comment %} <script> 
+<script> 
   function openOmnisendForm() { 
     window.omnisend = window.omnisend || []; 
     window.omnisend.push(['openForm', '6912e6e9a4d433ba5d0032dd']);
 }
-</script> {% endcomment %}
+</script>
 
 
 {% schema %}

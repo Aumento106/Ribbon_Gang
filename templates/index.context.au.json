@@ -181,6 +181,20 @@
           }
         }
       }
+    },
+    "custom_image_banner_87wCPQ": {
+      "blocks": {
+        "hotspot_button_UtRXXL": {
+          "settings": {
+            "product_list_sec_title": "SteriLoop™ Medibin System"
+          }
+        },
+        "hotspot_button_NyKmhG": {
+          "settings": {
+            "product_list_sec_title": "STERIRACK™ Benching"
+          }
+        }
+      }
     }
   }
 }

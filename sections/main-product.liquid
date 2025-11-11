@@ -1325,14 +1325,24 @@
 </script>
 
 <script>
-  document.addEventListener('DOMContentLoaded', function() {
-    var btn = document.querySelector('.open-omnisend-form');
-    if (btn) {
-      btn.addEventListener('click', function() {
-        window.omnisend.push(['openForm', '6912d95eb127c51a5d21ffb5']);
-      });
+document.addEventListener('DOMContentLoaded', function() {
+  const btn = document.getElementById('open-omnisend-form');
+  if (!btn) return;
+
+  function openOmnisendForm() {
+    if (window.omnisend && Array.isArray(window.omnisend)) {
+      window.omnisend.push(['openForm', '6912d95eb127c51a5d21ffb5']);
+    } else {
+      console.warn('Omnisend not ready yet, retrying...');
+      setTimeout(openOmnisendForm, 500); // retry until Omnisend script loads
     }
+  }
+
+  btn.addEventListener('click', function(e) {
+    e.preventDefault();
+    openOmnisendForm();
   });
+});
 </script>
 
 

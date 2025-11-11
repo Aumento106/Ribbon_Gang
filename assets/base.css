@@ -3911,12 +3911,12 @@ body.overhide {
   border: unset !important;
   box-shadow: unset !important;
 }
-.html5-video-container video {
+/* .html5-video-container video {
   width: 100% !important;
   height: 100%;
   position: absolute;
   left: 0 !important;
-}
+} */
 
 
 

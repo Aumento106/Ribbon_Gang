@@ -15,7 +15,7 @@
   "sections": {
     "main": {
       "custom_css": [
-        ".Privacy-Policy-Australia {}"
+        ".Privacy-Policy-Australia {display: none;}"
       ],
       "settings": {},
       "blocks": {}

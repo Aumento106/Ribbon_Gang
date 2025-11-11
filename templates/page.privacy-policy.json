@@ -105,6 +105,9 @@
     },
     "main": {
       "type": "main-page",
+      "custom_css": [
+        ".Privacy-Policy-Australia {display: none;}"
+      ],
       "settings": {
         "color_scheme": "scheme-8eaf0384-58be-40c9-9ea9-a43544d51493",
         "padding_top": 40,
@@ -115,7 +118,9 @@
       "type": "product-catalog",
       "settings": {
         "padding_top": 40,
-        "padding_bottom": 20
+        "padding_bottom": 20,
+        "margin_top": 40,
+        "margin_bottom": 40
       }
     }
   },

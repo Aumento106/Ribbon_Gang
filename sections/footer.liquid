@@ -149,7 +149,8 @@
                     {%- if section.settings.newsletter_heading != blank -%}
                       <h2 class="subtitle inline-richtext">{{ section.settings.newsletter_heading }}</h2>
                     {%- endif -%}
-                    {%- form 'customer', id: 'ContactFooter', class: 'footer__newsletter newsletter-form' -%}
+                    <div id="omnisend-embedded-v2-6912d4e3a4d433ba5d003272"></div>
+                    {% comment %} {%- form 'customer', id: 'ContactFooter', class: 'footer__newsletter newsletter-form' -%}
                       <input type="hidden" name="contact[tags]" value="newsletter">
                       <div class="newsletter-form__field-wrapper">
                         <div class="field">
@@ -209,7 +210,7 @@
                           {{- 'newsletter.success' | t }}
                         </h3>
                       {%- endif -%}
-                    {%- endform -%}
+                    {%- endform -%} {% endcomment %}
                   </div>
                 {%- endif -%}
       

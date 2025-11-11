@@ -3927,6 +3927,10 @@ body.overhide {
  .template-page-privacy-policy ul li p {
   margin: 0;
  }
+ .template-page-warranties ul li {
+  display: flex;
+  align-items: center;
+ }
 
 
 

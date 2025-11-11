@@ -93,6 +93,26 @@
           }
         }
       }
+    },
+    "custom_slideshow_slider_ne9Y9T": {
+      "blocks": {
+        "slide_QYy7Qb": {
+          "settings": {
+            "subheading": "Anti-slip, chemical-resistant mats that stabilize instruments and trays, reducing spills and improving safety across sterile storage and transport."
+          }
+        }
+      }
+    },
+    "custom_image_text_slider_mztD6t": {
+      "blocks": {
+        "slide_gMCqNw": {
+          "settings": {
+            "heading": "<p>SteriLoop™ advantage</p>",
+            "text": "<p>SteriLoop™ Baskets feature our exclusive registered loop-edge design, engineered for safety, durability, and infection control. Unlike traditional wire baskets, SteriLoop™ eliminates sharp edges, protecting staff, patients, and supplies, while integrating seamlessly with STERIRACK™ System.</p><p>Look for the Loop™, because small details make a big difference.</p>",
+            "button_label": "Shop SteriLoop™ Baskets"
+          }
+        }
+      }
     }
   }
 }

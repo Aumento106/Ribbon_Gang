@@ -195,6 +195,23 @@
           }
         }
       }
+    },
+    "custom_multicolumn_inkqq6": {
+      "blocks": {
+        "column_tJjXWa": {
+          "settings": {
+            "title": "Carts and mobile units",
+            "button-text": "Shop for Carts etc",
+            "button-url": "shopify://pages/medibin-carts"
+          }
+        },
+        "column_6nDDjQ": {
+          "settings": {
+            "title": "Accessories and color coding",
+            "button-url": "shopify://pages/sterirack-color-coding"
+          }
+        }
+      }
     }
   }
 }

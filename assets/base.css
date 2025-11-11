@@ -3918,7 +3918,7 @@ body.overhide {
   left: 0 !important;
 } */
 .template-page-privacy-policy ul li,
-.template-page-warranties ul li {
+.template-page-warranties .return-refund-main ul li {
   display: flex;
   align-items: center;
 }

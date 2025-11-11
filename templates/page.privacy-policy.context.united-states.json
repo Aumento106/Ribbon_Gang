@@ -12,5 +12,13 @@
   "context": {
     "market": "united-states"
   },
-  "sections": {}
+  "sections": {
+    "main": {
+      "custom_css": [
+        ".Privacy-Policy-Australia {}"
+      ],
+      "settings": {},
+      "blocks": {}
+    }
+  }
 }

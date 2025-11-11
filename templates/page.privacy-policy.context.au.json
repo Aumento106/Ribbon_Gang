@@ -14,7 +14,10 @@
   },
   "sections": {
     "main": {
-      "disabled": true,
+      "disabled": false,
+      "custom_css": [
+        ".Privacy-Policy-United-states {display: none;}"
+      ],
       "settings": {},
       "blocks": {}
     }

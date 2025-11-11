@@ -1224,12 +1224,12 @@
                         section_id: section.id,
                         show_pickup_availability: true
                       -%}
-                      {% if block.settings.request_quote_btn_link != blank %}
-                        <a href="{{ block.settings.request_quote_btn_link }}" class="button product-form__submit request-quote-btn">
+                      
+                        <button id="open-omnisend-form" onclick="openOmnisendForm()" class="button product-form__submit request-quote-btn">
                           {{- 'icon-edit.svg' | inline_asset_content -}}
                           {{ block.settings.request_quote_btn }}
-                        </a>
-                      {% endif %}
+                        </button>
+                        
                     </div>
                   {% else %}
                       {% if block.settings.enquire_now_link != blank %}
@@ -1323,6 +1323,35 @@
   });  
 
 </script>
+
+{% comment %} <script>
+document.addEventListener('DOMContentLoaded', function() {
+  const btn = document.getElementById('open-omnisend-form');
+  if (!btn) return;
+
+  function openOmnisendForm() {
+    if (window.omnisend && Array.isArray(window.omnisend)) {
+      window.omnisend.push(['openForm', '6912e6e9a4d433ba5d0032dd']);
+    } else {
+      console.warn('Omnisend not ready yet, retrying...');
+      setTimeout(openOmnisendForm, 500); // retry until Omnisend script loads
+    }
+  }
+
+  btn.addEventListener('click', function(e) {
+    e.preventDefault();
+    openOmnisendForm();
+  });
+});
+</script> {% endcomment %}
+
+<script> 
+  function openOmnisendForm() { 
+    window.omnisend = window.omnisend || []; 
+    window.omnisend.push(['openForm', '6912e6e9a4d433ba5d0032dd']);
+}
+</script>
+
 
 {% schema %}
 {

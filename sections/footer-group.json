@@ -64,7 +64,9 @@
       "disabled": true,
       "settings": {
         "padding_top": 30,
-        "padding_bottom": 20
+        "padding_bottom": 20,
+        "margin_top": 40,
+        "margin_bottom": 40
       }
     },
     "proudly_support_EqkBPA": {
@@ -246,29 +248,30 @@
         "support_item_XYTHPJ": {
           "type": "support_item",
           "settings": {
-            "image": "shopify://shop_images/support-logo-1.png"
+            "image": "shopify://shop_images/Bravehearts_logo.png"
           }
         },
         "support_item_emwr9f": {
           "type": "support_item",
           "settings": {
-            "image": "shopify://shop_images/support-logo-2.png"
+            "image": "shopify://shop_images/Heart_Foundation_logo.png"
           }
         },
         "support_item_E6MeTi": {
           "type": "support_item",
           "settings": {
-            "image": "shopify://shop_images/support-logo-5.png"
+            "image": "shopify://shop_images/Children_s_Cancer_Institute_logo.png"
           }
         },
         "support_item_CN43RH": {
           "type": "support_item",
           "settings": {
-            "image": "shopify://shop_images/support-logo-4.png"
+            "image": "shopify://shop_images/Cancer_Council_logo.png"
           }
         },
         "support_item_aweiFG": {
           "type": "support_item",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/support-logo-3.png"
           }

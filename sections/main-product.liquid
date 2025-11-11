@@ -1325,25 +1325,46 @@
 </script>
 
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-  const btn = document.getElementById('open-omnisend-form');
-  if (!btn) return;
+  document.addEventListener('DOMContentLoaded', function() {
+    const btn = document.getElementById('open-omnisend-form');
+    if (!btn) return;
 
-  function openOmnisendForm() {
-    if (window.omnisend && Array.isArray(window.omnisend)) {
-      window.omnisend.push(['openForm', '6912e6e9a4d433ba5d0032dd']);
-    } else {
-      console.warn('Omnisend not ready yet, retrying...');
-      setTimeout(openOmnisendForm, 500); // retry until Omnisend script loads
-    }
-  }
+    btn.addEventListener('click', function(e) {
+      e.preventDefault();
 
-  btn.addEventListener('click', function(e) {
-    e.preventDefault();
-    openOmnisendForm();
+      // Collect product details dynamically from the product page
+      const productTitle = document.querySelector('[data-product-title]')?.textContent?.trim() || '{{ product.title | escape }}';
+      const productHandle = '{{ product.handle }}';
+      const productUrl = window.location.href;
+      const productPrice = '{{ product.price | money }}';
+
+      // Send data to Omnisend as custom properties
+      window.omnisend = window.omnisend || [];
+      window.omnisend.push([
+        'identify', 
+        { 
+          properties: {
+            product_title: productTitle,
+            product_handle: productHandle,
+            product_url: productUrl,
+            product_price: productPrice
+          }
+        }
+      ]);
+
+      // Then open the Omnisend popup form
+      function openOmnisendForm() {
+        if (window.omnisend && Array.isArray(window.omnisend)) {
+          window.omnisend.push(['openForm', '6912e6e9a4d433ba5d0032dd']);
+        } else {
+          setTimeout(openOmnisendForm, 500); // Retry if Omnisend script not loaded yet
+        }
+      }
+      openOmnisendForm();
+    });
   });
-});
 </script>
+
 
 
 {% schema %}

@@ -1,0 +1,42 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "collection.clean-utility-medications.json",
+  "context": {
+    "market": "au"
+  },
+  "sections": {
+    "page_banner_LydTcK": {
+      "blocks": {
+        "text_npJHMq": {
+          "settings": {
+            "text": "<p>Traditional timber joinery is no longer suitable for clinical storage in healthcare environments, particularly for medications, consumables, and sterile stock. SpaceLogic’s STERIRACK™ System is a cleanable, modular, and fully compliant alternative designed to meet modern infection control requirements, including <strong>AS 5369 (Australia)</strong>, <strong>ANSI/AAMI ST79 (USA)</strong>, and <strong>CSA Z314 (Canada)</strong>.</p><p>Our systems are purpose-built for clean utility rooms, medication rooms, and sterile environments across hospitals, ambulatory surgery centers, and long-term care facilities. With fully customizable shelving, registered wire-loop baskets, pull-out trays, and accessories, the STERIRACK™ System delivers maximum cleanability, flexibility, and long-term durability.</p><p>Explore some of our recent clean utility and medication room installations below. Each project demonstrates how the STERIRACK™ System can be configured for optimal space efficiency, infection control, and staff usability. You will find layout plans, before-and-after photos, photorealistic renderings, and practical examples of clinical room transformations.</p>"
+          }
+        }
+      }
+    },
+    "multirow_zyrCGK": {
+      "blocks": {
+        "row_4g4JVz": {
+          "settings": {
+            "heading": "Optimizing clinical efficiency in clean utility and medication spaces",
+            "text": "<p>Explore our STERIRACK™ System installation at Goulburn Base Hospital, where precision-engineered storage meets clinical efficiency. This project showcases a fully integrated approach to healthcare storage across multiple departments, designed to optimize workflow, improve visibility, and enhance infection control. View the interactive flipbook to see how SpaceLogic is transforming hospital environments into organized, high-performance spaces.</p>",
+            "button_link": "https://online.flippingbook.com/view/141548076/"
+          }
+        },
+        "row_3ADznr": {
+          "settings": {
+            "text": "<p>Discover how SpaceLogic’s STERIRACK™ System has transformed the clean utility and medication rooms at Wagga Wagga Base Hospital. This project showcases the power of modular, fully integrated storage to enhance visibility, improve infection control, and streamline daily workflows. Explore the interactive flipbook to see how efficient design translates into real clinical impact.</p>"
+          }
+        }
+      }
+    }
+  }
+}

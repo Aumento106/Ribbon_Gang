@@ -1,0 +1,31 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "page.sterirack-colour-coding.json",
+  "context": {
+    "market": "united-states"
+  },
+  "sections": {
+    "page_banner_PR6mgA": {
+      "blocks": {
+        "caption_q9FC9x": {
+          "settings": {
+            "caption": "<p>14 colors for clarity and control</p>"
+          }
+        },
+        "text_kGRLAB": {
+          "settings": {
+            "text": "<p>Color coding transforms complex clinical storage into an intuitive visual system. It reduces cognitive load, speeds recognition and lowers the risk of human error. In fast-paced healthcare environments, color cues allow staff to identify the right consumables, departments or product categories at a glance — improving workflow, enhancing patient safety and supporting consistency.</p><p>Color is processed faster than text, helping staff navigate baskets, shelving, trolleys, drawers or medibins without hesitation. When implemented consistently across a facility, color coding strengthens communication, reduces stock-handling mistakes and reinforces organisational standards.</p><h3>A unified and fully compatible system</h3><p>SpaceLogic provides all label holders and post strips in the same range of 14 colors, giving every facility the flexibility to create a color-coding system that suits its needs. Facilities can select any combination of colors from the range to align with departmental structures, workflows or facility branding. Because the same color options are available across all products — from shelving, baskets and trolleys to pharmacy drawers and medibins — every installation can integrate seamlessly, both visually and functionally. This compatibility means shelving and trolleys can be configured, expanded or relocated without disrupting the overall color logic, ensuring consistency, clarity and efficiency across the entire facility.</p><h3>The benefits of color coding in clinical environments</h3><p>• Faster retrieval: Staff can locate items quickly using intuitive color cues.<br/>• Reduced errors: Clear color zones minimise stock or medication mix-ups.<br/>• Improved workflow: Restocking and auditing become faster and more consistent.<br/>• Enhanced infection control: Distinct color zones help prevent cross-use between departments.<br/>• Visual order: A color-structured workspace reduces stress and improves focus.<br/>• Professional appearance: A cohesive color system reinforces the quality and professionalism of the facility.</p><h3>See color coding in action</h3><p>Below you can view demonstration videos showing how label holders and post strips are used to create a consistent color-coding system. Label holders and post strips are available for convenient online purchase through the cart, or you can contact one of our consultants to discuss a complete installation with integrated color coding — and even join a virtual presentation where our team will walk you through the SpaceLogic showroom and demonstrate the system in action.</p>"
+          }
+        }
+      }
+    }
+  }
+}

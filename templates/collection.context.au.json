@@ -62,6 +62,30 @@
           "settings": {
             "description": "Small SteriLoop™ Medbin"
           }
+        },
+        "row_ePetGA": {
+          "settings": {
+            "description": "Medium SteriLoop™ Medbin"
+          }
+        },
+        "row_P4xVTA": {
+          "settings": {
+            "description": "Extra Large SteriLoop™ Medbin"
+          }
+        },
+        "row_U3gGd9": {
+          "settings": {
+            "description": "XXL SteriLoop™ Medbin"
+          }
+        }
+      }
+    },
+    "rich_text_CqT3jr": {
+      "blocks": {
+        "heading_dQJMjW": {
+          "settings": {
+            "heading": "SteriLoop™ Medbin Colored Label Holders. Available in a range of 13 vibrant colors."
+          }
         }
       }
     }

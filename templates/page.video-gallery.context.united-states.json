@@ -1,0 +1,32 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "page.video-gallery.json",
+  "context": {
+    "market": "united-states"
+  },
+  "sections": {
+    "multicolumn_video_TCdMgy": {
+      "blocks": {
+        "column_AnwiPq": {
+          "settings": {
+            "title": "Slash time spent hunting through hospital storerooms using color"
+          }
+        },
+        "column_ydp8rj": {
+          "settings": {
+            "title": "Use color to influence memory with STERIRACK® Click 'n' Clip Label Holders",
+            "text": "<p>Blacktown Hospital is getting incredible results using STERIRACK® System color coding. Join us to find out how. </p><p>[4 years ago]</p>"
+          }
+        }
+      }
+    }
+  }
+}

@@ -50,6 +50,9 @@
   .proudly-support .proudly-support__grid {
     padding: 0;
   }
+  .proudly-support__image {
+    max-width: 100px;
+  }
 }
 
 @media screen and (min-width: 750px) and (max-width: 989px) {

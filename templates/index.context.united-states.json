@@ -12,5 +12,16 @@
   "context": {
     "market": "united-states"
   },
-  "sections": {}
+  "sections": {
+    "custom_image_text_slider_mztD6t": {
+      "blocks": {
+        "slide_tWbjPi": {
+          "settings": {
+            "heading": "<p>Color-coded clarity</p>",
+            "text": "<p>Color-coded labelling helps busy clinical teams find supplies faster, reduce errors, and support infection control. From label holders to post strips, our labelling accessories integrate seamlessly with STERIRACK® System.</p><p>Smarter organisation through color.</p>"
+          }
+        }
+      }
+    }
+  }
 }

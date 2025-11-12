@@ -38,6 +38,30 @@
           "settings": {
             "product_name": "Medium SteriLoop™ Medbin"
           }
+        },
+        "featured_collection_FzUGtP": {
+          "settings": {
+            "product_name": "Large SteriLoop™ Medbin"
+          }
+        },
+        "featured_collection_F6ttDE": {
+          "settings": {
+            "product_name": "Extra Large SteriLoop™ Medbin"
+          }
+        }
+      }
+    },
+    "dimension_table_cR8mFy": {
+      "blocks": {
+        "row_kpAHbi": {
+          "settings": {
+            "description": "Extra Small SteriLoop™ Medbin"
+          }
+        },
+        "row_gk3xxN": {
+          "settings": {
+            "description": "Small SteriLoop™ Medbin"
+          }
         }
       }
     }

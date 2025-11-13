@@ -14,6 +14,7 @@
   },
   "sections": {
     "custom_image_text_slider_mztD6t": {
+      "settings": {},
       "blocks": {
         "slide_tWbjPi": {
           "settings": {
@@ -24,19 +25,26 @@
       }
     },
     "custom_image_text_slider_HwfQc3": {
+      "settings": {},
       "blocks": {
+        "slide_R6QL9p": {
+          "settings": {
+            "text": "<p>Modular, free-standing storage that defines modern clinical efficiency and space optimization.</p>"
+          }
+        },
         "slide_ewWmni": {
           "settings": {
             "heading": "<p>Color-coded clarity</p>",
             "text": "<p>Color-coded labeling helps busy clinical teams find supplies faster, reduce errors, and support infection control. From label holders to post strips, our labeling accessories integrate seamlessly with STERIRACK® System.</p><p>Fourteen color options for post strips and labels that bring clarity, speed, and order to every storage zone.</p><p>Smarter organization through color.</p>"
           }
-        },
-        "slide_R6QL9p": {
-          "settings": {
-            "text": "<p>Modular, free-standing storage that defines modern clinical efficiency and space optimization.</p>"
-          }
         }
       }
+    },
+    "custom_multicolumn_text_LzdAVr": {
+      "settings": {
+        "descr": "<p>Your turnkey solution across storage, handling, and worksurfaces.<br/>SpaceLogic® is the trusted partner in clean clinical spaces, delivering complete, end-to-end systems that optimize performance and precision in demanding healthcare environments.</p>"
+      },
+      "blocks": {}
     }
   }
 }

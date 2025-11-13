@@ -45,6 +45,17 @@
         "descr": "<p>Your turnkey solution across storage, handling, and worksurfaces.<br/>SpaceLogic® is the trusted partner in clean clinical spaces, delivering complete, end-to-end systems that optimize performance and precision in demanding healthcare environments.</p>"
       },
       "blocks": {}
+    },
+    "custom_image_text_slider_k9tKHM": {
+      "settings": {},
+      "blocks": {
+        "slide_UBnzye": {
+          "settings": {
+            "heading": "<p>Clinical storage solutions improving efficiency, organization, and infection control with STERIRACK®</p>",
+            "text": "<p>As part of the Liverpool Hospital redevelopment, SpaceLogic installed STERIRACK® clinical storage systems across clean utility, CSSD, and pharmacy. The modular, easy-clean design improved efficiency, supported infection control, and reduced wasted time searching for supplies.</p><p><em>\"The difference in organization and workflow has been remarkable.\"</em><br/><br/>— NUM, Liverpool Hospital</p>"
+          }
+        }
+      }
     }
   }
 }

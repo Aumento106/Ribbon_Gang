@@ -77,6 +77,8 @@
   width: 100%;
   font-family: var(--font-body-family);
   font-size: 18px;
+  font-weight: 300;
+  color: rgba(var(--color-foreground), 1);
 }
 .return_refund_main .wpforms-field-container .bottom_form textarea.wpforms-field-medium {
   height: 120px;

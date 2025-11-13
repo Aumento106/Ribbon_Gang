@@ -50,6 +50,10 @@
   .proudly-support .proudly-support__grid {
     padding: 0;
   }
+  .proudly-support .proudly-support__grid .proudly-support__item {
+    width: calc(25% - var(--grid-mobile-horizontal-spacing) * 3 / 4);
+    max-widthcalc(25% - var(--grid-mobile-horizontal-spacing) * 3 / 4);
+  }
   .proudly-support__image {
     max-width: 100px;
   }

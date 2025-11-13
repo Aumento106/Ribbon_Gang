@@ -46,7 +46,7 @@
     </div>
     {%- endif -%}
     
-    <div class="proudly-support__grid grid grid--3-col grid--5-col-tablet{% if section.blocks.size > 4 %} grid--5-col-desktop{% else %} grid--4-col-desktop{% endif %}">
+    <div class="proudly-support__grid grid grid--4-col grid--5-col-tablet{% if section.blocks.size > 4 %} grid--5-col-desktop{% else %} grid--4-col-desktop{% endif %}">
       {%- for block in section.blocks -%}
         <div class="proudly-support__item grid__item" {{ block.shopify_attributes }}>
           {%- if block.settings.image != blank -%}

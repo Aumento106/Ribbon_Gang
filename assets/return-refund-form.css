@@ -75,6 +75,8 @@
   max-width: 100% !important;
   min-height: 43px;
   width: 100%;
+  font-family: var(--font-body-family);
+  font-size: 18px;
 }
 .return_refund_main .wpforms-field-container .bottom_form textarea.wpforms-field-medium {
   height: 120px;

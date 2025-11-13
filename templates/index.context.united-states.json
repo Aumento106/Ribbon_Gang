@@ -13,6 +13,18 @@
     "market": "united-states"
   },
   "sections": {
+    "custom_multicolumn_text_LzdAVr": {
+      "settings": {
+        "descr": "<p>Your turnkey solution across storage, handling, and worksurfaces.<br/>SpaceLogic® is the trusted partner in clean clinical spaces, delivering complete, end-to-end systems that optimize performance and precision in demanding healthcare environments.</p>"
+      },
+      "blocks": {}
+    },
+    "custom_multicolumn_8pVJfV": {
+      "settings": {
+        "sec_subtitle": "<p>From large hospital installations to small medical facilities, SpaceLogic® designs and delivers modular systems that improve workflow, strengthen infection control, and make the best use of every square meter.</p>"
+      },
+      "blocks": {}
+    },
     "custom_image_text_slider_mztD6t": {
       "settings": {},
       "blocks": {
@@ -20,6 +32,17 @@
           "settings": {
             "heading": "<p>Color-coded clarity</p>",
             "text": "<p>Color-coded labeling helps busy clinical teams find supplies faster, reduce errors, and support infection control. From label holders to post strips, our labeling accessories integrate seamlessly with STERIRACK® System.</p><p>Smarter organization through color.</p>"
+          }
+        }
+      }
+    },
+    "custom_image_text_slider_k9tKHM": {
+      "settings": {},
+      "blocks": {
+        "slide_UBnzye": {
+          "settings": {
+            "heading": "<p>Clinical storage solutions improving efficiency, organization, and infection control with STERIRACK®</p>",
+            "text": "<p>As part of the Liverpool Hospital redevelopment, SpaceLogic installed STERIRACK® clinical storage systems across clean utility, CSSD, and pharmacy. The modular, easy-clean design improved efficiency, supported infection control, and reduced wasted time searching for supplies.</p><p><em>\"The difference in organization and workflow has been remarkable.\"</em><br/><br/>— NUM, Liverpool Hospital</p>"
           }
         }
       }
@@ -35,33 +58,11 @@
         "slide_ewWmni": {
           "settings": {
             "heading": "<p>Color-coded clarity</p>",
-            "text": "<p>Color-coded labeling helps busy clinical teams find supplies faster, reduce errors, and support infection control. From label holders to post strips, our labeling accessories integrate seamlessly with STERIRACK® System.</p><p>Fourteen color options for post strips and labels that bring clarity, speed, and order to every storage zone.</p><p>Smarter organization through color.</p>"
+            "text": "<p>Color-coded labeling helps busy clinical teams find supplies faster, reduce errors, and support infection control. From label holders to post strips, our labeling accessories integrate seamlessly with STERIRACK® System.</p><p>Fourteen color options for post strips and labels that bring clarity, speed, and order to every storage zone.</p><p>Smarter organization through color.</p>",
+            "button_label": "Shop labeling accessories"
           }
         }
       }
-    },
-    "custom_multicolumn_text_LzdAVr": {
-      "settings": {
-        "descr": "<p>Your turnkey solution across storage, handling, and worksurfaces.<br/>SpaceLogic® is the trusted partner in clean clinical spaces, delivering complete, end-to-end systems that optimize performance and precision in demanding healthcare environments.</p>"
-      },
-      "blocks": {}
-    },
-    "custom_image_text_slider_k9tKHM": {
-      "settings": {},
-      "blocks": {
-        "slide_UBnzye": {
-          "settings": {
-            "heading": "<p>Clinical storage solutions improving efficiency, organization, and infection control with STERIRACK®</p>",
-            "text": "<p>As part of the Liverpool Hospital redevelopment, SpaceLogic installed STERIRACK® clinical storage systems across clean utility, CSSD, and pharmacy. The modular, easy-clean design improved efficiency, supported infection control, and reduced wasted time searching for supplies.</p><p><em>\"The difference in organization and workflow has been remarkable.\"</em><br/><br/>— NUM, Liverpool Hospital</p>"
-          }
-        }
-      }
-    },
-    "custom_multicolumn_8pVJfV": {
-      "settings": {
-        "sec_subtitle": "<p>From large hospital installations to small medical facilities, SpaceLogic® designs and delivers modular systems that improve workflow, strengthen infection control, and make the best use of every square meter.</p>"
-      },
-      "blocks": {}
     }
   }
 }

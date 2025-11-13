@@ -51,8 +51,8 @@
     padding: 0;
   }
   .proudly-support .proudly-support__grid .proudly-support__item {
-    width: calc(25% - var(--grid-mobile-horizontal-spacing) * 3 / 4);
-    max-widthcalc(25% - var(--grid-mobile-horizontal-spacing) * 3 / 4);
+    width: calc(33.33% - var(--grid-mobile-horizontal-spacing) * 3 / 4);
+    max-widthcalc(33.33% - var(--grid-mobile-horizontal-spacing) * 3 / 4);
   }
   .proudly-support__image {
     max-width: 100px;

@@ -3605,6 +3605,18 @@ ul#product-grid .button {
   }
 }
 
+@media screen and (max-width: 749px) {
+  .grid--4-col-desktop .proudly-support__item.grid__item {
+    width: calc(25% - var(--grid-mobile-horizontal-spacing) * 3 / 4);
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .grid--4-col-desktop .proudly-support__item.grid__item .proudly-support__image {
+    width: 85%;
+  }
+}
+
 .wpforms-field-container textarea {
   font-family: var(--font-body-family);
   font-size: 18px;

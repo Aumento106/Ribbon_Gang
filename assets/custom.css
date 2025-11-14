@@ -3604,3 +3604,10 @@ ul#product-grid .button {
     min-height: unset;
   }
 }
+
+.wpforms-field-container textarea {
+  font-family: var(--font-body-family);
+  font-size: 18px;
+  font-weight: 300;
+  color: rgba(var(--color-foreground), 1);
+}

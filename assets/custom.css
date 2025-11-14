@@ -3607,7 +3607,7 @@ ul#product-grid .button {
 
 @media screen and (max-width: 749px) {
   .grid--4-col-desktop .proudly-support__item.grid__item {
-    width: calc(25% - var(--grid-mobile-horizontal-spacing) * 3 / 4);
+    width: calc(25% - var(--grid-mobile-horizontal-spacing) * 3 / 4) !important;
   }
 }
 

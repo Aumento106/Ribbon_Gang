@@ -233,7 +233,7 @@
       },
       "5858961087409699889": {
         "type": "shopify://apps/orbe-geolocation/blocks/app-embed-footer-selector/7cb09287-cd2b-4646-837c-f1f9b6ea703e",
-        "disabled": false,
+        "disabled": true,
         "settings": {
           "footer_ui_type": "selector",
           "block_position": "",

@@ -136,11 +136,7 @@
                       >
                     </div>
                     <div class="input_field">
-                      {% if localization.country.iso_code == 'AU' %}
-                        <label class="field__label" for="ContactForm-name">{{- 'icon-organization.svg' | inline_asset_content -}} Organisation *</label>
-                      {% else %}
-                        <label class="field__label" for="ContactForm-name">{{- 'icon-organization.svg' | inline_asset_content -}} Organization *</label>
-                      {% endif %}
+                        <label class="field__label" for="ContactForm-name">{{- 'icon-organization.svg' | inline_asset_content -}}{% if localization.country.iso_code == 'AU' %} Organisation *{% elsif localization.country.iso_code == 'US' %}Organization *{% endif %}</label>
                       <input
                         class="field__input"
                         aria-required="true"

@@ -482,7 +482,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 // Blog search
 
-document.getElementById('blogSearch').addEventListener('input', function() {
+document.getElementById('blogSearch')?.addEventListener('input', function() {
   const searchValue = this.value.toLowerCase();
   const blogPosts = document.querySelectorAll('.blog-articles__article');
   let visibleCount = 0;

@@ -144,7 +144,7 @@
                         id="NewsletterForm-oraganization"
                         name="contact[oraganization]"
                         value=""
-                        placeholder="Organisation *"
+                        placeholder="{% if localization.country.iso_code == 'AU' %} Organisation *{% elsif localization.country.iso_code == 'US' %}Organization *{% endif %}"
                         required
                       >
                     </div>

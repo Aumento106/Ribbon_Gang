@@ -204,7 +204,7 @@
       },
       "5858961087409699889": {
         "type": "shopify://apps/orbe-geolocation/blocks/app-embed-footer-selector/7cb09287-cd2b-4646-837c-f1f9b6ea703e",
-        "disabled": true,
+        "disabled": false,
         "settings": {
           "footer_ui_type": "selector",
           "block_position": "",
@@ -221,16 +221,16 @@
           "title": "Select Your Region",
           "language_title": "Preferred Language",
           "helper_text": "Changing language will not affect your selected region",
-          "block_background": "#fff",
-          "style_colors_background": "#fff",
-          "style_colors_border": "#000",
-          "style_colors_text": "#000",
+          "block_background": "#ffffff",
+          "style_colors_background": "#ffffff",
+          "style_colors_border": "#000000",
+          "style_colors_text": "#000000",
           "block_alignement": "center"
         }
       },
       "15912215999290715800": {
         "type": "shopify://apps/orbe-geolocation/blocks/app-embed-modal/7cb09287-cd2b-4646-837c-f1f9b6ea703e",
-        "disabled": true,
+        "disabled": false,
         "settings": {
           "test_mode": false,
           "modal_closeButton": false,

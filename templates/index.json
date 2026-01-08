@@ -1356,7 +1356,7 @@
             "block_custom_heading_size": 45,
             "mobile_block_custom_heading_size": 28,
             "block_custom_font_weight": "600",
-            "text": "<p>Durable, ergonomic surfaces built for organised, contamination-free clinical workflows.</p>",
+            "text": "<p>STERIRACK® Benching provides a modern, modular alternative to traditional fixed cabinetry in sterile and clinical environments.<br/><br/>Featuring seamless benchtop surfaces in stainless steel or solid surface materials, combined with open, visible under-bench storage, the system eliminates hidden voids where dust and contaminants can collect, supporting superior infection control.<br/><br/>Built on the STERIRACK® framework, benching can be configured with baskets, shelving or drawers, adapted over time as needs change, and integrated seamlessly with the wider STERIRACK® System to deliver long-term flexibility and hygienic performance.</p>",
             "button_label": "View STERIRACK® Benching",
             "button_link": "shopify://collections/sterirack-benching",
             "button_style_secondary": false
@@ -1364,6 +1364,7 @@
         },
         "slide_ewWmni": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "offer_title": "",
             "heading": "<p>Colour-coded clarity</p>",

@@ -272,8 +272,8 @@
         "button_JDJWKe": {
           "type": "button",
           "settings": {
-            "button_label": "Button here",
-            "button_link": "shopify://collections/shop-all",
+            "button_label": "Shop now",
+            "button_link": "shopify://collections/sterirack-accessories",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",

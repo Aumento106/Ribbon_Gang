@@ -1342,8 +1342,8 @@
             "mobile_block_custom_heading_size": 28,
             "block_custom_font_weight": "600",
             "text": "<p>The SteriLoop® Medibin System is a versatile storage solution for clinical consumables and PPE, designed to deliver visibility, hygiene and efficient stock control.<br/><br/>Using open mesh medibins with smooth registered looped edges, the system allows instant identification of contents while promoting airflow and reducing dust build-up.<br/><br/>Integrated with wall-mounted panels or trolleys, the SteriLoop® Medibin System supports faster replenishment, clearer organisation and consistent infection control practices across clinical environments.</p>",
-            "button_label": "Link to go here",
-            "button_link": "",
+            "button_label": "View SteriLoop® Medibins",
+            "button_link": "shopify://pages/medibins",
             "button_style_secondary": false
           }
         },

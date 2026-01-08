@@ -1018,7 +1018,7 @@
             "custom_heading_size": 45,
             "mobile_custom_heading_size": 28,
             "custom_font_weight": "600",
-            "subheading": "Text to go here",
+            "subheading": "",
             "button_label": "See the full range",
             "link": "",
             "button_style_secondary": false,

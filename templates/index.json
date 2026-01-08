@@ -490,9 +490,10 @@
         "column_RXN9RV": {
           "type": "column",
           "settings": {
-            "title": "Clinical storage systems.",
+            "image": "shopify://shop_images/Home_8_jan_1_92712fdc-92b1-4969-ba16-02dcece1c575.png",
+            "title": "Clinical storage systems",
             "block_custom_font_weight": "600",
-            "text": "<p>Modular storage for healthcare efficiency.</p>",
+            "text": "<p>Modular storage for healthcare efficiency</p>",
             "text-v": "",
             "button-text": "",
             "button-url": ""
@@ -501,9 +502,10 @@
         "column_LrmbYY": {
           "type": "column",
           "settings": {
-            "title": "Carts and mobile solutions.",
+            "image": "shopify://shop_images/Home_8_jan_2.png",
+            "title": "Carts and mobile solutions",
             "block_custom_font_weight": "600",
-            "text": "<p>Mobile workflow<br/>at its best.</p>",
+            "text": "<p>Mobile workflow<br/>at its best</p>",
             "text-v": "",
             "button-text": "",
             "button-url": ""
@@ -512,9 +514,9 @@
         "column_XVrRJX": {
           "type": "column",
           "settings": {
-            "title": "Worksurfaces and benching.",
+            "title": "Worksurfaces and benching",
             "block_custom_font_weight": "600",
-            "text": "<p>Flexible and infection<br/>control compliance.</p>",
+            "text": "<p>Flexible and infection<br/>control compliance</p>",
             "text-v": "",
             "button-text": "",
             "button-url": "shopify://pages/pharmacy-storage-dispensary"

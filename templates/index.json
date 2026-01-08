@@ -389,7 +389,7 @@
             "block_custom_font_weight": "600",
             "text": "<p>Designed around people, not products. Our systems simplify access, reduce wasted movement, and help clinicians reclaim valuable time in every procedure.</p>",
             "text-v": "",
-            "button-text": "Link to go here",
+            "button-text": "",
             "button-url": "shopify://pages/services"
           }
         },
@@ -400,7 +400,7 @@
             "block_custom_font_weight": "600",
             "text": "<p>Infection-control compliance is built in. From open-wire construction to smooth, cleanable surfaces, every detail supports safer workflows for staff and patients.</p>",
             "text-v": "",
-            "button-text": "Link to go here",
+            "button-text": "",
             "button-url": "shopify://pages/clinical-storage-systems"
           }
         },
@@ -411,7 +411,7 @@
             "block_custom_font_weight": "600",
             "text": "<p>With over four decades of experience, we deliver complete, end-to-end solutions – from consultation to installation – so every space works exactly as it should, every time.</p>",
             "text-v": "",
-            "button-text": "Link to go here",
+            "button-text": "",
             "button-url": "shopify://pages/sterirack-system"
           }
         }
@@ -423,7 +423,7 @@
       ],
       "name": "Custom multicolumn text TIFF",
       "settings": {
-        "title": "<h3><strong>Innovating medical storage for hospitals and healthcare</strong></h3>",
+        "title": "<h2>Innovating medical storage for hospitals and healthcare</h2>",
         "descr": "<p>Your turnkey solution across storage, handling, and worksurfaces.<br/>SpaceLogic® is the trusted partner in clean clinical spaces, delivering complete, end-to-end systems that optimise performance and precision in demanding healthcare environments.</p>",
         "custom_heading_size": 52,
         "mobile_custom_heading_size": 28,

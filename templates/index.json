@@ -1320,6 +1320,7 @@
         "slide_YLkWAt": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/Home_8_jan_6.png",
             "offer_title": "",
             "heading": "<p>STERIRACK® Medical Trolleys</p>",
             "block_custom_heading_size": 45,

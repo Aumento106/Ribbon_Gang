@@ -915,6 +915,7 @@
         "slide_gyz74Y": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/Home_26.png",
             "tag_text": "Best seller!",
             "custom_tag_font_weight": "600",
             "tag_text_color": "#ffffff",

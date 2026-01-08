@@ -494,7 +494,7 @@
             "block_custom_font_weight": "600",
             "text": "<p>Modular storage for healthcare efficiency.</p>",
             "text-v": "",
-            "button-text": "Link to go here",
+            "button-text": "",
             "button-url": ""
           }
         },
@@ -505,7 +505,7 @@
             "block_custom_font_weight": "600",
             "text": "<p>Mobile workflow<br/>at its best.</p>",
             "text-v": "",
-            "button-text": "Link to go here",
+            "button-text": "",
             "button-url": ""
           }
         },
@@ -516,7 +516,7 @@
             "block_custom_font_weight": "600",
             "text": "<p>Flexible and infection<br/>control compliance.</p>",
             "text-v": "",
-            "button-text": "Link to go here",
+            "button-text": "",
             "button-url": "shopify://pages/pharmacy-storage-dispensary"
           }
         }

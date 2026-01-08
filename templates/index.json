@@ -938,6 +938,7 @@
         },
         "slide_L9qbfj": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "tag_text": "Best seller!",
             "custom_tag_font_weight": "600",
@@ -961,6 +962,7 @@
         },
         "slide_z9yzXF": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "tag_text": "Best seller!",
             "custom_tag_font_weight": "600",

@@ -1312,7 +1312,7 @@
             "mobile_block_custom_heading_size": 28,
             "block_custom_font_weight": "600",
             "text": "<p>Modular, free-standing storage that defines modern clinical efficiency and space optimisation.</p>",
-            "button_label": "View STERIRACK®",
+            "button_label": "View STERIRACK® System",
             "button_link": "shopify://pages/sterirack-system",
             "button_style_secondary": false
           }
@@ -1327,8 +1327,8 @@
             "mobile_block_custom_heading_size": 28,
             "block_custom_font_weight": "600",
             "text": "<p>SpaceLogic offers a complete range of mobile trolleys and carts designed to support efficient workflows in clinical and sterile environments, from open trolleys and semi-enclosed carts through to fully enclosed and specialised restocking solutions. Built on the modular STERIRACK® System, each unit delivers exceptional visibility, hygiene and manoeuvrability, with configurations tailored to suit specific applications, departments and infection control requirements.<br/><br/>Speak to a consultant today.</p>",
-            "button_label": "Link to go here",
-            "button_link": "",
+            "button_label": "View Trolleys and Carts",
+            "button_link": "shopify://pages/sterirack-clinical-trolleys",
             "button_style_secondary": false
           }
         },

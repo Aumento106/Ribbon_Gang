@@ -1411,7 +1411,7 @@
         "offer_title_color": "#ffce00",
         "show_pagination": true,
         "padding_top": 40,
-        "padding_bottom": 40
+        "padding_bottom": 0
       }
     },
     "custom_newsletter_NdaReb": {

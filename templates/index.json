@@ -891,6 +891,7 @@
         "slide_Jyc4QV": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/Home_25.png",
             "tag_text": "New product!",
             "custom_tag_font_weight": "600",
             "tag_text_color": "#ffffff",

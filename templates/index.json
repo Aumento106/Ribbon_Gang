@@ -926,7 +926,7 @@
             "custom_font_weight": "600",
             "subheading": "Fit neatly inside STERIRACK® baskets to create smaller compartments for loose or frequently used items, improving organisation and making stock easier to access and manage.",
             "button_label": "Shop drop-in bins",
-            "link": "",
+            "link": "shopify://products/basket-drop-in-bins",
             "button_style_secondary": false,
             "box_align": "middle-left",
             "show_text_box": false,

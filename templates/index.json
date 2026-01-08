@@ -490,7 +490,7 @@
         "column_RXN9RV": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Home_8_jan_1_92712fdc-92b1-4969-ba16-02dcece1c575.png",
+            "image": "shopify://shop_images/Home_8_jan_3.png",
             "title": "Clinical storage systems",
             "block_custom_font_weight": "600",
             "text": "<p>Modular storage for healthcare efficiency</p>",
@@ -514,6 +514,7 @@
         "column_XVrRJX": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Home_8_jan_4.png",
             "title": "Worksurfaces and benching",
             "block_custom_font_weight": "600",
             "text": "<p>Flexible and infection<br/>control compliance</p>",

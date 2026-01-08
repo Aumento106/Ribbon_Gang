@@ -1335,6 +1335,7 @@
         "slide_7VxPc3": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/Home_8_jan_7.png",
             "offer_title": "",
             "heading": "<p>SteriLoop® Medibin System</p>",
             "block_custom_heading_size": 45,

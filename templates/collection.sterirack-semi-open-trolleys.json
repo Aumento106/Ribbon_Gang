@@ -69,12 +69,25 @@
             "text": "<p>STERIRACK® Semi-Enclosed Carts deliver the same mobility, hygiene and efficiency as our open trolleys, with added protection for stored items. Designed for environments where stock needs to remain visible but partially enclosed, these carts feature solid side panels, a rear panel and a base plate, leaving the front open for quick and easy access.</p><p>Built on the same modular STERIRACK® frame used throughout the system, semi-enclosed carts offer the same strength, flexibility and infection-control advantages. Constructed from anodised aluminium and fitted with smooth, lockable medical-grade castors, they move easily between rooms or departments, reducing strain on staff and supporting ergonomic safety.</p><h3>Durable, hygienic and adaptable</h3><p>Like all STERIRACK® storage products, semi-enclosed carts are designed for superior hygiene and easy cleaning. The partially enclosed design reduces exposure to splashes and contamination while maintaining full visibility of stock.</p><p>Carts are available with shelves, standard mesh baskets or fine mesh baskets, in chrome or stainless steel, to meet the needs of any clinical application. Baskets can be fitted with dividers or drop-in bins to support organised storage and efficient stock rotation, while shelves can be fitted with dividers to keep items secure during movement.</p><p>Tops can be stainless steel with or without a three-sided rail, or fitted with a seamless solid surface top such as Corian, with or without side and/or rear coving. Each option provides a smooth, durable work area that is easy to clean and suited to clinical use.<br/><br/>Each cart can also be fitted with label holders and post strips in 14 colours to enable clear identification by department, procedure or stock type.</p><h3>Seamless integration and flexibility</h3><p>Because STERIRACK® Semi-Enclosed Carts share the same frame, shelves and baskets as fixed STERIRACK® shelving, consumables can move effortlessly between storage areas without repacking, maintaining a fully integrated system. Configurations can be changed or expanded at any time, allowing departments to adapt quickly as workflows evolve.</p><h3>See STERIRACK® Semi-Enclosed Carts in action</h3><p>Below you can view demonstration videos showing how STERIRACK® Semi-Enclosed Carts combine visibility, protection and infection-control performance across a variety of clinical applications.</p><p>You can contact one of our consultants to discuss carts from our range or design your own. Our team can walk you through the process step by step — including a virtual presentation from our showroom where you can see the full system in action.</p><p>A range of accessories is also available to enhance functionality and usability. These can be viewed and purchased directly through the online store.<br/><br/></p>",
             "text_alignment": "left"
           }
+        },
+        "button_qHTfBE": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contact a consultant today",
+            "button_link": "shopify://pages/contact",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "button_alignment": "center"
+          }
         }
       },
       "block_order": [
         "heading_9B9EPa",
         "caption_YDGwqA",
-        "text_xckdQw"
+        "text_xckdQw",
+        "button_qHTfBE"
       ],
       "name": "Page Banner",
       "settings": {

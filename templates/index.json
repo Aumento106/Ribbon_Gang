@@ -1305,6 +1305,7 @@
         "slide_R6QL9p": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/Home_28.png",
             "offer_title": "",
             "heading": "<p>STERIRACK® System</p>",
             "block_custom_heading_size": 45,

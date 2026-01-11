@@ -92,7 +92,9 @@
       "disabled": true,
       "settings": {
         "padding_top": 20,
-        "padding_bottom": 20
+        "padding_bottom": 20,
+        "margin_top": 40,
+        "margin_bottom": 40
       }
     },
     "multirow_43R769": {
@@ -101,6 +103,7 @@
         "row_Rpx74p": {
           "type": "row",
           "settings": {
+            "image": "shopify://shop_images/Consultation.png",
             "caption": "Plan with Confidence",
             "heading": "Healthcare storage planning, room design & clinical consultation",
             "text": "<p>Get your hospital storage right from the start. Our clinical storage consultants work with hospital planners, architects, procurement teams and frontline staff to design compliant, space-efficient layouts. From CSSDs to theatre store rooms, we deliver room-specific audits, floor plans and 3D models tailored to infection control, safety, and workflow.</p><p></p>",
@@ -111,6 +114,7 @@
         "row_t4rjMm": {
           "type": "row",
           "settings": {
+            "image": "shopify://shop_images/Design.png",
             "caption": "Modular Design for Clinical Performance",
             "heading": "Customisable hospital storage systems engineered for infection control",
             "text": "<p>Our in-house team designs and manufactures high-performance clinical storage systems, including the STERIRACK® range, Australia’s leading modular hospital shelving. Built for cleanability, durability and AS5369 compliance, every product is tailored to meet the demands of modern healthcare. From sterile zones to medication storage, we build solutions that last.</p>",
@@ -121,6 +125,7 @@
         "row_aLd9wk": {
           "type": "row",
           "settings": {
+            "image": "shopify://shop_images/Installation.png",
             "caption": "Clinical Fitouts Delivered Seamlessly",
             "heading": "Hospital storage installation and project management services",
             "text": "<p>Minimise disruption and maximise results with SpaceLogic’s expert installation and project management services. We coordinate delivery, trade scheduling, and full install of compliant hospital storage across Australia. Whether you need a full hospital fit-out or a single ward upgrade, our experienced team ensures your project is delivered right, first time.</p><p></p>",

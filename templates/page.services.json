@@ -38,6 +38,7 @@
         "slide_xWE8MK": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/Banner_image19.jpg",
             "image_overlay_opacity": 0
           }
         }
@@ -71,6 +72,7 @@
       "block_order": [
         "image_W4zerL"
       ],
+      "disabled": true,
       "name": "SL Page Banner - Medium",
       "settings": {
         "title_alignment": "center",

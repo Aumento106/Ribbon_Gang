@@ -93,6 +93,7 @@
     },
     "section_breadcrumb_DNXeDp": {
       "type": "section-breadcrumb",
+      "disabled": true,
       "name": "TF Breadcrumb",
       "settings": {
         "color_scheme": "",

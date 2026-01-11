@@ -103,6 +103,7 @@
     },
     "section_breadcrumb_Vwz7zE": {
       "type": "section-breadcrumb",
+      "disabled": true,
       "name": "Breadcrumb",
       "settings": {
         "color_scheme": "",
@@ -125,7 +126,9 @@
       "disabled": true,
       "settings": {
         "padding_top": 20,
-        "padding_bottom": 20
+        "padding_bottom": 20,
+        "margin_top": 40,
+        "margin_bottom": 40
       }
     }
   },

@@ -38,6 +38,7 @@
     },
     "section_breadcrumb_AWCpeK": {
       "type": "section-breadcrumb",
+      "disabled": true,
       "name": "Breadcrumb",
       "settings": {
         "color_scheme": "",

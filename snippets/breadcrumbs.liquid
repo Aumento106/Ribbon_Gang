@@ -31,7 +31,7 @@
       {{ product.title }}
     </li>
 
-  {% when 'collection' and collection.handle %}
+  {% when 'collection' %}
 
     {% if current_tags %}
       <li>{{ collection.title | link_to: collection.url }}</li>
@@ -82,3 +82,13 @@
 </div>
 
 
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% when 'collection' and collection.handle %}"
+  to: "{% when 'collection' %}"
+  position: 822..845
+{% endcomment %}
